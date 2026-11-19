@@ -58,4 +58,17 @@ const publicUI=fs.readFileSync(path.join(site,'web/10-flashcards-ui.js'),'utf8')
 assert(!publicUI.includes('raw.githubusercontent.com/leorruas/concursos/main/data/contexto-estudo'),'Flashcards consultam prioridades públicas');
 const published=fs.readFileSync(path.join(site,'web/02-data-home.js'),'utf8');
 assert(!published.includes('fetch("data/erros-recorrentes.json")'),'Interface pública busca histórico de erros');
+
+// Regressão: auditar todo o JavaScript distribuído, não só a interface de flashcards.
+// O cliente público não pode voltar a consultar arquivos pessoais pelo GitHub Raw
+// nem pelo próprio GitHub Pages. As APIs autenticadas usam origem controlada.
+const jsPublicos=fs.readdirSync(path.join(root,'web')).filter(nome=>nome.endsWith('.js'));
+const urlHistoricoPublico=/raw\.githubusercontent\.com\/leorruas\/concursos\/(?:main|refs\/heads\/main)\/(?:data\/contexto-estudo\/|data\/sessoes\/|data\/erros-recorrentes\.json|data\/provas\.json|data\/questoes-ledger\.json)/i;
+const fetchPessoalPages=/fetch\s*\(\s*['"](?:\.\/)?(?:data\/contexto-estudo\/|data\/sessoes\/|data\/erros-recorrentes\.json|data\/provas\.json|data\/questoes-ledger\.json)/i;
+for(const nome of jsPublicos){
+  const js=fs.readFileSync(path.join(root,'web',nome),'utf8');
+  assert(!urlHistoricoPublico.test(js),'Consulta pública a dados privados: '+nome);
+  assert(!fetchPessoalPages.test(js),'Busca de dados privados no Pages: '+nome);
+}
+
 console.log('SUCESSO: Pages sem JSON de desempenho, relatórios pessoais e metas individuais.');

@@ -34,7 +34,9 @@ A **Lei nº 8.112/1990**, estatuto dos servidores civis da União, autarquias e 
 
 A expressão **responsabilidade tríplice** indica que o mesmo fato pode ser analisado nas esferas **civil, penal e administrativa**. A **independência das instâncias** permite que cada esfera examine seus requisitos próprios. A **comunicabilidade** trata das situações em que uma decisão tomada em uma esfera produz efeitos em outra. Por isso, é necessário conhecer o fundamento de uma absolvição penal antes de avaliar suas consequências disciplinares.
 
-**Três esferas** podem tratar da mesma conduta. O **art. 121** diz que o servidor responde civil, penal e administrativamente pelo exercício irregular de suas atribuições; o **art. 125** permite que as consequências se acumulem, respeitados os pressupostos de cada responsabilidade.
+Uma mesma conduta pode gerar **três análises diferentes**. Na esfera **civil**, verifica-se a obrigação de reparar eventual dano. Na **penal**, examina-se se houve crime. Na **administrativa**, verifica-se a violação de deveres funcionais e a possibilidade de sanção disciplinar.
+
+O **art. 121 da Lei nº 8.112/1990** prevê essas responsabilidades pelo exercício irregular das atribuições. O **art. 125** admite sua acumulação, desde que os requisitos de cada esfera sejam respeitados. Portanto, identificar uma irregularidade administrativa não basta, por si só, para afirmar que também houve crime.
 
 ```mermaid
 flowchart TD

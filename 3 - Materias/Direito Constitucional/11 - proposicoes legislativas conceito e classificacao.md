@@ -281,7 +281,7 @@ A **legislação de 2026 é um elemento relevante**: o [RICD consolidado até a 
 
 **Veto apreciado em sessão conjunta ≠ quórum somado**; **rejeição exige maioria absoluta separada de cada Casa**.
 
-**Fontes oficiais conferidas em 08/11/2026:** [RICD atualizado até Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), arts. 100, 113–117, 126–130; [Congresso Nacional, tramitação de veto e Regimento Comum](https://www.congressonacional.leg.br/materias/vetos/entenda-a-tramitacao-do-veto), arts. 104–106-D; [Constituição Federal, art. 66](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). As questões são inéditas, e a produção desta nota não comprova estudo, retenção ou desempenho individual.
+**Fontes oficiais conferidas em 08/11/2026:** [RICD atualizado até Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), arts. 100, 113–117, 126–130; [Congresso Nacional, tramitação de veto e Regimento Comum](https://www.congressonacional.leg.br/materias/vetos/entenda-a-tramitacao-do-veto), arts. 104–106-D; [Constituição Federal, art. 66](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Os exercícios são autorais.
 
 ## Relações com outros temas
 
@@ -316,7 +316,5 @@ Para definir proposição na Câmara, indicar o **art. 100**, explicar sua **amp
 - [Regimento Interno da Câmara dos Deputados, edição consolidada até a Resolução nº 34/2026, portal oficial](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 - [Constituição Federal, art. 59, texto atualizado da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988).
 - [Biblioteca da Câmara, 31ª edição do Regimento Interno (2026)](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d).
-
-**Nota editorial:** o recorte utiliza o texto regimental disponível e conferido em **07/11/2026**. Dispositivos e atos complementares podem ser atualizados; em questão de literalidade, priorizar o texto vigente no exercício da prova. Esta publicação não comprova estudo realizado, retenção nem acerto em questões.
 
 

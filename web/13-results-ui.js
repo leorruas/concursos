@@ -175,7 +175,7 @@ function showEditalCoverage(){
      const link = el('a', '', block.part + ' · ' + block.title);
      link.href = program.source + '#page=' + block.page;
      const codes = block.codes.split(' ');
-     const prefix = block.section + ' / ' + block.title + ' / ';
+     const prefix = block.section + ' / ' + (block.referenceTitle || block.title) + ' / ';
      const linked = new Map();
      for (const unit of units) {
       if (!block.subjects.includes(unit.subjectId)) continue;

@@ -50,7 +50,7 @@
  .results-view-panel .results-section>h2{font-size:clamp(1.3rem,2.5vw,1.9rem);margin:0 0 15px;text-transform:none;letter-spacing:-.035em}
  .results-view-panel .results-section-label{display:none}
  .results-view-panel .results-section>.results-caption{max-width:65ch;font-size:13px;margin-bottom:18px}
- .results-view-panel .results-grid{margin:15px 0 28px;grid-template-columns:repeat(3,minmax(0,1fr))}
+ .results-view-panel .results-grid{margin:15px 0 28px;grid-template-columns:repeat(2,minmax(0,1fr))}
  .results-view-panel .results-origin-grid{margin-top:12px}
  .results-view-panel #results-adaptive-actions ul,.results-view-panel #results-adaptive-queue-items ul{list-style:none;padding:0;margin:0}
  .results-view-panel #results-adaptive-actions li,.results-view-panel #results-adaptive-queue-items li{list-style:none;padding:20px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent)}

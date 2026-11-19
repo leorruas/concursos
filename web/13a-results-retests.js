@@ -19,13 +19,14 @@
    const first=rows[0],last=rows[rows.length-1];
    if(rows.length<2||new Date(first.when).toISOString().slice(0,10)===new Date(last.when).toISOString().slice(0,10))continue;
    const key=first.q.articleId;
-   const entry=byArticle.get(key)||{articleId:key,subjectId:first.q.subjectId||'',positive:0,persistent:0,reappeared:0,insecure:0,questions:0,section:''};
+   const entry=byArticle.get(key)||{articleId:key,subjectId:first.q.subjectId||'',positive:0,persistent:0,reappeared:0,insecure:0,questions:0,section:'',pendingQuestionIds:[]};
    entry.questions++;
    if(first.result==='incorrect'&&last.result==='correct'){
     if(last.confidence==='insecure')entry.insecure++;
     else entry.positive++;
    }else if(first.result==='incorrect'&&last.result==='incorrect')entry.persistent++;
    else if(first.result==='correct'&&last.result==='incorrect')entry.reappeared++;
+   if(last.result==='incorrect'||(last.result==='correct'&&last.confidence==='insecure'))entry.pendingQuestionIds.push(last.q.id);
    if(!entry.section&&(entry.persistent||entry.reappeared))entry.section=first.q.section||'';
    byArticle.set(key,entry);
   }

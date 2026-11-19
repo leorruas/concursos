@@ -139,7 +139,13 @@
  }
  function show(){
   const id=current();
-  for(const [key,panel] of panels){panel.hidden=key!==id;const a=links.get(key);if(key===id)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');}
+  document.title=descriptions[id][0]+' · Meus resultados · concursos';
+  for(const [key,panel] of panels){
+   panel.hidden=key!==id;
+   const a=links.get(key);
+   if(key===id)a.setAttribute('aria-current','page');
+   else a.removeAttribute('aria-current');
+  }
  }
  nav.addEventListener('click',event=>{
   const link=event.target.closest('a');if(!link||!nav.contains(link))return;

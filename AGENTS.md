@@ -23,6 +23,9 @@
 
 **Porta de qualidade:** conferir a linguagem visual completa (fases, atores, evidências, frontstage, backstage, suporte, três linhas de separação), rastrear o fundamento de cada regra, verificar links, testar legibilidade e comportamento de tabelas/diagramas no site em desktop/mobile e nos dois temas. Não declarar inspeção visual concluída sem abertura efetiva da página. Se a ferramenta só permitir fluxograma, explicar a limitação em vez de afirmar que um service blueprint foi feito.
 
+
+**Implementação da visualização 19/11/2026:** para o artigo `art-8c319e6f2a704bd5`, `web/07-service-blueprint.js` transforma as matrizes Markdown em um componente navegável por seis fases, preservando a tabela original como fonte acessível recolhida em `details`. O leitor apresenta camadas, linhas de separação e navegação de fase em fase, mais uma visão horizontal completa. `web/03-article-navigation.js` chama o renderizador depois de gerar HTML e `index.html` carrega o módulo. Testar desktop/mobile, temas, teclado e conteúdo. O Mermaid 11.15 atual não suporta `swimlane-beta`; o Mermaid 11.16+ suporta raias, mas não garante o segundo eixo de fases rígidas exigido pelo serviço. Não reverter para flowchart com subgraphs sem testar visualmente a linguagem completa.
+
 ## Diagramas Mermaid: paleta, contraste e temas (regra obrigatória)
 
 Antes de criar ou alterar um diagrama Mermaid, examinar os tokens de `style.css` e a configuração de `web/05-mermaid.js`. **A cor de destaque do projeto concursos é amarelo/âmbar**, definida por `--accent-blue` (nome legado da variável, que não significa azul). Não copiar a paleta azul do projeto PUC nem inserir hexadecimais azuis nas definições `classDef`, no tema Mermaid ou no CSS deste projeto.

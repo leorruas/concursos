@@ -7,7 +7,7 @@ const questions=JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/data/qu
 const evidence=path.join(__dirname,'../quiz-visual-evidence');
 fs.mkdirSync(evidence,{recursive:true});
 (async()=>{
- const browser=await chromium.launch({headless:true});
+ const browser=await chromium.launch({headless:true,executablePath:process.env.CHROME_TEST_PATH});
  try{
   for(const preset of [{name:'desktop',width:1280,height:780},{name:'mobile',width:390,height:844}]){
    const context=await browser.newContext({viewport:{width:preset.width,height:preset.height}});
@@ -59,10 +59,24 @@ fs.mkdirSync(evidence,{recursive:true});
    // História sintética de chat + site para validar o painel unificado, sem dados privados.
    const meta=questions.find(q=>q.concursoId==='camara-2026'&&q.articleId&&q.section&&q.estimatedDifficulty);
    assert.ok(meta,'necessário um artigo com trecho e dificuldade');
+   const proposed=questions.find(q=>q.subjectId==='direito-constitucional');
    const fake={
     version:2,concursoId:'camara-2026',cut:'2026-11-14',
     summary:{valid:3,correct:2,incorrect:1,blank:0,accuracy:66.7},
     sources:{chat:{total:1},site:{total:2},siteDuplicatesSkipped:0,unmatchedCatalog:0},
+    competitiveSimulations:[{date:'2026-11-14',P1:18,P2:36,total:54,objectiveMinimumMet:true}],
+    adaptive:{version:1,secureErrors:1,insecureCorrect:1,
+     recommendations:[...Array.from({length:4}, (_,index)=>({
+      concursoId:'camara-2026',subjectId:proposed.subjectId,principleId:'faltam-itens-'+index,
+      title:'Revisão prioritária '+index,rationale:['Reteste vencido.'],action:'test-retention',
+      priority:'high',quantity:0,questionIds:[],articles:[],nextReview:'2026-11-15'
+     })),{concursoId:'camara-2026',subjectId:proposed.subjectId,principleId:'teste',title:'Regra em revisão',
+      rationale:['Reteste vencido.'],action:'test-retention',priority:'high',quantity:1,questionIds:[proposed.id],
+      articles:[],nextReview:'2026-11-15'}],
+     principles:[{state:'review-pending',title:'Regra em revisão',
+      signals:[{kind:'consultation-unknown',elapsed:6,date:'2026-11-18'}]}],
+     coverage:{units:[{title:'Constitucional',subjectId:proposed.subjectId,studyStatus:'studied-unassessed',exposition:'2026-11-13',
+      items:[{editalRef:'Referência de teste',attempts:0}]}],unmapped:1}},
     difficulty:{byLevel:[{id:meta.estimatedDifficulty,total:3,correct:2,incorrect:1,blank:0,accuracy:66.7,uncertain:1}],
       bySubject:[{id:'direito-constitucional',uncertain:1}]},
     bySubject:[{id:'direito-constitucional',total:3,correct:2,incorrect:1}],
@@ -79,12 +93,47 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.locator('#results-content').waitFor({state:'visible',timeout:15000});
    assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('ChatGPT'),'origem de estudo precisa aparecer');
    assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('site'),'origem do site precisa aparecer');
+   const history=page.getByText('Histórico e diagnóstico detalhado',{exact:true});
+   await history.focus();
+   await page.keyboard.press('Enter');
    assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
      (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
    assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link direto para leitura prioritária');
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
    assert.deepEqual(errors,[],'painel e quiz sem erros de JS');
    await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
+   assert.match(await page.locator('#results-retention').innerText(), /após 6 dias/);
+   assert.match(await page.locator('#results-competitive-simulations').innerText(), /54 pontos líquidos/);
+   const coverage=page.locator('#results-edital-coverage summary').first();
+   await coverage.focus();
+   await page.keyboard.press('Enter');
+   assert.ok(await page.getByText('Estudo registrado em 13/11/2026. Ainda sem avaliação na unidade.').isVisible());
+   assert.ok(await page.getByText('Referência de teste · Avaliação sem registro').isVisible());
+   const discursive=page.getByText('Treinar discursiva',{exact:true});
+   await discursive.focus();
+   await page.keyboard.press('Enter');
+   assert.ok(await page.locator('#results-discursive details details summary').first().isVisible());
+   assert.equal(await page.locator('#results-adaptive-actions li').count(),5);
+   assert.ok(await page.getByText('Bateria disponível',{exact:true}).isVisible());
+   const launch=page.getByRole('link',{name:'Preparar bateria de 1 questão(ões)'});
+   await launch.focus();
+   await page.keyboard.press('Enter');
+   const start=page.getByRole('button',{name:'Iniciar bateria recomendada (1)'});
+   await start.focus();
+   await page.keyboard.press('Enter');
+   assert.equal((await page.locator('#qs-statement').innerText()).trim(),proposed.statement.trim());
+   assert.ok(await page.getByLabel('Consultou material para responder?').isVisible());
+   await page.getByLabel('Consultou material para responder?').selectOption('no');
+   await page.getByLabel('Já tinha visto a correção deste item?').selectOption('no');
+   await page.locator('input[name="qs-answer"][value="C"]').check();
+   await page.locator('#qs-submit').click();
+   const last=await page.evaluate(()=>{
+    const active=localStorage.getItem('concursos-quiz-ativa-v1');
+    return JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1')).find(s=>s.id===active).answers[0];
+   });
+   assert.equal(last.consulted,false);
+   assert.equal(last.feedbackBefore,false);
+   assert.deepEqual(errors,[],'fluxo adaptativo sem erros de JS');
    await context.close();
   }
   console.log('OK: configuração, filtro Constitucional P1, correção, recomendações e layout mobile/desktop.');

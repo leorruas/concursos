@@ -134,7 +134,7 @@
     <nav class="study-topbar" data-active="results" aria-label="Ferramentas de estudo"><a class="study-topbar__brand" data-study-nav="library" href="index.html">concursos <span>• leorruas</span></a><div class="study-topbar__links"><a data-study-nav="library" href="index.html">biblioteca</a><a data-study-nav="glossary" href="index.html#/glossario?concurso=camara-2026">glossário</a><a data-study-nav="flashcards" href="flashcards.html">flashcards</a><a data-study-nav="questions" href="questoes.html">questões</a><a data-study-nav="results" href="resultados.html">meus resultados</a><button type="button" id="results-theme">modo claro</button></div></nav>
     <p class="results-kicker">acompanhamento privado de estudo</p>
     <h1 class="results-title">meus resultados</h1>
-    <p class="results-explain">Confira seu desempenho recente e os artigos que merecem revisão. Os dados das baterias são armazenados no banco privado do site.</p>
+    <p class="results-explain">Escolha o que estudar hoje e acompanhe o que você consegue recuperar depois de um intervalo.</p>
     <div class="results-controls">
       <label for="results-contest">Concurso</label>
       <select id="results-contest">
@@ -151,14 +151,32 @@
     </div>
     <p class="results-status" id="results-status" role="status" aria-live="polite">Verificando acesso privado…</p>
     <div id="results-content" hidden>
+      <section class="results-section" id="results-adaptive" aria-labelledby="results-adaptive-title" hidden>
+        <h2 id="results-adaptive-title">O que estudar agora</h2>
+        <div id="results-adaptive-actions"></div>
+        <div id="results-discursive"></div>
+      </section>
       <section class="results-section results-unified" id="results-legacy" aria-labelledby="results-unified-heading">
         <p class="results-section-label">histórico integrado · armazenamento privado</p>
-        <h2 id="results-unified-heading">seu desempenho</h2>
+        <h2 id="results-unified-heading">Meu progresso</h2>
         <p class="results-caption" id="results-unified-method">Questões resolvidas no chat e no site, reunidas por concurso. Cada tentativa tem uma origem identificada e é contada uma única vez.</p>
         <div class="results-grid" id="results-stats"></div>
+        <div id="results-competitive-simulations" hidden></div>
         <div class="results-origin-grid" id="results-quiz-stats" aria-label="Origem das respostas"></div>
         <p class="results-caption" id="results-quiz-status" role="status" aria-live="polite"></p>
       </section>
+      <section class="results-section" id="results-retention" aria-labelledby="results-retention-title" hidden>
+        <h2 id="results-retention-title">O que está melhorando</h2>
+        <div id="results-retention-signals"></div>
+      </section>
+      <section class="results-section" aria-labelledby="results-edital-coverage-title">
+        <p class="results-section-label">cobertura das matérias previstas</p>
+        <h2 id="results-edital-coverage-title">O que ainda falta avaliar</h2>
+        <p class="results-caption">Relaciona matérias do catálogo editorial do concurso às tentativas registradas no ChatGPT e no site. Uma matéria com tentativas pode continuar com diversos tópicos não avaliados. Este indicador não mede cobertura integral dos itens oficiais do edital.</p>
+        <div id="results-edital-coverage"></div>
+      </section>
+      <details class="results-revision-details">
+        <summary>Histórico e diagnóstico detalhado</summary>
       <section class="results-section" aria-labelledby="results-quiz-priority-title">
         <p class="results-section-label">rota de revisão</p>
         <h2 id="results-quiz-priority-title">artigos prioritários</h2>
@@ -206,12 +224,6 @@
         <p class="results-caption">Fila sugerida a partir de erros, acertos inseguros e revisões previstas, por matéria. Prioridades são relativas ao histórico; a amostra pode ser pequena. Acesse os artigos associados para retomar o conteúdo.</p>
         <div id="results-review-queue"></div>
       </section>
-      <section class="results-section" aria-labelledby="results-edital-coverage-title">
-        <p class="results-section-label">cobertura das matérias previstas</p>
-        <h2 id="results-edital-coverage-title">matérias do edital ainda não avaliadas</h2>
-        <p class="results-caption">Relaciona matérias do catálogo editorial do concurso às tentativas registradas no ChatGPT e no site. Uma matéria com tentativas pode continuar com diversos tópicos não avaliados. Este indicador não mede cobertura integral dos itens oficiais do edital.</p>
-        <div id="results-edital-coverage"></div>
-      </section>
       <section class="results-section" aria-labelledby="results-coverage-title">
         <p class="results-section-label">histórico de questões</p>
         <h2 id="results-coverage-title">questões respondidas por matéria</h2>
@@ -230,6 +242,7 @@
         <p class="results-caption">Compara a primeira e a última resposta à mesma questão em dias distintos. Mostra sinais limitados de melhora ou erros persistentes no site, sem somar respostas ao histórico unificado. Repetir uma questão pode envolver memória do gabarito e não comprova domínio do conceito.</p>
         <div id="results-retests" aria-live="polite"></div>
       </section>
+      </details>
       <p class="results-caption results-privacy">O histórico do chat permanece no cofre GitHub privado, e o do site, no banco D1 privado. O painel combina as duas fontes apenas depois do login GitHub. Nenhuma resposta pessoal entra na biblioteca pública.</p>
     </div>
   </main>

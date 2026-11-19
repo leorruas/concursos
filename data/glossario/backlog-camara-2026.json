@@ -1803,6 +1803,78 @@
       "examBlock": "Conhecimentos legislativos",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-pfc",
+      "term": "Proposta de Fiscalização e Controle (PFC)",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-cffc",
+      "term": "Comissão de Fiscalização Financeira e Controle (CFFC)",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-pafc",
+      "term": "Plano Anual de Fiscalização Financeira e Controle (PAFC)",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-comissao-geral",
+      "term": "Comissão Geral",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-comissao-mista",
+      "term": "Comissão mista do Congresso Nacional",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-questao-de-ordem",
+      "term": "Questão de ordem",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-ato-da-mesa",
+      "term": "Ato da Mesa",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-inversao-de-pauta",
+      "term": "Inversão de pauta",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-requerimento",
+      "term": "Requerimento",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

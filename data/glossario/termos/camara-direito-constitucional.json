@@ -1525,6 +1525,254 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-pfc",
+      "term": "Proposta de Fiscalização e Controle (PFC)",
+      "aliases": [
+        "PFC"
+      ],
+      "definition": "Instrumento pelo qual deputado ou membro de comissão propõe fiscalização de ato do Executivo, inclusive administração indireta, sobre assunto da competência do colegiado, com indicação do ato, providências e fundamento.",
+      "contrast": "PFC é proposição de fiscalização; CFFC é comissão permanente e PAFC é plano anual de ações fiscalizatórias. Apresentar PFC não equivale a instalar uma CPI.",
+      "cebraspeTrap": "Confundir a PFC com uma comissão ou afirmar que ela cria automaticamente uma CPI.",
+      "example": "Uma deputada propõe fiscalização de contratos de autarquia federal por meio de uma PFC.",
+      "articleIds": [
+        "art-b6f0d82c91a74e35"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "RICD, arts. 60, 61 e 100, § 1º",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-cffc",
+      "term": "Comissão de Fiscalização Financeira e Controle (CFFC)",
+      "aliases": [
+        "CFFC"
+      ],
+      "definition": "Comissão permanente da Câmara competente para fiscalização e controle de atividades financeiras, orçamentárias, operacionais e patrimoniais nos termos do Regimento.",
+      "contrast": "CFFC é órgão colegiado; PFC é uma proposta de fiscalização; PAFC é planejamento anual. A CFT possui competências distintas da CFFC.",
+      "cebraspeTrap": "Afirmar que CFFC é comissão mista ou que suas funções são idênticas às da Comissão de Finanças e Tributação.",
+      "example": "A CFFC examina proposta de fiscalização relativa à execução de recursos da União.",
+      "articleIds": [
+        "art-b6f0d82c91a74e35"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "RICD, art. 32, XI, e arts. 61 e 61-A",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-pafc",
+      "term": "Plano Anual de Fiscalização Financeira e Controle (PAFC)",
+      "aliases": [
+        "PAFC",
+        "Plano Anual de Fiscalização e Controle"
+      ],
+      "definition": "Plano que organiza as atividades fiscalizatórias da CFFC em cada sessão legislativa, aprovado até cinco sessões contadas da reinstalação da comissão.",
+      "contrast": "PAFC é o planejamento anual; PFC propõe fiscalização específica; RAFC é o relatório anual, aprovado até o fim da sessão legislativa.",
+      "cebraspeTrap": "Trocar a sigla PAFC por PFC ou confundir o prazo de aprovação do plano com o prazo do relatório.",
+      "example": "A CFFC aprova o PAFC e depois documenta seus resultados no RAFC.",
+      "articleIds": [
+        "art-b6f0d82c91a74e35"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "RICD, art. 61-A",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        },
+        {
+          "label": "Resolução nº 25/2017",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/2017/resolucaodacamaradosdeputados-25-7-dezembro-2017-785900-publicacaooriginal-154456-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-comissao-geral",
+      "term": "Comissão Geral",
+      "aliases": [
+        "Plenário em Comissão Geral"
+      ],
+      "definition": "Modalidade especial de sessão plenária da Câmara, dirigida pelo presidente, para debater matéria relevante, discutir projeto de iniciativa popular ou receber ministro de Estado, nas hipóteses regimentais.",
+      "contrast": "Comissão Geral é o Plenário da Câmara em outra modalidade; comissão mista reúne deputados e senadores das duas Casas.",
+      "cebraspeTrap": "Dizer que Comissão Geral é uma comissão permanente formada pela união de Câmara e Senado.",
+      "example": "O Plenário é transformado em Comissão Geral para debater assunto relevante com convidados.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "RICD, art. 91",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-comissao-mista",
+      "term": "Comissão mista do Congresso Nacional",
+      "aliases": [
+        "Comissão mista"
+      ],
+      "definition": "Colegiado composto por deputados e senadores para apreciar matérias previstas na Constituição e nas regras do Congresso, podendo ser permanente ou temporário.",
+      "contrast": "Comissão mista reúne parlamentares das duas Casas; Comissão Geral é uma sessão especial da Câmara. A CMO é exemplo de comissão mista permanente.",
+      "cebraspeTrap": "Confundir Comissão Geral com comissão mista ou supor que uma comissão mista substitui toda deliberação exigida nas Casas.",
+      "example": "Uma comissão mista examina medida provisória antes da apreciação na Câmara e no Senado.",
+      "articleIds": [
+        "art-91d84ac6f2b70e35"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "CF, arts. 58 e 62, § 9º",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-questao-de-ordem",
+      "term": "Questão de ordem",
+      "aliases": [
+        "Questão de ordem regimental"
+      ],
+      "definition": "Dúvida apresentada sobre a interpretação ou aplicação do Regimento da Câmara, isoladamente ou em relação à Constituição, apreciada conforme o procedimento regimental.",
+      "contrast": "Questão de ordem pode existir mesmo sem violação já comprovada; não é mero discurso sobre o mérito do projeto.",
+      "cebraspeTrap": "Restringir questão de ordem a violação regimental comprovada ou confundi-la com discordância política.",
+      "example": "Deputado suscita questão de ordem quando há dúvida sobre o procedimento de votação.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "RICD, art. 95",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-ato-da-mesa",
+      "term": "Ato da Mesa",
+      "aliases": [
+        "Ato da Mesa Diretora"
+      ],
+      "definition": "Ato editado pela Mesa Diretora da Câmara para regular matérias de sua competência, inclusive procedimentos internos e administrativos, dentro dos limites das normas superiores.",
+      "contrast": "Ato da Mesa não é lei ordinária nem requerimento apresentado por parlamentar, e não passa por sanção presidencial.",
+      "cebraspeTrap": "Afirmar que todo Ato da Mesa é projeto de lei ou exige sanção presidencial.",
+      "example": "Um Ato da Mesa disciplina os procedimentos digitais para apresentar proposições.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "RICD, arts. 15 e 101",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-inversao-de-pauta",
+      "term": "Inversão de pauta",
+      "aliases": [
+        "Inversão da pauta"
+      ],
+      "definition": "Mudança da ordem prevista para apreciação de matérias na Ordem do Dia da Câmara, mediante aprovação de requerimento na forma regimental.",
+      "contrast": "A inversão altera a sequência de votação, mas não aprova a matéria nem a retira definitivamente da pauta.",
+      "cebraspeTrap": "Dizer que a inversão de pauta aprova automaticamente um projeto ou elimina a necessidade de deliberação.",
+      "example": "Um requerimento aprovado faz com que um projeto seja examinado antes de outro previsto na pauta.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "RICD, art. 83, parágrafo único, II, d",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-requerimento",
+      "term": "Requerimento",
+      "aliases": [
+        "Requerimento parlamentar"
+      ],
+      "definition": "Espécie de proposição que solicita providência regimental, como informações, urgência, preferência, adiamento ou inversão de pauta; sua decisão depende da modalidade.",
+      "contrast": "Requerimento está entre as proposições no art. 100, § 1º, mas não é projeto de lei; alguns são decididos pela presidência, outros pela Mesa ou Plenário.",
+      "cebraspeTrap": "Dizer que requerimento não é proposição ou que todo requerimento necessariamente vai ao Plenário.",
+      "example": "Deputados apresentam requerimento para inverter a pauta de apreciação de projetos.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "RICD, arts. 100, § 1º, e 114 a 117",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

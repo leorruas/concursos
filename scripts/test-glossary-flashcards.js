@@ -29,6 +29,10 @@ assert.equal(published.generatedCount+published.linkedCount,published.reviewedCo
 assert(published.generatedCount>=30,'O glossário revisado deve ampliar a coleção com termos distintos');
 assert(published.linkedCount>=25,'Glossário deve reaproveitar conceitos já cobertos sem duplicá-los');
 
+for(const id of ["glo-camara-pfc","glo-camara-cffc","glo-camara-pafc","glo-camara-comissao-geral","glo-camara-comissao-mista","glo-camara-questao-de-ordem","glo-camara-ato-da-mesa","glo-camara-inversao-de-pauta","glo-camara-requerimento"]) {
+ assert(glossary.terms.some(x=>x.id===id),'Verbete ausente: '+id);
+ assert(combined.cards.some(x=>x.id==='glossary-'+id||x.glossaryIds?.includes(id)),'Flashcard ausente: '+id);
+}
 const original=new Set(base.cards.map(card=>card.id));
 const derived=new Set(published.cards.map(card=>card.id));
 assert.equal(derived.size,published.cards.length);

@@ -159,4 +159,3 @@ O **art. 226** assegura ao deputado o direito de **propor, discutir e deliberar;
 - [Constituição Federal atualizada, arts. 53–56](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 - [Câmara dos Deputados, Regimento Interno, edição de 2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 
-**Nota editorial:** unidade **CAM-PL-022**, conforme descrição do inventário de 315 unidades, cotejada com fontes oficiais em 08/11/2026. A nota sobre **arts. 81–105** foi mantida como **complemento editorial independente**, não como substituto desta unidade. Os dez itens C/E são inéditos e não representam questões reais ou acertos pessoais.

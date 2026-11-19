@@ -190,12 +190,3 @@ A CF, **art. 51, IV**, atribui à Câmara competência para **dispor sobre organ
 - [Congresso Nacional, atribuições](https://www.congressonacional.leg.br/institucional/atribuicoes): correlação art. 48 (lei com sanção) × art. 49 (competência exclusiva por decreto legislativo).
 
 **Limite editorial:** regras de quórum, procedimento especial e exceções por matéria devem ser confirmadas na norma aplicável. Os itens C/E são **inéditos**, elaborados para estudo, sem indicação de serem questões reais de prova. O artigo integra o acervo público; desempenho e retenção individuais devem ser registrados exclusivamente no cofre privado.
-
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Objeto cotejado:** texto e quadros, **sete versões do caso progressivo** e **dez questões C/E** do DC22, à luz da [Constituição Federal atualizada](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988), especialmente arts. 47–52, 58–59, 62, 68 e 84, e do [Regimento Interno da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), especialmente arts. 24, 108–111, 132 e 200. Foram verificadas as distinções entre projeto e ato normativo final, PDL e projeto de resolução, competências da Câmara/Senado/Congresso, ausência de sanção, iniciativa, tramitação e promulgação, com a ressalva constitucional sobre remuneração dos servidores.
-
-**Complementação NC-PL-033:** acrescentado o **art. 111, § 3º**, sobre a vedação de duas ou mais matérias diversas no mesmo projeto. A regra constava da fonte normativa, mas faltava na explicação didática sobre forma do projeto. Nenhuma inversão dos itens exigida por esse acréscimo.
-
-**Gabaritos cotejados e mantidos:** **C, E, E, C, E, E, C, E, C, C**. **Sete casos e dez itens originais** inspecionados, sem inversão identificada. A certificação é do recorte redigido, não de todos os procedimentos especiais possíveis nem de desempenho do estudante. Não comprova renderização, deploy ou funcionamento do GitHub Pages.

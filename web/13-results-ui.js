@@ -393,7 +393,11 @@ function renderAdaptive(plan) {
   }
   if (item.state === 'confirmed-not-studied') row.append(el('p', 'results-meta', item.selection));
   if (item.nextReview) row.append(el('p', 'results-meta', 'Reteste previsto para ' + fmtDate(item.nextReview)));
-  (activities.includes(item) ? list : remaining).append(row);
+  if (activities.includes(item)) {
+   list.append(row);
+   // Revisoes apresenta a fila inteira, inclusive os itens destacados no Resumo.
+   remaining.append(row.cloneNode(true));
+  } else remaining.append(row);
  }
  $('results-adaptive-actions').replaceChildren(activities.length ? list :
   el('p', 'results-caption', 'Nenhuma atividade prioritária com os registros atuais.'));

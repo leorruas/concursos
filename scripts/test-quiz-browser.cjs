@@ -91,16 +91,35 @@ fs.mkdirSync(evidence,{recursive:true});
     assert.ok(q,'enunciado deve existir no banco publicado');
     assert.equal(q.unitId,'constitucional-regimentos','filtro de unidade não pode trazer questões de regimento P2');
     await page.locator('input[name="qs-answer"][value="'+(q.correctAnswer==='C'?'E':'C')+'"]').check();
-    if(i===0)await page.locator('#qs-insecure').check();
+    if(i===0){
+     await page.locator('#qs-insecure').check();
+     await page.locator('#qs-consulted').check();
+     await page.locator('#qs-feedback-before').check();
+    }
     await page.locator('#qs-submit').click();
     await page.locator('#qs-feedback').waitFor({state:'visible'});
-    assert.equal(await page.locator('#qs-answer-form').isVisible(),false,'alternativas e ações deixam espaço para explicação');
+    assert.equal(await page.locator('#qs-answer-form').isVisible(),true,'alternativa escolhida permanece visível na correção');
+    assert.equal(await page.locator('input[name="qs-answer"]:checked').count(),1,'resposta selecionada permanece marcada');
+    assert.equal(await page.locator('#qs-answer-metadata').isVisible(),false,'condições da tentativa recolhidas após responder');
+    assert.equal(await page.locator('#qs-submit-row').isVisible(),false,'botão de registro recolhido após responder');
+    if(i===0){
+     const attempt=await page.evaluate(()=>JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1')||'[]').at(-1)?.answers[0]);
+     assert.equal(attempt?.confidence,'insecure','confiança persistida');
+     assert.equal(attempt?.consulted,true,'consulta persistida');
+     assert.equal(attempt?.feedbackBefore,true,'correção prévia persistida');
+    }
     assert.equal(await page.locator('#qs-after').isVisible(),true,'correção no contexto da questão');
     const statementBox=await page.locator('#qs-statement').boundingBox();
     const correction=await page.locator('#qs-feedback').boundingBox();
     assert.ok(correction.y>=statementBox.y+statementBox.height,'gabarito imediatamente após enunciado');
 
     await page.locator('#qs-next').click();
+    if(i===0){
+     const top=await page.locator('#qs-reading-start').evaluate(el=>el.getBoundingClientRect().top);
+     assert.ok(top>=0&&top<96,'próxima questão deve começar próxima ao topo, abaixo da navegação: '+top);
+     assert.equal(await page.evaluate(()=>document.activeElement?.id),'qs-reading-start','foco acompanha a nova questão');
+     assert.equal(await page.locator('#qs-answer-metadata').isVisible(),true,'contexto volta a aparecer na nova questão');
+    }
    }
    await page.locator('#qs-summary').waitFor({state:'visible',timeout:10000});
    assert.equal(await page.locator('#qs-result-percent').innerText(),'0%');

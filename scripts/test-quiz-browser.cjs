@@ -195,7 +195,7 @@ fs.mkdirSync(evidence,{recursive:true});
      return route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(fake)});
     if(requested.pathname.startsWith('/v1/'))
      return route.fulfill({status:401,contentType:'application/json',body:'{}'});
-    const pathname=/^\\/resultados-(?:resumo|revisoes|materias|historico)\\.html$/.test(requested.pathname)
+    const pathname=new RegExp('^/resultados-(?:resumo|revisoes|materias|historico)[.]html$').test(requested.pathname)
      ? '/resultados.html':requested.pathname;
     const upstream=await fetch('http://127.0.0.1:8765'+pathname);
     return route.fulfill({status:upstream.status,

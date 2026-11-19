@@ -3,7 +3,7 @@
  'use strict';
  const views=[
   {id:'resumo',label:'Resumo',selectors:['#results-adaptive','#results-legacy','#results-retention']},
-  {id:'revisoes',label:'Revisões',selectors:['#results-adaptive-queue','[aria-labelledby="results-next-studies-title"]','[aria-labelledby="results-review-queue-title"]','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]','#results-discursive']},
+  {id:'revisoes',label:'Revisões',selectors:['#results-adaptive-queue','[aria-labelledby="results-next-studies-title"]','[aria-labelledby="results-review-queue-title"]','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]']},
   {id:'materias',label:'Matérias',selectors:['[aria-labelledby="title-subjects"]','[aria-labelledby="results-edital-coverage-title"]','[aria-labelledby="results-difficulty-heading"]','[aria-labelledby="results-coverage-title"]']},
   {id:'historico',label:'Histórico',selectors:['#results-principle-history','[aria-labelledby="results-concept-transfer-title"]']}
  ];
@@ -55,6 +55,10 @@
   if(details.parentElement===root && details.querySelector('summary')?.textContent.trim()==='Histórico e diagnóstico detalhado')details.remove();
  });
  root.prepend(nav,...panels.values());
+ // O bloco discursivo estava dentro do Resumo quando o painel foi destacado do DOM.
+ // Move-lo depois de anexar as visoes evita que querySelector perca o descendente.
+ const practice=document.getElementById('results-discursive');
+ if(practice)panels.get('revisoes').append(practice);
  function current(){const p=new URLSearchParams(location.search).get('visao');return panels.has(p)?p:'resumo';}
  function show(){
   const id=current();

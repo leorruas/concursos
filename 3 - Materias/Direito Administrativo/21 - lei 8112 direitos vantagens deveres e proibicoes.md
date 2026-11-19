@@ -51,7 +51,9 @@ flowchart TD
 
 ### 1.1 Vencimento versus remuneração
 
-**Vencimento** é o valor básico fixado em lei para o exercício do cargo (art. 40). **Remuneração**, na definição do art. 41, é **o vencimento do cargo efetivo acrescido de vantagens pecuniárias permanentes previstas em lei**. “Vencimentos” é expressão também empregada para o conjunto de parcelas, mas, na prova, prefira distinguir pela definição legal.
+**Vencimento** é o valor básico do cargo, fixado em lei (art. 40). **Remuneração** é esse vencimento **somado às vantagens pecuniárias permanentes previstas em lei**, conforme o art. 41. Vantagens pecuniárias são valores em dinheiro que podem se somar ao vencimento, de acordo com os requisitos legais.
+
+**Exemplo:** uma servidora tem vencimento básico e recebe uma vantagem permanente prevista em lei. O vencimento é a parcela básica; a remuneração considera também a vantagem permanente. A palavra “vencimentos” pode aparecer para o conjunto de parcelas, mas, na prova, a distinção dos arts. 40 e 41 é a referência mais segura.
 
 O art. 41, § 3º, protege a **irredutibilidade do vencimento do cargo efetivo e das vantagens permanentes**, observadas as regras constitucionais. O § 5º garante que **nenhum servidor terá remuneração abaixo do salário mínimo**. Conforme a **Súmula Vinculante nº 16**, esse piso se verifica pelo **total da remuneração**, e não apenas pelo vencimento básico isolado.
 

@@ -134,7 +134,7 @@
     <nav class="study-topbar" data-active="results" aria-label="Ferramentas de estudo"><a class="study-topbar__brand" data-study-nav="library" href="index.html">concursos <span>• leorruas</span></a><div class="study-topbar__links"><a data-study-nav="library" href="index.html">biblioteca</a><a data-study-nav="glossary" href="index.html#/glossario?concurso=camara-2026">glossário</a><a data-study-nav="flashcards" href="flashcards.html">flashcards</a><a data-study-nav="questions" href="questoes.html">questões</a><a data-study-nav="results" href="resultados.html">meus resultados</a><button type="button" id="results-theme">modo claro</button></div></nav>
     <p class="results-kicker">acompanhamento privado de estudo</p>
     <h1 class="results-title">meus resultados</h1>
-    <p class="results-explain">Escolha o que estudar hoje e acompanhe o que você consegue recuperar depois de um intervalo.</p>
+    <p class="results-explain">Seu próximo estudo, suas revisões e seu progresso.</p>
     <div class="results-controls">
       <label for="results-contest">Concurso</label>
       <select id="results-contest">
@@ -161,6 +161,7 @@
         <h2 id="results-unified-heading">Meu progresso</h2>
         <p class="results-caption" id="results-unified-method">Questões resolvidas no chat e no site, reunidas por concurso. Cada tentativa tem uma origem identificada e é contada uma única vez.</p>
         <div class="results-grid" id="results-stats"></div>
+        <div class="results-grid" id="results-detailed-stats"></div>
         <div id="results-study-modes" hidden></div>
         <div id="results-competitive-simulations" hidden></div>
         <div class="results-origin-grid" id="results-quiz-stats" aria-label="Origem das respostas"></div>
@@ -176,18 +177,14 @@
         <p class="results-caption">Relaciona matérias do catálogo editorial do concurso às tentativas registradas no ChatGPT e no site. Uma matéria com tentativas pode continuar com diversos tópicos não avaliados. Este indicador não mede cobertura integral dos itens oficiais do edital.</p>
         <div id="results-edital-coverage"></div>
       </section>
-      <details class="results-revision-details">
-        <summary>Histórico e diagnóstico detalhado</summary>
+      <div class="results-history-content">
         <section id="results-principle-history" class="results-section" hidden></section>
       <section class="results-section" aria-labelledby="results-quiz-priority-title">
         <p class="results-section-label">rota de revisão</p>
         <h2 id="results-quiz-priority-title">artigos prioritários</h2>
         <p class="results-caption" id="results-quiz-priority-description">Artigos separados por matéria. As ocorrências abaixo incluem erros e acertos inseguros, não necessariamente todas as tentativas. O filtro não altera o desempenho geral do concurso.</p>
         <div id="results-quiz-priorities"></div>
-        <details class="results-revision-details">
-          <summary>Ver explicações e questões associadas aos artigos</summary>
-          <div id="results-articles"></div>
-        </details>
+        <div id="results-articles"></div>
       </section>
       <section class="results-section" aria-labelledby="results-difficulty-heading">
         <p class="results-section-label">desempenho e complexidade</p>
@@ -208,10 +205,7 @@
         <p class="results-section-label">diagnóstico por conceito</p>
         <h2 id="title-concepts">conceitos que pedem revisão</h2>
         <p class="results-caption">Conceitos separados por matéria, com acesso aos artigos relacionados. A prioridade não é uma nota e poucas tentativas não comprovam domínio ou dificuldade.</p>
-        <details class="results-method">
-          <summary>Como a prioridade é calculada?</summary>
-          <p>O índice de 0 a 100 considera erros, repetições, respostas inseguras e a data de revisão. Itens recentes e pouca amostra devem ser interpretados com cautela. A mesma questão resolvida em momentos diferentes pode ser um reteste legítimo.</p>
-        </details>
+        <p class="results-caption">Prioridades consideram erros, insegurança e revisões pendentes. Os resultados dependem da quantidade de respostas disponíveis.</p>
         <div id="results-concepts"></div>
       </section>
       <section class="results-section" aria-labelledby="results-next-studies-title">
@@ -244,7 +238,7 @@
         <p class="results-caption">Compara a primeira e a última resposta à mesma questão em dias distintos. Mostra sinais limitados de melhora ou erros persistentes no site, sem somar respostas ao histórico unificado. Repetir uma questão pode envolver memória do gabarito e não comprova domínio do conceito.</p>
         <div id="results-retests" aria-live="polite"></div>
       </section>
-      </details>
+      </div>
       <p class="results-caption results-privacy">O histórico do chat permanece no cofre GitHub privado, e o do site, no banco D1 privado. O painel combina as duas fontes apenas depois do login GitHub. Nenhuma resposta pessoal entra na biblioteca pública.</p>
     </div>
   </main>
@@ -252,5 +246,6 @@
   <script src="web/13a-results-retests.js" defer></script>
   <script src="web/13b-results-planner.js" defer></script>
   <script src="web/13-results-ui.js" defer></script>
+  <script src="web/13c-results-pages.js" defer></script>
 </body>
 </html>

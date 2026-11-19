@@ -276,7 +276,16 @@ function showRetests(){
    if(x.insecure)parts.push(x.insecure+' acerto(s) inseguros');
    left.append(el('small','',parts.join(' · ')+' · '+x.questions+' questão(ões) repetida(s) em dias diferentes'));
    const a=el('a','results-link','Abrir artigo');a.href=articleLink(x,x.section);a.rel='noreferrer';
-   row.append(left,a);group.append(row);
+   row.append(left,a);
+   if(x.pendingQuestionIds?.length){
+    const ids=[...new Set(x.pendingQuestionIds)].slice(0,6);
+    const params=new URLSearchParams({concurso:select.value,questoes:ids.join(',')});
+    const retry=el('a','results-link','Refazer '+ids.length+' questão(ões) anteriores');
+    retry.title='Repetição de enunciado já respondido, distinta de teste independente de retenção.';
+    retry.href='questoes.html#'+params.toString();
+    row.append(retry);
+   }
+   group.append(row);
   }
   target.append(group);
  }
@@ -318,6 +327,9 @@ function renderAdaptive(plan) {
  const enabled = plan?.version === 1;
  $('results-adaptive').hidden = !enabled;
  $('results-retention').hidden = !enabled;
+ const queueSection = $('results-adaptive-queue'), queueItems = $('results-adaptive-queue-items');
+ if (queueSection) queueSection.hidden = true;
+ if (queueItems) queueItems.replaceChildren();
  const practice = $('results-discursive');
  practice.replaceChildren();
  if (enabled && (!selectedSubject || selectedSubject === 'redacao')) {
@@ -340,15 +352,16 @@ function renderAdaptive(plan) {
  }
  if (!enabled) return;
  const ranked = plan.recommendations.filter(item => !selectedSubject || item.subjectId === selectedSubject);
- const activities = ranked.slice(0, 4);
- const extra = activities.some(item => item.questionIds.length) ? null :
-  ranked.slice(activities.length).find(item => item.questionIds.length);
- if (extra) activities.push(extra);
+ // O resumo exibe no maximo tres decisoes, sem ocultar a fila completa em Revisoes.
+ // Priorizar uma atividade executavel na primeira posicao; a fila preserva prioridades originais.
+ const extra = ranked.find(item => item.questionIds?.length) || null;
+ const activities = extra ? [extra, ...ranked.filter(item => item !== extra).slice(0, 1)] : ranked.slice(0, 2);
  const firstStudy = ranked.find(item => item.state === 'confirmed-not-studied' && !activities.includes(item) &&
-  (item.articles.length || item.questionIds.length));
- if (firstStudy && !activities.some(item => item.state === 'confirmed-not-studied')) activities.push(firstStudy);
- const list = el('ul');
- for (const item of activities) {
+  (item.articles?.length || item.questionIds?.length));
+ if (firstStudy && activities.length < 2) activities.push(firstStudy);
+ const list = el('ul'), remaining = el('ul');
+ // Todas as recomendacoes fora do resumo permanecem na pagina de Revisoes.
+ for (const item of [...activities, ...ranked.filter(item => !activities.includes(item))]) {
   const row = el('li');
   const action = adaptiveActions[item.action] || 'Revisar';
   const label = /^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(item.title) ? item.title.replaceAll('-', ' ') : item.title;
@@ -375,10 +388,24 @@ function renderAdaptive(plan) {
   }
   if (item.state === 'confirmed-not-studied') row.append(el('p', 'results-meta', item.selection));
   if (item.nextReview) row.append(el('p', 'results-meta', 'Reteste previsto para ' + fmtDate(item.nextReview)));
-  list.append(row);
+  if (activities.includes(item)) {
+   list.append(row);
+   // Revisoes apresenta a fila inteira, inclusive os itens destacados no Resumo.
+   remaining.append(row.cloneNode(true));
+  } else remaining.append(row);
  }
- $('results-adaptive-actions').replaceChildren(activities.length ? list :
-  el('p', 'results-caption', 'Nenhuma atividade prioritária com os registros atuais.'));
+ const allRevisions=new URL(location.href);
+ if(location.origin===WORKER){allRevisions.pathname='/resultados-revisoes.html';allRevisions.searchParams.delete('visao');}
+ else allRevisions.searchParams.set('visao','revisoes');
+ const viewAll=el('a','results-link','Ver todas as revisões');
+ viewAll.href=allRevisions.pathname+allRevisions.search+allRevisions.hash;
+ $('results-adaptive-actions').replaceChildren(
+  activities.length ? list : el('p','results-caption','Nenhuma atividade prioritária com os registros atuais.'),
+  viewAll);
+ if (queueSection && queueItems) {
+  queueSection.hidden = remaining.children.length === 0;
+  queueItems.replaceChildren(remaining);
+ }
  const signals = plan.principles.flatMap(item => item.signals.filter(signal => signal.elapsed)
   .map(signal => ({ ...signal, title: item.title }))).sort((a,b) => b.date.localeCompare(a.date));
  const progress = el('ul');
@@ -477,14 +504,21 @@ function render(){
  const valid=summary.valid||0;
  $('results-stats').replaceChildren(
   stat('Questões respondidas',valid),
-  stat('Acertos',summary.correct??0),
-  stat('Erros',summary.incorrect??0),
   stat('Acerto observado',summary.accuracy===null?'Sem amostra':summary.accuracy+'%'),
   ...(current.adaptive ? [
-   stat('Erros seguros', current.adaptive.secureErrors),
-   stat('Acertos inseguros', current.adaptive.insecureCorrect),
-   stat('Revisões pendentes', current.adaptive.principles.filter(p => p.state === 'review-pending').length),
-   stat('Princípios com retenção observada', current.adaptive.principles.filter(p =>
+   stat('Revisões pendentes',current.adaptive.principles.filter(p => p.state === 'review-pending').length),
+   stat('Acertos inseguros',current.adaptive.insecureCorrect)
+  ] : [
+   stat('Acertos',summary.correct??0),stat('Erros',summary.incorrect??0)
+  ])
+ );
+ const details=$('results-detailed-stats');
+ if(details)details.replaceChildren(
+  stat('Acertos',summary.correct??0),
+  stat('Erros',summary.incorrect??0),
+  ...(current.adaptive ? [
+   stat('Erros seguros',current.adaptive.secureErrors),
+   stat('Princípios com retenção observada',current.adaptive.principles.filter(p =>
     p.signals.some(signal => signal.kind === 'independent')).length)
   ] : [])
  );
@@ -595,7 +629,7 @@ function render(){
  root.hidden=false;
  showEditalCoverage();showReviewQueue();showNextStudies();
  showRetests();showCoverage();showConceptTransfer();
- status.textContent='Histórico unificado carregado. Resultados e prioridades combinam as duas origens.';
+ status.textContent='Histórico privado atualizado.';
 }
 
 /* Recomendações de leitura das baterias do site, calculadas somente após autenticação. */
@@ -777,7 +811,12 @@ async function load({keepCurrent = false} = {}){
    root.hidden=true;
    $('results-logout').hidden=true;
    $('results-login').hidden=false;
-   $('results-login').href=WORKER+'/v1/login/github?return=%2Fresultados.html';
+   const safeContest=[...select.options].some(o=>o.value===select.value)?select.value:'camara-2026';
+   const returnQuery=new URLSearchParams({concurso:safeContest});
+   if(/^[a-z0-9-]{1,100}$/.test(selectedSubject))returnQuery.set('materia',selectedSubject);
+   const returnPage=location.origin===WORKER ? location.pathname : '/resultados.html';
+   const returnPath=returnPage+'?'+returnQuery.toString();
+   $('results-login').href=WORKER+'/v1/login/github?return='+encodeURIComponent(returnPath);
    status.textContent='Entre com GitHub para consultar seu histórico unificado.';
    return;
   }
@@ -823,10 +862,27 @@ themeButton.addEventListener('click',()=>{
  setResultsTheme(document.documentElement.getAttribute('data-theme')==='light'?'dark':'light');
 });
 themeButton.textContent=document.documentElement.getAttribute('data-theme')==='light'?'modo escuro':'modo claro';
-const requestedContest=new URLSearchParams(location.search).get('concurso');
+const initialParams=new URLSearchParams(location.search);
+const requestedContest=initialParams.get('concurso');
 if([...select.options].some(x=>x.value===requestedContest))select.value=requestedContest;
-select.addEventListener('change',()=>{selectedSubject='';load();});
-$('results-subject-filter').addEventListener('change',value=>{selectedSubject=value.target.value;render();});
+selectedSubject=initialParams.get('materia')||'';
+function syncResultsFilters(){
+ const url=new URL(location.href);url.searchParams.set('concurso',select.value);
+ if(selectedSubject)url.searchParams.set('materia',selectedSubject);
+ else url.searchParams.delete('materia');
+ history.replaceState(history.state,'',url);
+ const nav=document.querySelector('.results-views-nav');
+ if(nav)for(const a of nav.querySelectorAll('a')){
+  const target=new URL(a.href);target.searchParams.set('concurso',select.value);
+  if(selectedSubject)target.searchParams.set('materia',selectedSubject);
+  else target.searchParams.delete('materia');
+  a.href=target.href;
+ }
+}
+select.addEventListener('change',()=>{selectedSubject='';syncResultsFilters();load();});
+$('results-subject-filter').addEventListener('change',value=>{
+ selectedSubject=value.target.value;syncResultsFilters();render();
+});
 $('results-logout').addEventListener('click',async()=>{
  ++loadVersion;
  current=null;

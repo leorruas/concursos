@@ -110,41 +110,60 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.evaluate(()=>dispatchEvent(new PageTransitionEvent('pageshow',{persisted:true})));
    await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('5 tentativas válidas'));
 
-   assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('ChatGPT'),'origem de estudo precisa aparecer');
-   assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('site'),'origem do site precisa aparecer');
    fake.summary.valid=6;
    await page.clock.fastForward(60000);
    await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('6 tentativas válidas'));
-   const history=page.getByText('Histórico e diagnóstico detalhado',{exact:true});
-   await history.focus();
-   await page.keyboard.press('Enter');
-   assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
-     (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
-   assert.ok(await page.getByLabel('Conceito',{exact:true}).isVisible());
+   // O painel passou a ter visoes navegaveis e a manter detalhes em paginas proprias.
+   assert.equal(await page.locator('#results-adaptive-actions li').count(),2,'resumo limitado a duas acoes');
+   assert.equal(await page.getByText('Histórico e diagnóstico detalhado',{exact:true}).count(),0,
+    'painel sem accordion estrutural legado');
+   assert.ok(await page.getByRole('navigation',{name:'Páginas dos resultados'}).isVisible(),
+    'navegacao de paginas visivel');
+   assert.ok(await page.locator('#results-adaptive-actions a').filter({hasText:'Ver todas as revisões'}).isVisible());
+   assert.ok(await page.getByRole('heading',{name:'Visão geral',exact:true}).isVisible(),
+    'cada visao apresenta titulo proprio');
+   assert.ok(await page.locator('#results-adaptive-actions').getByText('Bateria disponível',{exact:true}).isVisible());
+   assert.match(await page.locator('#results-retention').innerText(), /após 6 dias/);
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
+   await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
+
+   await page.getByRole('link',{name:'Histórico',exact:true}).click();
+   assert.equal(new URL(page.url()).searchParams.get('visao'),'historico');
+   assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('ChatGPT'),'origem de estudo precisa aparecer');
+   assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('site'),'origem do site precisa aparecer');
    assert.match(await page.locator('#results-principle-history').innerText(), /Início do ciclo atual/);
    assert.match(await page.locator('#results-principle-history').innerText(), /Resposta: C · Gabarito: E/);
-   assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link direto para leitura prioritária');
-   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
-   assert.deepEqual(errors,[],'painel e quiz sem erros de JS');
-   await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
+   assert.ok(await page.getByLabel('Conceito',{exact:true}).isVisible());
+   assert.equal(await page.locator('#results-adaptive').isVisible(),false,'historico nao repete resumo');
+
+   await page.getByRole('link',{name:'Matérias',exact:true}).click();
+   assert.equal(await page.locator('#results-stats .results-stat').count(),4,'resumo com quatro indicadores');
    assert.match(await page.locator('#results-study-modes').innerText(), /Aprendizagem · 2 tentativas/);
    assert.match(await page.locator('#results-study-modes').innerText(), /Revisão · 1 tentativa ·/);
    assert.match(await page.locator('#results-study-modes').innerText(), /Bateria com correção ao final/);
-   assert.match(await page.locator('#results-retention').innerText(), /após 6 dias/);
    assert.match(await page.locator('#results-competitive-simulations').innerText(), /54 pontos líquidos/);
+   assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
+     (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
    const coverage=page.locator('#results-edital-coverage summary').first();
    await coverage.focus();
    await page.keyboard.press('Enter');
    assert.ok(await page.getByText('Estudo registrado em 13/11/2026. Ainda sem avaliação na unidade.').isVisible());
    assert.ok(await page.getByText('Referência de teste · Avaliação sem registro').isVisible());
-   const discursive=page.getByText('Treinar discursiva',{exact:true});
-   await discursive.focus();
-   await page.keyboard.press('Enter');
-   assert.ok(await page.locator('#results-discursive details details summary').first().isVisible());
-   assert.equal(await page.locator('#results-adaptive-actions li').count(),6);
+
+   await page.getByRole('link',{name:'Revisões',exact:true}).click();
+   assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link para leitura prioritaria');
+   assert.equal(await page.locator('#results-adaptive-queue-items li').count(),6,'fila completa acessivel em Revisoes');
    assert.ok(await page.getByRole('heading',{name:'Estudar · Conteúdo inicial'}).isVisible());
-   assert.ok(await page.getByText('Bateria disponível',{exact:true}).isVisible());
-   const launch=page.getByRole('link',{name:'Preparar bateria de 1 questão(ões)'});
+   const discursive=page.getByText('Treinar discursiva',{exact:true});
+   assert.ok(await discursive.isVisible(),'propostas discursivas acessiveis em Revisoes');
+   await discursive.click();
+   assert.ok(await page.locator('#results-discursive > details').first().evaluate(node=>node.open),
+    'secao de discursivas abre sob demanda');
+
+   await page.getByRole('link',{name:'Resumo',exact:true}).click();
+   assert.equal(new URL(page.url()).searchParams.get('visao'),'resumo');
+   assert.deepEqual(errors,[],'painel e quiz sem erros JS');
+   const launch=page.locator('#results-adaptive-actions').getByRole('link',{name:'Preparar bateria de 1 questão(ões)'});
    await launch.focus();
    await page.keyboard.press('Enter');
    const start=page.getByRole('button',{name:'Iniciar bateria recomendada (1)'});
@@ -164,6 +183,57 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.equal(last.consulted,false);
    assert.equal(last.feedbackBefore,false);
    assert.deepEqual(errors,[],'fluxo adaptativo sem erros de JS');
+
+   // Exercitar a navegacao da origem autenticada sem acessar qualquer dado real.
+   // O servidor local substitui somente os arquivos publicos, e a API recebe fixture sintética.
+   const workerPage=await context.newPage();
+   const workerErrors=[];
+   workerPage.on('pageerror',error=>workerErrors.push(error.message));
+   await workerPage.route('https://concurso-estudo.leoruas.workers.dev/**',async route=>{
+    const requested=new URL(route.request().url());
+    if(requested.pathname==='/v1/study/unified')
+     return route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(fake)});
+    if(requested.pathname.startsWith('/v1/'))
+     return route.fulfill({status:401,contentType:'application/json',body:'{}'});
+    const pathname=new RegExp('^/resultados-(?:resumo|revisoes|materias|historico)[.]html$').test(requested.pathname)
+     ? '/resultados.html':requested.pathname;
+    const upstream=await fetch('http://127.0.0.1:8765'+pathname);
+    return route.fulfill({status:upstream.status,
+     contentType:upstream.headers.get('content-type')||'text/plain',
+     body:Buffer.from(await upstream.arrayBuffer())});
+   });
+   await workerPage.goto('https://concurso-estudo.leoruas.workers.dev/resultados-resumo.html?concurso=camara-2026',
+    {waitUntil:'networkidle'});
+   await workerPage.locator('#results-content').waitFor({state:'visible',timeout:15000});
+   assert.ok(await workerPage.getByRole('heading',{name:'Visão geral',exact:true}).isVisible());
+   assert.equal(new URL(workerPage.url()).pathname,'/resultados-resumo.html');
+   await workerPage.selectOption('#results-subject-filter','direito-constitucional');
+   const revisionUrl=workerPage.getByRole('navigation',{name:'Páginas dos resultados'})
+    .getByRole('link',{name:'Revisões',exact:true});
+   await revisionUrl.click();
+   assert.equal(new URL(workerPage.url()).pathname,'/resultados-revisoes.html',
+    'Worker deve abrir documento independente de Revisoes');
+   assert.equal(new URL(workerPage.url()).searchParams.get('materia'),'direito-constitucional',
+    'Materia deve sobreviver a navegacao');
+   assert.equal(new URL(workerPage.url()).searchParams.get('concurso'),'camara-2026');
+   await workerPage.locator('#results-content').waitFor({state:'visible',timeout:15000});
+   assert.ok(await workerPage.getByRole('heading',{name:'Revisões',exact:true}).first().isVisible());
+   await workerPage.goBack({waitUntil:'networkidle'});
+   assert.equal(new URL(workerPage.url()).pathname,'/resultados-resumo.html','Voltar recupera o resumo');
+   await workerPage.locator('#results-content').waitFor({state:'visible',timeout:15000});
+   assert.deepEqual(workerErrors,[],'rotas autenticadas simuladas sem erros JavaScript');
+
+   // Testar a escolha de destino de login ao faltar sessao.
+   await workerPage.route('**/v1/study/unified?*',route=>
+    route.fulfill({status:401,contentType:'application/json',body:'{}'}));
+   await workerPage.goto('https://concurso-estudo.leoruas.workers.dev/resultados-historico.html?concurso=camara-2026&materia=direito-constitucional',
+    {waitUntil:'networkidle'});
+   await workerPage.locator('#results-login').waitFor({state:'visible',timeout:15000});
+   const authLink=new URL(await workerPage.locator('#results-login').getAttribute('href'));
+   assert.equal(authLink.searchParams.get('return'),
+    '/resultados-historico.html?concurso=camara-2026&materia=direito-constitucional',
+    'Login deve manter pagina, concurso e materia');
+   await workerPage.close();
    await context.close();
   }
   console.log('OK: configuração, filtro Constitucional P1, correção, recomendações e layout mobile/desktop.');

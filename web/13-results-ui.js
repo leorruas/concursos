@@ -123,7 +123,7 @@ function showEditalCoverage(){
   const units=coverage.units.filter(unit=>!selectedSubject||unit.subjectId===selectedSubject);
   const total=units.reduce((sum,unit)=>sum+unit.items.length,0);
   const evaluated=units.reduce((sum,unit)=>sum+unit.items.filter(item=>item.attempts>0).length,0);
-  target.append(el('p','results-coverage-overview',evaluated+' de '+total+' referências com respostas vinculadas'),
+  target.append(el('p','results-coverage-overview',evaluated+' de '+total+' '+(total===1?'referência':'referências')+' com respostas vinculadas'),
    el('p','results-caption','Sem questões vinculadas significa que não há respostas associadas à referência exata do edital. O assunto pode ter sido estudado ou avaliado de outra forma.'));
   for(const unit of units){
    const section=el('section','results-edital-unit');

@@ -167,3 +167,9 @@ Eliminadas das referências didáticas três notas de procedimento, sem valor de
 Restaurado no DC06 o diagrama textual de fiscalização que constava na `main` (controle externo do Congresso com auxílio do TCU e controle interno em cada Poder). O bloco foi reinserido na explicação canônica, sem reviver um capítulo de refinamento separado. Assim, a contagem de delimitadores de código fenced volta a coincidir com a original (quatro marcadores), com `articleId`, wikilinks e questões já preservados. Commit `81036eed`.
 
 Foram novamente confirmadas em fontes oficiais a EC 141/2026 (Câmara), a cautelar da ADI 8041 sobre a transição para 42h (STF), o resultado processual da ADI 7991 (STF) e a EC 139/2026 sobre Tribunais de Contas (Câmara). Não há indício dessas verificações de que seja necessária outra mudança normativa nos capítulos já ajustados. A conferência jurídica integral dos demais dispositivos e a homologação visual continuam pendentes.
+
+## Desbloqueio de CI e publicação (19/11/2026)
+
+O commit da `main` `b09ae8d1c434d5ee45349ff5a9edbe7cfe713e8d` incluiu o wikilink canônico de DC38 no `index.md`; a atualização entrou na branch editorial por merge `75a692b09e6db4cfb0dd82349780155f585e13a3`, preservando o diff limitado a dez artigos e esta auditoria. A execução [44516245152](https://github.com/leorruas/concursos/actions/runs/44516245152) do workflow `Validar site público (PR)` concluiu com **success**, incluindo a auditoria de headings, os testes de questões, flashcards, invariantes do cofre, a construção do site e os testes de busca. Issue [#385](https://github.com/leorruas/concursos/issues/385) encerrado como resolvido.
+
+**Limite da certificação:** CI verde certifica a validação técnica automatizada disponível, não a inspeção visual da versão publicada/EPUB nem a leitura jurídico-editorial linha a linha de todos os capítulos. Conserva-se o estado de revisão parcial, sem declarar certificação integral.

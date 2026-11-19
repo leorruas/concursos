@@ -161,4 +161,3 @@ Relações: [[3 - Materias/Direito Constitucional/23 - regimento da camara organ
 - [Constituição Federal, arts. 37, 51, 53, 70 a 74](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 - [Portal oficial do RICD e edições consolidadas](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 
-**Nota editorial:** este é o recorte da **CAM-PL-023** previsto no inventário da Câmara; os dez itens C/E são exercícios **inéditos**, não itens oficiais da Cebraspe. Publicar material editorial não significa que houve estudo, retenção ou desempenho do candidato.

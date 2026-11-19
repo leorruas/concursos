@@ -295,7 +295,7 @@ A banca pode trocar **titular da iniciativa** por **Casa iniciadora**; tratar to
 
 **Aprovação de comissão ≠ titularidade da iniciativa. Proposta orçamentária de órgão ≠ projeto federal de LOA. Presidente inicia PEC ≠ Presidente sanciona PEC. Iniciativa popular ≠ aprovação plebiscitária. Reserva de iniciativa ≠ imunidade às emendas.**
 
-**Fontes de verificação:** [Constituição, arts. 51–52, 60–65, 93, 96, 127–128 e 165, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988); [RICD, arts. 108–109, 202, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html); [STF, Temas 917 e 682](https://portal.stf.jus.br/jurisprudenciaRepercussao/). Este refinamento aplica a leitura institucional do **CAM-PL-017** à nota canônica existente **CAM-PL-002**, preservando \`articleId\`, identidade pública e vínculos multi-edital. Os itens são inéditos; publicação editorial não equivale a estudo pessoal.
+**Fontes de verificação:** [Constituição, arts. 51–52, 60–65, 93, 96, 127–128 e 165, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988); [RICD, arts. 108–109, 202, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html); [STF, Temas 917 e 682](https://portal.stf.jus.br/jurisprudenciaRepercussao/). Os itens de treino são autorais e não reproduzem questões oficiais.
 
 ## Relações com outros temas
 

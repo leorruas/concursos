@@ -55,3 +55,22 @@ Registros normativos históricos retirados dos capítulos em 19/11/2026, sem nov
 ## PL34: parecer de auditoria histórica transferido do corpo
 
 > **Parecer final de auditoria (11/11/2026): APROVADO COM RESSALVAS PARA ESTUDO.** Após as correções normativas e editoriais registradas no diagnóstico, o DC34 está apto ao uso como material de preparação. Os seis gabaritos autorais foram preservados e conferidos quanto a seus fundamentos centrais. **Ressalvas documentadas:** não foi executado teste de renderização visual efetiva do Mermaid e não há comprovação de cotejo independente, linha a linha, de cada afirmação contra todas as fontes. A checagem estrutural do diagrama não substitui sua renderização. Essas ressalvas não exigem manter a auditoria aberta por prazo indeterminado: o artigo fica **encerrado nesta rodada**, com eventual revisão futura apenas diante de erro jurídico material identificado ou alteração normativa. Fontes centrais: [Código de Ética consolidado](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html) e [RICD consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+
+## PL34: conferência histórica dos seis gabaritos, transferida do capítulo em 19/11/2026
+
+### Rastreabilidade dos seis gabaritos originais
+
+Os fundamentos foram conferidos individualmente com o [Código de Ética consolidado](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html), o [Regulamento do Conselho](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/arquivos/regulamento-1/view) e a Constituição. O teste cobre o enunciado de cada item e **não constitui certificação de todo o artigo**.
+
+| Item | Resultado | Fundamento |
+| :--- | :---: | :--- |
+| 1: fraude em deliberação | **E** | Código, **art. 4º, IV**, e **art. 14**: infração incompatível com decoro e decisão plenária |
+| 2: desacato verbal | **C** | Código, **arts. 5º, III, e 12**: hipótese expressa de desacato por palavras, provocação do ofendido e defesa |
+| 3: composição e impedimentos do relator | **C** | Código, **arts. 7º, caput; 13, I, a–b; e 14, § 4º, I**: 21 titulares, 21 suplentes e vedações partidária/estadual |
+| 4: quebra direta de sigilo pelo relator | **E** | Regulamento, **arts. 14–16**: Conselho requer fundamentadamente à Mesa, que submete ao Plenário; não há decreto direto pelo relator |
+| 5: voto secreto e dois terços | **E** | **CF art. 55, § 2º**, após EC 76/2013, e **Código art. 14**: votação ostensiva e maioria absoluta |
+| 6: revisão do mérito pela CCJC | **E** | Código, **art. 14, § 4º, VII**: CCJC aprecia vícios constitucionais, regimentais ou do Código, não o mérito integral |
+
+**Resultado:** 6/6 gabaritos confirmados quanto ao enunciado específico, sem inversão. A questão 2 foi **reescrita** para corresponder à hipótese legal de desacato por palavras, em vez de usar expressão genérica potencialmente ambígua. Os quatro casos sobre suspensão **cautelar** permanecem separados dos seis itens do rito **sancionatório**. A verificação integral do Regulamento e de todos os exemplos continua sendo etapa independente.
+
+**Limite documentado do fluxograma (parecer final de 11/11/2026):** a CCJC aprecia somente os vícios jurídicos apontados no recurso, não reexamina o mérito. O percurso gráfico distingue o recurso não acolhido da hipótese de reconhecimento de vício; as consequências observam a decisão da CCJC. O desenho sintetiza, sem substituir, os arts. 13, IV–V, e 14, § 4º, VII–VIII. **A renderização visual efetiva do Mermaid não foi testada**; esta é uma ressalva técnica do parecer **aprovado com ressalvas**, não um impedimento para encerrar esta auditoria.

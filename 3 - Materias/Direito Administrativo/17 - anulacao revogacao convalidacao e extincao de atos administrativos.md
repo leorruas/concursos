@@ -51,8 +51,7 @@ A declaração de nulidade atinge o ato desde a sua origem fática, operando efe
 
 ### Limites à anulação: prazo decadencial de 5 anos (art. 54 da Lei nº 9.784/1999)
 
-#### 1.3. Limites à anulação: prazo decadencial de 5 anos (art. 54 da Lei nº 9.784/1999)
-A autotutela anulatória não é perpétua nem ilimitada no tempo:
+O prazo de anulação depende de **quando o ato foi praticado**, de seus efeitos e da existência de eventual **má-fé comprovada**. Na regra do art. 54 da Lei nº 9.784/1999, a Administração não pode rever indefinidamente um ato favorável ao destinatário:
 > *"O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé."* (art. 54, *caput*).
 
 - **Efeitos patrimoniais contínuos:** nos atos que geram prestações patrimoniais periódicas (ex.: pensões, vantagens salariais), o prazo de cinco anos conta-se a partir da percepção do **primeiro pagamento** (art. 54, § 1º).

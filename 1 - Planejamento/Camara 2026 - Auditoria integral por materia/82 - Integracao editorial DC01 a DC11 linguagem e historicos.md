@@ -161,3 +161,9 @@ A menção antiga à ADI 7.991 foi atualizada conforme o andamento oficial do ST
 ## Resíduos editoriais em fontes: DC07 a DC09
 
 Eliminadas das referências didáticas três notas de procedimento, sem valor de fonte jurídica: DC07, `registro de ingestão arquivado`; DC08, `Registro histórico de ingestão de 10/06/2026, arquivado fora da biblioteca pública`; DC09, `Registro histórico de ingestão arquivado`. As expressões exatas foram preservadas neste relatório para rastreabilidade; nenhuma referência a Constituição, lei, tribunal, fonte acadêmica ou exercício foi excluída por essa limpeza.
+
+## Conferência adicional: preservação de diagramas e fontes oficiais (19/11/2026)
+
+Restaurado no DC06 o diagrama textual de fiscalização que constava na `main` (controle externo do Congresso com auxílio do TCU e controle interno em cada Poder). O bloco foi reinserido na explicação canônica, sem reviver um capítulo de refinamento separado. Assim, a contagem de delimitadores de código fenced volta a coincidir com a original (quatro marcadores), com `articleId`, wikilinks e questões já preservados. Commit `81036eed`.
+
+Foram novamente confirmadas em fontes oficiais a EC 141/2026 (Câmara), a cautelar da ADI 8041 sobre a transição para 42h (STF), o resultado processual da ADI 7991 (STF) e a EC 139/2026 sobre Tribunais de Contas (Câmara). Não há indício dessas verificações de que seja necessária outra mudança normativa nos capítulos já ajustados. A conferência jurídica integral dos demais dispositivos e a homologação visual continuam pendentes.

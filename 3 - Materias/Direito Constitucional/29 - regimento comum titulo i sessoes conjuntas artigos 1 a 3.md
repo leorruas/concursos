@@ -152,7 +152,7 @@ O **Regimento Comum** disciplina a atuação conjunta e mista do Congresso, mas 
 
 **Sessão conjunta ≠ votação conjunta indistinta. Promulgação de emenda ≠ nova deliberação da PEC. Local da Câmara ≠ sessão da Câmara. Mesa do Congresso ≠ Mesa da Câmara. Convocação pelo Senado ≠ audiência da Mesa da Câmara. Homenagem solene ≠ exame de veto.**
 
-A sequência de estudo é: [[3 - Materias/Direito Constitucional/28 - mapa regimental da camara estrutura e fronteiras do edital|mapa do RICD e órgãos da Câmara]], **esta nota do Título I**, depois **CAM-PL-026: Título IV do Regimento Comum, capítulos II e III, até art. 103**, onde o processo de apreciação de matérias específicas ganha regras próprias.
+A sequência de estudo é: [[3 - Materias/Direito Constitucional/28 - mapa regimental da camara estrutura e fronteiras do edital|mapa do RICD e órgãos da Câmara]], **esta nota do Título I**, depois [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|Título IV do Regimento Comum, capítulos II e III até o art. 103]], onde a apreciação de matérias específicas ganha regras próprias.
 
 ## Fontes oficiais e limites
 

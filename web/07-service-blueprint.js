@@ -66,7 +66,7 @@ function montar(table){
    const svg=svgNode("svg",{viewBox:"0 0 "+width+" "+height,width:width,height:height,role:"img","aria-label":all?"Blueprint completo de seis fases":"Blueprint da fase "+fases[current],class:"sb-map"});
    svg.append(svgNode("title",{},all?"Mapa das seis fases":"Mapa da fase "+fases[current]));
    svg.append(svgNode("rect",{x:0,y:0,width,height,fill:"var(--bg)"}));
-   const layers=[{source:1,label:"Evidências",y:84},{source:2,label:"Proponente",y:184},{source:4,label:"Atores públicos",y:288},{source:6,label:"Bastidores",y:390},{source:8,label:"Suporte",y:490},{source:9,label:"Prazos e quóruns",y:592}];
+   const layers=[{source:1,label:"Evidências",y:84},{source:2,label:"Proponente",y:184},{source:4,label:"Atores públicos",y:288},{source:6,label:"Bastidores",y:390},{source:8,label:"Suporte",y:490},{source:9,label:"Prazos e marcos",y:592}];
    const lines=[{y:271,label:"Linha de interação"},{y:374,label:"Linha de visibilidade"},{y:475,label:"Linha interna"}];
    for(const item of layers){
      svg.append(svgNode("rect",{x:0,y:item.y-13,width,height:92,class:"layer-bg"}));

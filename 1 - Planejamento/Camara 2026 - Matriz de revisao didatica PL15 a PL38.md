@@ -105,3 +105,13 @@ Esta limpeza de registros não aumenta a quantidade de artigos com revisão norm
 **Bloqueio CI persistente:** na última execução consultada, o workflow `Validar site público (PR)` falhou exclusivamente na checagem de invariantes por ausência de PL38 no `index.md`. Testes anteriores de identidade, referências e questões passaram. O índice permanece reservado à coordenação, portanto não foi editado nesta branch.
 
 **Limite de verificação:** cotejo dirigido do art. 67 e revisão textual localizada. Não há base para certificar os 24 artigos juridicamente de modo integral nem para declarar Pages publicado.
+
+## Quinta rodada: limpeza de remissões e reconciliação da main (19/11/2026)
+
+- **PL24, PL26, PL27:** removidos códigos de planejamento da apresentação inicial, sem mudar o recorte legal, os headings ou os identificadores do sistema.
+- **PL28 e PL29:** referências a códigos da sequência editorial foram substituídas por links wiki para os artigos que efetivamente apresentam os temas seguintes; as notas ficaram legíveis de forma independente do inventário técnico.
+- **PL30:** referências internas ao código CAM-PL-026 substituídas por descrição do recorte do Regimento Comum; o parágrafo de controle editorial sobre links e questões foi deslocado, sem perda, para `Camara 2026 - Estado editorial Regimentos PL23 a PL30.md`.
+- **PL15–PL22:** conferência dirigida posterior identificou ausência de códigos `CAM-PL-...` no corpo após as remissões anteriores. Os aliases técnicos continuam preservados no frontmatter quando existentes.
+- **Reconciliação:** a `main` incorporou o PR #384 (Fila adaptativa em Meus Resultados), que também indexou a nota PL38. A branch de revisão foi atualizada por merge preservando exatamente os arquivos editoriais desta frente e a versão nova do `index.md` originada na `main`. O bloqueio antigo de ausência de PL38 no índice não deve ser considerado reparado por esta frente, mas pela integração externa. A aprovação dos testes no novo SHA depende da execução correspondente.
+
+**Verificação pendente:** novo CI completo, Pages, revisão individual exaustiva de itens C/E e confronto de todos os fundamentos. Não integrar PR enquanto uma falha real de build ou validação persistir.

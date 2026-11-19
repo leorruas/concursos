@@ -637,7 +637,28 @@ function render(){
   (selectedSubject?' · '+title(selectedSubject):'');
  const articleCount=$('results-review-article-count');
  if(articleCount)articleCount.textContent=String(activeArticles.length);
- $('results-articles').replaceChildren(...(activeArticles.length?activeArticles.map(makeArticle):[el('p','results-caption','Sem artigos com erros ou insegurança para esta matéria.')]));
+ const articleTarget=$('results-articles');
+ articleTarget.replaceChildren();
+ if(!activeArticles.length)articleTarget.append(el('p','results-caption','Sem artigos com erros ou insegurança para esta matéria.'));
+ else{
+  const count=el('p','results-history-count');
+  const list=el('div','results-history-article-list');
+  const footer=el('div','results-history-more');
+  let limit=5;
+  const update=()=>{
+   count.textContent='Mostrando '+Math.min(limit,activeArticles.length)+' de '+activeArticles.length+' artigos com evidências';
+   list.replaceChildren(...activeArticles.slice(0,limit).map(makeArticle));
+   footer.replaceChildren();
+   if(activeArticles.length>limit){
+    const more=el('button','results-concept-more','Mostrar mais '+Math.min(5,activeArticles.length-limit)+' artigos');
+    more.type='button';more.addEventListener('click',()=>{limit+=5;update();});footer.append(more);
+   }else if(activeArticles.length>5){
+    const less=el('button','results-concept-more','Mostrar menos');
+    less.type='button';less.addEventListener('click',()=>{limit=5;update();});footer.append(less);
+   }
+  };
+  articleTarget.append(count,list,footer);update();
+ }
  const priority=$('results-quiz-priorities');
  const articleGroups=subjectGroups(activeArticles,a=>articleSubject(a,concepts));
  priority.replaceChildren();

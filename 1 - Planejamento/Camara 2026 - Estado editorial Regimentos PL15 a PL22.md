@@ -107,3 +107,17 @@ Registros históricos transferidos sem revalidação jurídica em 19/11/2026. A 
 **Complementação NC-PL-033:** acrescentado o **art. 111, § 3º**, sobre a vedação de duas ou mais matérias diversas no mesmo projeto. A regra constava da fonte normativa, mas faltava na explicação didática sobre forma do projeto. Nenhuma inversão dos itens exigida por esse acréscimo.
 
 **Gabaritos cotejados e mantidos:** **C, E, E, C, E, E, C, E, C, C**. **Sete casos e dez itens originais** inspecionados, sem inversão identificada. A certificação é do recorte redigido, não de todos os procedimentos especiais possíveis nem de desempenho do estudante. Não comprova renderização, deploy ou funcionamento do GitHub Pages.
+
+## Outras observações editoriais migradas em 19/11/2026
+
+### 15 - parecer legislativo relatorio voto e deliberacao.md
+
+**Limites editoriais:** as questões são inéditas, didáticas e escritas para treinar distinções do Regimento, sem reivindicar reprodução de questões oficiais da Cebraspe. A nota não comprova estudo, domínio nem desempenho do candidato; prazos e procedimentos devem ser interpretados na redação vigente do texto normativo.
+
+### 15 - parecer legislativo relatorio voto e deliberacao.md
+
+> **Fontes consolidadas para consulta (15/11/2026):** o portal da Câmara disponibiliza o [Regimento Interno atualizado até a Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e a [Constituição atualizada até a Emenda Constitucional nº 141/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988). A consolidação mais recente deve ser consultada quando houver divergência com reproduções antigas. Esta atualização de referências não representa nova certificação de todos os dispositivos citados no artigo.
+
+### 16 - discussao votacao quoruns e modalidades de decisao.md
+
+**Limites editoriais:** este texto descreve o regime normativo geral da Câmara e exceções identificadas, não transfere as mesmas regras para sessão conjunta do Congresso, assembleias estaduais ou ritos especiais. As questões são **inéditas e didáticas**, não itens extraídos da Cebraspe. A preparação editorial não registra estudo pessoal, retenção ou desempenho.

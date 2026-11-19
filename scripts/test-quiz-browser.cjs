@@ -70,7 +70,9 @@ fs.mkdirSync(evidence,{recursive:true});
      simulado:{correct:0,incorrect:0,blank:1}},
      recommendations:[...Array.from({length:4}, (_,index)=>({
       concursoId:'camara-2026',subjectId:proposed.subjectId,principleId:'faltam-itens-'+index,
-      title:'Revisão prioritária '+index,rationale:['Reteste vencido.'],action:'test-retention',
+      title:'Revisão prioritária '+index,rationale:index===0
+        ?['Erro com segurança declarada em 2026-11-11. Reteste independente previsto para 2026-11-13. Vínculo com o edital registrado.']
+        :['Reteste vencido.'],action:'test-retention',
       priority:'high',quantity:0,questionIds:[],articles:[],nextReview:'2026-11-15'
      })),{concursoId:'camara-2026',subjectId:proposed.subjectId,principleId:'teste',title:'Regra em revisão',
       rationale:['Reteste vencido.'],action:'test-retention',priority:'high',quantity:1,questionIds:[proposed.id],
@@ -151,6 +153,10 @@ fs.mkdirSync(evidence,{recursive:true});
     'materia e prioridade apresentadas de forma estruturada');
    assert.equal(await page.locator('#results-adaptive-actions .results-study-action-unavailable').count(),1,
     'indisponibilidade exibida junto da acao');
+   assert.match(await page.locator('#results-adaptive-actions').innerText(),/Erro com segurança declarada em 11\/11\/2026/);
+   assert.equal(await page.locator('#results-adaptive-actions').getByText('Reteste independente previsto para',{exact:false}).count(),0,
+    'nao repetir a data do reteste como paragrafo');
+   assert.match(await page.locator('#results-adaptive-actions').innerText(),/Reteste: 15\/11\/2026/);
    assert.match(await page.locator('#results-retention').innerText(), /após 6 dias/);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
    await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});

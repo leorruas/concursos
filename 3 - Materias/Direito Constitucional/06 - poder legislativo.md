@@ -191,6 +191,15 @@ O mesmo art. 70 estabelece os **critérios**: **legalidade** (conformidade norma
 **Quem deve prestar contas?** O parágrafo único do art. 70 alcança **pessoa física ou jurídica, pública ou privada**, que utilize, arrecade, guarde, gerencie ou administre recursos e bens públicos pelos quais a União responda, ou assuma obrigação pecuniária em seu nome. Não restringir ao servidor efetivo nem à entidade da administração direta.
 
 
+A diferença entre os dois sistemas pode ser representada assim:
+
+```text
+Fiscalização
+├─ Controle externo → Congresso Nacional
+│  └─ exercido com auxílio do TCU
+└─ Controle interno → sistema de cada Poder
+```
+
 O controle externo está a cargo do **Congresso Nacional**, com auxílio do TCU; o controle interno é organizado por cada Poder. O auxílio técnico não estabelece hierarquia entre os órgãos.
 
 ## Tribunal de Contas da União

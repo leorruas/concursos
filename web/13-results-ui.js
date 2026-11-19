@@ -168,13 +168,32 @@ function showEditalCoverage(){
     const official = el('details', 'results-revision-details');
     const count = blocks.reduce((sum, block) => sum + block.codes.split(' ').length, 0);
     official.append(el('summary', '', 'Programa oficial · ' + count + ' itens e subitens numerados'));
-    official.append(el('p', 'results-caption', program.sourceVersion + '. As respostas acima são agregadas pelas referências do banco. A correspondência com a numeração oficial ainda está em conferência.'));
+    official.append(el('p', 'results-caption', program.sourceVersion + '. As contagens oficiais usam somente vínculos conferidos entre o banco e a numeração do edital.'));
     const list = el('ul');
     for (const block of blocks) {
      const row = el('li');
      const link = el('a', '', block.part + ' · ' + block.title);
      link.href = program.source + '#page=' + block.page;
-     row.append(link, el('p', 'results-caption', block.section + ' · ' + block.codes.split(' ').join(', ')));
+     const codes = block.codes.split(' ');
+     const prefix = block.section + ' / ' + block.title + ' / ';
+     const linked = new Map();
+     for (const unit of units) {
+      if (!block.subjects.includes(unit.subjectId)) continue;
+      for (const item of unit.items) {
+       if (!item.editalRef.startsWith(prefix) || !codes.includes(item.officialEditalCode)) continue;
+       const code = item.officialEditalCode;
+       linked.set(code, (linked.get(code) || 0) + item.attempts);
+      }
+     }
+     const results = el('ul', 'results-caption');
+     for (const code of codes) {
+      const attempts = linked.get(code);
+      results.append(el('li', '', code + ' · ' + (attempts === undefined ? 'Vínculo ainda não conferido' :
+       attempts === 0 ? 'Sem respostas registradas' : attempts + (attempts === 1 ? ' resposta registrada' : ' respostas registradas'))));
+     }
+     row.append(link, el('p', 'results-caption', block.section + ' · ' +
+      [...linked.values()].filter(attempts => attempts > 0).length + ' de ' + codes.length +
+      ' códigos com respostas vinculadas'), results);
      list.append(row);
     }
     official.append(list);

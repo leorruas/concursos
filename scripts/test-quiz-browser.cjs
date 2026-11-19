@@ -142,7 +142,11 @@ fs.mkdirSync(evidence,{recursive:true});
        answer:'C',correctAnswer:'E',responseMs:1800}],
       signals:[{kind:'consultation-unknown',elapsed:6,date:'2026-11-18'}]}],
      coverage:{units:[{title:'Constitucional',subjectId:proposed.subjectId,studyStatus:'studied-unassessed',exposition:'2026-11-13',
-      items:[{editalRef:'Referência de teste',attempts:0}]}],unmapped:1}},
+      items:[{editalRef:'Referência de teste',attempts:0}]},
+      {title:'Divulgação Institucional',subjectId:'comunicacao',items:[
+       {editalRef:'14.2.4 / Divulgação Institucional / 1 / mídia',officialEditalCode:'1.5',attempts:2},
+       {editalRef:'14.2.4 / Divulgação Institucional / 1 / cronograma',officialEditalCode:'1.2',attempts:0}
+      ]}],unmapped:1}},
     difficulty:{byLevel:[{id:meta.estimatedDifficulty,total:3,correct:2,incorrect:1,blank:0,accuracy:66.7,uncertain:1}],
       bySubject:[{id:'direito-constitucional',uncertain:1}]},
     bySubject:[{id:'direito-constitucional',total:3,correct:2,incorrect:1}],
@@ -253,14 +257,19 @@ fs.mkdirSync(evidence,{recursive:true});
     'cobertura do edital apresentada diretamente em lista sem accordion');
    assert.ok(await page.getByText('Estudo registrado em 13/11/2026. Sem questões vinculadas a esta unidade.').isVisible());
    assert.ok(await page.locator('#results-edital-coverage .results-edital-ref').getByText('Referência de teste').isVisible());
-   assert.ok(await page.locator('#results-edital-coverage .results-edital-state').getByText('Sem questões vinculadas').isVisible());
-   assert.ok(await page.getByText('0 de 1 referência com respostas vinculadas').isVisible());
+   assert.ok(await page.locator('#results-edital-coverage .results-edital-state').getByText('Sem questões vinculadas').first().isVisible());
+   assert.ok(await page.getByText('1 de 3 referências com respostas vinculadas').isVisible());
    const official = page.getByText('Programa oficial · 228 itens e subitens numerados',{exact:true});
    await official.focus();
    await page.keyboard.press('Enter');
    const officialPage = page.getByRole('link',{name:'P2 · Ciência Política',exact:true});
    assert.ok(await officialPage.isVisible());
    assert.match(await officialPage.getAttribute('href'), /\.pdf#page=54$/);
+   const officialDivulgacao = page.getByRole('link',{name:'P2 · Divulgação Institucional',exact:true}).locator('..');
+   assert.ok(await officialDivulgacao.getByText('1.5 · 2 respostas registradas',{exact:true}).isVisible());
+   assert.ok(await officialDivulgacao.getByText('1.2 · Sem respostas registradas',{exact:true}).isVisible());
+   assert.ok(await officialDivulgacao.getByText('1.1 · Vínculo ainda não conferido',{exact:true}).isVisible());
+
 
    const align=await page.evaluate(()=>{
     const nav=document.querySelector('.results-layout>.study-topbar').getBoundingClientRect();

@@ -100,7 +100,7 @@ function choose(n){
 function start(recommended){
  const directed=Array.isArray(recommended);
  const n=directed?recommended.length:Number($('qs-count').value);if(!Number.isInteger(n)||n<1||n>100){status('Escolha entre 1 e 100 questões.');return;}
- const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,mode:directed?'simulado':selected('qs-mode'),scope:directed?'mixed':selected('qs-scope'),subjectId:!directed&&selected('qs-scope')==='single'?$('qs-materia').value:null,unitId:!directed&&selected('qs-scope')==='single'?$('qs-unidade').value||null:null,startedAt:new Date().toISOString(),finishedAt:null,ids:directed?recommended:choose(Math.min(n,eligible().length)),answers:[]};
+ const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,directed,mode:directed?'simulado':selected('qs-mode'),scope:directed?'mixed':selected('qs-scope'),subjectId:!directed&&selected('qs-scope')==='single'?$('qs-materia').value:null,unitId:!directed&&selected('qs-scope')==='single'?$('qs-unidade').value||null:null,startedAt:new Date().toISOString(),finishedAt:null,ids:directed?recommended:choose(Math.min(n,eligible().length)),answers:[]};
  storeWrite();toggle('qs-config',false);toggle('qs-play',true);toggle('qs-summary',false);render();status('Bateria iniciada. Respostas registradas após cada envio.');
 }
 function question(){return data.map.get(session.ids[session.answers.length]);}
@@ -116,6 +116,9 @@ function render(){
  $('qs-question-difficulty').textContent=q.estimatedDifficulty?'Dificuldade estimada: '+(levels[q.estimatedDifficulty]||q.estimatedDifficulty):'Dificuldade não classificada';
  $('qs-progress-bar').style.width=(100*session.answers.length/session.ids.length)+'%';$('qs-statement').textContent=q.statement;
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>{e.checked=false;e.disabled=false;});
+ $('qs-consulted').value='';
+ $('qs-feedback-before').value='';
+ $('qs-response-context').open=!!session.directed;
  $('qs-insecure').checked=false;$('qs-insecure').disabled=false;
  toggle('qs-blank-wrap',session.mode==='simulado');toggle('qs-after',false);toggle('qs-feedback',false);toggle('qs-pending',false);toggle('qs-answer-form',true);toggle('qs-submit',true);
 }
@@ -139,7 +142,8 @@ function answer(ev){
  ev.preventDefault();if(!session||session.finishedAt)return;
  const c=document.querySelector('input[name="qs-answer"]:checked');if(!c){status('Marque Certo ou Errado para registrar.');return;}
  const q=question();if(!q)return;const v=c.value,blank=v==='blank';
- const a={id:id(),sessionId:session.id,concursoId:session.concursoId,questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:session.mode,answer:blank?null:v,correctAnswer:q.correctAnswer,result:blank?'blank':v===q.correctAnswer?'correct':'incorrect',confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',answeredAt:Date.now(),synced:false};
+ const flag = field => $(field).value === '' ? null : $(field).value === 'yes';
+ const a={consulted:flag('qs-consulted'),feedbackBefore:flag('qs-feedback-before'),id:id(),sessionId:session.id,concursoId:session.concursoId,questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:session.mode,answer:blank?null:v,correctAnswer:q.correctAnswer,result:blank?'blank':v===q.correctAnswer?'correct':'incorrect',confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',answeredAt:Date.now(),synced:false};
  session.answers.push(a);storeWrite();sync(a);
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>e.disabled=true);$('qs-insecure').disabled=true;
  toggle('qs-answer-form',false);

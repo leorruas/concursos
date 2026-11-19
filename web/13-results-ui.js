@@ -734,13 +734,23 @@ function render(){
  for(const item of allArticles){const key=articleSubject(item,concepts);articleCounts.set(key,(articleCounts.get(key)||0)+1);}
  for(const item of concepts.filter(c=>c.errors||c.uncertain||c.dueOn)){const key=item.subjectId||'sem-materia';conceptCounts.set(key,(conceptCounts.get(key)||0)+1);}
  const difficultyBySubject=new Map((current.difficulty?.bySubject||[]).map(x=>[x.id,x]));
- $('results-subjects').replaceChildren(...(current.bySubject||[]).map(sub=>{
-  const row=el('tr'),judged=sub.correct+sub.incorrect;
-  const conf=difficultyBySubject.get(sub.id)?.uncertain||0;
-  for(const x of [title(sub.id),sub.total,sub.correct,sub.incorrect,conf,judged?Math.round(1000*sub.correct/judged)/10+'%':'Sem amostra',
-   articleCounts.get(sub.id)||0,conceptCounts.get(sub.id)||0])row.append(el('td','',x));
+ const subjectsRoot=$('results-subjects');
+ subjectsRoot.replaceChildren(...(current.bySubject||[]).map(sub=>{
+  const row=el('div','results-subject-row');
+  const copy=el('div','results-subject-copy');
+  const judged=sub.correct+sub.incorrect,uncertain=difficultyBySubject.get(sub.id)?.uncertain||0;
+  copy.append(el('strong','results-subject-name',title(sub.id)),
+   el('small','results-subject-detail',sub.correct+' acertos · '+sub.incorrect+' erros'+
+    (uncertain?' · '+uncertain+' respostas inseguras':'')));
+  const figures=el('div','results-subject-figures');
+  figures.append(el('span','results-subject-total',sub.total+' '+(sub.total===1?'resposta':'respostas')),
+   el('strong','results-subject-percentage',judged?Math.round(1000*sub.correct/judged)/10+'% de acerto':'Sem amostra'),
+   el('small','results-subject-recommendations',(articleCounts.get(sub.id)||0)+' artigos · '+
+    (conceptCounts.get(sub.id)||0)+' conceitos para revisar'));
+  row.append(copy,figures);
   return row;
  }));
+ if(!subjectsRoot.children.length)subjectsRoot.append(el('p','results-caption','Ainda não há respostas registradas para esta seleção.'));
  $('results-unified-method').textContent='Histórico até '+fmtDate(current.cut)+'. '+valid+' tentativas válidas de estudo, sem somar duas vezes um registro identificado nas duas fontes.';
  $('results-legacy').hidden=false;
  root.hidden=false;

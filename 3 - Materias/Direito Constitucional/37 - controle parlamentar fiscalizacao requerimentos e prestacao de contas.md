@@ -112,11 +112,11 @@ Prestará contas **qualquer pessoa física ou jurídica, pública ou privada**, 
 
 ### 3.2 Competências do TCU: atos de julgamento versus parecer prévio consultivo
 
-Uma das distinções mais cobradas pelo Cebraspe reside na natureza da deliberação do TCU dependendo do sujeito examinado:
+A competência do Tribunal de Contas da União (TCU) varia conforme o objeto e a pessoa responsável. Nas contas anuais do Presidente da República, o Tribunal emite **parecer prévio** para o julgamento pelo Congresso. Nas contas dos demais administradores e responsáveis por recursos públicos federais, o Tribunal exerce competência de **julgamento de contas**, nos termos do art. 71, II, da Constituição.
 
 | Autoridade / Responsável | Competência do TCU | Natureza da Decisão | Órgão que julga em definitivo |
 | :--- | :--- | :--- | :--- |
-| **Presidente da República** (contas de governo) | CF, art. 71, I: apreciar mediante **parecer prévio** em 60 dias | **Opinião técnica consultiva** (não vinculante) | **Congresso Nacional** (CF, art. 49, IX), em sessão conjunta unicameral |
+| **Presidente da República** (contas de governo) | CF, art. 71, I: apreciar mediante **parecer prévio** em 60 dias | **Opinião técnica consultiva** (não vinculante) | **Congresso Nacional** (CF, art. 49, IX), em sessão conjunta, observadas as regras aplicáveis de deliberação |
 | **Demais administradores públicos e responsáveis por dinheiros públicos** (contas de gestão) | CF, art. 71, II: **julgar as contas** | **Decisão com eficácia de título executivo** (art. 71, § 3º) | O próprio **TCU** julga administrativamente em caráter definitivo |
 | **Prefeitos municipais na gestão de verbas federais repassadas** | Julgamento das contas do convênio federal | Título executivo | O próprio **TCU** (Súmula 208 do STJ e Tema 835 do STF) |
 

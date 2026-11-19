@@ -502,11 +502,6 @@ A banca pode construir itens **parcialmente verdadeiros** que deslocam uma decis
 - [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa: legitimados, reservas e limites]]: legitimidade, reserva e Casa onde a votação se inicia.
 - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo constitucional]]: espécies, PEC e art. 59.
 - [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Tramitação orçamentária]]: procedimento específico do art. 166, na sessão conjunta.
-- **CAM-PL-004**: comissões e poderes específicos.
-- **CAM-PL-005**: estrutura, votação e efeitos de parecer.
-- **CAM-PL-006**: discussão, votação e quóruns.
-- **CAM-PL-007**: sanção, veto, promulgação e publicação.
-- **CAM-PL-008 a 010**: procedimentos ordinário e especiais, prioridade, urgência e tramitação concentrada.
 
 ## Tensões e pegadinhas
 

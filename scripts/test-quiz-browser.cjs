@@ -15,6 +15,8 @@ fs.mkdirSync(evidence,{recursive:true});
    const home=await context.newPage();
    await home.goto('http://127.0.0.1:8765/index.html',{waitUntil:'domcontentloaded',timeout:45000});
    await home.locator('.disciplina-card').first().waitFor({state:'visible',timeout:25000});
+   // A transicao de cor dos cards nao deve interferir na assercao semantica.
+   await home.addStyleTag({content:'*,*::before,*::after{transition:none!important;animation:none!important}'});
    for(const theme of ['dark','light']){
     await home.evaluate(t=>document.documentElement.setAttribute('data-theme',t),theme);
     const colors=await home.evaluate(()=>{

@@ -12,25 +12,25 @@ A auditoria anterior, em `Camara 2026 - Auditoria integral por materia/02 - Proc
 
 | Artigo | Assunto | Histórico editorial | Mudança didática aplicada | Validação residual |
 | :--- | :--- | :--- | :--- | :--- |
-| PL15 | parecer, voto e vista | Registro histórico transferido | Vista em duas sessões esclarecida; referências editoriais retiradas | **Leitura jurídica integral pendente** |
-| PL16 | quórum, modalidades e verificação | Registro histórico transferido | Exemplo de 31 apoiadores versus 257 presentes; código removido | **Leitura jurídica integral pendente** |
+| PL15 | parecer, voto e vista | Registro histórico transferido | Vista e sequência de análise esclarecidas; notas editoriais finais transferidas | **Leitura jurídica integral pendente** |
+| PL16 | quórum, modalidades e verificação | Registro histórico transferido | Apoiamento 6% versus presença 257 explicado; limites editoriais transferidos | **Leitura jurídica integral pendente** |
 | PL17 | sanção, veto e promulgação | Registro histórico transferido | Sequência de sanção e veto reescrita; código retirado | **Leitura jurídica integral pendente** |
 | PL18 | abreviado, sumário e prioridade | Registro histórico transferido | Comparação conclusivo, sumário e prioridade integrada | **Leitura jurídica integral pendente** |
 | PL19 | sumaríssimo, especial e concentrado | Registro histórico transferido | Códigos substituídos por remissões e explicações ao leitor | **Leitura jurídica integral pendente** |
 | PL20 | lei delegada | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
 | PL21 | medida provisória | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
 | PL22 | decreto legislativo e resolução | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL23 | organização e órgãos da Câmara | Registro histórico transferido | Rastreabilidade editorial deslocada ao estado; cabeçalho limpo | **Leitura jurídica integral pendente** |
-| PL24 | comissões, fiscalização e sessões | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
+| PL23 | organização e órgãos da Câmara | Registro histórico transferido | Rastreabilidade inicial e nota editorial final transferidas | **Leitura jurídica integral pendente** |
+| PL24 | comissões, fiscalização e sessões | Registro histórico transferido | Nota editorial final transferida; distinções regimentais preservadas | **Leitura jurídica integral pendente** |
 | PL25 | expedientes e Ordem do Dia | Registro histórico transferido | Rastreabilidade deslocada ao estado; cabeçalho limpo | **Leitura jurídica integral pendente** |
-| PL26 | mandato, licenças e suplência | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL27 | administração e polícia interna | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL28 | mapa regimental e edital | Registro histórico transferido | Código da unidade retirado do texto visível | **Leitura jurídica integral pendente** |
+| PL26 | mandato, licenças e suplência | Registro histórico transferido | Nota editorial final transferida; regras de mandato preservadas | **Leitura jurídica integral pendente** |
+| PL27 | administração e polícia interna | Registro histórico transferido | Nota editorial final transferida; regras administrativas preservadas | **Leitura jurídica integral pendente** |
+| PL28 | mapa regimental e edital | Registro histórico transferido | Código de unidade e nota editorial final retirados | **Leitura jurídica integral pendente** |
 | PL29 | sessões conjuntas | Registro histórico transferido | Identificador editorial removido da abertura | **Leitura jurídica integral pendente** |
-| PL30 | Título IV e matérias até art. 103 | Registro histórico transferido | Identificador editorial removido da abertura | **Leitura jurídica integral pendente** |
-| PL31 | comissões mistas e votação | Registro histórico transferido | Identificador editorial removido da abertura | **Leitura jurídica integral pendente** |
-| PL32 | Comissão Representativa | Registro histórico transferido | Identificador editorial removido da abertura | **Leitura jurídica integral pendente** |
-| PL33 | rito de medidas provisórias | Registro histórico transferido | Identificador editorial removido da abertura | **Leitura jurídica integral pendente** |
+| PL30 | Título IV e matérias até art. 103 | Registro histórico transferido | Código de unidade e nota editorial final retirados | **Leitura jurídica integral pendente** |
+| PL31 | comissões mistas e votação | Registro histórico transferido | Ressalva sobre normas especiais integrada; nota editorial arquivada | **Leitura jurídica integral pendente** |
+| PL32 | Comissão Representativa | Registro histórico transferido | Código e nota editorial final retirados | **Leitura jurídica integral pendente** |
+| PL33 | rito de medidas provisórias | Registro histórico transferido | Código e nota editorial final retirados | **Leitura jurídica integral pendente** |
 | PL34 | Código de Ética | Sem seção formal de certificação identificada | Ambiguidade CEDP eliminada; tipicidade explicada; abertura concreta | **Leitura jurídica integral pendente** |
 | PL35 | CPI e CPMI | Sem seção formal de certificação identificada | Função investigatória e instrutória definida com exemplo | **Leitura jurídica integral pendente** |
 | PL36 | comparação das espécies legislativas | Sem seção formal de certificação identificada | Identificador editorial removido; texto substantivo mantido | **Leitura jurídica integral pendente** |
@@ -87,3 +87,9 @@ Em 19/11/2026, comparados os 24 arquivos da branch com a `main` para `articleId`
 **CI:** o workflow de validação do PR inicialmente falhou no teste `scripts/validate-vault-invariants.js --public-only` porque a nota canônica `3 - Materias/Direito Constitucional/38 - blueprints do processo legislativo por especie normativa.md` não consta de `index.md`. A correção é reservada à coordenação responsável pelo índice, expressamente excluído desta missão. Os passos anteriores (referências, questões, identidade de artigos) passaram; build e etapas posteriores foram interrompidos. Não declarar CI, Pages ou EPUB validados. A branch de revisão foi reconciliada com a `main` sem modificação de arquivos de interface.
 
 **Status atual:** inventário 24/24; históricos retirados 19/19; redação ou limpeza adicional em 17 artigos; auditoria jurídica integral 0/24 comprovada. PR permanece como rascunho.
+
+## Terceira rodada: limpeza residual e distinção normativa (19/11/2026)
+
+Foram localizadas **12 observações editoriais finais adicionais** em PL15, PL16, PL23, PL24, PL26, PL27, PL28, PL30, PL31, PL32 e PL33, incluindo uma observação datada de fontes consolidadas em PL15. O texto foi preservado nos documentos de estado correspondentes, sem apagar as referências normativas principais dos artigos. A contagem inclui duas observações em PL15. Em PL31, a ressalva jurídica sobre normas específicas e prevalência constitucional foi integrada na explicação inicial das diferenças entre ambientes decisórios.
+
+Esta limpeza de registros não aumenta a quantidade de artigos com revisão normativa integral comprovada. Mantêm-se as limitações de cotejo jurídico, revisão semântica dos gabaritos e publicação.

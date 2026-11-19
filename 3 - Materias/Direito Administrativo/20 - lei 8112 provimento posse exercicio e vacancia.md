@@ -28,7 +28,9 @@ A **Lei nº 8.112/1990**, que disciplina o regime jurídico dos servidores civis
 
 ## 1. Provimento: conceito, espécies e vedação constitucional de investidura derivada vertical
 
-O **provimento** atribui juridicamente um cargo público a um titular por uma das formas previstas no **art. 8º da Lei nº 8.112/1990**. Nem todo provimento é um primeiro ingresso, nem todo provimento pressupõe cargo atualmente desocupado: a reintegração pode ocorrer com o cargo ocupado, e a readaptação pode colocar o agente em exercício como **excedente** até surgir vaga (art. 24, § 2º).
+**Provimento** é a atribuição jurídica de um cargo público a uma pessoa, por uma das formas previstas no **art. 8º da Lei nº 8.112/1990**. A nomeação é uma forma de provimento, mas há outras, como promoção, readaptação e reintegração.
+
+O provimento pode ocorrer quando a pessoa já tem vínculo com a Administração. Também pode ocorrer mesmo que não exista vaga imediata: na reintegração, o cargo pode estar ocupado; na readaptação, o servidor pode exercer as atribuições como **excedente**, isto é, além das vagas previstas, até que surja uma vaga (art. 24, § 2º).
 
 ```mermaid
 flowchart TD

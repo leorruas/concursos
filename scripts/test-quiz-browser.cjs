@@ -115,35 +115,45 @@ fs.mkdirSync(evidence,{recursive:true});
    fake.summary.valid=6;
    await page.clock.fastForward(60000);
    await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('6 tentativas válidas'));
-   const history=page.getByText('Histórico e diagnóstico detalhado',{exact:true});
-   await history.focus();
-   await page.keyboard.press('Enter');
-   assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
-     (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
-   assert.ok(await page.getByLabel('Conceito',{exact:true}).isVisible());
-   assert.match(await page.locator('#results-principle-history').innerText(), /Início do ciclo atual/);
-   assert.match(await page.locator('#results-principle-history').innerText(), /Resposta: C · Gabarito: E/);
-   assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link direto para leitura prioritária');
-   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
-   assert.deepEqual(errors,[],'painel e quiz sem erros de JS');
-   await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
+   // O painel passou a ter visoes navegaveis e a manter detalhes em paginas proprias.
+   assert.equal(await page.locator('#results-adaptive-actions li').count(),3,'resumo limitado a tres acoes');
+   assert.ok(await page.getByText('Bateria disponível',{exact:true}).isVisible());
    assert.match(await page.locator('#results-study-modes').innerText(), /Aprendizagem · 2 tentativas/);
    assert.match(await page.locator('#results-study-modes').innerText(), /Revisão · 1 tentativa ·/);
    assert.match(await page.locator('#results-study-modes').innerText(), /Bateria com correção ao final/);
    assert.match(await page.locator('#results-retention').innerText(), /após 6 dias/);
    assert.match(await page.locator('#results-competitive-simulations').innerText(), /54 pontos líquidos/);
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
+   await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
+
+   await page.getByRole('link',{name:'Histórico',exact:true}).click();
+   assert.equal(new URL(page.url()).searchParams.get('visao'),'historico');
+   assert.match(await page.locator('#results-principle-history').innerText(), /Início do ciclo atual/);
+   assert.match(await page.locator('#results-principle-history').innerText(), /Resposta: C · Gabarito: E/);
+   assert.equal(await page.locator('#results-adaptive').isVisible(),false,'historico nao repete resumo');
+
+   await page.getByRole('link',{name:'Matérias',exact:true}).click();
+   assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
+     (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
    const coverage=page.locator('#results-edital-coverage summary').first();
    await coverage.focus();
    await page.keyboard.press('Enter');
    assert.ok(await page.getByText('Estudo registrado em 13/11/2026. Ainda sem avaliação na unidade.').isVisible());
    assert.ok(await page.getByText('Referência de teste · Avaliação sem registro').isVisible());
+
+   await page.getByRole('link',{name:'Revisões',exact:true}).click();
+   assert.ok(await page.getByLabel('Conceito',{exact:true}).isVisible());
+   assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link para leitura prioritaria');
+   assert.equal(await page.locator('#results-adaptive-queue-items li').count(),3,'fila adicional acessivel em Revisoes');
+   assert.ok(await page.getByRole('heading',{name:'Estudar · Conteúdo inicial'}).isVisible());
    const discursive=page.getByText('Treinar discursiva',{exact:true});
    await discursive.focus();
    await page.keyboard.press('Enter');
    assert.ok(await page.locator('#results-discursive details details summary').first().isVisible());
-   assert.equal(await page.locator('#results-adaptive-actions li').count(),6);
-   assert.ok(await page.getByRole('heading',{name:'Estudar · Conteúdo inicial'}).isVisible());
-   assert.ok(await page.getByText('Bateria disponível',{exact:true}).isVisible());
+
+   await page.getByRole('link',{name:'Resumo',exact:true}).click();
+   assert.equal(new URL(page.url()).searchParams.get('visao'),'resumo');
+   assert.deepEqual(errors,[],'painel e quiz sem erros JS');
    const launch=page.getByRole('link',{name:'Preparar bateria de 1 questão(ões)'});
    await launch.focus();
    await page.keyboard.press('Enter');

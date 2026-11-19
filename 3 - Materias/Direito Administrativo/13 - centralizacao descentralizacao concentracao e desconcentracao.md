@@ -61,7 +61,9 @@ graph TD
 
 ## 2. Modalidades de Descentralização: Outorga vs. Delegação
 
-O Cebraspe exige a distinção rigorosa entre as modalidades de descentralização administrativa:
+As modalidades de descentralização se distinguem principalmente por **quem passa a executar a atividade e qual instrumento jurídico permite isso**. Na **outorga por serviços**, uma lei atribui competências próprias a uma entidade administrativa, como uma autarquia. Na **delegação por colaboração**, um particular presta o serviço nas condições previstas pela legislação, sem se tornar parte da Administração Indireta.
+
+A tabela compara essas duas situações. Ao ler cada linha, observe **quem recebe a atribuição**, **qual é o instrumento** e **o que permanece sob responsabilidade do poder público**.
 
 | Critério de Comparação | Descentralização por Serviços / Outorga / Legal | Descentralização por Colaboração / Delegação |
 | :--- | :--- | :--- |

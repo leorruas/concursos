@@ -117,10 +117,10 @@ A competência do Tribunal de Contas da União (TCU) varia conforme o objeto e a
 | Autoridade / Responsável | Competência do TCU | Natureza da Decisão | Órgão que julga em definitivo |
 | :--- | :--- | :--- | :--- |
 | **Presidente da República** (contas de governo) | CF, art. 71, I: apreciar mediante **parecer prévio** em 60 dias | **Opinião técnica consultiva** (não vinculante) | **Congresso Nacional** (CF, art. 49, IX), em sessão conjunta, observadas as regras aplicáveis de deliberação |
-| **Demais administradores públicos e responsáveis por dinheiros públicos** (contas de gestão) | CF, art. 71, II: **julgar as contas** | **Decisão com eficácia de título executivo** (art. 71, § 3º) | O próprio **TCU** julga administrativamente em caráter definitivo |
-| **Prefeitos municipais na gestão de verbas federais repassadas** | Julgamento das contas do convênio federal | Título executivo | O próprio **TCU** (Súmula 208 do STJ e Tema 835 do STF) |
+| **Demais administradores públicos e responsáveis por dinheiros públicos** (contas de gestão) | CF, art. 71, II: **julgar as contas** | **Decisão de julgamento de contas**; tem eficácia de título executivo **quando imputar débito ou multa** (art. 71, § 3º) | O próprio **TCU** julga administrativamente em caráter definitivo |
+| **Prefeitos municipais na gestão de verbas federais repassadas** | Exame das contas de recursos federais conforme a competência do TCU | Julgamento de contas; eficácia de título executivo **se houver imputação de débito ou multa** | **TCU**, nos casos de recursos federais sujeitos à sua fiscalização, sem confundir com o julgamento político das contas municipais |
 
-> **Nota Crítica de Jurisprudência — STF, Temas 157 e 835 de Repercussão Geral:**
+> **Distinção entre contas municipais e fiscalização de recursos federais:**
 > Para fins de inelegibilidade de Prefeito ordenador de despesas (Lei Complementar nº 64/1990), a competência para julgar as contas de gestão e de governo do Chefe do Executivo Municipal é exclusiva da **Câmara Municipal**, cabendo ao Tribunal de Contas respectivo emitir parecer prévio (art. 31 da CF). Todavia, se o Prefeito gerir **recursos federais transferidos por convênio**, o TCU julga as contas do convênio (responsabilidade financeira e recomposição do erário perante a União).
 
 ---

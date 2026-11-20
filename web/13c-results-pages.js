@@ -311,7 +311,8 @@
  if(privacy)panels.get('historico').append(privacy);
  function current(){
   if(onWorker){
-   const page=Object.keys(paths).find(id=>paths[id]===location.pathname);
+   if(location.pathname===paths.erros&&new URLSearchParams(location.search).get('visao')==='erros')return 'erros';
+   const page=Object.keys(paths).find(id=>id!=='erros'&&paths[id]===location.pathname);
    if(page)return page;
   }
   const p=new URLSearchParams(location.search).get('visao');

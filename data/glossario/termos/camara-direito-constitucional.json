@@ -2206,6 +2206,68 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-rejeicao-pec",
+      "term": "Rejeição de proposta de emenda à Constituição (PEC)",
+      "aliases": [
+        "PEC rejeitada",
+        "Rejeição de PEC"
+      ],
+      "definition": "Resultado desfavorável de deliberação sobre uma proposta de emenda à Constituição, quando ela não obtém a aprovação exigida. Para ser aprovada, a PEC exige votos favoráveis de três quintos dos membros em dois turnos em cada Casa (CF, art. 60, § 2º). A matéria de PEC rejeitada não pode ser objeto de nova proposta na mesma sessão legislativa (art. 60, § 5º).",
+      "contrast": "Rejeição decorre de deliberação que não aprova a proposta. Prejudicialidade é uma declaração regimental de perda de objeto ou utilidade da apreciação, inclusive sem votação do mérito da proposição prejudicada. Ambas são mencionadas no art. 60, § 5º, mas não significam a mesma coisa.",
+      "cebraspeTrap": "Dizer que toda PEC prejudicada foi rejeitada em votação, ou aplicar à PEC a exceção do art. 67 da CF, que permite reapresentar matéria de projeto de lei rejeitado por iniciativa da maioria absoluta.",
+      "example": "Uma PEC votada em primeiro turno não alcança três quintos dos deputados: não foi aprovada. A matéria da PEC rejeitada não pode ser apresentada novamente na mesma sessão legislativa.",
+      "articleIds": [
+        "art-4c1041281ca44ee5",
+        "art-d269c5708f314eba"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 60, § 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-prejudicialidade-pec",
+      "term": "Prejudicialidade de proposta de emenda à Constituição (PEC)",
+      "aliases": [
+        "PEC prejudicada",
+        "Proposta de emenda havida por prejudicada"
+      ],
+      "definition": "Situação em que uma PEC deixa de ser apreciada por hipótese regimental de prejudicialidade, como quando a decisão sobre outra proposição torna sua análise sem finalidade. A declaração de prejudicialidade não pressupõe votação de mérito da PEC afetada (RICD, arts. 163 e 164). Pelo art. 60, § 5º, da Constituição, a matéria de PEC havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa.",
+      "contrast": "Prejudicialidade é perda de objeto ou de utilidade da apreciação; rejeição é resultado desfavorável de deliberação. O autor pode recorrer da declaração de prejudicialidade ao Plenário da Câmara, em regra dentro de cinco sessões da publicação do despacho, ou imediatamente na hipótese regimental específica, ouvida a CCJC (RICD, art. 164, § 2º).",
+      "cebraspeTrap": "Afirmar que a PEC só pode ser declarada prejudicada após votação de mérito ou que, por não ter sido votada, a mesma matéria pode ser reapresentada livremente na mesma sessão legislativa.",
+      "example": "Duas proposições tratam de alteração constitucional sobre o mesmo ponto. Após decisão sobre uma delas, a outra PEC pode ser declarada prejudicada sem votação própria de mérito, se ocorrer hipótese regimental aplicável.",
+      "articleIds": [
+        "art-4c1041281ca44ee5",
+        "art-d269c5708f314eba"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 60, § 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Regimento Interno da Câmara dos Deputados, arts. 163 e 164",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

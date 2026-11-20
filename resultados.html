@@ -153,6 +153,27 @@
     @media(max-width:650px){.results-concepts-toolbar{align-items:stretch;flex-direction:column;gap:10px}.results-concept-search{width:100%}}
     @media(max-width:650px){.results-quiz-priority{grid-template-columns:25px minmax(0,1fr)}.results-quiz-priority a{grid-column:2}.results-difficulty-row{grid-template-columns:minmax(110px,1fr) minmax(90px,1fr)}.results-difficulty-value{grid-column:1 / -1;text-align:left}}
 
+
+    /* Erros diarios: leitura e anotacao sem persistir dados pessoais. */
+    .results-daily-toolbar{display:flex;align-items:end;gap:12px 20px;flex-wrap:wrap;padding:12px 0 20px;border-bottom:1px solid color-mix(in srgb,var(--text) 28%,transparent)}
+    .results-daily-toolbar p{flex:1 1 100%;margin:0;color:var(--muted);font-size:13px}
+    .results-daily-toolbar label{font-size:12px;color:var(--muted)}
+    .results-daily-toolbar select{background:transparent;color:var(--text);border:1px solid color-mix(in srgb,var(--text) 28%,transparent);border-radius:4px;padding:9px 12px;font:13px 'Archivo',sans-serif;min-width:160px;max-width:100%}
+    .results-daily-group{margin:28px 0 38px}
+    .results-daily-group h3{font-size:17px;letter-spacing:-.025em;color:var(--text);font-weight:620;margin:0 0 10px}
+    .results-daily-card{border-top:1px solid color-mix(in srgb,var(--text) 23%,transparent);padding:20px 0 23px}
+    .results-daily-card-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px}
+    .results-daily-card-head strong{font-size:14px;font-weight:620;color:var(--text)}
+    .results-daily-card-head span{font:11px 'IBM Plex Mono',monospace;color:var(--muted)}
+    .results-daily-statement{font-size:15px;line-height:1.65;color:var(--text);margin:14px 0 17px;white-space:pre-wrap;overflow-wrap:anywhere}
+    .results-daily-answers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 24px;margin:0 0 14px}
+    .results-daily-answers p{font-size:13px;color:var(--text);line-height:1.55;margin:0}
+    .results-daily-answers strong{font-weight:650}
+    .results-daily-explanation{padding:13px 0;border-top:1px solid color-mix(in srgb,var(--text) 14%,transparent);margin-bottom:10px}
+    .results-daily-explanation strong{font-size:13px;color:var(--text);font-weight:650}
+    .results-daily-explanation p{font-size:13px;line-height:1.65;color:var(--muted);white-space:pre-wrap;overflow-wrap:anywhere;margin:6px 0}
+    .results-daily-card .results-link{font-size:13px}
+    @media(max-width:600px){.results-daily-answers{grid-template-columns:1fr}.results-daily-card{padding:17px 0 19px}}
   </style>
 </head>
 <body>

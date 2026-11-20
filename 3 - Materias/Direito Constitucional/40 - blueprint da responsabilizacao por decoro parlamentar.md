@@ -81,6 +81,25 @@ updated: 2026-11-20
 | **Processos de suporte** | Autuação e designação | Depoimentos, provas | Parecer | Controle de admissibilidade recursal | Ata de votação e resolução |
 | **Prazos, marcos e efeitos** | Remessa pela Mesa: **3 sessões ordinárias** quando aplicável | **10 dias úteis** para defesa; **15 dias úteis** de diligências, prorrogáveis uma vez por mais 15 | Prazo global **60 dias úteis** para deliberação conforme art. 16 | **5 dias úteis** para recorrer e **5 dias úteis** para CCJC decidir; efeito suspensivo | Mesa inclui na Ordem do Dia em **até 2 sessões ordinárias** após os marcos legais; suspensão por **até 6 meses** |
 | **Quórum e resultado** | Conselho instrui | Não há votação nesta fase | Conselho delibera parecer | CCJC controla legalidade, não reexamina mérito | **257 votos favoráveis** no Plenário, votação ostensiva; suspende prerrogativas indicadas, não necessariamente o mandato |
+### Nota da rota C: alcance da suspensão de prerrogativas (art. 13, VI a VIII)
+
+**Quem delimita a sanção:** o **Conselho de Ética** define, no parecer e no projeto de resolução, **quais** prerrogativas regimentais propõe suspender. O **Plenário da Câmara dos Deputados** decide sobre a proposta em **votação ostensiva, por maioria absoluta de seus membros (257 votos favoráveis)**, conforme o caput do art. 13. A sanção **pode atingir todas as prerrogativas enumeradas no inciso VI ou apenas algumas**, segundo o inciso VII. Portanto, a afirmação de que a Câmara deve necessariamente suspender todas elas é **errada**.
+
+**Quais prerrogativas podem ser atingidas (rol do art. 13, VI):**
+
+- **Alínea a:** usar a palavra em sessão nos horários do **Pequeno Expediente ou Grande Expediente**. Não equivale a uma proibição geral de toda manifestação parlamentar.
+- **Alínea b:** encaminhar discurso para publicação no **Diário da Câmara dos Deputados**.
+- **Alínea c:** candidatar-se ou permanecer exercendo cargo na **Mesa, Ouvidoria Parlamentar, Procuradoria Parlamentar, Presidência ou Vice-Presidência de comissão, ou como membro de Comissão Parlamentar de Inquérito (CPI)**.
+- **Alínea d:** ser designado **relator de proposição em comissão ou no Plenário**.
+
+**Critérios de escolha e limite:** o Conselho deve fundamentar quais dessas faculdades serão suspensas considerando **a atuação parlamentar anterior do acusado, os motivos e as consequências da infração** (art. 13, VII). O prazo da suspensão não pode ultrapassar **seis meses**, mesmo se atingir todas as prerrogativas da lista (art. 13, VIII). Na suspensão **apenas de prerrogativas** o parlamentar continua titular e no exercício do mandato; o art. 13 não autoriza retirar genericamente o direito de votar em Plenário, nem suspender direitos que não constem do inciso VI.
+
+**Diferença decisiva entre as rotas:** no **art. 13**, a penalidade pode ser **parcial ou integral quanto às prerrogativas enumeradas**, e seu alcance é delimitado pelo Conselho. Já a suspensão **do exercício do mandato**, disciplinada pelo **art. 14, § 1º**, abrange **todas as prerrogativas regimentais** durante o afastamento. Trata-se de outra penalidade, com outro enquadramento e rito.
+
+**Teste no estilo Cebraspe:** “Ao aprovar a suspensão de prerrogativas, a Câmara deve necessariamente alcançar todas as prerrogativas relacionadas no art. 13, sem possibilidade de selecionar apenas algumas.” **Errado.** O inciso VII permite uma escolha fundamentada entre todas ou parte das prerrogativas do inciso VI; o Conselho fixa o alcance da proposta, submetida à deliberação do Plenário.
+
+**Fonte oficial:** [Código de Ética e Decoro Parlamentar, art. 13, caput e incisos VI, VII e VIII; art. 14, § 1º](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html). A explicação detalhada também consta do [[3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara|artigo canônico da matéria]].
+
 ## Rota D: suspensão do exercício ou perda do mandato
 
 **Fundamento:** Código de Ética, arts. 4º, 5º, IV, V, IX e X, 14 e 16; Constituição, art. 55.

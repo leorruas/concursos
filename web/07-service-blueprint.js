@@ -208,7 +208,7 @@ function montarDecoro(table) {
  card.addEventListener("fullscreenchange",()=>{const active=document.fullscreenElement===card;btn.textContent=active?"↙ Sair da tela cheia":"⛶ Tela cheia";btn.setAttribute("aria-pressed",String(active))});
  function cellLines(value,max=34){
   const out=[];let line="";
-  for(const word of String(value).split(/\\s+/)){if((line+" "+word).trim().length>max&&line){out.push(line);line=word}else line=(line+" "+word).trim()}
+  for(const word of String(value).split(/\s+/)){if((line+" "+word).trim().length>max&&line){out.push(line);line=word}else line=(line+" "+word).trim()}
   if(line)out.push(line);
   return out;
  }
@@ -225,6 +225,18 @@ function montarDecoro(table) {
   svg.append(svgNode("text",{x:x+10,y:38,class:"phase-label"},String(i+1).padStart(2,"0")+" · "+label));
   svg.append(svgNode("line",{x1:x-6,y1:0,x2:x-6,y2:height,class:"phase-line"}));
  });
+ // Conexões horizontais entre atos públicos consecutivos: o sentido é temporal.
+ // O espaço entre cartões permanece livre para o traçado, sem atravessar o texto.
+ const frontstageIndex=rows.findIndex(r=>/frontstage|atos institucionais/i.test(r.label));
+ if(frontstageIndex>=0){
+  const cy=rowTops[frontstageIndex]+rowHeights[frontstageIndex]/2-4;
+  for(let i=0;i<phaseCount-1;i++){
+   const from=labelW+i*colW+colW-16;
+   const to=labelW+(i+1)*colW+3;
+   svg.append(svgNode("path",{d:`M ${from} ${cy} H ${to-6}`,class:"connector"}));
+   svg.append(svgNode("path",{d:`M ${to-11} ${cy-5} L ${to-5} ${cy} L ${to-11} ${cy+5}`,class:"connector"}));
+  }
+ }
  rows.forEach((r,ri)=>{
   const y=rowTops[ri],step=rowHeights[ri];
   svg.append(svgNode("rect",{x:0,y:y-8,width,height:step-7,class:"layer-bg"}));

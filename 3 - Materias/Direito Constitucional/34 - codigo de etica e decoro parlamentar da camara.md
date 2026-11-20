@@ -102,6 +102,16 @@ Na dosimetria da pena, consideram-se natureza e gravidade da infração, danos �
 | **Suspensão Temporária do Exercício do Mandato** | **Plenário da Câmara dos Deputados** | Incisos IV, V, IX e X do art. 5º; suspende também **todas as prerrogativas regimentais** (art. 14, § 1º) | Até **6 meses**; defesa **10 dias úteis**, até **8 testemunhas**, instrução **improrrogável de 30 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva. Se a suspensão superar **120 dias**, o **suplente é convocado imediatamente após a publicação da resolução** (art. 14, § 2º). |
 | **Perda do Mandato** | **Plenário da Câmara dos Deputados** | Art. 4º (atos incompatíveis) | Defesa **10 dias úteis**, até **8 testemunhas**, instrução **improrrogável de 40 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva (art. 14). |
 
+### O que acontece depois de uma censura verbal ou escrita?
+
+A **censura verbal** é aplicada pelo Presidente da Câmara dos Deputados durante uma sessão, ou pelo presidente de comissão durante uma reunião (art. 11); o deputado pode recorrer ao respectivo Plenário em **dois dias úteis**. A **censura escrita** é aplicada pela Mesa da Câmara, depois de assegurar **cinco dias úteis de defesa**, e admite recurso ao Plenário da Câmara em **dois dias úteis** (art. 12). Em ambos os casos, o recurso pode alterar o desfecho; sua existência **não é uma etapa obrigatória**.
+
+**Registro institucional:** pelo art. 17, o Sistema de Acompanhamento e Informações do Mandato Parlamentar, disponibilizado pela **Secretaria-Geral da Mesa**, inclui informações sobre **processos disciplinares em andamento e penalidades recebidas**. O Conselho de Ética pode consultá-las, e os dados devem ficar disponíveis aos cidadãos. Isso funciona como histórico institucional, mas a norma **não exige especificamente uma ficha física individual**, nem define nos arts. 11, 12 e 17 um prazo de lançamento da censura.
+
+**Efeitos posteriores:** a aplicação de censura não suspende, por si só, o mandato nem as prerrogativas parlamentares. A **reincidência nas condutas puníveis com censura verbal** pode fundamentar pedido de **censura escrita** por iniciativa do Presidente da Câmara ou de comissão (art. 12). Os **antecedentes do infrator** também são considerados na dosimetria das penalidades disciplinares (art. 10, § 1º). Já o impedimento específico de compor o Conselho de Ética em razão de penalidade anterior (art. 7º, § 2º, II) refere-se às **suspensões de prerrogativas ou do exercício do mandato**, e não à censura isolada. A informação publicada deve distinguir **penalidade mantida**, **penalidade afastada em recurso** e **processo em curso**, sem confundi-los.
+
+**Fonte:** [Código de Ética, arts. 7º, § 2º, 10, § 1º, 11, 12 e 17](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).
+
 ### O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)
 A penalidade de suspensão de prerrogativas regimentais incide sobre faculdades regimentais do deputado, sem retirá-lo da votação em Plenário nem cassar seu subsídio. Podem ser suspensas, por até seis meses, no todo ou em parte:
 - O direito de usar a palavra no horário do Pequeno ou do Grande Expediente;

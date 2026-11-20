@@ -16,12 +16,11 @@ const st=`
 .sb button:disabled{opacity:.35;cursor:default}
 .sb-control{display:flex;flex-wrap:wrap;gap:8px;padding:9px 12px;border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
 .sb-toolbar{display:flex;align-items:center;justify-content:flex-end;gap:10px;padding:8px 12px;background:var(--bg);border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
-.sb-toolbar .sb-expand{font-weight:650;min-height:36px}
-.sb:fullscreen,.sb.sb-expanded{width:100vw;height:100vh;height:100dvh;max-width:none;max-height:none;border:0;border-radius:0;margin:0;background:var(--bg);display:flex;flex-direction:column}
+.sb-toolbar .sb-expand{font-weight:650;min-height:44px}
+.sb:is(:fullscreen,.sb-expanded){width:100vw;height:100vh;height:100dvh;max-width:none;max-height:none;border:0;border-radius:0;margin:0;background:var(--bg);display:flex;flex-direction:column}
 .sb.sb-expanded{position:fixed;inset:0;z-index:99999}
-.sb:fullscreen .sb-toolbar,.sb.sb-expanded .sb-toolbar{flex-shrink:0;padding:12px 18px}
-.sb:fullscreen .sb-canvas,.sb.sb-expanded .sb-canvas{flex:1;min-height:0;max-height:none;overscroll-behavior:contain}
-.sb:fullscreen .sb-foot,.sb.sb-expanded .sb-foot{flex-shrink:0}
+.sb:is(:fullscreen,.sb-expanded) .sb-toolbar{flex-shrink:0;padding:12px 18px}
+.sb:is(:fullscreen,.sb-expanded) .sb-canvas{flex:1;min-height:0;max-height:none;overscroll-behavior:contain}
 .sb-canvas{overflow:auto;max-height:75vh;background:var(--bg)}
 .sb-map{display:block;min-width:100%;height:auto}
 .sb-map .phase-label{font:650 13px system-ui,sans-serif;fill:var(--text)}
@@ -35,7 +34,6 @@ const st=`
 .sb-map .phase-bg{fill:var(--accent-blue-alpha-05)}
 .sb-map .phase-line{stroke:color-mix(in srgb,var(--text) 25%,transparent);stroke-dasharray:3 4}
 .sb-map .line-label{font:10px system-ui,sans-serif;fill:var(--text)}
-.sb-foot{padding:10px 12px;font-size:12px;color:var(--text)}
 .sb-source{display:none!important}
 .sb-source table{display:none!important}
 @media(max-width:700px){.sb-canvas{max-height:68vh}.sb-nav{gap:5px}.sb button{font-size:11px;padding:7px 8px}}
@@ -67,19 +65,18 @@ function montar(table){
  const buttons=fasesLocais.map((name,i)=>{const b=element("button","",String(i+1).padStart(2,"0")+" "+name);b.type="button";nav.append(b);b.addEventListener("click",()=>{current=i;all=false;draw()});return b});
  const prev=element("button","","← anterior"),next=element("button","","próxima →"),toggle=element("button","","visão completa");
  [prev,next,toggle].forEach(b=>b.type="button");bar.append(prev,next,toggle);
- const status=element("p","sb-foot");status.setAttribute("aria-live","polite");
  const toolbar=element("div","sb-toolbar");
- const fullscreen=element("button","sb-expand","⛶ Tela cheia");
+ const fullscreen=element("button","sb-expand","Tela cheia");
  fullscreen.type="button";
  fullscreen.setAttribute("aria-label","Abrir blueprint em tela cheia");
  fullscreen.setAttribute("aria-pressed","false");
  toolbar.append(fullscreen);
- card.append(toolbar,canvas,status);
+ card.append(toolbar,canvas);
  let fallbackExpanded=false;
  const expanded=()=>document.fullscreenElement===card||fallbackExpanded;
  function syncFullscreen(){
    const active=expanded();
-   fullscreen.textContent=active?"↙ Sair da tela cheia":"⛶ Tela cheia";
+   fullscreen.textContent=active?"Sair da tela cheia":"Tela cheia";
    fullscreen.setAttribute("aria-label",active?"Sair da tela cheia do blueprint":"Abrir blueprint em tela cheia");
    fullscreen.setAttribute("aria-pressed",String(active));
  }
@@ -158,7 +155,6 @@ function montar(table){
    buttons.forEach((b,i)=>b.setAttribute("aria-current",!all&&i===current?"step":"false"));
    prev.disabled=all||current===0;next.disabled=all||current===5;
    toggle.textContent=all?"voltar à fase":"visão completa";
-   status.textContent="Visão completa: percorra horizontalmente as fases. Os legitimados e as Casas estão descritos acima do mapa.";
    canvas.scrollLeft=0;
  }
  prev.addEventListener("click",()=>{if(current>0){current--;draw()}});
@@ -179,22 +175,18 @@ function montarDecoro(table) {
  const card=element("section","sb sb-decoro");
  card.setAttribute("aria-label","Blueprint de decoro parlamentar, fases e camadas");
  const toolbar=element("div","sb-toolbar");
- const btn=element("button","sb-expand","⛶ Tela cheia");
- btn.type="button";toolbar.append(btn);
+ const btn=element("button","sb-expand","Tela cheia");
+ btn.type="button";btn.setAttribute("aria-pressed","false");toolbar.append(btn);
  const canvas=element("div","sb-canvas");
- const foot=element("p","sb-foot","Visão completa: percorra horizontalmente as fases. Role para o lado no celular.");
- const details=element("details","sb-original");
- const summary=element("summary","","Ver matriz textual acessível");
- const placeholder=document.createElement("span");
- table.replaceWith(placeholder);
- details.append(summary,table);
- card.append(toolbar,canvas,foot,details);
- placeholder.replaceWith(card);
+ const accessibleMatrix=element("div","sr-only");
+ table.replaceWith(card);
+ accessibleMatrix.append(table);
+ card.append(toolbar,canvas,accessibleMatrix);
  let overflowAnterior="",fallback=false;
  function sair(){
   if(!fallback)return;
   fallback=false;card.classList.remove("sb-expanded");document.body.style.overflow=overflowAnterior;
-  document.removeEventListener("keydown",esc);btn.textContent="⛶ Tela cheia";btn.setAttribute("aria-pressed","false");
+  document.removeEventListener("keydown",esc);btn.textContent="Tela cheia";btn.setAttribute("aria-pressed","false");
  }
  function esc(e){if(e.key==="Escape")sair()}
  btn.addEventListener("click",async()=>{
@@ -203,9 +195,9 @@ function montarDecoro(table) {
   if(card.requestFullscreen){try{await card.requestFullscreen();return}catch(e){}}
   overflowAnterior=document.body.style.overflow;document.body.style.overflow="hidden";
   fallback=true;card.classList.add("sb-expanded");document.addEventListener("keydown",esc);
-  btn.textContent="↙ Sair da tela cheia";btn.setAttribute("aria-pressed","true");
+  btn.textContent="Sair da tela cheia";btn.setAttribute("aria-pressed","true");
  });
- card.addEventListener("fullscreenchange",()=>{const active=document.fullscreenElement===card;btn.textContent=active?"↙ Sair da tela cheia":"⛶ Tela cheia";btn.setAttribute("aria-pressed",String(active))});
+ card.addEventListener("fullscreenchange",()=>{const active=document.fullscreenElement===card;btn.textContent=active?"Sair da tela cheia":"Tela cheia";btn.setAttribute("aria-pressed",String(active))});
  function cellLines(value,max=34){
   const out=[];let line="";
   for(const word of String(value).split(/\s+/)){if((line+" "+word).trim().length>max&&line){out.push(line);line=word}else line=(line+" "+word).trim()}

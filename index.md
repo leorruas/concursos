@@ -602,3 +602,6 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 
 ---
 *Última atualização: 2026-11-04*
+
+
+- [[3 - Materias/Direito Constitucional/40 - blueprint da responsabilizacao por decoro parlamentar|Blueprint: responsabilização por decoro parlamentar, Corregedoria, Conselho de Ética, Mesa, prazos e sanções]]

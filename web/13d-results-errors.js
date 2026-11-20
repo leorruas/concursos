@@ -21,9 +21,11 @@
   for(const a of data?.articles||[]){
    for(const q of a.mistakes||[]){
     const id=q.id||q.questionId||'';
-    const key=[id,q.date,q.statement,q.userAnswer,a.articleId].join('|');
+    const key=id?'id:'+id:['legacy',q.date,q.statement,q.userAnswer].join('|');
     if(seen.has(key))continue;seen.add(key);
-    rows.push({origin:'ChatGPT',day:validDate(q.date),subject:q.subjectId||a.subjectId||a.materiaId||'',
+    // A API unificada já inclui respostas do D1, com IDs iniciados por site:.
+    const fromSite=id.startsWith('site:');
+    rows.push({origin:fromSite?'Site':'ChatGPT',attemptId:fromSite?id.slice(5):'',day:validDate(q.date),subject:q.subjectId||a.subjectId||a.materiaId||'',
      statement:q.statement||'',mine:q.userAnswer,correct:q.correctAnswer,explanation:q.explanation||'',
      articleId:a.articleId,section:q.section||'',questionId:id,topic:q.topic||q.subtopic||''});
    }
@@ -48,12 +50,35 @@
    if(seen.has(key))continue;seen.add(key);
    const q=questions.get(a.questionId)||{};
    const timestamp=Number(a.answeredAt);
-   out.push({origin:'Site',day:Number.isFinite(timestamp)&&timestamp>0?dayFormat.format(new Date(timestamp)):'',
+   out.push({origin:'Site',attemptId:a.id||'',day:Number.isFinite(timestamp)&&timestamp>0?dayFormat.format(new Date(timestamp)):'',
     subject:a.subjectId||q.subjectId||'',statement:q.statement||'',
     mine:a.answer,correct:a.correctAnswer??q.correctAnswer,explanation:q.explanation||'',
     articleId:q.articleId||'',section:q.section||'',questionId:a.questionId||'',topic:q.topic||q.subjectName||''});
   }
   return out;
+ }
+ // O histórico unificado já contém os registros do site: conciliar pelo ID da
+ // tentativa, sem eliminar retestes distintos nem atribuir a origem errada.
+ function reconcileRows(unifiedRows,siteRows){
+  const rows=[...unifiedRows],byAttempt=new Map();
+  rows.forEach((r,i)=>{if(r.origin==='Site'&&r.attemptId)byAttempt.set(r.attemptId,i);});
+  for(const row of siteRows){
+   const index=row.attemptId?byAttempt.get(row.attemptId):undefined;
+   if(index!==undefined){
+    const previous=rows[index];
+    rows[index]={...previous,...row,
+     statement:row.statement||previous.statement,
+     explanation:row.explanation||previous.explanation,
+     articleId:row.articleId||previous.articleId,
+     section:row.section||previous.section,
+     subject:row.subject||previous.subject,
+     topic:row.topic||previous.topic,
+     correct:row.correct??previous.correct,
+     mine:row.mine??previous.mine,
+     day:row.day||previous.day};
+   }else rows.push(row);
+  }
+  return rows;
  }
  function card(r,exam,manifest){
   const item=text('article','results-daily-card');
@@ -121,7 +146,7 @@
   draw();
   const [manifestResult,siteResult]=await Promise.allSettled([getManifest(),siteErrors(exam)]);
   if(seq!==pending)return;
-  if(siteResult.status==='fulfilled')records=[...records,...siteResult.value];
+  if(siteResult.status==='fulfilled')records=reconcileRows(records,siteResult.value);
   else errorMessage='Não foi possível consultar as respostas do site. Os erros do ChatGPT continuam disponíveis.';
   draw();
  }

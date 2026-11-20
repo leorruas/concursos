@@ -166,15 +166,86 @@ function montar(table){
  toggle.addEventListener("click",()=>{all=!all;draw()});
  table.replaceWith(card);draw();return true;
 }
+
+function montarDecoro(table) {
+ const matrix=[...table.querySelectorAll("tr")].map(row=>[...row.children].map(cell=>cell.textContent.trim()));
+ if(!/^camadas\s*\/\s*fases/i.test(matrix[0]?.[0]||""))return false;
+ const phaseCount=matrix[0].length-1;
+ if(phaseCount<2||phaseCount>8)return false;
+ const phaseLabels=matrix[0].slice(1).map((label,i)=>label.replace(/^\d+[. ]+/, "")||"Fase "+(i+1));
+ const rows=matrix.slice(1).filter(c=>c.length>=phaseCount+1).map(c=>({
+  label:c[0], values:c.slice(1,phaseCount+1)
+ })).filter(r=>!/linha de intera[cç][aã]o|linha de visibilidade|linha de intera[cç][aã]o interna/i.test(r.label));
+ const card=element("section","sb sb-decoro");
+ card.setAttribute("aria-label","Blueprint de decoro parlamentar, fases e camadas");
+ const toolbar=element("div","sb-toolbar");
+ const btn=element("button","sb-expand","⛶ Tela cheia");
+ btn.type="button";toolbar.append(btn);
+ const canvas=element("div","sb-canvas");
+ const foot=element("p","sb-foot","Visão completa: percorra horizontalmente as fases. Role para o lado no celular.");
+ const details=element("details","sb-original");
+ const summary=element("summary","","Ver matriz textual acessível");
+ details.append(summary,table);
+ card.append(toolbar,canvas,foot,details);
+ let overflowAnterior="",fallback=false;
+ function sair(){
+  if(!fallback)return;
+  fallback=false;card.classList.remove("sb-expanded");document.body.style.overflow=overflowAnterior;
+  document.removeEventListener("keydown",esc);btn.textContent="⛶ Tela cheia";btn.setAttribute("aria-pressed","false");
+ }
+ function esc(e){if(e.key==="Escape")sair()}
+ btn.addEventListener("click",async()=>{
+  if(fallback){sair();return}
+  if(document.fullscreenElement===card){await document.exitFullscreen();return}
+  if(card.requestFullscreen){try{await card.requestFullscreen();return}catch(e){}}
+  overflowAnterior=document.body.style.overflow;document.body.style.overflow="hidden";
+  fallback=true;card.classList.add("sb-expanded");document.addEventListener("keydown",esc);
+  btn.textContent="↙ Sair da tela cheia";btn.setAttribute("aria-pressed","true");
+ });
+ card.addEventListener("fullscreenchange",()=>{const active=document.fullscreenElement===card;btn.textContent=active?"↙ Sair da tela cheia":"⛶ Tela cheia";btn.setAttribute("aria-pressed",String(active))});
+ const labelW=182,colW=282,top=68,step=112,footer=24;
+ const width=labelW+phaseCount*colW+18,height=top+rows.length*step+footer;
+ const svg=svgNode("svg",{viewBox:`0 0 ${width} ${height}`,width,height,role:"img","aria-label":"Blueprint completo de "+phaseCount+" fases",class:"sb-map"});
+ svg.append(svgNode("title",{},"Responsabilização parlamentar: fases, agentes e evidências"));
+ svg.append(svgNode("rect",{x:0,y:0,width,height,fill:"var(--bg)"}));
+ phaseLabels.forEach((label,i)=>{
+  const x=labelW+i*colW;
+  svg.append(svgNode("rect",{x,y:12,width:colW-9,height:44,rx:7,class:"phase-bg"}));
+  svg.append(svgNode("text",{x:x+10,y:38,class:"phase-label"},String(i+1).padStart(2,"0")+" · "+label));
+  svg.append(svgNode("line",{x1:x-6,y1:0,x2:x-6,y2:height,class:"phase-line"}));
+ });
+ rows.forEach((r,ri)=>{
+  const y=top+ri*step;
+  svg.append(svgNode("rect",{x:0,y:y-8,width,height:step-7,class:"layer-bg"}));
+  wrapLines(r.label,23).forEach((v,j)=>svg.append(svgNode("text",{x:10,y:y+18+j*17,class:"lane-label"},v)));
+  r.values.forEach((value,ci)=>{
+   if(!value||/^(n[aã]o se aplica|·+|[-–—]+)$/i.test(value))return;
+   const x=labelW+ci*colW+4;
+   svg.append(svgNode("rect",{x,y:y-4,width:colW-20,height:step-21,rx:8,class:"node-box"+(/frontstage|atos institucionais/i.test(r.label)?" public":"")}));
+   wrapLines(value,34).forEach((line,j)=>svg.append(svgNode("text",{x:x+11,y:y+17+j*15,class:"node-text"},line)));
+  });
+  if(/ações do requerente|ações do representado|ações do requerente\/representado/i.test(r.label)||/frontstage/i.test(r.label)||/backstage/i.test(r.label)){
+   const label=/frontstage/i.test(r.label)?"Linha de visibilidade":/backstage/i.test(r.label)?"Linha de interação interna":"Linha de interação";
+   svg.append(svgNode("line",{x1:0,y1:y+step-10,x2:width,y2:y+step-10,stroke:"var(--accent-blue)","stroke-width":1.3,"stroke-dasharray":"7 5"}));
+   svg.append(svgNode("text",{x:10,y:y+step-15,class:"line-label"},label));
+  }
+ });
+ canvas.append(svg);
+ table.replaceWith(card);
+ return true;
+}
+
 window.renderizarBlueprintsServicos=function(article){
  const body=document.getElementById("artigo-corpo"),reader=document.getElementById("leitor-artigo");
  reader?.classList.remove("blueprint-view");
  if(!body)return;
  const title=String(document.getElementById("artigo-titulo")?.textContent||"");
  const path=decodeURIComponent(String(article?.path||""));
- if(!/(blueprints do processo legislativo|blueprint das proposicoes da camara|blueprint do (processo|ciclo) orcamentario|blueprint do orcamento federal)/i.test(path.normalize("NFD").replace(/[\u0300-\u036f]/g,"")+" "+title.normalize("NFD").replace(/[\u0300-\u036f]/g,"")))return;
+ const normalized=(path+" "+title).normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+ const decoro=/blueprint da responsabilizacao por decoro parlamentar|apuracao e responsabilizacao por decoro parlamentar/i.test(normalized);
+ if(!decoro && !/(blueprints do processo legislativo|blueprint das proposicoes da camara|blueprint do (processo|ciclo) orcamentario|blueprint do orcamento federal)/i.test(normalized))return;
  if(!document.getElementById("sb-style")){const css=element("style");css.id="sb-style";css.textContent=st;document.head.append(css)}
- let n=0;body.querySelectorAll("table").forEach(t=>{if(montar(t))n++});
+ let n=0;body.querySelectorAll("table").forEach(t=>{if(decoro?montarDecoro(t):montar(t))n++});
  if(n)reader?.classList.add("blueprint-view");
 };
 })();

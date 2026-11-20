@@ -85,7 +85,7 @@
   const rows=records.filter(r=>!subject||r.subject===subject);
   const today=dayFormat.format(new Date());
   const days=[today,...new Set(rows.map(r=>r.day||'sem-data').filter(d=>d!==today))]
-   .sort((a,b)=>a===today?-1:b===today?1:b.localeCompare(a));
+   .sort((a,b)=>a===today?-1:b===today?1:a==='sem-data'?1:b==='sem-data'?-1:b.localeCompare(a));
   const count=Math.min(visibleDays,days.length);
   target.replaceChildren();
   const caption=text('p','results-caption',rows.length+' '+(rows.length===1?'erro registrado':'erros registrados')+
@@ -99,7 +99,7 @@
    const heading=text('h3','results-daily-day',title);
    heading.append(text('span','results-daily-count',items.length+' '+(items.length===1?'erro':'erros')));
    section.append(heading);
-   if(!items.length)section.append(text('p','results-caption','Nenhum erro registrado hoje para esta matéria.'));
+   if(!items.length)section.append(text('p','results-caption',day===today?'Nenhum erro registrado hoje para esta matéria.':'Nenhum erro registrado nesta data.'));
    for(const item of items)section.append(card(item,exam,manifest));
    target.append(section);
   }

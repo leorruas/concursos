@@ -6,6 +6,7 @@
  const $=id=>document.getElementById(id);
  const worker='https://concurso-estudo.leoruas.workers.dev';
  let unified=null,records=[],loadedExam='',pending=0,chosenDay='',errorMessage='';
+ const openedDays=new Set();
  const dayFormat=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'});
  const date=s=>/^\d{4}-\d{2}-\d{2}$/.test(s)?s.split('-').reverse().join('/'):'Data não registrada';
  const text=(tag,cls,value)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(value!==undefined)n.textContent=String(value);return n;};
@@ -84,6 +85,7 @@
   const exam=unified.concursoId,subject=$('results-subject-filter')?.value||'';
   const rows=records.filter(r=>!subject||r.subject===subject);
   const days=[...new Set(rows.map(r=>r.day||'sem-data'))].sort((a,b)=>b.localeCompare(a));
+  if(!openedDays.size&&days.length)openedDays.add(days[0]);
   if(chosenDay&&!days.includes(chosenDay))chosenDay='';
   target.replaceChildren();
   const toolbar=text('div','results-daily-toolbar');
@@ -101,8 +103,14 @@
   const byDay=new Map();
   for(const r of visible){const day=r.day||'sem-data';if(!byDay.has(day))byDay.set(day,[]);byDay.get(day).push(r);}
   for(const [day,items] of byDay){
-   const section=text('section','results-daily-group');
-   section.append(text('h3','',day==='sem-data'?'Data não registrada':date(day)+' · '+items.length+' '+(items.length===1?'erro':'erros')));
+   const section=text('details','results-daily-group');
+   section.dataset.day=day;
+   section.open=chosenDay?true:openedDays.has(day);
+   const heading=text('summary','results-daily-day',day==='sem-data'?'Data não registrada':date(day));
+   heading.append(text('span','results-daily-count',items.length+' '+(items.length===1?'erro':'erros')));
+   section.append(heading);
+   // Preserva a escolha do leitor quando as consultas terminam.
+   section.addEventListener('toggle',()=>{if(section.open)openedDays.add(day);else openedDays.delete(day);});
    for(const item of items)section.append(card(item,exam,manifest));
    target.append(section);
   }
@@ -110,7 +118,7 @@
  async function load(data){
   unified=data;
   const exam=data.concursoId,seq=++pending;
-  errorMessage='';chosenDay='';
+  errorMessage='';chosenDay='';openedDays.clear();
   target.replaceChildren(text('p','results-caption','Consultando os erros registrados…'));
   // Mostra os erros do chat imediatamente, sem aguardar catálogo e D1.
   records=normalizeChat(data);

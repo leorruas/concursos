@@ -5,7 +5,8 @@
   {id:'resumo',label:'Resumo',selectors:['#results-adaptive','#results-legacy','#results-retention']},
   {id:'revisoes',label:'Revisões',selectors:['#results-adaptive-queue','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]']},
   {id:'materias',label:'Matérias',selectors:['[aria-labelledby="title-subjects"]','[aria-labelledby="results-edital-coverage-title"]','[aria-labelledby="results-difficulty-heading"]','[aria-labelledby="results-coverage-title"]']},
-  {id:'historico',label:'Histórico',selectors:['#results-principle-history','[aria-labelledby="results-concept-transfer-title"]']}
+  {id:'historico',label:'Histórico',selectors:['#results-principle-history','[aria-labelledby="results-concept-transfer-title"]']},
+  {id:'erros',label:'Erros por dia',selectors:[]}
  ];
  const root=document.getElementById('results-content');
  if(!root)return;
@@ -14,7 +15,7 @@
  const onWorker=location.origin==='https://concurso-estudo.leoruas.workers.dev';
  const paths={
   resumo:'/resultados-resumo.html',revisoes:'/resultados-revisoes.html',
-  materias:'/resultados-materias.html',historico:'/resultados-historico.html'
+  materias:'/resultados-materias.html',historico:'/resultados-historico.html',erros:'/resultados-historico.html'
  };
  const adaptiveQueue=document.createElement('section');
  adaptiveQueue.id='results-adaptive-queue';
@@ -227,12 +228,13 @@
   resumo:['Visão geral','O que vale fazer agora e como seus estudos estão avançando.'],
   revisoes:['Revisões','Atividades pendentes, retestes e materiais para praticar.'],
   materias:['Desempenho por matéria','Resultados e cobertura dos assuntos previstos no edital.'],
-  historico:['Histórico de aprendizagem','Evidências de revisão e evolução dos conceitos.']
+  historico:['Histórico de aprendizagem','Evidências de revisão e evolução dos conceitos.'],
+  erros:['Erros por dia','Questões erradas, respostas e explicações organizadas por data.']
  };
  for(const view of views){
   const a=document.createElement('a');a.textContent=view.label;
   const href=new URL(location.href);
-  if(onWorker){href.pathname=paths[view.id];href.searchParams.delete('visao');}
+  if(onWorker){href.pathname=paths[view.id];if(view.id==='erros')href.searchParams.set('visao','erros');else href.searchParams.delete('visao');}
   else href.searchParams.set('visao',view.id);
   a.href=href.pathname+href.search+href.hash;
   nav.append(a);links.set(view.id,a);
@@ -245,6 +247,10 @@
   for(const selector of view.selectors){
    const section=root.querySelector(selector);
    if(section)panel.append(section);
+  }
+  if(view.id==='erros'){
+   const region=document.createElement('section');region.id='results-errors';region.className='results-section';region.setAttribute('aria-live','polite');
+   region.textContent='Carregando registros de erros…';panel.append(region);
   }
   panels.set(view.id,panel);
  }

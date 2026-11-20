@@ -37,34 +37,36 @@ updated: 2026-11-20
 
 **Fundamento:** Código de Ética, arts. 5º, I e II, e 11.
 
-| Camadas / fases | 1. Conduta em sessão | 2. Censura | 3. Recurso | 4. Conclusão |
-| :--- | :--- | :--- | :--- | :--- |
-| **Evidências e documentos** | Registro de perturbação ou má conduta | Censura verbal e registro de sessão | Recurso do deputado | Decisão do respectivo Plenário |
-| **Ações do requerente/representado** | Deputado pratica conduta | Deputado recebe censura | Deputado pode recorrer | Cumpre decisão |
-| *Linha de interação* | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos institucionais** | Presidente da Câmara ou presidente de comissão verifica conduta | Presidente da Câmara, em sessão, ou presidente de comissão, em reunião, aplica censura | Plenário da Câmara ou da comissão recebe recurso, conforme origem | Respectivo Plenário decide |
-| *Linha de visibilidade* | ··· | ··· | ··· | ··· |
-| **Backstage: instrução** | Secretaria registra ocorrência | Secretaria registra ato | Secretaria instrui recurso | Secretaria registra resultado |
-| *Linha de interação interna* | ··· | ··· | ··· | ··· |
-| **Processos de suporte** | Ata da sessão/reunião | Regimento e Código de Ética | Protocolo de recurso | Registro decisório |
-| **Prazos, marcos e efeitos** | Durante sessão/reunião | Aplicação no contexto da sessão ou reunião | **2 dias úteis** para recorrer da censura verbal | Sem prazo geral de julgamento especificado pelo art. 11 |
-| **Órgão decisor e quórum** | Presidente da Câmara dos Deputados, em sessão, ou presidente da comissão, em reunião | A autoridade que preside aplica a censura verbal, sem votação prévia | Recurso dirigido ao Plenário da Câmara ou ao Plenário da comissão que aplicou a censura (art. 11, parágrafo único) | **Plenário da Câmara:** presença mínima de **257 deputados** e aprovação por maioria dos votos dos presentes (RICD, art. 183). **Plenário da comissão:** presença da maioria absoluta de seus membros e aprovação por maioria dos votos (RICD, art. 56, § 2º); não há exigência especial de 257 votos nem quórum qualificado para esse recurso no art. 11. |
+| Camadas / fases | 1. Conduta em sessão | 2. Censura | 3. Recurso | 4. Conclusão | 5. Registro e efeitos |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | Registro de perturbação ou má conduta | Censura verbal e registro de sessão | Recurso do deputado | Decisão do respectivo Plenário | Ata e decisão sobre eventual recurso; dados da penalidade recebida (art. 17) |
+| **Ações do requerente/representado** | Deputado pratica conduta | Deputado recebe censura | Deputado pode recorrer | Cumpre decisão | Deputado conhece o resultado e pode consultar registros do mandato |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos institucionais** | Presidente da Câmara ou presidente de comissão verifica conduta | Presidente da Câmara, em sessão, ou presidente de comissão, em reunião, aplica censura | Plenário da Câmara ou da comissão recebe recurso, conforme origem | Respectivo Plenário decide | Secretaria-Geral da Mesa disponibiliza dados sobre penalidades nos sistemas da Câmara (art. 17) |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: instrução** | Secretaria registra ocorrência | Secretaria registra ato | Secretaria instrui recurso | Secretaria registra resultado | Serviços registram a censura aplicada ou o resultado do recurso e preservam a documentação da sessão |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Ata da sessão/reunião | Regimento e Código de Ética | Protocolo de recurso | Registro decisório | Atas; decisões; Sistema de Acompanhamento e Informações do Mandato Parlamentar |
+| **Prazos, marcos e efeitos** | Durante sessão/reunião | Aplicação no contexto da sessão ou reunião | **2 dias úteis** para recorrer da censura verbal | Sem prazo geral de julgamento especificado pelo art. 11 | Arts. 11 e 17 não fixam prazo específico para lançamento. Reincidência nas condutas do art. 11 pode levar à censura escrita (art. 12) |
+| **Órgão decisor e quórum** | Presidente da Câmara dos Deputados, em sessão, ou presidente da comissão, em reunião | A autoridade que preside aplica a censura verbal, sem votação prévia | Recurso dirigido ao Plenário da Câmara ou ao Plenário da comissão que aplicou a censura (art. 11, parágrafo único) | **Plenário da Câmara:** presença mínima de **257 deputados** e aprovação por maioria dos votos dos presentes (RICD, art. 183). **Plenário da comissão:** presença da maioria absoluta de seus membros e aprovação por maioria dos votos (RICD, art. 56, § 2º); não há exigência especial de 257 votos nem quórum qualificado para esse recurso no art. 11. | Sem nova votação. Registrar a censura efetivamente mantida; se o recurso afastar a penalidade, refletir esse resultado |
 ## Rota B: censura escrita
 
 **Fundamento:** Código de Ética, arts. 5º, III, e 12.
 
-| Camadas / fases | 1. Provocação | 2. Defesa | 3. Decisão | 4. Recurso |
-| :--- | :--- | :--- | :--- | :--- |
-| **Evidências e documentos** | Provocação do ofendido ou solicitação da Presidência por reincidência | Defesa do deputado | Decisão escrita da Mesa | Recurso e decisão do Plenário |
-| **Ações do requerente/representado** | Ofendido provoca Mesa; Presidente da Câmara ou de comissão solicita em caso de reincidência | Deputado apresenta defesa | Deputado toma ciência | Deputado pode recorrer |
-| *Linha de interação* | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos institucionais** | Mesa recebe pedido | Mesa assegura defesa | Mesa decide se aplica censura escrita | Plenário da Câmara aprecia eventual recurso |
-| *Linha de visibilidade* | ··· | ··· | ··· | ··· |
-| **Backstage: instrução** | Serviços classificam hipótese | Secretaria registra defesa | Secretaria formaliza a decisão | Secretaria encaminha e registra recurso |
-| *Linha de interação interna* | ··· | ··· | ··· | ··· |
-| **Processos de suporte** | Requerimento e registro de reincidência | Autos e contraditório | Ato de censura | Registro do Plenário |
-| **Prazos, marcos e efeitos** | Sem prazo geral fixado no art. 12 para provocar | **5 dias úteis** de defesa antes da deliberação da Mesa | Decisão após defesa; art. 12 não fixa prazo único | **2 dias úteis** para recurso ao Plenário da Câmara |
-| **Órgão decisor** | Mesa recebe | Mesa garante defesa | **Mesa da Câmara** aplica | **Plenário da Câmara** decide recurso; censura não depende de aprovação prévia do Plenário |
+| Camadas / fases | 1. Provocação | 2. Defesa | 3. Decisão | 4. Recurso | 5. Registro e efeitos |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | Provocação do ofendido ou solicitação da Presidência por reincidência | Defesa do deputado | Decisão escrita da Mesa | Recurso e decisão do Plenário | Decisão escrita da Mesa, eventual julgamento do recurso e informação sobre a penalidade (art. 17) |
+| **Ações do requerente/representado** | Ofendido provoca Mesa; Presidente da Câmara ou de comissão solicita em caso de reincidência | Deputado apresenta defesa | Deputado toma ciência | Deputado pode recorrer | Deputado conhece o resultado final e continua exercendo o mandato |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos institucionais** | Mesa recebe pedido | Mesa assegura defesa | Mesa decide se aplica censura escrita | Plenário da Câmara aprecia eventual recurso | Mesa formaliza a sanção; Secretaria-Geral da Mesa disponibiliza informações do histórico disciplinar (art. 17) |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: instrução** | Serviços classificam hipótese | Secretaria registra defesa | Secretaria formaliza a decisão | Secretaria encaminha e registra recurso | Serviços preservam decisão da Mesa e eventual decisão recursal |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Requerimento e registro de reincidência | Autos e contraditório | Ato de censura | Registro do Plenário | Decisões e Sistema de Acompanhamento e Informações do Mandato Parlamentar |
+| **Prazos, marcos e efeitos** | Sem prazo geral fixado no art. 12 para provocar | **5 dias úteis** de defesa antes da deliberação da Mesa | Decisão após defesa; art. 12 não fixa prazo único | **2 dias úteis** para recurso ao Plenário da Câmara | Arts. 12 e 17 não fixam prazo específico para registro; antecedentes podem ser considerados em processo futuro (art. 10, § 1º) |
+| **Órgão decisor** | Mesa recebe | Mesa garante defesa | **Mesa da Câmara** aplica | **Plenário da Câmara** decide recurso; censura não depende de aprovação prévia do Plenário | Sem nova votação: Mesa aplica censura escrita. Plenário só decide se houver recurso; sanção escrita não suspende, por si, prerrogativas |
+**Destino das censuras e das decisões recursais (Código de Ética, arts. 10 a 12 e 17):** censura verbal e escrita são penalidades disciplinares. O art. 17 prevê dados sobre processos em andamento e penalidades recebidas no Sistema de Acompanhamento e Informações do Mandato Parlamentar, disponibilizado pela Secretaria-Geral da Mesa; o Conselho de Ética tem acesso para consulta, e os cidadãos podem acessar as informações. O Código **não determina ficha física nem prazo específico para lançamento de cada censura**. A reincidência nas condutas do art. 11 permite solicitar **censura escrita** (art. 12); os antecedentes também entram na dosimetria de sanções futuras (art. 10, § 1º). Se o recurso afastar a censura, o registro do resultado não deve ser tratado como sanção mantida. O impedimento específico de integrar o Conselho (art. 7º, § 2º, II) menciona suspensão de prerrogativas ou do mandato, **não simples censura**.
+
 ## Rota C: suspensão de prerrogativas regimentais
 
 **Fundamento:** Código de Ética, arts. 5º, VI a VIII, 13 e 16.

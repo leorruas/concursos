@@ -2177,6 +2177,35 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-comunicacoes-de-lideranca",
+      "term": "Comunicações de liderança",
+      "aliases": [
+        "Comunicação de liderança",
+        "Tempo de liderança"
+      ],
+      "definition": "Uso da palavra por líderes de partidos ou blocos para tratar de assuntos de relevância nacional, em qualquer momento da sessão da Câmara. O líder pode falar pessoalmente ou delegar por escrito a um vice-líder (RICD, art. 66, § 1º). Pelo art. 89, o tempo é proporcional à bancada, de 3 a 10 minutos; as lideranças do Governo, da Maioria, da Minoria e da Oposição têm 8 minutos cada. Não são permitidos apartes, e líderes podem ceder entre si todo ou parte do tempo.",
+      "contrast": "A fala de liderança não é uma fase limitada ao Pequeno ou ao Grande Expediente nem à Ordem do Dia. O teto de 3 falas por semestre (1 por sorteio e 2 por cessão de vaga) é específico do Grande Expediente, no art. 87, § 2º. Comunicações parlamentares do art. 90 são outra modalidade. O RICD não fixa limite semestral geral para a comunicação dos líderes; situações específicas possuem regras próprias, como o partido sem liderança constituída, que pode indicar um deputado para falar uma vez por semana por 5 minutos (art. 9º, § 4º).",
+      "cebraspeTrap": "Aplicar o limite de três vezes por semestre do Grande Expediente às comunicações de liderança; afirmar que só ocorrem na Ordem do Dia; admitir apartes; ou negar a delegação escrita ao vice-líder.",
+      "example": "Durante a Ordem do Dia, a líder de uma bancada faz uma comunicação sobre tema de relevância nacional por tempo proporcional à bancada, sem apartes. Essa intervenção não consome uma das três vagas semestrais do Grande Expediente.",
+      "articleIds": [
+        "art-53a7d90f1b264c8e",
+        "art-6d8e3f041b9a52c7"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Regimento Interno da Câmara dos Deputados, arts. 9º, § 4º; 66, § 1º; 87, § 2º; e 89",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

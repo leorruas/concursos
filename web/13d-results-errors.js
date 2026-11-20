@@ -112,13 +112,15 @@
   const exam=data.concursoId,seq=++pending;
   errorMessage='';chosenDay='';
   target.replaceChildren(text('p','results-caption','Consultando os erros registrados…'));
-  await getManifest();
-  let site=[];
-  try{site=await siteErrors(exam);}
-  catch(e){errorMessage=e.message+' Os erros do ChatGPT continuam disponíveis.';}
+  // Mostra os erros do chat imediatamente, sem aguardar catálogo e D1.
+  records=normalizeChat(data);
+  loadedExam=exam;
+  draw();
+  const [manifestResult,siteResult]=await Promise.allSettled([getManifest(),siteErrors(exam)]);
   if(seq!==pending)return;
-  records=[...normalizeChat(data),...site];
-  loadedExam=exam;draw();
+  if(siteResult.status==='fulfilled')records=[...records,...siteResult.value];
+  else errorMessage='Não foi possível consultar as respostas do site. Os erros do ChatGPT continuam disponíveis.';
+  draw();
  }
  window.addEventListener('results:data',e=>{if(e.detail?.data)void load(e.detail.data);});
  window.addEventListener('results:filter',()=>{if(unified)draw();});

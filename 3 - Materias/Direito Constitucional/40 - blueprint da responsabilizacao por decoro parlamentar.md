@@ -19,9 +19,13 @@ updated: 2026-11-20
 
 **Origem e triagem:** qualquer cidadão pode requerer representação à **Mesa da Câmara dos Deputados** com fatos e provas. Partido político representado no Congresso Nacional apresenta representação que a Mesa remete diretamente ao Conselho, no prazo de **3 sessões ordinárias**. Para requerimento de cidadão, a Mesa faz o exame preliminar regulamentado e, se houver indícios suficientes e não houver inépcia, encaminha em **3 sessões ordinárias** ao Conselho quando cabível suspensão ou perda; se a hipótese for censura, segue arts. 11 ou 12 (art. 9º, §§ 1º a 3º). Não confundir a unidade *sessão* com *dia útil*.
 
-## Rota preliminar: representação e Corregedoria
+## Rota preliminar: entrada das representações e apuração eventual pela Corregedoria
 
-**Fundamento:** Código de Ética, art. 9º; Ato da Mesa nº 37/2009, arts. 1º a 9º.
+**Quando esta rota se aplica:** esta matriz descreve a **entrada e a triagem de representações dirigidas à Mesa**, antes do encaminhamento à rota disciplinar correspondente. **Não é uma etapa obrigatória e idêntica para todas as sanções.** O requerimento de **cidadão** exige apreciação preliminar pela Mesa, com exame de indícios e inépcia. A representação de **partido político representado no Congresso Nacional** é remetida pela Mesa **diretamente ao Conselho de Ética**, em até **3 sessões ordinárias**, sem passar obrigatoriamente pela apuração da Corregedoria (art. 9º, §§ 1º a 3º). A **censura verbal** também pode ser aplicada diretamente pelo Presidente da Câmara dos Deputados, em sessão, ou pelo presidente de comissão, em reunião, diante das condutas do art. 5º, I e II (art. 11). Para a **censura escrita**, a Mesa atua conforme a provocação do ofendido ou a solicitação da Presidência por reincidência (art. 12). A investigação da **Corregedoria**, quando acionada, é um percurso preliminar próprio e não substitui o Conselho nem o Plenário.
+
+**Destino:** conforme a origem, o enquadramento e o exame da Mesa, há arquivamento preliminar, aplicação do rito de censura (rotas A ou B) ou remessa ao Conselho para suspensão de prerrogativas, suspensão do exercício ou perda do mandato (rotas C ou D). A representação partidária segue ao Conselho nos termos do art. 9º, § 3º, onde se aplicam os controles processuais próprios. **As setas entre a matriz preliminar e as outras rotas representam alternativas condicionais, e não uma sequência universal.**
+
+**Fundamento:** Código de Ética, arts. 9º, 11 e 12; Ato da Mesa nº 37/2009, arts. 1º a 9º.
 
 | Camadas / fases | 1. Notícia | 2. Triagem | 3. Apuração | 4. Destino | 5. Registro e efeitos |
 | :--- | :--- | :--- | :--- | :--- | :--- |

@@ -46,10 +46,36 @@ function svgNode(name,attrs,text){
  if(text!==undefined)node.textContent=text;
  return node;
 }
-function wrapLines(str,max=32){
- const words=String(str).split(/\s+/),out=[];let line="";
- for(const word of words){if((line+" "+word).trim().length>max&&line){out.push(line);line=word}else line=(line+" "+word).trim()}
- if(line)out.push(line);return out.slice(0,5);
+// Medir em pixels com a mesma familia/tamanho usados nos textos SVG.
+const measureCanvas=document.createElement("canvas");
+const measureContext=measureCanvas.getContext("2d");
+function measureWidth(value,font){
+ if(!measureContext)return String(value).length*7.2; // contingencia sem Canvas 2D
+ measureContext.font=font;
+ return measureContext.measureText(String(value)).width;
+}
+function wrapPixels(value,maxWidth,font="12px system-ui, sans-serif"){
+ const text=String(value??"").trim();
+ if(!text)return [];
+ const limit=Math.max(24,maxWidth),result=[];
+ for(const paragraph of text.split(/\n/)){
+  let current="";
+  for(const word of paragraph.split(/\s+/).filter(Boolean)){
+   const candidate=current?current+" "+word:word;
+   if(measureWidth(candidate,font)<=limit){current=candidate;continue}
+   if(current){result.push(current);current=""}
+   if(measureWidth(word,font)<=limit){current=word;continue}
+   // Quebrar palavras longas por ponto de codigo, sem perder caracteres.
+   let fragment="";
+   for(const char of Array.from(word)){
+    if(fragment&&measureWidth(fragment+char,font)>limit){result.push(fragment);fragment=char}
+    else fragment+=char;
+   }
+   current=fragment;
+  }
+  if(current)result.push(current);
+ }
+ return result;
 }
 function montar(table){
  const data=[...table.querySelectorAll("tr")].map(r=>[...r.children].map(c=>c.textContent.trim()));
@@ -108,48 +134,63 @@ function montar(table){
  fullscreen.addEventListener("click",toggleFullscreen);
  card.addEventListener("fullscreenchange",syncFullscreen);
  function draw(){
-   const phaseIds=all?[0,1,2,3,4,5]:[current],pw=all?285:550,labelWidth=all?155:182,cellWidth=all?245:490;
+   const phaseIds=all?[0,1,2,3,4,5]:[current],pw=all?285:550,labelWidth=all?155:182,cellWidth=pw-26;
    const routeRows=data.length>=14 && /regime de urg[eê]ncia/i.test(data[12]?.[0]||"") && /decis[aã]o conclusiva/i.test(data[13]?.[0]||"");
-   const height=quorumRows?(routeRows?1135:940):735,width=labelWidth+phaseIds.length*pw+24;
-   const svg=svgNode("svg",{viewBox:"0 0 "+width+" "+height,width:width,height:height,role:"img","aria-label":all?"Blueprint completo de seis fases":"Blueprint da fase "+fasesLocais[current],class:"sb-map"});
+   const layers=[{source:1,label:"Evidências"},{source:2,label:"Proponente"},{source:4,label:"Atores públicos"},{source:6,label:"Bastidores"},{source:8,label:"Suporte"},{source:9,label:"Prazos e marcos"}];
+   if(quorumRows)layers.push({source:10,label:"Quórum: presença"},{source:11,label:"Quórum: aprovação"});
+   if(routeRows)layers.push({source:12,label:"Urgência e regime"},{source:13,label:"Comissão / Plenário"});
+   const lineHeight=17,paddingTop=19,paddingBottom=17;
+   const prepared=layers.map(layer=>{
+    const values=phaseIds.map(phase=>{
+     const val=String(data[layer.source]?.[phase+1]||"");
+     return /^(não se aplica|·{3}|-{1,2})$/i.test(val)?[]:wrapPixels(val,cellWidth-22);
+    });
+    const labelLines=wrapPixels(layer.label,labelWidth-20,"600 11px system-ui, sans-serif");
+    const maxLines=Math.max(labelLines.length,...values.map(v=>v.length),1);
+    return {...layer,values,labelLines,height:Math.max(96,paddingTop+maxLines*lineHeight+paddingBottom)};
+   });
+   const top=76,footer=25,width=labelWidth+phaseIds.length*pw+24;
+   let offset=top;
+   prepared.forEach(layer=>{layer.y=offset;offset+=layer.height});
+   const height=offset+footer;
+   const svg=svgNode("svg",{viewBox:"0 0 "+width+" "+height,width,height,role:"img","aria-label":all?"Blueprint completo de seis fases":"Blueprint da fase "+fasesLocais[current],class:"sb-map"});
    svg.append(svgNode("title",{},all?"Mapa das seis fases":"Mapa da fase "+fasesLocais[current]));
    svg.append(svgNode("rect",{x:0,y:0,width,height,fill:"var(--bg)"}));
-   const layers=[{source:1,label:"Evidências",y:84},{source:2,label:"Proponente",y:184},{source:4,label:"Atores públicos",y:288},{source:6,label:"Bastidores",y:390},{source:8,label:"Suporte",y:490},{source:9,label:"Prazos e marcos",y:592}];
-   if(quorumRows) layers.push(
-     {source:10,label:"Quórum: presença",y:694},
-     {source:11,label:"Quórum: aprovação",y:796}
-   );
-   if(routeRows) layers.push(
-     {source:12,label:"Urgência e regime",y:898},
-     {source:13,label:"Comissão / Plenário",y:1000}
-   );
-   const lines=[{y:271,label:"Linha de interação"},{y:374,label:"Linha de visibilidade"},{y:475,label:"Linha interna"}];
-   for(const item of layers){
-     svg.append(svgNode("rect",{x:0,y:item.y-13,width,height:92,class:"layer-bg"}));
-     const label=svgNode("text",{x:12,y:item.y+9,class:"lane-label"},item.label);svg.append(label);
-   }
-   for(const line of lines){
-     svg.append(svgNode("line",{x1:0,y1:line.y,x2:width,y2:line.y,stroke:"var(--accent-blue)","stroke-width":1.4,"stroke-dasharray":"7 5"}));
-     svg.append(svgNode("text",{x:12,y:line.y-5,class:"line-label"},line.label));
-   }
-   phaseIds.forEach((phase,pi)=>{
-     const x=labelWidth+pi*pw;
-     svg.append(svgNode("rect",{x,y:8,width:pw-8,height:44,rx:7,class:"phase-bg"}));
-     svg.append(svgNode("text",{x:x+12,y:34,class:"phase-label"},String(phase+1).padStart(2,"0")+" · "+fasesLocais[phase]));
-     svg.append(svgNode("line",{x1:x-10,y1:0,x2:x-10,y2:height,class:"phase-line"}));
-     layers.forEach((layer,li)=>{
-       const val=data[layer.source][phase+1],empty=/^(não se aplica|·{3}|-{1,2})$/i.test(val);
-       if(empty)return;
-       const top=layer.y-10,w=pw-26,h=78;
-       svg.append(svgNode("rect",{x:x+5,y:top,width:w,height:h,rx:9,class:"node-box"+(li===1||li===2?" public":"")}));
-       const lines=wrapLines(val,all?29:52);
-       lines.forEach((line,k)=>svg.append(svgNode("text",{x:x+16,y:top+22+k*15,class:"node-text"},line)));
-     });
-     if(pi>0){
-      svg.append(svgNode("path",{d:"M "+(x-19)+" 321 h 18",class:"connector"}));
-      svg.append(svgNode("path",{d:"M "+(x-5)+" 317 l 5 4 -5 4",class:"connector"}));
-     }
+   prepared.forEach((layer,li)=>{
+    svg.append(svgNode("rect",{x:0,y:layer.y-8,width,height:layer.height-7,class:"layer-bg"}));
+    layer.labelLines.forEach((t,k)=>svg.append(svgNode("text",{x:12,y:layer.y+15+k*lineHeight,class:"lane-label"},t)));
+    phaseIds.forEach((phase,pi)=>{
+     const lines=layer.values[pi];
+     if(!lines.length)return;
+     const x=labelWidth+pi*pw+5;
+     svg.append(svgNode("rect",{x,y:layer.y-4,width:cellWidth,height:layer.height-19,rx:9,class:"node-box"+(li===1||li===2?" public":"")}));
+     lines.forEach((t,k)=>svg.append(svgNode("text",{x:x+11,y:layer.y+16+k*lineHeight,class:"node-text"},t)));
+    });
+    if(li===1||li===2||li===3){
+     const names=["Linha de interação","Linha de visibilidade","Linha interna"];
+     const label=names[li-1];
+     const lineY=layer.y+layer.height-10;
+     svg.append(svgNode("line",{x1:0,y1:lineY,x2:width,y2:lineY,stroke:"var(--accent-blue)","stroke-width":1.4,"stroke-dasharray":"7 5"}));
+     svg.append(svgNode("text",{x:12,y:lineY-5,class:"line-label"},label));
+    }
    });
+   phaseIds.forEach((phase,pi)=>{
+    const x=labelWidth+pi*pw;
+    svg.append(svgNode("rect",{x,y:8,width:pw-8,height:44,rx:7,class:"phase-bg"}));
+    svg.append(svgNode("text",{x:x+12,y:34,class:"phase-label"},String(phase+1).padStart(2,"0")+" · "+fasesLocais[phase]));
+    svg.append(svgNode("line",{x1:x-10,y1:0,x2:x-10,y2:height,class:"phase-line"}));
+   });
+   if(phaseIds.length>1){
+    const front=prepared.find(layer=>layer.source===4);
+    if(front){
+     const cy=front.y+front.height/2;
+     for(let pi=1;pi<phaseIds.length;pi++){
+      const x=labelWidth+pi*pw;
+      svg.append(svgNode("path",{d:`M ${x-19} ${cy} h 18`,class:"connector"}));
+      svg.append(svgNode("path",{d:`M ${x-5} ${cy-4} l 5 4 -5 4`,class:"connector"}));
+     }
+    }
+   }
    canvas.replaceChildren(svg);
    card.classList.toggle("sb-full",all);
    buttons.forEach((b,i)=>b.setAttribute("aria-current",!all&&i===current?"step":"false"));
@@ -199,14 +240,10 @@ function montarDecoro(table) {
   btn.textContent="Sair da tela cheia";btn.setAttribute("aria-pressed","true");
  });
  card.addEventListener("fullscreenchange",()=>{const active=document.fullscreenElement===card;btn.textContent=active?"Sair da tela cheia":"Tela cheia";btn.setAttribute("aria-pressed",String(active))});
- function cellLines(value,max=34){
-  const out=[];let line="";
-  for(const word of String(value).split(/\s+/)){if((line+" "+word).trim().length>max&&line){out.push(line);line=word}else line=(line+" "+word).trim()}
-  if(line)out.push(line);
-  return out;
- }
  const labelW=182,colW=282,top=68,footer=24;
- const rowHeights=rows.map(r=>Math.max(112,26+Math.max(...r.values.map(v=>cellLines(v).length),cellLines(r.label,23).length)*15));
+ const textWidth=colW-42,leading=17;
+ const prepared=rows.map(r=>({label:wrapPixels(r.label,labelW-22,"600 11px system-ui, sans-serif"),values:r.values.map(v=>wrapPixels(v,textWidth))}));
+ const rowHeights=prepared.map(r=>Math.max(112,38+Math.max(...r.values.map(v=>v.length),r.label.length,1)*leading));
  const rowTops=rows.map((_,i)=>top+rowHeights.slice(0,i).reduce((a,b)=>a+b,0));
  const width=labelW+phaseCount*colW+18,height=top+rowHeights.reduce((a,b)=>a+b,0)+footer;
  const svg=svgNode("svg",{viewBox:`0 0 ${width} ${height}`,width,height,role:"img","aria-label":"Blueprint completo de "+phaseCount+" fases",class:"sb-map"});
@@ -221,12 +258,12 @@ function montarDecoro(table) {
  rows.forEach((r,ri)=>{
   const y=rowTops[ri],step=rowHeights[ri];
   svg.append(svgNode("rect",{x:0,y:y-8,width,height:step-7,class:"layer-bg"}));
-  cellLines(r.label,23).forEach((v,j)=>svg.append(svgNode("text",{x:10,y:y+18+j*17,class:"lane-label"},v)));
+  prepared[ri].label.forEach((v,j)=>svg.append(svgNode("text",{x:10,y:y+18+j*leading,class:"lane-label"},v)));
   r.values.forEach((value,ci)=>{
    if(!value||/^(n[aã]o se aplica|·+|[-–—]+)$/i.test(value))return;
    const x=labelW+ci*colW+4;
    svg.append(svgNode("rect",{x,y:y-4,width:colW-20,height:step-21,rx:8,class:"node-box"+(/frontstage|atos institucionais/i.test(r.label)?" public":"")}));
-   cellLines(value,34).forEach((line,j)=>svg.append(svgNode("text",{x:x+11,y:y+17+j*15,class:"node-text"},line)));
+   prepared[ri].values[ci].forEach((line,j)=>svg.append(svgNode("text",{x:x+11,y:y+17+j*leading,class:"node-text"},line)));
   });
   if(/ações do requerente|ações do representado|ações do requerente\/representado/i.test(r.label)||/frontstage/i.test(r.label)||/backstage/i.test(r.label)){
    const label=/frontstage/i.test(r.label)?"Linha de visibilidade":/backstage/i.test(r.label)?"Linha de interação interna":"Linha de interação";

@@ -5,7 +5,7 @@ title: "Código de Ética e Decoro Parlamentar da Câmara dos Deputados: deveres
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-11
+updated: 2026-11-20
 ---
 
 # Código de Ética e Decoro Parlamentar da Câmara dos Deputados: deveres, vedações, Conselho de Ética e processo disciplinar
@@ -109,7 +109,27 @@ A penalidade de suspensão de prerrogativas regimentais incide sobre faculdades 
 - O direito de candidatar-se a, ou permanecer exercendo, cargo de membro da Mesa, da Ouvidoria Parlamentar, da Procuradoria Parlamentar, de presidente/vice-presidente de comissão ou de membro de CPI;
 - O direito de ser designado relator de proposição em comissão ou no Plenário.
 
-**Definição do alcance (art. 13, VII e VIII):** o Conselho deve fixar quais prerrogativas serão atingidas, considerando **a atuação parlamentar pregressa do acusado, os motivos e as consequências da infração**. A suspensão pode atingir todas as prerrogativas enumeradas ou apenas algumas, por até seis meses. Esses critérios específicos complementam a dosimetria geral do art. 10, § 1º; a medida continua sujeita à deliberação do Plenário em votação ostensiva e por maioria absoluta (art. 13, caput).
+**Definição do alcance (art. 13, VII e VIII):** o Conselho de Ética deve indicar **quais prerrogativas** propõe suspender e fundamentar a escolha com base em **três critérios expressos no inciso VII**: (1) atuação parlamentar pregressa do acusado; (2) motivos da infração; (3) consequências da infração. A suspensão pode abranger **todas** as prerrogativas do inciso VI ou **apenas algumas**, por até **seis meses**. O inciso VIII fixa esse limite de duração, sem criar um critério adicional para escolher entre suspensão total e parcial. A deliberação final cabe ao **Plenário da Câmara dos Deputados**, em votação ostensiva e por maioria absoluta (257 votos favoráveis), conforme o caput do art. 13.
+
+### Como decidir entre suspender todas as prerrogativas ou apenas parte delas?
+
+O Código **não estabelece uma regra automática** segundo a qual uma infração específica exige suspensão total ou parcial. A escolha cabe ao Conselho de Ética, que deve justificar o alcance da proposta com os três critérios do art. 13, VII. Eles orientam a avaliação do caso concreto:
+
+- **Atuação parlamentar pregressa:** examinar o histórico de atuação do deputado e o contexto em que utilizou suas funções regimentais. Isso pode ajudar a distinguir um episódio isolado de um padrão de condutas; o inciso VII, porém, **não determina** que reincidência implique automaticamente suspensão total.
+- **Motivos da infração:** avaliar a finalidade ou as razões da conduta comprovada. Por exemplo, um uso indevido de informação sigilosa para obter favorecimento pode indicar gravidade distinta de outra situação, sem que o dispositivo fixe uma correspondência obrigatória entre motivo e número de prerrogativas suspensas.
+- **Consequências da infração:** examinar os efeitos demonstrados para os trabalhos parlamentares, para a instituição e para terceiros. A existência de dano relevante pode pesar na delimitação do alcance; o texto legal não fornece um patamar de dano que obrigue a suspender todas as prerrogativas.
+
+**Aplicação parcial, como hipótese de fundamentação:** se a infração demonstrar relação direta com o exercício da relatoria de proposições, o Conselho pode avaliar se a restrição à **designação como relator** (inciso VI, alínea *d*) é suficiente, considerando os três critérios legais. Trata-se de **exemplo didático**, não de uma sanção predeterminada para essa conduta.
+
+**Aplicação total, como hipótese de fundamentação:** se os fatos comprovados indicarem uso indevido de diferentes espaços e funções regimentais, o Conselho pode considerar uma proposta que abranja **todas as quatro categorias do inciso VI**. Também aqui a abrangência total depende de motivação concreta, e **não decorre automaticamente** da gravidade alegada.
+
+**Duas decisões distintas:** a **extensão material** indica *quais* prerrogativas ficam suspensas, todas ou algumas (art. 13, VII); a **extensão temporal** indica *por quanto tempo*, respeitado o máximo de seis meses (art. 13, VIII). Assim, uma suspensão parcial pode durar até seis meses, e uma suspensão de todas as prerrogativas pode ter duração menor. Não há obrigação legal de que a sanção total dure seis meses.
+
+Esses parâmetros específicos devem ser lidos junto à **dosimetria geral do art. 10, § 1º**, que considera natureza e gravidade da infração, danos à Câmara e ao Congresso, agravantes e atenuantes e antecedentes. **Atenção à distinção:** na **suspensão de prerrogativas** do art. 13 é possível selecionar apenas algumas; na **suspensão do exercício do mandato** do art. 14, § 1º, a sanção alcança o mandato e **todas** as prerrogativas regimentais, dentro de outro rito.
+
+**Teste Cebraspe (C/E):** “Comprovada a infração, o Conselho de Ética deve propor a suspensão de todas as prerrogativas regimentais sempre que houver antecedentes desfavoráveis do deputado.” **Errado.** Os antecedentes e a atuação anterior integram a avaliação, mas o art. 13, VII, exige uma definição fundamentada do alcance, sem essa consequência automática.
+
+**Base normativa:** [Código de Ética e Decoro Parlamentar da Câmara, arts. 10, § 1º; 13, caput e incisos VI a VIII; e 14, § 1º](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html). Os exemplos de aplicação parcial e total acima são **hipóteses explicativas**, não decisões reais do Conselho de Ética.
 
 ## 4. O Conselho de Ética e Decoro Parlamentar: composição e funcionamento (arts. 6º a 9º)
 

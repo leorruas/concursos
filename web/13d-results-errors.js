@@ -5,8 +5,7 @@
  if(!target)return;
  const $=id=>document.getElementById(id);
  const worker='https://concurso-estudo.leoruas.workers.dev';
- let unified=null,records=[],loadedExam='',pending=0,chosenDay='',errorMessage='';
- const openedDays=new Set();
+ let unified=null,records=[],loadedExam='',pending=0,errorMessage='',visibleDays=1;
  const dayFormat=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'});
  const date=s=>/^\d{4}-\d{2}-\d{2}$/.test(s)?s.split('-').reverse().join('/'):'Data não registrada';
  const text=(tag,cls,value)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(value!==undefined)n.textContent=String(value);return n;};
@@ -84,41 +83,37 @@
   if(!unified)return;
   const exam=unified.concursoId,subject=$('results-subject-filter')?.value||'';
   const rows=records.filter(r=>!subject||r.subject===subject);
-  const days=[...new Set(rows.map(r=>r.day||'sem-data'))].sort((a,b)=>b.localeCompare(a));
-  if(!openedDays.size&&days.length)openedDays.add(days[0]);
-  if(chosenDay&&!days.includes(chosenDay))chosenDay='';
+  const today=dayFormat.format(new Date());
+  const days=[today,...new Set(rows.map(r=>r.day||'sem-data').filter(d=>d!==today))]
+   .sort((a,b)=>a===today?-1:b===today?1:b.localeCompare(a));
+  const count=Math.min(visibleDays,days.length);
   target.replaceChildren();
-  const toolbar=text('div','results-daily-toolbar');
-  const caption=text('p','results-caption',rows.length+' '+(rows.length===1?'erro registrado':'erros registrados')+' neste filtro. Horário das tentativas do site: Brasília.');
-  const label=text('label','','Dia');
-  label.htmlFor='results-errors-day';
-  const select=text('select','');select.id='results-errors-day';
-  const all=text('option','','Todos os dias');all.value='';select.append(all);
-  for(const d of days){const opt=text('option','',d==='sem-data'?'Sem data':date(d));opt.value=d;select.append(opt);}
-  select.value=chosenDay;select.addEventListener('change',()=>{chosenDay=select.value;draw();});
-  toolbar.append(caption,label,select);target.append(toolbar);
+  const caption=text('p','results-caption',rows.length+' '+(rows.length===1?'erro registrado':'erros registrados')+
+   ' na matéria selecionada. Dias em ordem do mais recente para o mais antigo.');
+  target.append(caption);
   if(errorMessage)target.append(text('p','results-caption',errorMessage));
-  const visible=rows.filter(r=>!chosenDay||(r.day||'sem-data')===chosenDay);
-  if(!visible.length){target.append(text('p','results-caption','Nenhuma questão errada para este dia e matéria.'));return;}
-  const byDay=new Map();
-  for(const r of visible){const day=r.day||'sem-data';if(!byDay.has(day))byDay.set(day,[]);byDay.get(day).push(r);}
-  for(const [day,items] of byDay){
-   const section=text('details','results-daily-group');
-   section.dataset.day=day;
-   section.open=chosenDay?true:openedDays.has(day);
-   const heading=text('summary','results-daily-day',day==='sem-data'?'Data não registrada':date(day));
+  for(const day of days.slice(0,count)){
+   const items=rows.filter(r=>(r.day||'sem-data')===day);
+   const section=text('section','results-daily-group');
+   const title=day===today?'Hoje · '+date(day):day==='sem-data'?'Data não registrada':date(day);
+   const heading=text('h3','results-daily-day',title);
    heading.append(text('span','results-daily-count',items.length+' '+(items.length===1?'erro':'erros')));
    section.append(heading);
-   // Preserva a escolha do leitor quando as consultas terminam.
-   section.addEventListener('toggle',()=>{if(section.open)openedDays.add(day);else openedDays.delete(day);});
+   if(!items.length)section.append(text('p','results-caption','Nenhum erro registrado hoje para esta matéria.'));
    for(const item of items)section.append(card(item,exam,manifest));
    target.append(section);
+  }
+  if(count<days.length){
+   const more=text('button','results-concept-more','Ver mais: '+(days.length-count)+' '+(days.length-count===1?'dia':'dias')+' anteriores');
+   more.type='button';
+   more.addEventListener('click',()=>{visibleDays+=1;draw();const sections=target.querySelectorAll('.results-daily-group');sections[sections.length-1]?.scrollIntoView({behavior:'smooth',block:'start'});});
+   target.append(more);
   }
  }
  async function load(data){
   unified=data;
   const exam=data.concursoId,seq=++pending;
-  errorMessage='';chosenDay='';openedDays.clear();
+  errorMessage='';visibleDays=1;
   target.replaceChildren(text('p','results-caption','Consultando os erros registrados…'));
   // Mostra os erros do chat imediatamente, sem aguardar catálogo e D1.
   records=normalizeChat(data);
@@ -131,5 +126,5 @@
   draw();
  }
  window.addEventListener('results:data',e=>{if(e.detail?.data)void load(e.detail.data);});
- window.addEventListener('results:filter',()=>{if(unified)draw();});
+ window.addEventListener('results:filter',()=>{visibleDays=1;if(unified)draw();});
 })();

@@ -71,12 +71,16 @@ updated: 2026-11-20
 
 **Fundamento:** Código de Ética, arts. 5º, VI a VIII, 13 e 16.
 
+**Quais fatos podem provocar esta rota (art. 5º, VI a VIII):** **(VI)** divulgar informação ou documento oficial sigiloso obtido no exercício parlamentar; **(VII)** usar verba de gabinete ou outros recursos vinculados ao cargo em desacordo com os princípios da administração pública do art. 37 da Constituição; **(VIII)** atuar como relator de matéria de interesse específico de pessoa física ou jurídica que tenha financiado sua campanha eleitoral. A conduta deve ser sustentada por provas (art. 5º, parágrafo único). São **hipóteses de infração investigada**, e não o conjunto de prerrogativas que poderão ser suspensas: estas estão enumeradas no art. 13, VI, e detalhadas na nota abaixo.
+
+**Quem apresenta e como chega ao Conselho (art. 9º):** qualquer cidadão pode **requerer à Mesa** uma representação, especificando fatos e provas; a Mesa examina indícios suficientes e inépcia e, se couber a suspensão de prerrogativas, encaminha ao Conselho em **três sessões ordinárias após a triagem**. Um **partido político representado no Congresso Nacional** pode subscrever representação, que a Mesa remete **diretamente ao Conselho em três sessões ordinárias**. A remessa dá início à instrução, não equivale a condenação. O Conselho pode arquivar, propor sanção menos grave ou, observadas as garantias e a instrução complementar, encaminhar hipótese mais grave (art. 13, III).
+
 | Camadas / fases | 1. Conselho | 2. Defesa e prova | 3. Parecer | 4. Recurso | 5. Plenário |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Evidências e documentos** | Representação e sorteio de lista tríplice | Defesa escrita e diligências | Parecer e projeto de resolução | Recurso à CCJC, se interposto | Resolução ou rejeição |
-| **Ações do representado** | Recebe notícia dos atos | Apresenta defesa e provas | Acompanha discussão | Pode recorrer por vício jurídico | Acompanha votação |
+| **Evidências e documentos** | Representação com fatos e provas (art. 5º, VI a VIII), remessa da Mesa e sorteio de lista tríplice | Defesa escrita e diligências | Parecer e projeto de resolução | Recurso à CCJC, se interposto | Resolução ou rejeição |
+| **Ações do representado** | É intimado da representação e dos atos do Conselho (art. 9º, § 5º) | Apresenta defesa e provas | Acompanha discussão | Pode recorrer por vício jurídico | Acompanha votação |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos institucionais** | Presidente do Conselho escolhe relator entre três sorteados, observados impedimentos | Conselho investiga e ouve | Conselho aprova parecer; pode propor arquivamento, requalificação ou sanção | Comissão de Constituição e Justiça e de Cidadania (CCJC) examina apenas vícios indicados | Plenário da Câmara vota projeto de resolução |
+| **Frontstage: atos institucionais** | Mesa remete a representação do cidadão após triagem ou a partidária diretamente; Presidente do Conselho escolhe relator entre três sorteados | Conselho investiga e ouve | Conselho aprova parecer; pode propor arquivamento, requalificação ou sanção | Comissão de Constituição e Justiça e de Cidadania (CCJC) examina apenas vícios indicados | Plenário da Câmara vota projeto de resolução |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: instrução** | Secretaria organiza sorteio e distribuição | Relator reúne documentos | Relator redige voto; serviços preparam projeto | Secretaria encaminha recurso | Mesa organiza pauta e publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· |
@@ -106,12 +110,20 @@ updated: 2026-11-20
 
 **Fundamento:** Código de Ética, arts. 4º, 5º, IV, V, IX e X, 14 e 16; Constituição, art. 55.
 
+**Duas sanções diferentes, com fatos geradores diferentes (arts. 4º, 5º e 14):**
+
+**Suspensão do exercício do mandato por até seis meses (art. 5º, IV, V, IX e X; art. 14, § 1º):** pode decorrer de **(IV)** usar o poder do cargo para constranger ou aliciar alguém em busca de favorecimento; **(V)** revelar conteúdo de debate ou deliberação que a Câmara ou uma comissão tenha decidido manter em segredo; **(IX)** fraudar registros de presença em sessão ou reunião; **(X)** descumprir intencionalmente os deveres fundamentais do deputado previstos no art. 3º. A suspensão atinge também **todas as prerrogativas regimentais**, durante o afastamento.
+
+**Perda do mandato (art. 4º, I a VI; art. 14, § 3º):** pode decorrer de **(I)** abuso das prerrogativas constitucionais dos congressistas; **(II)** recebimento de vantagem indevida para si ou terceiro no exercício parlamentar; **(III)** acordo para posse de suplente em troca de pagamento ou ato contrário aos deveres; **(IV)** fraude no andamento dos trabalhos legislativos para alterar votação; **(V)** omissão intencional de informação relevante ou declaração falsa na declaração patrimonial prevista no art. 18; **(VI)** irregularidade grave no exercício do mandato ou de encargo parlamentar que afete a dignidade da representação popular.
+
+**Quem provoca o processo e por qual caminho (arts. 9º e 14, caput):** para essas duas sanções, a provocação formal pode partir da **Mesa da Câmara dos Deputados** ou de **partido político representado no Congresso Nacional**. Qualquer cidadão pode apresentar **requerimento à Mesa com fatos e provas**: ela realiza a apreciação preliminar e, presentes indícios suficientes e sem inépcia, encaminha a representação ao Conselho em **três sessões ordinárias**. A representação de partido segue **remessa direta da Mesa ao Conselho, também em três sessões ordinárias**. No Conselho, há exame das condições processuais, direito de defesa e apuração; só depois uma eventual proposta chega ao Plenário da Câmara. As condutas do art. 5º exigem prova (parágrafo único), e os fatos apurados podem levar à requalificação da sanção (art. 10, § 2º; art. 14, § 4º, IV).
+
 | Camadas / fases | 1. Instauração | 2. Admissibilidade e defesa | 3. Instrução | 4. Parecer e recurso | 5. Plenário |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Evidências e documentos** | Representação; relator sorteado | Admissibilidade e defesa | Provas, depoimentos, relatório | Parecer, eventual recurso à CCJC | Votação ostensiva e resolução |
+| **Evidências e documentos** | Representação da Mesa ou partido: infração do art. 5º, IV, V, IX ou X (suspensão), ou do art. 4º, I a VI (perda); relator sorteado | Admissibilidade e defesa | Provas, depoimentos, relatório | Parecer, eventual recurso à CCJC | Votação ostensiva e resolução |
 | **Ações do representado** | Recebe intimações | Defende-se, indica provas e até oito testemunhas | Participa da instrução | Pode recorrer por vícios jurídicos | Exerce defesa também no Plenário |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos institucionais** | Mesa encaminha ao Conselho; Presidente do Conselho designa relator | Conselho examina inépcia/justa causa nas condições do art. 14 | Relator instrui, ouve e documenta | Conselho vota parecer; CCJC decide recurso se apresentado | Plenário da Câmara delibera sobre suspensão do mandato ou perda |
+| **Frontstage: atos institucionais** | Mesa provoca ou remete representação partidária; após requerimento de cidadão, faz triagem e encaminha ao Conselho; Presidente do Conselho designa relator | Conselho examina inépcia/justa causa nas condições do art. 14 | Relator instrui, ouve e documenta | Conselho vota parecer; CCJC decide recurso se apresentado | Plenário da Câmara delibera sobre suspensão do mandato ou perda |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: instrução** | Secretaria autua e distribui | Secretaria notifica e organiza documentos | Relatoria e apoio técnico verificam provas | Mesa recebe processo e organiza pauta | Secretaria registra votos e providências |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· |

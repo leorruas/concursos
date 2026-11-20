@@ -1995,6 +1995,14 @@
       "examBlock": "Conhecimentos legislativos",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-comunicacoes-de-lideranca",
+      "term": "Comunicações de liderança",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

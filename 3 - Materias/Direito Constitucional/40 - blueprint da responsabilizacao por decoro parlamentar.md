@@ -1,5 +1,5 @@
 ---
-articleId: art-bp-decoro-camara-2026-40
+articleId: art-4f8c16a20d9b4e7a
 articleAliases: ["3 - Materias/Direito Constitucional/40 - blueprint da responsabilizacao por decoro parlamentar.md"]
 title: "Blueprint: apuração e responsabilização por decoro parlamentar na Câmara dos Deputados"
 type: "conceito"

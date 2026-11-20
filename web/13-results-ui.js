@@ -1118,6 +1118,7 @@ function syncResultsFilters(){
 select.addEventListener('change',()=>{selectedSubject='';syncResultsFilters();load();});
 $('results-subject-filter').addEventListener('change',value=>{
  selectedSubject=value.target.value;syncResultsFilters();render();
+  window.dispatchEvent(new CustomEvent('results:filter',{detail:{subject:selectedSubject}}));
 });
 $('results-logout').addEventListener('click',async()=>{
  ++loadVersion;

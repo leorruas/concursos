@@ -1070,6 +1070,7 @@ async function load({keepCurrent = false} = {}){
    :'A API ainda não fornece evolução conjunta. Exibimos temporariamente apenas as baterias do site, quando disponíveis.';
   $('results-logout').hidden=false;
   render();
+  window.dispatchEvent(new CustomEvent('results:data',{detail:{data,version}}));
   void loadRetests(examId,version);
  }catch(e){
   if(version!==loadVersion)return;

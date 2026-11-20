@@ -48,7 +48,7 @@ updated: 2026-11-20
 | *Linha de interação interna* | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Ata da sessão/reunião | Regimento e Código de Ética | Protocolo de recurso | Registro decisório |
 | **Prazos, marcos e efeitos** | Durante sessão/reunião | Aplicação no contexto da sessão ou reunião | **2 dias úteis** para recorrer da censura verbal | Sem prazo geral de julgamento especificado pelo art. 11 |
-| **Órgão decisor e quórum** | Autoridade que preside | Autoridade que preside, sem votação para aplicar | Respectivo Plenário | Deliberação segundo regras aplicáveis ao colegiado |
+| **Órgão decisor e quórum** | Presidente da Câmara dos Deputados, em sessão, ou presidente da comissão, em reunião | A autoridade que preside aplica a censura verbal, sem votação prévia | Recurso dirigido ao Plenário da Câmara ou ao Plenário da comissão que aplicou a censura (art. 11, parágrafo único) | **Plenário da Câmara:** presença mínima de **257 deputados** e aprovação por maioria dos votos dos presentes (RICD, art. 183). **Plenário da comissão:** presença da maioria absoluta de seus membros e aprovação por maioria dos votos (RICD, art. 56, § 2º); não há exigência especial de 257 votos nem quórum qualificado para esse recurso no art. 11. |
 ## Rota B: censura escrita
 
 **Fundamento:** Código de Ética, arts. 5º, III, e 12.

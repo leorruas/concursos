@@ -50,6 +50,18 @@ A unidade depende do procedimento: **comissões da Câmara contam sessões**, co
 
 **Implementação da visualização 19/11/2026:** para o artigo `art-8c319e6f2a704bd5`, `web/07-service-blueprint.js` transforma as matrizes Markdown em um componente navegável por seis fases, preservando a tabela original como fonte acessível recolhida em `details`. O leitor apresenta camadas, linhas de separação e navegação de fase em fase, mais uma visão horizontal completa. `web/03-article-navigation.js` chama o renderizador depois de gerar HTML e `index.html` carrega o módulo. Testar desktop/mobile, temas, teclado e conteúdo. O Mermaid 11.15 atual não suporta `swimlane-beta`; o Mermaid 11.16+ suporta raias, mas não garante o segundo eixo de fases rígidas exigido pelo serviço. Não reverter para flowchart com subgraphs sem testar visualmente a linguagem completa.
 
+## Gate de publicação de novos blueprints: registro no renderizador (20/11/2026)
+
+**Incidente a evitar:** o artigo de decoro parlamentar foi publicado com matrizes Markdown visíveis porque o renderizador `web/07-service-blueprint.js` reconhecia somente determinados títulos e assumia seis fases. Uma tabela correta no arquivo-fonte não garante um blueprint visual no site.
+
+**Obrigação para cada novo blueprint:** antes de considerar a entrega concluída, verificar que `web/07-service-blueprint.js` reconhece o novo artigo por identificador estável ou rota consistente, sem depender acidentalmente de um conjunto fechado de nomes antigos. O renderizador deve aceitar a quantidade real de fases de cada rota, inclusive quatro ou cinco, sem introduzir células vazias, perda de colunas ou truncamento de rótulos. Preferir identificação explícita e centralizada dos artigos de blueprint a novas expressões regulares dispersas.
+
+**Contrato da apresentação:** a visualização principal deve ser **SVG matricial com visão completa horizontal**, rolagem lateral e opção de tela cheia; fases alinhadas nas colunas, camadas nas linhas, ações e evidências, além das três linhas de separação perceptíveis. Manter a matriz de origem como alternativa acessível recolhida, sem substituí-la por um fluxograma. A altura das células deve acompanhar o conteúdo: não cortar textos longos, prazos nem decisões. Se o componente usar regras rígidas para um tipo de blueprint, adaptar ou generalizar antes da publicação, preservando os que já funcionam.
+
+**Gate obrigatório de validação:** conferir o artigo **na rota do site** (não só o Markdown), testar se cada quadro foi convertido em SVG, se todos os textos permanecem visíveis e se a matriz alternativa está disponível. Verificar desktop, celular, tema claro e escuro, rolagem horizontal, tela cheia, teclado, links e navegação. Executar testes de build, identidade e catálogo; verificar CI e publicação do SHA correspondente. **Não declarar inspeção visual ou publicação confirmada se essas etapas não tiverem sido efetivamente observadas.** Se houver indisponibilidade de navegador, documentar a pendência de inspeção e não afirmar que o blueprint ficou visualmente conforme.
+
+**Encerramento:** informar separadamente: arquivo e artigo vinculados, renderizador habilitado, testes automáticos, integração à `main`, deploy de Pages e inspeção visual. Nenhum desses marcos substitui outro.
+
 ## Diagramas Mermaid: paleta, contraste e temas (regra obrigatória)
 
 Antes de criar ou alterar um diagrama Mermaid, examinar os tokens de `style.css` e a configuração de `web/05-mermaid.js`. **A cor de destaque do projeto concursos é amarelo/âmbar**, definida por `--accent-blue` (nome legado da variável, que não significa azul). Não copiar a paleta azul do projeto PUC nem inserir hexadecimais azuis nas definições `classDef`, no tema Mermaid ou no CSS deste projeto.

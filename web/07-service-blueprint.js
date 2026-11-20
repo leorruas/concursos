@@ -185,8 +185,11 @@ function montarDecoro(table) {
  const foot=element("p","sb-foot","Visão completa: percorra horizontalmente as fases. Role para o lado no celular.");
  const details=element("details","sb-original");
  const summary=element("summary","","Ver matriz textual acessível");
+ const placeholder=document.createElement("span");
+ table.replaceWith(placeholder);
  details.append(summary,table);
  card.append(toolbar,canvas,foot,details);
+ placeholder.replaceWith(card);
  let overflowAnterior="",fallback=false;
  function sair(){
   if(!fallback)return;
@@ -203,8 +206,16 @@ function montarDecoro(table) {
   btn.textContent="↙ Sair da tela cheia";btn.setAttribute("aria-pressed","true");
  });
  card.addEventListener("fullscreenchange",()=>{const active=document.fullscreenElement===card;btn.textContent=active?"↙ Sair da tela cheia":"⛶ Tela cheia";btn.setAttribute("aria-pressed",String(active))});
- const labelW=182,colW=282,top=68,step=112,footer=24;
- const width=labelW+phaseCount*colW+18,height=top+rows.length*step+footer;
+ function cellLines(value,max=34){
+  const out=[];let line="";
+  for(const word of String(value).split(/\\s+/)){if((line+" "+word).trim().length>max&&line){out.push(line);line=word}else line=(line+" "+word).trim()}
+  if(line)out.push(line);
+  return out;
+ }
+ const labelW=182,colW=282,top=68,footer=24;
+ const rowHeights=rows.map(r=>Math.max(112,26+Math.max(...r.values.map(v=>cellLines(v).length),cellLines(r.label,23).length)*15));
+ const rowTops=rows.map((_,i)=>top+rowHeights.slice(0,i).reduce((a,b)=>a+b,0));
+ const width=labelW+phaseCount*colW+18,height=top+rowHeights.reduce((a,b)=>a+b,0)+footer;
  const svg=svgNode("svg",{viewBox:`0 0 ${width} ${height}`,width,height,role:"img","aria-label":"Blueprint completo de "+phaseCount+" fases",class:"sb-map"});
  svg.append(svgNode("title",{},"Responsabilização parlamentar: fases, agentes e evidências"));
  svg.append(svgNode("rect",{x:0,y:0,width,height,fill:"var(--bg)"}));
@@ -215,14 +226,14 @@ function montarDecoro(table) {
   svg.append(svgNode("line",{x1:x-6,y1:0,x2:x-6,y2:height,class:"phase-line"}));
  });
  rows.forEach((r,ri)=>{
-  const y=top+ri*step;
+  const y=rowTops[ri],step=rowHeights[ri];
   svg.append(svgNode("rect",{x:0,y:y-8,width,height:step-7,class:"layer-bg"}));
-  wrapLines(r.label,23).forEach((v,j)=>svg.append(svgNode("text",{x:10,y:y+18+j*17,class:"lane-label"},v)));
+  cellLines(r.label,23).forEach((v,j)=>svg.append(svgNode("text",{x:10,y:y+18+j*17,class:"lane-label"},v)));
   r.values.forEach((value,ci)=>{
    if(!value||/^(n[aã]o se aplica|·+|[-–—]+)$/i.test(value))return;
    const x=labelW+ci*colW+4;
    svg.append(svgNode("rect",{x,y:y-4,width:colW-20,height:step-21,rx:8,class:"node-box"+(/frontstage|atos institucionais/i.test(r.label)?" public":"")}));
-   wrapLines(value,34).forEach((line,j)=>svg.append(svgNode("text",{x:x+11,y:y+17+j*15,class:"node-text"},line)));
+   cellLines(value,34).forEach((line,j)=>svg.append(svgNode("text",{x:x+11,y:y+17+j*15,class:"node-text"},line)));
   });
   if(/ações do requerente|ações do representado|ações do requerente\/representado/i.test(r.label)||/frontstage/i.test(r.label)||/backstage/i.test(r.label)){
    const label=/frontstage/i.test(r.label)?"Linha de visibilidade":/backstage/i.test(r.label)?"Linha de interação interna":"Linha de interação";
@@ -231,7 +242,6 @@ function montarDecoro(table) {
   }
  });
  canvas.append(svg);
- table.replaceWith(card);
  return true;
 }
 

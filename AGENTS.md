@@ -62,6 +62,16 @@ A unidade depende do procedimento: **comissões da Câmara contam sessões**, co
 
 **Encerramento:** informar separadamente: arquivo e artigo vinculados, renderizador habilitado, testes automáticos, integração à `main`, deploy de Pages e inspeção visual. Nenhum desses marcos substitui outro.
 
+## Gate de legibilidade e conexões dos SVGs de blueprint (20/11/2026)
+
+**Incidente Safari, artigo 40 (decoro parlamentar):** o texto dos cartões avançou além das bordas porque a função de quebra de linha usava uma expressão regular incorreta (`/\\\\s+/` em vez de `/\\s+/`). O renderizador também deixou de desenhar as setas horizontais entre fases. A validação do build, isoladamente, não detectou esses defeitos.
+
+**Quebra de linhas é requisito funcional:** no SVG, elementos `<text>` não fazem quebra automática como texto HTML. Cada cartão precisa dividir o conteúdo em linhas usando separação real de espaços, e posicionar essas linhas em elementos `<text>` ou `<tspan>` com coordenadas distintas. Calcular altura de cada linha e cartão **com base no texto já quebrado**. Não truncar frases com `slice` sem alternativa legível; testar acentos, siglas, palavras longas e casos com mais de cinco linhas. Não depender de uma largura estimada por número de caracteres quando for possível testar largura real do texto e a margem interna.
+
+**Conectores são parte do contrato visual:** desenhar setas direcionais que mostrem a progressão horizontal entre as fases pertinentes, com orientação consistente, cor de destaque e contraste nos temas claro e escuro. Reservar corredores para o desenho das arestas, de modo que elas não passem sobre o texto nem se confundam com as três linhas de separação. Quando houver bifurcação, retorno, etapa facultativa ou caminho alternativo, usar conectores ou uma convenção visual legível para distinguir essas condições; **não desenhar conexão como obrigatória se a rota jurídica não for sequencial ou automática**. Conferir ponta de seta, sentido e continuidade no SVG efetivamente renderizado.
+
+**Validação cruzada obrigatória:** além de testes de unidade da função de quebra e dos conectores, inspecionar no **Safari** e em outro navegador os cartões com textos curtos e longos, títulos, setas, linhas de interação/visibilidade/interna, tela cheia e rolagem horizontal. Conferir pelo menos um caso em tema claro e escuro e uma largura de celular. Registrar se a verificação no Safari foi realmente realizada; não declarar correção visual confirmada apenas por CI ou leitura do código.
+
 ## Diagramas Mermaid: paleta, contraste e temas (regra obrigatória)
 
 Antes de criar ou alterar um diagrama Mermaid, examinar os tokens de `style.css` e a configuração de `web/05-mermaid.js`. **A cor de destaque do projeto concursos é amarelo/âmbar**, definida por `--accent-blue` (nome legado da variável, que não significa azul). Não copiar a paleta azul do projeto PUC nem inserir hexadecimais azuis nas definições `classDef`, no tema Mermaid ou no CSS deste projeto.

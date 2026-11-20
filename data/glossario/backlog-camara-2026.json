@@ -1987,6 +1987,14 @@
       "examBlock": "Conhecimentos legislativos",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-inepcia-representacao-decoro",
+      "term": "Inépcia da representação",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

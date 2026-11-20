@@ -213,6 +213,8 @@ O decreto legislativo costuma formalizar **competências exclusivas do Congresso
 
 Uma **Proposta de Emenda à Constituição (PEC)** rejeitada ou considerada prejudicada tem regra diferente: o art. 60, § 5º, veda nova proposta sobre a **mesma matéria na mesma sessão legislativa**, sem a exceção de maioria absoluta prevista para projetos de lei. **Sessão legislativa** é o período anual de trabalho do Congresso, enquanto **legislatura** corresponde ao período de quatro anos. Trocar esses termos muda a conclusão.
 
+**Rejeição de PEC × prejudicialidade de PEC.** Na **rejeição**, a proposta não alcança os votos necessários em deliberação. Na **prejudicialidade**, uma hipótese regimental torna desnecessário ou sem objeto apreciar a proposição, podendo haver declaração **sem votação de seu mérito** (RICD, arts. 163 e 164). Portanto, dizer que uma PEC foi *declarada prejudicada* não significa que ela recebeu votos contrários em Plenário. O efeito constitucional sobre reapresentar a **mesma matéria na mesma sessão legislativa** é comum às duas situações (CF, art. 60, § 5º). A declaração de prejudicialidade comporta recurso ao Plenário nas condições do art. 164 do RICD.
+
 **Caso com uma variável de diferença:** um projeto de lei é rejeitado em junho e um novo projeto de mesma matéria é apresentado em setembro por maioria absoluta da Câmara: o art. 67 admite a reapresentação. Se o primeiro texto fosse uma **PEC** rejeitada, o apoio da maioria absoluta não afastaria a vedação do art. 60, § 5º.
 
 **Item C/E autoral:** “Matéria de PEC rejeitada pode voltar na mesma sessão legislativa desde que a iniciativa seja subscrita por maioria absoluta dos deputados.” **Errado.** A exceção do art. 67 vale para projetos de lei, não para PEC rejeitada.

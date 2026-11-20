@@ -2147,6 +2147,36 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-inepcia-representacao-decoro",
+      "term": "Inépcia da representação",
+      "aliases": [
+        "Inépcia",
+        "Representação inepta",
+        "Inépcia da acusação"
+      ],
+      "definition": "É um problema na forma como uma acusação é apresentada, que impede compreender com clareza quais fatos são atribuídos ao deputado e organizar sua defesa. No processo por quebra de decoro da Câmara, a representação pode ser examinada quanto à inépcia antes de avançar na apuração.",
+      "contrast": "Inépcia diz respeito à formulação da acusação. Falta de justa causa significa que faltam elementos mínimos para justificar o processo, mesmo quando a acusação é compreensível. Improcedência ocorre quando a acusação não é acolhida após o exame do conteúdo e das provas. Essas conclusões têm fundamentos e momentos distintos.",
+      "cebraspeTrap": "Confundir representação inepta com acusação comprovadamente falsa, ou afirmar que uma denúncia formalmente compreensível tem necessariamente justa causa. No rito do art. 14, § 4º, a decisão terminativa do Conselho por inépcia ou ausência de justa causa, na representação partidária, comporta recurso ao Plenário da Câmara com subscrição de um décimo dos deputados.",
+      "example": "Uma representação afirma apenas que um deputado 'quebrou o decoro', sem indicar os atos atribuídos a ele. A formulação pode ser considerada inepta. Se descrever um fato concreto, mas não trouxer elementos mínimos que sustentem a acusação, a questão passa a ser a justa causa, não necessariamente a inépcia.",
+      "articleIds": [
+        "art-5b41764164052519",
+        "art-4f8c16a20d9b4e7a"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Código de Ética e Decoro Parlamentar da Câmara, Resolução nº 25/2001, arts. 9º e 14, § 4º",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

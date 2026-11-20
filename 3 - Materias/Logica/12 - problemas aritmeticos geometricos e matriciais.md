@@ -303,6 +303,14 @@ A próxima diferença é 12:
 
 Uma forma equivalente é (n(n+1)): 1·2, 2·3, 3·4, 4·5, 5·6...
 
+### Ordenação por restrições transitivas
+
+Se Ana chegou antes de Bruno e Bruno chegou antes de Clara, Ana chegou antes de Clara. Essa é a **transitividade** da relação “chegou antes de”. Em uma questão de ordenação, escreva cada condição como uma seta do nome que vem primeiro para o que vem depois. Encadeie as setas para descobrir o que precisa ser verdadeiro.
+
+Imagine que os dados sejam **Ana → Bruno → Clara** e **Davi → Clara**, com a seta significando “chegou antes de”. Ana e Davi chegaram antes de Clara, mas as condições não determinam quem chegou primeiro entre os dois. Tanto **Ana, Bruno, Davi, Clara** quanto **Davi, Ana, Bruno, Clara** satisfazem as regras. Se for acrescentado que **Bruno chegou antes de Davi**, a ordem passa a ser **Ana, Bruno, Davi, Clara**.
+
+Para provar que uma conclusão é necessária, mostre a cadeia que a impõe. Para provar que uma conclusão não é necessária, basta montar uma ordem válida em que ela seja falsa. Uma seta também não indica que os nomes são consecutivos, a menos que o enunciado diga “imediatamente antes”.
+
 ## Como a FGV cobra
 
 A dificuldade costuma vir de **modelagem**:

@@ -447,3 +447,10 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 - **[Regulamento do Conselho de Ética](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/arquivos/regulamento-1/view) (2001):** organiza o procedimento, mas contém regras antigas sobre cinco sessões e cinco testemunhas, que precisam ser lidas à luz da redação posterior do Código (art. 14, § 4º, II).
 - **[Regimento Interno da Câmara dos Deputados (RICD), texto consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html):** arts. 15, XXX e §§ 1º a 6º (suspensão cautelar), 17 (atribuições da Mesa), 21 (Procuradoria Parlamentar), 216 (rito de alteração do Código por remissão de seu art. 19), 240, § 3º, e 244 (perda do mandato e decoro). Confrontar as normas regimentais de cautelar com o Ato da Mesa nº 180/2025 e as regras sancionatórias com o Código.
 - **Lei nº 8.730, de 10 de novembro de 1993:** estabelece a obrigatoriedade da declaração de bens e rendas para o exercício de cargos públicos e remessa de cópia ao Tribunal de Contas da União.
+
+
+## Blueprint do processo de responsabilização por decoro parlamentar
+
+Acompanhe as rotas de **censura verbal, censura escrita, suspensão de prerrogativas, suspensão do exercício do mandato e perda do mandato**, distinguindo os papéis da **Corregedoria Parlamentar, Mesa Diretora, Conselho de Ética, Comissão de Constituição e Justiça e de Cidadania e Plenário**. O quadro inclui os prazos de defesa, instrução, recursos, pauta e decisão, com as unidades de contagem e as hipóteses de requalificação.
+
+[[3 - Materias/Direito Constitucional/40 - blueprint da responsabilizacao por decoro parlamentar|Abrir blueprint: apuração e responsabilização por decoro parlamentar]]

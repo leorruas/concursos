@@ -178,6 +178,7 @@ function montarDecoro(table) {
  const btn=element("button","sb-expand","Tela cheia");
  btn.type="button";btn.setAttribute("aria-pressed","false");toolbar.append(btn);
  const canvas=element("div","sb-canvas");
+ const optionalLegend=/recurso facultativo/i.test(phaseLabels.join(" "))?element("p","sb-foot","Setas tracejadas: etapa facultativa. A decisão do Conselho tem saídas diferentes; confira a linha Saída e condição para avançar."):null;
  const accessibleMatrix=element("div","sr-only");
  table.replaceWith(card);
  accessibleMatrix.append(table);
@@ -242,12 +243,17 @@ function montarDecoro(table) {
    const from=labelW+i*colW+colW-16;
    const nextX=labelW+(i+1)*colW+4;
    const tip=nextX-5;
+   // A CCJC da rota de prerrogativas é facultativa, não uma etapa automática.
+   const isOptionalAppeal=phaseLabels.some(l=>/recurso facultativo/i.test(l));
+   const conditional=isOptionalAppeal && (i===2||i===3);
    const common={stroke:"var(--accent-blue)","stroke-width":3,fill:"none","stroke-linecap":"round","stroke-linejoin":"round",class:"connector"};
+   if(conditional)common["stroke-dasharray"]="4 4";
    svg.append(svgNode("path",{d:`M ${from} ${cy} H ${tip}`,...common}));
    svg.append(svgNode("path",{d:`M ${tip-6} ${cy-6} L ${tip} ${cy} L ${tip-6} ${cy+6}`,...common}));
   }
  }
  canvas.append(svg);
+ if(optionalLegend)card.append(optionalLegend);
  return true;
 }
 

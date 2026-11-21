@@ -105,21 +105,38 @@ if (navLinkPastas) {
     });
 }
 
+// A pontuação percorre seções e artigos; executá-la a cada tecla bloqueia
+// a thread da interface e atrasa inclusive o texto digitado no campo.
+let temporizadorBuscaArtigos = null;
+function agendarBuscaArtigos(consulta) {
+    if (temporizadorBuscaArtigos !== null) clearTimeout(temporizadorBuscaArtigos);
+    temporizadorBuscaArtigos = setTimeout(() => {
+        temporizadorBuscaArtigos = null;
+        // A consulta foi substituída? Sempre usar o estado atual do campo.
+        const atual = campoTexto?.value ?? campoTextoNav?.value ?? consulta;
+        filtrarArtigos(atual);
+    }, 180);
+}
+
 if (campoTexto) {
     campoTexto.addEventListener("input", (e) => {
         if (campoTextoNav) campoTextoNav.value = e.target.value;
-        filtrarArtigos(e.target.value);
+        agendarBuscaArtigos(e.target.value);
     });
 }
 
 if (campoTextoNav) {
     campoTextoNav.addEventListener("input", (e) => {
+        if (temporizadorBuscaArtigos !== null) {
+            clearTimeout(temporizadorBuscaArtigos);
+            temporizadorBuscaArtigos = null;
+        }
         if (parsearHashVault(window.location.hash).tipo === 'glossario') {
             pesquisarGlossarioPelaNavbar(e.target.value);
             return;
         }
         if (campoTexto) campoTexto.value = e.target.value;
-        filtrarArtigos(e.target.value);
+        agendarBuscaArtigos(e.target.value);
     });
 }
 

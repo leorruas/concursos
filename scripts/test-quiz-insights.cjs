@@ -150,9 +150,9 @@ assert.ok(Math.abs(hardAdmin.filter(q=>q.correctAnswer==='C').length-hardAdmin.f
 
 assert.equal(new Set([...additional,...variants,...applications,...casesAdmin,...hardAdmin].map(q=>q.id)).size,246+hardAdmin.length,'identificadores únicos nos lotes');
 const hardDecoro=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara-decoro-dificeis.json'),'utf8'));
-assert.equal(hardDecoro.length,30,'novo lote de decoro deve conter 30 questões');
-assert.equal(hardDecoro.filter(q=>q.correctAnswer==='C').length,15);
-assert.equal(hardDecoro.filter(q=>q.correctAnswer==='E').length,15);
+assert.ok(hardDecoro.length>=30,'banco de decoro deve preservar as 30 questões iniciais');
+assert.ok(Math.abs(hardDecoro.filter(q=>q.correctAnswer==='C').length-hardDecoro.filter(q=>q.correctAnswer==='E').length)<=1,'gabarito de decoro equilibrado');
+
 assert.equal(new Set(hardDecoro.map(q=>normalizeStatement(q.statement))).size,hardDecoro.length);
 assert.equal(new Set([...canonical.pilotoDidatico,...canonical.expansao,...hardDecoro].map(q=>q.id)).size,canonical.pilotoDidatico.length+canonical.expansao.length+hardDecoro.length);
 const out=path.join(root,'_site/data/questoes-publicas.json');

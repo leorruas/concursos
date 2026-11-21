@@ -514,6 +514,28 @@ for(const q of aplicacoesAdmin){
  ].map(k=>[k,q[k]])));
 }
 if(capitulosAdmin.some((id,i)=>distribuicaoAplicacoes.get(id)!==(i<10?3:2)))throw Error('Distribuição por capítulo do lote aplicado incorreta.');
+// Quarto lote: casos concretos e limites de institutos, mantendo identidades próprias.
+const casosAdmin=JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-camara-administrativo-casos.json'),'utf8'));
+const distribuicaoCasos=new Map(capitulosAdmin.map(id=>[id,0]));
+if(!Array.isArray(casosAdmin)||casosAdmin.length!==64)throw Error('Lote de casos administrativos incompleto.');
+for(const q of casosAdmin){
+ const required=['id','subjectId','subjectName','unitId','unitName','editalRef','officialEditalCode','articleId','section','conceptId','mechanism','statement','correctAnswer','explanation','origin','estimatedDifficulty','sourceNote'];
+ if(q.concursoId!=='camara-2026'||q.subjectId!=='direito-administrativo'||
+    q.unitId!=='direito-administrativo'||q.examPart!=='P1'||q.format!=='CE'||
+    !['C','E'].includes(q.correctAnswer)||q.origin!=='inedita'||
+    !['media','dificil','facil','muito-facil','muito-dificil'].includes(q.estimatedDifficulty)||
+    !required.every(k=>typeof q[k]==='string'&&q[k].trim())||
+    !distribuicaoCasos.has(q.articleId)||!codigosAdmin.has(q.officialEditalCode)||
+    q.editalRef!=='14.2.3 / Direito Administrativo e Administração Pública / '+q.officialEditalCode||
+    q.statement.length<60||q.explanation.length<45)throw Error('Caso administrativo inválido: '+q.id);
+ distribuicaoCasos.set(q.articleId,distribuicaoCasos.get(q.articleId)+1);
+ questoesPublicas.push(Object.fromEntries([
+  'id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','officialEditalCode',
+  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'
+ ].map(k=>[k,q[k]])));
+}
+if(capitulosAdmin.some((id,i)=>distribuicaoCasos.get(id)!==(i<10?3:2)))throw Error('Cobertura por capítulo do lote de casos incorreta.');
+
 
 
 const questoesCgu = JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-cgu.json'),'utf8'));

@@ -46,8 +46,19 @@ for(const file of files){
  assert.equal(rank(attempts,qs,'dataprev-2026',0).length,0,'concurso isolado');
 }
 const quizHtml=fs.readFileSync(path.join(root,'questoes.html'),'utf8');
+const quizSource=fs.readFileSync(path.join(root,'web/15-questoes-ui.js'),'utf8');
+const chapterNumber=getFunction(quizSource,'quizChapterNumber','updateChapterDisplay');
+assert.equal(chapterNumber('3 - Materias/Direito Constitucional/07 - poder executivo.md'),7);
+assert.equal(chapterNumber('3 - Materias/Direito Constitucional/10 - processo legislativo.md'),10);
+assert.equal(chapterNumber('3 - Materias/Direito Constitucional/11 - outra nota.md'),11);
+assert.equal(chapterNumber('3 - Materias/Auditoria Governamental/achados-causas.md'),null);
+assert.equal(chapterNumber('3 - Materias/CGU/CGU 2026 - artigo.md'),null);
+assert.ok(quizHtml.includes('id="qs-unidade" hidden'),'dropdown técnico não deve aparecer visualmente');
+assert.ok(quizSource.includes("chapterMode==='numbered'?'Estudar até o capítulo'")||
+ quizSource.includes("numbered?'Estudar até o capítulo'"),'capítulos reais devem ter nome próprio');
+assert.ok(quizSource.includes("quizChapterNumber(a.sourcePath)<=n"),'limite inclusivo do capítulo');
 const resultsHtml=fs.readFileSync(path.join(root,'resultados.html'),'utf8');
-for(const id of ['qs-priorities','qs-unidade','qs-result-percent','qs-results-link'])
+for(const id of ['qs-priorities','qs-unidade','qs-capitulo','qs-capitulo-value','qs-capitulo-description','qs-result-percent','qs-results-link'])
  assert.ok(quizHtml.includes('id="'+id+'"'),'campo ausente: '+id);
 for(const id of ['results-quiz-priorities','results-legacy','results-quiz-stats'])
  assert.ok(resultsHtml.includes('id="'+id+'"'),'campo ausente: '+id);

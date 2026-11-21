@@ -19,38 +19,41 @@
  function normalizeChat(data){
   const rows=[],seen=new Set();
   for(const a of data?.articles||[]){
-   for(const q of a.mistakes||[]){
+   const entries=[...(a.mistakes||[]).map(q=>[q,'incorrect']),
+    ...(a.uncertainCorrect||[]).map(q=>[q,'uncertain'])];
+   for(const [q,result] of entries){
     const id=q.id||q.questionId||'';
     const key=id?'id:'+id:['legacy',q.date,q.statement,q.userAnswer].join('|');
     if(seen.has(key))continue;seen.add(key);
     // A API unificada já inclui respostas do D1, com IDs iniciados por site:.
     const fromSite=id.startsWith('site:');
-    rows.push({origin:fromSite?'Site':'ChatGPT',attemptId:fromSite?id.slice(5):'',day:validDate(q.date),subject:q.subjectId||a.subjectId||a.materiaId||'',
+    rows.push({result,origin:fromSite?'Site':'ChatGPT',attemptId:fromSite?id.slice(5):'',day:validDate(q.date),subject:q.subjectId||a.subjectId||a.materiaId||'',
      statement:q.statement||'',mine:q.userAnswer,correct:q.correctAnswer,explanation:q.explanation||'',
      articleId:a.articleId,section:q.section||'',questionId:id,topic:q.topic||q.subtopic||''});
    }
   }
   return rows;
  }
- async function siteErrors(exam){
+ async function siteReviewRows(exam){
   const response=await fetch('/v1/study/quiz?concurso='+encodeURIComponent(exam),{credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'}});
   if(!response.ok)throw Error('Não foi possível consultar as respostas do site.');
   const data=await response.json();
   if(data?.version!==1||!Array.isArray(data.attempts))throw Error('Formato de respostas do site incompatível.');
-  const errors=data.attempts.filter(a=>a?.concursoId===exam&&a.result==='incorrect');
-  if(!errors.length)return [];
+  const reviewRows=data.attempts.filter(a=>a?.concursoId===exam&&(a.result==='incorrect'||
+   (a.result==='correct'&&['insecure','guess'].includes(a.confidence))));
+  if(!reviewRows.length)return [];
   let questions=new Map();
   try{
    const bank=await fetch('/data/questoes-publicas.json',{cache:'no-store'});
    if(bank.ok){const b=await bank.json();if(Array.isArray(b.questions))questions=new Map(b.questions.map(q=>[q.id,q]));}
   }catch{}
   const seen=new Set(),out=[];
-  for(const a of errors){
+  for(const a of reviewRows){
    const key=a.id||[a.questionId,a.answeredAt,a.answer].join('|');
    if(seen.has(key))continue;seen.add(key);
    const q=questions.get(a.questionId)||{};
    const timestamp=Number(a.answeredAt);
-   out.push({origin:'Site',attemptId:a.id||'',day:Number.isFinite(timestamp)&&timestamp>0?dayFormat.format(new Date(timestamp)):'',
+   out.push({result:a.result==='incorrect'?'incorrect':'uncertain',origin:'Site',attemptId:a.id||'',day:Number.isFinite(timestamp)&&timestamp>0?dayFormat.format(new Date(timestamp)):'',
     subject:a.subjectId||q.subjectId||'',statement:q.statement||'',
     mine:a.answer,correct:a.correctAnswer??q.correctAnswer,explanation:q.explanation||'',
     articleId:q.articleId||'',section:q.section||'',questionId:a.questionId||'',topic:q.topic||q.subjectName||''});
@@ -83,7 +86,7 @@
  function card(r,exam,manifest){
   const item=text('article','results-daily-card');
   const head=text('div','results-daily-card-head');
-  head.append(text('strong','',r.topic||r.subject||'Questão registrada'),text('span','',r.origin));
+  head.append(text('strong','',r.topic||r.subject||'Questão registrada'),text('span','',(r.result==='uncertain'?'Acerto inseguro':'Erro')+' · '+r.origin));
   item.append(head,text('p','results-daily-statement',r.statement||'Enunciado não disponível neste registro.'));
   const answers=text('div','results-daily-answers');
   const mine=text('p','');mine.append(text('strong','','Sua resposta: '),document.createTextNode(answer(r.mine)));
@@ -104,6 +107,11 @@
    if(response.ok){const items=await response.json();if(Array.isArray(items))manifest=new Map(items.filter(x=>x.articleId).map(x=>[x.articleId,x]));}
   }catch{}
  }
+ function reviewCount(rows){
+  const errors=rows.filter(r=>r.result==='incorrect').length;
+  const uncertain=rows.length-errors;
+  return errors+' '+(errors===1?'erro':'erros')+' · '+uncertain+' '+(uncertain===1?'acerto inseguro':'acertos inseguros');
+ }
  function draw(){
   if(!unified)return;
   const exam=unified.concursoId,subject=$('results-subject-filter')?.value||'';
@@ -113,7 +121,7 @@
    .sort((a,b)=>a===today?-1:b===today?1:a==='sem-data'?1:b==='sem-data'?-1:b.localeCompare(a));
   const count=Math.min(visibleDays,days.length);
   target.replaceChildren();
-  const caption=text('p','results-caption',rows.length+' '+(rows.length===1?'erro registrado':'erros registrados')+
+  const caption=text('p','results-caption',reviewCount(rows)+
    ' na matéria selecionada. Dias em ordem do mais recente para o mais antigo.');
   target.append(caption);
   if(errorMessage)target.append(text('p','results-caption',errorMessage));
@@ -122,9 +130,9 @@
    const section=text('section','results-daily-group');
    const title=day===today?'Hoje · '+date(day):day==='sem-data'?'Data não registrada':date(day);
    const heading=text('h3','results-daily-day',title);
-   heading.append(text('span','results-daily-count',items.length+' '+(items.length===1?'erro':'erros')));
+   heading.append(text('span','results-daily-count',reviewCount(items)));
    section.append(heading);
-   if(!items.length)section.append(text('p','results-caption',day===today?'Nenhum erro registrado hoje para esta matéria.':'Nenhum erro registrado nesta data.'));
+   if(!items.length)section.append(text('p','results-caption',day===today?'Nenhum erro ou acerto inseguro registrado hoje para esta matéria.':'Nenhum erro ou acerto inseguro registrado nesta data.'));
    for(const item of items)section.append(card(item,exam,manifest));
    target.append(section);
   }
@@ -139,15 +147,15 @@
   unified=data;
   const exam=data.concursoId,seq=++pending;
   errorMessage='';visibleDays=1;
-  target.replaceChildren(text('p','results-caption','Consultando os erros registrados…'));
+  target.replaceChildren(text('p','results-caption','Consultando erros e acertos inseguros…'));
   // Mostra os erros do chat imediatamente, sem aguardar catálogo e D1.
   records=normalizeChat(data);
   loadedExam=exam;
   draw();
-  const [manifestResult,siteResult]=await Promise.allSettled([getManifest(),siteErrors(exam)]);
+  const [manifestResult,siteResult]=await Promise.allSettled([getManifest(),siteReviewRows(exam)]);
   if(seq!==pending)return;
   if(siteResult.status==='fulfilled')records=reconcileRows(records,siteResult.value);
-  else errorMessage='Não foi possível consultar as respostas do site. Os erros do ChatGPT continuam disponíveis.';
+  else errorMessage='Não foi possível consultar as respostas do site. Os registros do ChatGPT continuam disponíveis.';
   draw();
  }
  window.addEventListener('results:data',e=>{if(e.detail?.data)void load(e.detail.data);});

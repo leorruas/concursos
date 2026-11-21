@@ -447,13 +447,25 @@ const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
   officialEditalCode:officialCodeByQuestion.get(q.id)??officialCodeByReference.get(referenceKey(q.unitId,q.editalRef))??null,
   articleId:q.articleId || null,section:q.source?.section || null,conceptId:q.conceptId||null,mechanism:q.mechanism||null,
   format:q.format,origin:q.origin,estimatedDifficulty:q.estimatedDifficulty||null,statement:q.statement,correctAnswer:q.correctAnswer,explanation:q.explanation}));
+const questoesCgu = JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-cgu.json'),'utf8'));
+for (const item of questoesCgu) {
+  const {id,concursoId,subjectId,subjectName,unitId,unitName,examPart,editalRef,articleId,section,
+    conceptId,mechanism,format,origin,estimatedDifficulty,statement,correctAnswer,explanation} = item;
+  if (concursoId !== 'cgu-2026' || format !== 'CE' || !['C','E'].includes(correctAnswer) ||
+    ![id,subjectId,subjectName,unitId,unitName,examPart,editalRef,articleId,section,conceptId,
+      mechanism,origin,estimatedDifficulty,statement,explanation].every(v => typeof v === 'string' && v.trim())) {
+    throw Error('Questão pública da CGU inválida: ' + id);
+  }
+  questoesPublicas.push({id,concursoId,subjectId,subjectName,unitId,unitName,examPart,editalRef,articleId,section,
+    conceptId,mechanism,format,origin,estimatedDifficulty,statement,correctAnswer,explanation});
+}
 if(new Set(questoesPublicas.map(q=>q.id)).size !== questoesPublicas.length)throw Error('IDs duplicados no catálogo público de questões.');
 const editalUnits = Object.entries(arquivoQuestoes.subjects).flatMap(([subjectId, subject]) =>
   subject.units.map(([unitId, title, examPart, editalRef]) => ({subjectId, unitId, title, examPart, editalRef})));
 fs.writeFileSync(path.join(dataDest,'questoes-publicas.json'),JSON.stringify({
   version:1,contests:concursosQuestoes,questions:questoesPublicas,editalUnits
 }));
-console.log('✓ Banco de treino: '+questoesPublicas.length+' questões validadas da Câmara; outros concursos aguardam banco próprio.');
+console.log('✓ Banco de treino: '+questoesPublicas.length+' questões públicas da Câmara e da CGU.');
 
 const discursivas = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/propostas-discursivas-camara.json'), 'utf8'));
 fs.writeFileSync(path.join(dataDest, 'propostas-discursivas-camara.json'), JSON.stringify({

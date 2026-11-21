@@ -7604,6 +7604,118 @@
     }
   ],
   "expansao": [
+      {
+        "id": "cam-ti-revisao-backup-incremental-rompimento-da-cadeia",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "informatica",
+        "unitId": "tecnologia-e-dados",
+        "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+        "articleId": "art-e4f1e43ef81ff76b",
+        "conceptId": "restauracao-incremental",
+        "mechanism": "rompimento-da-cadeia",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-e4f1e43ef81ff76b#3. Dinâmica de restauração na prática (cenário de prova)"
+        ],
+        "source": {
+          "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+          "section": "3. Dinâmica de restauração na prática (cenário de prova)"
+        },
+        "statement": "Um arquivo foi criado após o backup completo e entrou no incremental de terça-feira. O incremental de terça foi perdido. Como o arquivo permaneceu disponível, mas sem alterações, até o incremental de quarta-feira, este último permite recuperá-lo junto com o backup completo.",
+        "correctAnswer": "E",
+        "explanation": "O incremental de quarta registra o que mudou desde a cópia anterior. Nesse cenário, o arquivo foi criado antes desse intervalo e ficou sem alterações na quarta. A falta do incremental de terça impede recuperá-lo pela sequência disponível.",
+        "reviewEvidence": "Revisão editorial técnica do caso e do gabarito com a seção teórica canônica e IBM, Backup and restore: https://www.ibm.com/think/topics/backup-and-restore"
+      },
+      {
+        "id": "cam-ti-revisao-backup-incremental-ponto-anterior-ao-elo-perdido",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "informatica",
+        "unitId": "tecnologia-e-dados",
+        "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+        "articleId": "art-e4f1e43ef81ff76b",
+        "conceptId": "restauracao-incremental",
+        "mechanism": "ponto-anterior-ao-elo-perdido",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-e4f1e43ef81ff76b#3. Dinâmica de restauração na prática (cenário de prova)"
+        ],
+        "source": {
+          "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+          "section": "3. Dinâmica de restauração na prática (cenário de prova)"
+        },
+        "statement": "Uma equipe tem o backup completo de sexta e incrementais de sábado, domingo e segunda. Somente a mídia de segunda ficou ilegível. Para recuperar o estado de domingo, os backups de sexta, sábado e domingo são suficientes, desde que íntegros.",
+        "correctAnswer": "C",
+        "explanation": "A cadeia necessária termina no ponto que se pretende recuperar. A perda da cópia de segunda compromete a recuperação daquele ponto posterior, mas não interrompe a cadeia até domingo.",
+        "reviewEvidence": "Revisão editorial técnica do caso e do gabarito com a seção teórica canônica e IBM, Backup and restore: https://www.ibm.com/think/topics/backup-and-restore"
+      },
+      {
+        "id": "cam-ti-revisao-backup-diferencial-perda-da-base",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "informatica",
+        "unitId": "tecnologia-e-dados",
+        "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+        "articleId": "art-e4f1e43ef81ff76b",
+        "conceptId": "restauracao-diferencial",
+        "mechanism": "perda-da-base",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-e4f1e43ef81ff76b#3. Dinâmica de restauração na prática (cenário de prova)"
+        ],
+        "source": {
+          "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+          "section": "3. Dinâmica de restauração na prática (cenário de prova)"
+        },
+        "statement": "Um setor preservou o diferencial de quinta, que contém os arquivos alterados desde o último backup completo. Caso o backup completo seja perdido, o diferencial ainda permite reconstruir também os arquivos que permaneceram iguais desde a cópia completa.",
+        "correctAnswer": "E",
+        "explanation": "Um diferencial guarda alterações acumuladas desde sua base. Os arquivos que não sofreram alterações podem estar apenas no backup completo, que segue necessário para reconstruir o conjunto.",
+        "reviewEvidence": "Revisão editorial técnica do caso e do gabarito com a seção teórica canônica e IBM, Backup and restore: https://www.ibm.com/think/topics/backup-and-restore"
+      },
+      {
+        "id": "cam-ti-revisao-backup-diferencial-ponto-de-recuperacao-delimitado",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "informatica",
+        "unitId": "tecnologia-e-dados",
+        "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+        "articleId": "art-e4f1e43ef81ff76b",
+        "conceptId": "restauracao-diferencial",
+        "mechanism": "ponto-de-recuperacao-delimitado",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-e4f1e43ef81ff76b#3. Dinâmica de restauração na prática (cenário de prova)"
+        ],
+        "source": {
+          "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+          "section": "3. Dinâmica de restauração na prática (cenário de prova)"
+        },
+        "statement": "Uma equipe tem o backup completo de segunda e diferenciais de quarta e sexta. Um arquivo foi alterado na quinta. Se o objetivo é recuperar o estado gravado na quarta, a combinação adequada é o completo de segunda com o diferencial de quarta.",
+        "correctAnswer": "C",
+        "explanation": "O diferencial selecionado deve corresponder ao ponto de recuperação desejado. O de sexta inclui alterações posteriores à quarta, inclusive a alteração de quinta.",
+        "reviewEvidence": "Revisão editorial técnica do caso e do gabarito com a seção teórica canônica e IBM, Backup and restore: https://www.ibm.com/think/topics/backup-and-restore"
+      },
     {
       "id": "cam-di-custo-por-mil",
       "concursoId": "camara-2026",

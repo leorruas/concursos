@@ -2185,8 +2185,8 @@
         "Comunicação de liderança",
         "Tempo de liderança"
       ],
-      "definition": "Uso da palavra por líderes de partidos ou blocos para tratar de assuntos de relevância nacional, em qualquer momento da sessão da Câmara. O líder pode falar pessoalmente ou delegar por escrito a um vice-líder (RICD, art. 66, § 1º). Pelo art. 89, o tempo é proporcional à bancada, de 3 a 10 minutos; as lideranças do Governo, da Maioria, da Minoria e da Oposição têm 8 minutos cada. Não são permitidos apartes, e líderes podem ceder entre si todo ou parte do tempo.",
-      "contrast": "A fala de liderança não é uma fase limitada ao Pequeno ou ao Grande Expediente nem à Ordem do Dia. O teto de 3 falas por semestre (1 por sorteio e 2 por cessão de vaga) é específico do Grande Expediente, no art. 87, § 2º. Comunicações parlamentares do art. 90 são outra modalidade. O RICD não fixa limite semestral geral para a comunicação dos líderes; situações específicas possuem regras próprias, como o partido sem liderança constituída, que pode indicar um deputado para falar uma vez por semana por 5 minutos (art. 9º, § 4º).",
+      "definition": "Uso da palavra por líderes de partidos ou blocos para tratar de assuntos de relevância nacional durante a sessão da Câmara. O líder pode falar em qualquer momento da sessão ou delegar por escrito a um vice-líder (RICD, art. 66, § 1º).",
+      "contrast": "O teto semestral de 3 falas (1 por sorteio e 2 por cessão de vaga) é do Grande Expediente (art. 87, § 2º). O art. 90 trata de comunicações parlamentares. Sem liderança constituída, o partido pode indicar deputado para falar 5 minutos por semana (art. 9º, § 4º). Pelo art. 89, o tempo é proporcional à bancada, de 3 a 10 minutos. Governo, Maioria, Minoria e Oposição têm 8 minutos cada. Não há apartes, e líderes podem ceder entre si todo ou parte do tempo.",
       "cebraspeTrap": "Aplicar o limite de três vezes por semestre do Grande Expediente às comunicações de liderança; afirmar que só ocorrem na Ordem do Dia; admitir apartes; ou negar a delegação escrita ao vice-líder.",
       "example": "Durante a Ordem do Dia, a líder de uma bancada faz uma comunicação sobre tema de relevância nacional por tempo proporcional à bancada, sem apartes. Essa intervenção não consome uma das três vagas semestrais do Grande Expediente.",
       "articleIds": [
@@ -2214,8 +2214,8 @@
         "PEC rejeitada",
         "Rejeição de PEC"
       ],
-      "definition": "Resultado desfavorável de deliberação sobre uma proposta de emenda à Constituição, quando ela não obtém a aprovação exigida. Para ser aprovada, a PEC exige votos favoráveis de três quintos dos membros em dois turnos em cada Casa (CF, art. 60, § 2º). A matéria de PEC rejeitada não pode ser objeto de nova proposta na mesma sessão legislativa (art. 60, § 5º).",
-      "contrast": "Rejeição decorre de deliberação que não aprova a proposta. Prejudicialidade é uma declaração regimental de perda de objeto ou utilidade da apreciação, inclusive sem votação do mérito da proposição prejudicada. Ambas são mencionadas no art. 60, § 5º, mas não significam a mesma coisa.",
+      "definition": "Resultado de uma deliberação em que a proposta de emenda à Constituição (PEC) não obtém a aprovação exigida. A matéria rejeitada não pode ser objeto de outra proposta na mesma sessão legislativa (CF, art. 60, § 5º).",
+      "contrast": "Rejeição decorre de deliberação que não aprova a proposta. Prejudicialidade é uma declaração regimental de perda de objeto ou utilidade da apreciação, inclusive sem votação do mérito da proposição prejudicada. Ambas são mencionadas no art. 60, § 5º, mas não significam a mesma coisa. A aprovação exige votos favoráveis de três quintos dos membros, em dois turnos em cada Casa (CF, art. 60, § 2º).",
       "cebraspeTrap": "Dizer que toda PEC prejudicada foi rejeitada em votação, ou aplicar à PEC a exceção do art. 67 da CF, que permite reapresentar matéria de projeto de lei rejeitado por iniciativa da maioria absoluta.",
       "example": "Uma PEC votada em primeiro turno não alcança três quintos dos deputados: não foi aprovada. A matéria da PEC rejeitada não pode ser apresentada novamente na mesma sessão legislativa.",
       "articleIds": [
@@ -2243,8 +2243,8 @@
         "PEC prejudicada",
         "Proposta de emenda havida por prejudicada"
       ],
-      "definition": "Situação em que uma PEC deixa de ser apreciada por hipótese regimental de prejudicialidade, como quando a decisão sobre outra proposição torna sua análise sem finalidade. A declaração de prejudicialidade não pressupõe votação de mérito da PEC afetada (RICD, arts. 163 e 164). Pelo art. 60, § 5º, da Constituição, a matéria de PEC havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa.",
-      "contrast": "Prejudicialidade é perda de objeto ou de utilidade da apreciação; rejeição é resultado desfavorável de deliberação. O autor pode recorrer da declaração de prejudicialidade ao Plenário da Câmara, em regra dentro de cinco sessões da publicação do despacho, ou imediatamente na hipótese regimental específica, ouvida a CCJC (RICD, art. 164, § 2º).",
+      "definition": "Declaração de que uma proposta de emenda à Constituição (PEC) perdeu o objeto ou a utilidade de ser apreciada, como quando outra decisão já resolve a matéria. A matéria prejudicada não pode voltar em nova proposta na mesma sessão legislativa (CF, art. 60, § 5º).",
+      "contrast": "Prejudicialidade é perda de objeto ou de utilidade da apreciação; rejeição é resultado desfavorável de deliberação. O autor pode recorrer da declaração de prejudicialidade ao Plenário da Câmara, em regra dentro de cinco sessões da publicação do despacho, ou imediatamente na hipótese regimental específica, ouvida a CCJC (RICD, art. 164, § 2º). A declaração segue os arts. 163 e 164 do RICD e dispensa votação de mérito da proposta afetada.",
       "cebraspeTrap": "Afirmar que a PEC só pode ser declarada prejudicada após votação de mérito ou que, por não ter sido votada, a mesma matéria pode ser reapresentada livremente na mesma sessão legislativa.",
       "example": "Duas proposições tratam de alteração constitucional sobre o mesmo ponto. Após decisão sobre uma delas, a outra PEC pode ser declarada prejudicada sem votação própria de mérito, se ocorrer hipótese regimental aplicável.",
       "articleIds": [

@@ -229,7 +229,7 @@
   revisoes:['Revisões','Atividades pendentes, retestes e materiais para praticar.'],
   materias:['Desempenho por matéria','Resultados e cobertura dos assuntos previstos no edital.'],
   historico:['Histórico de aprendizagem','Evidências de revisão e evolução dos conceitos.'],
-  erros:['Erros por dia','Questões erradas, respostas e explicações organizadas por data.']
+  erros:['Erros por dia','Erros e acertos inseguros, com respostas e explicações organizadas por data.']
  };
  for(const view of views){
   const a=document.createElement('a');a.textContent=view.label;
@@ -250,7 +250,7 @@
   }
   if(view.id==='erros'){
    const region=document.createElement('section');region.id='results-errors';region.className='results-section';region.setAttribute('aria-live','polite');
-   region.textContent='Carregando registros de erros…';panel.append(region);
+   region.textContent='Carregando erros e acertos inseguros…';panel.append(region);
   }
   panels.set(view.id,panel);
  }

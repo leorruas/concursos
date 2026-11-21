@@ -5,6 +5,7 @@
   {id:'resumo',label:'Resumo',selectors:['#results-adaptive','#results-legacy','#results-retention']},
   {id:'revisoes',label:'Revisões',selectors:['#results-adaptive-queue','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]']},
   {id:'materias',label:'Matérias',selectors:['[aria-labelledby="title-subjects"]','[aria-labelledby="results-edital-coverage-title"]','[aria-labelledby="results-difficulty-heading"]','[aria-labelledby="results-coverage-title"]']},
+  {id:'semanas',label:'Por semana',selectors:[]}, 
   {id:'historico',label:'Histórico',selectors:['#results-principle-history','[aria-labelledby="results-concept-transfer-title"]']},
   {id:'erros',label:'Erros por dia',selectors:[]}
  ];
@@ -15,7 +16,7 @@
  const onWorker=location.origin==='https://concurso-estudo.leoruas.workers.dev';
  const paths={
   resumo:'/resultados-resumo.html',revisoes:'/resultados-revisoes.html',
-  materias:'/resultados-materias.html',historico:'/resultados-historico.html',erros:'/resultados-historico.html'
+  materias:'/resultados-materias.html',historico:'/resultados-historico.html',erros:'/resultados-historico.html',semanas:'/resultados-historico.html'
  };
  const adaptiveQueue=document.createElement('section');
  adaptiveQueue.id='results-adaptive-queue';
@@ -128,6 +129,24 @@
  .results-study-action-unavailable{display:block;text-align:right;font-size:11px;line-height:1.4;color:var(--muted);max-width:160px}
  .results-view-panel .results-study-action-copy>p{margin:7px 0}
  /* Histórico: timeline, fonte e artigos seguem a linguagem de listas do projeto. */
+ /* Tabela semanal: dados autentificados e mesmas cores de texto do projeto. */
+ .results-week-picker{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:0 0 18px}
+ .results-week-picker label{font:11px 'IBM Plex Mono',monospace;text-transform:uppercase;color:var(--muted)}
+ .results-week-picker select{font:14px 'Archivo',sans-serif;background:transparent;color:var(--text);border:0;border-bottom:1px solid color-mix(in srgb,var(--text) 35%,transparent);padding:9px 5px;min-width:200px;max-width:100%}
+ .results-week-picker select:focus-visible{outline:2px solid var(--accent-blue);outline-offset:3px}
+ .results-week-headline{font-size:13px;color:var(--muted);margin:0 0 24px;line-height:1.6}
+ .results-week-block{margin:27px 0 34px}
+ .results-week-block h3{font-size:17px;font-weight:620;margin:0 0 12px;color:var(--text);letter-spacing:-.025em}
+ .results-week-table-scroll{width:100%;overflow-x:auto;overscroll-behavior-x:contain}
+ .results-week-table{border-collapse:collapse;width:100%;min-width:490px;font-size:13px;font-variant-numeric:tabular-nums}
+ .results-week-table th{text-align:right;padding:12px 9px;border-block:1px solid color-mix(in srgb,var(--text) 30%,transparent);font:11px 'IBM Plex Mono',monospace;color:var(--muted);font-weight:500}
+ .results-week-table td{text-align:right;padding:12px 9px;border-bottom:1px solid color-mix(in srgb,var(--text) 13%,transparent);color:var(--text)}
+ .results-week-table th:first-child,.results-week-table td:first-child{text-align:left;padding-left:0}
+ .results-week-table th:last-child,.results-week-table td:last-child{padding-right:0}
+ .results-week-table tfoot th,.results-week-table tfoot td{font-weight:650;border-top:1px solid color-mix(in srgb,var(--text) 35%,transparent);border-bottom:0;color:var(--text)}
+ .results-week-table .results-week-empty{color:var(--muted)}
+ .results-week-method{font-size:12px;color:var(--muted);line-height:1.6;max-width:67ch}
+ .results-week-error{font-size:13px;color:var(--muted);line-height:1.6}
  .results-history-section-header{margin:0 0 16px}
  .results-history-section-header h2{font-size:clamp(19px,2.5vw,26px);font-weight:620;letter-spacing:-.03em;margin:0 0 5px;color:var(--text)}
  .results-history-section-header p{font-size:12px;margin:0;color:var(--muted)}
@@ -229,12 +248,13 @@
   revisoes:['Revisões','Atividades pendentes, retestes e materiais para praticar.'],
   materias:['Desempenho por matéria','Resultados e cobertura dos assuntos previstos no edital.'],
   historico:['Histórico de aprendizagem','Evidências de revisão e evolução dos conceitos.'],
+  semanas:['Questões por semana','Respostas por dia e por matéria, com acertos, erros e retestes.'], 
   erros:['Erros por dia','Erros e acertos inseguros, com respostas e explicações organizadas por data.']
  };
  for(const view of views){
   const a=document.createElement('a');a.textContent=view.label;
   const href=new URL(location.href);
-  if(onWorker){href.pathname=paths[view.id];if(view.id==='erros')href.searchParams.set('visao','erros');else href.searchParams.delete('visao');}
+  if(onWorker){href.pathname=paths[view.id];if(view.id==='erros'||view.id==='semanas')href.searchParams.set('visao',view.id);else href.searchParams.delete('visao');}
   else href.searchParams.set('visao',view.id);
   a.href=href.pathname+href.search+href.hash;
   nav.append(a);links.set(view.id,a);
@@ -247,6 +267,10 @@
   for(const selector of view.selectors){
    const section=root.querySelector(selector);
    if(section)panel.append(section);
+  }
+  if(view.id==='semanas'){
+   const region=document.createElement('section');region.id='results-weeks';region.className='results-section';region.setAttribute('aria-live','polite');
+   region.textContent='Aguardando histórico semanal autenticado…';panel.append(region);
   }
   if(view.id==='erros'){
    const region=document.createElement('section');region.id='results-errors';region.className='results-section';region.setAttribute('aria-live','polite');
@@ -311,8 +335,9 @@
  if(privacy)panels.get('historico').append(privacy);
  function current(){
   if(onWorker){
-   if(location.pathname===paths.erros&&new URLSearchParams(location.search).get('visao')==='erros')return 'erros';
-   const page=Object.keys(paths).find(id=>id!=='erros'&&paths[id]===location.pathname);
+   const detail=new URLSearchParams(location.search).get('visao');
+   if(location.pathname===paths.historico&&(detail==='erros'||detail==='semanas'))return detail;
+   const page=Object.keys(paths).find(id=>id!=='erros'&&id!=='semanas'&&paths[id]===location.pathname);
    if(page)return page;
   }
   const p=new URLSearchParams(location.search).get('visao');
@@ -335,5 +360,112 @@
   const url=new URL(link.href);
   history.pushState({resultsView:true},'',url);show();
  });
+ // A API autenticada devolve totais já conciliados entre chat e site.
+ // Nenhum registro de tentativa é persistido nesta página.
+ const weekTarget=document.getElementById('results-weeks');
+ let weeklyData=null,weekSelection='';
+ const dayName=['Seg','Ter','Qua','Qui','Sex','Sáb','Dom'];
+ const numericFields=['total','correct','incorrect','blank','retests'];
+ const datePt=d=>/^\\d{4}-\\d{2}-\\d{2}$/.test(d||'')?d.slice(8,10)+'/'+d.slice(5,7)+'/'+d.slice(0,4):d;
+ const newNode=(tag,cls,value)=>{
+  const n=document.createElement(tag);
+  if(cls)n.className=cls;
+  if(value!==undefined)n.textContent=String(value);
+  return n;
+ };
+ const zero=()=>({total:0,correct:0,incorrect:0,blank:0,retests:0});
+ function addValues(target,source){for(const f of numericFields)target[f]+=Number(source?.[f])||0;}
+ function summaryTable(headers,rows,total){
+  const wrap=newNode('div','results-week-table-scroll');
+  const table=newNode('table','results-week-table');
+  const head=newNode('thead'),hr=newNode('tr');
+  for(const h of headers){const cell=newNode('th','',h);cell.scope='col';hr.append(cell);}
+  head.append(hr);table.append(head);
+  const body=newNode('tbody');
+  for(const row of rows){
+   const tr=newNode('tr');
+   row.forEach((v,i)=>{
+    const td=newNode('td',v===null?'results-week-empty':'',v===null?'Sem registro':v);
+    tr.append(td);
+   });body.append(tr);
+  }
+  table.append(body);
+  if(total){const foot=newNode('tfoot'),tr=newNode('tr');
+   total.forEach((v,i)=>{const cell=newNode(i?'td':'th','',v);if(!i)cell.scope='row';tr.append(cell);});
+   foot.append(tr);table.append(foot);
+  }
+  wrap.append(table);return wrap;
+ }
+ function drawWeeks(){
+  if(!weekTarget)return;
+  weekTarget.replaceChildren();
+  if(!weeklyData||weeklyData.version!==1||!Array.isArray(weeklyData.weeks)){
+   weekTarget.append(newNode('p','results-week-error','O resumo por semana ainda não está disponível nesta versão da API privada. As respostas originais continuam preservadas.'));
+   return;
+  }
+  const weeks=weeklyData.weeks,subject=document.getElementById('results-subject-filter')?.value||'';
+  if(!weeks.length){weekTarget.append(newNode('p','results-week-error','Ainda não há questões com data registrada para este concurso.'));return;}
+  if(!weeks.some(w=>w.start===weekSelection))weekSelection=weeks[0].start;
+  const toolbar=newNode('div','results-week-picker');
+  const label=newNode('label','','Semana');label.htmlFor='results-week-select';
+  const select=newNode('select');select.id='results-week-select';
+  for(const week of weeks){
+   const option=newNode('option','',datePt(week.start)+' a '+datePt(week.end));
+   option.value=week.start;select.append(option);
+  }
+  select.value=weekSelection;
+  select.addEventListener('change',()=>{weekSelection=select.value;drawWeeks();});
+  toolbar.append(label,select);weekTarget.append(toolbar);
+  const week=weeks.find(w=>w.start===weekSelection);
+  const days=new Map((week.days||[]).map(d=>[d.date,d]));
+  const matterTotals=new Map(),sum=zero(),dayRows=[];
+  const startDate=new Date(week.start+'T12:00:00Z');
+  for(let i=0;i<7;i++){
+   const d=new Date(startDate);d.setUTCDate(startDate.getUTCDate()+i);
+   const key=d.toISOString().slice(0,10),day=days.get(key);
+   const items=day?(subject?(day.subjects||[]).filter(x=>x.subjectId===subject):day.subjects||[]):[];
+   const values=zero();
+   for(const item of items){
+    addValues(values,item);
+    const id=item.subjectId||'sem-materia';
+    if(!matterTotals.has(id))matterTotals.set(id,zero());
+    addValues(matterTotals.get(id),item);
+   }
+   if(!day&& !subject)dayRows.push([dayName[i]+' · '+datePt(key),null,null,null,null,null]);
+   else dayRows.push([dayName[i]+' · '+datePt(key),...numericFields.map(f=>values[f])]);
+   addValues(sum,values);
+  }
+  const hint=newNode('p','results-week-headline',
+   sum.total+' questões · '+sum.correct+' acertos · '+sum.incorrect+' erros'+
+   (sum.blank?' · '+sum.blank+' em branco':'')+' · '+sum.retests+' retestes da mesma questão'+
+   (subject?' · matéria filtrada':''));
+  weekTarget.append(hint);
+  const columns=['Dia','Questões','Acertos','Erros','Brancos','Retestes'];
+  const dayBlock=newNode('section','results-week-block');
+  dayBlock.append(newNode('h3','','Por dia'),summaryTable(columns,dayRows,
+   ['Total',...numericFields.map(f=>sum[f])]));
+  weekTarget.append(dayBlock);
+  const matterBlock=newNode('section','results-week-block');
+  matterBlock.append(newNode('h3','','Por matéria'));
+  const known={'direito-constitucional':'Direito Constitucional','direito-administrativo':'Direito Administrativo',
+   'administracao-publica':'Administração Pública','orcamento-publico':'Orçamento Público',
+   'portugues':'Língua Portuguesa','ingles':'Língua Inglesa','comunicacao':'Comunicação Social',
+   'informatica':'Tecnologia da Informação','etica-publica':'Ética Pública'};
+  const matters=[...matterTotals].sort((a,b)=>b[1].total-a[1].total||a[0].localeCompare(b[0],'pt-BR'));
+  if(matters.length){
+   matterBlock.append(summaryTable(['Matéria',...columns.slice(1)],
+    matters.map(([id,v])=>[known[id]||id,...numericFields.map(f=>v[f])]),
+    ['Total',...numericFields.map(f=>sum[f])]));
+  }else matterBlock.append(newNode('p','results-week-error','Sem questões nesta matéria durante a semana selecionada.'));
+  weekTarget.append(matterBlock);
+  weekTarget.append(newNode('p','results-week-method',
+   'Reteste significa nova resposta à mesma questão identificada na mesma origem. Tentativas distintas são contadas separadamente. Revisar uma questão não comprova retenção independente. Dias sem informação têm indicação própria; os totais vêm da API autenticada, que concilia chat e site.'));
+ }
+ window.addEventListener('results:data',event=>{
+  if(event.detail?.data?.concursoId!==weeklyData?.concursoId)weekSelection='';
+  weeklyData=event.detail?.data?.weekly?{...event.detail.data.weekly,concursoId:event.detail.data.concursoId}:null;
+  drawWeeks();
+ });
+ window.addEventListener('results:filter',drawWeeks);
  addEventListener('popstate',show);show();
 })();

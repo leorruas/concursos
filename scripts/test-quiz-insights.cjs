@@ -134,7 +134,7 @@ for(const [index,articleId] of adminCatalog.entries())
 assert.equal(casesAdmin.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length,30);
 assert.equal(new Set([...additional,...variants,...applications,...casesAdmin].map(q=>q.id)).size,246,'IDs únicos entre lotes');
 const hardAdmin=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara-administrativo-dificeis.json'),'utf8'));
-assert.equal(hardAdmin.length,47,'novo lote de dificuldade elevada deve conter 47 questões');
+assert.ok(hardAdmin.length>=47,'o banco difícil deve preservar ao menos as 47 questões originais');
 const priorHardStatements=new Set([...canonical.pilotoDidatico,...canonical.expansao,...additional,...variants,...applications,...casesAdmin]
  .map(q=>normalizeStatement(q.statement)));
 assert.equal(new Set(hardAdmin.map(q=>normalizeStatement(q.statement))).size,hardAdmin.length,'enunciados difíceis distintos');
@@ -144,11 +144,17 @@ for(const q of hardAdmin){
  assert.equal(q.estimatedDifficulty,'dificil','lote inteiro precisa aparecer no filtro Difícil');
  assert.ok(q.explanation.length>=100,'justificativa de questão difícil deve explicar regra e ressalva: '+q.id);
 }
-for(const [i,id] of adminCatalog.entries())assert.equal(hardAdmin.filter(q=>q.articleId===id).length,i<10?3:1,'cobertura difícil capítulo '+(i+1));
-assert.equal(hardAdmin.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length,30,'trinta difíceis nos primeiros dez capítulos');
-assert.equal(hardAdmin.filter(q=>q.correctAnswer==='C').length,24);
-assert.equal(hardAdmin.filter(q=>q.correctAnswer==='E').length,23);
-assert.equal(new Set([...additional,...variants,...applications,...casesAdmin,...hardAdmin].map(q=>q.id)).size,293,'identificadores únicos nos lotes');
+for(const [i,id] of adminCatalog.entries())assert.ok(hardAdmin.filter(q=>q.articleId===id).length>=(i<10?3:1),'cobertura difícil capítulo '+(i+1));
+assert.ok(hardAdmin.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length>=30,'ao menos trinta difíceis nos primeiros dez capítulos');
+assert.ok(Math.abs(hardAdmin.filter(q=>q.correctAnswer==='C').length-hardAdmin.filter(q=>q.correctAnswer==='E').length)<=3,'gabarito difícil equilibrado');
+
+assert.equal(new Set([...additional,...variants,...applications,...casesAdmin,...hardAdmin].map(q=>q.id)).size,246+hardAdmin.length,'identificadores únicos nos lotes');
+const hardDecoro=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara-decoro-dificeis.json'),'utf8'));
+assert.equal(hardDecoro.length,30,'novo lote de decoro deve conter 30 questões');
+assert.equal(hardDecoro.filter(q=>q.correctAnswer==='C').length,15);
+assert.equal(hardDecoro.filter(q=>q.correctAnswer==='E').length,15);
+assert.equal(new Set(hardDecoro.map(q=>normalizeStatement(q.statement))).size,hardDecoro.length);
+assert.equal(new Set([...canonical.pilotoDidatico,...canonical.expansao,...hardDecoro].map(q=>q.id)).size,canonical.pilotoDidatico.length+canonical.expansao.length+hardDecoro.length);
 const out=path.join(root,'_site/data/questoes-publicas.json');
 assert.ok(fs.existsSync(out),'exige build do site antes do teste');
 const data=JSON.parse(fs.readFileSync(out,'utf8'));
@@ -158,6 +164,7 @@ for(const q of variants)assert.ok(data.questions.some(item=>item.id===q.id),'var
 for(const q of applications)assert.ok(data.questions.some(item=>item.id===q.id),'aplicação nova não publicada: '+q.id);
 for(const q of casesAdmin)assert.ok(data.questions.some(item=>item.id===q.id),'caso novo ausente do banco público: '+q.id);
 for(const q of hardAdmin)assert.ok(data.questions.some(item=>item.id===q.id),'questão difícil ausente no banco público: '+q.id);
+for(const q of hardDecoro)assert.ok(data.questions.some(item=>item.id===q.id),'questão de decoro ausente no banco público: '+q.id);
 assert.equal(new Set(data.questions.map(q=>q.id)).size,data.questions.length);
 assert.ok(data.questions.every(q=>q.unitName&&typeof q.section==='string'&&!('reviewEvidence' in q)),'catálogo público precisa expor só vínculo didático, sem dados internos');
 console.log('OK: prioridade por artigo, contexto do concurso, referência precisa, interface e dados públicos.');

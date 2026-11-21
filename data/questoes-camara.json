@@ -7605,6 +7605,62 @@
   ],
   "expansao": [
       {
+        "id": "cam-revisao-amostragem-grupos-nao-sorteados",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "comunicacao",
+        "unitId": "divulgacao-institucional",
+        "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa de mercado",
+        "articleId": "art-4e9d2a7c813f65b0",
+        "conceptId": "estratificacao-versus-conglomerados",
+        "mechanism": "grupos-nao-sorteados",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-4e9d2a7c813f65b0#Quatro desenhos probabilísticos: o que é sorteado?"
+        ],
+        "source": {
+          "path": "3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md",
+          "section": "Quatro desenhos probabilísticos: o que é sorteado?"
+        },
+        "statement": "Para pesquisar os hábitos de leitura de uma rede de bibliotecas, a equipe divide os inscritos em faixas etárias e sorteia leitores dentro de todas as faixas. O desenho é estratificado, ainda que sejam sorteadas quantidades iguais em faixas com populações diferentes.",
+        "correctAnswer": "C",
+        "explanation": "Todas as faixas participam do desenho, e o sorteio ocorre entre os leitores de cada faixa. A alocação de tamanhos iguais pode ser desproporcional e exigir ponderação para estimar características do conjunto, mas não altera a forma de seleção.",
+        "reviewEvidence": "Revisão do desenho e do gabarito com a nota canônica e OpenStax, Introductory Statistics, seção 1.2. https://openstax.org/books/introductory-statistics/pages/1-2-data-sampling-and-variation-in-data-and-sampling"
+      },
+      {
+        "id": "cam-revisao-amostragem-estratos-e-conglomerados-combinados",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "comunicacao",
+        "unitId": "divulgacao-institucional",
+        "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa de mercado",
+        "articleId": "art-4e9d2a7c813f65b0",
+        "conceptId": "estratificacao-versus-conglomerados",
+        "mechanism": "estratos-e-conglomerados-combinados",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-4e9d2a7c813f65b0#Quatro desenhos probabilísticos: o que é sorteado?"
+        ],
+        "source": {
+          "path": "3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md",
+          "section": "Quatro desenhos probabilísticos: o que é sorteado?"
+        },
+        "statement": "Uma pesquisa sobre um portal institucional divide as escolas em redes de ensino. Em cada rede, sorteia escolas e, nas escolas escolhidas, sorteia estudantes. Nesse desenho, as redes são conglomerados, pois há sorteio de escolas dentro de cada uma delas.",
+        "correctAnswer": "E",
+        "explanation": "As redes são estratos porque todas participam e orientam a seleção interna. As escolas são as unidades selecionadas no primeiro estágio em cada estrato e funcionam como conglomerados. Os estudantes são sorteados no estágio seguinte.",
+        "reviewEvidence": "Revisão do desenho e do gabarito com a nota canônica e OpenStax, Introductory Statistics, seção 1.2. https://openstax.org/books/introductory-statistics/pages/1-2-data-sampling-and-variation-in-data-and-sampling"
+      },
+      {
         "id": "cam-revisao-presidente-autorizacao-e-quorum",
         "concursoId": "camara-2026",
         "origin": "inedita",

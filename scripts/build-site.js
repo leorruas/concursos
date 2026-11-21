@@ -471,6 +471,29 @@ for(const q of novasAdmin){
  ].map(k=>[k,q[k]])));
 }
 if([...distribuicaoAdmin.values()].some(n=>n<2))throw Error('Capítulo sem duas questões adicionais.');
+// Variantes de reteste: validam transferência para outro enunciado do mesmo assunto.
+// A identidade da questão permanece distinta; o histórico usa questionId literal.
+const variantesAdmin=JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-camara-administrativo-variantes.json'),'utf8'));
+const mapaVariantes=new Map(capitulosAdmin.map(id=>[id,0]));
+if(!Array.isArray(variantesAdmin)||variantesAdmin.length!==54)throw Error('Lote de variantes de Administrativo incompleto.');
+for(const q of variantesAdmin){
+ const required=['id','subjectId','subjectName','unitId','unitName','editalRef','officialEditalCode','articleId','section','conceptId','mechanism','statement','correctAnswer','explanation','origin','estimatedDifficulty','sourceNote'];
+ if(q.concursoId!=='camara-2026'||q.subjectId!=='direito-administrativo'||
+    q.unitId!=='direito-administrativo'||q.examPart!=='P1'||q.format!=='CE'||
+    !['C','E'].includes(q.correctAnswer)||q.origin!=='inedita'||
+    !['media','dificil','facil','muito-facil','muito-dificil'].includes(q.estimatedDifficulty)||
+    !required.every(k=>typeof q[k]==='string'&&q[k].trim())||
+    !mapaVariantes.has(q.articleId)||!codigosAdmin.has(q.officialEditalCode)||
+    q.editalRef!=='14.2.3 / Direito Administrativo e Administração Pública / '+q.officialEditalCode||
+    q.statement.length<60||q.explanation.length<45)throw Error('Variante administrativa inválida: '+q.id);
+ mapaVariantes.set(q.articleId,mapaVariantes.get(q.articleId)+1);
+ questoesPublicas.push(Object.fromEntries([
+  'id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','officialEditalCode',
+  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'
+ ].map(k=>[k,q[k]])));
+}
+if([...mapaVariantes.values()].some(n=>n!==2))throw Error('Cada capítulo precisa de duas variantes de reteste.');
+
 const questoesCgu = JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-cgu.json'),'utf8'));
 for (const item of questoesCgu) {
   const {id,concursoId,subjectId,subjectName,unitId,unitName,examPart,editalRef,articleId,section,

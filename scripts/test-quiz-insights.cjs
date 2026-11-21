@@ -133,6 +133,22 @@ for(const [index,articleId] of adminCatalog.entries())
  assert.equal(casesAdmin.filter(q=>q.articleId===articleId).length,index<10?3:2,'cobertura capítulo '+(index+1));
 assert.equal(casesAdmin.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length,30);
 assert.equal(new Set([...additional,...variants,...applications,...casesAdmin].map(q=>q.id)).size,246,'IDs únicos entre lotes');
+const hardAdmin=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara-administrativo-dificeis.json'),'utf8'));
+assert.equal(hardAdmin.length,47,'novo lote de dificuldade elevada deve conter 47 questões');
+const priorHardStatements=new Set([...canonical.pilotoDidatico,...canonical.expansao,...additional,...variants,...applications,...casesAdmin]
+ .map(q=>normalizeStatement(q.statement)));
+assert.equal(new Set(hardAdmin.map(q=>normalizeStatement(q.statement))).size,hardAdmin.length,'enunciados difíceis distintos');
+for(const q of hardAdmin){
+ assert.ok(!priorHardStatements.has(normalizeStatement(q.statement)),'enunciado difícil idêntico ao anterior: '+q.id);
+ assert.ok(adminCatalog.includes(q.articleId),'questão difícil sem artigo do catálogo: '+q.id);
+ assert.equal(q.estimatedDifficulty,'dificil','lote inteiro precisa aparecer no filtro Difícil');
+ assert.ok(q.explanation.length>=100,'justificativa de questão difícil deve explicar regra e ressalva: '+q.id);
+}
+for(const [i,id] of adminCatalog.entries())assert.equal(hardAdmin.filter(q=>q.articleId===id).length,i<10?3:1,'cobertura difícil capítulo '+(i+1));
+assert.equal(hardAdmin.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length,30,'trinta difíceis nos primeiros dez capítulos');
+assert.equal(hardAdmin.filter(q=>q.correctAnswer==='C').length,24);
+assert.equal(hardAdmin.filter(q=>q.correctAnswer==='E').length,23);
+assert.equal(new Set([...additional,...variants,...applications,...casesAdmin,...hardAdmin].map(q=>q.id)).size,293,'identificadores únicos nos lotes');
 const out=path.join(root,'_site/data/questoes-publicas.json');
 assert.ok(fs.existsSync(out),'exige build do site antes do teste');
 const data=JSON.parse(fs.readFileSync(out,'utf8'));
@@ -141,6 +157,7 @@ for(const q of additional)assert.ok(data.questions.some(item=>item.id===q.id),'i
 for(const q of variants)assert.ok(data.questions.some(item=>item.id===q.id),'variante de reteste não publicada: '+q.id);
 for(const q of applications)assert.ok(data.questions.some(item=>item.id===q.id),'aplicação nova não publicada: '+q.id);
 for(const q of casesAdmin)assert.ok(data.questions.some(item=>item.id===q.id),'caso novo ausente do banco público: '+q.id);
+for(const q of hardAdmin)assert.ok(data.questions.some(item=>item.id===q.id),'questão difícil ausente no banco público: '+q.id);
 assert.equal(new Set(data.questions.map(q=>q.id)).size,data.questions.length);
 assert.ok(data.questions.every(q=>q.unitName&&typeof q.section==='string'&&!('reviewEvidence' in q)),'catálogo público precisa expor só vínculo didático, sem dados internos');
 console.log('OK: prioridade por artigo, contexto do concurso, referência precisa, interface e dados públicos.');

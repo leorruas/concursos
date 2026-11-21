@@ -6,6 +6,8 @@ const {chromium}=require('playwright');
 const {questions,editalUnits}=JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/data/questoes-publicas.json'),'utf8'));
 const manifest=new Map(JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/manifest.json'),'utf8'))
  .map(article=>[article.articleId,article]));
+const catalog=JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/data/catalogo-materias-por-concurso.json'),'utf8'));
+const chapters=(exam,subject)=>catalog.contests.find(c=>c.concursoId===exam)?.subjects.find(x=>x.subjectId===subject)?.articleIds||[];
 const evidence=path.join(__dirname,'../quiz-visual-evidence');
 fs.mkdirSync(evidence,{recursive:true});
 (async()=>{
@@ -123,17 +125,30 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.locator('input[name="qs-scope"][value="single"]').check();
    await page.selectOption('#qs-materia','direito-constitucional');
    await page.locator('#qs-unidade-wrap').waitFor({state:'visible'});
+   // O capítulo 10 de Administrativo é a 10ª entrada do catálogo,
+   // mesmo quando o arquivo foi originalmente nomeado '16 - ...'.
+   await page.selectOption('#qs-materia','direito-administrativo');
+   const adminIds=chapters('camara-2026','direito-administrativo');
+   assert.equal(adminIds.length,27);
+   assert.equal(adminIds[9],'art-10a91f6bf9b53f1a');
+   assert.equal(await page.locator('#qs-capitulo').getAttribute('max'),'27');
+   await page.locator('#qs-capitulo').evaluate(el=>{el.value='10';el.dispatchEvent(new Event('input',{bubbles:true}));});
+   const administrativeQuestions=questions.filter(q=>q.concursoId==='camara-2026'&&q.subjectId==='direito-administrativo');
+   const adminEligible=administrativeQuestions.filter(q=>adminIds.slice(0,10).includes(q.articleId));
+   assert.match(await page.locator('#qs-availability').innerText(),new RegExp('^'+adminEligible.length+' questões'));
+   assert.match(await page.locator('#qs-capitulo-description').innerText(),/Classificações e espécies de atos administrativos/i);
+   // O filtro de Constitucional deve seguir sua própria ordem, não o número dos arquivos.
+   await page.selectOption('#qs-materia','direito-constitucional');
    const subjectQuestions=questions.filter(q=>q.concursoId==='camara-2026'&&q.subjectId==='direito-constitucional');
-   const chapterOf=id=>Number(/^(\d{1,3})\s*-/.exec(manifest.get(id)?.sourcePath.split('/').pop()||'')?.[1]||0);
-   const chapterNumbers=[...new Set(subjectQuestions.map(q=>chapterOf(q.articleId)).filter(Boolean))].sort((a,b)=>a-b);
-   assert.ok(chapterNumbers.length>2,'recorte precisa usar capítulos numerados do artigo');
+   const chapterIds=chapters('camara-2026','direito-constitucional');
+   assert.ok(chapterIds.length>2);
    assert.equal(await page.locator('#qs-capitulo-label').innerText(),'Estudar até o capítulo');
    assert.equal(await page.locator('#qs-unidade').isVisible(),false,'dropdown antigo deve permanecer oculto');
-   assert.ok(Number(await page.locator('#qs-capitulo').getAttribute('max'))>=chapterNumbers.at(-1));
-   const cutoff=chapterNumbers.find(n=>subjectQuestions.filter(q=>chapterOf(q.articleId)&&chapterOf(q.articleId)<=n).length>=2);
-   assert.ok(cutoff,'é preciso ter ao menos duas questões até o capítulo escolhido');
+   assert.equal(Number(await page.locator('#qs-capitulo').getAttribute('max')),chapterIds.length);
+   const cutoff=chapterIds.findIndex((id,index)=>subjectQuestions.filter(q=>chapterIds.slice(0,index+1).includes(q.articleId)).length>=2)+1;
+   assert.ok(cutoff>0&&cutoff<chapterIds.length,'é preciso ter ao menos duas questões antes do último capítulo');
    await page.locator('#qs-capitulo').evaluate((el,n)=>{el.value=String(n);el.dispatchEvent(new Event('input',{bubbles:true}));},cutoff);
-   const expected=subjectQuestions.filter(q=>chapterOf(q.articleId)>0&&chapterOf(q.articleId)<=cutoff).length;
+   const expected=subjectQuestions.filter(q=>chapterIds.slice(0,cutoff).includes(q.articleId)).length;
    assert.match(await page.locator('#qs-availability').innerText(),new RegExp('^'+expected+' questões'));
    assert.equal(await page.locator('#qs-capitulo-value').innerText(),String(cutoff));
    await page.locator('#qs-capitulo-next').click();
@@ -170,7 +185,7 @@ fs.mkdirSync(evidence,{recursive:true});
     const statement=(await page.locator('#qs-statement').innerText()).trim();
     const q=questions.find(x=>x.statement===statement);
     assert.ok(q,'enunciado deve existir no banco publicado');
-    assert.ok(chapterOf(q.articleId)>0&&chapterOf(q.articleId)<=cutoff,'questão deve respeitar o capítulo limite escolhido');
+    assert.ok(chapterIds.slice(0,cutoff).includes(q.articleId),'questão deve respeitar a ordem dos capítulos do catálogo');
     await page.locator('input[name="qs-answer"][value="'+(q.correctAnswer==='C'?'E':'C')+'"]').check();
     if(i===0){
      await page.locator('#qs-insecure').check();

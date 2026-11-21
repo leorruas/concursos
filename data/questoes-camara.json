@@ -7605,6 +7605,90 @@
   ],
   "expansao": [
       {
+        "id": "cam-revisao-arquitetura-marca-endosso-credibilidade",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "comunicacao",
+        "unitId": "divulgacao-institucional",
+        "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+        "articleId": "art-c42e9b761d30f85a",
+        "conceptId": "brand-relationship-spectrum-quatro-estrategias",
+        "mechanism": "endosso-credibilidade",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-c42e9b761d30f85a#Arquitetura: quem assina cada serviço?"
+        ],
+        "source": {
+          "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+          "section": "Arquitetura: quem assina cada serviço?"
+        },
+        "statement": "Um programa de formação tem nome e identidade próprios. O público procura os cursos pelo nome do programa, e a expressão “com o apoio de Instituto Horizonte” funciona como chancela explícita. No espectro de Aaker e Joachimsthaler, essa relação é compatível com uma marca endossada.",
+        "correctAnswer": "C",
+        "explanation": "A identidade do programa é a referência principal para escolher os cursos. A presença explícita do instituto dá credibilidade à oferta. Esse papel de apoio caracteriza o endosso.",
+        "reviewEvidence": "Conferência editorial dos casos, gabaritos e critérios pelo artigo canônico e por Aaker e Joachimsthaler (2000), The Brand Relationship Spectrum. https://cmr.berkeley.edu/2000/08/42-4-the-brand-relationship-spectrum-the-key-to-the-brand-architecture-challenge/"
+      },
+      {
+        "id": "cam-revisao-arquitetura-marca-marca-dominante-descritores",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "comunicacao",
+        "unitId": "divulgacao-institucional",
+        "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+        "articleId": "art-c42e9b761d30f85a",
+        "conceptId": "brand-relationship-spectrum-quatro-estrategias",
+        "mechanism": "marca-dominante-descritores",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-c42e9b761d30f85a#Arquitetura: quem assina cada serviço?"
+        ],
+        "source": {
+          "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+          "section": "Arquitetura: quem assina cada serviço?"
+        },
+        "statement": "Uma instituição usa sua marca como nome e assinatura principal em toda a oferta. Acrescenta apenas descritores funcionais, como “biblioteca”, “agenda” e “arquivo”, sem identidade de marca própria para eles. Esses descritores fazem do conjunto uma casa de marcas independentes.",
+        "correctAnswer": "E",
+        "explanation": "Os descritores ajudam a localizar serviços e a marca institucional continua sendo a referência comum. Essa configuração é compatível com uma marca dominante. A casa de marcas independentes implica ofertas conduzidas por marcas autônomas.",
+        "reviewEvidence": "Conferência editorial dos casos, gabaritos e critérios pelo artigo canônico e por Aaker e Joachimsthaler (2000), The Brand Relationship Spectrum. https://cmr.berkeley.edu/2000/08/42-4-the-brand-relationship-spectrum-the-key-to-the-brand-architecture-challenge/"
+      },
+      {
+        "id": "cam-revisao-arquitetura-marca-portfolio-misto-relacoes",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "comunicacao",
+        "unitId": "divulgacao-institucional",
+        "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+        "articleId": "art-c42e9b761d30f85a",
+        "conceptId": "brand-relationship-spectrum-quatro-estrategias",
+        "mechanism": "portfolio-misto-relacoes",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-c42e9b761d30f85a#Arquitetura: quem assina cada serviço?"
+        ],
+        "source": {
+          "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+          "section": "Arquitetura: quem assina cada serviço?"
+        },
+        "statement": "Uma organização usa a marca institucional com descritores em serviços administrativos, endossa um programa cultural com identidade própria e mantém outra oferta sob uma marca independente. O portfólio combina estratégias, mas a relação de cada oferta ainda pode ser analisada no espectro de Aaker e Joachimsthaler.",
+        "correctAnswer": "C",
+        "explanation": "Um portfólio pode adotar relações diferentes entre a instituição e cada oferta. A caracterização do conjunto como híbrido não impede identificar a relação dominante, endossada ou independente em cada caso.",
+        "reviewEvidence": "Conferência editorial dos casos, gabaritos e critérios pelo artigo canônico e por Aaker e Joachimsthaler (2000), The Brand Relationship Spectrum. https://cmr.berkeley.edu/2000/08/42-4-the-brand-relationship-spectrum-the-key-to-the-brand-architecture-challenge/"
+      },
+      {
         "id": "cam-revisao-coordenacao-responsabilidade-sem-subordinacao",
         "concursoId": "camara-2026",
         "origin": "inedita",

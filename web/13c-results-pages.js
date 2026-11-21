@@ -385,7 +385,7 @@
   for(const row of rows){
    const tr=newNode('tr');
    row.forEach((v,i)=>{
-    const td=newNode('td',v===null?'results-week-empty':'',v===null?'Sem registro':v);
+    const td=newNode('td',v===null?'results-week-empty':'',v===null?'—':v);
     tr.append(td);
    });body.append(tr);
   }
@@ -431,7 +431,7 @@
     if(!matterTotals.has(id))matterTotals.set(id,zero());
     addValues(matterTotals.get(id),item);
    }
-   if(!day&& !subject)dayRows.push([dayName[i]+' · '+datePt(key),null,null,null,null,null]);
+   if(items.length===0)dayRows.push([dayName[i]+' · '+datePt(key),null,null,null,null,null]);
    else dayRows.push([dayName[i]+' · '+datePt(key),...numericFields.map(f=>values[f])]);
    addValues(sum,values);
   }

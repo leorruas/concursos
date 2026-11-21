@@ -48,6 +48,17 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .qs-stats strong{display:block;font-size:1.9rem}.qs-stats span{color:var(--muted);font-size:.78rem}
 .qs-review{border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent);padding:17px 0}
 .qs-review summary{cursor:pointer}.qs-review p{font-size:.88rem;line-height:1.6;color:var(--muted)}
+.qs-archive{margin-top:26px;border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent);padding:15px 0 0;color:var(--muted)}
+.qs-archive summary{display:flex;align-items:center;gap:10px;flex-wrap:wrap;list-style:none;cursor:pointer;width:fit-content;max-width:100%;font-size:.88rem;line-height:1.5;font-weight:600;color:var(--text)}
+.qs-archive summary::-webkit-details-marker{display:none}
+.qs-archive summary::before{content:"";width:7px;height:7px;flex:none;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(-45deg);transition:transform .15s}
+.qs-archive[open] summary::before{transform:rotate(45deg)}
+.qs-archive summary:hover{color:var(--accent-blue)}
+.qs-archive summary:focus-visible{outline:2px solid var(--accent-blue);outline-offset:4px}
+.qs-archive-hint{font-size:.76rem;line-height:1.45;font-weight:400;color:var(--muted)}
+.qs-archive-links{display:flex;flex-direction:column;gap:10px;align-items:flex-start;padding:15px 0 4px 17px}
+.qs-archive-links a{font-size:.84rem;line-height:1.5;color:var(--accent-blue);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:640px){.qs-archive summary{align-items:flex-start}.qs-archive-hint{flex-basis:100%;padding-left:17px}}
 .qs-footer{color:var(--muted);font-size:.8rem;border-top:1px solid color-mix(in srgb,var(--text) 20%,transparent);margin-top:60px;padding-top:20px}
 @media(max-width:640px){.qs-shell{padding:18px}.qs-form{grid-template-columns:1fr}.qs-panel{padding:20px}.qs-hero{padding:38px 0}.qs-stats{grid-template-columns:repeat(2,1fr)}}
 
@@ -234,10 +245,12 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 </div>
 <div class="qs-divider"></div><p class="qs-note" id="qs-availability"></p>
 <div class="qs-actions"><button class="qs-button" id="qs-start" type="button">Iniciar bateria</button><a id="qs-login" class="qs-note" href="https://concurso-estudo.leoruas.workers.dev/questoes.html">Abrir versão com login GitHub</a></div>
-<details class="qs-review">
-<summary>Arquivo da Dataprev</summary>
-<p><a href="index.html#/artigo/fgv-dataprev-e-corpus-de-comunicacao?concurso=dataprev-2026">Consultar o corpus de questões e provas da FGV</a></p>
-<p><a href="https://conhecimento.fgv.br/concursos/dataprev26">Consultar provas e gabaritos da Dataprev 2026 na FGV</a></p>
+<details class="qs-archive">
+<summary>Arquivo da Dataprev <span class="qs-archive-hint">provas anteriores e materiais de referência</span></summary>
+<div class="qs-archive-links">
+<a href="index.html#/artigo/fgv-dataprev-e-corpus-de-comunicacao?concurso=dataprev-2026">Corpus de questões e provas da FGV</a>
+<a href="https://conhecimento.fgv.br/concursos/dataprev26">Provas e gabaritos no site da FGV</a>
+</div>
 </details>
 
 </section>

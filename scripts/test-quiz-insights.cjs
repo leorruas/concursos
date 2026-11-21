@@ -79,7 +79,7 @@ const adminCatalog=JSON.parse(fs.readFileSync(path.join(root,'data/catalogo-mate
  .contests.find(x=>x.concursoId==='camara-2026').subjects.find(x=>x.subjectId==='direito-administrativo').articleIds;
 assert.equal(additional.length,64,'lote adicional tem 64 questões');
 const canonical=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara.json'),'utf8'));
-const normalizeStatement=t=>String(t||'').normalize('NFKC').toLocaleLowerCase('pt-BR').replace(/\\s+/g,' ').trim();
+const normalizeStatement=t=>String(t||'').normalize('NFKC').toLocaleLowerCase('pt-BR').replace(/\s+/g,' ').trim();
 const originalStatements=new Set([...canonical.pilotoDidatico,...canonical.expansao].map(q=>normalizeStatement(q.statement)));
 assert.equal(new Set(additional.map(q=>normalizeStatement(q.statement))).size,additional.length,'enunciados adicionais não se repetem');
 for(const q of additional)assert.ok(!originalStatements.has(normalizeStatement(q.statement)),'questão adicional duplica o banco original: '+q.id);

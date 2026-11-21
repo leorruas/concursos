@@ -137,10 +137,16 @@ function renderSuggestions(review){
   .filter(s=>s.concursoId===exam.id).flatMap(s=>s.answers.map(a=>a.questionId))]);
  function offer(title, reason, ids){
   if(!ids.length)return;
-  const row=elem('div'), button=elem('button',title+' · '+ids.length+' '+(ids.length===1?'questão':'questões'));
-  button.type='button';button.className='qs-button';
+  const quantity=ids.length+' '+(ids.length===1?'questão':'questões');
+  const button=elem('button'), count=elem('span',quantity), description=elem('span',reason);
+  button.type='button';button.className='qs-suggestion';
+  button.setAttribute('aria-label',title+' · '+quantity);
+  description.id='qs-suggestion-reason-'+list.childElementCount;
+  button.setAttribute('aria-describedby',description.id);
+  count.className='qs-meta';description.className='qs-suggestion-reason';
+  button.append(elem('strong',title),count,description);
   button.addEventListener('click',()=>start(ids,'aprendizagem'));
-  row.append(button,elem('p',reason));list.append(row);
+  list.append(button);
  }
  if(review)offer('Revisar erros e dúvidas',review.title,review.questionIds);
  offer('Praticar questões novas',loggedIn?'Itens sem resposta no histórico consultado.':'Itens sem resposta neste navegador.',
@@ -365,7 +371,7 @@ async function init(){
   $('qs-concurso').replaceChildren(...options);
   const saved=localStorage.getItem('concurso_ativo_id');
   $('qs-concurso').value=options.some(o=>o.value===saved)?saved:options.find(o=>o.value==='camara-2026')?.value||options[0]?.value||'';
-  updateSubjects();updateSuggestions();toggle('qs-config',true);status('Banco carregado. Monte uma bateria.');
+  updateSubjects();updateSuggestions();toggle('qs-config',true);status('');
   resume();offerRecommendedBatch();auth();
  }catch(e){status('Não foi possível abrir o banco: '+e.message);}
 }

@@ -7605,6 +7605,90 @@
   ],
   "expansao": [
       {
+        "id": "cam-const-revisao-lei-delegada-urgencia-sem-delegacao",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "direito-constitucional",
+        "unitId": "processo-legislativo",
+        "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+        "articleId": "art-6bc728a14d0e49f3",
+        "conceptId": "lei-delegada-versus-medida-provisoria",
+        "mechanism": "urgencia-sem-delegacao",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-6bc728a14d0e49f3#Sujeitos, instrumento e duas modalidades de controle"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+          "section": "Sujeitos, instrumento e duas modalidades de controle"
+        },
+        "statement": "Diante de uma situação relevante e urgente em matéria que admite medida provisória, o Presidente da República pode adotar essa espécie normativa e submetê-la de imediato ao Congresso, mesmo sem resolução prévia de delegação.",
+        "correctAnswer": "C",
+        "explanation": "A medida provisória tem força de lei desde a edição e é imediatamente submetida ao Congresso. A resolução prévia é exigida para a lei delegada. CF, arts. 62, caput, e 68, caput e § 2º.",
+        "reviewEvidence": "Conferência editorial do caso com a Constituição Federal, arts. 62 e 68, e a seção vinculada do artigo. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
+        "id": "cam-const-revisao-lei-delegada-delegacao-com-revisao",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "direito-constitucional",
+        "unitId": "processo-legislativo",
+        "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+        "articleId": "art-6bc728a14d0e49f3",
+        "conceptId": "lei-delegada-versus-medida-provisoria",
+        "mechanism": "delegacao-com-revisao",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-6bc728a14d0e49f3#Sujeitos, instrumento e duas modalidades de controle"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+          "section": "Sujeitos, instrumento e duas modalidades de controle"
+        },
+        "statement": "O Congresso autoriza a elaboração de uma lei delegada e exige, na resolução, que o projeto seja submetido à sua apreciação. Nessa hipótese, o Congresso pode alterar o texto por emenda, como pode ocorrer na tramitação de medida provisória.",
+        "correctAnswer": "E",
+        "explanation": "Quando a resolução exige apreciação do projeto de lei delegada, o Congresso decide em votação única e sem emendas. A disciplina de emendas de uma medida provisória não se estende ao projeto delegado. CF, arts. 62, § 12, e 68, § 3º.",
+        "reviewEvidence": "Conferência editorial do caso com a Constituição Federal, arts. 62 e 68, e a seção vinculada do artigo. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
+        "id": "cam-const-revisao-lei-delegada-relevancia-sem-urgencia",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "direito-constitucional",
+        "unitId": "processo-legislativo",
+        "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+        "articleId": "art-6bc728a14d0e49f3",
+        "conceptId": "lei-delegada-versus-medida-provisoria",
+        "mechanism": "relevancia-sem-urgencia",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-6bc728a14d0e49f3#Sujeitos, instrumento e duas modalidades de controle"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+          "section": "Sujeitos, instrumento e duas modalidades de controle"
+        },
+        "statement": "Em matéria delegável, o Congresso concede autorização válida ao Presidente para elaborar uma lei delegada. A falta de urgência, por si só, não torna inválida a edição dessa lei dentro dos termos da resolução.",
+        "correctAnswer": "C",
+        "explanation": "A urgência é pressuposto constitucional da medida provisória. A lei delegada depende de delegação válida e do respeito aos limites da resolução e às restrições materiais da Constituição. CF, arts. 62, caput, e 68.",
+        "reviewEvidence": "Conferência editorial do caso com a Constituição Federal, arts. 62 e 68, e a seção vinculada do artigo. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
         "id": "cam-ti-revisao-backup-incremental-rompimento-da-cadeia",
         "concursoId": "camara-2026",
         "origin": "inedita",

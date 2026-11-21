@@ -79,9 +79,10 @@ ctx.window.matchMedia = () => ({matches:true});
 mockListeners.get('glossario-voltar-topo:click')();
 assert.equal(scrollToTopOptions.behavior, 'auto', 'Respeitar preferência por movimento reduzido');
 const workflowText = fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');
-assert(workflowText.includes('name: github-pages-${{ github.run_attempt }}') &&
-       workflowText.includes('artifact_name: github-pages-${{ github.run_attempt }}'),
-  'Tentativas do workflow devem produzir artefatos de nomes distintos');
+assert(workflowText.includes('uses: actions/upload-pages-artifact@v3') &&
+       workflowText.includes('uses: actions/deploy-pages@v4') &&
+       !workflowText.includes('artifact_name: github-pages-${{ github.run_attempt }}'),
+  'Pages deve usar o artefato padrao esperado pela acao de deploy');
 const termos = JSON.parse(JSON.stringify(published.terms));
 const match = (query, block = '', subject = '', article = '') => ctx.filtrarTermosGlossario(termos, query, block, subject, article);
 assert(match('criterio').some(t => t.id === 'glo-criterio-de-auditoria'));

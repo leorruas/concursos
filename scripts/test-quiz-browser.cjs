@@ -100,24 +100,26 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.selectOption('#qs-materia','direito-constitucional');
    await page.locator('#qs-unidade-wrap').waitFor({state:'visible'});
    const subjectQuestions=questions.filter(q=>q.concursoId==='camara-2026'&&q.subjectId==='direito-constitucional');
-   const articleIds=[...new Set(subjectQuestions.map(q=>q.articleId))].filter(id=>manifest.get(id)?.sourcePath);
-   articleIds.sort((a,b)=>manifest.get(a).sourcePath.localeCompare(manifest.get(b).sourcePath,'pt-BR',{numeric:true}));
-   assert.ok(articleIds.length>2);
-   const unitIds=editalUnits.filter(u=>u.subjectId==='direito-constitucional'&&subjectQuestions.some(q=>q.unitId===u.unitId))
-    .map(u=>u.unitId);
-   assert.ok(unitIds.length>1);
-   for(const [selection,expected] of [
-    ['artigo:'+articleIds[1],subjectQuestions.filter(q=>q.articleId===articleIds[1]).length],
-    ['ate-artigo:'+articleIds[1],subjectQuestions.filter(q=>articleIds.slice(0,2).includes(q.articleId)).length],
-    ['ate-unidade:'+unitIds[0],subjectQuestions.filter(q=>q.unitId===unitIds[0]).length]
-   ]){
-    await page.selectOption('#qs-unidade',selection);
-    assert.match(await page.locator('#qs-availability').innerText(),new RegExp('^'+expected+' questões'));
-   }
+   const chapterOf=id=>Number(/^(\d{1,3})\s*-/.exec(manifest.get(id)?.sourcePath.split('/').pop()||'')?.[1]||0);
+   const chapterNumbers=[...new Set(subjectQuestions.map(q=>chapterOf(q.articleId)).filter(Boolean))].sort((a,b)=>a-b);
+   assert.ok(chapterNumbers.length>2,'recorte precisa usar capítulos numerados do artigo');
+   assert.equal(await page.locator('#qs-capitulo-label').innerText(),'Estudar até o capítulo');
+   assert.equal(await page.locator('#qs-unidade').isVisible(),false,'dropdown antigo deve permanecer oculto');
+   assert.ok(Number(await page.locator('#qs-capitulo').getAttribute('max'))>=chapterNumbers.at(-1));
+   const cutoff=chapterNumbers.find(n=>subjectQuestions.filter(q=>chapterOf(q.articleId)&&chapterOf(q.articleId)<=n).length>=2);
+   assert.ok(cutoff,'é preciso ter ao menos duas questões até o capítulo escolhido');
+   await page.locator('#qs-capitulo').fill(String(cutoff));
+   const expected=subjectQuestions.filter(q=>chapterOf(q.articleId)>0&&chapterOf(q.articleId)<=cutoff).length;
+   assert.match(await page.locator('#qs-availability').innerText(),new RegExp('^'+expected+' questões'));
+   assert.equal(await page.locator('#qs-capitulo-value').innerText(),String(cutoff));
+   await page.locator('#qs-capitulo-next').click();
+   assert.equal(Number(await page.locator('#qs-capitulo').inputValue()),cutoff+1,'incrementar um capítulo');
+   await page.locator('#qs-capitulo-prev').click();
+   assert.equal(Number(await page.locator('#qs-capitulo').inputValue()),cutoff,'decrementar um capítulo');
    await page.selectOption('#qs-materia','portugues');
-   assert.equal(await page.locator('#qs-unidade').inputValue(),'');
+   assert.equal(await page.locator('#qs-capitulo').inputValue(),await page.locator('#qs-capitulo').getAttribute('max'),'trocar matéria reinicia o limite');
    await page.selectOption('#qs-materia','direito-constitucional');
-   await page.selectOption('#qs-unidade','constitucional-regimentos');
+   await page.locator('#qs-capitulo').fill(String(cutoff));
    await page.locator('#qs-count').fill('2');
    await page.locator('#qs-start').click();
    assert.equal(await page.locator('#qs-finish').count(),1,'botão de encerramento na barra superior');
@@ -144,7 +146,7 @@ fs.mkdirSync(evidence,{recursive:true});
     const statement=(await page.locator('#qs-statement').innerText()).trim();
     const q=questions.find(x=>x.statement===statement);
     assert.ok(q,'enunciado deve existir no banco publicado');
-    assert.equal(q.unitId,'constitucional-regimentos','filtro de unidade não pode trazer questões de regimento P2');
+    assert.ok(chapterOf(q.articleId)>0&&chapterOf(q.articleId)<=cutoff,'questão deve respeitar o capítulo limite escolhido');
     await page.locator('input[name="qs-answer"][value="'+(q.correctAnswer==='C'?'E':'C')+'"]').check();
     if(i===0){
      await page.locator('#qs-insecure').check();

@@ -6,6 +6,8 @@ const STORE='concursos-quiz-sessoes-v1',ACTIVE='concursos-quiz-ativa-v1';
 const privateOrigin=location.origin===WORKER;
 let data=null,session=null,loggedIn=false,manifest=new Map(),shownAt=null;
 let seenByContest=new Map(), suggestionRequest=0;
+const singleSubjectRanges=new Map();
+const contentOrder=new Intl.Collator('pt-BR',{numeric:true});
 const elem=(tag,text)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=String(text);return e;};
 const toggle=(id,show)=>{$(id).hidden=!show;};
 function readingStart(){
@@ -79,8 +81,8 @@ function eligible(){
   a=a.filter(q=>subjects.has(q.subjectId));
  }
  if(scope==='single'){
-  const u=$('qs-unidade').value;
-  a=a.filter(q=>q.subjectId===$('qs-materia').value&&(!u||q.unitId===u));
+  const range=singleSubjectRanges.get($('qs-unidade').value);
+  a=a.filter(q=>q.subjectId===$('qs-materia').value&&(!range||range.ids.has(q[range.field])));
  }
  const level=$('qs-difficulty-filter').value;
  return level?a.filter(q=>q.estimatedDifficulty===level):a;
@@ -99,20 +101,54 @@ function updateSubjects(){
  updateUnits();
 }
 function updateUnits(){
- const counts=new Map();
- for(const q of available().filter(q=>q.subjectId===$('qs-materia').value)){
-  const x=counts.get(q.unitId)||{name:q.unitName||q.unitId,n:0};x.n++;counts.set(q.unitId,x);
+ const subjectId=$('qs-materia').value;
+ const units=new Map(),articles=new Map();
+ for(const q of available()){
+  if(q.subjectId!==subjectId)continue;
+  if(q.unitId)units.set(q.unitId,q.unitName||q.unitId);
+  const article=manifest.get(q.articleId);
+  if(article)articles.set(q.articleId,article);
  }
- const u=$('qs-unidade');u.replaceChildren();
- const all=elem('option','Todas as unidades');all.value='';u.append(all);
- for(const [id,v] of counts){const o=elem('option',v.name+' ('+v.n+')');o.value=id;u.append(o);}
+ const examId=contest()?.id;
+ // As unidades da Câmara seguem o catálogo. Na CGU, u01, u02… são
+ // numeradas dentro de cada matéria no plano de estudo.
+ const unitOrder=examId==='cgu-2026'
+  ?[...units.keys()].filter(id=>/^u[0-9]+$/.test(id)).sort(contentOrder.compare)
+  :(data.editalUnits||[]).filter(unit=>unit.subjectId===subjectId&&units.has(unit.unitId)).map(unit=>unit.unitId);
+ const articleOrder=[...articles.keys()].filter(id=>articles.get(id).sourcePath)
+  .sort((a,b)=>contentOrder.compare(articles.get(a).sourcePath,articles.get(b).sourcePath));
+ const select=$('qs-unidade');
+ const all=elem('option','Matéria inteira');all.value='';
+ select.replaceChildren(all);
+ singleSubjectRanges.clear();
+
+ function addGroup(label,field,entries,prefix='',cumulative=false){
+  if(!entries.length)return;
+  const group=elem('optgroup');group.label=label;
+  const prior=[];
+  for(const [id,name] of entries){
+   prior.push(id);
+   const option=elem('option',cumulative?'Até '+name:name);option.value=prefix+id;
+   singleSubjectRanges.set(option.value,{field,ids:new Set(cumulative?prior:[id]),
+    unitId:field==='unitId'&&!cumulative?id:null});
+   group.append(option);
+  }
+  select.append(group);
+ }
+ const orderedUnits=new Map(unitOrder.map(id=>[id,units.get(id)]));
+ const orderedArticles=new Map(articleOrder.map(id=>[id,quizArticleName(id)]));
+ const namedArticles=new Map([...new Set([...articleOrder,...articles.keys()])].map(id=>[id,quizArticleName(id)]));
+ addGroup('Uma unidade','unitId',[...new Map([...orderedUnits,...units])]);
+ addGroup('Até a unidade (inclusive)','unitId',[...orderedUnits],'ate-unidade:',true);
+ addGroup('Um artigo','articleId',[...namedArticles],'artigo:');
+ addGroup('Até o artigo (inclusive, na ordem da biblioteca)','articleId',[...orderedArticles],'ate-artigo:',true);
  availability();
 }
 function availability(){
  const focused=selected('qs-scope')==='single', custom=selected('qs-scope')==='custom';
  toggle('qs-custom-wrap',custom);
  toggle('qs-materia-wrap',focused);
- toggle('qs-unidade-wrap',focused&&$('qs-unidade').options.length>2);
+ toggle('qs-unidade-wrap',focused&&$('qs-unidade').options.length>1);
  const n=eligible().length, c=contest();$('qs-availability').textContent=n?n+' questões revisadas disponíveis em '+c.nome+'.':'Ainda não há questões revisadas disponíveis para esta seleção.';const amounts=new Map();
  if(custom) for(const q of eligible()) amounts.set(q.subjectId,(amounts.get(q.subjectId)||0)+1);
  const subjects=custom?customSubjects():new Set();
@@ -179,11 +215,14 @@ function start(recommended, directedMode='simulado'){
  const directed=Array.isArray(recommended);
  const n=directed?recommended.length:Number($('qs-count').value);if(!Number.isInteger(n)||n<1||n>100){status('Escolha entre 1 e 100 questões.');return;}
  const scope=selected('qs-scope'), custom=!directed&&scope==='custom';
- const availableCount=directed?n:eligible().length;
+ const pool=directed?null:eligible();
+ const availableCount=directed?n:pool.length;
  if(!availableCount)return;
  if(custom&&n<customSubjects().size){status('Escolha ao menos uma questão por matéria selecionada.');return;}
  if(!directed&&availableCount<n&&!window.confirm('Há '+availableCount+' questões para esta seleção. Iniciar com essa quantidade?'))return;
- const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,directed,mode:directed?directedMode:selected('qs-mode'),scope:directed||custom?'mixed':scope,subjectId:!directed&&selected('qs-scope')==='single'?$('qs-materia').value:null,unitId:!directed&&selected('qs-scope')==='single'?$('qs-unidade').value||null:null,startedAt:new Date().toISOString(),finishedAt:null,ids:directed?recommended:choose(Math.min(n,eligible().length)),answers:[]};
+ const selection=$('qs-unidade').value;
+ const unitId=scope==='single'&&!directed?(singleSubjectRanges.get(selection)?.unitId??null):null;
+ const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,directed,mode:directed?directedMode:selected('qs-mode'),scope:directed||custom?'mixed':scope,subjectId:!directed&&selected('qs-scope')==='single'?$('qs-materia').value:null,unitId,startedAt:new Date().toISOString(),finishedAt:null,ids:directed?recommended:choose(Math.min(n,availableCount),pool),answers:[]};
  storeWrite();toggle('qs-config',false);toggle('qs-play',true);toggle('qs-summary',false);playing(true);render();readingStart();status('Bateria iniciada. Respostas registradas após cada envio.');
 }
 function question(){return data.map.get(session.ids[session.answers.length]);}

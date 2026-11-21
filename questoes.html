@@ -123,16 +123,16 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 
 
 /* Recorte cumulativo: o usuário escolhe um limite de leitura, não um código de unidade. */
-.questoes-page .qs-chapter-field{grid-column:1/-1;gap:12px}
-.questoes-page .qs-chapter-picker{display:flex;align-items:center;gap:13px;max-width:580px}
-.questoes-page #qs-capitulo{min-width:0;flex:1;accent-color:var(--accent-blue);cursor:pointer}
-.questoes-page .qs-chapter-step{flex:0 0 39px;height:39px;border:1px solid color-mix(in srgb,var(--text) 25%,transparent);background:transparent;color:var(--text);font:500 22px 'Archivo',sans-serif;border-radius:5px;cursor:pointer}
+.questoes-page .qs-chapter-field{grid-column:1/-1;gap:9px;align-items:flex-start}
+.questoes-page .qs-chapter-picker{display:grid;grid-template-columns:34px minmax(100px,210px) 34px 47px;align-items:center;gap:8px;width:fit-content;max-width:100%}
+.questoes-page #qs-capitulo{display:block;width:100%;min-width:0;height:22px;margin:0;accent-color:var(--accent-blue);cursor:pointer}
+.questoes-page .qs-chapter-step{width:34px;height:34px;padding:0;border:1px solid color-mix(in srgb,var(--text) 22%,transparent);background:transparent;color:var(--text);font:500 19px 'Archivo',sans-serif;border-radius:4px;cursor:pointer;display:grid;place-items:center;line-height:1}
 .questoes-page .qs-chapter-step:disabled{opacity:.3;cursor:not-allowed}
-.questoes-page .qs-chapter-step:hover:not(:disabled){border-color:var(--accent-blue);color:var(--accent-blue)}
+.questoes-page .qs-chapter-step:hover:not(:disabled){border-color:var(--accent-blue);color:var(--accent-blue);background:var(--accent-blue-alpha-05)}
 .questoes-page .qs-chapter-step:focus-visible,.questoes-page #qs-capitulo:focus-visible{outline:2px solid var(--accent-blue);outline-offset:3px}
-.questoes-page #qs-capitulo-value{flex:0 0 53px;font:600 25px 'Archivo',sans-serif;color:var(--text);text-align:center;font-variant-numeric:tabular-nums}
-.questoes-page .qs-chapter-caption{max-width:67ch;margin:0;font-size:.83rem;line-height:1.6;color:var(--muted)}
-@media(max-width:640px){.questoes-page .qs-chapter-picker{gap:8px}.questoes-page .qs-chapter-step{flex-basis:36px;height:36px}.questoes-page #qs-capitulo-value{flex-basis:40px;font-size:21px}}
+.questoes-page #qs-capitulo-value{display:grid;place-items:center;box-sizing:border-box;min-width:0;height:34px;padding:0 5px;border:1px solid color-mix(in srgb,var(--text) 19%,transparent);border-radius:4px;background:var(--accent-blue-alpha-05);font:600 18px 'Archivo',sans-serif;color:var(--text);text-align:center;font-variant-numeric:tabular-nums}
+.questoes-page .qs-chapter-caption{max-width:52ch;margin:0;font-size:.78rem;line-height:1.55;color:var(--muted)}
+@media(max-width:640px){.questoes-page .qs-chapter-picker{grid-template-columns:32px minmax(70px,1fr) 32px 43px;gap:7px;width:min(100%,345px)}.questoes-page .qs-chapter-step,.questoes-page #qs-capitulo-value{height:32px}.questoes-page .qs-chapter-step{width:32px}.questoes-page #qs-capitulo-value{font-size:17px}}
 /* Leitor de questões: a estrutura de resposta acompanha a mesma hierarquia da biblioteca. */
 .questoes-page .qs-shell{max-width:1040px;padding-bottom:96px}
 .questoes-page .qs-hero{padding:38px 0 26px}

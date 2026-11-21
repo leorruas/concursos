@@ -13,7 +13,7 @@ const helpers = recorteFim > 0 ? codigo.slice(0, recorteFim) : codigo;
 
 const contexto = { console };
 vm.createContext(contexto);
-vm.runInContext(helpers + '\nglobalThis.__hubApi = { ehResumoPrincipalDaMateria, ordenarArtigosDaMateria };', contexto);
+vm.runInContext(helpers + '\nglobalThis.__hubApi = { ehResumoPrincipalDaMateria, ordenarArtigosDaMateria, obterNumeroArtigoNoIndice };', contexto);
 const api = contexto.__hubApi;
 
 let falhas = 0;
@@ -60,6 +60,16 @@ check('type hub é reconhecido independentemente de nome numerado', api.ehResumo
   sourcePath: '3 - Materias/Teste/99 - qualquer nome.md',
   categoria: 'Teste'
 }));
+
+check('Direito Constitucional exibe 00 no resumo e 01 em Princípios Fundamentais',
+  constitucional.map(artigo => api.obterNumeroArtigoNoIndice(artigo)).join(',') === '00,01');
+check('índice preserva o número editorial mesmo em uma lista filtrada',
+  api.obterNumeroArtigoNoIndice({sourcePath:'3 - Materias/Teste/27 - recorte.md'}) === '27');
+check('hub indicado pelo catálogo recebe 00',
+  api.obterNumeroArtigoNoIndice({ sourcePath:'3 - Materias/Teste/visao-geral.md' },
+    '3 - Materias/Teste/visao-geral.md') === '00');
+check('título sem prefixo fica sem número',
+  api.obterNumeroArtigoNoIndice({titulo:'lembretes'}) === '');
 
 const lazy = fs.readFileSync(path.join(rootDir, 'web/02a-lazy-data.js'), 'utf8');
 check('camada lazy preserva metadado tipo', /tipo:\s*String\(/.test(lazy));

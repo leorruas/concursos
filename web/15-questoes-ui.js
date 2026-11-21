@@ -104,7 +104,7 @@ function updateSubjects(){
 // (unidades do edital são um recorte diferente da sequência de leitura).
 function quizChapterNumber(path){
  const file=String(path||'').split('/').pop()||'';
- const match=/^(\\d{1,3})\\s*-\\s*/.exec(file);
+ const match=/^(\d{1,3})\s*-\s*/.exec(file);
  return match?Number(match[1]):null;
 }
 function updateChapterDisplay(){

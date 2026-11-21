@@ -122,6 +122,17 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 @media(max-width:640px){.qs-nav{align-items:flex-start;flex-wrap:wrap}.qs-links{gap:9px;justify-content:flex-start}.qs-panel{padding:20px}.qs-result-header{grid-template-columns:1fr;gap:13px}.qs-recommendation{display:block}.qs-recommendation a{display:inline-block;margin-top:11px;white-space:normal}.qs-hero h1{font-size:2.65rem}}
 
 
+/* Recorte cumulativo: o usuário escolhe um limite de leitura, não um código de unidade. */
+.questoes-page .qs-chapter-field{grid-column:1/-1;gap:12px}
+.questoes-page .qs-chapter-picker{display:flex;align-items:center;gap:13px;max-width:580px}
+.questoes-page #qs-capitulo{min-width:0;flex:1;accent-color:var(--accent-blue);cursor:pointer}
+.questoes-page .qs-chapter-step{flex:0 0 39px;height:39px;border:1px solid color-mix(in srgb,var(--text) 25%,transparent);background:transparent;color:var(--text);font:500 22px 'Archivo',sans-serif;border-radius:5px;cursor:pointer}
+.questoes-page .qs-chapter-step:disabled{opacity:.3;cursor:not-allowed}
+.questoes-page .qs-chapter-step:hover:not(:disabled){border-color:var(--accent-blue);color:var(--accent-blue)}
+.questoes-page .qs-chapter-step:focus-visible,.questoes-page #qs-capitulo:focus-visible{outline:2px solid var(--accent-blue);outline-offset:3px}
+.questoes-page #qs-capitulo-value{flex:0 0 53px;font:600 25px 'Archivo',sans-serif;color:var(--text);text-align:center;font-variant-numeric:tabular-nums}
+.questoes-page .qs-chapter-caption{max-width:67ch;margin:0;font-size:.83rem;line-height:1.6;color:var(--muted)}
+@media(max-width:640px){.questoes-page .qs-chapter-picker{gap:8px}.questoes-page .qs-chapter-step{flex-basis:36px;height:36px}.questoes-page #qs-capitulo-value{flex-basis:40px;font-size:21px}}
 /* Leitor de questões: a estrutura de resposta acompanha a mesma hierarquia da biblioteca. */
 .questoes-page .qs-shell{max-width:1040px;padding-bottom:96px}
 .questoes-page .qs-hero{padding:38px 0 26px}
@@ -239,7 +250,17 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <div class="qs-field"><span class="qs-label">Matérias</span><div class="qs-options"><label><input type="radio" name="qs-scope" value="mixed" checked> todas as matérias</label><label><input type="radio" name="qs-scope" value="custom"> combinar matérias</label><label><input type="radio" name="qs-scope" value="single"> uma matéria</label></div></div>
 <fieldset class="qs-field qs-conditional" id="qs-custom-wrap" hidden><legend class="qs-label">Matérias da bateria</legend><div class="qs-options" id="qs-custom"></div></fieldset>
 <label class="qs-field qs-conditional" id="qs-materia-wrap" for="qs-materia" hidden><span class="qs-label">Escolher matéria</span><select id="qs-materia"></select></label>
-<label class="qs-field qs-conditional" id="qs-unidade-wrap" for="qs-unidade" hidden><span class="qs-label">Recorte da matéria</span><select id="qs-unidade"></select></label>
+<div class="qs-field qs-conditional qs-chapter-field" id="qs-unidade-wrap" hidden>
+<label class="qs-label" for="qs-capitulo">Estudar até o capítulo</label>
+<div class="qs-chapter-picker">
+<button type="button" class="qs-chapter-step" id="qs-capitulo-prev" aria-label="Diminuir capítulo">−</button>
+<input id="qs-capitulo" type="range" min="1" max="1" step="1" value="1" aria-describedby="qs-capitulo-description">
+<button type="button" class="qs-chapter-step" id="qs-capitulo-next" aria-label="Aumentar capítulo">+</button>
+<output for="qs-capitulo" id="qs-capitulo-value">1</output>
+</div>
+<p class="qs-chapter-caption" id="qs-capitulo-description" aria-live="polite">Capítulos do início até o limite escolhido, inclusive.</p>
+<select id="qs-unidade" hidden aria-hidden="true" tabindex="-1"></select>
+</div>
 <div class="qs-field"><label class="qs-label" for="qs-difficulty-filter">Dificuldade estimada</label><select id="qs-difficulty-filter"><option value="">Todas as dificuldades</option><option value="muito-facil">Muito fácil</option><option value="facil">Fácil</option><option value="media">Média</option><option value="dificil">Difícil</option><option value="muito-dificil">Muito difícil</option></select></div>
 <div class="qs-field"><span class="qs-label">Correção</span><div class="qs-options"><label><input type="radio" name="qs-mode" value="aprendizagem" checked> após cada questão</label><label><input type="radio" name="qs-mode" value="simulado"> no final</label></div></div>
 </div>

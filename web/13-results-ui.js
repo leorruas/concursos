@@ -74,7 +74,7 @@ function conceptLinks(container,concept){
   links.append(el('small','results-caption','Ler no artigo:'));
   for(const id of articleIds.slice(0,4)){
    const meta=manifest.get(id);
-   const link=el('a','results-link',meta?.tituloExibicao||meta?.titulo||(x.articleId?'Artigo relacionado':'Sem artigo vinculado'));
+   const link=el('a','results-link',meta?.tituloExibicao||meta?.titulo||'Artigo relacionado');
    link.href=articleLink({articleId:id});
    link.rel='noreferrer';
    links.append(link);

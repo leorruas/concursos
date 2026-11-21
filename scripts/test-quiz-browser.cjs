@@ -3,7 +3,9 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
 const {chromium}=require('playwright');
-const questions=JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/data/questoes-publicas.json'),'utf8')).questions;
+const {questions,editalUnits}=JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/data/questoes-publicas.json'),'utf8'));
+const manifest=new Map(JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/manifest.json'),'utf8'))
+ .map(article=>[article.articleId,article]));
 const evidence=path.join(__dirname,'../quiz-visual-evidence');
 fs.mkdirSync(evidence,{recursive:true});
 (async()=>{
@@ -97,6 +99,24 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.locator('input[name="qs-scope"][value="single"]').check();
    await page.selectOption('#qs-materia','direito-constitucional');
    await page.locator('#qs-unidade-wrap').waitFor({state:'visible'});
+   const subjectQuestions=questions.filter(q=>q.concursoId==='camara-2026'&&q.subjectId==='direito-constitucional');
+   const articleIds=[...new Set(subjectQuestions.map(q=>q.articleId))].filter(id=>manifest.get(id)?.sourcePath);
+   articleIds.sort((a,b)=>manifest.get(a).sourcePath.localeCompare(manifest.get(b).sourcePath,'pt-BR',{numeric:true}));
+   assert.ok(articleIds.length>2);
+   const unitIds=editalUnits.filter(u=>u.subjectId==='direito-constitucional'&&subjectQuestions.some(q=>q.unitId===u.unitId))
+    .map(u=>u.unitId);
+   assert.ok(unitIds.length>1);
+   for(const [selection,expected] of [
+    ['artigo:'+articleIds[1],subjectQuestions.filter(q=>q.articleId===articleIds[1]).length],
+    ['ate-artigo:'+articleIds[1],subjectQuestions.filter(q=>articleIds.slice(0,2).includes(q.articleId)).length],
+    ['ate-unidade:'+unitIds[0],subjectQuestions.filter(q=>q.unitId===unitIds[0]).length]
+   ]){
+    await page.selectOption('#qs-unidade',selection);
+    assert.match(await page.locator('#qs-availability').innerText(),new RegExp('^'+expected+' questões'));
+   }
+   await page.selectOption('#qs-materia','portugues');
+   assert.equal(await page.locator('#qs-unidade').inputValue(),'');
+   await page.selectOption('#qs-materia','direito-constitucional');
    await page.selectOption('#qs-unidade','constitucional-regimentos');
    await page.locator('#qs-count').fill('2');
    await page.locator('#qs-start').click();

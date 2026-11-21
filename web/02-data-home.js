@@ -30,6 +30,13 @@ function ordenarArtigosDaMateria(a, b) {
     );
 }
 
+function obterNumeroArtigoNoIndice(artigo, caminhoHub) {
+    if ((caminhoHub && artigo.sourcePath === caminhoHub) || ehResumoPrincipalDaMateria(artigo)) return "00";
+    const arquivo = (artigo.sourcePath || artigo.titulo || "").split("/").pop();
+    const prefixo = /^(\d+)\s*-/.exec(arquivo)?.[1];
+    return prefixo?.padStart(2, "0") || "";
+}
+
 async function carregarCamadaEstrategica() {
     try {
         const [resConc, resEdital, resCatalogo] = await Promise.all([
@@ -461,7 +468,7 @@ function abrirDisciplina(categoria, atualizarRota = true) {
             "art-73b824d09ac16e25", "art-b6e9314c28d7f05a"
         ].includes(artigo.articleId))
         : artigos;
-    artigosNaLista.forEach((artigo, idx) => {
+    artigosNaLista.forEach(artigo => {
         const acao = document.createElement("a");
         acao.className = "disciplina-acao";
         if (artigo.articleId === "art-b6e9314c28d7f05a" || artigo.articleId === "art-73b824d09ac16e25") {
@@ -472,7 +479,7 @@ function abrirDisciplina(categoria, atualizarRota = true) {
         acao.href = rotaDoArtigo(artigo, "", origem);
         acao.setAttribute("aria-label", artigo.titulo);
 
-        const numeroFormatado = String(idx + 1).padStart(2, "0");
+        const numeroFormatado = obterNumeroArtigoNoIndice(artigo, materiaSelecionada?.hubSourcePath);
         const tituloFormatado = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
 
         acao.innerHTML = `

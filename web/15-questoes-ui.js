@@ -100,55 +100,72 @@ function updateSubjects(){
  $('qs-custom').replaceChildren(...choices);
  updateUnits();
 }
+// A ordem do capítulo vem do nome do arquivo do artigo, nunca do unitId
+// (unidades do edital são um recorte diferente da sequência de leitura).
+function quizChapterNumber(path){
+ const file=String(path||'').split('/').pop()||'';
+ const match=/^(\\d{1,3})\\s*-\\s*/.exec(file);
+ return match?Number(match[1]):null;
+}
+function updateChapterDisplay(){
+ const chapter=$('qs-capitulo'),value=Number(chapter.value);
+ const control=$('qs-unidade'),selection='capitulo:'+value;
+ if([...control.options].some(option=>option.value===selection))control.value=selection;
+ $('qs-capitulo-value').textContent=String(value);
+ $('qs-capitulo-prev').disabled=value<=Number(chapter.min);
+ $('qs-capitulo-next').disabled=value>=Number(chapter.max);
+ const range=singleSubjectRanges.get(control.value);
+ const questionCount=available().filter(q=>q.subjectId===$('qs-materia').value&&range?.ids.has(q.articleId)).length;
+ const word=chapterMode==='numbered'?'capítulo':'artigo';
+ const qualifier=chapterMode==='numbered'
+  ?'Capítulos 1 a '+value+' incluídos, inclusive.'
+  :'Artigos 1 a '+value+' incluídos, na ordem da biblioteca.';
+ const omitted=unmappedChapterQuestions
+  ?' '+unmappedChapterQuestions+' questão(ões) sem vínculo de artigo verificável ficaram fora deste recorte.':'';
+ $('qs-capitulo-description').textContent=qualifier+' '+questionCount+
+  ' questão(ões) revisada(s) disponível(is) até este '+word+'.'+omitted;
+}
+let chapterMode='numbered',unmappedChapterQuestions=0;
 function updateUnits(){
  const subjectId=$('qs-materia').value;
- const units=new Map(),articles=new Map();
- for(const q of available()){
-  if(q.subjectId!==subjectId)continue;
-  if(q.unitId)units.set(q.unitId,q.unitName||q.unitId);
+ const related=available().filter(q=>q.subjectId===subjectId);
+ const articles=new Map();
+ for(const q of related){
   const article=manifest.get(q.articleId);
-  if(article)articles.set(q.articleId,article);
+  if(article?.sourcePath)articles.set(q.articleId,article);
  }
- const examId=contest()?.id;
- // As unidades da Câmara seguem o catálogo. Na CGU, u01, u02… são
- // numeradas dentro de cada matéria no plano de estudo.
- const unitOrder=examId==='cgu-2026'
-  ?[...units.keys()].filter(id=>/^u[0-9]+$/.test(id)).sort(contentOrder.compare)
-  :(data.editalUnits||[]).filter(unit=>unit.subjectId===subjectId&&units.has(unit.unitId)).map(unit=>unit.unitId);
- const articleOrder=[...articles.keys()].filter(id=>articles.get(id).sourcePath)
-  .sort((a,b)=>contentOrder.compare(articles.get(a).sourcePath,articles.get(b).sourcePath));
+ const ordered=[...articles].sort((a,b)=>contentOrder.compare(a[1].sourcePath,b[1].sourcePath));
+ const directories=new Set(ordered.map(([,a])=>a.sourcePath.slice(0,a.sourcePath.lastIndexOf('/'))));
+ const numbered=ordered.length>0&&directories.size===1&&ordered.every(([,a])=>quizChapterNumber(a.sourcePath)!==null);
+ chapterMode=numbered?'numbered':'sequential';
+ unmappedChapterQuestions=related.filter(q=>!articles.has(q.articleId)).length;
+ const source=numbered?[...directories][0]:null;
+ // A escala numerada utiliza os arquivos da disciplina, incluindo capítulos
+ // sem questões cadastradas, para que o limite represente a leitura real.
+ const catalogMaximum=source
+  ?Math.max(0,...[...manifest.values()]
+    .filter(a=>a.sourcePath?.startsWith(source+'/'))
+    .map(a=>quizChapterNumber(a.sourcePath)).filter(Number.isInteger)):0;
+ const max=numbered?Math.max(catalogMaximum,...ordered.map(([,a])=>quizChapterNumber(a.sourcePath))):Math.max(1,ordered.length);
  const select=$('qs-unidade');
- const all=elem('option','Matéria inteira');all.value='';
- select.replaceChildren(all);
+ select.replaceChildren();
  singleSubjectRanges.clear();
-
- function addGroup(label,field,entries,prefix='',cumulative=false){
-  if(!entries.length)return;
-  const group=elem('optgroup');group.label=label;
-  const prior=[];
-  for(const [id,name] of entries){
-   prior.push(id);
-   const option=elem('option',cumulative?'Até '+name:name);option.value=prefix+id;
-   singleSubjectRanges.set(option.value,{field,ids:new Set(cumulative?prior:[id]),
-    unitId:field==='unitId'&&!cumulative?id:null});
-   group.append(option);
-  }
-  select.append(group);
+ for(let n=1;n<=max;n++){
+  const ids=new Set(ordered.filter(([,a],index)=>numbered?quizChapterNumber(a.sourcePath)<=n:index<n).map(([id])=>id));
+  const option=elem('option',String(n));option.value='capitulo:'+n;select.append(option);
+  singleSubjectRanges.set(option.value,{field:'articleId',ids,unitId:null});
  }
- const orderedUnits=new Map(unitOrder.map(id=>[id,units.get(id)]));
- const orderedArticles=new Map(articleOrder.map(id=>[id,quizArticleName(id)]));
- const namedArticles=new Map([...new Set([...articleOrder,...articles.keys()])].map(id=>[id,quizArticleName(id)]));
- addGroup('Uma unidade','unitId',[...new Map([...orderedUnits,...units])]);
- addGroup('Até a unidade (inclusive)','unitId',[...orderedUnits],'ate-unidade:',true);
- addGroup('Um artigo','articleId',[...namedArticles],'artigo:');
- addGroup('Até o artigo (inclusive, na ordem da biblioteca)','articleId',[...orderedArticles],'ate-artigo:',true);
+ const slider=$('qs-capitulo');slider.min='1';slider.max=String(max);slider.value=String(max);
+ $('qs-capitulo-label').textContent=numbered?'Estudar até o capítulo':'Estudar até o artigo';
+ slider.setAttribute('aria-label',numbered?'Até o capítulo, inclusive':'Até o artigo, inclusive');
+ updateChapterDisplay();
  availability();
 }
 function availability(){
  const focused=selected('qs-scope')==='single', custom=selected('qs-scope')==='custom';
  toggle('qs-custom-wrap',custom);
  toggle('qs-materia-wrap',focused);
- toggle('qs-unidade-wrap',focused&&$('qs-unidade').options.length>1);
+ toggle('qs-unidade-wrap',focused&&$('qs-unidade').options.length>0);
  const n=eligible().length, c=contest();$('qs-availability').textContent=n?n+' questões revisadas disponíveis em '+c.nome+'.':'Ainda não há questões revisadas disponíveis para esta seleção.';const amounts=new Map();
  if(custom) for(const q of eligible()) amounts.set(q.subjectId,(amounts.get(q.subjectId)||0)+1);
  const subjects=custom?customSubjects():new Set();
@@ -389,7 +406,11 @@ function offerRecommendedBatch() {
 async function init(){
  $('qs-theme').textContent=document.documentElement.dataset.theme==='light'?'modo escuro':'modo claro';$('qs-theme').addEventListener('click',theme);
  $('qs-custom').addEventListener('change',availability);
- $('qs-concurso').addEventListener('change',()=>{updateSubjects();updateSuggestions();});$('qs-materia').addEventListener('change',updateUnits);$('qs-unidade').addEventListener('change',availability);$('qs-difficulty-filter').addEventListener('change',availability);
+ $('qs-concurso').addEventListener('change',()=>{updateSubjects();updateSuggestions();});$('qs-materia').addEventListener('change',updateUnits);
+ $('qs-capitulo').addEventListener('input',()=>{updateChapterDisplay();availability();});
+ $('qs-capitulo-prev').addEventListener('click',()=>{$('qs-capitulo').value=String(Math.max(Number($('qs-capitulo').min),Number($('qs-capitulo').value)-1));updateChapterDisplay();availability();});
+ $('qs-capitulo-next').addEventListener('click',()=>{$('qs-capitulo').value=String(Math.min(Number($('qs-capitulo').max),Number($('qs-capitulo').value)+1));updateChapterDisplay();availability();});
+ $('qs-difficulty-filter').addEventListener('change',availability);
  const count=$('qs-count');
  const refreshPresets=()=>document.querySelectorAll('#qs-presets button').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.count)===Number(count.value))));
  count.addEventListener('input',refreshPresets);

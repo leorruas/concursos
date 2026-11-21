@@ -422,18 +422,21 @@ function offerRecommendedBatch() {
   return;
  }
  const repeat=params.get('repetir')==='1';
- const button = elem('button', repeat?'Refazer questão anterior':'Iniciar bateria recomendada (' + ids.length + ')');
- button.type = 'button';
- button.className = 'qs-button';
+ const button=$('qs-recommended-start');
+ $('qs-recommended-title').textContent=repeat?'Questão para refazer':'Bateria recomendada';
+ $('qs-recommended-details').textContent=data.contests.find(c=>c.id===exam).nome+
+  ' · '+ids.length+(ids.length===1?' questão':' questões');
+ button.textContent=repeat?'Refazer questão anterior':'Iniciar bateria';
+ if(!repeat)button.setAttribute('aria-label','Iniciar bateria recomendada ('+ids.length+')');
  button.addEventListener('click', () => {
   if (session && !session.finishedAt && !window.confirm('Começar a bateria recomendada e sair da bateria anterior?')) return;
   $('qs-concurso').value = exam;
   updateSubjects();
-  button.remove();
+  toggle('qs-recommended',false);
   history.replaceState(null, '', location.pathname + location.search);
   start(ids,repeat?'aprendizagem':'simulado');
  });
- $('qs-status').after(button);
+ toggle('qs-recommended',true);
 }
 async function init(){
  $('qs-theme').textContent=document.documentElement.dataset.theme==='light'?'modo escuro':'modo claro';$('qs-theme').addEventListener('click',theme);

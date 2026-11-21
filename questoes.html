@@ -271,8 +271,19 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .questoes-page .qs-builder-footer #qs-availability{margin:0;flex:1 1 240px;max-width:50ch;font-size:.86rem;line-height:1.5;color:var(--text)}
 .questoes-page .qs-builder-footer .qs-actions{margin:0;justify-content:flex-end}
 .questoes-page #qs-config .qs-archive{margin-top:28px}
+.questoes-page #qs-recommended{
+ max-width:900px;margin:0 auto 18px;padding:19px 26px;border-radius:12px;
+ display:flex;justify-content:space-between;align-items:center;gap:14px 24px;
+}
+.questoes-page.qs-is-playing #qs-recommended{max-width:800px}
+.questoes-page #qs-recommended h2{margin:0 0 4px;font-size:1.12rem}
+.questoes-page #qs-recommended p{margin:0}
+
 @media(max-width:760px){
  .questoes-page #qs-config{padding:24px 22px}
+ .questoes-page #qs-recommended{align-items:stretch;flex-direction:column;padding:17px 19px}
+ .questoes-page #qs-recommended .qs-button{width:100%}
+
  .questoes-page .qs-builder-fields,.questoes-page .qs-builder-section[aria-labelledby="qs-content-title"]>.qs-builder-fields,.questoes-page #qs-config .qs-specific-range{grid-template-columns:1fr;gap:19px}
  .questoes-page #qs-config .qs-scope-options{grid-template-columns:1fr}
  .questoes-page #qs-config .qs-scope-options label{justify-content:flex-start;text-align:left}
@@ -288,6 +299,10 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <nav class="study-topbar" data-active="questions" aria-label="Ferramentas de estudo"><a class="study-topbar__brand" data-study-nav="library" href="index.html">concursos <span>• leorruas</span></a><div class="study-topbar__links"><a data-study-nav="library" href="index.html">biblioteca</a><a data-study-nav="glossary" href="index.html#/glossario?concurso=camara-2026">glossário</a><a data-study-nav="flashcards" href="flashcards.html">flashcards</a><a data-study-nav="questions" href="questoes.html">questões</a><a data-study-nav="results" href="resultados.html">meus resultados</a><button type="button" id="qs-theme">modo claro</button></div></nav>
 <header class="qs-hero"><span class="qs-eyebrow">ESTUDO ATIVO / CONCURSOS</span><h1>questões.</h1><p>Escolha uma bateria ou combine matérias do seu concurso.</p></header>
 <p id="qs-status" role="status" aria-live="polite">Carregando questões…</p>
+<section class="qs-panel" id="qs-recommended" aria-labelledby="qs-recommended-title" hidden>
+<div><h2 id="qs-recommended-title">Bateria recomendada</h2><p id="qs-recommended-details" class="qs-note"></p></div>
+<button type="button" class="qs-button" id="qs-recommended-start"></button>
+</section>
 <section class="qs-panel" id="qs-config" hidden>
 <section id="qs-suggestions" aria-labelledby="qs-suggestions-heading" hidden><h2 id="qs-suggestions-heading">Baterias sugeridas</h2><div class="qs-suggestion-list" id="qs-suggestion-list"></div><div class="qs-divider"></div></section>
 <div class="qs-builder-intro"><h2>Montar bateria</h2><p>Primeiro escolha o conteúdo. Depois, como quer praticar.</p></div>

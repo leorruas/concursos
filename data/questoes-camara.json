@@ -7605,6 +7605,118 @@
   ],
   "expansao": [
       {
+        "id": "cam-revisao-presidente-autorizacao-e-quorum",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "direito-constitucional",
+        "unitId": "constitucional-regimentos",
+        "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+        "articleId": "art-f3e70dd8fbe34df4",
+        "conceptId": "competencia-camara-senado-processo-presidente",
+        "mechanism": "quorum-da-casa-competente",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-f3e70dd8fbe34df4#Art. 52: o que cabe ao Senado Federal"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+          "section": "Art. 52: o que cabe ao Senado Federal"
+        },
+        "statement": "Em processo por crime de responsabilidade do Presidente da República, 342 deputados autorizaram a instauração e 53 senadores votaram pela condenação. A autorização da Câmara atingiu o quórum constitucional, mas os votos favoráveis no Senado foram insuficientes para condenar.",
+        "correctAnswer": "C",
+        "explanation": "A Câmara exige dois terços de 513 membros, ou 342 votos, para autorizar. O Senado exige dois terços de 81 membros, ou 54 votos, para condenar. Os quóruns são calculados sobre o total de membros de cada Casa.",
+        "reviewEvidence": "Revisão do enunciado e da correção pela Constituição Federal, arts. 51, I, 52, I e parágrafo único, e 86. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
+        "id": "cam-revisao-presidente-competencia-crime-comum",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "direito-constitucional",
+        "unitId": "constitucional-regimentos",
+        "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+        "articleId": "art-f3e70dd8fbe34df4",
+        "conceptId": "competencia-camara-senado-processo-presidente",
+        "mechanism": "natureza-da-infracao-define-julgador",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+          "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+        },
+        "statement": "Por dois terços de seus membros, a Câmara admite acusação contra o Presidente da República por infração penal comum. Em razão da autorização parlamentar, cabe ao Senado conduzir e julgar o processo.",
+        "correctAnswer": "E",
+        "explanation": "A admissão pela Câmara permite o prosseguimento. Para infração penal comum, a Constituição atribui o julgamento ao Supremo Tribunal Federal. O Senado processa e julga por crime de responsabilidade. CF, art. 86, caput.",
+        "reviewEvidence": "Revisão do enunciado e da correção pela Constituição Federal, arts. 51, I, 52, I e parágrafo único, e 86. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
+        "id": "cam-revisao-empenho-gatilho-meta",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "orcamento-publico",
+        "unitId": "processo-orcamentario",
+        "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+        "articleId": "art-91ab320cdfb64b8a",
+        "conceptId": "limitacao-de-empenho",
+        "mechanism": "frustracao-sem-risco-fiscal",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-91ab320cdfb64b8a#Riscos, limitação de empenho e final de mandato"
+        ],
+        "source": {
+          "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+          "section": "Riscos, limitação de empenho e final de mandato"
+        },
+        "statement": "Ao fim do bimestre, a receita realizada foi inferior à prevista, mas a avaliação indica que as metas de resultado primário e nominal continuam alcançáveis. A mera diferença em relação à previsão obriga a limitar empenho e movimentação financeira com base no art. 9º da LRF.",
+        "correctAnswer": "E",
+        "explanation": "O gatilho do art. 9º é o risco de a receita realizada não comportar o cumprimento das metas de resultado. O desvio da previsão, isoladamente, não aciona essa medida.",
+        "reviewEvidence": "Revisão do enunciado e da correção pela LC nº 101/2000, art. 9º, caput e § 1º. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+      },
+      {
+        "id": "cam-revisao-empenho-recomposicao-parcial",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "orcamento-publico",
+        "unitId": "processo-orcamentario",
+        "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+        "articleId": "art-91ab320cdfb64b8a",
+        "conceptId": "limitacao-de-empenho",
+        "mechanism": "recomposicao-proporcional",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-91ab320cdfb64b8a#Riscos, limitação de empenho e final de mandato"
+        ],
+        "source": {
+          "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+          "section": "Riscos, limitação de empenho e final de mandato"
+        },
+        "statement": "Dois órgãos tiveram limites de empenho reduzidos em R$ 6 milhões e R$ 2 milhões, respectivamente. Se o restabelecimento parcial da receita permitir recompor R$ 4 milhões, cabe destinar R$ 3 milhões ao primeiro e R$ 1 milhão ao segundo.",
+        "correctAnswer": "C",
+        "explanation": "A recomposição segue as proporções das reduções efetivadas. A primeira corresponde a três quartos de R$ 8 milhões, e a segunda, a um quarto. As mesmas frações incidem sobre os R$ 4 milhões. LRF, art. 9º, § 1º.",
+        "reviewEvidence": "Revisão do enunciado e da correção pela LC nº 101/2000, art. 9º, caput e § 1º. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+      },
+      {
         "id": "cam-const-revisao-lei-delegada-urgencia-sem-delegacao",
         "concursoId": "camara-2026",
         "origin": "inedita",

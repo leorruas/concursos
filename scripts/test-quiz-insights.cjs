@@ -118,6 +118,21 @@ for(const [index,id] of adminCatalog.entries())
  assert.equal(applications.filter(q=>q.articleId===id).length,index<10?3:2,'cobertura aplicada do capítulo '+(index+1));
 assert.equal(applications.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length,30);
 assert.equal(new Set([...additional,...variants,...applications].map(q=>q.id)).size,182,'IDs dos três lotes precisam ser únicos');
+const casesAdmin=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara-administrativo-casos.json'),'utf8'));
+assert.equal(casesAdmin.length,64,'quarto lote deve conter 64 questões de casos');
+const previousStatements=new Set([...canonical.pilotoDidatico,...canonical.expansao,...additional,...variants,...applications]
+ .map(q=>normalizeStatement(q.statement)));
+assert.equal(new Set(casesAdmin.map(q=>normalizeStatement(q.statement))).size,casesAdmin.length,'enunciados novos não devem se repetir');
+for(const q of casesAdmin){
+ assert.ok(!previousStatements.has(normalizeStatement(q.statement)),'caso novo repete enunciado anterior: '+q.id);
+ assert.ok(adminCatalog.includes(q.articleId),'caso sem vínculo a capítulo válido: '+q.id);
+ assert.ok(q.conceptId&&q.mechanism,'caso sem conceito ou mecanismo: '+q.id);
+ assert.ok(q.explanation.length>=45,'comentário insuficiente: '+q.id);
+}
+for(const [index,articleId] of adminCatalog.entries())
+ assert.equal(casesAdmin.filter(q=>q.articleId===articleId).length,index<10?3:2,'cobertura capítulo '+(index+1));
+assert.equal(casesAdmin.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length,30);
+assert.equal(new Set([...additional,...variants,...applications,...casesAdmin].map(q=>q.id)).size,246,'IDs únicos entre lotes');
 const out=path.join(root,'_site/data/questoes-publicas.json');
 assert.ok(fs.existsSync(out),'exige build do site antes do teste');
 const data=JSON.parse(fs.readFileSync(out,'utf8'));
@@ -125,6 +140,7 @@ assert.ok(data.questions.length>0,'sem questões publicadas');
 for(const q of additional)assert.ok(data.questions.some(item=>item.id===q.id),'item novo não publicado: '+q.id);
 for(const q of variants)assert.ok(data.questions.some(item=>item.id===q.id),'variante de reteste não publicada: '+q.id);
 for(const q of applications)assert.ok(data.questions.some(item=>item.id===q.id),'aplicação nova não publicada: '+q.id);
+for(const q of casesAdmin)assert.ok(data.questions.some(item=>item.id===q.id),'caso novo ausente do banco público: '+q.id);
 assert.equal(new Set(data.questions.map(q=>q.id)).size,data.questions.length);
 assert.ok(data.questions.every(q=>q.unitName&&typeof q.section==='string'&&!('reviewEvidence' in q)),'catálogo público precisa expor só vínculo didático, sem dados internos');
 console.log('OK: prioridade por artigo, contexto do concurso, referência precisa, interface e dados públicos.');

@@ -366,7 +366,7 @@
  let weeklyData=null,weekSelection='';
  const dayName=['Seg','Ter','Qua','Qui','Sex','Sáb','Dom'];
  const numericFields=['total','correct','incorrect','blank','retests'];
- const datePt=d=>/^\\d{4}-\\d{2}-\\d{2}$/.test(d||'')?d.slice(8,10)+'/'+d.slice(5,7)+'/'+d.slice(0,4):d;
+ const datePt=d=>/^\d{4}-\d{2}-\d{2}$/.test(d||'')?d.slice(8,10)+'/'+d.slice(5,7)+'/'+d.slice(0,4):d;
  const newNode=(tag,cls,value)=>{
   const n=document.createElement(tag);
   if(cls)n.className=cls;

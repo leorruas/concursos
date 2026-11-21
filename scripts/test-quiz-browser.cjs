@@ -77,25 +77,49 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.screenshot({path:path.join(evidence,preset.name+'-setup.png'),fullPage:true});
    assert.ok(await page.locator('#qs-concurso option[value="cgu-2026"]').count());
    assert.equal(await page.locator('#qs-concurso option[value="dataprev-2026"]').count(),0);
+   await page.selectOption('#qs-concurso','cgu-2026');
    await page.locator('input[name="qs-scope"][value="custom"]').check();
    assert.equal(await page.locator('#qs-start').isDisabled(),true);
-   const subjects=['direito-constitucional','direito-administrativo','portugues'];
+   const subjects=['auditoria-governamental','orcamento-publico','politicas-publicas'];
    for(const subject of subjects)await page.locator('#qs-custom input[value="'+subject+'"]').check();
+   const available=questions.filter(q=>q.concursoId==='cgu-2026'&&subjects.includes(q.subjectId)).length;
+   assert.ok(available<100,'o cenário de teste precisa pedir mais itens do que o banco oferece');
+   await page.locator('#qs-count').fill('100');
+   const shortage=page.waitForEvent('dialog').then(async dialog=>{
+    assert.match(dialog.message(),new RegExp('Há '+available+' questões'));
+    await dialog.dismiss();
+   });
+   await Promise.all([shortage,page.locator('#qs-start').click()]);
+   assert.equal(await page.locator('#qs-config').isVisible(),true);
    await page.locator('#qs-count').fill('3');
    await page.locator('#qs-start').click();
    await page.locator('#qs-play').waitFor({state:'visible'});
    const mixed=await page.evaluate(()=>JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1')).at(-1));
+   assert.equal(mixed.concursoId,'cgu-2026');
    assert.equal(mixed.scope,'mixed');
    assert.deepEqual(mixed.ids.map(id=>questions.find(q=>q.id===id)?.subjectId).sort(),subjects.sort());
-   await page.reload({waitUntil:'domcontentloaded'});
-   await page.locator('#qs-play').waitFor({state:'visible'});
-   assert.match(await page.locator('#qs-status').textContent(),/anterior retomada/);
+   for(const [index,id] of mixed.ids.entries()){
+    const q=questions.find(item=>item.id===id);
+    await page.locator('input[name="qs-answer"][value="'+q.correctAnswer+'"]').check();
+    await page.locator('#qs-submit').click();
+    if(index===0){
+     await page.reload({waitUntil:'domcontentloaded'});
+     await page.locator('#qs-play').waitFor({state:'visible'});
+     assert.match(await page.locator('#qs-status').textContent(),/anterior retomada/);
+     assert.equal((await page.locator('#qs-statement').textContent()).trim(),questions.find(item=>item.id===mixed.ids[1]).statement.trim());
+    }else await page.locator('#qs-next').click();
+   }
+   await page.locator('#qs-summary').waitFor({state:'visible'});
+   const completed=await page.evaluate(()=>JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1')).at(-1));
+   assert.ok(completed.finishedAt);
+   assert.equal(completed.answers.filter(a=>a.result==='correct').length,3);
    await page.evaluate(()=>{
     localStorage.removeItem('concursos-quiz-sessoes-v1');
     localStorage.removeItem('concursos-quiz-ativa-v1');
    });
    await page.reload({waitUntil:'domcontentloaded'});
    await page.locator('#qs-config').waitFor({state:'visible'});
+   await page.selectOption('#qs-concurso','camara-2026');
    await page.locator('input[name="qs-scope"][value="single"]').check();
    await page.selectOption('#qs-materia','direito-constitucional');
    await page.locator('#qs-unidade-wrap').waitFor({state:'visible'});

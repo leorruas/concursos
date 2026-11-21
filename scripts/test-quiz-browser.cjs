@@ -309,9 +309,9 @@ fs.mkdirSync(evidence,{recursive:true});
      (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
    assert.equal(await page.locator('#results-edital-coverage .results-edital-unit summary').count(),0,
     'cobertura do edital apresentada diretamente em lista sem accordion');
-   assert.ok(await page.getByText('Estudo registrado em 13/11/2026. Sem questões vinculadas a esta unidade.').isVisible());
+   assert.ok(await page.getByText('Estudo registrado em 13/11/2026. Sem respostas vinculadas a esta unidade.').isVisible());
    assert.ok(await page.locator('#results-edital-coverage .results-edital-ref').getByText('Referência de teste').isVisible());
-   assert.ok(await page.locator('#results-edital-coverage .results-edital-state').getByText('Sem questões vinculadas').first().isVisible());
+   assert.ok(await page.locator('#results-edital-coverage .results-edital-state').getByText('Sem respostas vinculadas a esta referência').first().isVisible());
    assert.ok(await page.getByText('1 de 3 referências com respostas vinculadas').isVisible());
    const official = page.getByText('Programa oficial · 228 itens e subitens numerados',{exact:true});
    await official.focus();

@@ -447,6 +447,30 @@ const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
   officialEditalCode:officialCodeByQuestion.get(q.id)??officialCodeByReference.get(referenceKey(q.unitId,q.editalRef))??null,
   articleId:q.articleId || null,section:q.source?.section || null,conceptId:q.conceptId||null,mechanism:q.mechanism||null,
   format:q.format,origin:q.origin,estimatedDifficulty:q.estimatedDifficulty||null,statement:q.statement,correctAnswer:q.correctAnswer,explanation:q.explanation}));
+// Lote adicional independente para não reescrever o banco principal.
+const novasAdmin=JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-camara-administrativo-extra.json'),'utf8'));
+const capitulosAdmin=catalogoMaterias.contests.find(c=>c.concursoId==='camara-2026')
+ ?.subjects.find(x=>x.subjectId==='direito-administrativo')?.articleIds||[];
+const codigosAdmin=new Set(officialProgram.blocks.find(b=>b.section==='14.2.3'&&b.title==='Direito Administrativo e Administração Pública')?.codes.split(' ')||[]);
+const distribuicaoAdmin=new Map(capitulosAdmin.map(id=>[id,0]));
+if(!Array.isArray(novasAdmin)||novasAdmin.length<54)throw Error('Expansão administrativa incompleta.');
+for(const q of novasAdmin){
+ const required=['id','subjectId','subjectName','unitId','unitName','editalRef','officialEditalCode','articleId','section','conceptId','mechanism','statement','correctAnswer','explanation','origin','estimatedDifficulty','sourceNote'];
+ if(q.concursoId!=='camara-2026'||q.subjectId!=='direito-administrativo'||
+    q.unitId!=='direito-administrativo'||q.examPart!=='P1'||q.format!=='CE'||
+    !['C','E'].includes(q.correctAnswer)||q.origin!=='inedita'||
+    !['media','dificil','facil','muito-facil','muito-dificil'].includes(q.estimatedDifficulty)||
+    !required.every(k=>typeof q[k]==='string'&&q[k].trim())||
+    !distribuicaoAdmin.has(q.articleId)||!codigosAdmin.has(q.officialEditalCode)||
+    q.editalRef!=='14.2.3 / Direito Administrativo e Administração Pública / '+q.officialEditalCode||
+    q.statement.length<60||q.explanation.length<45)throw Error('Questão administrativa inválida: '+q.id);
+ distribuicaoAdmin.set(q.articleId,distribuicaoAdmin.get(q.articleId)+1);
+ questoesPublicas.push(Object.fromEntries([
+  'id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','officialEditalCode',
+  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'
+ ].map(k=>[k,q[k]])));
+}
+if([...distribuicaoAdmin.values()].some(n=>n<2))throw Error('Capítulo sem duas questões adicionais.');
 const questoesCgu = JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-cgu.json'),'utf8'));
 for (const item of questoesCgu) {
   const {id,concursoId,subjectId,subjectName,unitId,unitName,examPart,editalRef,articleId,section,

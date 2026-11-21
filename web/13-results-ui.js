@@ -387,7 +387,7 @@ async function loadRetests(examId,version){
   if(!response.ok)throw Error('histórico indisponível');
   const data=await response.json();
   if(data?.version!==1||!Array.isArray(data.attempts))throw Error('histórico incompatível');
-  const map=await quizQuestions();
+  const map=await quizQuestions(examId);
   if(version!==loadVersion)return;
   retests=window.ResultsRetests.analyze(data.attempts,map,examId);
   coverageData=window.ResultsRetests.coverage(data.attempts,map,examId);
@@ -909,15 +909,25 @@ function render(){
 }
 
 /* Recomendações de leitura das baterias do site, calculadas somente após autenticação. */
-let quizBank=null,loadVersion=0;
-async function quizQuestions(){
- if(quizBank)return quizBank;
- const r=await fetch('/data/questoes-publicas.json',{cache:'no-store'});
- if(!r.ok)throw Error('Banco de questões indisponível');
- const x=await r.json();
- if(x.version!==1||!Array.isArray(x.questions))throw Error('Catálogo incompatível');
- quizBank=new Map(x.questions.map(q=>[q.id,q]));
- return quizBank;
+let quizBank=null,cguQuizBank=null,loadVersion=0;
+async function quizQuestions(examId){
+ if(!quizBank){
+  const response=await fetch('/data/questoes-publicas.json',{cache:'no-store'});
+  if(!response.ok)throw Error('Banco de questões indisponível');
+  const catalog=await response.json();
+  if(catalog.version!==1||!Array.isArray(catalog.questions))throw Error('Catálogo incompatível');
+  quizBank=new Map(catalog.questions.map(q=>[q.id,q]));
+ }
+ if(examId!=='cgu-2026')return quizBank;
+ if(!cguQuizBank)cguQuizBank=(async()=>{
+  const response=await fetch('/v1/study/cgu-catalog',{credentials:'same-origin',cache:'no-store'});
+  if(!response.ok)throw Error('Acervo indisponível');
+  const catalog=await response.json();
+  if(catalog.version!==1||catalog.concursoId!=='cgu-2026'||!Array.isArray(catalog.questions))
+   throw Error('Formato inválido');
+  return new Map([...catalog.questions.map(q=>[q.id,q]),...quizBank]);
+ })().catch(()=>{cguQuizBank=null;return quizBank;});
+ return cguQuizBank;
 }
 function quizPriorityGroups(attempts,questionMap,examId,cutoff){
  const groups=new Map();
@@ -1022,7 +1032,7 @@ async function loadQuizResults(examId,version){
    for(const x of [title(v.id),v.total,v.correct,v.incorrect,judged?(100*v.correct/judged).toFixed(1)+'%':'Sem amostra'])tr.append(el('td','',x));
    return tr;
   }));
-  try{showQuizPriorities(attempts,await quizQuestions(),examId,now);}
+  try{showQuizPriorities(attempts,await quizQuestions(examId),examId,now);}
   catch{$('results-quiz-priority-description').textContent='Seus resultados foram recuperados, mas os vínculos com os artigos estão temporariamente indisponíveis.';}
   statusQuiz.textContent=attempts.length
    ?'Respostas sincronizadas no banco privado. As prioridades abaixo já incluem suas tentativas do site.'

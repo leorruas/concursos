@@ -560,6 +560,30 @@ if(Math.abs(dificeisAdmin.filter(q=>q.correctAnswer==='C').length-dificeisAdmin.
 
 
 
+ // Expansão independente de decoro parlamentar, com validação do vínculo e do equilíbrio.
+const decoroDificeis=JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-camara-decoro-dificeis.json'),'utf8'));
+const idsDecoroExistentes=new Set(questoesPublicas.map(q=>q.id));
+if(!Array.isArray(decoroDificeis)||decoroDificeis.length!==30)throw Error('Lote de decoro incompleto.');
+const artigoDecoro='art-5b41764164052519';
+const respostasDecoro={C:0,E:0};
+for(const q of decoroDificeis){
+ const required=['id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation','sourceNote'];
+ if(!required.every(k=>typeof q[k]==='string'&&q[k].trim())||
+   q.concursoId!=='camara-2026'||q.subjectId!=='etica-publica'||
+   q.unitId!=='decoro-parlamentar'||q.examPart!=='P2'||q.format!=='CE'||
+   q.articleId!==artigoDecoro||q.estimatedDifficulty!=='dificil'||
+   q.origin!=='inedita'||!['C','E'].includes(q.correctAnswer)||
+   !q.editalRef.includes('Código de Ética e Decoro Parlamentar')||
+   q.statement.length<100||q.explanation.length<90||idsDecoroExistentes.has(q.id))
+   throw Error('Questão difícil de decoro inválida: '+q.id);
+ idsDecoroExistentes.add(q.id);
+ respostasDecoro[q.correctAnswer]++;
+ questoesPublicas.push(Object.fromEntries(['id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'].map(k=>[k,q[k]])));
+}
+if(respostasDecoro.C!==15||respostasDecoro.E!==15)throw Error('Gabarito do lote de decoro desequilibrado.');
+console.log('✓ 30 questões difíceis de decoro parlamentar integradas ao treino.');
+
+
 
 const questoesCgu = JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-cgu.json'),'utf8'));
 for (const item of questoesCgu) {

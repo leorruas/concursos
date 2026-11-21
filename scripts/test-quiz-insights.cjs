@@ -47,16 +47,17 @@ for(const file of files){
 }
 const quizHtml=fs.readFileSync(path.join(root,'questoes.html'),'utf8');
 const quizSource=fs.readFileSync(path.join(root,'web/15-questoes-ui.js'),'utf8');
-const chapterNumber=getFunction(quizSource,'quizChapterNumber','updateChapterDisplay');
-assert.equal(chapterNumber('3 - Materias/Direito Constitucional/07 - poder executivo.md'),7);
-assert.equal(chapterNumber('3 - Materias/Direito Constitucional/10 - processo legislativo.md'),10);
-assert.equal(chapterNumber('3 - Materias/Direito Constitucional/11 - outra nota.md'),11);
-assert.equal(chapterNumber('3 - Materias/Auditoria Governamental/achados-causas.md'),null);
-assert.equal(chapterNumber('3 - Materias/CGU/CGU 2026 - artigo.md'),null);
-assert.ok(quizHtml.includes('id="qs-unidade" hidden'),'dropdown técnico não deve aparecer visualmente');
-assert.ok(quizSource.includes("chapterMode==='numbered'?'Estudar até o capítulo'")||
- quizSource.includes("numbered?'Estudar até o capítulo'"),'capítulos reais devem ter nome próprio');
-assert.ok(quizSource.includes("quizChapterNumber(a.sourcePath)<=n"),'limite inclusivo do capítulo');
+const chapterIds=getFunction(quizSource,'quizChapterIds','updateChapterDisplay');
+const editorial=JSON.parse(fs.readFileSync(path.join(root,'data/catalogo-materias-por-concurso.json'),'utf8'));
+const admin=chapterIds(editorial,'camara-2026','direito-administrativo');
+assert.equal(admin.length,27,'capítulos de Administrativo seguem o catálogo, não o nome do arquivo');
+assert.equal(admin[9],'art-10a91f6bf9b53f1a','capítulo 10 é Classificações e espécies de atos administrativos');
+assert.equal(admin[20],'art-b3edb79bff314c93','arquivo 10 - serviços públicos é capítulo 21');
+assert.equal(chapterIds(editorial,'cgu-2026','direito-administrativo').length,4,'ordem própria de cada concurso');
+assert.equal(chapterIds(editorial,'camara-2026','matéria-inexistente').length,0,'não inferir capítulos sem catálogo');
+assert.ok(quizHtml.includes('id="qs-unidade" hidden'),'dropdown técnico deve permanecer oculto');
+assert.ok(quizSource.includes('chapterIds.slice(0,n)'),'recorte deve incluir os primeiros n capítulos');
+assert.ok(quizSource.includes("fetch('data/catalogo-materias-por-concurso.json'"),'catálogo editorial deve ser carregado');
 // A montagem mantém dois blocos de decisão e um único ponto de ação.
 for(const id of ['qs-content-title','qs-practice-title','qs-builder-footer','qs-chapter-picker']){
  const selector=id==='qs-builder-footer'||id==='qs-chapter-picker'?'class="'+id+'"':'id="'+id+'"';

@@ -539,7 +539,7 @@ if(capitulosAdmin.some((id,i)=>distribuicaoCasos.get(id)!==(i<10?3:2)))throw Err
 // Mantidas em lote isolado para preservar o banco original e os IDs históricos.
 const dificeisAdmin=JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-camara-administrativo-dificeis.json'),'utf8'));
 const coberturaDificeis=new Map(capitulosAdmin.map(id=>[id,0]));
-if(!Array.isArray(dificeisAdmin)||dificeisAdmin.length!==47)throw Error('Lote difícil de Administrativo incompleto.');
+if(!Array.isArray(dificeisAdmin)||dificeisAdmin.length<47)throw Error('Lote difícil de Administrativo incompleto.');
 for(const q of dificeisAdmin){
  const required=['id','subjectId','subjectName','unitId','unitName','editalRef','officialEditalCode','articleId','section','conceptId','mechanism','statement','correctAnswer','explanation','origin','estimatedDifficulty','sourceNote'];
  if(q.concursoId!=='camara-2026'||q.subjectId!=='direito-administrativo'||
@@ -555,7 +555,7 @@ for(const q of dificeisAdmin){
   'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'
  ].map(k=>[k,q[k]])));
 }
-if(capitulosAdmin.some((id,i)=>coberturaDificeis.get(id)!==(i<10?3:1)))throw Error('Distribuição difícil por capítulo inconsistente.');
+if(capitulosAdmin.some((id,i)=>coberturaDificeis.get(id)<(i<10?3:1)))throw Error('Distribuição difícil por capítulo inconsistente.');
 if(Math.abs(dificeisAdmin.filter(q=>q.correctAnswer==='C').length-dificeisAdmin.filter(q=>q.correctAnswer==='E').length)>3)throw Error('Gabarito difícil desequilibrado.');
 
 

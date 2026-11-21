@@ -91,11 +91,26 @@ for(const articleId of adminCatalog){
  assert.ok(items.every(q=>q.examPart==='P1'&&q.unitId==='direito-administrativo'&&['C','E'].includes(q.correctAnswer)));
 }
 assert.equal(additional.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length,30,'trinta itens nos dez primeiros capítulos');
+const variants=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara-administrativo-variantes.json'),'utf8'));
+assert.equal(variants.length,54,'novo lote de reteste com 54 questões');
+const prior=new Set([...canonical.pilotoDidatico,...canonical.expansao,...additional].map(q=>normalizeStatement(q.statement)));
+const uniqueVariants=new Set(variants.map(q=>normalizeStatement(q.statement)));
+assert.equal(uniqueVariants.size,variants.length,'variantes não podem ter enunciados idênticos entre si');
+for(const q of variants){
+ assert.ok(!prior.has(normalizeStatement(q.statement)),'variante de reteste duplica enunciado existente: '+q.id);
+ assert.ok(adminCatalog.includes(q.articleId),'variante associada a capítulo ausente do edital: '+q.id);
+ assert.equal(q.unitId,'direito-administrativo','variante deve permanecer na matéria');
+ assert.ok(q.mechanism&&q.conceptId,'variante precisa registrar conceito e mecanismo');
+}
+for(const articleId of adminCatalog)assert.equal(variants.filter(q=>q.articleId===articleId).length,2,'duas variantes por capítulo: '+articleId);
+assert.equal(variants.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length,20,'vinte variantes nos primeiros dez capítulos');
+assert.equal(new Set([...additional,...variants].map(q=>q.id)).size,118,'IDs dos lotes não podem colidir');
 const out=path.join(root,'_site/data/questoes-publicas.json');
 assert.ok(fs.existsSync(out),'exige build do site antes do teste');
 const data=JSON.parse(fs.readFileSync(out,'utf8'));
 assert.ok(data.questions.length>0,'sem questões publicadas');
 for(const q of additional)assert.ok(data.questions.some(item=>item.id===q.id),'item novo não publicado: '+q.id);
+for(const q of variants)assert.ok(data.questions.some(item=>item.id===q.id),'variante de reteste não publicada: '+q.id);
 assert.equal(new Set(data.questions.map(q=>q.id)).size,data.questions.length);
 assert.ok(data.questions.every(q=>q.unitName&&typeof q.section==='string'&&!('reviewEvidence' in q)),'catálogo público precisa expor só vínculo didático, sem dados internos');
 console.log('OK: prioridade por artigo, contexto do concurso, referência precisa, interface e dados públicos.');

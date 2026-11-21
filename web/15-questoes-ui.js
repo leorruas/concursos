@@ -5,6 +5,7 @@ const $=id=>document.getElementById(id),WORKER='https://concurso-estudo.leoruas.
 const STORE='concursos-quiz-sessoes-v1',ACTIVE='concursos-quiz-ativa-v1';
 const privateOrigin=location.origin===WORKER;
 let data=null,session=null,loggedIn=false,manifest=new Map(),shownAt=null;
+let seenByContest=new Map(), suggestionRequest=0;
 const elem=(tag,text)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=String(text);return e;};
 const toggle=(id,show)=>{$(id).hidden=!show;};
 function readingStart(){
@@ -67,9 +68,17 @@ function markSynced(attemptId){
 function shuffle(a){let x=a.slice();for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]];}return x;}
 function contest(){return data?.contests.find(c=>c.id===$('qs-concurso').value);}
 function available(){return data?.questions.filter(q=>q.concursoId===contest()?.id&&q.format==='CE')||[];}
+function customSubjects(){
+ return new Set([...$("qs-custom").querySelectorAll("input:checked")].map(input=>input.value));
+}
 function eligible(){
  let a=available();
- if(selected('qs-scope')==='single'){
+ const scope=selected('qs-scope');
+ if(scope==='custom'){
+  const subjects=customSubjects();
+  a=a.filter(q=>subjects.has(q.subjectId));
+ }
+ if(scope==='single'){
   const u=$('qs-unidade').value;
   a=a.filter(q=>q.subjectId===$('qs-materia').value&&(!u||q.unitId===u));
  }
@@ -79,6 +88,14 @@ function eligible(){
 function updateSubjects(){
  const select=$('qs-materia'),count=new Map();available().forEach(q=>{const val=count.get(q.subjectId)||{label:q.subjectName||q.subjectId,n:0};val.n++;count.set(q.subjectId,val);});
  select.replaceChildren(...[...count.entries()].sort((a,b)=>a[1].label.localeCompare(b[1].label,'pt-BR')).map(([key,v])=>{const o=elem('option',v.label+' ('+v.n+')');o.value=key;return o;}));
+ const choices=[...select.options].map(option=>{
+  const label=elem('label'), checkbox=elem('input');
+  checkbox.type='checkbox';
+  checkbox.value=option.value;
+  label.append(checkbox, document.createTextNode(' '+option.textContent));
+  return label;
+ });
+ $('qs-custom').replaceChildren(...choices);
  updateUnits();
 }
 function updateUnits(){
@@ -92,24 +109,73 @@ function updateUnits(){
  availability();
 }
 function availability(){
- const focused=selected('qs-scope')==='single';
+ const focused=selected('qs-scope')==='single', custom=selected('qs-scope')==='custom';
+ toggle('qs-custom-wrap',custom);
  toggle('qs-materia-wrap',focused);
  toggle('qs-unidade-wrap',focused&&$('qs-unidade').options.length>2);
- const n=eligible().length, c=contest();$('qs-availability').textContent=n?n+' questões revisadas disponíveis em '+c.nome+'.':'Ainda não há questões revisadas disponíveis para esta seleção.';$('qs-start').disabled=n<1;
+ const n=eligible().length, c=contest();$('qs-availability').textContent=n?n+' questões revisadas disponíveis em '+c.nome+'.':'Ainda não há questões revisadas disponíveis para esta seleção.';const amounts=new Map();
+ if(custom) for(const q of eligible()) amounts.set(q.subjectId,(amounts.get(q.subjectId)||0)+1);
+ const subjects=custom?customSubjects():new Set();
+ if(custom && subjects.size<2) $('qs-availability').textContent='Selecione pelo menos duas matérias.';
+ else if(custom && amounts.size<subjects.size) $('qs-availability').textContent='Uma das matérias selecionadas ficou sem itens. Ajuste a dificuldade ou a seleção.';
+ $('qs-start').disabled=n<1||(custom&&(subjects.size<2||amounts.size<subjects.size));
 }
-function choose(n){
+function choose(n, pool=eligible()){
  const old=new Set(storeRead().filter(s=>s.concursoId===contest().id).flatMap(s=>s.answers.map(a=>a.questionId))),groups=new Map();
- shuffle(eligible()).forEach(q=>{if(!groups.has(q.subjectId))groups.set(q.subjectId,[]);groups.get(q.subjectId).push(q);});
+ shuffle(pool).forEach(q=>{if(!groups.has(q.subjectId))groups.set(q.subjectId,[]);groups.get(q.subjectId).push(q);});
  for(const g of groups.values())g.sort((a,b)=>Number(old.has(a.id))-Number(old.has(b.id)));
  const result=[];
- if(selected('qs-scope')==='single')return [...groups.values()][0].slice(0,n).map(q=>q.id);
  const order=shuffle([...groups.keys()]);while(result.length<n){let found=false;for(const key of order){const q=groups.get(key).shift();if(q){result.push(q.id);found=true;}if(result.length===n)break;}if(!found)break;}
  return result;
 }
-function start(recommended){
+function renderSuggestions(review){
+ const list=$('qs-suggestion-list'), exam=contest();
+ list.replaceChildren();
+ if(!exam || exam.id==='dataprev-2026'){toggle('qs-suggestions',false);return;}
+ const pool=available().filter(q=>!q.annulled);
+ const seen=new Set([...(seenByContest.get(exam.id)||[]), ...storeRead()
+  .filter(s=>s.concursoId===exam.id).flatMap(s=>s.answers.map(a=>a.questionId))]);
+ function offer(title, reason, ids){
+  if(!ids.length)return;
+  const row=elem('div'), button=elem('button',title+' · '+ids.length+' '+(ids.length===1?'questão':'questões'));
+  button.type='button';button.className='qs-button';
+  button.addEventListener('click',()=>start(ids,'aprendizagem'));
+  row.append(button,elem('p',reason));list.append(row);
+ }
+ if(review)offer('Revisar erros e dúvidas',review.title,review.questionIds);
+ offer('Praticar questões novas',loggedIn?'Itens sem resposta no histórico consultado.':'Itens sem resposta neste navegador.',
+  loggedIn&&!seenByContest.has(exam.id)?[]:choose(10,pool.filter(q=>!seen.has(q.id))));
+ offer('Diagnóstico misto','Questões distribuídas entre matérias de '+exam.nome+'.',choose(10,pool));
+ toggle('qs-suggestions',list.childElementCount>0);
+}
+async function updateSuggestions(){
+ const request=++suggestionRequest, exam=contest()?.id;
+ renderSuggestions();
+ if(!loggedIn||!exam||exam==='dataprev-2026')return;
+ const query='?concurso='+encodeURIComponent(exam);
+ const get=async endpoint=>{
+  const r=await fetch('/v1/study/'+endpoint+query,{cache:'no-store',credentials:'same-origin'});
+  if(!r.ok)throw Error('Histórico indisponível');
+  return r.json();
+ };
+ const [attempts,unified]=await Promise.allSettled([get('quiz'),get('unified')]);
+ if(request!==suggestionRequest)return;
+ if(attempts.status==='fulfilled'&&Array.isArray(attempts.value.attempts))
+  seenByContest.set(exam,new Set(attempts.value.attempts.map(a=>a.questionId)));
+ const recommendations=unified.status==='fulfilled'?unified.value.adaptive?.recommendations||[]:[];
+ const review=recommendations.find(item=>item.state==='review-pending'&&item.questionIds?.length&&
+  item.questionIds.every(id=>data.map.get(id)?.concursoId===exam));
+ renderSuggestions(review);
+}
+function start(recommended, directedMode='simulado'){
  const directed=Array.isArray(recommended);
  const n=directed?recommended.length:Number($('qs-count').value);if(!Number.isInteger(n)||n<1||n>100){status('Escolha entre 1 e 100 questões.');return;}
- const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,directed,mode:directed?'simulado':selected('qs-mode'),scope:directed?'mixed':selected('qs-scope'),subjectId:!directed&&selected('qs-scope')==='single'?$('qs-materia').value:null,unitId:!directed&&selected('qs-scope')==='single'?$('qs-unidade').value||null:null,startedAt:new Date().toISOString(),finishedAt:null,ids:directed?recommended:choose(Math.min(n,eligible().length)),answers:[]};
+ const scope=selected('qs-scope'), custom=!directed&&scope==='custom';
+ const availableCount=directed?n:eligible().length;
+ if(!availableCount)return;
+ if(custom&&n<customSubjects().size){status('Escolha ao menos uma questão por matéria selecionada.');return;}
+ if(!directed&&availableCount<n&&!window.confirm('Há '+availableCount+' questões para esta seleção. Iniciar com essa quantidade?'))return;
+ const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,directed,mode:directed?directedMode:selected('qs-mode'),scope:directed||custom?'mixed':scope,subjectId:!directed&&selected('qs-scope')==='single'?$('qs-materia').value:null,unitId:!directed&&selected('qs-scope')==='single'?$('qs-unidade').value||null:null,startedAt:new Date().toISOString(),finishedAt:null,ids:directed?recommended:choose(Math.min(n,eligible().length)),answers:[]};
  storeWrite();toggle('qs-config',false);toggle('qs-play',true);toggle('qs-summary',false);playing(true);render();readingStart();status('Bateria iniciada. Respostas registradas após cada envio.');
 }
 function question(){return data.map.get(session.ids[session.answers.length]);}
@@ -157,6 +223,7 @@ function answer(ev){
  const elapsed=shownAt===null?null:Math.round(performance.now()-shownAt);
  const responseMs=elapsed!==null&&elapsed>=0&&elapsed<=86400000?elapsed:null;
  shownAt=null;
+let seenByContest=new Map(), suggestionRequest=0;
  const a={responseMs,consulted:$('qs-consulted').checked,feedbackBefore:$('qs-feedback-before').checked,id:id(),sessionId:session.id,concursoId:session.concursoId,questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:session.mode,answer:blank?null:v,correctAnswer:q.correctAnswer,result:blank?'blank':v===q.correctAnswer?'correct':'incorrect',confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',answeredAt:Date.now(),synced:false};
  session.answers.push(a);storeWrite();sync(a);
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>e.disabled=true);
@@ -225,7 +292,7 @@ function finish(){
 function resume(){
  const key=localStorage.getItem(ACTIVE),s=storeRead().find(x=>x.id===key&&!x.finishedAt);
  if(!s||!s.ids.every(x=>data.map.has(x)))return;
- session=s;$('qs-concurso').value=s.concursoId;updateSubjects();toggle('qs-config',false);toggle('qs-play',true);playing(true);render();readingStart();status('Bateria anterior retomada.');
+ session=s;if([...$('qs-concurso').options].some(o=>o.value===s.concursoId)) $('qs-concurso').value=s.concursoId;updateSubjects();toggle('qs-config',false);toggle('qs-play',true);playing(true);render();readingStart();status('Bateria anterior retomada.');
 }
 function exportJson(){
  if(!session)return;const obj={...session,answers:session.answers.map(({synced,...a})=>a)},u=URL.createObjectURL(new Blob([JSON.stringify(obj,null,2)],{type:'application/json'})),a=elem('a');a.href=u;a.download='bateria-'+session.concursoId+'-'+session.id+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1500);
@@ -235,6 +302,7 @@ async function auth(){
  if(!privateOrigin){$('qs-sync').textContent='GitHub Pages: gravação somente neste navegador. Use o ambiente autenticado para sincronizar.';return;}
  try{const r=await fetch('/v1/session',{credentials:'same-origin',cache:'no-store'});loggedIn=r.ok;}catch{loggedIn=false;}
  if(!loggedIn){toggle('qs-login',true);$('qs-login').href='/v1/login/github?return=%2Fquestoes.html';$('qs-login').textContent='Entrar com GitHub para sincronizar';$('qs-sync').textContent='Sem login, respostas ficam apenas neste navegador.';return;}
+ updateSuggestions();
  $('qs-sync').textContent='GitHub conectado. As respostas serão gravadas no banco privado.';
  for(const s of storeRead())for(const a of s.answers.filter(x=>!x.synced))await sync(a);
 }
@@ -244,14 +312,15 @@ function offerRecommendedBatch() {
  if (!params.has('questoes')) return;
  const exam = params.get('concurso');
  const ids = [...new Set(params.get('questoes').split(','))];
- if (ids.length > 6 || !ids.every(id => {
+ if (exam==='dataprev-2026' || ids.length > 6 || !ids.every(id => {
   const q = data.map.get(id);
   return q?.concursoId === exam && q.format === 'CE' && !q.annulled;
  })) {
   status('A bateria recomendada está indisponível no catálogo atual.');
   return;
  }
- const button = elem('button', 'Iniciar bateria recomendada (' + ids.length + ')');
+ const repeat=params.get('repetir')==='1';
+ const button = elem('button', repeat?'Refazer questão anterior':'Iniciar bateria recomendada (' + ids.length + ')');
  button.type = 'button';
  button.className = 'qs-button';
  button.addEventListener('click', () => {
@@ -260,13 +329,14 @@ function offerRecommendedBatch() {
   updateSubjects();
   button.remove();
   history.replaceState(null, '', location.pathname + location.search);
-  start(ids);
+  start(ids,repeat?'aprendizagem':'simulado');
  });
  $('qs-status').after(button);
 }
 async function init(){
  $('qs-theme').textContent=document.documentElement.dataset.theme==='light'?'modo escuro':'modo claro';$('qs-theme').addEventListener('click',theme);
- $('qs-concurso').addEventListener('change',updateSubjects);$('qs-materia').addEventListener('change',updateUnits);$('qs-unidade').addEventListener('change',availability);$('qs-difficulty-filter').addEventListener('change',availability);
+ $('qs-custom').addEventListener('change',availability);
+ $('qs-concurso').addEventListener('change',()=>{updateSubjects();updateSuggestions();});$('qs-materia').addEventListener('change',updateUnits);$('qs-unidade').addEventListener('change',availability);$('qs-difficulty-filter').addEventListener('change',availability);
  const count=$('qs-count');
  const refreshPresets=()=>document.querySelectorAll('#qs-presets button').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.count)===Number(count.value))));
  count.addEventListener('input',refreshPresets);
@@ -280,16 +350,21 @@ async function init(){
   if(pending>0&&!window.confirm('Encerrar a bateria com '+pending+' questão'+(pending===1?'':'ões')+' ainda não respondida'+(pending===1?'':'s')+'?'))return;
   finish();
  });
- $('qs-restart').addEventListener('click',()=>{session=null;playing(false);toggle('qs-summary',false);toggle('qs-config',true);window.scrollTo({top:0,behavior:'instant'});status('Escolha a próxima bateria.');});
+ $('qs-restart').addEventListener('click',()=>{session=null;playing(false);toggle('qs-summary',false);toggle('qs-config',true);window.scrollTo({top:0,behavior:'instant'});status('Escolha a próxima bateria.');updateSuggestions();});
  $('qs-export').addEventListener('click',exportJson);
  try{
   const r=await fetch('data/questoes-publicas.json',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);data=await r.json();
   if(data.version!==1||!Array.isArray(data.questions)||!Array.isArray(data.contests))throw Error('Formato do banco inválido.');
   data.map=new Map(data.questions.map(q=>[q.id,q]));
   try{const m=await fetch('manifest.json').then(r=>r.ok?r.json():[]);manifest=new Map(m.filter(x=>x.articleId).map(x=>[x.articleId,x]));}catch{}
-  $('qs-concurso').replaceChildren(...data.contests.map(c=>{const n=data.questions.filter(q=>q.concursoId===c.id).length;const e=elem('option',c.nome+' ('+n+')');e.value=c.id;return e;}));
-  const saved=localStorage.getItem('concurso_ativo_id');$('qs-concurso').value=data.contests.some(c=>c.id===saved)?saved:'camara-2026';
-  updateSubjects();toggle('qs-config',true);status('Banco carregado. Monte uma bateria.');
+  const options=data.contests.filter(c=>c.id!=='dataprev-2026').map(c=>{
+   const n=data.questions.filter(q=>q.concursoId===c.id).length;
+   const option=elem('option',c.nome+' ('+n+')');option.value=c.id;return option;
+  });
+  $('qs-concurso').replaceChildren(...options);
+  const saved=localStorage.getItem('concurso_ativo_id');
+  $('qs-concurso').value=options.some(o=>o.value===saved)?saved:options.find(o=>o.value==='camara-2026')?.value||options[0]?.value||'';
+  updateSubjects();updateSuggestions();toggle('qs-config',true);status('Banco carregado. Monte uma bateria.');
   resume();offerRecommendedBatch();auth();
  }catch(e){status('Não foi possível abrir o banco: '+e.message);}
 }

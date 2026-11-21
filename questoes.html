@@ -188,11 +188,13 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <header class="qs-hero"><span class="qs-eyebrow">ESTUDO ATIVO / CONCURSOS</span><h1>questões.</h1><p>Pratique com o banco revisado. Ao terminar, veja os conceitos que exigem atenção e os artigos para retomar a leitura.</p></header>
 <p id="qs-status" role="status" aria-live="polite">Carregando questões…</p>
 <section class="qs-panel" id="qs-config" hidden>
-<h2>Configure sua bateria</h2>
+<div id="qs-suggestions" hidden><h2>Baterias sugeridas</h2><div id="qs-suggestion-list"></div><div class="qs-divider"></div></div>
+<h2>Montar bateria</h2>
 <div class="qs-form">
 <label class="qs-field" for="qs-concurso"><span class="qs-label">Concurso</span><select id="qs-concurso"></select></label>
 <div class="qs-field"><label class="qs-label" for="qs-count">Quantidade</label><div class="qs-count-row"><div class="qs-preset" id="qs-presets" role="group" aria-label="Quantidade de questões"><button type="button" data-count="10" aria-pressed="true">10</button><button type="button" data-count="20" aria-pressed="false">20</button><button type="button" data-count="30" aria-pressed="false">30</button></div><input type="number" min="1" max="100" step="1" value="10" id="qs-count" aria-label="Quantidade personalizada"></div></div>
-<div class="qs-field"><span class="qs-label">Matérias</span><div class="qs-options"><label><input type="radio" name="qs-scope" value="mixed" checked> misturadas</label><label><input type="radio" name="qs-scope" value="single"> uma matéria</label></div></div>
+<div class="qs-field"><span class="qs-label">Matérias</span><div class="qs-options"><label><input type="radio" name="qs-scope" value="mixed" checked> todas as matérias</label><label><input type="radio" name="qs-scope" value="custom"> combinar matérias</label><label><input type="radio" name="qs-scope" value="single"> uma matéria</label></div></div>
+<fieldset class="qs-field qs-conditional" id="qs-custom-wrap" hidden><legend class="qs-label">Matérias da bateria</legend><div class="qs-options" id="qs-custom"></div></fieldset>
 <label class="qs-field qs-conditional" id="qs-materia-wrap" for="qs-materia" hidden><span class="qs-label">Escolher matéria</span><select id="qs-materia"></select></label>
 <label class="qs-field qs-conditional" id="qs-unidade-wrap" for="qs-unidade" hidden><span class="qs-label">Recorte da matéria</span><select id="qs-unidade"></select></label>
 <div class="qs-field"><label class="qs-label" for="qs-difficulty-filter">Dificuldade estimada</label><select id="qs-difficulty-filter"><option value="">Todas as dificuldades</option><option value="muito-facil">Muito fácil</option><option value="facil">Fácil</option><option value="media">Média</option><option value="dificil">Difícil</option><option value="muito-dificil">Muito difícil</option></select></div>
@@ -200,6 +202,11 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 </div>
 <div class="qs-divider"></div><p class="qs-note" id="qs-availability"></p>
 <div class="qs-actions"><button class="qs-button" id="qs-start" type="button">Iniciar bateria</button><a id="qs-login" class="qs-note" href="https://concurso-estudo.leoruas.workers.dev/questoes.html">Abrir versão com login GitHub</a></div>
+<details class="qs-review">
+<summary>Arquivo da Dataprev</summary>
+<p><a href="index.html#/artigo/fgv-dataprev-e-corpus-de-comunicacao?concurso=dataprev-2026">Consultar o corpus de questões e provas da FGV</a></p>
+<p><a href="https://conhecimento.fgv.br/concursos/dataprev26">Consultar provas e gabaritos da Dataprev 2026 na FGV</a></p>
+</details>
 <p class="qs-note">As respostas são preservadas neste navegador. No ambiente autenticado, a gravação também é confirmada no banco privado. Concursos sem questões revisadas ainda não permitem baterias.</p>
 </section>
 <section class="qs-panel" id="qs-play" hidden aria-label="Resolver questão">

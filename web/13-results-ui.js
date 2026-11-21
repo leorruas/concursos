@@ -393,7 +393,7 @@ function renderAdaptive(plan) {
  if (queueItems) queueItems.replaceChildren();
  const practice = $('results-discursive');
  practice.replaceChildren();
- if (enabled && (!selectedSubject || selectedSubject === 'redacao')) {
+ if (enabled && select.value === 'camara-2026' && (!selectedSubject || selectedSubject === 'redacao')) {
   const details = el('details', 'results-revision-details');
   details.append(el('summary', '', 'Treinar discursiva'));
   details.append(el('p', 'results-caption', 'Propostas autorais em revisão. Escreva sem consulta e confira os quesitos após terminar.'));
@@ -445,10 +445,18 @@ function renderAdaptive(plan) {
   if(reason)copy.append(el('p','results-study-action-reason',reason));
   if(item.questionIds.length){
    const params=new URLSearchParams({concurso:item.concursoId,questoes:item.questionIds.join(',')});
-   const link=el('a','results-study-action-primary','Preparar bateria de '+item.quantity+' questão(ões)');
+   const link=el('a','results-study-action-primary','Praticar este tema · '+item.quantity+' questão(ões)');
    link.href='questoes.html#'+params.toString();
    controls.append(link);
-  }else controls.append(el('span','results-study-action-unavailable','Sem questões novas disponíveis'));
+  }else{
+   controls.append(el('span','results-study-action-unavailable','Sem questões novas disponíveis'));
+   if(item.repeatQuestionId){
+    const params=new URLSearchParams({concurso:item.concursoId,questoes:item.repeatQuestionId,repetir:'1'});
+    const link=el('a','results-study-action-secondary','Refazer questão anterior');
+    link.href='questoes.html#'+params.toString();
+    controls.append(link);
+   }
+  }
   const ref=item.articles.map(value=>/^article:(art-[a-z0-9]+)(?:#(.*))?$/i.exec(value))
    .find(match=>match&&manifest.has(match[1]));
   if(ref){

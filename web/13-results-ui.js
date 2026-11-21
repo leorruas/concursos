@@ -134,7 +134,7 @@ function showEditalCoverage(){
   const total=units.reduce((sum,unit)=>sum+unit.items.length,0);
   const evaluated=units.reduce((sum,unit)=>sum+unit.items.filter(item=>item.attempts>0).length,0);
   target.append(el('p','results-coverage-overview',evaluated+' de '+total+' '+(total===1?'referência':'referências')+' com respostas vinculadas'),
-   el('p','results-caption','Sem questões vinculadas significa que não há respostas associadas à referência exata do edital. O assunto pode ter sido estudado ou avaliado de outra forma.'));
+   el('p','results-caption','A cobertura conta respostas vinculadas a cada referência exata do edital. A lista de conceitos também inclui respostas registradas por matéria ou tema com referência geral.'));
   for(const unit of units){
    const section=el('section','results-edital-unit');
    const heading=el('div','results-edital-unit-heading');
@@ -143,7 +143,7 @@ function showEditalCoverage(){
    heading.append(unitName,el('span','results-edital-unit-total',covered+' / '+unit.items.length+' referências'));
    section.append(heading);
    let description='';
-   if(unit.studyStatus==='studied-unassessed')description='Estudo registrado em '+fmtDate(unit.exposition)+'. Sem questões vinculadas a esta unidade.';
+   if(unit.studyStatus==='studied-unassessed')description='Estudo registrado em '+fmtDate(unit.exposition)+'. Sem respostas vinculadas a esta unidade.';
    else if(unit.studyStatus==='confirmed-not-studied')description='Ainda não estudado, conforme registro de '+fmtDate(unit.confirmedNotStudiedOn)+'.';
    else if(unit.studyStatus==='unknown')description='Sem informação suficiente sobre estudo ou respostas.';
    else if(unit.studyStatus==='evaluated')description=unit.evaluated+' respostas associadas à unidade, incluindo referências gerais.';
@@ -154,7 +154,7 @@ function showEditalCoverage(){
     const reference=el('span','results-edital-ref',item.editalRef);
     const count=Number(item.attempts)||0;
     const state=el('span','results-edital-state',count>0
-     ?count+' '+(count===1?'resposta vinculada':'respostas vinculadas'):'Sem questões vinculadas');
+     ?count+' '+(count===1?'resposta vinculada':'respostas vinculadas'):'Sem respostas vinculadas a esta referência');
     if(count>0)state.classList.add('has-results');
     row.append(reference,state);list.append(row);
    }

@@ -246,6 +246,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .questoes-page .qs-builder-heading h3{margin:0 0 3px;font-size:1.08rem;letter-spacing:-.02em;font-weight:630;color:var(--text)}
 .questoes-page .qs-builder-heading p{margin:0;color:var(--muted);font-size:.8rem;line-height:1.5}
 .questoes-page .qs-builder-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 25px;align-items:start}
+.questoes-page .qs-builder-section[aria-labelledby="qs-content-title"]>.qs-builder-fields{grid-template-columns:minmax(200px,.8fr) minmax(0,1.4fr)}
 .questoes-page #qs-config .qs-field{min-width:0;gap:9px}
 .questoes-page #qs-config .qs-label{font:500 .72rem 'IBM Plex Mono',monospace;letter-spacing:.02em;line-height:1.5;color:var(--muted)}
 .questoes-page #qs-config fieldset.qs-field{border:0;min-width:0;margin:0;padding:0}
@@ -272,7 +273,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .questoes-page #qs-config .qs-archive{margin-top:28px}
 @media(max-width:760px){
  .questoes-page #qs-config{padding:24px 22px}
- .questoes-page .qs-builder-fields,.questoes-page #qs-config .qs-specific-range{grid-template-columns:1fr;gap:19px}
+ .questoes-page .qs-builder-fields,.questoes-page .qs-builder-section[aria-labelledby="qs-content-title"]>.qs-builder-fields,.questoes-page #qs-config .qs-specific-range{grid-template-columns:1fr;gap:19px}
  .questoes-page #qs-config .qs-scope-options{grid-template-columns:1fr}
  .questoes-page #qs-config .qs-scope-options label{justify-content:flex-start;text-align:left}
  .questoes-page #qs-config #qs-custom{grid-template-columns:1fr}

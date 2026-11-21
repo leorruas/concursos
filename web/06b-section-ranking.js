@@ -12,14 +12,30 @@ function parametroRankingBusca(nome, fallback) {
     return Number.isFinite(valor) ? valor : fallback;
 }
 
+// Campos de uma seção são imutáveis durante a pesquisa. Normalizar e
+// tokenizar novamente a cada tecla é caro e bloqueia a digitação.
+const cacheCamposSecaoBusca = new WeakMap();
+const cacheMelhorSecaoBusca = new WeakMap();
+
+function obterCamposSecaoBusca(secao) {
+    let campos = cacheCamposSecaoBusca.get(secao);
+    if (!campos) {
+        campos = {
+            titulo: criarCampoIndice(secao.titulo || "", parametroRankingBusca("pesoTituloSecao", 70)),
+            texto: criarCampoIndice(
+                [secao.termos || "", secao.textoNormalizado || "", secao.texto || ""].join(" "),
+                parametroRankingBusca("pesoTextoSecao", 18)
+            )
+        };
+        cacheCamposSecaoBusca.set(secao, campos);
+    }
+    return campos;
+}
+
 function pontuarSecaoBusca(secao, consultaNormalizada, termos) {
     if (!secao) return 0;
 
-    const tituloCampo = criarCampoIndice(secao.titulo || "", parametroRankingBusca("pesoTituloSecao", 70));
-    const textoCampo = criarCampoIndice(
-        [secao.termos || "", secao.textoNormalizado || "", secao.texto || ""].join(" "),
-        parametroRankingBusca("pesoTextoSecao", 18)
-    );
+    const { titulo: tituloCampo, texto: textoCampo } = obterCamposSecaoBusca(secao);
     const consultaEssencial = termos.join(" ");
     const aliasesConsulta = obterAliasesConsulta(consultaNormalizada);
     let score = 0;
@@ -58,6 +74,12 @@ function pontuarSecaoBusca(secao, consultaNormalizada, termos) {
 }
 
 function calcularMelhorSecaoBusca(entrada, consultaNormalizada, termos) {
+    // O ranking e o trecho do resultado consultam a mesma seção para a
+    // mesma pesquisa. Reaproveitar o cálculo preserva a ordenação existente.
+    const anterior = cacheMelhorSecaoBusca.get(entrada);
+    const chave = consultaNormalizada + "\\u0000" + termos.join("\\u0000");
+    if (anterior?.chave === chave) return anterior.resultado;
+
     let melhorSecao = null;
     let melhorScore = 0;
 
@@ -69,7 +91,9 @@ function calcularMelhorSecaoBusca(entrada, consultaNormalizada, termos) {
         }
     });
 
-    return { secao: melhorSecao, score: melhorScore };
+    const resultado = { secao: melhorSecao, score: melhorScore };
+    cacheMelhorSecaoBusca.set(entrada, { chave, resultado });
+    return resultado;
 }
 
 obterSecaoMaisRelevante = function obterSecaoMaisRelevanteV3(entrada, termo, termos) {

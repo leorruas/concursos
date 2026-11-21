@@ -101,6 +101,7 @@ function updateSubjects(){
  $('qs-custom').replaceChildren(...choices);
  updateUnits();
 }
+let chapterIds=[],unmappedChapterQuestions=0;
 // A ordem dos capítulos é a ordem editorial de articleIds no catálogo,
 // usada pelos índices de matéria e pelo EPUB. Números do nome do arquivo
 // são identificadores legados e não correspondem ao capítulo de leitura.
@@ -110,7 +111,6 @@ function quizChapterIds(catalog,contestId,subjectId){
  return Array.isArray(subject?.articleIds)
   ?[...new Set(subject.articleIds.filter(id=>typeof id==='string'&&id.trim()))]:[];
 }
-let chapterIds=[],unmappedChapterQuestions=0;
 function updateChapterDisplay(){
  const chapter=$('qs-capitulo'),value=Number(chapter.value);
  const control=$('qs-unidade'),selection='capitulo:'+value;

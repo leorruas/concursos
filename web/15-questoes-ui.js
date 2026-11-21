@@ -152,20 +152,22 @@ async function updateSuggestions(){
  const request=++suggestionRequest, exam=contest()?.id;
  renderSuggestions();
  if(!loggedIn||!exam||exam==='dataprev-2026')return;
- const query='?concurso='+encodeURIComponent(exam);
- const get=async endpoint=>{
-  const r=await fetch('/v1/study/'+endpoint+query,{cache:'no-store',credentials:'same-origin'});
-  if(!r.ok)throw Error('Histórico indisponível');
-  return r.json();
- };
- const [attempts,unified]=await Promise.allSettled([get('quiz'),get('unified')]);
- if(request!==suggestionRequest)return;
- if(attempts.status==='fulfilled'&&Array.isArray(attempts.value.attempts))
-  seenByContest.set(exam,new Set(attempts.value.attempts.map(a=>a.questionId)));
- const recommendations=unified.status==='fulfilled'?unified.value.adaptive?.recommendations||[]:[];
- const review=recommendations.find(item=>item.state==='review-pending'&&item.questionIds?.length&&
-  item.questionIds.every(id=>data.map.get(id)?.concursoId===exam));
- renderSuggestions(review);
+ try{
+  const response=await fetch('/v1/study/unified?concurso='+encodeURIComponent(exam),{
+   cache:'no-store',credentials:'same-origin'
+  });
+  if(!response.ok)return;
+  const {adaptive}=await response.json();
+  if(request!==suggestionRequest)return;
+  if(Array.isArray(adaptive?.exposedQuestionIds))
+   seenByContest.set(exam,new Set(adaptive.exposedQuestionIds));
+  const local=new Set(storeRead().filter(s=>s.concursoId===exam).flatMap(s=>s.answers.map(a=>a.questionId)));
+  const review=adaptive?.recommendations?.find(item=>item.state==='review-pending'&&item.questionIds?.length&&
+   item.questionIds.every(id=>data.map.get(id)?.concursoId===exam&&!local.has(id)));
+  renderSuggestions(review);
+ }catch{
+  if(request===suggestionRequest)renderSuggestions();
+ }
 }
 function start(recommended, directedMode='simulado'){
  const directed=Array.isArray(recommended);
@@ -223,7 +225,6 @@ function answer(ev){
  const elapsed=shownAt===null?null:Math.round(performance.now()-shownAt);
  const responseMs=elapsed!==null&&elapsed>=0&&elapsed<=86400000?elapsed:null;
  shownAt=null;
-let seenByContest=new Map(), suggestionRequest=0;
  const a={responseMs,consulted:$('qs-consulted').checked,feedbackBefore:$('qs-feedback-before').checked,id:id(),sessionId:session.id,concursoId:session.concursoId,questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:session.mode,answer:blank?null:v,correctAnswer:q.correctAnswer,result:blank?'blank':v===q.correctAnswer?'correct':'incorrect',confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',answeredAt:Date.now(),synced:false};
  session.answers.push(a);storeWrite();sync(a);
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>e.disabled=true);

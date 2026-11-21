@@ -105,6 +105,10 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
+      # A API do Pages pode demorar alguns segundos a indexar um artefato
+      # que a API de Actions já confirmou como enviado.
+      - name: Aguardar propagação do artefato do Pages
+        run: sleep 25
       - id: deployment
         name: Publicar no Pages
         uses: actions/deploy-pages@v4

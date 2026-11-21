@@ -7605,6 +7605,90 @@
   ],
   "expansao": [
       {
+        "id": "cam-revisao-coordenacao-responsabilidade-sem-subordinacao",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "administracao-publica",
+        "unitId": "administracao-publica",
+        "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+        "articleId": "art-c59173b20e684daf",
+        "conceptId": "coordenacao-interorganizacional",
+        "mechanism": "responsabilidade-sem-subordinacao",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-c59173b20e684daf#Responsabilidades e articulação: quem decide e quem responde"
+        ],
+        "source": {
+          "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+          "section": "Responsabilidades e articulação: quem decide e quem responde"
+        },
+        "statement": "Uma rede de atendimento reúne três entidades autônomas. Uma delas agenda as reuniões e acompanha os encaminhamentos, e cada entidade decide sobre os encaminhamentos que pertencem à sua competência. A coordenação descrita pode existir sem subordinação hierárquica dos participantes à entidade que organiza as reuniões.",
+        "correctAnswer": "C",
+        "explanation": "Uma entidade pode coordenar o trabalho conjunto sem poder de comando administrativo sobre as demais. As decisões reservadas à competência de cada participante continuam com ele.",
+        "reviewEvidence": "Conferência do mecanismo e do gabarito com a nota de redes de cooperação e Provan e Kenis (2008), Modes of Network Governance. https://academic.oup.com/jpart/article/18/2/229/935895"
+      },
+      {
+        "id": "cam-revisao-coordenacao-acordo-insuficiente-para-o-fluxo",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "administracao-publica",
+        "unitId": "administracao-publica",
+        "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+        "articleId": "art-c59173b20e684daf",
+        "conceptId": "coordenacao-interorganizacional",
+        "mechanism": "acordo-insuficiente-para-o-fluxo",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-c59173b20e684daf#Componentes, governança e riscos"
+        ],
+        "source": {
+          "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+          "section": "Componentes, governança e riscos"
+        },
+        "statement": "Órgãos que mantêm sistemas separados assinam um acordo de cooperação para evitar registros duplicados, mas deixam indefinidos o identificador comum e a entidade que resolve divergências entre as bases. A assinatura do acordo resolve a falha de coordenação descrita.",
+        "correctAnswer": "E",
+        "explanation": "O acordo estabelece o compromisso de cooperar. Para tratar duplicidades e divergências, os órgãos precisam definir como reconhecer registros correspondentes e quem deve decidir nos casos em disputa.",
+        "reviewEvidence": "Conferência do mecanismo e do gabarito com a nota de redes de cooperação e Provan e Kenis (2008), Modes of Network Governance. https://academic.oup.com/jpart/article/18/2/229/935895"
+      },
+      {
+        "id": "cam-revisao-coordenacao-dependencia-entre-entregas",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "administracao-publica",
+        "unitId": "administracao-publica",
+        "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+        "articleId": "art-c59173b20e684daf",
+        "conceptId": "coordenacao-interorganizacional",
+        "mechanism": "dependencia-entre-entregas",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-c59173b20e684daf#Problema público e definição"
+        ],
+        "source": {
+          "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+          "section": "Problema público e definição"
+        },
+        "statement": "Em um serviço de orientação a migrantes, uma entidade faz a triagem, outra presta orientação jurídica e uma terceira acompanha os encaminhamentos. Os atendimentos se perdem na passagem entre as equipes. Definir os dados mínimos e a confirmação de recebimento a cada encaminhamento atua diretamente sobre a dependência entre as entregas.",
+        "correctAnswer": "C",
+        "explanation": "O trabalho de cada entidade depende da entrega anterior. Dados mínimos e confirmação de recebimento permitem identificar se o encaminhamento chegou completo e em que ponto precisa ser corrigido.",
+        "reviewEvidence": "Conferência do mecanismo e do gabarito com a nota de redes de cooperação e Provan e Kenis (2008), Modes of Network Governance. https://academic.oup.com/jpart/article/18/2/229/935895"
+      },
+      {
         "id": "cam-revisao-amostragem-grupos-nao-sorteados",
         "concursoId": "camara-2026",
         "origin": "inedita",

@@ -194,11 +194,15 @@ function obterTermosEssenciais(consultaNormalizada) {
 }
 
 function obterAlternativasTermo(termo) {
+    if (cacheAlternativasBusca.has(termo)) return cacheAlternativasBusca.get(termo);
     const alternativas = new Set([termo]);
     GRUPOS_ALIASES_BUSCA.forEach(grupo => {
         if (grupo.includes(termo)) grupo.forEach(alias => alternativas.add(alias));
     });
-    return Array.from(alternativas);
+    const resultado = Array.from(alternativas);
+    if (cacheAlternativasBusca.size >= 100) cacheAlternativasBusca.clear();
+    cacheAlternativasBusca.set(termo, resultado);
+    return resultado;
 }
 
 function obterAliasesConsulta(consultaNormalizada) {
@@ -231,6 +235,26 @@ function distanciaLevenshteinLimitada(a, b, limite) {
     return anterior[b.length];
 }
 
+// Comparações aproximadas podem examinar milhares de tokens. Prefixo e
+// Levenshtein sempre exigem a mesma letra inicial: indexá-la evita percorrer
+// tokens que jamais poderão corresponder, sem alterar a pontuação.
+const cacheTokensPorInicialBusca = new WeakMap();
+const cacheAlternativasBusca = new Map();
+
+function tokensDaInicialBusca(campo, inicial) {
+    let grupos = cacheTokensPorInicialBusca.get(campo);
+    if (!grupos) {
+        grupos = new Map();
+        for (const token of campo.tokens) {
+            const letra = token[0];
+            if (!grupos.has(letra)) grupos.set(letra, []);
+            grupos.get(letra).push(token);
+        }
+        cacheTokensPorInicialBusca.set(campo, grupos);
+    }
+    return grupos.get(inicial) || [];
+}
+
 function qualidadeMatchToken(termo, campo) {
     if (!termo || !campo?.texto) return 0;
     const alternativas = obterAlternativasTermo(termo);
@@ -242,7 +266,8 @@ function qualidadeMatchToken(termo, campo) {
         if (campo.tokenSet.has(alternativa)) return alternativa === termo ? 1 : 0.92;
     }
     if (termo.length < 4) return 0;
-    for (const token of campo.tokens) {
+    const candidatos = tokensDaInicialBusca(campo, termo[0]);
+    for (const token of candidatos) {
         if (token.length < 3) continue;
         if (token.startsWith(termo) || termo.startsWith(token)) {
             const proporcao = Math.min(token.length, termo.length) / Math.max(token.length, termo.length);
@@ -250,8 +275,7 @@ function qualidadeMatchToken(termo, campo) {
         }
     }
     const limite = termo.length >= 8 ? 2 : 1;
-    for (const token of campo.tokens) {
-        if (!token || token[0] !== termo[0]) continue;
+    for (const token of candidatos) {
         if (Math.abs(token.length - termo.length) > limite) continue;
         const distancia = distanciaLevenshteinLimitada(termo, token, limite);
         if (distancia <= limite) return distancia === 1 ? 0.76 : 0.68;

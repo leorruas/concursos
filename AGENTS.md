@@ -1,5 +1,13 @@
 # Instruções para agentes: vault de concursos
 
+## Variações conceituais e retestes no banco de questões (21/11/2026)
+
+**Diversidade útil, não eliminação de semelhanças por assunto.** É desejável manter duas ou mais questões sobre o mesmo conceito quando representam variações reais da cobrança: caso concreto, inversão de premissas, distinção entre institutos próximos, exceção legal, mudança de agente/âmbito ou alteração do gabarito. A repetição espaçada e o reteste se beneficiam de itens distintos sobre a mesma regra. **Não rejeitar automaticamente novos itens apenas porque compartilham `articleId`, `conceptId` ou vocabulário.**
+
+**Critérios editoriais:** preservar `id` único por enunciado e versão, referenciar capítulo pela sequência editorial do catálogo, registrar `conceptId` e mecanismo de cobrança, indicar fundamento jurídico preciso e gabarito comentado. Verificar a aplicação da regra e eventuais exceções. Distinguir enunciados idênticos ou quase idênticos sem ganho pedagógico de variações úteis: essas últimas podem coexistir, desde que o contraste cognitivo seja identificável. Quando duas formulações equivalentes divergirem no gabarito, bloquear até revisão jurídica. Não inserir dados de tentativas ou respostas privadas no repositório público.
+
+**Reteste:** uma questão alternativa com mesmo conceito não equivale a repetir o mesmo `questionId`. Preservar os dois sinais no histórico: reexecução literal do item e transferência do aprendizado para uma variante. Sem métricas específicas, não afirmar que a simples existência de variantes mede retenção. Em expansões, comparar itens também com o banco existente, documentar o valor da variação e testar IDs, vínculo com o edital, cobertura por capítulo e build/publicação.
+
 ## Política de execução direta no repositório público (20/11/2026)
 
 **Preferência expressa do usuário:** em `leorruas/concursos`, implementar e concluir correções e edições editoriais rotineiras **diretamente na `main`**, com commits pequenos, leitura do SHA atual, verificações disponíveis, confirmação do workflow e publicação. **Não abrir PRs rotineiros nem deixar o usuário com a tarefa pendente de integração.** Não converter uma única solicitação em múltiplas etapas de PR e merge, nem pedir autorização adicional para concluir uma correção já solicitada. Se houver falha, reparar antes de declarar conclusão.

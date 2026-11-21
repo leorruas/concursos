@@ -493,6 +493,28 @@ for(const q of variantesAdmin){
  ].map(k=>[k,q[k]])));
 }
 if([...mapaVariantes.values()].some(n=>n!==2))throw Error('Cada capítulo precisa de duas variantes de reteste.');
+// Terceiro lote: aplicações com mudança de contexto e contraste de institutos.
+const aplicacoesAdmin=JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-camara-administrativo-aplicacao.json'),'utf8'));
+const distribuicaoAplicacoes=new Map(capitulosAdmin.map(id=>[id,0]));
+if(!Array.isArray(aplicacoesAdmin)||aplicacoesAdmin.length!==64)throw Error('Lote de aplicações administrativas incompleto.');
+for(const q of aplicacoesAdmin){
+ const required=['id','subjectId','subjectName','unitId','unitName','editalRef','officialEditalCode','articleId','section','conceptId','mechanism','statement','correctAnswer','explanation','origin','estimatedDifficulty','sourceNote'];
+ if(q.concursoId!=='camara-2026'||q.subjectId!=='direito-administrativo'||
+    q.unitId!=='direito-administrativo'||q.examPart!=='P1'||q.format!=='CE'||
+    !['C','E'].includes(q.correctAnswer)||q.origin!=='inedita'||
+    !['media','dificil','facil','muito-facil','muito-dificil'].includes(q.estimatedDifficulty)||
+    !required.every(k=>typeof q[k]==='string'&&q[k].trim())||
+    !distribuicaoAplicacoes.has(q.articleId)||!codigosAdmin.has(q.officialEditalCode)||
+    q.editalRef!=='14.2.3 / Direito Administrativo e Administração Pública / '+q.officialEditalCode||
+    q.statement.length<60||q.explanation.length<45)throw Error('Aplicação administrativa inválida: '+q.id);
+ distribuicaoAplicacoes.set(q.articleId,distribuicaoAplicacoes.get(q.articleId)+1);
+ questoesPublicas.push(Object.fromEntries([
+  'id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','officialEditalCode',
+  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'
+ ].map(k=>[k,q[k]])));
+}
+if(capitulosAdmin.some((id,i)=>distribuicaoAplicacoes.get(id)!==(i<10?3:2)))throw Error('Distribuição por capítulo do lote aplicado incorreta.');
+
 
 const questoesCgu = JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-cgu.json'),'utf8'));
 for (const item of questoesCgu) {

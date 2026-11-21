@@ -74,10 +74,22 @@ for(const id of ['qs-priorities','qs-unidade','qs-capitulo','qs-capitulo-value',
  assert.ok(quizHtml.includes('id="'+id+'"'),'campo ausente: '+id);
 for(const id of ['results-quiz-priorities','results-legacy','results-quiz-stats'])
  assert.ok(resultsHtml.includes('id="'+id+'"'),'campo ausente: '+id);
+const additional=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara-administrativo-extra.json'),'utf8'));
+const adminCatalog=JSON.parse(fs.readFileSync(path.join(root,'data/catalogo-materias-por-concurso.json'),'utf8'))
+ .contests.find(x=>x.concursoId==='camara-2026').subjects.find(x=>x.subjectId==='direito-administrativo').articleIds;
+assert.equal(additional.length,64,'lote adicional tem 64 questões');
+assert.equal(new Set(additional.map(q=>q.id)).size,64,'IDs adicionais únicos');
+for(const articleId of adminCatalog){
+ const items=additional.filter(q=>q.articleId===articleId);
+ assert.ok(items.length>=2,'cobertura mínima do capítulo '+articleId);
+ assert.ok(items.every(q=>q.examPart==='P1'&&q.unitId==='direito-administrativo'&&['C','E'].includes(q.correctAnswer)));
+}
+assert.equal(additional.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length,30,'trinta itens nos dez primeiros capítulos');
 const out=path.join(root,'_site/data/questoes-publicas.json');
 assert.ok(fs.existsSync(out),'exige build do site antes do teste');
 const data=JSON.parse(fs.readFileSync(out,'utf8'));
 assert.ok(data.questions.length>0,'sem questões publicadas');
+for(const q of additional)assert.ok(data.questions.some(item=>item.id===q.id),'item novo não publicado: '+q.id);
 assert.equal(new Set(data.questions.map(q=>q.id)).size,data.questions.length);
 assert.ok(data.questions.every(q=>q.unitName&&typeof q.section==='string'&&!('reviewEvidence' in q)),'catálogo público precisa expor só vínculo didático, sem dados internos');
 console.log('OK: prioridade por artigo, contexto do concurso, referência precisa, interface e dados públicos.');

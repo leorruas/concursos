@@ -5,7 +5,7 @@ const $=id=>document.getElementById(id),WORKER='https://concurso-estudo.leoruas.
 const STORE='concursos-quiz-sessoes-v1',ACTIVE='concursos-quiz-ativa-v1';
 const LOGIN_BATCH='concursos-quiz-retorno-login';
 const privateOrigin=location.origin===WORKER;
-let data=null,session=null,loggedIn=false,manifest=new Map(),shownAt=null;
+let data=null,session=null,loggedIn=false,manifest=new Map(),chapterCatalog=null,shownAt=null;
 let seenByContest=new Map(), suggestionRequest=0;
 const singleSubjectRanges=new Map();
 const contentOrder=new Intl.Collator('pt-BR',{numeric:true});
@@ -83,7 +83,7 @@ function eligible(){
  }
  if(scope==='single'){
   const range=singleSubjectRanges.get($('qs-unidade').value);
-  a=a.filter(q=>q.subjectId===$('qs-materia').value&&(!range||range.ids.has(q[range.field])));
+  a=a.filter(q=>q.subjectId===$('qs-materia').value&&range?.ids.has(q[range.field]));
  }
  const level=$('qs-difficulty-filter').value;
  return level?a.filter(q=>q.estimatedDifficulty===level):a;
@@ -101,13 +101,16 @@ function updateSubjects(){
  $('qs-custom').replaceChildren(...choices);
  updateUnits();
 }
-// A ordem do capítulo vem do nome do arquivo do artigo, nunca do unitId
-// (unidades do edital são um recorte diferente da sequência de leitura).
-function quizChapterNumber(path){
- const file=String(path||'').split('/').pop()||'';
- const match=/^(\d{1,3})\s*-\s*/.exec(file);
- return match?Number(match[1]):null;
+// A ordem dos capítulos é a ordem editorial de articleIds no catálogo,
+// usada pelos índices de matéria e pelo EPUB. Números do nome do arquivo
+// são identificadores legados e não correspondem ao capítulo de leitura.
+function quizChapterIds(catalog,contestId,subjectId){
+ const exam=catalog?.contests?.find(c=>c.concursoId===contestId);
+ const subject=exam?.subjects?.find(s=>s.subjectId===subjectId);
+ return Array.isArray(subject?.articleIds)
+  ?[...new Set(subject.articleIds.filter(id=>typeof id==='string'&&id.trim()))]:[];
 }
+let chapterIds=[],unmappedChapterQuestions=0;
 function updateChapterDisplay(){
  const chapter=$('qs-capitulo'),value=Number(chapter.value);
  const control=$('qs-unidade'),selection='capitulo:'+value;
@@ -117,49 +120,34 @@ function updateChapterDisplay(){
  $('qs-capitulo-next').disabled=value>=Number(chapter.max);
  const range=singleSubjectRanges.get(control.value);
  const questionCount=available().filter(q=>q.subjectId===$('qs-materia').value&&range?.ids.has(q.articleId)).length;
- const word=chapterMode==='numbered'?'capítulo':'artigo';
- const qualifier=chapterMode==='numbered'
-  ?'Capítulos 1 a '+value+' incluídos, inclusive.'
-  :'Artigos 1 a '+value+' incluídos, na ordem da biblioteca.';
+ const articleId=chapterIds[value-1],article=articleId?manifest.get(articleId):null;
+ const chapterName=article?.tituloExibicao||article?.titulo||'';
+ const title=chapterName?' Capítulo '+value+': '+chapterName+'.':'';
  const omitted=unmappedChapterQuestions
-  ?' '+unmappedChapterQuestions+' questão(ões) sem vínculo de artigo verificável ficaram fora deste recorte.':'';
- $('qs-capitulo-description').textContent=qualifier+' '+questionCount+
-  ' questão(ões) revisada(s) disponível(is) até este '+word+'.'+omitted;
+  ?' '+unmappedChapterQuestions+' questão(ões) sem capítulo no catálogo ficaram fora do recorte.':'';
+ $('qs-capitulo-description').textContent='Capítulos 1 a '+value+' incluídos, inclusive.'+
+  title+' '+questionCount+' questão(ões) revisada(s) disponível(is) até aqui.'+omitted;
 }
-let chapterMode='numbered',unmappedChapterQuestions=0;
 function updateUnits(){
- const subjectId=$('qs-materia').value;
+ const subjectId=$('qs-materia').value,examId=contest()?.id;
  const related=available().filter(q=>q.subjectId===subjectId);
- const articles=new Map();
- for(const q of related){
-  const article=manifest.get(q.articleId);
-  if(article?.sourcePath)articles.set(q.articleId,article);
- }
- const ordered=[...articles].sort((a,b)=>contentOrder.compare(a[1].sourcePath,b[1].sourcePath));
- const directories=new Set(ordered.map(([,a])=>a.sourcePath.slice(0,a.sourcePath.lastIndexOf('/'))));
- const numbered=ordered.length>0&&directories.size===1&&ordered.every(([,a])=>quizChapterNumber(a.sourcePath)!==null);
- chapterMode=numbered?'numbered':'sequential';
- unmappedChapterQuestions=related.filter(q=>!articles.has(q.articleId)).length;
- const source=numbered?[...directories][0]:null;
- // A escala numerada utiliza os arquivos da disciplina, incluindo capítulos
- // sem questões cadastradas, para que o limite represente a leitura real.
- const catalogMaximum=source
-  ?Math.max(0,...[...manifest.values()]
-    .filter(a=>a.sourcePath?.startsWith(source+'/'))
-    .map(a=>quizChapterNumber(a.sourcePath)).filter(Number.isInteger)):0;
- const max=numbered?Math.max(catalogMaximum,...ordered.map(([,a])=>quizChapterNumber(a.sourcePath))):Math.max(1,ordered.length);
+ chapterIds=quizChapterIds(chapterCatalog,examId,subjectId);
+ const known=new Set(chapterIds);
+ unmappedChapterQuestions=related.filter(q=>!known.has(q.articleId)).length;
+ const max=chapterIds.length;
  const select=$('qs-unidade');
  select.replaceChildren();
  singleSubjectRanges.clear();
  for(let n=1;n<=max;n++){
-  const ids=new Set(ordered.filter(([,a],index)=>numbered?quizChapterNumber(a.sourcePath)<=n:index<n).map(([id])=>id));
+  const ids=new Set(chapterIds.slice(0,n));
   const option=elem('option',String(n));option.value='capitulo:'+n;select.append(option);
   singleSubjectRanges.set(option.value,{field:'articleId',ids,unitId:null});
  }
- const slider=$('qs-capitulo');slider.min='1';slider.max=String(max);slider.value=String(max);
- $('qs-capitulo-label').textContent=numbered?'Estudar até o capítulo':'Estudar até o artigo';
- slider.setAttribute('aria-label',numbered?'Até o capítulo, inclusive':'Até o artigo, inclusive');
- updateChapterDisplay();
+ const slider=$('qs-capitulo');slider.min='1';slider.max=String(Math.max(1,max));slider.value=String(Math.max(1,max));
+ $('qs-capitulo-label').textContent='Estudar até o capítulo';
+ slider.setAttribute('aria-label','Até o capítulo, na ordem de leitura');
+ if(max)updateChapterDisplay();
+ else $('qs-capitulo-description').textContent='Não há sequência de capítulos para esta matéria no catálogo.';
  availability();
 }
 function availability(){
@@ -168,6 +156,7 @@ function availability(){
  toggle('qs-materia-wrap',focused);
  toggle('qs-unidade-wrap',focused&&$('qs-unidade').options.length>0);
  const n=eligible().length, c=contest();$('qs-availability').textContent=n?n+' questões revisadas disponíveis em '+c.nome+'.':'Ainda não há questões revisadas disponíveis para esta seleção.';const amounts=new Map();
+ if(focused&&!chapterIds.length)$('qs-availability').textContent='Esta matéria ainda não tem capítulos registrados no catálogo editorial.';
  if(custom) for(const q of eligible()) amounts.set(q.subjectId,(amounts.get(q.subjectId)||0)+1);
  const subjects=custom?customSubjects():new Set();
  if(custom && subjects.size<2) $('qs-availability').textContent='Selecione pelo menos duas matérias.';
@@ -467,6 +456,10 @@ async function init(){
   if(data.version!==1||!Array.isArray(data.questions)||!Array.isArray(data.contests))throw Error('Formato do banco inválido.');
   data.map=new Map(data.questions.map(q=>[q.id,q]));
   try{const m=await fetch('manifest.json').then(r=>r.ok?r.json():[]);manifest=new Map(m.filter(x=>x.articleId).map(x=>[x.articleId,x]));}catch{}
+  const catalogResponse=await fetch('data/catalogo-materias-por-concurso.json',{cache:'no-store'});
+  if(!catalogResponse.ok)throw Error('Catálogo editorial indisponível (HTTP '+catalogResponse.status+').');
+  chapterCatalog=await catalogResponse.json();
+  if(!Array.isArray(chapterCatalog?.contests))throw Error('Formato do catálogo editorial incompatível.');
   await auth();
   const options=data.contests.filter(c=>c.id!=='dataprev-2026').map(c=>{
    const n=data.questions.filter(q=>q.concursoId===c.id).length;

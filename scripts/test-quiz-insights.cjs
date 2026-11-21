@@ -57,6 +57,17 @@ assert.ok(quizHtml.includes('id="qs-unidade" hidden'),'dropdown técnico não de
 assert.ok(quizSource.includes("chapterMode==='numbered'?'Estudar até o capítulo'")||
  quizSource.includes("numbered?'Estudar até o capítulo'"),'capítulos reais devem ter nome próprio');
 assert.ok(quizSource.includes("quizChapterNumber(a.sourcePath)<=n"),'limite inclusivo do capítulo');
+// A montagem mantém dois blocos de decisão e um único ponto de ação.
+for(const id of ['qs-content-title','qs-practice-title','qs-builder-footer','qs-chapter-picker']){
+ const selector=id==='qs-builder-footer'||id==='qs-chapter-picker'?'class="'+id+'"':'id="'+id+'"';
+ assert.ok(quizHtml.includes(selector),'agrupamento da montagem ausente: '+id);
+}
+assert.ok(quizHtml.indexOf('id="qs-content-title"') < quizHtml.indexOf('id="qs-practice-title"'));
+assert.ok(quizHtml.indexOf('id="qs-practice-title"') < quizHtml.indexOf('id="qs-start"'));
+for(const id of ['qs-concurso','qs-materia','qs-capitulo','qs-count','qs-difficulty-filter','qs-start'])
+ assert.equal(quizHtml.split('id="'+id+'"').length-1,1,'controle duplicado: '+id);
+assert.ok(quizHtml.includes('name="qs-scope" value="single"'),'modo de uma matéria preservado');
+assert.ok(quizHtml.includes('name="qs-mode" value="simulado"'),'modo simulado preservado');
 const resultsHtml=fs.readFileSync(path.join(root,'resultados.html'),'utf8');
 for(const id of ['qs-priorities','qs-unidade','qs-capitulo','qs-capitulo-value','qs-capitulo-description','qs-result-percent','qs-results-link'])
  assert.ok(quizHtml.includes('id="'+id+'"'),'campo ausente: '+id);

@@ -15,6 +15,17 @@ assert.equal(analyze(rows,q,'dataprev-2026').length,0);
 assert.equal(analyze([a('7','a','incorrect','2026-11-10'),a('8','a','correct','2026-11-10')],q,'camara-2026').length,0);
 assert.equal(analyze([a('9','a','incorrect','2026-11-10'),a('10','a','correct','2026-11-12','camara-2026','insecure')],q,'camara-2026')[0].insecure,1);
 
+assert.equal(found[0].latestCorrect,1);
+const withoutArticle=new Map([['unlinked',{concursoId:'camara-2026',subjectId:'direito-constitucional'}]]);
+const repeated=[
+ {...a('u1','unlinked','incorrect','2026-11-10'),answeredAt:Date.parse('2026-11-10T23:00:00-03:00')},
+ {...a('u2','unlinked','correct','2026-11-11'),answeredAt:Date.parse('2026-11-11T09:00:00-03:00')}
+];
+const unlinked=analyze(repeated,withoutArticle,'camara-2026');
+assert.equal(unlinked[0].articleId,'');
+assert.equal(unlinked[0].latestCorrect,1);
+assert.equal(unlinked[0].questions,1);
+
 const cover=ctx.ResultsRetests.coverage;
 const extra=new Map([...q,['new',{id:'new',concursoId:'camara-2026',subjectId:'direito-constitucional'}]]);
 for(const [id,v] of extra)v.id=id;

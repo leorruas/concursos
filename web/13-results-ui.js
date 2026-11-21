@@ -12,6 +12,7 @@ const DISPLAY={
  'sem-materia':'Matéria não identificada'
 };
 let manifest=new Map(),current=null,subjectCatalog=null,discursiveProposals=[];
+let retestLoadFailed=false;
 let selectedSubject='',retests=null,coverageData=null,transferData=null,transferCombined=false;
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
 function fmtDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return 'data não registrada';const [y,m,d]=s.split('-');return d+'/'+m+'/'+y;}
@@ -73,7 +74,7 @@ function conceptLinks(container,concept){
   links.append(el('small','results-caption','Ler no artigo:'));
   for(const id of articleIds.slice(0,4)){
    const meta=manifest.get(id);
-   const link=el('a','results-link',meta?.tituloExibicao||meta?.titulo||'Artigo relacionado');
+   const link=el('a','results-link',meta?.tituloExibicao||meta?.titulo||(x.articleId?'Artigo relacionado':'Sem artigo vinculado'));
    link.href=articleLink({articleId:id});
    link.rel='noreferrer';
    links.append(link);
@@ -320,7 +321,28 @@ function showConceptTransfer(){
   target.append(group);
  }
 }
+function showProgressRetests(){
+ const target=$('results-progress-retests');
+ if(!target)return;
+ target.replaceChildren();
+ const principles=current?.adaptive?.principles?.filter(p=>!selectedSubject||p.subjectId===selectedSubject);
+ if(principles){
+  const confirmed=principles.filter(p=>p.signals.some(s=>s.kind==='independent')).length;
+  target.append(el('p','results-caption',confirmed+' princípio(s) com acerto seguro em questão diferente, após intervalo, com ausência de consulta e de correção prévia declarada.'));
+ }
+ if(!retests){
+  target.append(el('p','results-caption',retestLoadFailed?'Retestes do site indisponíveis.':'Carregando retestes do site…'));
+  return;
+ }
+ const rows=retests.filter(x=>!selectedSubject||x.subjectId===selectedSubject);
+ const repeated=rows.reduce((total,row)=>total+row.questions,0);
+ const correct=rows.reduce((total,row)=>total+row.latestCorrect,0);
+ target.append(el('p','results-caption',repeated
+  ?correct+' de '+repeated+' questões refeitas em outro dia no site tiveram acerto na última tentativa.'
+  :'Nenhuma questão refeita em outro dia no site para esta seleção.'));
+}
 function showRetests(){
+ showProgressRetests();
  const target=$('results-retests');target.replaceChildren();
  if(!retests){target.append(el('p','results-caption','Aguardando histórico do site.'));return;}
  const rows=retests.filter(x=>!selectedSubject||x.subjectId===selectedSubject);
@@ -336,8 +358,11 @@ function showRetests(){
    if(x.positive)parts.push(x.positive+' reteste(s) positivos');
    if(x.insecure)parts.push(x.insecure+' acerto(s) inseguros');
    left.append(el('small','',parts.join(' · ')+' · '+x.questions+' questão(ões) repetida(s) em dias diferentes'));
-   const a=el('a','results-link','Abrir artigo');a.href=articleLink(x,x.section);a.rel='noreferrer';
-   row.append(left,a);
+   row.append(left);
+   if(x.articleId){
+    const a=el('a','results-link','Abrir artigo');a.href=articleLink(x,x.section);a.rel='noreferrer';
+    row.append(a);
+   }
    if(x.pendingQuestionIds?.length){
     const ids=[...new Set(x.pendingQuestionIds)].slice(0,6);
     const params=new URLSearchParams({concurso:select.value,questoes:ids.join(',')});
@@ -352,7 +377,7 @@ function showRetests(){
  }
 }
 async function loadRetests(examId,version){
- retests=null;coverageData=null;
+ retests=null;retestLoadFailed=false;coverageData=null;
  if(!transferCombined)transferData=null;
  try{
   const response=await fetch('/v1/study/quiz?concurso='+encodeURIComponent(examId),{
@@ -371,7 +396,11 @@ async function loadRetests(examId,version){
   }
   showRetests();showCoverage();showConceptTransfer();
  }catch{
-  if(version===loadVersion)$('results-retests').replaceChildren(el('p','results-caption','Retestes indisponíveis. O histórico unificado permanece preservado.'));
+  if(version===loadVersion){
+   retestLoadFailed=true;
+   showProgressRetests();
+   $('results-retests').replaceChildren(el('p','results-caption','Retestes indisponíveis. O histórico unificado permanece preservado.'));
+  }
  }
 }
 function priorityLabel(score){
@@ -787,10 +816,11 @@ function render(){
  const search=el('input','results-concept-search');
  search.type='search';search.placeholder='Buscar conceito ou matéria';
  search.setAttribute('aria-label','Buscar conceitos para revisão');
+ const explanation=el('p','results-caption','Os conceitos vêm de respostas registradas no ChatGPT e no site. O banco de exercícios e os links de teoria são vínculos separados.');
  const list=el('div','results-concepts-list');
  const footer=el('div','results-concepts-footer');
  conceptToolbar.append(count,search);
- conceptRoot.append(conceptToolbar,list,footer);
+ conceptRoot.append(explanation,conceptToolbar,list,footer);
  let shown=8;
  const renderConceptList=()=>{
   const term=search.value.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
@@ -820,6 +850,8 @@ function render(){
     if(articleId){
      const link=el('a','results-link','Ler artigo');
      link.href=articleLink({articleId});link.rel='noreferrer';info.append(link);
+    }else{
+     info.append(el('small','','Sem artigo vinculado no catálogo atual.'));
     }
     row.append(info,priorityLabel(c.priority));group.append(row);
    }
@@ -1069,6 +1101,7 @@ async function load({keepCurrent = false} = {}){
   if(data?.version!==2||data.concursoId!==examId||!data.sources)throw Error('Contrato de diagnóstico desatualizado.');
   if(version!==loadVersion)return;
   current=data;
+  retestLoadFailed=false;
   lastStudyDay=requestDay;
   transferCombined=data.learning?.version===1&&Array.isArray(data.learning.byConcept);
   transferData=transferCombined?data.learning.byConcept:null;

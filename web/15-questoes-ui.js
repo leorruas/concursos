@@ -128,7 +128,7 @@ function choose(n, pool=eligible()){
  const order=shuffle([...groups.keys()]);while(result.length<n){let found=false;for(const key of order){const q=groups.get(key).shift();if(q){result.push(q.id);found=true;}if(result.length===n)break;}if(!found)break;}
  return result;
 }
-function renderSuggestions(review){
+function renderSuggestions(review,repeat){
  const list=$('qs-suggestion-list'), exam=contest();
  list.replaceChildren();
  if(!exam || exam.id==='dataprev-2026'){toggle('qs-suggestions',false);return;}
@@ -149,6 +149,7 @@ function renderSuggestions(review){
   list.append(button);
  }
  if(review)offer('Revisar erros e dúvidas',review.title,review.questionIds);
+ else if(repeat)offer('Refazer questão anterior',repeat.title,[repeat.repeatQuestionId]);
  offer('Praticar questões novas',loggedIn?'Itens sem resposta no histórico consultado.':'Itens sem resposta neste navegador.',
   loggedIn&&!seenByContest.has(exam.id)?[]:choose(10,pool.filter(q=>!seen.has(q.id))));
  offer('Diagnóstico misto','Questões distribuídas entre matérias de '+exam.nome+'.',choose(10,pool));
@@ -168,9 +169,15 @@ async function updateSuggestions(){
   if(Array.isArray(adaptive?.exposedQuestionIds))
    seenByContest.set(exam,new Set(adaptive.exposedQuestionIds));
   const local=new Set(storeRead().filter(s=>s.concursoId===exam).flatMap(s=>s.answers.map(a=>a.questionId)));
-  const review=adaptive?.recommendations?.find(item=>item.state==='review-pending'&&item.questionIds?.length&&
-   item.questionIds.every(id=>data.map.get(id)?.concursoId===exam&&!local.has(id)));
-  renderSuggestions(review);
+  const pending=(adaptive?.recommendations||[]).filter(item=>item.state==='review-pending');
+  const valid=id=>{
+   const question=data.map.get(id);
+   return question?.concursoId===exam&&question.format==='CE'&&!question.annulled;
+  };
+  const review=pending.find(item=>item.questionIds?.length&&
+   item.questionIds.every(id=>valid(id)&&!local.has(id)));
+  const repeat=pending.find(item=>valid(item.repeatQuestionId));
+  renderSuggestions(review,repeat);
  }catch{
   if(request===suggestionRequest)renderSuggestions();
  }

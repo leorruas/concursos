@@ -3,6 +3,7 @@
 'use strict';
 const $=id=>document.getElementById(id),WORKER='https://concurso-estudo.leoruas.workers.dev';
 const STORE='concursos-quiz-sessoes-v1',ACTIVE='concursos-quiz-ativa-v1';
+const LOGIN_BATCH='concursos-quiz-retorno-login';
 const privateOrigin=location.origin===WORKER;
 let data=null,session=null,loggedIn=false,manifest=new Map(),shownAt=null;
 let seenByContest=new Map(), suggestionRequest=0;
@@ -392,6 +393,20 @@ async function syncPending(){
  for(const saved of storeRead())for(const answer of saved.answers.filter(item=>!item.synced))await sync(answer);
 }
 function theme(){const t=document.documentElement.dataset.theme==='light'?'dark':'light';document.documentElement.dataset.theme=t;localStorage.setItem('tema-concursos',t);$('qs-theme').textContent=t==='light'?'modo escuro':'modo claro';}
+function saveBatchForLogin(){
+ if(!privateOrigin||!new URLSearchParams(location.hash.slice(1)).has('questoes'))return;
+ try{sessionStorage.setItem(LOGIN_BATCH,JSON.stringify({hash:location.hash,expiresAt:Date.now()+600000}));}
+ catch{}
+}
+function restoreBatchAfterLogin(){
+ if(!loggedIn)return;
+ try{
+  const pending=JSON.parse(sessionStorage.getItem(LOGIN_BATCH)||'null');
+  sessionStorage.removeItem(LOGIN_BATCH);
+  if(!location.hash&&typeof pending?.hash==='string'&&pending.hash.startsWith('#')&&pending.expiresAt>Date.now())
+   history.replaceState(null,'',location.pathname+location.search+pending.hash);
+ }catch{}
+}
 function offerRecommendedBatch() {
  const params = new URLSearchParams(location.hash.slice(1));
  if (!params.has('questoes')) return;
@@ -401,7 +416,9 @@ function offerRecommendedBatch() {
   const q = data.map.get(id);
   return q?.concursoId === exam && q.format === 'CE' && !q.annulled;
  })) {
-  status('A bateria recomendada está indisponível no catálogo atual.');
+  status(privateOrigin&&!loggedIn&&exam==='cgu-2026'
+   ?'Entre com GitHub para abrir esta bateria da CGU.'
+   :'A bateria recomendada está indisponível no catálogo atual.');
   return;
  }
  const repeat=params.get('repetir')==='1';
@@ -420,6 +437,7 @@ function offerRecommendedBatch() {
 }
 async function init(){
  $('qs-theme').textContent=document.documentElement.dataset.theme==='light'?'modo escuro':'modo claro';$('qs-theme').addEventListener('click',theme);
+ $('qs-login').addEventListener('click',saveBatchForLogin);
  $('qs-custom').addEventListener('change',availability);
  $('qs-concurso').addEventListener('change',()=>{updateSubjects();updateSuggestions();});$('qs-materia').addEventListener('change',updateUnits);
  $('qs-capitulo').addEventListener('input',()=>{updateChapterDisplay();availability();});
@@ -455,7 +473,7 @@ async function init(){
   const saved=localStorage.getItem('concurso_ativo_id');
   $('qs-concurso').value=options.some(o=>o.value===saved)?saved:options.find(o=>o.value==='camara-2026')?.value||options[0]?.value||'';
   updateSubjects();updateSuggestions();toggle('qs-config',true);status('');
-  resume();offerRecommendedBatch();if(loggedIn)void syncPending();
+  restoreBatchAfterLogin();resume();offerRecommendedBatch();if(loggedIn)void syncPending();
  }catch(e){status('Não foi possível abrir o banco: '+e.message);}
 }
 init();

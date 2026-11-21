@@ -372,9 +372,24 @@ async function auth(){
  if(!privateOrigin){$('qs-sync').textContent='GitHub Pages: gravação somente neste navegador. Use o ambiente autenticado para sincronizar.';return;}
  try{const r=await fetch('/v1/session',{credentials:'same-origin',cache:'no-store'});loggedIn=r.ok;}catch{loggedIn=false;}
  if(!loggedIn){toggle('qs-login',true);$('qs-login').href='/v1/login/github?return=%2Fquestoes.html';$('qs-login').textContent='Entrar com GitHub para sincronizar';$('qs-sync').textContent='Sem login, respostas ficam apenas neste navegador.';return;}
- updateSuggestions();
  $('qs-sync').textContent='GitHub conectado. As respostas serão gravadas no banco privado.';
- for(const s of storeRead())for(const a of s.answers.filter(x=>!x.synced))await sync(a);
+ try{
+  const response=await fetch('/v1/study/cgu-catalog',{credentials:'same-origin',cache:'no-store'});
+  if(!response.ok)throw Error('Acervo indisponível');
+  const catalog=await response.json();
+  if(catalog.version!==1||catalog.concursoId!=='cgu-2026'||!Array.isArray(catalog.questions))
+   throw Error('Formato inválido');
+  for(const question of catalog.questions){
+   if(data.map.has(question.id))continue;
+   data.questions.push(question);
+   data.map.set(question.id,question);
+  }
+ }catch{
+  $('qs-sync').textContent='GitHub conectado. O acervo privado de questões da CGU está indisponível.';
+ }
+}
+async function syncPending(){
+ for(const saved of storeRead())for(const answer of saved.answers.filter(item=>!item.synced))await sync(answer);
 }
 function theme(){const t=document.documentElement.dataset.theme==='light'?'dark':'light';document.documentElement.dataset.theme=t;localStorage.setItem('tema-concursos',t);$('qs-theme').textContent=t==='light'?'modo escuro':'modo claro';}
 function offerRecommendedBatch() {
@@ -431,6 +446,7 @@ async function init(){
   if(data.version!==1||!Array.isArray(data.questions)||!Array.isArray(data.contests))throw Error('Formato do banco inválido.');
   data.map=new Map(data.questions.map(q=>[q.id,q]));
   try{const m=await fetch('manifest.json').then(r=>r.ok?r.json():[]);manifest=new Map(m.filter(x=>x.articleId).map(x=>[x.articleId,x]));}catch{}
+  await auth();
   const options=data.contests.filter(c=>c.id!=='dataprev-2026').map(c=>{
    const n=data.questions.filter(q=>q.concursoId===c.id).length;
    const option=elem('option',c.nome+' ('+n+')');option.value=c.id;return option;
@@ -439,7 +455,7 @@ async function init(){
   const saved=localStorage.getItem('concurso_ativo_id');
   $('qs-concurso').value=options.some(o=>o.value===saved)?saved:options.find(o=>o.value==='camara-2026')?.value||options[0]?.value||'';
   updateSubjects();updateSuggestions();toggle('qs-config',true);status('');
-  resume();offerRecommendedBatch();auth();
+  resume();offerRecommendedBatch();if(loggedIn)void syncPending();
  }catch(e){status('Não foi possível abrir o banco: '+e.message);}
 }
 init();

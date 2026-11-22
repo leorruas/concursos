@@ -7611,6 +7611,454 @@
       "subjectId": "etica-publica",
       "unitId": "decoro-parlamentar",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-fraude-presenca-em-plenario-artigo-quinto",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "fraude-presenca-artigo-4",
+      "mechanism": "fraude-presenca-em-plenario-artigo-quinto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "Uma apuração comprova que um deputado fraudou o registro de presença em sessão plenária. O Código de Ética tipifica essa fraude no rol de atos atentatórios ao decoro do art. 5º.",
+      "correctAnswer": "C",
+      "explanation": "O inciso IX do art. 5º contempla fraude ao registro de presença em sessão ou reunião. O enquadramento não depende de a conduta ocorrer em comissão.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, IX. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-registro-em-reuniao-nao-muda-enquadramento",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "fraude-presenca-artigo-4",
+      "mechanism": "registro-em-reuniao-nao-muda-enquadramento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "A fraude ao registro de presença deixa de se enquadrar no art. 5º, IX, quando ocorre em reunião de comissão, pois esse inciso abrange exclusivamente sessões plenárias.",
+      "correctAnswer": "E",
+      "explanation": "O inciso abrange tanto sessões quanto reuniões. A realização da fraude em reunião de comissão não exclui a incidência do dispositivo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, IX. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-habeas-data-para-corrigir-dado-proprio",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "habeas-data-proprios-registros",
+      "mechanism": "habeas-data-para-corrigir-dado-proprio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas data — HD"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas data — HD"
+      },
+      "statement": "Uma candidata descobre que um cadastro governamental contém informação falsa a seu respeito. Após a recusa administrativa de retificação, pode usar habeas data para pedir a correção, observados os demais requisitos.",
+      "correctAnswer": "C",
+      "explanation": "O habeas data pode servir à retificação de dados pessoais da impetrante em registros governamentais ou de caráter público.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXXII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-habeas-data-nao-e-via-para-cadastro-de-outra-pessoa",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "habeas-data-proprios-registros",
+      "mechanism": "habeas-data-nao-e-via-para-cadastro-de-outra-pessoa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas data — HD"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas data — HD"
+      },
+      "statement": "Um pesquisador quer conhecer dados exclusivamente relativos a uma terceira pessoa e pretende usar habeas data em nome próprio. O caráter público do cadastro basta para atender ao requisito constitucional relativo à pessoa a quem os dados se referem.",
+      "correctAnswer": "E",
+      "explanation": "O conhecimento dos dados por habeas data exige que a informação se refira à pessoa do impetrante. O caráter público do registro não substitui esse requisito.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXXII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "id": "cam-revisao-medida-provisoria-nao-altera-regra-de-campanha",
+      "concursoId": "camara-2026",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-direito-eleitoral-urgencia",
+      "mechanism": "medida-provisoria-nao-altera-regra-de-campanha",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "Para responder rapidamente a uma controvérsia eleitoral, o Presidente pretende editar medida provisória alterando regras de propaganda de campanha. A urgência alegada não supera a vedação de medida provisória sobre direito eleitoral.",
+      "correctAnswer": "C",
+      "explanation": "A matéria está vedada pelo art. 62, § 1º, I, a. A relevância e a urgência não tornam admissível matéria expressamente excluída.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 62, § 1º, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "id": "cam-revisao-mp-eleitoral-nao-se-convalida-por-validade-curta",
+      "concursoId": "camara-2026",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-direito-eleitoral-urgencia",
+      "mechanism": "mp-eleitoral-nao-se-convalida-por-validade-curta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "A vedação constitucional de medida provisória sobre direito eleitoral pode ser afastada se a norma alterar regras da eleição apenas durante uma campanha.",
+      "correctAnswer": "E",
+      "explanation": "A proibição se refere à matéria. A duração temporária ou o alcance limitado a uma eleição não remove a vedação.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 62, § 1º, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-recurso-apresentado-nao-basta-para-votacao-do-projeto",
+      "concursoId": "camara-2026",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "recurso-conclusivo-improvido-redacao",
+      "mechanism": "recurso-apresentado-nao-basta-para-votacao-do-projeto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      },
+      "statement": "As comissões aprovam conclusivamente um projeto. Um recurso regular é submetido ao Plenário, que o rejeita. A deliberação plenária sobre o recurso não abre nova votação de mérito do projeto.",
+      "correctAnswer": "C",
+      "explanation": "Só o provimento do recurso leva a matéria recorrida à discussão e votação no Plenário. Rejeitado o recurso, subsiste a aprovação conclusiva e o projeto segue para redação final.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, arts. 58, § 4º, e 132, § 2º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-recurso-provido-impede-enviar-direto-redacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "recurso-conclusivo-improvido-redacao",
+      "mechanism": "recurso-provido-impede-enviar-direto-redacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      },
+      "statement": "O Plenário dá provimento a recurso para apreciar integralmente projeto aprovado conclusivamente pelas comissões. A aprovação anterior permite enviar o projeto diretamente à redação final, sem deliberação plenária sobre o mérito.",
+      "correctAnswer": "E",
+      "explanation": "Provido o recurso integral, o Plenário discute e vota o projeto. A aprovação conclusiva das comissões deixa de dispensar a apreciação plenária.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, arts. 58, § 4º, e 132, § 2º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "id": "cam-revisao-representante-previsto-na-constituicao-e-eleito",
+      "concursoId": "camara-2026",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "representante-empresa-finalidade-entendimento",
+      "mechanism": "representante-previsto-na-constituicao-e-eleito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "Uma empresa com 350 empregados indica unilateralmente um gerente para ser o representante dos trabalhadores no entendimento direto com o empregador. A indicação não cumpre a garantia constitucional de eleição pelos empregados.",
+      "correctAnswer": "C",
+      "explanation": "O art. 11 assegura a eleição do representante dos empregados para promover o entendimento direto. A indicação unilateral pelo empregador não realiza essa eleição.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "id": "cam-revisao-representacao-direta-fim-especifico",
+      "concursoId": "camara-2026",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "representante-empresa-finalidade-entendimento",
+      "mechanism": "representacao-direta-fim-especifico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "Em uma empresa com mais de 200 empregados, o representante eleito nos termos do art. 11 recebe, por essa eleição, atribuição constitucional para substituir o sindicato na negociação coletiva de toda a categoria.",
+      "correctAnswer": "E",
+      "explanation": "O art. 11 prevê representação com finalidade exclusiva de promover entendimento direto com o empregador. A eleição não transfere as atribuições sindicais da categoria.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "id": "cam-revisao-sigilo-mandato-alcanca-destinatario",
+      "concursoId": "camara-2026",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "sigilo-identidade-fonte-testemunho",
+      "mechanism": "sigilo-mandato-alcanca-destinatario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "statement": "Um senador é chamado a depor sobre informações que prestou no exercício do mandato. A prerrogativa constitucional permite que deixe de identificar as pessoas que receberam dele essas informações.",
+      "correctAnswer": "C",
+      "explanation": "A proteção alcança as informações recebidas ou prestadas em razão do mandato e as pessoas que as confiaram ou delas receberam informações.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 53, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "id": "cam-revisao-sigilo-parlamentar-exige-nexo-com-mandato",
+      "concursoId": "camara-2026",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "sigilo-identidade-fonte-testemunho",
+      "mechanism": "sigilo-parlamentar-exige-nexo-com-mandato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "statement": "Uma deputada presencia um fato em situação estritamente particular e sem relação com seu mandato. O art. 53, § 6º, dispensa seu testemunho sobre o fato pelo simples exercício do cargo.",
+      "correctAnswer": "E",
+      "explanation": "A prerrogativa depende do nexo das informações com o exercício do mandato. O cargo, por si só, não dispensa testemunho sobre fato estritamente alheio a ele.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 53, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e regime dos parlamentares",
+      "id": "cam-revisao-vaga-sem-suplente-dezesseis-meses",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "vaga-sem-suplente-limite-quinze",
+      "mechanism": "vaga-sem-suplente-dezesseis-meses",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      },
+      "statement": "Uma vaga definitiva de deputado federal fica sem suplente quando faltam dezesseis meses para o fim do mandato. A Constituição prevê eleição para preenchê-la.",
+      "correctAnswer": "C",
+      "explanation": "Estão presentes a vaga, a inexistência de suplente e o prazo superior a quinze meses até o fim do mandato.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 56, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e regime dos parlamentares",
+      "id": "cam-revisao-prazo-superior-nao-prevalece-sobre-suplencia",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "vaga-sem-suplente-limite-quinze",
+      "mechanism": "prazo-superior-nao-prevalece-sobre-suplencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      },
+      "statement": "Uma vaga definitiva surge quando faltam vinte meses para o fim do mandato e há suplente apto. O tempo restante, por si só, impõe eleição para preenchimento da vaga.",
+      "correctAnswer": "E",
+      "explanation": "O § 2º exige inexistência de suplente além do prazo superior a quinze meses. Havendo suplente apto, aplica-se a convocação prevista no § 1º.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 56, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo",
+      "id": "cam-revisao-visto-autonomo-sem-formacao-conjunta-de-vontade",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "visto-e-ato-principal",
+      "mechanism": "visto-autonomo-sem-formacao-conjunta-de-vontade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "Um diretor pratica integralmente um ato e outra autoridade dá visto autônomo, indispensável apenas para que o ato produza efeitos. A presença desse visto é compatível com a classificação como ato composto.",
+      "correctAnswer": "C",
+      "explanation": "O primeiro ato contém a decisão principal. O segundo é instrumental à eficácia, sem constituir conjuntamente o conteúdo da decisão.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção teórica de classificação dos atos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo",
+      "id": "cam-revisao-duas-vontades-formadoras-nao-sao-visto",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "visto-e-ato-principal",
+      "mechanism": "duas-vontades-formadoras-nao-sao-visto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "Uma decisão única só se forma depois que dois órgãos manifestam, cada qual, vontade constitutiva sobre seu conteúdo. Como há dois pronunciamentos sucessivos, o segundo é necessariamente um visto acessório de ato composto.",
+      "correctAnswer": "E",
+      "explanation": "O critério é o papel de cada pronunciamento. Se ambos formam a vontade do ato único, trata-se de ato complexo, e não de ato principal seguido de visto acessório.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção teórica de classificação dos atos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
       "id": "cam-revisao-mesa-aplica-censura-escrita-solicitada",
       "concursoId": "camara-2026",
       "articleId": "art-5b41764164052519",

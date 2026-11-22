@@ -7605,6 +7605,230 @@
   ],
   "expansao": [
     {
+      "id": "cam-revisao-alerta-antes-do-pagamento-detecta-autorizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "controle-detectivo",
+      "mechanism": "alerta-antes-do-pagamento-detecta-autorizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Um sistema emite um alerta quando encontra uma autorização de pagamento já registrada com valor incompatível com o contrato. O alerta é emitido antes do desembolso, mas o sistema não bloqueia nem altera registros. Em relação à ocorrência da autorização irregular, a função do alerta é detectiva.",
+      "correctAnswer": "C",
+      "explanation": "A autorização já existia quando o alerta foi emitido. Uma análise posterior pode evitar o desembolso, mas a função do alerta em relação à autorização é revelar a ocorrência.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-bloqueio-de-protocolo-sem-aprovacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "controle-detectivo",
+      "mechanism": "bloqueio-de-protocolo-sem-aprovacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Um sistema só permite protocolar solicitações que já tenham sido aprovadas pelo responsável. A barreira atua antes do registro do protocolo. Em relação ao risco de protocolar solicitações sem aprovação, essa barreira atua de forma detectiva.",
+      "correctAnswer": "E",
+      "explanation": "A barreira impede que o protocolo sem aprovação seja registrado. É um controle preventivo em relação a esse evento.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-direcao-define-criterio-equipe-redistribui",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "governanca-e-gestao",
+      "mechanism": "direcao-define-criterio-equipe-redistribui",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança × gestão"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Governança × gestão"
+      },
+      "statement": "Um conselho estabelece que o tempo de espera em regiões isoladas terá peso maior na definição das prioridades do serviço. Com base nessa diretriz, a equipe operacional redistribui os plantões. O conselho exerce função de governança ao definir a prioridade e a equipe exerce função de gestão ao organizar a execução.",
+      "correctAnswer": "C",
+      "explanation": "O conselho orienta o serviço e fixa a prioridade. A equipe converte a diretriz em alocação de pessoal e funcionamento dos plantões.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-resultado-estrategico-e-rotina-da-fila",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "governanca-e-gestao",
+      "mechanism": "resultado-estrategico-e-rotina-da-fila",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança × gestão"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Governança × gestão"
+      },
+      "statement": "A coordenação de um serviço consulta o volume de pedidos toda manhã apenas para alocar atendentes aos guichês e manter a operação do dia. Pelo simples fato de monitorar indicadores, essa atividade constitui governança.",
+      "correctAnswer": "E",
+      "explanation": "A classificação depende da finalidade do monitoramento. Nesse caso, a informação é usada para conduzir a rotina. A governança usaria evidências para acompanhar resultados e orientar ou rever a direção do serviço.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-risco-migra-apos-troca-de-fornecedor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "monitoramento-risco-continuo",
+      "mechanism": "risco-migra-apos-troca-de-fornecedor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Após trocar de fornecedor, um órgão mantém suas rotinas de controle, mas passa a depender de uma única central para receber solicitações. A nova dependência é motivo para reexaminar os riscos mesmo antes de ocorrer uma interrupção.",
+      "correctAnswer": "C",
+      "explanation": "A mudança de processo altera a possibilidade e o impacto de falhas. O acompanhamento contínuo pode apontar a necessidade de ajustar controles antes de um incidente.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-amostra-sem-falhas-encerra-monitoramento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "monitoramento-risco-continuo",
+      "mechanism": "amostra-sem-falhas-encerra-monitoramento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Uma verificação por amostragem não encontrou falhas nos primeiros três meses após a adoção de um controle. Com base apenas nesse resultado, a equipe pode encerrar definitivamente o acompanhamento do risco.",
+      "correctAnswer": "E",
+      "explanation": "A amostra indica o que foi observado naquele período. O risco residual e a eficácia do controle podem mudar. O acompanhamento permite reavaliá-los com novas evidências.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-metas-locais-sem-fluxo-compartilhado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / nova governanca publica",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "npg-coordenacao-multiplos-atores",
+      "mechanism": "metas-locais-sem-fluxo-compartilhado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Definição, contexto e autores"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Definição, contexto e autores"
+      },
+      "statement": "Departamentos de saúde e assistência atingem suas metas internas, mas as pessoas continuam a perder atendimento na passagem de um serviço para o outro. Pela Nova Governança Pública, examinar regras de encaminhamento e responsabilidades nas transições ajuda a explicar o resultado coletivo.",
+      "correctAnswer": "C",
+      "explanation": "O resultado depende da coordenação entre serviços interdependentes. As metas de cada órgão podem ser cumpridas mesmo quando falham as transições de que os usuários dependem.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-rede-com-acordos-e-metas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / nova governanca publica",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "npg-coordenacao-multiplos-atores",
+      "mechanism": "rede-com-acordos-e-metas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Definição, contexto e autores"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Definição, contexto e autores"
+      },
+      "statement": "Órgãos estaduais e municipais constroem um serviço em rede, pactuam critérios de encaminhamento e medem o resultado coletivo. O fato de formalizarem obrigações e metas torna a Nova Governança Pública inaplicável à análise do caso.",
+      "correctAnswer": "E",
+      "explanation": "A coordenação em rede pode incluir metas e acordos formais. Esses instrumentos ajudam a gerir dependências e definir responsabilidades entre os participantes.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
       "id": "cam-revisao-ondas-independentes-com-mesmo-desenho",
       "concursoId": "camara-2026",
       "origin": "inedita",

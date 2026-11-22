@@ -7607,6 +7607,454 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-cidadao-pode-identificar-fatos-e-provas-a-mesa",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "cidadao-representa-mesa",
+      "mechanism": "cidadao-pode-identificar-fatos-e-provas-a-mesa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Uma cidadã reúne documentos sobre possível conduta atentatória ao decoro e descreve os fatos à Mesa, requerendo representação. Ela tem legitimidade para formular esse requerimento.",
+      "correctAnswer": "C",
+      "explanation": "O § 1º reconhece a legitimidade de qualquer cidadão que especifique os fatos e as respectivas provas.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-requerimento-na-mesa-nao-e-exclusivo-de-partido",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "cidadao-representa-mesa",
+      "mechanism": "requerimento-na-mesa-nao-e-exclusivo-de-partido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Um cidadão que não integra partido político está impedido de requerer à Mesa representação por ofensa ao decoro, ainda que identifique fatos e provas.",
+      "correctAnswer": "E",
+      "explanation": "O Código confere legitimidade própria ao cidadão. A filiação partidária não é condição para formular o requerimento.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-representacao-leviana-pode-gerar-providencias-reparadoras",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "etica-representacao-ofensiva-remessa",
+      "mechanism": "representacao-leviana-pode-gerar-providencias-reparadoras",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Declarada leviana e ofensiva à imagem do deputado e da Câmara, a representação é encaminhada à Procuradoria Parlamentar para providências reparadoras.",
+      "correctAnswer": "C",
+      "explanation": "A Procuradoria recebe os autos para as medidas de reparação de sua alçada.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 15, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-remessa-a-procuradoria-nao-pune-representado",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "etica-representacao-ofensiva-remessa",
+      "mechanism": "remessa-a-procuradoria-nao-pune-representado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "A remessa à Procuradoria Parlamentar prevista para representação leviana tem por finalidade aplicar censura ao deputado contra quem a acusação foi formulada.",
+      "correctAnswer": "E",
+      "explanation": "A finalidade da remessa é reparadora, voltada à imagem atingida. A regra não cria sanção disciplinar contra o representado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 15, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-perda-de-mandato-instrucao-de-quarenta-dias-uteis",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "instrucao-prazo-pela-sancao",
+      "mechanism": "perda-de-mandato-instrucao-de-quarenta-dias-uteis",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Apresentada a defesa em processo de perda do mandato, o prazo improrrogável para diligências e instrução probatória é de quarenta dias úteis.",
+      "correctAnswer": "C",
+      "explanation": "A duração da instrução depende da sanção em exame. São quarenta dias úteis para perda e trinta dias úteis para suspensão temporária do mandato.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 4º, IV. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-suspensao-temporaria-nao-usa-prazo-de-quarenta",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "instrucao-prazo-pela-sancao",
+      "mechanism": "suspensao-temporaria-nao-usa-prazo-de-quarenta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "No processo de suspensão temporária do mandato, o relator dispõe do mesmo prazo de quarenta dias úteis para diligências e instrução aplicável ao caso de perda do mandato.",
+      "correctAnswer": "E",
+      "explanation": "O Código fixa trinta dias úteis para instrução no caso de suspensão temporária do mandato.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 4º, IV. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-intimacao-abrange-atos-de-instrucao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "intimacao-durante-instrucao",
+      "mechanism": "intimacao-abrange-atos-de-instrucao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Depois da defesa inicial, o Conselho pratica atos de instrução. A obrigação de intimar o representado alcança também esses atos.",
+      "correctAnswer": "C",
+      "explanation": "O § 5º exige intimação de todos os atos praticados pelo Conselho, inclusive os posteriores à defesa inicial.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-intimacao-inicial-nao-dispensa-as-seguintes",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "intimacao-durante-instrucao",
+      "mechanism": "intimacao-inicial-nao-dispensa-as-seguintes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Como o deputado foi intimado para apresentar defesa escrita, o Conselho pode praticar os demais atos de instrução sem intimá-lo novamente.",
+      "correctAnswer": "E",
+      "explanation": "A intimação para a defesa escrita não substitui a intimação dos atos posteriores do Conselho.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-defesa-pode-manifestar-se-sobre-diligencia-posterior",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "manifestacao-defesa-em-fases",
+      "mechanism": "defesa-pode-manifestar-se-sobre-diligencia-posterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Em processo disciplinar, o Conselho realiza diligência depois de receber a defesa escrita. O deputado pode manifestar-se também nessa fase.",
+      "correctAnswer": "C",
+      "explanation": "A possibilidade de manifestação se estende a todas as fases do processo, conforme o § 5º.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-oportunidade-de-manifestacao-nao-se-esgota-na-defesa-escrita",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "manifestacao-defesa-em-fases",
+      "mechanism": "oportunidade-de-manifestacao-nao-se-esgota-na-defesa-escrita",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Depois de apresentar defesa inicial, o representado perde a possibilidade de se manifestar sobre novos atos praticados pelo Conselho durante o processo.",
+      "correctAnswer": "E",
+      "explanation": "O Código garante ao representado a possibilidade de manifestação em todas as fases.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-fim-da-legislatura-encerra-mandato-no-conselho",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "mandato-conselho-fim-legislatura",
+      "mechanism": "fim-da-legislatura-encerra-mandato-no-conselho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "Um membro do Conselho de Ética é indicado no último ano da legislatura. Encerrada a última sessão legislativa, cessa seu mandato no colegiado.",
+      "correctAnswer": "C",
+      "explanation": "O encerramento da última sessão legislativa da legislatura é a ressalva expressa ao mandato no Conselho.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-indicacao-no-ultimo-ano-nao-prorroga-mandato-ao-proximo",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "mandato-conselho-fim-legislatura",
+      "mechanism": "indicacao-no-ultimo-ano-nao-prorroga-mandato-ao-proximo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "Indicado para o Conselho durante a última sessão legislativa, o deputado conserva automaticamente seu mandato no colegiado na legislatura seguinte até completar dois anos.",
+      "correctAnswer": "E",
+      "explanation": "A regra de duração do mandato cede diante do encerramento da última sessão legislativa da legislatura.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-prerrogativas-protegem-exercicio-do-mandato-popular",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "imunidades-como-favor-pessoal",
+      "mechanism": "prerrogativas-protegem-exercicio-do-mandato-popular",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "Ao explicar a finalidade das imunidades parlamentares, uma deputada afirma que elas garantem o exercício do mandato popular e defendem o Poder Legislativo. A afirmação está de acordo com o Código de Ética.",
+      "correctAnswer": "C",
+      "explanation": "O art. 2º vincula imunidades, prerrogativas e franquias à garantia do mandato e à defesa do Legislativo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 2º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-imunidade-nao-e-vantagem-pessoal-estabelecida-pelo-codigo",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "imunidades-como-favor-pessoal",
+      "mechanism": "imunidade-nao-e-vantagem-pessoal-estabelecida-pelo-codigo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "Segundo o Código de Ética, a finalidade das imunidades parlamentares é conceder vantagem pessoal ao titular, desvinculada do mandato popular.",
+      "correctAnswer": "E",
+      "explanation": "A finalidade é institucional e ligada ao exercício do mandato popular.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 2º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-ato-parlamentar-deve-visar-interesse-publico",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "interesse-publico-dever-fundamental",
+      "mechanism": "ato-parlamentar-deve-visar-interesse-publico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "Ao atuar em comissão, um deputado deve promover a defesa do interesse público. Esse dever consta expressamente no Código de Ética.",
+      "correctAnswer": "C",
+      "explanation": "O art. 3º, I, inclui a promoção da defesa do interesse público entre os deveres fundamentais do deputado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, I. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-orientacao-partidaria-nao-substitui-dever-de-interesse-publico",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "interesse-publico-dever-fundamental",
+      "mechanism": "orientacao-partidaria-nao-substitui-dever-de-interesse-publico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "A orientação partidária dispensa o deputado do dever fundamental de promover a defesa do interesse público no exercício do mandato.",
+      "correctAnswer": "E",
+      "explanation": "O Código estabelece esse dever para o deputado. A orientação partidária não o substitui.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, I. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "portugues",
       "unitId": "lingua-portuguesa",

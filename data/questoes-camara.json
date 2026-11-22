@@ -7604,6 +7604,174 @@
     }
   ],
   "expansao": [
+    {
+      "id": "cam-revisao-compartilhamento-com-critica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / comunicação institucional",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "engajamento-versus-reputacao",
+      "mechanism": "compartilhamento-com-critica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Segmentação e tempo de observação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Segmentação e tempo de observação"
+      },
+      "statement": "Uma publicação sobre a interrupção de um serviço recebeu mais compartilhamentos do que as anteriores. Muitos compartilhamentos foram acompanhados de críticas. O aumento dos compartilhamentos, sozinho, permite concluir que a reputação do órgão melhorou.",
+      "correctAnswer": "E",
+      "explanation": "O indicador registra circulação e interação. A intensidade do compartilhamento é compatível com avaliações negativas. A reputação exige evidência sobre o julgamento do público ao longo do tempo.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-avaliacao-acumulada-sem-aumento-de-cliques",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / comunicação institucional",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "engajamento-versus-reputacao",
+      "mechanism": "avaliacao-acumulada-sem-aumento-de-cliques",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Segmentação e tempo de observação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Segmentação e tempo de observação"
+      },
+      "statement": "Em três pesquisas comparáveis, usuários de um serviço avaliaram de forma cada vez mais favorável a confiabilidade e a qualidade do atendimento. No mesmo período, os cliques nas publicações permaneceram estáveis. A série de avaliações oferece evidência de melhora reputacional junto ao público pesquisado.",
+      "correctAnswer": "C",
+      "explanation": "As pesquisas repetidas medem avaliações do serviço feitas pelo público relevante. A série sustenta uma inferência sobre esse grupo. Cliques estáveis medem interação em outro canal e são compatíveis com a melhora observada.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-continuidade-com-mudanca-de-processo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / comunicação institucional",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "identidade-organizacional",
+      "mechanism": "continuidade-com-mudanca-de-processo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Albert e Whetten (1985): três critérios para investigar identidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Albert e Whetten (1985): três critérios para investigar identidade"
+      },
+      "statement": "Uma instituição deixa de prestar atendimento exclusivamente presencial e passa a oferecer canais digitais. Os membros continuam a reconhecer o acesso universal como compromisso que define a instituição e que, para eles, a distingue de seus pares. A mudança de processo é compatível com a continuidade da identidade organizacional.",
+      "correctAnswer": "C",
+      "explanation": "A continuidade se refere aos atributos reconhecidos como definidores ao longo do tempo. A instituição pode manter o compromisso com acesso universal e mudar a forma de oferecer o serviço.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-atributo-distintivo-sem-exclusividade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / comunicação institucional",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "identidade-organizacional",
+      "mechanism": "atributo-distintivo-sem-exclusividade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Albert e Whetten (1985): três critérios para investigar identidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Albert e Whetten (1985): três critérios para investigar identidade"
+      },
+      "statement": "Os membros de um arquivo público descrevem a combinação de preservação, atendimento comunitário e pesquisa como central para definir a instituição. A existência de outra organização com atividades semelhantes torna essa combinação incompatível com o critério de distintividade de Albert e Whetten.",
+      "correctAnswer": "E",
+      "explanation": "Distintividade envolve como membros situam e diferenciam a instituição em relação a outras. Ela pode resultar da maneira de combinar ou priorizar atributos compartilhados e dispensa exclusividade absoluta.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-segmento-definido-por-autonomia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / Marketing e segmentação",
+      "articleId": "art-57d09c6e18ab432f",
+      "conceptId": "segmentacao-psicografica",
+      "mechanism": "segmento-definido-por-autonomia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-57d09c6e18ab432f#Quatro bases clássicas: geográfica, demográfica, psicográfica e comportamental"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria.md",
+        "section": "Quatro bases clássicas: geográfica, demográfica, psicográfica e comportamental"
+      },
+      "statement": "Uma campanha usa uma pesquisa para agrupar pessoas pela importância que atribuem à autonomia no uso de serviços digitais. Embora a equipe tenha coletado também a frequência de acesso ao portal, o agrupamento descrito é psicográfico.",
+      "correctAnswer": "C",
+      "explanation": "O agrupamento usa um valor declarado. Frequência de acesso seria uma variável comportamental se fosse usada para formar os grupos.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-frequencia-observada-sem-medir-valores",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / Marketing e segmentação",
+      "articleId": "art-57d09c6e18ab432f",
+      "conceptId": "segmentacao-psicografica",
+      "mechanism": "frequencia-observada-sem-medir-valores",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-57d09c6e18ab432f#Quatro bases clássicas: geográfica, demográfica, psicográfica e comportamental"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria.md",
+        "section": "Quatro bases clássicas: geográfica, demográfica, psicográfica e comportamental"
+      },
+      "statement": "Uma equipe chama de “comprometidos com a cultura” os visitantes que participaram de pelo menos quatro eventos no semestre. A frequência observada é o único critério de inclusão. O rótulo atribuído ao grupo torna essa segmentação psicográfica.",
+      "correctAnswer": "E",
+      "explanation": "A base é comportamental porque o critério é a participação efetiva em eventos. Um rótulo que atribui valores aos participantes não transforma frequência em medida desses valores.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
       {
         "id": "cam-revisao-apoiamento-de-uma-casa",
         "concursoId": "camara-2026",

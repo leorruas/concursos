@@ -5,6 +5,7 @@ const $=id=>document.getElementById(id),WORKER='https://concurso-estudo.leoruas.
 const STORE='concursos-quiz-sessoes-v1',ACTIVE='concursos-quiz-ativa-v1';
 const LOGIN_BATCH='concursos-quiz-retorno-login';
 const privateOrigin=location.origin===WORKER;
+let cguCatalogLoaded=false;
 let data=null,session=null,loggedIn=false,manifest=new Map(),chapterCatalog=null,shownAt=null;
 let seenByContest=new Map(), suggestionRequest=0;
 const singleSubjectRanges=new Map();
@@ -155,7 +156,12 @@ function availability(){
  toggle('qs-custom-wrap',custom);
  toggle('qs-materia-wrap',focused);
  toggle('qs-unidade-wrap',focused&&$('qs-unidade').options.length>0);
- const n=eligible().length, c=contest();$('qs-availability').textContent=n?n+' questões revisadas disponíveis em '+c.nome+'.':'Ainda não há questões revisadas disponíveis para esta seleção.';const amounts=new Map();
+ const n=eligible().length;
+ const total=available().length;
+ const amounts=new Map();
+ $('qs-availability').textContent=n
+  ?(n===total?total+' questões disponíveis':n+' de '+total+' questões nesta seleção')+'.'
+  :'Ainda não há questões disponíveis para esta seleção.';
  if(focused&&!chapterIds.length)$('qs-availability').textContent='Esta matéria ainda não tem capítulos registrados no catálogo editorial.';
  if(custom) for(const q of eligible()) amounts.set(q.subjectId,(amounts.get(q.subjectId)||0)+1);
  const subjects=custom?customSubjects():new Set();
@@ -374,6 +380,7 @@ async function auth(){
    data.questions.push(question);
    data.map.set(question.id,question);
   }
+  cguCatalogLoaded=true;
  }catch{
   $('qs-sync').textContent='GitHub conectado. O acervo privado de questões da CGU está indisponível.';
  }
@@ -463,7 +470,8 @@ async function init(){
   await auth();
   const options=data.contests.filter(c=>c.id!=='dataprev-2026').map(c=>{
    const n=data.questions.filter(q=>q.concursoId===c.id).length;
-   const option=elem('option',c.nome+' ('+n+')');option.value=c.id;return option;
+   const count=c.id==='cgu-2026'&&!cguCatalogLoaded?n+' públicas':String(n);
+   const option=elem('option',c.nome+' ('+count+')');option.value=c.id;return option;
   });
   $('qs-concurso').replaceChildren(...options);
   const saved=localStorage.getItem('concurso_ativo_id');

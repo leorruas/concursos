@@ -7607,6 +7607,398 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Judiciário",
+      "id": "cam-revisao-votacao-no-orgao-especial-doze-de-vinte-e-tres",
+      "concursoId": "camara-2026",
+      "articleId": "art-7c5228e2781b4336",
+      "conceptId": "camara-editorial-reserva-plenario",
+      "mechanism": "votacao-no-orgao-especial-doze-de-vinte-e-tres",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7c5228e2781b4336#Exercícios inéditos C/E: controle constitucional e magistratura"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md",
+        "section": "Exercícios inéditos C/E: controle constitucional e magistratura"
+      },
+      "statement": "O órgão especial de um tribunal tem 23 membros. Em processo de sua competência, 12 votam pela declaração de inconstitucionalidade de uma lei. Quanto ao número de votos exigido pelo art. 97 da Constituição, foi alcançada a maioria absoluta do órgão especial.",
+      "correctAnswer": "C",
+      "explanation": "São necessários mais da metade dos membros do órgão competente. Doze votos superam a metade de 23.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Judiciário",
+      "id": "cam-revisao-unanimidade-de-presentes-abaixo-da-maioria-do-pleno",
+      "concursoId": "camara-2026",
+      "articleId": "art-7c5228e2781b4336",
+      "conceptId": "camara-editorial-reserva-plenario",
+      "mechanism": "unanimidade-de-presentes-abaixo-da-maioria-do-pleno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7c5228e2781b4336#Exercícios inéditos C/E: controle constitucional e magistratura"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md",
+        "section": "Exercícios inéditos C/E: controle constitucional e magistratura"
+      },
+      "statement": "Em um tribunal sem órgão especial, o plenário tem 21 membros. Dez comparecem à sessão e todos votam pela declaração de inconstitucionalidade de uma lei. A unanimidade dos presentes supre a falta dos demais votos para fins da reserva de plenário.",
+      "correctAnswer": "E",
+      "explanation": "O art. 97 exige maioria absoluta dos membros do tribunal ou do órgão especial. Em plenário com 21 membros, são exigidos 11 votos, independentemente da unanimidade entre os presentes.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Judiciário",
+      "id": "cam-revisao-sumula-vinculante-oito-votos",
+      "concursoId": "camara-2026",
+      "articleId": "art-7c5228e2781b4336",
+      "conceptId": "camara-editorial-sumula-vinculante-quorum",
+      "mechanism": "sumula-vinculante-oito-votos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7c5228e2781b4336#Exercícios inéditos C/E: controle constitucional e magistratura"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md",
+        "section": "Exercícios inéditos C/E: controle constitucional e magistratura"
+      },
+      "statement": "O STF tem 11 membros e, após reiteradas decisões sobre matéria constitucional, oito votam a favor de aprovar a súmula vinculante. Esse resultado satisfaz o requisito constitucional de votação.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição exige dois terços dos membros. Em uma composição de 11 membros, são necessários no mínimo oito votos.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 103-A. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Judiciário",
+      "id": "cam-revisao-sumula-sete-de-oito-presentes",
+      "concursoId": "camara-2026",
+      "articleId": "art-7c5228e2781b4336",
+      "conceptId": "camara-editorial-sumula-vinculante-quorum",
+      "mechanism": "sumula-sete-de-oito-presentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7c5228e2781b4336#Exercícios inéditos C/E: controle constitucional e magistratura"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md",
+        "section": "Exercícios inéditos C/E: controle constitucional e magistratura"
+      },
+      "statement": "Em sessão do STF com oito ministros presentes, sete aprovam uma proposta de edição de súmula vinculante. O quórum foi cumprido, pois sete votos representam mais de dois terços dos presentes.",
+      "correctAnswer": "E",
+      "explanation": "O parâmetro é o número de membros do STF, não o total de presentes à sessão. Para onze membros, sete votos são insuficientes.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 103-A. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "id": "cam-revisao-plp-maioria-dos-presentes-insuficiente",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "lei-complementar-quorum",
+      "mechanism": "plp-maioria-dos-presentes-insuficiente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Lei ordinária × lei complementar"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Lei ordinária × lei complementar"
+      },
+      "statement": "Em uma votação na Câmara dos Deputados, 300 dos 513 deputados estão presentes. Um projeto de lei complementar recebe 230 votos favoráveis. A maioria de votos entre os presentes basta para aprovar o projeto.",
+      "correctAnswer": "E",
+      "explanation": "A aprovação de lei complementar exige maioria absoluta. A Câmara precisa de pelo menos 257 votos favoráveis, mesmo se houver menos parlamentares presentes.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "id": "cam-revisao-plp-duzentos-cinquenta-e-sete-alcanca-quorum",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "lei-complementar-quorum",
+      "mechanism": "plp-duzentos-cinquenta-e-sete-alcanca-quorum",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Lei ordinária × lei complementar"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Lei ordinária × lei complementar"
+      },
+      "statement": "O plenário da Câmara, composto de 513 deputados, registra 257 votos favoráveis a um projeto de lei complementar. Quanto ao número de votos favoráveis exigido pela Constituição, o resultado é suficiente.",
+      "correctAnswer": "C",
+      "explanation": "O art. 69 exige maioria absoluta. Em uma composição de 513 deputados, o menor número inteiro acima da metade é 257.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "id": "cam-revisao-pec-falta-um-voto-no-segundo-turno",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "turnos-de-pec",
+      "mechanism": "pec-falta-um-voto-no-segundo-turno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Aprovação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Aprovação"
+      },
+      "statement": "Na Câmara dos Deputados, uma PEC recebe 320 votos favoráveis no primeiro turno e 307 no segundo. Como recebeu mais de 308 votos no primeiro turno, a proposta pode ser considerada aprovada nessa Casa.",
+      "correctAnswer": "E",
+      "explanation": "A Câmara exige pelo menos 308 votos favoráveis em cada turno. O resultado de um turno não compensa a insuficiência em outro.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "id": "cam-revisao-pec-senado-limiar-em-cada-turno",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "turnos-de-pec",
+      "mechanism": "pec-senado-limiar-em-cada-turno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Aprovação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Aprovação"
+      },
+      "statement": "O Senado Federal, composto de 81 membros, registra 49 votos favoráveis a uma PEC em cada um dos dois turnos. O número de votos em ambos os turnos satisfaz o quórum constitucional dessa Casa.",
+      "correctAnswer": "C",
+      "explanation": "Três quintos de 81 correspondem a 48,6. São necessários ao menos 49 votos em cada turno.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-estado-tem-competencia-nao-vedada",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "competencia-residual-estados",
+      "mechanism": "estado-tem-competencia-nao-vedada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Estados: competência remanescente"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Estados: competência remanescente"
+      },
+      "statement": "Uma assembleia estadual examina um tema de interesse regional que a Constituição não atribuiu a outro ente nem vedou aos estados. A falta de menção expressa ao tema na Constituição, por si só, não exclui a competência estadual.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição reserva aos estados as competências que não lhes sejam vedadas. O caso afasta a atribuição constitucional a outro ente e a existência de vedação.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, arts. 22, I e parágrafo único, e 25, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-falta-de-lei-federal-nao-desloca-competencia-privativa",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "competencia-residual-estados",
+      "mechanism": "falta-de-lei-federal-nao-desloca-competencia-privativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Estados: competência remanescente"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Estados: competência remanescente"
+      },
+      "statement": "Não há lei federal sobre uma questão de direito penal. Um estado afirma que, enquanto durar essa situação, pode legislar sobre direito penal com base apenas na sua competência residual.",
+      "correctAnswer": "E",
+      "explanation": "A ausência de lei não altera a distribuição da competência legislativa. Direito penal é matéria privativa da União, ressalvada a autorização constitucional por lei complementar para questões específicas, que não se confunde com competência residual.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, arts. 22, I e parágrafo único, e 25, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "id": "cam-revisao-alistamento-facultativo-nao-abre-candidatura",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "analfabeto-voto-facultativo-inelegibilidade",
+      "mechanism": "alistamento-facultativo-nao-abre-candidatura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Exercícios inéditos C/E: aplicação de direitos políticos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Exercícios inéditos C/E: aplicação de direitos políticos"
+      },
+      "statement": "Uma pessoa analfabeta alista-se e vota em eleição municipal. Em seguida, pretende candidatar-se a vereadora alegando que o alistamento regular afasta a inelegibilidade constitucional. A alegação está correta.",
+      "correctAnswer": "E",
+      "explanation": "O alistamento e o voto são facultativos para as pessoas analfabetas. A Constituição estabelece, separadamente, a sua inelegibilidade.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 14, § 1º, II, a, e § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "id": "cam-revisao-abstencao-facultativa-e-inelegibilidade",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "analfabeto-voto-facultativo-inelegibilidade",
+      "mechanism": "abstencao-facultativa-e-inelegibilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Exercícios inéditos C/E: aplicação de direitos políticos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Exercícios inéditos C/E: aplicação de direitos políticos"
+      },
+      "statement": "Uma eleitora analfabeta decide não votar em uma eleição. A opção é compatível com a regra constitucional de voto facultativo, mas essa regra não lhe confere elegibilidade.",
+      "correctAnswer": "C",
+      "explanation": "A faculdade de participar da votação diz respeito à capacidade eleitoral ativa. A inelegibilidade desse grupo está prevista no § 4º do art. 14.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 14, § 1º, II, a, e § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "id": "cam-revisao-tratado-direitos-humanos-dois-turnos-cada-casa",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "tratados-direitos-humanos-quorum-artigo-5",
+      "mechanism": "tratado-direitos-humanos-dois-turnos-cada-casa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "Um tratado sobre direitos humanos é aprovado em dois turnos na Câmara e em dois no Senado, por mais de três quintos dos membros em cada votação. O rito de aprovação atende aos requisitos de equivalência às emendas constitucionais.",
+      "correctAnswer": "C",
+      "explanation": "O art. 5º, § 3º, exige tratado ou convenção sobre direitos humanos, votação em dois turnos por Casa e ao menos três quintos dos membros em cada turno.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 5º, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "id": "cam-revisao-tratado-comercial-quorum-nao-muda-objeto",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "tratados-direitos-humanos-quorum-artigo-5",
+      "mechanism": "tratado-comercial-quorum-nao-muda-objeto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "Um tratado exclusivamente comercial, sem matéria de direitos humanos, é aprovado em dois turnos em cada Casa por três quintos dos membros. O quórum e o número de turnos, sozinhos, tornam esse tratado equivalente a emenda constitucional pelo art. 5º, § 3º.",
+      "correctAnswer": "E",
+      "explanation": "A equivalência prevista nesse dispositivo também exige que o tratado ou a convenção verse sobre direitos humanos. O rito qualificado não supre a falta do requisito material.",
+      "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 5º, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",

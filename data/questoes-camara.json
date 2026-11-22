@@ -7608,6 +7608,566 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-alistado-dezessete-voto-ainda-facultativo",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "voto-aos-dezessete-facultativo",
+      "mechanism": "alistado-dezessete-voto-ainda-facultativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Facultativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Facultativos"
+      },
+      "statement": "Uma pessoa de dezessete anos já se alistou e pode votar. A realização do alistamento não torna obrigatório seu comparecimento à votação enquanto estiver na faixa etária de voto facultativo.",
+      "correctAnswer": "C",
+      "explanation": "Alistamento e voto são facultativos nessa faixa etária. Ter feito o primeiro não muda o regime do segundo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-primeiro-pleito-aos-dezessete-sem-obrigatoriedade",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "voto-aos-dezessete-facultativo",
+      "mechanism": "primeiro-pleito-aos-dezessete-sem-obrigatoriedade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Facultativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Facultativos"
+      },
+      "statement": "Uma eleitora de dezessete anos votará pela primeira vez. A condição de primeiro pleito converte em obrigatório o voto que, pela idade, seria facultativo.",
+      "correctAnswer": "E",
+      "explanation": "A regra constitucional considera a idade. A condição de estreante não altera a facultatividade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "id": "cam-revisao-adesao-voluntaria-nao-autoriza-retencao-compulsoria",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "associado-permanencia-compulsoria",
+      "mechanism": "adesao-voluntaria-nao-autoriza-retencao-compulsoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Art. 5º: núcleo dos direitos individuais e coletivos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Art. 5º: núcleo dos direitos individuais e coletivos"
+      },
+      "statement": "Uma associação admite que determinada pessoa ingressou voluntariamente, mas a proíbe de desligar-se por tempo indeterminado. A liberdade de associação também protege a decisão de deixar a entidade.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição protege tanto a liberdade de aderir quanto a de não permanecer. O ingresso voluntário não afasta a segunda garantia.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, XX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "id": "cam-revisao-estatuto-nao-torna-permanencia-compulsoria",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "associado-permanencia-compulsoria",
+      "mechanism": "estatuto-nao-torna-permanencia-compulsoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Art. 5º: núcleo dos direitos individuais e coletivos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Art. 5º: núcleo dos direitos individuais e coletivos"
+      },
+      "statement": "A liberdade de associação impede exigir que alguém se filie. Após a filiação, porém, a Constituição permite que o estatuto torne compulsória a permanência do associado.",
+      "correctAnswer": "E",
+      "explanation": "O art. 5º, XX, veda obrigar alguém a associar-se ou a permanecer associado. A garantia alcança a saída.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, XX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Iniciativa legislativa",
+      "id": "cam-revisao-cargo-autarquia-estimativa-nao-sana-iniciativa",
+      "concursoId": "camara-2026",
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "autarquia-cargo-comissao-parlamentar",
+      "mechanism": "cargo-autarquia-estimativa-nao-sana-iniciativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa privativa do presidente: art. 61, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa privativa do presidente: art. 61, § 1º"
+      },
+      "statement": "Um deputado apresenta projeto para criar cargos em autarquia federal e demonstra que há espaço orçamentário. A disponibilidade de recursos não supre a iniciativa privativa do Presidente da República para o projeto.",
+      "correctAnswer": "C",
+      "explanation": "A regra trata da autoria do projeto de criação de cargos na administração federal autárquica. Compatibilidade orçamentária e iniciativa são requisitos distintos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 61, § 1º, II, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Iniciativa legislativa",
+      "id": "cam-revisao-comissao-parlamentar-nao-inicia-cargo-autarquia",
+      "concursoId": "camara-2026",
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "autarquia-cargo-comissao-parlamentar",
+      "mechanism": "comissao-parlamentar-nao-inicia-cargo-autarquia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa privativa do presidente: art. 61, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa privativa do presidente: art. 61, § 1º"
+      },
+      "statement": "Uma comissão da Câmara apresenta projeto de criação de cargos em autarquia federal. Pelo fato de a autoria ser de uma comissão, e não de um deputado isolado, a iniciativa reservada ao Presidente deixa de se aplicar.",
+      "correctAnswer": "E",
+      "explanation": "A regra de iniciativa privativa continua valendo. O caráter colegiado da iniciativa parlamentar não altera a matéria reservada.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 61, § 1º, II, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-alteracao-do-regimento-proprio-pela-camara",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "camara-regimento-proprio",
+      "mechanism": "alteracao-do-regimento-proprio-pela-camara",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "A Câmara decide revisar normas internas aplicáveis apenas à organização de seus trabalhos. A elaboração de seu Regimento Interno é competência privativa da própria Câmara.",
+      "correctAnswer": "C",
+      "explanation": "O art. 51, III, atribui essa competência à Câmara. O Regimento Comum trata de um âmbito institucional distinto.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 51, III, 52, XII, e 57, § 3º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-regimento-comum-nao-substitui-regimento-proprio",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "camara-regimento-proprio",
+      "mechanism": "regimento-comum-nao-substitui-regimento-proprio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "A aprovação de um Regimento Comum pelas duas Casas retira da Câmara a competência para elaborar seu Regimento Interno.",
+      "correctAnswer": "E",
+      "explanation": "A competência para elaborar o Regimento Comum coexiste com a competência privativa de cada Casa para o próprio regimento.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 51, III, 52, XII, e 57, § 3º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-cargos-internos-e-remuneracao-exigem-instrumentos-distintos",
+      "concursoId": "camara-2026",
+      "articleId": "art-a3f905cb76e1428d",
+      "conceptId": "camara-remuneracao-lei-iniciativa-propria",
+      "mechanism": "cargos-internos-e-remuneracao-exigem-instrumentos-distintos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a3f905cb76e1428d#Resolução: três órgãos e três espécies de projeto"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md",
+        "section": "Resolução: três órgãos e três espécies de projeto"
+      },
+      "statement": "Ao reorganizar seus serviços, a Câmara pretende também fixar a remuneração dos cargos. Para essa segunda providência, cabe à Casa a iniciativa de lei específica, observados os parâmetros da LDO.",
+      "correctAnswer": "C",
+      "explanation": "A competência de organizar os serviços é própria da Câmara. A fixação da remuneração exige lei específica de iniciativa da Casa.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 37, X, e 51, IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-camara-resolucao-interna-nao-fixa-remuneracao",
+      "concursoId": "camara-2026",
+      "articleId": "art-a3f905cb76e1428d",
+      "conceptId": "camara-remuneracao-lei-iniciativa-propria",
+      "mechanism": "camara-resolucao-interna-nao-fixa-remuneracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a3f905cb76e1428d#Resolução: três órgãos e três espécies de projeto"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md",
+        "section": "Resolução: três órgãos e três espécies de projeto"
+      },
+      "statement": "A competência privativa da Câmara para organizar seus serviços permite fixar a remuneração dos respectivos cargos apenas por resolução interna.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição distingue a organização interna da fixação de remuneração. Esta última exige lei específica.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 37, X, e 51, IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "id": "cam-revisao-cidadania-classificada-como-fundamento",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "cidadania-fundamento-nao-delegacao",
+      "mechanism": "cidadania-classificada-como-fundamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "statement": "Um texto didático situa a cidadania entre as bases do Estado Democrático de Direito no art. 1º da Constituição. A classificação é correta.",
+      "correctAnswer": "C",
+      "explanation": "A cidadania é um dos fundamentos da República e figura no inciso II do art. 1º.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 1º, II, e 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "id": "cam-revisao-cidadania-nao-consta-da-lista-do-artigo-terceiro",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "cidadania-fundamento-nao-delegacao",
+      "mechanism": "cidadania-nao-consta-da-lista-do-artigo-terceiro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "statement": "A cidadania está expressamente enumerada no art. 3º da Constituição como objetivo fundamental da República, ao lado da redução das desigualdades.",
+      "correctAnswer": "E",
+      "explanation": "A redução das desigualdades consta entre os objetivos do art. 3º. A cidadania está no rol de fundamentos do art. 1º.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 1º, II, e 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-urgencia-superveniente-desloca-apreciacao-conclusiva",
+      "concursoId": "camara-2026",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "comissao-urgencia-efeito-conclusivo",
+      "mechanism": "urgencia-superveniente-desloca-apreciacao-conclusiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "statement": "Um projeto inicialmente distribuído para apreciação conclusiva pelas comissões passa regularmente ao regime de urgência. O novo regime afasta a tramitação conclusiva nas comissões.",
+      "correctAnswer": "C",
+      "explanation": "As proposições em regime de urgência estão entre as exceções do art. 24, II, à dispensa da competência do Plenário.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 24, II, h. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-sem-recurso-nao-restaura-conclusividade-na-urgencia",
+      "concursoId": "camara-2026",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "comissao-urgencia-efeito-conclusivo",
+      "mechanism": "sem-recurso-nao-restaura-conclusividade-na-urgencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "statement": "Um projeto tramita em regime de urgência. A falta de recurso parlamentar torna conclusiva a decisão das comissões e permite dispensar o Plenário.",
+      "correctAnswer": "E",
+      "explanation": "A urgência é exceção própria à apreciação conclusiva. A falta de recurso não elimina o efeito do regime de urgência.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 24, II, h. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-senado-fiscaliza-ato-de-autarquia-federal",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "congresso-controle-administracao-indireta",
+      "mechanism": "senado-fiscaliza-ato-de-autarquia-federal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "O Senado fiscaliza ato do Poder Executivo federal praticado por intermédio de uma autarquia. A natureza indireta da entidade não exclui a fiscalização prevista no art. 49, X.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo abrange atos do Poder Executivo, incluídos os da administração indireta. O controle pode ocorrer pelo Congresso ou por qualquer de suas Casas.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-controle-externo-nao-exige-ato-da-administracao-direta",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "congresso-controle-administracao-indireta",
+      "mechanism": "controle-externo-nao-exige-ato-da-administracao-direta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Para fins do art. 49, X, a Câmara só pode fiscalizar atos praticados por órgãos da administração direta. Atos do Executivo praticados por uma autarquia ficam fora dessa competência.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição inclui expressamente os atos da administração indireta no alcance do controle parlamentar.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "id": "cam-revisao-conscricao-impede-alistamento-apesar-da-maioridade",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "conscrito-impedimento-temporario",
+      "mechanism": "conscricao-impede-alistamento-apesar-da-maioridade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Alistamento eleitoral e voto"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Alistamento eleitoral e voto"
+      },
+      "statement": "Um jovem de dezenove anos ainda não se alistou como eleitor e está no período do serviço militar obrigatório como conscrito. Enquanto durar essa condição, incide o impedimento constitucional ao alistamento eleitoral.",
+      "correctAnswer": "C",
+      "explanation": "O § 2º veda o alistamento do conscrito durante o serviço militar obrigatório. A regra geral de alistamento obrigatório para maiores de dezoito anos não supera o impedimento.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "id": "cam-revisao-fim-da-conscricao-encerra-impedimento-especifico",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "conscrito-impedimento-temporario",
+      "mechanism": "fim-da-conscricao-encerra-impedimento-especifico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Alistamento eleitoral e voto"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Alistamento eleitoral e voto"
+      },
+      "statement": "Encerrado o período de serviço militar obrigatório, o impedimento constitucional ao alistamento eleitoral na condição de conscrito permanece indefinidamente.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição vincula esse impedimento ao período do serviço militar obrigatório. Encerrada a condição, cessa essa vedação específica.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-revisao-depositaria-de-equipamentos-federais-presta-contas",
+      "concursoId": "camara-2026",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "contas-guarda-bem-federal",
+      "mechanism": "depositaria-de-equipamentos-federais-presta-contas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3.1 Abrangência material e subjetiva do controle (CF, art. 70)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3.1 Abrangência material e subjetiva do controle (CF, art. 70)"
+      },
+      "statement": "Uma organização privada recebe equipamentos federais para guarda e não recebe dinheiro público. A guarda dos bens pode sujeitá-la ao dever constitucional de prestar contas.",
+      "correctAnswer": "C",
+      "explanation": "O art. 70, parágrafo único, abrange pessoas privadas que guardem bens públicos. O dever não depende de transferência financeira.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 70, parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-revisao-guarda-de-bens-nao-e-excluida-por-falta-de-verba",
+      "concursoId": "camara-2026",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "contas-guarda-bem-federal",
+      "mechanism": "guarda-de-bens-nao-e-excluida-por-falta-de-verba",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3.1 Abrangência material e subjetiva do controle (CF, art. 70)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3.1 Abrangência material e subjetiva do controle (CF, art. 70)"
+      },
+      "statement": "Uma entidade particular guarda bens da União por instrumento formal. A ausência de repasse em dinheiro exclui, por si só, a prestação de contas sobre esses bens.",
+      "correctAnswer": "E",
+      "explanation": "A norma abrange dinheiro, bens e valores públicos. A guarda dos bens da União constitui fundamento próprio do dever.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 70, parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "portugues",
       "unitId": "lingua-portuguesa",
       "editalRef": "14.2.3 / Língua Portuguesa / gêneros textuais",

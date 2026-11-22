@@ -7607,6 +7607,398 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "id": "cam-revisao-frustracao-bimestral-compromete-meta",
+      "concursoId": "camara-2026",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "arrecadacao-meta-de-resultado",
+      "mechanism": "frustracao-bimestral-compromete-meta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Contingenciamento: art. 9º da LRF"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "statement": "No fechamento do bimestre, a arrecadação projetada indica risco de descumprimento da meta de resultado primário. A limitação de empenho e movimentação financeira deve observar os critérios da LDO e ocorrer nos trinta dias seguintes.",
+      "correctAnswer": "C",
+      "explanation": "O art. 9º toma por referência o risco para a meta apurado no fechamento bimestral e prevê a adoção das medidas em montante necessário.",
+      "reviewEvidence": "Conferência com a seção vinculada e a LRF, art. 9º. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "id": "cam-revisao-frustracao-mensal-dispara-corte-proporcional",
+      "concursoId": "camara-2026",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "arrecadacao-meta-de-resultado",
+      "mechanism": "frustracao-mensal-dispara-corte-proporcional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Contingenciamento: art. 9º da LRF"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "statement": "A receita de um único mês fica abaixo da previsão. Esse fato obriga a limitar automaticamente o empenho no mesmo percentual da frustração, mesmo se a avaliação bimestral indicar preservação das metas fiscais.",
+      "correctAnswer": "E",
+      "explanation": "A limitação prevista no art. 9º depende do risco para as metas identificado na avaliação bimestral. Seu montante é o necessário, conforme os critérios da LDO.",
+      "reviewEvidence": "Conferência com a seção vinculada e a LRF, art. 9º. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "id": "cam-revisao-reforco-orcamentario-sem-reforco-financeiro",
+      "concursoId": "camara-2026",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "dotacao-vs-disponibilidade-caixa",
+      "mechanism": "reforco-orcamentario-sem-reforco-financeiro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação"
+      },
+      "statement": "Um crédito suplementar reforça a dotação destinada a um contrato, mas o cronograma financeiro continua restringindo os desembolsos. O reforço da dotação, por si só, não disponibiliza dinheiro para pagar o contrato.",
+      "correctAnswer": "C",
+      "explanation": "A dotação é autorização orçamentária. O pagamento depende também da execução financeira, sujeita à programação de desembolsos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a LRF, arts. 8º e 9º. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "id": "cam-revisao-saldo-financeiro-nao-substitui-dotacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "dotacao-vs-disponibilidade-caixa",
+      "mechanism": "saldo-financeiro-nao-substitui-dotacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação"
+      },
+      "statement": "Com saldo disponível em caixa, uma unidade pode empenhar despesa acima do saldo da respectiva dotação, desde que reserve dinheiro suficiente para o pagamento.",
+      "correctAnswer": "E",
+      "explanation": "Caixa cobre a dimensão financeira. O empenho continua sujeito ao limite dos créditos concedidos, conforme o art. 59 da Lei nº 4.320/1964.",
+      "reviewEvidence": "Conferência com a seção vinculada e a LRF, arts. 8º e 9º. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei Orçamentária Anual, esferas orçamentárias",
+      "id": "cam-revisao-acao-de-assistencia-integra-seguridade",
+      "concursoId": "camara-2026",
+      "articleId": "art-74d90e9fa1b3452c",
+      "conceptId": "esfera-seguridade-assistencia",
+      "mechanism": "acao-de-assistencia-integra-seguridade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Três orçamentos em uma lei"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md",
+        "section": "Três orçamentos em uma lei"
+      },
+      "statement": "Uma ação federal de assistência social, destinada a famílias em situação de vulnerabilidade, deve ser classificada no orçamento da seguridade social.",
+      "correctAnswer": "C",
+      "explanation": "A assistência integra a seguridade junto com saúde e previdência. A ausência de contribuição prévia dos beneficiários não altera essa classificação.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 165, § 5º, III, e 194. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei Orçamentária Anual, esferas orçamentárias",
+      "id": "cam-revisao-beneficio-assistencial-nao-vai-ao-fiscal-por-ser-nao-contributivo",
+      "concursoId": "camara-2026",
+      "articleId": "art-74d90e9fa1b3452c",
+      "conceptId": "esfera-seguridade-assistencia",
+      "mechanism": "beneficio-assistencial-nao-vai-ao-fiscal-por-ser-nao-contributivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Três orçamentos em uma lei"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md",
+        "section": "Três orçamentos em uma lei"
+      },
+      "statement": "Uma despesa federal com benefício assistencial deve constar do orçamento fiscal porque seus beneficiários não precisam contribuir para recebê-lo.",
+      "correctAnswer": "E",
+      "explanation": "A natureza assistencial é suficiente para o enquadramento na seguridade. A exigência de contribuição diferencia prestações previdenciárias de assistenciais, sem excluir estas da seguridade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 165, § 5º, III, e 194. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "id": "cam-revisao-parecer-favoravel-da-cmo-nao-permite-recesso",
+      "concursoId": "camara-2026",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "recesso-aprovacao-projeto-ldo",
+      "mechanism": "parecer-favoravel-da-cmo-nao-permite-recesso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#PPA, LDO e LOA: três procedimentos, não uma única agenda"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "PPA, LDO e LOA: três procedimentos, não uma única agenda"
+      },
+      "statement": "A Comissão Mista de Orçamento aprovou parecer sobre o projeto de LDO, mas o Congresso ainda não aprovou o projeto. A condição constitucional para interromper a sessão legislativa continua pendente.",
+      "correctAnswer": "C",
+      "explanation": "O art. 57, § 2º, exige aprovação do projeto de LDO. O parecer da comissão é uma etapa da tramitação.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 57, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "id": "cam-revisao-recesso-nao-depende-de-aprovacao-do-ppa",
+      "concursoId": "camara-2026",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "recesso-aprovacao-projeto-ldo",
+      "mechanism": "recesso-nao-depende-de-aprovacao-do-ppa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#PPA, LDO e LOA: três procedimentos, não uma única agenda"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "PPA, LDO e LOA: três procedimentos, não uma única agenda"
+      },
+      "statement": "O Congresso aprovou o projeto de LDO e o projeto de PPA ainda tramita. A pendência do PPA impede a interrupção da sessão legislativa nos termos do art. 57, § 2º.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo condiciona a interrupção à aprovação do projeto de LDO. Ele não impõe a mesma condição ao projeto de PPA.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 57, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-vigencia-apos-consumacao-do-prazo",
+      "concursoId": "camara-2026",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "publicacao-periodo-expresso-imediata",
+      "mechanism": "vigencia-apos-consumacao-do-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Publicação, vigência e vacatio legis"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Publicação, vigência e vacatio legis"
+      },
+      "statement": "Uma lei estabelece que entra em vigor após decorridos dez dias da publicação oficial, ocorrida no dia 4. Incluídos o dia da publicação e o último dia do prazo, a vigência começa no dia 14.",
+      "correctAnswer": "C",
+      "explanation": "O dia 4 é o primeiro de dez dias e o dia 13 é o décimo. Pelo art. 8º, § 1º, a lei começa a vigorar no dia seguinte.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Lei Complementar nº 95/1998, art. 8º. https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-publicacao-nao-elimina-vacancia-expressa",
+      "concursoId": "camara-2026",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "publicacao-periodo-expresso-imediata",
+      "mechanism": "publicacao-nao-elimina-vacancia-expressa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Publicação, vigência e vacatio legis"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Publicação, vigência e vacatio legis"
+      },
+      "statement": "Uma lei publicada no dia 10 estabelece vigência após decorridos vinte dias de sua publicação oficial. Por já estar disponível ao público, a lei começa a vigorar no próprio dia 10.",
+      "correctAnswer": "E",
+      "explanation": "A publicação divulga o texto e inicia a contagem da vacância. Quando há vacância expressa, a vigência começa após o prazo integral.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Lei Complementar nº 95/1998, art. 8º. https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-restritiva-seleciona-relatorios-assinados",
+      "concursoId": "camara-2026",
+      "articleId": "art-33566ad5fe490701",
+      "conceptId": "restritiva-delimita-subconjunto",
+      "mechanism": "restritiva-seleciona-relatorios-assinados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-33566ad5fe490701#3. Orações Subordinadas Adjetivas: Restrição $\\times$ Explicação e Pronomes Relativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md",
+        "section": "3. Orações Subordinadas Adjetivas: Restrição $\\times$ Explicação e Pronomes Relativos"
+      },
+      "statement": "Em “A comissão arquivou os relatórios que estavam assinados”, a oração introduzida por “que” delimita quais relatórios foram arquivados.",
+      "correctAnswer": "C",
+      "explanation": "A oração adjetiva restritiva seleciona os relatórios que atendem ao critério da assinatura.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre orações adjetivas. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-virgulas-mudam-escopo-da-regra-de-acesso",
+      "concursoId": "camara-2026",
+      "articleId": "art-33566ad5fe490701",
+      "conceptId": "restritiva-delimita-subconjunto",
+      "mechanism": "virgulas-mudam-escopo-da-regra-de-acesso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-33566ad5fe490701#3. Orações Subordinadas Adjetivas: Restrição $\\times$ Explicação e Pronomes Relativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md",
+        "section": "3. Orações Subordinadas Adjetivas: Restrição $\\times$ Explicação e Pronomes Relativos"
+      },
+      "statement": "Em “Os servidores que concluíram o curso terão acesso ao sistema”, inserir vírgulas em torno de “que concluíram o curso” preserva a conclusão do curso como condição de acesso.",
+      "correctAnswer": "E",
+      "explanation": "Com vírgulas, a oração é explicativa e apresenta a conclusão do curso como informação sobre o conjunto dos servidores referido. Sem vírgulas, restringe o grupo que terá acesso.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre orações adjetivas. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-saude-social-com-dever-estatal",
+      "concursoId": "camara-2026",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "saude-direito-social",
+      "mechanism": "saude-social-com-dever-estatal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#1. O Catálogo do Artigo 6º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "1. O Catálogo do Artigo 6º"
+      },
+      "statement": "Uma ação estatal de prevenção de doenças se relaciona à efetivação de um direito social expressamente previsto na Constituição.",
+      "correctAnswer": "C",
+      "explanation": "A saúde consta no art. 6º, e o art. 196 prevê políticas voltadas à redução do risco de doenças e ao acesso a ações e serviços de saúde.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 6º e 196. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-direito-a-saude-independe-de-filiacao-previdenciaria",
+      "concursoId": "camara-2026",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "saude-direito-social",
+      "mechanism": "direito-a-saude-independe-de-filiacao-previdenciaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#1. O Catálogo do Artigo 6º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "1. O Catálogo do Artigo 6º"
+      },
+      "statement": "Uma pessoa sem filiação previdenciária fica fora do direito de acesso às ações e serviços públicos de saúde, pois a saúde pertence à seguridade social.",
+      "correctAnswer": "E",
+      "explanation": "O art. 196 prevê acesso universal e igualitário às ações e serviços de saúde. A participação da saúde na seguridade não torna seu acesso condicionado à filiação previdenciária.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 6º e 196. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",

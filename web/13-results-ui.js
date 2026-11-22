@@ -656,6 +656,27 @@ function renderStudyModes(byMode) {
  }
  target.append(heading,list);
 }
+function observedAccuracyPeriods(data,today){
+ const weeks=data?.weekly?.weeks;
+ if(!Array.isArray(weeks)||!/^\d{4}-\d{2}-\d{2}$/.test(today))return {week:null,month:null,available:false};
+ const now=new Date(today+'T12:00:00Z');
+ const monday=new Date(now);
+ monday.setUTCDate(now.getUTCDate()-(now.getUTCDay()+6)%7);
+ const weekStart=monday.toISOString().slice(0,10),monthStart=today.slice(0,7)+'-01';
+ const sums={week:{correct:0,incorrect:0},month:{correct:0,incorrect:0}},seen=new Set();
+ for(const period of weeks)for(const day of (Array.isArray(period?.days)?period.days:[])){
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(day?.date)||day.date>today||seen.has(day.date))continue;
+  seen.add(day.date);
+  if(day.date<weekStart&&day.date<monthStart)continue;
+  const subjects=Array.isArray(day.subjects)?day.subjects:[];
+  const correct=subjects.reduce((n,x)=>n+(Number(x.correct)||0),0);
+  const incorrect=subjects.reduce((n,x)=>n+(Number(x.incorrect)||0),0);
+  if(day.date>=weekStart){sums.week.correct+=correct;sums.week.incorrect+=incorrect;}
+  if(day.date>=monthStart){sums.month.correct+=correct;sums.month.incorrect+=incorrect;}
+ }
+ const rate=x=>x.correct+x.incorrect?Math.round(1000*x.correct/(x.correct+x.incorrect))/10:null;
+ return {week:rate(sums.week),month:rate(sums.month),available:true};
+}
 function render(){
  if(!current)return;
  renderAdaptive(current.adaptive);
@@ -663,9 +684,14 @@ function render(){
  renderPrincipleHistory(current.adaptive);
  const summary=current.summary||{},source=current.sources||{};
  const valid=summary.valid||0;
+ const today=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo'}).format(new Date());
+ const periods=observedAccuracyPeriods(current,today);
+ const rate=value=>!periods.available?'Indisponível':value===null?'Sem amostra':value+'%';
  $('results-stats').replaceChildren(
   stat('Questões respondidas',valid),
-  stat('Acerto observado',summary.accuracy===null?'Sem amostra':summary.accuracy+'%'),
+  stat('Acerto observado · total',summary.accuracy==null?'Sem amostra':summary.accuracy+'%'),
+  stat('Acerto observado · semana',rate(periods.week)),
+  stat('Acerto observado · mês',rate(periods.month)),
   ...(current.adaptive ? [
    stat('Revisões pendentes',current.adaptive.principles.filter(p => p.state === 'review-pending').length),
    stat('Acertos inseguros',current.adaptive.insecureCorrect)

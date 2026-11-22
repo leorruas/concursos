@@ -7607,6 +7607,454 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-mesa-aplica-censura-escrita-solicitada",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-reincidencia-competencia",
+      "mechanism": "mesa-aplica-censura-escrita-solicitada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Em caso de reincidência em conduta sujeita a censura verbal, a presidência da comissão solicita a censura escrita. A solicitação provoca a atuação da Mesa, a quem compete aplicar a penalidade.",
+      "correctAnswer": "C",
+      "explanation": "O Código distingue o pedido feito pelo presidente da comissão da aplicação de censura escrita pela Mesa.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 12. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-censura-escrita-nao-se-torna-ato-da-comissao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-reincidencia-competencia",
+      "mechanism": "censura-escrita-nao-se-torna-ato-da-comissao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "A comissão identifica reincidência em conduta sujeita a censura verbal. Por ter ocorrido durante seus trabalhos, cabe ao colegiado aplicar diretamente a censura escrita, ainda que a Mesa não atue.",
+      "correctAnswer": "E",
+      "explanation": "O local da conduta não desloca a competência. A censura escrita cabe à Mesa.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 12. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação de textos",
+      "id": "cam-revisao-negacao-de-abandonar-atividade-anterior",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "continuidade-sob-negacao",
+      "mechanism": "negacao-de-abandonar-atividade-anterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "Em “O laboratório não deixou de revisar as amostras durante a mudança”, se a expressão “deixar de” for entendida como interromper uma rotina, a negação preserva a pressuposição de que o laboratório já revisava as amostras.",
+      "correctAnswer": "C",
+      "explanation": "A leitura de interrupção toma a rotina anterior como dada. A negação recai sobre a interrupção.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre pressuposição. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação de textos",
+      "id": "cam-revisao-negacao-interrupcao-nao-apaga-rotina",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "continuidade-sob-negacao",
+      "mechanism": "negacao-interrupcao-nao-apaga-rotina",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "Em “O setor não deixou de receber pedidos durante a reforma”, sob a leitura de que se trata da continuidade de uma rotina, a negação elimina a informação pressuposta de que o setor já recebia pedidos.",
+      "correctAnswer": "E",
+      "explanation": "Essa leitura toma o recebimento anterior como dado. O que se nega é a interrupção da rotina.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre pressuposição. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "id": "cam-revisao-hc-gratuito-apesar-de-renda",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "hc-gratuidade-independe-pobreza",
+      "mechanism": "hc-gratuito-apesar-de-renda",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas corpus — HC"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas corpus — HC"
+      },
+      "statement": "Um paciente com renda elevada é beneficiário de habeas corpus. A gratuidade constitucional da ação permanece aplicável embora ele não se enquadre como reconhecidamente pobre.",
+      "correctAnswer": "C",
+      "explanation": "O inciso LXXVII assegura a gratuidade do habeas corpus sem condicionar o benefício à renda.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXXVI e LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "id": "cam-revisao-hc-registro-civil-condicoes-distintas",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "hc-gratuidade-independe-pobreza",
+      "mechanism": "hc-registro-civil-condicoes-distintas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas corpus — HC"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas corpus — HC"
+      },
+      "statement": "A Constituição condiciona a gratuidade do habeas corpus e a gratuidade do registro civil de nascimento prevista no art. 5º, LXXVI, à mesma demonstração de pobreza.",
+      "correctAnswer": "E",
+      "explanation": "A condição de pobreza consta do inciso LXXVI. A gratuidade do habeas corpus consta do inciso LXXVII e segue regra própria.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXXVI e LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "id": "cam-revisao-militar-eleito-diplomacao-antes-da-posse",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "militar-agregado-diplomacao",
+      "mechanism": "militar-eleito-diplomacao-antes-da-posse",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Uma militar alistável com quinze anos de serviço, agregada durante a candidatura, é eleita e diplomada. Ela passa automaticamente à inatividade com a diplomação, ainda que a posse só venha a ocorrer depois.",
+      "correctAnswer": "C",
+      "explanation": "A diplomação, e não a posse, é o marco constitucional da passagem automática à inatividade para a militar eleita nessa hipótese.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 8º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "id": "cam-revisao-militar-resultado-sem-diplomacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "militar-agregado-diplomacao",
+      "mechanism": "militar-resultado-sem-diplomacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Um militar alistável com quatorze anos de serviço, agregado para disputar eleição, tem a vitória proclamada, mas ainda não foi diplomado. A divulgação do resultado basta para produzir a passagem automática à inatividade prevista no art. 14.",
+      "correctAnswer": "E",
+      "explanation": "A proclamação do resultado não substitui a diplomação. A Constituição fixa a diplomação como marco da inatividade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 8º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da ortografia oficial",
+      "id": "cam-revisao-inter-relacao-preserva-hifen",
+      "concursoId": "camara-2026",
+      "articleId": "art-f0bd45f90ed9276a",
+      "conceptId": "prefixo-inter-antes-r",
+      "mechanism": "inter-relacao-preserva-hifen",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f0bd45f90ed9276a#3. Hifenização com Prefixos no Acordo Ortográfico"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao.md",
+        "section": "3. Hifenização com Prefixos no Acordo Ortográfico"
+      },
+      "statement": "O hífen em “inter-relação” é compatível com a regra de formação com “inter-” diante de um elemento iniciado por “r”.",
+      "correctAnswer": "C",
+      "explanation": "A formação reúne “inter-” e “relação”. A fronteira entre os dois elementos é marcada por hífen.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção de hifenização. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da ortografia oficial",
+      "id": "cam-revisao-intermunicipal-sem-hifen",
+      "concursoId": "camara-2026",
+      "articleId": "art-f0bd45f90ed9276a",
+      "conceptId": "prefixo-inter-antes-r",
+      "mechanism": "intermunicipal-sem-hifen",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f0bd45f90ed9276a#3. Hifenização com Prefixos no Acordo Ortográfico"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao.md",
+        "section": "3. Hifenização com Prefixos no Acordo Ortográfico"
+      },
+      "statement": "A grafia “inter-municipal” é obrigatória porque o prefixo “inter-” deve ser separado por hífen antes de qualquer consoante.",
+      "correctAnswer": "E",
+      "explanation": "O elemento “municipal” começa por “m”. A regra aplicável a “inter-” diante de “r” não se estende a qualquer consoante. A grafia é “intermunicipal”.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção de hifenização. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-reforma-codigo-duas-sessoes-em-cada-turno",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "reforma-codigo-etica-minimo-em-cada-turno",
+      "mechanism": "reforma-codigo-duas-sessoes-em-cada-turno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Alteração do próprio Código de Ética (art. 19)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Alteração do próprio Código de Ética (art. 19)"
+      },
+      "statement": "Um projeto de alteração do Código de Ética é discutido em duas sessões no primeiro turno e duas no segundo. Quanto ao número mínimo de sessões de discussão, o procedimento atende à regra aplicável.",
+      "correctAnswer": "C",
+      "explanation": "O mínimo é aferido em cada turno. Duas sessões no primeiro e duas no segundo atendem a esse requisito.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 19, e o RICD, art. 216. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-reforma-codigo-sessoes-total-nao-substitui-distribuicao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "reforma-codigo-etica-minimo-em-cada-turno",
+      "mechanism": "reforma-codigo-sessoes-total-nao-substitui-distribuicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Alteração do próprio Código de Ética (art. 19)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Alteração do próprio Código de Ética (art. 19)"
+      },
+      "statement": "Na alteração do Código de Ética, a discussão ocorre em uma sessão no primeiro turno e em quatro no segundo. O total de cinco sessões é suficiente para sanar a falta da segunda sessão de discussão no primeiro turno.",
+      "correctAnswer": "E",
+      "explanation": "O requisito é de no mínimo duas sessões por turno. Sessões adicionais de um turno não compensam a insuficiência do outro.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 19, e o RICD, art. 216. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-regulamento-conselho-encaminhado-ccjc",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "regulamento-aprovado-ccj",
+      "mechanism": "regulamento-conselho-encaminhado-ccjc",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      },
+      "statement": "Um texto sobre a organização dos trabalhos do Conselho de Ética é encaminhado à Comissão de Constituição e Justiça e de Cidadania para aprovação. A indicação dessa comissão como órgão aprovador é compatível com o Código.",
+      "correctAnswer": "C",
+      "explanation": "O art. 8º atribui à CCJC a aprovação do regulamento específico do Conselho.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 8º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-autonomia-do-conselho-nao-transfere-aprovacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "regulamento-aprovado-ccj",
+      "mechanism": "autonomia-do-conselho-nao-transfere-aprovacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      },
+      "statement": "O Conselho de Ética considera que, por ser destinatário do próprio regulamento de funcionamento, pode substituir a Comissão de Constituição e Justiça e de Cidadania na aprovação prevista no Código. Essa substituição é admissível.",
+      "correctAnswer": "E",
+      "explanation": "A condição de destinatário do regulamento não altera a competência de aprovação atribuída à CCJC.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 8º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-finalidade-nao-confirma-entrega",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "finalidade-trocada-por-consequencia",
+      "mechanism": "finalidade-nao-confirma-entrega",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#5. Casos Práticos na Reescrita e Interpretação"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "5. Casos Práticos na Reescrita e Interpretação"
+      },
+      "statement": "Em “O setor ampliou o horário para que mais pessoas conseguissem atendimento”, a oração subordinada exprime uma finalidade. A frase não assegura que o número de atendidos aumentou.",
+      "correctAnswer": "C",
+      "explanation": "A construção com “para que” apresenta a meta da ação. A realização efetiva da meta precisaria ser demonstrada separadamente.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção de reescrita vinculada. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-efeito-ocorrido-trocado-por-objetivo",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "finalidade-trocada-por-consequencia",
+      "mechanism": "efeito-ocorrido-trocado-por-objetivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#5. Casos Práticos na Reescrita e Interpretação"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "5. Casos Práticos na Reescrita e Interpretação"
+      },
+      "statement": "Em “O vento apagou as luzes, de modo que a apresentação foi interrompida”, a substituição da segunda oração por “para que a apresentação fosse interrompida” mantém a relação semântica de consequência.",
+      "correctAnswer": "E",
+      "explanation": "Na versão original, a interrupção é apresentada como resultado da falta de luz. A versão com “para que” introduz uma finalidade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção de reescrita vinculada. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",

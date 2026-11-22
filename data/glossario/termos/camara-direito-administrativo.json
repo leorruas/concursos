@@ -2518,6 +2518,263 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da16-tipologia",
+      "term": "Tipologia dos atos administrativos",
+      "aliases": [
+        "classificação dos atos administrativos",
+        "espécies de atos administrativos",
+        "NONEP"
+      ],
+      "definition": "É o conjunto de critérios doutrinários usados para classificar atos administrativos. Um mesmo ato pode ser geral ou individual, vinculado ou discricionário, simples, complexo ou composto, e também ser descrito por sua finalidade: normativo, ordinatório, negocial, enunciativo ou punitivo.",
+      "contrast": "Os critérios de classificação se acumulam; as cinco espécies do mnemônico NONEP descrevem principalmente conteúdo e função, não a quantidade de órgãos que participaram da formação do ato.",
+      "cebraspeTrap": "Afirmar que um ato individual não pode ser vinculado ou que uma portaria necessariamente pertence a uma espécie apenas pelo nome.",
+      "example": "Uma licença urbanística pode ser simultaneamente individual, vinculada e negocial.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Material de Direito Administrativo: classificações e espécies de atos; doutrina administrativa",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-atos-normativos",
+      "term": "Atos normativos administrativos",
+      "aliases": [
+        "ato normativo",
+        "espécie normativa administrativa"
+      ],
+      "definition": "Espécie de ato administrativo que veicula comandos gerais e abstratos dentro da competência normativa da Administração, a exemplo de regulamentos de execução e instruções normativas com alcance geral.",
+      "contrast": "Ato normativo contém disciplina geral; ato ordinatório organiza atividades e orientações internas. Uma instrução normativa pode ser normativa apesar do nome 'instrução'.",
+      "cebraspeTrap": "Supor que ato normativo administrativo pode contrariar lei ou que todo decreto necessariamente possui caráter autônomo.",
+      "example": "Um regulamento executivo detalha a aplicação de exigências previstas em lei sem criar restrição incompatível com ela.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Material de Direito Administrativo: classificações e espécies de atos; doutrina administrativa",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-atos-ordinatorios",
+      "term": "Atos ordinatórios",
+      "aliases": [
+        "ato ordinatório",
+        "ordem de serviço administrativa"
+      ],
+      "definition": "Espécie de ato voltada à organização do funcionamento interno da Administração e à orientação de seus agentes, ligada ao poder hierárquico, como determinadas ordens de serviço e instruções internas.",
+      "contrast": "Em regra, o ordinatório disciplina o funcionamento interno, enquanto o normativo veicula prescrições gerais; o título 'portaria' ou 'instrução' não resolve sozinho a classificação.",
+      "cebraspeTrap": "Atribuir a uma ordem interna de serviço poder geral de impor deveres a qualquer cidadão sem fundamento legal.",
+      "example": "A chefia distribui tarefas e estabelece rotinas de atendimento para os servidores de sua unidade.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Material de Direito Administrativo: classificações e espécies de atos; doutrina administrativa",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-atos-negociais",
+      "term": "Atos negociais",
+      "aliases": [
+        "ato negocial",
+        "licença e autorização administrativas"
+      ],
+      "definition": "Espécie tradicional de ato pela qual a Administração consente ou reconhece a possibilidade de o particular exercer atividade ou praticar ato conforme o regime jurídico, como licença e autorização.",
+      "contrast": "Licença pode ser vinculada quando preenchidos os requisitos; autorização frequentemente envolve discricionariedade. 'Negocial' não significa contrato bilateral nem liberdade irrestrita de negociação.",
+      "cebraspeTrap": "Declarar que toda licença é discricionária e precária, ou que ato negocial equivale a contrato administrativo.",
+      "example": "Uma licença para construir deve ser concedida quando todos os requisitos urbanísticos legalmente exigidos estiverem cumpridos.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Material de Direito Administrativo: classificações e espécies de atos; doutrina administrativa",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-atos-enunciativos",
+      "term": "Atos enunciativos",
+      "aliases": [
+        "ato enunciativo",
+        "certidão administrativa",
+        "atestado administrativo"
+      ],
+      "definition": "Espécie de ato que certifica, atesta ou registra situação ou fato conhecido pela Administração, sem criar, por si, o fato certificado; certidões e atestados são exemplos típicos.",
+      "contrast": "Ato enunciativo atesta informação; constitutivo cria, modifica ou extingue situação jurídica. Parecer técnico em regra expressa avaliação, cujo efeito depende de seu regime.",
+      "cebraspeTrap": "Considerar que uma certidão de tempo de serviço cria retroativamente os anos trabalhados ou que todo parecer obriga a autoridade a segui-lo.",
+      "example": "Uma certidão funcional informa o tempo de serviço constante dos registros de pessoal.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Material de Direito Administrativo: classificações e espécies de atos; doutrina administrativa",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-atos-punitivos",
+      "term": "Atos punitivos",
+      "aliases": [
+        "ato punitivo",
+        "sanção administrativa como ato"
+      ],
+      "definition": "Espécie de ato que aplica sanção prevista em lei ou norma válida após a apuração pertinente, como multa administrativa, advertência ou penalidade disciplinar.",
+      "contrast": "Ato punitivo exige competência, base jurídica e garantias procedimentais; sua natureza sancionatória não torna toda multa autoexecutória por penhora direta de bens.",
+      "cebraspeTrap": "Supor que toda sanção pode ser imposta sem contraditório ou cobrada coercitivamente pela Administração sem o procedimento legal.",
+      "example": "Após processo regular, autoridade competente aplica multa administrativa pela infração comprovada.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Material de Direito Administrativo: classificações e espécies de atos; doutrina administrativa",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-vinculados-discricionarios",
+      "term": "Atos vinculados e discricionários",
+      "aliases": [
+        "ato vinculado",
+        "ato discricionário",
+        "classificação pela liberdade decisória"
+      ],
+      "definition": "Quanto à margem de escolha da autoridade, o ato é vinculado quando a norma fixa a consequência preenchidos os requisitos, ou discricionário quando admite escolha juridicamente delimitada sobre aspectos da decisão.",
+      "contrast": "Discricionariedade não dispensa motivação quando exigida nem afasta controle de legalidade e proporcionalidade; vinculação não elimina a avaliação técnica dos fatos.",
+      "cebraspeTrap": "Afirmar que ato discricionário é imune ao Judiciário ou que licença vinculada pode ser recusada por mera conveniência.",
+      "example": "Licença urbanística que atende aos requisitos é vinculada; autorização precária de uso de praça pode admitir escolha de conveniência nos limites legais.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Material de Direito Administrativo: classificações e espécies de atos; doutrina administrativa",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-gerais-individuais",
+      "term": "Atos gerais e individuais",
+      "aliases": [
+        "ato geral",
+        "ato individual",
+        "classificação por destinatários"
+      ],
+      "definition": "Classificação segundo os destinatários: ato geral dirige-se a destinatários indeterminados em uma situação definida; ato individual alcança pessoa ou situação concretamente individualizada.",
+      "contrast": "A generalidade do destinatário não determina, sozinha, superioridade hierárquica. Um ato individual pode ter grande impacto, mas continua individual pelos destinatários.",
+      "cebraspeTrap": "Classificar uma nomeação de servidor como ato geral porque foi publicada oficialmente, ou supor que toda norma geral tem hierarquia superior por ser geral.",
+      "example": "Edital dirigido a candidatos indeterminados tem caráter geral; portaria que nomeia uma pessoa identificada é individual.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Material de Direito Administrativo: classificações e espécies de atos; doutrina administrativa",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-constitutivos-declaratorios",
+      "term": "Atos constitutivos e declaratórios",
+      "aliases": [
+        "ato constitutivo",
+        "ato declaratório",
+        "classificação pelos efeitos jurídicos"
+      ],
+      "definition": "Quanto aos efeitos jurídicos, ato constitutivo cria, altera ou extingue situação jurídica; ato declaratório reconhece situação jurídica já existente, observados o regime e a eficácia temporal aplicáveis.",
+      "contrast": "Enunciativo atesta fatos ou dados, enquanto declaratório reconhece situação jurídica; não se pode presumir que todo ato declaratório tenha efeitos retroativos sem examinar sua norma.",
+      "cebraspeTrap": "Afirmar que todo ato declaratório retroage automaticamente ou que uma certidão constitui o direito material que apenas documenta.",
+      "example": "Uma decisão pode constituir nova situação jurídica; outra pode reconhecer condição jurídica anterior prevista em lei.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Material de Direito Administrativo: classificações e espécies de atos; doutrina administrativa",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ]
     }
   ]
 }

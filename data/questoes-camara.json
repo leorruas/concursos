@@ -7608,6 +7608,510 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da ortografia oficial",
+      "id": "cam-revisao-tem-circunflexo-com-nucleos-coordenados",
+      "concursoId": "camara-2026",
+      "articleId": "art-f0bd45f90ed9276a",
+      "conceptId": "acentuacao-tem-sujeito-composto",
+      "mechanism": "tem-circunflexo-com-nucleos-coordenados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f0bd45f90ed9276a#2. Acentuação Gráfica: Sistema de Regras e Fundamentação Fonológica"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao.md",
+        "section": "2. Acentuação Gráfica: Sistema de Regras e Fundamentação Fonológica"
+      },
+      "statement": "A palavra “têm” recebe acento circunflexo em “A secretaria e a ouvidoria têm acesso ao cadastro” porque concorda com sujeito composto que antecede o verbo.",
+      "correctAnswer": "C",
+      "explanation": "Os dois núcleos unidos por “e” levam o verbo à terceira pessoa do plural, cuja forma é “têm”.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre acentuação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da ortografia oficial",
+      "id": "cam-revisao-tem-sem-acento-em-sujeito-singular-com-adjunto-plural",
+      "concursoId": "camara-2026",
+      "articleId": "art-f0bd45f90ed9276a",
+      "conceptId": "acentuacao-tem-sujeito-composto",
+      "mechanism": "tem-sem-acento-em-sujeito-singular-com-adjunto-plural",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f0bd45f90ed9276a#2. Acentuação Gráfica: Sistema de Regras e Fundamentação Fonológica"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao.md",
+        "section": "2. Acentuação Gráfica: Sistema de Regras e Fundamentação Fonológica"
+      },
+      "statement": "Em “O relatório das comissões tem duas versões”, a forma “tem” deveria receber circunflexo para concordar com “comissões”.",
+      "correctAnswer": "E",
+      "explanation": "O núcleo do sujeito é “relatório”, no singular. O termo “das comissões” modifica o núcleo e não determina a concordância.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre acentuação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-ou-com-consequencia-de-nao-agir",
+      "concursoId": "camara-2026",
+      "articleId": "art-cd7059fe8508b9d0",
+      "conceptId": "alternancia-com-prazo-condicional",
+      "mechanism": "ou-com-consequencia-de-nao-agir",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cd7059fe8508b9d0#2. As Cinco Modalidades de Orações Coordenadas Sindéticas"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas.md",
+        "section": "2. As Cinco Modalidades de Orações Coordenadas Sindéticas"
+      },
+      "statement": "Em “Envie o comprovante até sexta-feira ou a inscrição será cancelada”, a segunda oração indica o que ocorrerá caso a exigência da primeira não seja cumprida.",
+      "correctAnswer": "C",
+      "explanation": "A conjunção é alternativa, mas a relação contextual permite a paráfrase “Se não enviar o comprovante até sexta-feira, a inscrição será cancelada”.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre coordenação sindética. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-ou-em-aviso-nao-oferece-escolhas-igualmente-livres",
+      "concursoId": "camara-2026",
+      "articleId": "art-cd7059fe8508b9d0",
+      "conceptId": "alternancia-com-prazo-condicional",
+      "mechanism": "ou-em-aviso-nao-oferece-escolhas-igualmente-livres",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cd7059fe8508b9d0#2. As Cinco Modalidades de Orações Coordenadas Sindéticas"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas.md",
+        "section": "2. As Cinco Modalidades de Orações Coordenadas Sindéticas"
+      },
+      "statement": "Em “Regularize o cadastro até amanhã ou seu acesso será suspenso”, a conjunção “ou” apresenta duas ações que o destinatário pode realizar livremente, sem relação de condição e consequência.",
+      "correctAnswer": "E",
+      "explanation": "O destinatário pode regularizar o cadastro. A suspensão é consequência prevista para o descumprimento do prazo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre coordenação sindética. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / significação e reescrita de frases",
+      "id": "cam-revisao-com-lanterna-pode-caracterizar-ou-indicar-meio",
+      "concursoId": "camara-2026",
+      "articleId": "art-569c69df60f66dfd",
+      "conceptId": "ambiguidade-adjunto-instrumento",
+      "mechanism": "com-lanterna-pode-caracterizar-ou-indicar-meio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-569c69df60f66dfd#4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md",
+        "section": "4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      },
+      "statement": "Em “A guarda localizou a ciclista com a lanterna”, sem contexto adicional, o segmento “com a lanterna” pode indicar tanto o instrumento usado pela guarda quanto um objeto portado pela ciclista.",
+      "correctAnswer": "C",
+      "explanation": "A ambiguidade decorre da possibilidade de ligar a expressão ao verbo “localizou” ou ao nome “ciclista”.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre ambiguidade estrutural. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / significação e reescrita de frases",
+      "id": "cam-revisao-portava-reescrita-fixa-posse-em-vez-de-instrumento",
+      "concursoId": "camara-2026",
+      "articleId": "art-569c69df60f66dfd",
+      "conceptId": "ambiguidade-adjunto-instrumento",
+      "mechanism": "portava-reescrita-fixa-posse-em-vez-de-instrumento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-569c69df60f66dfd#4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md",
+        "section": "4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      },
+      "statement": "Reescrever “O agente observou a pesquisadora com o binóculo” como “O agente observou a pesquisadora que portava o binóculo” mantém aberta a leitura de que o agente usou o instrumento.",
+      "correctAnswer": "E",
+      "explanation": "A oração relativa atribui à pesquisadora o ato de portar o binóculo. A reescrita resolve a ambiguidade em favor dessa leitura.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre ambiguidade estrutural. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-assistiram-a-apresentacao-regencia-e-crase",
+      "concursoId": "camara-2026",
+      "articleId": "art-0cb14544830d0b6d",
+      "conceptId": "assistir-sentido-de-presenciar",
+      "mechanism": "assistiram-a-apresentacao-regencia-e-crase",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cb14544830d0b6d#3. Repertório estratégico de regência verbal: transitividade e mudança de sentido"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos.md",
+        "section": "3. Repertório estratégico de regência verbal: transitividade e mudança de sentido"
+      },
+      "statement": "Em “Os conselheiros assistiram à apresentação”, a regência de “assistiram”, empregado no sentido de “presenciar”, explica a preposição que se combina com o artigo de “apresentação”.",
+      "correctAnswer": "C",
+      "explanation": "Na regência tradicional cobrada em prova, quem assiste no sentido de presenciar assiste a algo. A preposição “a” encontra o artigo feminino “a”.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre regência verbal. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-assistir-palestra-objeto-direto-na-regencia-tradicional",
+      "concursoId": "camara-2026",
+      "articleId": "art-0cb14544830d0b6d",
+      "conceptId": "assistir-sentido-de-presenciar",
+      "mechanism": "assistir-palestra-objeto-direto-na-regencia-tradicional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cb14544830d0b6d#3. Repertório estratégico de regência verbal: transitividade e mudança de sentido"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos.md",
+        "section": "3. Repertório estratégico de regência verbal: transitividade e mudança de sentido"
+      },
+      "statement": "Na regência tradicional, “Os servidores assistiram a uma palestra” contém objeto direto, pois “assistir”, no sentido de presenciar, dispensa preposição.",
+      "correctAnswer": "E",
+      "explanation": "O “a” antes de “uma palestra” é preposição exigida por “assistir” no sentido de presenciar. O complemento é objeto indireto.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre regência verbal. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / conectores e relações lógico-semânticas",
+      "id": "cam-revisao-conforme-protocolo-estabelecia-indica-conformidade",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "conforme-protocolo",
+      "mechanism": "conforme-protocolo-estabelecia-indica-conformidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3.3. Relação de Conformidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3.3. Relação de Conformidade"
+      },
+      "statement": "Em “Os técnicos registraram as medições conforme o protocolo estabelecia”, a oração introduzida por “conforme” indica que o procedimento seguiu o protocolo.",
+      "correctAnswer": "C",
+      "explanation": "A oração informa o padrão observado no registro. A relação é de conformidade.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre orações conformativas. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / conectores e relações lógico-semânticas",
+      "id": "cam-revisao-conforme-orienta-nao-indica-causa-do-registro",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "conforme-protocolo",
+      "mechanism": "conforme-orienta-nao-indica-causa-do-registro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3.3. Relação de Conformidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3.3. Relação de Conformidade"
+      },
+      "statement": "Em “O relatório foi arquivado conforme orientava o manual”, o segmento introduzido por “conforme” explica a causa que levou ao arquivamento.",
+      "correctAnswer": "E",
+      "explanation": "A oração informa o padrão que foi seguido no arquivamento. Uma explicação de causa diria por que houve arquivamento, por exemplo, porque a análise havia terminado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre orações conformativas. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-dois-objetos-coordenados-com-um-verbo",
+      "concursoId": "camara-2026",
+      "articleId": "art-cd7059fe8508b9d0",
+      "conceptId": "coordenacao-entre-complementos",
+      "mechanism": "dois-objetos-coordenados-com-um-verbo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cd7059fe8508b9d0#5A. Coordenação entre termos: além das orações"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas.md",
+        "section": "5A. Coordenação entre termos: além das orações"
+      },
+      "statement": "Em “O fiscal examinou o contrato e os anexos”, a conjunção liga dois complementos de “examinou” dentro da mesma oração.",
+      "correctAnswer": "C",
+      "explanation": "“O contrato” e “os anexos” são termos coordenados que exercem a mesma função de objeto direto.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre coordenação entre termos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-e-entre-adjetivos-nao-introduz-segunda-oracao",
+      "concursoId": "camara-2026",
+      "articleId": "art-cd7059fe8508b9d0",
+      "conceptId": "coordenacao-entre-complementos",
+      "mechanism": "e-entre-adjetivos-nao-introduz-segunda-oracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cd7059fe8508b9d0#5A. Coordenação entre termos: além das orações"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas.md",
+        "section": "5A. Coordenação entre termos: além das orações"
+      },
+      "statement": "Em “A comissão aprovou um relatório claro e conciso”, a conjunção “e” inicia uma segunda oração coordenada.",
+      "correctAnswer": "E",
+      "explanation": "A conjunção liga dois adjetivos que caracterizam “relatório”. A frase tem um único verbo e uma única oração.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre coordenação entre termos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-referir-se-aquele-preposicao-e-demonstrativo",
+      "concursoId": "camara-2026",
+      "articleId": "art-3f8cfa8b8d43c2bd",
+      "conceptId": "crase-demonstrativo-aquele",
+      "mechanism": "referir-se-aquele-preposicao-e-demonstrativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3f8cfa8b8d43c2bd#4. Casos de crase obrigatória e locuções fixas"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos.md",
+        "section": "4. Casos de crase obrigatória e locuções fixas"
+      },
+      "statement": "Em “A auditora referiu-se àquele parecer”, o acento grave marca a fusão da preposição exigida por “referiu-se” com o “a” inicial de “aquele”.",
+      "correctAnswer": "C",
+      "explanation": "A crase pode ocorrer com “aquele” mesmo que o nome seguinte seja masculino. Nessa estrutura, o primeiro “a” é preposição e o segundo pertence ao demonstrativo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre crase. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-aquele-objeto-direto-sem-crase",
+      "concursoId": "camara-2026",
+      "articleId": "art-3f8cfa8b8d43c2bd",
+      "conceptId": "crase-demonstrativo-aquele",
+      "mechanism": "aquele-objeto-direto-sem-crase",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3f8cfa8b8d43c2bd#4. Casos de crase obrigatória e locuções fixas"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos.md",
+        "section": "4. Casos de crase obrigatória e locuções fixas"
+      },
+      "statement": "Em “A auditora leu aquele parecer”, deve-se escrever “àquele” porque o demonstrativo começa por “a”.",
+      "correctAnswer": "E",
+      "explanation": "Com “ler” nesse sentido, “aquele parecer” é objeto direto. Sem a preposição “a”, não ocorre crase.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre crase. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Iniciativa legislativa",
+      "id": "cam-revisao-comissao-pode-propor-lei-sem-iniciativa-reservada",
+      "concursoId": "camara-2026",
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "comissao-iniciativa-sem-reserva",
+      "mechanism": "comissao-pode-propor-lei-sem-iniciativa-reservada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa de leis ordinárias e complementares: art. 61, caput"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa de leis ordinárias e complementares: art. 61, caput"
+      },
+      "statement": "Uma comissão permanente da Câmara pretende apresentar projeto de lei ordinária sobre matéria federal sem reserva de iniciativa. A Constituição inclui a comissão entre os possíveis autores do projeto.",
+      "correctAnswer": "C",
+      "explanation": "O art. 61, caput, inclui comissão da Câmara, do Senado ou do Congresso entre os legitimados, observados os casos previstos na Constituição.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 61, caput e § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Iniciativa legislativa",
+      "id": "cam-revisao-iniciativa-de-comissao-nao-afasta-reserva-para-cargos",
+      "concursoId": "camara-2026",
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "comissao-iniciativa-sem-reserva",
+      "mechanism": "iniciativa-de-comissao-nao-afasta-reserva-para-cargos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa de leis ordinárias e complementares: art. 61, caput"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa de leis ordinárias e complementares: art. 61, caput"
+      },
+      "statement": "Uma comissão legislativa pode iniciar projeto que cria cargos na administração direta federal, pois a legitimação das comissões no art. 61 prevalece sobre a iniciativa privativa do Presidente.",
+      "correctAnswer": "E",
+      "explanation": "A legitimação geral convive com as reservas constitucionais. A criação desses cargos é matéria de iniciativa privativa presidencial.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 61, caput e § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-normas-federativas-de-cooperacao-requerem-complementar",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "cooperacao-comum-lei-ordinaria",
+      "mechanism": "normas-federativas-de-cooperacao-requerem-complementar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência comum: art. 23"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência comum: art. 23"
+      },
+      "statement": "Uma proposta pretende fixar as normas de cooperação entre todos os entes federativos no exercício de competência comum, com fundamento no parágrafo único do art. 23. O instrumento previsto para essas normas é a lei complementar.",
+      "correctAnswer": "C",
+      "explanation": "O parágrafo único reserva às leis complementares as normas de cooperação destinadas ao equilíbrio do desenvolvimento e do bem-estar em âmbito nacional.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 23, parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-lei-ordinaria-nao-substitui-complementar-cooperacao-comum",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "cooperacao-comum-lei-ordinaria",
+      "mechanism": "lei-ordinaria-nao-substitui-complementar-cooperacao-comum",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência comum: art. 23"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência comum: art. 23"
+      },
+      "statement": "Para editar as normas de cooperação previstas no parágrafo único do art. 23, uma lei ordinária basta quando envolver apenas União e estados.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo prevê leis complementares para a cooperação federativa. A participação de um subconjunto de entes não converte essa reserva em autorização de lei ordinária.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 23, parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",
       "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",

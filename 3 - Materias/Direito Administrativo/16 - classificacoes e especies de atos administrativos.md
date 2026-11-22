@@ -80,6 +80,23 @@ flowchart LR
 
 A classificação como ato **complexo** da concessão inicial de aposentadoria decorre da jurisprudência do STF, que considera a manifestação do órgão de origem e o registro pelo tribunal de contas. Isso não impede que o benefício produza efeitos antes do registro, conforme o regime aplicável. A **Súmula Vinculante nº 3** trata do contraditório e da ampla defesa no exame pelo TCU, com ressalva para a concessão inicial: **não é sua fonte classificatória**. O **Tema 445 do STF (RE 636.553)** fixa prazo de **cinco anos**, contado da chegada do processo à Corte de Contas, para julgar a legalidade da concessão inicial de aposentadoria, reforma ou pensão. Não se deve usar, como exemplo atual de ato composto, a antiga fórmula de dispensa de licitação "declarada e ratificada": a **Lei nº 14.133/2021**, Lei de Licitações e Contratos Administrativos, prevê no art. 72, VIII, autorização da autoridade competente para a contratação direta.
 
+### Quanto ao estágio de formação e produção de efeitos (Perfeitos, Imperfeitos, Pendentes e Consumados)
+
+A classificação é doutrinária e exige separar três perguntas: **o ato terminou de se formar?** (perfeição), **está de acordo com o direito?** (validade) e **já pode produzir os efeitos previstos?** (eficácia). Perfeição, validade e eficácia não são sinônimos.
+
+| Situação | Critério | Exemplo didático | Distinção decisiva |
+| :--- | :--- | :--- | :--- |
+| **Ato perfeito** | Completou todas as etapas exigidas para sua formação. | Decisão expedida pela autoridade competente após concluído o procedimento de formação. | Pode ser **inválido** se violar a lei e pode **não estar eficaz** por depender de termo ou condição. |
+| **Ato imperfeito** | Seu ciclo de formação **ainda não se completou**. | Ato que exige manifestação conjunta de dois órgãos, mas recebeu apenas a primeira. | Falta elemento de formação, e não apenas esperar a data de início de efeitos. |
+| **Ato pendente** | Já se formou, mas a produção de seus efeitos depende de **termo ou condição** que ainda não ocorreu. | Autorização regularmente concluída que só autoriza o uso a partir de data futura prevista no ato. | **É perfeito quanto à formação**, mas seus efeitos estão suspensos; não é imperfeito. |
+| **Ato consumado (exaurido)** | Seus efeitos próprios já foram integralmente produzidos e se esgotaram. | Autorização para um evento único, já realizado e encerrado. | É um estado de exaurimento de efeitos, não sinônimo de ato juridicamente válido ou imune a controle. |
+
+**Armadilhas da Cebraspe:** um ato **perfeito não é necessariamente válido**; um ato **pendente não é imperfeito**, pois a formação já terminou; e a afirmação de que o ato consumado jamais pode ser examinado ou gerar efeitos jurídicos posteriores é excessivamente absoluta. A possibilidade e os efeitos de controle de um ato exaurido dependem da situação e do regime aplicável.
+
+**Formação da vontade versus estágio:** atos **simples, complexos e compostos** respondem a *quantos órgãos participam e como suas manifestações se relacionam*. Atos **perfeitos, imperfeitos, pendentes e consumados** respondem a *em que etapa está a formação ou a produção de efeitos*. Assim, um ato simples pode ser perfeito e pendente ao mesmo tempo, conforme o caso.
+
+**Fontes:** Hely Lopes Meirelles, *Direito Administrativo Brasileiro*, capítulo de classificação dos atos, disponibilizado na [Biblioteca Digital Jurídica do STJ](https://bdjur.stj.jus.br/jspui/bitstream/2011/74756/direito_administrativo_brasileiro_29ed.pdf); [STF, MS 25.116](https://portal.stf.jus.br/jurisprudencia/obterInteiroTeor.asp?classe=MS&numero=25116), para a distinção entre formação dos atos simples, compostos e complexos.
+
 ### Quanto aos efeitos e eficácia (Constitutivos, Declaratórios e Enunciativos)
 - **Constitutivos:** criam, modificam ou extinguem uma nova relação jurídica ou direito subjetivo (ex.: demissão, permissão).
 - **Declaratórios:** reconhecem situação jurídica preexistente, sem criá-la pelo próprio reconhecimento. **Não existe retroatividade automática para todo ato declaratório**; os efeitos temporais dependem da norma e do instituto. A anulação de ato ilegal segue regime próprio, explicado no artigo sobre extinção dos atos.

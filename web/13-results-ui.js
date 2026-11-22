@@ -485,7 +485,7 @@ function renderAdaptive(plan) {
   meta.append(el('span','results-study-action-subject',title(item.subjectId)),
    el('span','results-study-action-priority','Prioridade '+
     ({high:'alta',medium:'média',low:'baixa'}[item.priority]||'não classificada')));
-  copy.append(el('h3','',action+' · '+label),meta);
+  copy.append(el('span','results-study-action-kind',action),el('h3','',label),meta);
   const reasons=(Array.isArray(item.rationale)?item.rationale:[])
    .flatMap(text=>String(text).split(/(?<=\.)\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])/u))
    .map(text=>text.trim()).filter(Boolean)

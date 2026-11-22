@@ -7608,6 +7608,230 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-poe-na-em-caixa-com-fecho-nasal",
+      "concursoId": "camara-2026",
+      "articleId": "art-3e69afeada1328e6",
+      "conceptId": "enclise-terminacao-nasal",
+      "mechanism": "poe-na-em-caixa-com-fecho-nasal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3e69afeada1328e6#5. Regras da mesóclise, adaptações fonéticas da ênclise e locuções verbais"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/30 - colocacao dos pronomes atonos proclise mesoclise e enclise.md",
+        "section": "5. Regras da mesóclise, adaptações fonéticas da ênclise e locuções verbais"
+      },
+      "statement": "Na substituição de “a pasta” por pronome átono em “Põe a pasta no armário”, a construção com ênclise é “Põe-na no armário”.",
+      "correctAnswer": "C",
+      "explanation": "Em “põe”, o verbo acaba em ditongo nasal. A forma enclítica de “a” nesse contexto é “na”.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-guardam-nas-em-vez-de-las",
+      "concursoId": "camara-2026",
+      "articleId": "art-3e69afeada1328e6",
+      "conceptId": "enclise-terminacao-nasal",
+      "mechanism": "guardam-nas-em-vez-de-las",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3e69afeada1328e6#5. Regras da mesóclise, adaptações fonéticas da ênclise e locuções verbais"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/30 - colocacao dos pronomes atonos proclise mesoclise e enclise.md",
+        "section": "5. Regras da mesóclise, adaptações fonéticas da ênclise e locuções verbais"
+      },
+      "statement": "Na substituição de “as chaves” por pronome átono em “Guardam as chaves à noite”, a forma enclítica correta é “Guardam-las à noite”.",
+      "correctAnswer": "E",
+      "explanation": "A terminação nasal de “guardam” pede “nas”. A forma resultante é “Guardam-nas à noite”.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-prazo-unico-nao-equivale-a-registro-recorrente",
+      "concursoId": "camara-2026",
+      "articleId": "art-3c2532290c3996fa",
+      "conceptId": "perfeito-composto-acao-unica-concluida",
+      "mechanism": "prazo-unico-nao-equivale-a-registro-recorrente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c2532290c3996fa#5. Casos Práticos na Reescrita e Interpretação Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md",
+        "section": "5. Casos Práticos na Reescrita e Interpretação Cebraspe"
+      },
+      "statement": "Em “O laboratório tem registrado as medições ao fim de cada turno”, a reescrita “O laboratório registrou as medições ontem” preserva a distribuição recorrente dos registros pelos turnos.",
+      "correctAnswer": "E",
+      "explanation": "A reescrita delimita o registro a ontem e elimina a referência a cada turno. A construção original apresenta uma prática reiterada em período ligado ao presente.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-frequencia-expressa-composto-preserva-continuidade",
+      "concursoId": "camara-2026",
+      "articleId": "art-3c2532290c3996fa",
+      "conceptId": "perfeito-composto-acao-unica-concluida",
+      "mechanism": "frequencia-expressa-composto-preserva-continuidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c2532290c3996fa#5. Casos Práticos na Reescrita e Interpretação Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md",
+        "section": "5. Casos Práticos na Reescrita e Interpretação Cebraspe"
+      },
+      "statement": "Em “A coordenação tem recebido reclamações desde o início do mês”, a forma composta permite situar ocorrências repetidas em um período que se estende até o presente.",
+      "correctAnswer": "C",
+      "explanation": "O marco introduzido por “desde” inicia o intervalo. O perfeito composto admite uma leitura reiterada de “receber” nesse intervalo, ligada ao momento da fala.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "id": "cam-revisao-reeleicao-de-vereador-irma-do-prefeito",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "inelegibilidade-reflexa-mandato-proprio",
+      "mechanism": "reeleicao-de-vereador-irma-do-prefeito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Uma vereadora pretende disputar a reeleição para o próprio cargo no município governado por seu irmão. Nessa situação, o art. 14, § 7º, ressalva a hipótese de quem já tem mandato eletivo e concorre à própria reeleição.",
+      "correctAnswer": "C",
+      "explanation": "O parentesco de segundo grau pode acionar a regra de inelegibilidade reflexa no território do titular. A candidatura à reeleição no cargo que a vereadora já detém se enquadra na ressalva.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção vinculada. Constituição Federal, art. 14, § 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "id": "cam-revisao-mandato-de-vereador-nao-ressalva-candidatura-a-prefeito",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "inelegibilidade-reflexa-mandato-proprio",
+      "mechanism": "mandato-de-vereador-nao-ressalva-candidatura-a-prefeito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Um vereador irmão da prefeita pretende concorrer à prefeitura no mesmo município. Para efeito da ressalva do art. 14, § 7º, disputar a prefeitura equivale a concorrer à reeleição pelo simples fato de ele já exercer mandato eletivo.",
+      "correctAnswer": "E",
+      "explanation": "A ressalva exige titularidade de mandato e candidatura à reeleição. A disputa de cargo diferente não satisfaz o segundo requisito.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção vinculada. Constituição Federal, art. 14, § 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-revisao-obra-sem-programacao-aciona-esclarecimento",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "comissao-investimento-nao-programado",
+      "mechanism": "obra-sem-programacao-aciona-esclarecimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#O procedimento específico da comissão mista: art. 72"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "O procedimento específico da comissão mista: art. 72"
+      },
+      "statement": "A comissão mista permanente identifica indícios de despesa sem autorização em obra de investimento que não constava da programação. O caráter não programado do investimento é compatível com a solicitação de esclarecimentos à autoridade responsável pelo procedimento do art. 72 da Constituição.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo inclui o investimento não programado entre as formas de despesa não autorizada sob apuração. A primeira providência é solicitar esclarecimentos à autoridade responsável.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção vinculada. Constituição Federal, art. 72. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-revisao-comissao-nao-salta-etapas-para-sustar-investimento",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "comissao-investimento-nao-programado",
+      "mechanism": "comissao-nao-salta-etapas-para-sustar-investimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#O procedimento específico da comissão mista: art. 72"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "O procedimento específico da comissão mista: art. 72"
+      },
+      "statement": "Ao encontrar indícios de investimento não programado, a comissão mista decreta a sustação definitiva da despesa, sem solicitar esclarecimentos à autoridade responsável nem pronunciamento do TCU. O art. 72 autoriza essa sequência.",
+      "correctAnswer": "E",
+      "explanation": "A comissão pode pedir esclarecimentos à autoridade. Se forem omitidos ou insuficientes, solicita pronunciamento conclusivo do TCU. Se o Tribunal entender irregular a despesa e a comissão julgar presente o risco constitucional, ela propõe a sustação ao Congresso.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção vinculada. Constituição Federal, art. 72. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "administracao-publica",
       "unitId": "administracao-publica",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação, coprodução e participação",

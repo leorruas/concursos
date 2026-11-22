@@ -71,6 +71,7 @@
  .results-view-panel .results-study-action-copy{min-width:0}
  .results-view-panel .results-study-action-copy h3{font-size:16px;line-height:1.3;margin:0 0 5px;font-weight:620;letter-spacing:-.02em;color:var(--text)}
  .results-view-panel .results-study-action-copy p{margin:5px 0;color:var(--muted);font-size:12px;line-height:1.5}
+ .results-study-action-kind{display:block;font-size:13px;font-variant-caps:all-small-caps;letter-spacing:.04em;font-weight:650;color:var(--muted);margin-bottom:2px}
  .results-study-action-available{display:block;font:10px 'IBM Plex Mono',monospace;color:var(--accent-blue);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
  .results-study-action-controls{display:flex;flex-direction:column;align-items:flex-end;gap:7px;max-width:210px}
  .results-study-action-controls:empty{display:none}

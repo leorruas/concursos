@@ -7607,6 +7607,454 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "id": "cam-revisao-internacao-justificada-afasta-falta-injustificada",
+      "concursoId": "camara-2026",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "convocacao-ministro-falta-justificada",
+      "mechanism": "internacao-justificada-afasta-falta-injustificada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#1.1 Convocação de autoridades do art. 50 da CF (redação da EC nº 132/2023)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "1.1 Convocação de autoridades do art. 50 da CF (redação da EC nº 132/2023)"
+      },
+      "statement": "Um ministro regularmente convocado deixa de comparecer e apresenta justificação reconhecida como adequada pela comissão. A ausência, por si só, não configura o crime de responsabilidade mencionado no art. 50.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo associa o crime de responsabilidade à ausência sem justificação adequada.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 50. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "id": "cam-revisao-regularidade-da-convocacao-nao-dispensa-exame-da-justificativa",
+      "concursoId": "camara-2026",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "convocacao-ministro-falta-justificada",
+      "mechanism": "regularidade-da-convocacao-nao-dispensa-exame-da-justificativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#1.1 Convocação de autoridades do art. 50 da CF (redação da EC nº 132/2023)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "1.1 Convocação de autoridades do art. 50 da CF (redação da EC nº 132/2023)"
+      },
+      "statement": "A regularidade formal da convocação de um ministro basta para caracterizar crime de responsabilidade sempre que ele faltar, mesmo se a ausência for adequadamente justificada.",
+      "correctAnswer": "E",
+      "explanation": "Além de observar a convocação, é preciso verificar se houve justificação adequada para a ausência.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 50. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-lei-organica-do-df-promulgacao-pela-camara-local",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "df-lei-organica-camara-legislativa",
+      "mechanism": "lei-organica-do-df-promulgacao-pela-camara-local",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Distrito Federal: acumulação de competências"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Distrito Federal: acumulação de competências"
+      },
+      "statement": "A Câmara Legislativa do Distrito Federal aprova a Lei Orgânica em dois turnos, respeitado o interstício mínimo de dez dias, com dois terços dos membros, e a promulga. A sequência observa o rito constitucional.",
+      "correctAnswer": "C",
+      "explanation": "O art. 32 atribui a votação e a promulgação à Câmara Legislativa e fixa os requisitos mencionados.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 32. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-df-lei-organica-independe-de-sancao",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "df-lei-organica-camara-legislativa",
+      "mechanism": "df-lei-organica-independe-de-sancao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Distrito Federal: acumulação de competências"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Distrito Federal: acumulação de competências"
+      },
+      "statement": "A Lei Orgânica do Distrito Federal, ainda que aprovada com o quórum constitucional pela Câmara Legislativa, depende de sanção do governador para ser promulgada.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição atribui a promulgação à Câmara Legislativa e não prevê sanção do governador nesse rito.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 32. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-intervencao-sem-interventor-ainda-especifica-prazo",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-decreto-prazo-omissao",
+      "mechanism": "intervencao-sem-interventor-ainda-especifica-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "Em hipótese de intervenção que não requeira a nomeação de interventor, o decreto continua obrigado a indicar o prazo, a amplitude e as condições de execução.",
+      "correctAnswer": "C",
+      "explanation": "A expressão “se couber” condiciona a nomeação de interventor. Os demais elementos do decreto continuam exigidos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-decreto-amplitude-nao-supre-prazo",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-decreto-prazo-omissao",
+      "mechanism": "decreto-amplitude-nao-supre-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "Um decreto de intervenção delimita os órgãos alcançados e estabelece condições de execução, mas fica inteiramente silente quanto ao prazo. A delimitação da amplitude supre a omissão temporal.",
+      "correctAnswer": "E",
+      "explanation": "A amplitude delimita o alcance. O prazo delimita a duração e é elemento exigido separadamente.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-ausencia-quinze-dias-vice-sem-licenca-por-duracao",
+      "concursoId": "camara-2026",
+      "articleId": "art-a3f905cb76e1428d",
+      "conceptId": "licenca-exterior-quinze-dias-exatos",
+      "mechanism": "ausencia-quinze-dias-vice-sem-licenca-por-duracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a3f905cb76e1428d#Decreto legislativo: competências e casos concretos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md",
+        "section": "Decreto legislativo: competências e casos concretos"
+      },
+      "statement": "O Vice-Presidente pretende ausentar-se do país por exatamente quinze dias. Considerada apenas a duração prevista no art. 83, essa ausência não exige licença do Congresso Nacional.",
+      "correctAnswer": "C",
+      "explanation": "O art. 83 exige licença quando a ausência do país for superior a quinze dias, inclusive no caso do Vice-Presidente.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 49, III, e 83. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-ausencia-dezesseis-dias-alcanca-licenca",
+      "concursoId": "camara-2026",
+      "articleId": "art-a3f905cb76e1428d",
+      "conceptId": "licenca-exterior-quinze-dias-exatos",
+      "mechanism": "ausencia-dezesseis-dias-alcanca-licenca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a3f905cb76e1428d#Decreto legislativo: competências e casos concretos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md",
+        "section": "Decreto legislativo: competências e casos concretos"
+      },
+      "statement": "Uma ausência do Presidente da República por dezesseis dias prescinde de licença do Congresso porque a exigência só começa a incidir após vinte dias.",
+      "correctAnswer": "E",
+      "explanation": "Dezesseis já supera o limite constitucional de quinze dias. A ausência depende de licença.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 49, III, e 83. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / organização do Estado",
+      "id": "cam-revisao-microrregiao-por-lei-complementar-estadual",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "microrregiao-lei-ordinaria",
+      "mechanism": "microrregiao-por-lei-complementar-estadual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Estados: competência remanescente"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Estados: competência remanescente"
+      },
+      "statement": "Um estado pretende integrar a execução de funções públicas de interesse comum de municípios limítrofes. A instituição da microrregião deve ser feita por lei complementar estadual.",
+      "correctAnswer": "C",
+      "explanation": "O art. 25, § 3º, reserva à lei complementar estadual a instituição de microrregiões para essa finalidade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 25, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / organização do Estado",
+      "id": "cam-revisao-consenso-dos-municipios-nao-substitui-lei-complementar",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "microrregiao-lei-ordinaria",
+      "mechanism": "consenso-dos-municipios-nao-substitui-lei-complementar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Estados: competência remanescente"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Estados: competência remanescente"
+      },
+      "statement": "Todos os municípios limítrofes aceitam participar de uma microrregião. O consentimento conjunto permite ao estado instituí-la por lei ordinária estadual.",
+      "correctAnswer": "E",
+      "explanation": "O apoio municipal não altera a espécie normativa exigida pela Constituição. É necessária lei complementar estadual.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 25, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "id": "cam-revisao-urgencia-financeira-nao-autoriza-sequestro-em-mp",
+      "concursoId": "camara-2026",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-bloqueio-ativos-relevancia",
+      "mechanism": "urgencia-financeira-nao-autoriza-sequestro-em-mp",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "Em contexto de emergência econômica, o Presidente pretende editar medida provisória que determina a detenção de ativos financeiros. A relevância da medida não remove a vedação constitucional quanto à matéria.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição veda medida provisória sobre detenção ou sequestro de bens, poupança popular ou qualquer outro ativo financeiro.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 62, § 1º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "id": "cam-revisao-prazo-curto-nao-remove-vedacao-de-bloqueio",
+      "concursoId": "camara-2026",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-bloqueio-ativos-relevancia",
+      "mechanism": "prazo-curto-nao-remove-vedacao-de-bloqueio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "Uma medida provisória determina o sequestro de ativos financeiros por apenas 48 horas. A limitação temporal torna a matéria admissível para esse instrumento.",
+      "correctAnswer": "E",
+      "explanation": "A proibição constitucional é material. Encurtar o prazo não torna admissível o sequestro por medida provisória.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 62, § 1º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-cooperacao-consentida-coexiste-com-nao-intervencao",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "nao-intervencao-impede-cooperacao",
+      "mechanism": "cooperacao-consentida-coexiste-com-nao-intervencao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "Um programa de cooperação científica internacional é conduzido mediante consentimento dos países envolvidos. A simples existência de cooperação não contraria o princípio constitucional da não intervenção.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição adota simultaneamente a não intervenção e a cooperação entre os povos. O consentimento distingue o trabalho conjunto da ingerência descrita pelo princípio.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 4º, IV e IX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-nao-intervencao-nao-suprime-principio-da-cooperacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "nao-intervencao-impede-cooperacao",
+      "mechanism": "nao-intervencao-nao-suprime-principio-da-cooperacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "Como a Constituição adota a não intervenção, ela exclui a cooperação entre os povos do rol de princípios das relações internacionais brasileiras.",
+      "correctAnswer": "E",
+      "explanation": "O rol inclui expressamente ambos os princípios. A não intervenção não equivale a isolamento internacional.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 4º, IV e IX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-empate-mesa-idade-so-entre-experiencia-igual",
+      "concursoId": "camara-2026",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "mesa-empate-idade-legislaturas",
+      "mechanism": "empate-mesa-idade-so-entre-experiencia-igual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Posse e eleição da Mesa: arts. 3º a 8º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Posse e eleição da Mesa: arts. 3º a 8º"
+      },
+      "statement": "Dois deputados empatam na votação para cargo da Mesa e ambos têm o mesmo número de legislaturas. É eleito o candidato mais idoso.",
+      "correctAnswer": "C",
+      "explanation": "O maior número de legislaturas é o primeiro critério do desempate. Se ambos tiverem o mesmo número, a idade resolve.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 7º, IV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-empate-mesa-idoso-com-menos-legislaturas",
+      "concursoId": "camara-2026",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "mesa-empate-idade-legislaturas",
+      "mechanism": "empate-mesa-idoso-com-menos-legislaturas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Posse e eleição da Mesa: arts. 3º a 8º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Posse e eleição da Mesa: arts. 3º a 8º"
+      },
+      "statement": "Dois candidatos empatam na eleição para cargo da Mesa. O mais idoso tem duas legislaturas, e o outro tem quatro. Pelo Regimento, a idade prevalece sobre o número de legislaturas.",
+      "correctAnswer": "E",
+      "explanation": "O critério inicial favorece o candidato com maior número de legislaturas. A idade incide entre candidatos com a mesma experiência nesse critério.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 7º, IV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "portugues",
       "unitId": "lingua-portuguesa",

@@ -7608,6 +7608,566 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação e reescrita",
+      "id": "cam-revisao-fala-introduzida-por-dois-pontos",
+      "concursoId": "camara-2026",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "citacao-direta-nao-explicacao",
+      "mechanism": "fala-introduzida-por-dois-pontos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#3.2. Dois-Pontos (:) e Suas Quatro Funções Canônicas"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "3.2. Dois-Pontos (:) e Suas Quatro Funções Canônicas"
+      },
+      "statement": "Em “A diretora afirmou: ‘O arquivo será aberto amanhã’”, os dois-pontos apresentam o teor da declaração atribuída à diretora.",
+      "correctAnswer": "C",
+      "explanation": "O segmento após os dois-pontos reproduz uma fala em discurso direto.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo de pontuação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação e reescrita",
+      "id": "cam-revisao-dois-pontos-antes-de-fala-nao-introduzem-causa",
+      "concursoId": "camara-2026",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "citacao-direta-nao-explicacao",
+      "mechanism": "dois-pontos-antes-de-fala-nao-introduzem-causa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#3.2. Dois-Pontos (:) e Suas Quatro Funções Canônicas"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "3.2. Dois-Pontos (:) e Suas Quatro Funções Canônicas"
+      },
+      "statement": "Em “O responsável anunciou: ‘As inscrições terminaram’”, os dois-pontos introduzem a causa do anúncio, com valor equivalente ao de “porque”.",
+      "correctAnswer": "E",
+      "explanation": "O trecho informa o que foi anunciado. Um conector causal introduziria uma razão para o anúncio, relação distinta.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo de pontuação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual e emprego de conectores",
+      "id": "cam-revisao-conforme-protocolo-seguido",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "conector-conformidade-versus-justificativa",
+      "mechanism": "conforme-protocolo-seguido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      },
+      "statement": "Em “Conforme prevê o regulamento, a comissão registrou cada votação”, a oração inicial apresenta o regulamento como referência com a qual o procedimento está de acordo.",
+      "correctAnswer": "C",
+      "explanation": "“Conforme” introduz uma relação de conformidade. A ação é descrita como compatível com o padrão indicado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre conectores. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual e emprego de conectores",
+      "id": "cam-revisao-porque-nao-preserva-conformidade",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "conector-conformidade-versus-justificativa",
+      "mechanism": "porque-nao-preserva-conformidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      },
+      "statement": "Em “O roteiro foi preenchido conforme determina o manual”, trocar “conforme determina o manual” por “porque o manual assim determina” preserva exatamente a relação de conformidade.",
+      "correctAnswer": "E",
+      "explanation": "A primeira construção apresenta a referência seguida. A segunda destaca a determinação do manual como razão para a ação.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre conectores. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / conectores e relações lógico-semânticas",
+      "id": "cam-revisao-prazo-como-condicao-para-processar-pedido",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "desde-que-prazo-hipotetico",
+      "mechanism": "prazo-como-condicao-para-processar-pedido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3.2. Relação de Condição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3.2. Relação de Condição"
+      },
+      "statement": "Em “O pedido será processado desde que os anexos cheguem até amanhã”, o trecho iniciado por “desde que” especifica uma condição, sem afirmar que o envio ocorreu.",
+      "correctAnswer": "C",
+      "explanation": "A chegada no prazo é apresentada como requisito para o processamento. A oração não afirma que a condição foi cumprida.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre conectores. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / conectores e relações lógico-semânticas",
+      "id": "cam-revisao-conector-condicional-nao-indica-data-de-inicio",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "desde-que-prazo-hipotetico",
+      "mechanism": "conector-condicional-nao-indica-data-de-inicio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3.2. Relação de Condição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3.2. Relação de Condição"
+      },
+      "statement": "Em “O acesso será liberado desde que a direção aprove o cadastro”, o trecho introduzido por “desde que” informa em que momento o acesso começou.",
+      "correctAnswer": "E",
+      "explanation": "O trecho condiciona a liberação a uma aprovação. Não indica o início de um acesso já liberado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre conectores. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-verbo-recuperavel-em-oracao-paralela",
+      "concursoId": "camara-2026",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "elipse-com-verbo-recuperavel",
+      "mechanism": "verbo-recuperavel-em-oracao-paralela",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#2. Coesão Gramatical: Elipse e Substituição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "2. Coesão Gramatical: Elipse e Substituição"
+      },
+      "statement": "Em “A comissão examinou o parecer e o relator, as emendas”, é possível recuperar “examinou” na segunda oração.",
+      "correctAnswer": "C",
+      "explanation": "O paralelismo permite completar a segunda oração como “o relator examinou as emendas”.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre coesão gramatical. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-elipse-nao-transfere-objeto",
+      "concursoId": "camara-2026",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "elipse-com-verbo-recuperavel",
+      "mechanism": "elipse-nao-transfere-objeto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#2. Coesão Gramatical: Elipse e Substituição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "2. Coesão Gramatical: Elipse e Substituição"
+      },
+      "statement": "Em “A editora revisou o índice e o autor, os anexos”, a omissão de “revisou” no segundo segmento faz de “os anexos” o objeto do verbo empregado com o sujeito “a editora”.",
+      "correctAnswer": "E",
+      "explanation": "O verbo é recuperado com o novo sujeito, “o autor”. Os anexos são o objeto da revisão feita pelo autor.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre coesão gramatical. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-somente-estagiarios-autoriza-subconjunto",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "foco-restritivo-no-sujeito",
+      "mechanism": "somente-estagiarios-autoriza-subconjunto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "Em “Somente os estagiários pediram acesso”, é compatível com o enunciado que alguns estagiários não tenham pedido acesso.",
+      "correctAnswer": "C",
+      "explanation": "A restrição exclui os não estagiários do conjunto de quem pediu. Não estabelece que cada integrante do grupo tenha pedido.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre inferência. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-so-moradores-nao-implica-todos",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "foco-restritivo-no-sujeito",
+      "mechanism": "so-moradores-nao-implica-todos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "A frase “Só os moradores do bloco A responderam ao questionário” implica que todos os moradores do bloco A responderam.",
+      "correctAnswer": "E",
+      "explanation": "A restrição recai sobre quem pode integrar o conjunto dos respondentes. A proporção de moradores do bloco que respondeu não é informada.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre inferência. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-categoria-geral-muda-escopo-de-regra",
+      "concursoId": "camara-2026",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "hiperonimo-com-escopo-alterado",
+      "mechanism": "categoria-geral-muda-escopo-de-regra",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#3. Coesão Lexical: Estruturas Semânticas e Relações Conceituais"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "3. Coesão Lexical: Estruturas Semânticas e Relações Conceituais"
+      },
+      "statement": "Na regra “É proibido estacionar motocicletas no pátio”, substituir “motocicletas” por “veículos” pode ampliar o alcance da proibição.",
+      "correctAnswer": "C",
+      "explanation": "“Veículos” inclui motocicletas e outras categorias. Em uma regra isolada, a troca pode ampliar o conjunto alcançado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre coesão lexical. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-substituicao-de-categoria-por-tipo-restringe",
+      "concursoId": "camara-2026",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "hiperonimo-com-escopo-alterado",
+      "mechanism": "substituicao-de-categoria-por-tipo-restringe",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#3. Coesão Lexical: Estruturas Semânticas e Relações Conceituais"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "3. Coesão Lexical: Estruturas Semânticas e Relações Conceituais"
+      },
+      "statement": "Em uma orientação que proíbe o transporte de bebidas, trocar “bebidas” por “refrigerantes” conserva todo o alcance da proibição.",
+      "correctAnswer": "E",
+      "explanation": "“Refrigerantes” é uma subcategoria de bebidas. O novo termo não abrange todas as bebidas que a redação original podia alcançar.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre coesão lexical. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / avaliação",
+      "id": "cam-revisao-canal-novo-muda-serie-de-notificacoes",
+      "concursoId": "camara-2026",
+      "articleId": "art-6bd29c1e87f043a5",
+      "conceptId": "efeito-com-mudanca-de-registro",
+      "mechanism": "canal-novo-muda-serie-de-notificacoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6bd29c1e87f043a5#Medir e avaliar: os desenhos possíveis"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md",
+        "section": "Medir e avaliar: os desenhos possíveis"
+      },
+      "statement": "Após uma campanha, o órgão passou a contar notificações por aplicativo, que antes ficavam de fora. Mesmo que os registros tenham aumentado, é necessário harmonizar os critérios de medição antes de interpretar a alta como mudança na ocorrência dos fatos.",
+      "correctAnswer": "C",
+      "explanation": "A ampliação da cobertura pode explicar parte da alta. É preciso distinguir mudança de registro de mudança no fenômeno medido.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre desenho de avaliação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / avaliação",
+      "id": "cam-revisao-mudanca-de-contagem-nao-prova-impacto",
+      "concursoId": "camara-2026",
+      "articleId": "art-6bd29c1e87f043a5",
+      "conceptId": "efeito-com-mudanca-de-registro",
+      "mechanism": "mudanca-de-contagem-nao-prova-impacto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6bd29c1e87f043a5#Medir e avaliar: os desenhos possíveis"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md",
+        "section": "Medir e avaliar: os desenhos possíveis"
+      },
+      "statement": "Antes de uma intervenção, cada usuário era contado uma vez. Depois, cada contato passou a valer um registro. Um aumento no total de registros prova que a intervenção aumentou o número de usuários.",
+      "correctAnswer": "E",
+      "explanation": "As unidades de contagem mudaram. Um usuário pode produzir vários contatos, de modo que a comparação simples não identifica o efeito alegado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre desenho de avaliação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+      "id": "cam-revisao-resolucao-delimita-materia-e-condicoes",
+      "concursoId": "camara-2026",
+      "articleId": "art-6bc728a14d0e49f3",
+      "conceptId": "delegacao-delimita-conteudo",
+      "mechanism": "resolucao-delimita-materia-e-condicoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Sujeitos, instrumento e duas modalidades de controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Sujeitos, instrumento e duas modalidades de controle"
+      },
+      "statement": "O Congresso aprova resolução que delimita a matéria delegada e estabelece condições para o exercício da delegação pelo Presidente da República. Essa delimitação é compatível com o rito de elaboração de lei delegada.",
+      "correctAnswer": "C",
+      "explanation": "A resolução deve especificar o conteúdo da delegação e os termos de seu exercício.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 68, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+      "id": "cam-revisao-delegacao-generica-nao-cumpre-delimitacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-6bc728a14d0e49f3",
+      "conceptId": "delegacao-delimita-conteudo",
+      "mechanism": "delegacao-generica-nao-cumpre-delimitacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Sujeitos, instrumento e duas modalidades de controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Sujeitos, instrumento e duas modalidades de controle"
+      },
+      "statement": "O Congresso autoriza genericamente o Presidente a legislar por delegação e deixa que ele próprio defina o alcance e os termos do exercício. A autorização genérica cumpre o art. 68, § 2º.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo atribui à resolução do Congresso a definição do conteúdo e dos termos do exercício. Esses limites não ficam inteiramente a cargo do delegado.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 68, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "id": "cam-revisao-sindicato-denuncia-diretamente-ao-tcu",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "denuncia-pelo-sindicato",
+      "mechanism": "sindicato-denuncia-diretamente-ao-tcu",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Controle interno, denúncia e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Controle interno, denúncia e responsabilidade"
+      },
+      "statement": "Um sindicato reúne indícios de irregularidade em órgão federal e apresenta denúncia perante o TCU. A condição de sindicato é hipótese de legitimação expressa na Constituição.",
+      "correctAnswer": "C",
+      "explanation": "O art. 74, § 2º, enumera sindicatos entre os legitimados a denunciar irregularidades ou ilegalidades ao TCU.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 74, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "id": "cam-revisao-sindicato-nao-depende-de-partido-para-denunciar",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "denuncia-pelo-sindicato",
+      "mechanism": "sindicato-nao-depende-de-partido-para-denunciar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Controle interno, denúncia e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Controle interno, denúncia e responsabilidade"
+      },
+      "statement": "Um sindicato só tem legitimidade para denunciar irregularidade ao TCU se um partido político subscrever a denúncia em conjunto.",
+      "correctAnswer": "E",
+      "explanation": "A norma enumera sindicatos e partidos como legitimados próprios. A legitimidade de um não depende da participação do outro.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 74, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-representacao-na-camara-considera-populacao-e-limites",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "deputados-mesma-quantidade-por-estado",
+      "mechanism": "representacao-na-camara-considera-populacao-e-limites",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Câmara dos Deputados"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Câmara dos Deputados"
+      },
+      "statement": "Ao distribuir as cadeiras da Câmara entre estados e Distrito Federal, a legislação considera a população e observa os limites constitucionais por unidade. O critério difere do número igual de senadores por unidade.",
+      "correctAnswer": "C",
+      "explanation": "A Câmara segue proporcionalidade populacional com limites constitucionais. Cada estado e o Distrito Federal elegem três senadores.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 45, § 1º, e 46, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-piso-de-oito-nao-padroniza-todas-as-bancadas",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "deputados-mesma-quantidade-por-estado",
+      "mechanism": "piso-de-oito-nao-padroniza-todas-as-bancadas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Câmara dos Deputados"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Câmara dos Deputados"
+      },
+      "statement": "O piso constitucional de oito deputados por estado e pelo Distrito Federal determina que todas essas bancadas tenham exatamente oito deputados.",
+      "correctAnswer": "E",
+      "explanation": "O número oito é um mínimo. A distribuição é proporcional à população, respeitados o piso e o teto constitucionais.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 45, § 1º, e 46, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",
       "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",

@@ -7607,6 +7607,454 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / emprego de tempos e modos verbais",
+      "id": "cam-revisao-imperfeito-autenticacao-em-andamento-no-passado",
+      "concursoId": "camara-2026",
+      "articleId": "art-3c2532290c3996fa",
+      "conceptId": "imperfeito-tarefa-em-curso",
+      "mechanism": "imperfeito-autenticacao-em-andamento-no-passado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c2532290c3996fa#3.2. A Tríade dos Pretéritos do Indicativo: O Confronto Favorito da Banca"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md",
+        "section": "3.2. A Tríade dos Pretéritos do Indicativo: O Confronto Favorito da Banca"
+      },
+      "statement": "Em “Quando o sistema caiu, a servidora conferia as assinaturas”, o pretérito imperfeito apresenta a conferência como atividade em curso no momento da queda.",
+      "correctAnswer": "C",
+      "explanation": "A forma “conferia” oferece o pano de fundo temporal. “Caiu” marca o evento que ocorre durante a atividade.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre pretéritos do indicativo. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / emprego de tempos e modos verbais",
+      "id": "cam-revisao-imperfeito-nao-assegura-conclusao-anterior",
+      "concursoId": "camara-2026",
+      "articleId": "art-3c2532290c3996fa",
+      "conceptId": "imperfeito-tarefa-em-curso",
+      "mechanism": "imperfeito-nao-assegura-conclusao-anterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c2532290c3996fa#3.2. A Tríade dos Pretéritos do Indicativo: O Confronto Favorito da Banca"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md",
+        "section": "3.2. A Tríade dos Pretéritos do Indicativo: O Confronto Favorito da Banca"
+      },
+      "statement": "Em “Quando o telefone tocou, o analista preenchia o formulário”, a forma “preenchia” indica que o preenchimento já estava concluído quando o telefone tocou.",
+      "correctAnswer": "E",
+      "explanation": "“Preenchia” apresenta o processo em andamento naquele momento. Para indicar conclusão anterior, caberia, por exemplo, “já havia preenchido”.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre pretéritos do indicativo. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-logo-depois-expressa-proximidade-temporal",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "logo-temporal-nao-conclusivo",
+      "mechanism": "logo-depois-expressa-proximidade-temporal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      },
+      "statement": "Em “A reunião terminou e, logo depois, os participantes saíram”, “logo depois” situa a saída em momento próximo ao fim da reunião.",
+      "correctAnswer": "C",
+      "explanation": "A expressão ordena os acontecimentos no tempo e indica proximidade entre eles.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre conectivos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-logo-que-temporal-nao-equivalente-a-portanto",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "logo-temporal-nao-conclusivo",
+      "mechanism": "logo-que-temporal-nao-equivalente-a-portanto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      },
+      "statement": "Em “Logo que o aviso saiu, a equipe iniciou a conferência”, a expressão “logo que” tem valor conclusivo e pode ser substituída por “portanto” sem alterar a relação de sentido.",
+      "correctAnswer": "E",
+      "explanation": "“Logo que” introduz uma oração temporal e admite paráfrase por “assim que”. “Portanto” indicaria conclusão.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre conectivos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-menos-invariavel-com-despesas",
+      "concursoId": "camara-2026",
+      "articleId": "art-0655bb314882606f",
+      "conceptId": "menos-invariavel",
+      "mechanism": "menos-invariavel-com-despesas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0655bb314882606f#4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md",
+        "section": "4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      },
+      "statement": "Em “O setor registrou menos despesas neste mês”, a forma “menos” permanece inalterada diante do substantivo feminino plural.",
+      "correctAnswer": "C",
+      "explanation": "“Menos” é invariável. O gênero e o número de “despesas” não alteram sua forma.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre concordância nominal. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-menas-nao-concorda-com-receita",
+      "concursoId": "camara-2026",
+      "articleId": "art-0655bb314882606f",
+      "conceptId": "menos-invariavel",
+      "mechanism": "menas-nao-concorda-com-receita",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0655bb314882606f#4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md",
+        "section": "4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      },
+      "statement": "A norma-padrão admite “menas receita” quando o termo quantifica um substantivo feminino singular.",
+      "correctAnswer": "E",
+      "explanation": "A forma é sempre “menos”, inclusive diante de substantivos femininos no singular ou no plural.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre concordância nominal. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita e substituição lexical",
+      "id": "cam-revisao-mitigar-permite-risco-residual",
+      "concursoId": "camara-2026",
+      "articleId": "art-d43257f539c036b9",
+      "conceptId": "mitigar-nao-eliminar",
+      "mechanism": "mitigar-permite-risco-residual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d43257f539c036b9#2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido.md",
+        "section": "2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      },
+      "statement": "Um relatório afirma que a medida mitigou o risco de interrupção. É coerente com essa afirmação que o risco ainda exista, porém em nível mais baixo.",
+      "correctAnswer": "C",
+      "explanation": "Mitigar significa atenuar ou reduzir. O verbo admite a permanência de risco residual.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre substituição lexical. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita e substituição lexical",
+      "id": "cam-revisao-eliminar-altera-sentido-de-mitigar",
+      "concursoId": "camara-2026",
+      "articleId": "art-d43257f539c036b9",
+      "conceptId": "mitigar-nao-eliminar",
+      "mechanism": "eliminar-altera-sentido-de-mitigar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d43257f539c036b9#2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido.md",
+        "section": "2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      },
+      "statement": "Em “As medidas mitigaram os impactos da falha”, trocar “mitigaram” por “eliminaram” preserva o sentido, inclusive quanto à possibilidade de impactos residuais.",
+      "correctAnswer": "E",
+      "explanation": "“Eliminar” indica supressão, enquanto “mitigar” indica atenuação. A substituição altera o alcance da afirmação.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre substituição lexical. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-estrangeiro-residente-nao-pode-alistar-se-pelo-tempo-de-residencia",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "estrangeiro-inalistavel",
+      "mechanism": "estrangeiro-residente-nao-pode-alistar-se-pelo-tempo-de-residencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inalistáveis"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inalistáveis"
+      },
+      "statement": "Uma pessoa de nacionalidade estrangeira, sem nacionalidade brasileira nem estatuto de igualdade de direitos políticos, reside no Brasil há dez anos. O tempo de residência, por si só, não permite seu alistamento eleitoral.",
+      "correctAnswer": "C",
+      "explanation": "O art. 14, § 2º, veda o alistamento eleitoral de estrangeiros. Residência prolongada não satisfaz o requisito de nacionalidade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-voto-municipal-nao-cria-excecao-para-estrangeiro-residente",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "estrangeiro-inalistavel",
+      "mechanism": "voto-municipal-nao-cria-excecao-para-estrangeiro-residente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inalistáveis"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inalistáveis"
+      },
+      "statement": "Pessoa estrangeira com residência permanente, sem nacionalidade brasileira nem estatuto de igualdade de direitos políticos, pode alistar-se para votar apenas nas eleições municipais.",
+      "correctAnswer": "E",
+      "explanation": "A vedação constitucional ao alistamento eleitoral de estrangeiros também alcança eleições municipais.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-intervencao-em-recesso-exige-convocacao-em-24h",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-congresso-recesso-convocacao",
+      "mechanism": "intervencao-em-recesso-exige-convocacao-em-24h",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "Durante o recesso do Congresso, é decretada intervenção federal para pôr termo a grave comprometimento da ordem pública, sujeita a controle legislativo. Deve haver convocação extraordinária em até 24 horas.",
+      "correctAnswer": "C",
+      "explanation": "Quando o Congresso não estiver funcionando e a intervenção depender de sua apreciação, a Constituição prevê convocação extraordinária no mesmo prazo de 24 horas.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 36, §§ 1º a 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-recesso-nao-adia-para-proxima-sessao-ordinaria",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-congresso-recesso-convocacao",
+      "mechanism": "recesso-nao-adia-para-proxima-sessao-ordinaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "Decretada, no recesso, intervenção federal sujeita à apreciação do Congresso, o Executivo pode aguardar a abertura da sessão legislativa ordinária para submeter o ato ao controle parlamentar.",
+      "correctAnswer": "E",
+      "explanation": "A regra do art. 36, § 2º, é convocação extraordinária em 24 horas. O recesso não suspende esse controle.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 36, §§ 1º a 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "id": "cam-revisao-registro-consular-basta-sem-transferencia-de-residencia",
+      "concursoId": "camara-2026",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nato-registro-sem-residencia-nenhuma-opcao",
+      "mechanism": "registro-consular-basta-sem-transferencia-de-residencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#3. Nascimento no exterior com pai ou mãe brasileiro"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "3. Nascimento no exterior com pai ou mãe brasileiro"
+      },
+      "statement": "Filha de brasileira, nascida no exterior e registrada em repartição brasileira competente, continua residindo fora do Brasil. O registro satisfaz a condição constitucional para que seja brasileira nata.",
+      "correctAnswer": "C",
+      "explanation": "O registro em repartição competente configura via própria. A residência no Brasil e a opção após a maioridade pertencem à outra via prevista na alínea c.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, I, c. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "id": "cam-revisao-registro-em-reparticao-nao-exige-opcao-apos-maioridade",
+      "concursoId": "camara-2026",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nato-registro-sem-residencia-nenhuma-opcao",
+      "mechanism": "registro-em-reparticao-nao-exige-opcao-apos-maioridade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#3. Nascimento no exterior com pai ou mãe brasileiro"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "3. Nascimento no exterior com pai ou mãe brasileiro"
+      },
+      "statement": "Filho de brasileiro, nascido no exterior e registrado em repartição brasileira competente, precisa optar pela nacionalidade após a maioridade para ser reconhecido como brasileiro nato.",
+      "correctAnswer": "E",
+      "explanation": "O registro em repartição brasileira competente é suficiente nessa hipótese. A opção integra a via que pressupõe residência no Brasil, usada como alternativa ao registro.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, I, c. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",
+      "id": "cam-revisao-combate-a-discriminacao-etaria-promove-objetivo-fundamental",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "objetivo-bem-sem-discriminacao",
+      "mechanism": "combate-a-discriminacao-etaria-promove-objetivo-fundamental",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 3º — objetivos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 3º — objetivos fundamentais"
+      },
+      "statement": "Uma política voltada a remover barreiras discriminatórias baseadas na idade se relaciona ao objetivo fundamental de promover o bem de todos.",
+      "correctAnswer": "C",
+      "explanation": "O art. 3º, IV, enuncia a promoção do bem de todos sem preconceitos, incluindo expressamente o de idade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 3º, IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",
+      "id": "cam-revisao-rol-de-preconceitos-nao-esgota-formas-de-discriminacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "objetivo-bem-sem-discriminacao",
+      "mechanism": "rol-de-preconceitos-nao-esgota-formas-de-discriminacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 3º — objetivos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 3º — objetivos fundamentais"
+      },
+      "statement": "O art. 3º, IV, restringe o objetivo de promover o bem de todos aos preconceitos que enumera expressamente e exclui as demais formas de discriminação.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo apresenta exemplos expressos e inclui as demais formas de discriminação, sem limitar o objetivo às categorias listadas.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 3º, IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P2",
       "subjectId": "etica-publica",
       "unitId": "decoro-parlamentar",

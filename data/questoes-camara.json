@@ -7605,6 +7605,174 @@
   ],
   "expansao": [
     {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",
+      "id": "cam-revisao-competencia-avocada-por-prazo-indefinido",
+      "concursoId": "camara-2026",
+      "articleId": "art-c61cca38ed36e424",
+      "conceptId": "avocacao",
+      "mechanism": "competencia-avocada-por-prazo-indefinido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      },
+      "statement": "Em um órgão federal, a autoridade superior justifica com motivos relevantes a necessidade excepcional de assumir a competência de uma unidade subordinada. O ato determina que a assunção será permanente e que a unidade nunca voltará a exercê-la. A relação hierárquica e a motivação bastam para que o ato seja uma avocação válida.",
+      "correctAnswer": "E",
+      "explanation": "A avocação do art. 15 da Lei nº 9.784/1999 é temporária. Hierarquia, excepcionalidade e motivação relevante não suprem esse requisito.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. Lei nº 9.784/1999, art. 15. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",
+      "id": "cam-revisao-concentracao-temporaria-de-decisoes-em-crise",
+      "concursoId": "camara-2026",
+      "articleId": "art-c61cca38ed36e424",
+      "conceptId": "avocacao",
+      "mechanism": "concentracao-temporaria-de-decisoes-em-crise",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      },
+      "statement": "Uma pane atinge várias unidades subordinadas de um órgão federal. A autoridade superior demonstra em ato motivado que é excepcionalmente necessário centralizar a decisão sobre pedidos urgentes enquanto durar a pane, por risco de respostas incompatíveis. A medida é compatível com a avocação temporária.",
+      "correctAnswer": "C",
+      "explanation": "O caso identifica a relação hierárquica, a situação excepcional, o motivo relevante registrado e um limite temporal ligado à superação da pane.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. Lei nº 9.784/1999, art. 15. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "id": "cam-revisao-sancao-imposta-e-execucao-fiscal",
+      "concursoId": "camara-2026",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "autoexecutoriedade-e-multa",
+      "mechanism": "sancao-imposta-e-execucao-fiscal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3. Autoexecutoriedade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3. Autoexecutoriedade"
+      },
+      "statement": "Uma autarquia lavra, após processo regular, multa administrativa prevista em lei. A empresa deixa de pagar e o crédito é regularmente inscrito em dívida ativa. Propor execução fiscal para buscar o pagamento forçado é compatível com a validade da imposição administrativa da multa.",
+      "correctAnswer": "C",
+      "explanation": "A autarquia pode constituir a obrigação no âmbito administrativo. Buscar a execução forçada do crédito pela via judicial é uma etapa distinta.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. Lei nº 6.830/1980, arts. 1º e 2º. https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-por-assunto-OLD/acesso-a-justica-e-processo-judicial/acoes-contra-a-fazenda-publica/lei-no-6-830-de-22-de-setembro-de-1980"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "id": "cam-revisao-urgencia-da-interdicao-nao-permite-debito",
+      "concursoId": "camara-2026",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "autoexecutoriedade-e-multa",
+      "mechanism": "urgencia-da-interdicao-nao-permite-debito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3. Autoexecutoriedade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3. Autoexecutoriedade"
+      },
+      "statement": "A autoridade sanitária interdita imediatamente um estabelecimento em situação de risco iminente e, em processo distinto, aplica multa. Sem autorização legal específica, a mesma urgência que justificou a interdição permite à autoridade debitar o valor da multa diretamente da conta bancária do responsável.",
+      "correctAnswer": "E",
+      "explanation": "A medida imediata serve para conter o risco sanitário. O fundamento da interdição não autoriza a retirada de dinheiro para satisfazer a multa. A cobrança forçada do crédito segue o rito próprio.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. Lei nº 6.830/1980, arts. 1º e 2º. https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-por-assunto-OLD/acesso-a-justica-e-processo-judicial/acoes-contra-a-fazenda-publica/lei-no-6-830-de-22-de-setembro-de-1980"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "id": "cam-revisao-prioridade-politica-e-aplicacao-de-criterios",
+      "concursoId": "camara-2026",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "governo-formulacao-administracao-execucao",
+      "mechanism": "prioridade-politica-e-aplicacao-de-criterios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      },
+      "statement": "Uma instância de governo escolhe ampliar a cobertura de determinado programa. Na etapa seguinte, servidores instruem requerimentos e decidem casos individuais conforme os critérios do programa. Essas decisões individuais integram a função administrativa.",
+      "correctAnswer": "C",
+      "explanation": "A escolha da prioridade define a direção política. Instruir e decidir requerimentos conforme critérios estabelecidos são atividades de implementação administrativa, mesmo quando envolvem decisões.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "id": "cam-revisao-parecer-tecnico-nao-fixa-direcao-politica",
+      "concursoId": "camara-2026",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "governo-formulacao-administracao-execucao",
+      "mechanism": "parecer-tecnico-nao-fixa-direcao-politica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      },
+      "statement": "Uma unidade técnica entrega cenários de custo e cobertura para subsidiar uma futura escolha de prioridades. Ao entregar o estudo, a unidade já exerce a função de governo de fixar a direção política do programa.",
+      "correctAnswer": "E",
+      "explanation": "O estudo fornece insumos técnicos. No caso, a decisão que fixa a direção política ainda será tomada pela instância responsável.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. "
+    },
+    {
       "id": "cam-revisao-alerta-antes-do-pagamento-detecta-autorizacao",
       "concursoId": "camara-2026",
       "origin": "inedita",

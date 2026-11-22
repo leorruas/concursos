@@ -223,8 +223,26 @@ async function updateSuggestions(){
    const question=data.map.get(id);
    return question?.concursoId===exam&&question.format==='CE'&&!question.annulled;
   };
-  const review=pending.find(item=>item.questionIds?.length&&
-   item.questionIds.every(id=>valid(id)&&!local.has(id)));
+  const topics=pending.map(item=>({
+   title:item.title,
+   ids:(item.questionIds||[]).filter(id=>valid(id)&&!local.has(id))
+  })).filter(topic=>topic.ids.length);
+  const questionIds=new Set(), includedTopics=new Set();
+  // Keep the priority order and give each theme a turn before taking a second item.
+  for(let round=0;questionIds.size<10 && topics.some(topic=>round<topic.ids.length);round++){
+   for(const topic of topics){
+    const id=topic.ids[round];
+    if(!id||questionIds.has(id))continue;
+    questionIds.add(id);
+    includedTopics.add(topic);
+    if(questionIds.size===10)break;
+   }
+  }
+  const review=questionIds.size?{
+   questionIds:[...questionIds],
+   title:includedTopics.size===1?[...includedTopics][0].title:
+    'Questões inéditas de '+includedTopics.size+' temas da sua fila de revisão.'
+  }:null;
   const repeat=pending.find(item=>valid(item.repeatQuestionId));
   renderSuggestions(review,repeat);
  }catch{
@@ -238,7 +256,7 @@ function start(recommended, directedMode='simulado'){
  const pool=directed?null:eligible();
  const availableCount=directed?n:pool.length;
  if(!availableCount)return;
- if(custom&&n<customSubjects().size){status('Escolha ao menos uma questão por matéria selecionada.');return;}
+ if(!directed&&custom&&n<customSubjects().size){status('Escolha ao menos uma questão por matéria selecionada.');return;}
  if(!directed&&availableCount<n&&!window.confirm('Há '+availableCount+' questões para esta seleção. Iniciar com essa quantidade?'))return;
  const selection=$('qs-unidade').value;
  const unitId=scope==='single'&&!directed?(singleSubjectRanges.get(selection)?.unitId??null):null;

@@ -7608,6 +7608,454 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gêneros textuais",
+      "id": "cam-revisao-aviso-no-elevador-e-no-portal",
+      "concursoId": "camara-2026",
+      "articleId": "art-61af04b165d9d678",
+      "conceptId": "aviso-suportes-distintos",
+      "mechanism": "aviso-no-elevador-e-no-portal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#2. Fundamentação Teórica: Bakhtin e Marcuschi"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/16 - genero textual situacao de uso suporte e finalidade.md",
+        "section": "2. Fundamentação Teórica: Bakhtin e Marcuschi"
+      },
+      "statement": "Um aviso de manutenção passa do mural do elevador para o portal do edifício. Conserva o texto breve, a função de alertar os moradores e o caráter de comunicado pontual. A mudança de suporte, por si só, não exige reclassificar o gênero.",
+      "correctAnswer": "C",
+      "explanation": "O mural e o portal são meios de circulação. A finalidade e a situação comunicativa permanecem compatíveis com o gênero aviso.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre gêneros textuais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gêneros textuais",
+      "id": "cam-revisao-papel-compartilhado-nao-unifica-generos",
+      "concursoId": "camara-2026",
+      "articleId": "art-61af04b165d9d678",
+      "conceptId": "aviso-suportes-distintos",
+      "mechanism": "papel-compartilhado-nao-unifica-generos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#2. Fundamentação Teórica: Bakhtin e Marcuschi"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/16 - genero textual situacao de uso suporte e finalidade.md",
+        "section": "2. Fundamentação Teórica: Bakhtin e Marcuschi"
+      },
+      "statement": "Uma receita culinária e um aviso de interrupção de água são impressos na mesma folha. Compartilhar o mesmo suporte basta para classificar ambos no mesmo gênero textual.",
+      "correctAnswer": "E",
+      "explanation": "A folha é apenas o suporte. Um texto orienta o preparo de um alimento, enquanto o outro informa sobre uma interrupção. As funções e a organização dos textos diferem.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre gêneros textuais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita, registro e transposição de discurso",
+      "id": "cam-revisao-ontem-na-fala-de-quinta",
+      "concursoId": "camara-2026",
+      "articleId": "art-fe3c1497fc8133b8",
+      "conceptId": "discurso-indireto-deitico-dia",
+      "mechanism": "ontem-na-fala-de-quinta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fe3c1497fc8133b8#3. Transposição entre Discurso Direto, Discurso Indireto e Discurso Indireto Livre"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais.md",
+        "section": "3. Transposição entre Discurso Direto, Discurso Indireto e Discurso Indireto Livre"
+      },
+      "statement": "Na quinta-feira, Lia disse: “Entreguei o livro ontem”. No domingo, alguém relata: “Na quinta-feira, Lia disse que havia entregado o livro no dia anterior”. Nos dois casos, a entrega é situada na quarta-feira.",
+      "correctAnswer": "C",
+      "explanation": "O “ontem” se ancora na fala de quinta-feira. No discurso indireto, “no dia anterior” também se ancora no momento da declaração relatada.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre formas de discurso. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita, registro e transposição de discurso",
+      "id": "cam-revisao-dia-seguinte-ancorado-na-fala-original",
+      "concursoId": "camara-2026",
+      "articleId": "art-fe3c1497fc8133b8",
+      "conceptId": "discurso-indireto-deitico-dia",
+      "mechanism": "dia-seguinte-ancorado-na-fala-original",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fe3c1497fc8133b8#3. Transposição entre Discurso Direto, Discurso Indireto e Discurso Indireto Livre"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais.md",
+        "section": "3. Transposição entre Discurso Direto, Discurso Indireto e Discurso Indireto Livre"
+      },
+      "statement": "Na terça-feira, Raul disse: “Amanhã fecho a inscrição”. Na sexta-feira, a declaração foi relatada assim: “Na terça-feira, Raul disse que fecharia a inscrição no dia seguinte”. Nesse relato, “no dia seguinte” refere-se a sábado.",
+      "correctAnswer": "E",
+      "explanation": "A referência é a terça-feira, quando Raul fez a declaração. O dia seguinte é quarta-feira. A data em que a fala foi relatada não muda o referente.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre formas de discurso. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-encapsulamento-de-corte-e-transferencia",
+      "concursoId": "camara-2026",
+      "articleId": "art-642578f70775bddb",
+      "conceptId": "encapsulamento-de-evento",
+      "mechanism": "encapsulamento-de-corte-e-transferencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#4. Anáfora Encapsuladora e Anáfora Associativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md",
+        "section": "4. Anáfora Encapsuladora e Anáfora Associativa"
+      },
+      "statement": "Em “O conselho encerrou o programa e transferiu seus recursos para outro setor. Essa decisão será contestada”, a expressão “essa decisão” condensa o acontecimento descrito no primeiro período.",
+      "correctAnswer": "C",
+      "explanation": "O grupo nominal retoma o conteúdo de uma oração ou sequência de ações e o apresenta sob o rótulo “decisão”.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre anáfora. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-rotulo-retoma-evento-em-vez-de-substantivo",
+      "concursoId": "camara-2026",
+      "articleId": "art-642578f70775bddb",
+      "conceptId": "encapsulamento-de-evento",
+      "mechanism": "rotulo-retoma-evento-em-vez-de-substantivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#4. Anáfora Encapsuladora e Anáfora Associativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md",
+        "section": "4. Anáfora Encapsuladora e Anáfora Associativa"
+      },
+      "statement": "Em “O elevador parou entre dois andares. O incidente atrasou a reunião”, a expressão “o incidente” retoma exclusivamente o substantivo “elevador”.",
+      "correctAnswer": "E",
+      "explanation": "A expressão recupera o evento de o elevador ter parado entre dois andares. O referente não se limita ao objeto mencionado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre anáfora. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos textuais",
+      "id": "cam-revisao-infinitivo-com-funcao-de-instrucao",
+      "concursoId": "camara-2026",
+      "articleId": "art-7a7433d13f34cbad",
+      "conceptId": "injuncao-no-infinitivo",
+      "mechanism": "infinitivo-com-funcao-de-instrucao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7a7433d13f34cbad#3.5. Sequência Injuntiva versus Prescritiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/15 - tipologia textual criterios de distincao e sequencias prototipicas.md",
+        "section": "3.5. Sequência Injuntiva versus Prescritiva"
+      },
+      "statement": "Um manual orienta: “Abrir a tampa. Inserir a bateria. Fechar o compartimento”. O uso do infinitivo é compatível com a sequência injuntiva.",
+      "correctAnswer": "C",
+      "explanation": "A sequência dirige ações do leitor em etapas. A função de instruir pode ser realizada com verbos no infinitivo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre sequências textuais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos textuais",
+      "id": "cam-revisao-infinitivo-em-relato-de-habito-nao-manda-agir",
+      "concursoId": "camara-2026",
+      "articleId": "art-7a7433d13f34cbad",
+      "conceptId": "injuncao-no-infinitivo",
+      "mechanism": "infinitivo-em-relato-de-habito-nao-manda-agir",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7a7433d13f34cbad#3.5. Sequência Injuntiva versus Prescritiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/15 - tipologia textual criterios de distincao e sequencias prototipicas.md",
+        "section": "3.5. Sequência Injuntiva versus Prescritiva"
+      },
+      "statement": "Em “Andar de bicicleta era o passatempo de Vera”, a presença do verbo no infinitivo basta para classificar o trecho como injuntivo.",
+      "correctAnswer": "E",
+      "explanation": "O texto descreve um passatempo. O infinitivo, isoladamente, não constitui uma orientação para que o leitor execute uma ação.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre sequências textuais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / mecanismos de coesão textual",
+      "id": "cam-revisao-retorno-encapsula-acao-sem-expressar-agente",
+      "concursoId": "camara-2026",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "nominalizacao-sem-agente-expresso",
+      "mechanism": "retorno-encapsula-acao-sem-expressar-agente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#3.3. Nominalização (Derivação Sufixal Coesiva)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "3.3. Nominalização (Derivação Sufixal Coesiva)"
+      },
+      "statement": "Em “Os técnicos retornaram ao prédio. O retorno ocorreu à noite”, o substantivo “retorno” recupera o processo expresso por “retornaram”, e a identificação dos técnicos como agentes depende da oração anterior.",
+      "correctAnswer": "C",
+      "explanation": "O substantivo nomeia o processo. Sem complemento que nomeie os agentes no segundo período, o contexto anterior fornece essa informação.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre coesão lexical. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / mecanismos de coesão textual",
+      "id": "cam-revisao-recolhimento-nao-nomeia-quem-recolheu",
+      "concursoId": "camara-2026",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "nominalizacao-sem-agente-expresso",
+      "mechanism": "recolhimento-nao-nomeia-quem-recolheu",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#3.3. Nominalização (Derivação Sufixal Coesiva)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "3.3. Nominalização (Derivação Sufixal Coesiva)"
+      },
+      "statement": "Em “As equipes recolheram as fichas. O recolhimento das fichas terminou às oito”, o grupo nominal “o recolhimento das fichas” explicita quem realizou a ação.",
+      "correctAnswer": "E",
+      "explanation": "O grupo nomeia o processo e identifica aquilo que foi recolhido. O agente são as equipes, recuperadas do primeiro período.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre coesão lexical. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da ortografia oficial",
+      "id": "cam-revisao-anti-sinais-com-dobro-de-s",
+      "concursoId": "camara-2026",
+      "articleId": "art-f0bd45f90ed9276a",
+      "conceptId": "prefixo-anti-antes-s",
+      "mechanism": "anti-sinais-com-dobro-de-s",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f0bd45f90ed9276a#3. Hifenização com Prefixos no Acordo Ortográfico"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao.md",
+        "section": "3. Hifenização com Prefixos no Acordo Ortográfico"
+      },
+      "statement": "Em um anúncio, a combinação de “anti-” e “sinais” forma “antissinais”, com duplicação do s e sem hífen.",
+      "correctAnswer": "C",
+      "explanation": "Quando o prefixo termina em vogal e a base começa por s, usa-se a forma aglutinada com s duplicado, nesse caso.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção de hifenização. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da ortografia oficial",
+      "id": "cam-revisao-antisseptico-nao-conserva-hifen",
+      "concursoId": "camara-2026",
+      "articleId": "art-f0bd45f90ed9276a",
+      "conceptId": "prefixo-anti-antes-s",
+      "mechanism": "antisseptico-nao-conserva-hifen",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f0bd45f90ed9276a#3. Hifenização com Prefixos no Acordo Ortográfico"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao.md",
+        "section": "3. Hifenização com Prefixos no Acordo Ortográfico"
+      },
+      "statement": "A palavra “antisséptico” deve ser escrita “anti-séptico”, pois o s inicial da base obriga o uso do hífen após “anti-”.",
+      "correctAnswer": "E",
+      "explanation": "Nessa formação, o prefixo termina em vogal e a base começa por s. Usa-se a duplicação da consoante, sem hífen.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção de hifenização. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita, registro e transposição de discurso",
+      "id": "cam-revisao-expansao-sigla-familiariza-leitor",
+      "concursoId": "camara-2026",
+      "articleId": "art-fe3c1497fc8133b8",
+      "conceptId": "registro-sigla-expansao",
+      "mechanism": "expansao-sigla-familiariza-leitor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fe3c1497fc8133b8#2. Variação linguística, níveis de formalidade e adequação estilística"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais.md",
+        "section": "2. Variação linguística, níveis de formalidade e adequação estilística"
+      },
+      "statement": "Em um aviso para novos estudantes, a redação troca a primeira ocorrência de “MEC” por “Ministério da Educação (MEC)”. A mudança facilita a identificação do órgão e mantém o referente.",
+      "correctAnswer": "C",
+      "explanation": "A forma por extenso explicita o nome que a sigla abrevia. O público passa a ter informação adicional sobre a denominação, sem troca do órgão mencionado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre adequação de registro. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita, registro e transposição de discurso",
+      "id": "cam-revisao-escrever-nome-completo-nao-troca-orgao",
+      "concursoId": "camara-2026",
+      "articleId": "art-fe3c1497fc8133b8",
+      "conceptId": "registro-sigla-expansao",
+      "mechanism": "escrever-nome-completo-nao-troca-orgao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fe3c1497fc8133b8#2. Variação linguística, níveis de formalidade e adequação estilística"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais.md",
+        "section": "2. Variação linguística, níveis de formalidade e adequação estilística"
+      },
+      "statement": "Um texto apresenta “Instituto Brasileiro de Geografia e Estatística (IBGE)” na primeira menção e usa apenas “IBGE” nas seguintes. Ao substituir o nome por extenso pela sigla nessas menções, o texto passa a nomear outro órgão.",
+      "correctAnswer": "E",
+      "explanation": "A sigla foi apresentada como abreviação do mesmo nome. As ocorrências posteriores remetem ao mesmo órgão.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre adequação de registro. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gramática e reescrita",
+      "id": "cam-revisao-passiva-preserva-agente-paciente-e-tempo",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec4233e53951fb59",
+      "conceptId": "voz-passiva-analitica-equivalencia",
+      "mechanism": "passiva-preserva-agente-paciente-e-tempo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec4233e53951fb59#3. Operação 1: Transposição de vozes verbais (Ativa $\\leftrightarrow$ Passiva Analítica $\\leftrightarrow$ Passiva Sintética)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/33 - reorganizacao sintatica e equivalencia semantica.md",
+        "section": "3. Operação 1: Transposição de vozes verbais (Ativa $\\leftrightarrow$ Passiva Analítica $\\leftrightarrow$ Passiva Sintética)"
+      },
+      "statement": "A frase “Os técnicos revisaram os formulários” pode ser reescrita como “Os formulários foram revisados pelos técnicos”, preservando agente, paciente e tempo do evento.",
+      "correctAnswer": "C",
+      "explanation": "A passiva muda a organização sintática. “Os formulários” passa a sujeito paciente e “pelos técnicos” conserva o agente no mesmo tempo verbal.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre transposição de vozes. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gramática e reescrita",
+      "id": "cam-revisao-passiva-futuro-altera-evento-concluido",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec4233e53951fb59",
+      "conceptId": "voz-passiva-analitica-equivalencia",
+      "mechanism": "passiva-futuro-altera-evento-concluido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec4233e53951fb59#3. Operação 1: Transposição de vozes verbais (Ativa $\\leftrightarrow$ Passiva Analítica $\\leftrightarrow$ Passiva Sintética)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/33 - reorganizacao sintatica e equivalencia semantica.md",
+        "section": "3. Operação 1: Transposição de vozes verbais (Ativa $\\leftrightarrow$ Passiva Analítica $\\leftrightarrow$ Passiva Sintética)"
+      },
+      "statement": "A reescrita de “A comissão analisou o relatório” como “O relatório será analisado pela comissão” preserva integralmente o sentido temporal da oração.",
+      "correctAnswer": "E",
+      "explanation": "A conversão para a voz passiva poderia conservar o pretérito com “foi analisado”. O futuro em “será analisado” desloca o evento para outro momento.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre transposição de vozes. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",
       "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",

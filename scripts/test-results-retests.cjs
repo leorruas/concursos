@@ -49,4 +49,14 @@ assert.equal(transfer([a('t1','c1','incorrect','2026-11-10'),a('t2','c2','incorr
 assert.equal(transfer([a('t1','c1','incorrect','2026-11-10'),a('t2','c2','correct','2026-11-12','camara-2026','insecure')],concepts,'camara-2026')[0].state,'insecure');
 assert.equal(transfer([a('t1','c1','incorrect','2026-11-10'),a('t2','cgu','correct','2026-11-12','cgu-2026')],concepts,'camara-2026').length,0);
 assert.equal(transfer([...testRows,a('t2','c2','correct','2026-11-12')],concepts,'camara-2026')[0].distinctQuestions,2);
+// Contrato visual do resumo: retestes literais não podem ser apresentados como teste independente.
+const ui=fs.readFileSync(require('node:path').join(__dirname,'../web/13-results-ui.js'),'utf8');
+const page=fs.readFileSync(require('node:path').join(__dirname,'../web/13c-results-pages.js'),'utf8');
+for(const label of ['Erros corrigidos com segurança','Erros corrigidos com insegurança','Erros persistentes','Erros que reapareceram','Demais percursos']){
+ assert.ok(ui.includes(label),'categoria ausente do painel: '+label);
+}
+assert.match(ui,/correct\/repeated/,'taxa de acerto final deve usar quantidade de questões repetidas');
+assert.ok(ui.includes("kind==='independent'"),'evidência independente deve ser explicitada');
+assert.ok(ui.includes('não o ganho de aprendizagem'),'retestes devem explicitar o limite da medida');
+assert.ok(page.includes('.results-retest-breakdown')&&page.includes('.results-retention-summary'));
 console.log('OK: retestes por artigo, diferença de dias, confiança, deduplicação e isolamento por concurso.');

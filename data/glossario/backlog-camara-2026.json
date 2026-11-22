@@ -2019,6 +2019,134 @@
       "examBlock": "Conhecimentos legislativos",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-tipologia",
+      "term": "Tipologia dos atos administrativos",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-atos-normativos",
+      "term": "Atos normativos administrativos",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-atos-ordinatorios",
+      "term": "Atos ordinatórios",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-atos-negociais",
+      "term": "Atos negociais",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-atos-enunciativos",
+      "term": "Atos enunciativos",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-atos-punitivos",
+      "term": "Atos punitivos",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-vinculados-discricionarios",
+      "term": "Atos vinculados e discricionários",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-gerais-individuais",
+      "term": "Atos gerais e individuais",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-constitutivos-declaratorios",
+      "term": "Atos constitutivos e declaratórios",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-ato-perfeito",
+      "term": "Ato administrativo perfeito",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-ato-imperfeito",
+      "term": "Ato administrativo imperfeito",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-ato-pendente",
+      "term": "Ato administrativo pendente",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-ato-consumado",
+      "term": "Ato administrativo consumado",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-ato-simples",
+      "term": "Ato administrativo simples",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-ato-complexo",
+      "term": "Ato administrativo complexo",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da16-ato-composto",
+      "term": "Ato administrativo composto",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

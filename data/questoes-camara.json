@@ -7608,6 +7608,342 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "id": "cam-revisao-saldo-restituido-em-duas-datas-tem-tratamentos-distintos",
+      "concursoId": "camara-2026",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "suprimento-restituicao-partes-em-exercicios-distintos",
+      "mechanism": "saldo-restituido-em-duas-datas-tem-tratamentos-distintos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Restituições de suprimento"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Restituições de suprimento"
+      },
+      "statement": "De um suprimento concedido em novembro, R$ 150 sem aplicação são devolvidos em dezembro e outros R$ 70 em janeiro seguinte. A primeira restituição anula parte da despesa e a segunda é receita orçamentária do novo exercício.",
+      "correctAnswer": "C",
+      "explanation": "Os recolhimentos são classificados separadamente. No mesmo exercício, ocorre anulação da despesa. Depois de seu encerramento, a restituição constitui receita orçamentária.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Decreto nº 93.872/1986, art. 45, § 1º. https://www.planalto.gov.br/ccivil_03/decreto/d93872.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "id": "cam-revisao-prestacao-unica-nao-unifica-classificacao-de-restituicoes",
+      "concursoId": "camara-2026",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "suprimento-restituicao-partes-em-exercicios-distintos",
+      "mechanism": "prestacao-unica-nao-unifica-classificacao-de-restituicoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Restituições de suprimento"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Restituições de suprimento"
+      },
+      "statement": "O saldo de um suprimento foi restituído parte no exercício da despesa e parte no ano seguinte. Como as parcelas integram a mesma prestação de contas, ambas devem ser registradas como anulação da despesa.",
+      "correctAnswer": "E",
+      "explanation": "O que determina o tratamento é o exercício de cada recolhimento. A parcela posterior ao encerramento é receita orçamentária.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Decreto nº 93.872/1986, art. 45, § 1º. https://www.planalto.gov.br/ccivil_03/decreto/d93872.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "id": "cam-revisao-resposta-tempestiva-sem-esclarecimento-leva-a-pronunciamento-do-tcu",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "cmo-resposta-no-prazo-insuficiente",
+      "mechanism": "resposta-tempestiva-sem-esclarecimento-leva-a-pronunciamento-do-tcu",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#O procedimento específico da comissão mista: art. 72"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "O procedimento específico da comissão mista: art. 72"
+      },
+      "statement": "Diante de indícios de despesa não autorizada, a comissão mista pede esclarecimentos à autoridade responsável. A resposta chega no prazo, mas é considerada insuficiente. A comissão deve solicitar pronunciamento conclusivo do Tribunal de Contas da União.",
+      "correctAnswer": "C",
+      "explanation": "O § 1º prevê a solicitação tanto na falta de esclarecimentos quanto quando os esclarecimentos forem insuficientes.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 72, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "id": "cam-revisao-resposta-pontual-nao-encerra-apuracao-insuficiente",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "cmo-resposta-no-prazo-insuficiente",
+      "mechanism": "resposta-pontual-nao-encerra-apuracao-insuficiente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#O procedimento específico da comissão mista: art. 72"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "O procedimento específico da comissão mista: art. 72"
+      },
+      "statement": "Em procedimento do art. 72, a autoridade respondeu no prazo, mas não esclareceu a autorização da despesa. A tempestividade da resposta impede que a comissão solicite pronunciamento conclusivo ao Tribunal de Contas da União.",
+      "correctAnswer": "E",
+      "explanation": "A suficiência do esclarecimento é requisito distinto da tempestividade. A resposta insuficiente autoriza o passo seguinte.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 72, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-revisao-prazo-de-parecer-previo-comeca-no-recebimento-das-contas",
+      "concursoId": "camara-2026",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "parecer-previo-recebimento",
+      "mechanism": "prazo-de-parecer-previo-comeca-no-recebimento-das-contas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#4. Julgamento das contas do Presidente da República (CF, art. 49, IX e art. 71, I)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "4. Julgamento das contas do Presidente da República (CF, art. 49, IX e art. 71, I)"
+      },
+      "statement": "Ao receber as contas anuais do Presidente da República, o Tribunal de Contas da União passa a dispor de sessenta dias para elaborar seu parecer prévio.",
+      "correctAnswer": "C",
+      "explanation": "O art. 71, I, conta o prazo de sessenta dias do recebimento das contas pelo Tribunal.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 49, IX, e 71, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-revisao-fim-do-exercicio-nao-dispara-prazo-de-parecer-previo",
+      "concursoId": "camara-2026",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "parecer-previo-recebimento",
+      "mechanism": "fim-do-exercicio-nao-dispara-prazo-de-parecer-previo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#4. Julgamento das contas do Presidente da República (CF, art. 49, IX e art. 71, I)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "4. Julgamento das contas do Presidente da República (CF, art. 49, IX e art. 71, I)"
+      },
+      "statement": "No exame das contas anuais do Presidente da República, o prazo de sessenta dias para o parecer prévio do TCU começa no encerramento do exercício financeiro, mesmo antes de receber as contas.",
+      "correctAnswer": "E",
+      "explanation": "O marco constitucional é o recebimento das contas. O encerramento do exercício não inicia o prazo do TCU.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 49, IX, e 71, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "id": "cam-revisao-eleita-por-partido-sem-desempenho-pode-migrar",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "partido-clausula-migracao-sem-perda",
+      "mechanism": "eleita-por-partido-sem-desempenho-pode-migrar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      },
+      "statement": "Eleita por partido que não preencheu a cláusula de desempenho, uma deputada decide se filiar a partido que cumpriu os requisitos. Nessa hipótese, a Constituição permite a nova filiação sem perda do mandato.",
+      "correctAnswer": "C",
+      "explanation": "O § 5º assegura o mandato e faculta a filiação, sem perda, a partido que tenha preenchido os requisitos do § 3º.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 17, §§ 3º e 5º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "id": "cam-revisao-clausula-autoriza-migracao-a-legenda-que-cumpriu-requisitos",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "partido-clausula-migracao-sem-perda",
+      "mechanism": "clausula-autoriza-migracao-a-legenda-que-cumpriu-requisitos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      },
+      "statement": "Um parlamentar eleito por partido que não atingiu a cláusula de desempenho invoca o art. 17, § 5º, para migrar sem perda do mandato para outra legenda que também não preencheu os requisitos. Essa mudança está protegida pelo referido dispositivo.",
+      "correctAnswer": "E",
+      "explanation": "A proteção específica do § 5º exige que o partido de destino tenha atingido os requisitos de desempenho.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 17, §§ 3º e 5º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "id": "cam-revisao-renuncia-expressa-nao-e-declarada-se-gerar-apatridia",
+      "concursoId": "camara-2026",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "perda-pedido-apatridia",
+      "mechanism": "renuncia-expressa-nao-e-declarada-se-gerar-apatridia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Perda da nacionalidade: EC nº 131/2023"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Perda da nacionalidade: EC nº 131/2023"
+      },
+      "statement": "Uma pessoa que possui somente a nacionalidade brasileira formula pedido expresso de perda perante autoridade brasileira competente. Se o deferimento a deixaria sem nacionalidade, incide a ressalva constitucional de apatridia.",
+      "correctAnswer": "C",
+      "explanation": "O pedido expresso constitui hipótese de perda, com ressalva para os casos que acarretem apatridia.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, § 4º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "id": "cam-revisao-vontade-expressa-nao-remove-ressalva-de-apatridia",
+      "concursoId": "camara-2026",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "perda-pedido-apatridia",
+      "mechanism": "vontade-expressa-nao-remove-ressalva-de-apatridia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Perda da nacionalidade: EC nº 131/2023"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Perda da nacionalidade: EC nº 131/2023"
+      },
+      "statement": "A autoridade pode declarar a perda a pedido da única nacionalidade da pessoa, desde que ela aceite expressamente ficar apátrida.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição ressalva as situações que acarretem apatridia. A concordância do requerente não afasta essa ressalva.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, § 4º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-imperativo-orienta-indicativo-descreve-rotina",
+      "concursoId": "camara-2026",
+      "articleId": "art-3c2532290c3996fa",
+      "conceptId": "ordem-e-descricao",
+      "mechanism": "imperativo-orienta-indicativo-descreve-rotina",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c2532290c3996fa#2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md",
+        "section": "2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
+      },
+      "statement": "Em um manual que dá instruções ao leitor, “Confira o número do processo” formula uma orientação. Já “A equipe confere o número do processo todos os dias” descreve uma rotina.",
+      "correctAnswer": "C",
+      "explanation": "“Confira” tem valor de imperativo no contexto de instrução. “Confere” está no presente do indicativo e, com a expressão temporal, descreve um hábito.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre modos verbais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-troca-de-enunciado-descritivo-por-imperativo-muda-funcao",
+      "concursoId": "camara-2026",
+      "articleId": "art-3c2532290c3996fa",
+      "conceptId": "ordem-e-descricao",
+      "mechanism": "troca-de-enunciado-descritivo-por-imperativo-muda-funcao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c2532290c3996fa#2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md",
+        "section": "2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
+      },
+      "statement": "Em um relatório que descreve o trabalho da equipe, reescrever “A equipe arquiva os comprovantes ao fim do dia” como “Arquive os comprovantes ao fim do dia” mantém a descrição da rotina.",
+      "correctAnswer": "E",
+      "explanation": "A primeira frase relata uma prática. A segunda dirige uma instrução a um interlocutor.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre modos verbais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
       "subjectId": "etica-publica",
       "unitId": "decoro-parlamentar",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",

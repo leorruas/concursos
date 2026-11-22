@@ -7607,6 +7607,566 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-forma-sanavel-com-efeitos-preservados",
+      "concursoId": "camara-2026",
+      "articleId": "art-a7703dd0e3fc4618",
+      "conceptId": "convalidacao-vicio",
+      "mechanism": "forma-sanavel-com-efeitos-preservados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#Vícios Sanáveis versus Vícios Insanáveis e Convalidação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+        "section": "Vícios Sanáveis versus Vícios Insanáveis e Convalidação"
+      },
+      "statement": "Em processo federal, a autoridade identifica um defeito de forma expressamente considerado sanável e demonstra que a correção não lesiona o interesse público nem prejudica terceiros. A própria Administração pode convalidar o ato.",
+      "correctAnswer": "C",
+      "explanation": "O art. 55 permite convalidação pela Administração quando o defeito é sanável e a decisão demonstra ausência de lesão ao interesse público e de prejuízo a terceiros.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Lei nº 9.784/1999, art. 55. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-ratificacao-nao-corrige-finalidade-de-retaliacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-a7703dd0e3fc4618",
+      "conceptId": "convalidacao-vicio",
+      "mechanism": "ratificacao-nao-corrige-finalidade-de-retaliacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#Vícios Sanáveis versus Vícios Insanáveis e Convalidação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+        "section": "Vícios Sanáveis versus Vícios Insanáveis e Convalidação"
+      },
+      "statement": "Uma autoridade usa sua competência para retaliar quem fez denúncia e a chefia confirma posteriormente a decisão, sem alterar a finalidade. A ratificação da chefia torna sanável o vício.",
+      "correctAnswer": "E",
+      "explanation": "A convalidação alcança defeitos sanáveis. O desvio de finalidade permanece mesmo com a ratificação hierárquica.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Lei nº 9.784/1999, art. 55. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",
+      "id": "cam-revisao-inadimplemento-do-contratado-e-vinculo-especial",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "disciplinar-particulares",
+      "mechanism": "inadimplemento-do-contratado-e-vinculo-especial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      },
+      "statement": "Uma empresa descumpre obrigação prevista em contrato administrativo. A existência de vínculo especial com a Administração permite aplicar a sanção contratual cabível, observados os requisitos legais.",
+      "correctAnswer": "C",
+      "explanation": "O vínculo contratual sujeita o particular às obrigações e às sanções previstas para a contratação. A condição de particular não impede essa responsabilização.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre poder disciplinar. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",
+      "id": "cam-revisao-infrator-sem-contrato-nao-recebe-sancao-contratual",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "disciplinar-particulares",
+      "mechanism": "infrator-sem-contrato-nao-recebe-sancao-contratual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      },
+      "statement": "Uma empresa sem vínculo especial com o município infringe regra geral de funcionamento comercial. Por ser pessoa jurídica privada, ela está sujeita, nesse caso, às sanções disciplinares de um contrato administrativo.",
+      "correctAnswer": "E",
+      "explanation": "Sem relação contratual, há de se considerar a sanção prevista para a infração à regra geral, em exercício de poder de polícia. A vinculação contratual não pode ser presumida.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre poder disciplinar. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-licenca-objeto-concessao-e-motivo-requisitos",
+      "concursoId": "camara-2026",
+      "articleId": "art-a7703dd0e3fc4618",
+      "conceptId": "objeto-vs-motivo",
+      "mechanism": "licenca-objeto-concessao-e-motivo-requisitos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#Objeto (Conteúdo)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+        "section": "Objeto (Conteúdo)"
+      },
+      "statement": "Uma licença é concedida porque o requerente comprovou os requisitos legais. A concessão da licença é o conteúdo do ato, e o preenchimento dos requisitos é parte do seu motivo.",
+      "correctAnswer": "C",
+      "explanation": "O objeto é o efeito jurídico imediato. Os pressupostos fáticos e jurídicos que justificam conceder a licença correspondem ao motivo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre elementos do ato administrativo. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-fechamento-de-local-nao-e-motivo-da-interdicao",
+      "concursoId": "camara-2026",
+      "articleId": "art-a7703dd0e3fc4618",
+      "conceptId": "objeto-vs-motivo",
+      "mechanism": "fechamento-de-local-nao-e-motivo-da-interdicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#Objeto (Conteúdo)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+        "section": "Objeto (Conteúdo)"
+      },
+      "statement": "Uma autoridade interdita um local porque a vistoria constatou risco de desabamento. A proibição de funcionamento é o motivo, e o risco de desabamento é o objeto do ato.",
+      "correctAnswer": "E",
+      "explanation": "O risco constatado é a situação que fundamenta a decisão. A proibição de funcionamento é o efeito jurídico produzido pela interdição.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre elementos do ato administrativo. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-concessionaria-executa-sem-se-tornar-autarquia",
+      "concursoId": "camara-2026",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "outorga-versus-colaboracao",
+      "mechanism": "concessionaria-executa-sem-se-tornar-autarquia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#2. Modalidades de Descentralização: Outorga vs. Delegação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "2. Modalidades de Descentralização: Outorga vs. Delegação"
+      },
+      "statement": "A Administração concede a uma empresa privada a execução de um serviço público. A concessionária presta o serviço por colaboração e conserva sua natureza privada.",
+      "correctAnswer": "C",
+      "explanation": "Na concessão, a execução é delegada a particular. Isso não cria uma autarquia nem integra a concessionária à administração indireta.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre organização administrativa. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-autarquia-por-lei-nao-e-concessionaria-contratual",
+      "concursoId": "camara-2026",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "outorga-versus-colaboracao",
+      "mechanism": "autarquia-por-lei-nao-e-concessionaria-contratual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#2. Modalidades de Descentralização: Outorga vs. Delegação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "2. Modalidades de Descentralização: Outorga vs. Delegação"
+      },
+      "statement": "Uma lei cria uma autarquia e lhe atribui a execução de determinada atividade administrativa. Essa transferência constitui descentralização por colaboração mediante contrato de concessão.",
+      "correctAnswer": "E",
+      "explanation": "A atribuição decorre da lei e é conferida a entidade administrativa própria. A colaboração por concessão decorre de delegação da execução a particular.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre organização administrativa. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 3",
+      "id": "cam-revisao-selecao-temporaria-nao-prove-cargo-efetivo",
+      "concursoId": "camara-2026",
+      "articleId": "art-6b9002df47604ea5",
+      "conceptId": "temporario-cargo-efetivo",
+      "mechanism": "selecao-temporaria-nao-prove-cargo-efetivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6b9002df47604ea5#4. Servidores Temporários (Art. 37, IX, da CF/1988)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/05 - agentes publicos.md",
+        "section": "4. Servidores Temporários (Art. 37, IX, da CF/1988)"
+      },
+      "statement": "Um órgão contrata pessoal por tempo determinado, em hipótese legal, para atender necessidade temporária de excepcional interesse público. A realização de seleção pública para o contrato não o transforma em provimento de cargo efetivo.",
+      "correctAnswer": "C",
+      "explanation": "A seleção pode integrar o procedimento da contratação temporária. Seu objeto é um vínculo temporário, distinto da investidura em cargo efetivo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 37, II e IX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 3",
+      "id": "cam-revisao-carencia-permanente-nao-prova-necessidade-temporaria",
+      "concursoId": "camara-2026",
+      "articleId": "art-6b9002df47604ea5",
+      "conceptId": "temporario-cargo-efetivo",
+      "mechanism": "carencia-permanente-nao-prova-necessidade-temporaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6b9002df47604ea5#4. Servidores Temporários (Art. 37, IX, da CF/1988)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/05 - agentes publicos.md",
+        "section": "4. Servidores Temporários (Art. 37, IX, da CF/1988)"
+      },
+      "statement": "A carência permanente e ordinária de pessoal, por si só, satisfaz a exigência constitucional de necessidade temporária de excepcional interesse público para contratar por prazo determinado.",
+      "correctAnswer": "E",
+      "explanation": "O art. 37, IX, exige necessidade temporária e excepcional interesse público. A simples existência de déficit ordinário permanente não demonstra esses requisitos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 37, II e IX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-alfabetizacao-nao-e-pre-requisito-para-voto-facultativo",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "analfabeto-voto-facultativo",
+      "mechanism": "alfabetizacao-nao-e-pre-requisito-para-voto-facultativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Facultativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Facultativos"
+      },
+      "statement": "Um eleitor analfabeto devidamente alistado pode exercer o voto. O fato de seu voto ser facultativo significa que ele pode optar por votar ou se abster.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição classifica o alistamento e o voto dos analfabetos como facultativos. A inelegibilidade prevista separadamente diz respeito à candidatura.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 1º, II, a, e § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-idade-nao-converte-voto-de-analfabeto-em-obrigatorio",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "analfabeto-voto-facultativo",
+      "mechanism": "idade-nao-converte-voto-de-analfabeto-em-obrigatorio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Facultativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Facultativos"
+      },
+      "statement": "Para uma pessoa analfabeta de quarenta anos, a regra geral de obrigatoriedade do voto entre dezoito e setenta anos prevalece sobre a previsão específica de voto facultativo.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição prevê expressamente a facultatividade para os analfabetos. A incidência da regra específica não depende de ter mais de setenta anos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 1º, II, a, e § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "id": "cam-revisao-revisao-pelo-senado-preserva-projeto-de-deputado",
+      "concursoId": "camara-2026",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "arquivamento-revisao-concluida",
+      "mechanism": "revisao-pelo-senado-preserva-projeto-de-deputado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      },
+      "statement": "Um projeto de iniciativa parlamentar, já aprovado pela Câmara e revisado pelo Senado, continua em tramitação ao término da legislatura. A tramitação cumpre uma das exceções regimentais ao arquivamento, ainda que a iniciativa não seja popular.",
+      "correctAnswer": "C",
+      "explanation": "A aprovação pela Câmara seguida de revisão pelo Senado é exceção própria do art. 105. Ela independe de quem iniciou o projeto.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 105. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "id": "cam-revisao-remessa-ao-senado-nao-equivale-a-revisao",
+      "concursoId": "camara-2026",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "arquivamento-revisao-concluida",
+      "mechanism": "remessa-ao-senado-nao-equivale-a-revisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      },
+      "statement": "Um projeto aprovado pela Câmara foi enviado ao Senado, que ainda não o revisou. Esse simples envio basta para enquadrá-lo na exceção ao arquivamento referente a proposições aprovadas pela Câmara e revisadas pelo Senado.",
+      "correctAnswer": "E",
+      "explanation": "A exceção citada exige revisão, e não apenas remessa. Outras exceções ao arquivamento devem ser avaliadas conforme a tramitação.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 105. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e controle externo",
+      "id": "cam-revisao-auditor-garantias-mudam-conforme-funcao",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "auditor-garantias-na-substituicao",
+      "mechanism": "auditor-garantias-mudam-conforme-funcao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Composição do TCU"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Composição do TCU"
+      },
+      "statement": "No TCU, um auditor ocupa temporariamente a função de um ministro. Durante a substituição, o parâmetro constitucional para suas garantias e impedimentos é o ministro substituído.",
+      "correctAnswer": "C",
+      "explanation": "Na substituição, o auditor possui as mesmas garantias e impedimentos do titular. Nas demais atribuições da judicatura, a referência é o juiz de Tribunal Regional Federal.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 73, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e controle externo",
+      "id": "cam-revisao-auditor-fora-da-substituicao-regra-propria",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "auditor-garantias-na-substituicao",
+      "mechanism": "auditor-fora-da-substituicao-regra-propria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Composição do TCU"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Composição do TCU"
+      },
+      "statement": "Ao exercer atribuições da judicatura sem substituir ministro do TCU, o auditor mantém, por força da Constituição, as garantias e impedimentos próprios do ministro titular como referência obrigatória.",
+      "correctAnswer": "E",
+      "explanation": "Fora da substituição, o parâmetro constitucional é o juiz de Tribunal Regional Federal. O parâmetro do ministro vale quando o auditor o substitui.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 73, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-cpi-apoio-suficiente-nao-dispensa-fim-definido",
+      "concursoId": "camara-2026",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "cpi-um-terco-fato-prazo",
+      "mechanism": "cpi-apoio-suficiente-nao-dispensa-fim-definido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      },
+      "statement": "Um requerimento de CPI reúne um terço dos membros da Casa e delimita o fato investigado, mas prevê duração por tempo indeterminado. Falta um dos requisitos constitucionais de criação.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição exige cumulativamente quórum, fato determinado e prazo certo. O apoio obtido e a descrição do fato não dispensam o prazo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-cpi-cento-e-setenta-abaixo-de-um-terco",
+      "concursoId": "camara-2026",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "cpi-um-terco-fato-prazo",
+      "mechanism": "cpi-cento-e-setenta-abaixo-de-um-terco",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      },
+      "statement": "Na Câmara dos Deputados, um requerimento de CPI reúne 170 assinaturas, delimita o fato e prevê prazo certo. A delimitação dos trabalhos compensa a diferença entre o apoio obtido e o mínimo constitucional.",
+      "correctAnswer": "E",
+      "explanation": "Um terço de 513 deputados corresponde a 171. Os requisitos materiais não suprem o déficit de assinaturas.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-regiao-administrativa-nao-cria-municipio",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "distrito-federal-dividido-municipios",
+      "mechanism": "regiao-administrativa-nao-cria-municipio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Distrito Federal: acumulação de competências"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Distrito Federal: acumulação de competências"
+      },
+      "statement": "O Distrito Federal possui regiões administrativas. A existência dessas unidades é compatível com a regra constitucional que veda sua divisão em municípios, pois se trata de organização interna.",
+      "correctAnswer": "C",
+      "explanation": "Regiões administrativas organizam o território e a execução de serviços. Não são municípios autônomos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 32. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-df-competencias-municipais-sem-criar-entes",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "distrito-federal-dividido-municipios",
+      "mechanism": "df-competencias-municipais-sem-criar-entes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Distrito Federal: acumulação de competências"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Distrito Federal: acumulação de competências"
+      },
+      "statement": "O Distrito Federal acumula competências legislativas reservadas a estados e municípios. Por essa razão, sua lei orgânica pode transformar regiões administrativas em municípios autônomos.",
+      "correctAnswer": "E",
+      "explanation": "A acumulação de competências não permite criar municípios no Distrito Federal. O caput do art. 32 proíbe a divisão.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 32. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P2",
       "subjectId": "etica-publica",
       "unitId": "decoro-parlamentar",

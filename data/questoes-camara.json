@@ -7607,6 +7607,398 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "id": "cam-revisao-dois-turnos-em-cada-casa-para-equivalencia",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "tratado-direitos-humanos-quorum-turno-unico",
+      "mechanism": "dois-turnos-em-cada-casa-para-equivalencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "Um tratado de direitos humanos recebe três quintos dos votos em dois turnos na Câmara e em um único turno no Senado. Esse resultado ainda não satisfaz o rito de equivalência às emendas constitucionais.",
+      "correctAnswer": "C",
+      "explanation": "São necessários dois turnos em cada Casa, com três quintos dos respectivos membros em cada votação.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "id": "cam-revisao-quorum-qualificado-nao-compensa-turno-ausente",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "tratado-direitos-humanos-quorum-turno-unico",
+      "mechanism": "quorum-qualificado-nao-compensa-turno-ausente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "A aprovação unânime de tratado de direitos humanos em turno único em cada Casa supre a exigência de dois turnos para que ele seja equivalente a emenda constitucional.",
+      "correctAnswer": "E",
+      "explanation": "Número de votos e número de turnos são requisitos cumulativos. A unanimidade não substitui o segundo turno.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-despesa-nao-determina-reserva-de-iniciativa",
+      "concursoId": "camara-2026",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "urgencia-despesa-sem-reserva",
+      "mechanism": "despesa-nao-determina-reserva-de-iniciativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento sumário: urgência constitucional presidencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento sumário: urgência constitucional presidencial"
+      },
+      "statement": "O Presidente apresenta projeto de sua iniciativa sobre tema que também poderia ser proposto por parlamentar. Havendo despesa para implementar a medida, esse fato por si só não impede que o Presidente solicite urgência constitucional.",
+      "correctAnswer": "C",
+      "explanation": "O art. 64, § 1º, aplica-se aos projetos de iniciativa presidencial. O dispositivo não exige que a iniciativa seja privativa nem que o projeto seja sem despesa.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 61 a 64. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-presidente-nao-da-urgencia-constitucional-a-projeto-alheio",
+      "concursoId": "camara-2026",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "urgencia-despesa-sem-reserva",
+      "mechanism": "presidente-nao-da-urgencia-constitucional-a-projeto-alheio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento sumário: urgência constitucional presidencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento sumário: urgência constitucional presidencial"
+      },
+      "statement": "Um deputado apresenta projeto com impacto financeiro. O Presidente pode submetê-lo à urgência do art. 64, § 1º, com base somente na existência de despesa.",
+      "correctAnswer": "E",
+      "explanation": "A urgência constitucional do art. 64, § 1º, pressupõe projeto de iniciativa do próprio Presidente. O impacto financeiro não atende a esse requisito.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 61 a 64. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / interpretação de textos",
+      "id": "cam-revisao-lamentar-pressupoe-fato-lamentado",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "verbo-factivo-lamentar",
+      "mechanism": "lamentar-pressupoe-fato-lamentado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "Em “A diretora lamentou que a reunião tenha sido cancelada”, o cancelamento é apresentado como informação pressuposta, e a reação da diretora é afirmada.",
+      "correctAnswer": "C",
+      "explanation": "O verbo factivo “lamentar” toma a oração subordinada como fato. A afirmação principal declara a reação da diretora.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre pressuposição. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / interpretação de textos",
+      "id": "cam-revisao-negacao-de-lamentar-preserva-pressuposto",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "verbo-factivo-lamentar",
+      "mechanism": "negacao-de-lamentar-preserva-pressuposto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "Em “A diretora não lamentou que a reunião tenha sido cancelada”, a negação elimina a pressuposição de que a reunião foi cancelada.",
+      "correctAnswer": "E",
+      "explanation": "Na leitura usual, a negação alcança a reação da diretora. O cancelamento continua pressuposto.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre pressuposição. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-veto-integral-da-alinea-b-preserva-a",
+      "concursoId": "camara-2026",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "veto-alinea-integral-sem-inciso",
+      "mechanism": "veto-integral-da-alinea-b-preserva-a",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Veto total versus parcial: a unidade mínima do texto"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Veto total versus parcial: a unidade mínima do texto"
+      },
+      "statement": "O Presidente veta integralmente a alínea b de um inciso e mantém sua alínea a. Quanto à extensão do texto vetado, a medida é admitida pela Constituição.",
+      "correctAnswer": "C",
+      "explanation": "Alínea integral é uma das unidades textuais que podem ser objeto de veto parcial. O veto não precisa alcançar todo o inciso.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-alinea-integral-nao-exige-vetar-inciso-pai",
+      "concursoId": "camara-2026",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "veto-alinea-integral-sem-inciso",
+      "mechanism": "alinea-integral-nao-exige-vetar-inciso-pai",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Veto total versus parcial: a unidade mínima do texto"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Veto total versus parcial: a unidade mínima do texto"
+      },
+      "statement": "Se a alínea vetada estiver vinculada a um inciso, o veto parcial só será válido quanto à sua extensão se alcançar também o inciso inteiro.",
+      "correctAnswer": "E",
+      "explanation": "O art. 66, § 2º, autoriza o veto de alínea integral mesmo quando o restante do inciso é mantido.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-expressao-isolada-em-inciso-nao-pode-ser-vetada",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "veto-fragmento-inciso",
+      "mechanism": "expressao-isolada-em-inciso-nao-pode-ser-vetada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "O Presidente pretende vetar apenas a expressão “exceto em julho”, contida em um inciso, preservando as demais palavras desse inciso. O recorte contraria a Constituição.",
+      "correctAnswer": "C",
+      "explanation": "O veto parcial deve coincidir com o texto integral de artigo, parágrafo, inciso ou alínea. Uma expressão isolada não é unidade autorizada.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-autonomia-da-frase-nao-permite-veto-de-trecho",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "veto-fragmento-inciso",
+      "mechanism": "autonomia-da-frase-nao-permite-veto-de-trecho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "O Presidente pode vetar apenas uma das frases de um inciso, desde que a frase represente comando autônomo e a parte restante preserve a coerência gramatical.",
+      "correctAnswer": "E",
+      "explanation": "A autonomia semântica da frase não altera as unidades formais admitidas no art. 66, § 2º.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-maioria-absoluta-nas-duas-casas-rejeita-veto",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "veto-maioria-por-casa",
+      "mechanism": "maioria-absoluta-nas-duas-casas-rejeita-veto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "Em sessão conjunta, 257 dos 513 deputados e 41 dos 81 senadores votam pela rejeição de um veto. Os dois grupos alcançam o quórum constitucional de rejeição.",
+      "correctAnswer": "C",
+      "explanation": "Obtém-se maioria absoluta com pelo menos 257 votos na Câmara e 41 no Senado. A aferição é feita separadamente.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-maioria-do-congresso-sem-maioria-no-senado",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "veto-maioria-por-casa",
+      "mechanism": "maioria-do-congresso-sem-maioria-no-senado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "Em sessão conjunta, votam pela rejeição do veto 300 deputados e 40 senadores. Como a soma supera a metade dos membros do Congresso, o veto é rejeitado.",
+      "correctAnswer": "E",
+      "explanation": "A maioria absoluta deve ser atingida entre os senadores e entre os deputados. No Senado, são necessários 41 votos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-veto-politico-admite-projeto-constitucional",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "veto-motivo-interesse-publico",
+      "mechanism": "veto-politico-admite-projeto-constitucional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "O Presidente considera constitucional um projeto, mas o julga contrário ao interesse público. Essa avaliação pode fundamentar o veto presidencial.",
+      "correctAnswer": "C",
+      "explanation": "O art. 66, § 1º, prevê dois fundamentos alternativos: inconstitucionalidade ou contrariedade ao interesse público.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-veto-por-interesse-publico-exige-comunicar-motivos",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "veto-motivo-interesse-publico",
+      "mechanism": "veto-por-interesse-publico-exige-comunicar-motivos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "O Presidente veta um projeto por contrariedade ao interesse público. Por se tratar de juízo político, fica dispensado de comunicar os motivos ao Presidente do Senado.",
+      "correctAnswer": "E",
+      "explanation": "A comunicação dos motivos ao Presidente do Senado em até 48 horas é exigida também para o veto fundado no interesse público.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",

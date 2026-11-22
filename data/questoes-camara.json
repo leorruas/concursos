@@ -7607,6 +7607,174 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação, coprodução e participação",
+      "id": "cam-revisao-protocolo-compartilhado-com-gatilho-de-escalonamento",
+      "concursoId": "camara-2026",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "coordenacao-interorganizacional",
+      "mechanism": "protocolo-compartilhado-com-gatilho-de-escalonamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Mecanismos: liderança, estratégia e controle"
+      },
+      "statement": "Na emissão de uma licença, um órgão recebe os pedidos e outro valida as informações. As equipes combinam um prazo, um formato de devolução e a quem encaminhar casos recebidos sem dados suficientes. Essas medidas fortalecem a coordenação ao tratar o ponto em que o trabalho de um órgão depende da entrega do outro.",
+      "correctAnswer": "C",
+      "explanation": "O arranjo torna explícito o que deve ser entregue, quando e quem resolve exceções na passagem do pedido entre órgãos.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação, coprodução e participação",
+      "id": "cam-revisao-responsavel-integrador-nao-elimina-competencias",
+      "concursoId": "camara-2026",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "coordenacao-interorganizacional",
+      "mechanism": "responsavel-integrador-nao-elimina-competencias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Mecanismos: liderança, estratégia e controle"
+      },
+      "statement": "Três órgãos designam uma unidade para resolver impasses de integração e acompanhar prazos comuns. Pelo simples fato de coordenar o fluxo, essa unidade passa a ter competência para substituir as decisões finais de cada órgão.",
+      "correctAnswer": "E",
+      "explanation": "Coordenar dependências e resolver impasses de fluxo são funções distintas da competência para decidir em cada órgão. A designação descrita não transfere essa competência.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+      "id": "cam-revisao-restaurar-versao-anterior-a-exclusao-incremental",
+      "concursoId": "camara-2026",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "restauracao-incremental",
+      "mechanism": "restaurar-versao-anterior-a-exclusao-incremental",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#3. Dinâmica de restauração na prática (cenário de prova)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "3. Dinâmica de restauração na prática (cenário de prova)"
+      },
+      "statement": "Uma cópia completa de domingo contém o arquivo A. O incremental de segunda registra uma edição em A e o de terça registra sua exclusão. O sistema aplica alterações e exclusões em ordem. Para recuperar o estado correspondente ao fim de segunda-feira, deve-se restaurar a cópia completa e o incremental de segunda, encerrando a restauração nesse ponto.",
+      "correctAnswer": "C",
+      "explanation": "O objetivo é o estado ao fim de segunda. O incremental de terça produziria um estado posterior e aplicaria a exclusão que se deseja evitar.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+      "id": "cam-revisao-backup-completo-novo-reinicia-cadeia",
+      "concursoId": "camara-2026",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "restauracao-incremental",
+      "mechanism": "backup-completo-novo-reinicia-cadeia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#3. Dinâmica de restauração na prática (cenário de prova)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "3. Dinâmica de restauração na prática (cenário de prova)"
+      },
+      "statement": "O sistema faz uma cópia completa no domingo, incrementais até quarta, uma nova cópia completa na quinta e um incremental na sexta. Para reconstruir o estado de sexta a partir da base completa de quinta, é obrigatório aplicar também os incrementais de segunda a quarta.",
+      "correctAnswer": "E",
+      "explanation": "A cópia completa de quinta já representa o estado naquele momento. O incremental de sexta depende dessa nova base, sem exigir a cadeia anterior.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa de mercado",
+      "id": "cam-revisao-conglomerados-com-entrevista-de-todos",
+      "concursoId": "camara-2026",
+      "articleId": "art-4e9d2a7c813f65b0",
+      "conceptId": "estratificacao-versus-conglomerados",
+      "mechanism": "conglomerados-com-entrevista-de-todos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4e9d2a7c813f65b0#Quatro desenhos probabilísticos: o que é sorteado?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md",
+        "section": "Quatro desenhos probabilísticos: o que é sorteado?"
+      },
+      "statement": "Uma pesquisa sorteia dez setores censitários entre cinquenta e entrevista todos os domicílios dos setores sorteados. Nesse desenho, os setores funcionam como conglomerados.",
+      "correctAnswer": "C",
+      "explanation": "O primeiro sorteio seleciona grupos, e a coleta se concentra nas unidades desses grupos. Na estratificação com representação de cada estrato, haveria seleção de unidades dentro de todos os grupos definidos como estratos.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa de mercado",
+      "id": "cam-revisao-estratos-com-alocacao-desigual",
+      "concursoId": "camara-2026",
+      "articleId": "art-4e9d2a7c813f65b0",
+      "conceptId": "estratificacao-versus-conglomerados",
+      "mechanism": "estratos-com-alocacao-desigual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4e9d2a7c813f65b0#Quatro desenhos probabilísticos: o que é sorteado?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md",
+        "section": "Quatro desenhos probabilísticos: o que é sorteado?"
+      },
+      "statement": "Uma pesquisa divide a população em três faixas etárias e sorteia pessoas dentro de cada uma. A equipe seleciona mais pessoas na menor faixa para estimá-la com precisão. A diferença no número de sorteados por faixa converte o desenho em amostragem por conglomerados.",
+      "correctAnswer": "E",
+      "explanation": "O tipo de desenho depende do papel das faixas na seleção. Como todas participam e as pessoas são sorteadas dentro de cada faixa, o desenho continua estratificado, com alocação desigual.",
+      "reviewEvidence": "Caso e resolução conferidos com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P2",
       "subjectId": "etica-publica",
       "unitId": "etica-na-comunicacao",

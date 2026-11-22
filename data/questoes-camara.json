@@ -7607,6 +7607,454 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-veto-soma-nao-supre-quorum-do-senado",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "derrubada-veto-maioria-absoluta-cada-casa",
+      "mechanism": "veto-soma-nao-supre-quorum-do-senado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "Em sessão conjunta do Congresso, 280 deputados e 40 senadores votam pela rejeição de um veto. O veto é rejeitado porque a soma dos votos favoráveis supera a maioria absoluta dos membros do Congresso.",
+      "correctAnswer": "E",
+      "explanation": "Em sessão conjunta, a maioria absoluta é apurada separadamente. São necessários 257 votos de deputados e 41 de senadores. A Câmara atingiu o seu quórum e o Senado ficou abaixo.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-veto-maiorias-separadas-no-limiar",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "derrubada-veto-maioria-absoluta-cada-casa",
+      "mechanism": "veto-maiorias-separadas-no-limiar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "Em sessão conjunta, 257 deputados e 41 senadores votam pela rejeição de um veto. Considerado apenas o número de votos, a rejeição atingiu a maioria absoluta exigida em cada Casa.",
+      "correctAnswer": "C",
+      "explanation": "Com 513 deputados e 81 senadores, a maioria absoluta corresponde a 257 e 41, respectivamente. Os dois limiares foram alcançados.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-veto-rejeitado-retorno-para-promulgacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "promulgacao-apos-veto-rejeitado",
+      "mechanism": "veto-rejeitado-retorno-para-promulgacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "O Congresso rejeita um veto total. O projeto segue ao Presidente da República para promulgação. A rejeição do veto não abre nova oportunidade de veto sobre o mesmo projeto.",
+      "correctAnswer": "C",
+      "explanation": "O art. 66, § 5º, manda enviar o projeto para promulgação. A deliberação congressional encerrou a apreciação do veto.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-veto-rejeitado-vice-do-senado-na-sequencia",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "promulgacao-apos-veto-rejeitado",
+      "mechanism": "veto-rejeitado-vice-do-senado-na-sequencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "Após a rejeição de um veto, o Presidente da República deixa transcorrer o prazo constitucional para promulgar a lei. O Vice-Presidente do Senado deve promulgá-la imediatamente, antes de se aguardar atuação do Presidente do Senado.",
+      "correctAnswer": "E",
+      "explanation": "A competência passa primeiro ao Presidente do Senado. Somente se ele também deixar passar o mesmo prazo, cabe ao Vice-Presidente do Senado promulgar.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-silencio-gera-sancao-mas-falta-promulgacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "sancao-tacita-versus-promulgacao",
+      "mechanism": "silencio-gera-sancao-mas-falta-promulgacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "O Presidente da República recebe um projeto e, ao fim do prazo constitucional de apreciação, não sanciona expressamente nem veta. Há sanção tácita, mas ainda pode faltar a promulgação.",
+      "correctAnswer": "C",
+      "explanation": "O silêncio no prazo produz sanção por força da Constituição. O § 7º prevê quem deve promulgar se o Presidente da República deixar de fazê-lo.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 1º, 3º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-sem-declaracao-expressa-ha-sancao",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "sancao-tacita-versus-promulgacao",
+      "mechanism": "sem-declaracao-expressa-ha-sancao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "Decorrido o prazo constitucional sem manifestação sobre um projeto, considera-se que não houve sanção. O Presidente do Senado deve aguardar indefinidamente uma manifestação expressa do Presidente da República antes de poder promulgar.",
+      "correctAnswer": "E",
+      "explanation": "A sanção é tácita quando o prazo transcorre em silêncio. Se a lei não for promulgada pelo Presidente da República em 48 horas, o § 7º atribui a promulgação ao Presidente do Senado.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 1º, 3º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-inciso-reintegrado-segue-para-promulgacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "veto-parcial-inciso-rejeitado-promulgacao",
+      "mechanism": "inciso-reintegrado-segue-para-promulgacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "O Presidente veta um inciso inteiro, promulga a parte sancionada e o Congresso depois rejeita o veto ao inciso. O texto recuperado segue ao Presidente da República para promulgação.",
+      "correctAnswer": "C",
+      "explanation": "O inciso inteiro pode ser objeto de veto parcial. A rejeição do veto faz seguir à promulgação o texto cuja incorporação estava pendente.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 2º, 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-rejeicao-de-um-veto-nao-reintegra-inciso-mantido",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "veto-parcial-inciso-rejeitado-promulgacao",
+      "mechanism": "rejeicao-de-um-veto-nao-reintegra-inciso-mantido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "Dois incisos foram vetados integralmente. Na apreciação do veto, o Congresso rejeita o veto relativo ao primeiro inciso e mantém o relativo ao segundo. A promulgação posterior deve incorporar os dois.",
+      "correctAnswer": "E",
+      "explanation": "A rejeição recupera o texto alcançado por aquela deliberação. O inciso cujo veto foi mantido continua excluído.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 2º, 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-stj-camara-inicia-e-senado-revisa",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "iniciativa-stj-casa-iniciadora",
+      "mechanism": "stj-camara-inicia-e-senado-revisa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "Um projeto de lei é apresentado validamente pelo STJ. A Câmara dos Deputados inicia a discussão e a votação e, após aprová-lo, remete-o ao Senado para revisão. A sequência é compatível com a Constituição.",
+      "correctAnswer": "C",
+      "explanation": "A Câmara é iniciadora nos projetos de iniciativa dos Tribunais Superiores. Uma vez aprovada a proposição, a outra Casa atua como revisora.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, arts. 64, caput, e 65. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-revisao-stj-enviar-copia-a-senadores-nao-antecipara-inicio",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "iniciativa-stj-casa-iniciadora",
+      "mechanism": "stj-enviar-copia-a-senadores-nao-antecipara-inicio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "Ao apresentar validamente um projeto de lei, o STJ envia cópias aos senadores para conhecimento. O envio permite que a discussão e a votação sejam iniciadas no Senado Federal.",
+      "correctAnswer": "E",
+      "explanation": "Uma cópia para conhecimento não define a Casa iniciadora. O art. 64 fixa o início da discussão e votação na Câmara dos Deputados.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, arts. 64, caput, e 65. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-cpi-fato-e-prazo-sem-voto-politico-adicional",
+      "concursoId": "camara-2026",
+      "articleId": "art-b6f0d82c91a74e35",
+      "conceptId": "criacao-cpi-direito-das-minorias",
+      "mechanism": "cpi-fato-e-prazo-sem-voto-politico-adicional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b6f0d82c91a74e35#Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md",
+        "section": "Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      },
+      "statement": "Um requerimento para CPI na Câmara conta com 171 assinaturas, indica fato determinado e fixa prazo certo. Não há outras CPIs em funcionamento. Atendidos os requisitos, a instalação não depende de aprovação política adicional do Plenário.",
+      "correctAnswer": "C",
+      "explanation": "O quórum de um terço, o fato determinado e o prazo certo asseguram a iniciativa da minoria. A maioria não vota livremente a conveniência da instalação quando cumpridos os requisitos.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 58, § 3º, e RICD, art. 35. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-cpi-assinaturas-nao-suprem-fato-indefinido",
+      "concursoId": "camara-2026",
+      "articleId": "art-b6f0d82c91a74e35",
+      "conceptId": "criacao-cpi-direito-das-minorias",
+      "mechanism": "cpi-assinaturas-nao-suprem-fato-indefinido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b6f0d82c91a74e35#Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md",
+        "section": "Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      },
+      "statement": "Na Câmara, 200 deputados assinam pedido de CPI para investigar “qualquer irregularidade em qualquer programa público”, sem circunscrever um fato, embora haja prazo certo. O número de assinaturas supre a ausência de fato determinado.",
+      "correctAnswer": "E",
+      "explanation": "O quórum de um terço é um requisito. A delimitação de fato determinado é outro, que permanece exigido mesmo com mais assinaturas.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 58, § 3º, e RICD, art. 35. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-cpi-prorrogacao-quarenta-e-cinco-pelo-plenario",
+      "concursoId": "camara-2026",
+      "articleId": "art-b6f0d82c91a74e35",
+      "conceptId": "prorrogacao-cpi-plenario",
+      "mechanism": "cpi-prorrogacao-quarenta-e-cinco-pelo-plenario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b6f0d82c91a74e35#Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md",
+        "section": "Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      },
+      "statement": "Na Câmara, uma CPI precisa de mais 45 dias além do prazo inicial de 120. O Plenário delibera favoravelmente à prorrogação. Considerado o limite temporal do RICD, a extensão é admissível.",
+      "correctAnswer": "C",
+      "explanation": "A prorrogação pelo Plenário pode alcançar até a metade do prazo inicial, ou seja, 60 dias. A extensão de 45 dias está dentro desse limite.",
+      "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 35, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-cpi-deliberacao-propria-nao-prorroga-prazo",
+      "concursoId": "camara-2026",
+      "articleId": "art-b6f0d82c91a74e35",
+      "conceptId": "prorrogacao-cpi-plenario",
+      "mechanism": "cpi-deliberacao-propria-nao-prorroga-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b6f0d82c91a74e35#Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md",
+        "section": "Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      },
+      "statement": "Os membros de uma CPI da Câmara aprovam unanimemente estender por 30 dias o prazo de 120 dias e decidem dispensar a deliberação do Plenário. Como a extensão é inferior à metade do prazo, a deliberação interna basta.",
+      "correctAnswer": "E",
+      "explanation": "O intervalo de 30 dias está dentro do limite, mas o RICD exige deliberação do Plenário. A votação da própria CPI não substitui esse ato.",
+      "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 35, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-especial-cinco-exames-de-merito",
+      "concursoId": "camara-2026",
+      "articleId": "art-b6f0d82c91a74e35",
+      "conceptId": "comissao-especial-mais-de-quatro-merito",
+      "mechanism": "especial-cinco-exames-de-merito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b6f0d82c91a74e35#Comissão especial: matéria legislativa definida"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md",
+        "section": "Comissão especial: matéria legislativa definida"
+      },
+      "statement": "Uma proposição ordinária versa sobre matéria que exigiria pronunciamento de mérito de cinco comissões permanentes distintas. Esse número de comissões de mérito caracteriza a hipótese regimental de comissão especial, observada a iniciativa pertinente.",
+      "correctAnswer": "C",
+      "explanation": "O art. 34, II, incide quando são necessárias mais de quatro comissões de mérito. Cinco supera o limite.",
+      "reviewEvidence": "Conferência com a seção vinculada. RICD, arts. 34, II, e 139, V. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-quatro-de-merito-e-exame-so-formal",
+      "concursoId": "camara-2026",
+      "articleId": "art-b6f0d82c91a74e35",
+      "conceptId": "comissao-especial-mais-de-quatro-merito",
+      "mechanism": "quatro-de-merito-e-exame-so-formal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b6f0d82c91a74e35#Comissão especial: matéria legislativa definida"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md",
+        "section": "Comissão especial: matéria legislativa definida"
+      },
+      "statement": "Uma proposição demanda exame de mérito por quatro comissões e pronunciamento de outra exclusivamente quanto à admissibilidade. A quinta manifestação, por si só, impõe a constituição de comissão especial pela regra do número de comissões de mérito.",
+      "correctAnswer": "E",
+      "explanation": "A contagem se refere às comissões que devem examinar o mérito. O pronunciamento exclusivamente de admissibilidade não eleva de quatro para cinco o número relevante.",
+      "reviewEvidence": "Conferência com a seção vinculada. RICD, arts. 34, II, e 139, V. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",

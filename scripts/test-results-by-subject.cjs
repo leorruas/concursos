@@ -52,4 +52,20 @@ assert(source.includes('const visible=filtered.slice(0,shown)'),
  'Índice de conceitos precisa limitar a quantidade inicial');
 assert(source.includes("search.type='search'"),
  'Índice deve permitir buscar um conceito sem percorrer todas as linhas');
+const periodsContext={};vm.createContext(periodsContext);
+vm.runInContext(extract('observedAccuracyPeriods','render'),periodsContext);
+const accuracy=periodsContext.observedAccuracyPeriods;
+const sample={weekly:{weeks:[{start:'2026-11-16',days:[
+ {date:'2026-11-16',subjects:[{correct:3,incorrect:1,blank:1}]},
+ {date:'2026-11-20',subjects:[{correct:2,incorrect:2}]},
+ {date:'2026-11-22',subjects:[{correct:1,incorrect:1}]}
+]},{start:'2026-11-09',days:[{date:'2026-11-10',subjects:[{correct:4,incorrect:0}]}]}]}};
+const rates=accuracy(sample,'2026-11-22');
+assert.equal(rates.week,60,'semana de segunda a domingo: 6 acertos em 10 julgadas');
+assert.equal(rates.month,71.4,'mês: 10 acertos em 14 julgadas');
+assert.equal(accuracy({weekly:{weeks:[]}},'2026-11-22').week,null,'sem amostra semanal');
+assert.equal(accuracy({},'2026-11-22').available,false,'dados semanais ausentes não devem parecer 0%');
+assert.ok(source.includes("stat('Acerto observado · total'"));
+assert.ok(source.includes("stat('Acerto observado · semana'"));
+assert.ok(source.includes("stat('Acerto observado · mês'"));
 console.log('OK: agrupamento por matéria, manifesto, amostra pequena e filtros de revisão.');

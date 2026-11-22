@@ -7607,6 +7607,454 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-compra-privada-pela-administracao-e-ato-da-administracao",
+      "concursoId": "camara-2026",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "atos-administracao",
+      "mechanism": "compra-privada-pela-administracao-e-ato-da-administracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#Atos da Administração que seguem outros regimes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "Atos da Administração que seguem outros regimes"
+      },
+      "statement": "Uma entidade administrativa pratica um ato negocial regido predominantemente pelo direito privado. O ato pode ser classificado como ato da Administração, categoria que abrange manifestações além dos atos administrativos em sentido estrito.",
+      "correctAnswer": "C",
+      "explanation": "Atos da Administração são uma categoria ampla. Ela inclui atos de direito privado praticados pela Administração.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre atos da Administração. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-autoria-publica-nao-torna-ato-privado-administrativo-estrito",
+      "concursoId": "camara-2026",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "atos-administracao",
+      "mechanism": "autoria-publica-nao-torna-ato-privado-administrativo-estrito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#Atos da Administração que seguem outros regimes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "Atos da Administração que seguem outros regimes"
+      },
+      "statement": "Toda manifestação de entidade administrativa é ato administrativo em sentido estrito, mesmo quando praticada sob regime predominantemente privado e sem exercício de prerrogativas públicas.",
+      "correctAnswer": "E",
+      "explanation": "A autoria pública não basta. O ato administrativo em sentido estrito se submete a regime jurídico de direito público.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre atos da Administração. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "id": "cam-revisao-risco-imediato-justifica-interdicao-sem-ordem-judicial-previa",
+      "concursoId": "camara-2026",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "autoexecutoriedade-previsao-ou-urgencia",
+      "mechanism": "risco-imediato-justifica-interdicao-sem-ordem-judicial-previa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3.2. Hipóteses em que a autoexecutoriedade é admitida"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3.2. Hipóteses em que a autoexecutoriedade é admitida"
+      },
+      "statement": "Diante de risco imediato e demonstrado de desabamento, a autoridade competente pode interditar de imediato a área afetada, sem esperar autorização judicial prévia.",
+      "correctAnswer": "C",
+      "explanation": "A urgência pode justificar a execução direta da medida necessária para evitar dano iminente, observados competência e proporcionalidade.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre autoexecutoriedade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "id": "cam-revisao-mera-conveniencia-nao-basta-para-execucao-direta",
+      "concursoId": "camara-2026",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "autoexecutoriedade-previsao-ou-urgencia",
+      "mechanism": "mera-conveniencia-nao-basta-para-execucao-direta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3.2. Hipóteses em que a autoexecutoriedade é admitida"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3.2. Hipóteses em que a autoexecutoriedade é admitida"
+      },
+      "statement": "Em situação sem urgência e sem previsão legal de execução direta, a Administração pode executar materialmente uma medida restritiva apenas por considerá-la mais conveniente.",
+      "correctAnswer": "E",
+      "explanation": "A execução direta exige previsão legal ou urgência que a justifique. A conveniência isolada é insuficiente.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre autoexecutoriedade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-qualificacao-de-autarquia-sem-nova-pessoa",
+      "concursoId": "camara-2026",
+      "articleId": "art-86dee064aef44ba4",
+      "conceptId": "agencia-executiva",
+      "mechanism": "qualificacao-de-autarquia-sem-nova-pessoa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Entidades da Administração Indireta e como são constituídas"
+      },
+      "statement": "Uma autarquia federal possui plano estratégico de reestruturação e desenvolvimento institucional em andamento e celebrou contrato de gestão com o ministério supervisor. Sua eventual qualificação como agência executiva não criará outra pessoa jurídica.",
+      "correctAnswer": "C",
+      "explanation": "Agência executiva é qualificação atribuível a autarquia ou fundação que satisfaça os requisitos legais. A entidade já existente conserva sua personalidade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Lei nº 9.649/1998, art. 51. https://www.planalto.gov.br/ccivil_03/leis/l9649cons.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-contrato-de-gestao-sozinho-nao-basta-para-qualificacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-86dee064aef44ba4",
+      "conceptId": "agencia-executiva",
+      "mechanism": "contrato-de-gestao-sozinho-nao-basta-para-qualificacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Entidades da Administração Indireta e como são constituídas"
+      },
+      "statement": "Uma fundação pública federal que celebrou contrato de gestão pode ser qualificada como agência executiva sem ter plano estratégico de reestruturação e desenvolvimento institucional em andamento.",
+      "correctAnswer": "E",
+      "explanation": "O art. 51 exige cumulativamente o plano em andamento e o contrato de gestão com o ministério supervisor.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Lei nº 9.649/1998, art. 51. https://www.planalto.gov.br/ccivil_03/leis/l9649cons.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-uso-privativo-eventual-de-praca-pode-ser-autorizado",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "autorizacao-uso",
+      "mechanism": "uso-privativo-eventual-de-praca-pode-ser-autorizado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#Atos Negociais (Consentimento Estatal)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "Atos Negociais (Consentimento Estatal)"
+      },
+      "statement": "Para permitir que um particular utilize parte de uma praça para evento pontual de interesse predominantemente privado, a Administração pode, conforme a disciplina aplicável, expedir autorização de uso.",
+      "correctAnswer": "C",
+      "explanation": "A autorização de uso é ato unilateral, discricionário e, em regra, precário, adequado a utilizações dessa natureza.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre espécies de atos administrativos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-autorizacao-de-uso-nao-equivale-a-licenca-vinculada",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "autorizacao-uso",
+      "mechanism": "autorizacao-de-uso-nao-equivale-a-licenca-vinculada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#Atos Negociais (Consentimento Estatal)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "Atos Negociais (Consentimento Estatal)"
+      },
+      "statement": "Apresentado pedido de uso privativo eventual de praça por particular, a autorização de uso é espécie de licença vinculada que deve ser concedida sempre que a documentação estiver completa.",
+      "correctAnswer": "E",
+      "explanation": "A autorização de uso é, em regra, discricionária. A documentação regular não elimina a avaliação administrativa do uso pretendido.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre espécies de atos administrativos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-autarquia-criada-diretamente-por-lei-especifica",
+      "concursoId": "camara-2026",
+      "articleId": "art-86dee064aef44ba4",
+      "conceptId": "lei-criacao-autorizacao",
+      "mechanism": "autarquia-criada-diretamente-por-lei-especifica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Entidades da Administração Indireta e como são constituídas"
+      },
+      "statement": "Em projeto de reorganização administrativa, pretende-se instituir uma autarquia. A Constituição prevê que sua criação se dê diretamente por lei específica.",
+      "correctAnswer": "C",
+      "explanation": "A lei específica cria a autarquia. Para empresa pública e sociedade de economia mista, a lei específica autoriza a instituição.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 37, XIX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-lei-autoriza-instituicao-de-empresa-publica",
+      "concursoId": "camara-2026",
+      "articleId": "art-86dee064aef44ba4",
+      "conceptId": "lei-criacao-autorizacao",
+      "mechanism": "lei-autoriza-instituicao-de-empresa-publica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Entidades da Administração Indireta e como são constituídas"
+      },
+      "statement": "Quando o Estado pretende instituir empresa pública, a lei específica cria diretamente a entidade, dispensando os atos constitutivos próprios.",
+      "correctAnswer": "E",
+      "explanation": "A lei específica autoriza a instituição da empresa pública. A constituição da entidade segue depois os atos próprios de sua forma jurídica.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 37, XIX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-licenca-pode-ser-vinculada-e-ampliativa",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "licenca-multicriterio",
+      "mechanism": "licenca-pode-ser-vinculada-e-ampliativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#Atos Negociais (Consentimento Estatal)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "Atos Negociais (Consentimento Estatal)"
+      },
+      "statement": "Um requerente preenche todos os requisitos legais para exercer atividade sujeita a licença administrativa. A concessão pode ser classificada como vinculada quanto à margem de escolha e ampliativa quanto aos efeitos para o requerente.",
+      "correctAnswer": "C",
+      "explanation": "A autoridade deve conceder a licença quando os requisitos são cumpridos. O ato permite o exercício da atividade na esfera jurídica do interessado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre espécies e classificações de atos administrativos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-efeito-ampliativo-nao-torna-licenca-discricionaria",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "licenca-multicriterio",
+      "mechanism": "efeito-ampliativo-nao-torna-licenca-discricionaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#Atos Negociais (Consentimento Estatal)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "Atos Negociais (Consentimento Estatal)"
+      },
+      "statement": "Uma licença administrativa que permite ao interessado exercer determinada atividade é necessariamente discricionária, pois produz efeito ampliativo.",
+      "correctAnswer": "E",
+      "explanation": "A ampliação da esfera jurídica descreve o efeito do ato. A distinção entre vinculação e discricionariedade depende da margem de escolha dada pela lei.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre espécies e classificações de atos administrativos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5",
+      "id": "cam-revisao-fiscalizacao-de-particular-decorrente-de-sujeicao-geral",
+      "concursoId": "camara-2026",
+      "articleId": "art-b740cbbd05e54a26",
+      "conceptId": "policia-supremacia-geral",
+      "mechanism": "fiscalizacao-de-particular-decorrente-de-sujeicao-geral",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b740cbbd05e54a26#Poder de polícia: limites gerais a direitos e atividades"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/04 - poderes administrativos.md",
+        "section": "Poder de polícia: limites gerais a direitos e atividades"
+      },
+      "statement": "Ao fiscalizar o cumprimento de exigências sanitárias gerais por um comércio, a Administração exerce poder de polícia mesmo que o comerciante não integre sua estrutura nem tenha contrato com ela.",
+      "correctAnswer": "C",
+      "explanation": "O poder de polícia incide sobre atividades privadas sujeitas à disciplina geral imposta em benefício do interesse coletivo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre poderes administrativos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5",
+      "id": "cam-revisao-poder-de-policia-nao-pressupoe-vinculo-hierarquico",
+      "concursoId": "camara-2026",
+      "articleId": "art-b740cbbd05e54a26",
+      "conceptId": "policia-supremacia-geral",
+      "mechanism": "poder-de-policia-nao-pressupoe-vinculo-hierarquico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b740cbbd05e54a26#Poder de polícia: limites gerais a direitos e atividades"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/04 - poderes administrativos.md",
+        "section": "Poder de polícia: limites gerais a direitos e atividades"
+      },
+      "statement": "A fiscalização de normas municipais de funcionamento de estabelecimentos comerciais só pode alcançar particulares vinculados hierarquicamente ao município.",
+      "correctAnswer": "E",
+      "explanation": "A fiscalização decorre do poder de polícia. Seu exercício perante os administrados não pressupõe vínculo de hierarquia.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre poderes administrativos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.1",
+      "id": "cam-revisao-interpretacao-nova-nao-e-imposta-retroativamente",
+      "concursoId": "camara-2026",
+      "articleId": "art-8946971690804376",
+      "conceptId": "seguranca-juridica-interpretacao",
+      "mechanism": "interpretacao-nova-nao-e-imposta-retroativamente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8946971690804376#Princípios reconhecidos pela legislação e jurisprudência"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+        "section": "Princípios reconhecidos pela legislação e jurisprudência"
+      },
+      "statement": "Um órgão federal adota nova interpretação de norma processual administrativa. O princípio da segurança jurídica veda aplicar retroativamente essa nova interpretação a situações anteriores.",
+      "correctAnswer": "C",
+      "explanation": "A Lei nº 9.784/1999 proíbe a aplicação retroativa de nova interpretação administrativa.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Lei nº 9.784/1999, art. 2º, parágrafo único, XIII. https://planalto.gov.br/ccivil_03/leis/l9784.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.1",
+      "id": "cam-revisao-fim-publico-nao-elimina-vedacao-a-retroatividade-interpretativa",
+      "concursoId": "camara-2026",
+      "articleId": "art-8946971690804376",
+      "conceptId": "seguranca-juridica-interpretacao",
+      "mechanism": "fim-publico-nao-elimina-vedacao-a-retroatividade-interpretativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8946971690804376#Princípios reconhecidos pela legislação e jurisprudência"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+        "section": "Princípios reconhecidos pela legislação e jurisprudência"
+      },
+      "statement": "A Administração federal pode aplicar retroativamente nova interpretação administrativa sempre que a considerar mais adequada ao fim público da norma.",
+      "correctAnswer": "E",
+      "explanation": "A lei determina que se busque atender à finalidade pública e, no mesmo dispositivo, veda a aplicação retroativa de nova interpretação.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Lei nº 9.784/1999, art. 2º, parágrafo único, XIII. https://planalto.gov.br/ccivil_03/leis/l9784.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P2",
       "subjectId": "etica-publica",
       "unitId": "decoro-parlamentar",

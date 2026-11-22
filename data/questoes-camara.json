@@ -7605,6 +7605,174 @@
   ],
   "expansao": [
       {
+        "id": "cam-revisao-apoiamento-de-uma-casa",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "direito-constitucional",
+        "unitId": "processo-legislativo",
+        "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+        "articleId": "art-4c1041281ca44ee5",
+        "conceptId": "iniciativa-de-pec",
+        "mechanism": "apoiamento-de-uma-casa",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-4c1041281ca44ee5#Iniciativa"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+          "section": "Iniciativa"
+        },
+        "statement": "Uma proposta de emenda reúne assinaturas de 160 deputados e de 12 senadores. Os autores sustentam que as assinaturas dos senadores completam o mínimo exigido para a iniciativa dos deputados. Nesse caso, a iniciativa parlamentar atende ao art. 60, I, da Constituição.",
+        "correctAnswer": "E",
+        "explanation": "O mínimo de um terço incide sobre os membros da Câmara ou sobre os do Senado, separadamente. As assinaturas não se somam entre as Casas e nenhum dos grupos alcançou, por si só, o respectivo mínimo.",
+        "reviewEvidence": "Conferência editorial de caso e gabarito com a seção vinculada e a Constituição Federal, art. 60, I e III. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
+        "id": "cam-revisao-iniciativa-das-assembleias",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "direito-constitucional",
+        "unitId": "processo-legislativo",
+        "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+        "articleId": "art-4c1041281ca44ee5",
+        "conceptId": "iniciativa-de-pec",
+        "mechanism": "iniciativa-das-assembleias",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-4c1041281ca44ee5#Iniciativa"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+          "section": "Iniciativa"
+        },
+        "statement": "Uma proposta de emenda é apresentada por 14 assembleias legislativas estaduais. Em cada uma das 14, a manifestação favorável obteve a maioria relativa de seus membros. A proposta atende ao requisito de iniciativa das assembleias previsto na Constituição.",
+        "correctAnswer": "C",
+        "explanation": "A Constituição exige manifestação de mais da metade das assembleias, cada uma pela maioria relativa de seus membros. Quatorze manifestações favoráveis de assembleias estaduais atingem esse mínimo entre as 27 unidades da Federação.",
+        "reviewEvidence": "Conferência editorial de caso e gabarito com a seção vinculada e a Constituição Federal, art. 60, I e III. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
+        "id": "cam-revisao-iniciativa-presidente-nao-altera-promulgador",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "direito-constitucional",
+        "unitId": "processo-legislativo",
+        "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+        "articleId": "art-4c1041281ca44ee5",
+        "conceptId": "promulgacao-de-emenda",
+        "mechanism": "iniciativa-presidente-nao-altera-promulgador",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-4c1041281ca44ee5#Promulgação"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+          "section": "Promulgação"
+        },
+        "statement": "O Presidente da República apresenta proposta de emenda à Constituição. Após aprovação nas duas Casas pelo rito constitucional, a emenda deve ser promulgada pelas Mesas da Câmara e do Senado, mesmo que a iniciativa tenha sido presidencial.",
+        "correctAnswer": "C",
+        "explanation": "A iniciativa define quem pode apresentar a proposta. A promulgação da emenda aprovada é atribuída às duas Mesas pelo art. 60, § 3º, qualquer que seja o autor da proposta.",
+        "reviewEvidence": "Conferência editorial de caso e gabarito com a seção vinculada e a Constituição Federal, art. 60, §§ 2º e 3º. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
+        "id": "cam-revisao-casa-revisora-nao-promulga-sozinha",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "direito-constitucional",
+        "unitId": "processo-legislativo",
+        "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+        "articleId": "art-4c1041281ca44ee5",
+        "conceptId": "promulgacao-de-emenda",
+        "mechanism": "casa-revisora-nao-promulga-sozinha",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-4c1041281ca44ee5#Promulgação"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+          "section": "Promulgação"
+        },
+        "statement": "A Câmara e o Senado aprovam, em dois turnos cada, o mesmo texto de emenda. Como a última votação ocorreu no Senado, a Mesa dessa Casa pode promulgar sozinha a emenda.",
+        "correctAnswer": "E",
+        "explanation": "A última votação encerra a etapa deliberativa, mas não altera a competência de promulgação. O art. 60, § 3º, atribui a promulgação às Mesas das duas Casas.",
+        "reviewEvidence": "Conferência editorial de caso e gabarito com a seção vinculada e a Constituição Federal, art. 60, §§ 2º e 3º. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
+        "id": "cam-revisao-simbolo-personalista-sem-nome",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "comunicacao",
+        "unitId": "comunicacao-social",
+        "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+        "articleId": "art-8e2a6f50cb1497d3",
+        "conceptId": "publicidade-institucional-promocao-pessoal",
+        "mechanism": "simbolo-personalista-sem-nome",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-8e2a6f50cb1497d3#Promoção institucional versus promoção pessoal"
+        ],
+        "source": {
+          "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+          "section": "Promoção institucional versus promoção pessoal"
+        },
+        "statement": "Um órgão divulga balanço de obras com orientação de utilidade pública. A peça não cita o nome de autoridade, mas adota como elemento central um símbolo pessoal do dirigente, acompanhado de elogios que lhe atribuem as entregas institucionais. A ausência do nome basta para afastar a promoção pessoal.",
+        "correctAnswer": "E",
+        "explanation": "O art. 37, § 1º, também alcança símbolos ou imagens que caracterizem promoção pessoal. A análise considera o que a peça comunica. Símbolo pessoal em destaque e atribuição elogiosa de entregas são relevantes, mesmo sem menção nominal.",
+        "reviewEvidence": "Conferência editorial de caso e gabarito com a seção vinculada e a Constituição Federal, art. 37, § 1º. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
+        "id": "cam-revisao-identificacao-factual-na-noticia",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "comunicacao",
+        "unitId": "comunicacao-social",
+        "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+        "articleId": "art-8e2a6f50cb1497d3",
+        "conceptId": "publicidade-institucional-promocao-pessoal",
+        "mechanism": "identificacao-factual-na-noticia",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-8e2a6f50cb1497d3#Promoção institucional versus promoção pessoal"
+        ],
+        "source": {
+          "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+          "section": "Promoção institucional versus promoção pessoal"
+        },
+        "statement": "Uma notícia institucional informa o horário de uma audiência e identifica nominalmente a deputada que a presidirá. O texto destaca a pauta e as formas de participação. A identificação factual da função da deputada, isoladamente, não caracteriza promoção pessoal.",
+        "correctAnswer": "C",
+        "explanation": "A notícia ajuda o público a entender e acompanhar a audiência. A identificação da pessoa que exerce a função deve ser examinada no contexto. Por si só, ela não demonstra exaltação pessoal nem atribuição de mérito individual às atividades da Casa.",
+        "reviewEvidence": "Conferência editorial de caso e gabarito com a seção vinculada e a Constituição Federal, art. 37, § 1º. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
         "id": "cam-revisao-antecipacao-de-explicacao",
         "concursoId": "camara-2026",
         "origin": "inedita",

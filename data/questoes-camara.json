@@ -7607,6 +7607,510 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-pagamento-mensal-condiciona-posse",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "acordo-remunerado-posse-suplente",
+      "mechanism": "pagamento-mensal-condiciona-posse",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "Um titular condiciona a posse de seu suplente ao repasse mensal de parte do subsídio parlamentar. Celebrar esse acordo constitui conduta incompatível com o decoro.",
+      "correctAnswer": "C",
+      "explanation": "O art. 4º, III, alcança o acordo relativo à posse de suplente condicionado a contraprestação financeira.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 4º, III. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-acordo-etico-ilicito-sem-pagamento",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "acordo-remunerado-posse-suplente",
+      "mechanism": "acordo-etico-ilicito-sem-pagamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "Um deputado celebra acordo para viabilizar a posse de suplente desde que este pratique ato contrário a dever regimental. Sem transferência financeira, o acordo está fora do art. 4º, III.",
+      "correctAnswer": "E",
+      "explanation": "A prática de ato contrário a dever ético ou regimental também constitui condição proibida. O pagamento é hipótese alternativa.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 4º, III. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-deveres-eticos-alcancam-suplente-em-exercicio",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "aplicacao-aos-exercentes",
+      "mechanism": "deveres-eticos-alcancam-suplente-em-exercicio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "Um suplente assume temporariamente o mandato parlamentar. Enquanto estiver em exercício, ele se submete aos princípios e regras do Código de Ética da Câmara.",
+      "correctAnswer": "C",
+      "explanation": "O art. 1º inclui quem esteja no exercício do mandato, ainda que a titularidade da vaga permaneça com outro parlamentar.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-substituicao-curta-nao-exclui-codigo-de-etica",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "aplicacao-aos-exercentes",
+      "mechanism": "substituicao-curta-nao-exclui-codigo-de-etica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "Um suplente que exerce o mandato por apenas uma semana fica fora do Código de Ética porque o titular continua vinculado à vaga.",
+      "correctAnswer": "E",
+      "explanation": "A aplicação decorre do exercício do mandato. O art. 1º não estabelece duração mínima para a substituição.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-provas-necessarias-a-apreciacao-de-ato-atentatorio",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "apreciacao-sem-provas",
+      "mechanism": "provas-necessarias-a-apreciacao-de-ato-atentatorio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "Para apreciar conduta enquadrada no art. 5º, o Código de Ética exige prova, mesmo que a narrativa apresentada seja detalhada.",
+      "correctAnswer": "C",
+      "explanation": "O detalhamento da acusação não substitui a exigência de provas prevista no parágrafo único.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-notoriedade-nao-dispensa-requisito-de-prova",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "apreciacao-sem-provas",
+      "mechanism": "notoriedade-nao-dispensa-requisito-de-prova",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "Uma imputação de ato atentatório ao decoro ganhou divulgação na imprensa. A divulgação, por si só, dispensa a prova exigida para a apreciação da conduta pelo Código.",
+      "correctAnswer": "E",
+      "explanation": "O art. 5º, parágrafo único, exige prova. A repercussão pública da alegação não cria exceção a esse requisito.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-orgao-competente-pode-solicitar-autorizacao-durante-mandato",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "autorizacao-fiscal-quando-solicitada",
+      "mechanism": "orgao-competente-pode-solicitar-autorizacao-durante-mandato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      },
+      "statement": "Após a posse, órgão competente da Câmara solicita a autorização de acesso aos dados da declaração de imposto de renda. O parlamentar deve apresentá-la também nessa hipótese.",
+      "correctAnswer": "C",
+      "explanation": "O art. 18, I, prevê apresentação tanto para a posse quanto quando o órgão competente solicita a autorização.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 18, I. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-autorizacao-fiscal-nao-se-esgota-na-posse",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "autorizacao-fiscal-quando-solicitada",
+      "mechanism": "autorizacao-fiscal-nao-se-esgota-na-posse",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      },
+      "statement": "Um deputado que apresentou autorização de acesso a dados fiscais na posse pode recusar nova apresentação solicitada pelo órgão competente, porque essa obrigação só existe na posse.",
+      "correctAnswer": "E",
+      "explanation": "O Código também prevê apresentação quando o órgão competente a solicita.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 18, I. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-recurso-na-ccjc-examina-vicio-regimental-apontado",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "ccj-recurso-reexame-merito",
+      "mechanism": "recurso-na-ccjc-examina-vicio-regimental-apontado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Confronto normativo: instrução, defesa e quórum de pareceres"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Confronto normativo: instrução, defesa e quórum de pareceres"
+      },
+      "statement": "Em recurso disciplinar à Comissão de Constituição e Justiça e de Cidadania, o deputado aponta que o Conselho descumpriu regra regimental de defesa. O exame da comissão deve se concentrar nesse vício indicado.",
+      "correctAnswer": "C",
+      "explanation": "A competência recursal abrange os vícios constitucionais, regimentais ou do próprio Código que forem apontados.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 13, IV, e 14, § 4º, VII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-simples-discordancia-da-avaliacao-das-provas-nao-reabre-merito",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "ccj-recurso-reexame-merito",
+      "mechanism": "simples-discordancia-da-avaliacao-das-provas-nao-reabre-merito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Confronto normativo: instrução, defesa e quórum de pareceres"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Confronto normativo: instrução, defesa e quórum de pareceres"
+      },
+      "statement": "Sem indicar violação constitucional, regimental ou do Código, um deputado recorre à Comissão de Constituição e Justiça e de Cidadania para que ela reavalie o mérito de todas as provas. Esse reexame integra a competência recursal da comissão.",
+      "correctAnswer": "E",
+      "explanation": "O recurso tem cognição limitada aos vícios normativos apontados. A comissão não funciona como nova instância geral de mérito.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 13, IV, e 14, § 4º, VII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-recurso-da-censura-escrita-ao-plenario-em-dois-dias-uteis",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-escrita-dias-uteis-recurso",
+      "mechanism": "recurso-da-censura-escrita-ao-plenario-em-dois-dias-uteis",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Após a Mesa aplicar censura escrita, o deputado interpõe recurso ao Plenário dentro de dois dias úteis. Essa autoridade e esse prazo correspondem à previsão do Código.",
+      "correctAnswer": "C",
+      "explanation": "O art. 12, § 2º, prevê recurso ao Plenário da Câmara no prazo de dois dias úteis.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 12, § 2º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-dias-corridos-nao-sao-prazo-da-censura-escrita",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-escrita-dias-uteis-recurso",
+      "mechanism": "dias-corridos-nao-sao-prazo-da-censura-escrita",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "O prazo para recorrer ao Plenário contra censura escrita conta-se em dois dias corridos, de modo que sábado e domingo contam ainda que não sejam dias úteis.",
+      "correctAnswer": "E",
+      "explanation": "O Código fixa dois dias úteis. Dias que não são úteis não consomem esse prazo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 12, § 2º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-defesa-cinco-dias-uteis-antes-de-deliberar",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-escrita-sem-defesa",
+      "mechanism": "defesa-cinco-dias-uteis-antes-de-deliberar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Antes de deliberar sobre a aplicação de censura escrita, a Mesa deve assegurar ao deputado cinco dias úteis para exercer seu direito de defesa.",
+      "correctAnswer": "C",
+      "explanation": "O prazo de defesa é prévio à deliberação e distinto do prazo posterior para recurso.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 12, § 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-recurso-posterior-nao-substitui-defesa-previa",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-escrita-sem-defesa",
+      "mechanism": "recurso-posterior-nao-substitui-defesa-previa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "A Mesa pode aplicar censura escrita sem abrir prazo para defesa, desde que preserve a possibilidade de recurso ao Plenário.",
+      "correctAnswer": "E",
+      "explanation": "O Código assegura tanto a defesa anterior à deliberação quanto a possibilidade de recurso posterior.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 12, § 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-presidente-de-comissao-pode-censurar-verbalmente-na-reuniao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-verbal-competencia-mesa",
+      "mechanism": "presidente-de-comissao-pode-censurar-verbalmente-na-reuniao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Em reunião de comissão, um deputado pratica conduta que admite censura verbal. A presidência da própria comissão pode aplicar essa sanção durante a reunião.",
+      "correctAnswer": "C",
+      "explanation": "O art. 11 atribui ao presidente da comissão competência para aplicar censura verbal durante reunião.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 11. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-censura-verbal-na-comissao-nao-e-reservada-a-mesa",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-verbal-competencia-mesa",
+      "mechanism": "censura-verbal-na-comissao-nao-e-reservada-a-mesa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Em reunião de comissão, cabe exclusivamente à Mesa aplicar censura verbal, mesmo que a conduta tenha ocorrido na presença do presidente da comissão.",
+      "correctAnswer": "E",
+      "explanation": "O art. 11 prevê aplicação pelo presidente da comissão durante reunião e pelo presidente da Câmara em sessão. A Mesa aplica censura escrita nas hipóteses do art. 12.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 11. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-mesa-e-destinataria-inicial-da-representacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "cidadao-direto-conselho",
+      "mechanism": "mesa-e-destinataria-inicial-da-representacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Um eleitor pretende apresentar representação por conduta incompatível com o decoro. O Código indica a Mesa como destinatária inicial.",
+      "correctAnswer": "C",
+      "explanation": "A representação é feita diretamente à Mesa. O encaminhamento subsequente segue os requisitos do Código.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-protocolo-direto-no-conselho-nao-e-via-do-artigo-nove",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "cidadao-direto-conselho",
+      "mechanism": "protocolo-direto-no-conselho-nao-e-via-do-artigo-nove",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Quando a acusação vem acompanhada de documentos, o cidadão deve apresentar representação diretamente ao Conselho de Ética, sem passar pela Mesa.",
+      "correctAnswer": "E",
+      "explanation": "A presença de documentos não altera o destinatário inicial previsto: a representação deve ser dirigida à Mesa.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",

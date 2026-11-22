@@ -2775,6 +2775,215 @@
           "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
         }
       ]
+    },
+    {
+      "id": "glo-camara-da16-ato-perfeito",
+      "term": "Ato administrativo perfeito",
+      "aliases": [
+        "ato perfeito",
+        "perfeição do ato administrativo"
+      ],
+      "definition": "Ato cujo processo de formação foi inteiramente concluído, com todas as manifestações e etapas exigidas para sua constituição. Perfeição significa formação completa, e não necessariamente conformidade com a lei ou produção imediata de efeitos.",
+      "contrast": "Perfeição examina se o ato terminou de se formar; validade examina se respeita o direito; eficácia examina se está apto a produzir efeitos. Um ato pode ser perfeito e inválido, ou perfeito e ainda pendente.",
+      "cebraspeTrap": "Afirmar que ato perfeito é obrigatoriamente legal, eficaz e irreversível, confundindo conclusão de formação com validade e eficácia.",
+      "example": "Uma autorização foi assinada e formalizada corretamente, mas produzirá efeitos somente no mês seguinte: já é perfeita quanto à formação.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Hely Lopes Meirelles, Direito Administrativo Brasileiro, classificação dos atos administrativos, Biblioteca Digital Jurídica do STJ",
+          "url": "https://bdjur.stj.jus.br/jspui/bitstream/2011/74756/direito_administrativo_brasileiro_29ed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-ato-imperfeito",
+      "term": "Ato administrativo imperfeito",
+      "aliases": [
+        "ato imperfeito",
+        "ato administrativo em formação"
+      ],
+      "definition": "Ato cujo ciclo de formação ainda não se completou, porque falta uma manifestação, etapa ou requisito constitutivo exigido para que o ato esteja formado.",
+      "contrast": "Ato imperfeito ainda está em formação. Ato pendente já se formou e apenas aguarda termo ou condição para começar a produzir efeitos; a espera por efeitos não equivale à falta de formação.",
+      "cebraspeTrap": "Classificar como imperfeito qualquer ato que tenha sido emitido mas ainda não produza efeitos, sem verificar se falta elemento constitutivo ou apenas termo de eficácia.",
+      "example": "Um ato que depende de duas manifestações constitutivas de órgãos distintos recebeu somente a primeira: ainda não se aperfeiçoou.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Hely Lopes Meirelles, Direito Administrativo Brasileiro, classificação dos atos administrativos, Biblioteca Digital Jurídica do STJ",
+          "url": "https://bdjur.stj.jus.br/jspui/bitstream/2011/74756/direito_administrativo_brasileiro_29ed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-ato-pendente",
+      "term": "Ato administrativo pendente",
+      "aliases": [
+        "ato pendente",
+        "ato perfeito com efeitos suspensos"
+      ],
+      "definition": "Ato que já completou sua formação, mas cujos efeitos dependem de termo inicial ou condição que ainda não se verificou. A pendência se refere ao início da eficácia prevista, não à falta de constituição do ato.",
+      "contrast": "Pendente é ato perfeito quanto à formação, mas ainda condicionado para produzir seus efeitos. Imperfeito não completou a formação; consumado já esgotou seus efeitos.",
+      "cebraspeTrap": "Afirmar que a existência de condição suspensiva torna o ato necessariamente imperfeito ou inválido.",
+      "example": "A autorização válida para realização de uma atividade foi expedida, mas só permite sua execução a partir de uma data futura especificada.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Hely Lopes Meirelles, Direito Administrativo Brasileiro, classificação dos atos administrativos, Biblioteca Digital Jurídica do STJ",
+          "url": "https://bdjur.stj.jus.br/jspui/bitstream/2011/74756/direito_administrativo_brasileiro_29ed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-ato-consumado",
+      "term": "Ato administrativo consumado",
+      "aliases": [
+        "ato consumado",
+        "ato exaurido",
+        "exaurimento dos efeitos do ato"
+      ],
+      "definition": "Ato cujos efeitos jurídicos próprios já foram integralmente realizados ou esgotados, sem novas prestações ou efeitos típicos a produzir nos termos de sua finalidade imediata.",
+      "contrast": "Ato pendente aguarda o início dos efeitos; ato consumado já os exauriu. Consumação não prova validade nem afasta, por fórmula absoluta, eventual exame de ilegalidade e responsabilidade segundo o regime jurídico.",
+      "cebraspeTrap": "Concluir que todo ato consumado é juridicamente válido e nunca pode ser examinado ou produzir consequências posteriores.",
+      "example": "Uma autorização para evento único foi utilizada e o evento terminou: os efeitos típicos dessa autorização se exauriram.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Hely Lopes Meirelles, Direito Administrativo Brasileiro, classificação dos atos administrativos, Biblioteca Digital Jurídica do STJ",
+          "url": "https://bdjur.stj.jus.br/jspui/bitstream/2011/74756/direito_administrativo_brasileiro_29ed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-ato-simples",
+      "term": "Ato administrativo simples",
+      "aliases": [
+        "ato simples",
+        "ato simples singular ou colegiado"
+      ],
+      "definition": "Ato formado pela manifestação de vontade de um único órgão administrativo, seja uma autoridade individual, seja um órgão colegiado. O número de pessoas que participam da decisão colegiada não altera a unidade do órgão.",
+      "contrast": "O ato simples envolve um órgão; o complexo reúne vontades constitutivas de órgãos diferentes em um só ato; o composto tem um ato principal acompanhado de manifestação acessória de outro órgão.",
+      "cebraspeTrap": "Afirmar que decisão votada por vários integrantes de um mesmo conselho é necessariamente ato complexo, por haver mais de uma pessoa deliberando.",
+      "example": "Uma deliberação aprovada pelo plenário de um único conselho administrativo é ato simples, embora diversos conselheiros tenham votado.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Hely Lopes Meirelles, Direito Administrativo Brasileiro, classificação dos atos administrativos, Biblioteca Digital Jurídica do STJ",
+          "url": "https://bdjur.stj.jus.br/jspui/bitstream/2011/74756/direito_administrativo_brasileiro_29ed.pdf"
+        },
+        {
+          "label": "STF, MS 25.116: formação da vontade em atos simples, compostos e complexos",
+          "url": "https://portal.stf.jus.br/jurisprudencia/obterInteiroTeor.asp?classe=MS&numero=25116"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-ato-complexo",
+      "term": "Ato administrativo complexo",
+      "aliases": [
+        "ato complexo",
+        "formação conjunta de ato administrativo"
+      ],
+      "definition": "Ato único formado pela fusão de manifestações de vontade constitutivas de dois ou mais órgãos distintos. Sua formação completa exige a manifestação de todos os órgãos que integram essa vontade única.",
+      "contrast": "O complexo resulta da integração de vontades constitutivas para formar um único ato. No composto, há um ato principal e outro acessório, como aprovação ou homologação, com funções distintas.",
+      "cebraspeTrap": "Tratar qualquer manifestação posterior de outro órgão como simples homologação acessória; classificar a concessão inicial de aposentadoria sujeita a registro do tribunal de contas como ato composto.",
+      "example": "Na classificação tradicional acolhida pelo STF, a concessão inicial de aposentadoria submetida a registro no tribunal de contas constitui ato complexo, com participação do órgão de origem e do órgão de controle.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Hely Lopes Meirelles, Direito Administrativo Brasileiro, classificação dos atos administrativos, Biblioteca Digital Jurídica do STJ",
+          "url": "https://bdjur.stj.jus.br/jspui/bitstream/2011/74756/direito_administrativo_brasileiro_29ed.pdf"
+        },
+        {
+          "label": "STF, MS 25.116: formação da vontade em atos simples, compostos e complexos",
+          "url": "https://portal.stf.jus.br/jurisprudencia/obterInteiroTeor.asp?classe=MS&numero=25116"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-da16-ato-composto",
+      "term": "Ato administrativo composto",
+      "aliases": [
+        "ato composto",
+        "ato principal e ato acessório"
+      ],
+      "definition": "Ato em que uma manifestação principal de vontade é acompanhada de outra manifestação instrumental de órgão distinto, exigida para aprovar, homologar ou viabilizar a eficácia ou execução da decisão principal, segundo o regime aplicável.",
+      "contrast": "Ato composto distingue a decisão principal e seu ato acessório; no complexo, vontades de órgãos diferentes se fundem na formação de um único ato. Não basta haver dois documentos para concluir que seja composto.",
+      "cebraspeTrap": "Usar a concessão inicial de aposentadoria submetida a registro no tribunal de contas como exemplo de ato composto, apesar da classificação tradicional do STF como ato complexo.",
+      "example": "Por hipótese, uma decisão administrativa principal depende de visto ou homologação acessória de órgão diferente prevista em norma; trata-se de estrutura típica de ato composto.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Hely Lopes Meirelles, Direito Administrativo Brasileiro, classificação dos atos administrativos, Biblioteca Digital Jurídica do STJ",
+          "url": "https://bdjur.stj.jus.br/jspui/bitstream/2011/74756/direito_administrativo_brasileiro_29ed.pdf"
+        },
+        {
+          "label": "STF, MS 25.116: formação da vontade em atos simples, compostos e complexos",
+          "url": "https://portal.stf.jus.br/jurisprudencia/obterInteiroTeor.asp?classe=MS&numero=25116"
+        }
+      ]
     }
   ]
 }

@@ -7608,6 +7608,286 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-antigas-e-novas-normas-em-contraste",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "enquanto-com-contraste-entre-unidades",
+      "mechanism": "antigas-e-novas-normas-em-contraste",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      },
+      "statement": "Em “Enquanto o regulamento de 1980 proibia a consulta externa, o de 2025 a permite”, o conectivo “enquanto” introduz o contraste entre as regras, sem exigir que as duas tenham vigorado simultaneamente.",
+      "correctAnswer": "C",
+      "explanation": "As orações contrapõem o que cada norma permite. O conectivo pode marcar contraste mesmo quando os fatos comparados pertencem a épocas distintas.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-enquanto-revisao-sem-oposicao",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "enquanto-com-contraste-entre-unidades",
+      "mechanism": "enquanto-revisao-sem-oposicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      },
+      "statement": "Em “Enquanto os revisores conferiam as citações, o diagramador ajustava as margens”, o conectivo “enquanto” indica uma oposição entre as duas tarefas.",
+      "correctAnswer": "E",
+      "explanation": "Nesse contexto, “enquanto” situa as tarefas no mesmo intervalo. O enunciado não apresenta uma incompatibilidade entre a revisão e a diagramação.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-negacao-da-interrupcao-de-envios",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "pressuposto-com-negacao",
+      "mechanism": "negacao-da-interrupcao-de-envios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "Em “A associação não parou de enviar ofícios”, a negação incide sobre a interrupção dos envios e preserva a pressuposição de que a associação já enviava ofícios.",
+      "correctAnswer": "C",
+      "explanation": "“Parar de” pressupõe uma atividade anterior. Com “não”, o enunciado nega que essa atividade tenha cessado e mantém como dado o envio anterior de ofícios.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-negacao-de-lamentar-nao-nega-cancelamento",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "pressuposto-com-negacao",
+      "mechanism": "negacao-de-lamentar-nao-nega-cancelamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "Em “O coordenador não lamentou que a reunião fosse cancelada”, a presença de “não” elimina a pressuposição de que a reunião foi cancelada.",
+      "correctAnswer": "E",
+      "explanation": "A negação recai sobre o ato de lamentar. O complemento de “lamentar” é apresentado como um fato tanto na afirmação quanto na negação, na leitura usual.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "id": "cam-revisao-it-retoma-minuta-they-equipe",
+      "concursoId": "camara-2026",
+      "articleId": "art-014af4c94d2ec2bb",
+      "conceptId": "they-refere-report-singular",
+      "mechanism": "it-retoma-minuta-they-equipe",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#3.2. A concordância de número com *THEY / THEIR*"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes.md",
+        "section": "3.2. A concordância de número com *THEY / THEIR*"
+      },
+      "statement": "“The editors sent the summary to the printer after they had checked it for inconsistencies.” In this sentence, “they” refers to “the editors” and “it” refers to “the summary”.",
+      "correctAnswer": "C",
+      "explanation": "A equipe editorial é quem verificou o material. “It” recupera o objeto que pode apresentar inconsistências, o resumo. A proximidade de “printer” não decide a referência.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "id": "cam-revisao-they-com-antecedente-humano-singular",
+      "concursoId": "camara-2026",
+      "articleId": "art-014af4c94d2ec2bb",
+      "conceptId": "they-refere-report-singular",
+      "mechanism": "they-com-antecedente-humano-singular",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#3.2. A concordância de número com *THEY / THEIR*"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes.md",
+        "section": "3.2. A concordância de número com *THEY / THEIR*"
+      },
+      "statement": "“Each applicant received a confirmation email after they completed the form.” The pronoun “they” must refer to more than one applicant at a time.",
+      "correctAnswer": "E",
+      "explanation": "O inglês admite o singular “they” para uma pessoa sem gênero especificado. “Each applicant” distribui a situação por candidato, com a ação atribuída a cada um.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "id": "cam-revisao-few-voluntarios-sem-negacao-total",
+      "concursoId": "camara-2026",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "few-marcacao-negativa",
+      "mechanism": "few-voluntarios-sem-negacao-total",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#2.1. O Contraste Crítico: *Few* vs. *A Few* e *Little* vs. *A Little*"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "2.1. O Contraste Crítico: *Few* vs. *A Few* e *Little* vs. *A Little*"
+      },
+      "statement": "“Few volunteers returned for the second shift.” The sentence emphasizes that the number of returning volunteers was small, but does not state that nobody returned.",
+      "correctAnswer": "C",
+      "explanation": "“Few” apresenta o número como pequeno ou insuficiente. O enunciado não equivale a “no volunteers”, que afirmaria ausência de voluntários no segundo turno.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "id": "cam-revisao-a-few-esperanca-de-continuar",
+      "concursoId": "camara-2026",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "few-marcacao-negativa",
+      "mechanism": "a-few-esperanca-de-continuar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#2.1. O Contraste Crítico: *Few* vs. *A Few* e *Little* vs. *A Little*"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "2.1. O Contraste Crítico: *Few* vs. *A Few* e *Little* vs. *A Little*"
+      },
+      "statement": "“A few witnesses agreed to speak, so the inquiry could proceed.” Replacing “a few” with “few” preserves the positive framing of the number of willing witnesses.",
+      "correctAnswer": "E",
+      "explanation": "“A few” destaca que houve algumas pessoas dispostas, o que sustenta a continuação no contexto. “Few” enfatizaria a escassez e mudaria a orientação do enunciado.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "id": "cam-revisao-proporcionalidade-com-listas-sem-perfil-regional",
+      "concursoId": "camara-2026",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "representacao-descritiva-nao-deriva-proporcionalidade",
+      "mechanism": "proporcionalidade-com-listas-sem-perfil-regional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#Comparação teórica: fórmula, magnitude e efeitos"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "Comparação teórica: fórmula, magnitude e efeitos"
+      },
+      "statement": "Um conselho distribui vagas proporcionalmente aos votos de cada lista, mas todas as listas são compostas principalmente por moradores da capital. É possível que as vagas reflitam os votos das listas e que a composição territorial do conselho continue distante da composição do eleitorado.",
+      "correctAnswer": "C",
+      "explanation": "A fórmula relaciona votos e vagas de listas. A representação descritiva territorial depende também de quem compõe as listas e de quem ocupa as vagas.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "id": "cam-revisao-presenca-territorial-nao-prova-vagas-proporcionais",
+      "concursoId": "camara-2026",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "representacao-descritiva-nao-deriva-proporcionalidade",
+      "mechanism": "presenca-territorial-nao-prova-vagas-proporcionais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#Comparação teórica: fórmula, magnitude e efeitos"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "Comparação teórica: fórmula, magnitude e efeitos"
+      },
+      "statement": "Em uma assembleia, a distribuição de representantes por região se aproxima da distribuição regional dos eleitores. Essa semelhança comprova que todos os partidos receberam cadeiras em proporção aos seus votos.",
+      "correctAnswer": "E",
+      "explanation": "São medidas distintas. A semelhança territorial compara perfis de representantes e eleitores. A proporcionalidade partidária requer comparar as parcelas de votos e cadeiras de cada partido.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",

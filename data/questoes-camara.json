@@ -7610,6 +7610,566 @@
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-plp-no-senado-exige-41-votos",
+      "concursoId": "camara-2026",
+      "articleId": "art-da9726a3c994a6c6",
+      "conceptId": "quorum-complementar-maioria-absoluta",
+      "mechanism": "plp-no-senado-exige-41-votos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-da9726a3c994a6c6#3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md",
+        "section": "3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      },
+      "statement": "No Senado, 70 membros comparecem e 40 votam a favor de um projeto de lei complementar. Mesmo sendo maioria entre os presentes, 40 votos não bastam para aprová-lo.",
+      "correctAnswer": "C",
+      "explanation": "A lei complementar exige maioria absoluta dos 81 senadores, ou seja, 41 votos favoráveis.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-senado-maioria-absoluta-atendida-com-41",
+      "concursoId": "camara-2026",
+      "articleId": "art-da9726a3c994a6c6",
+      "conceptId": "quorum-complementar-maioria-absoluta",
+      "mechanism": "senado-maioria-absoluta-atendida-com-41",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-da9726a3c994a6c6#3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md",
+        "section": "3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      },
+      "statement": "No Senado, um projeto de lei complementar recebe 41 votos favoráveis. O número é insuficiente porque o quórum constitucional de aprovação é de três quintos dos membros.",
+      "correctAnswer": "E",
+      "explanation": "A aprovação exige maioria absoluta, não três quintos. Em uma Casa com 81 membros, 41 atingem a maioria absoluta.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-remessa-em-72-horas-da-redacao-aprovada",
+      "concursoId": "camara-2026",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "redacao-conclusiva-prazo-antes-aprovacao",
+      "mechanism": "remessa-em-72-horas-da-redacao-aprovada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      },
+      "statement": "A comissão competente aprova a redação final de projeto sujeito à apreciação conclusiva. A partir dessa aprovação corre o prazo regimental de 72 horas para a remessa cabível.",
+      "correctAnswer": "C",
+      "explanation": "O § 5º toma a aprovação da redação final como termo inicial. A etapa anterior de análise do mérito tem função distinta.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 58, § 5º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-prazo-de-remessa-nao-comeca-no-recurso",
+      "concursoId": "camara-2026",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "redacao-conclusiva-prazo-antes-aprovacao",
+      "mechanism": "prazo-de-remessa-nao-comeca-no-recurso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      },
+      "statement": "O recurso contra decisão conclusiva é rejeitado pelo Plenário, mas a redação final ainda está pendente. O prazo de 72 horas do art. 58, § 5º, começa imediatamente com a rejeição do recurso.",
+      "correctAnswer": "E",
+      "explanation": "A rejeição pode permitir que o projeto prossiga à redação final. A contagem para remessa começa após a aprovação dessa redação.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 58, § 5º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "id": "cam-revisao-acolhimento-de-alteracoes-mantem-autor-da-redacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "relator-aceita-alteracao",
+      "mechanism": "acolhimento-de-alteracoes-mantem-autor-da-redacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#O que acontece entre voto do relator e parecer da comissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "O que acontece entre voto do relator e parecer da comissão"
+      },
+      "statement": "A comissão sugere alterações ao voto e o relator concorda com elas. Cabe ao próprio relator redigir o novo texto, com prazo até a reunião seguinte.",
+      "correctAnswer": "C",
+      "explanation": "O inciso XI conserva a redação com o relator que concordou com as alterações. A regra sobre substituto decorre de hipótese distinta.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 57, XI e XII. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "id": "cam-revisao-mudanca-aceita-nao-designa-relator-substituto",
+      "concursoId": "camara-2026",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "relator-aceita-alteracao",
+      "mechanism": "mudanca-aceita-nao-designa-relator-substituto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#O que acontece entre voto do relator e parecer da comissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "O que acontece entre voto do relator e parecer da comissão"
+      },
+      "statement": "O relator concorda com alterações propostas a seu voto. Pelo simples fato de mudar o texto, a redação deve passar automaticamente a um relator substituto.",
+      "correctAnswer": "E",
+      "explanation": "A concordância aciona a regra do inciso XI. A redação pelo substituto, em regra, é cabível quando o voto do relator não é adotado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 57, XI e XII. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e regime dos parlamentares",
+      "id": "cam-revisao-pedido-de-renuncia-nao-encerra-processo-de-perda",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "renuncia-efeitos-aguardam-deliberacao",
+      "mechanism": "pedido-de-renuncia-nao-encerra-processo-de-perda",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      },
+      "statement": "Um deputado apresenta renúncia enquanto responde a processo que pode levar à perda do mandato nos termos do art. 55. Os efeitos da renúncia ficam suspensos até as deliberações finais.",
+      "correctAnswer": "C",
+      "explanation": "O § 4º suspende os efeitos nessa situação. A apresentação do pedido não produz vacância imediata nem encerra o processo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 55, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e regime dos parlamentares",
+      "id": "cam-revisao-suspensao-da-renuncia-nao-atinge-toda-investigacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "renuncia-efeitos-aguardam-deliberacao",
+      "mechanism": "suspensao-da-renuncia-nao-atinge-toda-investigacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      },
+      "statement": "A existência de qualquer apuração administrativa contra um parlamentar, mesmo incapaz de levar à perda do mandato nos termos do art. 55, basta para suspender os efeitos de sua renúncia.",
+      "correctAnswer": "E",
+      "explanation": "A regra exige processo que vise ou possa levar à perda do mandato nos termos do art. 55. Não alcança indistintamente qualquer apuração.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 55, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-revisora-lei-ordinaria-turno-unico",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "revisora-dois-turnos-lei",
+      "mechanism": "revisora-lei-ordinaria-turno-unico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "O Senado recebe para revisão um projeto de lei ordinária aprovado pela Câmara. O texto constitucional prevê um só turno de discussão e votação na Casa revisora.",
+      "correctAnswer": "C",
+      "explanation": "O art. 65 determina turno único na Casa revisora. A exigência de dois turnos por Casa pertence ao rito de PEC.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 65. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-emenda-da-revisora-nao-cria-segundo-turno-na-mesma-casa",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "revisora-dois-turnos-lei",
+      "mechanism": "emenda-da-revisora-nao-cria-segundo-turno-na-mesma-casa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "Ao emendar projeto de lei ordinária em revisão, a Casa revisora deve realizar obrigatoriamente um segundo turno no próprio colegiado antes de devolver o texto à iniciadora.",
+      "correctAnswer": "E",
+      "explanation": "O art. 65 estabelece um só turno na revisora. Havendo emenda, o projeto volta à Casa iniciadora.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 65. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-territorio-federal-faz-parte-da-uniao",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "territorio-integra-uniao",
+      "mechanism": "territorio-federal-faz-parte-da-uniao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "statement": "Discute-se a criação de um território federal. Se instituído, ele integrará a União, conforme a disciplina constitucional.",
+      "correctAnswer": "C",
+      "explanation": "O art. 18, § 2º, estabelece que os territórios federais integram a União. Não os enumera como entes autônomos do caput.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 18, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-territorio-nao-se-equipara-a-estado-autonomo",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "territorio-integra-uniao",
+      "mechanism": "territorio-nao-se-equipara-a-estado-autonomo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "statement": "Um território federal, desde sua criação, tem a mesma posição constitucional de um estado autônomo e deixa de integrar a União.",
+      "correctAnswer": "E",
+      "explanation": "O território federal integra a União. Sua posição constitucional difere da de um estado-membro.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 18, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-transformacao-para-estado-complementar",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "territorio-transformacao-lei-ordinaria",
+      "mechanism": "transformacao-para-estado-complementar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "statement": "Um território federal deve ser transformado em estado. A Constituição reserva à lei complementar a disciplina dessa transformação.",
+      "correctAnswer": "C",
+      "explanation": "O § 2º determina que criação, transformação em estado ou reintegração ao estado de origem sejam reguladas em lei complementar.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 18, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-reintegracao-de-territorio-nao-se-faz-por-ordinaria",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "territorio-transformacao-lei-ordinaria",
+      "mechanism": "reintegracao-de-territorio-nao-se-faz-por-ordinaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "statement": "A reintegração de território federal ao estado de origem pode ser disciplinada por lei ordinária federal, pois a lei complementar só é exigida para transformação em estado.",
+      "correctAnswer": "E",
+      "explanation": "A exigência de lei complementar alcança também a reintegração, além da criação e da transformação.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 18, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "id": "cam-revisao-multa-independente-com-eficacia-executiva",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "titulo-executivo-multa-sem-debito",
+      "mechanism": "multa-independente-com-eficacia-executiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Uma decisão do TCU impõe apenas multa ao responsável, sem imputar débito. A ausência de débito não impede a eficácia de título executivo prevista constitucionalmente.",
+      "correctAnswer": "C",
+      "explanation": "O art. 71, § 3º, usa multa e imputação de débito como hipóteses alternativas. A multa já satisfaz a condição mencionada.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "id": "cam-revisao-multa-e-debito-nao-sao-cumulativos",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "titulo-executivo-multa-sem-debito",
+      "mechanism": "multa-e-debito-nao-sao-cumulativos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Uma decisão do TCU que imputa débito só passa a ter eficácia de título executivo se também impuser multa no mesmo ato.",
+      "correctAnswer": "E",
+      "explanation": "A imputação de débito ou a aplicação de multa já é suficiente. A Constituição não exige que apareçam cumulativamente.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita de frases e parágrafos",
+      "id": "cam-revisao-posicao-do-so-troca-elemento-restrito",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec4233e53951fb59",
+      "conceptId": "so-alcance-na-reescrita",
+      "mechanism": "posicao-do-so-troca-elemento-restrito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec4233e53951fb59#5.2. Deslocamento de termos e o impacto no sentido e na pontuação"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/33 - reorganizacao sintatica e equivalencia semantica.md",
+        "section": "5.2. Deslocamento de termos e o impacto no sentido e na pontuação"
+      },
+      "statement": "“Só o editor conferiu os números” e “O editor conferiu só os números” podem ter sentidos diferentes porque o restritor incide sobre elementos distintos.",
+      "correctAnswer": "C",
+      "explanation": "Na primeira, restringe quem conferiu. Na segunda, restringe o que o editor conferiu.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre a posição de termos na reescrita. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita de frases e parágrafos",
+      "id": "cam-revisao-so-move-do-objeto-ao-sujeito-sem-trocar-sentido",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec4233e53951fb59",
+      "conceptId": "so-alcance-na-reescrita",
+      "mechanism": "so-move-do-objeto-ao-sujeito-sem-trocar-sentido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec4233e53951fb59#5.2. Deslocamento de termos e o impacto no sentido e na pontuação"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/33 - reorganizacao sintatica e equivalencia semantica.md",
+        "section": "5.2. Deslocamento de termos e o impacto no sentido e na pontuação"
+      },
+      "statement": "Em “O técnico leu só o relatório”, deslocar “só” para “Só o técnico leu o relatório” mantém a restrição incidindo sobre o objeto da leitura.",
+      "correctAnswer": "E",
+      "explanation": "No primeiro caso, a restrição é sobre o que foi lido pelo técnico. No segundo, recai sobre quem leu o relatório.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre a posição de termos na reescrita. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-oracao-declarativa-completa-verbo-de-sujeito-expresso",
+      "concursoId": "camara-2026",
+      "articleId": "art-33566ad5fe490701",
+      "conceptId": "subordinada-objetiva-e-sujeito",
+      "mechanism": "oracao-declarativa-completa-verbo-de-sujeito-expresso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-33566ad5fe490701#2. Orações Subordinadas Substantivas: O Teste do \"ISSO\""
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md",
+        "section": "2. Orações Subordinadas Substantivas: O Teste do \"ISSO\""
+      },
+      "statement": "Em “A equipe confirmou que o sistema estava disponível”, a oração introduzida por “que” completa o verbo “confirmou” como objeto direto. O sujeito do verbo é “A equipe”.",
+      "correctAnswer": "C",
+      "explanation": "A substituição “A equipe confirmou isso” mostra que a subordinada ocupa o lugar do objeto direto.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre orações substantivas. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-oracao-apos-verbo-nao-e-necessariamente-sujeito",
+      "concursoId": "camara-2026",
+      "articleId": "art-33566ad5fe490701",
+      "conceptId": "subordinada-objetiva-e-sujeito",
+      "mechanism": "oracao-apos-verbo-nao-e-necessariamente-sujeito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-33566ad5fe490701#2. Orações Subordinadas Substantivas: O Teste do \"ISSO\""
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md",
+        "section": "2. Orações Subordinadas Substantivas: O Teste do \"ISSO\""
+      },
+      "statement": "Em “O auditor verificou que faltava um documento”, a oração “que faltava um documento” é o sujeito de “verificou”.",
+      "correctAnswer": "E",
+      "explanation": "“O auditor” é o sujeito de “verificou”. A subordinada informa o que ele verificou e tem função de objeto direto.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre orações substantivas. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
       "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
       "id": "cam-revisao-irmao-ja-vereador-nao-reelige-em-cargo-de-vice",
       "concursoId": "camara-2026",

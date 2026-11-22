@@ -7608,6 +7608,286 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / LOA",
+      "id": "cam-revisao-controle-indireto-com-repasse-para-folha",
+      "concursoId": "camara-2026",
+      "articleId": "art-74d90e9fa1b3452c",
+      "conceptId": "camara-editorial-estatal-controlada",
+      "mechanism": "controle-indireto-com-repasse-para-folha",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Exercícios inéditos C/E: controle, dependência e esfera orçamentária"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md",
+        "section": "Exercícios inéditos C/E: controle, dependência e esfera orçamentária"
+      },
+      "statement": "Um estado detém indiretamente a maioria do capital votante de uma sociedade e transfere recursos à empresa para pagar sua folha. A sociedade reúne os critérios de controle e dependência previstos na Lei de Responsabilidade Fiscal.",
+      "correctAnswer": "C",
+      "explanation": "A maioria do capital votante pode ser detida de forma direta ou indireta. O repasse do controlador para pagar pessoal preenche a condição adicional de dependência.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. LC nº 101/2000, art. 2º, II e III. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / LOA",
+      "id": "cam-revisao-aporte-acionario-para-maquinas",
+      "concursoId": "camara-2026",
+      "articleId": "art-74d90e9fa1b3452c",
+      "conceptId": "camara-editorial-estatal-controlada",
+      "mechanism": "aporte-acionario-para-maquinas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Exercícios inéditos C/E: controle, dependência e esfera orçamentária"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md",
+        "section": "Exercícios inéditos C/E: controle, dependência e esfera orçamentária"
+      },
+      "statement": "Uma sociedade controlada recebe do controlador recursos para comprar máquinas, exclusivamente por aumento de participação acionária, e não recebe outros repasses. Esse aporte, por financiar despesa de capital, basta para classificá-la como estatal dependente na Lei de Responsabilidade Fiscal.",
+      "correctAnswer": "E",
+      "explanation": "A lei exclui, no caso das despesas de capital, recursos que provenham de aumento de participação acionária. Sem outro repasse relevante, o aporte descrito é insuficiente para caracterizar dependência.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. LC nº 101/2000, art. 2º, II e III. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / emendas",
+      "id": "cam-revisao-prazo-ata-nao-se-confunde-com-deliberacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "camara-editorial-prazo-comissao-lc210",
+      "mechanism": "prazo-ata-nao-se-confunde-com-deliberacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Indicação de emendas de comissão: regra permanente e rito de cada exercício"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Indicação de emendas de comissão: regra permanente e rito de cada exercício"
+      },
+      "statement": "Uma comissão delibera sobre as indicações no 12º dia após recebê-las e seu presidente publica e encaminha a ata no 4º dia após a aprovação. Considerados apenas os prazos do art. 5º da LC nº 210/2024, as duas etapas respeitam os limites legais.",
+      "correctAnswer": "C",
+      "explanation": "O art. 5º prevê até 15 dias para deliberação e até cinco dias para publicar e encaminhar as atas das indicações aprovadas. Os atos descritos observam ambos os limites.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. LC nº 210/2024, art. 5º. https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / emendas",
+      "id": "cam-revisao-deliberacao-tempestiva-nao-sana-atraso-de-ata",
+      "concursoId": "camara-2026",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "camara-editorial-prazo-comissao-lc210",
+      "mechanism": "deliberacao-tempestiva-nao-sana-atraso-de-ata",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Indicação de emendas de comissão: regra permanente e rito de cada exercício"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Indicação de emendas de comissão: regra permanente e rito de cada exercício"
+      },
+      "statement": "Uma comissão delibera tempestivamente sobre as indicações, mas o presidente só publica e encaminha a respectiva ata no 8º dia após a aprovação. A deliberação tempestiva torna regular o prazo cumprido na etapa da ata.",
+      "correctAnswer": "E",
+      "explanation": "O inciso II do art. 5º estabelece prazo próprio de até cinco dias para publicar e encaminhar a ata. O cumprimento da primeira etapa não supre o atraso na segunda.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. LC nº 210/2024, art. 5º. https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "id": "cam-revisao-piso-de-capital-nao-libera-folha",
+      "concursoId": "camara-2026",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "transferencia-especial-vedacoes",
+      "mechanism": "piso-de-capital-nao-libera-folha",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Transferência especial × finalidade definida"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Transferência especial × finalidade definida"
+      },
+      "statement": "Uma prefeitura quer aplicar 80% de uma transferência especial em equipamentos permanentes e os 20% restantes em salários de servidores. O cumprimento do piso de despesas de capital torna permitida a aplicação da parcela restante em pessoal.",
+      "correctAnswer": "E",
+      "explanation": "O piso de capital e a vedação ao pagamento de pessoal são requisitos cumulativos. Cumprir o percentual mínimo não permite usar o restante para a folha.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. Constituição Federal, art. 166-A, § 1º, II, e § 5º. https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/constituicao"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "id": "cam-revisao-amortizacao-continua-vedada-apesar-de-capital",
+      "concursoId": "camara-2026",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "transferencia-especial-vedacoes",
+      "mechanism": "amortizacao-continua-vedada-apesar-de-capital",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Transferência especial × finalidade definida"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Transferência especial × finalidade definida"
+      },
+      "statement": "Um município pretende aplicar todo o valor de uma transferência especial na amortização de dívida. Mesmo que a amortização seja classificada como despesa de capital, a destinação é vedada pela Constituição.",
+      "correctAnswer": "C",
+      "explanation": "A vedação ao serviço da dívida deve ser observada inclusive nas despesas de capital. Amortizar dívida com esses recursos viola essa vedação.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. Constituição Federal, art. 166-A, § 1º, II, e § 5º. https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/constituicao"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "id": "cam-revisao-resumo-no-mesmo-anexo-nao-prova-origem",
+      "concursoId": "camara-2026",
+      "articleId": "art-cdd153e7d11a16e6",
+      "conceptId": "hash-sem-referencia-confiavel",
+      "mechanism": "resumo-no-mesmo-anexo-nao-prova-origem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#1. Os cinco princípios fundamentais (CIDAN)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md",
+        "section": "1. Os cinco princípios fundamentais (CIDAN)"
+      },
+      "statement": "Um remetente desconhecido envia um arquivo e uma planilha contendo o seu hash. O destinatário calcula o hash do arquivo recebido e obtém o valor indicado na planilha. Essa coincidência, por si só, confirma que o arquivo veio da organização indicada no documento.",
+      "correctAnswer": "E",
+      "explanation": "Qualquer pessoa que modificasse o arquivo poderia calcular um hash para a versão modificada. A coincidência com um resumo sem origem verificada não autentica o remetente.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "id": "cam-revisao-hash-de-canal-independente-para-checagem",
+      "concursoId": "camara-2026",
+      "articleId": "art-cdd153e7d11a16e6",
+      "conceptId": "hash-sem-referencia-confiavel",
+      "mechanism": "hash-de-canal-independente-para-checagem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#1. Os cinco princípios fundamentais (CIDAN)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md",
+        "section": "1. Os cinco princípios fundamentais (CIDAN)"
+      },
+      "statement": "O órgão publica por canal oficial autenticado o hash SHA-256 de um arquivo distribuído em espelhos públicos. Comparar o valor oficial com o hash calculado de uma cópia recebida permite verificar a sua integridade em relação à versão de referência.",
+      "correctAnswer": "C",
+      "explanation": "A comparação usa um resumo publicado por fonte confiável, independente de quem entregou a cópia. Uma divergência revela diferença em relação ao arquivo de referência.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "id": "cam-revisao-exclusao-sincronizada-e-copia-retida",
+      "concursoId": "camara-2026",
+      "articleId": "art-74bf9176e700b4c8",
+      "conceptId": "sincronizacao-copia-imutavel",
+      "mechanism": "exclusao-sincronizada-e-copia-retida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74bf9176e700b4c8#5. Fronteira crítica: sincronização versus backup"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md",
+        "section": "5. Fronteira crítica: sincronização versus backup"
+      },
+      "statement": "Uma pasta é sincronizada em vários computadores e exclusões são propagadas. Separadamente, existe uma cópia do dia anterior protegida contra exclusão até o fim do prazo de retenção. Para recuperar a versão anterior de um arquivo já excluído de todas as pastas sincronizadas, é possível recorrer à cópia, desde que ela contenha o arquivo.",
+      "correctAnswer": "C",
+      "explanation": "As réplicas sincronizadas acompanham a exclusão. A cópia retida preserva um ponto anterior de recuperação durante a sua janela de proteção.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "id": "cam-revisao-historico-curto-nao-equivale-a-imutabilidade",
+      "concursoId": "camara-2026",
+      "articleId": "art-74bf9176e700b4c8",
+      "conceptId": "sincronizacao-copia-imutavel",
+      "mechanism": "historico-curto-nao-equivale-a-imutabilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74bf9176e700b4c8#5. Fronteira crítica: sincronização versus backup"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md",
+        "section": "5. Fronteira crítica: sincronização versus backup"
+      },
+      "statement": "Um serviço de sincronização guarda versões anteriores por sete dias e permite que um administrador as elimine antes desse prazo. Essa configuração oferece uma cópia imutável por sete dias.",
+      "correctAnswer": "E",
+      "explanation": "O prazo de conservação, sozinho, não impede alterações ou eliminações antecipadas. A permissão de excluí-las antes do prazo contradiz a alegação de imutabilidade.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
       "subjectId": "comunicacao",
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 4 / Marca e branding",

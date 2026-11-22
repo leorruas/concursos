@@ -7605,6 +7605,174 @@
   ],
   "expansao": [
       {
+        "id": "cam-revisao-tramite-na-pendencia",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "direito-constitucional",
+        "unitId": "processo-legislativo",
+        "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+        "articleId": "art-6d8e3f041b9a52c7",
+        "conceptId": "questao-ordem-recurso-efeito-suspensivo",
+        "mechanism": "tramite-na-pendencia",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+          "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+        },
+        "statement": "A Presidência resolve questão de ordem, e um deputado recorre ao Plenário. Enquanto a Comissão de Constituição e Justiça e de Cidadania examina o recurso, a tramitação da matéria fica suspensa apenas pela interposição do recurso.",
+        "correctAnswer": "E",
+        "explanation": "O recurso vai ao Plenário após a oitiva da comissão e não tem efeito suspensivo automático. Cabe requerer ao Plenário decisão imediata sobre esse efeito com o apoiamento previsto no art. 95, § 9º.",
+        "reviewEvidence": "Conferência editorial do enunciado e gabarito com Regimento Interno da Câmara dos Deputados, art. 95, §§ 8º e 9º e a seção vinculada. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+      },
+      {
+        "id": "cam-revisao-pedido-de-efeito-versus-merito",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "direito-constitucional",
+        "unitId": "processo-legislativo",
+        "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+        "articleId": "art-6d8e3f041b9a52c7",
+        "conceptId": "questao-ordem-recurso-efeito-suspensivo",
+        "mechanism": "pedido-de-efeito-versus-merito",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+          "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+        },
+        "statement": "Um deputado obtém apoio de um terço dos presentes para requerer que o Plenário decida de imediato sobre o efeito suspensivo do recurso em questão de ordem. O pedido imediato tem por objeto a suspensão e é distinto do julgamento do recurso.",
+        "correctAnswer": "C",
+        "explanation": "O apoiamento habilita o requerimento de decisão imediata sobre o efeito suspensivo. Ele não concede a suspensão por si só nem substitui a etapa de oitiva da Comissão de Constituição e Justiça e de Cidadania para o julgamento do recurso.",
+        "reviewEvidence": "Conferência editorial do enunciado e gabarito com Regimento Interno da Câmara dos Deputados, art. 95, §§ 8º e 9º e a seção vinculada. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+      },
+      {
+        "id": "cam-revisao-instrucao-versus-decisao",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "direito-administrativo",
+        "unitId": "direito-administrativo",
+        "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 processo administrativo federal competencia delegacao e avocacao",
+        "articleId": "art-c61cca38ed36e424",
+        "conceptId": "competencia-indelegavel",
+        "mechanism": "instrucao-versus-decisao",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-c61cca38ed36e424#4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+          "section": "4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+        },
+        "statement": "Em processo administrativo federal, uma equipe organiza os documentos de um recurso e elabora minuta. A autoridade competente examina a instrução e decide por conta própria. A ajuda na preparação não implica delegar a decisão do recurso.",
+        "correctAnswer": "C",
+        "explanation": "Os atos de apoio à instrução podem subsidiar a autoridade. O art. 13, II, impede transferir a decisão do recurso, que permanece com a autoridade competente no caso descrito.",
+        "reviewEvidence": "Conferência editorial do enunciado e gabarito com Lei nº 9.784/1999, arts. 13 e 14 e a seção vinculada. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+      },
+      {
+        "id": "cam-revisao-publicacao-nao-sana-vedacao",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "direito-administrativo",
+        "unitId": "direito-administrativo",
+        "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 processo administrativo federal competencia delegacao e avocacao",
+        "articleId": "art-c61cca38ed36e424",
+        "conceptId": "competencia-indelegavel",
+        "mechanism": "publicacao-nao-sana-vedacao",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-c61cca38ed36e424#4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+          "section": "4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+        },
+        "statement": "Uma autoridade federal publica ato que define o prazo e os limites da delegação de uma matéria que a lei atribui à sua competência exclusiva. A publicação e a delimitação do ato afastam a vedação legal à delegação.",
+        "correctAnswer": "E",
+        "explanation": "As formalidades do art. 14 disciplinam delegações admitidas. A competência exclusiva está entre as hipóteses que o art. 13 impede delegar.",
+        "reviewEvidence": "Conferência editorial do enunciado e gabarito com Lei nº 9.784/1999, arts. 13 e 14 e a seção vinculada. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+      },
+      {
+        "id": "cam-revisao-autorizacao-para-criar-autarquia",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "direito-administrativo",
+        "unitId": "direito-administrativo",
+        "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+        "articleId": "art-86dee064aef44ba4",
+        "conceptId": "autarquia-empresa-publica-criacao",
+        "mechanism": "autorizacao-para-criar-autarquia",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+          "section": "Entidades da Administração Indireta e como são constituídas"
+        },
+        "statement": "Um projeto de lei específica se limita a autorizar que o Executivo crie futuramente, por decreto, uma autarquia de fiscalização. Essa cláusula de autorização atende ao requisito constitucional de criação da autarquia.",
+        "correctAnswer": "E",
+        "explanation": "A própria lei específica cria a autarquia. A técnica de autorização seguida da constituição da entidade corresponde à empresa pública e à sociedade de economia mista, entre outras hipóteses do art. 37, XIX.",
+        "reviewEvidence": "Conferência editorial do enunciado e gabarito com Constituição Federal, art. 37, XIX e a seção vinculada. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
+        "id": "cam-revisao-lei-de-autorizacao-e-constituicao-posterior",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "direito-administrativo",
+        "unitId": "direito-administrativo",
+        "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+        "articleId": "art-86dee064aef44ba4",
+        "conceptId": "autarquia-empresa-publica-criacao",
+        "mechanism": "lei-de-autorizacao-e-constituicao-posterior",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+        ],
+        "source": {
+          "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+          "section": "Entidades da Administração Indireta e como são constituídas"
+        },
+        "statement": "Uma lei específica autoriza instituir uma empresa pública. Antes de serem praticados os atos de constituição, a mera entrada em vigor da lei não equivale à criação direta de uma autarquia por lei específica.",
+        "correctAnswer": "C",
+        "explanation": "A lei autoriza a instituição da empresa pública e os atos constitutivos completam sua formação. No caso da autarquia, a lei específica exerce diretamente a função criadora.",
+        "reviewEvidence": "Conferência editorial do enunciado e gabarito com Constituição Federal, art. 37, XIX e a seção vinculada. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      },
+      {
         "id": "cam-revisao-arquitetura-marca-endosso-credibilidade",
         "concursoId": "camara-2026",
         "origin": "inedita",

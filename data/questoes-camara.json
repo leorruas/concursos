@@ -7608,6 +7608,510 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-mesa-encaminha-representacao-de-partido-dentro-de-tres-sessoes",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "partido-mesa-conselho",
+      "mechanism": "mesa-encaminha-representacao-de-partido-dentro-de-tres-sessoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Partido político representado no Congresso apresenta à Mesa representação por hipótese de perda de mandato. O Código prevê o encaminhamento direto pela Mesa ao Conselho de Ética no prazo de três sessões ordinárias.",
+      "correctAnswer": "C",
+      "explanation": "O § 3º estabelece o encaminhamento direto pela Mesa e remete ao prazo de três sessões ordinárias do § 2º, I.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-partido-com-representacao-nao-protocola-diretamente-no-conselho",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "partido-mesa-conselho",
+      "mechanism": "partido-com-representacao-nao-protocola-diretamente-no-conselho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Por ter representação no Congresso Nacional, um partido deve apresentar a representação por perda de mandato diretamente ao Conselho de Ética, sem passar pela Mesa.",
+      "correctAnswer": "E",
+      "explanation": "A Mesa recebe a representação e é responsável pelo encaminhamento direto ao Conselho.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-perturbacao-da-sessao-admite-censura-verbal",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "perturbacao-perda-imediata",
+      "mechanism": "perturbacao-da-sessao-admite-censura-verbal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "Durante sessão plenária, um deputado perturba a ordem dos trabalhos. Para essa conduta, o Código prevê censura verbal pela presidência da Câmara.",
+      "correctAnswer": "C",
+      "explanation": "A perturbação da ordem da sessão está no art. 5º, I, e é alcançada pela censura verbal do art. 11.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 5º, I, 11 e 12. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-perturbacao-nao-gera-perda-automatica-de-mandato",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "perturbacao-perda-imediata",
+      "mechanism": "perturbacao-nao-gera-perda-automatica-de-mandato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "A simples perturbação da ordem de uma reunião de comissão é classificada pelo Código como conduta que leva à perda imediata de mandato.",
+      "correctAnswer": "E",
+      "explanation": "A perturbação da ordem é conduta atentatória do art. 5º, I, sujeita a censura. A perda do mandato se relaciona às condutas incompatíveis do art. 4º.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 5º, I, 11 e 12. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-suspensao-de-prerrogativas-exige-voto-aberto-e-maioria-absoluta",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "prerrogativas-plenario-maioria",
+      "mechanism": "suspensao-de-prerrogativas-exige-voto-aberto-e-maioria-absoluta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "O Conselho de Ética propõe a suspensão de prerrogativas regimentais de um deputado. Cabe ao Plenário da Câmara apreciar o projeto em votação ostensiva e por maioria absoluta dos membros.",
+      "correctAnswer": "C",
+      "explanation": "O Conselho oferece o projeto de resolução. O art. 13 reserva a deliberação ao Plenário, com votação ostensiva e maioria absoluta.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, caput. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-maioria-dos-presentes-nao-basta-para-suspender-prerrogativas",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "prerrogativas-plenario-maioria",
+      "mechanism": "maioria-dos-presentes-nao-basta-para-suspender-prerrogativas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Em votação ostensiva, 230 dos 350 deputados presentes aprovam projeto de suspensão de prerrogativas regimentais. A maioria dos presentes é suficiente para a aprovação.",
+      "correctAnswer": "E",
+      "explanation": "Como a Câmara tem 513 membros, a maioria absoluta exige pelo menos 257 votos favoráveis.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, caput. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-pares-elegem-presidentes-do-conselho-entre-titulares",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "presidente-escolhido-pela-mesa",
+      "mechanism": "pares-elegem-presidentes-do-conselho-entre-titulares",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "Na instalação do Conselho de Ética, seus membros elegem presidente e dois vice-presidentes dentre os titulares do colegiado. Esse procedimento atende ao Código.",
+      "correctAnswer": "C",
+      "explanation": "A eleição cabe aos pares, e as candidaturas para esses cargos são de membros titulares.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-mesa-nao-designa-presidente-do-conselho",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "presidente-escolhido-pela-mesa",
+      "mechanism": "mesa-nao-designa-presidente-do-conselho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "A Mesa da Câmara pode escolher diretamente o presidente do Conselho de Ética, dispensando a eleição interna se o escolhido for titular.",
+      "correctAnswer": "E",
+      "explanation": "A condição de titular permite a candidatura. A escolha cabe aos membros do Conselho, por eleição.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-parecer-rejeitado-leva-a-designacao-de-outro-relator",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "rejeicao-parecer-novo-relator",
+      "mechanism": "parecer-rejeitado-leva-a-designacao-de-outro-relator",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Em processo de perda de mandato, o Conselho rejeita o parecer original. Deve então ser designado novo relator, preferencialmente entre os membros que defenderam posição contrária durante a discussão.",
+      "correctAnswer": "C",
+      "explanation": "A nova designação é obrigatória. A manifestação contrária é critério de preferência.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 4º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-ausencia-de-oposicao-oral-nao-autoriza-manter-relator",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "rejeicao-parecer-novo-relator",
+      "mechanism": "ausencia-de-oposicao-oral-nao-autoriza-manter-relator",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Apesar de rejeitar o parecer original em processo de perda de mandato, o Conselho pode manter o mesmo relator se nenhum integrante tiver manifestado posição contrária durante a discussão.",
+      "correctAnswer": "E",
+      "explanation": "A rejeição obriga à designação de novo relator. A falta de alguém que satisfaça a preferência não dispensa a substituição.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 4º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-estado-do-representado-impede-relatoria-mesmo-com-partido-diferente",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relator-estado-distinto",
+      "mechanism": "estado-do-representado-impede-relatoria-mesmo-com-partido-diferente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Um integrante do Conselho pertence a partido e bloco diferentes dos do representado, mas foi eleito pelo mesmo estado. A coincidência do estado impede que assuma a relatoria.",
+      "correctAnswer": "C",
+      "explanation": "O inciso I estabelece vedações independentes, entre elas ser do mesmo estado do representado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I, b. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-sorteio-nao-supera-impedimento-territorial-do-relator",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relator-estado-distinto",
+      "mechanism": "sorteio-nao-supera-impedimento-territorial-do-relator",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Um deputado do mesmo estado que o representado pode assumir a relatoria se seu nome sair no sorteio, desde que ambos estejam em partidos diferentes.",
+      "correctAnswer": "E",
+      "explanation": "A vedação de coincidência do estado é autônoma. Nem o sorteio nem a diferença partidária afastam o impedimento.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I, b. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-mesmo-partido-impede-relatoria-ainda-que-estados-diferentes",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relator-mesmo-partido-representado",
+      "mechanism": "mesmo-partido-impede-relatoria-ainda-que-estados-diferentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Dois deputados são do mesmo partido e foram eleitos por estados diferentes. Se um deles for representado, o outro não poderá atuar como relator do processo.",
+      "correctAnswer": "C",
+      "explanation": "A vedação por partido ou bloco independe da vedação por estado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I, a. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-partidos-distintos-no-mesmo-bloco-nao-afastam-impedimento",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relator-mesmo-partido-representado",
+      "mechanism": "partidos-distintos-no-mesmo-bloco-nao-afastam-impedimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Um integrante do Conselho e o representado pertencem a partidos diferentes do mesmo bloco parlamentar. A diferença entre os partidos permite que o primeiro seja relator.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo abrange tanto a coincidência de partido quanto a de bloco parlamentar.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I, a. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-censura-verbal-em-plenario-admite-recurso-em-dois-dias-uteis",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "recurso-censura-verbal-dois-dias",
+      "mechanism": "censura-verbal-em-plenario-admite-recurso-em-dois-dias-uteis",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Após censura verbal aplicada em sessão da Câmara, o deputado recorre dentro de dois dias úteis ao respectivo Plenário. O Código prevê esse recurso.",
+      "correctAnswer": "C",
+      "explanation": "O art. 11, parágrafo único, permite recurso ao respectivo Plenário em dois dias úteis.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 11, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-recurso-da-censura-verbal-nao-tem-cinco-dias-uteis",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "recurso-censura-verbal-dois-dias",
+      "mechanism": "recurso-da-censura-verbal-nao-tem-cinco-dias-uteis",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Contra censura verbal, o deputado tem cinco dias úteis para recorrer ao respectivo Plenário.",
+      "correctAnswer": "E",
+      "explanation": "O prazo previsto para esse recurso é de dois dias úteis.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 11, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-restituicao-integral-pode-coexistir-com-sancao-disciplinar",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "ressarcimento-cumulativo",
+      "mechanism": "restituicao-integral-pode-coexistir-com-sancao-disciplinar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "O processo identifica vantagem indevida decorrente do uso de recursos públicos em desacordo com o Código de Ética. A aplicação de penalidade disciplinar não afasta o ressarcimento integral ao erário.",
+      "correctAnswer": "C",
+      "explanation": "O ressarcimento integral é devido sem prejuízo das sanções disciplinares previstas no Código.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-ressarcir-nao-substitui-penalidade-do-codigo",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "ressarcimento-cumulativo",
+      "mechanism": "ressarcir-nao-substitui-penalidade-do-codigo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "A restituição integral de vantagem indevida obtida com recursos públicos impede que seja aplicada a sanção disciplinar cabível pela mesma conduta.",
+      "correctAnswer": "E",
+      "explanation": "O ressarcimento e a sanção podem coexistir. O primeiro recompõe o erário. A segunda incide sobre a infração.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",

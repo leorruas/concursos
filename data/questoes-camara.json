@@ -7608,6 +7608,342 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-ordem-do-dia-no-inicio-do-terceiro-ano",
+      "concursoId": "camara-2026",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "primeira-sessao-legislativa-sem-pauta",
+      "mechanism": "ordem-do-dia-no-inicio-do-terceiro-ano",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "statement": "No início do terceiro ano de uma legislatura, a Presidência organiza a primeira sessão plenária da nova sessão legislativa. Para essa reunião, o Regimento veda a designação de Ordem do Dia.",
+      "correctAnswer": "C",
+      "explanation": "O marco é o início de cada sessão legislativa, que ocorre em cada ano da legislatura.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 85, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-pauta-preanunciada-na-primeira-sessao-anual",
+      "concursoId": "camara-2026",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "primeira-sessao-legislativa-sem-pauta",
+      "mechanism": "pauta-preanunciada-na-primeira-sessao-anual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "statement": "Para a primeira sessão plenária de uma sessão legislativa, a Presidência pode designar Ordem do Dia se anunciar os projetos com antecedência às lideranças.",
+      "correctAnswer": "E",
+      "explanation": "A regra do art. 85, parágrafo único, impede a designação nessa sessão, independentemente de anúncio prévio.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 85, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "id": "cam-revisao-convite-habilita-presidente-do-stf-a-integrar-mesa",
+      "concursoId": "camara-2026",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "solene-convite-presidente-stf",
+      "mechanism": "convite-habilita-presidente-do-stf-a-integrar-mesa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      },
+      "statement": "Na organização de uma sessão solene conjunta, o Presidente do Supremo Tribunal Federal recebe convite para integrar a Mesa. Essa participação está prevista no Regimento Comum.",
+      "correctAnswer": "C",
+      "explanation": "O Presidente do Supremo pode integrar a Mesa mediante convite. O Presidente da Câmara também integra a Mesa.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, art. 53. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "id": "cam-revisao-comparecimento-do-stf-sem-convite-nao-confere-assento-na-mesa",
+      "concursoId": "camara-2026",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "solene-convite-presidente-stf",
+      "mechanism": "comparecimento-do-stf-sem-convite-nao-confere-assento-na-mesa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      },
+      "statement": "O Presidente do Supremo comparece a sessão solene do Congresso sem convite para integrar a Mesa. Sua presença é suficiente para que passe a integrá-la automaticamente.",
+      "correctAnswer": "E",
+      "explanation": "O Regimento Comum condiciona a participação do Presidente do Supremo na Mesa a convite.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, art. 53. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "id": "cam-revisao-licenca-original-de-121-dias-autoriza-convocacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "suplente-licenca-original-soma",
+      "mechanism": "licenca-original-de-121-dias-autoriza-convocacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      },
+      "statement": "Uma licença para tratamento da saúde é concedida originalmente por 121 dias. A duração do ato original já satisfaz o requisito temporal para a convocação do suplente nessa hipótese.",
+      "correctAnswer": "C",
+      "explanation": "O prazo original precisa ser superior a 120 dias. Uma licença originalmente concedida por 121 dias satisfaz o critério.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 241, III. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "id": "cam-revisao-licenca-original-exata-de-120-mais-prorrogacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "suplente-licenca-original-soma",
+      "mechanism": "licenca-original-exata-de-120-mais-prorrogacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      },
+      "statement": "Um deputado obtém licença de saúde por 120 dias e depois a prorroga por cinco dias. A soma autoriza convocar suplente pela regra de licença de saúde.",
+      "correctAnswer": "E",
+      "explanation": "O Regimento exige prazo original superior a 120 dias e veda a soma de períodos para esse efeito. Uma licença original de 120 dias não basta.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 241, III. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "id": "cam-revisao-cientificar-presidencia-com-natureza-e-prazo-estimado",
+      "concursoId": "camara-2026",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "viagem-ciencia-previa-presidencia",
+      "mechanism": "cientificar-presidencia-com-natureza-e-prazo-estimado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#1. Exercício, presença e transparência do mandato: arts. 226 a 230"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "1. Exercício, presença e transparência do mandato: arts. 226 a 230"
+      },
+      "statement": "Antes de partir para viagem particular ao exterior, uma deputada dá ciência do afastamento à Câmara por intermédio da Presidência, indicando o motivo da viagem e quantos dias estima ficar fora. Ela atende à regra de comunicação do art. 228.",
+      "correctAnswer": "C",
+      "explanation": "A ciência deve ser prévia e passar pela Presidência, com indicação da natureza e da duração estimada do afastamento.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 228. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "id": "cam-revisao-aviso-ao-lider-depois-do-retorno-nao-basta",
+      "concursoId": "camara-2026",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "viagem-ciencia-previa-presidencia",
+      "mechanism": "aviso-ao-lider-depois-do-retorno-nao-basta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#1. Exercício, presença e transparência do mandato: arts. 226 a 230"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "1. Exercício, presença e transparência do mandato: arts. 226 a 230"
+      },
+      "statement": "Em viagem particular ao exterior, um deputado pode dar ciência do afastamento apenas ao líder do partido depois do retorno, desde que indique a duração efetiva da viagem.",
+      "correctAnswer": "E",
+      "explanation": "A ciência deve ser anterior à viagem e dirigida à Câmara por intermédio da Presidência. Aviso posterior ao líder não atende a esses requisitos.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 228. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "id": "cam-revisao-pronunciamento-opcional-apos-os-oradores",
+      "concursoId": "camara-2026",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "visitante-fala-depois",
+      "mechanism": "pronunciamento-opcional-apos-os-oradores",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#4. Recepção de chefe de Estado estrangeiro (arts. 68–71)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "4. Recepção de chefe de Estado estrangeiro (arts. 68–71)"
+      },
+      "statement": "Na sessão de recepção a um chefe de Estado estrangeiro, o visitante manifesta vontade de discursar. Seu pronunciamento deve ser programado para depois dos oradores da sessão.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento Comum assegura essa possibilidade e define a ordem: o visitante usa a palavra após os oradores.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, arts. 69 e 70. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "id": "cam-revisao-prestigio-do-visitante-nao-inverte-sequencia",
+      "concursoId": "camara-2026",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "visitante-fala-depois",
+      "mechanism": "prestigio-do-visitante-nao-inverte-sequencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#4. Recepção de chefe de Estado estrangeiro (arts. 68–71)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "4. Recepção de chefe de Estado estrangeiro (arts. 68–71)"
+      },
+      "statement": "A pedido do cerimonial, o visitante pode ser colocado como primeiro orador, antes dos oradores da sessão de recepção, conforme a sequência prevista no Regimento Comum.",
+      "correctAnswer": "E",
+      "explanation": "A sequência prevista é a inversa. Se o visitante quiser falar, sua fala ocorre após a dos oradores.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, arts. 69 e 70. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-temporaria-extingue-se-ao-alcancar-fim",
+      "concursoId": "camara-2026",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "comissao-temporaria-finalidade-cumprida",
+      "mechanism": "temporaria-extingue-se-ao-alcancar-fim",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "statement": "Uma comissão temporária conclui a finalidade para a qual foi constituída, embora ainda haja semanas até o fim de seu prazo. O alcance da finalidade é causa regimental de extinção da comissão.",
+      "correctAnswer": "C",
+      "explanation": "O cumprimento da finalidade, o término do prazo e o fim da legislatura são hipóteses regimentais de extinção.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 22, II. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-temporaria-nenhuma-sobrevive-automaticamente-a-legislatura",
+      "concursoId": "camara-2026",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "comissao-temporaria-finalidade-cumprida",
+      "mechanism": "temporaria-nenhuma-sobrevive-automaticamente-a-legislatura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "statement": "Uma comissão temporária chega ao fim da legislatura sem cumprir sua finalidade e sem esgotar seu prazo. O Regimento determina que ela atravesse automaticamente para a legislatura seguinte.",
+      "correctAnswer": "E",
+      "explanation": "O fim da legislatura é causa de extinção, independentemente de a finalidade ter sido cumprida ou de o prazo ter terminado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 22, II. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "portugues",
       "unitId": "lingua-portuguesa",
       "editalRef": "14.2.3 / Língua Portuguesa / domínio da ortografia oficial",

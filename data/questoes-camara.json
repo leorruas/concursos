@@ -7608,6 +7608,734 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "id": "cam-revisao-recorte-de-audio-omite-complemento",
+      "concursoId": "camara-2026",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "contextualizacao-da-informacao",
+      "mechanism": "recorte-de-audio-omite-complemento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Verdade, apuração e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Verdade, apuração e responsabilidade"
+      },
+      "statement": "Um boletim reproduz com exatidão as primeiras palavras de uma declaração, mas corta a ressalva que altera o sentido da frase. A identidade das palavras reproduzidas, por si só, não garante fidelidade ao que foi dito.",
+      "correctAnswer": "C",
+      "explanation": "A fidelidade depende também do contexto necessário para interpretar a fala. Suprimir uma ressalva que muda o sentido pode distorcer a declaração mesmo com transcrição literal.",
+      "reviewEvidence": "Conferência com a seção vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "id": "cam-revisao-indicador-mensal-com-mudanca-de-criterio",
+      "concursoId": "camara-2026",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "contextualizacao-da-informacao",
+      "mechanism": "indicador-mensal-com-mudanca-de-criterio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Verdade, apuração e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Verdade, apuração e responsabilidade"
+      },
+      "statement": "Uma redação publica números oficiais de dois meses e os apresenta como série comparável. Entre os meses, o órgão passou a contabilizar uma categoria adicional. Sendo corretos os números, omitir a mudança do critério não afeta o sentido da comparação.",
+      "correctAnswer": "E",
+      "explanation": "Os totais foram calculados sobre objetos diferentes. A alteração do critério pode explicar parte da variação e é informação necessária para interpretar a comparação.",
+      "reviewEvidence": "Conferência com a seção vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-conselho-listas-equivalentes",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "membros-21-mais-suplentes",
+      "mechanism": "conselho-listas-equivalentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "Uma relação para composição do Conselho de Ética contém 21 titulares e 21 suplentes. Considerada apenas a quantidade em cada categoria, a relação está de acordo com o Código de Ética e Decoro Parlamentar da Câmara.",
+      "correctAnswer": "C",
+      "explanation": "O art. 7º fixa 21 titulares e o mesmo número de suplentes. A igualdade é entre as duas categorias, cada uma com 21 integrantes.",
+      "reviewEvidence": "Conferência com a seção vinculada. Código de Ética e Decoro Parlamentar, art. 7º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-igualdade-de-listas-nao-basta-para-conselho",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "membros-21-mais-suplentes",
+      "mechanism": "igualdade-de-listas-nao-basta-para-conselho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "Uma proposta prevê 15 titulares e 15 suplentes no Conselho de Ética. Por manter as duas categorias com a mesma quantidade, preserva a composição prevista no Código vigente.",
+      "correctAnswer": "E",
+      "explanation": "A igualdade não é o único requisito numérico. O texto vigente determina 21 titulares e 21 suplentes.",
+      "reviewEvidence": "Conferência com a seção vinculada. Código de Ética e Decoro Parlamentar, art. 7º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-projeto-conclusivo-sem-recurso-ao-plenario",
+      "concursoId": "camara-2026",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "poder-conclusivo-das-comissoes",
+      "mechanism": "projeto-conclusivo-sem-recurso-ao-plenario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "statement": "As comissões da Câmara aprovam um projeto sujeito à apreciação conclusiva. O prazo regimental transcorre sem recurso e não há hipótese de votação obrigatória em Plenário. A tramitação pode prosseguir sem votação plenária na Câmara.",
+      "correctAnswer": "C",
+      "explanation": "O poder conclusivo permite dispensar o Plenário nas matérias admitidas pelo Regimento. A inexistência de recurso deixa produzir efeito a decisão conclusiva.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 58, § 2º, I, e RICD, arts. 24, II, e 132, § 2º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-recurso-subscrito-afasta-dispensa-de-plenario",
+      "concursoId": "camara-2026",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "poder-conclusivo-das-comissoes",
+      "mechanism": "recurso-subscrito-afasta-dispensa-de-plenario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "statement": "Um projeto apto à apreciação conclusiva é aprovado pelas comissões da Câmara, mas há recurso tempestivo e regimental, subscrito por 52 deputados, para apreciação pelo Plenário. A aprovação conclusiva torna o recurso incabível.",
+      "correctAnswer": "E",
+      "explanation": "A dispensa de votação plenária admite recurso de um décimo dos membros. Cinquenta e dois deputados alcançam esse limiar em uma Casa com 513 membros.",
+      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 58, § 2º, I, e RICD, arts. 24, II, e 132, § 2º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "id": "cam-revisao-presidente-designa-redator-com-substituto-ausente",
+      "concursoId": "camara-2026",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "redacao-vencedora-substituto-ausente",
+      "mechanism": "presidente-designa-redator-com-substituto-ausente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#O que acontece entre voto do relator e parecer da comissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "O que acontece entre voto do relator e parecer da comissão"
+      },
+      "statement": "A comissão rejeita o voto do relator e o relator substituto está ausente. O presidente da comissão designa outro deputado para redigir o parecer vencedor. A designação segue o Regimento.",
+      "correctAnswer": "C",
+      "explanation": "O relator substituto é o primeiro responsável pela redação do parecer vencedor. Em sua ausência, o presidente designa outro deputado.",
+      "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 57, XII. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "id": "cam-revisao-substituto-presente-mas-vencido-nao-redige",
+      "concursoId": "camara-2026",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "redacao-vencedora-substituto-ausente",
+      "mechanism": "substituto-presente-mas-vencido-nao-redige",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#O que acontece entre voto do relator e parecer da comissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "O que acontece entre voto do relator e parecer da comissão"
+      },
+      "statement": "Na votação em comissão, tanto o relator inicial como o relator substituto ficam vencidos. Mesmo vencido, o substituto deve obrigatoriamente redigir o parecer vencedor por estar presente.",
+      "correctAnswer": "E",
+      "explanation": "O inciso XII trata tanto da ausência quanto da derrota do relator substituto. Em ambas as hipóteses, cabe ao presidente designar outro deputado.",
+      "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 57, XII. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "id": "cam-revisao-emenda-do-projeto-e-emenda-do-substitutivo",
+      "concursoId": "camara-2026",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "substitutivo-emenda-propria",
+      "mechanism": "emenda-do-projeto-e-emenda-do-substitutivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Ordem da votação, substitutivo, emendas e destaques"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Ordem da votação, substitutivo, emendas e destaques"
+      },
+      "statement": "O Plenário aprova um substitutivo de comissão. Antes da votação, havia uma emenda ao projeto original e outra ao próprio substitutivo, sem destaques. Pela regra geral de prejudicialidade, a primeira fica prejudicada e a segunda está ressalvada.",
+      "correctAnswer": "C",
+      "explanation": "A aprovação prejudica o projeto e as emendas ao original. As emendas ao substitutivo ficam fora dessa hipótese de prejudicialidade.",
+      "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 191, IV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "id": "cam-revisao-ressalva-da-emenda-nao-e-aprovacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "substitutivo-emenda-propria",
+      "mechanism": "ressalva-da-emenda-nao-e-aprovacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Ordem da votação, substitutivo, emendas e destaques"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Ordem da votação, substitutivo, emendas e destaques"
+      },
+      "statement": "Com a aprovação de um substitutivo, uma emenda apresentada a ele fica ressalvada da prejudicialidade. Essa ressalva faz a emenda incorporar-se automaticamente ao texto aprovado.",
+      "correctAnswer": "E",
+      "explanation": "A ressalva preserva a possibilidade de apreciar a emenda ao substitutivo. Impedir sua prejudicialidade automática não equivale a aprová-la.",
+      "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 191, IV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "id": "cam-revisao-apoio-na-primeira-verificacao-nao-vale-na-segunda",
+      "concursoId": "camara-2026",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "verificacao-pacto-previo",
+      "mechanism": "apoio-na-primeira-verificacao-nao-vale-na-segunda",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      },
+      "statement": "Líderes se manifestam a favor da verificação do resultado de uma votação simbólica. Horas depois, em nova votação, o mesmo apoio é computado automaticamente, sem nova manifestação. A prática é compatível com o Regimento porque as bancadas são as mesmas.",
+      "correctAnswer": "E",
+      "explanation": "O apoiamento dos líderes deve ocorrer em cada votação. Manifestação anterior não autoriza reaproveitar automaticamente o apoio na nova verificação.",
+      "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 185, §§ 3º e 3º-A. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "id": "cam-revisao-apoio-especifico-de-lideres-na-votacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "verificacao-pacto-previo",
+      "mechanism": "apoio-especifico-de-lideres-na-votacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      },
+      "statement": "Após um resultado simbólico contestado, líderes que representam pelo menos 6% dos deputados manifestam apoio específico naquele momento. Sem outra verificação na hora anterior e satisfeitas as demais condições, essa manifestação atende ao requisito de apoiamento ordinário.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento admite o apoio de líderes que representem o percentual exigido, desde que a manifestação seja própria da votação, sem valer-se de pacto prévio ou recíproco.",
+      "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 185, §§ 3º e 3º-A. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-negativa-de-acesso-a-dados-pessoais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "habeas-corpus-informacoes-pessoais",
+      "mechanism": "negativa-de-acesso-a-dados-pessoais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas corpus — HC"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas corpus — HC"
+      },
+      "statement": "Uma pessoa pede acesso aos próprios dados mantidos em cadastro público. Após negativa administrativa, pretende usar habeas corpus exclusivamente para obter acesso ao cadastro. Como não há ameaça à liberdade de locomoção, o habeas corpus é inadequado ao pedido.",
+      "correctAnswer": "C",
+      "explanation": "O habeas corpus tutela a liberdade de locomoção. Conhecer informações relativas à própria pessoa em registro governamental ou público é hipótese de habeas data, observados seus requisitos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXVIII e LXXII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-registro-incorreto-sem-restricao-de-ir-e-vir",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "habeas-corpus-informacoes-pessoais",
+      "mechanism": "registro-incorreto-sem-restricao-de-ir-e-vir",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas corpus — HC"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas corpus — HC"
+      },
+      "statement": "Um banco público registra incorretamente o endereço de uma cidadã e recusa a retificação. A divergência não restringe a sua locomoção. O habeas corpus é o remédio constitucional especificamente destinado a corrigir esse registro.",
+      "correctAnswer": "E",
+      "explanation": "A correção de dados da própria impetrante em registro governamental ou público é matéria de habeas data. O habeas corpus protege contra coação ou ameaça à liberdade de ir e vir.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXVIII e LXXII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-beneficio-regulado-com-recusa-ilegal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "injuncao-omissao-versus-seguranca-ilegalidade",
+      "mechanism": "beneficio-regulado-com-recusa-ilegal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de injunção — MI"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de injunção — MI"
+      },
+      "statement": "Uma autoridade recusa, contra regra já regulamentada e com os fatos provados por documentos, um direito que não é amparado por habeas corpus ou habeas data. O mandado de injunção é adequado apenas porque a negativa impediu o exercício do direito.",
+      "correctAnswer": "E",
+      "explanation": "O mandado de injunção pressupõe falta de norma regulamentadora que inviabilize o direito constitucional. Uma recusa ilegal sob normas existentes pode ser combatida por mandado de segurança, observados seus requisitos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXIX e LXXI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-omissao-regulatoria-impede-exercicio-constitucional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "injuncao-omissao-versus-seguranca-ilegalidade",
+      "mechanism": "omissao-regulatoria-impede-exercicio-constitucional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de injunção — MI"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de injunção — MI"
+      },
+      "statement": "A Constituição prevê um direito cujo exercício depende de regulamentação. A norma necessária não foi editada e a omissão impede o exercício do direito. O mandado de injunção é adequado para enfrentar esse obstáculo.",
+      "correctAnswer": "C",
+      "explanation": "A inviabilidade decorre da falta de norma regulamentadora, hipótese própria do mandado de injunção. O caso não relata apenas descumprimento de norma já existente.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXIX e LXXI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-pericia-necessaria-nao-se-faz-no-ms",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "mandado-seguranca-prova-preconstituida",
+      "mechanism": "pericia-necessaria-nao-se-faz-no-ms",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de segurança — MS"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de segurança — MS"
+      },
+      "statement": "Para demonstrar o fato constitutivo do direito invocado, a parte depende de perícia que ainda deve ser realizada. O mandado de segurança é a via adequada para produzir essa prova durante a instrução.",
+      "correctAnswer": "E",
+      "explanation": "A via exige que os fatos essenciais possam ser demonstrados de plano. A necessidade de produzir perícia caracteriza dilação probatória incompatível com o rito.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXIX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-duvida-juridica-com-fatos-documentados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "mandado-seguranca-prova-preconstituida",
+      "mechanism": "duvida-juridica-com-fatos-documentados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de segurança — MS"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de segurança — MS"
+      },
+      "statement": "Os fatos necessários à análise do direito estão comprovados por documentos já disponíveis. A única controvérsia recai sobre a interpretação da lei. Essa divergência jurídica, por si só, não impede o uso do mandado de segurança.",
+      "correctAnswer": "C",
+      "explanation": "Liquidez e certeza exigem demonstração de plano dos fatos. A controvérsia jurídica pode ser decidida pelo julgador sem necessidade de produção de novas provas.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXIX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-reducao-prevista-em-convencao-coletiva",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "irredutibilidade-salarial-acordo-coletivo",
+      "mechanism": "reducao-prevista-em-convencao-coletiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "Uma convenção coletiva prevê redução salarial dentro dos limites legais aplicáveis. A simples existência da redução não torna a cláusula incompatível com o princípio da irredutibilidade salarial previsto na Constituição.",
+      "correctAnswer": "C",
+      "explanation": "A irredutibilidade é a regra. O art. 7º, VI, prevê expressamente a exceção por convenção ou acordo coletivo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 7º, VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-aceitacao-individual-nao-e-negociacao-coletiva",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "irredutibilidade-salarial-acordo-coletivo",
+      "mechanism": "aceitacao-individual-nao-e-negociacao-coletiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "Fora de qualquer hipótese legal especial, uma empresa reduz salários por meio de aditivos individuais, sem convenção ou acordo coletivo. A assinatura de todos os empregados satisfaz, por si só, a ressalva constitucional relativa à negociação coletiva.",
+      "correctAnswer": "E",
+      "explanation": "Aditivos individuais continuam sendo instrumentos individuais, mesmo que todos os empregados assinem. O art. 7º, VI, prevê exceção vinculada a convenção ou acordo coletivo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 7º, VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-nascida-no-exterior-com-registro-consular",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nacionalidade-nato-registro-exterior",
+      "mechanism": "nascida-no-exterior-com-registro-consular",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#3. Nascimento no exterior com pai ou mãe brasileiro"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "3. Nascimento no exterior com pai ou mãe brasileiro"
+      },
+      "statement": "Uma criança nasce no exterior, filha de mãe brasileira que não está a serviço do Brasil, e é registrada em repartição brasileira competente. Para que seja considerada brasileira nata por essa hipótese, não precisa fixar residência no Brasil.",
+      "correctAnswer": "C",
+      "explanation": "O registro em repartição brasileira competente é uma das vias previstas. Residência no Brasil e opção após a maioridade compõem a via alternativa.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, I, c. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-registro-local-nao-equivale-a-registro-brasileiro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nacionalidade-nato-registro-exterior",
+      "mechanism": "registro-local-nao-equivale-a-registro-brasileiro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#3. Nascimento no exterior com pai ou mãe brasileiro"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "3. Nascimento no exterior com pai ou mãe brasileiro"
+      },
+      "statement": "Uma pessoa nasce no exterior, filha de pai brasileiro que não está a serviço do Brasil. Seu nascimento é registrado apenas pela autoridade estrangeira, e ela nunca reside no Brasil. Esse registro estrangeiro preenche a condição constitucional de registro em repartição brasileira competente.",
+      "correctAnswer": "E",
+      "explanation": "Registro local e registro em repartição brasileira competente são atos distintos. A situação descrita não reúne o registro brasileiro nem a via alternativa de residência e opção.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, I, c. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-representacao-na-empresa-com-201",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "representante-empregados-mais-de-200",
+      "mechanism": "representacao-na-empresa-com-201",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "Uma empresa passa de 200 para 201 empregados. Pelo art. 11 da Constituição, fica assegurada a eleição de representante dos empregados para promover o entendimento direto com o empregador.",
+      "correctAnswer": "C",
+      "explanation": "O direito previsto no artigo incide quando a empresa supera 200 empregados, com a finalidade específica de promover o entendimento direto.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-representante-nao-recebe-atribuicao-sindical-geral",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "representante-empregados-mais-de-200",
+      "mechanism": "representante-nao-recebe-atribuicao-sindical-geral",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "Uma empresa com 240 empregados elege representante nos termos do art. 11 da Constituição. A eleição transfere ao representante todas as funções constitucionais do sindicato da categoria.",
+      "correctAnswer": "E",
+      "explanation": "O mandato do art. 11 tem a finalidade específica de promover o entendimento direto com o empregador. A eleição não transfere ao representante as atribuições constitucionais do sindicato.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-prefeita-outro-cargo-afastamento-nao-substitui-renuncia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "renuncia-candidatura-outro-cargo",
+      "mechanism": "prefeita-outro-cargo-afastamento-nao-substitui-renuncia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Uma prefeita quer disputar vaga de deputada. Ela se afasta temporariamente do exercício das funções sete meses antes do pleito, mas mantém o mandato. Esse afastamento satisfaz a regra constitucional aplicável à disputa de outro cargo.",
+      "correctAnswer": "E",
+      "explanation": "O § 6º exige renúncia ao mandato até seis meses antes do pleito. O afastamento temporário não extingue o mandato.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, §§ 5º e 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "id": "cam-revisao-reeleicao-mesmo-cargo-fora-da-renuncia-do-paragrafo-sexto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "renuncia-candidatura-outro-cargo",
+      "mechanism": "reeleicao-mesmo-cargo-fora-da-renuncia-do-paragrafo-sexto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Uma governadora em seu primeiro mandato pretende disputar a reeleição. A regra constitucional de renúncia até seis meses antes do pleito para concorrer a outro cargo não se aplica a essa candidatura ao mesmo cargo.",
+      "correctAnswer": "C",
+      "explanation": "O § 6º trata de candidatura a outro cargo. A reeleição para o mesmo cargo é regida pelo § 5º, sem prejuízo dos demais requisitos eleitorais.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, §§ 5º e 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
       "subjectId": "direito-constitucional",
       "unitId": "processo-legislativo",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",

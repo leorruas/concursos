@@ -7608,6 +7608,510 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-divulgar-materia-de-deliberacao-secreta-fere-decoro",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "revelacao-deliberacao-secreta",
+      "mechanism": "divulgar-materia-de-deliberacao-secreta-fere-decoro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "Um deputado divulga publicamente matéria que foi objeto de deliberação secreta na Câmara. Essa revelação é conduta atentatória ao decoro prevista no Código.",
+      "correctAnswer": "C",
+      "explanation": "O inciso V tipifica a revelação de conteúdo de debates ou deliberações que a Câmara ou comissão tenha resolvido manter em segredo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-encerrar-sessao-nao-autoriza-revelar-debate-secreto",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "revelacao-deliberacao-secreta",
+      "mechanism": "encerrar-sessao-nao-autoriza-revelar-debate-secreto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "A divulgação de conteúdo de debate que uma comissão resolveu manter em segredo fica fora do art. 5º, V, se ocorrer depois de encerrada a reunião.",
+      "correctAnswer": "E",
+      "explanation": "O fim da reunião não torna público por si só o conteúdo que a comissão decidiu manter em segredo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-dosimetria-considera-antecedentes-e-circunstancias",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "sancao-sem-atenuantes",
+      "mechanism": "dosimetria-considera-antecedentes-e-circunstancias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Na aplicação de sanção disciplinar, além da gravidade da infração, devem ser considerados os antecedentes do infrator e as circunstâncias agravantes ou atenuantes.",
+      "correctAnswer": "C",
+      "explanation": "Esses fatores integram os critérios do § 1º, junto com a natureza da infração e os danos causados.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10, § 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-dano-nem-gravidade-esgotam-criterios-de-sancao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "sancao-sem-atenuantes",
+      "mechanism": "dano-nem-gravidade-esgotam-criterios-de-sancao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Ao aplicar sanção disciplinar, a autoridade pode desconsiderar atenuantes comprovadas, pois o Código determina considerar apenas gravidade e dano.",
+      "correctAnswer": "E",
+      "explanation": "O Código também exige considerar agravantes, atenuantes e antecedentes, além da natureza e gravidade da infração e dos danos.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10, § 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-divulgacao-de-documento-oficial-sigiloso-e-ato-atentatorio",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "sigilo-implica-perda-necessaria",
+      "mechanism": "divulgacao-de-documento-oficial-sigiloso-e-ato-atentatorio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro"
+      },
+      "statement": "A divulgação de documento oficial sigiloso protegido na forma regimental, enquadrada no art. 5º, VI, constitui ato atentatório ao decoro e pode ensejar suspensão de prerrogativas.",
+      "correctAnswer": "C",
+      "explanation": "Essa conduta é classificada pelo art. 5º, VI. O art. 13 prevê suspensão de prerrogativas para os incisos VI a VIII do art. 5º.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 5º, VI, e 13. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-revelacao-de-documento-sigiloso-nao-gera-perda-necessaria",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "sigilo-implica-perda-necessaria",
+      "mechanism": "revelacao-de-documento-sigiloso-nao-gera-perda-necessaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro"
+      },
+      "statement": "A divulgação de documento oficial que o Regimento protege sob sigilo exige a perda do mandato por força do art. 5º, VI.",
+      "correctAnswer": "E",
+      "explanation": "A hipótese do art. 5º, VI, está entre as condutas sujeitas à suspensão de prerrogativas pelo art. 13. A perda do mandato tem previsão própria.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 5º, VI, e 13. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-transferencia-exige-votacao-nominal-e-maioria-absoluta",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "sigilo-transferencia-votacao",
+      "mechanism": "transferencia-exige-votacao-nominal-e-maioria-absoluta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      },
+      "statement": "O Conselho de Ética aprova requerimento de transferência da responsabilidade pelo sigilo dos dados fiscais por maioria absoluta de seus membros em votação nominal. Esses requisitos atendem à forma estabelecida no Código.",
+      "correctAnswer": "C",
+      "explanation": "O § 3º exige requerimento aprovado pela maioria absoluta do Conselho em votação nominal.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 18, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-unanimidade-em-votacao-simbolica-nao-supre-forma-nominal",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "sigilo-transferencia-votacao",
+      "mechanism": "unanimidade-em-votacao-simbolica-nao-supre-forma-nominal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      },
+      "statement": "O Conselho de Ética aprova por unanimidade, em votação simbólica, requerimento de transferência da responsabilidade pelo sigilo dos dados fiscais. O resultado dispensa a votação nominal.",
+      "correctAnswer": "E",
+      "explanation": "O Código exige votação nominal. A unanimidade em votação simbólica não satisfaz essa exigência de forma.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 18, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-suspender-prerrogativas-e-sancao-prevista",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "somente-perda-sancao",
+      "mechanism": "suspender-prerrogativas-e-sancao-prevista",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "A suspensão de prerrogativas regimentais e a suspensão do exercício do mandato constam como sanções distintas no Código de Ética.",
+      "correctAnswer": "C",
+      "explanation": "As duas medidas aparecem em incisos separados do art. 10, assim como censura e perda do mandato.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-censura-verbal-tambem-consta-do-rol",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "somente-perda-sancao",
+      "mechanism": "censura-verbal-tambem-consta-do-rol",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "A censura verbal é mera medida de organização da sessão e não integra o rol de penalidades do Código de Ética.",
+      "correctAnswer": "E",
+      "explanation": "O art. 10, I, lista expressamente a censura verbal e a escrita.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-substituicao-temporaria-do-titular-impede-integrar-conselho",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suplente-convocado-no-conselho",
+      "mechanism": "substituicao-temporaria-do-titular-impede-integrar-conselho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "Um deputado exerce o mandato temporariamente como suplente convocado em substituição ao titular. Essa condição o impede de atuar como membro do Conselho de Ética.",
+      "correctAnswer": "C",
+      "explanation": "O art. 7º, § 2º, III, prevê expressamente o impedimento para quem exerce o mandato nessa condição.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 2º, III. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-suplencia-no-mandato-impede-tambem-vaga-de-suplente-no-conselho",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suplente-convocado-no-conselho",
+      "mechanism": "suplencia-no-mandato-impede-tambem-vaga-de-suplente-no-conselho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "Um deputado que exerce o mandato como suplente convocado pode integrar o Conselho de Ética se ocupar vaga de suplente no próprio colegiado, sem assumir uma vaga titular no Conselho.",
+      "correctAnswer": "E",
+      "explanation": "O impedimento recai sobre ser membro do Conselho. Não distingue vaga titular de suplente no colegiado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 2º, III. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-suspensao-de-121-dias-convoca-suplente-apos-publicacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suplente-suspensao-superior120",
+      "mechanism": "suspensao-de-121-dias-convoca-suplente-apos-publicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "O Plenário suspende o exercício do mandato de um deputado por 121 dias. O suplente será convocado imediatamente após a publicação da resolução que decreta a sanção.",
+      "correctAnswer": "C",
+      "explanation": "O prazo de suspensão supera 120 dias. A publicação da resolução é o marco para a convocação imediata.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 2º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-suspensao-exata-de-120-dias-nao-aciona-convocacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suplente-suspensao-superior120",
+      "mechanism": "suspensao-exata-de-120-dias-nao-aciona-convocacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "A suspensão do exercício do mandato por exatamente 120 dias obriga a convocar o suplente imediatamente após a publicação da resolução.",
+      "correctAnswer": "E",
+      "explanation": "A convocação prevista no § 2º depende de suspensão superior a 120 dias.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 2º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-seis-meses-cabem-no-teto-de-suspensao-de-prerrogativas",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suspensao-prerrogativas-seis-meses",
+      "mechanism": "seis-meses-cabem-no-teto-de-suspensao-de-prerrogativas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "O Conselho propõe suspensão de prerrogativas regimentais por seis meses. Esse período respeita o limite máximo previsto no Código.",
+      "correctAnswer": "C",
+      "explanation": "A suspensão pode durar até seis meses. O prazo igual ao teto é admitido.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 10, II, e 13, VIII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-gravidade-nao-eleva-teto-de-seis-meses",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suspensao-prerrogativas-seis-meses",
+      "mechanism": "gravidade-nao-eleva-teto-de-seis-meses",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Por considerar a conduta muito grave, o Plenário pode aplicar suspensão de prerrogativas regimentais por sete meses.",
+      "correctAnswer": "E",
+      "explanation": "O Código limita essa sanção a seis meses, inclusive nos casos mais graves.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 10, II, e 13, VIII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-suspensao-pode-alcancar-apenas-relatoria",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suspensao-todas-prerrogativas-obrigatoria",
+      "mechanism": "suspensao-pode-alcancar-apenas-relatoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)"
+      },
+      "statement": "Ao fixar o alcance da suspensão de prerrogativas regimentais, o Conselho pode propor que a medida recaia apenas sobre a possibilidade de o deputado ser designado relator.",
+      "correctAnswer": "C",
+      "explanation": "O art. 13, VI, inclui a designação como relator, e o inciso VII permite que apenas algumas prerrogativas sejam suspensas.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, VI e VII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-suspensao-parcial-de-prerrogativas-e-admitida",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suspensao-todas-prerrogativas-obrigatoria",
+      "mechanism": "suspensao-parcial-de-prerrogativas-e-admitida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)"
+      },
+      "statement": "Se uma conduta justificar suspensão de prerrogativas regimentais, todas as prerrogativas listadas no Código deverão ser suspensas conjuntamente.",
+      "correctAnswer": "E",
+      "explanation": "O inciso VII admite suspensão total ou parcial. O Conselho fixa o alcance segundo a atuação pregressa, os motivos e as consequências da infração.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, VI e VII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
       "subjectId": "direito-constitucional",
       "unitId": "processo-legislativo",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",

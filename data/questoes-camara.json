@@ -7607,6 +7607,286 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / Marca e branding",
+      "id": "cam-revisao-identidades-proprias-com-endosso-visivel",
+      "concursoId": "camara-2026",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "marca-endossada",
+      "mechanism": "identidades-proprias-com-endosso-visivel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Arquitetura de marca: organização dos sinais e relações"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Arquitetura de marca: organização dos sinais e relações"
+      },
+      "statement": "Duas iniciativas culturais mantêm nomes e símbolos próprios. Nas peças de ambas, a chancela explícita da fundação responsável comunica ao público a vinculação institucional. O arranjo é compatível com uma arquitetura de marcas endossadas.",
+      "correctAnswer": "C",
+      "explanation": "Cada iniciativa preserva identidade reconhecível. A chancela torna visível o respaldo da marca principal, que é o traço do endosso.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / Marca e branding",
+      "id": "cam-revisao-marca-unica-com-nomes-descritivos",
+      "concursoId": "camara-2026",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "marca-endossada",
+      "mechanism": "marca-unica-com-nomes-descritivos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Arquitetura de marca: organização dos sinais e relações"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Arquitetura de marca: organização dos sinais e relações"
+      },
+      "statement": "Os serviços de uma instituição usam o mesmo símbolo e a mesma marca principal. Expressões como “atendimento remoto” e “consulta presencial” designam apenas modalidades e não têm identidade própria. A existência desses nomes descritivos basta para caracterizar marcas endossadas.",
+      "correctAnswer": "E",
+      "explanation": "O endosso envolve uma marca com identidade própria associada à marca que a respalda. No caso, a marca única identifica todos os serviços e os nomes apenas descrevem modalidades.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / opinião pública",
+      "id": "cam-revisao-apoio-sobe-na-escala-sem-mudar-de-lado",
+      "concursoId": "camara-2026",
+      "articleId": "art-9f3a6c218d45b7e0",
+      "conceptId": "intensidade-sem-trocar-posicao",
+      "mechanism": "apoio-sobe-na-escala-sem-mudar-de-lado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-9f3a6c218d45b7e0#Objetos de mensuração: posição, intensidade, conhecimento e ação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md",
+        "section": "Objetos de mensuração: posição, intensidade, conhecimento e ação"
+      },
+      "statement": "Em duas entrevistas de um painel, uma pessoa passa de “apoio moderado” a “apoio forte” para a mesma proposta. Se a posição for classificada apenas em favorável, neutra ou contrária, a mudança ocorre na intensidade e a posição permanece favorável.",
+      "correctAnswer": "C",
+      "explanation": "As duas respostas ocupam graus diferentes da escala dentro da mesma direção de opinião. A classificação em três posições agrupa ambas na categoria favorável.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / opinião pública",
+      "id": "cam-revisao-oposicao-forte-vira-moderada-sem-troca-de-lado",
+      "concursoId": "camara-2026",
+      "articleId": "art-9f3a6c218d45b7e0",
+      "conceptId": "intensidade-sem-trocar-posicao",
+      "mechanism": "oposicao-forte-vira-moderada-sem-troca-de-lado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-9f3a6c218d45b7e0#Objetos de mensuração: posição, intensidade, conhecimento e ação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md",
+        "section": "Objetos de mensuração: posição, intensidade, conhecimento e ação"
+      },
+      "statement": "Uma pesquisa acompanha os mesmos participantes. Parte deles troca “oposição forte” por “oposição moderada”, sem outras mudanças. Em um indicador que reúne todos os opositores, essa migração implica redução do número de pessoas contrárias.",
+      "correctAnswer": "E",
+      "explanation": "A migração reduz a intensidade declarada em parte do grupo, mas conserva a direção contrária. O indicador agregado continua contando essas pessoas como opositoras.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / Teorias da Comunicação",
+      "id": "cam-revisao-mapa-de-repasses-sem-estimativa-de-leitura",
+      "concursoId": "camara-2026",
+      "articleId": "art-65e3a8bd42f190c7",
+      "conceptId": "modelo-e-predicao-limitada",
+      "mechanism": "mapa-de-repasses-sem-estimativa-de-leitura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-65e3a8bd42f190c7#Cinco termos e suas fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao.md",
+        "section": "Cinco termos e suas fronteiras"
+      },
+      "statement": "Um modelo representa o caminho de um aviso institucional entre redação, publicação e republicação por parceiros. Ele ajuda a identificar etapas possíveis de atraso, mas, sem dados ou relações adicionais, não permite estimar a proporção de leitores que compreenderá o aviso.",
+      "correctAnswer": "C",
+      "explanation": "A representação organiza os trajetos do aviso. Predizer compreensão exige informação que relacione conteúdo, público e condições de interpretação.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / Teorias da Comunicação",
+      "id": "cam-revisao-diagrama-com-retorno-nao-garante-previsao",
+      "concursoId": "camara-2026",
+      "articleId": "art-65e3a8bd42f190c7",
+      "conceptId": "modelo-e-predicao-limitada",
+      "mechanism": "diagrama-com-retorno-nao-garante-previsao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-65e3a8bd42f190c7#Cinco termos e suas fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao.md",
+        "section": "Cinco termos e suas fronteiras"
+      },
+      "statement": "Um diagrama acrescenta um canal de retorno do público à equipe de comunicação. A simples inclusão desse retorno permite prever quanto a aprovação pública aumentará após a campanha.",
+      "correctAnswer": "E",
+      "explanation": "O diagrama mostra que o retorno pode ocorrer. Para prever mudanças na aprovação, seriam necessárias relações justificadas e evidências que liguem a campanha ao resultado.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "id": "cam-revisao-video-mostra-como-enviar-contribuicao",
+      "concursoId": "camara-2026",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "producao-audiovisual-participacao",
+      "mechanism": "video-mostra-como-enviar-contribuicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Atividades, competências e implementação (arts. 13 a 16)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Atividades, competências e implementação (arts. 13 a 16)"
+      },
+      "statement": "Uma emissora institucional prepara um vídeo que apresenta as posições em debate numa comissão e ensina como enviar contribuições por um canal aberto. Esse uso da produção audiovisual é compatível com sua finalidade no art. 13 da Política de Comunicação da Câmara.",
+      "correctAnswer": "C",
+      "explanation": "O vídeo combina transparência sobre o debate com informação que facilita a participação no processo legislativo, objetivos associados à produção audiovisual no art. 13, I.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. Ato da Mesa nº 218/2025, art. 13. https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "id": "cam-revisao-finalidade-audiovisual-tambem-inclui-debate",
+      "concursoId": "camara-2026",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "producao-audiovisual-participacao",
+      "mechanism": "finalidade-audiovisual-tambem-inclui-debate",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Atividades, competências e implementação (arts. 13 a 16)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Atividades, competências e implementação (arts. 13 a 16)"
+      },
+      "statement": "Uma equipe propõe uma série audiovisual institucional que esclarece como os cidadãos podem participar de consultas legislativas. A proposta extrapola o art. 13 da Política de Comunicação da Câmara, que reserva o estímulo à participação às atividades de publicidade e relações públicas.",
+      "correctAnswer": "E",
+      "explanation": "O inciso I inclui jornalismo e produção audiovisual entre as atividades que ampliam a transparência e estimulam debate e participação. O inciso II trata do relacionamento com os públicos e da identidade institucional.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada. Ato da Mesa nº 218/2025, art. 13. https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "id": "cam-revisao-frequencia-agregada-a-partir-das-impressoes",
+      "concursoId": "camara-2026",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "frequencia-subgrupos",
+      "mechanism": "frequencia-agregada-a-partir-das-impressoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Taxonomia e fórmulas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Taxonomia e fórmulas"
+      },
+      "statement": "Uma ação teve 480 impressões entre 120 pessoas de um grupo e 960 impressões entre 480 pessoas de outro grupo. Nenhuma pessoa pertence aos dois grupos. A frequência média do conjunto é 2,4 impressões por pessoa alcançada.",
+      "correctAnswer": "C",
+      "explanation": "Somam-se 1.440 impressões e 600 pessoas distintas. Dividir 1.440 por 600 dá 2,4. É equivalente a ponderar as médias pela quantidade de pessoas em cada grupo.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "id": "cam-revisao-frequencia-com-publico-sobreposto",
+      "concursoId": "camara-2026",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "frequencia-subgrupos",
+      "mechanism": "frequencia-com-publico-sobreposto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Taxonomia e fórmulas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Taxonomia e fórmulas"
+      },
+      "statement": "Dois canais registram 300 impressões e 100 pessoas alcançadas cada um. São as mesmas 100 pessoas nos dois canais. Somando os contatos dos canais, a frequência média total é de três impressões por pessoa.",
+      "correctAnswer": "E",
+      "explanation": "As 600 impressões são divididas por 100 pessoas distintas, totalizando seis por pessoa. Somar os alcances de cada canal contaria duas vezes o mesmo público.",
+      "reviewEvidence": "Conferência com a seção teórica vinculada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "portugues",
       "unitId": "lingua-portuguesa",

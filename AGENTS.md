@@ -13,7 +13,7 @@ Este arquivo é a entrada obrigatória para **qualquer tarefa no repositório**.
 1. Ler o `AGENTS.md` e todos os guias da tabela que se aplicarem à tarefa. Conferir `main`/HEAD e os arquivos reais antes de alterar.
 2. Fazer alterações pequenas, com SHA atualizado e sem sobrescrever trabalho concorrente. Para mudanças relacionadas, conferir integridade entre arquivos, índices, links e identidades.
 3. Executar os testes específicos e o preflight aplicável **antes de publicar**. Corrigir falhas. Não tratar testes posteriores ao push como bloqueio preventivo da entrada na `main`.
-4. Preferência do usuário: **não exigir gerenciamento manual de PRs**. Publicar diretamente na `main` somente quando as regras do GitHub permitirem e as validações preventivas forem possíveis. Se a proteção da `main` exigir checks ou PR, respeitar a proteção e automatizar criação, testes, correções e integração, sem pedir ao usuário que resolva o processo.
+4. No repositório público, publique o commit candidato em `codex/preflight/<nome>` e aguarde o check obrigatório **Preflight público**. Envie o mesmo SHA aprovado à `main` por fast-forward, sem PR. Se a `main` avançar, reaplique sobre a base atual e valide o novo SHA. Nunca force o envio. O agente cuida de todo o fluxo.
 5. Após integração, conferir execução do GitHub Actions e publicação do SHA correspondente no Pages; diferenciar commit, checks, deploy e inspeção visual. Não afirmar inspeção visual sem abrir a página.
 6. Comunicar resultado, etapa atual, estado geral e pendências concretas. Não deixar tarefas rotineiras pela metade quando houver meios de concluí-las.
 

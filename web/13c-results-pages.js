@@ -390,6 +390,11 @@
  let weeklyData=null,weekSelection='';
  const dayName=['Seg','Ter','Qua','Qui','Sex','Sáb','Dom'];
  const numericFields=['total','correct','incorrect','blank','retests'];
+ const accuracyFormat=new Intl.NumberFormat('pt-BR',{style:'percent',maximumFractionDigits:1});
+ function weeklyAccuracy({correct,incorrect}){
+  const graded=correct+incorrect;
+  return graded?accuracyFormat.format(correct/graded):null;
+ }
  const datePt=d=>/^\d{4}-\d{2}-\d{2}$/.test(d||'')?d.slice(8,10)+'/'+d.slice(5,7)+'/'+d.slice(0,4):d;
  const newNode=(tag,cls,value)=>{
   const n=document.createElement(tag);
@@ -415,7 +420,7 @@
   }
   table.append(body);
   if(total){const foot=newNode('tfoot'),tr=newNode('tr');
-   total.forEach((v,i)=>{const cell=newNode(i?'td':'th','',v);if(!i)cell.scope='row';tr.append(cell);});
+   total.forEach((v,i)=>{const cell=newNode(i?'td':'th',v===null?'results-week-empty':'',v===null?'—':v);if(!i)cell.scope='row';tr.append(cell);});
    foot.append(tr);table.append(foot);
   }
   wrap.append(table);return wrap;
@@ -477,9 +482,11 @@
    'informatica':'Tecnologia da Informação','etica-publica':'Ética Pública'};
   const matters=[...matterTotals].sort((a,b)=>b[1].total-a[1].total||a[0].localeCompare(b[0],'pt-BR'));
   if(matters.length){
-   matterBlock.append(summaryTable(['Matéria',...columns.slice(1)],
-    matters.map(([id,v])=>[known[id]||id,...numericFields.map(f=>v[f])]),
-    ['Total',...numericFields.map(f=>sum[f])]));
+   const matterRow=(name,v)=>[name,v.total,v.correct,weeklyAccuracy(v),v.incorrect,v.blank,v.retests];
+   matterBlock.append(summaryTable(['Matéria','Questões','Acertos','% de acerto','Erros','Brancos','Retestes'],
+    matters.map(([id,v])=>matterRow(known[id]||id,v)),
+    matterRow('Total',sum)));
+   matterBlock.append(newNode('p','results-week-method','A taxa considera acertos e erros. Questões em branco ficam fora do cálculo.'));
   }else matterBlock.append(newNode('p','results-week-error','Sem questões nesta matéria durante a semana selecionada.'));
   weekTarget.append(matterBlock);
   weekTarget.append(newNode('p','results-week-method',

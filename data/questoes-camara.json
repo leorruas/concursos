@@ -7605,6 +7605,174 @@
   ],
   "expansao": [
     {
+      "id": "cam-revisao-probabilidade-na-triagem-supervisionada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / inteligência artificial e aprendizagem de máquina",
+      "articleId": "art-5cb51089c289b098",
+      "conceptId": "supervisionado-classificacao-regressao",
+      "mechanism": "probabilidade-na-triagem-supervisionada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5cb51089c289b098#1.2 As Duas Grandes Tarefas Supervisionadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/19 - aprendizagem supervisionada e nao supervisionada algoritmos e metricas.md",
+        "section": "1.2 As Duas Grandes Tarefas Supervisionadas"
+      },
+      "statement": "Um sistema aprende a separar pedidos urgentes e não urgentes a partir de exemplos rotulados. O sistema devolve uma probabilidade de urgência e usa um limiar para decidir a classe. Por devolver um número entre zero e um, o sistema resolve necessariamente um problema de regressão.",
+      "correctAnswer": "E",
+      "explanation": "O alvo de treinamento é categórico e a decisão final atribui uma classe. A probabilidade numérica serve para apoiar essa classificação.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-duracao-prevista-antes-do-sinal-de-alerta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / inteligência artificial e aprendizagem de máquina",
+      "articleId": "art-5cb51089c289b098",
+      "conceptId": "supervisionado-classificacao-regressao",
+      "mechanism": "duracao-prevista-antes-do-sinal-de-alerta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5cb51089c289b098#1.2 As Duas Grandes Tarefas Supervisionadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/19 - aprendizagem supervisionada e nao supervisionada algoritmos e metricas.md",
+        "section": "1.2 As Duas Grandes Tarefas Supervisionadas"
+      },
+      "statement": "Um modelo é treinado com o tempo de execução observado em contratos anteriores para prever a duração de um novo contrato em dias. Um painel usa a duração prevista para sinalizar contratos que superariam 90 dias. A tarefa de prever a duração é de regressão.",
+      "correctAnswer": "C",
+      "explanation": "O alvo do modelo é uma grandeza numérica. A sinalização do painel aplica uma regra posterior à previsão de duração.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-barras-para-comparar-canais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "articleId": "art-719dd4ca3e84b65a",
+      "conceptId": "barras-por-categoria",
+      "mechanism": "barras-para-comparar-canais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+        "section": "2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      },
+      "statement": "Um relatório pretende comparar a mediana do tempo de resposta entre atendimento por telefone, presencial e por portal. Um gráfico com uma barra por canal é adequado para essa comparação, embora a medida representada na altura de cada barra seja numérica.",
+      "correctAnswer": "C",
+      "explanation": "Cada barra representa uma categoria nominal. A altura expressa a mediana de cada canal. Um histograma responderia a uma pergunta sobre a distribuição de tempos agrupados em intervalos.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-canal-em-ordem-de-volume-sem-tempo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "articleId": "art-719dd4ca3e84b65a",
+      "conceptId": "barras-por-categoria",
+      "mechanism": "canal-em-ordem-de-volume-sem-tempo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+        "section": "2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      },
+      "statement": "Um painel apresenta o número de pedidos de cada canal, ordenando os canais do menor para o maior volume. A ordenação transforma os canais em intervalos de uma variável quantitativa e torna o histograma a representação adequada.",
+      "correctAnswer": "E",
+      "explanation": "Ordenar as categorias pela contagem facilita a leitura, mas preserva o caráter categórico dos canais. Cada barra continua representando um canal distinto.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-ponto-restaurado-antes-da-meta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "rpo",
+      "mechanism": "ponto-restaurado-antes-da-meta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#6. Métricas essenciais de recuperação: RPO e RTO"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "6. Métricas essenciais de recuperação: RPO e RTO"
+      },
+      "statement": "Um serviço sofreu uma falha às 14h. O ponto de recuperação mais recente era das 13h45. O sistema voltou a operar às 14h10. Se o objetivo de ponto de recuperação admitia retornar no máximo dez minutos antes da falha, o objetivo foi atingido.",
+      "correctAnswer": "E",
+      "explanation": "O ponto recuperado fica 15 minutos antes da falha, acima do limite de dez. O tempo de retorno ao funcionamento foi de dez minutos e corresponde à indisponibilidade.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-restauracao-tardia-com-ponto-dentro-da-meta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "rpo",
+      "mechanism": "restauracao-tardia-com-ponto-dentro-da-meta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#6. Métricas essenciais de recuperação: RPO e RTO"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "6. Métricas essenciais de recuperação: RPO e RTO"
+      },
+      "statement": "Uma falha ocorreu às 9h, o sistema recuperou dados até 8h55 e voltou a funcionar às 10h. Uma meta de recuperar dados até no máximo dez minutos antes da falha foi atendida.",
+      "correctAnswer": "C",
+      "explanation": "O ponto recuperado fica cinco minutos antes da falha. Para avaliar o objetivo de tempo de recuperação, compara-se a hora de indisponibilidade com o prazo máximo para o retorno.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
       "id": "cam-revisao-compartilhamento-com-critica",
       "concursoId": "camara-2026",
       "origin": "inedita",

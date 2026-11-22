@@ -7605,6 +7605,174 @@
   ],
   "expansao": [
     {
+      "id": "cam-revisao-ondas-independentes-com-mesmo-desenho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / Pesquisa aplicada",
+      "articleId": "art-6f2a9c40d83e175b",
+      "conceptId": "comparabilidade-de-pesquisas",
+      "mechanism": "ondas-independentes-com-mesmo-desenho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Desenho da pesquisa: grupos, contato e tempo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md",
+        "section": "Desenho da pesquisa: grupos, contato e tempo"
+      },
+      "statement": "Duas pesquisas de opinião sortearam amostras independentes da mesma população e aplicaram o mesmo questionário, do mesmo modo e com o mesmo tratamento. O fato de terem entrevistado pessoas diferentes não impede, por si só, a comparação das estimativas da população ao longo do tempo.",
+      "correctAnswer": "C",
+      "explanation": "Ondas independentes podem estimar a mesma característica populacional em momentos diferentes. A comparação deve considerar a incerteza. Para medir mudanças individuais, seria necessário acompanhar as mesmas pessoas.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-respondentes-mudam-entre-ondas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / Pesquisa aplicada",
+      "articleId": "art-6f2a9c40d83e175b",
+      "conceptId": "comparabilidade-de-pesquisas",
+      "mechanism": "respondentes-mudam-entre-ondas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Desenho da pesquisa: grupos, contato e tempo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md",
+        "section": "Desenho da pesquisa: grupos, contato e tempo"
+      },
+      "statement": "No primeiro trimestre, uma instituição mediu confiança entre todos os moradores da cidade. No segundo, entrevistou exclusivamente usuários recentes do serviço. Como a redação da pergunta foi preservada, a diferença entre os percentuais demonstra a mudança na confiança da população da cidade.",
+      "correctAnswer": "E",
+      "explanation": "A segunda pesquisa mede um grupo distinto. A variação pode decorrer da composição dos entrevistados. Manter a redação é apenas uma das condições de comparabilidade.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-avaliacao-apenas-apos-conclusao-do-servico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / Pesquisa aplicada",
+      "articleId": "art-6f2a9c40d83e175b",
+      "conceptId": "vies-de-selecao",
+      "mechanism": "avaliacao-apenas-apos-conclusao-do-servico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Vieses: onde a conclusão pode falhar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md",
+        "section": "Vieses: onde a conclusão pode falhar"
+      },
+      "statement": "Um órgão deseja avaliar a experiência de todas as pessoas que tentaram usar um serviço. Ele convida para a pesquisa apenas quem concluiu o atendimento e recebeu um protocolo. O desenho pode sub-representar dificuldades que levam ao abandono.",
+      "correctAnswer": "C",
+      "explanation": "A seleção exclui quem abandonou antes de obter protocolo. Como a exclusão pode estar ligada a dificuldades de uso, as experiências observadas podem diferir das do público que se pretendia avaliar.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-ponderacao-sem-cobertura-de-pessoas-sem-internet",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / Pesquisa aplicada",
+      "articleId": "art-6f2a9c40d83e175b",
+      "conceptId": "vies-de-selecao",
+      "mechanism": "ponderacao-sem-cobertura-de-pessoas-sem-internet",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Vieses: onde a conclusão pode falhar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md",
+        "section": "Vieses: onde a conclusão pode falhar"
+      },
+      "statement": "Uma pesquisa sobre acesso a serviços coleta respostas apenas pelo portal. Nenhuma pessoa sem internet está na amostra. Ponderar as respostas por faixa etária torna possível estimar diretamente, a partir dessa amostra, a satisfação das pessoas sem internet.",
+      "correctAnswer": "E",
+      "explanation": "Ponderar por idade altera a influência dos casos coletados. A operação não cria observações para pessoas sem internet. Seria preciso coletar dados desse grupo ou recorrer a outras fontes com hipóteses explícitas.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-impressoes-baratas-com-menor-alcance",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "custo-por-mil",
+      "mechanism": "impressoes-baratas-com-menor-alcance",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Taxonomia e fórmulas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Taxonomia e fórmulas"
+      },
+      "statement": "O plano A custa R$ 1.500, gera 75 mil impressões e alcança 15 mil pessoas distintas. O plano B custa R$ 1.800, gera 60 mil impressões e alcança 30 mil pessoas distintas. Considerado apenas o custo por mil impressões, o plano A é mais barato.",
+      "correctAnswer": "C",
+      "explanation": "O CPM divide o gasto pelas impressões e multiplica por mil. O plano A custa R$ 20 por mil impressões e o plano B custa R$ 30. O público distinto é usado para medir alcance.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-aumento-do-alcance-com-impressoes-constantes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "custo-por-mil",
+      "mechanism": "aumento-do-alcance-com-impressoes-constantes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Taxonomia e fórmulas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Taxonomia e fórmulas"
+      },
+      "statement": "Uma campanha de R$ 2.400 obteve 120 mil impressões e atingiu 40 mil pessoas. Em nova veiculação, com o mesmo gasto e o mesmo volume de impressões, o alcance subiu para 60 mil pessoas. Esse aumento de alcance reduziu o custo por mil impressões de R$ 20 para R$ 13,33.",
+      "correctAnswer": "E",
+      "explanation": "O CPM continua em R$ 20 porque o gasto e o número de impressões permanecem iguais. O aumento de alcance reduz o custo por pessoa distinta alcançada.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
       "id": "cam-revisao-gabinete-minoritario-tolerado",
       "concursoId": "camara-2026",
       "origin": "inedita",

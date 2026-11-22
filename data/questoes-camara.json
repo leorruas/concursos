@@ -7608,6 +7608,566 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-municipio-autonomia-sem-soberania",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "entes-federados-municipios",
+      "mechanism": "municipio-autonomia-sem-soberania",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Um município exerce competências próprias de organização e administração dentro da Constituição. Essa autonomia é compatível com sua condição de ente da organização político-administrativa brasileira.",
+      "correctAnswer": "C",
+      "explanation": "O art. 18 inclui os municípios entre os entes autônomos. A autonomia é exercida dentro dos limites constitucionais.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 18. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-autonomia-municipal-nao-vem-de-delegacao-estadual",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "entes-federados-municipios",
+      "mechanism": "autonomia-municipal-nao-vem-de-delegacao-estadual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Um estado afirma que seus municípios só exercem autonomia se houver delegação expressa do governo estadual, pois a Constituição não os inclui entre os entes autônomos. A afirmação é correta.",
+      "correctAnswer": "E",
+      "explanation": "O art. 18 inclui expressamente os municípios. Sua autonomia é assegurada pela Constituição, sem depender de delegação estadual.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 18. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-medida-provisoria-precede-eventual-conversao",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "especies-incluem-medida-provisoria",
+      "mechanism": "medida-provisoria-precede-eventual-conversao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#A tipologia completa: sete instrumentos, sete funções"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "A tipologia completa: sete instrumentos, sete funções"
+      },
+      "statement": "Uma medida provisória é editada e ainda aguarda deliberação do Congresso. Mesmo antes da eventual conversão em lei, a medida provisória já é espécie prevista no art. 59 da Constituição.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo enumera a medida provisória como espécie própria do processo legislativo. Sua inclusão no rol não depende de conversão.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 59. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-edicao-executiva-nao-retira-mp-do-rol",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "especies-incluem-medida-provisoria",
+      "mechanism": "edicao-executiva-nao-retira-mp-do-rol",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#A tipologia completa: sete instrumentos, sete funções"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "A tipologia completa: sete instrumentos, sete funções"
+      },
+      "statement": "A edição de medida provisória pelo Presidente da República impede sua classificação entre as espécies do processo legislativo previstas constitucionalmente.",
+      "correctAnswer": "E",
+      "explanation": "O art. 59 inclui medidas provisórias no rol, embora a edição inicial caiba ao Presidente da República.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 59. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-circular-sem-base-legal-nao-cria-dever",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "legalidade-particular-restricao-sem-lei",
+      "mechanism": "circular-sem-base-legal-nao-cria-dever",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Legalidade individual"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Legalidade individual"
+      },
+      "statement": "Uma circular administrativa pretende obrigar particulares a apresentar documento adicional sem fundamento em lei. A circular, por si só, não satisfaz a reserva de fundamento legal do art. 5º, II.",
+      "correctAnswer": "C",
+      "explanation": "A obrigação precisa decorrer de lei. A instrução administrativa pode disciplinar a execução de um dever legal, mas não basta como fundamento autônomo para criar o dever.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-particular-nao-precisa-de-autorizacao-para-cada-ato",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "legalidade-particular-restricao-sem-lei",
+      "mechanism": "particular-nao-precisa-de-autorizacao-para-cada-ato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Legalidade individual"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Legalidade individual"
+      },
+      "statement": "Uma autoridade aplica ao particular a ideia de que todo comportamento privado exige autorização legal expressa, mesmo na ausência de proibição ou regime especial. Essa ideia decorre do art. 5º, II.",
+      "correctAnswer": "E",
+      "explanation": "A norma protege a liberdade do particular ao exigir lei para obrigá-lo a fazer ou deixar de fazer algo. Ela não condiciona genericamente toda conduta privada a autorização prévia.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-mandato-senatorial-atravessa-legislaturas",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "mandato-senador-oito-anos",
+      "mechanism": "mandato-senatorial-atravessa-legislaturas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Senado Federal"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Senado Federal"
+      },
+      "statement": "Um senador eleito para mandato integral permanece no cargo após o término da primeira legislatura de quatro anos compreendida no seu mandato. Essa situação é compatível com a duração constitucional do mandato senatorial.",
+      "correctAnswer": "C",
+      "explanation": "O mandato de senador é de oito anos. O fim de uma legislatura de quatro anos não encerra por si só esse mandato.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 44, parágrafo único, e 46, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-renovacao-parcial-nao-encurta-mandato-senador",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "mandato-senador-oito-anos",
+      "mechanism": "renovacao-parcial-nao-encurta-mandato-senador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Senado Federal"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Senado Federal"
+      },
+      "statement": "O Senado renova parte de suas vagas a cada quatro anos. Essa periodicidade implica que o mandato individual de todo senador eleito para mandato integral também dure quatro anos.",
+      "correctAnswer": "E",
+      "explanation": "A renovação parcial do Senado ocorre a cada quatro anos, mas o mandato individual é de oito anos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 44, parágrafo único, e 46, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-pais-estrangeiros-em-atividade-privada-no-brasil",
+      "concursoId": "camara-2026",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nacionalidade-estrangeiro-a-servico",
+      "mechanism": "pais-estrangeiros-em-atividade-privada-no-brasil",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#1. Nascimento no Brasil"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "1. Nascimento no Brasil"
+      },
+      "statement": "Uma criança nasce no Brasil, filha de pais estrangeiros que trabalham para empresas privadas e não estão a serviço de seu país. A nacionalidade estrangeira dos pais, por si só, não exclui a nacionalidade brasileira originária.",
+      "correctAnswer": "C",
+      "explanation": "A regra territorial alcança nascidos no Brasil, inclusive filhos de estrangeiros. A exceção envolve pais estrangeiros a serviço de seu país.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-nascimento-no-brasil-nao-apaga-excecao-diplomatica",
+      "concursoId": "camara-2026",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nacionalidade-estrangeiro-a-servico",
+      "mechanism": "nascimento-no-brasil-nao-apaga-excecao-diplomatica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#1. Nascimento no Brasil"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "1. Nascimento no Brasil"
+      },
+      "statement": "Uma criança nasce no Brasil, filha de pais estrangeiros que integram missão oficial a serviço do próprio país. O nascimento em território brasileiro basta para enquadrá-la na regra do art. 12, I, a.",
+      "correctAnswer": "E",
+      "explanation": "A hipótese corresponde à exceção expressa à regra territorial. O serviço prestado pelos pais estrangeiros ao próprio país impede o enquadramento por essa via.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-pec-presidencial-promulgacao-pelas-mesas",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "pec-sancao-presidencial",
+      "mechanism": "pec-presidencial-promulgacao-pelas-mesas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#1. Emenda constitucional: mudar a regra fundamental"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "1. Emenda constitucional: mudar a regra fundamental"
+      },
+      "statement": "Uma proposta de emenda surge por iniciativa do Presidente da República e é aprovada conforme o rito constitucional. A autoria presidencial não altera a competência das Mesas da Câmara e do Senado para promulgá-la.",
+      "correctAnswer": "C",
+      "explanation": "A iniciativa da proposta e a promulgação da emenda são atos distintos. A Constituição atribui a promulgação às duas Mesas.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 60, §§ 1º a 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-emenda-aprovada-nao-admite-veto-presidencial",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "pec-sancao-presidencial",
+      "mechanism": "emenda-aprovada-nao-admite-veto-presidencial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#1. Emenda constitucional: mudar a regra fundamental"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "1. Emenda constitucional: mudar a regra fundamental"
+      },
+      "statement": "Após aprovação de proposta de emenda nas duas Casas, o Presidente pode vetar parcialmente o texto antes da promulgação, da mesma forma que em projeto de lei ordinária.",
+      "correctAnswer": "E",
+      "explanation": "O rito de emenda não inclui sanção ou veto presidencial. A emenda aprovada é promulgada pelas Mesas da Câmara e do Senado.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 60, §§ 1º a 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-pec-contagem-conjunta-nao-substitui-dois-turnos",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "pec-tres-quintos-duas-votacoes",
+      "mechanism": "pec-contagem-conjunta-nao-substitui-dois-turnos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#1. Emenda constitucional: mudar a regra fundamental"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "1. Emenda constitucional: mudar a regra fundamental"
+      },
+      "statement": "Câmara e Senado votam uma PEC em sessão conjunta, em dois turnos, e obtêm três quintos dos votos do total de congressistas. Esse procedimento atende à exigência constitucional de votação da proposta.",
+      "correctAnswer": "E",
+      "explanation": "O rito exige discussão e votação em cada Casa, com dois turnos e três quintos dos membros de cada uma em ambos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-pec-quorum-nao-se-mede-pelos-presentes",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "pec-tres-quintos-duas-votacoes",
+      "mechanism": "pec-quorum-nao-se-mede-pelos-presentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#1. Emenda constitucional: mudar a regra fundamental"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "1. Emenda constitucional: mudar a regra fundamental"
+      },
+      "statement": "Em uma das votações no Senado, 60 senadores comparecem e 48 votam a favor da PEC. Embora sejam mais de três quintos dos presentes, os votos favoráveis não atingem o quórum constitucional.",
+      "correctAnswer": "C",
+      "explanation": "A base é a composição do Senado, com 81 membros. São necessários 49 votos favoráveis, independentemente do comparecimento.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-segundo-passaporte-sem-pedido-expresso",
+      "concursoId": "camara-2026",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "perda-automatica-por-segundo-passaporte",
+      "mechanism": "segundo-passaporte-sem-pedido-expresso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Dupla nacionalidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Dupla nacionalidade"
+      },
+      "statement": "Uma brasileira adquire outra nacionalidade e obtém passaporte estrangeiro, sem pedir a perda da nacionalidade brasileira. Esses atos, por si sós, não causam perda automática da nacionalidade brasileira.",
+      "correctAnswer": "C",
+      "explanation": "A aquisição de outra nacionalidade deixou de ser fundamento autônomo de perda. O caso não apresenta pedido expresso nem outra hipótese constitucional.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, § 4º, com a EC nº 131/2023. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-renuncia-e-apatridia-no-regime-atual",
+      "concursoId": "camara-2026",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "perda-automatica-por-segundo-passaporte",
+      "mechanism": "renuncia-e-apatridia-no-regime-atual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Dupla nacionalidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Dupla nacionalidade"
+      },
+      "statement": "Uma pessoa que possui apenas a nacionalidade brasileira pede expressamente a perda dessa nacionalidade perante a autoridade competente. A perda deve ser declarada ainda que o resultado seja a apatridia.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição ressalva situações que acarretem apatridia. O pedido expresso não afasta essa proteção.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, § 4º, com a EC nº 131/2023. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-vice-presidencia-tambem-privativa-de-nato",
+      "concursoId": "camara-2026",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "presidente-naturalizado",
+      "mechanism": "vice-presidencia-tambem-privativa-de-nato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Cargos privativos de brasileiro nato"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Cargos privativos de brasileiro nato"
+      },
+      "statement": "Uma pessoa brasileira naturalizada afirma que pode concorrer à Vice-Presidência da República porque a reserva constitucional de nacionalidade originária vale somente para o Presidente. A afirmação é correta.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição reserva a brasileiros natos tanto a Presidência quanto a Vice-Presidência da República.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, § 3º, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-reserva-da-presidencia-nao-alcanca-todo-deputado",
+      "concursoId": "camara-2026",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "presidente-naturalizado",
+      "mechanism": "reserva-da-presidencia-nao-alcanca-todo-deputado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Cargos privativos de brasileiro nato"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Cargos privativos de brasileiro nato"
+      },
+      "statement": "Uma pessoa brasileira naturalizada que atende aos demais requisitos disputa uma vaga de deputada federal. A reserva da Presidência da Câmara a brasileiros natos não impede sua candidatura ao mandato de deputada.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição distingue o mandato de deputado federal do cargo de Presidente da Câmara. A reserva de nacionalidade originária incide sobre a presidência da Casa.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, § 3º, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-ordinaria-aprovada-menos-de-257-votos",
+      "concursoId": "camara-2026",
+      "articleId": "art-da9726a3c994a6c6",
+      "conceptId": "quorum-ordinaria-absoluta-fixo",
+      "mechanism": "ordinaria-aprovada-menos-de-257-votos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-da9726a3c994a6c6#3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md",
+        "section": "3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      },
+      "statement": "Na Câmara, comparecem 300 deputados. Em votação de projeto de lei ordinária sem quórum especial, todos votam e 190 são favoráveis. O projeto alcança a maioria exigida para aprovação.",
+      "correctAnswer": "C",
+      "explanation": "A presença supera 256 deputados e os votos favoráveis são maioria dos votos. A regra geral exige maioria de votos com presença da maioria absoluta, sem exigir 257 votos favoráveis.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-maioria-de-votos-nao-supre-presenca-minima",
+      "concursoId": "camara-2026",
+      "articleId": "art-da9726a3c994a6c6",
+      "conceptId": "quorum-ordinaria-absoluta-fixo",
+      "mechanism": "maioria-de-votos-nao-supre-presenca-minima",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-da9726a3c994a6c6#3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md",
+        "section": "3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      },
+      "statement": "Na Câmara, 240 deputados comparecem e todos votam pela aprovação de um projeto de lei ordinária sujeito à regra geral. A unanimidade dos presentes supre a falta da maioria absoluta de integrantes para deliberar.",
+      "correctAnswer": "E",
+      "explanation": "Presença e aprovação são requisitos distintos. Sem pelo menos 257 presentes, a unanimidade dos 240 não satisfaz o quórum de deliberação.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",

@@ -7605,6 +7605,174 @@
   ],
   "expansao": [
     {
+      "id": "cam-revisao-gabinete-minoritario-tolerado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo",
+      "articleId": "art-d7b3e591a46c82f0",
+      "conceptId": "confianca-parlamentar",
+      "mechanism": "gabinete-minoritario-tolerado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Parlamentarismo: confiança legislativa e responsabilidade do gabinete"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo.md",
+        "section": "Parlamentarismo: confiança legislativa e responsabilidade do gabinete"
+      },
+      "statement": "Em um parlamentarismo cuja Constituição só exige a substituição do gabinete quando aprovada uma moção de desconfiança por maioria absoluta, partidos de oposição decidem abster-se nessas votações. O gabinete pode permanecer no governo mesmo que seus partidos detenham menos da metade das cadeiras.",
+      "correctAnswer": "C",
+      "explanation": "A regra exige maioria absoluta favorável à desconfiança. A abstenção de parte da oposição pode impedir que se alcance esse quórum. A sobrevivência do gabinete depende da tolerância parlamentar.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-censura-politica-sem-ilicito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo",
+      "articleId": "art-d7b3e591a46c82f0",
+      "conceptId": "confianca-parlamentar",
+      "mechanism": "censura-politica-sem-ilicito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Parlamentarismo: confiança legislativa e responsabilidade do gabinete"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo.md",
+        "section": "Parlamentarismo: confiança legislativa e responsabilidade do gabinete"
+      },
+      "statement": "Em um regime parlamentar, a Constituição autoriza a substituição do gabinete pela aprovação de uma moção de desconfiança. Uma maioria aprova a moção após romper com a política econômica do governo. A troca do gabinete dependerá da demonstração de um crime de responsabilidade do primeiro-ministro.",
+      "correctAnswer": "E",
+      "explanation": "A moção exerce responsabilidade política. A regra do caso permite substituir o gabinete em razão da perda de apoio parlamentar, sem requisito de demonstração de ilícito.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-republica-com-gabinete-responsavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / formas de governo",
+      "articleId": "art-e93a40d1c75b682f",
+      "conceptId": "forma-e-sistema-de-governo",
+      "mechanism": "republica-com-gabinete-responsavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e93a40d1c75b682f#Quatro eixos que a banca não pode fundir"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/17 - formas de governo republica e monarquia.md",
+        "section": "Quatro eixos que a banca não pode fundir"
+      },
+      "statement": "Um país conserva a chefia de Estado eletiva e temporária, mas uma reforma transfere a condução do governo para um gabinete que pode ser substituído por perda de confiança parlamentar. A reforma pode alterar o sistema de governo e preservar a forma republicana.",
+      "correctAnswer": "C",
+      "explanation": "A forma continua republicana porque se preserva a chefia de Estado eletiva e temporária. A dependência do gabinete em relação ao Parlamento diz respeito ao sistema de governo.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-responsabilidade-do-gabinete-na-monarquia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / formas de governo",
+      "articleId": "art-e93a40d1c75b682f",
+      "conceptId": "forma-e-sistema-de-governo",
+      "mechanism": "responsabilidade-do-gabinete-na-monarquia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e93a40d1c75b682f#Quatro eixos que a banca não pode fundir"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/17 - formas de governo republica e monarquia.md",
+        "section": "Quatro eixos que a banca não pode fundir"
+      },
+      "statement": "Em uma monarquia constitucional, a chefia de Estado continua hereditária. Uma reforma exige que o gabinete responda politicamente perante o Parlamento. Essa exigência torna republicana a forma de governo.",
+      "correctAnswer": "E",
+      "explanation": "A exigência muda a relação política entre gabinete e Parlamento. O caso conserva a chefia de Estado hereditária, característica da forma monárquica.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-representatividade-numerica-sem-atuacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação",
+      "articleId": "art-3b8e7a6c91d4052f",
+      "conceptId": "representacao-substantiva",
+      "mechanism": "representatividade-numerica-sem-atuacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Hanna Pitkin: quatro perspectivas de representação"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao.md",
+        "section": "Hanna Pitkin: quatro perspectivas de representação"
+      },
+      "statement": "Um levantamento constata aumento do número de parlamentares vindos de municípios rurais. A pesquisa reúne apenas informações sobre a origem dos eleitos. O aumento demonstra, por si só, maior representação substantiva das demandas rurais.",
+      "correctAnswer": "E",
+      "explanation": "A origem dos eleitos oferece informação para avaliar semelhança entre representantes e representados. A representação substantiva exige observar as decisões e a defesa efetiva de interesses.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-acompanhamento-da-atuacao-e-resposta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação",
+      "articleId": "art-3b8e7a6c91d4052f",
+      "conceptId": "representacao-substantiva",
+      "mechanism": "acompanhamento-da-atuacao-e-resposta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Hanna Pitkin: quatro perspectivas de representação"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao.md",
+        "section": "Hanna Pitkin: quatro perspectivas de representação"
+      },
+      "statement": "Uma pesquisa acompanha emendas, negociações e respostas de um parlamentar a demandas de moradores de áreas sujeitas a inundações. O desenho da pesquisa permite investigar a dimensão substantiva da representação.",
+      "correctAnswer": "C",
+      "explanation": "A pesquisa observa o que o parlamentar faz em relação às demandas e interesses dos representados, incluindo sua capacidade de resposta. Esse é o critério substantivo.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
       "id": "cam-revisao-unless-envio-sem-garantia",
       "concursoId": "camara-2026",
       "origin": "inedita",

@@ -327,19 +327,40 @@ function showProgressRetests(){
  target.replaceChildren();
  const principles=current?.adaptive?.principles?.filter(p=>!selectedSubject||p.subjectId===selectedSubject);
  if(principles){
-  const confirmed=principles.filter(p=>p.signals.some(s=>s.kind==='independent')).length;
-  target.append(el('p','results-caption',confirmed+' princípio(s) com acerto seguro em questão diferente, após intervalo, com ausência de consulta e de correção prévia declarada.'));
+  const confirmed=principles.filter(p=>(p.signals||[]).some(s=>s.kind==='independent')).length;
+  const context=el('p','results-caption','Evidência em questões diferentes: '+confirmed+' conceito(s) com acerto seguro após intervalo, sem consulta nem correção prévia declarada. Esta medida não é a taxa dos retestes abaixo.');
+  target.append(context);
  }
  if(!retests){
   target.append(el('p','results-caption',retestLoadFailed?'Retestes do site indisponíveis.':'Carregando retestes do site…'));
   return;
  }
  const rows=retests.filter(x=>!selectedSubject||x.subjectId===selectedSubject);
- const repeated=rows.reduce((total,row)=>total+row.questions,0);
- const correct=rows.reduce((total,row)=>total+row.latestCorrect,0);
- target.append(el('p','results-caption',repeated
-  ?correct+' de '+repeated+' questões refeitas em outro dia no site tiveram acerto na última tentativa.'
-  :'Nenhuma questão refeita em outro dia no site para esta seleção.'));
+ const sum=field=>rows.reduce((n,x)=>n+(Number(x[field])||0),0);
+ const repeated=sum('questions'),correct=sum('latestCorrect');
+ if(!repeated){target.append(el('p','results-caption','Nenhuma questão idêntica refeita em dias diferentes no site nesta seleção.'));return;}
+ const positive=sum('positive'),insecure=sum('insecure'),persistent=sum('persistent'),reappeared=sum('reappeared');
+ const other=Math.max(0,repeated-positive-insecure-persistent-reappeared);
+ const share=Math.round(1000*correct/repeated)/10;
+ const headline=el('div','results-retest-headline');
+ const score=el('div','results-retest-score');
+ score.append(el('strong','',share+'%'),el('span','',correct+' de '+repeated+' corretas na última tentativa'));
+ headline.append(score,el('p','results-caption','Questões idênticas respondidas em dias diferentes no site. Cada questão entra uma vez: comparamos a primeira resposta com a mais recente. Acerto final pode incluir questão que já estava certa.'));
+ const bar=el('div','results-retest-bar');bar.setAttribute('role','img');bar.setAttribute('aria-label',correct+' de '+repeated+' questões corretas na última tentativa');
+ const fill=el('span');fill.style.width=share+'%';bar.append(fill);
+ const grid=el('div','results-retest-breakdown');
+ const metric=(n,label,description)=>{
+  const box=el('div','results-retest-metric');
+  box.append(el('strong','',n),el('span','',label),el('small','',description));return box;
+ };
+ grid.append(
+  metric(positive,'Erros corrigidos com segurança','Erro inicial e acerto final sem insegurança registrada'),
+  metric(insecure,'Erros corrigidos com insegurança','Erro inicial e acerto final declarado inseguro'),
+  metric(persistent,'Erros persistentes','Erro na primeira e na última tentativa'),
+  metric(reappeared,'Erros que reapareceram','Acerto inicial e erro na última tentativa'),
+  metric(other,'Demais percursos','Inclui questões certas desde a primeira tentativa')
+ );
+ target.append(headline,bar,grid,el('p','results-caption results-retest-footnote','O percentual mostra o resultado final dos retestes, não o ganho de aprendizagem. Este painel considera apenas tentativas do site; os sinais de aprendizagem independente usam critérios diferentes.'));
 }
 function showRetests(){
  showProgressRetests();
@@ -536,15 +557,36 @@ function renderAdaptive(plan) {
   queueItems.replaceChildren(count,remaining,footer);
   showPage();
  }
- const signals = plan.principles.flatMap(item => item.signals.filter(signal => signal.elapsed)
-  .map(signal => ({ ...signal, title: item.title }))).sort((a,b) => b.date.localeCompare(a.date));
- const progress = el('ul');
- for (const signal of signals.slice(0, 6)) {
-  progress.append(el('li', '', signal.title + ' · Acerto seguro após ' + signal.elapsed +
-   ' dias. ' + (signal.kind === 'independent' ? 'Teste independente.' : 'Consulta sem registro.')));
+ const signals=plan.principles.flatMap(item=>(item.signals||[]).filter(signal=>Number(signal.elapsed)>0)
+  .map(signal=>({...signal,title:item.title,subjectId:item.subjectId})))
+  .filter(signal=>!selectedSubject||signal.subjectId===selectedSubject)
+  .sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')));
+ const independent=signals.filter(s=>s.kind==='independent');
+ const incomplete=signals.filter(s=>s.kind!=='independent');
+ const target=$('results-retention-signals');
+ target.replaceChildren();
+ const intro=el('p','results-caption','Aqui acompanhamos recuperação do conteúdo após um intervalo. Um acerto em questão diferente, sem consulta e sem correção prévia, oferece evidência mais forte que repetir o mesmo enunciado.');
+ target.append(intro);
+ const summary=el('div','results-retention-summary');
+ const number=(count,label)=>{const box=el('div','results-retention-measure');box.append(el('strong','',count),el('span','',label));return box;};
+ summary.append(number(independent.length,'Acertos com teste independente'),number(incomplete.length,'Sinais com contexto incompleto'));
+ target.append(summary);
+ const heading=el('h3','',independent.length?'Evidências recentes':'Ainda sem teste independente confirmado');
+ target.append(heading);
+ if(!signals.length){
+  target.append(el('p','results-caption','Ainda não há sinais registrados de acerto após intervalo. O histórico de erros e os retestes continuam disponíveis.'));
+ }else{
+  const list=el('ul','results-retention-list');
+  for(const signal of signals.slice(0,6)){
+   const item=el('li','');
+   item.append(el('strong','',signal.title),el('small','',fmtDate(signal.date)+' · '+signal.elapsed+' dia(s) depois · '+
+    (signal.kind==='independent'?'Teste independente: sem consulta declarada':'Condições de consulta ou correção não confirmadas')));
+   list.append(item);
+  }
+  target.append(list);
  }
- $('results-retention-signals').replaceChildren(signals.length ? progress :
-  el('p', 'results-caption', 'Ainda há pouca evidência de recuperação após um intervalo.'));
+ target.append(el('p','results-caption results-retest-footnote','São sinais de retenção, não prova de domínio. O painel exibe até seis registros recentes e não usa a taxa de acerto de questões repetidas.'));
+
 }
 const studyModeLabels = {
  aprendizagem:'Aprendizagem', revisao:'Revisão', para_valer:'Treino para valer',

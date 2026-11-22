@@ -7608,6 +7608,510 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-repropor-projeto-mesma-sessao-exige-maioria-em-uma-casa",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "rejeicao-projeto-fracoes-somadas",
+      "mechanism": "repropor-projeto-mesma-sessao-exige-maioria-em-uma-casa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "Após a rejeição de um projeto de lei, 42 senadores propõem novo projeto sobre a mesma matéria na mesma sessão legislativa. O grupo satisfaz a exigência de maioria absoluta do art. 67.",
+      "correctAnswer": "C",
+      "explanation": "Em um Senado de 81 membros, 41 já constituem maioria absoluta. O dispositivo exige a maioria absoluta em qualquer uma das Casas.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-apoios-de-casas-distintas-nao-somam-para-reapresentar",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "rejeicao-projeto-fracoes-somadas",
+      "mechanism": "apoios-de-casas-distintas-nao-somam-para-reapresentar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "Na mesma sessão legislativa, 250 deputados e 20 senadores apoiam a reapresentação de matéria constante de projeto de lei rejeitado. Os 270 apoios, somados, satisfazem a exigência do art. 67.",
+      "correctAnswer": "E",
+      "explanation": "Nenhuma das Casas atingiu sua maioria absoluta. Os apoios de deputados e senadores não são somados para cumprir esse requisito.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-rejeicao-integral-na-revisora-acarreta-arquivamento",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "revisora-rejeita-sem-retorno",
+      "mechanism": "rejeicao-integral-na-revisora-acarreta-arquivamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "O Senado aprova projeto de lei de sua iniciativa e o envia à Câmara. A Câmara, como Casa revisora, rejeita o projeto integralmente. A consequência prevista é o arquivamento.",
+      "correctAnswer": "C",
+      "explanation": "A rejeição integral leva ao arquivamento. A devolução à Casa iniciadora ocorre se a revisora emendar o projeto.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 65. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-casa-iniciadora-nao-confirma-rejeicao-da-revisora",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "revisora-rejeita-sem-retorno",
+      "mechanism": "casa-iniciadora-nao-confirma-rejeicao-da-revisora",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "Aprovado pela Câmara e rejeitado integralmente pelo Senado, um projeto de lei deve voltar à Câmara para que ela confirme ou derrube a rejeição.",
+      "correctAnswer": "E",
+      "explanation": "O art. 65 determina o arquivamento quando a Casa revisora rejeita o projeto. Ele não prevê essa nova votação na Casa iniciadora.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 65. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-mesma-representacao-no-senado-com-populacoes-distintas",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senadores-populacao",
+      "mechanism": "mesma-representacao-no-senado-com-populacoes-distintas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Senado Federal"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Senado Federal"
+      },
+      "statement": "Dois estados têm populações de tamanhos muito diferentes. A Constituição atribui a cada um deles o mesmo número total de cadeiras no Senado.",
+      "correctAnswer": "C",
+      "explanation": "Cada estado e o Distrito Federal elegem três senadores. A população não é o critério de distribuição dessas cadeiras.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 45 e 46. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-crescimento-populacional-nao-amplia-tamanho-da-bancada-no-senado",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senadores-populacao",
+      "mechanism": "crescimento-populacional-nao-amplia-tamanho-da-bancada-no-senado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Senado Federal"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Senado Federal"
+      },
+      "statement": "Se a população de um estado duplicar, sua bancada no Senado poderá passar de três a seis senadores pela aplicação do critério constitucional de proporcionalidade populacional.",
+      "correctAnswer": "E",
+      "explanation": "O número de senadores é fixo por estado e pelo Distrito Federal. A população é critério para a representação na Câmara dos Deputados.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 45 e 46. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-revisao-relatorios-tcu-ao-congresso-trimestrais-e-anuais",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-relatorio-dupla-periodicidade",
+      "mechanism": "relatorios-tcu-ao-congresso-trimestrais-e-anuais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "O Tribunal de Contas da União organiza o envio ao Congresso Nacional de relatórios sobre suas atividades, com remessas trimestrais e anuais. As duas periodicidades correspondem ao texto constitucional.",
+      "correctAnswer": "C",
+      "explanation": "O § 4º prevê encaminhamento ao Congresso tanto trimestral quanto anual.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-revisao-relatorio-trimestral-do-tcu-nao-torna-anual-facultativo",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-relatorio-dupla-periodicidade",
+      "mechanism": "relatorio-trimestral-do-tcu-nao-torna-anual-facultativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Se o Tribunal de Contas da União encaminhar regularmente ao Congresso seus relatórios trimestrais de atividades, fica dispensado do envio anual.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição estabelece as duas periodicidades. O cumprimento de uma não dispensa a outra.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-projecao-de-area-explicita-previsao-sem-observacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "previsao-e-realizacao",
+      "mechanism": "projecao-de-area-explicita-previsao-sem-observacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "Um boletim informa que o órgão espera reduzir a fila de atendimento em vinte por cento até dezembro. É legítimo inferir que a redução foi projetada, mas o texto não demonstra que já ocorreu.",
+      "correctAnswer": "C",
+      "explanation": "“Espera reduzir” indica expectativa. A realização exigiria informação sobre o resultado efetivamente observado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre inferência e extrapolação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-expectativa-nao-prova-entrega-efetiva",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "previsao-e-realizacao",
+      "mechanism": "expectativa-nao-prova-entrega-efetiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "A nota “o município prevê concluir a obra em maio” autoriza afirmar que a conclusão ocorreu em maio.",
+      "correctAnswer": "E",
+      "explanation": "A nota informa um cronograma esperado. Não informa o resultado da execução.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre inferência e extrapolação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / interpretação e síntese textual",
+      "id": "cam-revisao-itens-alimentares-podem-ser-generalizados-na-sintese",
+      "concursoId": "camara-2026",
+      "articleId": "art-554511538d877686",
+      "conceptId": "resumo-generalizacao-categoria",
+      "mechanism": "itens-alimentares-podem-ser-generalizados-na-sintese",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-554511538d877686#3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/13 - tema tese e progressao tematica.md",
+        "section": "3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      },
+      "statement": "Um texto diz que uma escola recebeu arroz, feijão e farinha. Em uma síntese cujo foco é o abastecimento, “a escola recebeu alimentos” mantém o fato central por generalização.",
+      "correctAnswer": "C",
+      "explanation": "“Alimentos” é uma categoria que abrange todos os itens mencionados. A síntese preserva a informação mais geral.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre macrorregras de síntese. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / interpretação e síntese textual",
+      "id": "cam-revisao-generalizacao-nao-pode-mudar-natureza-dos-itens",
+      "concursoId": "camara-2026",
+      "articleId": "art-554511538d877686",
+      "conceptId": "resumo-generalizacao-categoria",
+      "mechanism": "generalizacao-nao-pode-mudar-natureza-dos-itens",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-554511538d877686#3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/13 - tema tese e progressao tematica.md",
+        "section": "3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      },
+      "statement": "Um texto informa que foram distribuídos cadernos, lápis e borrachas. Resumi-lo como “foram distribuídos equipamentos de informática” aplica corretamente a macrorregra de generalização.",
+      "correctAnswer": "E",
+      "explanation": "A categoria generalizadora deve incluir os itens descritos. “Material escolar” seria adequada. “Equipamentos de informática” muda a natureza dos objetos.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre macrorregras de síntese. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação de textos",
+      "id": "cam-revisao-sucessao-de-eventos-so-estabelece-ordem",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "sequencia-relato-causa-nao-dada",
+      "mechanism": "sucessao-de-eventos-so-estabelece-ordem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "Uma notícia informa que o aplicativo foi atualizado pela manhã e que o sistema ficou indisponível à tarde. O texto permite situar os dois eventos no tempo, sem estabelecer que a atualização causou a indisponibilidade.",
+      "correctAnswer": "C",
+      "explanation": "A ordem cronológica é explícita. É preciso evidência adicional para atribuir causalidade.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre inferência e extrapolação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação de textos",
+      "id": "cam-revisao-evento-que-ocorreu-antes-nao-e-causa-demonstrada",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "sequencia-relato-causa-nao-dada",
+      "mechanism": "evento-que-ocorreu-antes-nao-e-causa-demonstrada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "Um relatório diz que houve troca de chefia em março e alta no volume de entregas em abril. Só com essas informações, conclui-se que a troca de chefia provocou o aumento.",
+      "correctAnswer": "E",
+      "explanation": "A proximidade temporal não comprova que um evento causou o outro. O relatório descreve apenas sua sequência.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre inferência e extrapolação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-enquanto-dois-imperfeitos-mostram-acoes-simultaneas",
+      "concursoId": "camara-2026",
+      "articleId": "art-3c2532290c3996fa",
+      "conceptId": "simultaneidade-com-acao-em-curso",
+      "mechanism": "enquanto-dois-imperfeitos-mostram-acoes-simultaneas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c2532290c3996fa#2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md",
+        "section": "2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
+      },
+      "statement": "Em “Enquanto a equipe revisava o relatório, a secretaria preparava a reunião”, as formas verbais apresentam as duas ações em curso no mesmo intervalo.",
+      "correctAnswer": "C",
+      "explanation": "A conjunção “enquanto” estabelece simultaneidade, e os dois pretéritos imperfeitos apresentam ações em desenvolvimento.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre modos e aspectos verbais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-enquanto-nao-estabelece-conclusao-de-uma-acao-antes-da-outra",
+      "concursoId": "camara-2026",
+      "articleId": "art-3c2532290c3996fa",
+      "conceptId": "simultaneidade-com-acao-em-curso",
+      "mechanism": "enquanto-nao-estabelece-conclusao-de-uma-acao-antes-da-outra",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3c2532290c3996fa#2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md",
+        "section": "2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
+      },
+      "statement": "Em “Enquanto a técnica conferia as etiquetas, o auxiliar numerava as caixas”, entende-se que a conferência terminou antes de começar a numeração.",
+      "correctAnswer": "E",
+      "explanation": "“Enquanto” situa as ações em intervalos sobrepostos. Os verbos no imperfeito não indicam que a primeira ação já tenha terminado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre modos e aspectos verbais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "id": "cam-revisao-adverbio-integrado-entre-verbo-e-objeto-sem-virgula",
+      "concursoId": "camara-2026",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "virgula-objeto-apos-adverbio",
+      "mechanism": "adverbio-integrado-entre-verbo-e-objeto-sem-virgula",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#2.1. As Três Proibições Inegociáveis (Ordem Direta S-V-C)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "2.1. As Três Proibições Inegociáveis (Ordem Direta S-V-C)"
+      },
+      "statement": "Em “A auditoria examinou cuidadosamente os contratos”, inserir uma vírgula apenas depois de “cuidadosamente” separaria o verbo de seu objeto direto.",
+      "correctAnswer": "C",
+      "explanation": "O advérbio integra o predicado, e “os contratos” complementa “examinou”. A vírgula única romperia a ligação sintática entre eles.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre vírgula na ordem direta. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "id": "cam-revisao-presenca-de-adverbio-nao-autoriza-virgula-antes-do-objeto",
+      "concursoId": "camara-2026",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "virgula-objeto-apos-adverbio",
+      "mechanism": "presenca-de-adverbio-nao-autoriza-virgula-antes-do-objeto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#2.1. As Três Proibições Inegociáveis (Ordem Direta S-V-C)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "2.1. As Três Proibições Inegociáveis (Ordem Direta S-V-C)"
+      },
+      "statement": "Em “A equipe revisou minuciosamente, os formulários”, a vírgula é facultativa porque ocorre após expressão adverbial.",
+      "correctAnswer": "E",
+      "explanation": "Na estrutura apresentada, a vírgula isola o objeto direto do verbo, o que contraria a pontuação da ordem direta.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre vírgula na ordem direta. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
       "subjectId": "etica-publica",
       "unitId": "decoro-parlamentar",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",

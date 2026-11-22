@@ -7607,6 +7607,566 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "id": "cam-revisao-irmao-ja-vereador-nao-reelige-em-cargo-de-vice",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "inelegibilidade-reflexa-irmao-outro-cargo",
+      "mechanism": "irmao-ja-vereador-nao-reelige-em-cargo-de-vice",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "O irmão de um prefeito é vereador no mesmo município e pretende candidatar-se a vice-prefeito. A mera titularidade do mandato de vereador não o enquadra na exceção constitucional de candidatura à reeleição.",
+      "correctAnswer": "C",
+      "explanation": "A exceção exige que o titular de mandato se apresente para reeleição. Disputar o cargo de vice-prefeito é concorrer a outro cargo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "id": "cam-revisao-irmao-candidato-ao-mesmo-cargo-distingue-reeleicao",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "inelegibilidade-reflexa-irmao-outro-cargo",
+      "mechanism": "irmao-candidato-ao-mesmo-cargo-distingue-reeleicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Um vereador irmão de prefeito busca novo mandato de vereador no mesmo município. A ressalva constitucional não pode ser considerada, pois a inelegibilidade reflexa exclui qualquer candidatura de parente de segundo grau.",
+      "correctAnswer": "E",
+      "explanation": "O art. 14, § 7º, prevê ressalva para quem é titular de mandato eletivo e candidato à reeleição. O caso é distinto de candidatura a outro cargo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "id": "cam-revisao-representacao-em-uma-casa-para-ms-coletivo",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "partido-sem-representacao",
+      "mechanism": "representacao-em-uma-casa-para-ms-coletivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de segurança coletivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de segurança coletivo"
+      },
+      "statement": "Um partido com representação na Câmara dos Deputados e sem representação no Senado satisfaz o critério constitucional de representação no Congresso Nacional para impetrar mandado de segurança coletivo.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição exige representação no Congresso Nacional. A presença em uma de suas Casas satisfaz esse critério, sem exigir representação em ambas.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXX, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "id": "cam-revisao-cadeira-estadual-nao-basta-para-ms-coletivo-de-partido",
+      "concursoId": "camara-2026",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "partido-sem-representacao",
+      "mechanism": "cadeira-estadual-nao-basta-para-ms-coletivo-de-partido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de segurança coletivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de segurança coletivo"
+      },
+      "statement": "Um partido possui deputados estaduais, mas não tem representantes na Câmara nem no Senado. A representação em assembleia estadual atende, por si só, ao requisito constitucional para o partido impetrar mandado de segurança coletivo.",
+      "correctAnswer": "E",
+      "explanation": "A exigência expressa é representação no Congresso Nacional. Mandatos estaduais não preenchem esse requisito.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXX, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-pec-prejudicada-aguarda-proxima-sessao-legislativa",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "pec-prejudicada-maioria-reapresentacao",
+      "mechanism": "pec-prejudicada-aguarda-proxima-sessao-legislativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Como nasce uma lei: iniciativa, votação e atos finais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Como nasce uma lei: iniciativa, votação e atos finais"
+      },
+      "statement": "Uma PEC foi considerada prejudicada. Um novo texto, sobre a mesma matéria, é apresentado na sessão legislativa seguinte. Quanto à vedação temporal do art. 60, § 5º, a nova proposta é admissível.",
+      "correctAnswer": "C",
+      "explanation": "A vedação alcança a reapresentação na mesma sessão legislativa. Ela não veda uma proposta na sessão seguinte, ainda que na mesma legislatura.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 60, § 5º, e 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-recesso-nao-abre-nova-sessao-para-reapresentar-pec",
+      "concursoId": "camara-2026",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "pec-prejudicada-maioria-reapresentacao",
+      "mechanism": "recesso-nao-abre-nova-sessao-para-reapresentar-pec",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Como nasce uma lei: iniciativa, votação e atos finais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Como nasce uma lei: iniciativa, votação e atos finais"
+      },
+      "statement": "Uma PEC é rejeitada antes do recesso de julho. Após o recesso, com apoio da maioria absoluta, a mesma matéria volta em nova PEC no segundo período da mesma sessão legislativa. O recesso torna válida a reapresentação.",
+      "correctAnswer": "E",
+      "explanation": "O recesso separa períodos da mesma sessão legislativa. A maioria absoluta não cria exceção à vedação do art. 60, § 5º.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 60, § 5º, e 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "id": "cam-revisao-pec-mesas-em-sessao-conjunta-solene",
+      "concursoId": "camara-2026",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "pec-promulgacao-sessao-nao-solene",
+      "mechanism": "pec-mesas-em-sessao-conjunta-solene",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#5. PEC: artigos revogados e promulgação (arts. 72–85)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "5. PEC: artigos revogados e promulgação (arts. 72–85)"
+      },
+      "statement": "Após a aprovação de uma PEC nas duas Casas, suas Mesas promulgam a emenda em sessão conjunta solene e lhe atribuem número de ordem. O procedimento observa o Regimento Comum.",
+      "correctAnswer": "C",
+      "explanation": "A promulgação é ato das duas Mesas em sessão conjunta solene, com número de ordem.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, art. 85, e a Constituição Federal, art. 60, § 3º. https://legis.senado.leg.br/norma/372889/publicacao/16429440"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "id": "cam-revisao-pec-sessoes-separadas-nao-e-sessao-conjunta",
+      "concursoId": "camara-2026",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "pec-promulgacao-sessao-nao-solene",
+      "mechanism": "pec-sessoes-separadas-nao-e-sessao-conjunta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#5. PEC: artigos revogados e promulgação (arts. 72–85)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "5. PEC: artigos revogados e promulgação (arts. 72–85)"
+      },
+      "statement": "Câmara e Senado decidem promulgar a mesma emenda em duas sessões separadas. A mera participação de ambas as Mesas, em momentos distintos, cumpre a exigência de sessão conjunta solene.",
+      "correctAnswer": "E",
+      "explanation": "O art. 85 prevê uma sessão conjunta solene para a promulgação pelas duas Mesas. Duas sessões separadas não atendem a essa forma.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, art. 85, e a Constituição Federal, art. 60, § 3º. https://legis.senado.leg.br/norma/372889/publicacao/16429440"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",
+      "id": "cam-revisao-correntes-politicas-pluralismo-como-fundamento",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "pluralismo-fundamento",
+      "mechanism": "correntes-politicas-pluralismo-como-fundamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "statement": "Uma cartilha agrupa os princípios do Estado brasileiro e classifica o pluralismo político como fundamento da República. A classificação corresponde ao texto constitucional.",
+      "correctAnswer": "C",
+      "explanation": "O pluralismo político está no rol de fundamentos do art. 1º, no inciso V.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 1º, V. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",
+      "id": "cam-revisao-pluralismo-no-artigo-quarto-em-vez-do-primeiro",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "pluralismo-fundamento",
+      "mechanism": "pluralismo-no-artigo-quarto-em-vez-do-primeiro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "statement": "O pluralismo político aparece expressamente no rol do art. 4º como princípio das relações internacionais, sem integrar o rol de fundamentos do art. 1º.",
+      "correctAnswer": "E",
+      "explanation": "A previsão expressa do pluralismo político está no art. 1º, V. O art. 4º contém o rol de princípios das relações internacionais.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 1º, V. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "id": "cam-revisao-erradicacao-da-marginalizacao-objetivo-fundamental",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "pobreza-erradicar-desigualdade-reduzir",
+      "mechanism": "erradicacao-da-marginalizacao-objetivo-fundamental",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 3º — objetivos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 3º — objetivos fundamentais"
+      },
+      "statement": "Um programa é apresentado como meio de combater a marginalização até sua erradicação. A erradicação da marginalização consta expressamente entre os objetivos fundamentais da República.",
+      "correctAnswer": "C",
+      "explanation": "O art. 3º, III, associa a erradicação à pobreza e à marginalização, e a redução às desigualdades sociais e regionais.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 3º, III. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "id": "cam-revisao-lista-inverte-pobreza-e-desigualdades",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "pobreza-erradicar-desigualdade-reduzir",
+      "mechanism": "lista-inverte-pobreza-e-desigualdades",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 3º — objetivos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 3º — objetivos fundamentais"
+      },
+      "statement": "Ao reproduzir a redação do art. 3º, III, uma nota afirma que o texto prevê erradicar as desigualdades regionais e reduzir a pobreza. As duas expressões correspondem ao dispositivo.",
+      "correctAnswer": "E",
+      "explanation": "A redação constitucional atribui a redução às desigualdades sociais e regionais e a erradicação à pobreza e à marginalização.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 3º, III. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "id": "cam-revisao-votacao-sobre-prisao-duzentos-e-cinquenta-nao-bastam",
+      "concursoId": "camara-2026",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "prisao-maioria-presentes-insuficiente",
+      "mechanism": "votacao-sobre-prisao-duzentos-e-cinquenta-nao-bastam",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "statement": "Recebidos os autos de prisão de deputado federal em flagrante de crime inafiançável, 300 deputados comparecem e 250 votam no mesmo sentido ao decidir sobre a prisão. Esses 250 votos não atingem a maioria constitucional exigida.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição exige maioria dos membros da Casa. Em uma composição de 513, são necessários pelo menos 257 votos no mesmo sentido.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 53, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "id": "cam-revisao-maioria-dos-membros-independe-do-total-presente",
+      "concursoId": "camara-2026",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "prisao-maioria-presentes-insuficiente",
+      "mechanism": "maioria-dos-membros-independe-do-total-presente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "statement": "A Câmara resolve sobre prisão de deputado nas condições constitucionais. Como 400 parlamentares estão presentes, uma posição apoiada por 220 deputados satisfaz a maioria exigida pelo art. 53, § 2º.",
+      "correctAnswer": "E",
+      "explanation": "O parâmetro é a composição da Câmara, e não os presentes. Duzentos e vinte não atingem a maioria dos 513 membros.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 53, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-lei-complementar-federal-autoriza-questao-especifica",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "propaganda-comercial-legislacao-estadual",
+      "mechanism": "lei-complementar-federal-autoriza-questao-especifica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#União: arts. 21 e 22"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "União: arts. 21 e 22"
+      },
+      "statement": "Uma lei complementar federal autoriza os estados a legislar sobre questão específica de propaganda comercial. A autorização é, em tese, compatível com o mecanismo constitucional de delegação de competência privativa.",
+      "correctAnswer": "C",
+      "explanation": "O parágrafo único admite que lei complementar autorize os estados a legislar sobre questões específicas das matérias do art. 22.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 22, XXIX e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-falta-de-lei-federal-nao-libera-propaganda-comercial",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "propaganda-comercial-legislacao-estadual",
+      "mechanism": "falta-de-lei-federal-nao-libera-propaganda-comercial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#União: arts. 21 e 22"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "União: arts. 21 e 22"
+      },
+      "statement": "O silêncio da legislação federal sobre determinada forma de propaganda comercial transfere, por si só, a competência legislativa aos estados.",
+      "correctAnswer": "E",
+      "explanation": "A propaganda comercial é matéria de competência privativa da União. A ausência de lei federal não equivale à autorização por lei complementar para questão específica.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 22, XXIX e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-locucao-em-anexo-nao-flexiona",
+      "concursoId": "camara-2026",
+      "articleId": "art-0655bb314882606f",
+      "conceptId": "locucao-em-anexo",
+      "mechanism": "locucao-em-anexo-nao-flexiona",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0655bb314882606f#4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md",
+        "section": "4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      },
+      "statement": "Em “As autorizações seguem em anexo”, a locução “em anexo” permanece invariável apesar de o sujeito estar no feminino plural.",
+      "correctAnswer": "C",
+      "explanation": "A construção “em anexo” é uma locução. Diferentemente do adjetivo “anexas”, ela não concorda em gênero e número com o substantivo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre concordância nominal. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-adjetivo-anexo-concorda-com-formularios",
+      "concursoId": "camara-2026",
+      "articleId": "art-0655bb314882606f",
+      "conceptId": "locucao-em-anexo",
+      "mechanism": "adjetivo-anexo-concorda-com-formularios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0655bb314882606f#4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md",
+        "section": "4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      },
+      "statement": "Em “Os formulários seguem anexo”, o adjetivo “anexo” pode permanecer no singular pela mesma regra que vale para a locução “em anexo”.",
+      "correctAnswer": "E",
+      "explanation": "Na função de adjetivo, o termo concorda com “formulários”: “seguem anexos”. A invariabilidade vale para a locução “em anexo”.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre concordância nominal. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita e substituição lexical",
+      "id": "cam-revisao-postergar-para-marco-conserva-realizacao-prevista",
+      "concursoId": "camara-2026",
+      "articleId": "art-d43257f539c036b9",
+      "conceptId": "postergar-versus-cancelar",
+      "mechanism": "postergar-para-marco-conserva-realizacao-prevista",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d43257f539c036b9#2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido.md",
+        "section": "2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      },
+      "statement": "Em “A comissão postergou a reunião para março”, o verbo indica transferência para um momento posterior e é compatível com a manutenção da reunião no calendário.",
+      "correctAnswer": "C",
+      "explanation": "Postergar significa adiar. A indicação de março fornece o novo momento previsto para o evento.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre substituição lexical. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita e substituição lexical",
+      "id": "cam-revisao-adiar-nao-preserva-supressao-definitiva",
+      "concursoId": "camara-2026",
+      "articleId": "art-d43257f539c036b9",
+      "conceptId": "postergar-versus-cancelar",
+      "mechanism": "adiar-nao-preserva-supressao-definitiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d43257f539c036b9#2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido.md",
+        "section": "2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      },
+      "statement": "A redação diz que o evento foi cancelado em definitivo. Trocar “cancelado em definitivo” por “postergado” conserva a informação de que o evento não será realizado.",
+      "correctAnswer": "E",
+      "explanation": "Postergar significa adiar. A mudança retira a informação de supressão definitiva e introduz a ideia de realização posterior.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre substituição lexical. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P2",
       "subjectId": "etica-publica",
       "unitId": "decoro-parlamentar",

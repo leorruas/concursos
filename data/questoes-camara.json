@@ -7605,6 +7605,174 @@
   ],
   "expansao": [
       {
+        "id": "cam-revisao-antecipacao-de-explicacao",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "portugues",
+        "unitId": "lingua-portuguesa",
+        "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+        "articleId": "art-642578f70775bddb",
+        "conceptId": "catafora",
+        "mechanism": "antecipacao-de-explicacao",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-642578f70775bddb#2.2. Referência Endofórica (Anáfora e Catáfora)"
+        ],
+        "source": {
+          "path": "3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md",
+          "section": "2.2. Referência Endofórica (Anáfora e Catáfora)"
+        },
+        "statement": "No trecho “O relatório antecipou isto: a coleta seria retomada somente em março”, o pronome “isto” tem função catafórica.",
+        "correctAnswer": "C",
+        "explanation": "O conteúdo de “isto” é explicitado na oração seguinte, depois dos dois-pontos. A referência aponta para uma informação apresentada adiante no texto.",
+        "reviewEvidence": "Conferência editorial de caso, critério e gabarito com a seção vinculada e a referência técnica. https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/deitico-anafora-catafora/36064"
+      },
+      {
+        "id": "cam-revisao-troca-de-ordem-referencial",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "portugues",
+        "unitId": "lingua-portuguesa",
+        "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+        "articleId": "art-642578f70775bddb",
+        "conceptId": "catafora",
+        "mechanism": "troca-de-ordem-referencial",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-642578f70775bddb#2.2. Referência Endofórica (Anáfora e Catáfora)"
+        ],
+        "source": {
+          "path": "3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md",
+          "section": "2.2. Referência Endofórica (Anáfora e Catáfora)"
+        },
+        "statement": "Na versão “A coleta seria retomada em março. O relatório já antecipara isso”, o pronome “isso” continua sendo catafórico em relação à previsão sobre a coleta.",
+        "correctAnswer": "E",
+        "explanation": "A previsão já foi enunciada antes do pronome, que a retoma. O vínculo se classifica, pela direção da referência, como anafórico.",
+        "reviewEvidence": "Conferência editorial de caso, critério e gabarito com a seção vinculada e a referência técnica. https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/deitico-anafora-catafora/36064"
+      },
+      {
+        "id": "cam-revisao-mesma-altura-larguras-distintas",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "informatica",
+        "unitId": "tecnologia-e-dados",
+        "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+        "articleId": "art-719dd4ca3e84b65a",
+        "conceptId": "densidade-em-histograma",
+        "mechanism": "mesma-altura-larguras-distintas",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-719dd4ca3e84b65a#Quadro comparativo dogmático"
+        ],
+        "source": {
+          "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+          "section": "Quadro comparativo dogmático"
+        },
+        "statement": "Um histograma representa por área a quantidade de chamados. Duas barras têm altura 4 chamados por minuto. Uma representa um intervalo de duração com largura de 3 minutos e a outra, um intervalo com largura de 7 minutos. A segunda representa mais chamados.",
+        "correctAnswer": "C",
+        "explanation": "A frequência é a área, obtida multiplicando altura por largura. As áreas são 12 e 28 chamados, respectivamente, embora as alturas sejam iguais.",
+        "reviewEvidence": "Conferência editorial de caso, critério e gabarito com a seção vinculada e a referência técnica. https://itl.nist.gov/div898/handbook/eda/section3/histogra.htm"
+      },
+      {
+        "id": "cam-revisao-barra-alta-menos-casos",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P1",
+        "subjectId": "informatica",
+        "unitId": "tecnologia-e-dados",
+        "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+        "articleId": "art-719dd4ca3e84b65a",
+        "conceptId": "densidade-em-histograma",
+        "mechanism": "barra-alta-menos-casos",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-719dd4ca3e84b65a#Quadro comparativo dogmático"
+        ],
+        "source": {
+          "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+          "section": "Quadro comparativo dogmático"
+        },
+        "statement": "Em um histograma de densidades absolutas, a barra de uma classe tem largura 2 e altura 9. A de outra classe tem largura 5 e altura 5. A primeira classe contém mais observações porque sua barra é mais alta.",
+        "correctAnswer": "E",
+        "explanation": "As frequências correspondem às áreas, 2 × 9 = 18 e 5 × 5 = 25. A segunda classe contém mais observações, embora tenha densidade menor.",
+        "reviewEvidence": "Conferência editorial de caso, critério e gabarito com a seção vinculada e a referência técnica. https://itl.nist.gov/div898/handbook/eda/section3/histogra.htm"
+      },
+      {
+        "id": "cam-revisao-adesao-voluntaria-e-margem",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "comunicacao",
+        "unitId": "divulgacao-institucional",
+        "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa de mercado",
+        "articleId": "art-4e9d2a7c813f65b0",
+        "conceptId": "amostragem-conveniencia-margem-erro",
+        "mechanism": "adesao-voluntaria-e-margem",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-4e9d2a7c813f65b0#Verificação de inferência: ponderação não transforma opt-in em amostra probabilística (11/11/2026)"
+        ],
+        "source": {
+          "path": "3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md",
+          "section": "Verificação de inferência: ponderação não transforma opt-in em amostra probabilística (11/11/2026)"
+        },
+        "statement": "Uma instituição recebe 20 mil respostas voluntárias por um formulário aberto. O grande número de respostas justifica divulgar, para toda a população-alvo, a margem de erro calculada pela fórmula usual de amostragem aleatória simples.",
+        "correctAnswer": "E",
+        "explanation": "O volume de respostas não estabelece probabilidades de inclusão conhecidas. A fórmula usual mede a variabilidade de um desenho aleatório específico e não justifica, nesse caso, a margem divulgada para a população.",
+        "reviewEvidence": "Conferência editorial de caso, critério e gabarito com a seção vinculada e a referência técnica. https://aapor.org/standards-and-ethics/disclosure-standards/"
+      },
+      {
+        "id": "cam-revisao-cotas-nao-definem-probabilidade",
+        "concursoId": "camara-2026",
+        "origin": "inedita",
+        "format": "CE",
+        "examPart": "P2",
+        "subjectId": "comunicacao",
+        "unitId": "divulgacao-institucional",
+        "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa de mercado",
+        "articleId": "art-4e9d2a7c813f65b0",
+        "conceptId": "amostragem-conveniencia-margem-erro",
+        "mechanism": "cotas-nao-definem-probabilidade",
+        "questionType": "aplicacao",
+        "estimatedDifficulty": "media",
+        "cognitiveOperation": "aplicação",
+        "reviewStatus": "validada",
+        "theoryRefs": [
+          "article:art-4e9d2a7c813f65b0#Verificação de inferência: ponderação não transforma opt-in em amostra probabilística (11/11/2026)"
+        ],
+        "source": {
+          "path": "3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md",
+          "section": "Verificação de inferência: ponderação não transforma opt-in em amostra probabilística (11/11/2026)"
+        },
+        "statement": "Uma enquete recruta participantes por conveniência até preencher cotas de idade iguais às proporções populacionais. As cotas ajudam a controlar a composição por idade, mas sozinhas não justificam reportar margem de erro convencional de uma amostra probabilística.",
+        "correctAnswer": "C",
+        "explanation": "As cotas aproximam uma característica conhecida da população. Ainda assim, a seleção dentro de cada grupo foi por conveniência. Uma medida de precisão baseada em outro modelo requer explicitar o modelo e suas premissas.",
+        "reviewEvidence": "Conferência editorial de caso, critério e gabarito com a seção vinculada e a referência técnica. https://aapor.org/standards-and-ethics/disclosure-standards/"
+      },
+      {
         "id": "cam-revisao-tramite-na-pendencia",
         "concursoId": "camara-2026",
         "origin": "inedita",

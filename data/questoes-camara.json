@@ -7605,6 +7605,230 @@
   ],
   "expansao": [
     {
+      "id": "cam-revisao-unless-envio-sem-garantia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / elementos linguísticos relevantes à compreensão de textos",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "unless-condicao-necessaria",
+      "mechanism": "unless-envio-sem-garantia",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.4. Condição e Hipótese"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.4. Condição e Hipótese"
+      },
+      "statement": "“The journal will not consider a submission unless the authors include a data availability statement.” The sentence guarantees that every submission with such a statement will be considered.",
+      "correctAnswer": "E",
+      "explanation": "A ausência da declaração impede a análise. A frase estabelece a presença da declaração como condição necessária e deixa em aberto a existência de outros requisitos.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-unless-terminal-ordem-de-reabertura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / elementos linguísticos relevantes à compreensão de textos",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "unless-condicao-necessaria",
+      "mechanism": "unless-terminal-ordem-de-reabertura",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.4. Condição e Hipótese"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.4. Condição e Hipótese"
+      },
+      "statement": "“The terminal will remain closed unless the supervisor signs a reopening order.” According to the sentence, if the supervisor does not sign such an order, the terminal will remain closed.",
+      "correctAnswer": "C",
+      "explanation": "Unless introduz a exceção ao fechamento. Se a ordem de reabertura não for assinada, vale a consequência expressa na oração principal.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-registro-antes-da-entrega",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "sequencia-temporal",
+      "mechanism": "registro-antes-da-entrega",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1. Classificação Funcional e Relações Lógico-Semânticas"
+      },
+      "statement": "“Before the courier handed over the package, the receptionist had already logged its tracking number.” The receptionist logged the tracking number earlier than the handover.",
+      "correctAnswer": "C",
+      "explanation": "Before estabelece a anterioridade do registro em relação à entrega. Had already logged reforça que o registro estava concluído.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-turno-preparacao-durante-checagem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "sequencia-temporal",
+      "mechanism": "turno-preparacao-durante-checagem",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1. Classificação Funcional e Relações Lógico-Semânticas"
+      },
+      "statement": "“While the technicians were testing the microphones, the clerk prepared the nameplates. Only after the tests ended did she set the nameplates on the desk.” The text places both the preparation and the placement of the nameplates after the tests.",
+      "correctAnswer": "E",
+      "explanation": "While situa a preparação durante os testes. Only after se aplica à colocação das placas sobre a mesa, evento posterior ao término.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-elegibilidade-restringe-pedidos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "articleId": "art-24350eefe84c43b5",
+      "conceptId": "oracao-adjetiva-restritiva",
+      "mechanism": "elegibilidade-restringe-pedidos",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-24350eefe84c43b5#2. Orações Adjetivas: Restrição vs. Explicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/03 - pontuacao e virgula.md",
+        "section": "2. Orações Adjetivas: Restrição vs. Explicação"
+      },
+      "statement": "Em “Os pedidos cujos anexos estiverem legíveis seguirão para análise”, a oração iniciada por “cujos” restringe o conjunto de pedidos que seguirão para análise.",
+      "correctAnswer": "C",
+      "explanation": "A oração relativa sem vírgulas delimita o conjunto por uma condição relativa aos anexos. A presença do pronome “cujos” estabelece uma relação entre os pedidos e seus anexos.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-relativa-intercalada-descricao-do-grupo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "articleId": "art-24350eefe84c43b5",
+      "conceptId": "oracao-adjetiva-restritiva",
+      "mechanism": "relativa-intercalada-descricao-do-grupo",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-24350eefe84c43b5#2. Orações Adjetivas: Restrição vs. Explicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/03 - pontuacao e virgula.md",
+        "section": "2. Orações Adjetivas: Restrição vs. Explicação"
+      },
+      "statement": "Em “As propostas, que já receberam parecer, serão votadas hoje”, a oração entre vírgulas seleciona, entre as propostas mencionadas, apenas as que receberam parecer para votação.",
+      "correctAnswer": "E",
+      "explanation": "A oração entre vírgulas acrescenta uma informação sobre as propostas já identificadas. A leitura de seleção de um subconjunto seria produzida pela relativa restritiva sem vírgulas.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-janela-aberta-sem-pedido-para-fechar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "subentendido-cancelavel",
+      "mechanism": "janela-aberta-sem-pedido-para-fechar",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#4. O Subentendido: Inferência Pragmática e Não Dito"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "4. O Subentendido: Inferência Pragmática e Não Dito"
+      },
+      "statement": "Durante uma reunião, alguém diz “A janela está aberta” e, logo depois, esclarece “Estou só explicando de onde vem o barulho. Pode deixá-la assim”. O esclarecimento pode cancelar a interpretação de que o falante estava pedindo o fechamento da janela.",
+      "correctAnswer": "C",
+      "explanation": "O pedido é uma leitura pragmática possível. O esclarecimento desfaz essa leitura e preserva a afirmação literal de que a janela está aberta.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
+      "id": "cam-revisao-comentario-salarial-retira-inferencia-de-insatisfacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "subentendido-cancelavel",
+      "mechanism": "comentario-salarial-retira-inferencia-de-insatisfacao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#4. O Subentendido: Inferência Pragmática e Não Dito"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "4. O Subentendido: Inferência Pragmática e Não Dito"
+      },
+      "statement": "Ao ser perguntada sobre o novo emprego, uma pessoa responde “O salário chega em dia”. O ouvinte entende que ela está insatisfeita com o restante. Se a pessoa acrescentar “E estou muito contente com a equipe e com o trabalho”, contradirá o sentido literal da primeira resposta.",
+      "correctAnswer": "E",
+      "explanation": "A primeira resposta afirma a pontualidade do pagamento. O comentário posterior afasta a leitura de insatisfação com o restante, inferida a partir da resposta inicialmente limitada ao salário.",
+      "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
+    },
+    {
       "id": "cam-revisao-probabilidade-na-triagem-supervisionada",
       "concursoId": "camara-2026",
       "origin": "inedita",

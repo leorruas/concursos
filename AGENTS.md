@@ -28,6 +28,14 @@ Este arquivo é a entrada obrigatória para **qualquer tarefa no repositório**.
 
 Tarefas podem exigir **vários guias**. Sempre abrir o guia 04 antes de uma alteração que afete o site, sua publicação ou os validadores. Para alterações em Orçamento Público, ler também `1 - Planejamento/Orcamento Publico - Arquitetura CGU e Camara.md` e os percursos editoriais específicos. Para privacidade, consultar `1 - Planejamento/Privacidade e sincronizacao de estudo.md`.
 
+
+## Portas técnicas obrigatórias
+
+- Ingestão de questões: usar `scripts/ingest-safe.js` e conferir `data/questoes-ledger.json` como ledger canônico; ler o guia 03.
+- Publicação: ler `1 - Planejamento/Contrato de publicacao GitHub Pages.md` e executar os controles do guia 04.
+- Mudanças de vários arquivos: ler `1 - Planejamento/Contrato transacional de mudancas.md`, validar o conjunto e sua recuperação.
+- **main vermelho**: se qualquer check obrigatório falhar, interromper integração/publicação, diagnosticar e corrigir antes de continuar. Nunca contornar o gate.
+
 ## Critério de conclusão
 
 Conteúdo correto no repositório, testes aprovados e publicação confirmada são condições diferentes. Quando uma delas não puder ser verificada, declarar exatamente qual é a pendência, sem dizer que a entrega está concluída.

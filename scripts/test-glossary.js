@@ -85,6 +85,17 @@ assert(workflowText.includes('uses: actions/upload-pages-artifact@v3') &&
   'Pages deve usar o artefato padrao esperado pela acao de deploy');
 const termos = JSON.parse(JSON.stringify(published.terms));
 const match = (query, block = '', subject = '', article = '') => ctx.filtrarTermosGlossario(termos, query, block, subject, article);
+
+const atoClassificacoes=['ato-perfeito','ato-imperfeito','ato-pendente','ato-consumado','ato-simples','ato-complexo','ato-composto'];
+for(const suffix of atoClassificacoes){
+ const id='glo-camara-da16-'+suffix;
+ const entry=published.terms.find(item=>item.id===id);
+ assert(entry,'Classificação de ato administrativo ausente: '+id);
+ assert(entry.articleLinks.some(link=>link.articleId==='art-10a91f6bf9b53f1a'),'Verberte sem vínculo ao artigo de classificação: '+id);
+ assert(entry.definition.length>=60&&entry.contrast.length>=90&&entry.example.length>=55,'Definição incompleta: '+id);
+}
+assert(!/necessariamente válido/i.test(published.terms.find(item=>item.id==='glo-camara-da16-ato-perfeito').definition),'Ato perfeito não deve ser automaticamente tratado como válido');
+
 assert(match('criterio').some(t => t.id === 'glo-criterio-de-auditoria'));
 assert(match('liquidacao').some(t => t.id === 'glo-liquidacao-da-despesa'));
 assert(match('PPA').some(t => t.id === 'glo-ppa'));

@@ -7611,6 +7611,510 @@
       "subjectId": "etica-publica",
       "unitId": "decoro-parlamentar",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-condenacao-criminal-colegiada-impede-indicacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "condenacao-colegiada-impedimento",
+      "mechanism": "condenacao-criminal-colegiada-impede-indicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "Um partido indica ao Conselho de Ética um deputado condenado criminalmente por tribunal em decisão colegiada. Embora ainda caiba recurso, a condenação integra as hipóteses de impedimento para compor o Conselho.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo prevê a condenação criminal por órgão colegiado como impedimento sem exigir trânsito em julgado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 2º, IV. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-recurso-pendente-nao-remove-impedimento-do-conselho",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "condenacao-colegiada-impedimento",
+      "mechanism": "recurso-pendente-nao-remove-impedimento-do-conselho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "Para compor o Conselho de Ética, um deputado condenado criminalmente por órgão colegiado só fica impedido depois de esgotados todos os recursos.",
+      "correctAnswer": "E",
+      "explanation": "A condenação por órgão colegiado já integra a hipótese do inciso IV, ainda que possa ser impugnada.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 2º, IV. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-prerrogativa-para-furar-fila-caracteriza-ato-atentatorio",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "constranger-servidor-favor",
+      "mechanism": "prerrogativa-para-furar-fila-caracteriza-ato-atentatorio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "Uma deputada usa prerrogativa do mandato para constranger um servidor a dar prioridade a pedido particular de um conhecido. Essa conduta pode ser enquadrada como ato atentatório ao decoro.",
+      "correctAnswer": "C",
+      "explanation": "O inciso IV alcança o uso de prerrogativas para constranger servidor com o fim de obter favorecimento para si ou para outrem.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, IV. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-favor-a-terceiro-tambem-se-enquadra-no-artigo-cinco",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "constranger-servidor-favor",
+      "mechanism": "favor-a-terceiro-tambem-se-enquadra-no-artigo-cinco",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "O uso de prerrogativa parlamentar para constranger um servidor só se enquadra no art. 5º, IV, se o favorecimento buscado for pessoal.",
+      "correctAnswer": "E",
+      "explanation": "O favorecimento pode ser buscado para o próprio parlamentar ou para outra pessoa.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, IV. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-dever-de-respeito-abrange-deliberacao-legitima",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "decisoes-ilegais-e-dever-de-obediencia",
+      "mechanism": "dever-de-respeito-abrange-deliberacao-legitima",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "Um deputado discorda politicamente de decisão legítima tomada por órgão da Câmara. A discordância não afasta o dever de respeitar essa decisão previsto no Código de Ética.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo se refere à legitimidade da decisão, e não à concordância pessoal do deputado com seu conteúdo.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, IX. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-dever-etico-nao-inclui-decisoes-manifestamente-ilegais",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "decisoes-ilegais-e-dever-de-obediencia",
+      "mechanism": "dever-etico-nao-inclui-decisoes-manifestamente-ilegais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "O Código de Ética inclui expressamente decisões manifestamente ilegais dos órgãos da Câmara no dever previsto no art. 3º, IX.",
+      "correctAnswer": "E",
+      "explanation": "O inciso prevê o dever de respeitar decisões legítimas dos órgãos da Casa.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, IX. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-oito-testemunhas-no-limite-da-defesa",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "defesa-limite-testemunhas",
+      "mechanism": "oito-testemunhas-no-limite-da-defesa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Em processo para perda do mandato, o deputado apresenta defesa escrita no prazo e arrola oito testemunhas. Esse número está dentro do limite estabelecido pelo Código.",
+      "correctAnswer": "C",
+      "explanation": "O art. 14, § 4º, II, admite até oito testemunhas.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 4º, II. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-dois-fatos-distintos-nao-duplicam-teto-de-testemunhas",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "defesa-limite-testemunhas",
+      "mechanism": "dois-fatos-distintos-nao-duplicam-teto-de-testemunhas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Ao se defender em um único processo de perda do mandato, o deputado pode arrolar oito testemunhas por fato imputado, pois o Código aplica o limite separadamente a cada fato.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo fixa o máximo de oito testemunhas para o arrolamento na defesa. Não estabelece uma cota para cada fato.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 4º, II. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-deputado-fora-do-conselho-pode-defender-em-plenario",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "defesa-parlamentar-do-conselho",
+      "mechanism": "deputado-fora-do-conselho-pode-defender-em-plenario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Na etapa de julgamento em Plenário de processo disciplinar, o representado indica para sua defesa uma deputada que não integra o Conselho de Ética. O Código admite essa forma de defesa.",
+      "correctAnswer": "C",
+      "explanation": "O art. 15 permite indicar outro parlamentar, desde que ele não integre o Conselho de Ética, inclusive na fase de Plenário.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 15. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-membro-do-conselho-sem-participacao-no-caso-nao-pode-defender",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "defesa-parlamentar-do-conselho",
+      "mechanism": "membro-do-conselho-sem-participacao-no-caso-nao-pode-defender",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Um deputado que integra o Conselho de Ética pode fazer a defesa de colega perante o Plenário se não tiver participado da instrução do caso.",
+      "correctAnswer": "E",
+      "explanation": "O impedimento decorre da condição de integrante do Conselho e não depende de participação na instrução.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 15. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-conselho-pode-consultar-registro-sem-altera-lo",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "etica-consulta-sem-edicao",
+      "mechanism": "conselho-pode-consultar-registro-sem-altera-lo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      },
+      "statement": "Durante uma apuração, o Conselho de Ética consulta registros do Sistema de Acompanhamento e Informações do Mandato Parlamentar. Essa consulta é compatível com a finalidade do acesso previsto no Código.",
+      "correctAnswer": "C",
+      "explanation": "O acesso previsto no art. 17 é exclusivamente para consulta, o que permite verificar registros sem alterá-los.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 17. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-prova-de-erro-nao-concede-edicao-do-registro",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "etica-consulta-sem-edicao",
+      "mechanism": "prova-de-erro-nao-concede-edicao-do-registro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      },
+      "statement": "Após comprovar divergência em um registro, o Conselho de Ética pode editá-lo diretamente usando o acesso concedido pelo art. 17.",
+      "correctAnswer": "E",
+      "explanation": "O acesso do Conselho é para consulta. A constatação de divergência não altera o alcance dessa permissão.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 17. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-consulta-pode-alcancar-base-criada-posteriormente",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "etica-sistema-novo",
+      "mechanism": "consulta-pode-alcancar-base-criada-posteriormente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      },
+      "statement": "A Câmara cria um novo banco de dados após a edição do Código de Ética. O fato de o banco ser novo não o exclui da previsão de acesso para consulta pelo Conselho de Ética.",
+      "correctAnswer": "C",
+      "explanation": "O art. 17 abrange sistemas e bancos de dados que venham a ser criados no âmbito da Câmara.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 17. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-acesso-nao-congelado-nos-sistemas-existentes",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "etica-sistema-novo",
+      "mechanism": "acesso-nao-congelado-nos-sistemas-existentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      },
+      "statement": "O acesso de consulta previsto no art. 17 só alcança as bases de dados que já existiam na Câmara quando o Código de Ética foi editado.",
+      "correctAnswer": "E",
+      "explanation": "A previsão alcança também sistemas e bancos de dados posteriores criados no âmbito da Casa.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 17. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-fraudar-trabalhos-para-alterar-deliberacao-e-incompativel",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "fraude-alteracao-resultado",
+      "mechanism": "fraudar-trabalhos-para-alterar-deliberacao-e-incompativel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "Para alterar o resultado de uma deliberação, um deputado frauda o andamento dos trabalhos legislativos. A finalidade descrita integra a hipótese de conduta incompatível com o decoro.",
+      "correctAnswer": "C",
+      "explanation": "O art. 4º, IV, prevê a fraude no andamento dos trabalhos legislativos para alterar o resultado de deliberação.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 4º, IV, e art. 14, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-fraude-na-deliberacao-nao-se-limita-a-censura",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "fraude-alteracao-resultado",
+      "mechanism": "fraude-na-deliberacao-nao-se-limita-a-censura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "Mesmo comprovada a fraude dos trabalhos legislativos para alterar resultado de deliberação, a conduta está sujeita apenas a censura escrita, pois não consta entre os atos incompatíveis com o decoro.",
+      "correctAnswer": "E",
+      "explanation": "A hipótese está no art. 4º, IV. O art. 14, § 3º, prevê perda do mandato para as condutas do art. 4º.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 4º, IV, e art. 14, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-interesse-patrimonial-direto-exige-declaracao-na-comissao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "impedimento-patrimonial-em-comissao",
+      "mechanism": "interesse-patrimonial-direto-exige-declaracao-na-comissao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      },
+      "statement": "Uma comissão inicia a apreciação de matéria que envolve diretamente e de forma específica os interesses patrimoniais de um de seus membros. O deputado deve declarar seu impedimento para votar.",
+      "correctAnswer": "C",
+      "explanation": "O dever alcança comissão e Plenário quando a matéria envolve direta e especificamente o interesse patrimonial do deputado.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 18, II. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-votacao-conclusiva-na-comissao-nao-exclui-impedimento",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "impedimento-patrimonial-em-comissao",
+      "mechanism": "votacao-conclusiva-na-comissao-nao-exclui-impedimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      },
+      "statement": "Como a proposição será apreciada conclusivamente em comissão, o deputado pode votar sem declarar impedimento, mesmo havendo interesse patrimonial direto e específico.",
+      "correctAnswer": "E",
+      "explanation": "A regra também incide na comissão. A ausência de votação posterior em Plenário não dispensa a declaração.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 18, II. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
       "id": "cam-revisao-pagamento-mensal-condiciona-posse",
       "concursoId": "camara-2026",
       "articleId": "art-5b41764164052519",

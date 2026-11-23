@@ -181,9 +181,8 @@
  .results-history-priorities li span{flex-shrink:0;font-variant-numeric:tabular-nums}
  .results-history-priority-button{color:var(--text);font:inherit;font-size:13px;text-align:left;background:none;border:0;padding:5px 0;cursor:pointer;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
  .results-history-priority-button:hover,.results-history-priority-button:focus-visible{color:var(--accent-blue)}
- .results-history-selector{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px solid color-mix(in srgb,var(--text) 26%,transparent)}
- .results-history-selector label{font:11px 'IBM Plex Mono',monospace;text-transform:uppercase;color:var(--muted)}
- .results-history-selector select{max-width:min(100%,470px);min-width:0;flex:1;background:transparent;color:var(--text);border:0;border-bottom:1px solid color-mix(in srgb,var(--text) 35%,transparent);font:13px 'Archivo',sans-serif;padding:9px 3px}
+ .results-history-priority-button[aria-pressed="true"]{font-weight:620}
+ .results-history-events>h3{color:var(--text);font-size:14px;margin:0 0 8px}
  .results-history-count{font-size:12px;color:var(--muted);margin:10px 0}
  .results-history-timeline,.results-history-article-list{border-top:1px solid color-mix(in srgb,var(--text) 28%,transparent)}
  .results-history-event,.results-history-article{padding:13px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 15%,transparent)}
@@ -227,9 +226,6 @@
   .results-edital-unit-heading{align-items:flex-start}
   .results-edital-unit-total{white-space:normal;text-align:right;min-width:92px}
   .results-mode-row{grid-template-columns:minmax(0,1fr) minmax(140px,auto)}
-  .results-history-selector{display:block}
-  .results-history-selector label{display:block;margin-bottom:4px}
-  .results-history-selector select{width:100%;max-width:none}
   .results-history-event-source{margin-left:0}
   .results-history-article-top{gap:10px}
   .results-view-panel #results-stats .results-stat strong{font-size:26px}

@@ -601,15 +601,12 @@ function renderPrincipleHistory(plan,concepts){
  const key=(subject,concept)=>JSON.stringify([subject,concept]);
  const errorCounts=new Map(concepts.map(c=>[key(c.subjectId,c.conceptId),c.errors]));
  const errorsFor=p=>errorCounts.get(key(p.subjectId,p.principleId))||0;
- const previous=target.dataset.subject===(selectedSubject||'')?target.querySelector('select')?.value:null;
- target.dataset.subject=selectedSubject||'';
  target.replaceChildren();
  if(!principles.length)return;
  const heading=el('div','results-history-section-header');
- heading.append(el('h2','','Tentativas por conceito'),
-  el('p','results-caption','Escolha um conceito para ver a sequência de respostas e o contexto disponível.'));
+ heading.append(el('h2','','Tentativas por conceito'));
  const ranked=selectedSubject?principles.filter(p=>errorsFor(p)>0).sort((a,b)=>
-  errorsFor(b)-errorsFor(a)||a.title.localeCompare(b.title,'pt-BR')):[];
+  errorsFor(b)-errorsFor(a)||a.title.localeCompare(b.title,'pt-BR')).slice(0,5):[];
  const labels=new Map();
  for(const p of principles){
   const label=key(p.subjectId,p.title);
@@ -621,21 +618,8 @@ function renderPrincipleHistory(plan,concepts){
   return labels.get(key(p.subjectId,p.title))>1&&p.principleId!==p.title
    ? name+' · '+displayWords(p.principleId):name;
  };
- const selector=el('div','results-history-selector');
- const select=el('select');
- select.id='results-principle-select';
- for(const p of principles){
-  const option=el('option','',selectedSubject?readableTitle(p):title(p.subjectId)+' · '+readableTitle(p));
-  option.value=key(p.subjectId,p.principleId);select.append(option);
- }
- if([...select.options].some(option=>option.value===previous))select.value=previous;
- else if(ranked.length)select.value=key(ranked[0].subjectId,ranked[0].principleId);
- const label=el('label','','Conceito');label.htmlFor=select.id;
- selector.append(label,select);
  const report=el('div','results-history-events');
- function renderEvidence(){
-  const p=principles[select.selectedIndex];
-  if(!p)return;
+ function renderEvidence(p){
   const signalMap=new Map((p.signals||[]).map(s=>[s.id,s.kind]));
   const events=[...p.recentEvents].reverse();
   let limit=5;
@@ -688,9 +672,8 @@ function renderPrincipleHistory(plan,concepts){
     less.type='button';less.addEventListener('click',()=>{limit=5;updateList();});footer.append(less);
    }
   }
-  report.replaceChildren(intro,list,footer);updateList();
+  report.replaceChildren(el('h3','',readableTitle(p)),intro,list,footer);updateList();
  }
- select.addEventListener('change',renderEvidence);
  target.append(heading);
  const priorities=el('div','results-history-priorities');
  if(selectedSubject){
@@ -698,14 +681,14 @@ function renderPrincipleHistory(plan,concepts){
   if(!ranked.length)priorities.append(el('p','results-caption','Nenhum erro registrado nos conceitos desta matéria.'));
   else{
    const list=el('ol');
-   for(const p of ranked.slice(0,5)){
+   for(const p of ranked){
     const row=el('li');
     const button=el('button','results-history-priority-button',readableTitle(p));
     button.type='button';
+    button.setAttribute('aria-pressed',String(p===ranked[0]));
     button.addEventListener('click',()=>{
-     select.value=key(p.subjectId,p.principleId);
-     renderEvidence();
-     select.focus();
+     for(const item of list.querySelectorAll('button'))item.setAttribute('aria-pressed',String(item===button));
+     renderEvidence(p);
     });
     const errors=errorsFor(p);
     const count=el('span','results-caption',errors+(errors===1?' erro':' erros'));
@@ -714,7 +697,8 @@ function renderPrincipleHistory(plan,concepts){
    priorities.append(list);
   }
  }else priorities.append(el('p','results-caption','Selecione uma matéria para ver os conceitos com mais erros.'));
- target.append(priorities,selector,report);renderEvidence();
+ target.append(priorities);
+ if(ranked.length){target.append(report);renderEvidence(ranked[0]);}
 }
 function renderStudyModes(byMode) {
  const target=$('results-study-modes');

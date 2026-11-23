@@ -7610,6 +7610,342 @@
       "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "id": "cam-revisao-fiscalizacao-sanitaria-ilustra-sentido-material",
+      "concursoId": "camara-2026",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "administracao-material-versus-organica",
+      "mechanism": "fiscalizacao-sanitaria-ilustra-sentido-material",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo"
+      },
+      "statement": "A fiscalização sanitária de estabelecimentos é exemplo de Administração Pública em sentido material, pois o foco está na atividade exercida.",
+      "correctAnswer": "C",
+      "explanation": "O sentido material ou objetivo identifica a função administrativa exercida.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre os sentidos da Administração Pública. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "id": "cam-revisao-secretaria-como-orgao-e-sentido-organico",
+      "concursoId": "camara-2026",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "administracao-material-versus-organica",
+      "mechanism": "secretaria-como-orgao-e-sentido-organico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo"
+      },
+      "statement": "Ao listar as secretarias que compõem a estrutura de um município, um relatório adota o sentido material de Administração Pública.",
+      "correctAnswer": "E",
+      "explanation": "A lista identifica quem integra a estrutura administrativa, o que corresponde ao sentido orgânico ou subjetivo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre os sentidos da Administração Pública. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-autarquia-e-entidade-de-direito-publico",
+      "concursoId": "camara-2026",
+      "articleId": "art-86dee064aef44ba4",
+      "conceptId": "autarquia",
+      "mechanism": "autarquia-e-entidade-de-direito-publico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Entidades da Administração Indireta e como são constituídas"
+      },
+      "statement": "Uma autarquia federal integra a Administração Indireta e possui personalidade jurídica própria de direito público.",
+      "correctAnswer": "C",
+      "explanation": "A criação por lei específica institui uma entidade de direito público distinta do ente que a criou.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 37, XIX, e a seção vinculada. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-patrimonio-proprio-nao-torna-autarquia-pessoa-privada",
+      "concursoId": "camara-2026",
+      "articleId": "art-86dee064aef44ba4",
+      "conceptId": "autarquia",
+      "mechanism": "patrimonio-proprio-nao-torna-autarquia-pessoa-privada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Entidades da Administração Indireta e como são constituídas"
+      },
+      "statement": "Por ter patrimônio próprio, uma autarquia é pessoa jurídica de direito privado da Administração Indireta.",
+      "correctAnswer": "E",
+      "explanation": "O patrimônio próprio é compatível com sua personalidade de direito público.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 37, XIX, e a seção vinculada. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+      "id": "cam-revisao-transferencia-a-autarquia-ilustra-descentralizacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "autarquia-nao-e-desconcentracao",
+      "mechanism": "transferencia-a-autarquia-ilustra-descentralizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      },
+      "statement": "Uma lei cria autarquia e lhe atribui atividade que antes era executada por um ministério. A medida desloca a atividade para outra pessoa jurídica.",
+      "correctAnswer": "C",
+      "explanation": "A atribuição a entidade com personalidade própria caracteriza descentralização.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre técnicas de organização administrativa. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+      "id": "cam-revisao-entidade-nova-impede-classificacao-como-desconcentracao",
+      "concursoId": "camara-2026",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "autarquia-nao-e-desconcentracao",
+      "mechanism": "entidade-nova-impede-classificacao-como-desconcentracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      },
+      "statement": "A União cria uma autarquia, dotada de personalidade jurídica própria, para desempenhar atividade administrativa. Essa criação é exemplo de desconcentração interna da União.",
+      "correctAnswer": "E",
+      "explanation": "A desconcentração distribui competências dentro da mesma pessoa jurídica. A autarquia é pessoa distinta.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre técnicas de organização administrativa. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+      "id": "cam-revisao-concessao-transfere-execucao-sem-mudar-titular",
+      "concursoId": "camara-2026",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "delegacao-servico-titularidade",
+      "mechanism": "concessao-transfere-execucao-sem-mudar-titular",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#2. Modalidades de Descentralização: Outorga vs. Delegação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "2. Modalidades de Descentralização: Outorga vs. Delegação"
+      },
+      "statement": "O município concede a operação de serviço público a uma empresa. A execução passa à concessionária, enquanto a titularidade permanece com o poder público.",
+      "correctAnswer": "C",
+      "explanation": "Na concessão, delega-se a execução do serviço. O poder concedente permanece titular.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre outorga e delegação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+      "id": "cam-revisao-prazo-de-concessao-nao-altera-titularidade",
+      "concursoId": "camara-2026",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "delegacao-servico-titularidade",
+      "mechanism": "prazo-de-concessao-nao-altera-titularidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#2. Modalidades de Descentralização: Outorga vs. Delegação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "2. Modalidades de Descentralização: Outorga vs. Delegação"
+      },
+      "statement": "A concessão da execução de um serviço público por vinte anos torna a concessionária titular do serviço durante todo o prazo contratual.",
+      "correctAnswer": "E",
+      "explanation": "O prazo delimita a execução delegada. A titularidade continua com o poder concedente.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre outorga e delegação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / poder hierarquico e poder disciplinar limites e distincoes",
+      "id": "cam-revisao-ministerio-e-autarquia-tem-vinculacao-sem-subordinacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "hierarquia-entre-pessoas-juridicas",
+      "mechanism": "ministerio-e-autarquia-tem-vinculacao-sem-subordinacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#1. O poder hierárquico: conceito, escopo e manifestações estruturais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "1. O poder hierárquico: conceito, escopo e manifestações estruturais"
+      },
+      "statement": "A vinculação de uma autarquia a um ministério admite supervisão nos limites legais. Ela não estabelece hierarquia entre as duas estruturas.",
+      "correctAnswer": "C",
+      "explanation": "A hierarquia pressupõe organização interna. Entre a União e sua autarquia há pessoas jurídicas distintas e controle definido pela lei.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre poder hierárquico. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / poder hierarquico e poder disciplinar limites e distincoes",
+      "id": "cam-revisao-personalidade-propria-nao-admite-hierarquia-por-vinculacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "hierarquia-entre-pessoas-juridicas",
+      "mechanism": "personalidade-propria-nao-admite-hierarquia-por-vinculacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#1. O poder hierárquico: conceito, escopo e manifestações estruturais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "1. O poder hierárquico: conceito, escopo e manifestações estruturais"
+      },
+      "statement": "A vinculação ao ministério autoriza seu titular a emitir ordens para a autarquia nos mesmos termos em que emite ordens a um departamento interno.",
+      "correctAnswer": "E",
+      "explanation": "A supervisão sobre a autarquia depende de competência legal e tem alcance distinto da subordinação interna de um departamento.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre poder hierárquico. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+      "id": "cam-revisao-ato-de-departamento-e-imputado-a-pessoa-juridica",
+      "concursoId": "camara-2026",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "teoria-orgao-personalidade",
+      "mechanism": "ato-de-departamento-e-imputado-a-pessoa-juridica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#3. Teoria do Órgão e Classificação dos Órgãos Públicos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "3. Teoria do Órgão e Classificação dos Órgãos Públicos"
+      },
+      "statement": "Um departamento de uma prefeitura, no exercício de sua competência, concede uma licença. Pela teoria do órgão, a manifestação é atribuída ao município.",
+      "correctAnswer": "C",
+      "explanation": "O órgão funciona como centro de competências. Sua atuação é imputada à pessoa jurídica que ele integra.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre teoria do órgão. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+      "id": "cam-revisao-competencia-propria-nao-confere-personalidade-ao-orgao",
+      "concursoId": "camara-2026",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "teoria-orgao-personalidade",
+      "mechanism": "competencia-propria-nao-confere-personalidade-ao-orgao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#3. Teoria do Órgão e Classificação dos Órgãos Públicos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "3. Teoria do Órgão e Classificação dos Órgãos Públicos"
+      },
+      "statement": "Uma secretaria municipal recebe competências fixadas em lei. A atribuição equivale a conferir personalidade jurídica própria à secretaria.",
+      "correctAnswer": "E",
+      "explanation": "Competência do órgão é distinta de personalidade jurídica. A secretaria integra o município.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre teoria do órgão. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo conceito e distincao de fato administrativo",
       "id": "cam-revisao-ordem-e-demolicao-sao-etapas-distintas",
       "concursoId": "camara-2026",

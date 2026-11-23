@@ -7610,6 +7610,230 @@
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-sessao-nao-realizada-transfere-inscricao",
+      "concursoId": "camara-2026",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "pequeno-expediente-nova-sessao-inscricao",
+      "mechanism": "sessao-nao-realizada-transfere-inscricao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "statement": "Uma deputada estava inscrita para falar no Pequeno Expediente, mas a sessão não se realizou. A inscrição não atendida pode ser transferida para a sessão seguinte.",
+      "correctAnswer": "C",
+      "explanation": "A não realização da sessão é uma das hipóteses regimentais de transferência da inscrição.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 81, § 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "id": "cam-revisao-transferencia-da-inscricao-nao-significa-cessao-a-colega",
+      "concursoId": "camara-2026",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "pequeno-expediente-nova-sessao-inscricao",
+      "mechanism": "transferencia-da-inscricao-nao-significa-cessao-a-colega",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "statement": "Com o levantamento da sessão, a inscrição não atendida no Pequeno Expediente é transferida automaticamente a outro deputado indicado pelo orador.",
+      "correctAnswer": "E",
+      "explanation": "A transferência preserva a inscrição do próprio orador para outra sessão. Ela não é cessão a um colega.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 81, § 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "id": "cam-revisao-mesma-legenda-nao-impede-oradores-designados",
+      "concursoId": "camara-2026",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "solene-oradores-mesmo-partido",
+      "mechanism": "mesma-legenda-nao-impede-oradores-designados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      },
+      "statement": "Para uma sessão solene do Congresso, cada Casa designa previamente seu orador, e ambos pertencem ao mesmo partido. A coincidência partidária, por si só, não impede seus pronunciamentos.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento Comum indica preferência por partidos diferentes, sem impor uma vedação absoluta.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, art. 55. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "id": "cam-revisao-preferencia-partidaria-nao-e-condicao-de-validade",
+      "concursoId": "camara-2026",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "solene-oradores-mesmo-partido",
+      "mechanism": "preferencia-partidaria-nao-e-condicao-de-validade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      },
+      "statement": "A sessão solene só pode ter pronunciamento de um senador e de um deputado se pertencerem a partidos distintos.",
+      "correctAnswer": "E",
+      "explanation": "A composição com partidos distintos é preferencial. O Regimento não a transforma em requisito obrigatório.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, art. 55. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-camara-tem-dez-dias-para-apreciar-emendas-do-senado",
+      "concursoId": "camara-2026",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "urgencia-emenda-senado-novo-periodo",
+      "mechanism": "camara-tem-dez-dias-para-apreciar-emendas-do-senado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento sumário: urgência constitucional presidencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento sumário: urgência constitucional presidencial"
+      },
+      "statement": "Durante a tramitação de projeto de iniciativa presidencial submetido à urgência constitucional, o Senado aprova emendas. O prazo constitucional para a Câmara apreciar essas emendas é de dez dias.",
+      "correctAnswer": "C",
+      "explanation": "A apreciação das emendas pelo primeiro colegiado tem prazo específico de dez dias, distinto dos prazos de deliberação inicial.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 64, §§ 2º a 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-revisao-retorno-com-emendas-nao-reinicia-prazo-de-45-dias",
+      "concursoId": "camara-2026",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "urgencia-emenda-senado-novo-periodo",
+      "mechanism": "retorno-com-emendas-nao-reinicia-prazo-de-45-dias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento sumário: urgência constitucional presidencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento sumário: urgência constitucional presidencial"
+      },
+      "statement": "Quando um projeto sob urgência constitucional retorna à Câmara com emendas do Senado, começa novo prazo de 45 dias para apreciar essas emendas.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição fixa dez dias para a Câmara apreciar emendas do Senado nessa hipótese.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 64, §§ 2º a 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "id": "cam-revisao-sustacao-de-ato-nao-corrigido-e-comunicada-as-duas-casas",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-ato-prazo-e-dupla-comunicacao",
+      "mechanism": "sustacao-de-ato-nao-corrigido-e-comunicada-as-duas-casas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Atos administrativos, contratos e execução de decisões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Atos administrativos, contratos e execução de decisões"
+      },
+      "statement": "O Tribunal de Contas da União fixa prazo para corrigir ilegalidade em ato administrativo. Descumprida a determinação, susta a execução do ato e comunica a decisão à Câmara e ao Senado.",
+      "correctAnswer": "C",
+      "explanation": "O Tribunal susta o ato se a determinação não for atendida e comunica a decisão a ambas as Casas.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, IX e X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "id": "cam-revisao-comunicacao-de-sustacao-de-ato-nao-se-esgota-no-senado",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-ato-prazo-e-dupla-comunicacao",
+      "mechanism": "comunicacao-de-sustacao-de-ato-nao-se-esgota-no-senado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Atos administrativos, contratos e execução de decisões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Atos administrativos, contratos e execução de decisões"
+      },
+      "statement": "Ao sustar a execução de ato administrativo após o descumprimento da determinação corretiva, o Tribunal de Contas da União deve comunicar sua decisão apenas ao Senado Federal.",
+      "correctAnswer": "E",
+      "explanation": "O inciso X exige comunicação à Câmara dos Deputados e ao Senado Federal.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, IX e X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
       "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
       "id": "cam-revisao-exoneracao-de-oficio-do-pgr-requer-41-votos",
       "concursoId": "camara-2026",

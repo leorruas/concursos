@@ -7610,6 +7610,286 @@
       "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "id": "cam-revisao-certidao-nao-impoe-conduta-ao-destinatario",
+      "concursoId": "camara-2026",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "imperatividade-nao-universal",
+      "mechanism": "certidao-nao-impoe-conduta-ao-destinatario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#2. Imperatividade (Poder Extroverso / Coercibilidade)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "2. Imperatividade (Poder Extroverso / Coercibilidade)"
+      },
+      "statement": "Uma certidão administrativa que apenas atesta informação registrada não impõe obrigação ao destinatário. Ela exemplifica ato que não apresenta imperatividade.",
+      "correctAnswer": "C",
+      "explanation": "A certidão declara informação. A imperatividade está presente nos atos que impõem efeitos independentemente da concordância do destinatário.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre imperatividade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "id": "cam-revisao-emissao-unilateral-nao-torna-todo-ato-imperativo",
+      "concursoId": "camara-2026",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "imperatividade-nao-universal",
+      "mechanism": "emissao-unilateral-nao-torna-todo-ato-imperativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#2. Imperatividade (Poder Extroverso / Coercibilidade)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "2. Imperatividade (Poder Extroverso / Coercibilidade)"
+      },
+      "statement": "Por ser emitida unilateralmente pela Administração, uma certidão que apenas atesta o teor de um registro é necessariamente imperativa.",
+      "correctAnswer": "E",
+      "explanation": "A origem unilateral não basta. É preciso que o ato imponha obrigação ou restrição independentemente da concordância do destinatário.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre imperatividade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5",
+      "id": "cam-revisao-escolha-discricionaria-nao-afasta-dever-legal-de-motivar",
+      "concursoId": "camara-2026",
+      "articleId": "art-b740cbbd05e54a26",
+      "conceptId": "motivacao-discricionariedade",
+      "mechanism": "escolha-discricionaria-nao-afasta-dever-legal-de-motivar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b740cbbd05e54a26#Vinculação e discricionariedade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/04 - poderes administrativos.md",
+        "section": "Vinculação e discricionariedade"
+      },
+      "statement": "Quando a lei exige motivação para uma decisão administrativa, a margem de escolha da autoridade não afasta o dever de indicar os fundamentos da decisão.",
+      "correctAnswer": "C",
+      "explanation": "A discricionariedade permite escolher entre alternativas legalmente admissíveis. A exigência de motivação continua aplicável.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre vinculação e discricionariedade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5",
+      "id": "cam-revisao-conveniencia-nao-autoriza-omitir-fundamentos-exigidos",
+      "concursoId": "camara-2026",
+      "articleId": "art-b740cbbd05e54a26",
+      "conceptId": "motivacao-discricionariedade",
+      "mechanism": "conveniencia-nao-autoriza-omitir-fundamentos-exigidos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b740cbbd05e54a26#Vinculação e discricionariedade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/04 - poderes administrativos.md",
+        "section": "Vinculação e discricionariedade"
+      },
+      "statement": "A autoridade pode omitir os fundamentos de uma decisão para a qual a lei exige motivação, desde que tenha atuado no espaço de conveniência que a lei lhe conferiu.",
+      "correctAnswer": "E",
+      "explanation": "Competência discricionária e dever de motivar operam em planos distintos. A margem de escolha não elimina a exigência legal.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre vinculação e discricionariedade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo",
+      "id": "cam-revisao-ordem-de-servico-organiza-entrega-interna",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "ordem-de-servico-interna",
+      "mechanism": "ordem-de-servico-organiza-entrega-interna",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#2. Espécies de Atos Administrativos em Espécie (NONEP)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "2. Espécies de Atos Administrativos em Espécie (NONEP)"
+      },
+      "statement": "Uma chefia expede ordem de serviço para organizar o fluxo de entrega de documentos entre as equipes subordinadas. Pela finalidade interna, o ato é ordinatório.",
+      "correctAnswer": "C",
+      "explanation": "Atos ordinatórios organizam o funcionamento do serviço e orientam a atuação interna dos subordinados.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre espécies de atos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo",
+      "id": "cam-revisao-ordem-interna-nao-e-ato-negocial",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "ordem-de-servico-interna",
+      "mechanism": "ordem-interna-nao-e-ato-negocial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#2. Espécies de Atos Administrativos em Espécie (NONEP)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "2. Espécies de Atos Administrativos em Espécie (NONEP)"
+      },
+      "statement": "Uma ordem de serviço que distribui tarefas entre servidores é ato negocial porque os servidores precisam concordar com o cronograma.",
+      "correctAnswer": "E",
+      "explanation": "A distribuição interna de tarefas é ato ordinatório vinculado à organização do serviço, não consentimento administrativo a pedido de particular.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre espécies de atos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / poder hierarquico e poder disciplinar limites e distincoes",
+      "id": "cam-revisao-sancao-por-infracao-funcional-decorre-de-vinculo-especial",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "poder-disciplinar-vinculo-especial",
+      "mechanism": "sancao-por-infracao-funcional-decorre-de-vinculo-especial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      },
+      "statement": "Uma autoridade competente instaura procedimento para apurar infração funcional de servidor vinculado ao órgão. A eventual sanção nessa esfera decorre do poder disciplinar.",
+      "correctAnswer": "C",
+      "explanation": "O dever funcional violado decorre do vínculo especial do servidor com a Administração.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre poder disciplinar. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / poder hierarquico e poder disciplinar limites e distincoes",
+      "id": "cam-revisao-multa-sanitaria-geral-nao-pressupoe-relacao-disciplinar",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "poder-disciplinar-vinculo-especial",
+      "mechanism": "multa-sanitaria-geral-nao-pressupoe-relacao-disciplinar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      },
+      "statement": "A Administração aplica multa por descumprimento de norma sanitária geral a um estabelecimento que não tem vínculo especial com ela. A sanção decorre do poder disciplinar.",
+      "correctAnswer": "E",
+      "explanation": "A multa fundada em norma geral de polícia decorre do poder de polícia. O poder disciplinar pressupõe vínculo especial.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre poder disciplinar. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo conceito e distincao de fato administrativo",
+      "id": "cam-revisao-norma-atribui-efeito-ao-decurso-do-prazo",
+      "concursoId": "camara-2026",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "silencio-efeito-legal",
+      "mechanism": "norma-atribui-efeito-ao-decurso-do-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#3. O Silêncio Administrativo e seus Efeitos Jurídicos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "3. O Silêncio Administrativo e seus Efeitos Jurídicos"
+      },
+      "statement": "Se a legislação aplicável determina que a falta de resposta até certa data produza efeito jurídico específico, o silêncio terá o efeito previsto na norma.",
+      "correctAnswer": "C",
+      "explanation": "O silêncio é uma omissão. Seu efeito jurídico depende do que a disciplina aplicável estabelece.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre silêncio administrativo. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo conceito e distincao de fato administrativo",
+      "id": "cam-revisao-prazo-esgotado-nao-significa-aprovacao-automatica",
+      "concursoId": "camara-2026",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "silencio-efeito-legal",
+      "mechanism": "prazo-esgotado-nao-significa-aprovacao-automatica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#3. O Silêncio Administrativo e seus Efeitos Jurídicos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "3. O Silêncio Administrativo e seus Efeitos Jurídicos"
+      },
+      "statement": "Sem disposição jurídica que atribua efeito positivo ao silêncio, o simples esgotamento do prazo para responder a um pedido implica sua aprovação.",
+      "correctAnswer": "E",
+      "explanation": "A demora não equivale automaticamente a deferimento. Para que o silêncio produza efeito positivo, é preciso fundamento jurídico aplicável.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre silêncio administrativo. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
       "id": "cam-revisao-fiscalizacao-sanitaria-ilustra-sentido-material",
       "concursoId": "camara-2026",

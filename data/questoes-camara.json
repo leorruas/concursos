@@ -7607,6 +7607,230 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-erro-de-digitacao-nao-equivale-automaticamente-a-falsidade-intencional",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "declaracao-erronea-sem-dolo",
+      "mechanism": "erro-de-digitacao-nao-equivale-automaticamente-a-falsidade-intencional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "Um erro de digitação sem intenção de falsear informação não basta, por si só, para caracterizar a conduta incompatível com o decoro prevista no art. 4º, V.",
+      "correctAnswer": "C",
+      "explanation": "A hipótese do inciso exige intencionalidade na omissão ou no fornecimento de informação falsa nas declarações do art. 18.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 4º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-divergencia-material-nao-dispensa-apurar-intencao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "declaracao-erronea-sem-dolo",
+      "mechanism": "divergencia-material-nao-dispensa-apurar-intencao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "Uma divergência material em declaração exigida pelo art. 18 basta para caracterizar a conduta do art. 4º, V, independentemente de se apurar a intenção.",
+      "correctAnswer": "E",
+      "explanation": "É preciso distinguir inexatidão sem intenção de omissão ou falsidade intencional.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 4º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-prazo-do-conselho-suspende-no-recesso-sem-convocacao-pertinente",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "prazo-corrido-durante-recesso",
+      "mechanism": "prazo-do-conselho-suspende-no-recesso-sem-convocacao-pertinente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      },
+      "statement": "Um prazo do Conselho de Ética em curso é alcançado pelo recesso. Sem inclusão de matéria da competência do Conselho na pauta de convocação extraordinária, o prazo fica suspenso.",
+      "correctAnswer": "C",
+      "explanation": "O recesso suspende os prazos. A ressalva exige a inclusão de matéria da competência do Conselho na convocação extraordinária.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 8º, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-convocacao-para-materia-alheia-nao-afasta-suspensao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "prazo-corrido-durante-recesso",
+      "mechanism": "convocacao-para-materia-alheia-nao-afasta-suspensao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      },
+      "statement": "Uma convocação extraordinária sem matéria de competência do Conselho de Ética faz com que todos os prazos do Conselho voltem a correr durante o recesso.",
+      "correctAnswer": "E",
+      "explanation": "A exceção exige matéria da competência do Conselho incluída na pauta da convocação. A convocação por outro motivo não basta.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 8º, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-atraso-do-relator-pode-justificar-substituicao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relatoria-atraso-individual",
+      "mechanism": "atraso-do-relator-pode-justificar-substituicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Um relator deixa vencer prazo que o Código lhe atribui em processo disciplinar. O presidente do Conselho pode designar substituto elegível mesmo antes de se esgotar o prazo global do processo.",
+      "correctAnswer": "C",
+      "explanation": "O descumprimento do prazo próprio do relator é suficiente para autorizar a substituição ou a avocação, observadas as condições do Código.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 16, § 4º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-prazo-global-nao-impede-avocacao-por-atraso-individual",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relatoria-atraso-individual",
+      "mechanism": "prazo-global-nao-impede-avocacao-por-atraso-individual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Enquanto não vencer o prazo global do processo disciplinar, o presidente do Conselho está impedido de avocar a relatoria, ainda que o relator já tenha descumprido prazo dos arts. 13 ou 14.",
+      "correctAnswer": "E",
+      "explanation": "O art. 16, § 4º, vincula a possibilidade de avocação ao atraso do relator nos prazos previstos nesses artigos.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 16, § 4º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-cinco-sessoes-para-emendas-distintas-de-prazo-de-parecer",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "reforma-codigo-etica-prazos-por-etapa",
+      "mechanism": "cinco-sessoes-para-emendas-distintas-de-prazo-de-parecer",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Alteração do próprio Código de Ética (art. 19)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Alteração do próprio Código de Ética (art. 19)"
+      },
+      "statement": "Na tramitação de projeto de reforma do Código de Ética pelo rito do art. 216, a etapa de apresentação de emendas dura cinco sessões, ainda que o prazo aplicável aos pareceres seja maior.",
+      "correctAnswer": "C",
+      "explanation": "O § 1º destina cinco sessões ao recebimento de emendas. O § 3º disciplina os prazos para parecer.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 19, e o Regimento Interno, art. 216, §§ 1º e 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-vinte-sessoes-de-parecer-nao-ampliam-janela-de-emendas",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "reforma-codigo-etica-prazos-por-etapa",
+      "mechanism": "vinte-sessoes-de-parecer-nao-ampliam-janela-de-emendas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Alteração do próprio Código de Ética (art. 19)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Alteração do próprio Código de Ética (art. 19)"
+      },
+      "statement": "Na reforma do Código de Ética, o prazo de vinte sessões previsto para pareceres estende automaticamente para vinte sessões a janela de apresentação de emendas.",
+      "correctAnswer": "E",
+      "explanation": "O rito separa as etapas. O prazo maior para pareceres não altera as cinco sessões para emendas.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 19, e o Regimento Interno, art. 216, §§ 1º e 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",

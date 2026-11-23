@@ -7610,6 +7610,342 @@
       "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",
+      "id": "cam-revisao-contrato-administrativo-cria-vinculo-especial",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "disciplina-particulares",
+      "mechanism": "contrato-administrativo-cria-vinculo-especial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      },
+      "statement": "Uma empresa contratada descumpre obrigação de contrato administrativo. O vínculo contratual pode fundamentar a aplicação da sanção prevista em lei, observado o processo aplicável.",
+      "correctAnswer": "C",
+      "explanation": "O contrato estabelece relação de sujeição específica, da qual resultam deveres e sanções próprios.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre sujeição especial. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",
+      "id": "cam-revisao-vinculo-especial-nao-exige-cargo-publico",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "disciplina-particulares",
+      "mechanism": "vinculo-especial-nao-exige-cargo-publico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      },
+      "statement": "A Administração não pode sancionar uma contratada por inadimplemento contratual porque apenas servidores têm vínculo especial com ela.",
+      "correctAnswer": "E",
+      "explanation": "O vínculo especial também pode decorrer de contrato administrativo. A sanção tem de observar o regime e o procedimento aplicáveis.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre sujeição especial. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",
+      "id": "cam-revisao-ordem-escrita-manifestamente-ilegal-nao-deve-ser-cumprida",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "ordem-ilegal",
+      "mechanism": "ordem-escrita-manifestamente-ilegal-nao-deve-ser-cumprida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#Limites dogmáticos do poder hierárquico"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "Limites dogmáticos do poder hierárquico"
+      },
+      "statement": "Em órgão federal, uma chefia ordena por escrito conduta manifestamente ilegal. A formalização da ordem não torna seu cumprimento obrigatório para o servidor.",
+      "correctAnswer": "C",
+      "explanation": "A subordinação não abrange o dever de cumprir ordem manifestamente ilegal.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre limites do poder hierárquico. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",
+      "id": "cam-revisao-reiteracao-nao-cria-dever-de-cumprir-ordem-manifestamente-ilegal",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "ordem-ilegal",
+      "mechanism": "reiteracao-nao-cria-dever-de-cumprir-ordem-manifestamente-ilegal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#Limites dogmáticos do poder hierárquico"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "Limites dogmáticos do poder hierárquico"
+      },
+      "statement": "Uma ordem manifestamente ilegal passa a ser de cumprimento obrigatório se a autoridade superior a reiterar.",
+      "correctAnswer": "E",
+      "explanation": "A reiteração não corrige a ilegalidade manifesta. O limite ao dever de obediência permanece.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre limites do poder hierárquico. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-imposicao-da-multa-difere-de-cobranca-forcada",
+      "concursoId": "camara-2026",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "multa-autoexecutoriedade",
+      "mechanism": "imposicao-da-multa-difere-de-cobranca-forcada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3. Autoexecutoriedade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3. Autoexecutoriedade"
+      },
+      "statement": "Uma autoridade aplica regularmente multa administrativa. O poder de aplicá-la por ato próprio não autoriza, por si só, retirar dinheiro da conta do devedor para declarar a dívida quitada.",
+      "correctAnswer": "C",
+      "explanation": "A imposição administrativa da multa e a sua cobrança coercitiva são etapas distintas. Esta segue os meios de cobrança previstos no ordenamento.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre autoexecutoriedade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-multa-inadimplida-nao-autoriza-apropriacao-direta",
+      "concursoId": "camara-2026",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "multa-autoexecutoriedade",
+      "mechanism": "multa-inadimplida-nao-autoriza-apropriacao-direta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3. Autoexecutoriedade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3. Autoexecutoriedade"
+      },
+      "statement": "Uma multa administrativa vencida e não paga pode ser satisfeita pela apreensão direta de dinheiro do devedor, com fundamento apenas na autoexecutoriedade.",
+      "correctAnswer": "E",
+      "explanation": "A autoexecutoriedade não autoriza, como regra, a cobrança forçada direta de obrigação pecuniária.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre autoexecutoriedade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.1",
+      "id": "cam-revisao-atalho-mais-rapido-nao-dispensa-etapa-obrigatoria",
+      "concursoId": "camara-2026",
+      "articleId": "art-8946971690804376",
+      "conceptId": "eficiencia-legalidade",
+      "mechanism": "atalho-mais-rapido-nao-dispensa-etapa-obrigatoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8946971690804376#Eficiência"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+        "section": "Eficiência"
+      },
+      "statement": "Um gestor pode reorganizar um fluxo para ganhar eficiência, mas deve preservar etapas expressamente exigidas pela lei.",
+      "correctAnswer": "C",
+      "explanation": "A busca por eficiência orienta a gestão dentro dos limites legais.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre eficiência. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.1",
+      "id": "cam-revisao-economia-de-tempo-nao-afasta-regra-obrigatoria",
+      "concursoId": "camara-2026",
+      "articleId": "art-8946971690804376",
+      "conceptId": "eficiencia-legalidade",
+      "mechanism": "economia-de-tempo-nao-afasta-regra-obrigatoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8946971690804376#Eficiência"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+        "section": "Eficiência"
+      },
+      "statement": "A eficiência autoriza afastar regra legal obrigatória de um procedimento sempre que o gestor demonstrar que a omissão reduz custos.",
+      "correctAnswer": "E",
+      "explanation": "A redução de custos não autoriza descumprir a lei. Eficiência e legalidade são exigências simultâneas.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre eficiência. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-forma-de-sociedade-anonima-exigida-para-economia-mista",
+      "concursoId": "camara-2026",
+      "articleId": "art-86dee064aef44ba4",
+      "conceptId": "sociedade-mista",
+      "mechanism": "forma-de-sociedade-anonima-exigida-para-economia-mista",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Empresas públicas e sociedades de economia mista"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Empresas públicas e sociedades de economia mista"
+      },
+      "statement": "Na instituição de uma sociedade de economia mista, a forma societária adotada deve ser a de sociedade anônima.",
+      "correctAnswer": "C",
+      "explanation": "A forma de sociedade anônima integra a definição legal da sociedade de economia mista.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre entidades estatais empresariais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-controle-publico-nao-permite-forma-limitada-a-economia-mista",
+      "concursoId": "camara-2026",
+      "articleId": "art-86dee064aef44ba4",
+      "conceptId": "sociedade-mista",
+      "mechanism": "controle-publico-nao-permite-forma-limitada-a-economia-mista",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Empresas públicas e sociedades de economia mista"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Empresas públicas e sociedades de economia mista"
+      },
+      "statement": "Uma estatal pode ser constituída como sociedade limitada e classificada como sociedade de economia mista desde que o Estado controle a maioria do capital votante.",
+      "correctAnswer": "E",
+      "explanation": "O controle público do capital votante não dispensa a forma de sociedade anônima exigida para a sociedade de economia mista.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre entidades estatais empresariais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1",
+      "id": "cam-revisao-tribunal-licita-no-exercicio-de-funcao-administrativa",
+      "concursoId": "camara-2026",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "funcao-atipica",
+      "mechanism": "tribunal-licita-no-exercicio-de-funcao-administrativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#4. O Exercício da Função Administrativa nos Três Poderes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "4. O Exercício da Função Administrativa nos Três Poderes"
+      },
+      "statement": "Ao promover contratação para manutenção de sua sede, um tribunal exerce função administrativa atípica.",
+      "correctAnswer": "C",
+      "explanation": "A contratação é gestão da estrutura do tribunal, não solução jurisdicional de um conflito.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre funções da Administração nos três Poderes. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1",
+      "id": "cam-revisao-gestao-de-servidores-no-legislativo-nao-e-funcao-tipica",
+      "concursoId": "camara-2026",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "funcao-atipica",
+      "mechanism": "gestao-de-servidores-no-legislativo-nao-e-funcao-tipica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#4. O Exercício da Função Administrativa nos Três Poderes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "4. O Exercício da Função Administrativa nos Três Poderes"
+      },
+      "statement": "A concessão de férias aos servidores de uma assembleia legislativa constitui exercício de função legislativa típica pelo simples fato de ser praticada pela assembleia.",
+      "correctAnswer": "E",
+      "explanation": "A competência de gestão de pessoal é administrativa. A classificação decorre do conteúdo da atividade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre funções da Administração nos três Poderes. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.1",
       "id": "cam-revisao-ilegalidade-justifica-anulacao-em-autotutela",
       "concursoId": "camara-2026",

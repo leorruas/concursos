@@ -7608,6 +7608,286 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual e emprego de conectores",
+      "id": "cam-revisao-a-medida-que-relaciona-duas-variacoes",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "conector-proporcional-dupla-variacao",
+      "mechanism": "a-medida-que-relaciona-duas-variacoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      },
+      "statement": "Em “À medida que crescia a demanda, aumentava o tempo de espera”, o conectivo apresenta duas grandezas que variam em relação uma à outra.",
+      "correctAnswer": "C",
+      "explanation": "O crescimento da demanda acompanha o aumento da espera. O conector exprime proporcionalidade, sem exigir razão matemática constante.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre conectores proporcionais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual e emprego de conectores",
+      "id": "cam-revisao-quanto-mais-quanto-menos-nao-indica-finalidade",
+      "concursoId": "camara-2026",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "conector-proporcional-dupla-variacao",
+      "mechanism": "quanto-mais-quanto-menos-nao-indica-finalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      },
+      "statement": "Em “Quanto mais simples o formulário, menos dúvidas surgem”, a estrutura indica que a simplificação tem como finalidade produzir as dúvidas.",
+      "correctAnswer": "E",
+      "explanation": "A estrutura correlaciona duas variações, de sentidos opostos. Ela não apresenta uma finalidade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre conectores proporcionais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-casa-determinada-da-irma-admite-crase",
+      "concursoId": "camara-2026",
+      "articleId": "art-3f8cfa8b8d43c2bd",
+      "conceptId": "crase-casa-determinada",
+      "mechanism": "casa-determinada-da-irma-admite-crase",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3f8cfa8b8d43c2bd#5. Os três casos facultativos clássicos e os quatro casos especiais (*casa, terra, distância, nomes de lugar*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos.md",
+        "section": "5. Os três casos facultativos clássicos e os quatro casos especiais (*casa, terra, distância, nomes de lugar*)"
+      },
+      "statement": "Em “Depois da reunião, voltamos à casa da minha irmã”, emprega-se o acento grave porque “casa” está determinada e o verbo pede preposição “a” nessa construção.",
+      "correctAnswer": "C",
+      "explanation": "A preposição “a” exigida por “voltar” combina-se com o artigo definido de “a casa da minha irmã”.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre o emprego de crase com casa. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "id": "cam-revisao-volta-a-casa-propria-sem-determinante-nao-leva-crase",
+      "concursoId": "camara-2026",
+      "articleId": "art-3f8cfa8b8d43c2bd",
+      "conceptId": "crase-casa-determinada",
+      "mechanism": "volta-a-casa-propria-sem-determinante-nao-leva-crase",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3f8cfa8b8d43c2bd#5. Os três casos facultativos clássicos e os quatro casos especiais (*casa, terra, distância, nomes de lugar*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos.md",
+        "section": "5. Os três casos facultativos clássicos e os quatro casos especiais (*casa, terra, distância, nomes de lugar*)"
+      },
+      "statement": "Em “Ao fim do expediente, voltei à casa”, no sentido de voltar para a própria residência e sem especificação adicional, o acento grave é obrigatório.",
+      "correctAnswer": "E",
+      "explanation": "Nesse uso, “casa” aparece sem artigo. A preposição fica sozinha: “voltei a casa”.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre o emprego de crase com casa. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-nem-todos-admite-alguns-com-a-propriedade",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "mudanca-no-escopo-da-negacao",
+      "mechanism": "nem-todos-admite-alguns-com-a-propriedade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "A frase “Nem todos os requerimentos foram deferidos” é compatível com a informação de que alguns requerimentos foram deferidos.",
+      "correctAnswer": "C",
+      "explanation": "A negação recai sobre “todos”. Ela impede concluir que todos foram deferidos, mas permite que parte deles tenha sido.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre inferência e extrapolação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-nao-analisou-todos-nao-equivale-a-nenhum",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "mudanca-no-escopo-da-negacao",
+      "mechanism": "nao-analisou-todos-nao-equivale-a-nenhum",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "Reescrever “A equipe não analisou todos os pedidos” como “A equipe não analisou nenhum pedido” preserva a informação original.",
+      "correctAnswer": "E",
+      "explanation": "Negar a totalidade da análise deixa em aberto se alguns pedidos foram analisados. A segunda frase exclui todos eles.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre inferência e extrapolação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-ao-receber-introduz-marco-temporal",
+      "concursoId": "camara-2026",
+      "articleId": "art-33566ad5fe490701",
+      "conceptId": "reduzida-com-leitura-temporal",
+      "mechanism": "ao-receber-introduz-marco-temporal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-33566ad5fe490701#5. Orações Reduzidas (Infinitivo, Gerúndio e Particípio)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md",
+        "section": "5. Orações Reduzidas (Infinitivo, Gerúndio e Particípio)"
+      },
+      "statement": "Em “Ao receber a confirmação, o técnico atualizou a agenda”, a oração reduzida de infinitivo permite a leitura temporal “quando recebeu a confirmação”.",
+      "correctAnswer": "C",
+      "explanation": "“Ao receber” situa a atualização da agenda no tempo. A paráfrase com “quando” explicita essa relação.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre orações reduzidas. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-ao-terminar-nao-marca-finalidade-na-frase",
+      "concursoId": "camara-2026",
+      "articleId": "art-33566ad5fe490701",
+      "conceptId": "reduzida-com-leitura-temporal",
+      "mechanism": "ao-terminar-nao-marca-finalidade-na-frase",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-33566ad5fe490701#5. Orações Reduzidas (Infinitivo, Gerúndio e Particípio)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md",
+        "section": "5. Orações Reduzidas (Infinitivo, Gerúndio e Particípio)"
+      },
+      "statement": "Em “Ao terminar a conferência, a equipe fechou o arquivo”, a oração reduzida exprime o objetivo de fechar o arquivo.",
+      "correctAnswer": "E",
+      "explanation": "A oração marca quando o arquivo foi fechado. A finalidade exigiria outra relação, como “para terminar a conferência”.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre orações reduzidas. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação de textos",
+      "id": "cam-revisao-prazo-medio-menor-ainda-pode-exceder-meta",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "reduzir-atraso-sem-zerar",
+      "mechanism": "prazo-medio-menor-ainda-pode-exceder-meta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#2. O Explícito versus o Implícito"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "2. O Explícito versus o Implícito"
+      },
+      "statement": "O texto “o novo fluxo reduziu o atraso médio” é compatível com a persistência de algum atraso após a mudança.",
+      "correctAnswer": "C",
+      "explanation": "Reduzir indica diminuição. O texto não informa que o atraso tenha chegado a zero.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre informação explícita e implícita. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação de textos",
+      "id": "cam-revisao-reduzir-fila-nao-implica-encerrar-atraso",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "reduzir-atraso-sem-zerar",
+      "mechanism": "reduzir-fila-nao-implica-encerrar-atraso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#2. O Explícito versus o Implícito"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "2. O Explícito versus o Implícito"
+      },
+      "statement": "Da afirmação “o mutirão reduziu o atraso nas análises” depreende-se que todos os processos passaram a ser analisados dentro do prazo.",
+      "correctAnswer": "E",
+      "explanation": "A afirmação informa uma redução de atraso. Ela não assegura o cumprimento de todos os prazos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre informação explícita e implícita. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",

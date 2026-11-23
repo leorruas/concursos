@@ -32,9 +32,53 @@ function ordenarArtigosDaMateria(a, b) {
 
 function obterNumeroArtigoNoIndice(artigo, caminhoHub) {
     if ((caminhoHub && artigo.sourcePath === caminhoHub) || ehResumoPrincipalDaMateria(artigo)) return "00";
+    const capitulo = capitulosDireitoAdministrativo.get(artigo.articleId);
+    if (capitulo != null) return String(capitulo).padStart(2, "0");
     const arquivo = (artigo.sourcePath || artigo.titulo || "").split("/").pop();
     const prefixo = /^(\d+)\s*-/.exec(arquivo)?.[1];
     return prefixo?.padStart(2, "0") || "";
+}
+
+// Capítulos do EPUB de Direito Administrativo. O filtro de edital só define a visibilidade.
+const capitulosDireitoAdministrativo = new Map([
+    ["art-0242ff68d8ca9529", 1],
+    ["art-8946971690804376", 2],
+    ["art-86dee064aef44ba4", 3],
+    ["art-880b577a5c2ba82d", 4],
+    ["art-e9d0b4352f3e1455", 5],
+    ["art-a7703dd0e3fc4618", 6],
+    ["art-b740cbbd05e54a26", 7],
+    ["art-20294d2578a610bd", 8],
+    ["art-733c0e474219cd22", 9],
+    ["art-10a91f6bf9b53f1a", 10],
+    ["art-61c7724cba33648a", 11],
+    ["art-0bf3465cd357e76e", 12],
+    ["art-6b9002df47604ea5", 13],
+    ["art-b1f27b8954f08262", 14],
+    ["art-d982b608fc646e5a", 15],
+    ["art-2c1333aa75b06e9c", 16],
+    ["art-18fed28e7af50bca", 17],
+    ["art-71166a1de21cc98f", 18],
+    ["art-cc7c145f65061c3a", 19],
+    ["art-9f98650edd9e4278", 20],
+    ["art-b3edb79bff314c93", 21],
+    ["art-4c8a4b35894d4fa9", 22],
+    ["art-c61cca38ed36e424", 23],
+    ["art-bc65879a85f5b5d8", 24],
+    ["art-ea06e80ef83f4af7", 25],
+    ["art-cbd0b4285d514319", 26],
+    ["art-e3be4825ac4c455a", 27]
+]);
+
+function ordenarCapitulosDireitoAdministrativo(a, b) {
+    const hubA = ehResumoPrincipalDaMateria(a);
+    const hubB = ehResumoPrincipalDaMateria(b);
+    if (hubA !== hubB) return hubA ? -1 : 1;
+
+    const capituloA = capitulosDireitoAdministrativo.get(a.articleId) ?? Infinity;
+    const capituloB = capitulosDireitoAdministrativo.get(b.articleId) ?? Infinity;
+    if (capituloA !== capituloB) return capituloA - capituloB;
+    return ordenarArtigosDaMateria(a, b);
 }
 
 async function carregarCamadaEstrategica() {
@@ -371,7 +415,11 @@ function renderizarPastas() {
 // Visualizador da Disciplina
 function abrirDisciplina(categoria, atualizarRota = true) {
     if (!(todasAsPastas[categoria]?.length) && !obterProgramaSelecionado()?.subjects.some(m => m.categoria === categoria)) return;
-    const artigos = obterArtigosDaMateria(categoria);
+    const usaCapitulosDoEbook = categoria === "Direito Administrativo";
+    const artigosDaMateria = obterArtigosDaMateria(categoria);
+    const artigos = usaCapitulosDoEbook
+        ? [...artigosDaMateria].sort(ordenarCapitulosDireitoAdministrativo)
+        : artigosDaMateria;
     const materiaSelecionada = obterProgramaSelecionado()
         ?.subjects.find(item => item.categoria === categoria) || null;
 
@@ -477,13 +525,13 @@ function abrirDisciplina(categoria, atualizarRota = true) {
         }
         const origem = categoria;
         acao.href = rotaDoArtigo(artigo, "", origem);
-        acao.setAttribute("aria-label", artigo.titulo);
 
         const numeroFormatado = obterNumeroArtigoNoIndice(artigo, materiaSelecionada?.hubSourcePath);
         const tituloFormatado = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
 
+        acao.setAttribute("aria-label", numeroFormatado ? numeroFormatado + " · " + tituloFormatado : tituloFormatado);
         acao.innerHTML = `
-            <span class="disciplina-acao-numero">${numeroFormatado}</span>
+            <span class="disciplina-acao-numero" aria-hidden="true">${numeroFormatado}</span>
             <span class="disciplina-acao-conteudo">
                 <strong>${tituloFormatado}</strong>
             </span>

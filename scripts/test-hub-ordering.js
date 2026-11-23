@@ -13,7 +13,7 @@ const helpers = recorteFim > 0 ? codigo.slice(0, recorteFim) : codigo;
 
 const contexto = { console };
 vm.createContext(contexto);
-vm.runInContext(helpers + '\nglobalThis.__hubApi = { ehResumoPrincipalDaMateria, ordenarArtigosDaMateria, obterNumeroArtigoNoIndice };', contexto);
+vm.runInContext(helpers + '\nglobalThis.__hubApi = { ehResumoPrincipalDaMateria, ordenarArtigosDaMateria, obterNumeroArtigoNoIndice, ordenarCapitulosDireitoAdministrativo };', contexto);
 const api = contexto.__hubApi;
 
 let falhas = 0;
@@ -70,6 +70,25 @@ check('hub indicado pelo catálogo recebe 00',
     '3 - Materias/Teste/visao-geral.md') === '00');
 check('título sem prefixo fica sem número',
   api.obterNumeroArtigoNoIndice({titulo:'lembretes'}) === '');
+
+const pastaAdministrativo = '3 - Materias/Direito Administrativo';
+const capitulos = fs.readdirSync(path.join(rootDir, pastaAdministrativo))
+  .filter(file => /^\d+ - /.test(file))
+  .map(file => ({
+    sourcePath: pastaAdministrativo + '/' + file,
+    articleId: fs.readFileSync(path.join(rootDir, pastaAdministrativo, file), 'utf8')
+      .match(/^articleId: "?([^"\r\n]+)/m)?.[1]
+  }));
+const ordemEbook = [12, 1, 2, 13, 14, 3, 4, 27, 15, 16, 17, 18, 5, 19, 20, 21, 22, 23, 24, 6, 10, 9, 25, 26, 7, 11, 8];
+const ordemPublicada = capitulos.filter(artigo => api.obterNumeroArtigoNoIndice(artigo))
+  .sort(api.ordenarCapitulosDireitoAdministrativo);
+check('Direito Administrativo segue os 27 capítulos do sumário do EPUB',
+  ordemPublicada.slice(0, 27).every((artigo, i) =>
+    Number(path.basename(artigo.sourcePath).slice(0, 2)) === ordemEbook[i] &&
+    Number(api.obterNumeroArtigoNoIndice(artigo)) === i + 1) && ordemPublicada.length >= 27);
+const recorte = [ordemPublicada[7], ordemPublicada[1]].sort(api.ordenarCapitulosDireitoAdministrativo);
+check('um recorte de edital mantém os números 02 e 08 do EPUB',
+  recorte.map(artigo => api.obterNumeroArtigoNoIndice(artigo)).join(',') === '02,08');
 
 const lazy = fs.readFileSync(path.join(rootDir, 'web/02a-lazy-data.js'), 'utf8');
 check('camada lazy preserva metadado tipo', /tipo:\s*String\(/.test(lazy));

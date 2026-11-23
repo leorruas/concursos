@@ -7608,6 +7608,454 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-julgamento-presidencial-no-senado-presidido-pelo-stf",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "crime-responsabilidade-senado-presidencia-stf",
+      "mechanism": "julgamento-presidencial-no-senado-presidido-pelo-stf",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Instaurado processo por crime de responsabilidade contra o Presidente da República, o julgamento cabe ao Senado, sob a presidência do Presidente do Supremo Tribunal Federal.",
+      "correctAnswer": "C",
+      "explanation": "O Senado processa e julga. O Presidente do STF preside o julgamento nas hipóteses dos incisos I e II.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-presidir-julgamento-nao-transfere-competencia-ao-stf",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "crime-responsabilidade-senado-presidencia-stf",
+      "mechanism": "presidir-julgamento-nao-transfere-competencia-ao-stf",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Como o Presidente do Supremo Tribunal Federal preside o julgamento do Presidente da República por crime de responsabilidade, o julgamento é de competência do plenário do STF.",
+      "correctAnswer": "E",
+      "explanation": "A presidência dos trabalhos cabe ao Presidente do STF. A competência para julgar continua com o Senado.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-condenacao-no-senado-nao-afasta-demais-sancoes-judiciais",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "crime-responsabilidade-stf-sancao-judicial",
+      "mechanism": "condenacao-no-senado-nao-afasta-demais-sancoes-judiciais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Um ministro do Supremo Tribunal Federal é condenado pelo Senado por crime de responsabilidade. A sanção aplicada pelo Senado não impede outras sanções judiciais cabíveis.",
+      "correctAnswer": "C",
+      "explanation": "O parágrafo único limita a condenação no Senado à perda do cargo, com inabilitação por oito anos para função pública, sem prejuízo das demais sanções judiciais cabíveis.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, II e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-senado-nao-aplica-pena-privativa-de-liberdade-no-julgamento-politico",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "crime-responsabilidade-stf-sancao-judicial",
+      "mechanism": "senado-nao-aplica-pena-privativa-de-liberdade-no-julgamento-politico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Ao condenar um ministro do Supremo por crime de responsabilidade, o Senado pode impor pena de prisão nesse mesmo julgamento, além da perda do cargo.",
+      "correctAnswer": "E",
+      "explanation": "O art. 52 limita os efeitos da condenação no Senado à perda do cargo com inabilitação. As demais sanções cabíveis pertencem à esfera judicial.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, II e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "id": "cam-revisao-calamidade-admite-credito-extraordinario-por-medida-provisoria",
+      "concursoId": "camara-2026",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-extraordinario-calamidade",
+      "mechanism": "calamidade-admite-credito-extraordinario-por-medida-provisoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "Uma calamidade gera necessidade federal de despesa imprevisível e urgente para atendimento imediato. Nessa hipótese, a Constituição admite a abertura de crédito extraordinário por medida provisória.",
+      "correctAnswer": "C",
+      "explanation": "A vedação às medidas provisórias em matéria orçamentária ressalva o crédito extraordinário, que exige despesa imprevisível e urgente.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 62, § 1º, I, d, e 167, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "id": "cam-revisao-urgencia-sozinha-nao-basta-se-despesa-era-previsivel",
+      "concursoId": "camara-2026",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-extraordinario-calamidade",
+      "mechanism": "urgencia-sozinha-nao-basta-se-despesa-era-previsivel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "O pagamento anual e previsível de uma despesa federal passa a ser urgente por atraso administrativo. Essa urgência, por si só, legitima abrir crédito extraordinário por medida provisória.",
+      "correctAnswer": "E",
+      "explanation": "O art. 167, § 3º, exige urgência e imprevisibilidade. O atraso não muda a natureza previsível da despesa.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 62, § 1º, I, d, e 167, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-banco-central-arguicao-publica-votacao-secreta",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-banco-central-arguicao-secreta",
+      "mechanism": "banco-central-arguicao-publica-votacao-secreta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Na apreciação da indicação de diretor do Banco Central, o Senado realiza arguição pública e delibera por voto secreto. A combinação corresponde ao rito constitucional.",
+      "correctAnswer": "C",
+      "explanation": "O art. 52, III, prevê voto secreto após arguição pública para presidente e diretores do Banco Central.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, III, d, e IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-sigilo-do-voto-nao-torna-secreta-arguicao-do-diretor",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-banco-central-arguicao-secreta",
+      "mechanism": "sigilo-do-voto-nao-torna-secreta-arguicao-do-diretor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "A arguição de indicado a diretor do Banco Central deve ocorrer em sessão secreta, assim como a arguição de chefe de missão diplomática permanente.",
+      "correctAnswer": "E",
+      "explanation": "A arguição para direção do Banco Central é pública. Para chefe de missão diplomática permanente, a Constituição prevê arguição em sessão secreta.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, III, d, e IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-limites-da-divida-consolidada-sao-fixados-pelo-senado-por-proposta-presidencial",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-limite-divida-proposta-senador",
+      "mechanism": "limites-da-divida-consolidada-sao-fixados-pelo-senado-por-proposta-presidencial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "O Presidente da República propõe limites globais para a dívida consolidada dos municípios. Cabe ao Senado fixar esses limites.",
+      "correctAnswer": "C",
+      "explanation": "O art. 52, VI, atribui a fixação ao Senado, por proposta do Presidente da República.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-competencia-de-fixar-limite-nao-transfere-iniciativa-ao-senador",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-limite-divida-proposta-senador",
+      "mechanism": "competencia-de-fixar-limite-nao-transfere-iniciativa-ao-senador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Como o Senado fixa os limites globais da dívida consolidada dos estados, qualquer senador pode formular a proposta prevista no art. 52, VI.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo atribui a proposta ao Presidente da República e a fixação dos limites ao Senado.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "id": "cam-revisao-tcu-pode-representar-sobre-abuso-apurado",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "representacao-ao-poder-competente",
+      "mechanism": "tcu-pode-representar-sobre-abuso-apurado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Em fiscalização, o Tribunal de Contas da União identifica abuso que exige providência de autoridade competente de outro Poder. A Constituição prevê que o Tribunal represente ao Poder competente sobre o abuso apurado.",
+      "correctAnswer": "C",
+      "explanation": "O inciso XI prevê representação ao Poder competente sobre irregularidades ou abusos apurados.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, XI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "id": "cam-revisao-representacao-do-tcu-nao-se-destina-obrigatoriamente-ao-executivo",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "representacao-ao-poder-competente",
+      "mechanism": "representacao-do-tcu-nao-se-destina-obrigatoriamente-ao-executivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Qualquer representação do Tribunal de Contas da União prevista no art. 71, XI, deve ser encaminhada ao Executivo, ainda que a providência caiba a outro Poder.",
+      "correctAnswer": "E",
+      "explanation": "O destinatário é o Poder competente diante da irregularidade ou do abuso apurado.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, XI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "id": "cam-revisao-comissao-de-uma-casa-pode-pedir-informacoes-ao-tcu",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "informacoes-comissao-sem-intermediacao",
+      "mechanism": "comissao-de-uma-casa-pode-pedir-informacoes-ao-tcu",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Uma comissão da Câmara solicita ao Tribunal de Contas da União informações sobre resultados de uma auditoria. A Constituição prevê que o Tribunal preste informações a pedido de comissão de qualquer das Casas.",
+      "correctAnswer": "C",
+      "explanation": "O inciso VII contempla solicitações do Congresso, de qualquer de suas Casas e de suas respectivas comissões.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, VII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "id": "cam-revisao-pedido-de-comissao-nao-exige-intermediacao-do-congresso",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "informacoes-comissao-sem-intermediacao",
+      "mechanism": "pedido-de-comissao-nao-exige-intermediacao-do-congresso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Para obter informações do Tribunal de Contas da União sobre uma inspeção, uma comissão do Senado deve pedir que o Congresso Nacional formule a solicitação em seu nome.",
+      "correctAnswer": "E",
+      "explanation": "O art. 71, VII, permite que as respectivas comissões solicitem essas informações.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, VII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-revisao-comissao-propoe-sustacao-ao-congresso-se-houver-dano-ou-lesao",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "comissao-sustacao-condicoes",
+      "mechanism": "comissao-propoe-sustacao-ao-congresso-se-houver-dano-ou-lesao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#O procedimento específico da comissão mista: art. 72"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "O procedimento específico da comissão mista: art. 72"
+      },
+      "statement": "O Tribunal de Contas da União considera irregular uma despesa examinada no procedimento do art. 72. Se a comissão mista julgar que o gasto pode causar dano irreparável ou grave lesão à economia pública, deve propor sua sustação ao Congresso.",
+      "correctAnswer": "C",
+      "explanation": "A proposta exige manifestação do Tribunal pela irregularidade e avaliação da comissão quanto ao risco. A comissão propõe a sustação ao Congresso.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 72, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-revisao-irregularidade-sozinha-nao-autoriza-sustacao-pela-comissao",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "comissao-sustacao-condicoes",
+      "mechanism": "irregularidade-sozinha-nao-autoriza-sustacao-pela-comissao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#O procedimento específico da comissão mista: art. 72"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "O procedimento específico da comissão mista: art. 72"
+      },
+      "statement": "Recebida a conclusão do Tribunal de Contas da União de que uma despesa é irregular, a comissão mista deve sustá-la diretamente, mesmo sem avaliar risco de dano irreparável ou de grave lesão à economia pública.",
+      "correctAnswer": "E",
+      "explanation": "No procedimento do art. 72, § 2º, a comissão avalia também o risco e propõe a sustação ao Congresso. Ela não susta diretamente a despesa.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 72, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",

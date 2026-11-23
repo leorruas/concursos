@@ -7607,6 +7607,286 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo conceito e distincao de fato administrativo",
+      "id": "cam-revisao-ordem-e-demolicao-sao-etapas-distintas",
+      "concursoId": "camara-2026",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "ato-versus-fato-material",
+      "mechanism": "ordem-e-demolicao-sao-etapas-distintas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#2. Ato Administrativo vs. Fato Administrativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "2. Ato Administrativo vs. Fato Administrativo"
+      },
+      "statement": "Uma autoridade expede ordem de demolição e uma equipe posteriormente executa a medida. A ordem é manifestação jurídica e a demolição é sua execução material.",
+      "correctAnswer": "C",
+      "explanation": "A ordem produz efeitos jurídicos. A retirada física da construção corresponde à execução material.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre ato e fato administrativo. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo conceito e distincao de fato administrativo",
+      "id": "cam-revisao-execucao-material-nao-e-nova-ordem",
+      "concursoId": "camara-2026",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "ato-versus-fato-material",
+      "mechanism": "execucao-material-nao-e-nova-ordem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#2. Ato Administrativo vs. Fato Administrativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "2. Ato Administrativo vs. Fato Administrativo"
+      },
+      "statement": "Depois de receber a ordem administrativa para retirar uma estrutura, a equipe efetua a retirada. O trabalho físico constitui uma nova declaração unilateral de vontade da Administração.",
+      "correctAnswer": "E",
+      "explanation": "A declaração está na ordem anterior. A retirada é execução material.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre ato e fato administrativo. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo",
+      "id": "cam-revisao-multiplos-votos-formam-vontade-de-um-orgao",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "colegiado-ato-simples",
+      "mechanism": "multiplos-votos-formam-vontade-de-um-orgao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "Uma comissão administrativa, sem depender de manifestação de outro órgão, delibera por maioria. Sua decisão pode ser classificada como ato simples.",
+      "correctAnswer": "C",
+      "explanation": "O critério é o número de órgãos cuja vontade forma o ato. Os votos integram a vontade de um único colegiado.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre formação da vontade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo",
+      "id": "cam-revisao-unanimidade-interna-nao-torna-ato-complexo",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "colegiado-ato-simples",
+      "mechanism": "unanimidade-interna-nao-torna-ato-complexo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "A decisão unânime de um conselho administrativo é ato complexo porque resulta da manifestação de vários conselheiros.",
+      "correctAnswer": "E",
+      "explanation": "A pluralidade de conselheiros não equivale à pluralidade de órgãos necessária à formação do ato complexo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre formação da vontade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / classificacoes e especies de atos administrativos",
+      "id": "cam-revisao-duas-vontades-autonomas-integram-ato-unico",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "ato-complexo-pluralidade-de-orgaos",
+      "mechanism": "duas-vontades-autonomas-integram-ato-unico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "Em determinado procedimento, a lei exige manifestações de vontade de dois órgãos que se fundem para formar um único ato. Pela formação de sua vontade, o ato é complexo.",
+      "correctAnswer": "C",
+      "explanation": "As manifestações dos órgãos são constitutivas do mesmo ato. Elas formam conjuntamente sua vontade jurídica.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre formação da vontade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / classificacoes e especies de atos administrativos",
+      "id": "cam-revisao-parecer-consultivo-nao-forma-vontade-complexa",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "ato-complexo-pluralidade-de-orgaos",
+      "mechanism": "parecer-consultivo-nao-forma-vontade-complexa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "Um órgão consulta outro, que emite parecer meramente opinativo, e depois toma sozinho a decisão. A consulta torna a decisão um ato complexo.",
+      "correctAnswer": "E",
+      "explanation": "O parecer meramente opinativo não é manifestação constitutiva da decisão. A vontade decisória é de um só órgão.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre formação da vontade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / classificacoes e especies de atos administrativos",
+      "id": "cam-revisao-aprovacao-acessoria-condiciona-eficacia-de-ato-principal",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "ato-composto-aprovacao",
+      "mechanism": "aprovacao-acessoria-condiciona-eficacia-de-ato-principal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "A autoridade emite um ato principal cuja eficácia depende de aprovação acessória, sem que a aprovação componha a vontade do ato principal. Essa estrutura caracteriza ato composto.",
+      "correctAnswer": "C",
+      "explanation": "O ato principal já está formado. A aprovação é ato distinto e instrumental, necessário à sua eficácia.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre formação da vontade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / classificacoes e especies de atos administrativos",
+      "id": "cam-revisao-duas-vontades-constitutivas-nao-sao-aprovacao-acessoria",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "ato-composto-aprovacao",
+      "mechanism": "duas-vontades-constitutivas-nao-sao-aprovacao-acessoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "Duas manifestações de órgãos diferentes fundem-se para formar uma única decisão. Essa formação caracteriza ato composto simplesmente porque há duas manifestações.",
+      "correctAnswer": "E",
+      "explanation": "A fusão de vontades constitutivas caracteriza ato complexo. No composto existe um ato principal e outro acessório.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre formação da vontade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "id": "cam-revisao-camara-licita-em-exercicio-de-funcao-administrativa",
+      "concursoId": "camara-2026",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "funcao-administrativa-atipica-legislativo",
+      "mechanism": "camara-licita-em-exercicio-de-funcao-administrativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#4. O Exercício da Função Administrativa nos Três Poderes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "4. O Exercício da Função Administrativa nos Três Poderes"
+      },
+      "statement": "Quando a Câmara realiza licitação para adquirir equipamentos para seus serviços, exerce função administrativa, atípica para o Poder Legislativo.",
+      "correctAnswer": "C",
+      "explanation": "A aquisição atende à gestão interna. Não envolve a elaboração de lei, que é função típica do Legislativo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre funções estatais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "id": "cam-revisao-gestao-de-pessoal-no-legislativo-nao-e-atividade-legislativa",
+      "concursoId": "camara-2026",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "funcao-administrativa-atipica-legislativo",
+      "mechanism": "gestao-de-pessoal-no-legislativo-nao-e-atividade-legislativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#4. O Exercício da Função Administrativa nos Três Poderes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "4. O Exercício da Função Administrativa nos Três Poderes"
+      },
+      "statement": "Ao organizar as férias de seus servidores, uma Casa legislativa exerce função legislativa típica porque a decisão ocorre em órgão do Poder Legislativo.",
+      "correctAnswer": "E",
+      "explanation": "A natureza da função decorre da atividade. A gestão de pessoal constitui atividade administrativa.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre funções estatais. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P2",
       "subjectId": "etica-publica",
       "unitId": "decoro-parlamentar",

@@ -7608,6 +7608,286 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-exoneracao-de-oficio-do-pgr-requer-41-votos",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-pgr-exoneracao-maioria-presentes",
+      "mechanism": "exoneracao-de-oficio-do-pgr-requer-41-votos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Em votação secreta no Senado, 41 dos 81 senadores aprovam a exoneração de ofício do Procurador-Geral da República antes do fim do mandato. O quórum constitucional de aprovação foi atingido.",
+      "correctAnswer": "C",
+      "explanation": "A maioria absoluta do Senado corresponde a 41 votos. A Constituição também exige voto secreto.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 52, XI, e 128, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-revisao-maioria-dos-presentes-insuficiente-para-exoneracao-do-pgr",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-pgr-exoneracao-maioria-presentes",
+      "mechanism": "maioria-dos-presentes-insuficiente-para-exoneracao-do-pgr",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Presentes 58 senadores, 37 votam secretamente a favor da exoneração de ofício do Procurador-Geral da República antes do fim do mandato. A maioria dos presentes basta para aprovar a medida.",
+      "correctAnswer": "E",
+      "explanation": "A exigência é maioria absoluta dos membros, ou seja, pelo menos 41 votos favoráveis.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 52, XI, e 128, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-veto-nao-apreciado-entra-na-ordem-do-dia-seguinte",
+      "concursoId": "camara-2026",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "veto-prazo-ordem-dia-sem-deliberacao",
+      "mechanism": "veto-nao-apreciado-entra-na-ordem-do-dia-seguinte",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      },
+      "statement": "Passam trinta dias do recebimento de um veto sem que o Congresso delibere. O veto deve entrar na Ordem do Dia da sessão imediata.",
+      "correctAnswer": "C",
+      "explanation": "Esgotado o prazo, a Constituição prevê a inclusão do veto na pauta da sessão imediata e o sobrestamento das demais proposições até a votação final.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, §§ 4º e 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-revisao-prazo-de-veto-sem-deliberacao-nao-gera-rejeicao-tacita",
+      "concursoId": "camara-2026",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "veto-prazo-ordem-dia-sem-deliberacao",
+      "mechanism": "prazo-de-veto-sem-deliberacao-nao-gera-rejeicao-tacita",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      },
+      "statement": "O Congresso deixa transcorrer trinta dias sem deliberar sobre um veto presidencial. Esse silêncio produz a rejeição tácita do veto.",
+      "correctAnswer": "E",
+      "explanation": "O efeito previsto é a inclusão do veto na Ordem do Dia da sessão imediata. Sua rejeição exige votação com o quórum constitucional.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, §§ 4º e 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-voto-facultativo-para-eleitor-de-74-anos",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "voto-aos-setenta-e-dois-obrigatorio",
+      "mechanism": "voto-facultativo-para-eleitor-de-74-anos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Facultativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Facultativos"
+      },
+      "statement": "Uma eleitora alfabetizada de 74 anos tem voto facultativo nas eleições.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição torna facultativos o alistamento e o voto para os maiores de setenta anos. A alfabetização não afasta a regra etária.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 1º, II, b. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-votar-anteriormente-nao-torna-obrigatorio-voto-apos-setenta",
+      "concursoId": "camara-2026",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "voto-aos-setenta-e-dois-obrigatorio",
+      "mechanism": "votar-anteriormente-nao-torna-obrigatorio-voto-apos-setenta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Facultativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Facultativos"
+      },
+      "statement": "Uma pessoa de 73 anos que votou em todas as eleições anteriores continua obrigada a votar por já estar alistada.",
+      "correctAnswer": "E",
+      "explanation": "A regra etária sobre facultatividade alcança também quem já está alistado.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 1º, II, b. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+      "id": "cam-revisao-apreciacao-pelo-congresso-nao-permite-delegar-ldo",
+      "concursoId": "camara-2026",
+      "articleId": "art-6bc728a14d0e49f3",
+      "conceptId": "delegacao-ldo-controle-previo",
+      "mechanism": "apreciacao-pelo-congresso-nao-permite-delegar-ldo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Matérias que não podem ser delegadas: art. 68, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Matérias que não podem ser delegadas: art. 68, § 1º"
+      },
+      "statement": "O Congresso pretende delegar ao Presidente a elaboração da lei de diretrizes orçamentárias e se reserva a apreciação do projeto. A apreciação posterior não afasta a vedação constitucional de delegar essa matéria.",
+      "correctAnswer": "C",
+      "explanation": "A LDO está entre as matérias que não podem ser objeto de delegação. A apreciação pelo Congresso não amplia o conjunto de matérias delegáveis.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 68, § 1º, III. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+      "id": "cam-revisao-deliberacao-legislativa-nao-torna-delegavel-materia-orcamentaria-vedada",
+      "concursoId": "camara-2026",
+      "articleId": "art-6bc728a14d0e49f3",
+      "conceptId": "delegacao-ldo-controle-previo",
+      "mechanism": "deliberacao-legislativa-nao-torna-delegavel-materia-orcamentaria-vedada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Matérias que não podem ser delegadas: art. 68, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Matérias que não podem ser delegadas: art. 68, § 1º"
+      },
+      "statement": "O Congresso pode autorizar lei delegada sobre diretrizes orçamentárias, desde que condicione a produção de efeitos à sua aprovação.",
+      "correctAnswer": "E",
+      "explanation": "O art. 68, § 1º, III, veda a delegação sobre diretrizes orçamentárias. A condição descrita não afasta essa vedação.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 68, § 1º, III. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-continuar-pressupoe-atividade-anterior",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "continuar-e-estado-anterior",
+      "mechanism": "continuar-pressupoe-atividade-anterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "A frase “A equipe continuou a revisar os cadastros” pressupõe que a revisão já havia começado.",
+      "correctAnswer": "C",
+      "explanation": "“Continuou” apresenta a revisão como atividade preexistente que prosseguiu.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre pressuposição. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "id": "cam-revisao-continuar-nao-apresenta-atividade-como-iniciada-no-momento",
+      "concursoId": "camara-2026",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "continuar-e-estado-anterior",
+      "mechanism": "continuar-nao-apresenta-atividade-como-iniciada-no-momento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "A frase “Após a reunião, o grupo continuou a analisar os dados” indica que a análise começou somente após a reunião.",
+      "correctAnswer": "E",
+      "explanation": "“Continuou” pressupõe que a análise já estava em curso antes do momento indicado.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre pressuposição. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",

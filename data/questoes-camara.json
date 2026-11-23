@@ -7607,6 +7607,286 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-delegacao-de-transporte-mantem-titularidade-municipal",
+      "concursoId": "camara-2026",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "delegacao-titularidade",
+      "mechanism": "delegacao-de-transporte-mantem-titularidade-municipal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#2. Modalidades de Descentralização: Outorga vs. Delegação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "2. Modalidades de Descentralização: Outorga vs. Delegação"
+      },
+      "statement": "O município concede a uma empresa a execução do transporte coletivo local. A delegação preserva a titularidade municipal do serviço.",
+      "correctAnswer": "C",
+      "explanation": "Na concessão, a empresa opera o serviço por delegação. O ente concedente permanece titular.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre outorga e delegação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-concessao-exclusiva-nao-transfere-titularidade",
+      "concursoId": "camara-2026",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "delegacao-titularidade",
+      "mechanism": "concessao-exclusiva-nao-transfere-titularidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#2. Modalidades de Descentralização: Outorga vs. Delegação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "2. Modalidades de Descentralização: Outorga vs. Delegação"
+      },
+      "statement": "Uma concessionária passa a ser titular do serviço público se o contrato lhe atribuir exclusividade na execução por certo prazo.",
+      "correctAnswer": "E",
+      "explanation": "A exclusividade de execução, quando prevista, não altera a titularidade pública do serviço.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre outorga e delegação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",
+      "id": "cam-revisao-supervisao-de-entidade-distinta-nao-e-chefia-interna",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "hierarquia-tutela",
+      "mechanism": "supervisao-de-entidade-distinta-nao-e-chefia-interna",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#1. O poder hierárquico: conceito, escopo e manifestações estruturais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "1. O poder hierárquico: conceito, escopo e manifestações estruturais"
+      },
+      "statement": "O acompanhamento legal de metas de uma autarquia por ministério supervisor é exercício de controle finalístico. O vínculo não transforma a autarquia em departamento do ministério.",
+      "correctAnswer": "C",
+      "explanation": "A autarquia mantém personalidade própria. A supervisão opera nos limites legais e difere da hierarquia interna.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre poder hierárquico e tutela. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",
+      "id": "cam-revisao-poder-de-rever-ato-da-autarquia-nao-decorre-de-hierarquia-geral",
+      "concursoId": "camara-2026",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "hierarquia-tutela",
+      "mechanism": "poder-de-rever-ato-da-autarquia-nao-decorre-de-hierarquia-geral",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#1. O poder hierárquico: conceito, escopo e manifestações estruturais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "1. O poder hierárquico: conceito, escopo e manifestações estruturais"
+      },
+      "statement": "O ministro supervisor pode rever qualquer ato de uma autarquia vinculada com fundamento exclusivo em poder hierárquico geral.",
+      "correctAnswer": "E",
+      "explanation": "A vinculação não cria subordinação hierárquica. A revisão depende da competência legal aplicável.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre poder hierárquico e tutela. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo conceito e distincao de fato administrativo",
+      "id": "cam-revisao-pedido-de-licenca-nao-torna-decisao-bilateral",
+      "concursoId": "camara-2026",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "manifestacao-juridica-unilateral",
+      "mechanism": "pedido-de-licenca-nao-torna-decisao-bilateral",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#1. Conceito Dogmático de Ato Administrativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "1. Conceito Dogmático de Ato Administrativo"
+      },
+      "statement": "Embora a licença seja requerida pelo interessado, sua concessão pela autoridade competente é manifestação unilateral da Administração.",
+      "correctAnswer": "C",
+      "explanation": "O requerimento inicia o procedimento. A decisão jurídica de conceder a licença decorre da manifestação da autoridade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre conceito de ato administrativo. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo conceito e distincao de fato administrativo",
+      "id": "cam-revisao-decisao-da-licenca-nao-e-acordo-de-vontades",
+      "concursoId": "camara-2026",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "manifestacao-juridica-unilateral",
+      "mechanism": "decisao-da-licenca-nao-e-acordo-de-vontades",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#1. Conceito Dogmático de Ato Administrativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "1. Conceito Dogmático de Ato Administrativo"
+      },
+      "statement": "A concessão de uma licença requerida por particular é ato bilateral porque o pedido e a decisão se combinam como as vontades que formam um contrato.",
+      "correctAnswer": "E",
+      "explanation": "A decisão administrativa é unilateral. O pedido é um pressuposto do procedimento, sem transformar a licença em contrato.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre conceito de ato administrativo. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-formacao-concluida-com-efeitos-condicionados",
+      "concursoId": "camara-2026",
+      "articleId": "art-a7703dd0e3fc4618",
+      "conceptId": "perfeicao-eficacia",
+      "mechanism": "formacao-concluida-com-efeitos-condicionados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+        "section": "Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto"
+      },
+      "statement": "Um ato já completou todas as etapas de sua formação, mas uma regra exige publicação posterior para que produza efeitos. Antes de publicado, pode ser perfeito e ainda ineficaz.",
+      "correctAnswer": "C",
+      "explanation": "Perfeição descreve a formação completa. Eficácia descreve a aptidão para produzir efeitos.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre formação e efeitos do ato. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-publicacao-condicao-de-eficacia-nao-reabre-formacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-a7703dd0e3fc4618",
+      "conceptId": "perfeicao-eficacia",
+      "mechanism": "publicacao-condicao-de-eficacia-nao-reabre-formacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+        "section": "Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto"
+      },
+      "statement": "Se a publicação é exigida apenas para a produção de efeitos, sua ausência impede necessariamente que um ato de formação já concluída seja considerado perfeito.",
+      "correctAnswer": "E",
+      "explanation": "Quando funciona apenas como condição de eficácia, a publicação não integra a formação do ato.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre formação e efeitos do ato. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1",
+      "id": "cam-revisao-gestao-de-unidades-escolares-descreve-sentido-material",
+      "concursoId": "camara-2026",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "sentidos-administracao",
+      "mechanism": "gestao-de-unidades-escolares-descreve-sentido-material",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo"
+      },
+      "statement": "Um relatório usa “Administração Pública” para descrever as atividades de gestão das escolas municipais. O uso é material, pois se refere à função exercida.",
+      "correctAnswer": "C",
+      "explanation": "O sentido material ou objetivo identifica as atividades. O orgânico identifica quem as exerce.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre sentidos da Administração. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1",
+      "id": "cam-revisao-inventario-de-orgaos-nao-e-sentido-material",
+      "concursoId": "camara-2026",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "sentidos-administracao",
+      "mechanism": "inventario-de-orgaos-nao-e-sentido-material",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo"
+      },
+      "statement": "Ao inventariar os órgãos e entidades que integram a Administração Pública, um estudo emprega a expressão em sentido material.",
+      "correctAnswer": "E",
+      "explanation": "O levantamento descreve os sujeitos que compõem a estrutura administrativa, que correspondem ao sentido orgânico.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção sobre sentidos da Administração. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P2",
       "subjectId": "direito-constitucional",
       "unitId": "processo-legislativo",

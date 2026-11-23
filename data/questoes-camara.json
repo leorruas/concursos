@@ -7608,6 +7608,342 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",
+      "id": "cam-revisao-asilo-politico-e-principio-de-relacoes-internacionais",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "asilo-diretriz-externa",
+      "mechanism": "asilo-politico-e-principio-de-relacoes-internacionais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "Em uma exposição sobre os princípios constitucionais que regem as relações internacionais do Brasil, a concessão de asilo político pode ser apontada como exemplo expresso.",
+      "correctAnswer": "C",
+      "explanation": "A concessão de asilo político figura no art. 4º, X, entre os princípios das relações internacionais.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 3º e 4º, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",
+      "id": "cam-revisao-concessao-de-asilo-nao-esta-nos-objetivos-do-artigo-tres",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "asilo-diretriz-externa",
+      "mechanism": "concessao-de-asilo-nao-esta-nos-objetivos-do-artigo-tres",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "A Constituição inclui a concessão de asilo político entre os objetivos fundamentais da República enumerados no art. 3º.",
+      "correctAnswer": "E",
+      "explanation": "A concessão de asilo político consta do art. 4º, que disciplina os princípios aplicáveis às relações internacionais.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 3º e 4º, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-municipio-pode-atuar-contra-poluicao-em-competencia-comum",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "competencia-comum-exclusiva-uniao",
+      "mechanism": "municipio-pode-atuar-contra-poluicao-em-competencia-comum",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência comum: art. 23"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência comum: art. 23"
+      },
+      "statement": "Um município adota medidas administrativas de combate à poluição. Essa atuação encontra fundamento na competência comum dos entes federativos.",
+      "correctAnswer": "C",
+      "explanation": "O art. 23, VI, inclui todos os entes na competência material de proteger o meio ambiente e combater a poluição.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 23, VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-revisao-combate-administrativo-a-poluicao-nao-e-exclusivo-da-uniao",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "competencia-comum-exclusiva-uniao",
+      "mechanism": "combate-administrativo-a-poluicao-nao-e-exclusivo-da-uniao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência comum: art. 23"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência comum: art. 23"
+      },
+      "statement": "A proteção administrativa do meio ambiente é exclusiva da União. Os estados só podem atuar se receberem delegação federal.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição atribui competência material comum à União, aos estados, ao Distrito Federal e aos municípios.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 23, VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "id": "cam-revisao-autonomia-do-mp-coexiste-com-tres-poderes",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "independencia-ministerio-publico-quarto",
+      "mechanism": "autonomia-do-mp-coexiste-com-tres-poderes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 2º — separação dos Poderes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 2º — separação dos Poderes"
+      },
+      "statement": "A autonomia do Ministério Público é compatível com a organização constitucional em Legislativo, Executivo e Judiciário.",
+      "correctAnswer": "C",
+      "explanation": "A autonomia institucional do Ministério Público não muda a enumeração dos três Poderes no art. 2º.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 2º e 127. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "id": "cam-revisao-autonomia-do-mp-nao-cria-quarto-poder",
+      "concursoId": "camara-2026",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "independencia-ministerio-publico-quarto",
+      "mechanism": "autonomia-do-mp-nao-cria-quarto-poder",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 2º — separação dos Poderes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 2º — separação dos Poderes"
+      },
+      "statement": "A autonomia funcional e administrativa do Ministério Público faz com que a Constituição o classifique como o quarto Poder da União.",
+      "correctAnswer": "E",
+      "explanation": "O Ministério Público é instituição autônoma com funções essenciais à Justiça. O art. 2º mantém três Poderes.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 2º e 127. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-fim-da-intervencao-permite-retorno-sem-impedimento",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-retorno-impedimento-legal",
+      "mechanism": "fim-da-intervencao-permite-retorno-sem-impedimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "Cessados os motivos da intervenção, as autoridades afastadas retornam aos cargos se não houver impedimento legal.",
+      "correctAnswer": "C",
+      "explanation": "O retorno após cessarem os motivos é a regra. A Constituição ressalva o impedimento legal.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 36, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-impedimento-legal-pode-obstar-retorno-apos-intervencao",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-retorno-impedimento-legal",
+      "mechanism": "impedimento-legal-pode-obstar-retorno-apos-intervencao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "Cessados os motivos da intervenção, o retorno da autoridade afastada é obrigatório, ainda que exista impedimento legal para que reassuma o cargo.",
+      "correctAnswer": "E",
+      "explanation": "O art. 36, § 4º, permite o retorno salvo impedimento legal.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 36, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-norma-geral-de-educacao-permite-suplementacao-estadual",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "suplementacao-educacao-apos-norma-geral",
+      "mechanism": "norma-geral-de-educacao-permite-suplementacao-estadual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência legislativa concorrente: art. 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência legislativa concorrente: art. 24"
+      },
+      "statement": "Editadas normas gerais federais sobre educação, um estado pode suplementá-las em sua esfera de competência, respeitando as diretrizes federais aplicáveis.",
+      "correctAnswer": "C",
+      "explanation": "A competência da União para normas gerais não exclui a competência suplementar dos estados.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 24, IX e §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-norma-geral-federal-nao-esgota-legislacao-concorrente",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "suplementacao-educacao-apos-norma-geral",
+      "mechanism": "norma-geral-federal-nao-esgota-legislacao-concorrente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência legislativa concorrente: art. 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência legislativa concorrente: art. 24"
+      },
+      "statement": "A existência de normas gerais federais sobre educação impede qualquer suplementação estadual sobre o assunto.",
+      "correctAnswer": "E",
+      "explanation": "O art. 24, § 2º, preserva a competência suplementar estadual mesmo quando já existe norma geral federal.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 24, IX e §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-transporte-coletivo-local-concedido-continua-essencial",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "transporte-local-carater-essencial",
+      "mechanism": "transporte-coletivo-local-concedido-continua-essencial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Municípios: interesse local e suplementação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Municípios: interesse local e suplementação"
+      },
+      "statement": "O município pode organizar o transporte coletivo local e prestá-lo sob regime de concessão. O serviço mantém seu caráter constitucional de essencial.",
+      "correctAnswer": "C",
+      "explanation": "O art. 30, V, admite a concessão e qualifica o transporte coletivo local como serviço essencial.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 30, V. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-revisao-essencialidade-nao-reserva-transporte-ao-estado",
+      "concursoId": "camara-2026",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "transporte-local-carater-essencial",
+      "mechanism": "essencialidade-nao-reserva-transporte-ao-estado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Municípios: interesse local e suplementação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Municípios: interesse local e suplementação"
+      },
+      "statement": "Por ser essencial, o transporte coletivo de interesse exclusivamente local deve ser organizado pelo estado, cabendo ao município apenas fiscalizá-lo.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição atribui aos municípios a organização e a prestação dos serviços de interesse local, incluindo o transporte coletivo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 30, V. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "portugues",
       "unitId": "lingua-portuguesa",
       "editalRef": "14.2.3 / Língua Portuguesa / coesão textual e emprego de conectores",

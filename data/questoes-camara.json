@@ -7608,6 +7608,286 @@
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.1",
+      "id": "cam-revisao-ilegalidade-justifica-anulacao-em-autotutela",
+      "concursoId": "camara-2026",
+      "articleId": "art-8946971690804376",
+      "conceptId": "autotutela",
+      "mechanism": "ilegalidade-justifica-anulacao-em-autotutela",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8946971690804376#Autotutela, anulação, revogação e decadência"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+        "section": "Autotutela, anulação, revogação e decadência"
+      },
+      "statement": "Ao identificar ilegalidade em ato próprio, a Administração exerce autotutela ao anulá-lo, observados os limites e as garantias aplicáveis.",
+      "correctAnswer": "C",
+      "explanation": "A anulação é a medida de controle da legalidade do ato. A revogação recai sobre ato válido por motivo de mérito administrativo.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre autotutela. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.1",
+      "id": "cam-revisao-ato-valido-inconveniente-nao-e-anulado-por-merito",
+      "concursoId": "camara-2026",
+      "articleId": "art-8946971690804376",
+      "conceptId": "autotutela",
+      "mechanism": "ato-valido-inconveniente-nao-e-anulado-por-merito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8946971690804376#Autotutela, anulação, revogação e decadência"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+        "section": "Autotutela, anulação, revogação e decadência"
+      },
+      "statement": "Uma autorização discricionária válida tornou-se inconveniente. A perda de conveniência constitui, por si só, fundamento para anulá-la por ilegalidade.",
+      "correctAnswer": "E",
+      "explanation": "A perda de conveniência diz respeito à revogação, quando cabível. Para anular, é necessária ilegalidade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre autotutela. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-falecimento-e-fato-com-efeito-administrativo",
+      "concursoId": "camara-2026",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "fato-administrativo",
+      "mechanism": "falecimento-e-fato-com-efeito-administrativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#2. Ato Administrativo vs. Fato Administrativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "2. Ato Administrativo vs. Fato Administrativo"
+      },
+      "statement": "A morte de um servidor pode produzir efeitos na relação funcional sem depender de uma declaração de vontade que cause o falecimento. O evento é um fato com repercussão administrativa.",
+      "correctAnswer": "C",
+      "explanation": "O evento altera juridicamente a relação funcional. A anotação administrativa posterior documenta o fato.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre ato e fato. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-registro-posterior-nao-transforma-evento-em-ato",
+      "concursoId": "camara-2026",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "fato-administrativo",
+      "mechanism": "registro-posterior-nao-transforma-evento-em-ato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#2. Ato Administrativo vs. Fato Administrativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "2. Ato Administrativo vs. Fato Administrativo"
+      },
+      "statement": "Como o falecimento de um servidor é registrado pela Administração, o próprio falecimento deve ser classificado como ato administrativo.",
+      "correctAnswer": "E",
+      "explanation": "O registro é uma manifestação posterior. O evento que ele documenta permanece um fato.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre ato e fato. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-parecer-opinativo-expressa-juizo-tecnico",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "parecer-enunciativo",
+      "mechanism": "parecer-opinativo-expressa-juizo-tecnico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#Atos Enunciativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "Atos Enunciativos"
+      },
+      "statement": "Um órgão de assessoria emite parecer técnico meramente opinativo. Esse parecer se enquadra na classificação tradicional dos atos enunciativos.",
+      "correctAnswer": "C",
+      "explanation": "O parecer exterioriza um juízo técnico. Na hipótese proposta, a decisão cabe a outra autoridade.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre atos enunciativos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-parecer-meramente-opinativo-nao-e-sancao",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "parecer-enunciativo",
+      "mechanism": "parecer-meramente-opinativo-nao-e-sancao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#Atos Enunciativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "Atos Enunciativos"
+      },
+      "statement": "Um parecer administrativo recomenda a aplicação de sanção, sem impor nenhuma penalidade. Por essa recomendação, o próprio parecer deve ser classificado como ato punitivo.",
+      "correctAnswer": "E",
+      "explanation": "O parecer manifesta uma opinião. A sanção dependerá do ato da autoridade competente.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre atos enunciativos. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-licenca-individual-e-vinculada-por-criterios-diferentes",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "classificacoes-cruzadas",
+      "mechanism": "licenca-individual-e-vinculada-por-criterios-diferentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "Uma licença concedida a requerente identificado pode ser individual quanto ao destinatário e vinculada quanto à margem de escolha da autoridade.",
+      "correctAnswer": "C",
+      "explanation": "Os critérios examinam características diferentes do mesmo ato. Por isso, as classificações são compatíveis.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre critérios de classificação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "id": "cam-revisao-classificacao-por-destinatario-nao-define-margem-de-escolha",
+      "concursoId": "camara-2026",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "classificacoes-cruzadas",
+      "mechanism": "classificacao-por-destinatario-nao-define-margem-de-escolha",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "Se um ato é individual quanto ao destinatário, sua classificação como vinculado ou discricionário já fica definida.",
+      "correctAnswer": "E",
+      "explanation": "Identificar o destinatário não informa se a autoridade tem margem de escolha. É preciso examinar a disciplina do ato.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre critérios de classificação. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-supervisao-finalistica-de-autarquia-depende-de-lei",
+      "concursoId": "camara-2026",
+      "articleId": "art-86dee064aef44ba4",
+      "conceptId": "tutela-hierarquia",
+      "mechanism": "supervisao-finalistica-de-autarquia-depende-de-lei",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Vinculação, supervisão e hierarquia"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Vinculação, supervisão e hierarquia"
+      },
+      "statement": "O ministério ao qual uma autarquia está vinculada exerce controle finalístico nos limites legais. Essa supervisão não equivale à chefia de um órgão ministerial.",
+      "correctAnswer": "C",
+      "explanation": "A autarquia tem personalidade própria. O vínculo possibilita controle nos limites definidos em lei.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre supervisão. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "id": "cam-revisao-vinculacao-nao-confere-poder-hierarquico-geral",
+      "concursoId": "camara-2026",
+      "articleId": "art-86dee064aef44ba4",
+      "conceptId": "tutela-hierarquia",
+      "mechanism": "vinculacao-nao-confere-poder-hierarquico-geral",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Vinculação, supervisão e hierarquia"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Vinculação, supervisão e hierarquia"
+      },
+      "statement": "A vinculação de uma autarquia a um ministério confere ao ministro poder hierárquico geral sobre todos os seus atos.",
+      "correctAnswer": "E",
+      "explanation": "A tutela é controle finalístico limitado pela lei. A hierarquia ocorre no interior da mesma estrutura administrativa.",
+      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre supervisão. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",
       "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",

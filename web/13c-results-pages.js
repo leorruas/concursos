@@ -319,9 +319,15 @@
  for(const [key,label,target] of [
   ['activity','atividades','#results-adaptive-queue'],
   ['article','artigos','#results-quiz-priorities'],
-  ['concept','conceitos','#results-concepts']
+  ['concept','conceitos','#results-principle-history']
  ]){
   const link=document.createElement('a');link.href=target;
+  if(key==='concept'){
+   const destination=new URL(links.get('historico').href);
+   destination.hash=target;
+   link.href=destination.href;
+   link.id='results-review-concept-link';
+  }
   const number=document.createElement('strong');number.id='results-review-'+key+'-count';number.textContent='0';
   const name=document.createElement('span');name.textContent=label;
   link.append(number,name);summary.append(link);

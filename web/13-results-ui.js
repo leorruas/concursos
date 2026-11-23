@@ -1251,8 +1251,7 @@ function syncResultsFilters(){
  if(selectedSubject)url.searchParams.set('materia',selectedSubject);
  else url.searchParams.delete('materia');
  history.replaceState(history.state,'',url);
- const nav=document.querySelector('.results-views-nav');
- if(nav)for(const a of nav.querySelectorAll('a')){
+ for(const a of document.querySelectorAll('.results-views-nav a,#results-review-concept-link')){
   const target=new URL(a.href);target.searchParams.set('concurso',select.value);
   if(selectedSubject)target.searchParams.set('materia',selectedSubject);
   else target.searchParams.delete('materia');

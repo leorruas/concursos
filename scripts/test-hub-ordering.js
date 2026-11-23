@@ -90,6 +90,11 @@ const recorte = [ordemPublicada[7], ordemPublicada[1]].sort(api.ordenarCapitulos
 check('um recorte de edital mantém os números 02 e 08 do EPUB',
   recorte.map(artigo => api.obterNumeroArtigoNoIndice(artigo)).join(',') === '02,08');
 
+check('o roteiro filtrado numera os artigos pela posição de leitura',
+  recorte.map((artigo, index) => api.obterNumeroArtigoNoIndice(artigo, undefined, index + 1)).join(',') === '01,02');
+check('o resumo usa 00 mesmo no roteiro de concurso',
+  api.obterNumeroArtigoNoIndice(constitucional[0], undefined, 1) === '00');
+
 const lazy = fs.readFileSync(path.join(rootDir, 'web/02a-lazy-data.js'), 'utf8');
 check('camada lazy preserva metadado tipo', /tipo:\s*String\(/.test(lazy));
 check('camada lazy reutiliza ordenação canônica', /sort\(ordenarArtigosDaMateria\)/.test(lazy));

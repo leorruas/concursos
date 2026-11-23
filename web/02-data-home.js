@@ -30,8 +30,9 @@ function ordenarArtigosDaMateria(a, b) {
     );
 }
 
-function obterNumeroArtigoNoIndice(artigo, caminhoHub) {
+function obterNumeroArtigoNoIndice(artigo, caminhoHub, posicaoNoRoteiro) {
     if ((caminhoHub && artigo.sourcePath === caminhoHub) || ehResumoPrincipalDaMateria(artigo)) return "00";
+    if (posicaoNoRoteiro != null) return String(posicaoNoRoteiro).padStart(2, "0");
     const capitulo = capitulosDireitoAdministrativo.get(artigo.articleId);
     if (capitulo != null) return String(capitulo).padStart(2, "0");
     const arquivo = (artigo.sourcePath || artigo.titulo || "").split("/").pop();
@@ -39,7 +40,7 @@ function obterNumeroArtigoNoIndice(artigo, caminhoHub) {
     return prefixo?.padStart(2, "0") || "";
 }
 
-// Capítulos do EPUB de Direito Administrativo. O filtro de edital só define a visibilidade.
+// Ordem dos capítulos do EPUB de Direito Administrativo, usada no roteiro da Câmara.
 const capitulosDireitoAdministrativo = new Map([
     ["art-0242ff68d8ca9529", 1],
     ["art-8946971690804376", 2],
@@ -415,7 +416,8 @@ function renderizarPastas() {
 // Visualizador da Disciplina
 function abrirDisciplina(categoria, atualizarRota = true) {
     if (!(todasAsPastas[categoria]?.length) && !obterProgramaSelecionado()?.subjects.some(m => m.categoria === categoria)) return;
-    const usaCapitulosDoEbook = categoria === "Direito Administrativo";
+    const usaCapitulosDoEbook = categoria === "Direito Administrativo" &&
+        (modoBibliotecaCompleta || concursoSelecionadoId === "camara-2026");
     const artigosDaMateria = obterArtigosDaMateria(categoria);
     const artigos = usaCapitulosDoEbook
         ? [...artigosDaMateria].sort(ordenarCapitulosDireitoAdministrativo)
@@ -516,6 +518,7 @@ function abrirDisciplina(categoria, atualizarRota = true) {
             "art-73b824d09ac16e25", "art-b6e9314c28d7f05a"
         ].includes(artigo.articleId))
         : artigos;
+    let posicaoNoRoteiro = 0;
     artigosNaLista.forEach(artigo => {
         const acao = document.createElement("a");
         acao.className = "disciplina-acao";
@@ -526,7 +529,10 @@ function abrirDisciplina(categoria, atualizarRota = true) {
         const origem = categoria;
         acao.href = rotaDoArtigo(artigo, "", origem);
 
-        const numeroFormatado = obterNumeroArtigoNoIndice(artigo, materiaSelecionada?.hubSourcePath);
+        const caminhoHub = materiaSelecionada?.hubSourcePath;
+        const ehHub = artigo.sourcePath === caminhoHub || ehResumoPrincipalDaMateria(artigo);
+        const posicao = materiaSelecionada && !ehHub ? ++posicaoNoRoteiro : undefined;
+        const numeroFormatado = obterNumeroArtigoNoIndice(artigo, caminhoHub, posicao);
         const tituloFormatado = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
 
         acao.setAttribute("aria-label", numeroFormatado ? numeroFormatado + " · " + tituloFormatado : tituloFormatado);

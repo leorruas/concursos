@@ -7607,6 +7607,342 @@
     {
       "origin": "inedita",
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-dever-de-participacao-alcanca-comissao-da-qual-e-membro",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "participacao-restrita-plenario",
+      "mechanism": "dever-de-participacao-alcanca-comissao-da-qual-e-membro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "Uma deputada integra uma comissão permanente. O dever de presença e participação previsto no Código alcança as reuniões dessa comissão.",
+      "correctAnswer": "C",
+      "explanation": "O inciso V inclui expressamente as reuniões de comissão da qual o parlamentar seja membro.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-presenca-no-plenario-nao-esgota-dever-de-participacao",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "participacao-restrita-plenario",
+      "mechanism": "presenca-no-plenario-nao-esgota-dever-de-participacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "Um deputado comparece às sessões do Plenário. Por isso, fica dispensado do dever de participar das reuniões da comissão que integra.",
+      "correctAnswer": "E",
+      "explanation": "O dever previsto no inciso V alcança o Plenário e as reuniões das comissões que o parlamentar integra.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-prestacao-de-contas-do-mandato-integra-deveres-fundamentais",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "prestacao-de-contas-mandato",
+      "mechanism": "prestacao-de-contas-do-mandato-integra-deveres-fundamentais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "O Código de Ética inclui a prestação de contas do mandato entre os deveres fundamentais do deputado.",
+      "correctAnswer": "C",
+      "explanation": "O inciso VIII prevê a prestação de contas do mandato e a disponibilização de informações necessárias ao acompanhamento de sua atuação.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, VIII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-divulgacao-facultativa-nao-descreve-dever-de-prestar-contas",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "prestacao-de-contas-mandato",
+      "mechanism": "divulgacao-facultativa-nao-descreve-dever-de-prestar-contas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "O Código deixa inteiramente à conveniência do deputado prestar contas de sua atuação parlamentar.",
+      "correctAnswer": "E",
+      "explanation": "A prestação de contas é um dever fundamental previsto no art. 3º, VIII.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, VIII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-lista-sorteada-subsidia-designacao-individual",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relatoria-lista-nao-colegiada",
+      "mechanism": "lista-sorteada-subsidia-designacao-individual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Instaurado o processo de suspensão de prerrogativas, são sorteados três integrantes elegíveis para uma lista. O presidente do Conselho escolhe o relator entre eles.",
+      "correctAnswer": "C",
+      "explanation": "O sorteio forma a lista de três nomes. A designação do relator é feita pelo presidente do Conselho dentro dessa lista.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-tres-sorteados-nao-exercem-relatoria-conjunta",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relatoria-lista-nao-colegiada",
+      "mechanism": "tres-sorteados-nao-exercem-relatoria-conjunta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Os três membros sorteados para compor a lista do art. 13, I, assumem conjuntamente a relatoria do processo disciplinar.",
+      "correctAnswer": "E",
+      "explanation": "A lista oferece três nomes para a escolha de um relator pelo presidente do Conselho.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-filiado-ao-partido-autor-impedido-ainda-que-de-outro-estado",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relatoria-representacao-partido-autor",
+      "mechanism": "filiado-ao-partido-autor-impedido-ainda-que-de-outro-estado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Um integrante do Conselho pertence ao partido autor da representação, mas é de estado diferente do representado. Mesmo assim, ele está impedido de atuar como relator.",
+      "correctAnswer": "C",
+      "explanation": "A filiação ao partido autor é impedimento próprio, independente do estado de origem.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I, c. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-ausencia-de-vinculo-com-representado-nao-basta-para-relatoria",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relatoria-representacao-partido-autor",
+      "mechanism": "ausencia-de-vinculo-com-representado-nao-basta-para-relatoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Um deputado de estado e partido distintos dos do representado pode relatar o caso mesmo sendo filiado ao partido autor da representação.",
+      "correctAnswer": "E",
+      "explanation": "O inciso I, c, também impede a designação de filiado ao partido autor.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I, c. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-recebimento-para-terceiro-pode-configurar-vantagem-indevida",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "vantagem-indevida-mandato",
+      "mechanism": "recebimento-para-terceiro-pode-configurar-vantagem-indevida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "Valendo-se da atividade parlamentar, um deputado recebe vantagem indevida em favor de terceiro. A conduta pode ser enquadrada entre os atos incompatíveis com o decoro.",
+      "correctAnswer": "C",
+      "explanation": "O art. 4º, II, inclui vantagem indevida percebida para si ou para outrem em razão da atividade parlamentar.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 4º, II, e 14, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "id": "cam-revisao-destinar-vantagem-a-terceiro-nao-exclui-incidencia",
+      "concursoId": "camara-2026",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "vantagem-indevida-mandato",
+      "mechanism": "destinar-vantagem-a-terceiro-nao-exclui-incidencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "A percepção de vantagem indevida em razão da atividade parlamentar só é incompatível com o decoro quando o deputado retém a vantagem para si.",
+      "correctAnswer": "E",
+      "explanation": "O Código também alcança a vantagem percebida para outrem.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 4º, II, e 14, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / significação e reescrita de frases",
+      "id": "cam-revisao-possessivo-pode-remeter-a-duas-pessoas",
+      "concursoId": "camara-2026",
+      "articleId": "art-569c69df60f66dfd",
+      "conceptId": "ambiguidade-possessivo-reescrita",
+      "mechanism": "possessivo-pode-remeter-a-duas-pessoas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-569c69df60f66dfd#4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md",
+        "section": "4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      },
+      "statement": "Em “A pesquisadora entregou à supervisora seu relatório”, o possessivo “seu” permite mais de uma leitura quanto à autoria do relatório.",
+      "correctAnswer": "C",
+      "explanation": "O possessivo pode remeter à pesquisadora ou à supervisora. Nomear a pessoa elimina a ambiguidade.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre ambiguidade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / significação e reescrita de frases",
+      "id": "cam-revisao-relatorio-da-supervisora-fixa-uma-leitura",
+      "concursoId": "camara-2026",
+      "articleId": "art-569c69df60f66dfd",
+      "conceptId": "ambiguidade-possessivo-reescrita",
+      "mechanism": "relatorio-da-supervisora-fixa-uma-leitura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-569c69df60f66dfd#4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md",
+        "section": "4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      },
+      "statement": "Reescrever “A pesquisadora entregou à supervisora seu relatório” como “A pesquisadora entregou à supervisora o relatório da supervisora” preserva as duas leituras do possessivo.",
+      "correctAnswer": "E",
+      "explanation": "A expressão “da supervisora” fixa a referência e elimina a leitura que atribuía o relatório à pesquisadora.",
+      "reviewEvidence": "Conferência com a seção vinculada e o artigo sobre ambiguidade. "
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",

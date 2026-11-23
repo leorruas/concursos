@@ -174,6 +174,13 @@
  .results-history-section-header{margin:0 0 16px}
  .results-history-section-header h2{font-size:clamp(19px,2.5vw,26px);font-weight:620;letter-spacing:-.03em;margin:0 0 5px;color:var(--text)}
  .results-history-section-header p{font-size:12px;margin:0;color:var(--muted)}
+ .results-history-priorities{margin:0 0 16px}
+ .results-history-priorities h3{color:var(--text);font-size:14px;margin:0 0 6px}
+ .results-history-priorities ol{list-style:none;padding:0;margin:0}
+ .results-history-priorities li{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:5px 0}
+ .results-history-priorities li span{flex-shrink:0;font-variant-numeric:tabular-nums}
+ .results-history-priority-button{color:var(--text);font:inherit;font-size:13px;text-align:left;background:none;border:0;padding:5px 0;cursor:pointer;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+ .results-history-priority-button:hover,.results-history-priority-button:focus-visible{color:var(--accent-blue)}
  .results-history-selector{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px solid color-mix(in srgb,var(--text) 26%,transparent)}
  .results-history-selector label{font:11px 'IBM Plex Mono',monospace;text-transform:uppercase;color:var(--muted)}
  .results-history-selector select{max-width:min(100%,470px);min-width:0;flex:1;background:transparent;color:var(--text);border:0;border-bottom:1px solid color-mix(in srgb,var(--text) 35%,transparent);font:13px 'Archivo',sans-serif;padding:9px 3px}

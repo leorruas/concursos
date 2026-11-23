@@ -593,26 +593,43 @@ const studyModeLabels = {
  real:'Questões de prova', adaptada:'Questões adaptadas',
  simulado:'Bateria com correção ao final', unknown:'Modalidade sem registro'
 };
-function renderPrincipleHistory(plan){
+function renderPrincipleHistory(plan,concepts){
  const target=$('results-principle-history');
  const principles=(plan?.principles||[]).filter(p=>p.recentEvents?.length&&
   (!selectedSubject||p.subjectId===selectedSubject));
  target.hidden=!principles.length;
- const previous=target.querySelector('select')?.value;
+ const key=(subject,concept)=>JSON.stringify([subject,concept]);
+ const errorCounts=new Map(concepts.map(c=>[key(c.subjectId,c.conceptId),c.errors]));
+ const errorsFor=p=>errorCounts.get(key(p.subjectId,p.principleId))||0;
+ const previous=target.dataset.subject===(selectedSubject||'')?target.querySelector('select')?.value:null;
+ target.dataset.subject=selectedSubject||'';
  target.replaceChildren();
  if(!principles.length)return;
  const heading=el('div','results-history-section-header');
  heading.append(el('h2','','Tentativas por conceito'),
   el('p','results-caption','Escolha um conceito para ver a sequência de respostas e o contexto disponível.'));
+ const ranked=selectedSubject?principles.filter(p=>errorsFor(p)>0).sort((a,b)=>
+  errorsFor(b)-errorsFor(a)||a.title.localeCompare(b.title,'pt-BR')):[];
+ const labels=new Map();
+ for(const p of principles){
+  const label=key(p.subjectId,p.title);
+  labels.set(label,(labels.get(label)||0)+1);
+ }
+ const displayWords=value=>/^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(value)?value.replaceAll('-',' '):value;
+ const readableTitle=p=>{
+  const name=displayWords(p.title);
+  return labels.get(key(p.subjectId,p.title))>1&&p.principleId!==p.title
+   ? name+' · '+displayWords(p.principleId):name;
+ };
  const selector=el('div','results-history-selector');
  const select=el('select');
  select.id='results-principle-select';
  for(const p of principles){
-  const readable=/^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(p.title)?p.title.replaceAll('-',' '):p.title;
-  const option=el('option','',title(p.subjectId)+' · '+readable);
-  option.value=p.subjectId+':'+p.principleId;select.append(option);
+  const option=el('option','',selectedSubject?readableTitle(p):title(p.subjectId)+' · '+readableTitle(p));
+  option.value=key(p.subjectId,p.principleId);select.append(option);
  }
  if([...select.options].some(option=>option.value===previous))select.value=previous;
+ else if(ranked.length)select.value=key(ranked[0].subjectId,ranked[0].principleId);
  const label=el('label','','Conceito');label.htmlFor=select.id;
  selector.append(label,select);
  const report=el('div','results-history-events');
@@ -674,7 +691,30 @@ function renderPrincipleHistory(plan){
   report.replaceChildren(intro,list,footer);updateList();
  }
  select.addEventListener('change',renderEvidence);
- target.append(heading,selector,report);renderEvidence();
+ target.append(heading);
+ const priorities=el('div','results-history-priorities');
+ if(selectedSubject){
+  priorities.append(el('h3','','Conceitos com mais erros'));
+  if(!ranked.length)priorities.append(el('p','results-caption','Nenhum erro registrado nos conceitos desta matéria.'));
+  else{
+   const list=el('ol');
+   for(const p of ranked.slice(0,5)){
+    const row=el('li');
+    const button=el('button','results-history-priority-button',readableTitle(p));
+    button.type='button';
+    button.addEventListener('click',()=>{
+     select.value=key(p.subjectId,p.principleId);
+     renderEvidence();
+     select.focus();
+    });
+    const errors=errorsFor(p);
+    const count=el('span','results-caption',errors+(errors===1?' erro':' erros'));
+    row.append(button,count);list.append(row);
+   }
+   priorities.append(list);
+  }
+ }else priorities.append(el('p','results-caption','Selecione uma matéria para ver os conceitos com mais erros.'));
+ target.append(priorities,selector,report);renderEvidence();
 }
 function renderStudyModes(byMode) {
  const target=$('results-study-modes');
@@ -723,7 +763,7 @@ function render(){
  if(!current)return;
  renderAdaptive(current.adaptive);
  renderStudyModes(current.adaptive?.byMode);
- renderPrincipleHistory(current.adaptive);
+ renderPrincipleHistory(current.adaptive,current.concepts||[]);
  const summary=current.summary||{},source=current.sources||{};
  const valid=summary.valid||0;
  const today=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo'}).format(new Date());

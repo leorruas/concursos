@@ -173,12 +173,13 @@ assert.equal(new Set(hardAdmin.map(q=>normalizeStatement(q.statement))).size,har
 for(const q of hardAdmin){
  assert.ok(!priorHardStatements.has(normalizeStatement(q.statement)),'enunciado difícil idêntico ao anterior: '+q.id);
  assert.ok(adminCatalog.includes(q.articleId),'questão difícil sem artigo do catálogo: '+q.id);
- assert.equal(q.estimatedDifficulty,'dificil','lote inteiro precisa aparecer no filtro Difícil');
+ assert.ok(['muito-facil','facil','media','dificil','muito-dificil'].includes(q.estimatedDifficulty),'dificuldade válida: '+q.id);
  assert.ok(q.explanation.length>=100,'justificativa de questão difícil deve explicar regra e ressalva: '+q.id);
 }
-for(const [i,id] of adminCatalog.entries())assert.ok(hardAdmin.filter(q=>q.articleId===id).length>=(i<10?3:1),'cobertura difícil capítulo '+(i+1));
-assert.ok(hardAdmin.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length>=30,'ao menos trinta difíceis nos primeiros dez capítulos');
-assert.ok(Math.abs(hardAdmin.filter(q=>q.correctAnswer==='C').length-hardAdmin.filter(q=>q.correctAnswer==='E').length)<=3,'gabarito difícil equilibrado');
+const stillHardAdmin=hardAdmin.filter(q=>q.estimatedDifficulty==='dificil');
+for(const [i,id] of adminCatalog.entries())assert.ok(stillHardAdmin.filter(q=>q.articleId===id).length>=(i<10?3:1),'cobertura difícil capítulo '+(i+1));
+assert.ok(stillHardAdmin.filter(q=>adminCatalog.slice(0,10).includes(q.articleId)).length>=30,'ao menos trinta difíceis nos primeiros dez capítulos');
+assert.ok(Math.abs(stillHardAdmin.filter(q=>q.correctAnswer==='C').length-stillHardAdmin.filter(q=>q.correctAnswer==='E').length)<=3,'gabarito difícil equilibrado');
 
 assert.equal(new Set([...additional,...variants,...applications,...casesAdmin,...hardAdmin].map(q=>q.id)).size,246+hardAdmin.length,'identificadores únicos nos lotes');
 const hardDecoro=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara-decoro-dificeis.json'),'utf8'));
@@ -191,11 +192,14 @@ const out=path.join(root,'_site/data/questoes-publicas.json');
 assert.ok(fs.existsSync(out),'exige build do site antes do teste');
 const data=JSON.parse(fs.readFileSync(out,'utf8'));
 assert.ok(data.questions.length>0,'sem questões publicadas');
-for(const q of additional)assert.ok(data.questions.some(item=>item.id===q.id),'item novo não publicado: '+q.id);
-for(const q of variants)assert.ok(data.questions.some(item=>item.id===q.id),'variante de reteste não publicada: '+q.id);
-for(const q of applications)assert.ok(data.questions.some(item=>item.id===q.id),'aplicação nova não publicada: '+q.id);
-for(const q of casesAdmin)assert.ok(data.questions.some(item=>item.id===q.id),'caso novo ausente do banco público: '+q.id);
-for(const q of hardAdmin)assert.ok(data.questions.some(item=>item.id===q.id),'questão difícil ausente no banco público: '+q.id);
+const publishedById=new Map(data.questions.map(q=>[q.id,q]));
+for(const q of [...additional,...variants,...applications,...casesAdmin,...hardAdmin]){
+ const published=publishedById.get(q.id);
+ assert.ok(published,'questão suplementar ausente no banco público: '+q.id);
+ for(const key of ['estimatedDifficulty','questionType','cognitiveOperation']){
+  assert.equal(published[key],q[key],key+' divergente no banco público: '+q.id);
+ }
+}
 for(const q of hardDecoro)assert.ok(data.questions.some(item=>item.id===q.id),'questão de decoro ausente no banco público: '+q.id);
 assert.equal(new Set(data.questions.map(q=>q.id)).size,data.questions.length);
 assert.ok(data.questions.every(q=>q.unitName&&typeof q.section==='string'&&!('reviewEvidence' in q)),'catálogo público precisa expor só vínculo didático, sem dados internos');

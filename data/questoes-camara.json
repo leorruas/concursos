@@ -10896,9 +10896,9 @@
       "articleId": "art-8946971690804376",
       "conceptId": "autotutela",
       "mechanism": "ilegalidade-justifica-anulacao-em-autotutela",
-      "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
-      "cognitiveOperation": "aplicação",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8946971690804376#Autotutela, anulação, revogação e decadência"
@@ -10909,8 +10909,8 @@
       },
       "statement": "Ao identificar ilegalidade em ato próprio, a Administração exerce autotutela ao anulá-lo, observados os limites e as garantias aplicáveis.",
       "correctAnswer": "C",
-      "explanation": "A anulação é a medida de controle da legalidade do ato. A revogação recai sobre ato válido por motivo de mérito administrativo.",
-      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre autotutela. "
+      "explanation": "A Administração exerce autotutela quando controla a legalidade de ato próprio e o anula por vício. Para ato favorável, deve verificar a decadência e observar as garantias do processo, conforme a Lei nº 9.784/1999.",
+      "reviewEvidence": "Lei nº 9.784/1999, arts. 2º, 53 e 54. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm O enunciado pede reconhecimento da regra e fornece a ilegalidade."
     },
     {
       "origin": "inedita",
@@ -53596,9 +53596,9 @@
       "articleId": "art-61c7724cba33648a",
       "conceptId": "anulacao-legalidade",
       "mechanism": "revogacao-de-ato-ilegal",
-      "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
-      "cognitiveOperation": "aplicação",
+      "questionType": "conceitual",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-61c7724cba33648a#1. Anulação (Invalidação)"
@@ -53609,8 +53609,8 @@
       },
       "statement": "Ao identificar vício jurídico insanável em ato administrativo, a Administração deve avaliar sua anulação, e não justificar a revogação apenas com base na conveniência.",
       "correctAnswer": "C",
-      "explanation": "Anulação enfrenta ilegalidade; revogação examina mérito de ato válido.",
-      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md na seção '1. Anulação (Invalidação)'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+      "explanation": "Identificado vício insanável, a Administração examina a anulação do ato, observados os limites aplicáveis. A revogação pressupõe ato válido cuja manutenção deixou de ser conveniente ou oportuna. A convalidação é reservada a defeitos sanáveis, nos termos do art. 55.",
+      "reviewEvidence": "Lei nº 9.784/1999, arts. 53–55. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm O vício é qualificado no enunciado, sem fatos que exijam inferir sua natureza."
     },
     {
       "id": "cam-adm-revogacao-ex-nunc",
@@ -53624,9 +53624,9 @@
       "articleId": "art-61c7724cba33648a",
       "conceptId": "revogacao-ex-nunc",
       "mechanism": "revogacao-retroativa",
-      "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
-      "cognitiveOperation": "aplicação",
+      "questionType": "conceitual",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-61c7724cba33648a#2. Revogação"
@@ -53637,8 +53637,8 @@
       },
       "statement": "Revogar um ato válido por razões supervenientes de oportunidade elimina, como regra, todos os efeitos que ele produziu legitimamente antes da revogação.",
       "correctAnswer": "E",
-      "explanation": "A revogação tem efeitos prospectivos, em regra ex nunc, preservando efeitos anteriores válidos.",
-      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md na seção '2. Revogação'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+      "explanation": "O ato válido pode ser revogado por conveniência ou oportunidade, com respeito aos direitos adquiridos. Em regra, a revogação produz efeitos para o futuro, o chamado efeito ex nunc. Assim, os efeitos legítimos produzidos antes da revogação são preservados.",
+      "reviewEvidence": "Lei nº 9.784/1999, art. 53. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm Súmula 473 do STF. https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602 O item pede a consequência temporal ordinária da revogação."
     },
     {
       "id": "cam-adm-convalidacao-vicio-sanavel",

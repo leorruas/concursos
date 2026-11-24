@@ -675,11 +675,13 @@
     "mechanism": "comparacao-fundamental",
     "format": "CE",
     "origin": "inedita",
-    "estimatedDifficulty": "media",
+    "estimatedDifficulty": "facil",
     "statement": "A revogação de ato válido por conveniência administrativa, quando juridicamente cabível, não se confunde com a anulação de ato ilegal.",
     "correctAnswer": "C",
-    "explanation": "A distinção de fundamento importa para os limites e efeitos da retirada do ato.",
-    "sourceNote": "Questão de caso e distinção do capítulo editorial 11; elaborada com base nos conceitos do artigo e nas normas pertinentes."
+    "explanation": "Quando a medida deixou de ser conveniente ou oportuna, a revogação pode retirar um ato válido, com respeito aos direitos adquiridos. A ilegalidade fundamenta a anulação. É o motivo jurídico da retirada que distingue os dois institutos.",
+    "sourceNote": "Lei nº 9.784/1999, art. 53. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm Não há fatos de um caso a interpretar.",
+    "cognitiveOperation": "compreensão",
+    "questionType": "conceitual"
   },
   {
     "id": "cam-dad-casos-2026-11-2",

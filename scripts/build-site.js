@@ -471,7 +471,7 @@ for(const q of novasAdmin){
  distribuicaoAdmin.set(q.articleId,distribuicaoAdmin.get(q.articleId)+1);
  questoesPublicas.push(Object.fromEntries([
   'id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','officialEditalCode',
-  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'
+  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','questionType','cognitiveOperation','statement','correctAnswer','explanation'
  ].map(k=>[k,q[k]])));
 }
 if([...distribuicaoAdmin.values()].some(n=>n<2))throw Error('Capítulo sem duas questões adicionais.');
@@ -493,7 +493,7 @@ for(const q of variantesAdmin){
  mapaVariantes.set(q.articleId,mapaVariantes.get(q.articleId)+1);
  questoesPublicas.push(Object.fromEntries([
   'id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','officialEditalCode',
-  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'
+  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','questionType','cognitiveOperation','statement','correctAnswer','explanation'
  ].map(k=>[k,q[k]])));
 }
 if([...mapaVariantes.values()].some(n=>n!==2))throw Error('Cada capítulo precisa de duas variantes de reteste.');
@@ -514,7 +514,7 @@ for(const q of aplicacoesAdmin){
  distribuicaoAplicacoes.set(q.articleId,distribuicaoAplicacoes.get(q.articleId)+1);
  questoesPublicas.push(Object.fromEntries([
   'id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','officialEditalCode',
-  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'
+  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','questionType','cognitiveOperation','statement','correctAnswer','explanation'
  ].map(k=>[k,q[k]])));
 }
 if(capitulosAdmin.some((id,i)=>distribuicaoAplicacoes.get(id)!==(i<10?3:2)))throw Error('Distribuição por capítulo do lote aplicado incorreta.');
@@ -535,12 +535,11 @@ for(const q of casosAdmin){
  distribuicaoCasos.set(q.articleId,distribuicaoCasos.get(q.articleId)+1);
  questoesPublicas.push(Object.fromEntries([
   'id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','officialEditalCode',
-  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'
+  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','questionType','cognitiveOperation','statement','correctAnswer','explanation'
  ].map(k=>[k,q[k]])));
 }
 if(capitulosAdmin.some((id,i)=>distribuicaoCasos.get(id)!==(i<10?3:2)))throw Error('Cobertura por capítulo do lote de casos incorreta.');
-// Questões difíceis com análise de mais de uma premissa e exceções normativas.
-// Mantidas em lote isolado para preservar o banco original e os IDs históricos.
+// Lote histórico de maior dificuldade. A auditoria pode reclassificar itens no mesmo arquivo.
 const dificeisAdmin=JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-camara-administrativo-dificeis.json'),'utf8'));
 const coberturaDificeis=new Map(capitulosAdmin.map(id=>[id,0]));
 if(!Array.isArray(dificeisAdmin)||dificeisAdmin.length<47)throw Error('Lote difícil de Administrativo incompleto.');
@@ -548,19 +547,21 @@ for(const q of dificeisAdmin){
  const required=['id','subjectId','subjectName','unitId','unitName','editalRef','officialEditalCode','articleId','section','conceptId','mechanism','statement','correctAnswer','explanation','origin','estimatedDifficulty','sourceNote'];
  if(q.concursoId!=='camara-2026'||q.subjectId!=='direito-administrativo'||
     q.unitId!=='direito-administrativo'||q.examPart!=='P1'||q.format!=='CE'||
-    !['C','E'].includes(q.correctAnswer)||q.origin!=='inedita'||q.estimatedDifficulty!=='dificil'||
+    !['C','E'].includes(q.correctAnswer)||q.origin!=='inedita'||
+    !['media','dificil','facil','muito-facil','muito-dificil'].includes(q.estimatedDifficulty)||
     !required.every(k=>typeof q[k]==='string'&&q[k].trim())||
     !coberturaDificeis.has(q.articleId)||!codigosAdmin.has(q.officialEditalCode)||
     q.editalRef!=='14.2.3 / Direito Administrativo e Administração Pública / '+q.officialEditalCode||
     q.statement.length<90||q.explanation.length<100)throw Error('Questão difícil inválida: '+q.id);
- coberturaDificeis.set(q.articleId,coberturaDificeis.get(q.articleId)+1);
+ if(q.estimatedDifficulty==='dificil')coberturaDificeis.set(q.articleId,coberturaDificeis.get(q.articleId)+1);
  questoesPublicas.push(Object.fromEntries([
   'id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','officialEditalCode',
-  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'
+  'articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','questionType','cognitiveOperation','statement','correctAnswer','explanation'
  ].map(k=>[k,q[k]])));
 }
 if(capitulosAdmin.some((id,i)=>coberturaDificeis.get(id)<(i<10?3:1)))throw Error('Distribuição difícil por capítulo inconsistente.');
-if(Math.abs(dificeisAdmin.filter(q=>q.correctAnswer==='C').length-dificeisAdmin.filter(q=>q.correctAnswer==='E').length)>3)throw Error('Gabarito difícil desequilibrado.');
+const adminAindaDificeis=dificeisAdmin.filter(q=>q.estimatedDifficulty==='dificil');
+if(Math.abs(adminAindaDificeis.filter(q=>q.correctAnswer==='C').length-adminAindaDificeis.filter(q=>q.correctAnswer==='E').length)>3)throw Error('Gabarito difícil desequilibrado.');
 
 
 

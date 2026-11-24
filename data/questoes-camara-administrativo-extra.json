@@ -103,11 +103,13 @@
     "mechanism": "fronteira-autotutela",
     "format": "CE",
     "origin": "inedita",
-    "estimatedDifficulty": "dificil",
+    "estimatedDifficulty": "facil",
     "statement": "A administração pode anular seus atos ilegais e, respeitados os limites jurídicos, revogar atos válidos por conveniência e oportunidade.",
     "correctAnswer": "C",
-    "explanation": "Anulação examina legalidade e revogação examina o mérito de atos válidos.",
-    "sourceNote": "Questão original associada ao capítulo 2 do catálogo editorial."
+    "explanation": "A Administração controla a validade dos próprios atos por autotutela. Diante de ilegalidade, examina a anulação e os limites legais. Diante de ato válido, pode revogar por conveniência ou oportunidade, respeitando os direitos adquiridos.",
+    "sourceNote": "Lei nº 9.784/1999, arts. 53–54. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm O item distingue fundamentos já nomeados no enunciado.",
+    "cognitiveOperation": "compreensão",
+    "questionType": "conceitual"
   },
   {
     "id": "cam-dad-ampl-2026-02-03",
@@ -675,11 +677,13 @@
     "mechanism": "fronteira-anulacao-revogacao",
     "format": "CE",
     "origin": "inedita",
-    "estimatedDifficulty": "media",
+    "estimatedDifficulty": "facil",
     "statement": "Anulação de ato administrativo decorre de ilegalidade, enquanto revogação se relaciona a juízo de conveniência e oportunidade.",
     "correctAnswer": "C",
-    "explanation": "A anulação tem como fundamento a ilegalidade do ato; a revogação, quando juridicamente possível, decorre de avaliação de mérito de ato válido.",
-    "sourceNote": "Questão original associada ao capítulo 11 do catálogo editorial."
+    "explanation": "A anulação corrige a ilegalidade de um ato. A revogação resulta de nova avaliação da conveniência ou oportunidade de manter ato válido e deve respeitar os direitos adquiridos.",
+    "sourceNote": "Lei nº 9.784/1999, art. 53. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm Distinção conceitual direta.",
+    "cognitiveOperation": "compreensão",
+    "questionType": "conceitual"
   },
   {
     "id": "cam-dad-ampl-2026-11-02",

@@ -103,11 +103,13 @@
     "mechanism": "regra-mais-ressalva-limite-temporal",
     "format": "CE",
     "origin": "inedita",
-    "estimatedDifficulty": "dificil",
+    "estimatedDifficulty": "media",
     "statement": "A administração verifica ilegalidade em ato que concedeu vantagem a particular de boa-fé há vários anos. Como se trata de autotutela, a ilegalidade afasta a decadência do art. 54 da Lei 9.784/1999, mesmo sem comprovação de má-fé.",
     "correctAnswer": "E",
-    "explanation": "A Lei 9.784/1999 prevê prazo decadencial para anular atos favoráveis, ressalvada comprovada má-fé. A ilegalidade, por si só, não torna ilimitado o poder de anulação.",
-    "sourceNote": "Questão de maior exigência sobre o capítulo 2; fundamentos: Constituição Federal, Lei 9.784/1999, Lei 8.112/1990 e legislação temática aplicável."
+    "explanation": "A ilegalidade é o fundamento para examinar a anulação. Quando o ato produz efeitos favoráveis, a Administração federal deve verificar se decorreram cinco anos e se houve má-fé comprovada. A expressão “há vários anos” não prova que o prazo acabou. O erro do item é dizer que a ilegalidade, por si só, afasta o limite.",
+    "sourceNote": "Lei nº 9.784/1999, arts. 53–54. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm O julgamento depende da diferença entre fundamento da anulação e exceção à decadência.",
+    "cognitiveOperation": "análise",
+    "questionType": "conceitual"
   },
   {
     "id": "cam-dad-dificil-2026-02-3",
@@ -1508,14 +1510,16 @@
     "section": "Extinção de atos administrativos",
     "format": "CE",
     "origin": "inedita",
-    "estimatedDifficulty": "dificil",
+    "estimatedDifficulty": "media",
     "id": "cam-dad-dificil-2026-11-ampliacao-b-2",
     "conceptId": "anulacao-decadencia-federal",
     "mechanism": "prazo-e-ma-fe",
     "statement": "Em processo federal, para anular ato favorável ao destinatário praticado há mais de cinco anos, a administração deve considerar a decadência prevista em lei; comprovada má-fé do beneficiário, a ressalva legal afasta a incidência desse prazo.",
     "correctAnswer": "C",
-    "explanation": "O art. 54 estabelece decadência quinquenal para anulação de atos favoráveis, salvo comprovada má-fé. A ilegalidade, isoladamente, não dispensa o exame desse limite.",
-    "sourceNote": "Fundamento: Lei 9.784/1999, art. 54."
+    "explanation": "A Administração federal tem cinco anos para anular ato que produza efeitos favoráveis ao destinatário, em regra contados da prática do ato. Nos efeitos patrimoniais contínuos, conta-se do primeiro pagamento. Comprovada má-fé, a ressalva do art. 54 afasta o prazo decadencial. A questão exige considerar o prazo, sem resolver a data inicial em todas as espécies de ato.",
+    "sourceNote": "Lei nº 9.784/1999, art. 54, caput e § 1º. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm Aplicação direta da exceção de má-fé.",
+    "cognitiveOperation": "aplicação",
+    "questionType": "aplicacao"
   },
   {
     "concursoId": "camara-2026",

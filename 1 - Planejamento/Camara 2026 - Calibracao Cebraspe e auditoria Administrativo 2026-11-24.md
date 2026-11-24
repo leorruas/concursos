@@ -153,3 +153,21 @@ Oito itens existentes foram cotejados com os arts. 71 e 73 da Constituição. A 
 | `cam-dad-dificil-2026-26-ampliacao-b-1` | Distinguir o objeto da sustação e a autoridade competente | Comentário ampliado para incluir a comunicação às Casas, a solicitação ao Executivo e o efeito da inércia em 90 dias. É um item relacional sem cenário. |
 
 O item 118 do TCU 2025 combina posição institucional, poder sancionador e eficácia das decisões. O item autoral sobre sanções recupera uma dessas regras isoladamente e funciona como preparação para esse tipo de julgamento. Já as duas variantes erradas sobre comunicar a sustação a uma única Casa verificam essencialmente o mesmo requisito. Os polos Câmara e Senado ajudam a fixar a regra, mas uma nova variante com valor de transferência deve mudar o objeto da sustação, a oportunidade da correção ou o efeito da inércia. [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) e [caderno do TCU 2025](https://cdn.cebraspe.org.br/concursos/tcu_25_tefc/arquivos/108_TCUTEFC_001_01.pdf).
+
+## Auditoria individual de autotutela, revogação e decadência
+
+Foram revisados três itens do banco principal e seis dos suplementos de Direito Administrativo. A auditoria conferiu a regra jurídica determinante, a existência de fatos que alteravam o julgamento, a operação exigida e a dificuldade editorial. Enunciados, gabaritos e IDs foram preservados. Os comentários agora identificam o dispositivo e, quando necessário, a condição que muda a conclusão.
+
+| Item | O que resolve o julgamento | Reclassificação |
+| --- | --- | --- |
+| `cam-revisao-ilegalidade-justifica-anulacao-em-autotutela` | Reconhecer a anulação por ilegalidade como forma de autotutela. O vício já é dado. | Reconhecimento, fácil |
+| `cam-adm-anulacao-legalidade` | Distinguir anulação, revogação e convalidação a partir de vício já qualificado como insanável. | Compreensão, fácil |
+| `cam-adm-revogacao-ex-nunc` | Identificar a consequência temporal ordinária da revogação de ato válido. | Compreensão, fácil |
+| `cam-dad-ampl-2026-02-02` | Distinguir controle de legalidade e revisão de mérito. Ambos os fundamentos estão nomeados. | Compreensão, fácil |
+| `cam-dad-ampl-2026-11-01` | Distinguir o fundamento da anulação e o da revogação. | Compreensão, fácil |
+| `cam-dad-casos-2026-11-1` | Reconhecer a diferença pelo motivo jurídico da retirada. A frase enuncia a regra, sem situação hipotética. | Compreensão, fácil |
+| `cam-dad-variantes-2026-02-2` | Separar a ilegalidade de ato favorável da proteção temporal para anulá-lo. As datas necessárias para resolver um prazo estão ausentes. | Análise, média |
+| `cam-dad-dificil-2026-02-2` | Refutar que a ilegalidade, isoladamente, afaste o limite. A expressão “há vários anos” não determina que o prazo decorreu. | Análise, média |
+| `cam-dad-dificil-2026-11-ampliacao-b-2` | Aplicar a ressalva expressa de má-fé ao ato favorável depois do quinquênio. | Aplicação, média |
+
+O item 110 da prova do TCU 2025 verifica se a autotutela alcança a revogação por conveniência ou oportunidade. As três variantes sobre os fundamentos da retirada exercitam uma distinção próxima. Os itens sobre atos favoráveis acrescentam a decadência e a ressalva de má-fé. Para medir uma operação mais exigente, o caso precisaria fornecer datas de prática, primeiro pagamento ou impugnação e exigir que o estudante determine qual evento altera o prazo ou caracteriza exercício do direito de anular. Nenhum dos nove exige conhecer uma decisão judicial específica para escolher o gabarito. [Lei nº 9.784/1999, arts. 53–55](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm), [Súmula 473 do STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602) e [caderno do TCU 2025](https://cdn.cebraspe.org.br/concursos/tcu_25_tefc/arquivos/108_TCUTEFC_001_01.pdf).

@@ -81,11 +81,13 @@
     "mechanism": "excecao-e-limites",
     "format": "CE",
     "origin": "inedita",
-    "estimatedDifficulty": "dificil",
+    "estimatedDifficulty": "media",
     "statement": "Ao descobrir ato ilegal que favoreceu particular, a administração deve tratá-lo como irrevogável por ser favorável, sem examinar a possibilidade de anulação e os prazos legais.",
     "correctAnswer": "E",
-    "explanation": "A autotutela permite anular atos ilegais, observadas proteção da confiança, decadência aplicável e demais limites jurídicos.",
-    "sourceNote": "Variação de aplicação do capítulo 2; adequada a treino de transferência, sem substituir a repetição literal do item."
+    "explanation": "Um ato favorável pode ser ilegal. A Administração deve examinar a anulação e, no processo federal, verificar se o direito de anular decaiu em cinco anos e se há má-fé comprovada. O caráter favorável aciona a proteção do art. 54 e não resolve, por si, a possibilidade de anulação.",
+    "sourceNote": "Lei nº 9.784/1999, arts. 53–54. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm O enunciado exige distinguir o fundamento da retirada do limite de prazo, mas não fornece datas para cálculo.",
+    "cognitiveOperation": "análise",
+    "questionType": "conceitual"
   },
   {
     "id": "cam-dad-variantes-2026-03-1",

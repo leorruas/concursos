@@ -7606,6 +7606,171 @@
   "expansao": [
     {
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "id": "cam-calibrada-const-ausencia-de-ministro-com-justificativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 76
+      },
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "convocacao-ministro-falta-justificada",
+      "mechanism": "ausencia-de-ministro-com-justificativa",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "análise",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#1.1 Convocação de autoridades do art. 50 da CF (redação da EC nº 132/2023)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "1.1 Convocação de autoridades do art. 50 da CF (redação da EC nº 132/2023)"
+      },
+      "statement": "Uma comissão da Câmara convoca ministro de Estado para prestar esclarecimentos sobre assunto previamente determinado. O ministro não comparece e apresenta justificativa adequada, acolhida pela comissão. Mesmo assim, a ausência configura crime de responsabilidade apenas por se tratar de convocação formal.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição admite a convocação pela comissão, mas associa o crime de responsabilidade à ausência sem justificação adequada. Se o ministro faltasse sem justificativa adequada, estaria presente a condição que falta no caso.",
+      "reviewEvidence": "CF, art. 50, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 76, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e regime dos parlamentares",
+      "id": "cam-calibrada-const-vaga-sem-suplente-com-quatorze-meses",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 82
+      },
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "vaga-sem-suplente-limite-quinze",
+      "mechanism": "vaga-sem-suplente-com-quatorze-meses",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      },
+      "statement": "Decretada a perda do mandato e aberta a vaga de um deputado federal, verifica-se que não há suplente e que faltam 14 meses para o término do mandato. A ausência de suplente não basta, nesse caso, para determinar uma eleição de preenchimento.",
+      "correctAnswer": "C",
+      "explanation": "A vaga normalmente enseja convocação do suplente. Se não houver suplente, a eleição depende de faltarem mais de 15 meses para o fim do mandato. Se ainda faltassem 16 meses, a eleição seria exigida.",
+      "reviewEvidence": "CF, art. 56, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 82, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-calibrada-const-territorio-nao-adquire-autonomia-com-eleicao-local",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 103
+      },
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "territorio-integra-uniao",
+      "mechanism": "territorio-nao-adquire-autonomia-com-eleicao-local",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "statement": "Um território federal tem mais de cem mil habitantes e foi dividido em municípios. Seus representantes sustentam que a eleição de uma Câmara Territorial transforma o território em estado, dispensando lei complementar para essa mudança. A tese está de acordo com a Constituição.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição prevê Câmara Territorial nas condições do art. 33, sem que sua existência altere a posição federativa do território. A transformação em estado deve ser regulada por lei complementar. Uma eleição local não supre esse requisito.",
+      "reviewEvidence": "CF, arts. 18, § 2º, e 33, §§ 1º e 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 103, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-calibrada-const-impeachment-quorum-de-julgamento-nao-se-soma",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 85
+      },
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "crime-responsabilidade-senado-presidencia-stf",
+      "mechanism": "impeachment-quorum-de-julgamento-nao-se-soma",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "A Câmara dos Deputados autoriza, por dois terços de seus membros, a instauração de processo por crime de responsabilidade contra o Presidente da República. No julgamento, 53 dos 81 senadores votam pela condenação. A autorização da Câmara supre a insuficiência de votos para condenar no Senado.",
+      "correctAnswer": "E",
+      "explanation": "A autorização na Câmara e a condenação no Senado são deliberações distintas, cada uma com quórum próprio. A condenação exige 54 votos dos 81 senadores. Um voto favorável adicional no Senado atingiria esse requisito.",
+      "reviewEvidence": "CF, arts. 51, I, e 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 85, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-calibrada-const-ministro-stf-julgado-por-crime-de-responsabilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 95
+      },
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "crime-responsabilidade-stf-sancao-judicial",
+      "mechanism": "ministro-stf-julgado-por-crime-de-responsabilidade",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "O Senado Federal processa um ministro do Supremo Tribunal Federal por crime de responsabilidade. Alcançados dois terços dos votos pela condenação, o Senado pode aplicar a perda do cargo com inabilitação para função pública por oito anos, sem prejuízo das demais sanções judiciais cabíveis.",
+      "correctAnswer": "C",
+      "explanation": "O art. 52 atribui ao Senado o julgamento de ministro do Supremo por crime de responsabilidade e delimita os efeitos da condenação. Se a votação ficasse abaixo dos dois terços, não haveria condenação pelo Senado.",
+      "reviewEvidence": "CF, art. 52, II e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 95, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",

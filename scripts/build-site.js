@@ -451,7 +451,7 @@ const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
   ...(typeof q.questionType==='string'&&q.questionType.trim()?{questionType:q.questionType}:{}),
   ...(q.calibration?.type==='autoral-calibrada'?{calibration:q.calibration}:{}),
   statement:q.statement,correctAnswer:q.correctAnswer,explanation:q.explanation}));
-// Itens oficiais respondidos com leitura no caderno da banca. Nenhum enunciado é copiado.
+// Referências de caderno preservam a origem de respostas antigas. O formato não entra em novas baterias.
 const referenciasOficiais = JSON.parse(fs.readFileSync(
   path.join(rootDir, 'data/questoes-camara-referencias-oficiais.json'), 'utf8'
 ));
@@ -491,7 +491,7 @@ for (const item of referenciasOficiais.itens) {
   }
   const url = caderno.prova + '#page=' + item.pagina;
   questoesPublicas.push({
-    id, concursoId: 'camara-2026', format: 'CE', origin: 'real',
+    id, concursoId: 'camara-2026', format: 'reference', origin: 'real',
     subjectId: item.subjectId, subjectName: materiasQuestoes[item.subjectId],
     unitId: item.unitId, unitName: unit[1], examPart: unit[2], editalRef, officialEditalCode,
     articleId: item.articleId, section: item.section, conceptId: item.conceptId,

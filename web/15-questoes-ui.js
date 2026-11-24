@@ -181,19 +181,6 @@ function choose(n, pool=eligible()){
  const order=shuffle([...groups.keys()]);while(result.length<n){let found=false;for(const key of order){const q=groups.get(key).shift();if(q){result.push(q.id);found=true;}if(result.length===n)break;}if(!found)break;}
  return result;
 }
-function sourcePracticeIds(pool, seen){
- const chosen=new Set();
- const authors=pool.filter(q=>q.origin==='inedita');
- const officials=pool.filter(q=>q.officialSource && !seen.has(q.id)).slice(0,5);
- for(const official of officials){
-  const sameArticle=authors.filter(q=>q.articleId===official.articleId && !chosen.has(q.id));
-  const author=sameArticle.find(q=>q.conceptId===official.conceptId && !seen.has(q.id)) ||
-   sameArticle.find(q=>q.section===official.section && !seen.has(q.id)) ||
-   sameArticle.find(q=>!seen.has(q.id)) || sameArticle[0];
-  if(author){chosen.add(official.id);chosen.add(author.id);}
- }
- return [...chosen];
-}
 function renderSuggestions(review,repeat){
  const list=$('qs-suggestion-list'), exam=contest();
  list.replaceChildren();
@@ -219,8 +206,6 @@ function renderSuggestions(review,repeat){
  offer('Praticar questões novas',loggedIn?'Itens sem resposta no histórico consultado.':'Itens sem resposta neste navegador.',
   loggedIn&&!seenByContest.has(exam.id)?[]:choose(10,pool.filter(q=>!seen.has(q.id))));
  offer('Diagnóstico misto','Questões distribuídas entre matérias de '+exam.nome+'.',choose(10,pool));
- offer('Praticar com cadernos','Combine itens dos cadernos com questões autorais do mesmo tema.',
-  loggedIn&&!seenByContest.has(exam.id)?[]:sourcePracticeIds(pool,seen));
  toggle('qs-suggestions',list.childElementCount>0);
 }
 async function updateSuggestions(){

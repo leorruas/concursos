@@ -199,28 +199,14 @@ for(const item of officialReferences.itens){
  const q=linkedOfficials.find(q=>q.id===`cam-oficial-${item.caderno}-${item.numero}`);
  const source=officialReferences.cadernos[item.caderno];
  assert.equal(q.origin,'real');
+ assert.equal(q.format,'reference','localizador de caderno não é item selecionável');
  assert.equal(q.correctAnswer,item.gabaritoDefinitivo);
  assert.equal(q.officialSource.gabarito,source.gabarito);
  assert.equal(q.officialSource.url,source.prova+'#page='+item.pagina);
  assert.equal(q.statement,`Julgue o item ${item.numero} do caderno ${source.codigo}: ${q.officialSource.url}`);
 }
-const sourcePracticeIds=getFunction(quizSource,'sourcePracticeIds','renderSuggestions');
 const camaraPool=data.questions.filter(q=>q.concursoId==='camara-2026');
-const mixedIds=sourcePracticeIds(camaraPool,new Set());
-assert.equal(mixedIds.length,2*Math.min(5,linkedOfficials.length),'a sugestão combina até cinco itens oficiais com autorais');
-const firstOfficials=new Set(mixedIds.filter((_,index)=>index%2===0));
-const nextMixedIds=sourcePracticeIds(camaraPool,firstOfficials);
-assert.equal(nextMixedIds.length,2*Math.min(5,linkedOfficials.length-firstOfficials.size));
-assert.ok(nextMixedIds.every(id=>!firstOfficials.has(id)),'a segunda bateria omite oficiais já respondidos');
-assert.equal(new Set(mixedIds).size,mixedIds.length);
-for(let index=0;index<mixedIds.length;index+=2){
- const official=camaraPool.find(q=>q.id===mixedIds[index]);
- const author=camaraPool.find(q=>q.id===mixedIds[index+1]);
- assert.equal(official.origin,'real');
- assert.equal(author.origin,'inedita');
- assert.equal(author.articleId,official.articleId);
-}
-assert.equal(sourcePracticeIds(camaraPool,new Set(linkedOfficials.map(q=>q.id))).length,0);
+assert.ok(!quizSource.includes('Praticar com cadernos'),'não oferecer bateria com leitura externa');
 const mockElement=(tag,text='')=>({
  tag,text,children:[],
  get textContent(){return this.text;},

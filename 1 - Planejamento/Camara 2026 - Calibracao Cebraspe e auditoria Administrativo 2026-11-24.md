@@ -188,7 +188,7 @@ Quatro dos cinco itens têm gabarito Errado neste recorte. A sugestão os interc
 
 ## Itens da Câmara com edital de 2025 e aplicação em 2026
 
-Foram incluídas cinco referências do caderno comum aos cargos de Analista Legislativo e Técnico Legislativo, código **167_CDNS_CG1_01**, aplicado em 08/03/2026. O catálogo passa a oferecer dez itens oficiais por referência, de três cadernos. O primeiro conjunto de cinco pares intercala três itens deste caderno com dois do lote inicial. Os demais podem aparecer conforme o histórico de respostas. [Caderno oficial](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/1-prova-objetiva-de-conhecimentos-gerais-analista-e-tecnico) · [Gabarito definitivo](https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/BE7F1F9B1F3F90750D44E63070FDE8505D71F1BADD7F9A2096BB953B32081694.pdf)
+Foram incluídas cinco referências do caderno comum aos cargos de Analista Legislativo e Técnico Legislativo, código **167_CDNS_CG1_01**, aplicado em 08/03/2026. O catálogo passa a oferecer dez itens oficiais por referência, de três cadernos. As referências ficam na documentação e preservam o vínculo de respostas anteriores. [Caderno oficial](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/1-prova-objetiva-de-conhecimentos-gerais-analista-e-tecnico) · [Gabarito definitivo](https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/BE7F1F9B1F3F90750D44E63070FDE8505D71F1BADD7F9A2096BB953B32081694.pdf)
 
 | Item | Página no PDF | Tema | Gabarito definitivo |
 | --- | ---: | --- | --- |
@@ -198,4 +198,6 @@ Foram incluídas cinco referências do caderno comum aos cargos de Analista Legi
 | 61 | 5 | Autorização legal para renúncia de competência | C |
 | 62 | 5 | Alcance da Lei nº 9.784/1999 no Legislativo | E |
 
-O item 47 depende de localizar no contexto a redistribuição de competências dentro da mesma pessoa jurídica. Os itens 58 e 60 formam um contraste entre aplicação da exigência de dolo ao caso e compreensão da diferença entre conduta voluntária e dirigida ao resultado ilícito. Os cinco foram publicados com localizador, gabarito definitivo, comentário próprio e vínculo ao edital de Divulgação Institucional. O catálogo contém quatro gabaritos Certo e seis Errado. [Lei nº 8.429/1992](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm) · [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm)
+O item 47 depende de localizar no contexto a redistribuição de competências dentro da mesma pessoa jurídica. Os itens 58 e 60 formam um contraste entre aplicação da exigência de dolo ao caso e compreensão da diferença entre conduta voluntária e dirigida ao resultado ilícito. Os cinco têm localizador, gabarito definitivo, comentário próprio e vínculo ao edital de Divulgação Institucional. O catálogo contém quatro gabaritos Certo e seis Errado. [Lei nº 8.429/1992](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm) · [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm)
+
+**Fluxo vigente.** A resolução exige que o enunciado completo esteja na tela. Os dez localizadores ficam fora das novas baterias enquanto não houver liberação documentada para reprodução dos enunciados. Os IDs e as respostas anteriores conservam os vínculos de origem.

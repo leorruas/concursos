@@ -33,3 +33,32 @@ O seletor `web/15-questoes-ui.js` já exibe a sugestão **Praticar questões nov
 ## Próxima auditoria
 
 Ampliar a amostra de Administrativo para incluir o núcleo principal e checar: precisão normativa do `sourceNote`; aplicabilidade dos casos; duplicação sem ganho cognitivo; equilíbrio de formas de julgamento e proporção realmente aferida de itens curtos/contextualizados nas provas oficiais. Este documento registra um ponto de partida, sem afirmar que todos os itens do Administrativo estão certificados.
+
+## Primeira medição por item
+
+A [matriz de amostra](Camara%202026%20-%20Amostra%20oficial%20de%20calibracao.md) registra 58 itens, com localizador e gabarito definitivo. Os objetos descritos na matriz são etiquetas de análise. O enunciado deve ser lido no caderno de origem.
+
+| Caderno e recorte | Itens | Válidos | Anulados | Operações predominantes entre os válidos |
+| --- | ---: | ---: | ---: | --- |
+| Câmara, aplicação de 13/04/2014, Analista Legislativo, Consultor Legislativo, conhecimentos básicos tipo 1, CB2-03, itens 71–110 | 40 | 37 | 3 | 8 relacionais, 8 distinções, 8 exceções, 6 literais, 4 jurisprudenciais, 3 aplicações |
+| Câmara, edital de 2025, aplicação de 08/03/2026, conhecimentos gerais dos cargos 1 e 2, caderno 167_CDNS_CG1_01, itens 47–64 | 18 | 18 | 0 | 5 exceções, 4 distinções, 3 aplicações, 3 relacionais, 2 literais, 1 jurisprudencial |
+
+- **2014:** [caderno oficial](https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF). O recorte é o bloco Processo Legislativo, incluindo organização constitucional e Decoro. Os itens 74, 93 e 107 foram anulados.
+- **2026:** [caderno oficial](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/1-prova-objetiva-de-conhecimentos-gerais-analista-e-tecnico) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/BE7F1F9B1F3F90750D44E63070FDE8505D71F1BADD7F9A2096BB953B32081694.pdf). O caderno é comum a Processo Legislativo e Gestão e Assistente Legislativo e Administrativo. Este recorte mede Direito Administrativo e temas de interface.
+- **Alvo editorial:** Cargo 1, Divulgação Institucional, [edital consolidado até a retificação nº 7, de 18/11/2026](https://cdn.cebraspe.org.br/concursos/cd_26_analista/arquivos/560D92CE673D575FC9D1F95DF564F68524BC7CA9146A6E113C2F0C04313D67EB.pdf).
+
+A operação predominante recebe um rótulo por questão. Quando uma condição prevista em norma altera a incidência da regra principal, o item é classificado como exceção. Quando o julgamento exige combinar regras com funções distintas, é relacional. O rótulo jurisprudência se aplica quando o entendimento judicial é determinante. A classificação é editorial e admite revisão. Os cinco itens do segundo recorte com cenário compartilhado incluem contexto fora do trecho numerado. A contagem de caracteres é preliminar, baseada na extração do PDF e restrita ao trecho numerado. Os recortes têm disciplinas e cargos distintos, o que impede agregá-los como distribuição representativa da próxima prova.
+
+### Inventário do banco antes da expansão
+
+| Banco | Itens | Abaixo de 130 caracteres | Operação informada no metadado |
+| --- | ---: | ---: | ---: |
+| Constitucional, banco principal | 648 | 79 | 628 |
+| Administrativo, banco principal | 195 | 21 | 177 |
+| Administrativo, cinco suplementos | 333 | 70 | 0 |
+
+No principal de Constitucional, 460 itens estão rotulados como aplicação, 73 análise, 43 integração, 36 reconhecimento e 16 compreensão. No Administrativo principal, os 177 metadados existentes usam aplicação. Esses números descrevem os rótulos declarados. A auditoria individual ainda precisa conferir se o fato do cenário altera a conclusão. Nos suplementos de Administrativo, 195 itens estão marcados como difíceis. Essa dificuldade também precisa ser testada pela operação exigida. Nenhum enunciado se repete literalmente dentro de cada arquivo após normalizar espaços e caixa. Variantes próximas exigem exame semântico.
+
+### Estado da incorporação
+
+Nesta etapa foram examinados 58 itens de dois cadernos, com 55 gabaritos válidos e três anulações. A classificação de relevância, a conclusão sobre atualidade jurídica e direitos de reprodução, a ampliação para outras provas, a revisão individual do banco e o lote autoral seguem pendentes. Os 58 localizadores ficam disponíveis para cotejo nas fontes oficiais. Nenhuma questão foi adicionada ao treino nesta etapa.

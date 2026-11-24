@@ -46,15 +46,23 @@
  .results-learning-block{margin:30px 0 34px;min-width:0}
  .results-learning-block h3{font-size:18px;letter-spacing:-.025em;font-weight:620;margin:0 0 7px;color:var(--text)}
  .results-learning-block>p{font-size:12px;color:var(--muted);line-height:1.5;margin:0 0 15px}
- .results-learning-series{display:grid;gap:9px}
- .results-learning-series-row{display:grid;grid-template-columns:86px minmax(0,1fr) 100px;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
- .results-learning-tracks{display:grid;gap:4px;min-width:0}
- .results-learning-track{height:7px;border-radius:3px;background:color-mix(in srgb,var(--text) 10%,transparent);overflow:hidden}
- .results-learning-fill{height:100%;display:block;border-radius:3px;background:var(--accent-blue)}
- .results-learning-fill.is-supported{background:color-mix(in srgb,var(--text) 48%,transparent)}
- .results-learning-legend{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 14px;font-size:12px;color:var(--muted)}
- .results-learning-legend span:before{display:inline-block;content:'';width:10px;height:6px;margin-right:6px;background:var(--accent-blue);vertical-align:middle}
- .results-learning-legend span+span:before{background:color-mix(in srgb,var(--text) 48%,transparent)}
+ #results-learning-dashboard{--learning-independent:var(--accent-blue);--learning-supported:color-mix(in srgb,var(--text) 66%,transparent)}
+ .results-learning-series{display:grid;gap:0}
+ .results-learning-series-row{display:grid;grid-template-columns:minmax(110px,150px) minmax(0,1fr);gap:16px;align-items:center;padding:13px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 12%,transparent);font-size:12px;color:var(--muted)}
+ .results-learning-series-meta{display:flex;flex-direction:column;gap:4px;min-width:0}
+ .results-learning-series-meta strong{font-size:13px;color:var(--text);font-weight:600}
+ .results-learning-series-meta small{font-size:11px;line-height:1.4}
+ .results-learning-tracks{display:grid;gap:9px;min-width:0}
+ .results-learning-series-line{display:grid;grid-template-columns:minmax(0,1fr) minmax(52px,auto);gap:10px;align-items:center}
+ .results-learning-series-value{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--text);font-size:12px}
+ .results-learning-series-value.is-missing{color:var(--muted)}
+ .results-learning-track{height:8px;border-radius:3px;background:color-mix(in srgb,var(--text) 10%,transparent);overflow:hidden}
+ .results-learning-track.is-missing{background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--text) 12%,transparent) 0 2px,transparent 2px 5px)}
+ .results-learning-fill{height:100%;display:block;border-radius:3px;background:var(--learning-independent,var(--accent-blue))}
+ .results-learning-fill.is-supported{background:var(--learning-supported)}
+ .results-learning-legend{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 8px;font-size:12px;color:var(--muted)}
+ .results-learning-legend span:before{display:inline-block;content:'';width:10px;height:6px;margin-right:6px;background:var(--learning-independent);vertical-align:middle}
+ .results-learning-legend span+span:before{background:var(--learning-supported)}
  .results-learning-matter{padding:12px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 13%,transparent)}
  .results-learning-matter-top{display:flex;justify-content:space-between;gap:10px;align-items:baseline;margin:0 0 6px;color:var(--text);font-size:13px}
  .results-learning-matter-top strong{font-weight:620;font-variant-numeric:tabular-nums}
@@ -76,7 +84,7 @@
  .results-view-panel .results-history-event-context,.results-view-panel .results-concept small{line-height:1.55}
  .results-view-panel .results-week-table th{white-space:normal;font-size:11px}
  .results-view-panel .results-week-table td{font-size:13px}
- @media(max-width:560px){.results-learning-kpis{gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}.results-learning-series-row{grid-template-columns:64px minmax(0,1fr) 82px;gap:7px;font-size:11px}.results-learning-retention{gap:5px;grid-template-columns:minmax(0,1fr) repeat(3,34px)}}
+ @media(max-width:560px){.results-learning-kpis{gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}.results-learning-series-row{grid-template-columns:minmax(0,1fr);gap:9px}.results-learning-series-meta{flex-direction:row;flex-wrap:wrap;align-items:baseline;gap:5px 10px}.results-learning-series-line{gap:8px}.results-learning-retention{gap:5px;grid-template-columns:minmax(0,1fr) repeat(3,34px)}}
  /* Navegacao lateral: cada visao e uma pagina, nao uma pilha de accordions. */
  .results-layout{max-width:1180px}
  /* Barra e conteudo usam as mesmas bordas e largura do projeto. */
@@ -518,7 +526,12 @@
   return {total,matters,series,startKey,asOf};
  }
  function learningRate(v,key){
-  return v.learningAvailable&&v.correct+v.incorrect>0 ? v[key]/(v.correct+v.incorrect) : null;
+  const judged=v.correct+v.incorrect;
+  if(!v.learningAvailable||!judged)return null;
+  // Um zero sem nenhuma resposta com contexto completo não é evidência de ausência.
+  // Apoio explicitamente marcado ainda pode ser observado em contexto parcial.
+  if(v.contextUnknown>=judged&&v[key]===0)return null;
+  return v[key]/judged;
  }
  function showRate(v){return v===null?'Sem amostra':accuracyFormat.format(v);}
  function learningKpi(label,value,detail){
@@ -528,7 +541,7 @@
   const node=newNode('section','results-learning-block');node.append(newNode('h3','',title));if(subtitle)node.append(newNode('p','',subtitle));return node;
  }
  function track(rate,supported=false){
-  const wrap=newNode('div','results-learning-track');wrap.setAttribute('aria-hidden','true');
+  const wrap=newNode('div','results-learning-track'+(rate===null?' is-missing':''));wrap.setAttribute('aria-hidden','true');
   if(rate!==null){const fill=newNode('span','results-learning-fill'+(supported?' is-supported':''));fill.style.width=(Math.max(0,Math.min(1,rate))*100)+'%';wrap.append(fill);}
   return wrap;
  }
@@ -587,16 +600,26 @@
    learningKpi('Conceitos com retenção observada',principles===null?'—':principles.filter(p=>(p.signals||[]).some(s=>s.kind==='independent')).length,'Histórico completo · não é domínio definitivo'));
   learningTarget.append(kpis);
   if(context!==null)learningTarget.append(newNode('p','results-caption',context+' de '+judged+' respostas julgadas com contexto completo. Os percentuais são mínimos observados sobre todas as respostas julgadas.'));
-  const evolution=learningBlock('Evolução da independência','Por semana, dentro do período selecionado. Mesma base: acertos e erros.');
+  const evolution=learningBlock('Evolução da independência','Por semana, dentro do período selecionado. Percentuais sobre respostas julgadas (acertos e erros).');
   const legend=newNode('div','results-learning-legend');legend.append(newNode('span','','Independentes'),newNode('span','','Com apoio'));evolution.append(legend);
   const series=newNode('div','results-learning-series');
   for(const [week,v] of [...report.series].sort((a,b)=>a[0].localeCompare(b[0]))){
-   const row=newNode('div','results-learning-series-row');const tracks=newNode('div','results-learning-tracks');
-   const a=learningRate(v,'independent'),b=learningRate(v,'supportedCorrect');
-   tracks.append(track(a),track(b));row.append(newNode('span','',datePt(week).slice(0,5)),tracks,newNode('span','',a===null||b===null?'Sem amostra':showRate(a)+' / '+showRate(b)));series.append(row);
+   const row=newNode('div','results-learning-series-row'),meta=newNode('div','results-learning-series-meta'),tracks=newNode('div','results-learning-tracks');
+   const judged=v.correct+v.incorrect;
+   meta.append(newNode('strong','',datePt(week).slice(0,5)),newNode('small','',judged+' resposta(s) julgada(s)'+(v.blank?' · '+v.blank+' em branco':'')));
+   if(!v.learningAvailable)meta.append(newNode('small','','Contexto indisponível'));
+   else if(v.contextUnknown)meta.append(newNode('small','',v.contextUnknown+' sem contexto completo'));
+   for(const [key,label,supported] of [['independent','Independentes',false],['supportedCorrect','Com apoio',true]]){
+    const rate=learningRate(v,key),line=newNode('div','results-learning-series-line');
+    const value=newNode('span','results-learning-series-value'+(rate===null?' is-missing':''),rate===null?'—':showRate(rate));
+    const description=rate!==null?showRate(rate):!judged?'Sem respostas julgadas':!v.learningAvailable?'Contexto indisponível':'Sem contexto suficiente';
+    line.setAttribute('role','group');line.setAttribute('aria-label',label+': '+description);
+    line.append(track(rate,supported),value);tracks.append(line);
+   }
+   row.append(meta,tracks);series.append(row);
   }
   if(!report.series.size)series.append(newNode('p','results-caption','Sem respostas no período.'));
-  evolution.append(series);learningTarget.append(evolution);
+  evolution.append(series,newNode('p','results-caption','Traço e barra hachurada: informação insuficiente. Se parte da semana não tem contexto completo, os percentuais são limites inferiores observados; 0% registrado não equivale a uma ausência comprovada de acertos.'));learningTarget.append(evolution);
   const matters=learningBlock('Independência por matéria','Percentual de acertos independentes entre respostas julgadas.');
   for(const [id,v] of [...report.matters].sort((a,b)=>b[1].total-a[1].total||a[0].localeCompare(b[0]))){
    const node=newNode('div','results-learning-matter'),top=newNode('div','results-learning-matter-top');

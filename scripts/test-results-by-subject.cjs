@@ -116,3 +116,17 @@ assert.ok(html.includes('id="results-subject-period"'));
 assert.ok(html.includes('value="30"')&&html.includes('value="60"'));
 assert.ok(source.includes('renderSubjectPeriod();showCoverage();'));
 console.log('OK: períodos Total, 30 e 60 dias nas matérias, limites inclusivos e dados ausentes.');
+
+const weeklyRate=learningContext.learningRate;
+const fullyUnknown={learningAvailable:true,correct:3,incorrect:2,contextUnknown:5,independent:0,supportedCorrect:0};
+assert.equal(weeklyRate(fullyUnknown,'independent'),null,'contexto totalmente desconhecido não é 0%');
+assert.equal(weeklyRate(fullyUnknown,'supportedCorrect'),null);
+assert.equal(weeklyRate({...fullyUnknown,contextUnknown:0},'supportedCorrect'),0,'zero confirmado deve continuar visível');
+assert.equal(weeklyRate({...fullyUnknown,supportedCorrect:1},'supportedCorrect'),0.2,'apoio declarado em contexto parcial é evidência observada');
+assert.equal(weeklyRate({...fullyUnknown,contextUnknown:1,independent:3},'independent'),0.6,'mesmo denominador para comparação');
+assert.ok(pages.includes("['supportedCorrect','Com apoio',true]"),'segunda série deve usar o preenchimento cinza');
+assert.ok(pages.includes('.results-learning-fill.is-supported{background:var(--learning-supported)}'));
+assert.ok(pages.includes('.results-learning-legend span+span:before{background:var(--learning-supported)}'));
+assert.ok(pages.includes('line.append(track(rate,supported),value)'),'cada barra tem seu próprio percentual');
+assert.ok(pages.includes("judged+' resposta(s) julgada(s)'"));
+console.log('OK: cores, percentuais por barra, amostra e contexto desconhecido.');

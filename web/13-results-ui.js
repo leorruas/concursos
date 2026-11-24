@@ -729,6 +729,34 @@ function renderStudyModes(byMode) {
  }
  target.append(heading,list);
 }
+function renderQuestionOrigins(rows){
+ const modes=$('results-study-modes');
+ modes.querySelector('.results-question-origins')?.remove();
+ if(!Array.isArray(rows)||!rows.length)return;
+ modes.hidden=false;
+ const labels={
+  official:'Questões oficiais', 'calibrated-author':'Autorais calibradas',
+  'learning-author':'Autorais de aprendizagem', adapted:'Adaptadas', unknown:'Origem sem registro'
+ };
+ const format=new Intl.NumberFormat('pt-BR',{maximumFractionDigits:1});
+ const section=el('section','results-question-origins');
+ section.append(el('h2','','Desempenho por origem da questão'),
+  el('p','results-caption','Total do concurso. A taxa considera acertos e erros. Compare também o volume e a composição das questões.'));
+ const list=el('div','results-modes-list');
+ for(const [id,label] of Object.entries(labels)){
+  const data=rows.find(row=>row.id===id);
+  if(!data)continue;
+  const row=el('div','results-mode-row');
+  const info=el('div','results-mode-name');info.append(el('strong','',label));
+  const measure=el('div','results-mode-measures');
+  const rate=data.accuracy==null?'—':format.format(data.accuracy)+'%';
+  measure.append(el('strong','results-mode-total',rate),
+   el('span','results-mode-breakdown',data.correct+' acertos · '+data.incorrect+' erros'+
+    (data.blank?' · '+data.blank+' em branco':'')));
+  row.append(info,measure);list.append(row);
+ }
+ section.append(list);modes.append(section);
+}
 function observedAccuracyPeriods(data,today){
  const weeks=data?.weekly?.weeks;
  if(!Array.isArray(weeks)||!/^\d{4}-\d{2}-\d{2}$/.test(today))return {week:null,month:null,available:false};
@@ -755,6 +783,7 @@ function render(){
  if(quizLearningAttempts)renderQuizLearning(quizLearningAttempts,current.concursoId,Date.now());
  renderAdaptive(current.adaptive);
  renderStudyModes(current.adaptive?.byMode);
+ renderQuestionOrigins(current.questionOrigins);
  renderPrincipleHistory(current.adaptive,current.concepts||[]);
  const summary=current.summary||{},source=current.sources||{};
  const valid=summary.valid||0;

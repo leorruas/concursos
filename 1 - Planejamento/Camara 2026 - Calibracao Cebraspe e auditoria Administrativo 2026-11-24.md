@@ -72,3 +72,9 @@ A triagem atribui **alta** a item válido de aderência direta e alto valor peda
 **Resultado da triagem:** 11 de prioridade alta, 44 de média e 3 de baixa. Dos 55 válidos, 19 tiveram a regra determinante conferida nesta rodada e 36 ainda precisam de cotejo. A conferência de atualidade é distinta da liberação editorial. Enquanto o direito de reprodução integral não estiver documentado, o acesso é por caderno e número do item. A matriz não contém itens jogáveis e não altera as tentativas.
 
 Fontes do cotejo inicial: [Constituição Federal](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), [Lei nº 8.112/1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm), [Lei nº 8.429/1992](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm), [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) e [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm).
+
+### Lote autoral 1 — Constitucional
+
+Cinco itens vinculados aos mecanismos observados no caderno de 2014, com cenários novos e justificativa jurídica no banco. Três exigem combinação de regras, um exige distinguir as competências materiais no cenário e um aplica quórum e iniciativa. A composição do piloto privilegia a transferência em competências e processo legislativo. Ela não fixa a distribuição dos 40 itens. A revisão conferiu a norma, a seção vinculada, o fato que decide o gabarito e uma mudança de cenário que altera a análise. A dificuldade é estimada.
+
+O catálogo mantém `origin: inedita` para preservar compatibilidade. O campo `calibration` identifica autoria calibrada e a questão oficial que fundamentou a comparação. A identificação aparece na correção, depois do julgamento. As tentativas continuam vinculadas aos IDs existentes e às origens obtidas do catálogo.

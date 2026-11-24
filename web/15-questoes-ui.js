@@ -283,11 +283,17 @@ function render(){
  toggle('qs-blank-wrap',session.mode==='simulado');toggle('qs-after',false);toggle('qs-feedback',false);toggle('qs-pending',false);toggle('qs-answer-form',true);toggle('qs-answer-metadata',true);toggle('qs-submit-row',true);
  $('qs-consulted').disabled=false;$('qs-feedback-before').disabled=false;
 }
+function questionProvenance(q){
+ const label=q.origin==='real'?'Questão oficial':q.calibration?.type==='autoral-calibrada'?
+  'Questão autoral calibrada':'Questão autoral de aprendizagem';
+ return elem('small',label);
+}
 function feedback(q,a){
  const el=$('qs-feedback');
  const chosen=a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco';
  const solution=q.correctAnswer==='C'?'Certo':'Errado';
  el.replaceChildren(elem('strong',(a.result==='correct'?'Acertou':a.result==='blank'?'Em branco':'Errou')+' · Sua resposta: '+chosen+' · Gabarito: '+solution),elem('p',q.explanation));
+ el.append(questionProvenance(q));
  const link=theory(q);if(link)el.append(link);toggle('qs-feedback',true);
 }
 async function sync(a){
@@ -370,7 +376,7 @@ function finish(){
  }
  $('qs-review-count').textContent='('+session.answers.length+')';
  const review=$('qs-reviews');review.replaceChildren();
- session.answers.forEach((a,i)=>{const q=data.map.get(a.questionId);if(!q)return;const d=elem('details');d.className='qs-review';d.append(elem('summary',(i+1)+'. '+(q.subjectName||q.subjectId)+' · '+(a.result==='correct'?'acerto':a.result==='blank'?'em branco':'erro')),elem('p',q.statement),elem('p','Sua resposta: '+(a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco')+' · Gabarito: '+(q.correctAnswer==='C'?'Certo':'Errado')),elem('p',q.explanation));const link=theory(q);if(link)d.append(link);review.append(d);});
+ session.answers.forEach((a,i)=>{const q=data.map.get(a.questionId);if(!q)return;const d=elem('details');d.className='qs-review';d.append(elem('summary',(i+1)+'. '+(q.subjectName||q.subjectId)+' · '+(a.result==='correct'?'acerto':a.result==='blank'?'em branco':'erro')),elem('p',q.statement),elem('p','Sua resposta: '+(a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco')+' · Gabarito: '+(q.correctAnswer==='C'?'Certo':'Errado')),elem('p',q.explanation),questionProvenance(q));const link=theory(q);if(link)d.append(link);review.append(d);});
  status('Bateria concluída. Prioridades de leitura calculadas a partir desta sessão.');
 }
 function resume(){

@@ -7605,6 +7605,171 @@
   ],
   "expansao": [
     {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-calibrada-const-suspensao-apenas-em-parte-da-lei-estadual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 71
+      },
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "suplementacao-educacao-apos-norma-geral",
+      "mechanism": "suspensao-apenas-em-parte-da-lei-estadual",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência legislativa concorrente: art. 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência legislativa concorrente: art. 24"
+      },
+      "statement": "Na ausência de norma geral federal sobre determinada matéria de educação, um estado legislou para atender às suas peculiaridades. A União posteriormente editou norma geral incompatível com um dos artigos da lei estadual, mas compatível com os demais. A lei federal suspende a eficácia apenas do artigo estadual incompatível.",
+      "correctAnswer": "C",
+      "explanation": "Na competência concorrente, o estado exerce competência plena na falta de norma geral federal. Quando a União edita a norma geral, fica suspensa a eficácia apenas da parte estadual que a contraria. Se todos os dispositivos estaduais fossem incompatíveis, a suspensão alcançaria todos eles.",
+      "reviewEvidence": "CF, art. 24, IX e §§ 1º a 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 71, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-calibrada-const-vice-senado-depois-de-duas-omissoes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 80
+      },
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "promulgacao-vice-senado",
+      "mechanism": "vice-senado-depois-de-duas-omissoes",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "Recebido um projeto de lei, o Presidente da República deixou passar o prazo constitucional sem se manifestar. Depois da sanção tácita, nem o Presidente da República nem, sucessivamente, o Presidente do Senado promulgou a lei no respectivo prazo de 48 horas. A promulgação cabe ao Vice-Presidente do Senado.",
+      "correctAnswer": "C",
+      "explanation": "O silêncio no prazo de sanção produz sanção tácita. A promulgação segue uma ordem distinta: Presidente da República, Presidente do Senado e Vice-Presidente do Senado, observados os dois prazos sucessivos. Uma promulgação tempestiva pelo Presidente do Senado encerraria essa sequência.",
+      "reviewEvidence": "CF, art. 66, §§ 3º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 80, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-calibrada-const-projeto-rejeitado-maioria-camara-apta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      },
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "rejeicao-projeto-fracoes-somadas",
+      "mechanism": "projeto-rejeitado-maioria-camara-apta",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "Um projeto de lei foi rejeitado no Senado. Ainda na mesma sessão legislativa, 257 deputados subscrevem novo projeto sobre a mesma matéria. A iniciativa atende ao requisito de maioria absoluta, embora os signatários pertençam à Casa em que o texto anterior não foi rejeitado.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição admite proposta subscrita pela maioria absoluta dos membros de qualquer uma das Casas. Na Câmara, 257 de 513 atingem esse mínimo. Com 256 subscrições e sem proposta que atingisse maioria absoluta no Senado, a condição não seria satisfeita.",
+      "reviewEvidence": "CF, art. 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 92, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-calibrada-const-patrimonio-historico-sem-transferencia-de-competencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 105
+      },
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "competencia-comum-exclusiva-uniao",
+      "mechanism": "patrimonio-historico-sem-transferencia-de-competencia",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "análise",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência comum: art. 23"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência comum: art. 23"
+      },
+      "statement": "União e município planejam proteger documentos de valor histórico local. O município suspende suas providências alegando que precisa receber delegação da União para atuar. A exigência se justifica porque a competência material de proteção do patrimônio histórico pertence originalmente à União.",
+      "correctAnswer": "E",
+      "explanation": "A proteção patrimonial é competência material comum. O município também tem atribuição de proteger o patrimônio histórico-cultural local, observada a legislação e a fiscalização federal e estadual. Um ato cuja disciplina estivesse reservada a outro ente exigiria análise distinta da competência de proteção.",
+      "reviewEvidence": "CF, arts. 23, III e IV, e 30, IX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 105, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-calibrada-const-lacre-de-registros-nao-confere-interceptacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 77
+      },
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "cpi-interceptacao-telefonica",
+      "mechanism": "lacre-de-registros-nao-confere-interceptacao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#2. A cláusula constitucional: \"Poderes de investigação próprios das autoridades judiciais\""
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "2. A cláusula constitucional: \"Poderes de investigação próprios das autoridades judiciais\""
+      },
+      "statement": "Para apurar um fato determinado, uma comissão parlamentar de inquérito reúne documentos de uma operadora e pretende ordenar que ela passe a captar o áudio de ligações futuras. A competência investigatória da comissão para examinar documentos não lhe permite determinar diretamente essa captação.",
+      "correctAnswer": "C",
+      "explanation": "Os poderes investigatórios da comissão devem respeitar as medidas sujeitas a reserva de jurisdição. Captar o conteúdo de comunicações futuras é interceptação, que exige ordem judicial. A obtenção de documentos já existentes envolve outra análise e não se confunde com a captura do áudio de ligações futuras.",
+      "reviewEvidence": "CF, arts. 5º, XII, e 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 77, da Câmara de 2014."
+    },
+    {
       "origin": "inedita",
       "format": "CE",
       "examPart": "P1",

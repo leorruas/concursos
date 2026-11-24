@@ -82,3 +82,7 @@ O catálogo mantém `origin: inedita` para preservar compatibilidade. O campo `c
 ### Lote autoral 2 — Constitucional
 
 Cinco casos adicionais levam o total a 10 de 40. Três exigem integrar regras, um exige analisar uma condição e um aplica o rito constitucional ao cargo indicado. O lote explora ausência justificada em convocação ministerial, eleição após vaga sem suplente, organização territorial e quóruns e efeitos de crimes de responsabilidade. Os itens 76, 82, 85, 95 e 103 de 2014 serviram de referência para as operações de julgamento. Em particular, o item 85 motivou o contraste entre autorização e processamento em um rito diferente, e o item 95 motivou a separação entre julgamento político e efeitos na esfera judicial.
+
+### Lote autoral 3 — iniciativa, quóruns e competências
+
+Cinco itens levam a seleção autoral a 15 de 40. O lote inclui três integrações, uma análise e uma aplicação. O caderno de 2014 forneceu quatro contrastes de referência: competência institucional (75), iniciativa orçamentária (79), remessa para promulgação (80) e consequência processual de uma rejeição (92). Os novos cenários testam iniciativa reservada, apuração separada do veto, retorno de substitutivo aprovado, distinção entre limite da dívida e autorização de operação externa e vedação de delegação da LDO.

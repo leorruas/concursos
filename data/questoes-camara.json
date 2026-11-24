@@ -7609,6 +7609,171 @@
       "examPart": "P2",
       "subjectId": "direito-constitucional",
       "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Iniciativa legislativa",
+      "id": "cam-calibrada-const-projeto-reservado-apresentado-por-comissao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 79
+      },
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "comissao-iniciativa-sem-reserva",
+      "mechanism": "projeto-reservado-apresentado-por-comissao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa de leis ordinárias e complementares: art. 61, caput"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa de leis ordinárias e complementares: art. 61, caput"
+      },
+      "statement": "Uma comissão permanente da Câmara apresenta projeto que cria cargos na administração direta federal. O texto é aprovado pela Câmara e pelo Senado. A aprovação das duas Casas supre a falta de iniciativa do Presidente da República.",
+      "correctAnswer": "E",
+      "explanation": "As comissões possuem iniciativa legislativa geral, sujeita às reservas constitucionais. A criação de cargos na administração direta federal é de iniciativa privativa presidencial. A aprovação bicameral não altera a autoria do projeto. Em matéria sem reserva, a iniciativa de comissão pode ser válida.",
+      "reviewEvidence": "CF, art. 61, caput e § 1º, II, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 79, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-calibrada-const-veto-com-mais-de-metade-so-na-camara",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 80
+      },
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "veto-maioria-por-casa",
+      "mechanism": "veto-com-mais-de-metade-so-na-camara",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "Em sessão conjunta, 260 deputados e 40 senadores votam pela rejeição de um veto presidencial. O presidente da sessão proclama a rejeição e determina a remessa para promulgação, com base na soma dos votos das duas Casas. A proclamação está de acordo com a Constituição.",
+      "correctAnswer": "E",
+      "explanation": "A sessão é conjunta, mas a maioria absoluta é apurada separadamente. Houve maioria na Câmara e faltou um voto no Senado. A remessa para promulgação prevista no § 5º pressupõe que o veto não tenha sido mantido. Com 41 senadores a favor, os dois quóruns seriam alcançados.",
+      "reviewEvidence": "CF, arts. 57, § 3º, IV, e 66, §§ 4º e 5º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 80, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-calibrada-const-revisora-aprova-substitutivo-e-devolve",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      },
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "revisora-rejeita-sem-retorno",
+      "mechanism": "revisora-aprova-substitutivo-e-devolve",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "análise",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "O Senado recebe da Câmara um projeto de lei ordinária. Em vez de aprovar o texto recebido, aprova um substitutivo que preserva a matéria e altera o modo de executá-la. A aprovação do substitutivo exige que o projeto retorne à Câmara.",
+      "correctAnswer": "C",
+      "explanation": "A aprovação de substitutivo constitui emenda pela Casa revisora. O retorno permite à iniciadora apreciar a alteração. Se a revisora rejeitasse integralmente o projeto, sem aprovar substitutivo, o resultado seria o arquivamento.",
+      "reviewEvidence": "CF, art. 65, caput e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 92, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-calibrada-const-limite-consolidado-e-autorizacao-operacao-externa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 75
+      },
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-limite-divida-proposta-senador",
+      "mechanism": "limite-consolidado-e-autorizacao-operacao-externa",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "O Senado recebe proposta presidencial para fixar limites globais da dívida consolidada dos estados. Em outro expediente, um estado solicita autorização para operação externa de natureza financeira. Essas providências correspondem a competências distintas do Senado.",
+      "correctAnswer": "C",
+      "explanation": "O inciso VI trata da fixação de limites gerais, por proposta presidencial. O inciso V trata da autorização de operações financeiras externas. A fixação de um limite geral não equivale à autorização da operação específica.",
+      "reviewEvidence": "CF, art. 52, V e VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+      "id": "cam-calibrada-const-delegacao-ldo-sem-votacao-conjunta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 79
+      },
+      "articleId": "art-6bc728a14d0e49f3",
+      "conceptId": "delegacao-ldo-controle-previo",
+      "mechanism": "delegacao-ldo-sem-votacao-conjunta",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Matérias que não podem ser delegadas: art. 68, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Matérias que não podem ser delegadas: art. 68, § 1º"
+      },
+      "statement": "Ao preparar o próximo exercício financeiro, o Congresso aprova resolução que delega ao Presidente a elaboração da lei de diretrizes orçamentárias. A resolução dispensa a apreciação posterior pelo Congresso. Essa modalidade de delegação é válida por se tratar de projeto de iniciativa presidencial.",
+      "correctAnswer": "E",
+      "explanation": "A iniciativa presidencial e a elaboração por delegação são institutos distintos. A Constituição atribui ao Executivo a iniciativa da LDO e veda delegar sua elaboração como lei delegada. Prever apreciação posterior pelo Congresso também não afastaria a vedação.",
+      "reviewEvidence": "CF, arts. 68, § 1º, III, e 165, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 79, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
       "id": "cam-calibrada-const-ausencia-de-ministro-com-justificativa",
       "concursoId": "camara-2026",

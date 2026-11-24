@@ -181,6 +181,16 @@ function choose(n, pool=eligible()){
  const order=shuffle([...groups.keys()]);while(result.length<n){let found=false;for(const key of order){const q=groups.get(key).shift();if(q){result.push(q.id);found=true;}if(result.length===n)break;}if(!found)break;}
  return result;
 }
+function sharedCasePracticeIds(pool,seen){
+ const cases=new Map();
+ for(const q of pool){
+  const caseId=q.calibration?.caseId;
+  if(!caseId)continue;
+  if(!cases.has(caseId))cases.set(caseId,[]);
+  cases.get(caseId).push(q.id);
+ }
+ return [...cases.values()].find(ids=>ids.length>=2&&ids.every(id=>!seen.has(id)))||[];
+}
 function renderSuggestions(review,repeat){
  const list=$('qs-suggestion-list'), exam=contest();
  list.replaceChildren();
@@ -188,7 +198,7 @@ function renderSuggestions(review,repeat){
  const pool=available().filter(q=>!q.annulled);
  const seen=new Set([...(seenByContest.get(exam.id)||[]), ...storeRead()
   .filter(s=>s.concursoId===exam.id).flatMap(s=>s.answers.map(a=>a.questionId))]);
- function offer(title, reason, ids){
+ function offer(title, reason, ids, mode='aprendizagem'){
   if(!ids.length)return;
   const quantity=ids.length+' '+(ids.length===1?'questão':'questões');
   const button=elem('button'), count=elem('span',quantity), description=elem('span',reason);
@@ -198,7 +208,7 @@ function renderSuggestions(review,repeat){
   button.setAttribute('aria-describedby',description.id);
   count.className='qs-meta';description.className='qs-suggestion-reason';
   button.append(elem('strong',title),count,description);
-  button.addEventListener('click',()=>start(ids,'aprendizagem'));
+  button.addEventListener('click',()=>start(ids,mode));
   list.append(button);
  }
  if(review)offer('Revisar erros e dúvidas',review.title,review.questionIds);
@@ -213,6 +223,8 @@ function renderSuggestions(review,repeat){
   offer('Praticar questões oficiais','Resolva itens da banca e questões autorais relacionadas na própria tela.',
    [...choose(5,official),...choose(Math.min(5,official.length),authors)]);
  }
+ offer('Praticar caso compartilhado','Julgue itens sobre o mesmo cenário. A correção aparece ao final.',
+  loggedIn&&!seenByContest.has(exam.id)?[]:sharedCasePracticeIds(pool,seen),'simulado');
  toggle('qs-suggestions',list.childElementCount>0);
 }
 async function updateSuggestions(){

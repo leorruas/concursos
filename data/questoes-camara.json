@@ -79567,6 +79567,108 @@
       "correctAnswer": "C",
       "explanation": "O imposto sobre a renda não integra as exceções do § 2º. Para produzir efeitos no exercício imediatamente seguinte ao da edição da medida, a conversão em lei teria de ocorrer até o último dia do exercício em que a medida foi editada. (Constituição Federal, art. 62, § 2º.)",
       "reviewEvidence": "Constituição Federal, art. 62, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Relaciona o imposto envolvido, o ano de edição e a data da conversão."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "id": "cam-caso-fiscalizacao-sustacao-do-decreto",
+      "conceptId": "sustacao-norma-exorbitante",
+      "mechanism": "sustacao-de-decreto-que-restabelece-exigencia-dispensada",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Art. 49: decisões exclusivas do Congresso, sem sanção"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Art. 49: decisões exclusivas do Congresso, sem sanção"
+      },
+      "statement": "Uma lei federal instituiu um programa de recuperação de bibliotecas municipais e dispensou expressamente os municípios de pequeno porte de apresentar garantia financeira. Ao regulamentar a lei, o Poder Executivo expediu decreto que passou a exigir essa garantia também dos municípios dispensados, como condição para a habilitação no programa. A Comissão de Educação da Câmara dos Deputados convocou o Ministro de Estado responsável para prestar esclarecimentos pessoais, em data definida e sobre a nova exigência. Em expediente separado, a secretaria da própria comissão encaminhou ao Ministro um pedido escrito de dados, por iniciativa da comissão. A Mesa da Câmara não adotou nem encaminhou o pedido. Ao final de trinta dias, o expediente escrito permanecia sem resposta.\n\nCom base nessa situação, julgue o item a seguir.\n\nO Congresso Nacional pode sustar o dispositivo do decreto que impôs a garantia aos municípios dispensados pela lei.",
+      "correctAnswer": "C",
+      "explanation": "A dispensa está expressa na lei. Ao exigir a garantia dos municípios dispensados, o decreto ultrapassa o poder regulamentar. O art. 49, V, atribui ao Congresso a sustação do ato normativo que excede esse limite. Se a lei autorizasse a exigência aos municípios em questão e o decreto permanecesse dentro dessa autorização, esse fundamento para sustar desapareceria.",
+      "reviewEvidence": "Constituição Federal, arts. 49, V, e 84, IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. O desenho de contexto compartilhado segue o caderno da Câmara aplicado em 2026, itens 47 e 48, com assunto constitucional próprio.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 112,
+        "caseId": "fiscalizacao-do-decreto"
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "id": "cam-caso-fiscalizacao-convocacao-do-ministro",
+      "conceptId": "convocacao-de-ministro",
+      "mechanism": "comissao-convoca-ministro-por-assunto-determinado",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Art. 50: fiscalizar por convocação ou por pedido escrito"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Art. 50: fiscalizar por convocação ou por pedido escrito"
+      },
+      "statement": "Uma lei federal instituiu um programa de recuperação de bibliotecas municipais e dispensou expressamente os municípios de pequeno porte de apresentar garantia financeira. Ao regulamentar a lei, o Poder Executivo expediu decreto que passou a exigir essa garantia também dos municípios dispensados, como condição para a habilitação no programa. A Comissão de Educação da Câmara dos Deputados convocou o Ministro de Estado responsável para prestar esclarecimentos pessoais, em data definida e sobre a nova exigência. Em expediente separado, a secretaria da própria comissão encaminhou ao Ministro um pedido escrito de dados, por iniciativa da comissão. A Mesa da Câmara não adotou nem encaminhou o pedido. Ao final de trinta dias, o expediente escrito permanecia sem resposta.\n\nCom base nessa situação, julgue o item a seguir.\n\nA convocação do Ministro para prestar pessoalmente os esclarecimentos sobre a nova exigência pode ser realizada pela Comissão de Educação.",
+      "correctAnswer": "C",
+      "explanation": "A Comissão é uma das autoridades que o art. 50, caput, habilita a convocar Ministro de Estado para prestar informações pessoalmente sobre assunto previamente determinado. A nova exigência é o assunto identificado no caso. Se a Comissão quisesse impor o dever constitucional de responder a um pedido escrito, o encaminhamento caberia à Mesa, conforme o § 2º.",
+      "reviewEvidence": "Constituição Federal, arts. 50, caput e § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. O desenho de contexto compartilhado segue o caderno da Câmara aplicado em 2026, itens 47 e 48, com assunto constitucional próprio.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 76,
+        "caseId": "fiscalizacao-do-decreto"
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "id": "cam-caso-fiscalizacao-pedido-da-comissao",
+      "conceptId": "pedido-de-informacoes",
+      "mechanism": "prazo-constitucional-depende-de-encaminhamento-pela-mesa",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Art. 50: fiscalizar por convocação ou por pedido escrito"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Art. 50: fiscalizar por convocação ou por pedido escrito"
+      },
+      "statement": "Uma lei federal instituiu um programa de recuperação de bibliotecas municipais e dispensou expressamente os municípios de pequeno porte de apresentar garantia financeira. Ao regulamentar a lei, o Poder Executivo expediu decreto que passou a exigir essa garantia também dos municípios dispensados, como condição para a habilitação no programa. A Comissão de Educação da Câmara dos Deputados convocou o Ministro de Estado responsável para prestar esclarecimentos pessoais, em data definida e sobre a nova exigência. Em expediente separado, a secretaria da própria comissão encaminhou ao Ministro um pedido escrito de dados, por iniciativa da comissão. A Mesa da Câmara não adotou nem encaminhou o pedido. Ao final de trinta dias, o expediente escrito permanecia sem resposta.\n\nCom base nessa situação, julgue o item a seguir.\n\nA falta de resposta por trinta dias ao pedido escrito descrito caracteriza, por si, o crime de responsabilidade previsto para o não atendimento de pedido de informação.",
+      "correctAnswer": "E",
+      "explanation": "O prazo de trinta dias do art. 50, § 2º, refere-se ao pedido escrito que uma das Mesas encaminha. O expediente partiu da comissão e a Mesa não o encaminhou. O mero decurso do prazo nesse expediente não satisfaz a hipótese constitucional. Se a Mesa tivesse encaminhado o pedido e o Ministro permanecesse omisso após o prazo, o pressuposto estaria presente.",
+      "reviewEvidence": "Constituição Federal, arts. 50, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. O desenho de contexto compartilhado segue o caderno da Câmara aplicado em 2026, itens 47 e 48, com assunto constitucional próprio.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 76,
+        "caseId": "fiscalizacao-do-decreto"
+      }
     }
   ]
 }

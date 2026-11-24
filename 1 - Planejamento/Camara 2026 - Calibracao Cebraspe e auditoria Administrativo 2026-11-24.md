@@ -98,3 +98,7 @@ Cinco itens levam a seleção autoral a 25 de 40. Três exigem integração, um 
 ### Lote autoral 6 — nacionalidade e direitos políticos
 
 Cinco itens levam a seleção a 30 de 40. Três exigem integração, um análise e um aplicação. Os itens 81, 83, 85, 97 e 106 de 2014 serviram como espelhos de exceção, atos de vontade, sequência procedimental e vínculo partidário. O lote distingue aquisição de outra nacionalidade e pedido de perda, as vias de nacionalidade originária no exterior, a exceção à inelegibilidade reflexa, o marco de inatividade do militar eleito e os efeitos da migração sobre mandato e distribuição de recursos. A atualidade jurídica dos itens novos foi examinada na Constituição consolidada.
+
+### Lote autoral 7 — processo legislativo constitucional
+
+Cinco itens levam a seleção a 35 de 40. Três exigem integração, um análise e um aplicação. A comparação com os itens 75, 79, 80, 91 e 92 de 2014 orientou a separação de quóruns, a aplicação de exceções e a distinção entre espécies ou fases legislativas. Os casos abrangem crédito extraordinário, recesso na urgência constitucional, reapresentação de matéria, delimitação do veto e maioria absoluta em cada Casa.

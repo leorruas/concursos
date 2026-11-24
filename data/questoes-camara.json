@@ -7606,6 +7606,171 @@
   "expansao": [
     {
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "id": "cam-calibrada-const-credito-extraordinario-em-calamidade-com-despesa-previsivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 79
+      },
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-extraordinario-calamidade",
+      "mechanism": "credito-extraordinario-em-calamidade-com-despesa-previsivel",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "Durante calamidade, o governo federal precisa pagar despesa periódica que já constava de seu planejamento. A urgência surgiu exclusivamente do atraso no processamento interno. A calamidade permite abrir crédito extraordinário por medida provisória para pagar essa despesa previsível.",
+      "correctAnswer": "E",
+      "explanation": "A exceção constitucional admite medida provisória para crédito extraordinário, que pressupõe despesa urgente e imprevisível. A calamidade não transforma em imprevisível a despesa periódica descrita. Uma despesa nova e urgente diretamente gerada pela calamidade poderia satisfazer os requisitos.",
+      "reviewEvidence": "CF, arts. 62, § 1º, I, d, e 167, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 79, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-calibrada-const-prazo-das-emendas-nao-corre-no-recesso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 91
+      },
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "urgencia-emenda-senado-novo-periodo",
+      "mechanism": "prazo-das-emendas-nao-corre-no-recesso",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento sumário: urgência constitucional presidencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento sumário: urgência constitucional presidencial"
+      },
+      "statement": "Um projeto presidencial sujeito à urgência constitucional retorna à Câmara com emendas do Senado. Iniciada a contagem do prazo de apreciação, o Congresso entra em recesso. O prazo específico é de dez dias, e sua contagem fica suspensa durante o recesso.",
+      "correctAnswer": "C",
+      "explanation": "O § 3º determina dez dias para a Câmara apreciar emendas do Senado, observado o § 2º. O § 4º impede a contagem dos prazos durante o recesso. Em período ordinário, o prazo volta a correr pelo tempo restante.",
+      "reviewEvidence": "CF, art. 64, §§ 2º a 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 91, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-calibrada-const-pec-prejudicada-e-projeto-de-lei-rejeitado-na-mesma-sessao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      },
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "pec-prejudicada-maioria-reapresentacao",
+      "mechanism": "pec-prejudicada-e-projeto-de-lei-rejeitado-na-mesma-sessao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Como nasce uma lei: iniciativa, votação e atos finais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Como nasce uma lei: iniciativa, votação e atos finais"
+      },
+      "statement": "Na mesma sessão legislativa, 270 deputados apresentam uma proposta de emenda sobre matéria de proposta antes havida por prejudicada e um projeto de lei sobre matéria de projeto anteriormente rejeitado. O apoiamento é suficiente para a reapresentação do projeto de lei, mas a proposta de emenda continua sujeita à vedação constitucional.",
+      "correctAnswer": "C",
+      "explanation": "O art. 67 permite nova proposição de lei por maioria absoluta de uma Casa. O art. 60, § 5º, veda nova proposta de emenda sobre a mesma matéria na mesma sessão legislativa, inclusive se a anterior foi havida por prejudicada. Uma nova sessão legislativa afastaria essa vedação temporal.",
+      "reviewEvidence": "CF, arts. 60, § 5º, e 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 92, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "id": "cam-calibrada-const-veto-de-duas-alineas-integrais-sem-restante-do-inciso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 80
+      },
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "veto-alinea-integral-sem-inciso",
+      "mechanism": "veto-de-duas-alineas-integrais-sem-restante-do-inciso",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "análise",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Veto total versus parcial: a unidade mínima do texto"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Veto total versus parcial: a unidade mínima do texto"
+      },
+      "statement": "Um inciso de projeto de lei contém três alíneas. O Presidente veta o texto integral de duas delas e preserva a terceira. Quanto à unidade de texto atingida, o veto é admissível.",
+      "correctAnswer": "C",
+      "explanation": "O art. 66 permite veto parcial sobre alínea integral. A quantidade de alíneas vetadas não obriga a vetar o inciso todo. O julgamento seria diferente se o veto atingisse só palavras isoladas de uma alínea.",
+      "reviewEvidence": "CF, art. 66, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 80, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-calibrada-const-maioria-absoluta-em-cada-casa-na-lei-complementar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 75
+      },
+      "articleId": "art-da9726a3c994a6c6",
+      "conceptId": "quorum-complementar-maioria-absoluta",
+      "mechanism": "maioria-absoluta-em-cada-casa-na-lei-complementar",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-da9726a3c994a6c6#3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md",
+        "section": "3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      },
+      "statement": "Um projeto de lei complementar obtém 300 votos favoráveis na Câmara. No Senado, a votação final registra 40 votos favoráveis e 30 contrários. A maioria de votos presentes no Senado é suficiente para aprovar o projeto porque a Câmara já superou a maioria absoluta.",
+      "correctAnswer": "E",
+      "explanation": "Lei complementar exige maioria absoluta em cada Casa que delibera. A Câmara alcançou o mínimo de 257, mas o Senado precisa de 41 e registrou 40. Um voto favorável adicional no Senado satisfaria o requisito.",
+      "reviewEvidence": "CF, arts. 65 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",

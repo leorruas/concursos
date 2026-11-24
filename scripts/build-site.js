@@ -451,7 +451,7 @@ const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
   ...(typeof q.questionType==='string'&&q.questionType.trim()?{questionType:q.questionType}:{}),
   ...(q.calibration?.type==='autoral-calibrada'?{calibration:q.calibration}:{}),
   statement:q.statement,correctAnswer:q.correctAnswer,explanation:q.explanation}));
-// Referências de caderno preservam a origem de respostas antigas. O formato não entra em novas baterias.
+// Citações curtas preservam o enunciado. Localizadores sem texto ficam fora da seleção.
 const referenciasOficiais = JSON.parse(fs.readFileSync(
   path.join(rootDir, 'data/questoes-camara-referencias-oficiais.json'), 'utf8'
 ));
@@ -465,6 +465,7 @@ function pdfDaBanca(value) {
   return url.protocol === 'https:' && !url.username && !url.password && !url.search && !url.hash &&
     (cadernoCebraspe || cadernoCamara);
 }
+const palavrasCitadasPorCaderno = new Map();
 for (const item of referenciasOficiais.itens) {
   const caderno = referenciasOficiais.cadernos[item.caderno];
   const id = `cam-oficial-${item.caderno}-${item.numero}`;
@@ -490,14 +491,22 @@ for (const item of referenciasOficiais.itens) {
     throw Error('Referência oficial inválida: ' + id);
   }
   const url = caderno.prova + '#page=' + item.pagina;
+  const citacao = item.enunciado?.trim();
+  if (citacao) {
+    const total = (palavrasCitadasPorCaderno.get(item.caderno) || 0) + citacao.split(/\s+/).length;
+    if (total > 25) throw Error('Limite de citação do caderno excedido: ' + id);
+    palavrasCitadasPorCaderno.set(item.caderno, total);
+  }
   questoesPublicas.push({
-    id, concursoId: 'camara-2026', format: 'reference', origin: 'real',
+    id, concursoId: 'camara-2026', format: citacao ? 'CE' : 'reference', origin: 'real',
     subjectId: item.subjectId, subjectName: materiasQuestoes[item.subjectId],
     unitId: item.unitId, unitName: unit[1], examPart: unit[2], editalRef, officialEditalCode,
     articleId: item.articleId, section: item.section, conceptId: item.conceptId,
     mechanism: item.mechanism, cognitiveOperation: item.cognitiveOperation,
     estimatedDifficulty: item.estimatedDifficulty,
-    statement: `Julgue o item ${item.numero} do caderno ${caderno.codigo}: ${url}`,
+    statement: citacao
+      ? [item.contexto && 'Contexto resumido: ' + item.contexto, citacao].filter(Boolean).join('\n\n')
+      : `Julgue o item ${item.numero} do caderno ${caderno.codigo}: ${url}`,
     correctAnswer: item.gabaritoDefinitivo, explanation: item.explanation + ' Fundamento: ' + item.fundamento + '.',
     officialSource: { ...caderno, url, numero: item.numero, pagina: item.pagina }
   });

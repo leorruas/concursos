@@ -206,6 +206,13 @@ function renderSuggestions(review,repeat){
  offer('Praticar questões novas',loggedIn?'Itens sem resposta no histórico consultado.':'Itens sem resposta neste navegador.',
   loggedIn&&!seenByContest.has(exam.id)?[]:choose(10,pool.filter(q=>!seen.has(q.id))));
  offer('Diagnóstico misto','Questões distribuídas entre matérias de '+exam.nome+'.',choose(10,pool));
+ const official=pool.filter(q=>q.officialSource&&!seen.has(q.id));
+ if(official.length&&(!loggedIn||seenByContest.has(exam.id))){
+  const relatedArticles=new Set(official.map(q=>q.articleId));
+  const authors=pool.filter(q=>q.origin==='inedita'&&relatedArticles.has(q.articleId)&&!seen.has(q.id));
+  offer('Praticar questões oficiais','Resolva itens da banca e questões autorais relacionadas na própria tela.',
+   [...choose(5,official),...choose(Math.min(5,official.length),authors)]);
+ }
  toggle('qs-suggestions',list.childElementCount>0);
 }
 async function updateSuggestions(){
@@ -273,7 +280,7 @@ function theory(q){
 }
 function questionStatement(el,q){
  el.textContent=q.statement;
- if(!q.officialSource)return;
+ if(q.format!=='reference'||!q.officialSource)return;
  const source=q.officialSource;
  const link=elem('a','Abrir caderno no item '+source.numero+' (PDF)');
  link.href=source.url;
@@ -308,7 +315,11 @@ function questionProvenance(q){
  answerKey.href=source.gabarito;
  answerKey.target='_blank';
  answerKey.rel='noopener noreferrer';
- origin.append(answerKey);
+ const paper=elem('a','Caderno original');
+ paper.href=source.url;
+ paper.target='_blank';
+ paper.rel='noopener noreferrer';
+ origin.append(paper,document.createTextNode(' · '),answerKey);
  return origin;
 }
 function feedback(q,a){

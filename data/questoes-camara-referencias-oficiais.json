@@ -135,7 +135,8 @@
       "cognitiveOperation": "reconhecimento",
       "estimatedDifficulty": "facil",
       "explanation": "Legislativo, Executivo e Judiciário mantêm, de forma integrada, sistema de controle interno. A Constituição atribui esse dever aos três Poderes.",
-      "fundamento": "Constituição Federal, art. 74, caput"
+      "fundamento": "Constituição Federal, art. 74, caput",
+      "enunciado": "O controle interno é prerrogativa exclusiva do Poder Judiciário, visando à regularidade e eficiência de suas atividades."
     },
     {
       "caderno": "camara-edital-2025-p1",
@@ -208,6 +209,45 @@
       "estimatedDifficulty": "dificil",
       "explanation": "O TCU auxilia o Congresso no controle externo e tem competências próprias, inclusive sancionatórias. A Constituição atribui eficácia de título executivo à decisão que impute débito ou multa. Essas prerrogativas convivem com a natureza de órgão de controle externo do TCU.",
       "fundamento": "Constituição Federal, arts. 71, VIII e § 3º, e 92"
+    },
+    {
+      "caderno": "camara-2014-cb2-03",
+      "numero": 103,
+      "pagina": 10,
+      "prioridade": "média",
+      "gabaritoDefinitivo": "E",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "referenciaEdital": "Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "section": "Formação e alteração dos entes",
+      "conceptId": "territorios-federais",
+      "mechanism": "identificar-competencia-de-organizacao-do-territorio",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "explanation": "Territórios integram a União. Cabe à lei federal dispor sobre a organização administrativa e judiciária dos territórios. A existência de órgãos representativos locais não transfere essa competência.",
+      "fundamento": "Constituição Federal, arts. 18, § 2º, e 33, caput",
+      "enunciado": "Caso seja criado um território federal, caberá à sua assembleia legislativa dispor sobre sua organização administrativa."
+    },
+    {
+      "caderno": "camara-edital-2025-p1",
+      "numero": 55,
+      "pagina": 5,
+      "prioridade": "média",
+      "gabaritoDefinitivo": "E",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "referenciaEdital": "3.4",
+      "articleId": "art-2c1333aa75b06e9c",
+      "section": "3.2 Rol das licenças da Lei nº 8.112/1990 (arts. 81 a 92)",
+      "conceptId": "licenca-interesses-particulares",
+      "mechanism": "distinguir-requisito-e-discricionariedade-na-licenca",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "explanation": "A licença pode ser concedida a critério da Administração, sem remuneração, ao servidor efetivo que não esteja em estágio probatório. Preencher essas condições não torna o deferimento obrigatório.",
+      "fundamento": "Lei nº 8.112/1990, art. 91, caput",
+      "enunciado": "A licença para tratar de interesses particulares constitui direito subjetivo de Maria, e sua concessão independe do interesse da administração.",
+      "contexto": "Maria é servidora federal efetiva e estável, exerce cargo em comissão e teve deferido o pedido de licença para tratar de interesses particulares."
     }
   ]
 }

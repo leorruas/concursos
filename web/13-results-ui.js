@@ -1021,6 +1021,41 @@ async function quizQuestions(examId){
  })().catch(()=>{cguQuizBank=null;return quizBank;});
  return cguQuizBank;
 }
+function quizLearningSignals(attempts,examId,subjectId='',now=Date.now()){
+ const eligible=attempts.filter(a=>a?.concursoId===examId&&(!subjectId||a.subjectId===subjectId)
+  &&['correct','incorrect','blank'].includes(a.result)&&Number.isFinite(Number(a.answeredAt)));
+ const summarize=(list)=>{
+  const judged=list.filter(a=>a.result!=='blank');
+  const recorded=judged.filter(a=>typeof a.consulted==='boolean'&&typeof a.feedbackBefore==='boolean');
+  const correct=judged.filter(a=>a.result==='correct');
+  const independent=correct.filter(a=>a.consulted===false&&a.feedbackBefore===false);
+  return {total:list.length,judged:judged.length,withMetadata:recorded.length,correct:correct.length,
+   independent:independent.length,independentSecure:independent.filter(a=>a.confidence==='secure').length,
+   consultedCorrect:correct.filter(a=>a.consulted===true).length,
+   seenCorrectionCorrect:correct.filter(a=>a.feedbackBefore===true).length,
+   supportedCorrect:correct.filter(a=>a.consulted===true||a.feedbackBefore===true).length,
+   missingMetadata:judged.length-recorded.length};
+ };
+ return {all:summarize(eligible),week:summarize(eligible.filter(a=>Number(a.answeredAt)>=now-7*86400000&&Number(a.answeredAt)<=now)),
+  month:summarize(eligible.filter(a=>Number(a.answeredAt)>=now-30*86400000&&Number(a.answeredAt)<=now))};
+}
+function renderQuizLearning(attempts,examId,now){
+ const root=$('results-quiz-learning');
+ if(!root)return;
+ const data=quizLearningSignals(attempts,examId,selectedSubject,now);
+ const percent=(n,d)=>d?(100*n/d).toFixed(0)+'%':'Sem amostra';
+ const show=(name,item)=>{
+  const row=el('div','results-mode-row');
+  const info=el('div','results-mode-name'),values=el('div','results-mode-measures');
+  info.append(el('strong','',name),el('span','results-caption',item.judged+' respostas julgadas · '+item.withMetadata+' com contexto completo'));
+  values.append(el('strong','results-mode-total',item.independent+' acertos independentes ('+percent(item.independent,item.judged)+')'),
+   el('span','results-mode-breakdown',item.consultedCorrect+' acertos com consulta · '+item.seenCorrectionCorrect+' após correção'),
+   el('span','results-mode-breakdown',item.independentSecure+' independentes com segurança · '+item.missingMetadata+' sem dados completos'));
+  row.append(info,values);return row;
+ };
+ root.replaceChildren(show('Últimos 7 dias',data.week),show('Últimos 30 dias',data.month),
+  el('p','results-caption','Indicadores sobre respostas do site. Consulta e correção prévia podem coincidir. Acerto independente: acerto com ambos os campos registrados como falsos; não comprova retenção. Registros antigos sem esses campos permanecem fora dessa classificação.'));
+}
 function quizPriorityGroups(attempts,questionMap,examId,cutoff){
  const groups=new Map();
  for(const a of attempts){
@@ -1028,13 +1063,16 @@ function quizPriorityGroups(attempts,questionMap,examId,cutoff){
   const q=questionMap.get(a.questionId);
   if(!q?.articleId||q.concursoId!==examId)continue;
   const error=a.result==='incorrect',unsure=a.result==='correct'&&a.confidence==='insecure',blank=a.result==='blank';
-  if(!error&&!unsure&&!blank)continue;
-  const weight=error?(a.confidence==='secure'?8:6):unsure?2:1;
+  const assisted=a.result==='correct'&&(a.consulted===true||a.feedbackBefore===true);
+  if(!error&&!unsure&&!blank&&!assisted)continue;
+  // Acerto com apoio é uma oportunidade de reteste independente, sem equivaler a erro.
+  const weight=error?(a.confidence==='secure'?8:6):blank?1:Math.max(unsure?2:0,assisted?3:0);
   const g=groups.get(q.articleId)||{articleId:q.articleId,score:0,errors:0,secureErrors:0,uncertainCorrect:0,blanks:0,sections:new Map()};
   g.score+=weight;
   if(error){g.errors++;if(a.confidence==='secure')g.secureErrors++;}
   if(unsure)g.uncertainCorrect++;
   if(blank)g.blanks++;
+  if(assisted)g.assistedCorrect=(g.assistedCorrect||0)+1;
   const section=q.section||'';
   g.sections.set(section,(g.sections.get(section)||0)+weight);
   groups.set(q.articleId,g);
@@ -1047,6 +1085,7 @@ function quizPriorityReason(g){
  if(g.errors)p.push(g.errors+' erro'+(g.errors===1?'':'s')+(g.secureErrors?' ('+g.secureErrors+' com segurança declarada)':''));
  if(g.uncertainCorrect)p.push(g.uncertainCorrect+' acerto'+(g.uncertainCorrect===1?'':'s')+' inseguro'+(g.uncertainCorrect===1?'':'s'));
  if(g.blanks)p.push(g.blanks+' em branco');
+ if(g.assistedCorrect)p.push(g.assistedCorrect+' acerto'+(g.assistedCorrect===1?'':'s')+' com consulta ou correção prévia');
  return p.join(' · ');
 }
 function quizArticleLink(articleId,section,examId){
@@ -1060,8 +1099,8 @@ function showQuizPriorities(attempts,questionMap,examId,now){
  const sorted=quizPriorityGroups(attempts,questionMap,examId,now-30*86400000).slice(0,7);
  root.replaceChildren();
  $('results-quiz-priority-description').textContent=sorted.length
-  ?'Ordem sugerida pelos erros e acertos inseguros dos últimos 30 dias. A lista indica onde revisar, não mede retenção.'
-  :'Sem erros, acertos inseguros ou respostas em branco registrados nos últimos 30 dias.';
+  ?'Ordem sugerida por erros, acertos inseguros e acertos com apoio dos últimos 30 dias. Indica onde retestar sem consulta, não mede retenção.'
+  :'Sem erros, acertos inseguros, acertos com apoio ou respostas em branco registrados nos últimos 30 dias.';
  sorted.forEach((g,i)=>{
   const article=el('article','results-quiz-priority'),left=el('div');
   const tag=el('span','results-section-label',String(i+1).padStart(2,'0')+' · '+(g.errors?'revisar primeiro':'reforçar'));
@@ -1124,6 +1163,7 @@ async function loadQuizResults(examId,version){
    for(const x of [title(v.id),v.total,v.correct,v.incorrect,judged?(100*v.correct/judged).toFixed(1)+'%':'Sem amostra'])tr.append(el('td','',x));
    return tr;
   }));
+  renderQuizLearning(attempts,examId,now);
   try{showQuizPriorities(attempts,await quizQuestions(examId),examId,now);}
   catch{$('results-quiz-priority-description').textContent='Seus resultados foram recuperados, mas os vínculos com os artigos estão temporariamente indisponíveis.';}
   statusQuiz.textContent=attempts.length
@@ -1132,6 +1172,7 @@ async function loadQuizResults(examId,version){
   return {authenticated:true};
  }catch(e){
   if(version!==loadVersion)return {authenticated:false,stale:true};
+  $('results-quiz-learning')?.replaceChildren();
   statusQuiz.textContent='Histórico das baterias indisponível ('+e.message+'). As respostas já salvas não são apagadas.';
   return {authenticated:false};
  }

@@ -35,13 +35,16 @@ function quizPriorityGroups(attempts,questionsById,contestId,cutoff=0){
   const q=questionsById.get(a.questionId);
   if(!q?.articleId||q.concursoId!==contestId)continue;
   const error=a.result==='incorrect',unsure=a.result==='correct'&&a.confidence==='insecure',blank=a.result==='blank';
-  if(!error&&!unsure&&!blank)continue;
-  const weight=error?(a.confidence==='secure'?8:6):unsure?2:1;
+  const assisted=a.result==='correct'&&(a.consulted===true||a.feedbackBefore===true);
+  if(!error&&!unsure&&!blank&&!assisted)continue;
+  // Acerto com apoio é uma oportunidade de reteste independente, sem equivaler a erro.
+  const weight=error?(a.confidence==='secure'?8:6):blank?1:Math.max(unsure?2:0,assisted?3:0);
   const g=groups.get(q.articleId)||{articleId:q.articleId,score:0,errors:0,secureErrors:0,uncertainCorrect:0,blanks:0,sections:new Map()};
   g.score+=weight;
   if(error){g.errors++;if(a.confidence==='secure')g.secureErrors++;}
   if(unsure)g.uncertainCorrect++;
   if(blank)g.blanks++;
+  if(assisted)g.assistedCorrect=(g.assistedCorrect||0)+1;
   const sec=q.section||'';
   g.sections.set(sec,(g.sections.get(sec)||0)+weight);
   groups.set(q.articleId,g);
@@ -53,6 +56,7 @@ function quizPriorityReason(g){
  if(g.errors)parts.push(g.errors+' erro'+(g.errors===1?'':'s')+(g.secureErrors?' ('+g.secureErrors+' com segurança declarada)':''));
  if(g.uncertainCorrect)parts.push(g.uncertainCorrect+' acerto'+(g.uncertainCorrect===1?'':'s')+' inseguro'+(g.uncertainCorrect===1?'':'s'));
  if(g.blanks)parts.push(g.blanks+' em branco');
+ if(g.assistedCorrect)parts.push(g.assistedCorrect+' acerto'+(g.assistedCorrect===1?'':'s')+' com consulta ou correção prévia');
  return parts.join(' · ');
 }
 function quizArticleLink(articleId,section,contestId){
@@ -363,7 +367,7 @@ function finish(){
  const priorities=quizPriorityGroups(session.answers,data.map,session.concursoId).slice(0,5);
  const container=$('qs-priorities');container.replaceChildren();
  $('qs-priorities-note').textContent=priorities.length?
-  'Baseadas nos erros e acertos inseguros desta bateria. Erros com segurança merecem atenção especial.':
+  'Baseadas nos erros, acertos inseguros e acertos com apoio nesta bateria. Erros com segurança merecem atenção especial.':
   'Sem erros ou acertos inseguros nesta bateria. Uma revisão em outro dia ajudará a testar a retenção.';
  for(const [i,g] of priorities.entries()){
   const card=elem('article');card.className='qs-recommendation';

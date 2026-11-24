@@ -69,7 +69,7 @@ A matriz recebeu cinco dimensões independentes. A **aderência** é direta para
 
 A triagem atribui **alta** a item válido de aderência direta e alto valor pedagógico, **média** a item válido que contribui para fixação ou estudo adjacente e **baixa** a anulado ou fora do recorte. Não há soma ponderada. Um item pode ter prioridade alta para revisão editorial e continuar bloqueado para treino. É possível reclassificá-lo quando o edital, o fundamento, a forma de cobrança ou a atualidade forem revistos.
 
-**Resultado da triagem:** 11 de prioridade alta, 44 de média e 3 de baixa. Dos 55 válidos, 19 tiveram a regra determinante conferida nesta rodada e 36 ainda precisam de cotejo. A conferência de atualidade é distinta da liberação editorial. Enquanto o direito de reprodução integral não estiver documentado, o acesso é por caderno e número do item. A matriz não contém itens jogáveis e não altera as tentativas.
+**Resultado da triagem:** 11 de prioridade alta, 44 de média e 3 de baixa. Dos 55 válidos, 20 tiveram a regra determinante conferida nesta rodada e 35 ainda precisam de cotejo. A conferência de atualidade é distinta da liberação editorial. Enquanto o direito de reprodução integral não estiver documentado, o acesso é por caderno e número do item. A matriz não contém itens jogáveis e não altera as tentativas.
 
 Fontes do cotejo inicial: [Constituição Federal](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), [Lei nº 8.112/1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm), [Lei nº 8.429/1992](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm), [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) e [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm).
 
@@ -116,3 +116,23 @@ Os cinco itens finais abordam requisitos de CPI, cooperação federativa, polít
 | Unidade | 27 em Constitucional e Regimentos de P1 e 13 em Processo Legislativo e Regimento Interno de P2 | O recorte de 2014 mistura temas constitucionais e regimentais, enquanto os itens novos usam o vínculo ao edital vigente. |
 
 Os metadados de cada autoral indicam o item usado como referência de operação, o fundamento jurídico, a seção teórica e a dificuldade estimada. O inventário técnico conferiu IDs, duplicação literal, formato C/E, gabaritos e referências. A seleção de oficiais elegíveis e a medição por origem têm etapas próprias ainda pendentes.
+
+
+## Recorte comparável do TCU 2025
+
+A matriz passa a cobrir **78 itens de três cadernos**, dos quais **74 válidos** e quatro anulados. O novo recorte contém 20 itens do Tribunal de Contas da União, Técnico Federal de Controle Externo, Cebraspe, aplicação de 03/08/2025, caderno **108_TCUTEFC_001_01**, itens 71–75 e 106–120. A seleção abrangeu sanções e recursos contratuais, autotutela, controle parlamentar e jurisdicional e repartição constitucional de funções de fiscalização. O cargo técnico é uma referência secundária. A comparação se restringe a habilidades e conteúdos comuns ao programa de Divulgação Institucional. [Caderno oficial](https://cdn.cebraspe.org.br/concursos/tcu_25_tefc/arquivos/108_TCUTEFC_001_01.pdf) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/tcu_25_tefc/arquivos/E53AB5C65454510E881F7667E620F44B6DDD1C083D5175412CF8725A3C9B9C9F.pdf).
+
+| Indicador | TCU 2025 |
+| --- | ---: |
+| Itens no recorte | 20 |
+| Válidos e anulados | 19 válidos, 1 anulado (119) |
+| Operação predominante dos válidos | 6 relacionais, 5 literais, 5 distinções, 2 aplicações, 1 exceção |
+| Itens vinculados ao cenário contratual compartilhado | 5 |
+| Mediana do trecho numerado, excluído o cenário compartilhado | 224 caracteres nos 20 itens |
+| Dificuldade editorial estimada dos válidos | 5 baixa, 9 média, 5 alta |
+| Prioridade de revisão | 6 alta, 13 média, 1 baixa |
+| Cotejo da regra determinante | 11 conferidos, 8 a conferir, 1 anulado |
+
+No cenário compartilhado, a empresa está sujeita a sanção contratual e usa recursos administrativos. A questão 73 exige ler a premissa sobre competição para distinguir hipóteses de contratação direta. A 74 é resolvida pela natureza jurídica do Ministério, independentemente dos demais fatos. A 118 reúne sanção, posição institucional e efeitos das decisões do TCU. São três referências para distinguir aplicação a fatos, recuperação de conceito em texto contextualizado e integração de regras. O recorte não contém item em que o conhecimento de uma decisão judicial específica tenha sido classificado como operação predominante.
+
+Os 19 itens válidos são localizadores de prioridade alta ou média. Sem liberação de reprodução registrada para o caderno, todos permanecem acessíveis pela fonte original. A matriz consolidada tem **17 itens de prioridade alta, 57 de média e 4 de baixa**, com **31 regras determinantes cotejadas**. Nenhum item oficial foi acrescentado como questão jogável nesta rodada. O critério de dificuldade é editorial e admite revisão. A estimativa alta indica integração entre regimes, limites ou consequências cuja leitura exige mais de uma operação. [Constituição Federal](https://planalto.gov.br/ccivil_03/constituicao/constituicao.htm), [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm), [Lei nº 14.133/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm) e [Código Tributário Nacional](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm).

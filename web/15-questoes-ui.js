@@ -181,6 +181,19 @@ function choose(n, pool=eligible()){
  const order=shuffle([...groups.keys()]);while(result.length<n){let found=false;for(const key of order){const q=groups.get(key).shift();if(q){result.push(q.id);found=true;}if(result.length===n)break;}if(!found)break;}
  return result;
 }
+function sourcePracticeIds(pool, seen){
+ const chosen=new Set();
+ const authors=pool.filter(q=>q.origin==='inedita');
+ const officials=pool.filter(q=>q.officialSource && !seen.has(q.id)).slice(0,5);
+ for(const official of officials){
+  const sameArticle=authors.filter(q=>q.articleId===official.articleId && !chosen.has(q.id));
+  const author=sameArticle.find(q=>q.conceptId===official.conceptId && !seen.has(q.id)) ||
+   sameArticle.find(q=>q.section===official.section && !seen.has(q.id)) ||
+   sameArticle.find(q=>!seen.has(q.id)) || sameArticle[0];
+  if(author){chosen.add(official.id);chosen.add(author.id);}
+ }
+ return [...chosen];
+}
 function renderSuggestions(review,repeat){
  const list=$('qs-suggestion-list'), exam=contest();
  list.replaceChildren();
@@ -206,6 +219,8 @@ function renderSuggestions(review,repeat){
  offer('Praticar questões novas',loggedIn?'Itens sem resposta no histórico consultado.':'Itens sem resposta neste navegador.',
   loggedIn&&!seenByContest.has(exam.id)?[]:choose(10,pool.filter(q=>!seen.has(q.id))));
  offer('Diagnóstico misto','Questões distribuídas entre matérias de '+exam.nome+'.',choose(10,pool));
+ offer('Praticar com cadernos','Combine itens dos cadernos com questões autorais do mesmo tema.',
+  loggedIn&&!seenByContest.has(exam.id)?[]:sourcePracticeIds(pool,seen));
  toggle('qs-suggestions',list.childElementCount>0);
 }
 async function updateSuggestions(){
@@ -271,6 +286,16 @@ function question(){return data.map.get(session.ids[session.answers.length]);}
 function theory(q){
  if(!q.articleId||!manifest.has(q.articleId))return null;const m=manifest.get(q.articleId),a=elem('a','Revisar artigo: '+(m.tituloExibicao||m.titulo||'ver conteúdo'));a.href=quizArticleLink(q.articleId,q.section||'',session.concursoId);a.target='_blank';a.rel='noopener noreferrer';return a;
 }
+function questionStatement(el,q){
+ el.textContent=q.statement;
+ if(!q.officialSource)return;
+ const source=q.officialSource;
+ const link=elem('a','Abrir caderno no item '+source.numero+' (PDF)');
+ link.href=source.url;
+ link.target='_blank';
+ link.rel='noopener noreferrer';
+ el.replaceChildren(link,document.createTextNode(' e julgar o enunciado. O PDF abre em outra aba.'));
+}
 function render(){
  if(!session)return;if(session.answers.length>=session.ids.length){finish();return;}
  const q=question();if(!q){status('Questão indisponível. Encerre esta bateria.');return;}
@@ -278,7 +303,7 @@ function render(){
  $('qs-context').textContent=(q.examPart||'')+' · '+(q.unitName||q.subjectName||q.subjectId);
  const levels={'muito-facil':'muito fácil',facil:'fácil',media:'média',dificil:'difícil','muito-dificil':'muito difícil'};
  $('qs-question-difficulty').textContent=q.estimatedDifficulty?'Dificuldade estimada: '+(levels[q.estimatedDifficulty]||q.estimatedDifficulty):'Dificuldade não classificada';
- $('qs-progress-bar').style.width=(100*session.answers.length/session.ids.length)+'%';$('qs-statement').textContent=q.statement;
+ $('qs-progress-bar').style.width=(100*session.answers.length/session.ids.length)+'%';questionStatement($('qs-statement'),q);
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>{e.checked=false;e.disabled=false;});
  shownAt=performance.now();
  $('qs-consulted').checked=false;
@@ -290,7 +315,16 @@ function render(){
 function questionProvenance(q){
  const label=q.origin==='real'?'Questão oficial':q.calibration?.type==='autoral-calibrada'?
   'Questão autoral calibrada':'Questão autoral de aprendizagem';
- return elem('small',label);
+ const origin=elem('small',label);
+ if(!q.officialSource)return origin;
+ const source=q.officialSource;
+ origin.textContent=label+' · '+source.banca+' · '+source.orgao+' '+source.aplicacao.slice(0,4)+' · item '+source.numero+' · ';
+ const answerKey=elem('a','Gabarito definitivo');
+ answerKey.href=source.gabarito;
+ answerKey.target='_blank';
+ answerKey.rel='noopener noreferrer';
+ origin.append(answerKey);
+ return origin;
 }
 function feedback(q,a){
  const el=$('qs-feedback');
@@ -380,7 +414,7 @@ function finish(){
  }
  $('qs-review-count').textContent='('+session.answers.length+')';
  const review=$('qs-reviews');review.replaceChildren();
- session.answers.forEach((a,i)=>{const q=data.map.get(a.questionId);if(!q)return;const d=elem('details');d.className='qs-review';d.append(elem('summary',(i+1)+'. '+(q.subjectName||q.subjectId)+' · '+(a.result==='correct'?'acerto':a.result==='blank'?'em branco':'erro')),elem('p',q.statement),elem('p','Sua resposta: '+(a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco')+' · Gabarito: '+(q.correctAnswer==='C'?'Certo':'Errado')),elem('p',q.explanation),questionProvenance(q));const link=theory(q);if(link)d.append(link);review.append(d);});
+ session.answers.forEach((a,i)=>{const q=data.map.get(a.questionId);if(!q)return;const d=elem('details');d.className='qs-review';const statement=elem('p');questionStatement(statement,q);d.append(elem('summary',(i+1)+'. '+(q.subjectName||q.subjectId)+' · '+(a.result==='correct'?'acerto':a.result==='blank'?'em branco':'erro')),statement,elem('p','Sua resposta: '+(a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco')+' · Gabarito: '+(q.correctAnswer==='C'?'Certo':'Errado')),elem('p',q.explanation),questionProvenance(q));const link=theory(q);if(link)d.append(link);review.append(d);});
  status('Bateria concluída. Prioridades de leitura calculadas a partir desta sessão.');
 }
 function resume(){

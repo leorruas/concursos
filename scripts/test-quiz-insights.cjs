@@ -192,6 +192,52 @@ const out=path.join(root,'_site/data/questoes-publicas.json');
 assert.ok(fs.existsSync(out),'exige build do site antes do teste');
 const data=JSON.parse(fs.readFileSync(out,'utf8'));
 assert.ok(data.questions.length>0,'sem questões publicadas');
+const officialReferences=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara-referencias-oficiais.json'),'utf8'));
+const linkedOfficials=data.questions.filter(q=>q.officialSource);
+assert.equal(linkedOfficials.length,officialReferences.itens.length);
+for(const item of officialReferences.itens){
+ const q=linkedOfficials.find(q=>q.id===`cam-oficial-${item.caderno}-${item.numero}`);
+ const source=officialReferences.cadernos[item.caderno];
+ assert.equal(q.origin,'real');
+ assert.equal(q.correctAnswer,item.gabaritoDefinitivo);
+ assert.equal(q.officialSource.gabarito,source.gabarito);
+ assert.equal(q.officialSource.url,source.prova+'#page='+item.pagina);
+ assert.equal(q.statement,`Julgue o item ${item.numero} do caderno ${source.codigo}: ${q.officialSource.url}`);
+}
+const sourcePracticeIds=getFunction(quizSource,'sourcePracticeIds','renderSuggestions');
+const camaraPool=data.questions.filter(q=>q.concursoId==='camara-2026');
+const mixedIds=sourcePracticeIds(camaraPool,new Set());
+assert.equal(mixedIds.length,2*linkedOfficials.length,'a sugestão combina todos os itens oficiais do lote com autorais');
+assert.equal(new Set(mixedIds).size,mixedIds.length);
+for(let index=0;index<mixedIds.length;index+=2){
+ const official=camaraPool.find(q=>q.id===mixedIds[index]);
+ const author=camaraPool.find(q=>q.id===mixedIds[index+1]);
+ assert.equal(official.origin,'real');
+ assert.equal(author.origin,'inedita');
+ assert.equal(author.articleId,official.articleId);
+}
+assert.equal(sourcePracticeIds(camaraPool,new Set(linkedOfficials.map(q=>q.id))).length,0);
+const mockElement=(tag,text='')=>({
+ tag,text,children:[],
+ get textContent(){return this.text;},
+ set textContent(value){this.text=value;this.children=[];},
+ append(...items){this.children.push(...items);},
+ replaceChildren(...items){this.textContent='';this.children=items;}
+});
+const startRender=quizSource.indexOf('function questionStatement(');
+const endRender=quizSource.indexOf('function render(){',startRender);
+const statementRenderer=vm.runInNewContext('('+quizSource.slice(startRender,endRender).trim()+')',{
+ elem:mockElement,document:{createTextNode:text=>text}
+});
+const card=mockElement('p');
+statementRenderer(card,linkedOfficials[0]);
+assert.equal(card.children[0].href,linkedOfficials[0].officialSource.url);
+assert.equal(card.children[0].target,'_blank');
+assert.ok(!card.children.some(child=>child.href===linkedOfficials[0].officialSource.gabarito));
+statementRenderer(card,camaraPool.find(q=>q.origin==='inedita'));
+assert.ok(card.textContent.trim());
+assert.notEqual(card.textContent,linkedOfficials[0].statement);
+assert.equal(card.children.length,0,'limpa o link ao mostrar o item autoral');
 const publishedById=new Map(data.questions.map(q=>[q.id,q]));
 for(const q of [...additional,...variants,...applications,...casesAdmin,...hardAdmin]){
  const published=publishedById.get(q.id);

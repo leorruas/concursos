@@ -171,3 +171,17 @@ Foram revisados três itens do banco principal e seis dos suplementos de Direito
 | `cam-dad-dificil-2026-11-ampliacao-b-2` | Aplicar a ressalva expressa de má-fé ao ato favorável depois do quinquênio. | Aplicação, média |
 
 O item 110 da prova do TCU 2025 verifica se a autotutela alcança a revogação por conveniência ou oportunidade. As três variantes sobre os fundamentos da retirada exercitam uma distinção próxima. Os itens sobre atos favoráveis acrescentam a decadência e a ressalva de má-fé. Para medir uma operação mais exigente, o caso precisaria fornecer datas de prática, primeiro pagamento ou impugnação e exigir que o estudante determine qual evento altera o prazo ou caracteriza exercício do direito de anular. Nenhum dos nove exige conhecer uma decisão judicial específica para escolher o gabarito. [Lei nº 9.784/1999, arts. 53–55](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm), [Súmula 473 do STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602) e [caderno do TCU 2025](https://cdn.cebraspe.org.br/concursos/tcu_25_tefc/arquivos/108_TCUTEFC_001_01.pdf).
+
+## Primeiras questões oficiais por referência ao caderno
+
+Cinco itens da matriz com gabarito definitivo válido e regra determinante conferida entraram nas baterias da Câmara. O enunciado é lido no PDF da banca. O site registra a resposta ao item original e apresenta a correção com a origem e o link para o gabarito ao corrigir. A sugestão **Praticar com cadernos** combina itens ainda sem resposta no histórico consultado com questões autorais vinculadas ao mesmo artigo de teoria.
+
+| Caderno | Item | Página do PDF | Prioridade | Gabarito |
+| --- | ---: | ---: | --- | --- |
+| Câmara 2014, CB2-03 | 73 | 9 | Alta | E |
+| TCU 2025, 108_TCUTEFC_001_01 | 108 | 3 | Média | E |
+| TCU 2025, 108_TCUTEFC_001_01 | 110 | 3 | Média | E |
+| TCU 2025, 108_TCUTEFC_001_01 | 112 | 3 | Alta | C |
+| TCU 2025, 108_TCUTEFC_001_01 | 118 | 4 | Alta | E |
+
+Quatro dos cinco itens têm gabarito Errado neste recorte. A sugestão os intercala com autorais para estudar o conteúdo. O conjunto é pequeno e rejeita inferência sobre dificuldade relativa ou distribuição de respostas da prova. O banco não reproduz o texto dos itens oficiais. Cada identidade usa o caderno e o número do item, de modo que a análise possa separar respostas oficiais e autorais sem alterar registros anteriores. [Caderno da Câmara](https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf) · [Caderno do TCU](https://cdn.cebraspe.org.br/concursos/tcu_25_tefc/arquivos/108_TCUTEFC_001_01.pdf).

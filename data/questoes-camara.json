@@ -7609,6 +7609,171 @@
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "id": "cam-calibrada-const-segunda-nacionalidade-e-requerimento-expresso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 83
+      },
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "perda-pedido-apatridia",
+      "mechanism": "segunda-nacionalidade-e-requerimento-expresso",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Perda da nacionalidade: EC nº 131/2023"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Perda da nacionalidade: EC nº 131/2023"
+      },
+      "statement": "Uma brasileira nata adquiriu outra nacionalidade e ainda possui as duas. Anos depois, formula pedido expresso de perda da nacionalidade brasileira perante autoridade brasileira competente. A aquisição anterior, por si, não implicou perda, mas o pedido pode fundamentar sua declaração se não resultar em apatridia.",
+      "correctAnswer": "C",
+      "explanation": "A mera aquisição de outra nacionalidade não figura entre as hipóteses atuais de perda. O pedido expresso à autoridade competente pode fundamentar a declaração se não produzir apatridia. Se ela já tivesse perdido a outra nacionalidade, incidiria a ressalva constitucional.",
+      "reviewEvidence": "CF, art. 12, § 4º, II, e § 5º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 83, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "id": "cam-calibrada-const-migracao-protegida-sem-transferir-voto-para-recursos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 106
+      },
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "partido-clausula-migracao-sem-perda",
+      "mechanism": "migracao-protegida-sem-transferir-voto-para-recursos",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      },
+      "statement": "Uma deputada eleita por partido que não alcançou a cláusula de desempenho filia-se a legenda que cumpriu os requisitos constitucionais. A legenda de destino afirma que a deputada preserva o mandato e que a migração é considerada para distribuir recursos do fundo partidário e acesso gratuito a rádio e televisão.",
+      "correctAnswer": "E",
+      "explanation": "A deputada preserva o mandato na hipótese do § 5º. O mesmo dispositivo veda considerar essa filiação para distribuir aqueles recursos e o acesso gratuito. A proteção do mandato tem alcance próprio.",
+      "reviewEvidence": "CF, art. 17, §§ 3º e 5º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 106, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "id": "cam-calibrada-const-nascimento-fora-do-pais-pai-em-servico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 97
+      },
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nato-registro-sem-residencia-nenhuma-opcao",
+      "mechanism": "nascimento-fora-do-pais-pai-em-servico",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "análise",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#3. Nascimento no exterior com pai ou mãe brasileiro"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "3. Nascimento no exterior com pai ou mãe brasileiro"
+      },
+      "statement": "Filha de brasileiro nascida no exterior durante missão em que seu pai estava a serviço do Brasil, Helena ainda não foi registrada em repartição brasileira e sempre residiu fora do país. A falta de registro impede reconhecer sua nacionalidade brasileira originária.",
+      "correctAnswer": "E",
+      "explanation": "O nascimento no exterior com pai ou mãe brasileira a serviço do Brasil configura hipótese própria de nacionalidade originária. Se o pai não estivesse a serviço do Brasil, seria necessário examinar as vias alternativas do registro ou da residência seguida de opção.",
+      "reviewEvidence": "CF, art. 12, I, b e c. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 97, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "id": "cam-calibrada-const-vereadora-em-mandato-proprio-concorre-a-reeleicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 81
+      },
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "inelegibilidade-reflexa-mandato-proprio",
+      "mechanism": "vereadora-em-mandato-proprio-concorre-a-reeleicao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Uma vereadora no exercício de mandato próprio pretende concorrer à reeleição no mesmo município. Seu cônjuge é o prefeito e permanece no cargo até a eleição. Para fins da inelegibilidade reflexa, a candidatura da vereadora se enquadra na ressalva constitucional.",
+      "correctAnswer": "C",
+      "explanation": "A inelegibilidade reflexa alcança, em regra, o cônjuge no território de jurisdição do titular. A Constituição ressalva quem já é titular de mandato eletivo e concorre à reeleição. Se ela pretendesse concorrer a cargo diferente, essa ressalva específica não se aplicaria.",
+      "reviewEvidence": "CF, art. 14, §§ 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 81, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "id": "cam-calibrada-const-agregacao-ate-diplomacao-de-militar-eleito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 85
+      },
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "militar-agregado-diplomacao",
+      "mechanism": "agregacao-ate-diplomacao-de-militar-eleito",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Um militar alistável com 14 anos de serviço é agregado pela autoridade superior ao concorrer a cargo eletivo. Ele vence a eleição e ainda aguarda a diplomação. O marco constitucional de sua passagem automática para a inatividade será o ato da diplomação.",
+      "correctAnswer": "C",
+      "explanation": "Para o militar com mais de dez anos de serviço, a Constituição prevê agregação e, se eleito, passagem automática à inatividade na diplomação. A proclamação do resultado, sozinha, não produz essa passagem.",
+      "reviewEvidence": "CF, art. 14, § 8º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 85, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
       "editalRef": "14.2.3 / Direito Constitucional e Regimento / fiscalização contábil, financeira e orçamentária",
       "id": "cam-calibrada-const-contas-presidenciais-recebidas-antes-do-parecer",
       "concursoId": "camara-2026",

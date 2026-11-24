@@ -218,8 +218,10 @@
     "estimatedDifficulty": "media",
     "statement": "A criação de unidades regionais sem personalidade jurídica própria dentro de uma autarquia exemplifica desconcentração.",
     "correctAnswer": "C",
-    "explanation": "Desconcentração distribui competências entre órgãos de uma mesma pessoa jurídica.",
-    "sourceNote": "Questão original associada ao capítulo 4 do catálogo editorial."
+    "explanation": "A autarquia é a pessoa jurídica. Suas unidades regionais são órgãos internos. A criação dessas unidades reparte internamente atribuições e caracteriza desconcentração.",
+    "sourceNote": "Lei nº 9.784/1999, art. 1º, § 2º, I e II. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "cognitiveOperation": "aplicação",
+    "questionType": "aplicacao"
   },
   {
     "id": "cam-dad-ampl-2026-04-02",

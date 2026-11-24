@@ -152,8 +152,10 @@
     "estimatedDifficulty": "dificil",
     "statement": "Uma universidade federal autárquica distribui atribuições entre campi sem personalidade jurídica. Por isso, tanto a criação da autarquia quanto essa divisão interna constituem descentralização por serviços.",
     "correctAnswer": "E",
-    "explanation": "Criar a autarquia caracteriza descentralização por serviços; distribuir competências entre campi sem personalidade própria caracteriza desconcentração interna.",
-    "sourceNote": "Questão de maior exigência sobre o capítulo 3; fundamentos: Constituição Federal, Lei 9.784/1999, Lei 8.112/1990 e legislação temática aplicável."
+    "explanation": "A criação da autarquia por lei específica constitui uma pessoa jurídica distinta da União. Já os campi são órgãos da autarquia, sem personalidade própria. Cada etapa exige identificar qual pessoa jurídica executa a atividade.",
+    "sourceNote": "Lei nº 9.784/1999, art. 1º, § 2º, I e II. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm Constituição Federal, art. 37, XIX.",
+    "cognitiveOperation": "integração",
+    "questionType": "aplicacao"
   },
   {
     "id": "cam-dad-dificil-2026-03-2",
@@ -215,11 +217,13 @@
     "mechanism": "autonomia-sem-personificacao",
     "format": "CE",
     "origin": "inedita",
-    "estimatedDifficulty": "dificil",
+    "estimatedDifficulty": "media",
     "statement": "Um instituto federal mantém personalidade jurídica única e distribui tarefas entre reitoria e campi. A autonomia administrativa atribuída aos campi não basta, isoladamente, para transformá-los em novas entidades descentralizadas.",
     "correctAnswer": "C",
-    "explanation": "A autonomia de órgãos internos não cria pessoa jurídica distinta. A distribuição de competências dentro da mesma autarquia é desconcentração, mesmo quando envolve unidades territorialmente separadas.",
-    "sourceNote": "Questão de maior exigência sobre o capítulo 4; fundamentos: Constituição Federal, Lei 9.784/1999, Lei 8.112/1990 e legislação temática aplicável."
+    "explanation": "A autonomia administrativa do campus descreve sua margem de atuação. O instituto continua sendo a única pessoa jurídica. Distribuir tarefas da reitoria entre seus órgãos é desconcentração, ainda que os campi tenham autonomia e sedes distintas.",
+    "sourceNote": "Lei nº 9.784/1999, art. 1º, § 2º, I e II. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "cognitiveOperation": "análise",
+    "questionType": "aplicacao"
   },
   {
     "id": "cam-dad-dificil-2026-04-2",
@@ -240,8 +244,10 @@
     "estimatedDifficulty": "dificil",
     "statement": "A União cria autarquia e esta institui diretorias regionais sem personalidade própria. As duas operações constituem desconcentração, pois todas as atividades continuam vinculadas ao poder público federal.",
     "correctAnswer": "E",
-    "explanation": "Criar a autarquia gera descentralização por serviços, com nova pessoa jurídica. Criar diretorias dentro dela é desconcentração, pois os órgãos não têm personalidade própria.",
-    "sourceNote": "Questão de maior exigência sobre o capítulo 4; fundamentos: Constituição Federal, Lei 9.784/1999, Lei 8.112/1990 e legislação temática aplicável."
+    "explanation": "A lei de criação da autarquia institui pessoa jurídica própria, o que caracteriza descentralização por serviços. A criação posterior de diretorias internas redistribui atribuições na autarquia e caracteriza desconcentração.",
+    "sourceNote": "Lei nº 9.784/1999, art. 1º, § 2º, I e II. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm Constituição Federal, art. 37, XIX.",
+    "cognitiveOperation": "integração",
+    "questionType": "aplicacao"
   },
   {
     "id": "cam-dad-dificil-2026-04-3",
@@ -1202,14 +1208,16 @@
     "section": "Centralização e descentralização",
     "format": "CE",
     "origin": "inedita",
-    "estimatedDifficulty": "dificil",
+    "estimatedDifficulty": "media",
     "id": "cam-dad-dificil-2026-04-ampliacao-2",
     "conceptId": "desconcentracao-organica",
     "mechanism": "unidade-regional-nao-ente",
     "statement": "A criação de uma superintendência regional sem personalidade jurídica própria, dentro de autarquia federal, produz nova entidade da administração indireta, porque a distribuição territorial de competências caracteriza descentralização administrativa.",
     "correctAnswer": "E",
-    "explanation": "A superintendência sem personalidade própria é unidade interna da autarquia: há desconcentração, não criação de nova entidade. A desconcentração também pode ocorrer dentro da administração indireta.",
-    "sourceNote": "Fundamento: Decreto-Lei 200/1967, arts. 4º e 5º; CF, art. 37, XIX."
+    "explanation": "Uma superintendência sem personalidade jurídica própria é órgão da autarquia. Repartir competências por região dentro dela é desconcentração territorial. A localização e a especialização da unidade não criam uma entidade da Administração Indireta.",
+    "sourceNote": "Lei nº 9.784/1999, art. 1º, § 2º, I e II. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "cognitiveOperation": "análise",
+    "questionType": "aplicacao"
   },
   {
     "concursoId": "camara-2026",

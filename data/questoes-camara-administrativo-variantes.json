@@ -152,8 +152,10 @@
     "estimatedDifficulty": "media",
     "statement": "A distribuição de competências entre reitoria e campi que não possuem personalidade jurídica própria é modalidade de desconcentração, dentro da mesma pessoa jurídica.",
     "correctAnswer": "C",
-    "explanation": "A desconcentração reparte funções entre órgãos internos; a existência de campi distintos não cria por si só novas pessoas jurídicas.",
-    "sourceNote": "Variação de aplicação do capítulo 4; adequada a treino de transferência, sem substituir a repetição literal do item."
+    "explanation": "Reitoria e campi compõem a mesma pessoa jurídica. A repartição interna de atribuições caracteriza desconcentração. A localização em prédios ou cidades diferentes não altera esse critério.",
+    "sourceNote": "Lei nº 9.784/1999, art. 1º, § 2º, I e II. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "cognitiveOperation": "aplicação",
+    "questionType": "aplicacao"
   },
   {
     "id": "cam-dad-variantes-2026-04-2",
@@ -171,11 +173,13 @@
     "mechanism": "troca-de-institutos",
     "format": "CE",
     "origin": "inedita",
-    "estimatedDifficulty": "dificil",
+    "estimatedDifficulty": "media",
     "statement": "A delegação contratual de transporte coletivo a empresa particular configura desconcentração administrativa, pois o serviço continua de titularidade estatal.",
     "correctAnswer": "E",
-    "explanation": "Concessão ou permissão delega execução a pessoa jurídica distinta e constitui descentralização por colaboração, não desconcentração.",
-    "sourceNote": "Variação de aplicação do capítulo 4; adequada a treino de transferência, sem substituir a repetição literal do item."
+    "explanation": "A empresa contratada é uma pessoa jurídica distinta. A concessão atribui a execução do serviço à empresa, enquanto a titularidade permanece pública. Essa combinação caracteriza descentralização por colaboração.",
+    "sourceNote": "Lei nº 9.784/1999, art. 1º, § 2º, I e II. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm Lei nº 8.987/1995, art. 2º, II.",
+    "cognitiveOperation": "análise",
+    "questionType": "aplicacao"
   },
   {
     "id": "cam-dad-variantes-2026-05-1",

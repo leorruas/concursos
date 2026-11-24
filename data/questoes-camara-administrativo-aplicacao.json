@@ -216,8 +216,10 @@
     "estimatedDifficulty": "media",
     "statement": "Se uma universidade federal distribui sua atuação por unidades acadêmicas, a divisão interna entre unidades sem personalidade própria corresponde a desconcentração.",
     "correctAnswer": "C",
-    "explanation": "A distribuição de competências no interior da mesma pessoa jurídica constitui desconcentração.",
-    "sourceNote": "Questão aplicada ao capítulo editorial 4, com contraste distinto para reteste."
+    "explanation": "As unidades acadêmicas sem personalidade própria integram a universidade. Repartir atribuições entre elas é desconcentrar. Seria preciso transferir a execução para outra pessoa jurídica para falar em descentralização.",
+    "sourceNote": "Lei nº 9.784/1999, art. 1º, § 2º, I e II. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "cognitiveOperation": "aplicação",
+    "questionType": "aplicacao"
   },
   {
     "id": "cam-dad-aplicacao-2026-04-02",
@@ -257,11 +259,13 @@
     "mechanism": "inversao-conceitual",
     "format": "CE",
     "origin": "inedita",
-    "estimatedDifficulty": "media",
+    "estimatedDifficulty": "facil",
     "statement": "Quando uma competência passa do órgão central para outro órgão da mesma pessoa jurídica, ocorre necessariamente descentralização administrativa por serviços.",
     "correctAnswer": "E",
-    "explanation": "A repartição dentro de uma só pessoa jurídica é desconcentração; descentralização pressupõe sujeitos jurídicos distintos.",
-    "sourceNote": "Questão aplicada ao capítulo editorial 4, com contraste distinto para reteste."
+    "explanation": "O enunciado já informa que a competência permanece na mesma pessoa jurídica. Isso caracteriza repartição interna. A descentralização pressupõe a atuação de pessoa jurídica distinta.",
+    "sourceNote": "Lei nº 9.784/1999, art. 1º, § 2º, I e II. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "cognitiveOperation": "compreensão",
+    "questionType": "conceitual"
   },
   {
     "id": "cam-dad-aplicacao-2026-05-01",

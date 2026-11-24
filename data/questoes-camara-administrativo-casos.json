@@ -216,8 +216,10 @@
     "estimatedDifficulty": "media",
     "statement": "A existência de vários campi em um instituto federal não basta para afirmar que houve descentralização administrativa, caso as unidades componham a mesma pessoa jurídica.",
     "correctAnswer": "C",
-    "explanation": "Nesse cenário, a repartição territorial e funcional entre órgãos internos é desconcentração, e não criação de novas entidades.",
-    "sourceNote": "Questão de caso e distinção do capítulo editorial 4; elaborada com base nos conceitos do artigo e nas normas pertinentes."
+    "explanation": "Os campi podem ser órgãos internos de um único instituto. A existência de várias unidades ou sedes não basta para identificar descentralização. É necessário saber se a execução foi atribuída a pessoa jurídica distinta.",
+    "sourceNote": "Lei nº 9.784/1999, art. 1º, § 2º, I e II. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "cognitiveOperation": "aplicação",
+    "questionType": "aplicacao"
   },
   {
     "id": "cam-dad-casos-2026-04-2",
@@ -235,11 +237,13 @@
     "mechanism": "troca-de-categoria",
     "format": "CE",
     "origin": "inedita",
-    "estimatedDifficulty": "dificil",
+    "estimatedDifficulty": "media",
     "statement": "Quando a administração distribui atividades entre diretorias integrantes de uma mesma autarquia, ocorre descentralização por colaboração em razão da especialização das tarefas.",
     "correctAnswer": "E",
-    "explanation": "Diretorias internas não são pessoas jurídicas distintas; a repartição de atribuições é desconcentração, e não descentralização por colaboração.",
-    "sourceNote": "Questão de caso e distinção do capítulo editorial 4; elaborada com base nos conceitos do artigo e nas normas pertinentes."
+    "explanation": "As diretorias integram a mesma autarquia. A divisão de funções entre elas é desconcentração. Na descentralização por colaboração, a execução do serviço é atribuída a outra pessoa jurídica.",
+    "sourceNote": "Lei nº 9.784/1999, art. 1º, § 2º, I e II. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "cognitiveOperation": "aplicação",
+    "questionType": "aplicacao"
   },
   {
     "id": "cam-dad-casos-2026-04-3",

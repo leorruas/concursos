@@ -201,3 +201,23 @@ Foram incluídas cinco referências do caderno comum aos cargos de Analista Legi
 O item 47 depende de localizar no contexto a redistribuição de competências dentro da mesma pessoa jurídica. Os itens 58 e 60 formam um contraste entre aplicação da exigência de dolo ao caso e compreensão da diferença entre conduta voluntária e dirigida ao resultado ilícito. Os cinco têm localizador, gabarito definitivo, comentário próprio e vínculo ao edital de Divulgação Institucional. O catálogo contém quatro gabaritos Certo e seis Errado. [Lei nº 8.429/1992](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm) · [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm)
 
 **Fluxo vigente.** As baterias autenticadas exibem os itens autônomos cuja redação integral está disponível, com fonte e gabarito na correção. O item 55 da Câmara de 2026 foi retirado da seleção porque o caso compartilhado havia sido resumido. Sua referência e suas respostas anteriores conservam a identidade de origem. A redação dos autorais calibrados segue a extensão e as exigências das provas de referência.
+
+## Auditoria individual de organização administrativa
+
+O item 47 do caderno da Câmara aplicado em 2026 exige localizar no cenário compartilhado a redistribuição de atribuições entre órgãos internos da mesma pessoa jurídica. A presença de uma fundação no contexto não resolve esse julgamento. Nos onze autorais revisados, o mesmo critério aparece em campi, diretorias, superintendências e concessões. A maioria já declara a presença ou ausência de personalidade jurídica no próprio enunciado. Dois itens exigem classificar em sequência a criação de uma autarquia e a repartição posterior de atribuições entre seus órgãos.
+
+| ID no suplemento, sem o prefixo `cam-dad-` | Operação editorial | Dificuldade |
+| --- | --- | --- |
+| `variantes-2026-04-1` | Aplicar o critério à reitoria e aos campi | Média |
+| `variantes-2026-04-2` | Distinguir execução pela concessionária e titularidade pública | Média |
+| `casos-2026-04-1` | Verificar se os campi integram a mesma pessoa | Média |
+| `casos-2026-04-2` | Classificar a repartição entre diretorias internas | Média |
+| `ampl-2026-04-01` | Classificar a criação de unidades da autarquia | Média |
+| `aplicacao-2026-04-01` | Classificar unidades acadêmicas sem personalidade própria | Média |
+| `aplicacao-2026-04-03` | Reconhecer a consequência de uma premissa já qualificada | Fácil |
+| `dificil-2026-03-1` | Classificar em sequência a criação da autarquia e a divisão interna | Difícil |
+| `dificil-2026-04-1` | Separar autonomia administrativa e personalidade jurídica | Média |
+| `dificil-2026-04-2` | Classificar a criação da entidade e, depois, de suas diretorias | Difícil |
+| `dificil-2026-04-ampliacao-2` | Distinguir circunscrição territorial e criação de entidade | Média |
+
+As variantes de campi repetem a fronteira básica e servem para fixação. A concessão acrescenta uma variável decisiva, a execução por um particular com personalidade própria. Nos dois itens de integração, a inversão do erro entre a primeira e a segunda etapa permite identificar em qual operação ocorreu a confusão. A revisão preservou IDs, enunciados e gabaritos. [Caderno oficial da Câmara](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/1-prova-objetiva-de-conhecimentos-gerais-analista-e-tecnico) · [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) · [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)

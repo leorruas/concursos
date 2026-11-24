@@ -2,63 +2,63 @@
 
 Metadados da amostra. Os identificadores dos cadernos, as fontes e os critérios estão no relatório de calibração.
 
-| caderno | item | gabarito_definitivo | anulado | operacao_predominante | objeto | caracteres_item_sem_contexto | cenario_compartilhado |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| camara-2014-cb2-03 | 71 | C | false | literal | competência concorrente em saúde | 166 | false |
-| camara-2014-cb2-03 | 72 | E | false | relacional | organização do MP e da Defensoria do DF | 138 | false |
-| camara-2014-cb2-03 | 73 | E | false | relacional | declaração de guerra e autorização congressual | 148 | false |
-| camara-2014-cb2-03 | 74 | X | true | literal | modalidades de exploração de telecomunicações | 133 | false |
-| camara-2014-cb2-03 | 75 | E | false | relacional | controle do Executivo e composição do TCU | 196 | false |
-| camara-2014-cb2-03 | 76 | E | false | distincao | convocação de ministro e solicitação a outras pessoas | 129 | false |
-| camara-2014-cb2-03 | 77 | C | false | jurisprudencia | limites constitucionais dos poderes de CPI | 229 | false |
-| camara-2014-cb2-03 | 78 | C | false | excecao | extinção por decreto de cargo vago | 94 | false |
-| camara-2014-cb2-03 | 79 | C | false | literal | iniciativa da LDO | 102 | false |
-| camara-2014-cb2-03 | 80 | E | false | excecao | promulgação de lei federal | 81 | false |
-| camara-2014-cb2-03 | 81 | C | false | excecao | incompatibilidade parlamentar em concessionária | 135 | false |
-| camara-2014-cb2-03 | 82 | C | false | relacional | perda do mandato e competência da Mesa | 328 | false |
-| camara-2014-cb2-03 | 83 | E | false | jurisprudencia | indisponibilidade de garantias parlamentares | 145 | false |
-| camara-2014-cb2-03 | 84 | E | false | jurisprudencia | imunidade material por discurso parlamentar | 162 | false |
-| camara-2014-cb2-03 | 85 | E | false | relacional | denúncia penal e processamento de congressista | 156 | false |
-| camara-2014-cb2-03 | 86 | C | false | aplicacao | acordo de posse acompanhado de vantagem financeira | 179 | false |
-| camara-2014-cb2-03 | 87 | E | false | distincao | ofensa a servidor ou parlamentar | 170 | false |
-| camara-2014-cb2-03 | 88 | C | false | literal | dever de respeitar decisões legítimas | 167 | false |
-| camara-2014-cb2-03 | 89 | E | false | distincao | finalidade da redação do vencido | 145 | false |
-| camara-2014-cb2-03 | 90 | C | false | literal | consentimento do orador para aparte | 120 | false |
-| camara-2014-cb2-03 | 91 | C | false | distincao | preferência e regimes de tramitação | 140 | false |
-| camara-2014-cb2-03 | 92 | E | false | excecao | reapresentação na sessão legislativa | 149 | false |
-| camara-2014-cb2-03 | 93 | X | true | distincao | indicação e iniciativa legislativa | 162 | false |
-| camara-2014-cb2-03 | 94 | C | false | relacional | voto do acusado na deliberação disciplinar | 167 | false |
-| camara-2014-cb2-03 | 95 | E | false | jurisprudencia | alcance do controle judicial sobre cassação | 153 | false |
-| camara-2014-cb2-03 | 96 | C | false | distincao | espécie normativa do Código de Ética | 173 | false |
-| camara-2014-cb2-03 | 97 | C | false | excecao | posse parlamentar por procuração | 103 | false |
-| camara-2014-cb2-03 | 98 | E | false | excecao | limites do registro taquigráfico | 135 | false |
-| camara-2014-cb2-03 | 99 | E | false | relacional | urgência regimental e apreciação conclusiva | 146 | false |
-| camara-2014-cb2-03 | 100 | C | false | excecao | vaga da minoria na Mesa | 163 | false |
-| camara-2014-cb2-03 | 101 | E | false | distincao | competência administrativa ambiental | 94 | false |
-| camara-2014-cb2-03 | 102 | E | false | distincao | competência legislativa sobre serviço postal | 175 | false |
-| camara-2014-cb2-03 | 103 | E | false | aplicacao | organização de território federal | 120 | false |
-| camara-2014-cb2-03 | 104 | E | false | literal | competência sobre propaganda comercial | 77 | false |
-| camara-2014-cb2-03 | 105 | C | false | aplicacao | proteção comum do patrimônio histórico | 224 | false |
-| camara-2014-cb2-03 | 106 | E | false | relacional | desfiliação partidária e decoro | 141 | false |
-| camara-2014-cb2-03 | 107 | X | true | excecao | alcance temporal da avaliação ética | 152 | false |
-| camara-2014-cb2-03 | 108 | C | false | literal | acesso de senador a sessão sobre perda de mandato | 123 | false |
-| camara-2014-cb2-03 | 109 | E | false | distincao | voz e voto do Corregedor | 116 | false |
-| camara-2014-cb2-03 | 110 | C | false | excecao | condição para afastar membro do Conselho | 159 | false |
-| camara-edital-2025-p1 | 47 | C | false | aplicacao | desconcentração interna | 278 | true |
-| camara-edital-2025-p1 | 48 | C | false | relacional | execução de atividades-meio por fundação pública | 287 | true |
-| camara-edital-2025-p1 | 49 | E | false | distincao | natureza das fundações e regime dos bens | 215 | false |
-| camara-edital-2025-p1 | 50 | C | false | literal | composição da Administração indireta | 276 | false |
-| camara-edital-2025-p1 | 51 | E | false | distincao | criação e autorização de estatais | 219 | false |
-| camara-edital-2025-p1 | 52 | C | false | excecao | revogação e direitos adquiridos | 179 | false |
-| camara-edital-2025-p1 | 53 | C | false | distincao | vinculação, discricionariedade e controle | 241 | false |
-| camara-edital-2025-p1 | 54 | E | false | excecao | limites dos atributos dos atos | 134 | false |
-| camara-edital-2025-p1 | 55 | E | false | aplicacao | licença para interesses particulares | 143 | true |
-| camara-edital-2025-p1 | 56 | E | false | relacional | licença e contagem para aposentadoria | 186 | true |
-| camara-edital-2025-p1 | 57 | E | false | relacional | licença e exoneração de cargo em comissão | 127 | true |
-| camara-edital-2025-p1 | 58 | E | false | aplicacao | negligência e improbidade | 199 | false |
-| camara-edital-2025-p1 | 59 | E | false | jurisprudencia | encargos trabalhistas e responsabilidade estatal | 226 | false |
-| camara-edital-2025-p1 | 60 | C | false | distincao | dolo e voluntariedade na improbidade | 203 | false |
-| camara-edital-2025-p1 | 61 | C | false | excecao | irrenunciabilidade e autorização legal | 200 | false |
-| camara-edital-2025-p1 | 62 | E | false | excecao | aplicação da lei de processo ao Legislativo | 167 | false |
-| camara-edital-2025-p1 | 63 | C | false | excecao | momento de acesso a parecer e sigilo | 285 | false |
-| camara-edital-2025-p1 | 64 | C | false | literal | formas de sanção administrativa | 163 | false |
+| caderno | item | gabarito_definitivo | anulado | operacao_predominante | objeto | caracteres_item_sem_contexto | cenario_compartilhado | aderência | contexto | exigência | valor pedagógico | atualidade | prioridade | justificativa e encaminhamento |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| camara-2014-cb2-03 | 71 | C | false | literal | competência concorrente em saúde | 166 | false | direta | institucional | literal | moderado | conferida | média | P1 Constitucional. Apoio em competência concorrente em saúde. CF, art. 24, XII e §§ 1º–2º. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 72 | E | false | relacional | organização do MP e da Defensoria do DF | 138 | false | direta | institucional | relacional | alto | a conferir | alta | P1 Constitucional. Testa limite ou relação em organização do MP e da Defensoria do DF. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 73 | E | false | relacional | declaração de guerra e autorização congressual | 148 | false | direta | institucional | relacional | alto | conferida | alta | P1 Constitucional. Testa limite ou relação em declaração de guerra e autorização congressual. CF, arts. 49, II, e 84, XIX. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 74 | X | true | literal | modalidades de exploração de telecomunicações | 133 | false | direta | institucional | literal | moderado | anulado | baixa | P1 Constitucional. Anulação definitiva. Uso apenas diagnóstico. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 75 | E | false | relacional | controle do Executivo e composição do TCU | 196 | false | adjacente | mesma Casa | relacional | alto | a conferir | média | P2 Processo Legislativo. Apoio em controle do Executivo e composição do TCU. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 76 | E | false | distincao | convocação de ministro e solicitação a outras pessoas | 129 | false | adjacente | mesma Casa | distincao | alto | a conferir | média | P2 Processo Legislativo. Apoio em convocação de ministro e solicitação a outras pessoas. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 77 | C | false | jurisprudencia | limites constitucionais dos poderes de CPI | 229 | false | direta | mesma Casa | jurisprudencia | alto | conferida | alta | P1 Constitucional. Testa limite ou relação em limites constitucionais dos poderes de CPI. CF, arts. 5º, XII, e 58, § 3º. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 78 | C | false | excecao | extinção por decreto de cargo vago | 94 | false | direta | institucional | excecao | alto | conferida | alta | P1 Constitucional. Testa limite ou relação em extinção por decreto de cargo vago. CF, art. 84, VI, b. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 79 | C | false | literal | iniciativa da LDO | 102 | false | adjacente | mesma Casa | literal | moderado | conferida | média | P2 Processo Legislativo. Apoio em iniciativa da LDO. CF, art. 165, II. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 80 | E | false | excecao | promulgação de lei federal | 81 | false | adjacente | mesma Casa | excecao | alto | conferida | média | P2 Processo Legislativo. Apoio em promulgação de lei federal. CF, art. 66, § 7º. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 81 | C | false | excecao | incompatibilidade parlamentar em concessionária | 135 | false | direta | mesma Casa | excecao | alto | a conferir | alta | P1 Constitucional. Testa limite ou relação em incompatibilidade parlamentar em concessionária. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 82 | C | false | relacional | perda do mandato e competência da Mesa | 328 | false | direta | mesma Casa | relacional | alto | a conferir | alta | P1 Constitucional. Testa limite ou relação em perda do mandato e competência da Mesa. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 83 | E | false | jurisprudencia | indisponibilidade de garantias parlamentares | 145 | false | direta | mesma Casa | jurisprudencia | alto | a conferir | alta | P1 Constitucional. Testa limite ou relação em indisponibilidade de garantias parlamentares. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 84 | E | false | jurisprudencia | imunidade material por discurso parlamentar | 162 | false | direta | mesma Casa | jurisprudencia | alto | a conferir | alta | P1 Constitucional. Testa limite ou relação em imunidade material por discurso parlamentar. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 85 | E | false | relacional | denúncia penal e processamento de congressista | 156 | false | direta | mesma Casa | relacional | alto | a conferir | alta | P1 Constitucional. Testa limite ou relação em denúncia penal e processamento de congressista. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 86 | C | false | aplicacao | acordo de posse acompanhado de vantagem financeira | 179 | false | adjacente | mesma Casa | aplicacao | moderado | a conferir | média | P2 Decoro. Apoio em acordo de posse acompanhado de vantagem financeira. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 87 | E | false | distincao | ofensa a servidor ou parlamentar | 170 | false | adjacente | mesma Casa | distincao | alto | a conferir | média | P2 Decoro. Apoio em ofensa a servidor ou parlamentar. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 88 | C | false | literal | dever de respeitar decisões legítimas | 167 | false | adjacente | mesma Casa | literal | moderado | a conferir | média | P2 Decoro. Apoio em dever de respeitar decisões legítimas. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 89 | E | false | distincao | finalidade da redação do vencido | 145 | false | adjacente | mesma Casa | distincao | alto | a conferir | média | P2 Processo Legislativo. Apoio em finalidade da redação do vencido. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 90 | C | false | literal | consentimento do orador para aparte | 120 | false | adjacente | mesma Casa | literal | moderado | a conferir | média | P2 Processo Legislativo. Apoio em consentimento do orador para aparte. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 91 | C | false | distincao | preferência e regimes de tramitação | 140 | false | adjacente | mesma Casa | distincao | alto | a conferir | média | P2 Processo Legislativo. Apoio em preferência e regimes de tramitação. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 92 | E | false | excecao | reapresentação na sessão legislativa | 149 | false | adjacente | mesma Casa | excecao | alto | conferida | média | P2 Processo Legislativo. Apoio em reapresentação na sessão legislativa. CF, art. 67. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 93 | X | true | distincao | indicação e iniciativa legislativa | 162 | false | adjacente | mesma Casa | distincao | alto | anulado | baixa | P2 Processo Legislativo. Anulação definitiva. Uso apenas diagnóstico. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 94 | C | false | relacional | voto do acusado na deliberação disciplinar | 167 | false | adjacente | mesma Casa | relacional | alto | a conferir | média | P2 Decoro. Apoio em voto do acusado na deliberação disciplinar. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 95 | E | false | jurisprudencia | alcance do controle judicial sobre cassação | 153 | false | adjacente | mesma Casa | jurisprudencia | alto | a conferir | média | P2 Decoro. Apoio em alcance do controle judicial sobre cassação. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 96 | C | false | distincao | espécie normativa do Código de Ética | 173 | false | adjacente | mesma Casa | distincao | alto | a conferir | média | P2 Decoro. Apoio em espécie normativa do Código de Ética. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 97 | C | false | excecao | posse parlamentar por procuração | 103 | false | adjacente | mesma Casa | excecao | alto | a conferir | média | P2 Processo Legislativo. Apoio em posse parlamentar por procuração. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 98 | E | false | excecao | limites do registro taquigráfico | 135 | false | adjacente | mesma Casa | excecao | alto | a conferir | média | P2 Processo Legislativo. Apoio em limites do registro taquigráfico. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 99 | E | false | relacional | urgência regimental e apreciação conclusiva | 146 | false | adjacente | mesma Casa | relacional | alto | a conferir | média | P2 Processo Legislativo. Apoio em urgência regimental e apreciação conclusiva. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 100 | C | false | excecao | vaga da minoria na Mesa | 163 | false | adjacente | mesma Casa | excecao | alto | a conferir | média | P2 Processo Legislativo. Apoio em vaga da minoria na Mesa. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 101 | E | false | distincao | competência administrativa ambiental | 94 | false | direta | institucional | distincao | alto | a conferir | alta | P1 Constitucional. Testa limite ou relação em competência administrativa ambiental. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 102 | E | false | distincao | competência legislativa sobre serviço postal | 175 | false | direta | institucional | distincao | alto | conferida | alta | P1 Constitucional. Testa limite ou relação em competência legislativa sobre serviço postal. CF, arts. 21, X, e 22, V. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 103 | E | false | aplicacao | organização de território federal | 120 | false | direta | institucional | aplicacao | moderado | conferida | média | P1 Constitucional. Apoio em organização de território federal. CF, art. 33, caput. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 104 | E | false | literal | competência sobre propaganda comercial | 77 | false | direta | institucional | literal | moderado | conferida | média | P1 Constitucional. Apoio em competência sobre propaganda comercial. CF, art. 22, XXIX, e parágrafo único. Cotejar o alcance da possível autorização por lei complementar. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 105 | C | false | aplicacao | proteção comum do patrimônio histórico | 224 | false | direta | institucional | aplicacao | moderado | conferida | média | P1 Constitucional. Apoio em proteção comum do patrimônio histórico. CF, art. 23, III–IV. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 106 | E | false | relacional | desfiliação partidária e decoro | 141 | false | adjacente | mesma Casa | relacional | alto | a conferir | média | P2 Decoro. Apoio em desfiliação partidária e decoro. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 107 | X | true | excecao | alcance temporal da avaliação ética | 152 | false | adjacente | mesma Casa | excecao | alto | anulado | baixa | P2 Decoro. Anulação definitiva. Uso apenas diagnóstico. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 108 | C | false | literal | acesso de senador a sessão sobre perda de mandato | 123 | false | adjacente | mesma Casa | literal | moderado | a conferir | média | P2 Decoro. Apoio em acesso de senador a sessão sobre perda de mandato. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 109 | E | false | distincao | voz e voto do Corregedor | 116 | false | adjacente | mesma Casa | distincao | alto | a conferir | média | P2 Decoro. Apoio em voz e voto do Corregedor. Acesso pelo caderno. |
+| camara-2014-cb2-03 | 110 | C | false | excecao | condição para afastar membro do Conselho | 159 | false | adjacente | mesma Casa | excecao | alto | a conferir | média | P2 Decoro. Apoio em condição para afastar membro do Conselho. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 47 | C | false | aplicacao | desconcentração interna | 278 | true | adjacente | institucional | aplicacao | moderado | conferida | média | P1 Administrativo. Apoio em desconcentração interna. Distribuição interna à mesma pessoa jurídica no cenário. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 48 | C | false | relacional | execução de atividades-meio por fundação pública | 287 | true | adjacente | institucional | relacional | alto | a conferir | média | P1 Administrativo. Apoio em execução de atividades-meio por fundação pública. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 49 | E | false | distincao | natureza das fundações e regime dos bens | 215 | false | adjacente | institucional | distincao | alto | a conferir | média | P1 Administrativo. Apoio em natureza das fundações e regime dos bens. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 50 | C | false | literal | composição da Administração indireta | 276 | false | adjacente | institucional | literal | moderado | a conferir | média | P1 Administrativo. Apoio em composição da Administração indireta. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 51 | E | false | distincao | criação e autorização de estatais | 219 | false | adjacente | institucional | distincao | alto | conferida | média | P1 Administrativo. Apoio em criação e autorização de estatais. CF, art. 37, XIX. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 52 | C | false | excecao | revogação e direitos adquiridos | 179 | false | adjacente | institucional | excecao | alto | a conferir | média | P1 Administrativo. Apoio em revogação e direitos adquiridos. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 53 | C | false | distincao | vinculação, discricionariedade e controle | 241 | false | adjacente | institucional | distincao | alto | a conferir | média | P1 Administrativo. Apoio em vinculação, discricionariedade e controle. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 54 | E | false | excecao | limites dos atributos dos atos | 134 | false | adjacente | institucional | excecao | alto | a conferir | média | P1 Administrativo. Apoio em limites dos atributos dos atos. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 55 | E | false | aplicacao | licença para interesses particulares | 143 | true | adjacente | institucional | aplicacao | moderado | conferida | média | P1 Administrativo. Apoio em licença para interesses particulares. Lei nº 8.112/1990, art. 91. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 56 | E | false | relacional | licença e contagem para aposentadoria | 186 | true | adjacente | institucional | relacional | alto | a conferir | média | P1 Administrativo. Apoio em licença e contagem para aposentadoria. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 57 | E | false | relacional | licença e exoneração de cargo em comissão | 127 | true | adjacente | institucional | relacional | alto | a conferir | média | P1 Administrativo. Apoio em licença e exoneração de cargo em comissão. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 58 | E | false | aplicacao | negligência e improbidade | 199 | false | adjacente | institucional | aplicacao | moderado | conferida | média | P1 Administrativo. Apoio em negligência e improbidade. Lei nº 8.429/1992, arts. 1º, §§ 1º–3º, e 10. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 59 | E | false | jurisprudencia | encargos trabalhistas e responsabilidade estatal | 226 | false | adjacente | institucional | jurisprudencia | alto | a conferir | média | P1 Administrativo. Apoio em encargos trabalhistas e responsabilidade estatal. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 60 | C | false | distincao | dolo e voluntariedade na improbidade | 203 | false | adjacente | institucional | distincao | alto | conferida | média | P1 Administrativo. Apoio em dolo e voluntariedade na improbidade. Lei nº 8.429/1992, art. 1º, § 2º. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 61 | C | false | excecao | irrenunciabilidade e autorização legal | 200 | false | adjacente | institucional | excecao | alto | conferida | média | P1 Administrativo. Apoio em irrenunciabilidade e autorização legal. Lei nº 9.784/1999, art. 2º, parágrafo único, II. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 62 | E | false | excecao | aplicação da lei de processo ao Legislativo | 167 | false | adjacente | institucional | excecao | alto | conferida | média | P1 Administrativo. Apoio em aplicação da lei de processo ao Legislativo. Lei nº 9.784/1999, art. 1º, § 1º. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 63 | C | false | excecao | momento de acesso a parecer e sigilo | 285 | false | adjacente | institucional | excecao | alto | conferida | média | P1 Administrativo. Apoio em momento de acesso a parecer e sigilo. Lei nº 12.527/2011, art. 7º, § 3º. Acesso pelo caderno. |
+| camara-edital-2025-p1 | 64 | C | false | literal | formas de sanção administrativa | 163 | false | adjacente | institucional | literal | moderado | conferida | média | P1 Administrativo. Apoio em formas de sanção administrativa. Lei nº 9.784/1999, art. 68. Acesso pelo caderno. |

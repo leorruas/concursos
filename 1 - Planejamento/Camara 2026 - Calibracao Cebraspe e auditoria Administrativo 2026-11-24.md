@@ -61,4 +61,14 @@ No principal de Constitucional, 460 itens estão rotulados como aplicação, 73 
 
 ### Estado da incorporação
 
-Nesta etapa foram examinados 58 itens de dois cadernos, com 55 gabaritos válidos e três anulações. A classificação de relevância, a conclusão sobre atualidade jurídica e direitos de reprodução, a ampliação para outras provas, a revisão individual do banco e o lote autoral seguem pendentes. Os 58 localizadores ficam disponíveis para cotejo nas fontes oficiais. Nenhuma questão foi adicionada ao treino nesta etapa.
+Nesta etapa foram examinados 58 itens de dois cadernos, com 55 gabaritos válidos e três anulações. O cotejo integral de atualidade jurídica e a verificação de direitos de reprodução, a ampliação para outras provas, a revisão individual do banco e o lote autoral seguem pendentes. Os 58 localizadores ficam disponíveis para cotejo nas fontes oficiais. Nenhuma questão foi adicionada ao treino nesta etapa.
+
+### Triagem de relevância e liberação
+
+A matriz recebeu cinco dimensões independentes. A **aderência** é direta para o núcleo de Constitucional e Regimentos de P1, adjacente para disciplinas ou unidades que apoiam a preparação e fora do recorte quando não houver vínculo. O **contexto** indica se o problema envolve a própria Câmara ou assunto institucional comparável. A **exigência** usa a operação predominante observada. O **valor pedagógico** é alto quando o item discrimina regras ou verifica condições e relações jurídicas, e moderado quando sua contribuição principal é fixação ou aplicação direta. A **atualidade** é conferida quando a regra determinante foi cotejada, pendente quando a resposta requer revisão complementar e anulada quando o gabarito definitivo traz anulação.
+
+A triagem atribui **alta** a item válido de aderência direta e alto valor pedagógico, **média** a item válido que contribui para fixação ou estudo adjacente e **baixa** a anulado ou fora do recorte. Não há soma ponderada. Um item pode ter prioridade alta para revisão editorial e continuar bloqueado para treino. É possível reclassificá-lo quando o edital, o fundamento, a forma de cobrança ou a atualidade forem revistos.
+
+**Resultado da triagem:** 11 de prioridade alta, 44 de média e 3 de baixa. Dos 55 válidos, 19 tiveram a regra determinante conferida nesta rodada e 36 ainda precisam de cotejo. A conferência de atualidade é distinta da liberação editorial. Enquanto o direito de reprodução integral não estiver documentado, o acesso é por caderno e número do item. A matriz não contém itens jogáveis e não altera as tentativas.
+
+Fontes do cotejo inicial: [Constituição Federal](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), [Lei nº 8.112/1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm), [Lei nº 8.429/1992](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm), [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) e [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm).

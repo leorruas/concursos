@@ -229,7 +229,7 @@
       <section class="results-section" aria-labelledby="results-edital-coverage-title">
         <p class="results-section-label">cobertura das matérias previstas</p>
         <h2 id="results-edital-coverage-title">Referências do edital</h2>
-        <p class="results-caption">Relaciona matérias do catálogo editorial do concurso às tentativas registradas no ChatGPT e no site. Uma matéria com tentativas pode continuar com diversos tópicos não avaliados. Este indicador não mede cobertura integral dos itens oficiais do edital.</p>
+        <p class="results-caption">Cobertura acumulada, independente do filtro de período. Relaciona matérias do catálogo editorial do concurso às tentativas registradas no ChatGPT e no site. Uma matéria com tentativas pode continuar com diversos tópicos não avaliados. Este indicador não mede cobertura integral dos itens oficiais do edital.</p>
         <div id="results-edital-coverage"></div>
       </section>
       <div class="results-history-content">
@@ -244,13 +244,14 @@
       <section class="results-section" aria-labelledby="results-difficulty-heading">
         <p class="results-section-label">desempenho e complexidade</p>
         <h2 id="results-difficulty-heading">dificuldade</h2>
-        <p class="results-caption">A dificuldade estimada é definida na revisão editorial da questão. A taxa de acerto mostra como você respondeu a itens de cada faixa. Uma amostra pequena ainda não permite uma conclusão estável.</p>
+        <p class="results-caption">Histórico acumulado, independente do filtro de período. A dificuldade estimada é definida na revisão editorial da questão. A taxa de acerto mostra como você respondeu a itens de cada faixa. Uma amostra pequena ainda não permite uma conclusão estável.</p>
         <div id="results-difficulty" class="results-difficulty-list"></div>
       </section>
       <section class="results-section" aria-labelledby="title-subjects">
         <p class="results-section-label">desempenho por matéria</p>
         <h2 id="title-subjects">matérias</h2>
-        <p class="results-caption">Respostas por matéria. Os itens para revisar mostram recomendações do histórico, não a cobertura total do edital.</p>
+        <div class="results-learning-toolbar"><label for="results-subject-period">Período</label><select id="results-subject-period"><option value="total">Total</option><option value="30">Últimos 30 dias</option><option value="60">Últimos 60 dias</option></select></div>
+        <p class="results-caption" id="results-subject-period-note" aria-live="polite">Todo o histórico registrado.</p>
         <div id="results-subjects" class="results-subjects-list"></div>
       </section>
       <section class="results-section" aria-labelledby="title-concepts">
@@ -274,7 +275,7 @@
       <section class="results-section" aria-labelledby="results-coverage-title">
         <p class="results-section-label">histórico de questões</p>
         <h2 id="results-coverage-title">questões respondidas por matéria</h2>
-        <p class="results-caption">Contagem única das questões respondidas no ChatGPT e no site, com acertos e erros por matéria. Tentativas já conciliadas não são contadas duas vezes. O total representa questões respondidas, inclusive repetições em momentos diferentes, e não a porcentagem do edital estudada.</p>
+        <p class="results-caption">Contagem única das questões respondidas no ChatGPT e no site, com acertos e erros por matéria no período selecionado acima. Tentativas já conciliadas não são contadas duas vezes. O total representa questões respondidas, inclusive repetições em momentos diferentes, e não a porcentagem do edital estudada.</p>
         <div id="results-coverage"></div>
       </section>
       <section class="results-section" aria-labelledby="results-concept-transfer-title">

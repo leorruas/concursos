@@ -14,6 +14,7 @@ const DISPLAY={
 let manifest=new Map(),current=null,subjectCatalog=null,discursiveProposals=[];
 let retestLoadFailed=false;
 let selectedSubject='',retests=null,coverageData=null,transferData=null,transferCombined=false,quizLearningAttempts=null;
+let subjectPeriod='total';
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
 function fmtDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return 'data não registrada';const [y,m,d]=s.split('-');return d+'/'+m+'/'+y;}
 function title(subject){return DISPLAY[subject]||subject||'Matéria sem classificação';}
@@ -278,10 +279,11 @@ function showCoverage(){
  const root=$('results-coverage');root.replaceChildren();
  // A API unificada já concilia IDs de origem repetidos. Uma questão do
  // ChatGPT não precisa existir no banco público para integrar esta contagem.
- const rows=(current?.difficulty?.bySubject||[])
+ const report=subjectPeriodData(current,subjectPeriod,new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo'}).format(new Date()));
+ const rows=(subjectPeriod==='total'?(current?.difficulty?.bySubject||[]):report.rows)
   .filter(x=>!selectedSubject||x.id===selectedSubject)
   .sort((a,b)=>title(a.id).localeCompare(title(b.id),'pt-BR'));
- if(!rows.length){root.append(el('p','results-caption','Sem questões respondidas nesta matéria.'));return;}
+ if(!rows.length){root.append(el('p','results-caption',report.available?'Sem questões respondidas nesta matéria e período.':'Histórico diário indisponível.'));return;}
  for(const x of rows){
   const total=Number(x.total)||0,correct=Number(x.correct)||0,incorrect=Number(x.incorrect)||0;
   const blank=Number(x.blank)||0;
@@ -757,6 +759,49 @@ function renderQuestionOrigins(rows){
  }
  section.append(list);modes.append(section);
 }
+function subjectPeriodData(data,period,today){
+ const historical=data?.bySubject||[];
+ if(period==='total')return {available:true,rows:historical,start:null,end:null,undated:0};
+ const days=Number(period),weeks=data?.weekly?.weeks;
+ if(![30,60].includes(days)||!Array.isArray(weeks)||!/^\d{4}-\d{2}-\d{2}$/.test(today))return {available:false,rows:[],start:null,end:null,undated:0};
+ const startDate=new Date(today+'T12:00:00Z');
+ if(!Number.isFinite(startDate.getTime())||startDate.toISOString().slice(0,10)!==today)return {available:false,rows:[],start:null,end:null,undated:0};
+ startDate.setUTCDate(startDate.getUTCDate()-days+1);
+ const start=startDate.toISOString().slice(0,10),map=new Map(),seen=new Set();
+ for(const week of weeks)for(const day of week?.days||[]){
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(day?.date)||day.date<start||day.date>today||seen.has(day.date))continue;
+  seen.add(day.date);
+  for(const x of day.subjects||[]){
+   const id=x.subjectId||'sem-materia';
+   if(!map.has(id))map.set(id,{id,total:0,correct:0,incorrect:0,blank:0});
+   const v=map.get(id);
+   for(const f of ['total','correct','incorrect','blank'])v[f]+=Number(x[f])||0;
+  }
+ }
+ return {available:true,rows:[...map.values()].sort((a,b)=>b.total-a.total||a.id.localeCompare(b.id)),start,end:today,undated:Number(data.weekly.withoutDate)||0};
+}
+function renderSubjectPeriod(){
+ const root=$('results-subjects'),control=$('results-subject-period'),note=$('results-subject-period-note');
+ if(!root||!current)return;
+ if(control)control.value=subjectPeriod;
+ const today=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo'}).format(new Date());
+ const report=subjectPeriodData(current,subjectPeriod,today),all=subjectPeriod==='total';
+ const subjectRows=report.rows.filter(x=>!selectedSubject||x.id===selectedSubject);
+ const articleCounts=new Map(),conceptCounts=new Map(),concepts=current.concepts||[];
+ for(const item of (current.articles||[]).filter(a=>a.mistakes?.length||a.uncertainCorrect?.length)){const key=articleSubject(item,concepts);articleCounts.set(key,(articleCounts.get(key)||0)+1);}
+ for(const item of concepts.filter(c=>c.errors||c.uncertain||c.dueOn)){const key=item.subjectId||'sem-materia';conceptCounts.set(key,(conceptCounts.get(key)||0)+1);}
+ const difficultyBySubject=new Map((current.difficulty?.bySubject||[]).map(x=>[x.id,x]));
+ if(note)note.textContent=!report.available?'O histórico diário necessário para este período está indisponível.':all?'Todo o histórico registrado. Recomendações de revisão acumuladas.':fmtDate(report.start)+' a '+fmtDate(report.end)+' · inclui hoje'+(report.undated?' · registros sem data excluídos':'')+'. Recomendações e cobertura do edital continuam acumuladas.';
+ root.replaceChildren(...subjectRows.map(sub=>{
+  const row=el('div','results-subject-row'),copy=el('div','results-subject-copy');
+  const judged=sub.correct+sub.incorrect,uncertain=all?(difficultyBySubject.get(sub.id)?.uncertain||0):null;
+  copy.append(el('strong','results-subject-name',title(sub.id)),el('small','results-subject-detail',sub.correct+' acertos · '+sub.incorrect+' erros'+(sub.blank?' · '+sub.blank+' em branco':'')+(uncertain?' · '+uncertain+' respostas inseguras':'')));
+  const figures=el('div','results-subject-figures');
+  figures.append(el('span','results-subject-total',sub.total+' '+(sub.total===1?'resposta':'respostas')),el('strong','results-subject-percentage',judged?Math.round(1000*sub.correct/judged)/10+'% de acerto':'Sem amostra'),el('small','results-subject-recommendations',(articleCounts.get(sub.id)||0)+' artigos · '+(conceptCounts.get(sub.id)||0)+' conceitos para revisar (histórico)'));
+  row.append(copy,figures);return row;
+ }));
+ if(!root.children.length)root.append(el('p','results-caption',report.available?'Nenhuma resposta registrada neste período e matéria.':'Desempenho no período indisponível.'));
+}
 function observedAccuracyPeriods(data,today){
  const weeks=data?.weekly?.weeks;
  if(!Array.isArray(weeks)||!/^\d{4}-\d{2}-\d{2}$/.test(today))return {week:null,month:null,available:false};
@@ -1008,27 +1053,7 @@ function render(){
  filter.replaceChildren(...nextOptions.map(([value,label])=>{const option=el('option','',label);option.value=value;return option;}));
  if(selectedSubject&&!subjects.has(selectedSubject))selectedSubject='';
  filter.value=selectedSubject;
- const articleCounts=new Map(),conceptCounts=new Map();
- for(const item of allArticles){const key=articleSubject(item,concepts);articleCounts.set(key,(articleCounts.get(key)||0)+1);}
- for(const item of concepts.filter(c=>c.errors||c.uncertain||c.dueOn)){const key=item.subjectId||'sem-materia';conceptCounts.set(key,(conceptCounts.get(key)||0)+1);}
- const difficultyBySubject=new Map((current.difficulty?.bySubject||[]).map(x=>[x.id,x]));
- const subjectsRoot=$('results-subjects');
- subjectsRoot.replaceChildren(...(current.bySubject||[]).map(sub=>{
-  const row=el('div','results-subject-row');
-  const copy=el('div','results-subject-copy');
-  const judged=sub.correct+sub.incorrect,uncertain=difficultyBySubject.get(sub.id)?.uncertain||0;
-  copy.append(el('strong','results-subject-name',title(sub.id)),
-   el('small','results-subject-detail',sub.correct+' acertos · '+sub.incorrect+' erros'+
-    (uncertain?' · '+uncertain+' respostas inseguras':'')));
-  const figures=el('div','results-subject-figures');
-  figures.append(el('span','results-subject-total',sub.total+' '+(sub.total===1?'resposta':'respostas')),
-   el('strong','results-subject-percentage',judged?Math.round(1000*sub.correct/judged)/10+'% de acerto':'Sem amostra'),
-   el('small','results-subject-recommendations',(articleCounts.get(sub.id)||0)+' artigos · '+
-    (conceptCounts.get(sub.id)||0)+' conceitos para revisar'));
-  row.append(copy,figures);
-  return row;
- }));
- if(!subjectsRoot.children.length)subjectsRoot.append(el('p','results-caption','Ainda não há respostas registradas para esta seleção.'));
+ renderSubjectPeriod();
  $('results-unified-method').textContent='Histórico até '+fmtDate(current.cut)+'. '+valid+' tentativas válidas de estudo, sem somar duas vezes um registro identificado nas duas fontes.';
  $('results-legacy').hidden=false;
  root.hidden=false;
@@ -1324,15 +1349,20 @@ const initialParams=new URLSearchParams(location.search);
 const requestedContest=initialParams.get('concurso');
 if([...select.options].some(x=>x.value===requestedContest))select.value=requestedContest;
 selectedSubject=initialParams.get('materia')||'';
+subjectPeriod=['30','60'].includes(initialParams.get('periodo'))?initialParams.get('periodo'):'total';
+const subjectPeriodControl=$('results-subject-period');
+if(subjectPeriodControl){subjectPeriodControl.value=subjectPeriod;subjectPeriodControl.addEventListener('change',()=>{subjectPeriod=['30','60'].includes(subjectPeriodControl.value)?subjectPeriodControl.value:'total';syncResultsFilters();renderSubjectPeriod();showCoverage();});}
 function syncResultsFilters(){
  const url=new URL(location.href);url.searchParams.set('concurso',select.value);
  if(selectedSubject)url.searchParams.set('materia',selectedSubject);
  else url.searchParams.delete('materia');
+ if(subjectPeriod!=='total')url.searchParams.set('periodo',subjectPeriod);else url.searchParams.delete('periodo');
  history.replaceState(history.state,'',url);
  for(const a of document.querySelectorAll('.results-views-nav a,#results-review-concept-link')){
   const target=new URL(a.href);target.searchParams.set('concurso',select.value);
   if(selectedSubject)target.searchParams.set('materia',selectedSubject);
   else target.searchParams.delete('materia');
+  if(subjectPeriod!=='total')target.searchParams.set('periodo',subjectPeriod);else target.searchParams.delete('periodo');
   a.href=target.href;
  }
 }

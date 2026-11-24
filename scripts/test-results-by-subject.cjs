@@ -96,3 +96,23 @@ assert.deepEqual([...stages({state:'retention-check',cycleAttemptId:'a',nextRevi
 assert.deepEqual([...stages({state:'review-pending',cycleAttemptId:'missing',nextReview:'2026-11-08',recentEvents:[]},[2,7,21])],[null,null,null]);
 assert.deepEqual([...stages({state:'provisional-mastery'},[2,7,21])],[true,true,true]);
 console.log('OK: aba Aprendizagem, períodos, filtros, contexto incompleto e etapas do ciclo.');
+
+const subjectPeriodContext={};vm.createContext(subjectPeriodContext);
+vm.runInContext(extract('subjectPeriodData','renderSubjectPeriod'),subjectPeriodContext);
+const period=subjectPeriodContext.subjectPeriodData;
+const records={bySubject:[{id:'const',total:100,correct:60,incorrect:30,blank:10}],weekly:{withoutDate:2,weeks:[
+ {days:[daily('2026-09-25','const',1),daily('2026-09-26','const',1),daily('2026-10-25','const',1),daily('2026-10-26','const',1)]},
+ {days:[daily('2026-11-24','const',1),daily('2026-11-24','const',1),daily('2026-11-25','const',1)]}
+]}};
+assert.equal(period(records,'total','2026-11-24').rows[0].total,100);
+assert.equal(period(records,'30','2026-11-24').rows[0].total,10,'30 dias incluem hoje e dia inicial, excluem anterior e futuro');
+assert.equal(period(records,'30','2026-11-24').start,'2026-10-26');
+assert.equal(period(records,'60','2026-11-24').start,'2026-09-26');
+assert.equal(period(records,'60','2026-11-24').rows[0].total,20);
+assert.equal(period(records,'60','2026-11-24').undated,2);
+assert.equal(period({},'30','2026-11-24').available,false);
+assert.equal(period({weekly:{weeks:[]}},'30','2026-11-24').rows.length,0);
+assert.ok(html.includes('id="results-subject-period"'));
+assert.ok(html.includes('value="30"')&&html.includes('value="60"'));
+assert.ok(source.includes('renderSubjectPeriod();showCoverage();'));
+console.log('OK: períodos Total, 30 e 60 dias nas matérias, limites inclusivos e dados ausentes.');

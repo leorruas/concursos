@@ -397,12 +397,12 @@
   section.append(node);
   panels.get(view).append(section);
  }
- moveDetail('results-detailed-stats','materias','Outros indicadores');
- moveDetail('results-study-modes','materias',null);
+ moveDetail('results-detailed-stats','materias','Outros indicadores · histórico acumulado');
+ moveDetail('results-study-modes','materias','Modos de estudo · histórico acumulado');
  const modeSection=document.getElementById('results-study-modes')?.closest('.results-section');
  const subjectsSection=panels.get('materias').querySelector('[aria-labelledby="title-subjects"]');
  if(modeSection&&subjectsSection)subjectsSection.after(modeSection);
- moveDetail('results-competitive-simulations','materias',null);
+ moveDetail('results-competitive-simulations','materias','Simulados · histórico acumulado');
  moveDetail('results-quiz-stats','historico','Origem dos registros');
  const sourceStatus=document.getElementById('results-quiz-status');
  if(sourceStatus)document.getElementById('results-quiz-stats')?.parentElement?.append(sourceStatus);

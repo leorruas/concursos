@@ -75,7 +75,7 @@ function markSynced(attemptId){
 
 function shuffle(a){let x=a.slice();for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]];}return x;}
 function contest(){return data?.contests.find(c=>c.id===$('qs-concurso').value);}
-function available(){return data?.questions.filter(q=>q.concursoId===contest()?.id&&q.format==='CE')||[];}
+function available(){return data?.questions.filter(q=>q.concursoId===contest()?.id&&q.format==='CE'&&(!q.officialSource||loggedIn))||[];}
 function customSubjects(){
  return new Set([...$("qs-custom").querySelectorAll("input:checked")].map(input=>input.value));
 }
@@ -206,7 +206,7 @@ function renderSuggestions(review,repeat){
  offer('Praticar questões novas',loggedIn?'Itens sem resposta no histórico consultado.':'Itens sem resposta neste navegador.',
   loggedIn&&!seenByContest.has(exam.id)?[]:choose(10,pool.filter(q=>!seen.has(q.id))));
  offer('Diagnóstico misto','Questões distribuídas entre matérias de '+exam.nome+'.',choose(10,pool));
- const official=pool.filter(q=>q.officialSource&&!seen.has(q.id));
+ const official=loggedIn?pool.filter(q=>q.officialSource&&!seen.has(q.id)):[];
  if(official.length&&(!loggedIn||seenByContest.has(exam.id))){
   const relatedArticles=new Set(official.map(q=>q.articleId));
   const authors=pool.filter(q=>q.origin==='inedita'&&relatedArticles.has(q.articleId)&&!seen.has(q.id));
@@ -427,20 +427,29 @@ async function auth(){
  try{const r=await fetch('/v1/session',{credentials:'same-origin',cache:'no-store'});loggedIn=r.ok;}catch{loggedIn=false;}
  if(!loggedIn){toggle('qs-login',true);$('qs-login').href='/v1/login/github?return=%2Fquestoes.html';$('qs-login').textContent='Entrar com GitHub para sincronizar';$('qs-sync').textContent='Sem login, respostas ficam apenas neste navegador.';return;}
  $('qs-sync').textContent='GitHub conectado. As respostas serão gravadas no banco privado.';
- try{
-  const response=await fetch('/v1/study/cgu-catalog',{credentials:'same-origin',cache:'no-store'});
-  if(!response.ok)throw Error('Acervo indisponível');
-  const catalog=await response.json();
-  if(catalog.version!==1||catalog.concursoId!=='cgu-2026'||!Array.isArray(catalog.questions))
-   throw Error('Formato inválido');
-  for(const question of catalog.questions){
-   if(data.map.has(question.id))continue;
+ await Promise.all([
+  loadAuthenticatedCatalog('/v1/study/cgu-catalog','cgu-2026').then(()=>{cguCatalogLoaded=true;})
+   .catch(()=>{$('qs-sync').textContent='GitHub conectado. O acervo privado de questões da CGU está indisponível.';}),
+  loadAuthenticatedCatalog('/v1/study/camara-official','camara-2026').catch(()=>{})
+ ]);
+}
+async function loadAuthenticatedCatalog(path,concursoId){
+ const response=await fetch(path,{credentials:'same-origin',cache:'no-store'});
+ if(!response.ok)throw Error('Acervo indisponível');
+ const catalog=await response.json();
+ if(catalog.version!==1||catalog.concursoId!==concursoId||!Array.isArray(catalog.questions))
+  throw Error('Formato inválido');
+ for(const question of catalog.questions){
+  const previous=data.map.get(question.id);
+  if(previous){
+   if(previous.format==='reference'){
+    data.questions[data.questions.indexOf(previous)]=question;
+    data.map.set(question.id,question);
+   }
+  }else{
    data.questions.push(question);
    data.map.set(question.id,question);
   }
-  cguCatalogLoaded=true;
- }catch{
-  $('qs-sync').textContent='GitHub conectado. O acervo privado de questões da CGU está indisponível.';
  }
 }
 async function syncPending(){

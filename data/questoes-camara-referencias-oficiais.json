@@ -135,8 +135,7 @@
       "cognitiveOperation": "reconhecimento",
       "estimatedDifficulty": "facil",
       "explanation": "Legislativo, Executivo e Judiciário mantêm, de forma integrada, sistema de controle interno. A Constituição atribui esse dever aos três Poderes.",
-      "fundamento": "Constituição Federal, art. 74, caput",
-      "enunciado": "O controle interno é prerrogativa exclusiva do Poder Judiciário, visando à regularidade e eficiência de suas atividades."
+      "fundamento": "Constituição Federal, art. 74, caput"
     },
     {
       "caderno": "camara-edital-2025-p1",
@@ -226,8 +225,7 @@
       "cognitiveOperation": "aplicação",
       "estimatedDifficulty": "media",
       "explanation": "Territórios integram a União. Cabe à lei federal dispor sobre a organização administrativa e judiciária dos territórios. A existência de órgãos representativos locais não transfere essa competência.",
-      "fundamento": "Constituição Federal, arts. 18, § 2º, e 33, caput",
-      "enunciado": "Caso seja criado um território federal, caberá à sua assembleia legislativa dispor sobre sua organização administrativa."
+      "fundamento": "Constituição Federal, arts. 18, § 2º, e 33, caput"
     },
     {
       "caderno": "camara-edital-2025-p1",
@@ -245,9 +243,7 @@
       "cognitiveOperation": "aplicação",
       "estimatedDifficulty": "media",
       "explanation": "A licença pode ser concedida a critério da Administração, sem remuneração, ao servidor efetivo que não esteja em estágio probatório. Preencher essas condições não torna o deferimento obrigatório.",
-      "fundamento": "Lei nº 8.112/1990, art. 91, caput",
-      "enunciado": "A licença para tratar de interesses particulares constitui direito subjetivo de Maria, e sua concessão independe do interesse da administração.",
-      "contexto": "Maria é servidora federal efetiva e estável, exerce cargo em comissão e teve deferido o pedido de licença para tratar de interesses particulares."
+      "fundamento": "Lei nº 8.112/1990, art. 91, caput"
     }
   ]
 }

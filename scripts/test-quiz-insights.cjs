@@ -199,12 +199,11 @@ for(const item of officialReferences.itens){
  const q=linkedOfficials.find(q=>q.id===`cam-oficial-${item.caderno}-${item.numero}`);
  const source=officialReferences.cadernos[item.caderno];
  assert.equal(q.origin,'real');
- assert.equal(q.format,item.enunciado?'CE':'reference','só o item com enunciado é selecionável');
+ assert.equal(q.format,'reference','só o item com enunciado é selecionável');
  assert.equal(q.correctAnswer,item.gabaritoDefinitivo);
  assert.equal(q.officialSource.gabarito,source.gabarito);
  assert.equal(q.officialSource.url,source.prova+'#page='+item.pagina);
- if(item.enunciado)assert.ok(q.statement.endsWith(item.enunciado));
- else assert.equal(q.statement,`Julgue o item ${item.numero} do caderno ${source.codigo}: ${q.officialSource.url}`);
+ assert.equal(q.statement,`Julgue o item ${item.numero} do caderno ${source.codigo}: ${q.officialSource.url}`);
 }
 const camaraPool=data.questions.filter(q=>q.concursoId==='camara-2026');
 assert.ok(!quizSource.includes('Praticar com cadernos'),'não oferecer bateria com leitura externa');
@@ -225,7 +224,7 @@ statementRenderer(card,linkedOfficials.find(q=>q.format==='reference'));
 assert.equal(card.children[0].href,linkedOfficials[0].officialSource.url);
 assert.equal(card.children[0].target,'_blank');
 assert.ok(!card.children.some(child=>child.href===linkedOfficials[0].officialSource.gabarito));
-const directOfficial=linkedOfficials.find(q=>q.format==='CE');
+const directOfficial={...linkedOfficials[0],format:'CE',statement:'Enunciado oficial de teste.'};
 statementRenderer(card,directOfficial);
 assert.equal(card.textContent,directOfficial.statement);
 assert.equal(card.children.length,0,'item oficial direto não exige abrir o PDF');

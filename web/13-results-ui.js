@@ -731,7 +731,7 @@ function renderStudyModes(byMode) {
  }
  target.append(heading,list);
 }
-function renderQuestionOrigins(rows){
+function renderQuestionOrigins(rows,followups){
  const modes=$('results-study-modes');
  modes.querySelector('.results-question-origins')?.remove();
  if(!Array.isArray(rows)||!rows.length)return;
@@ -757,7 +757,26 @@ function renderQuestionOrigins(rows){
     (data.blank?' · '+data.blank+' em branco':'')));
   row.append(info,measure);list.append(row);
  }
- section.append(list);modes.append(section);
+ section.append(list);
+ const comparisons=[
+  ['De autoral para oficial',followups?.transfer?.authorToOfficial],
+  ['De oficial para autoral',followups?.transfer?.officialToAuthor],
+  ['Revisão com outra autoral',followups?.retention?.author],
+  ['Revisão com outra oficial',followups?.retention?.official]
+ ].filter(([,counts])=>counts && counts.correct+counts.incorrect>0);
+ if(comparisons.length){
+  section.append(el('h3','','Questões diferentes em dias posteriores'),
+   el('p','results-caption','Mesmo conceito. A resposta posterior foi dada sem consulta ou ajuda prévia.'));
+  const comparisonList=el('div','results-modes-list');
+  for(const [label,counts] of comparisons){
+   const row=el('div','results-mode-row');
+   row.append(el('strong','results-mode-name',label),
+    el('span','results-mode-breakdown',counts.correct+' acertos · '+counts.incorrect+' erros'));
+   comparisonList.append(row);
+  }
+  section.append(comparisonList);
+ }
+ modes.append(section);
 }
 function subjectPeriodData(data,period,today){
  const historical=data?.bySubject||[];
@@ -828,7 +847,7 @@ function render(){
  if(quizLearningAttempts)renderQuizLearning(quizLearningAttempts,current.concursoId,Date.now());
  renderAdaptive(current.adaptive);
  renderStudyModes(current.adaptive?.byMode);
- renderQuestionOrigins(current.questionOrigins);
+ renderQuestionOrigins(current.questionOrigins,current.originFollowups);
  renderPrincipleHistory(current.adaptive,current.concepts||[]);
  const summary=current.summary||{},source=current.sources||{};
  const valid=summary.valid||0;

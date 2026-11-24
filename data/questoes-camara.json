@@ -7606,6 +7606,171 @@
   "expansao": [
     {
       "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-calibrada-const-convocacao-no-recesso-nao-depende-de-interventor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 75
+      },
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-congresso-recesso-convocacao",
+      "mechanism": "convocacao-no-recesso-nao-depende-de-interventor",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "Durante o recesso parlamentar, o Presidente da República decreta intervenção federal para pôr termo a grave comprometimento da ordem pública. O decreto fixa prazo, condições e alcance, sem nomear interventor por não ser necessário. A falta de nomeação não dispensa a apreciação parlamentar nem a convocação extraordinária.",
+      "correctAnswer": "C",
+      "explanation": "Nessa hipótese, a apreciação do decreto é obrigatória. Se o Congresso não estiver funcionando, a convocação extraordinária deve ocorrer em até 24 horas. A nomeação de interventor tem condição própria: ocorre se couber.",
+      "reviewEvidence": "CF, arts. 34, III, e 36, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-calibrada-const-criacao-de-territorio-e-municipios-sao-decisoes-distintas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 103
+      },
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "territorio-transformacao-lei-ordinaria",
+      "mechanism": "criacao-de-territorio-e-municipios-sao-decisoes-distintas",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "statement": "Ao discutir a criação de um território federal, parlamentares sugerem instituí-lo por lei ordinária e dividi-lo em municípios. Embora a divisão em municípios seja admitida pela Constituição, ela não afasta a exigência de lei complementar para instituir o território.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição admite municípios dentro de territórios federais. Essa organização não muda a espécie normativa que disciplina a criação do território. A lei complementar também é exigida para transformação em estado ou reintegração ao estado de origem.",
+      "reviewEvidence": "CF, arts. 18, § 2º, e 33, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 103, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-calibrada-const-retificacao-de-dados-de-outra-pessoa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 77
+      },
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "habeas-data-proprios-registros",
+      "mechanism": "retificacao-de-dados-de-outra-pessoa",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "análise",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas data — HD"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas data — HD"
+      },
+      "statement": "Uma estudante descobre que um banco de dados governamental contém informação incorreta sobre uma colega. Ela pede a retificação em nome próprio e, diante da recusa administrativa, impetra habeas data para corrigir o registro da colega. A recusa torna cabível a impetração em nome próprio.",
+      "correctAnswer": "E",
+      "explanation": "O habeas data tutela informações relativas à pessoa do impetrante. A recusa administrativa não transforma dado de terceiro em dado pessoal da estudante. Se o registro incorreto fosse sobre ela própria, o requisito relativo ao objeto estaria preenchido.",
+      "reviewEvidence": "CF, art. 5º, LXXII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 77, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "id": "cam-calibrada-const-duas-votacoes-validas-em-apenas-uma-casa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      },
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "tratado-direitos-humanos-quorum-turno-unico",
+      "mechanism": "duas-votacoes-validas-em-apenas-uma-casa",
+      "questionType": "conceitual",
+      "cognitiveOperation": "reconhecimento",
+      "estimatedDifficulty": "facil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "A equivalência de tratado internacional de direitos humanos a emenda constitucional exige aprovação em dois turnos em cada Casa do Congresso Nacional, por três quintos dos respectivos membros.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo exige dois turnos em cada Casa e quórum de três quintos dos respectivos membros. Se uma Casa aprovar em apenas um turno, o rito de equivalência às emendas não estará completo.",
+      "reviewEvidence": "CF, art. 5º, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 92, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-calibrada-const-estrangeiro-nao-se-alista-por-residir-na-capital",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 104
+      },
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "estrangeiro-inalistavel",
+      "mechanism": "estrangeiro-nao-se-alista-por-residir-na-capital",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inalistáveis"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inalistáveis"
+      },
+      "statement": "Um estrangeiro sem nacionalidade brasileira e sem estatuto de igualdade de direitos políticos reside há décadas em uma capital brasileira. Ele solicita alistamento para participar exclusivamente das eleições municipais. A abrangência local da eleição permite o alistamento.",
+      "correctAnswer": "E",
+      "explanation": "A vedação constitucional ao alistamento de estrangeiros alcança também as eleições municipais. A residência prolongada e o âmbito do pleito não afastam a vedação. Com nacionalidade brasileira e os demais requisitos satisfeitos, o impedimento por nacionalidade desapareceria.",
+      "reviewEvidence": "CF, art. 14, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 104, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
       "examPart": "P2",
       "subjectId": "direito-constitucional",
       "unitId": "processo-legislativo",

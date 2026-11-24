@@ -86,3 +86,7 @@ Cinco casos adicionais levam o total a 10 de 40. Três exigem integrar regras, u
 ### Lote autoral 3 — iniciativa, quóruns e competências
 
 Cinco itens levam a seleção autoral a 15 de 40. O lote inclui três integrações, uma análise e uma aplicação. O caderno de 2014 forneceu quatro contrastes de referência: competência institucional (75), iniciativa orçamentária (79), remessa para promulgação (80) e consequência processual de uma rejeição (92). Os novos cenários testam iniciativa reservada, apuração separada do veto, retorno de substitutivo aprovado, distinção entre limite da dívida e autorização de operação externa e vedação de delegação da LDO.
+
+### Lote autoral 4 — direitos fundamentais e federação
+
+Cinco itens levam o catálogo a 20 questões autorais calibradas. O lote inclui duas integrações, uma análise, uma aplicação e um item de recuperação literal. Os casos se concentram em controle parlamentar da intervenção, organização de territórios, objeto do habeas data e inalistabilidade. O item literal recupera o quórum e os turnos de aprovação de tratado de direitos humanos. O espelho de 2014 informa o mecanismo de cada item, incluindo limites constitucionais em hipóteses institucionais e condições formais de tramitação. Os fundamentos dos novos temas foram conferidos diretamente na Constituição.

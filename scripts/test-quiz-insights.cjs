@@ -206,6 +206,20 @@ for(const item of officialReferences.itens){
  assert.equal(q.statement,`Julgue o item ${item.numero} do caderno ${source.codigo}: ${q.officialSource.url}`);
 }
 const camaraPool=data.questions.filter(q=>q.concursoId==='camara-2026');
+const syncAttempt=vm.runInNewContext('('+quizSource.slice(
+ quizSource.indexOf('function quizSyncAttempt('),
+ quizSource.indexOf('async function sync(a)')
+).trim()+')');
+const legacyAttempt={id:'resposta-teste',mechanism:'caso-sanção',result:'correct'};
+const normalized=syncAttempt(legacyAttempt);
+assert.equal(normalized.mechanism,'caso-sancao');
+assert.equal(normalized.id,legacyAttempt.id);
+assert.equal(normalized.result,legacyAttempt.result);
+assert.equal(legacyAttempt.mechanism,'caso-sanção');
+assert.equal(syncAttempt({mechanism:null}).mechanism,null);
+assert.ok(camaraPool.filter(q=>q.format==='CE').every(q=>!q.mechanism||
+ /^[A-Za-z0-9][A-Za-z0-9_-]{0,179}$/.test(q.mechanism)));
+
 assert.ok(!quizSource.includes('Praticar com cadernos'),'não oferecer bateria com leitura externa');
 const mockElement=(tag,text='')=>({
  tag,text,children:[],

@@ -330,10 +330,16 @@ function feedback(q,a){
  el.append(questionProvenance(q));
  const link=theory(q);if(link)el.append(link);toggle('qs-feedback',true);
 }
+function quizSyncAttempt(attempt){
+ const mechanism=typeof attempt.mechanism==='string'
+  ?attempt.mechanism.normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+  :null;
+ return {...attempt,mechanism:/^[A-Za-z0-9][A-Za-z0-9_-]{0,179}$/.test(mechanism||'')?mechanism:null};
+}
 async function sync(a){
  if(!privateOrigin||!loggedIn)return;
  try{
-  const r=await fetch('/v1/study/quiz',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json','X-Quiz-Sync':'1'},body:JSON.stringify({version:1,attempts:[a]})});
+  const r=await fetch('/v1/study/quiz',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json','X-Quiz-Sync':'1'},body:JSON.stringify({version:1,attempts:[quizSyncAttempt(a)]})});
   if(r.status===401){loggedIn=false;throw Error('Sessão GitHub expirada.');}
   if(!r.ok)throw Error('HTTP '+r.status);
   markSynced(a.id);

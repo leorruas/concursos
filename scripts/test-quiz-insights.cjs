@@ -45,6 +45,38 @@ for(const file of files){
  assert.equal(rank([attempt('ok','c-1','correct','secure')],qs,'camara-2026',0).length,0);
  assert.equal(rank(attempts,qs,'dataprev-2026',0).length,0,'concurso isolado');
 }
+// Acertos que dependeram de consulta ou correção prévia continuam na fila de reteste.
+for(const file of files){
+ const src=fs.readFileSync(path.join(root,file),'utf8');
+ const rank=getFunction(src,'quizPriorityGroups','quizPriorityReason');
+ const consulted={...attempt('help','c-1','correct','secure'),consulted:true,feedbackBefore:false};
+ const correction={...attempt('correction','c-2','correct','secure'),consulted:false,feedbackBefore:true};
+ const both={...attempt('both','c-4','correct','insecure'),consulted:true,feedbackBefore:true};
+ const assisted=rank([consulted,correction,both],qs,'camara-2026',0);
+ assert.equal(assisted.length,3,file+' deve reconhecer acertos com apoio');
+ assert.equal(assisted.find(x=>x.articleId==='art-direitos').assistedCorrect,1,'duas marcas no mesmo item não contam duas vezes');
+ assert.equal(rank([{...consulted,consulted:false,feedbackBefore:false}],qs,'camara-2026',0).length,0,'acerto independente seguro não vira prioridade');
+}
+const resultsSource=fs.readFileSync(path.join(root,'web/13-results-ui.js'),'utf8');
+const learning=getFunction(resultsSource,'quizLearningSignals','renderQuizLearning');
+const signalRows=[
+ {...attempt('ind','c-1','correct','secure'),consulted:false,feedbackBefore:false},
+ {...attempt('con','c-1','correct','secure'),consulted:true,feedbackBefore:false},
+ {...attempt('cor','c-2','correct','secure'),consulted:false,feedbackBefore:true},
+ {...attempt('both','c-2','correct','secure'),consulted:true,feedbackBefore:true},
+ attempt('legacy','c-1','correct','secure'),
+ {...attempt('err','c-1','incorrect','secure'),consulted:false,feedbackBefore:false}
+];
+const signal=learning(signalRows,'camara-2026','',now).all;
+assert.equal(signal.total,6);
+assert.equal(signal.independent,1);
+assert.equal(signal.independentSecure,1);
+assert.equal(signal.consultedCorrect,2);
+assert.equal(signal.seenCorrectionCorrect,2);
+assert.equal(signal.supportedCorrect,3);
+assert.equal(signal.missingMetadata,1);
+assert.equal(learning(signalRows,'camara-2026','direito-constitucional',now).all.total,0,'filtro de matéria respeitado');
+assert.ok(fs.readFileSync(path.join(root,'resultados.html'),'utf8').includes('id="results-quiz-learning"'),'relatório presente');
 const quizHtml=fs.readFileSync(path.join(root,'questoes.html'),'utf8');
 const quizSource=fs.readFileSync(path.join(root,'web/15-questoes-ui.js'),'utf8');
 const chapterIds=getFunction(quizSource,'quizChapterIds','updateChapterDisplay');

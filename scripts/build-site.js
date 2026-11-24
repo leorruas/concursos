@@ -451,6 +451,51 @@ const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
   ...(typeof q.questionType==='string'&&q.questionType.trim()?{questionType:q.questionType}:{}),
   ...(q.calibration?.type==='autoral-calibrada'?{calibration:q.calibration}:{}),
   statement:q.statement,correctAnswer:q.correctAnswer,explanation:q.explanation}));
+// Itens oficiais respondidos com leitura no caderno da banca. Nenhum enunciado é copiado.
+const referenciasOficiais = JSON.parse(fs.readFileSync(
+  path.join(rootDir, 'data/questoes-camara-referencias-oficiais.json'), 'utf8'
+));
+const programaCamara = catalogoMaterias.contests.find(c => c.concursoId === 'camara-2026');
+const arquivosPublicosPorId = new Map(manifesto.map(item => [item.articleId, item.sourcePath]));
+function pdfDaBanca(value) {
+  const url = new URL(value);
+  return url.protocol === 'https:' && url.host === 'cdn.cebraspe.org.br' &&
+    !url.username && !url.password && !url.search && !url.hash && /\.pdf$/i.test(url.pathname);
+}
+for (const item of referenciasOficiais.itens) {
+  const caderno = referenciasOficiais.cadernos[item.caderno];
+  const id = `cam-oficial-${item.caderno}-${item.numero}`;
+  const unit = arquivoQuestoes.subjects[item.subjectId]?.units.find(([id]) => id === item.unitId);
+  const materia = programaCamara.subjects.find(subject => subject.subjectId === item.subjectId);
+  const editalRef = unit && unit[3] + ' / ' + item.referenciaEdital;
+  const officialEditalCode = officialCodeByReference.get(referenceKey(item.unitId, editalRef));
+  const sourcePath = arquivosPublicosPorId.get(item.articleId);
+  const sectionExists = conteudosPorPath.get(sourcePath)?.split(/\r?\n/).some(
+    linha => linha.replace(/^#{1,6} /, '') === item.section
+  );
+  if (!caderno || !pdfDaBanca(caderno.prova) || !pdfDaBanca(caderno.gabarito) ||
+      !['alta', 'média'].includes(item.prioridade) || !['C', 'E'].includes(item.gabaritoDefinitivo) ||
+      !Number.isInteger(item.numero) || item.numero < 1 || !Number.isInteger(item.pagina) || item.pagina < 1 ||
+      !officialEditalCode || !materia?.articleIds.includes(item.articleId) || !sectionExists ||
+      ![item.explanation, item.fundamento, item.conceptId, item.mechanism, item.cognitiveOperation,
+        item.estimatedDifficulty, caderno.banca, caderno.orgao, caderno.cargo,
+        caderno.aplicacao, caderno.codigo].every(v => typeof v === 'string' && v.trim())) {
+    throw Error('Referência oficial inválida: ' + id);
+  }
+  const url = caderno.prova + '#page=' + item.pagina;
+  questoesPublicas.push({
+    id, concursoId: 'camara-2026', format: 'CE', origin: 'real',
+    subjectId: item.subjectId, subjectName: materiasQuestoes[item.subjectId],
+    unitId: item.unitId, unitName: unit[1], examPart: unit[2], editalRef, officialEditalCode,
+    articleId: item.articleId, section: item.section, conceptId: item.conceptId,
+    mechanism: item.mechanism, cognitiveOperation: item.cognitiveOperation,
+    estimatedDifficulty: item.estimatedDifficulty,
+    statement: `Julgue o item ${item.numero} do caderno ${caderno.codigo}: ${url}`,
+    correctAnswer: item.gabaritoDefinitivo, explanation: item.explanation + ' Fundamento: ' + item.fundamento + '.',
+    officialSource: { ...caderno, url, numero: item.numero, pagina: item.pagina }
+  });
+}
+
 // Lote adicional independente para não reescrever o banco principal.
 const novasAdmin=JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-camara-administrativo-extra.json'),'utf8'));
 const capitulosAdmin=catalogoMaterias.contests.find(c=>c.concursoId==='camara-2026')

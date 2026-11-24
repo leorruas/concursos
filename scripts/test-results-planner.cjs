@@ -63,3 +63,12 @@ assert(coverageSection.includes('current?.difficulty?.bySubject'),'a contagem de
 assert(!coverageSection.includes('bankPercent'),'não exibir percentual baseado só no banco público');
 assert(!coverageSection.includes('coverageData'),'não depender do carregamento separado das baterias do site');
 console.log('OK: estudo priorizado e matérias não avaliadas, isolados por concurso, sem dados pessoais.');
+
+const past=[{conceptId:'competencia',subjectId:'direito-constitucional',errors:3,uncertain:0}];
+const evidence=[{subjectId:'direito-constitucional',conceptId:'competencia',state:'progress',independentDays:2}];
+const baseScore=reviewQueue([],past,[],'')[0].score;
+assert.equal(reviewQueue([],past,[{...evidence[0],independentDays:0}],'')[0].score,baseScore);
+assert(reviewQueue([],past,evidence,'')[0].score<baseScore);
+const recovered=[{subjectId:'direito-constitucional',principleId:'competencia',state:'retention-check',signals:[{kind:'independent'}]}];
+assert(reviewQueue([],past,[],'',recovered)[0].score<baseScore);
+assert.equal(reviewQueue([],past,evidence,'',[{...recovered[0],state:'review-pending'}])[0].score,baseScore);

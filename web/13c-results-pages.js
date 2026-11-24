@@ -399,6 +399,7 @@
  let weeklyData=null,weekSelection='';
  const dayName=['Seg','Ter','Qua','Qui','Sex','Sáb','Dom'];
  const numericFields=['total','correct','incorrect','blank','retests'];
+ const learningFields=['independent','independentSecure','consultedCorrect','feedbackCorrect','supportedCorrect','contextUnknown'];
  const accuracyFormat=new Intl.NumberFormat('pt-BR',{style:'percent',maximumFractionDigits:1});
  function weeklyAccuracy({correct,incorrect}){
   const graded=correct+incorrect;
@@ -411,8 +412,12 @@
   if(value!==undefined)n.textContent=String(value);
   return n;
  };
- const zero=()=>({total:0,correct:0,incorrect:0,blank:0,retests:0});
- function addValues(target,source){for(const f of numericFields)target[f]+=Number(source?.[f])||0;}
+ const zero=()=>({total:0,correct:0,incorrect:0,blank:0,retests:0,independent:0,independentSecure:0,consultedCorrect:0,feedbackCorrect:0,supportedCorrect:0,contextUnknown:0,learningAvailable:true});
+ function addValues(target,source){
+  for(const f of numericFields)target[f]+=Number(source?.[f])||0;
+  if(source?.learningAvailable===false||!learningFields.every(f=>typeof source?.[f]==='number'))target.learningAvailable=false;
+  else for(const f of learningFields)target[f]+=source[f];
+ }
  function summaryTable(headers,rows,total){
   const wrap=newNode('div','results-week-table-scroll');
   const table=newNode('table','results-week-table');
@@ -498,6 +503,15 @@
    matterBlock.append(newNode('p','results-week-method','A taxa considera acertos e erros. Questões em branco ficam fora do cálculo.'));
   }else matterBlock.append(newNode('p','results-week-error','Sem questões nesta matéria durante a semana selecionada.'));
   weekTarget.append(matterBlock);
+  const learningBlock=newNode('section','results-week-block');
+  learningBlock.append(newNode('h3','','Independência dos acertos por matéria'));
+  const learningRow=(name,v)=>[name,v.correct,...learningFields.map(f=>v.learningAvailable?v[f]:null)];
+  if(matters.length)learningBlock.append(summaryTable(['Matéria','Acertos','Independentes','Indep. seguros','Com consulta','Após correção','Com apoio','Contexto incompleto'],matters.map(([id,v])=>learningRow(known[id]||id,v)),learningRow('Total',sum)));
+  learningBlock.append(newNode('p','results-week-method','Consulta e correção podem coincidir. Com apoio conta cada acerto uma só vez. Contexto incompleto conta respostas julgadas sem os dois campos; traço indica API sem a métrica.'));
+  const trends=newNode('section','results-week-block');trends.append(newNode('h3','','Evolução nas últimas semanas'+(subject?' · matéria filtrada':'')));
+  const trendRows=weeks.slice(0,8).map(w=>{const total=zero();for(const d of w.days||[])for(const v of d.subjects||[])if(!subject||v.subjectId===subject)addValues(total,v);return learningRow(datePt(w.start)+' a '+datePt(w.end),total);});
+  trends.append(summaryTable(['Semana','Acertos','Independentes','Indep. seguros','Com consulta','Após correção','Com apoio','Contexto incompleto'],trendRows));
+  weekTarget.append(learningBlock,trends);
   weekTarget.append(newNode('p','results-week-method',
    'Reteste significa nova resposta à mesma questão identificada na mesma origem. Tentativas distintas são contadas separadamente. Revisar uma questão não comprova retenção independente. Dias sem informação têm indicação própria; os totais vêm da API autenticada, que concilia chat e site.'));
  }

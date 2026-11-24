@@ -60,3 +60,10 @@ assert.ok(ui.includes("kind==='independent'"),'evidência independente deve ser 
 assert.ok(ui.includes('não o ganho de aprendizagem'),'retestes devem explicitar o limite da medida');
 assert.ok(page.includes('.results-retest-breakdown')&&page.includes('.results-retention-summary'));
 console.log('OK: retestes por artigo, diferença de dias, confiança, deduplicação e isolamento por concurso.');
+
+const independent={...a('t3','c3','correct','2026-11-14'),consulted:false,feedbackBefore:false};
+const supported={...testRows[1],consulted:true,feedbackBefore:false};
+const result=transfer([testRows[0],supported,independent],concepts,'camara-2026')[0];
+assert.equal(result.independent,1);assert.equal(result.supported,1);assert.equal(result.state,'promising');
+assert.equal(transfer([testRows[0],{...testRows[1],consulted:false,feedbackBefore:false},independent],concepts,'camara-2026')[0].state,'progress');
+assert.equal(transfer(testRows,concepts,'camara-2026')[0].independent,0);

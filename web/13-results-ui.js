@@ -13,7 +13,7 @@ const DISPLAY={
 };
 let manifest=new Map(),current=null,subjectCatalog=null,discursiveProposals=[];
 let retestLoadFailed=false;
-let selectedSubject='',retests=null,coverageData=null,transferData=null,transferCombined=false;
+let selectedSubject='',retests=null,coverageData=null,transferData=null,transferCombined=false,quizLearningAttempts=null;
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
 function fmtDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return 'data não registrada';const [y,m,d]=s.split('-');return d+'/'+m+'/'+y;}
 function title(subject){return DISPLAY[subject]||subject||'Matéria sem classificação';}
@@ -231,7 +231,7 @@ function showReviewQueue(){
  if(!current)return;
  const raw=(current.articles||[]).map(a=>({...a,subjectId:articleSubject(a,current.concepts||[])}));
  const rows=window.ResultsStudyPlan.reviewQueue(raw,current.concepts||[],
-  transferCombined?transferData||[]:[],selectedSubject).slice(0,25);
+  transferCombined?transferData||[]:[],selectedSubject,current.adaptive?.principles||[]).slice(0,25);
  if(!rows.length){target.append(el('p','results-caption','Sem recomendações baseadas em erros, insegurança ou revisões previstas nesta seleção.'));return;}
  for(const [subject,items] of subjectGroups(rows,x=>x.subjectId)){
   const group=el('section','results-subject-group');group.append(subjectHeading(subject,items.length));
@@ -256,7 +256,7 @@ function showNextStudies(){
  const target=$('results-next-studies');if(!target||!current)return;
  target.replaceChildren();
  const articles=(current.articles||[]).map(a=>({...a,subjectId:articleSubject(a,current.concepts||[])}));
- const queue=window.ResultsStudyPlan.reviewQueue(articles,current.concepts||[],transferCombined?transferData||[]:[],selectedSubject);
+ const queue=window.ResultsStudyPlan.reviewQueue(articles,current.concepts||[],transferCombined?transferData||[]:[],selectedSubject,current.adaptive?.principles||[]);
  const coverage=window.ResultsStudyPlan.catalogCoverage(subjectCatalog,current.concursoId,current.bySubject||[])
   .filter(x=>!selectedSubject||x.subjectId===selectedSubject);
  const plan=window.ResultsStudyPlan.studySequence(queue,coverage,7);
@@ -306,6 +306,7 @@ function showConceptTransfer(){
    const label=typeof x.conceptId==='string'&&x.conceptId.trim()?x.conceptId.replaceAll('-',' '):'Conceito vinculado';
    left.append(el('strong','',label),
     el('small','',statusNames[x.state]+' · '+x.distinctQuestions+' questões diferentes · '+x.wrong+' erro(s) posterior(es) · '+x.secure+' acerto(s) seguro(s) · '+x.insecure+' inseguro(s)'),
+    el('small','',typeof x.independent==='number'?x.independent+' acerto(s) independente(s) em '+x.independentDays+' dia(s) · '+x.supported+' com apoio · '+x.unknownContext+' sem contexto completo':'Independência não aferida nesta versão dos dados'),
     el('small','',transferCombined
       ?'Fontes consideradas: '+(x.sources?.chat||0)+' questão(ões) do ChatGPT e '+(x.sources?.site||0)+' do site · '+(x.distinctDays||'?')+' dia(s) · evidência '+(x.confidence==='moderate'?'moderada':'limitada')
       :'Somente baterias do site. Indício de progresso, não certificação de domínio.'));
@@ -400,6 +401,8 @@ function showRetests(){
 async function loadRetests(examId,version){
  retests=null;retestLoadFailed=false;coverageData=null;
  if(!transferCombined)transferData=null;
+ quizLearningAttempts=null;
+ $('results-quiz-learning')?.replaceChildren(el('p','results-caption','Carregando contexto das respostas…'));
  try{
   const response=await fetch('/v1/study/quiz?concurso='+encodeURIComponent(examId),{
    credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'}
@@ -410,6 +413,8 @@ async function loadRetests(examId,version){
   if(data?.version!==1||!Array.isArray(data.attempts))throw Error('histórico incompatível');
   const map=await quizQuestions(examId);
   if(version!==loadVersion)return;
+  quizLearningAttempts=data.attempts;
+  renderQuizLearning(quizLearningAttempts,examId,Date.now());
   retests=window.ResultsRetests.analyze(data.attempts,map,examId);
   coverageData=window.ResultsRetests.coverage(data.attempts,map,examId);
   if(!transferCombined){
@@ -419,6 +424,7 @@ async function loadRetests(examId,version){
  }catch{
   if(version===loadVersion){
    retestLoadFailed=true;
+   $('results-quiz-learning')?.replaceChildren(el('p','results-caption','Contexto das respostas do site indisponível.'));
    showProgressRetests();
    $('results-retests').replaceChildren(el('p','results-caption','Retestes indisponíveis. O histórico unificado permanece preservado.'));
   }
@@ -648,6 +654,7 @@ function renderPrincipleHistory(plan,concepts){
     if(kind==='independent')badges.push('Reteste independente');
     if(kind==='consultation-unknown')badges.push('Contexto do reteste incompleto');
     if(kind==='same-day-correction')badges.push('Correção no mesmo dia');
+    if(kind==='supported-correct')badges.push('Acerto com apoio: reteste independente necessário');
     if(kind==='same-day-success')badges.push('Acerto no mesmo dia');
     if(badges.length)row.append(el('p','results-history-event-signal',badges.join(' · ')));
     const context=[];
@@ -745,6 +752,7 @@ function observedAccuracyPeriods(data,today){
 }
 function render(){
  if(!current)return;
+ if(quizLearningAttempts)renderQuizLearning(quizLearningAttempts,current.concursoId,Date.now());
  renderAdaptive(current.adaptive);
  renderStudyModes(current.adaptive?.byMode);
  renderPrincipleHistory(current.adaptive,current.concepts||[]);
@@ -1215,7 +1223,7 @@ async function load({keepCurrent = false} = {}){
  const requestDay = studyDay.format(new Date());
  loading = true;
  if (!keepCurrent) {
-  current=null;retests=null;coverageData=null;transferData=null;transferCombined=false;root.hidden=true;
+  current=null;retests=null;coverageData=null;transferData=null;transferCombined=false;quizLearningAttempts=null;root.hidden=true;
   $('results-login').hidden=true;
   $('results-logout').hidden=true;
   status.textContent='Consultando histórico do chat e do site…';

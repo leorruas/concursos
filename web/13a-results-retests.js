@@ -63,7 +63,7 @@
    const key=(q.subjectId||'')+'::'+q.conceptId;
    if(!groups.has(key))groups.set(key,[]);
    groups.get(key).push({id:a.questionId,articleId:q.articleId,subjectId:q.subjectId,conceptId:q.conceptId,
-    section:q.section||'',result:a.result,confidence:a.confidence,time});
+    section:q.section||'',result:a.result,confidence:a.confidence,consulted:a.consulted,feedbackBefore:a.feedbackBefore,time});
   }
   const out=[];
   for(const items of groups.values()){
@@ -75,15 +75,19 @@
    const first=rows.find(x=>x.result==='incorrect');
    if(!first)continue;
    const later=rows.filter(x=>x.time>first.time&&
-    new Date(x.time).toISOString().slice(0,10)!==new Date(first.time).toISOString().slice(0,10));
+    studyDay.format(x.time)!==studyDay.format(first.time));
    if(!later.length)continue;
    const recent=later[later.length-1],wrong=later.filter(x=>x.result==='incorrect').length,
-    secure=later.filter(x=>x.result==='correct'&&x.confidence!=='insecure').length,
-    insecure=later.filter(x=>x.result==='correct'&&x.confidence==='insecure').length;
-   const state=recent.result==='incorrect'?'needs-review':recent.confidence==='insecure'?'insecure':
-    wrong?'mixed':secure>=2?'progress':'promising';
+    secure=later.filter(x=>x.result==='correct'&&x.confidence==='secure').length,
+    insecure=later.filter(x=>x.result==='correct'&&['insecure','guess'].includes(x.confidence)).length;
+   const independentRows=later.filter(x=>x.result==='correct'&&x.confidence==='secure'&&x.consulted===false&&x.feedbackBefore===false);
+   const independentDays=new Set(independentRows.map(x=>studyDay.format(x.time))).size;
+   const supported=later.filter(x=>x.result==='correct'&&(x.consulted===true||x.feedbackBefore===true)).length;
+   const unknownContext=later.filter(x=>x.result==='correct'&&x.consulted!==true&&x.feedbackBefore!==true&&(typeof x.consulted!=='boolean'||typeof x.feedbackBefore!=='boolean')).length;
+   const state=recent.result==='incorrect'?'needs-review':['insecure','guess'].includes(recent.confidence)?'insecure':
+    wrong?'mixed':independentDays>=2?'progress':'promising';
    out.push({conceptId:first.conceptId,subjectId:first.subjectId,articleId:first.articleId,section:first.section,
-    state,wrong,secure,insecure,distinctQuestions:rows.length});
+    state,wrong,secure,insecure,independent:independentRows.length,independentDays,supported,unknownContext,distinctQuestions:rows.length});
   }
   const order={'needs-review':0,mixed:1,insecure:2,promising:3,progress:4};
   return out.sort((a,b)=>order[a.state]-order[b.state]||a.subjectId.localeCompare(b.subjectId)||String(a.conceptId).localeCompare(String(b.conceptId)));

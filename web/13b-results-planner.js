@@ -16,8 +16,9 @@
     hubArticleId:s.hubArticleId||null};
   });
  }
- function reviewQueue(articles,concepts,learning,subject){
-  const improvements=new Map((learning||[]).map(x=>[(x.subjectId||'')+'::'+(x.conceptId||''),x.state]));
+ function reviewQueue(articles,concepts,learning,subject,principles=[]){
+  const improvements=new Map((learning||[]).map(x=>[(x.subjectId||'')+'::'+(x.conceptId||''),x]));
+  const adaptive=new Map((principles||[]).map(x=>[(x.subjectId||'')+'::'+x.principleId,x]));
   const rows=[];
   for(const a of articles||[]){
    if(!a?.articleId||subject&&a.subjectId!==subject)continue;
@@ -37,13 +38,18 @@
    if(!c?.conceptId||subject&&c.subjectId!==subject)continue;
    const errors=Number(c.errors)||0,unsure=Number(c.uncertain)||0;
    if(!errors&&!unsure&&!c.dueOn)continue;
-   const progress=improvements.get((c.subjectId||'')+'::'+c.conceptId);
+   const key=(c.subjectId||'')+'::'+c.conceptId;
+   const evidence=improvements.get(key),progress=evidence?.state,principle=adaptive.get(key);
+   // O ciclo adaptativo prevalece sobre o histórico bruto e não apaga os erros anteriores.
+   const recovered=principle&&['retention-check','provisional-mastery'].includes(principle.state)&&
+    (principle.signals||[]).some(s=>s.kind==='independent');
+   const reduction=recovered?(principle.state==='provisional-mastery'?25:10):
+    !principle&&progress==='progress'&&evidence.independentDays>=2?15:0;
    const score=Math.max(0,Math.min(100,errors*10+unsure*4+(c.dueOn?8:0)+
-     (progress==='needs-review'?18:0)+(progress==='mixed'?10:0)-
-     (progress==='progress'?15:0)));
+     (progress==='needs-review'?18:0)+(progress==='mixed'?10:0)-reduction));
    rows.push({kind:'concept',subjectId:c.subjectId||'',conceptId:c.conceptId,
     articleId:(c.articles||[])[0]||null,label:c.title||c.conceptId,errors,unsure,score,
-    reason:progress==='needs-review'?'Erro persistente em questões diferentes':c.dueOn?'Revisão programada':
+    reason:recovered?'Reteste independente observado; prioridade reduzida':progress==='needs-review'?'Erro persistente em questões diferentes':c.dueOn?'Revisão programada':
      errors?'Erros registrados':'Acerto inseguro'});
   }
   return rows.sort((a,b)=>b.score-a.score||a.kind.localeCompare(b.kind)||

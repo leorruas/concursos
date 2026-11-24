@@ -207,7 +207,11 @@ for(const item of officialReferences.itens){
 const sourcePracticeIds=getFunction(quizSource,'sourcePracticeIds','renderSuggestions');
 const camaraPool=data.questions.filter(q=>q.concursoId==='camara-2026');
 const mixedIds=sourcePracticeIds(camaraPool,new Set());
-assert.equal(mixedIds.length,2*linkedOfficials.length,'a sugestão combina todos os itens oficiais do lote com autorais');
+assert.equal(mixedIds.length,2*Math.min(5,linkedOfficials.length),'a sugestão combina até cinco itens oficiais com autorais');
+const firstOfficials=new Set(mixedIds.filter((_,index)=>index%2===0));
+const nextMixedIds=sourcePracticeIds(camaraPool,firstOfficials);
+assert.equal(nextMixedIds.length,2*Math.min(5,linkedOfficials.length-firstOfficials.size));
+assert.ok(nextMixedIds.every(id=>!firstOfficials.has(id)),'a segunda bateria omite oficiais já respondidos');
 assert.equal(new Set(mixedIds).size,mixedIds.length);
 for(let index=0;index<mixedIds.length;index+=2){
  const official=camaraPool.find(q=>q.id===mixedIds[index]);

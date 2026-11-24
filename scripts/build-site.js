@@ -459,8 +459,11 @@ const programaCamara = catalogoMaterias.contests.find(c => c.concursoId === 'cam
 const arquivosPublicosPorId = new Map(manifesto.map(item => [item.articleId, item.sourcePath]));
 function pdfDaBanca(value) {
   const url = new URL(value);
-  return url.protocol === 'https:' && url.host === 'cdn.cebraspe.org.br' &&
-    !url.username && !url.password && !url.search && !url.hash && /\.pdf$/i.test(url.pathname);
+  const cadernoCebraspe = url.host === 'cdn.cebraspe.org.br' && /\.pdf$/i.test(url.pathname);
+  const cadernoCamara = url.host === 'www2.camara.leg.br' &&
+    url.pathname === '/transparencia/recursos-humanos/concursos/arquivos-2025/1-prova-objetiva-de-conhecimentos-gerais-analista-e-tecnico';
+  return url.protocol === 'https:' && !url.username && !url.password && !url.search && !url.hash &&
+    (cadernoCebraspe || cadernoCamara);
 }
 for (const item of referenciasOficiais.itens) {
   const caderno = referenciasOficiais.cadernos[item.caderno];
@@ -468,7 +471,11 @@ for (const item of referenciasOficiais.itens) {
   const unit = arquivoQuestoes.subjects[item.subjectId]?.units.find(([id]) => id === item.unitId);
   const materia = programaCamara.subjects.find(subject => subject.subjectId === item.subjectId);
   const editalRef = unit && unit[3] + ' / ' + item.referenciaEdital;
-  const officialEditalCode = officialCodeByReference.get(referenceKey(item.unitId, editalRef));
+  const bloco = officialLinks.find(link => link.unitId === item.unitId);
+  const codigos = officialProgram.blocks.find(programa => programa.section === bloco?.section &&
+    programa.title === bloco?.block)?.codes.split(' ') || [];
+  const officialEditalCode = officialCodeByReference.get(referenceKey(item.unitId, editalRef)) ||
+    (codigos.includes(item.referenciaEdital) ? item.referenciaEdital : null);
   const sourcePath = arquivosPublicosPorId.get(item.articleId);
   const sectionExists = conteudosPorPath.get(sourcePath)?.split(/\r?\n/).some(
     linha => linha.replace(/^#{1,6} /, '') === item.section

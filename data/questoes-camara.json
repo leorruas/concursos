@@ -7606,6 +7606,171 @@
   "expansao": [
     {
       "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-calibrada-const-cpi-assinaturas-suficientes-sem-prazo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 77
+      },
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "cpi-um-terco-fato-prazo",
+      "mechanism": "cpi-assinaturas-suficientes-sem-prazo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "análise",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      },
+      "statement": "Na Câmara dos Deputados, 180 parlamentares requerem comissão parlamentar de inquérito para apurar um contrato identificado, mas deixam indeterminado o prazo de funcionamento. O número de assinaturas satisfaz o requisito de apoio, porém o requerimento ainda precisa prever prazo certo.",
+      "correctAnswer": "C",
+      "explanation": "A criação exige cumulativamente apoio de um terço, fato determinado e prazo certo. O requerimento atinge o mínimo de 171 assinaturas na Câmara e identifica o fato. Se também previsse prazo certo, preencheria os três requisitos descritos.",
+      "reviewEvidence": "CF, art. 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 77, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "id": "cam-calibrada-const-competencia-comum-e-cooperacao-tipo-de-lei",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 105
+      },
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "cooperacao-comum-lei-ordinaria",
+      "mechanism": "competencia-comum-e-cooperacao-tipo-de-lei",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência comum: art. 23"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência comum: art. 23"
+      },
+      "statement": "União, estados e municípios atuam para preservar documentos e bens de valor histórico. Um projeto de lei ordinária busca fixar as normas de cooperação entre os entes nos termos do parágrafo único do art. 23. A competência material comum autoriza o emprego de lei ordinária para essa finalidade.",
+      "correctAnswer": "E",
+      "explanation": "A preservação é competência material comum. As normas de cooperação mencionadas no parágrafo único são reservadas a leis complementares. A titularidade compartilhada da atribuição não modifica a espécie normativa exigida.",
+      "reviewEvidence": "CF, art. 23, III, IV e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 105, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-calibrada-const-saude-direito-social-exercicio-por-prevencao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 71
+      },
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "saude-direito-social",
+      "mechanism": "saude-direito-social-exercicio-por-prevencao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#1. O Catálogo do Artigo 6º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "1. O Catálogo do Artigo 6º"
+      },
+      "statement": "Uma política pública oferece vacinação e vigilância epidemiológica antes de surgirem novos casos de uma doença. Essas ações preventivas integram a garantia constitucional do direito social à saúde.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição inclui a saúde entre os direitos sociais e prevê políticas destinadas à redução do risco de doença. A garantia inclui prevenção e assistência. A ocorrência prévia de doença não é condição para a política preventiva.",
+      "reviewEvidence": "CF, arts. 6º e 196. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 71, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",
+      "id": "cam-calibrada-const-asilo-politico-principio-fundamental-externo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 104
+      },
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "asilo-diretriz-externa",
+      "mechanism": "asilo-politico-principio-fundamental-externo",
+      "questionType": "conceitual",
+      "cognitiveOperation": "reconhecimento",
+      "estimatedDifficulty": "facil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "A concessão de asilo político figura entre os objetivos fundamentais da República Federativa do Brasil expressamente enumerados no art. 3º da Constituição.",
+      "correctAnswer": "E",
+      "explanation": "O asilo político aparece no art. 4º como princípio das relações internacionais. O art. 3º inclui objetivos como reduzir desigualdades e garantir o desenvolvimento nacional.",
+      "reviewEvidence": "CF, arts. 3º e 4º, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 104, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "id": "cam-calibrada-const-representacao-do-df-no-senado-com-renovacao-alternada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 103
+      },
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senadores-populacao",
+      "mechanism": "representacao-do-df-no-senado-com-renovacao-alternada",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Senado Federal"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Senado Federal"
+      },
+      "statement": "Ao simular uma eleição para renovar dois terços das cadeiras do Senado, uma equipe prevê duas vagas para cada estado e uma para o Distrito Federal, com base na população. A previsão contraria a Constituição.",
+      "correctAnswer": "C",
+      "explanation": "Estados e Distrito Federal elegem três senadores cada e renovam suas representações alternadamente por um e dois terços. Na renovação de dois terços são duas vagas em cada unidade. A população tem relevância para a representação na Câmara dos Deputados, sob as regras do art. 45.",
+      "reviewEvidence": "CF, arts. 45 e 46, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 103, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
       "examPart": "P2",
       "subjectId": "direito-constitucional",
       "unitId": "processo-legislativo",

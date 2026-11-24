@@ -102,3 +102,17 @@ Cinco itens levam a seleção a 30 de 40. Três exigem integração, um análise
 ### Lote autoral 7 — processo legislativo constitucional
 
 Cinco itens levam a seleção a 35 de 40. Três exigem integração, um análise e um aplicação. A comparação com os itens 75, 79, 80, 91 e 92 de 2014 orientou a separação de quóruns, a aplicação de exceções e a distinção entre espécies ou fases legislativas. Os casos abrangem crédito extraordinário, recesso na urgência constitucional, reapresentação de matéria, delimitação do veto e maioria absoluta em cada Casa.
+
+### Lote autoral 8 e balanço dos 40 itens
+
+Os cinco itens finais abordam requisitos de CPI, cooperação federativa, políticas preventivas de saúde, asilo político e renovação do Senado. Os espelhos de 2014 foram os itens 71, 77, 103, 104 e 105. Os cinco novos gabaritos foram cotejados com a Constituição consolidada.
+
+| Dimensão | Resultado nas 40 autorais | Comparação e limite |
+| --- | --- | --- |
+| Operação registrada | 22 integrações, 8 análises, 7 aplicações e 3 reconhecimentos | A amostra de 2014 classificou 8 de 37 válidas como relacionais, com diferenças de taxonomia. O lote prioriza deliberadamente a integração de regras para treinar transferência. |
+| Densidade textual | 145 a 336 caracteres por enunciado, mediana 273,5 | As medianas oficiais de 147 e 201,5 excluem contextos compartilhados. Os enunciados autorais incluem seus próprios contextos, o que restringe a comparação direta de comprimento. |
+| Dificuldade estimada | 3 fáceis, 16 médias e 21 difíceis | A estimativa segue a operação exigida. A amostra oficial não fornece parâmetros de dificuldade comparáveis do público-alvo. |
+| Gabarito | 22 Certo e 18 Errado | O caderno de 2014 teve 17 C e 20 E no recorte válido. Essa contagem descreve o lote e não é meta para futuras baterias. |
+| Unidade | 27 em Constitucional e Regimentos de P1 e 13 em Processo Legislativo e Regimento Interno de P2 | O recorte de 2014 mistura temas constitucionais e regimentais, enquanto os itens novos usam o vínculo ao edital vigente. |
+
+Os metadados de cada autoral indicam o item usado como referência de operação, o fundamento jurídico, a seção teórica e a dificuldade estimada. O inventário técnico conferiu IDs, duplicação literal, formato C/E, gabaritos e referências. A seleção de oficiais elegíveis e a medição por origem têm etapas próprias ainda pendentes.

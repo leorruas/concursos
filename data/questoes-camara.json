@@ -10226,7 +10226,7 @@
       "mechanism": "sustacao-de-ato-nao-corrigido-e-comunicada-as-duas-casas",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
-      "cognitiveOperation": "aplicação",
+      "cognitiveOperation": "integração",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f3e70dd8fbe34df4#Atos administrativos, contratos e execução de decisões"
@@ -10252,9 +10252,9 @@
       "articleId": "art-f3e70dd8fbe34df4",
       "conceptId": "tcu-ato-prazo-e-dupla-comunicacao",
       "mechanism": "comunicacao-de-sustacao-de-ato-nao-se-esgota-no-senado",
-      "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
-      "cognitiveOperation": "aplicação",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f3e70dd8fbe34df4#Atos administrativos, contratos e execução de decisões"
@@ -76332,9 +76332,9 @@
       "articleId": "art-f3e70dd8fbe34df4",
       "conceptId": "tcu-repasses-df-so-estados-municipios",
       "mechanism": "tcu-repasses-df-so-estados-municipios",
-      "questionType": "aplicacao",
+      "questionType": "reconhecimento",
       "estimatedDifficulty": "facil",
-      "cognitiveOperation": "aplicação",
+      "cognitiveOperation": "reconhecimento",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
@@ -76346,7 +76346,7 @@
       "statement": "A fiscalização pelo Tribunal de Contas da União dos recursos federais repassados mediante convênio alcança estados e municípios, mas exclui os repasses ao Distrito Federal.",
       "correctAnswer": "E",
       "explanation": "A exclusão do Distrito Federal está errada. O dispositivo alcança a aplicação de recursos federais repassados por convênio, acordo, ajuste ou instrumento semelhante aos três tipos de ente mencionados. (Constituição Federal, art. 71, VI.)",
-      "reviewEvidence": "Constituição Federal, art. 71, VI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a lista expressa de destinatários de recursos repassados."
+      "reviewEvidence": "Constituição Federal, art. 71, VI. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm | Recupera a enumeração dos entes abrangidos pela fiscalização. A menção a convênio já está no dispositivo."
     },
     {
       "id": "cam-const-200-tcu-sancao-exige-previsao-legal",
@@ -76389,7 +76389,7 @@
       "conceptId": "tcu-ato-prazo-e-dupla-comunicacao",
       "mechanism": "tcu-ato-prazo-e-dupla-comunicacao",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "muito-dificil",
+      "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -76402,7 +76402,7 @@
       "statement": "Verificada ilegalidade em ato administrativo federal, o Tribunal de Contas da União assinou prazo para corrigi-lo. Diante do descumprimento, pode sustar a execução do ato e cumprir o dever de comunicação constitucional informando apenas à Câmara dos Deputados.",
       "correctAnswer": "E",
       "explanation": "A sustação é possível após o descumprimento da determinação. O erro é limitar a comunicação à Câmara. A Constituição exige que a decisão seja comunicada à Câmara e ao Senado. (Constituição Federal, art. 71, IX e X.)",
-      "reviewEvidence": "Constituição Federal, art. 71, IX e X — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Verifica a sequência de correção, o objeto da sustação e os destinatários da comunicação."
+      "reviewEvidence": "Constituição Federal, art. 71, IX e X. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm | Sequência curta de dois incisos. O enunciado explicita objeto, ilegalidade, prazo e descumprimento. O destinatário da comunicação decide o julgamento."
     },
     {
       "id": "cam-const-200-tcu-idade-setenta-exatos",
@@ -76445,7 +76445,7 @@
       "conceptId": "tcu-quota-presidencial-dois-origens",
       "mechanism": "tcu-quota-presidencial-dois-origens",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "dificil",
+      "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
       "reviewStatus": "validada",
       "theoryRefs": [

@@ -220,8 +220,14 @@ function renderSuggestions(review,repeat){
  if(official.length&&(!loggedIn||seenByContest.has(exam.id))){
   const relatedArticles=new Set(official.map(q=>q.articleId));
   const authors=pool.filter(q=>q.origin==='inedita'&&relatedArticles.has(q.articleId)&&!seen.has(q.id));
-  offer('Praticar questões oficiais','Resolva itens da banca e questões autorais relacionadas na própria tela.',
-   [...choose(5,official),...choose(Math.min(5,official.length),authors)]);
+  const officialIds=choose(5,official);
+  const authorIds=choose(officialIds.length,authors);
+  const description=authorIds.length
+   ? officialIds.length+' '+(officialIds.length===1?'oficial':'oficiais')+
+    ' e '+authorIds.length+' '+(authorIds.length===1?'autoral relacionada.':'autorais relacionadas.')
+   : 'Itens oficiais da banca para responder nesta tela.';
+  offer(authorIds.length?'Praticar oficiais e autorais':'Praticar questões oficiais',description,
+   [...officialIds,...authorIds]);
  }
  offer('Praticar caso compartilhado','Julgue itens sobre o mesmo cenário. A correção aparece ao final.',
   loggedIn&&!seenByContest.has(exam.id)?[]:sharedCasePracticeIds(pool,seen),'simulado');

@@ -90,3 +90,7 @@ Cinco itens levam a seleção autoral a 15 de 40. O lote inclui três integraç�
 ### Lote autoral 4 — direitos fundamentais e federação
 
 Cinco itens levam o catálogo a 20 questões autorais calibradas. O lote inclui duas integrações, uma análise, uma aplicação e um item de recuperação literal. Os casos se concentram em controle parlamentar da intervenção, organização de territórios, objeto do habeas data e inalistabilidade. O item literal recupera o quórum e os turnos de aprovação de tratado de direitos humanos. O espelho de 2014 informa o mecanismo de cada item, incluindo limites constitucionais em hipóteses institucionais e condições formais de tramitação. Os fundamentos dos novos temas foram conferidos diretamente na Constituição.
+
+### Lote autoral 5 — controle externo e mandato
+
+Cinco itens levam a seleção autoral a 25 de 40. Três exigem integração, um análise e um reconhecimento literal. O lote usa como espelhos de operação os itens 75, 76 e 82 de 2014. As fronteiras testadas são parecer e julgamento, multa e imputação de débito, irregularidade e sustação de despesa, renúncia e eficácia da vacância, publicidade da arguição e sigilo do voto.

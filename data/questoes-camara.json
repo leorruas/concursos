@@ -7609,6 +7609,171 @@
       "examPart": "P1",
       "subjectId": "direito-constitucional",
       "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-calibrada-const-contas-presidenciais-recebidas-antes-do-parecer",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 75
+      },
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "parecer-previo-recebimento",
+      "mechanism": "contas-presidenciais-recebidas-antes-do-parecer",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#4. Julgamento das contas do Presidente da República (CF, art. 49, IX e art. 71, I)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "4. Julgamento das contas do Presidente da República (CF, art. 49, IX e art. 71, I)"
+      },
+      "statement": "O Tribunal de Contas da União recebe as contas anuais do Presidente da República e emite parecer desfavorável cinquenta dias depois. Uma comissão afirma que, por ter sido emitido no prazo, o parecer já encerra o julgamento das contas. A afirmação está correta.",
+      "correctAnswer": "E",
+      "explanation": "O Tribunal dispõe de sessenta dias, contados do recebimento, para elaborar o parecer prévio. O Congresso Nacional julga as contas. A emissão tempestiva cumpre a etapa de apreciação técnica e mantém necessária a deliberação do Congresso.",
+      "reviewEvidence": "CF, arts. 49, IX, e 71, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "id": "cam-calibrada-const-ressarcimento-recomendado-e-multa-imposta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 75
+      },
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "titulo-executivo-multa-sem-debito",
+      "mechanism": "ressarcimento-recomendado-e-multa-imposta",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "análise",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Ao concluir uma fiscalização, o Tribunal de Contas da União aplica multa a um responsável, sem imputar débito. O responsável sustenta que a decisão só poderá ter eficácia de título executivo caso também determine o ressarcimento de prejuízo. A alegação procede.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição atribui eficácia de título executivo à decisão que imputa débito ou aplica multa. Basta a multa regularmente aplicada. Uma recomendação desacompanhada de multa ou imputação de débito não teria essa eficácia pelo § 3º.",
+      "reviewEvidence": "CF, art. 71, VIII e § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "id": "cam-calibrada-const-despesa-irregular-sem-risco-qualificado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 75
+      },
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "comissao-sustacao-condicoes",
+      "mechanism": "despesa-irregular-sem-risco-qualificado",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#O procedimento específico da comissão mista: art. 72"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "O procedimento específico da comissão mista: art. 72"
+      },
+      "statement": "A comissão mista de orçamento recebe pronunciamento do Tribunal de Contas da União pela irregularidade de uma despesa. Ao examinar suas consequências, conclui que o gasto não pode produzir dano irreparável nem grave lesão à economia pública. Só o pronunciamento do Tribunal obriga a comissão a propor a sustação ao Congresso.",
+      "correctAnswer": "E",
+      "explanation": "O procedimento do art. 72, § 2º, exige que o Tribunal considere a despesa irregular e que a comissão identifique pelo menos um dos riscos previstos. Se o gasto pudesse causar grave lesão à economia pública, a comissão deveria propor a sustação ao Congresso.",
+      "reviewEvidence": "CF, arts. 71, caput, e 72, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e regime dos parlamentares",
+      "id": "cam-calibrada-const-renuncia-em-processo-de-perda-por-decoro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 82
+      },
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "renuncia-efeitos-aguardam-deliberacao",
+      "mechanism": "renuncia-em-processo-de-perda-por-decoro",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      },
+      "statement": "Um deputado federal renuncia após a instauração de processo que pode levar à perda do mandato por quebra de decoro. A Mesa recebe a renúncia e pretende convocar suplente de imediato, tratando a cadeira como vaga. Nessa hipótese, a renúncia tem eficácia suspensa até a deliberação final.",
+      "correctAnswer": "C",
+      "explanation": "Se o parlamentar já está submetido a processo que vise ou possa levar à perda do mandato, a renúncia fica com efeitos suspensos. A Câmara decide o caso de decoro por maioria absoluta, assegurada ampla defesa. Sem processo dessa natureza, essa causa de suspensão não incidiria.",
+      "reviewEvidence": "CF, art. 55, II e §§ 2º e 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 82, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "id": "cam-calibrada-const-diretor-do-banco-central-arguicao-publica-e-voto-secreto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 76
+      },
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-banco-central-arguicao-secreta",
+      "mechanism": "diretor-do-banco-central-arguicao-publica-e-voto-secreto",
+      "questionType": "conceitual",
+      "cognitiveOperation": "reconhecimento",
+      "estimatedDifficulty": "facil",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Na aprovação prévia de pessoa indicada para a diretoria do Banco Central, a Constituição exige arguição pública e voto secreto no Senado Federal.",
+      "correctAnswer": "C",
+      "explanation": "A publicidade da arguição e o sigilo do voto são requisitos de etapas diferentes. Para chefe de missão diplomática permanente, a arguição ocorre em sessão secreta e o voto também é secreto.",
+      "reviewEvidence": "CF, art. 52, III, d. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 76, da Câmara de 2014."
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
       "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
       "id": "cam-calibrada-const-convocacao-no-recesso-nao-depende-de-interventor",
       "concursoId": "camara-2026",

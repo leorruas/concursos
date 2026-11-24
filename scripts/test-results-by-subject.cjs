@@ -130,3 +130,22 @@ assert.ok(pages.includes('.results-learning-legend span+span:before{background:v
 assert.ok(pages.includes('line.append(track(rate,supported),value)'),'cada barra tem seu próprio percentual');
 assert.ok(pages.includes("judged+' resposta(s) julgada(s)'"));
 console.log('OK: cores, percentuais por barra, amostra e contexto desconhecido.');
+
+vm.runInContext(take('function groupRetentionPrinciples(',' function retentionStages('),learningContext);
+const groupRetention=learningContext.groupRetentionPrinciples;
+const retentionItems=[
+ {subjectId:'const',principleId:'imunidade',title:'Imunidade parlamentar',state:'retention-check',nextReview:'2026-11-29'},
+ {subjectId:'const',principleId:'competencia',title:'Competência legislativa',state:'review-pending',nextReview:'2026-11-24'},
+ {subjectId:'admin',principleId:'ato',title:'Ato administrativo',state:'review-pending'}
+];
+const labels=id=>({const:'Direito Constitucional',admin:'Direito Administrativo'})[id]||id;
+assert.deepEqual(Array.from(groupRetention(retentionItems,'','',labels),g=>g[0]),['admin','const']);
+assert.deepEqual(Array.from(groupRetention(retentionItems,'const','',labels)[0][1],p=>p.principleId),['competencia','imunidade']);
+assert.equal(groupRetention(retentionItems,'','competencia',labels)[0][1].length,1,'busca ignora acentos');
+assert.equal(groupRetention(retentionItems,'admin','imunidade',labels).length,0);
+assert.ok(pages.includes('filtered.slice(0,retentionGroupsShown)'),'uma matéria inicialmente, expansão progressiva');
+assert.ok(pages.includes("retentionLimits.get(id)||8"));
+assert.ok(pages.includes("Ver próxima matéria: "));
+assert.ok(pages.includes("hidden.append(transferSection)"),'dados de transferência continuam acessíveis ao renderizador');
+assert.ok(pages.includes("label:'Aprendizagem',selectors:['#results-retention']"));
+console.log('OK: retenção por matéria, busca e expansão; evolução redundante retirada da interface.');

@@ -3,7 +3,7 @@
  'use strict';
  const views=[
   {id:'resumo',label:'Resumo',selectors:['#results-adaptive','#results-legacy']},
-  {id:'aprendizagem',label:'Aprendizagem',selectors:['#results-retention','[aria-labelledby="results-concept-transfer-title"]']},
+  {id:'aprendizagem',label:'Aprendizagem',selectors:['#results-retention']},
   {id:'revisoes',label:'Revisões',selectors:['#results-adaptive-queue','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]']},
   {id:'materias',label:'Matérias',selectors:['[aria-labelledby="title-subjects"]','[aria-labelledby="results-edital-coverage-title"]','[aria-labelledby="results-difficulty-heading"]','[aria-labelledby="results-coverage-title"]']},
   {id:'semanas',label:'Por semana',selectors:[]}, 
@@ -68,6 +68,16 @@
  .results-learning-matter-top strong{font-weight:620;font-variant-numeric:tabular-nums}
  .results-learning-matter small{display:block;font-size:11px;color:var(--muted);margin-top:6px;line-height:1.45}
  .results-learning-retention{display:grid;grid-template-columns:minmax(0,1fr) repeat(3,minmax(36px,48px));gap:9px;align-items:center;padding:10px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 13%,transparent);font-size:13px;color:var(--text)}
+ .results-retention-controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;margin:16px 0 8px}
+ .results-retention-controls label{display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--muted)}
+ .results-retention-controls input,.results-retention-controls select{box-sizing:border-box;width:100%;min-width:0;font:inherit;font-size:13px;color:var(--text);background:transparent;border:1px solid color-mix(in srgb,var(--text) 24%,transparent);border-radius:4px;padding:8px 10px}
+ .results-retention-controls input:focus-visible,.results-retention-controls select:focus-visible{outline:2px solid var(--accent-blue);outline-offset:2px}
+ .results-retention-group{margin:18px 0 22px}
+ .results-retention-group>h4{font-size:14px;font-weight:620;color:var(--text);margin:0 0 4px}
+ .results-retention-group>h4 small{font-size:11px;color:var(--muted);font-weight:400;margin-left:8px}
+ .results-retention-group .results-concept-more,.results-retention-next{margin-top:12px}
+ .results-retention-group .results-learning-retention>span:first-child{overflow-wrap:anywhere;line-height:1.4}
+ @media(max-width:560px){.results-retention-controls{grid-template-columns:minmax(0,1fr)}}
  .results-learning-retention small{display:block;color:var(--muted);font-size:11px;margin-top:4px}
  .results-learning-retention .stage{display:grid;place-items:center;min-height:28px;border:1px solid color-mix(in srgb,var(--text) 20%,transparent);border-radius:3px;font-size:12px;color:var(--muted)}
  .results-learning-retention .stage.is-done{color:var(--text);background:var(--accent-blue-alpha-05);border-color:var(--accent-blue)}
@@ -421,6 +431,9 @@
   const summary=document.createElement('summary');summary.textContent='Detalhes das respostas no site (7 e 30 dias)';
   details.append(summary,learningDetail);panels.get('aprendizagem').append(details);
  }
+ // Preservar a superfície de dados para o renderizador, sem duplicar a leitura da retenção.
+ const transferSection=root.querySelector('[aria-labelledby="results-concept-transfer-title"]');
+ if(transferSection){const hidden=document.createElement('div');hidden.hidden=true;hidden.style.display='none';hidden.append(transferSection);panels.get('aprendizagem').append(hidden);}
  const retention=document.getElementById('results-retention');
  if(retention){const details=document.createElement('details');details.className='results-learning-method';const summary=document.createElement('summary');summary.textContent='Evidências recentes de retenção';retention.before(details);details.append(summary,retention);}
  const summaryLearning=document.createElement('section');summaryLearning.id='results-learning-summary';summaryLearning.className='results-section results-learning-preview';panels.get('resumo').append(summaryLearning);
@@ -464,7 +477,10 @@
  // Nenhum registro de tentativa é persistido nesta página.
  const weekTarget=document.getElementById('results-weeks');
  const learningTarget=document.getElementById('results-learning-dashboard');
- let weeklyData=null,weekSelection='',learningData=null,learningPeriod=30,learningLimit=8;
+ let weeklyData=null,weekSelection='',learningData=null,learningPeriod=30;
+ let retentionSubject='',retentionQuery='',retentionGroupsShown=1;
+ const retentionLimits=new Map();
+ function resetRetention(){retentionSubject='';retentionQuery='';retentionGroupsShown=1;retentionLimits.clear();}
  const dayName=['Seg','Ter','Qua','Qui','Sex','Sáb','Dom'];
  const numericFields=['total','correct','incorrect','blank','retests'];
  const learningFields=['independent','independentSecure','consultedCorrect','feedbackCorrect','supportedCorrect','contextUnknown'];
@@ -549,6 +565,18 @@
   const option=[...(document.getElementById('results-subject-filter')?.options||[])].find(o=>o.value===id);
   return option?.textContent||id.replaceAll('-',' ');
  }
+ function groupRetentionPrinciples(principles,subject,query,labelFor){
+  const normalize=x=>String(x||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('pt-BR').trim();
+  const term=normalize(query),groups=new Map();
+  for(const p of principles||[]){
+   const id=p.subjectId||'sem-materia';
+   if(subject&&id!==subject)continue;
+   if(term&&!normalize((p.title||'')+' '+String(p.principleId||'').replaceAll('-',' ')+' '+labelFor(id)).includes(term))continue;
+   if(!groups.has(id))groups.set(id,[]);
+   groups.get(id).push(p);
+  }
+  return [...groups].sort((a,b)=>labelFor(a[0]).localeCompare(labelFor(b[0]),'pt-BR')).map(([id,items])=>[id,items.sort((a,b)=>Number(b.state==='review-pending')-Number(a.state==='review-pending')||String(a.nextReview||'9999').localeCompare(String(b.nextReview||'9999'))||String(a.title||a.principleId).localeCompare(String(b.title||b.principleId),'pt-BR'))]);
+ }
  function retentionStages(p,intervals){
   if(p.state==='provisional-mastery')return intervals.map(()=>true);
   const anchor=(p.recentEvents||[]).find(e=>e.id===p.cycleAttemptId);
@@ -628,20 +656,55 @@
   }
   if(!report.matters.size)matters.append(newNode('p','results-caption','Sem dados para a matéria e o período selecionados.'));
   learningTarget.append(matters);
-  const retention=learningBlock('Retenção por conceito','Ciclo atual de retestes em questões diferentes, com segurança, sem consulta e sem correção prévia. Histórico completo.');
+  const retention=learningBlock('Retenção por conceito','Retestes em questões diferentes, sem consulta nem correção prévia. Histórico completo.');
   const intervals=plan?.intervals||[2,7,21];
   if(!principles?.length||intervals.length!==3)retention.append(newNode('p','results-caption','Sem ciclos de retenção disponíveis.'));
   else{
-   const header=newNode('div','results-learning-retention is-header');header.append(newNode('span','','Conceito'),...intervals.map(n=>newNode('span','',n+' d')));retention.append(header);
+   const controls=newNode('div','results-retention-controls');
+   const subjectControl=newNode('select');subjectControl.id='results-retention-subject';
+   const subjectField=newNode('label','','Matéria');subjectField.htmlFor=subjectControl.id;
+   const groups=groupRetentionPrinciples(principles,'','',subjectLabel);
+   if(retentionSubject&&!groups.some(([id])=>id===retentionSubject))retentionSubject='';
+   const all=newNode('option','','Todas as matérias');all.value='';subjectControl.append(all);
+   for(const [id] of groups){const opt=newNode('option','',subjectLabel(id));opt.value=id;subjectControl.append(opt);}
+   subjectControl.value=retentionSubject;
+   subjectField.append(subjectControl);
+   const search=newNode('input');search.type='search';search.id='results-retention-search';search.placeholder='Nome do conceito';search.value=retentionQuery;
+   const searchField=newNode('label','','Buscar conceito');searchField.htmlFor=search.id;searchField.append(search);
+   controls.append(subjectField,searchField);
+   const count=newNode('p','results-caption');count.setAttribute('role','status');
+   const list=newNode('div','results-retention-groups');
    const status={'review-pending':'Revisão pendente','retention-check':'Retenção em verificação','provisional-mastery':'Domínio provisório','recent-learning':'Aprendizagem recente','insufficient-evidence':'Evidência insuficiente'};
-   const sorted=[...principles].sort((a,b)=>Number(b.state==='review-pending')-Number(a.state==='review-pending')||String(a.nextReview||'9999').localeCompare(String(b.nextReview||'9999'))||String(a.title).localeCompare(String(b.title)));
-   for(const p of sorted.slice(0,learningLimit)){
-    const row=newNode('div','results-learning-retention'),name=newNode('span','',p.title||p.principleId);
-    name.append(newNode('small','', (status[p.state]||'Estado não identificado')+(p.nextReview?' · '+datePt(p.nextReview):'')));
-    row.append(name,...retentionStages(p,intervals).map((v,i)=>{const cell=newNode('span','stage'+(v===true?' is-done':''),v===true?'✓':v===false?'○':'?');cell.setAttribute('aria-label',intervals[i]+' dias: '+(v===true?'concluído':v===false?'pendente':'sem informação suficiente'));return cell;}));retention.append(row);
-   }
-   if(sorted.length>learningLimit){const more=newNode('button','results-concept-more','Ver mais conceitos');more.type='button';more.addEventListener('click',()=>{learningLimit+=12;drawLearning();});retention.append(more);}
-   retention.append(newNode('p','results-caption','✓ etapa concluída · ○ pendente · ? sem informação suficiente sobre o ciclo.'));
+   const renderGroups=()=>{
+    const filtered=groupRetentionPrinciples(principles,retentionSubject,retentionQuery,subjectLabel);
+    const visible=filtered.slice(0,retentionGroupsShown);
+    const total=filtered.reduce((sum,[,items])=>sum+items.length,0);
+    count.textContent=total+' conceito(s) em '+filtered.length+' matéria(s) · '+visible.length+' matéria(s) exibida(s)';
+    list.replaceChildren();
+    if(!total){list.append(newNode('p','results-caption','Nenhum conceito encontrado.'));return;}
+    for(const [id,items] of visible){
+     const group=newNode('section','results-retention-group'),heading=newNode('h4','',subjectLabel(id));
+     const limit=retentionLimits.get(id)||8;
+     heading.append(newNode('small','',Math.min(limit,items.length)+' de '+items.length));
+     const header=newNode('div','results-learning-retention is-header');header.append(newNode('span','','Conceito'),...intervals.map(n=>newNode('span','',n+' d')));
+     group.append(heading,header);
+     for(const p of items.slice(0,limit)){
+      const row=newNode('div','results-learning-retention'),name=newNode('span','',p.title||p.principleId);
+      name.append(newNode('small','',(status[p.state]||'Estado não identificado')+(p.nextReview?' · '+datePt(p.nextReview):'')));
+      row.append(name,...retentionStages(p,intervals).map((v,i)=>{const cell=newNode('span','stage'+(v===true?' is-done':''),v===true?'✓':v===false?'○':'?');cell.setAttribute('aria-label',intervals[i]+' dias: '+(v===true?'concluído':v===false?'pendente':'sem informação suficiente'));return cell;}));
+      group.append(row);
+     }
+     if(items.length>limit){const more=newNode('button','results-concept-more','Ver mais '+Math.min(8,items.length-limit)+' conceitos');more.type='button';more.addEventListener('click',()=>{retentionLimits.set(id,limit+8);renderGroups();});group.append(more);}
+     list.append(group);
+    }
+    if(filtered.length>visible.length){const next=newNode('button','results-concept-more results-retention-next','Ver próxima matéria: '+subjectLabel(filtered[visible.length][0]));next.type='button';next.addEventListener('click',()=>{retentionGroupsShown++;renderGroups();});list.append(next);}
+   };
+   function resetList(){retentionGroupsShown=1;retentionLimits.clear();renderGroups();}
+   subjectControl.addEventListener('change',()=>{retentionSubject=subjectControl.value;resetList();});
+   search.addEventListener('input',()=>{retentionQuery=search.value;resetList();});
+   retention.append(controls,count,list);
+   renderGroups();
+   retention.append(newNode('p','results-caption','✓ etapa concluída · ○ pendente · ? informação insuficiente.'));
   }
   learningTarget.append(retention);
   const method=newNode('details','results-learning-method');method.append(newNode('summary','','Como interpretar as medidas'),newNode('p','results-caption','Os indicadores conciliam chat e site. Independente exige ambos os campos explicitamente falsos. Consulta e correção podem coincidir; acertos com apoio são contados uma vez. Registros sem contexto não são classificados como independentes. As etapas de retenção são do ciclo atual, não um certificado de domínio.'));learningTarget.append(method);
@@ -717,11 +780,11 @@
  }
  window.addEventListener('results:data',event=>{
   if(event.detail?.data?.concursoId!==weeklyData?.concursoId)weekSelection='';
-  if(event.detail?.data?.concursoId!==learningData?.concursoId)learningLimit=8;
+  if(event.detail?.data?.concursoId!==learningData?.concursoId)resetRetention();
   learningData=event.detail?.data||null;
   weeklyData=event.detail?.data?.weekly?{...event.detail.data.weekly,concursoId:event.detail.data.concursoId}:null;
   drawWeeks();drawLearning();
  });
- window.addEventListener('results:filter',()=>{learningLimit=8;drawWeeks();drawLearning();});
+ window.addEventListener('results:filter',()=>{resetRetention();drawWeeks();drawLearning();});
  addEventListener('popstate',show);show();
 })();

@@ -80,6 +80,15 @@ Protege a **liberdade de locomoção** quando alguém sofre ou se acha ameaçado
 
 Palavras de prova: prisão, locomoção, ir e vir, ameaça de constrangimento à liberdade física.
 
+**Condições para cabimento:** o habeas corpus (Constituição Federal, art. 5º, LXVIII) protege a liberdade de ir, vir e permanecer quando há coação ilegal atual (repressivo) ou ameaça concreta de coação ilegal (preventivo). A ameaça pode decorrer de ilegalidade ou abuso de poder. Não é um remédio genérico para todo direito violado: uma cobrança indevida, por si só, não autoriza habeas corpus sem repercussão direta na locomoção. Pode ser impetrado pela própria pessoa ou por terceiro, sem exigência de advogado.
+
+**Gratuidade: três regras distintas, não três condições do mesmo direito.** A Constituição dispõe que (1) o habeas corpus protege a locomoção contra ilegalidade ou abuso de poder (art. 5º, LXVIII); (2) o **registro civil de nascimento e a certidão de óbito** são gratuitos **para os reconhecidamente pobres, na forma da lei** (art. 5º, LXXVI); (3) **as ações de habeas corpus e habeas data são gratuitas para qualquer pessoa, sem comprovação de pobreza** (art. 5º, LXXVII). O inciso LXXVII também menciona atos necessários ao exercício da cidadania gratuitos **na forma da lei**: essa qualificação não transforma a gratuidade de habeas corpus e habeas data em benefício condicionado à renda.
+
+**Exemplo de prova:** uma pessoa com renda elevada sofre ameaça de prisão ilegal e impetra habeas corpus. O pedido é gratuito porque a gratuidade não depende de renda; o exame de cabimento depende de haver ameaça ilegal à liberdade de locomoção. Se a mesma pessoa requer certidão de óbito, a regra constitucional específica de gratuidade para os reconhecidamente pobres não se estende automaticamente a ela. Há outras hipóteses legais de gratuidade de registros, que devem ser examinadas separadamente.
+
+**Certo ou Errado:** “A gratuidade constitucional do habeas corpus exige comprovação da condição de pobreza.” **Errado.** A condição econômica é prevista no inciso relativo ao registro civil de nascimento e à certidão de óbito, não na gratuidade das ações de habeas corpus e habeas data. A condição para o habeas corpus ser cabível é a coação ilegal, atual ou ameaçada, contra a liberdade de locomoção. Fonte: [Constituição Federal, art. 5º, LXVIII, LXXVI e LXXVII](https://www.tse.jus.br/legislacao/codigo-eleitoral/constituicao-federal/constituicao-da-republica-federativa-do-brasil).
+
+
 ### Habeas data — HD
 
 Serve para:

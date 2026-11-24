@@ -96,7 +96,12 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.remove("escondido");
 
-    const tituloNavegacao = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
+    const tituloOriginal = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
+    const vinculos = obterProgramaSelecionado()?.subjects.filter(materia =>
+        [materia.hubSourcePath, ...materia.articleSourcePaths].includes(artigo.sourcePath)) || [];
+    const categoriaLeitura = categoriaOrigem || (vinculos.length === 1 ? vinculos[0].categoria : "");
+    const tituloNavegacao = obterSequenciaDaMateria(categoriaLeitura)
+        .find(item => item.artigo === artigo)?.tituloNumerado || tituloOriginal;
     const breadcrumbs = document.getElementById("artigo-breadcrumbs");
     breadcrumbs.innerHTML = `
         <button type="button" class="breadcrumb-link" id="btn-bc-art-home">início</button>
@@ -129,7 +134,7 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
     if (artigoAtual !== artigo) return;
 
     let markdownLimpo = removerFrontmatter(artigo.conteudo);
-    markdownLimpo = removerH1Duplicado(markdownLimpo, tituloNavegacao);
+    markdownLimpo = removerH1Duplicado(markdownLimpo, tituloOriginal);
     // Proteger código de conflitos com a sintaxe de comentários do Obsidian.
     const codigoProtegido = protegerBlocosCodigoMarkdown(markdownLimpo);
     markdownLimpo = codigoProtegido.markdown;
@@ -170,7 +175,7 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
     if (window.renderizarBlueprintsServicos) window.renderizarBlueprintsServicos(artigo);
     gerarTableOfContents();
     if (window.renderizarErrosPrivadosArtigo) window.renderizarErrosPrivadosArtigo(artigo);
-    renderizarBotoesNavegacao(artigo, categoriaOrigem);
+    renderizarBotoesNavegacao(artigo, categoriaLeitura);
 
     btnVoltar.textContent = `← voltar para ${categoriaOrigem ? limparNomeCategoria(categoriaOrigem) : "biblioteca"}`;
     btnVoltar.onclick = () => categoriaOrigem ? abrirDisciplina(categoriaOrigem) : voltarParaHome(true);
@@ -196,10 +201,10 @@ function renderizarBotoesNavegacao(artigoAtual, categoriaOrigem = artigoAtual.ca
 
     rodapeNavContainer.innerHTML = "";
 
-    const artigosDaCategoria = obterArtigosDaMateria(categoriaOrigem);
+    const artigosDaCategoria = obterSequenciaDaMateria(categoriaOrigem);
     if (artigosDaCategoria.length <= 1) return;
 
-    const indiceAtual = artigosDaCategoria.findIndex(a => a.titulo === artigoAtual.titulo);
+    const indiceAtual = artigosDaCategoria.findIndex(item => item.artigo === artigoAtual);
     if (indiceAtual === -1) return;
 
     const artigoAnterior = indiceAtual > 0 ? artigosDaCategoria[indiceAtual - 1] : null;
@@ -213,8 +218,8 @@ function renderizarBotoesNavegacao(artigoAtual, categoriaOrigem = artigoAtual.ca
     if (artigoAnterior) {
         const cardPrev = document.createElement("a");
         cardPrev.className = "nav-card nav-card-prev";
-        cardPrev.href = rotaDoArtigo(artigoAnterior, "", categoriaOrigem);
-        const tituloLimpo = artigoAnterior.tituloExibicao || formatarNomeArtigo(artigoAnterior.titulo);
+        cardPrev.href = rotaDoArtigo(artigoAnterior.artigo, "", categoriaOrigem);
+        const tituloLimpo = artigoAnterior.tituloNumerado;
         cardPrev.innerHTML = `
             <span class="nav-card-label">← anterior</span>
             <span class="nav-card-title">${tituloLimpo}</span>
@@ -222,7 +227,7 @@ function renderizarBotoesNavegacao(artigoAtual, categoriaOrigem = artigoAtual.ca
         cardPrev.addEventListener("click", (e) => {
             if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
             e.preventDefault();
-            abrirArtigo(artigoAnterior, true, "", categoriaOrigem);
+            abrirArtigo(artigoAnterior.artigo, true, "", categoriaOrigem);
         });
         grid.appendChild(cardPrev);
     } else {
@@ -234,8 +239,8 @@ function renderizarBotoesNavegacao(artigoAtual, categoriaOrigem = artigoAtual.ca
     if (artigoProximo) {
         const cardNext = document.createElement("a");
         cardNext.className = "nav-card nav-card-next";
-        cardNext.href = rotaDoArtigo(artigoProximo, "", categoriaOrigem);
-        const tituloLimpo = artigoProximo.tituloExibicao || formatarNomeArtigo(artigoProximo.titulo);
+        cardNext.href = rotaDoArtigo(artigoProximo.artigo, "", categoriaOrigem);
+        const tituloLimpo = artigoProximo.tituloNumerado;
         cardNext.innerHTML = `
             <span class="nav-card-label">próximo →</span>
             <span class="nav-card-title">${tituloLimpo}</span>
@@ -243,7 +248,7 @@ function renderizarBotoesNavegacao(artigoAtual, categoriaOrigem = artigoAtual.ca
         cardNext.addEventListener("click", (e) => {
             if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
             e.preventDefault();
-            abrirArtigo(artigoProximo, true, "", categoriaOrigem);
+            abrirArtigo(artigoProximo.artigo, true, "", categoriaOrigem);
         });
         grid.appendChild(cardNext);
     } else {

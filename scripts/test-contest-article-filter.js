@@ -20,6 +20,21 @@ const ctx={
 };
 vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(new URL('../web/02-data-home.js',import.meta.url),'utf8'),ctx);
+// O índice usa a posição dentro do concurso, com a página de abertura sem número.
+ctx.formatarNomeArtigo = titulo => titulo.replace(/^\d+ - /, '');
+const sequencias = {};
+for (const concurso of ['cgu-2026', 'camara-2026']) {
+  ctx.concursoSelecionadoId = concurso;
+  sequencias[concurso] = Array.from(ctx.obterSequenciaDaMateria('Direito Administrativo'));
+}
+const sequenciaCGU = sequencias['cgu-2026'];
+const sequenciaCamara = sequencias['camara-2026'];
+assert.deepEqual(sequenciaCGU.map(item => item.numero), ['', '01', '02', '03', '04']);
+assert.ok(sequenciaCamara.length > sequenciaCGU.length);
+assert.ok(sequenciaCGU.slice(1).every(item => item.tituloNumerado.startsWith(item.numero + ' · ')));
+assert.ok(sequenciaCGU.slice(1).some(item =>
+  sequenciaCamara.some(outro => outro.artigo === item.artigo && outro.numero !== item.numero)));
+ctx.concursoSelecionadoId = 'cgu-2026';
 const materia='Avaliacao de Politicas Publicas';
 let itens=ctx.obterArtigosDaMateria(materia);
 const cguPolicySubject=catalogo.contests.find(c=>c.concursoId==='cgu-2026').subjects.find(s=>s.subjectId==='politicas-publicas');
@@ -89,9 +104,34 @@ class ContextElement {
   constructor(tag='div'){this.tag=tag;this.children=[];this.hidden=false;this.attrs={};this.textContent='';}
   replaceChildren(){this.children=[];this.textContent='';}
   append(...items){this.children.push(...items);}
+  appendChild(item){this.append(item);}
   setAttribute(k,v){this.attrs[k]=v;}
   addEventListener(_,fn){this.click=fn;}
 }
+const indice = new ContextElement();
+const cabecalho = new ContextElement();
+cabecalho.querySelectorAll = () => [];
+const tela = { classList: { add() {}, remove() {} } };
+const breadcrumbs = new ContextElement();
+Object.assign(ctx, {
+  document: {
+    getElementById: id => id === 'disciplina-breadcrumbs' ? breadcrumbs : null,
+    createElement: tag => new ContextElement(tag)
+  },
+  campoTexto: null, campoTextoNav: null, leitorDeArtigo: tela, leitorDeDisciplina: tela,
+  divResultados: tela, disciplinaAcoes: indice, disciplinaCabecalho: cabecalho,
+  atualizarDestinoIndiceTopo() {},
+  limparNomeCategoria: categoria => categoria,
+  rotaDoArtigo: artigo => '/artigo/' + artigo.sourcePath,
+  window: { scrollTo() {} }
+});
+ctx.abrirDisciplina('Direito Administrativo', false);
+assert.match(cabecalho.innerHTML, /4 artigos/);
+assert.deepEqual(indice.children.map(link => link.attrs['aria-label'].match(/^\d+/)?.[0]),
+  [undefined, '01', '02', '03', '04']);
+assert.deepEqual(indice.children.map(link => link.href),
+  sequenciaCGU.map(item => '/artigo/' + item.artigo.sourcePath));
+
 const strip=new ContextElement();
 ctx.document={getElementById:id=>id==='artigo-contexto'?strip:null,createElement:tag=>new ContextElement(tag)};
 vm.runInContext(fs.readFileSync(new URL('../web/03-article-navigation.js',import.meta.url),'utf8'),ctx);

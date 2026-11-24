@@ -30,58 +30,6 @@ function ordenarArtigosDaMateria(a, b) {
     );
 }
 
-function obterNumeroArtigoNoIndice(artigo, caminhoHub, posicaoNoRoteiro) {
-    if ((caminhoHub && artigo.sourcePath === caminhoHub) || ehResumoPrincipalDaMateria(artigo)) return "00";
-    if (posicaoNoRoteiro != null) return String(posicaoNoRoteiro).padStart(2, "0");
-    const capitulo = capitulosDireitoAdministrativo.get(artigo.articleId);
-    if (capitulo != null) return String(capitulo).padStart(2, "0");
-    const arquivo = (artigo.sourcePath || artigo.titulo || "").split("/").pop();
-    const prefixo = /^(\d+)\s*-/.exec(arquivo)?.[1];
-    return prefixo?.padStart(2, "0") || "";
-}
-
-// Ordem dos capítulos do EPUB de Direito Administrativo, usada no roteiro da Câmara.
-const capitulosDireitoAdministrativo = new Map([
-    ["art-0242ff68d8ca9529", 1],
-    ["art-8946971690804376", 2],
-    ["art-86dee064aef44ba4", 3],
-    ["art-880b577a5c2ba82d", 4],
-    ["art-e9d0b4352f3e1455", 5],
-    ["art-a7703dd0e3fc4618", 6],
-    ["art-b740cbbd05e54a26", 7],
-    ["art-20294d2578a610bd", 8],
-    ["art-733c0e474219cd22", 9],
-    ["art-10a91f6bf9b53f1a", 10],
-    ["art-61c7724cba33648a", 11],
-    ["art-0bf3465cd357e76e", 12],
-    ["art-6b9002df47604ea5", 13],
-    ["art-b1f27b8954f08262", 14],
-    ["art-d982b608fc646e5a", 15],
-    ["art-2c1333aa75b06e9c", 16],
-    ["art-18fed28e7af50bca", 17],
-    ["art-71166a1de21cc98f", 18],
-    ["art-cc7c145f65061c3a", 19],
-    ["art-9f98650edd9e4278", 20],
-    ["art-b3edb79bff314c93", 21],
-    ["art-4c8a4b35894d4fa9", 22],
-    ["art-c61cca38ed36e424", 23],
-    ["art-bc65879a85f5b5d8", 24],
-    ["art-ea06e80ef83f4af7", 25],
-    ["art-cbd0b4285d514319", 26],
-    ["art-e3be4825ac4c455a", 27]
-]);
-
-function ordenarCapitulosDireitoAdministrativo(a, b) {
-    const hubA = ehResumoPrincipalDaMateria(a);
-    const hubB = ehResumoPrincipalDaMateria(b);
-    if (hubA !== hubB) return hubA ? -1 : 1;
-
-    const capituloA = capitulosDireitoAdministrativo.get(a.articleId) ?? Infinity;
-    const capituloB = capitulosDireitoAdministrativo.get(b.articleId) ?? Infinity;
-    if (capituloA !== capituloB) return capituloA - capituloB;
-    return ordenarArtigosDaMateria(a, b);
-}
-
 async function carregarCamadaEstrategica() {
     try {
         const [resConc, resEdital, resCatalogo] = await Promise.all([
@@ -242,6 +190,30 @@ function obterArtigosDaMateria(categoria) {
     const porCaminho = new Map(todosOsArtigos.map(artigo => [artigo.sourcePath, artigo]));
     const caminhos = [materia.hubSourcePath, ...materia.articleSourcePaths];
     return [...new Set(caminhos)].map(caminho => porCaminho.get(caminho)).filter(Boolean);
+}
+
+function obterBlueprintDaMateria(categoria) {
+    if (categoria !== "Orcamento Publico" || modoBibliotecaCompleta) return null;
+    const ids = {
+        "camara-2026": "art-73b824d09ac16e25",
+        "cgu-2026": "art-b6e9314c28d7f05a"
+    };
+    const id = ids[concursoSelecionadoId];
+    return id ? todosOsArtigos.find(artigo => artigo.articleId === id) : null;
+}
+
+function obterSequenciaDaMateria(categoria) {
+    const materia = obterProgramaSelecionado()?.subjects.find(item => item.categoria === categoria);
+    const blueprint = obterBlueprintDaMateria(categoria);
+    let posicao = 0;
+    return obterArtigosDaMateria(categoria).map(artigo => {
+        const resumo = materia
+            ? artigo.sourcePath === materia.hubSourcePath
+            : ehResumoPrincipalDaMateria(artigo);
+        const numero = resumo || artigo === blueprint ? "" : String(++posicao).padStart(2, "0");
+        const titulo = formatarNomeArtigo(artigo.tituloExibicao || artigo.titulo);
+        return { artigo, numero, titulo, tituloNumerado: numero ? `${numero} · ${titulo}` : titulo };
+    });
 }
 
 function renderizarPainelConcursoHome() {
@@ -416,12 +388,8 @@ function renderizarPastas() {
 // Visualizador da Disciplina
 function abrirDisciplina(categoria, atualizarRota = true) {
     if (!(todasAsPastas[categoria]?.length) && !obterProgramaSelecionado()?.subjects.some(m => m.categoria === categoria)) return;
-    const usaCapitulosDoEbook = categoria === "Direito Administrativo" &&
-        (modoBibliotecaCompleta || concursoSelecionadoId === "camara-2026");
-    const artigosDaMateria = obterArtigosDaMateria(categoria);
-    const artigos = usaCapitulosDoEbook
-        ? [...artigosDaMateria].sort(ordenarCapitulosDireitoAdministrativo)
-        : artigosDaMateria;
+    const sequencia = obterSequenciaDaMateria(categoria);
+    const totalArtigos = sequencia.filter(item => item.numero).length;
     const materiaSelecionada = obterProgramaSelecionado()
         ?.subjects.find(item => item.categoria === categoria) || null;
 
@@ -451,7 +419,7 @@ function abrirDisciplina(categoria, atualizarRota = true) {
 
     const tituloMateria = materiaSelecionada?.rotulo?.toLowerCase() || limparNomeCategoria(categoria);
     disciplinaCabecalho.innerHTML = `
-        <p class="disciplina-rotulo">matéria • ${artigos.length} ${artigos.length === 1 ? "artigo" : "artigos"}</p>
+        <p class="disciplina-rotulo">matéria • ${totalArtigos} ${totalArtigos === 1 ? "artigo" : "artigos"}</p>
         <h2>${tituloMateria}</h2>
         <div class="disciplina-concurso-seletor">
             <div class="concurso-seletor-textual" role="group" aria-label="Filtrar artigos por concurso">
@@ -474,52 +442,40 @@ function abrirDisciplina(categoria, atualizarRota = true) {
 
     // Entrada editorial no interior de Orçamento Público, nunca na grade de matérias.
     // Mantém os dois blueprints separados e visíveis conforme o concurso selecionado.
-    if (categoria === "Orcamento Publico" && !modoBibliotecaCompleta) {
-        const blueprintId = ({
-            "camara-2026": "art-73b824d09ac16e25",
-            "cgu-2026": "art-b6e9314c28d7f05a"
-        })[concursoSelecionadoId];
-        const blueprint = blueprintId && todosOsArtigos.find(artigo => artigo.articleId === blueprintId);
-        if (blueprint) {
-            const acesso = document.createElement("a");
-            acesso.className = "disciplina-acao disciplina-acao-blueprint";
-            acesso.href = rotaDoArtigo(blueprint, "", categoria);
-            acesso.setAttribute("aria-label", "Abrir mapa do processo orçamentário");
-            const numero = document.createElement("span");
-            numero.className = "disciplina-acao-numero";
-            numero.textContent = "↗";
-            const conteudo = document.createElement("span");
-            conteudo.className = "disciplina-acao-conteudo";
-            const titulo = document.createElement("strong");
-            titulo.textContent = concursoSelecionadoId === "camara-2026"
-                ? "blueprint: processo orçamentário na Câmara"
-                : "blueprint: ciclo orçamentário e auditoria da CGU";
-            const detalhes = document.createElement("span");
-            detalhes.className = "indice-resumo";
-            detalhes.textContent = "mapa visual completo: atores, etapas, documentos e prazos";
-            conteudo.append(titulo, detalhes);
-            acesso.append(numero, conteudo);
-            acesso.addEventListener("click", (event) => {
-                if (event.metaKey || event.ctrlKey || event.shiftKey || event.button === 1) return;
-                event.preventDefault();
-                abrirArtigo(blueprint, true, "", categoria);
-            });
-            disciplinaAcoes.appendChild(acesso);
-        }
+    const blueprint = obterBlueprintDaMateria(categoria);
+    if (blueprint) {
+        const acesso = document.createElement("a");
+        acesso.className = "disciplina-acao disciplina-acao-blueprint";
+        acesso.href = rotaDoArtigo(blueprint, "", categoria);
+        acesso.setAttribute("aria-label", "Abrir mapa do processo orçamentário");
+        const numero = document.createElement("span");
+        numero.className = "disciplina-acao-numero";
+        numero.textContent = "↗";
+        const conteudo = document.createElement("span");
+        conteudo.className = "disciplina-acao-conteudo";
+        const titulo = document.createElement("strong");
+        titulo.textContent = concursoSelecionadoId === "camara-2026"
+            ? "blueprint: processo orçamentário na Câmara"
+            : "blueprint: ciclo orçamentário e auditoria da CGU";
+        const detalhes = document.createElement("span");
+        detalhes.className = "indice-resumo";
+        detalhes.textContent = "mapa visual completo: atores, etapas, documentos e prazos";
+        conteudo.append(titulo, detalhes);
+        acesso.append(numero, conteudo);
+        acesso.addEventListener("click", (event) => {
+            if (event.metaKey || event.ctrlKey || event.shiftKey || event.button === 1) return;
+            event.preventDefault();
+            abrirArtigo(blueprint, true, "", categoria);
+        });
+        disciplinaAcoes.appendChild(acesso);
     }
-    if (artigos.length === 0) {
+    if (sequencia.length === 0) {
         disciplinaAcoes.innerHTML = materiaSelecionada
             ? '<p class="mensagem-busca">Ainda não há artigos publicados para esta matéria neste concurso.</p>'
             : '<p class="mensagem-busca">Esta matéria não está mapeada para o concurso selecionado. Selecione outro concurso ou volte às matérias.</p>';
     }
     // O blueprint já tem entrada própria no topo da matéria. Não duplicá-lo na lista.
-    const artigosNaLista = categoria === "Orcamento Publico" && !modoBibliotecaCompleta
-        ? artigos.filter(artigo => ![
-            "art-73b824d09ac16e25", "art-b6e9314c28d7f05a"
-        ].includes(artigo.articleId))
-        : artigos;
-    let posicaoNoRoteiro = 0;
-    artigosNaLista.forEach(artigo => {
+    sequencia.filter(item => item.artigo !== blueprint).forEach(({ artigo, numero, titulo, tituloNumerado }) => {
         const acao = document.createElement("a");
         acao.className = "disciplina-acao";
         if (artigo.articleId === "art-b6e9314c28d7f05a" || artigo.articleId === "art-73b824d09ac16e25") {
@@ -529,17 +485,11 @@ function abrirDisciplina(categoria, atualizarRota = true) {
         const origem = categoria;
         acao.href = rotaDoArtigo(artigo, "", origem);
 
-        const caminhoHub = materiaSelecionada?.hubSourcePath;
-        const ehHub = artigo.sourcePath === caminhoHub || ehResumoPrincipalDaMateria(artigo);
-        const posicao = materiaSelecionada && !ehHub ? ++posicaoNoRoteiro : undefined;
-        const numeroFormatado = obterNumeroArtigoNoIndice(artigo, caminhoHub, posicao);
-        const tituloFormatado = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
-
-        acao.setAttribute("aria-label", numeroFormatado ? numeroFormatado + " · " + tituloFormatado : tituloFormatado);
+        acao.setAttribute("aria-label", tituloNumerado);
         acao.innerHTML = `
-            <span class="disciplina-acao-numero" aria-hidden="true">${numeroFormatado}</span>
+            <span class="disciplina-acao-numero" aria-hidden="true">${numero || "•"}</span>
             <span class="disciplina-acao-conteudo">
-                <strong>${tituloFormatado}</strong>
+                <strong>${titulo}</strong>
             </span>
         `;
 

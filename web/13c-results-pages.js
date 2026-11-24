@@ -2,11 +2,12 @@
 (function(){
  'use strict';
  const views=[
-  {id:'resumo',label:'Resumo',selectors:['#results-adaptive','#results-legacy','#results-retention']},
+  {id:'resumo',label:'Resumo',selectors:['#results-adaptive','#results-legacy']},
+  {id:'aprendizagem',label:'Aprendizagem',selectors:['#results-retention','[aria-labelledby="results-concept-transfer-title"]']},
   {id:'revisoes',label:'Revisões',selectors:['#results-adaptive-queue','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]']},
   {id:'materias',label:'Matérias',selectors:['[aria-labelledby="title-subjects"]','[aria-labelledby="results-edital-coverage-title"]','[aria-labelledby="results-difficulty-heading"]','[aria-labelledby="results-coverage-title"]']},
   {id:'semanas',label:'Por semana',selectors:[]}, 
-  {id:'historico',label:'Histórico',selectors:['#results-principle-history','[aria-labelledby="results-concept-transfer-title"]']},
+  {id:'historico',label:'Histórico',selectors:['#results-principle-history']},
   {id:'erros',label:'Erros por dia',selectors:[]}
  ];
  const root=document.getElementById('results-content');
@@ -15,7 +16,7 @@
  // No GitHub Pages preservamos o fallback de navegacao por parametro.
  const onWorker=location.origin==='https://concurso-estudo.leoruas.workers.dev';
  const paths={
-  resumo:'/resultados-resumo.html',revisoes:'/resultados-revisoes.html',
+  resumo:'/resultados-resumo.html',aprendizagem:'/resultados-historico.html',revisoes:'/resultados-revisoes.html',
   materias:'/resultados-materias.html',historico:'/resultados-historico.html',erros:'/resultados-historico.html',semanas:'/resultados-historico.html'
  };
  const adaptiveQueue=document.createElement('section');
@@ -32,6 +33,50 @@
  root.append(adaptiveQueue);
  const style=document.createElement('style');
  style.textContent=`
+
+ /* Aprendizagem: indicadores, séries comparáveis e etapas de retenção. */
+ .results-learning-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 18px}
+ .results-learning-toolbar label{font-size:12px;color:var(--muted)}
+ .results-learning-toolbar select{font:inherit;font-size:13px;color:var(--text);background:transparent;border:1px solid color-mix(in srgb,var(--text) 24%,transparent);border-radius:4px;padding:7px 10px}
+ .results-learning-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:0 0 24px;border-block:1px solid color-mix(in srgb,var(--text) 23%,transparent);padding:17px 0}
+ .results-learning-kpi{display:flex;flex-direction:column;gap:6px;min-width:0}
+ .results-learning-kpi>span{font-size:12px;color:var(--muted);line-height:1.4}
+ .results-learning-kpi>strong{font-size:clamp(24px,3.3vw,38px);font-weight:620;letter-spacing:-.045em;line-height:1.05;color:var(--text);font-variant-numeric:tabular-nums}
+ .results-learning-kpi>small{font-size:11px;color:var(--muted);line-height:1.4}
+ .results-learning-block{margin:30px 0 34px;min-width:0}
+ .results-learning-block h3{font-size:18px;letter-spacing:-.025em;font-weight:620;margin:0 0 7px;color:var(--text)}
+ .results-learning-block>p{font-size:12px;color:var(--muted);line-height:1.5;margin:0 0 15px}
+ .results-learning-series{display:grid;gap:9px}
+ .results-learning-series-row{display:grid;grid-template-columns:86px minmax(0,1fr) 100px;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+ .results-learning-tracks{display:grid;gap:4px;min-width:0}
+ .results-learning-track{height:7px;border-radius:3px;background:color-mix(in srgb,var(--text) 10%,transparent);overflow:hidden}
+ .results-learning-fill{height:100%;display:block;border-radius:3px;background:var(--accent-blue)}
+ .results-learning-fill.is-supported{background:color-mix(in srgb,var(--text) 48%,transparent)}
+ .results-learning-legend{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 14px;font-size:12px;color:var(--muted)}
+ .results-learning-legend span:before{display:inline-block;content:'';width:10px;height:6px;margin-right:6px;background:var(--accent-blue);vertical-align:middle}
+ .results-learning-legend span+span:before{background:color-mix(in srgb,var(--text) 48%,transparent)}
+ .results-learning-matter{padding:12px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 13%,transparent)}
+ .results-learning-matter-top{display:flex;justify-content:space-between;gap:10px;align-items:baseline;margin:0 0 6px;color:var(--text);font-size:13px}
+ .results-learning-matter-top strong{font-weight:620;font-variant-numeric:tabular-nums}
+ .results-learning-matter small{display:block;font-size:11px;color:var(--muted);margin-top:6px;line-height:1.45}
+ .results-learning-retention{display:grid;grid-template-columns:minmax(0,1fr) repeat(3,minmax(36px,48px));gap:9px;align-items:center;padding:10px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 13%,transparent);font-size:13px;color:var(--text)}
+ .results-learning-retention small{display:block;color:var(--muted);font-size:11px;margin-top:4px}
+ .results-learning-retention .stage{display:grid;place-items:center;min-height:28px;border:1px solid color-mix(in srgb,var(--text) 20%,transparent);border-radius:3px;font-size:12px;color:var(--muted)}
+ .results-learning-retention .stage.is-done{color:var(--text);background:var(--accent-blue-alpha-05);border-color:var(--accent-blue)}
+ .results-learning-retention.is-header{color:var(--muted);font-size:11px}
+ .results-learning-retention.is-header>span:not(:first-child){text-align:center}
+ .results-learning-method{border-top:1px solid color-mix(in srgb,var(--text) 16%,transparent);padding:12px 0;margin:12px 0}
+ .results-learning-method>summary{cursor:pointer;color:var(--text);font-size:13px;font-weight:600}
+ .results-learning-preview{padding:14px 0;border-top:1px solid color-mix(in srgb,var(--text) 24%,transparent)}
+ .results-learning-preview>h3{font-size:17px;color:var(--text);margin:0 0 7px;letter-spacing:-.02em}
+ .results-learning-preview .results-learning-kpis{padding:12px 0;margin:10px 0 14px}
+ .results-learning-preview a,.results-learning-method a{color:var(--text);font-size:13px;text-decoration:underline;text-underline-offset:3px}
+ .results-view-panel .results-page-heading{margin-bottom:24px;padding-bottom:18px}
+ .results-view-panel .results-concept strong,.results-view-panel .results-study-action-copy h3{color:var(--text)}
+ .results-view-panel .results-history-event-context,.results-view-panel .results-concept small{line-height:1.55}
+ .results-view-panel .results-week-table th{white-space:normal;font-size:11px}
+ .results-view-panel .results-week-table td{font-size:13px}
+ @media(max-width:560px){.results-learning-kpis{gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}.results-learning-series-row{grid-template-columns:64px minmax(0,1fr) 82px;gap:7px;font-size:11px}.results-learning-retention{gap:5px;grid-template-columns:minmax(0,1fr) repeat(3,34px)}}
  /* Navegacao lateral: cada visao e uma pagina, nao uma pilha de accordions. */
  .results-layout{max-width:1180px}
  /* Barra e conteudo usam as mesmas bordas e largura do projeto. */
@@ -272,16 +317,17 @@
  const panels=new Map(), links=new Map();
  const descriptions={
   resumo:['Visão geral','O que vale fazer agora e como seus estudos estão avançando.'],
+  aprendizagem:['Aprendizagem','Independência, transferência e retenção ao longo do tempo.'],
   revisoes:['Revisões','Atividades pendentes, retestes e materiais para praticar.'],
   materias:['Desempenho por matéria','Resultados e cobertura dos assuntos previstos no edital.'],
-  historico:['Histórico de aprendizagem','Evidências de revisão e evolução dos conceitos.'],
+  historico:['Histórico de estudo','Consulte a trajetória de cada conceito e as tentativas registradas.'],
   semanas:['Questões por semana','Respostas por dia e por matéria, com acertos, erros e retestes.'], 
   erros:['Erros por dia','Erros e acertos inseguros, com respostas e explicações organizadas por data.']
  };
  for(const view of views){
   const a=document.createElement('a');a.textContent=view.label;
   const href=new URL(location.href);
-  if(onWorker){href.pathname=paths[view.id];if(view.id==='erros'||view.id==='semanas')href.searchParams.set('visao',view.id);else href.searchParams.delete('visao');}
+  if(onWorker){href.pathname=paths[view.id];if(['erros','semanas','aprendizagem'].includes(view.id))href.searchParams.set('visao',view.id);else href.searchParams.delete('visao');}
   else href.searchParams.set('visao',view.id);
   a.href=href.pathname+href.search+href.hash;
   nav.append(a);links.set(view.id,a);
@@ -294,6 +340,10 @@
   for(const selector of view.selectors){
    const section=root.querySelector(selector);
    if(section)panel.append(section);
+  }
+  if(view.id==='aprendizagem'){
+   const region=document.createElement('section');region.id='results-learning-dashboard';region.className='results-section';region.setAttribute('aria-live','polite');
+   region.textContent='Aguardando dados autenticados…';panel.insertBefore(region,panel.children[1]||null);
   }
   if(view.id==='semanas'){
    const region=document.createElement('section');region.id='results-weeks';region.className='results-section';region.setAttribute('aria-live','polite');
@@ -357,6 +407,15 @@
  const sourceStatus=document.getElementById('results-quiz-status');
  if(sourceStatus)document.getElementById('results-quiz-stats')?.parentElement?.append(sourceStatus);
  moveDetail('results-articles','historico','Questões e explicações por artigo');
+ const learningDetail=document.getElementById('results-quiz-learning-section');
+ if(learningDetail){
+  const details=document.createElement('details');details.className='results-learning-method';
+  const summary=document.createElement('summary');summary.textContent='Detalhes das respostas no site (7 e 30 dias)';
+  details.append(summary,learningDetail);panels.get('aprendizagem').append(details);
+ }
+ const retention=document.getElementById('results-retention');
+ if(retention){const details=document.createElement('details');details.className='results-learning-method';const summary=document.createElement('summary');summary.textContent='Evidências recentes de retenção';retention.before(details);details.append(summary,retention);}
+ const summaryLearning=document.createElement('section');summaryLearning.id='results-learning-summary';summaryLearning.className='results-section results-learning-preview';panels.get('resumo').append(summaryLearning);
  // Fila antiga segue no DOM para compatibilidade, mas nao duplica o motor adaptativo.
  const legacyShell=root.querySelector('.results-history-content');
  if(legacyShell)legacyShell.hidden=true;
@@ -369,8 +428,8 @@
  function current(){
   if(onWorker){
    const detail=new URLSearchParams(location.search).get('visao');
-   if(location.pathname===paths.historico&&(detail==='erros'||detail==='semanas'))return detail;
-   const page=Object.keys(paths).find(id=>id!=='erros'&&id!=='semanas'&&paths[id]===location.pathname);
+   if(location.pathname===paths.historico&&['erros','semanas','aprendizagem'].includes(detail))return detail;
+   const page=Object.keys(paths).find(id=>!['erros','semanas','aprendizagem'].includes(id)&&paths[id]===location.pathname);
    if(page)return page;
   }
   const p=new URLSearchParams(location.search).get('visao');
@@ -396,7 +455,8 @@
  // A API autenticada devolve totais já conciliados entre chat e site.
  // Nenhum registro de tentativa é persistido nesta página.
  const weekTarget=document.getElementById('results-weeks');
- let weeklyData=null,weekSelection='';
+ const learningTarget=document.getElementById('results-learning-dashboard');
+ let weeklyData=null,weekSelection='',learningData=null,learningPeriod=30,learningLimit=8;
  const dayName=['Seg','Ter','Qua','Qui','Sex','Sáb','Dom'];
  const numericFields=['total','correct','incorrect','blank','retests'];
  const learningFields=['independent','independentSecure','consultedCorrect','feedbackCorrect','supportedCorrect','contextUnknown'];
@@ -438,6 +498,130 @@
    foot.append(tr);table.append(foot);
   }
   wrap.append(table);return wrap;
+ }
+
+ function periodRows(weeks,subject,days,asOf){
+  const end=new Date(asOf+'T12:00:00Z');
+  const start=new Date(end);start.setUTCDate(start.getUTCDate()-days+1);
+  const startKey=start.toISOString().slice(0,10);
+  const total=zero(),matters=new Map(),series=new Map();
+  for(const w of weeks||[])for(const d of w.days||[]){
+   if(d.date<startKey||d.date>asOf)continue;
+   for(const v of d.subjects||[]){
+    if(subject&&v.subjectId!==subject)continue;
+    const id=v.subjectId||'sem-materia';
+    if(!matters.has(id))matters.set(id,zero());
+    if(!series.has(w.start))series.set(w.start,zero());
+    addValues(total,v);addValues(matters.get(id),v);addValues(series.get(w.start),v);
+   }
+  }
+  return {total,matters,series,startKey,asOf};
+ }
+ function learningRate(v,key){
+  return v.learningAvailable&&v.correct+v.incorrect>0 ? v[key]/(v.correct+v.incorrect) : null;
+ }
+ function showRate(v){return v===null?'Sem amostra':accuracyFormat.format(v);}
+ function learningKpi(label,value,detail){
+  const node=newNode('div','results-learning-kpi');node.append(newNode('span','',label),newNode('strong','',value),newNode('small','',detail));return node;
+ }
+ function learningBlock(title,subtitle){
+  const node=newNode('section','results-learning-block');node.append(newNode('h3','',title));if(subtitle)node.append(newNode('p','',subtitle));return node;
+ }
+ function track(rate,supported=false){
+  const wrap=newNode('div','results-learning-track');wrap.setAttribute('aria-hidden','true');
+  if(rate!==null){const fill=newNode('span','results-learning-fill'+(supported?' is-supported':''));fill.style.width=(Math.max(0,Math.min(1,rate))*100)+'%';wrap.append(fill);}
+  return wrap;
+ }
+ function subjectLabel(id){
+  const option=[...(document.getElementById('results-subject-filter')?.options||[])].find(o=>o.value===id);
+  return option?.textContent||id.replaceAll('-',' ');
+ }
+ function retentionStages(p,intervals){
+  if(p.state==='provisional-mastery')return intervals.map(()=>true);
+  const anchor=(p.recentEvents||[]).find(e=>e.id===p.cycleAttemptId);
+  if(!anchor||!p.nextReview)return intervals.map(()=>null);
+  const next=(Date.parse(p.nextReview)-Date.parse(anchor.date))/86400000;
+  if(!intervals.includes(next))return intervals.map(()=>null);
+  return intervals.map(i=>i<next);
+ }
+ function learningPreview(target,report,principles){
+  target.replaceChildren(newNode('h3','','Aprendizagem'));
+  const row=newNode('div','results-learning-kpis');
+  const t=report.total;
+  row.append(learningKpi('Acertos independentes',showRate(learningRate(t,'independent')),'Últimos 30 dias · '+t.independent+' acertos registrados'),
+   learningKpi('Acertos com apoio',showRate(learningRate(t,'supportedCorrect')),'Últimos 30 dias · consulta ou correção'),
+   learningKpi('Conceitos com evidência',principles===null?'—':principles.filter(p=>(p.signals||[]).some(s=>s.kind==='independent')).length,'Histórico de testes independentes'));
+  const link=newNode('a','results-learning-link','Ver análise de aprendizagem');link.href=links.get('aprendizagem').href;target.append(row,link);
+ }
+ function drawLearning(){
+  if(!learningTarget)return;
+  const preview=document.getElementById('results-learning-summary');
+  learningTarget.replaceChildren();
+  const subject=document.getElementById('results-subject-filter')?.value||'';
+  if(!learningData?.weekly||!Array.isArray(learningData.weekly.weeks)){
+   learningTarget.append(newNode('p','results-week-error','Dados de aprendizagem ainda indisponíveis.'));if(preview)preview.replaceChildren();return;
+  }
+  const asOf=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo'}).format(new Date());
+  const weeks=learningData.weekly.weeks;
+  const report=periodRows(weeks,subject,learningPeriod,asOf);
+  const t=report.total;
+  const plan=learningData.adaptive?.version===1?learningData.adaptive:null;
+  const principles=plan?(plan.principles||[]).filter(p=>!subject||p.subjectId===subject):null;
+  if(preview)learningPreview(preview,periodRows(weeks,subject,30,asOf),principles);
+  const toolbar=newNode('div','results-learning-toolbar');
+  toolbar.append(newNode('span','results-caption',subject?subjectLabel(subject):'Todas as matérias'));
+  const label=newNode('label','','Período das respostas');label.htmlFor='results-learning-period';
+  const select=newNode('select');select.id='results-learning-period';
+  for(const n of [7,30,90]){const op=newNode('option','','Últimos '+n+' dias');op.value=String(n);select.append(op);}
+  select.value=String(learningPeriod);select.addEventListener('change',()=>{learningPeriod=Number(select.value);drawLearning();document.getElementById('results-learning-period')?.focus();});
+  toolbar.append(label,select);learningTarget.append(toolbar);
+  const kpis=newNode('div','results-learning-kpis');
+  const judged=t.correct+t.incorrect;
+  const context=t.learningAvailable?Math.max(0,judged-t.contextUnknown):null;
+  const priorEnd=new Date(asOf+'T12:00:00Z');priorEnd.setUTCDate(priorEnd.getUTCDate()-learningPeriod);
+  const prior=periodRows(weeks,subject,learningPeriod,priorEnd.toISOString().slice(0,10)).total;
+  const rate=learningRate(t,'independent'),previous=learningRate(prior,'independent');
+  const trend=rate!==null&&previous!==null&&t.contextUnknown===0&&prior.contextUnknown===0?' · '+((rate-previous)>=0?'+':'')+((rate-previous)*100).toFixed(1).replace('.',',')+' p.p.':'';
+  kpis.append(learningKpi('Acertos independentes',showRate(rate),t.learningAvailable?t.independent+' de '+judged+' respostas julgadas'+trend:'Métrica indisponível'),
+   learningKpi('Acertos com apoio',showRate(learningRate(t,'supportedCorrect')),t.learningAvailable?t.supportedCorrect+' acertos · consulta ou correção':'Métrica indisponível'),
+   learningKpi('Conceitos com retenção observada',principles===null?'—':principles.filter(p=>(p.signals||[]).some(s=>s.kind==='independent')).length,'Histórico completo · não é domínio definitivo'));
+  learningTarget.append(kpis);
+  if(context!==null)learningTarget.append(newNode('p','results-caption',context+' de '+judged+' respostas julgadas com contexto completo. Os percentuais são mínimos observados sobre todas as respostas julgadas.'));
+  const evolution=learningBlock('Evolução da independência','Por semana, dentro do período selecionado. Mesma base: acertos e erros.');
+  const legend=newNode('div','results-learning-legend');legend.append(newNode('span','','Independentes'),newNode('span','','Com apoio'));evolution.append(legend);
+  const series=newNode('div','results-learning-series');
+  for(const [week,v] of [...report.series].sort((a,b)=>a[0].localeCompare(b[0]))){
+   const row=newNode('div','results-learning-series-row');const tracks=newNode('div','results-learning-tracks');
+   const a=learningRate(v,'independent'),b=learningRate(v,'supportedCorrect');
+   tracks.append(track(a),track(b));row.append(newNode('span','',datePt(week).slice(0,5)),tracks,newNode('span','',a===null||b===null?'Sem amostra':showRate(a)+' / '+showRate(b)));series.append(row);
+  }
+  if(!report.series.size)series.append(newNode('p','results-caption','Sem respostas no período.'));
+  evolution.append(series);learningTarget.append(evolution);
+  const matters=learningBlock('Independência por matéria','Percentual de acertos independentes entre respostas julgadas.');
+  for(const [id,v] of [...report.matters].sort((a,b)=>b[1].total-a[1].total||a[0].localeCompare(b[0]))){
+   const node=newNode('div','results-learning-matter'),top=newNode('div','results-learning-matter-top');
+   const rate=learningRate(v,'independent');top.append(newNode('span','',subjectLabel(id)),newNode('strong','',showRate(rate)));
+   node.append(top,track(rate),newNode('small','',v.learningAvailable?v.independent+' independentes · '+v.independentSecure+' com segurança · '+v.consultedCorrect+' com consulta · '+v.feedbackCorrect+' após correção · '+v.contextUnknown+' sem contexto completo':'Métricas de contexto indisponíveis'));matters.append(node);
+  }
+  if(!report.matters.size)matters.append(newNode('p','results-caption','Sem dados para a matéria e o período selecionados.'));
+  learningTarget.append(matters);
+  const retention=learningBlock('Retenção por conceito','Ciclo atual de retestes em questões diferentes, com segurança, sem consulta e sem correção prévia. Histórico completo.');
+  const intervals=plan?.intervals||[2,7,21];
+  if(!principles?.length||intervals.length!==3)retention.append(newNode('p','results-caption','Sem ciclos de retenção disponíveis.'));
+  else{
+   const header=newNode('div','results-learning-retention is-header');header.append(newNode('span','','Conceito'),...intervals.map(n=>newNode('span','',n+' d')));retention.append(header);
+   const status={'review-pending':'Revisão pendente','retention-check':'Retenção em verificação','provisional-mastery':'Domínio provisório','recent-learning':'Aprendizagem recente','insufficient-evidence':'Evidência insuficiente'};
+   const sorted=[...principles].sort((a,b)=>Number(b.state==='review-pending')-Number(a.state==='review-pending')||String(a.nextReview||'9999').localeCompare(String(b.nextReview||'9999'))||String(a.title).localeCompare(String(b.title)));
+   for(const p of sorted.slice(0,learningLimit)){
+    const row=newNode('div','results-learning-retention'),name=newNode('span','',p.title||p.principleId);
+    name.append(newNode('small','', (status[p.state]||'Estado não identificado')+(p.nextReview?' · '+datePt(p.nextReview):'')));
+    row.append(name,...retentionStages(p,intervals).map((v,i)=>{const cell=newNode('span','stage'+(v===true?' is-done':''),v===true?'✓':v===false?'○':'?');cell.setAttribute('aria-label',intervals[i]+' dias: '+(v===true?'concluído':v===false?'pendente':'sem informação suficiente'));return cell;}));retention.append(row);
+   }
+   if(sorted.length>learningLimit){const more=newNode('button','results-concept-more','Ver mais conceitos');more.type='button';more.addEventListener('click',()=>{learningLimit+=12;drawLearning();});retention.append(more);}
+   retention.append(newNode('p','results-caption','✓ etapa concluída · ○ pendente · ? sem informação suficiente sobre o ciclo.'));
+  }
+  learningTarget.append(retention);
+  const method=newNode('details','results-learning-method');method.append(newNode('summary','','Como interpretar as medidas'),newNode('p','results-caption','Os indicadores conciliam chat e site. Independente exige ambos os campos explicitamente falsos. Consulta e correção podem coincidir; acertos com apoio são contados uma vez. Registros sem contexto não são classificados como independentes. As etapas de retenção são do ciclo atual, não um certificado de domínio.'));learningTarget.append(method);
  }
  function drawWeeks(){
   if(!weekTarget)return;
@@ -483,6 +667,7 @@
    (sum.blank?' · '+sum.blank+' em branco':'')+' · '+sum.retests+' retestes da mesma questão'+
    (subject?' · matéria filtrada':''));
   weekTarget.append(hint);
+  const weekMetrics=newNode('div','results-learning-kpis');weekMetrics.append(learningKpi('Questões',sum.total,'Volume na semana'),learningKpi('Taxa de acerto',weeklyAccuracy(sum)||'Sem amostra','Acertos / respostas julgadas'),learningKpi('Retestes',sum.retests,'Mesma questão'));weekTarget.append(weekMetrics);
   const columns=['Dia','Questões','Acertos','Erros','Brancos','Retestes'];
   const dayBlock=newNode('section','results-week-block');
   dayBlock.append(newNode('h3','','Por dia'),summaryTable(columns,dayRows,
@@ -503,23 +688,17 @@
    matterBlock.append(newNode('p','results-week-method','A taxa considera acertos e erros. Questões em branco ficam fora do cálculo.'));
   }else matterBlock.append(newNode('p','results-week-error','Sem questões nesta matéria durante a semana selecionada.'));
   weekTarget.append(matterBlock);
-  const learningBlock=newNode('section','results-week-block');
-  learningBlock.append(newNode('h3','','Independência dos acertos por matéria'));
-  const learningRow=(name,v)=>[name,v.correct,...learningFields.map(f=>v.learningAvailable?v[f]:null)];
-  if(matters.length)learningBlock.append(summaryTable(['Matéria','Acertos','Independentes','Indep. seguros','Com consulta','Após correção','Com apoio','Contexto incompleto'],matters.map(([id,v])=>learningRow(known[id]||id,v)),learningRow('Total',sum)));
-  learningBlock.append(newNode('p','results-week-method','Consulta e correção podem coincidir. Com apoio conta cada acerto uma só vez. Contexto incompleto conta respostas julgadas sem os dois campos; traço indica API sem a métrica.'));
-  const trends=newNode('section','results-week-block');trends.append(newNode('h3','','Evolução nas últimas semanas'+(subject?' · matéria filtrada':'')));
-  const trendRows=weeks.slice(0,8).map(w=>{const total=zero();for(const d of w.days||[])for(const v of d.subjects||[])if(!subject||v.subjectId===subject)addValues(total,v);return learningRow(datePt(w.start)+' a '+datePt(w.end),total);});
-  trends.append(summaryTable(['Semana','Acertos','Independentes','Indep. seguros','Com consulta','Após correção','Com apoio','Contexto incompleto'],trendRows));
-  weekTarget.append(learningBlock,trends);
+  const link=newNode('a','results-learning-link','Analisar independência, consulta e retenção em Aprendizagem');link.href=links.get('aprendizagem').href;weekTarget.append(link);
   weekTarget.append(newNode('p','results-week-method',
    'Reteste significa nova resposta à mesma questão identificada na mesma origem. Tentativas distintas são contadas separadamente. Revisar uma questão não comprova retenção independente. Dias sem informação têm indicação própria; os totais vêm da API autenticada, que concilia chat e site.'));
  }
  window.addEventListener('results:data',event=>{
   if(event.detail?.data?.concursoId!==weeklyData?.concursoId)weekSelection='';
+  if(event.detail?.data?.concursoId!==learningData?.concursoId)learningLimit=8;
+  learningData=event.detail?.data||null;
   weeklyData=event.detail?.data?.weekly?{...event.detail.data.weekly,concursoId:event.detail.data.concursoId}:null;
-  drawWeeks();
+  drawWeeks();drawLearning();
  });
- window.addEventListener('results:filter',drawWeeks);
+ window.addEventListener('results:filter',()=>{learningLimit=8;drawWeeks();drawLearning();});
  addEventListener('popstate',show);show();
 })();

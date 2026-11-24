@@ -256,3 +256,24 @@ A capa do caderno **CAMARA12_CB4_07**, Câmara dos Deputados, Analista Legislati
 Cotejei os itens 32 a 39 da página 4 do PDF de 2012 com o gabarito definitivo do mesmo código. São oito itens válidos à época, com quatro gabaritos C e quatro E. A operação predominante foi literal em quatro, aplicação em dois, distinção em um e exceção em um. A matriz consolidada passa a 86 itens de quatro cadernos, incluindo quatro anulações. Um item do novo recorte recebeu prioridade alta, seis média e um baixa. O item 39 está desatualizado pela EC nº 72/2013. O gabarito histórico foi mantido apenas como registro. [Prova de 2012, itens 32 a 39](https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/CAMARA12_CB4_07.pdf#page=4) · [Gabarito definitivo CB4-07](https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/Gab_definitivo_CAMARA12_CB4_07.pdf) · [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)
 
 O item 38 entrou no catálogo autenticado com o comando da seção e a afirmação integral sobre a nacionalidade exigida de oficial. A correção atribui a fonte e indica o art. 12, § 3º, VI, da Constituição. Os demais itens do recorte ficam documentados na matriz para seleção e revisão.
+
+## Auditoria individual de veto, sanção, promulgação e tramitação
+
+Cotejei 12 itens do banco principal com os arts. 64 a 66 da Constituição, incluindo dez do lote `cam-pl-l029`. O item 80 da Câmara 2014 serviu de referência para a sequência de autoridades na promulgação. Foram atualizados os metadados e a fundamentação de 11 itens. O autoral calibrado sobre duas omissões sucessivas manteve a classificação de integração difícil. Enunciados, gabaritos, IDs e vínculos teóricos permaneceram preservados. [Constituição consolidada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) · [Caderno CB2-03](https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf)
+
+| Item | Operação necessária | Dificuldade revista |
+| --- | --- | --- |
+| `cam-pl-l029-001` | Aplicar o limite do veto parcial à expressão isolada dentro do inciso | Média |
+| `cam-pl-l029-002` | Separar o efeito do silêncio na sanção do efeito da omissão na promulgação | Média |
+| `cam-pl-l029-003` | Calcular duas maiorias absolutas e verificar ambas as condições | Difícil |
+| `cam-pl-l029-004` | Recuperar os fundamentos alternativos do veto | Fácil |
+| `cam-pl-l029-005` | Distinguir destinatário constitucional e Casa iniciadora | Fácil |
+| `cam-pl-l029-006` | Encadear rejeição do veto e primeira substituição na promulgação | Média |
+| `cam-pl-l029-007` | Identificar a última autoridade após as duas omissões sucessivas | Difícil |
+| `cam-pl-l029-008` | Enquadrar o STJ na regra dos tribunais superiores sobre Casa iniciadora | Fácil |
+| `cam-pl-l029-009` | Identificar a Casa conclusora quando a revisora aprova sem emendas e aplicar a regra de envio | Média |
+| `cam-pl-l029-010` | Separar termo inicial e unidade de contagem dos dois prazos | Difícil |
+| `cam-revisao-veto-rejeitado-vice-do-senado-na-sequencia` | Verificar se uma única omissão permite saltar a autoridade intermediária | Média |
+| `cam-calibrada-const-vice-senado-depois-de-duas-omissoes` | Combinar sanção tácita e duas omissões sucessivas para localizar a autoridade competente | Difícil |
+
+As variantes com uma ou duas omissões preservam uma diferença útil. Quando só o Presidente da República fica omisso, ainda cabe ao Presidente do Senado exercer a competência. Quando ambos ficam omissos nos respectivos prazos, passa-se ao Vice-Presidente do Senado. Nos itens sobre quórum e prazo, a conclusão muda se variar o total da Casa que ficou abaixo do mínimo ou o momento em que o veto foi decidido. Esses são fatos decisivos que podem sustentar novos casos completos.

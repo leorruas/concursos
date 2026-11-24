@@ -26606,7 +26606,7 @@
       "mechanism": "veto-rejeitado-vice-do-senado-na-sequencia",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
-      "cognitiveOperation": "aplicação",
+      "cognitiveOperation": "integração",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
@@ -26617,8 +26617,8 @@
       },
       "statement": "Após a rejeição de um veto, o Presidente da República deixa transcorrer o prazo constitucional para promulgar a lei. O Vice-Presidente do Senado deve promulgá-la imediatamente, antes de se aguardar atuação do Presidente do Senado.",
       "correctAnswer": "E",
-      "explanation": "A competência passa primeiro ao Presidente do Senado. Somente se ele também deixar passar o mesmo prazo, cabe ao Vice-Presidente do Senado promulgar.",
-      "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+      "explanation": "A rejeição do veto leva o projeto ao Presidente da República para promulgação. Se ele ficar omisso por 48 horas, a atribuição passa ao Presidente do Senado. Só após outras 48 horas de omissão ela passa ao Vice-Presidente do Senado.",
+      "reviewEvidence": "Constituição Federal, art. 66, §§ 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "origin": "inedita",
@@ -61366,7 +61366,7 @@
       "statement": "Para preservar a obrigação prevista em um inciso de projeto de lei, o presidente veta apenas a expressão que limita a obrigação aos contratos novos. O veto parcial, nesse caso, pode incidir sobre a expressão isolada, pois o restante do inciso conserva sentido gramatical.",
       "correctAnswer": "E",
       "explanation": "O veto parcial deve abranger a íntegra de artigo, parágrafo, inciso ou alínea. A autonomia gramatical do trecho excluído não autoriza o veto de palavras isoladas.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 66, § 2º (texto compilado no Planalto). Critério conferido: O veto parcial deve abranger a íntegra de artigo, parágrafo, inciso ou alínea. A autonomia gramatical do trecho excluído não autoriza o veto de palavras isoladas. Cotejo com o subtítulo literal da nota e com itens de tramitação, sanção e promulgação do banco e dos artigos. Dificuldade estimada editorialmente."
+      "reviewEvidence": "Constituição Federal, art. 66, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-pl-l029-002-sancao-silencio-e-promulgacao",
@@ -61382,7 +61382,7 @@
       "mechanism": "distinguir-efeitos-de-dois-prazos",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
-      "cognitiveOperation": "aplicação",
+      "cognitiveOperation": "integração",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
@@ -61394,7 +61394,7 @@
       "statement": "Se o presidente da República deixa transcorrer integralmente o prazo constitucional sem vetar um projeto de lei, a sua omissão posterior em promulgá-lo não desfaz a sanção já ocorrida.",
       "correctAnswer": "C",
       "explanation": "O silêncio ao término do prazo de veto resulta em sanção tácita. A omissão na promulgação aciona uma competência sucessiva e não altera o efeito do primeiro prazo.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 66, §§ 1º, 3º e 7º (texto compilado no Planalto). Critério conferido: O silêncio ao término do prazo de veto resulta em sanção tácita. A omissão na promulgação aciona uma competência sucessiva e não altera o efeito do primeiro prazo. Cotejo com o subtítulo literal da nota e com itens de tramitação, sanção e promulgação do banco e dos artigos. Dificuldade estimada editorialmente."
+      "reviewEvidence": "Constituição Federal, art. 66, §§ 3º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-pl-l029-003-veto-maioria-por-casa",
@@ -61410,7 +61410,7 @@
       "mechanism": "verificar-maiorias-separadas",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
-      "cognitiveOperation": "aplicação",
+      "cognitiveOperation": "integração",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
@@ -61422,7 +61422,7 @@
       "statement": "Na sessão conjunta do Congresso Nacional, 280 deputados e 40 senadores votaram pela rejeição de um veto. Como os 320 votos superam a maioria absoluta do total de parlamentares das duas Casas, o veto foi rejeitado.",
       "correctAnswer": "E",
       "explanation": "A rejeição exige maioria absoluta em cada Casa. Os 280 votos superam os 257 exigidos na Câmara, mas os 40 votos no Senado ficam abaixo dos 41 necessários.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 66, § 4º (texto compilado no Planalto). Critério conferido: A rejeição exige maioria absoluta em cada Casa. Os 280 votos superam os 257 exigidos na Câmara, mas os 40 votos no Senado ficam abaixo dos 41 necessários. Cotejo com o subtítulo literal da nota e com itens de tramitação, sanção e promulgação do banco e dos artigos. Dificuldade estimada editorialmente."
+      "reviewEvidence": "Constituição Federal, art. 66, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-pl-l029-004-veto-motivo-interesse-publico",
@@ -61436,9 +61436,9 @@
       "articleId": "art-d269c5708f314eba",
       "conceptId": "veto-motivo-interesse-publico",
       "mechanism": "distinguir-fundamento-juridico-e-politico",
-      "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
-      "cognitiveOperation": "aplicação",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
@@ -61450,7 +61450,7 @@
       "statement": "Um projeto aprovado pelo Congresso pode receber veto por contrariedade ao interesse público mesmo que o presidente da República reconheça a constitucionalidade de seu conteúdo.",
       "correctAnswer": "C",
       "explanation": "A contrariedade ao interesse público e a inconstitucionalidade são fundamentos alternativos de veto. A ausência do segundo fundamento não impede o primeiro.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 66, § 1º (texto compilado no Planalto). Critério conferido: A contrariedade ao interesse público e a inconstitucionalidade são fundamentos alternativos de veto. A ausência do segundo fundamento não impede o primeiro. Cotejo com o subtítulo literal da nota e com itens de tramitação, sanção e promulgação do banco e dos artigos. Dificuldade estimada editorialmente."
+      "reviewEvidence": "Constituição Federal, art. 66, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-pl-l029-005-veto-destinatario-dos-motivos",
@@ -61464,9 +61464,9 @@
       "articleId": "art-d269c5708f314eba",
       "conceptId": "veto-destinatario-dos-motivos",
       "mechanism": "identificar-destinatario-da-comunicacao",
-      "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
-      "cognitiveOperation": "aplicação",
+      "questionType": "conceitual",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
@@ -61478,7 +61478,7 @@
       "statement": "Em projeto de lei iniciado na Câmara e aprovado sem emendas pelo Senado, basta ao presidente da República comunicar os motivos do veto ao presidente da Câmara, por ser esta a Casa iniciadora.",
       "correctAnswer": "E",
       "explanation": "O destinatário constitucional é o presidente do Senado Federal, independentemente da Casa em que o projeto teve início.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 66, § 1º (texto compilado no Planalto). Critério conferido: O destinatário constitucional é o presidente do Senado Federal, independentemente da Casa em que o projeto teve início. Cotejo com o subtítulo literal da nota e com itens de tramitação, sanção e promulgação do banco e dos artigos. Dificuldade estimada editorialmente."
+      "reviewEvidence": "Constituição Federal, art. 66, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-pl-l029-006-promulgacao-apos-veto-rejeitado",
@@ -61493,8 +61493,8 @@
       "conceptId": "promulgacao-apos-veto-rejeitado",
       "mechanism": "ordenar-competencias-sucessivas",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "dificil",
-      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
@@ -61506,7 +61506,7 @@
       "statement": "Rejeitado o veto, o texto retorna ao presidente da República para promulgação. Se ele deixar transcorrer o prazo de 48 horas, a atribuição seguinte será do presidente do Senado Federal.",
       "correctAnswer": "C",
       "explanation": "A rejeição do veto conduz à remessa para promulgação presidencial. A Constituição atribui a promulgação ao presidente do Senado se o presidente da República ficar omisso no prazo.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 66, §§ 5º e 7º (texto compilado no Planalto). Critério conferido: A rejeição do veto conduz à remessa para promulgação presidencial. A Constituição atribui a promulgação ao presidente do Senado se o presidente da República ficar omisso no prazo. Cotejo com o subtítulo literal da nota e com itens de tramitação, sanção e promulgação do banco e dos artigos. Dificuldade estimada editorialmente."
+      "reviewEvidence": "Constituição Federal, art. 66, §§ 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-pl-l029-007-promulgacao-vice-senado",
@@ -61522,7 +61522,7 @@
       "mechanism": "localizar-segundo-substituto",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
-      "cognitiveOperation": "aplicação",
+      "cognitiveOperation": "integração",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
@@ -61534,7 +61534,7 @@
       "statement": "Houve sanção tácita de um projeto. O presidente da República e o presidente do Senado deixaram transcorrer, sucessivamente, os respectivos prazos de promulgação. Nessa situação, o presidente da Câmara assume a atribuição de promulgar a lei.",
       "correctAnswer": "E",
       "explanation": "Depois da omissão sucessiva do presidente da República e do presidente do Senado, a competência passa ao vice-presidente do Senado.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 66, § 7º (texto compilado no Planalto). Critério conferido: Depois da omissão sucessiva do presidente da República e do presidente do Senado, a competência passa ao vice-presidente do Senado. Cotejo com o subtítulo literal da nota e com itens de tramitação, sanção e promulgação do banco e dos artigos. Dificuldade estimada editorialmente."
+      "reviewEvidence": "Constituição Federal, art. 66, §§ 3º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-pl-l029-008-iniciativa-stj-casa-iniciadora",
@@ -61549,7 +61549,7 @@
       "conceptId": "iniciativa-stj-casa-iniciadora",
       "mechanism": "classificar-tribunal-superior-para-tramitacao",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -61562,7 +61562,7 @@
       "statement": "Se o Superior Tribunal de Justiça apresentar um projeto de lei no exercício da sua iniciativa constitucional, sua discussão e votação terão início na Câmara dos Deputados.",
       "correctAnswer": "C",
       "explanation": "O art. 64 inclui projetos de iniciativa dos tribunais superiores. O STJ pertence a esse grupo, de modo que a Câmara é a Casa iniciadora.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 64, caput (texto compilado no Planalto). Critério conferido: O art. 64 inclui projetos de iniciativa dos tribunais superiores. O STJ pertence a esse grupo, de modo que a Câmara é a Casa iniciadora. Cotejo com o subtítulo literal da nota e com itens de tramitação, sanção e promulgação do banco e dos artigos. Dificuldade estimada editorialmente."
+      "reviewEvidence": "Constituição Federal, art. 64, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-pl-l029-009-remessa-casa-que-conclui",
@@ -61578,7 +61578,7 @@
       "mechanism": "atribuir-remessa-apos-aprovacao-sem-emendas",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
-      "cognitiveOperation": "aplicação",
+      "cognitiveOperation": "integração",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
@@ -61590,7 +61590,7 @@
       "statement": "Um projeto de lei de iniciativa de senador foi aprovado pelo Senado e, depois, pela Câmara sem alterações. Para que a sanção seja possível, o projeto precisa retornar ao Senado apenas para que a Casa iniciadora o envie à Presidência da República.",
       "correctAnswer": "E",
       "explanation": "A Câmara concluiu a votação e deve enviar o projeto à Presidência. A Constituição atribui o envio à Casa que concluiu a votação, independentemente da origem do projeto.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 65 e 66, caput (texto compilado no Planalto). Critério conferido: A Câmara concluiu a votação e deve enviar o projeto à Presidência. A Constituição atribui o envio à Casa que concluiu a votação, independentemente da origem do projeto. Cotejo com o subtítulo literal da nota e com itens de tramitação, sanção e promulgação do banco e dos artigos. Dificuldade estimada editorialmente."
+      "reviewEvidence": "Constituição Federal, art. 65 e 66, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-pl-l029-010-veto-decursos-de-prazo",
@@ -61606,7 +61606,7 @@
       "mechanism": "distinguir-prazo-de-veto-e-comunicacao",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
-      "cognitiveOperation": "aplicação",
+      "cognitiveOperation": "integração",
       "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
@@ -61617,8 +61617,8 @@
       },
       "statement": "Se o presidente da República vetar um projeto de lei no último dia útil do prazo constitucional para o veto, a comunicação dos motivos ao presidente do Senado pode ocorrer depois desse dia, desde que feita dentro das 48 horas seguintes ao veto.",
       "correctAnswer": "C",
-      "explanation": "A Constituição estabelece prazos distintos para a decisão de veto e para a comunicação de seus motivos. A segunda obrigação pode ser cumprida depois do término da primeira janela.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 66, § 1º (texto compilado no Planalto). Critério conferido: A Constituição estabelece prazos distintos para a decisão de veto e para a comunicação de seus motivos. A segunda obrigação pode ser cumprida depois do término da primeira janela. Cotejo com o subtítulo literal da nota e com itens de tramitação, sanção e promulgação do banco e dos artigos. Dificuldade estimada editorialmente."
+      "explanation": "A decisão de veto tem prazo de quinze dias úteis a partir do recebimento. Uma vez exercido o veto, começa a janela distinta de 48 horas para comunicar os motivos ao Presidente do Senado. A comunicação pode ocorrer depois do último dia útil do primeiro prazo, pois seu marco é a decisão de vetar.",
+      "reviewEvidence": "Constituição Federal, art. 66, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-pl-l030-001-parecer-apensado-omissao",

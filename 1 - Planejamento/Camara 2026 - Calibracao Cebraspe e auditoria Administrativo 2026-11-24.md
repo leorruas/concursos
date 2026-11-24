@@ -221,3 +221,18 @@ O item 47 do caderno da Câmara aplicado em 2026 exige localizar no cenário com
 | `dificil-2026-04-ampliacao-2` | Distinguir circunscrição territorial e criação de entidade | Média |
 
 As variantes de campi repetem a fronteira básica e servem para fixação. A concessão acrescenta uma variável decisiva, a execução por um particular com personalidade própria. Nos dois itens de integração, a inversão do erro entre a primeira e a segunda etapa permite identificar em qual operação ocorreu a confusão. A revisão preservou IDs, enunciados e gabaritos. [Caderno oficial da Câmara](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/1-prova-objetiva-de-conhecimentos-gerais-analista-e-tecnico) · [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) · [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)
+
+## Extensão efetiva com o caso compartilhado
+
+A extensão do trecho numerado subestima o volume de leitura de questões com caso compartilhado. Para estimá-lo, normalizei espaços no texto extraído dos PDFs e somei o caso e o comando comum ao trecho numerado de cada item a que se aplicam. A medida descreve a exposição por item. Em uma bateria que apresenta o caso uma única vez, o candidato pode reaproveitar a leitura. Os comandos temáticos sem caso permanecem fora da contagem para preservar as medidas anteriores da matriz.
+
+| Recorte | Itens válidos | Mediana do trecho numerado | Mediana com caso e comando compartilhados | Máximo com caso e comando | Acima de 336 caracteres |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Câmara 2014, itens 71–110 | 37 | 146 | 146 | 328 | 0 |
+| Câmara aplicada em 2026, itens 47–64 | 18 | 201,5 | 222,5 | 1.407 | 5 |
+| TCU 2025, itens 71–75 e 106–120 | 19 | 220 | 264 | 718 | 5 |
+| Lote autoral calibrado de Constitucional | 40 | 273,5 | 273,5 | 336 | 0 |
+
+Pontos de extração para reproduzir a medida. Na Câmara aplicada em 2026, o caso de cooperação institucional ocupa **1.119 caracteres** com o comando e se aplica aos itens 47 e 48, na página 4 do PDF. O caso da licença ocupa **669 caracteres** e se aplica aos itens 55 a 57, na página 5. No TCU, o caso de contratação direta ocupa **578 caracteres** e se aplica aos itens 71 a 75, na página 2. Somei um espaço entre o trecho comum e cada afirmação. As contagens excluem itens anulados. [Caderno da Câmara 2014](https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf) · [Caderno da Câmara aplicado em 2026](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/1-prova-objetiva-de-conhecimentos-gerais-analista-e-tecnico) · [Caderno do TCU](https://cdn.cebraspe.org.br/concursos/tcu_25_tefc/arquivos/108_TCUTEFC_001_01.pdf)
+
+O lote autoral tem mediana superior às dos recortes oficiais, mas nenhum item alcança a faixa dos casos compartilhados identificados no caderno recente da Câmara e no TCU. A lacuna está na estrutura. O mesmo caso oficial pode combinar fatos relevantes para operações distintas, como separar a personalidade jurídica da fundação da redistribuição de atribuições entre órgãos da própria Câmara. Um item do caso pode exigir classificar a relação interna e outro examinar o que foi atribuído à entidade externa. Para simular essa leitura, os casos autorais devem poder sustentar mais de um julgamento com premissas decisivas distintas. A amostra reúne cargos e tópicos diferentes e não sustenta uma meta universal de comprimento.

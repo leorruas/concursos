@@ -447,7 +447,9 @@ const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
   officialEditalCode:officialCodeByQuestion.get(q.id)??officialCodeByReference.get(referenceKey(q.unitId,q.editalRef))??null,
   articleId:q.articleId || null,section:q.source?.section || null,conceptId:q.conceptId||null,mechanism:q.mechanism||null,
   format:q.format,origin:q.origin,estimatedDifficulty:q.estimatedDifficulty||null,
-  ...(q.calibration?.type==='autoral-calibrada'?{calibration:q.calibration,cognitiveOperation:q.cognitiveOperation}:{}),
+  ...(typeof q.cognitiveOperation==='string'&&q.cognitiveOperation.trim()?{cognitiveOperation:q.cognitiveOperation}:{}),
+  ...(typeof q.questionType==='string'&&q.questionType.trim()?{questionType:q.questionType}:{}),
+  ...(q.calibration?.type==='autoral-calibrada'?{calibration:q.calibration}:{}),
   statement:q.statement,correctAnswer:q.correctAnswer,explanation:q.explanation}));
 // Lote adicional independente para não reescrever o banco principal.
 const novasAdmin=JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-camara-administrativo-extra.json'),'utf8'));

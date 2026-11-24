@@ -147,6 +147,8 @@ Uso de análise: `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md"
 
 **Visibilidade:** aceita Markdown em `3 - Materias/` e `00 - Desempenho/`; exclui bastidores, duplicatas de sincronização e simulados que declarem simultaneamente `status: rascunho` e `parcial: true`. Referências em matérias podem ser públicas. **Contrato:** manifesto e índice representam exatamente os mesmos sourcePaths únicos. Seções H2/H3 recebem anchor normalizado e sufixo para repetição; `Avancos.md` recebe seções vazias. O índice compacta termos e trecho de 220 caracteres.
 
+**Banco público da Câmara.** A projeção do banco principal preserva a operação cognitiva e o tipo de questão quando informados na fonte editorial. Os campos permanecem opcionais para preservar a leitura do acervo legado.
+
 **Limites:** build não executa todos os validadores; JSON autorizado ausente gera aviso; parsers simplificados de frontmatter/cabeçalhos não equivalem a parsers completos de YAML/Markdown. Alterar cabeçalho pode alterar URL da seção. Não editar derivados manualmente. Uso: `node scripts/build-site.js`.
 
 ### scripts/validate-search-index.js

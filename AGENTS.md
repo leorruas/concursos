@@ -26,6 +26,8 @@ Este arquivo é a entrada obrigatória para **qualquer tarefa no repositório**.
 | Questões, simulados, resultados, editais, provas-espelho, dados privados e separação CGU/Câmara | [03: Dados, editais e questões](1%20-%20Planejamento/Guias%20de%20agentes/03-dados-editais-e-questoes.md) |
 | Commit, CI, Pages, busca, scripts, mudanças multi-arquivo e publicação | [04: Publicação e validação](1%20-%20Planejamento/Guias%20de%20agentes/04-publicacao-e-validacao.md) |
 
+**Questões Cebraspe:** antes de criar ou revisar questões do site ou do chat, abrir obrigatoriamente o guia 02, seção **Fórmula de elaboração de questões contextualizadas Cebraspe**, além do guia 03 para banco, provas-espelho e registro. Reproduzir o enunciado completo e a operação de julgamento quando a modalidade exigir aplicação; não converter casos em afirmações isoladas.
+
 Tarefas podem exigir **vários guias**. Sempre abrir o guia 04 antes de uma alteração que afete o site, sua publicação ou os validadores. Para alterações em Orçamento Público, ler também `1 - Planejamento/Orcamento Publico - Arquitetura CGU e Camara.md` e os percursos editoriais específicos. Para privacidade, consultar `1 - Planejamento/Privacidade e sincronizacao de estudo.md`.
 
 

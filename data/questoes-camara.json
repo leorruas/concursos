@@ -7827,7 +7827,7 @@
       "reviewStatus": "validada",
       "statement": "Um prefeito decidiu concorrer ao cargo de governador. Sete meses antes do pleito, afastou-se em licença com substituição pelo vice, mas conservou o mandato. Ele sustentou que a antecedência do afastamento já atendia à exigência constitucional.\n\nCom base nessa situação, julgue o item a seguir.\n\nA licença concedida sete meses antes do pleito equivale à renúncia exigida para concorrer a outro cargo.",
       "correctAnswer": "E",
-      "explanation": "O art. 14, § 6º, exige renúncia ao mandato até seis meses antes do pleito. O prazo não é o único requisito: a licença preserva o mandato, ao passo que a renúncia o extingue para o titular.",
+      "explanation": "**Regra:** Presidente, governador ou prefeito que pretende concorrer a outro cargo deve renunciar ao mandato até seis meses antes do pleito (Constituição, art. 14, § 6º). **Aplicação:** o prefeito se licenciou, mas continua titular do mandato; licença afasta temporariamente do exercício, não extingue o cargo. A antecedência de sete meses não substitui a renúncia exigida. **Pegadinha:** o texto exige renúncia, não mero afastamento.",
       "reviewEvidence": "Constituição Federal, art. 14, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -7860,7 +7860,7 @@
       "reviewStatus": "validada",
       "statement": "Uma governadora no primeiro mandato pretende disputar uma cadeira no Senado. Ela renunciou definitivamente sete meses antes do pleito. Um parecer sustentou que a renúncia fora inútil por se aplicar a ela a regra de reeleição do Executivo.\n\nCom base nessa situação, julgue o item a seguir.\n\nA renúncia definitiva atendeu à antecedência exigida para disputar outro cargo, independentemente das demais condições de elegibilidade.",
       "correctAnswer": "C",
-      "explanation": "A candidatura ao Senado é para outro cargo, submetendo-se ao § 6º. A renúncia sete meses antes atende à antecedência mínima. A possibilidade de disputar a reeleição ao Executivo segue disciplina própria.",
+      "explanation": "**Regra:** a possibilidade de reeleição do chefe do Executivo para o mesmo cargo é diferente da candidatura a cargo diverso. Para concorrer ao Senado, a governadora precisa renunciar até seis meses antes do pleito. **Aplicação:** a renúncia definitiva ocorreu sete meses antes, portanto respeita o prazo mínimo. **Pegadinha:** poder disputar mais um mandato como governadora não dispensa a renúncia para concorrer a outro cargo. (Constituição, art. 14, §§ 5º e 6º.)",
       "reviewEvidence": "Constituição Federal, art. 14, §§ 5º e 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -8751,7 +8751,7 @@
       "reviewStatus": "validada",
       "statement": "Um empresário questionou por habeas corpus a retenção ilegal de seu passaporte, alegando ameaça concreta à liberdade de locomoção. Antes de examinar o pedido, a serventia exigiu guia de custas porque ele não comprovou insuficiência de recursos.\n\nCom base nessa situação, julgue o item a seguir.\n\nA ausência de prova de insuficiência de recursos não justifica cobrar custas pelo ajuizamento do habeas corpus.",
       "correctAnswer": "C",
-      "explanation": "A gratuidade do habeas corpus está assegurada no art. 5º, LXXVII. Ela decorre da espécie de ação, sem teste de renda. O cabimento do pedido de proteção da locomoção é uma questão distinta.",
+      "explanation": "**Regra:** habeas corpus é ação gratuita por garantia constitucional; não é preciso provar pobreza ou insuficiência financeira. **Aplicação:** a retenção ilegal do passaporte pode ameaçar a liberdade de locomoção, e a cobrança de custas não pode depender de declaração de renda. **Distinção:** a gratuidade do instrumento e o cabimento do habeas corpus são perguntas separadas: é preciso haver ameaça ou restrição à locomoção para o remédio caber. (Constituição, art. 5º, LXVIII e LXXVII.)",
       "reviewEvidence": "Constituição Federal, art. 5º, LXVIII e LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -8784,7 +8784,7 @@
       "reviewStatus": "validada",
       "statement": "Uma pessoa assistida por advogado particular impetrou habeas corpus contra prisão que considerava ilegal. O órgão judicial condicionou o processamento ao pagamento de custas porque a contratação do advogado indicaria capacidade financeira.\n\nCom base nessa situação, julgue o item a seguir.\n\nA contratação de advogado particular afasta a gratuidade constitucional do habeas corpus se o impetrante puder pagar as custas.",
       "correctAnswer": "E",
-      "explanation": "A Constituição torna gratuita a ação de habeas corpus. Contratar advogado e ter capacidade financeira não alteram a gratuidade processual da ação. A existência de honorários contratados não cria custas judiciais.",
+      "explanation": "**Regra:** a ação de habeas corpus é gratuita, sem condição econômica. **Aplicação:** contratar advogado particular não autoriza cobrar custas judiciais nem afasta a gratuidade constitucional. **Distinção:** honorários são a remuneração ajustada com o profissional; custas são valores processuais devidos ao Estado. Uma coisa não cria a outra. (Constituição, art. 5º, LXXVII.)",
       "reviewEvidence": "Constituição Federal, art. 5º, LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10880,7 +10880,7 @@
       },
       "statement": "Uma política pública oferece vacinação e vigilância epidemiológica antes de surgirem novos casos de uma doença. Essas ações preventivas integram a garantia constitucional do direito social à saúde.",
       "correctAnswer": "C",
-      "explanation": "A Constituição inclui a saúde entre os direitos sociais e prevê políticas destinadas à redução do risco de doença. A garantia inclui prevenção e assistência. A ocorrência prévia de doença não é condição para a política preventiva.",
+      "explanation": "**Regra:** saúde é direito social e dever do Estado, garantido por políticas que reduzam o risco de doenças e assegurem acesso universal e igualitário às ações e serviços. **Aplicação:** vacinação e vigilância epidemiológica são ações preventivas e integram essa garantia mesmo antes de surgirem novos casos. **Pegadinha:** a proteção não começa apenas quando a pessoa já está doente. (Constituição, arts. 6º e 196.)",
       "reviewEvidence": "CF, arts. 6º e 196. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 71, da Câmara de 2014."
     },
     {
@@ -11474,7 +11474,7 @@
       },
       "statement": "Durante o recesso parlamentar, o Presidente da República decreta intervenção federal para pôr termo a grave comprometimento da ordem pública. O decreto fixa prazo, condições e alcance, sem nomear interventor por não ser necessário. A falta de nomeação não dispensa a apreciação parlamentar nem a convocação extraordinária.",
       "correctAnswer": "C",
-      "explanation": "Nessa hipótese, a apreciação do decreto é obrigatória. Se o Congresso não estiver funcionando, a convocação extraordinária deve ocorrer em até 24 horas. A nomeação de interventor tem condição própria: ocorre se couber.",
+      "explanation": "**Regra:** quando a intervenção depende de apreciação do Congresso e ele não está funcionando, o Presidente do Senado deve convocá-lo extraordinariamente em até 24 horas. **Aplicação:** a intervenção foi decretada durante o recesso e trata de hipótese sujeita a controle; a convocação é necessária mesmo sem nomeação de interventor. **Distinção:** a nomeação do interventor é exigida “se couber”; a convocação decorre da necessidade de apreciação parlamentar. (Constituição, arts. 34, III, e 36, §§ 1º e 2º.)",
       "reviewEvidence": "CF, arts. 34, III, e 36, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
     },
     {
@@ -11540,7 +11540,7 @@
       },
       "statement": "Uma estudante descobre que um banco de dados governamental contém informação incorreta sobre uma colega. Ela pede a retificação em nome próprio e, diante da recusa administrativa, impetra habeas data para corrigir o registro da colega. A recusa torna cabível a impetração em nome próprio.",
       "correctAnswer": "E",
-      "explanation": "O habeas data tutela informações relativas à pessoa do impetrante. A recusa administrativa não transforma dado de terceiro em dado pessoal da estudante. Se o registro incorreto fosse sobre ela própria, o requisito relativo ao objeto estaria preenchido.",
+      "explanation": "**Regra:** habeas data protege o acesso ou a retificação de informações relativas à própria pessoa do impetrante em registros governamentais ou de caráter público. **Aplicação:** a estudante quer corrigir dado da colega, então falta o vínculo pessoal exigido; a recusa administrativa não transforma informação de terceiro em dado próprio. **Distinção:** o caráter público do cadastro é necessário, mas não basta. (Constituição, art. 5º, LXXII.)",
       "reviewEvidence": "CF, art. 5º, LXXII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 77, da Câmara de 2014."
     },
     {
@@ -19689,7 +19689,7 @@
       },
       "statement": "Durante o recesso do Congresso, é decretada intervenção federal para pôr termo a grave comprometimento da ordem pública, sujeita a controle legislativo. Deve haver convocação extraordinária em até 24 horas.",
       "correctAnswer": "C",
-      "explanation": "Quando o Congresso não estiver funcionando e a intervenção depender de sua apreciação, a Constituição prevê convocação extraordinária no mesmo prazo de 24 horas.",
+      "explanation": "**Regra:** se a intervenção exige controle do Congresso e o Legislativo não está em funcionamento, deve ocorrer convocação extraordinária em até 24 horas. **Aplicação:** o decreto é sujeito à apreciação e foi editado no recesso, então o prazo constitucional incide. **Pegadinha:** o recesso não posterga o controle até a próxima sessão ordinária; a Constituição prevê mecanismo de convocação imediata. (Constituição, art. 36, §§ 2º e 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 36, §§ 1º a 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -19717,7 +19717,7 @@
       },
       "statement": "Decretada, no recesso, intervenção federal sujeita à apreciação do Congresso, o Executivo pode aguardar a abertura da sessão legislativa ordinária para submeter o ato ao controle parlamentar.",
       "correctAnswer": "E",
-      "explanation": "A regra do art. 36, § 2º, é convocação extraordinária em 24 horas. O recesso não suspende esse controle.",
+      "explanation": "**Regra:** nos casos de intervenção que dependem de apreciação legislativa, o recesso aciona convocação extraordinária do Congresso em até 24 horas se ele não estiver funcionando. **Aplicação:** o Executivo não pode aguardar a sessão ordinária seguinte para submeter o decreto ao controle. **Distinção:** há hipóteses específicas de intervenção em que a Constituição dispensa a apreciação; o enunciado informa que esta não é uma delas. (Constituição, art. 36, §§ 2º e 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 36, §§ 1º a 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22433,7 +22433,7 @@
       },
       "statement": "Uma ação estatal de prevenção de doenças se relaciona à efetivação de um direito social expressamente previsto na Constituição.",
       "correctAnswer": "C",
-      "explanation": "A saúde consta no art. 6º, e o art. 196 prevê políticas voltadas à redução do risco de doenças e ao acesso a ações e serviços de saúde.",
+      "explanation": "**Regra:** a saúde está entre os direitos sociais, e a Constituição atribui ao Estado o dever de promovê-la por políticas de redução de riscos e acesso universal e igualitário. **Aplicação:** uma política estatal de prevenção efetiva esse direito, mesmo sem tratar um paciente específico. **Distinção:** saúde não se limita ao atendimento individual depois da doença; inclui medidas coletivas de prevenção. (Constituição, arts. 6º e 196.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 6º e 196. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22461,7 +22461,7 @@
       },
       "statement": "Uma pessoa sem filiação previdenciária fica fora do direito de acesso às ações e serviços públicos de saúde, pois a saúde pertence à seguridade social.",
       "correctAnswer": "E",
-      "explanation": "O art. 196 prevê acesso universal e igualitário às ações e serviços de saúde. A participação da saúde na seguridade não torna seu acesso condicionado à filiação previdenciária.",
+      "explanation": "**Regra:** o acesso às ações e serviços públicos de saúde é universal e igualitário. **Por que o item está errado:** o fato de a saúde integrar a seguridade social não a transforma em benefício condicionado a contribuição ou filiação previdenciária. **Aplicação:** uma pessoa sem vínculo previdenciário continua titular do direito constitucional à saúde. (Constituição, arts. 6º e 196.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 6º e 196. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27305,7 +27305,7 @@
       },
       "statement": "Uma candidata descobre que um cadastro governamental contém informação falsa a seu respeito. Após a recusa administrativa de retificação, pode usar habeas data para pedir a correção, observados os demais requisitos.",
       "correctAnswer": "C",
-      "explanation": "O habeas data pode servir à retificação de dados pessoais da impetrante em registros governamentais ou de caráter público.",
+      "explanation": "**Regra:** habeas data pode permitir conhecer ou retificar informação pessoal do impetrante em banco de dados governamental ou de caráter público. **Aplicação:** o registro falso é sobre a própria candidata e houve recusa administrativa; o remédio é adequado, presentes os demais requisitos legais. **Limite:** a garantia não serve para pedir informações pessoais de terceiros nem para consulta genérica a qualquer documento público. (Constituição, art. 5º, LXXII.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXXII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27333,7 +27333,7 @@
       },
       "statement": "Um pesquisador quer conhecer dados exclusivamente relativos a uma terceira pessoa e pretende usar habeas data em nome próprio. O caráter público do cadastro basta para atender ao requisito constitucional relativo à pessoa a quem os dados se referem.",
       "correctAnswer": "E",
-      "explanation": "O conhecimento dos dados por habeas data exige que a informação se refira à pessoa do impetrante. O caráter público do registro não substitui esse requisito.",
+      "explanation": "**Regra:** habeas data se refere aos dados da pessoa que impetra a ação, mantidos em registros governamentais ou de caráter público. **Aplicação:** o pesquisador busca dados exclusivamente de terceiro; a publicidade do cadastro não lhe dá legitimidade para usar esse remédio em nome próprio. **Distinção:** habeas data protege dados pessoais do impetrante, não funciona como instrumento geral de pesquisa ou transparência. (Constituição, art. 5º, LXXII.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXXII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27809,7 +27809,7 @@
       },
       "statement": "Um paciente com renda elevada é beneficiário de habeas corpus. A gratuidade constitucional da ação permanece aplicável embora ele não se enquadre como reconhecidamente pobre.",
       "correctAnswer": "C",
-      "explanation": "O inciso LXXVII assegura a gratuidade do habeas corpus sem condicionar o benefício à renda.",
+      "explanation": "**Regra:** a Constituição assegura gratuidade ao habeas corpus sem exigir que o impetrante seja reconhecidamente pobre. **Aplicação:** renda elevada não altera esse benefício. **Limite:** não generalize essa regra para todo processo; a gratuidade aqui decorre expressamente da espécie de ação, que protege a liberdade de locomoção. (Constituição, art. 5º, LXVIII e LXXVII.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXXVI e LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29657,7 +29657,7 @@
       },
       "statement": "Uma prefeita quer disputar vaga de deputada. Ela se afasta temporariamente do exercício das funções sete meses antes do pleito, mas mantém o mandato. Esse afastamento satisfaz a regra constitucional aplicável à disputa de outro cargo.",
       "correctAnswer": "E",
-      "explanation": "O § 6º exige renúncia ao mandato até seis meses antes do pleito. O afastamento temporário não extingue o mandato.",
+      "explanation": "**Regra:** para disputar outro cargo, a prefeita deve renunciar ao mandato até seis meses antes da eleição. **Aplicação:** afastar-se das funções sete meses antes não basta porque ela mantém o mandato. **Distinção:** licença altera temporariamente o exercício; renúncia encerra o mandato da titular. A antecedência só é relevante depois de identificado o ato exigido. (Constituição, art. 14, § 6º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, §§ 5º e 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29685,7 +29685,7 @@
       },
       "statement": "Uma governadora em seu primeiro mandato pretende disputar a reeleição. A regra constitucional de renúncia até seis meses antes do pleito para concorrer a outro cargo não se aplica a essa candidatura ao mesmo cargo.",
       "correctAnswer": "C",
-      "explanation": "O § 6º trata de candidatura a outro cargo. A reeleição para o mesmo cargo é regida pelo § 5º, sem prejuízo dos demais requisitos eleitorais.",
+      "explanation": "**Regra:** a renúncia do art. 14, § 6º, é exigida do chefe do Executivo que pretende candidatar-se a outro cargo. A candidatura à reeleição para o mesmo cargo segue o § 5º. **Aplicação:** a governadora quer concorrer novamente ao governo, então a regra de renúncia para mudança de cargo não se aplica a esse caso. **Limite:** isso não elimina os demais requisitos constitucionais e eleitorais para a reeleição.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, §§ 5º e 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -60849,7 +60849,7 @@
       },
       "statement": "Saúde, educação e alimentação integram o catálogo de direitos sociais previsto no art. 6º da Constituição Federal.",
       "correctAnswer": "C",
-      "explanation": "Esses três direitos estão entre os direitos sociais expressamente listados no art. 6º.",
+      "explanation": "**Regra:** o art. 6º enumera direitos sociais, entre eles saúde, educação e alimentação. **Aplicação:** os três direitos mencionados pertencem expressamente ao catálogo constitucional. **Distinção:** reconhecer que um direito está no art. 6º não resolve sozinho como ele será concretizado; a saúde, por exemplo, também recebe disciplina específica no art. 196. (Constituição, arts. 6º e 196.)",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/03 - direitos sociais.md / 1. O Catálogo do Artigo 6º; CI obrigatório antes de integrar."
     },
     {
@@ -61045,7 +61045,7 @@
       },
       "statement": "O habeas data pode servir para assegurar conhecimento de informações relativas à pessoa do impetrante em registros de entidades governamentais ou de caráter público.",
       "correctAnswer": "C",
-      "explanation": "O art. 5º, LXXII, prevê habeas data para conhecimento ou retificação de informações pessoais na forma constitucional.",
+      "explanation": "**Regra:** habeas data permite conhecer informações sobre o próprio impetrante ou pedir sua retificação em registros governamentais ou de caráter público. **Aplicação:** o enunciado trata de dados pessoais do próprio requerente e de cadastro abrangido pela Constituição; a finalidade descrita corresponde ao remédio. **Distinção:** para obter informação pública geral ou relativa a outra pessoa, é preciso considerar outras vias, pois essa garantia tem objeto pessoal específico. (Constituição, art. 5º, LXXII.)",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md / Habeas data — HD; CI obrigatório antes de integrar."
     },
     {
@@ -68549,7 +68549,7 @@
       },
       "statement": "Um governador em primeiro mandato pretende candidatar-se ao Senado. Por ainda poder disputar a reeleição para governador, ele pode permanecer no cargo até o pleito também na disputa pela vaga de senador.",
       "correctAnswer": "E",
-      "explanation": "A candidatura ao Senado é disputa por outro cargo. Para essa hipótese, exige-se renúncia ao governo até seis meses antes do pleito.",
+      "explanation": "**Regra:** o chefe do Executivo que disputa cargo diferente deve renunciar ao mandato até seis meses antes do pleito, mesmo que ainda pudesse concorrer à reeleição para o cargo atual. **Aplicação:** o governador quer disputar uma vaga no Senado, portanto precisa deixar definitivamente o governo no prazo constitucional. **Pegadinha:** o § 5º permite uma reeleição para o mesmo cargo; ele não cria dispensa da renúncia prevista no § 6º para candidatura a outro. (Constituição, art. 14, §§ 5º e 6º.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 14, §§ 5º e 6º. A candidatura ao Senado é disputa por outro cargo. Para essa hipótese, exige-se renúncia ao governo até seis meses antes do pleito. Dificuldade estimada."
     },
     {
@@ -79329,7 +79329,7 @@
       },
       "statement": "Decretada intervenção federal para pôr termo a grave comprometimento da ordem pública enquanto o Congresso não estiver funcionando, deverá haver convocação extraordinária no prazo constitucional de vinte e quatro horas.",
       "correctAnswer": "C",
-      "explanation": "O motivo indicado não integra as hipóteses de dispensa do art. 36, § 3º. Como o Congresso não está funcionando, deve ser convocado extraordinariamente em vinte e quatro horas. (Constituição Federal, art. 34, III, e art. 36, §§ 1º a 3º.)",
+      "explanation": "**Regra:** intervenção para pôr termo a grave comprometimento da ordem pública está entre as hipóteses de intervenção federal (art. 34, III) e, neste caso, o decreto se submete ao controle do Congresso. Se a Casa não estiver funcionando, deve ser convocada em até 24 horas. **Aplicação:** o recesso não adia essa análise para a sessão ordinária seguinte. **Pegadinha:** não confunda essa hipótese com as exceções constitucionais em que o decreto pode dispensar apreciação parlamentar. (Constituição, arts. 34, III, e 36, §§ 1º a 3º.)",
       "reviewEvidence": "Constituição Federal, art. 34, III, e art. 36, §§ 1º a 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue recesso, convocação extraordinária e hipóteses de dispensa de apreciação."
     },
     {

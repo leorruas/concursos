@@ -8355,7 +8355,7 @@
       "reviewStatus": "validada",
       "statement": "A Câmara dos Deputados decidiu fiscalizar atos de uma autarquia federal do Poder Executivo. O órgão alegou que apenas sessão conjunta do Congresso poderia deliberar sobre o exercício dessa competência, pois a entidade possui personalidade própria.\n\nCom base nessa situação, julgue o item a seguir.\n\nA personalidade da autarquia não impede o controle pela Câmara no exercício da competência constitucional de fiscalizar atos do Executivo.",
       "correctAnswer": "C",
-      "explanation": "O art. 49, X, inclui expressamente a Administração indireta e admite o exercício pela via de qualquer das Casas. A personalidade da autarquia não a retira desse alcance.",
+      "explanation": "**Regra:** o Congresso e cada uma de suas Casas podem fiscalizar e controlar os atos do Poder Executivo, inclusive os da administração indireta. **Aplicação:** autarquia federal integra a administração indireta; a Câmara pode exercer o controle sem depender de uma deliberação do Congresso em sessão conjunta. **Pegadinha:** personalidade jurídica própria não exclui a entidade do alcance constitucional. (Constituição, art. 49, X.)",
       "reviewEvidence": "Constituição Federal, art. 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -8388,7 +8388,7 @@
       "reviewStatus": "validada",
       "statement": "A Câmara fiscalizou gastos de uma empresa pública federal vinculada ao Executivo. Depois de obter os dados, uma unidade da Casa pretendeu substituir a diretoria da empresa na decisão cotidiana sobre qual fornecedor contratar em procedimento regular, invocando apenas a competência de fiscalização.\n\nCom base nessa situação, julgue o item a seguir.\n\nA competência de fiscalizar atos da Administração indireta autoriza a unidade da Câmara a substituir a diretoria na escolha do fornecedor.",
       "correctAnswer": "E",
-      "explanation": "Controle e fiscalização não transferem à Casa a gestão ordinária da entidade. É possível examinar a regularidade das despesas da empresa, mas a competência invocada não torna a Câmara responsável pela decisão administrativa do contrato.",
+      "explanation": "**Regra:** o Congresso e suas Casas podem fiscalizar atos do Executivo, inclusive de empresas estatais e outras entidades da administração indireta. Essa fiscalização não transforma o Legislativo em gestor da entidade. **Aplicação:** a Câmara pode examinar despesas e regularidade do contrato, mas não substituir a diretoria na escolha cotidiana do fornecedor. **Distinção:** controle institucional verifica a atuação; gestão executa decisões administrativas. (Constituição, arts. 2º e 49, X.)",
       "reviewEvidence": "Constituição Federal, arts. 2º e 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10814,7 +10814,7 @@
       },
       "statement": "Na Câmara dos Deputados, 180 parlamentares requerem comissão parlamentar de inquérito para apurar um contrato identificado, mas deixam indeterminado o prazo de funcionamento. O número de assinaturas satisfaz o requisito de apoio, porém o requerimento ainda precisa prever prazo certo.",
       "correctAnswer": "C",
-      "explanation": "A criação exige cumulativamente apoio de um terço, fato determinado e prazo certo. O requerimento atinge o mínimo de 171 assinaturas na Câmara e identifica o fato. Se também previsse prazo certo, preencheria os três requisitos descritos.",
+      "explanation": "**Regra:** a CPI é direito da minoria quando o requerimento reúne três requisitos cumulativos: assinatura de um terço dos membros da Casa, fato determinado e prazo certo. **Aplicação:** na Câmara, 180 assinaturas superam o mínimo de 171 e o contrato está identificado, mas a duração indeterminada deixa incompleto o requisito temporal. **Pegadinha:** preencher dois requisitos não compensa a ausência do terceiro. (Constituição, art. 58, § 3º.)",
       "reviewEvidence": "CF, art. 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 77, da Câmara de 2014."
     },
     {
@@ -11441,7 +11441,7 @@
       },
       "statement": "Na aprovação prévia de pessoa indicada para a diretoria do Banco Central, a Constituição exige arguição pública e voto secreto no Senado Federal.",
       "correctAnswer": "C",
-      "explanation": "A publicidade da arguição e o sigilo do voto são requisitos de etapas diferentes. Para chefe de missão diplomática permanente, a arguição ocorre em sessão secreta e o voto também é secreto.",
+      "explanation": "**Regra:** a indicação de presidente ou diretor do Banco Central depende de aprovação prévia do Senado, após arguição pública, por voto secreto (Constituição, art. 52, III, d). **Aplicação:** a combinação enunciada está correta: publicidade na arguição, sigilo na votação. **Contraste:** para chefe de missão diplomática permanente, a Constituição prevê arguição em sessão secreta e voto secreto.",
       "reviewEvidence": "CF, art. 52, III, d. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 76, da Câmara de 2014."
     },
     {
@@ -16385,7 +16385,7 @@
       },
       "statement": "Na apreciação da indicação de diretor do Banco Central, o Senado realiza arguição pública e delibera por voto secreto. A combinação corresponde ao rito constitucional.",
       "correctAnswer": "C",
-      "explanation": "O art. 52, III, prevê voto secreto após arguição pública para presidente e diretores do Banco Central.",
+      "explanation": "**Regra:** o Senado faz arguição pública do indicado à presidência ou diretoria do Banco Central e decide por voto secreto. **Aplicação:** os dois aspectos descritos correspondem ao rito constitucional. **Pegadinha:** “arguição pública” não torna o voto público; publicidade da sabatina e sigilo da deliberação são etapas distintas. (Constituição, art. 52, III, d.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, III, d, e IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16413,7 +16413,7 @@
       },
       "statement": "A arguição de indicado a diretor do Banco Central deve ocorrer em sessão secreta, assim como a arguição de chefe de missão diplomática permanente.",
       "correctAnswer": "E",
-      "explanation": "A arguição para direção do Banco Central é pública. Para chefe de missão diplomática permanente, a Constituição prevê arguição em sessão secreta.",
+      "explanation": "**Regra:** a indicação de diretor do Banco Central é examinada após arguição pública, embora o voto dos senadores seja secreto. **Por que o item está errado:** ele transporta para esse cargo a regra de arguição secreta aplicável a chefe de missão diplomática permanente. **Distinção:** compare o cargo indicado; o formato da arguição muda, embora o voto permaneça secreto em ambos. (Constituição, art. 52, III, d, e IV.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, III, d, e IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25513,7 +25513,7 @@
       },
       "statement": "O Senado fiscaliza ato do Poder Executivo federal praticado por intermédio de uma autarquia. A natureza indireta da entidade não exclui a fiscalização prevista no art. 49, X.",
       "correctAnswer": "C",
-      "explanation": "O dispositivo abrange atos do Poder Executivo, incluídos os da administração indireta. O controle pode ocorrer pelo Congresso ou por qualquer de suas Casas.",
+      "explanation": "**Regra:** a competência de fiscalização do art. 49, X, pode ser exercida pelo Congresso ou por qualquer de suas Casas e abrange a administração direta e indireta. **Aplicação:** o Senado pode fiscalizar ato praticado por autarquia federal. **Pegadinha:** a forma descentralizada de execução não transforma o ato em algo alheio ao Poder Executivo para fins de controle parlamentar.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25541,7 +25541,7 @@
       },
       "statement": "Para fins do art. 49, X, a Câmara só pode fiscalizar atos praticados por órgãos da administração direta. Atos do Executivo praticados por uma autarquia ficam fora dessa competência.",
       "correctAnswer": "E",
-      "explanation": "A Constituição inclui expressamente os atos da administração indireta no alcance do controle parlamentar.",
+      "explanation": "**Regra:** a Constituição inclui expressamente no controle parlamentar atos da administração direta e indireta. **Por que o item está errado:** o art. 49, X, não limita a competência aos ministérios e órgãos sem personalidade própria. **Aplicação:** atos de autarquia também podem ser fiscalizados, sem que isso autorize o Legislativo a assumir sua gestão diária.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27137,7 +27137,7 @@
       },
       "statement": "Um requerimento de CPI reúne um terço dos membros da Casa e delimita o fato investigado, mas prevê duração por tempo indeterminado. Falta um dos requisitos constitucionais de criação.",
       "correctAnswer": "C",
-      "explanation": "A Constituição exige cumulativamente quórum, fato determinado e prazo certo. O apoio obtido e a descrição do fato não dispensam o prazo.",
+      "explanation": "**Regra:** para criar CPI, devem estar presentes ao mesmo tempo o apoio de um terço dos membros, a indicação de fato determinado e um prazo certo de funcionamento. **Aplicação:** o requerimento tem apoio suficiente e delimita o fato, mas não prevê data ou período final; por isso falta um requisito constitucional. **Distinção:** o quórum não transforma a comissão em permanente. (Constituição, art. 58, § 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27165,7 +27165,7 @@
       },
       "statement": "Na Câmara dos Deputados, um requerimento de CPI reúne 170 assinaturas, delimita o fato e prevê prazo certo. A delimitação dos trabalhos compensa a diferença entre o apoio obtido e o mínimo constitucional.",
       "correctAnswer": "E",
-      "explanation": "Um terço de 513 deputados corresponde a 171. Os requisitos materiais não suprem o déficit de assinaturas.",
+      "explanation": "**Regra:** a criação de CPI exige assinatura de um terço dos membros da Casa, além de fato determinado e prazo certo. Na Câmara, um terço de 513 corresponde a 171 deputados. **Aplicação:** 170 assinaturas ficam um abaixo do mínimo. **Pegadinha:** fato bem delimitado e prazo certo são requisitos adicionais; não substituem o apoio quantitativo exigido. (Constituição, art. 58, § 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -81709,7 +81709,7 @@
       },
       "statement": "A fiscalização dos atos do Executivo por uma das Casas do Congresso pode alcançar atos de autarquia federal.",
       "correctAnswer": "C",
-      "explanation": "A Constituição permite o controle diretamente pelo Congresso ou por uma de suas Casas e inclui os atos da administração indireta, da qual a autarquia faz parte. (Constituição Federal, art. 49, X.)",
+      "explanation": "**Regra:** o Congresso Nacional ou qualquer de suas Casas pode fiscalizar e controlar os atos do Poder Executivo, inclusive os da administração indireta. **Aplicação:** autarquia é entidade da administração indireta, então a fiscalização pela Câmara ou pelo Senado pode alcançá-la. **Limite:** fiscalizar não equivale a substituir a entidade nas decisões administrativas cotidianas. (Constituição, art. 49, X.)",
       "reviewEvidence": "Constituição Federal, art. 49, X — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue o órgão atuante e a inclusão da administração indireta."
     },
     {
@@ -81737,7 +81737,7 @@
       },
       "statement": "Na escolha de diretor do Banco Central, o Senado vota secretamente e realiza a arguição também em sessão secreta, assim como ocorre para chefe de missão diplomática permanente.",
       "correctAnswer": "E",
-      "explanation": "O sigilo do voto é comum. A arguição do indicado ao Banco Central é pública. A arguição em sessão secreta é prevista para chefes de missão diplomática permanente. (Constituição Federal, art. 52, III, d, e IV.)",
+      "explanation": "**Regra:** tanto a indicação de diretor do Banco Central quanto a de chefe de missão diplomática permanente envolvem voto secreto do Senado, mas a arguição é pública no primeiro caso e secreta no segundo. **Aplicação:** o item erra ao dizer que a arguição para diretor do Banco Central ocorre em sessão secreta. **Pegadinha:** o sigilo do voto não determina o grau de publicidade da arguição. (Constituição, art. 52, III, d, e IV.)",
       "reviewEvidence": "Constituição Federal, art. 52, III, d, e IV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue publicidade da arguição e sigilo da votação conforme o cargo."
     },
     {

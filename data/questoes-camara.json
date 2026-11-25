@@ -7606,6 +7606,402 @@
   "expansao": [
     {
       "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-b6f0d82c91a74e35",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md",
+        "section": "Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      },
+      "theoryRefs": [
+        "article:art-b6f0d82c91a74e35#Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      ],
+      "id": "cam-reteste-cpi-plenario-prazo-acima-da-metade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "prorrogacao-cpi-plenario",
+      "mechanism": "cpi-plenario-prazo-acima-da-metade",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma CPI da Câmara investiga contratos de manutenção em escolas federais. Ao se aproximar do fim dos 120 dias originais, solicitou mais 65 dias. O Plenário aprovou exatamente o prazo pedido, com fundamento na quantidade de depoimentos ainda pendentes.\n\nCom base nessa situação, julgue o item a seguir.\n\nA deliberação do Plenário não basta para autorizar os 65 dias, pois o prazo excede o limite regimental.",
+      "correctAnswer": "C",
+      "explanation": "O Plenário é competente para deliberar, mas a prorrogação é limitada à metade dos 120 dias originais, ou 60 dias. A importância das diligências não amplia esse limite.",
+      "reviewEvidence": "RICD, art. 35, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-b6f0d82c91a74e35",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md",
+        "section": "Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      },
+      "theoryRefs": [
+        "article:art-b6f0d82c91a74e35#Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      ],
+      "id": "cam-reteste-cpi-recesso-nao-substitui-deliberacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "prorrogacao-cpi-plenario",
+      "mechanism": "cpi-recesso-nao-substitui-deliberacao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma CPI da Câmara atuou regularmente durante o recesso. Perto do fim dos 120 dias iniciais, o próprio colegiado aprovou pedido de mais 35 dias. O Plenário ainda não deliberou sobre o pedido.\n\nCom base nessa situação, julgue o item a seguir.\n\nO colegiado já prorrogou validamente o prazo porque atua também no recesso e pediu menos de 60 dias adicionais.",
+      "correctAnswer": "E",
+      "explanation": "A atuação no recesso é admitida e 35 dias estão dentro do limite. Para prorrogar, porém, o regimento exige deliberação do Plenário. A aprovação interna do pedido não produz esse efeito por si só.",
+      "reviewEvidence": "RICD, art. 35, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "id": "cam-reteste-empresa-duzentos-empregados-limiar-estrito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "representante-empregados-mais-de-200",
+      "mechanism": "empresa-duzentos-empregados-limiar-estrito",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma empresa tem exatamente duzentos empregados e pretende criar canal de diálogo. O sindicato afirmou que o número já torna obrigatória a aplicação do mecanismo constitucional de eleição de representante na empresa.\n\nCom base nessa situação, julgue o item a seguir.\n\nO número indicado atinge o limiar do art. 11 e aciona por si só o direito constitucional ali previsto.",
+      "correctAnswer": "E",
+      "explanation": "O art. 11 se aplica a empresas com mais de duzentos empregados. Exatamente duzentos não satisfaz o limiar. Isso não impede outros mecanismos de diálogo ou representação cabíveis.",
+      "reviewEvidence": "Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "id": "cam-reteste-empresa-acima-de-duzentos-sem-direito-de-veto-diretoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "representante-empregados-mais-de-200",
+      "mechanism": "empresa-acima-de-duzentos-sem-direito-de-veto-diretoria",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma empresa empregava 199 pessoas e contratou mais quatro. Os empregados propuseram eleger um representante para promover entendimento direto com a direção. A direção alegou que um canal informal mantido pelo RH tornava desnecessária a eleição prevista na Constituição.\n\nCom base nessa situação, julgue o item a seguir.\n\nCom a nova quantidade de empregados, incide a garantia constitucional de eleição, e o canal informal não substitui a escolha pelos empregados.",
+      "correctAnswer": "C",
+      "explanation": "Após as contratações, são 203 empregados, acima de duzentos. O art. 11 assegura a eleição do representante para promover entendimento direto. Um canal administrado pelo RH não equivale a essa eleição.",
+      "reviewEvidence": "Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "Votos: pelas conclusões, com restrições, em separado e vencido"
+      },
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#Votos: pelas conclusões, com restrições, em separado e vencido"
+      ],
+      "id": "cam-reteste-restricao-apenas-mencionada-registro-de-voto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "restricao-sem-conteudo",
+      "mechanism": "restricao-apenas-mencionada-registro-de-voto",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Ao votar em comissão, um deputado declarou que acompanhava o parecer, ressalvados pontos que mencionara reservadamente a seu assessor. Sem indicar a divergência durante a deliberação, pediu que o voto fosse registrado como restrito.\n\nCom base nessa situação, julgue o item a seguir.\n\nPara aplicar a regra regimental sobre voto com restrição, a comissão pode computar esse voto como integralmente favorável, pois o deputado não indicou a divergência.",
+      "correctAnswer": "C",
+      "explanation": "O membro precisa expressar em que consiste a divergência quando adota o parecer com restrição. Mencionar uma conversa privada sem explicitar o ponto divergente não cumpre esse requisito. Nessa situação, o regimento considera o voto integralmente favorável.",
+      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "Votos: pelas conclusões, com restrições, em separado e vencido"
+      },
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#Votos: pelas conclusões, com restrições, em separado e vencido"
+      ],
+      "id": "cam-reteste-restricao-explicada-a-fundamentacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "restricao-sem-conteudo",
+      "mechanism": "restricao-explicada-a-fundamentacao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma deputada declarou que acompanhava a conclusão do parecer, mas divergia de um fundamento específico. Ela identificou o fundamento e explicou a divergência ao colegiado. A secretaria propôs apagar a ressalva por entender que o resultado final continuava favorável.\n\nCom base nessa situação, julgue o item a seguir.\n\nA regra que trata como integralmente favorável o voto com restrição não explicada autoriza eliminar a ressalva registrada pela deputada.",
+      "correctAnswer": "E",
+      "explanation": "A regra alcança a falta de explicitação da divergência. A deputada identificou e explicou sua restrição. Que o voto acompanhe a conclusão não torna aplicável a regra voltada a ressalva inespecífica.",
+      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "id": "cam-reteste-prefeito-licenca-com-antecedencia-nao-renuncia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "renuncia-candidatura-outro-cargo",
+      "mechanism": "prefeito-licenca-com-antecedencia-nao-renuncia",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Um prefeito decidiu concorrer ao cargo de governador. Sete meses antes do pleito, afastou-se em licença com substituição pelo vice, mas conservou o mandato. Ele sustentou que a antecedência do afastamento já atendia à exigência constitucional.\n\nCom base nessa situação, julgue o item a seguir.\n\nA licença concedida sete meses antes do pleito equivale à renúncia exigida para concorrer a outro cargo.",
+      "correctAnswer": "E",
+      "explanation": "O art. 14, § 6º, exige renúncia ao mandato até seis meses antes do pleito. O prazo não é o único requisito: a licença preserva o mandato, ao passo que a renúncia o extingue para o titular.",
+      "reviewEvidence": "Constituição Federal, art. 14, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "id": "cam-reteste-governadora-renuncia-antes-limiar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "renuncia-candidatura-outro-cargo",
+      "mechanism": "governadora-renuncia-antes-limiar",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma governadora no primeiro mandato pretende disputar uma cadeira no Senado. Ela renunciou definitivamente sete meses antes do pleito. Um parecer sustentou que a renúncia fora inútil por se aplicar a ela a regra de reeleição do Executivo.\n\nCom base nessa situação, julgue o item a seguir.\n\nA renúncia definitiva atendeu à antecedência exigida para disputar outro cargo, independentemente das demais condições de elegibilidade.",
+      "correctAnswer": "C",
+      "explanation": "A candidatura ao Senado é para outro cargo, submetendo-se ao § 6º. A renúncia sete meses antes atende à antecedência mínima. A possibilidade de disputar a reeleição ao Executivo segue disciplina própria.",
+      "reviewEvidence": "Constituição Federal, art. 14, §§ 5º e 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Judiciário",
+      "articleId": "art-7c5228e2781b4336",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md",
+        "section": "Exercícios inéditos C/E: controle constitucional e magistratura"
+      },
+      "theoryRefs": [
+        "article:art-7c5228e2781b4336#Exercícios inéditos C/E: controle constitucional e magistratura"
+      ],
+      "id": "cam-reteste-reserva-plenario-dez-em-tribunal-de-vinte",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "camara-editorial-reserva-plenario",
+      "mechanism": "reserva-plenario-dez-em-tribunal-de-vinte",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Um tribunal com vinte julgadores e sem órgão especial submeteu ao Plenário a declaração de inconstitucionalidade de uma lei. Dezesseis julgadores participaram. Dez votaram pela declaração e seis pela rejeição da arguição.\n\nCom base nessa situação, julgue o item a seguir.\n\nApesar da maioria entre os presentes, a declaração não alcançou o quórum constitucional.",
+      "correctAnswer": "C",
+      "explanation": "A declaração exige maioria absoluta dos membros do tribunal. Dez votos são metade de vinte, e o mínimo é onze. A maioria entre os presentes não satisfaz a reserva de plenário.",
+      "reviewEvidence": "Constituição Federal, art. 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Judiciário",
+      "articleId": "art-7c5228e2781b4336",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md",
+        "section": "Exercícios inéditos C/E: controle constitucional e magistratura"
+      },
+      "theoryRefs": [
+        "article:art-7c5228e2781b4336#Exercícios inéditos C/E: controle constitucional e magistratura"
+      ],
+      "id": "cam-reteste-reserva-plenario-orgao-especial-nove-de-dezessete",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "camara-editorial-reserva-plenario",
+      "mechanism": "reserva-plenario-orgao-especial-nove-de-dezessete",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Um tribunal com trinta e cinco julgadores constituiu regularmente órgão especial de dezessete membros, com atribuição para decidir arguição de inconstitucionalidade. Participaram quatorze membros, e nove votaram pela declaração de inconstitucionalidade.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs nove votos satisfazem o requisito da reserva de plenário nesse órgão especial.",
+      "correctAnswer": "C",
+      "explanation": "A maioria absoluta é calculada sobre os dezessete membros do órgão especial. Nove votos alcançam o limiar. Não se usa o total de integrantes do tribunal quando a decisão é do órgão especial competente.",
+      "reviewEvidence": "Constituição Federal, arts. 93, XI, e 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "articleId": "art-4c1041281ca44ee5",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Promulgação"
+      },
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Promulgação"
+      ],
+      "id": "cam-reteste-pec-com-mesa-unica-apos-aprovacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "promulgacao-de-emenda",
+      "mechanism": "pec-com-mesa-unica-apos-aprovacao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Depois de aprovada em dois turnos nas duas Casas, uma PEC foi encaminhada para promulgação. Como o texto partiu de proposta de senadores e a última votação ocorreu no Senado, sua Mesa planejou assinar a promulgação sozinha.\n\nCom base nessa situação, julgue o item a seguir.\n\nA Mesa do Senado pode promulgar sozinha a emenda porque a iniciativa e a última votação se deram no Senado.",
+      "correctAnswer": "E",
+      "explanation": "O art. 60, § 3º, atribui a promulgação às Mesas da Câmara e do Senado. A iniciativa e o local da última votação não mudam a competência conjunta.",
+      "reviewEvidence": "Constituição Federal, art. 60, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "articleId": "art-4c1041281ca44ee5",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Promulgação"
+      },
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Promulgação"
+      ],
+      "id": "cam-reteste-pec-presidente-proponente-sem-sancao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "promulgacao-de-emenda",
+      "mechanism": "pec-presidente-proponente-sem-sancao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "O presidente da República apresentou uma PEC, regularmente aprovada nas duas Casas. Antes de numerá-la, uma assessoria sugeriu encaminhá-la ao próprio presidente para sanção, em razão da autoria. As Mesas já estavam prontas para promulgar o texto.\n\nCom base nessa situação, julgue o item a seguir.\n\nAs Mesas podem promulgar a emenda com o número de ordem sem aguardar sanção presidencial.",
+      "correctAnswer": "C",
+      "explanation": "O presidente pode iniciar PEC, mas a promulgação da emenda cabe às duas Mesas e o rito não prevê sanção. A autoria da proposta não altera essa etapa.",
+      "reviewEvidence": "Constituição Federal, art. 60, I e § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
       "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",

@@ -27613,7 +27613,7 @@
       },
       "statement": "Uma vaga definitiva surge quando faltam vinte meses para o fim do mandato e há suplente apto. O tempo restante, por si só, impõe eleição para preenchimento da vaga.",
       "correctAnswer": "E",
-      "explanation": "O § 2º exige inexistência de suplente além do prazo superior a quinze meses. Havendo suplente apto, aplica-se a convocação prevista no § 1º.",
+      "explanation": "A Constituição trata primeiro do preenchimento da vaga por suplente; eleição é uma solução excepcional para vaga sem suplente. Só nessa última hipótese há eleição se faltarem mais de quinze meses para terminar o mandato (CF, art. 56, §§ 1º e 2º). Como há suplente apto, ele deve ser convocado: os vinte meses restantes, sozinhos, não determinam eleição.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 56, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27865,7 +27865,7 @@
       },
       "statement": "Uma militar alistável com quinze anos de serviço, agregada durante a candidatura, é eleita e diplomada. Ela passa automaticamente à inatividade com a diplomação, ainda que a posse só venha a ocorrer depois.",
       "correctAnswer": "C",
-      "explanation": "A diplomação, e não a posse, é o marco constitucional da passagem automática à inatividade para a militar eleita nessa hipótese.",
+      "explanation": "Para militar alistável com mais de dez anos de serviço, a Constituição prevê agregação durante a candidatura e, se eleito, passagem automática à inatividade no ato da diplomação (art. 14, § 8º, II). A posse ocorre depois e não é o marco dessa mudança. Os quinze anos do caso atendem ao requisito de tempo de serviço.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 8º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -28733,7 +28733,7 @@
       },
       "statement": "Um vereador irmão da prefeita pretende concorrer à prefeitura no mesmo município. Para efeito da ressalva do art. 14, § 7º, disputar a prefeitura equivale a concorrer à reeleição pelo simples fato de ele já exercer mandato eletivo.",
       "correctAnswer": "E",
-      "explanation": "A ressalva exige titularidade de mandato e candidatura à reeleição. A disputa de cargo diferente não satisfaz o segundo requisito.",
+      "explanation": "A ressalva do art. 14, § 7º, exige dois elementos: a pessoa já deve ser titular de mandato eletivo e deve concorrer à reeleição. O vereador satisfaz o primeiro, mas pretende disputar a prefeitura, cargo diferente da vereança. Ser titular de qualquer mandato não transforma uma candidatura nova em reeleição.",
       "reviewEvidence": "Caso e resolução conferidos com a seção vinculada. Constituição Federal, art. 14, § 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29097,7 +29097,7 @@
       },
       "statement": "As comissões da Câmara aprovam um projeto sujeito à apreciação conclusiva. O prazo regimental transcorre sem recurso e não há hipótese de votação obrigatória em Plenário. A tramitação pode prosseguir sem votação plenária na Câmara.",
       "correctAnswer": "C",
-      "explanation": "O poder conclusivo permite dispensar o Plenário nas matérias admitidas pelo Regimento. A inexistência de recurso deixa produzir efeito a decisão conclusiva.",
+      "explanation": "A Constituição permite que comissões discutam e votem conclusivamente determinadas matérias, dispensando a votação de mérito pelo Plenário (art. 58, § 2º, I). Essa decisão pode ser levada ao Plenário por recurso de um décimo dos membros, dentro do prazo regimental. Como o prazo passou sem recurso e não há hipótese de deliberação obrigatória, a Câmara pode prosseguir sem nova votação plenária.",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 58, § 2º, I, e RICD, arts. 24, II, e 132, § 2º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -29125,7 +29125,7 @@
       },
       "statement": "Um projeto apto à apreciação conclusiva é aprovado pelas comissões da Câmara, mas há recurso tempestivo e regimental, subscrito por 52 deputados, para apreciação pelo Plenário. A aprovação conclusiva torna o recurso incabível.",
       "correctAnswer": "E",
-      "explanation": "A dispensa de votação plenária admite recurso de um décimo dos membros. Cinquenta e dois deputados alcançam esse limiar em uma Casa com 513 membros.",
+      "explanation": "A apreciação conclusiva deixa de encerrar a tramitação quando é apresentado recurso tempestivo, nas condições regimentais, por pelo menos um décimo dos deputados. Em uma Casa com 513 membros, 52 assinaturas superam o mínimo de 51,3 e atendem ao requisito inteiro. O recurso torna cabível a apreciação pelo Plenário; por isso, a decisão das comissões não o torna incabível.",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 58, § 2º, I, e RICD, arts. 24, II, e 132, § 2º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -29937,7 +29937,7 @@
       },
       "statement": "Um projeto de lei é apresentado validamente pelo STJ. A Câmara dos Deputados inicia a discussão e a votação e, após aprová-lo, remete-o ao Senado para revisão. A sequência é compatível com a Constituição.",
       "correctAnswer": "C",
-      "explanation": "A Câmara é iniciadora nos projetos de iniciativa dos Tribunais Superiores. Uma vez aprovada a proposição, a outra Casa atua como revisora.",
+      "explanation": "Projetos de lei de iniciativa dos Tribunais Superiores começam a ser discutidos e votados na Câmara dos Deputados (CF, art. 64, caput). Depois da aprovação na Casa iniciadora, o Senado atua como Casa revisora, conforme o art. 65. Assim, a origem no STJ determina o início na Câmara, mas não dispensa a revisão pelo Senado.",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, arts. 64, caput, e 65. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30441,7 +30441,7 @@
       },
       "statement": "Uma pessoa analfabeta alista-se e vota em eleição municipal. Em seguida, pretende candidatar-se a vereadora alegando que o alistamento regular afasta a inelegibilidade constitucional. A alegação está correta.",
       "correctAnswer": "E",
-      "explanation": "O alistamento e o voto são facultativos para as pessoas analfabetas. A Constituição estabelece, separadamente, a sua inelegibilidade.",
+      "explanation": "A Constituição separa participação como eleitor e possibilidade de ser eleito. Para pessoa analfabeta, o alistamento e o voto são facultativos; já o § 4º declara essa pessoa inelegível. Portanto, ter feito o alistamento e votar regularmente não remove a inelegibilidade para disputar uma vaga de vereadora.",
       "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 14, § 1º, II, a, e § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30469,7 +30469,7 @@
       },
       "statement": "Uma eleitora analfabeta decide não votar em uma eleição. A opção é compatível com a regra constitucional de voto facultativo, mas essa regra não lhe confere elegibilidade.",
       "correctAnswer": "C",
-      "explanation": "A faculdade de participar da votação diz respeito à capacidade eleitoral ativa. A inelegibilidade desse grupo está prevista no § 4º do art. 14.",
+      "explanation": "A pessoa analfabeta pode escolher se participa da votação: esse é o aspecto ativo do direito eleitoral. Isso não lhe dá direito de concorrer a cargo, pois o art. 14, § 4º, estabelece inelegibilidade própria. A liberdade de não votar e a capacidade passiva de ser candidata são questões diferentes.",
       "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 14, § 1º, II, a, e § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -61241,7 +61241,7 @@
       },
       "statement": "Quando a falta de norma regulamentadora torna inviável o exercício de direitos ou liberdades constitucionais, o mandado de injunção pode ser instrumento adequado para enfrentar a omissão.",
       "correctAnswer": "C",
-      "explanation": "O art. 5º, LXXI, disciplina o mandado de injunção diante de omissão normativa que inviabilize direitos nas hipóteses constitucionais.",
+      "explanation": "O mandado de injunção trata de uma omissão normativa que, no caso concreto, impede exercer direito ou liberdade constitucional ou prerrogativa ligada à nacionalidade, soberania ou cidadania. A falta pode ser total ou a regulamentação existente pode ser insuficiente (CF, art. 5º, LXXI; Lei nº 13.300/2016, art. 2º). Não basta apontar que uma norma seria conveniente: é preciso mostrar que a omissão inviabiliza o exercício protegido.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md / Mandado de injunção — MI; CI obrigatório antes de integrar."
     },
     {
@@ -61325,7 +61325,7 @@
       },
       "statement": "Por serem direitos sociais, as prestações estatais de saúde e educação independem de qualquer organização de políticas, prioridades legais ou disponibilidade material de meios.",
       "correctAnswer": "E",
-      "explanation": "A efetivação exige políticas, estruturas e meios, sob deveres constitucionais; a garantia não elimina condições de implementação.",
+      "explanation": "Saúde e educação impõem deveres positivos ao Estado e exigem políticas, serviços e recursos. Isso não torna a garantia opcional: as condições de implementação precisam ser organizadas sem apagar o dever constitucional. O item está errado porque afirma que esses direitos independem de toda política pública e de qualquer meio material, como se a prestação pudesse existir sem estrutura.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/03 - direitos sociais.md / 2. Caráter Prestacional (Prestações Positivas); CI obrigatório antes de integrar."
     },
     {

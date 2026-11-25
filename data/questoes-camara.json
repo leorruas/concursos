@@ -12241,7 +12241,7 @@
       },
       "statement": "Depois de aprovado requerimento de encerramento da discussão, o relator reformula o parecer para alterar o mérito do texto. Pode incidir a exceção ao impedimento de requerer o adiamento da votação na mesma sessão.",
       "correctAnswer": "C",
-      "explanation": "A alteração de mérito feita na reformulação do parecer é a exceção regimental ao impedimento decorrente do encerramento.",
+      "explanation": "**Regra:** depois que o Plenário aprova o encerramento da discussão, em regra não cabe pedir adiamento da votação na mesma sessão. O Regimento abre uma exceção se o relator reformular o parecer com mudança de mérito. **Por quê:** a alteração substancial muda o conteúdo que será votado e justifica permitir novo adiamento. **Aplicação:** aqui o parecer mudou no mérito; portanto, a exceção pode ser usada. Uma correção de forma ou de grafia, sozinha, não basta. **Pegadinha:** não confunda qualquer ajuste no parecer com mudança de mérito. (RICD, art. 179, § 4º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, regras de encerramento da discussão. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -12269,7 +12269,7 @@
       },
       "statement": "Depois de aprovado requerimento de encerramento da discussão, o relator corrige apenas erro de grafia no parecer. Essa correção aciona a exceção prevista para a reformulação de mérito.",
       "correctAnswer": "E",
-      "explanation": "A mera correção de grafia não modifica o mérito. A exceção considerada exige alteração substantiva.",
+      "explanation": "**Regra:** aprovado o encerramento da discussão, não se pode requerer o adiamento da votação na mesma sessão, salvo se o relator reformular o parecer para alterar o mérito. **O que significa:** mérito é o conteúdo ou a solução defendida no parecer; corrigir uma palavra escrita errado não muda essa posição. **Aplicação:** como houve apenas correção de grafia, a exceção não se aplica. **Pegadinha:** a banca usa “reformulação” em sentido amplo, mas o dispositivo exige mudança de mérito. (RICD, art. 179, § 4º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, regras de encerramento da discussão. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -12493,7 +12493,7 @@
       },
       "statement": "Na eleição de presidente e vice-presidentes da comissão mista de orçamento, aplica-se a mesma regra do § 4º do art. 90 que, nas demais votações ali disciplinadas, faz da rejeição por uma das representações a rejeição da matéria.",
       "correctAnswer": "E",
-      "explanation": "A eleição de dirigentes é a exceção expressa do § 5º à regra do § 4º.",
+      "explanation": "**Regra:** nas deliberações da comissão mista tratadas pelo art. 90, § 4º, a votação ocorre separadamente em cada representação; a rejeição por uma delas leva à rejeição da matéria. **Exceção:** o § 5º exclui dessa regra a eleição do presidente e dos vice-presidentes da comissão. **Aplicação:** o item trata justamente dessa eleição, portanto não se transporta para ela o efeito do § 4º. **Pegadinha:** leia os dois parágrafos juntos: o § 5º delimita expressamente o alcance do § 4º. (Regimento Comum do Congresso Nacional, art. 90, §§ 4º e 5º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, art. 90, §§ 4º e 5º. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
     },
     {
@@ -13641,7 +13641,7 @@
       },
       "statement": "O Congresso pretende delegar ao Presidente a elaboração da lei de diretrizes orçamentárias e se reserva a apreciação do projeto. A apreciação posterior não afasta a vedação constitucional de delegar essa matéria.",
       "correctAnswer": "C",
-      "explanation": "A LDO está entre as matérias que não podem ser objeto de delegação. A apreciação pelo Congresso não amplia o conjunto de matérias delegáveis.",
+      "explanation": "**Regra:** o Congresso pode delegar ao Presidente a elaboração de lei delegada, mas há matérias excluídas dessa autorização. Entre elas estão o plano plurianual, as diretrizes orçamentárias e os orçamentos. **Aplicação:** a LDO é a lei de diretrizes orçamentárias; por isso, não pode ser delegada. Reservar ao Congresso uma apreciação posterior não corrige a proibição. **Pegadinha:** a delegação não se torna válida só porque o Congresso pretende revisar o resultado. (Constituição Federal, art. 68, § 1º, III.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 68, § 1º, III. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -13669,7 +13669,7 @@
       },
       "statement": "O Congresso pode autorizar lei delegada sobre diretrizes orçamentárias, desde que condicione a produção de efeitos à sua aprovação.",
       "correctAnswer": "E",
-      "explanation": "O art. 68, § 1º, III, veda a delegação sobre diretrizes orçamentárias. A condição descrita não afasta essa vedação.",
+      "explanation": "**Regra:** a Constituição proíbe lei delegada sobre plano plurianual, diretrizes orçamentárias e orçamentos. **Por que o item está errado:** a aprovação posterior pelo Congresso não transforma uma matéria constitucionalmente indelegável em delegável. A vedação limita a própria autorização. **Como resolver:** primeiro confira se o assunto está na lista do art. 68, § 1º; se estiver, não cabe delegação. (Constituição Federal, art. 68, § 1º, III.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 68, § 1º, III. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -15881,7 +15881,7 @@
       },
       "statement": "Uma deputada integra uma comissão permanente. O dever de presença e participação previsto no Código alcança as reuniões dessa comissão.",
       "correctAnswer": "C",
-      "explanation": "O inciso V inclui expressamente as reuniões de comissão da qual o parlamentar seja membro.",
+      "explanation": "**Regra:** entre os deveres do deputado está comparecer às sessões do Plenário e às reuniões das comissões de que seja membro. **Aplicação:** como a deputada integra aquela comissão, o dever alcança suas reuniões. **Limite:** isso não significa dever de presença em toda comissão da Câmara, mas somente naquelas de que participa como integrante. **Pegadinha:** observe o vínculo indicado na norma: “de que seja membro”. (Código de Ética e Decoro Parlamentar, art. 3º, V.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -16049,7 +16049,7 @@
       },
       "statement": "Um integrante do Conselho pertence ao partido autor da representação, mas é de estado diferente do representado. Mesmo assim, ele está impedido de atuar como relator.",
       "correctAnswer": "C",
-      "explanation": "A filiação ao partido autor é impedimento próprio, independente do estado de origem.",
+      "explanation": "**Regra:** para ser relator, o integrante do Conselho não pode pertencer ao partido autor da representação; o Código também prevê impedimentos ligados ao partido ou bloco do representado e à mesma unidade da Federação. **Aplicação:** como o relator em potencial é filiado ao partido que apresentou a representação, está impedido ainda que seja de outro estado. **Pegadinha:** os critérios são independentes. Estar em estado diferente afasta apenas o impedimento territorial, não o vínculo com o partido autor. (Código de Ética e Decoro Parlamentar, art. 13, I, c.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I, c. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -16329,7 +16329,7 @@
       },
       "statement": "Uma calamidade gera necessidade federal de despesa imprevisível e urgente para atendimento imediato. Nessa hipótese, a Constituição admite a abertura de crédito extraordinário por medida provisória.",
       "correctAnswer": "C",
-      "explanation": "A vedação às medidas provisórias em matéria orçamentária ressalva o crédito extraordinário, que exige despesa imprevisível e urgente.",
+      "explanation": "**Regra:** medida provisória não pode tratar, em geral, de matéria orçamentária; a Constituição ressalva a abertura de crédito extraordinário. Esse crédito atende despesa imprevisível e urgente, como a provocada por calamidade pública. **Aplicação:** o caso descreve urgência e imprevisibilidade, então a abertura por medida provisória é admitida. **Pegadinha:** não basta chamar a despesa de urgente; ela também precisa ser imprevisível e se enquadrar na hipótese constitucional. (Constituição Federal, arts. 62, § 1º, I, d, e 167, § 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 62, § 1º, I, d, e 167, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -18513,7 +18513,7 @@
       },
       "statement": "Após censura verbal aplicada em sessão da Câmara, o deputado recorre dentro de dois dias úteis ao respectivo Plenário. O Código prevê esse recurso.",
       "correctAnswer": "C",
-      "explanation": "O art. 11, parágrafo único, permite recurso ao respectivo Plenário em dois dias úteis.",
+      "explanation": "**Regra:** da censura verbal cabe recurso ao respectivo Plenário no prazo de dois dias úteis, conforme o parágrafo único do art. 11 do Código de Ética. **Aplicação:** o caso informa que a sanção foi verbal e que o recurso foi apresentado dentro do prazo; logo, o recurso é previsto. **Distinção:** não generalize esse prazo e esse destino para toda sanção disciplinar; a censura escrita tem disciplina própria no art. 12. **Pegadinha:** identifique primeiro qual censura foi aplicada. (Código de Ética e Decoro Parlamentar, art. 11, parágrafo único.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 11, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20109,7 +20109,7 @@
       },
       "statement": "Um deputado que integra o Conselho de Ética pode fazer a defesa de colega perante o Plenário se não tiver participado da instrução do caso.",
       "correctAnswer": "E",
-      "explanation": "O impedimento decorre da condição de integrante do Conselho e não depende de participação na instrução.",
+      "explanation": "**Regra:** a defesa do deputado representado pode ser feita por outro deputado que não integre o Conselho de Ética. **Aplicação:** o personagem é membro do Conselho; por isso, não pode assumir essa defesa, mesmo sem ter participado da instrução. **Pegadinha:** o critério não é ter atuado na instrução, mas pertencer ou não ao Conselho. A regra separa a função de integrante do órgão da atuação como defensor. (Código de Ética e Decoro Parlamentar, art. 15.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 15. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {

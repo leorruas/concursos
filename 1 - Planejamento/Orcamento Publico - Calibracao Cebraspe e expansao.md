@@ -301,7 +301,7 @@ Meta indicativa de 120 autorais. Restam 108 após este lote. Priorizar em seguid
 
 ### Prompt de continuidade
 
-No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 60 IDs dos cinco primeiros lotes e os históricos. Siga da contagem de 60/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 6, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre restos a pagar, despesas anteriores, suprimento, reconhecimento patrimonial e controle do encerramento. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
+No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 72 IDs dos seis primeiros lotes e os históricos. Siga da contagem de 72/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 7, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre emendas, tramitação e controles de transferências. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
 
 ## Lote 2 — classificação, estágios e caso da ponte
 
@@ -367,6 +367,8 @@ Doze autorais, seis por concurso. Total acumulado de 48 e saldo indicativo de 72
 | ca-orc-cal-representacao-tcu-dever-interno | cge 115 | art-91ab320cdfb64b8a | dificil | C |
 
 ## Lote 5 — créditos adicionais e programação financeira
+
+SHA integrado: `5c9a1992834c1b121dba6ddc26e200508414f0aa`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45682392185).
 
 Doze autorais, seis por concurso. Total acumulado de 60 e saldo indicativo de 60. Cobertura de autorização e abertura, superávit e excesso de arrecadação, vigência do crédito, recursos descentralizados, programação, limitações simultâneas e exceções ao contingenciamento. Próximo lote: encerramento, restos a pagar, despesas anteriores e suprimento.
 
@@ -494,3 +496,26 @@ Leitura individual dos 103 enunciados na ordem da expansão anterior ao lote 1. 
 | cam-orc-l205-001-consolidacao-de-receitas-de-capital | media | Julgamento exige recuperar a distinção ou regra |
 | cam-orc-l206-001-imoveis-finalidades-distintas | dificil | Julgamento exige recuperar a distinção ou regra |
 | cam-orc-l206-002-compra-direta-ou-repasse | facil | Julgamento exige recuperar a distinção ou regra |
+
+## Lote 6 — fechamento do exercício, restos a pagar e suprimento
+
+Doze autorais, seis por concurso. Total acumulado de 72 e saldo indicativo de 48. O lote cobre corte patrimonial e orçamentário, inscrição e cancelamento, caixa vinculado, suprimento sigiloso, pagamentos em duplicidade e reconhecimento de despesas de exercícios anteriores. Próximo lote: emendas, tramitação e controle de transferências.
+
+| ID | Referência | Artigo | Nível | Gabarito |
+| --- | --- | --- | --- | --- |
+| ca-orc-cal-verificacao-entrega-parcela | p3 102 | art-6e4e79c7f4bb4aa3 | dificil | C |
+| ca-orc-cal-plurienal-ja-liquidado | cd 173 | art-6e4e79c7f4bb4aa3 | dificil | E |
+| ca-orc-cal-credito-proprio-sem-processamento | cd 172 | art-6e4e79c7f4bb4aa3 | dificil | C |
+| ca-orc-cal-caixa-vinculado-credor-distinto | cd 166 | art-6e4e79c7f4bb4aa3 | dificil | E |
+| ca-orc-cal-sigilo-e-adiantamento | cd 175 | art-6e4e79c7f4bb4aa3 | media | C |
+| ca-orc-cal-cancelamento-debito-nao-liquido | cd 170 | art-6e4e79c7f4bb4aa3 | dificil | E |
+| cg-orc-cal-luz-competencia-resto-saldos | cge 104 | art-c85e29a3741f40bd | dificil | C |
+| cg-orc-cal-dupla-inscricao-empenho-janeiro | cd 170 | art-c85e29a3741f40bd | dificil | E |
+| cg-orc-cal-retorno-valor-receita-ou-registro | cd 172 | art-c85e29a3741f40bd | dificil | C |
+| cg-orc-cal-contas-atrasadas-um-suprimento | p1 83 | art-c85e29a3741f40bd | dificil | E |
+| cg-orc-cal-fechamento-empenho-liquidacao-pago | cge 110 | art-c85e29a3741f40bd | dificil | C |
+| cg-orc-cal-dea-reconhecimento-autoridade | p3 99 | art-c85e29a3741f40bd | dificil | E |
+
+### Leitura do piloto e da base de execução da CGU
+
+No piloto Câmara, os itens 1–8 fixam plano, diretrizes, orçamento, esferas e iniciativa; 9–14 separam parecer, votação e emenda; 15–20 cobrem espécies, fontes e reabertura; 21–32 percorrem execução, restos e adiantamento; 33–44 distinguem estágios e classificadores; 45–51 tratam de limitação, relatórios, riscos e benefício tributário; 52–59 revisam cancelamento, dependência estatal, indicação de emendas e orçamento de médio prazo. A função predominante é aprendizagem dirigida. Os itens 5, 21, 23, 28, 33 e 40 podem ser resolvidos por uma distinção isolada, apesar do nível difícil registrado. Os itens 56–59 exigem base normativa temporal específica. As três questões públicas originais da CGU comparam comprovação material e documento fiscal em liquidação, com uma variação útil sobre preço ou quantidade de prestação efetivamente demonstrada, mas sem cobrir reconhecimento patrimonial nem o fim do exercício.

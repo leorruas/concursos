@@ -87309,6 +87309,222 @@
         "section": "Provisão, destaque, cota, repasse e sub-repasse"
       },
       "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-verificacao-entrega-parcela",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "verificacao-entrega-parcela",
+      "mechanism": "verificacao-entrega-parcela",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em 31 de dezembro, equipamentos empenhados já foram entregues e a conferência formal está em curso. A etapa ainda não concluída é compatível com a inscrição como resto a pagar não processado em liquidação, observados os demais requisitos.",
+      "correctAnswer": "C",
+      "explanation": "A entrega pode realizar o fato gerador antes do encerramento da verificação do direito do credor. Durante a conferência, o empenho ainda não está formalmente liquidado e a conta de controle distingue a fase em liquidação. Se a verificação fosse concluída até o encerramento, a parcela não paga seria processada. Lei nº 4.320/1964, arts. 36 e 63, e Manual de Contabilidade Aplicada ao Setor Público, 11ª edição.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_003_01",
+        "item": 102,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_003_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_003_01.pdf",
+        "mechanism": "Fato gerador pode exigir reconhecimento patrimonial anterior à liquidação formal"
+      },
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Não processados: a liquidar × em liquidação"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p3 102: Fato gerador pode exigir reconhecimento patrimonial anterior à liquidação formal. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Não processados: a liquidar × em liquidação",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Não processados: a liquidar × em liquidação"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-plurienal-ja-liquidado",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "plurienal-ja-liquidado",
+      "mechanism": "plurienal-ja-liquidado",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma despesa federal legalmente empenhada em crédito de vigência plurienal já foi liquidada em dezembro. O crédito seguirá vigente no ano seguinte. Pela exceção do art. 36 da Lei nº 4.320/1964, a despesa liquidada e não paga só poderá ser computada em restos a pagar no último ano do crédito.",
+      "correctAnswer": "E",
+      "explanation": "O parágrafo único adia o cômputo dos empenhos em créditos plurienais ainda não liquidados. A despesa do enunciado já foi liquidada, de modo que a exceção não se aplica. A alteração decisiva seria o encerramento do exercício com a liquidação ainda pendente. Lei nº 4.320/1964, art. 36.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 173,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Inscrição na virada do exercício conserva o empenho original"
+      },
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Crédito com vigência plurianual: exceção literal do art. 36"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cd 173: Inscrição na virada do exercício conserva o empenho original. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Crédito com vigência plurianual: exceção literal do art. 36",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Crédito com vigência plurianual: exceção literal do art. 36"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-credito-proprio-sem-processamento",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "credito-proprio-sem-processamento",
+      "mechanism": "credito-proprio-sem-processamento",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Um serviço foi prestado no exercício encerrado. O orçamento então vigente tinha crédito próprio e saldo suficiente, mas a despesa não foi processada na época. Reconhecida a dívida no exercício seguinte, ela poderá ser paga por dotação específica de despesas de exercícios anteriores.",
+      "correctAnswer": "C",
+      "explanation": "O art. 37 prevê a situação em que havia crédito próprio e saldo, mas a despesa não foi processada tempestivamente. A dotação específica no exercício de pagamento acolhe o reconhecimento nas condições legais. Se a despesa estivesse empenhada e inscrita regularmente em restos a pagar, o vínculo orçamentário antigo seria mantido. Lei nº 4.320/1964, arts. 36 e 37.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 172,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Compromisso reconhecido depois é hipótese distinta do resto cancelado"
+      },
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Despesas de Exercícios Anteriores (DEA): art. 37"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cd 172: Compromisso reconhecido depois é hipótese distinta do resto cancelado. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Despesas de Exercícios Anteriores (DEA): art. 37",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Despesas de Exercícios Anteriores (DEA): art. 37"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-caixa-vinculado-credor-distinto",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "caixa-vinculado-credor-distinto",
+      "mechanism": "caixa-vinculado-credor-distinto",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "No encerramento, uma unidade dispõe de R$ 300 mil de caixa vinculado a uma finalidade específica e R$ 100 mil de caixa livre. Ela deve R$ 180 mil por objeto alheio à vinculação. O saldo agregado de R$ 400 mil comprova caixa disponível para essa dívida.",
+      "correctAnswer": "E",
+      "explanation": "A vinculação restringe a destinação mesmo se o ingresso ocorreu em exercício anterior. A obrigação descrita só pode contar, nos dados do caso, com R$ 100 mil. Faltam R$ 80 mil de fonte que possa custeá-la. Se a obrigação atendesse à finalidade vinculada, o saldo dessa fonte poderia ser considerado. Lei Complementar nº 101/2000, art. 8º, parágrafo único.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 166,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Ter direito verificado não garante caixa disponível, sem afastar obrigações e prazos"
+      },
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Inscrição e disponibilidade financeira"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cd 166: Ter direito verificado não garante caixa disponível, sem afastar obrigações e prazos. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Inscrição e disponibilidade financeira",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Inscrição e disponibilidade financeira"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-sigilo-e-adiantamento",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "sigilo-e-adiantamento",
+      "mechanism": "sigilo-e-adiantamento",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Uma despesa federal tem caráter sigiloso nos termos da classificação aplicável e não pode seguir o processamento normal. Satisfeitas as condições legais, seu caráter sigiloso é compatível com a concessão de suprimento de fundos, mediante empenho em dotação própria.",
+      "correctAnswer": "C",
+      "explanation": "O adiantamento é excepcional e exige empenho prévio. A despesa sigilosa é hipótese legal federal, quando classificada conforme o regulamento. Se a despesa fosse ordinária, com tramitação usual e sem hipótese excepcional, o adiantamento não se justificaria pelo fundamento indicado. Lei nº 4.320/1964, art. 68, e Decreto nº 93.872/1986, art. 45, II.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 175,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Sigilo pode justificar o regime de adiantamento"
+      },
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Suprimento de fundos: adiantamento excepcional"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cd 175: Sigilo pode justificar o regime de adiantamento. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Suprimento de fundos: adiantamento excepcional",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Suprimento de fundos: adiantamento excepcional"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-cancelamento-debito-nao-liquido",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "cancelamento-debito-nao-liquido",
+      "mechanism": "cancelamento-debito-nao-liquido",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma unidade cancelou saldo de empenho de material que nunca foi entregue, sem qualquer outra obrigação constituída. O tratamento patrimonial precisa manter passivo pelo preço total, porque o cancelamento orçamentário não extingue dívida válida.",
+      "correctAnswer": "E",
+      "explanation": "A separação entre orçamento e patrimônio protege obrigações de fato constituídas. Nesse caso, sem entrega nem outro fato que constitua obrigação, não há dívida válida pelo preço do material a manter. Se o fornecedor tivesse cumprido a prestação e o direito subsistisse, simples cancelamento do registro não extinguiria o passivo. Lei nº 4.320/1964, arts. 36, 37 e 63, e Manual de Contabilidade Aplicada ao Setor Público, 11ª edição.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 170,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Registro orçamentário removido não extingue direito exigível"
+      },
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Execução, cancelamento e seus limites"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cd 170: Registro orçamentário removido não extingue direito exigível. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Execução, cancelamento e seus limites",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Execução, cancelamento e seus limites"
+      },
+      "reviewStatus": "validada"
     }
   ]
 }

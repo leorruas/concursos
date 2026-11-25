@@ -9741,7 +9741,7 @@
       "reviewStatus": "validada",
       "statement": "Para uma vaga do terço presidencial no TCU, reservada a membro do Ministério Público junto ao Tribunal, o TCU formou lista tríplice segundo os critérios constitucionais. O presidente escolheu um dos nomes. A assessoria alegou que a lista permitia concluir a escolha sem submetê-la ao Senado.\n\nCom base nessa situação, julgue o item a seguir.\n\nA lista tríplice torna dispensável a aprovação do Senado nessa vaga reservada.",
       "correctAnswer": "E",
-      "explanation": "A lista tríplice disciplina a indicação para a vaga reservada. A aprovação do Senado vale para o terço escolhido pelo presidente, inclusive para essa vaga. Cumprir a etapa da lista não substitui a aprovação.",
+      "explanation": "**Regra:** um terço dos ministros do TCU é escolhido pelo Presidente da República, mas todas essas escolhas dependem de aprovação do Senado (Constituição, arts. 52, III, b, e 73, § 2º, I). Para as vagas reservadas às carreiras de auditor e do Ministério Público junto ao Tribunal, o TCU organiza lista tríplice e o presidente escolhe um nome. **Aplicação:** a lista define os candidatos elegíveis à vaga reservada, mas não elimina a aprovação senatorial. **Pegadinha:** são etapas cumulativas, com funções diferentes. (Constituição, arts. 52, III, b, e 73, § 2º, I.)",
       "reviewEvidence": "Constituição Federal, arts. 52, III, b, e 73, § 2º, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -9774,7 +9774,7 @@
       "reviewStatus": "validada",
       "statement": "Uma vaga do terço de escolha presidencial no TCU não se enquadra nas duas vagas reservadas alternadamente às carreiras indicadas na Constituição. O presidente escolheu um candidato que satisfaz os requisitos constitucionais. Um parecer sustenta que o Senado só atua nas vagas de lista tríplice.\n\nCom base nessa situação, julgue o item a seguir.\n\nMesmo sem a lista tríplice aplicável às vagas reservadas, a escolha presidencial para essa vaga exige aprovação do Senado.",
       "correctAnswer": "C",
-      "explanation": "A aprovação do Senado alcança as três escolhas presidenciais. A lista tríplice é uma exigência adicional para duas vagas reservadas, e sua ausência na outra vaga não elimina o controle senatorial.",
+      "explanation": "**Regra:** as três vagas do TCU escolhidas pelo Presidente da República, dentro do terço presidencial, dependem de aprovação do Senado. Duas vagas são reservadas alternadamente a auditor e membro do Ministério Público junto ao TCU e exigem lista tríplice; a terceira não se submete a essa lista (Constituição, art. 73, § 2º, I). **Aplicação:** mesmo fora das vagas reservadas, a indicação presidencial ainda precisa da aprovação do Senado. **Distinção:** a lista é exigência adicional de certas vagas; a aprovação senatorial alcança todas as escolhas presidenciais. (Constituição, arts. 52, III, b, e 73, § 2º, I.)",
       "reviewEvidence": "Constituição Federal, arts. 52, III, b, e 73, § 2º, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10847,7 +10847,7 @@
       },
       "statement": "União, estados e municípios atuam para preservar documentos e bens de valor histórico. Um projeto de lei ordinária busca fixar as normas de cooperação entre os entes nos termos do parágrafo único do art. 23. A competência material comum autoriza o emprego de lei ordinária para essa finalidade.",
       "correctAnswer": "E",
-      "explanation": "A preservação é competência material comum. As normas de cooperação mencionadas no parágrafo único são reservadas a leis complementares. A titularidade compartilhada da atribuição não modifica a espécie normativa exigida.",
+      "explanation": "**Regra:** proteger documentos, obras e outros bens de valor histórico é competência material comum da União, dos estados, do Distrito Federal e dos municípios (Constituição, art. 23, III e IV). Já as normas de cooperação entre esses entes, para equilibrar o desenvolvimento e o bem-estar nacional, devem ser fixadas por leis complementares (parágrafo único). **Aplicação:** o fato de a preservação ser competência compartilhada não autoriza lei ordinária a disciplinar o regime de cooperação. **Distinção:** competência material responde “quem atua”; espécie normativa responde “qual lei regula a cooperação”. (Constituição, art. 23, III, IV e parágrafo único.)",
       "reviewEvidence": "CF, art. 23, III, IV e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 105, da Câmara de 2014."
     },
     {
@@ -10946,7 +10946,7 @@
       },
       "statement": "Ao simular uma eleição para renovar dois terços das cadeiras do Senado, uma equipe prevê duas vagas para cada estado e uma para o Distrito Federal, com base na população. A previsão contraria a Constituição.",
       "correctAnswer": "C",
-      "explanation": "Estados e Distrito Federal elegem três senadores cada e renovam suas representações alternadamente por um e dois terços. Na renovação de dois terços são duas vagas em cada unidade. A população tem relevância para a representação na Câmara dos Deputados, sob as regras do art. 45.",
+      "explanation": "**Regra:** cada estado e o Distrito Federal elegem três senadores, com mandato de oito anos; a representação é renovada alternadamente por um e dois terços (Constituição, art. 46, §§ 1º e 2º). **Aplicação:** na renovação de dois terços, cada unidade federativa, inclusive o DF, escolhe duas vagas. **Distinção:** a população determina a distribuição de cadeiras na Câmara dos Deputados, dentro dos limites constitucionais; não altera o número igual de senadores por estado ou pelo DF. (Constituição, arts. 45 e 46.)",
       "reviewEvidence": "CF, arts. 45 e 46, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 103, da Câmara de 2014."
     },
     {
@@ -11144,7 +11144,7 @@
       },
       "statement": "Uma brasileira nata adquiriu outra nacionalidade e ainda possui as duas. Anos depois, formula pedido expresso de perda da nacionalidade brasileira perante autoridade brasileira competente. A aquisição anterior, por si, não implicou perda, mas o pedido pode fundamentar sua declaração se não resultar em apatridia.",
       "correctAnswer": "C",
-      "explanation": "A mera aquisição de outra nacionalidade não figura entre as hipóteses atuais de perda. O pedido expresso à autoridade competente pode fundamentar a declaração se não produzir apatridia. Se ela já tivesse perdido a outra nacionalidade, incidiria a ressalva constitucional.",
+      "explanation": "**Regra:** adquirir outra nacionalidade, por si só, não provoca a perda da nacionalidade brasileira. Hoje, a perda pode ser declarada se houver pedido expresso perante autoridade brasileira competente, desde que isso não gere apatridia (Constituição, art. 12, § 4º, II). **Aplicação:** o pedido descrito pode fundamentar a declaração porque a brasileira mantém outra nacionalidade. **Correção importante:** não há mais a antiga regra que tratava a perda da outra nacionalidade como exceção para conservar a brasileira; quem renuncia expressamente pode readquiri-la nos termos da lei (§ 5º). (Constituição, art. 12, § 4º, II, e § 5º, com redação da EC nº 131/2023.)",
       "reviewEvidence": "CF, art. 12, § 4º, II, e § 5º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 83, da Câmara de 2014."
     },
     {
@@ -11177,7 +11177,7 @@
       },
       "statement": "Uma deputada eleita por partido que não alcançou a cláusula de desempenho filia-se a legenda que cumpriu os requisitos constitucionais. A legenda de destino afirma que a deputada preserva o mandato e que a migração é considerada para distribuir recursos do fundo partidário e acesso gratuito a rádio e televisão.",
       "correctAnswer": "E",
-      "explanation": "A deputada preserva o mandato na hipótese do § 5º. O mesmo dispositivo veda considerar essa filiação para distribuir aqueles recursos e o acesso gratuito. A proteção do mandato tem alcance próprio.",
+      "explanation": "**Regra:** o deputado que se desfilia de partido que não alcançou a cláusula de desempenho e migra para uma legenda que a cumpriu pode conservar o mandato; essa mudança, porém, não é considerada para a distribuição dos recursos do fundo partidário nem do acesso gratuito ao rádio e à televisão (Constituição, art. 17, §§ 3º e 5º). **Aplicação:** a deputada mantém o mandato, mas a legenda de destino não pode contar essa filiação para obter aqueles recursos ou tempo de mídia. **Distinção:** a exceção protege o mandato; não transfere automaticamente benefícios de desempenho partidário. (Constituição, art. 17, §§ 3º e 5º.)",
       "reviewEvidence": "CF, art. 17, §§ 3º e 5º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 106, da Câmara de 2014."
     },
     {
@@ -11210,7 +11210,7 @@
       },
       "statement": "Filha de brasileiro nascida no exterior durante missão em que seu pai estava a serviço do Brasil, Helena ainda não foi registrada em repartição brasileira e sempre residiu fora do país. A falta de registro impede reconhecer sua nacionalidade brasileira originária.",
       "correctAnswer": "E",
-      "explanation": "O nascimento no exterior com pai ou mãe brasileira a serviço do Brasil configura hipótese própria de nacionalidade originária. Se o pai não estivesse a serviço do Brasil, seria necessário examinar as vias alternativas do registro ou da residência seguida de opção.",
+      "explanation": "**Regra:** é brasileira nata a pessoa nascida no exterior cujo pai ou mãe brasileiros esteja a serviço do Brasil (Constituição, art. 12, I, b). Nessa hipótese, a Constituição não exige registro em repartição brasileira nem residência posterior no país. **Aplicação:** o pai estava em missão oficial, então a falta de registro não impede a nacionalidade originária de Helena. **Distinção:** se nenhum dos pais estivesse a serviço do Brasil, seria necessário examinar as outras vias do inciso I, como registro consular ou residência no Brasil seguida de opção. (Constituição, art. 12, I, b e c.)",
       "reviewEvidence": "CF, art. 12, I, b e c. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 97, da Câmara de 2014."
     },
     {
@@ -11243,7 +11243,7 @@
       },
       "statement": "Uma vereadora no exercício de mandato próprio pretende concorrer à reeleição no mesmo município. Seu cônjuge é o prefeito e permanece no cargo até a eleição. Para fins da inelegibilidade reflexa, a candidatura da vereadora se enquadra na ressalva constitucional.",
       "correctAnswer": "C",
-      "explanation": "A inelegibilidade reflexa alcança, em regra, o cônjuge no território de jurisdição do titular. A Constituição ressalva quem já é titular de mandato eletivo e concorre à reeleição. Se ela pretendesse concorrer a cargo diferente, essa ressalva específica não se aplicaria.",
+      "explanation": "**Regra:** a inelegibilidade reflexa alcança, em regra, cônjuge e parentes do chefe do Executivo no território de sua jurisdição (Constituição, art. 14, § 7º). O próprio dispositivo ressalva quem já é titular de mandato eletivo e concorre à reeleição. **Aplicação:** a vereadora já exerce mandato próprio e busca a reeleição no mesmo município; por isso, encaixa-se na ressalva. **Limite:** a exceção não deve ser ampliada automaticamente para candidatura a cargo diferente. (Constituição, art. 14, §§ 5º e 7º.)",
       "reviewEvidence": "CF, art. 14, §§ 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 81, da Câmara de 2014."
     },
     {
@@ -11276,7 +11276,7 @@
       },
       "statement": "Um militar alistável com 14 anos de serviço é agregado pela autoridade superior ao concorrer a cargo eletivo. Ele vence a eleição e ainda aguarda a diplomação. O marco constitucional de sua passagem automática para a inatividade será o ato da diplomação.",
       "correctAnswer": "C",
-      "explanation": "Para o militar com mais de dez anos de serviço, a Constituição prevê agregação e, se eleito, passagem automática à inatividade na diplomação. A proclamação do resultado, sozinha, não produz essa passagem.",
+      "explanation": "**Regra:** o militar alistável com mais de dez anos de serviço fica agregado pela autoridade superior ao se candidatar; se eleito, passa automaticamente à inatividade no ato da diplomação (Constituição, art. 14, § 8º, II). **Aplicação:** o militar do caso tem 14 anos de serviço e venceu a eleição, mas a passagem à inatividade só ocorre com a diplomação. **Pegadinha:** proclamação do resultado e diplomação são marcos diferentes. Para quem tem menos de dez anos, a regra é outra: deve afastar-se da atividade. (Constituição, art. 14, § 8º, I e II.)",
       "reviewEvidence": "CF, art. 14, § 8º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 85, da Câmara de 2014."
     },
     {

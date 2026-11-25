@@ -24,6 +24,21 @@
 
 **Novidade no sistema:** distinguir `nova no catálogo` (publicada após uma versão conhecida) de `ainda não respondida pelo estudante` (ausente do histórico consultado) e de `variante inédita do mesmo conceito`. Hoje a interface `web/15-questoes-ui.js` já oferece `Praticar questões novas` usando IDs sem resposta no histórico local e, quando disponível, o histórico autenticado; prioriza itens não respondidos em `choose()`. Isso **não é garantia** de que o item entrou recentemente no catálogo, nem medição de domínio ou retenção. Não criar um segundo aviso que repita essa informação sem evidência de benefício. Se for implementado indicador na tela, usar rótulo explícito `Ainda não respondida`, somente quando a sincronização permitir afirmar isso, e mantê-lo discreto; eventual indicador `Adicionada recentemente` exige metadados confiáveis de publicação e versão. Testar histórico parcial, navegação anônima/autenticada e variantes antes de ativar.
 
+### Operação cognitiva e testes do item
+
+Classifique a função predominante antes de estimar o nível. Aprendizagem fixa conceito ou regra fundamental. Aplicação exige usar uma regra com um fato decisivo. Análise distingue categorias próximas e interpreta condições e efeitos. Integração combina regras, dispositivos ou regimes. Precisão normativa exige recuperar o detalhe que decide. Jurisprudência exige aplicar a razão decisiva de entendimento pertinente. Estime o nível pela familiaridade da regra, pela relação entre conhecimentos e pela plausibilidade das respostas. Um texto curto pode exigir precisão avançada.
+
+Leia caderno e gabarito definitivo juntos. Confira código, cargo, aplicação, alterações e anulações. Registre o fundamento vigente, a informação a recuperar, a operação, a confusão explorada, o fato decisivo e o risco de acerto por bom senso. Vincule cada autoral a pelo menos um localizador válido e descreva a operação transferida. Preserve as particularidades de cada matéria. Em Português, um conectivo pode modificar a relação de sentido. Em Direito, uma condição pode ativar uma exceção. Em Tecnologia da Informação, a conclusão pode depender da etapa em que um controle atua.
+
+1. **Bom senso.** Verifique se o julgamento é possível sem conhecimento da matéria. Corrija decisões caricatas ou destine o item à aprendizagem.
+2. **Pista linguística.** Procure termos que denunciem o gabarito no item ou no lote. Preserve condições com efeito real.
+3. **Necessidade do contexto.** Retire o cenário e compare as operações. Se forem idênticas, reformule o fato decisivo ou use uma questão direta.
+4. **Precisão.** Nomeie a informação ou relação que distingue as duas respostas.
+5. **Variação.** Altere um elemento e explique a mudança na conclusão.
+6. **Calibração.** Localize a operação no caderno oficial e confirme o gabarito definitivo. Redija de forma autoral.
+
+Revise a distribuição de gabaritos em conjunto com a redação, sem impor proporções. Use um ID novo quando mudar substancialmente a operação ou a proposição julgada. A correção deve apresentar regra, destinatário, condições, exceção pertinente, aplicação, fonte e uma variação.
+
 ## Fórmula de elaboração de questões contextualizadas Cebraspe (24/11/2026)
 
 **Aplica-se ao banco público, às questões criadas no chat, às expansões, aos retestes e aos simulados Cebraspe.** O alvo é reproduzir a tarefa de leitura e julgamento, com extensão e complexidade compatíveis com itens reais *do cargo, da disciplina e do formato*. Nem toda questão da Cebraspe tem enunciado longo: consultar provas-espelho antes de afirmar que uma estrutura é típica. Uma frase curta continua válida em sondagens rápidas de memória, explicitamente classificadas como **aprendizagem**, mas não deve dominar baterias de aplicação ou `para valer`.

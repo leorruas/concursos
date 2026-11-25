@@ -69,6 +69,10 @@ O **art. 8º** trata do **agente de contratação**, designado entre servidores 
 
 **Como classificar:** a pergunta “que tipo de disputa?” aponta à modalidade; a pergunta “que proposta vence?” aponta ao julgamento; a pergunta “há algum fornecedor?” aponta à **habilitação** ou à contratação direta, não a uma sexta modalidade.
 
+### Contrato de eficiência
+
+No julgamento por maior retorno econômico, o órgão compara a economia estimada de cada proposta de trabalho após deduzir o preço proposto. Na execução, a remuneração percentual incide sobre a economia efetivamente obtida, medida conforme o edital. Se o resultado ficar abaixo do previsto no contrato, aplica-se a disciplina legal de desconto e eventual sanção. Art. 39, caput e §§ 1º a 4º.
+
 ## Fases da licitação: art. 17
 
 A Lei nº 14.133/2021 enumera **sete fases** em ordem padrão:
@@ -135,6 +139,18 @@ Na **dispensa**, a contratação direta depende de **previsão legal**. Os incis
 
 **Regra temporal:** valores em reais apresentados aqui são um **recorte de 2026**, não números permanentes da lei. Antes da prova ou de um procedimento real, reconfira o reajuste anual aplicável ao exercício.
 
+### Procedimentos auxiliares e seleção
+
+O art. 78 enumera credenciamento, pré-qualificação, manifestação de interesse, sistema de registro de preços e registro cadastral. No credenciamento, o beneficiário direto pode escolher o prestador em uma das hipóteses legais. O chamamento organiza a habilitação dos interessados e o art. 74, IV, fundamenta as contratações correspondentes. O art. 79 também admite contratação paralela não excludente, mercados fluidos e comércio eletrônico nos termos da lei.
+
+A pré-qualificação fica aberta permanentemente, pode alcançar bens ou licitantes e autoriza restringir a licitação subsequente aos pré-qualificados. Vale por até um ano e respeita a validade da documentação apresentada. No procedimento de manifestação de interesse, estudos privados aproveitados pelo órgão não conferem preferência nem obrigam a promover a licitação. O ressarcimento, se cabível, cabe ao vencedor nas condições do edital. No registro de preços, o fornecedor assume compromisso conforme a ata, enquanto a Administração pode decidir se contrata ou, motivadamente, promover licitação específica. Arts. 79 a 83.
+
+### Equipe especializada e participação após emergência
+
+Na inexigibilidade por serviço técnico especializado de natureza predominantemente intelectual, o vínculo entre a escolha e a equipe impede subcontratar empresas ou trocar os profissionais que justificaram a inexigibilidade. Nos demais contratos, a Administração pode autorizar subcontratação parcial dentro dos limites aplicáveis. Arts. 74, III e § 4º, e 122.
+
+O Supremo Tribunal Federal, na ADI 6.890, reconheceu que a vedação do art. 75, VIII, alcança recontratação pela mesma situação emergencial ou calamitosa que extrapole um ano. A empresa pode disputar a licitação substitutiva ou ser contratada diretamente por fundamento legal distinto, inclusive nova emergência efetivamente autônoma. O controle de abusos continua aplicável. [Decisão do STF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6201037).
+
 ## Contratação direta não elimina formalidades
 
 O **art. 72** exige instruir o processo administrativo com documentos e justificativas, entre os quais:
@@ -155,6 +171,10 @@ O **parágrafo único** do art. 72 determina divulgação do **ato autorizativo 
 **Caso progressivo:** primeiro a equipe identifica a necessidade; depois verifica se existe hipótese legal de dispensa ou inexigibilidade; documenta estudos, preço, habilitação e motivo da escolha; obtém autorização; formaliza o instrumento e observa a publicação e execução. **Contratar diretamente não significa contratar verbalmente ou sem processo.**
 
 **Responsabilização:** irregularidade de contratação pode ter efeitos na esfera contratual, disciplinar, civil ou penal, mas **não equivale automaticamente a improbidade administrativa**. Cada regime exige os próprios elementos legais e análise concreta.
+
+### Parcelamento das compras
+
+Dividir a compra em lotes amplia a disputa quando a divisão é tecnicamente viável e economicamente vantajosa. O estudo considera quem pode concorrer, se os lotes são viáveis e se há risco de concentração. A Lei nº 14.133/2021 afasta o parcelamento, entre outros casos, quando economia de escala, redução do custo de gestão ou maior vantagem recomendam comprar do mesmo fornecedor, ou quando separar um sistema integrado põe o conjunto em risco. Peças disponíveis individualmente podem exigir aquisição conjunta se a compatibilidade do sistema depender de integração demonstrada. Arts. 40, V, b, e §§ 2º e 3º.
 
 ## Princípios de prova
 
@@ -211,6 +231,14 @@ O **art. 140** diferencia o recebimento **provisório** do **definitivo**. Em ob
 
 **Notas complementares, com recorte específico:** [[3 - Materias/Contratacoes e Transferencias/09 - planejamento da contratacao e riscos|Planejamento e riscos da contratação]] e [[3 - Materias/Contratacoes e Transferencias/10 - fiscalizacao medicao e recebimento contratual|Fiscalização, medição e recebimento]]. O núcleo jurídico da matéria permanece neste artigo; essas notas permitem aprofundar sem duplicar conteúdos.
 
+### Encargos e medidas de proteção na execução
+
+O contratado responde pelos encargos resultantes da execução. A inadimplência trabalhista, fiscal e comercial não transfere, como regra, seu pagamento à Administração nem impede a regularização ou o uso da obra. Em serviços contínuos com dedicação exclusiva de mão de obra, o art. 121, § 2º, prevê responsabilidade solidária por encargos previdenciários e subsidiária por encargos trabalhistas no regime especial associado à comprovação da falha de fiscalização. Na solidariedade, o credor pode exigir a obrigação de corresponsável. Na subsidiariedade, a responsabilidade é secundária.
+
+Nesse regime de dedicação exclusiva, edital ou contrato pode prever garantia para verbas rescisórias inadimplidas, prova de quitação como condição de pagamento, depósito em conta vinculada ou pagamento trabalhista direto com abatimento no crédito da contratada. Valores da conta vinculada são impenhoráveis. O art. 50 permite solicitar, sob pena de multa, comprovação de obrigações como o depósito do Fundo de Garantia do Tempo de Serviço (FGTS). Arts. 50 e 121.
+
+O terceiro contratado para apoiar a fiscalização responde objetivamente pela veracidade e precisão da informação. O fiscal mantém responsabilidade nos limites das informações recebidas e conserva suas atribuições próprias. O controle interno do órgão que o auxilia integra a segunda linha de defesa, assim como seu assessoramento jurídico. O tribunal de contas e o órgão central de controle interno integram a terceira linha. Arts. 117, §§ 3º e 4º, e 169.
+
 ### Questões inéditas comentadas: ETP, TR e fiscalização
 
 **1.** O ETP e o TR possuem a mesma função legal, de modo que a identificação inicial de uma necessidade administrativa já equivale à definição do objeto e dos critérios de recebimento da contratação.
@@ -240,6 +268,16 @@ A seleção do vencedor **não encerra os deveres da Administração**. O objeto
 O **art. 92** enumera cláusulas necessárias, como objeto e elementos característicos, vinculação ao edital ou ato autorizador da contratação direta, legislação aplicável, regime de execução ou forma de fornecimento, preço, condições de pagamento, prazos, garantias quando exigidas, direitos e responsabilidades, penalidades, modelo de gestão e hipóteses de extinção. Nem todas as situações possuem a mesma redação contratual, mas os elementos aplicáveis devem estar formalizados.
 
 O **art. 115** exige execução fiel pelas partes segundo cláusulas e legislação, respondendo cada qual pelas consequências da sua inexecução total ou parcial. **Fiscalizar é dever institucional**, não mera opção. A prestação material não dispensa verificação do resultado antes do recebimento definitivo nas hipóteses legais.
+
+### Garantias e vigência
+
+Quando prevista no edital, a autoridade competente pode exigir garantia. No regime geral, o contratado escolhe a modalidade, inclusive caução em dinheiro ou títulos da dívida pública escriturais que satisfaçam as condições legais. Para seguro-garantia escolhido pelo adjudicatário, o edital fixa prazo mínimo de um mês a partir da homologação e a garantia é prestada antes da assinatura. O limite ordinário é 5% do valor inicial, elevado a até 10% com justificativa baseada em complexidade e riscos. O regime de obras e serviços de engenharia também admite previsão editalícia de seguro-garantia com cláusula de retomada, em que a seguradora assume a execução nas condições legais. Arts. 96, 98 e 102.
+
+Serviços e fornecimentos contínuos podem ter contrato inicial de até cinco anos, com vantagem econômica atestada pela autoridade competente e verificação de créditos e vantagem no início e em cada exercício. Quando o ajuste ultrapassa um exercício financeiro, também se observa a previsão no plano plurianual. Sem crédito ou vantagem, a Administração pode extinguir sem ônus, respeitada a condição temporal do art. 106, § 1º. As prorrogações sucessivas podem levar a vigência total a dez anos se houver previsão no edital e ateste da vantagem. No contrato de escopo predefinido, o objeto inconcluso prorroga a vigência por força da lei. Se houver culpa do contratado, também há mora, possibilidade de sanção e opção de extinção. Arts. 105 a 107 e 111.
+
+### Forma eletrônica e acesso
+
+O contrato escrito pode assumir forma eletrônica, conforme regulamento. A publicidade de contratos e aditivos convive com sigilo quando indispensável à segurança da sociedade e do Estado nos termos da legislação de acesso à informação. A escolha do meio eletrônico não altera as condições para restringir acesso. Art. 91, caput e §§ 1º e 3º.
 
 ### Instrumento contratual × contrato verbal
 
@@ -283,6 +321,12 @@ O **art. 124** separa hipóteses de mudança **unilateralmente pela Administraç
 
 **Exemplo:** servidor determina aumento quantitativo de 20% no objeto, com justificativa e preservação do regime: verificar art. 125. Em outro caso, o órgão quer converter o objeto contratado em prestação diversa: o problema é **transfiguração**, ainda que o preço fique abaixo do limite.
 
+### Apostila, aditivo e matriz de riscos
+
+A apostila registra fatos que não alteram materialmente o contrato. Exemplos são aplicação de reajuste ou repactuação já previstos e empenho de dotações. A substituição consensual da garantia altera a cláusula contratual. A alteração unilateral lícita que muda os encargos exige recomposição do equilíbrio no mesmo termo aditivo. O contrato pode usar índices específicos ou setoriais conforme os insumos, com data-base vinculada ao orçamento estimado. Arts. 92, V e § 3º, 124, II, a, 130 e 136.
+
+A revisão extraordinária respeita a matriz que atribui riscos a cada parte. Atendidas as condições do contrato, o risco assumido não justifica recomposição por sua ocorrência. A lei ressalva, entre outras hipóteses expressas, alterações unilaterais da Administração e mudança legislativa em tributo diretamente pago pelo contratado em decorrência do contrato. Arts. 103, §§ 4º e 5º, e 124, II, d.
+
 ## Extinção do contrato
 
 A **extinção** termina o vínculo contratual na forma da lei. O **art. 137** descreve motivos como descumprimento ou cumprimento irregular de normas e cláusulas contratuais, paralisação, atraso injustificado, alterações sociais impeditivas ou situações legais relacionadas à atuação administrativa. A decisão exige **motivação formal nos autos**, preservados contraditório e ampla defesa quando pertinentes.
@@ -298,6 +342,12 @@ O **art. 138** prevê três formas principais:
 **Exemplo:** atrasos reiterados comprovados na entrega de software podem justificar exame de extinção e sanções, desde que a Administração identifique o motivo legal, registre fatos, observe competências e garanta defesa. **Alterar unilateralmente uma cláusula** e **extinguir unilateralmente o contrato** são poderes distintos e não se tornam ilimitados por atenderem ao interesse público.
 
 **Art. 139:** a extinção unilateral pode acarretar consequências legais, como assunção imediata do objeto, ocupação e utilização temporária de recursos vinculados ao contrato em casos previstos e execução da garantia, observados limites e responsabilidades. **Extinção não é sinônimo de sanção**: o contrato pode terminar por diferentes motivos, e penalidades dependem de infração e processo próprios.
+
+### Direitos após extinção e efeitos da nulidade
+
+A extinção permite reconhecer desequilíbrio pedido durante a vigência e antes de eventual prorrogação. Se reconhecido depois do fim, o pagamento toma a forma de termo indenizatório. Na extinção por culpa exclusiva da Administração, o contratado tem direito ao ressarcimento dos prejuízos regularmente comprovados, à devolução da garantia, ao pagamento pelo executado e ao custo de desmobilização. Na extinção unilateral por inadimplemento, a retenção de créditos se limita a prejuízos e multas. Arts. 131, 138, § 2º, e 139, IV.
+
+Em vício insanável, a Administração avalia se suspender a execução ou declarar nulidade atende ao interesse público. Se a paralisação ou anulação não convier ao interesse público, a lei manda preservar a continuidade e resolver a irregularidade por perdas e danos, com apuração de responsabilidades. A nulidade tem regra de retroatividade. Para dar tempo a nova contratação e evitar descontinuidade administrativa, admite-se eficácia futura de até seis meses, prorrogável uma vez. A Administração deve indenizar a execução até a declaração ou sua eficácia e outros prejuízos comprovados quando a nulidade não for imputável ao contratado. Arts. 147 a 149.
 
 ## Sanções administrativas
 
@@ -329,6 +379,10 @@ Para recursos do **art. 165**, a autoridade recorrida tem **três dias úteis** 
 **Atenção:** **impugnação de edital** do art. 164 é outra medida, aberta a qualquer pessoa até **três dias úteis antes da abertura do certame**; não se confunde com recurso contra julgamento ou com defesa em processo sancionatório. Seus respectivos prazos tratam de **atos diferentes**.
 
 **Exemplo progressivo:** empresa entrega componente defeituoso. O fiscal registra e solicita correção conforme competência. A autoridade apura eventual inexecução e a sanção adequada, com defesa. Se aplicada **multa**, não se exige que o particular use o prazo geral de três dias úteis do art. 165: o recurso sancionatório é de **15 dias úteis pelo art. 166**.
+
+### Prescrição da responsabilização contratual
+
+Para impedimento e inidoneidade, o prazo prescricional é de cinco anos da ciência da infração pela Administração. A instauração do processo de responsabilização interrompe a contagem e faz recomeçar o prazo. A celebração de acordo de leniência ou decisão judicial que inviabilize concluir a apuração suspende a contagem e preserva o tempo já decorrido. O termo inicial da prescrição tem função diferente dos prazos para defesa e impugnação da sanção. A multa pode coexistir com o dever de reparação integral do dano. Arts. 156, § 9º, e 158, § 4º.
 
 ## Como a banca cobra
 

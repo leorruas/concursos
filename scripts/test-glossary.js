@@ -81,8 +81,9 @@ assert.equal(scrollToTopOptions.behavior, 'auto', 'Respeitar preferência por mo
 const workflowText = fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');
 assert(workflowText.includes('uses: actions/upload-pages-artifact@v3') &&
        workflowText.includes('uses: actions/deploy-pages@v4') &&
-       !workflowText.includes('artifact_name: github-pages-${{ github.run_attempt }}'),
-  'Pages deve usar o artefato padrao esperado pela acao de deploy');
+       workflowText.includes('name: github-pages-${{ github.run_attempt }}') &&
+       workflowText.includes('artifact_name: github-pages-${{ github.run_attempt }}'),
+  'Upload e deploy devem usar o mesmo artefato especifico da tentativa atual');
 const termos = JSON.parse(JSON.stringify(published.terms));
 const match = (query, block = '', subject = '', article = '') => ctx.filtrarTermosGlossario(termos, query, block, subject, article);
 

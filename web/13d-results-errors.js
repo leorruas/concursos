@@ -87,13 +87,13 @@
   const item=text('article','results-daily-card');
   const head=text('div','results-daily-card-head');
   head.append(text('strong','',r.topic||r.subject||'Questão registrada'),text('span','',(r.result==='uncertain'?'Acerto inseguro':'Erro')+' · '+r.origin));
-  item.append(head,text('p','results-daily-statement',r.statement||'Enunciado não disponível neste registro.'));
+  item.append(head,window.studyMarkdownNode(r.statement||'Enunciado não disponível neste registro.','results-daily-statement'));
   const answers=text('div','results-daily-answers');
   const mine=text('p','');mine.append(text('strong','','Sua resposta: '),document.createTextNode(answer(r.mine)));
   const correct=text('p','');correct.append(text('strong','','Resposta correta: '),document.createTextNode(answer(r.correct)));
   answers.append(mine,correct);item.append(answers);
   const why=text('div','results-daily-explanation');
-  why.append(text('strong','','Por que essa resposta está correta'),text('p','',r.explanation||'A explicação não foi armazenada com este registro.'));
+  why.append(text('strong','','Por que essa resposta está correta'),window.studyMarkdownNode(r.explanation||'A explicação não foi armazenada com este registro.'));
   item.append(why);
   const link=articleUrl(r.articleId,r.section,exam,manifest);
   if(link){const a=text('a','results-link','Ler a matéria'+(r.section?': '+r.section:''));a.href=link;a.rel='noreferrer';item.append(a);}

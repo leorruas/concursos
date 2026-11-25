@@ -9,9 +9,9 @@
   const d=el('details','erros-artigo-item');
   d.append(el('summary','',q.result==='incorrect'?'Questão errada · '+date(q.date):'Acerto com insegurança · '+date(q.date)));
   if(q.topic||q.subtopic)d.append(el('p','erros-artigo-meta',[q.topic,q.subtopic].filter(Boolean).join(' / ')));
-  d.append(el('p','',q.statement||'O enunciado não está disponível no registro antigo.'));
+  d.append(window.studyMarkdownNode(q.statement||'O enunciado não está disponível no registro antigo.'));
   d.append(el('p','','Sua resposta: '+(q.userAnswer??'não registrada')+' · Gabarito: '+(q.correctAnswer??'não registrado')));
-  if(q.explanation)d.append(el('p','',q.explanation));
+  if(q.explanation)d.append(window.studyMarkdownNode(q.explanation));
   if(q.section){
    const a=el('a','erros-artigo-link','Ir ao trecho da teoria');
    a.href=window.construirRotaArtigoId?construirRotaArtigoId(article.articleSlug||article.articleId,q.section,contest):'#';

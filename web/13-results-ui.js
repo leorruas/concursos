@@ -30,9 +30,9 @@ function renderQuestion(q,article){
  const summary=el('summary','',q.result==='incorrect'?'Questão errada · '+fmtDate(q.date):'Acerto com insegurança · '+fmtDate(q.date));
  details.append(summary);
  if(q.topic||q.subtopic)details.append(el('p','results-meta',[q.topic,q.subtopic].filter(Boolean).join(' / ')));
- details.append(el('p','',q.statement||'Enunciado não disponível no registro histórico.'));
+ details.append(window.studyMarkdownNode(q.statement||'Enunciado não disponível no registro histórico.'));
  details.append(el('p','','Sua resposta: '+(q.userAnswer??'não registrada')+' · Gabarito: '+(q.correctAnswer??'não registrado')));
- if(q.explanation)details.append(el('p','',q.explanation));
+ if(q.explanation)details.append(window.studyMarkdownNode(q.explanation));
  if(q.section){
   const a=el('a','results-link','Ir ao trecho da teoria: '+q.section);
   a.href=articleLink(article,q.section);a.rel='noreferrer';

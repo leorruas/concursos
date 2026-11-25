@@ -10170,7 +10170,7 @@
       "reviewStatus": "validada",
       "statement": "Vinte e sete senadores requereram CPI para examinar uma obra federal identificada por contrato, período e órgão responsável. O requerimento dispõe que os trabalhos durarão até chegar uma auditoria externa ainda sem previsão de entrega, sem limite máximo.\n\nCom base nessa situação, julgue o item a seguir.\n\nO requerimento atende ao apoio mínimo e ao requisito de fato determinado, mas ainda não fixa prazo certo para os trabalhos.",
       "correctAnswer": "C",
-      "explanation": "Vinte e sete dos 81 senadores correspondem a um terço, e o fato está delimitado. Um evento sem previsão e sem limite máximo não fixa prazo certo. Se o requerimento fixasse um prazo determinado, estaria preenchida também essa exigência.",
+      "explanation": "**Regra:** a criação de CPI exige assinatura de um terço dos membros da Casa, fato determinado e prazo certo para os trabalhos (Constituição, art. 58, § 3º). **Aplicação:** 27 de 81 senadores atingem exatamente um terço, e o objeto está delimitado por contrato, período e órgão. Mas “até a entrega de auditoria ainda sem previsão, sem limite máximo” não fixa uma data ou duração determinável; o requerimento não atende ao requisito temporal. **Distinção:** atrelar o encerramento a um evento futuro só dá prazo certo quando esse evento e seu limite temporal são determináveis. (Constituição, art. 58, § 3º.)",
       "reviewEvidence": "Constituição Federal, arts. 46, § 1º, e 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -11012,7 +11012,7 @@
       },
       "statement": "Um projeto presidencial sujeito à urgência constitucional retorna à Câmara com emendas do Senado. Iniciada a contagem do prazo de apreciação, o Congresso entra em recesso. O prazo específico é de dez dias, e sua contagem fica suspensa durante o recesso.",
       "correctAnswer": "C",
-      "explanation": "O § 3º determina dez dias para a Câmara apreciar emendas do Senado, observado o § 2º. O § 4º impede a contagem dos prazos durante o recesso. Em período ordinário, o prazo volta a correr pelo tempo restante.",
+      "explanation": "**Regra:** se a Câmara não aprecia emendas do Senado em dez dias, aplica-se o regime de urgência constitucional do art. 64, § 2º; para esse caso, o § 3º prevê prazo específico de dez dias à Câmara. Os prazos ficam suspensos durante o recesso (art. 64, § 4º). **Aplicação:** o recesso interrompe a contagem; quando a atividade legislativa retoma, corre apenas o saldo restante. **Pegadinha:** o recesso não reinicia o prazo do zero nem conta como dias de apreciação. (Constituição, art. 64, §§ 2º a 4º.)",
       "reviewEvidence": "CF, art. 64, §§ 2º a 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 91, da Câmara de 2014."
     },
     {
@@ -11045,7 +11045,7 @@
       },
       "statement": "Na mesma sessão legislativa, 270 deputados apresentam uma proposta de emenda sobre matéria de proposta antes havida por prejudicada e um projeto de lei sobre matéria de projeto anteriormente rejeitado. O apoiamento é suficiente para a reapresentação do projeto de lei, mas a proposta de emenda continua sujeita à vedação constitucional.",
       "correctAnswer": "C",
-      "explanation": "O art. 67 permite nova proposição de lei por maioria absoluta de uma Casa. O art. 60, § 5º, veda nova proposta de emenda sobre a mesma matéria na mesma sessão legislativa, inclusive se a anterior foi havida por prejudicada. Uma nova sessão legislativa afastaria essa vedação temporal.",
+      "explanation": "**Regra:** projeto de lei rejeitado pode ser reapresentado na mesma sessão legislativa se houver proposta da maioria absoluta dos membros de qualquer das Casas (art. 67). Já proposta de emenda rejeitada ou havida por prejudicada não pode ser reapresentada sobre a mesma matéria na mesma sessão legislativa, ainda que reúna esse apoio (art. 60, § 5º). **Aplicação:** 270 deputados são maioria absoluta da Câmara e bastam para a nova proposição de lei; esse número não afasta a vedação específica da PEC. **Distinção:** a regra de reapresentação de projeto de lei não se transfere às emendas constitucionais. (Constituição, arts. 60, § 5º, e 67.)",
       "reviewEvidence": "CF, arts. 60, § 5º, e 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 92, da Câmara de 2014."
     },
     {
@@ -17673,7 +17673,7 @@
       },
       "statement": "O Senado aprova projeto de lei de sua iniciativa e o envia à Câmara. A Câmara, como Casa revisora, rejeita o projeto integralmente. A consequência prevista é o arquivamento.",
       "correctAnswer": "C",
-      "explanation": "A rejeição integral leva ao arquivamento. A devolução à Casa iniciadora ocorre se a revisora emendar o projeto.",
+      "explanation": "**Regra:** se a Casa revisora rejeita integralmente o projeto, ele é arquivado. Se aprova emenda ou substitutivo, devolve o texto à Casa iniciadora para que esta aprecie a alteração (Constituição, art. 65, parágrafo único). **Aplicação:** a Câmara rejeitou por completo o projeto vindo do Senado; não há texto aprovado nem emenda a devolver, portanto ocorre o arquivamento. **Pegadinha:** retornar à Casa iniciadora é consequência de alteração feita pela revisora, não da rejeição total. (Constituição, art. 65.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 65. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -80113,7 +80113,7 @@
       },
       "statement": "Em uma Câmara com 513 membros, recurso assinado por cinquenta deputados atinge o mínimo de um décimo exigido para recorrer de apreciação conclusiva.",
       "correctAnswer": "E",
-      "explanation": "Um décimo de 513 corresponde a 51,3. Como o limite é mínimo, são necessárias pelo menos 52 assinaturas. (Regimento Interno, art. 58, § 2º, I, da Constituição e art. 58 do Regimento Interno.)",
+      "explanation": "**Regra:** para levar ao Plenário matéria apreciada conclusivamente pelas comissões, o recurso deve ser assinado por pelo menos um décimo dos membros da Câmara e indicar expressamente a parte que será deliberada (RICD, art. 58, § 3º; Constituição, art. 58, § 2º, I). **Aplicação:** um décimo de 513 é 51,3. Como não existe fração de assinatura e o requisito é “pelo menos”, arredonda-se para cima: são necessárias 52, não 50 nem 51. **Como resolver:** calcule a fração sobre a composição total e use o menor número inteiro que alcance o mínimo. (Constituição, art. 58, § 2º, I; RICD, art. 58, § 3º.)",
       "reviewEvidence": "Regimento Interno, art. 58, § 2º, I, da Constituição e art. 58 do Regimento Interno — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Constituição Federal — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Converte a fração constitucional em número mínimo inteiro."
     },
     {
@@ -80169,7 +80169,7 @@
       },
       "statement": "A aprovação do recurso contra apreciação conclusiva que indica apenas parte da proposição submete essa parte ao Plenário, sem atrair automaticamente toda a matéria.",
       "correctAnswer": "C",
-      "explanation": "O recurso delimita a parte a ser submetida ao Plenário. Seu provimento atrai o exame da matéria recorrida, preservada a distinção entre o trecho indicado e o restante do projeto. (Regimento Interno, art. 132, § 2º.)",
+      "explanation": "**Regra:** o recurso contra decisão conclusiva deve indicar expressamente qual parte da matéria será submetida ao Plenário (RICD, art. 58, § 3º). Se provido, a deliberação plenária alcança o objeto indicado, não automaticamente todos os pontos do projeto. **Aplicação:** como o recurso delimitou apenas um trecho, o Plenário examina esse trecho; o restante não é atraído só por estar no mesmo projeto. **Pegadinha:** o provimento do recurso não apaga a delimitação feita pelos recorrentes. (RICD, art. 58, §§ 3º e 4º.)",
       "reviewEvidence": "Regimento Interno, art. 132, § 2º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Identifica o objeto delimitado do recurso e o efeito do provimento."
     },
     {
@@ -80197,7 +80197,7 @@
       },
       "statement": "O prazo regimental de setenta e duas horas para encaminhar projeto aprovado conclusivamente começa ao término da apreciação de mérito pelas comissões, ainda que a redação final esteja pendente.",
       "correctAnswer": "E",
-      "explanation": "O termo inicial foi antecipado. O prazo de setenta e duas horas começa com a aprovação da redação final. (Regimento Interno, art. 58, § 5º.)",
+      "explanation": "**Regra:** depois de aprovada pela comissão competente a redação final do projeto apreciado conclusivamente, ele retorna à Mesa para encaminhamento ao Senado ou à Presidência da República em até 72 horas (RICD, art. 58, § 5º). **Aplicação:** o prazo ainda não começou apenas porque a votação de mérito terminou; é preciso que a redação final seja aprovada. **Distinção:** conclusão do mérito e aprovação da redação final são etapas diferentes, e o dispositivo vincula as 72 horas à segunda. (RICD, art. 58, § 5º.)",
       "reviewEvidence": "Regimento Interno, art. 58, § 5º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Distingue o término da votação conclusiva e a aprovação da redação final."
     },
     {
@@ -82073,7 +82073,7 @@
       },
       "statement": "Se a autoridade responde no prazo ao pedido de esclarecimentos sobre indícios de despesa não autorizada, mas a comissão mista considera a resposta insuficiente, a comissão deve solicitar pronunciamento conclusivo do Tribunal de Contas da União.",
       "correctAnswer": "C",
-      "explanation": "A resposta no prazo não impede o passo seguinte quando seu conteúdo é insuficiente. A Constituição inclui a insuficiência, além da ausência de resposta, entre os motivos para solicitar o pronunciamento. (Constituição Federal, art. 72, § 1º.)",
+      "explanation": "**Regra:** diante de indícios de despesa não autorizada, a comissão mista pode pedir esclarecimentos à autoridade responsável, que tem cinco dias para responder. Se não houver resposta ou ela for insuficiente, a comissão solicita ao TCU pronunciamento conclusivo (Constituição, art. 72, § 1º). **Aplicação:** responder no prazo satisfaz a exigência temporal, mas não encerra o procedimento quando o conteúdo não esclarece a despesa. **Pegadinha:** tempestividade e suficiência são critérios separados; a insuficiência também autoriza o passo seguinte. (Constituição, art. 72, § 1º.)",
       "reviewEvidence": "Constituição Federal, art. 72, § 1º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue tempestividade e suficiência da resposta."
     },
     {

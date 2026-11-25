@@ -17645,7 +17645,7 @@
       },
       "statement": "Na mesma sessão legislativa, 250 deputados e 20 senadores apoiam a reapresentação de matéria constante de projeto de lei rejeitado. Os 270 apoios, somados, satisfazem a exigência do art. 67.",
       "correctAnswer": "E",
-      "explanation": "Nenhuma das Casas atingiu sua maioria absoluta. Os apoios de deputados e senadores não são somados para cumprir esse requisito.",
+      "explanation": "**Regra:** matéria constante de projeto de lei rejeitado só pode ser reapresentada na mesma sessão legislativa mediante proposta da maioria absoluta dos membros de uma das Casas do Congresso. **Aplicação:** 250 deputados não alcançam a maioria absoluta da Câmara (257), e 20 senadores não alcançam a do Senado (41). Somar os dois grupos não resolve, pois a Constituição exige a maioria absoluta de uma Casa, não um total combinado. **Pegadinha:** Congresso é bicameral; quóruns que a Constituição atribui a cada Casa são aferidos separadamente. (Constituição, art. 67.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -17701,7 +17701,7 @@
       },
       "statement": "Aprovado pela Câmara e rejeitado integralmente pelo Senado, um projeto de lei deve voltar à Câmara para que ela confirme ou derrube a rejeição.",
       "correctAnswer": "E",
-      "explanation": "O art. 65 determina o arquivamento quando a Casa revisora rejeita o projeto. Ele não prevê essa nova votação na Casa iniciadora.",
+      "explanation": "**Regra:** se a Casa revisora rejeita integralmente um projeto de lei, ele é arquivado. **Aplicação:** como o Senado rejeitou o projeto vindo da Câmara, não há retorno à Casa iniciadora para uma votação de confirmação. **Distinção:** o projeto só volta à Casa em que começou quando a revisora aprova emendas; nessa situação, a iniciadora aprecia as alterações. Rejeição integral e aprovação com emendas produzem caminhos diferentes. (Constituição, art. 65.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 65. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -18681,7 +18681,7 @@
       },
       "statement": "Diante de indícios de despesa não autorizada, a comissão mista pede esclarecimentos à autoridade responsável. A resposta chega no prazo, mas é considerada insuficiente. A comissão deve solicitar pronunciamento conclusivo do Tribunal de Contas da União.",
       "correctAnswer": "C",
-      "explanation": "O § 1º prevê a solicitação tanto na falta de esclarecimentos quanto quando os esclarecimentos forem insuficientes.",
+      "explanation": "**Regra:** diante de indícios de despesa não autorizada, a comissão mista pode pedir explicações à autoridade responsável. Se não houver resposta em cinco dias ou se ela for insuficiente, a comissão solicita pronunciamento conclusivo do TCU. **Aplicação:** a autoridade respondeu dentro do prazo, mas não esclareceu o ponto questionado; tempestividade não sana insuficiência. **Distinção:** o prazo mede quando a resposta chegou; a suficiência mede se ela enfrentou os indícios. São requisitos diferentes. (Constituição, art. 72, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 72, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -18709,7 +18709,7 @@
       },
       "statement": "Em procedimento do art. 72, a autoridade respondeu no prazo, mas não esclareceu a autorização da despesa. A tempestividade da resposta impede que a comissão solicite pronunciamento conclusivo ao Tribunal de Contas da União.",
       "correctAnswer": "E",
-      "explanation": "A suficiência do esclarecimento é requisito distinto da tempestividade. A resposta insuficiente autoriza o passo seguinte.",
+      "explanation": "**Regra:** no controle de despesa não autorizada, resposta no prazo não encerra o procedimento se for insuficiente. **Aplicação:** como a autoridade não esclareceu a autorização da despesa, a comissão pode solicitar manifestação conclusiva do TCU. **Sequência:** a comissão pede explicações; a autoridade dispõe de cinco dias; falta de resposta ou resposta insuficiente leva ao pronunciamento do Tribunal. **Pegadinha:** não misture tempestividade com conteúdo: cumprir o prazo não prova que o gasto estava autorizado. (Constituição, art. 72, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 72, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22545,7 +22545,7 @@
       },
       "statement": "A comissão competente aprova a redação final de projeto sujeito à apreciação conclusiva. A partir dessa aprovação corre o prazo regimental de 72 horas para a remessa cabível.",
       "correctAnswer": "C",
-      "explanation": "O § 5º toma a aprovação da redação final como termo inicial. A etapa anterior de análise do mérito tem função distinta.",
+      "explanation": "**Regra:** no procedimento de apreciação conclusiva pelas comissões, o prazo de 72 horas para a remessa prevista no art. 58, § 5º, começa com a aprovação da redação final. **Aplicação:** a comissão aprovou essa redação, então esse é o marco inicial; não se conta desde o primeiro parecer de mérito. **Distinção:** o prazo de cinco sessões para interpor recurso contra a decisão conclusiva é outra etapa e tem outro marco. A sequência é: decisão conclusiva, possível recurso e, quando cabível, redação final e remessa. (RICD, art. 58, §§ 1º e 5º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 58, § 5º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -22573,7 +22573,7 @@
       },
       "statement": "O recurso contra decisão conclusiva é rejeitado pelo Plenário, mas a redação final ainda está pendente. O prazo de 72 horas do art. 58, § 5º, começa imediatamente com a rejeição do recurso.",
       "correctAnswer": "E",
-      "explanation": "A rejeição pode permitir que o projeto prossiga à redação final. A contagem para remessa começa após a aprovação dessa redação.",
+      "explanation": "**Regra:** o prazo de 72 horas para a remessa da proposição corre após a aprovação da redação final. **Aplicação:** a rejeição do recurso remove o obstáculo à tramitação, mas, se a redação final ainda não foi aprovada, o prazo ainda não começou. **Distinção:** decisão sobre recurso e aprovação da redação final são atos diferentes. O primeiro define se o Plenário examinará a matéria; o segundo fixa o marco para a remessa prevista no art. 58, § 5º. (RICD, art. 58, §§ 1º e 5º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 58, § 5º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -22601,7 +22601,7 @@
       },
       "statement": "A comissão sugere alterações ao voto e o relator concorda com elas. Cabe ao próprio relator redigir o novo texto, com prazo até a reunião seguinte.",
       "correctAnswer": "C",
-      "explanation": "O inciso XI conserva a redação com o relator que concordou com as alterações. A regra sobre substituto decorre de hipótese distinta.",
+      "explanation": "**Regra:** se a Comissão sugere alterações ao voto e o relator concorda, ele próprio redige o novo texto até a reunião ordinária seguinte. **Aplicação:** a concordância do relator mantém a redação com ele; não há substituição automática. **Distinção:** se o voto do relator não for adotado pela Comissão, aplica-se outra regra: o relator substituto redige o parecer vencedor, salvo se também estiver vencido ou ausente, caso em que o presidente designa outro deputado. A mudança de responsável depende do resultado da votação, não apenas de haver alteração no texto. (RICD, art. 57, XI e XII.)",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 57, XI e XII. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -22629,7 +22629,7 @@
       },
       "statement": "O relator concorda com alterações propostas a seu voto. Pelo simples fato de mudar o texto, a redação deve passar automaticamente a um relator substituto.",
       "correctAnswer": "E",
-      "explanation": "A concordância aciona a regra do inciso XI. A redação pelo substituto, em regra, é cabível quando o voto do relator não é adotado.",
+      "explanation": "**Regra:** quando o relator aceita as alterações sugeridas pela Comissão, continua responsável por redigir o texto ajustado até a reunião seguinte. **Aplicação:** mudar a redação, por si só, não transfere a tarefa a um substituto. **Contraste:** o substituto entra quando o voto do relator não é adotado e a Comissão aprova posição vencedora diversa; ele redige o parecer vencedor. Assim, a pergunta decisiva é se o relator concordou com as alterações ou foi vencido na deliberação. (RICD, art. 57, XI e XII.)",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 57, XI e XII. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -22713,7 +22713,7 @@
       },
       "statement": "O Senado recebe para revisão um projeto de lei ordinária aprovado pela Câmara. O texto constitucional prevê um só turno de discussão e votação na Casa revisora.",
       "correctAnswer": "C",
-      "explanation": "O art. 65 determina turno único na Casa revisora. A exigência de dois turnos por Casa pertence ao rito de PEC.",
+      "explanation": "**Regra:** o projeto de lei ordinária é discutido e votado em um só turno na Casa revisora. **Aplicação:** ao receber da Câmara um projeto de lei ordinária, o Senado faz essa revisão em turno único. **Distinção:** PEC exige dois turnos de votação em cada Casa e quórum de três quintos; essa regra especial não se aplica a projeto de lei ordinária. Se o Senado aprovar emenda, o texto retorna à Câmara para apreciação da alteração. (Constituição, arts. 60, § 2º, e 65.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 65. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {

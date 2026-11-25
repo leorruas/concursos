@@ -246,14 +246,17 @@ statementRenderer(card,camaraPool.find(q=>q.origin==='inedita'));
 assert.ok(card.textContent.trim());
 assert.notEqual(card.textContent,linkedOfficials[0].statement);
 assert.equal(card.children.length,0,'limpa o link ao mostrar o item autoral');
-const sharedCaseQuestions=camaraPool.filter(q=>q.calibration?.caseId==='fiscalizacao-do-decreto');
-assert.equal(sharedCaseQuestions.length,3);
-assert.equal(new Set(sharedCaseQuestions.map(q=>q.statement.split('\n\n')[0])).size,1);
-assert.equal(new Set(sharedCaseQuestions.map(q=>q.mechanism)).size,3);
 const sharedCasePracticeIds=getFunction(quizSource,'sharedCasePracticeIds','renderSuggestions');
-assert.equal(JSON.stringify(sharedCasePracticeIds(camaraPool,new Set())),
- JSON.stringify(sharedCaseQuestions.map(q=>q.id)));
-assert.equal(sharedCasePracticeIds(camaraPool,new Set([sharedCaseQuestions[0].id])).length,0);
+for(const caseId of ['fiscalizacao-do-decreto','autotutela-vantagem-mensal']){
+ const items=camaraPool.filter(q=>q.calibration?.caseId===caseId);
+ const otherSeenIds=camaraPool.filter(q=>q.calibration?.caseId!==caseId).map(q=>q.id);
+ assert.equal(items.length,3);
+ assert.equal(new Set(items.map(q=>q.statement.split('\n\n')[0])).size,1);
+ assert.equal(new Set(items.map(q=>q.mechanism)).size,3);
+ assert.deepEqual(Array.from(sharedCasePracticeIds(camaraPool,new Set(otherSeenIds))),
+  items.map(q=>q.id));
+ assert.equal(sharedCasePracticeIds(camaraPool,new Set([...otherSeenIds,items[0].id])).length,0);
+}
 const publishedById=new Map(data.questions.map(q=>[q.id,q]));
 for(const q of [...additional,...variants,...applications,...casesAdmin,...hardAdmin]){
  const published=publishedById.get(q.id);

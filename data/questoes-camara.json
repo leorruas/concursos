@@ -7605,6 +7605,108 @@
   ],
   "expansao": [
     {
+      "id": "cam-caso-autotutela-termo-inicial-primeiro-pagamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos",
+      "articleId": "art-61c7724cba33648a",
+      "conceptId": "anulacao-decadencia-federal",
+      "mechanism": "termo-inicial-primeiro-pagamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#1. Anulação (Invalidação)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md",
+        "section": "1. Anulação (Invalidação)"
+      },
+      "statement": "Em fevereiro de 2019, uma autarquia federal concedeu a um servidor uma vantagem mensal. O ato de concessão não produziu pagamento imediato: o primeiro crédito foi recebido em julho de 2020. Em maio de 2025, ao examinar os documentos da concessão, a autoridade administrativa competente registrou em despacho que o servidor não preenchia um requisito legal na data do ato e impugnou expressamente sua validade. O mesmo despacho determinou a intimação do beneficiário. A instrução prosseguiu até outubro de 2025, quando os autos retornaram à autoridade para decisão. Ficou demonstrado que a concessão contrariava a lei. Não foi comprovada má-fé do servidor nem se identificou mudança de conveniência administrativa.\n\nCom base nessa situação, julgue o item a seguir.\n\nPara a contagem do prazo decadencial, o marco inicial foi a assinatura do ato em fevereiro de 2019.",
+      "correctAnswer": "E",
+      "explanation": "A vantagem produz efeitos patrimoniais contínuos. Nessa situação, o prazo começa com a percepção do primeiro pagamento, em julho de 2020, conforme o art. 54, § 1º. Para um ato favorável sem esses efeitos contínuos, a regra geral toma por referência a data em que o ato foi praticado.",
+      "reviewEvidence": "Lei nº 9.784/1999, Art. 54, caput e § 1º. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm Estrutura de contexto compartilhado cotejada com os itens 47 e 48 da Câmara aplicada em 2026. O item 110 do TCU 2025 é a referência para a distinção em autotutela.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110,
+        "caseId": "autotutela-vantagem-mensal"
+      }
+    },
+    {
+      "id": "cam-caso-autotutela-impugnacao-antes-do-quinquenio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos",
+      "articleId": "art-61c7724cba33648a",
+      "conceptId": "anulacao-decadencia-federal",
+      "mechanism": "impugnacao-antes-do-quinquenio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#1. Anulação (Invalidação)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md",
+        "section": "1. Anulação (Invalidação)"
+      },
+      "statement": "Em fevereiro de 2019, uma autarquia federal concedeu a um servidor uma vantagem mensal. O ato de concessão não produziu pagamento imediato: o primeiro crédito foi recebido em julho de 2020. Em maio de 2025, ao examinar os documentos da concessão, a autoridade administrativa competente registrou em despacho que o servidor não preenchia um requisito legal na data do ato e impugnou expressamente sua validade. O mesmo despacho determinou a intimação do beneficiário. A instrução prosseguiu até outubro de 2025, quando os autos retornaram à autoridade para decisão. Ficou demonstrado que a concessão contrariava a lei. Não foi comprovada má-fé do servidor nem se identificou mudança de conveniência administrativa.\n\nCom base nessa situação, julgue o item a seguir.\n\nO despacho de maio de 2025 representou exercício tempestivo do direito de anular, embora a autoridade só tenha recebido os autos para decisão em outubro daquele ano.",
+      "correctAnswer": "C",
+      "explanation": "O quinquênio começou em julho de 2020, quando houve o primeiro pagamento. Em maio de 2025, a autoridade ainda estava dentro do prazo e impugnou expressamente a validade do ato. Essa medida já conta como exercício do direito de anular. Se a primeira impugnação só ocorresse em outubro, sem má-fé comprovada, o quinquênio teria decorrido.",
+      "reviewEvidence": "Lei nº 9.784/1999, Art. 54, caput e §§ 1º e 2º. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm Estrutura de contexto compartilhado cotejada com os itens 47 e 48 da Câmara aplicada em 2026. O item 110 do TCU 2025 é a referência para a distinção em autotutela.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110,
+        "caseId": "autotutela-vantagem-mensal"
+      }
+    },
+    {
+      "id": "cam-caso-autotutela-revogacao-nao-substitui-anulacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos",
+      "articleId": "art-61c7724cba33648a",
+      "conceptId": "revogacao-de-ato",
+      "mechanism": "revogacao-nao-substitui-anulacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#2. Revogação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md",
+        "section": "2. Revogação"
+      },
+      "statement": "Em fevereiro de 2019, uma autarquia federal concedeu a um servidor uma vantagem mensal. O ato de concessão não produziu pagamento imediato: o primeiro crédito foi recebido em julho de 2020. Em maio de 2025, ao examinar os documentos da concessão, a autoridade administrativa competente registrou em despacho que o servidor não preenchia um requisito legal na data do ato e impugnou expressamente sua validade. O mesmo despacho determinou a intimação do beneficiário. A instrução prosseguiu até outubro de 2025, quando os autos retornaram à autoridade para decisão. Ficou demonstrado que a concessão contrariava a lei. Não foi comprovada má-fé do servidor nem se identificou mudança de conveniência administrativa.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autoridade poderá retirar a vantagem por revogação, com efeitos apenas para o futuro, sob o mesmo fundamento indicado no despacho de maio.",
+      "correctAnswer": "E",
+      "explanation": "O despacho aponta ilegalidade desde a concessão. A retirada por esse fundamento é anulação, sujeita aos limites do art. 54. A revogação pressupõe um ato válido e uma razão de conveniência ou oportunidade. Se a concessão fosse válida, seria necessário identificar uma razão de mérito e conferir se o ato admite revogação, respeitados os direitos adquiridos.",
+      "reviewEvidence": "Lei nº 9.784/1999, Arts. 53 e 54. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm Estrutura de contexto compartilhado cotejada com os itens 47 e 48 da Câmara aplicada em 2026. O item 110 do TCU 2025 é a referência para a distinção em autotutela.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110,
+        "caseId": "autotutela-vantagem-mensal"
+      }
+    },
+    {
       "format": "CE",
       "examPart": "P1",
       "subjectId": "direito-constitucional",

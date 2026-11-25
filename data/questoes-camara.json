@@ -82849,6 +82849,118 @@
         "item": 76,
         "caseId": "fiscalizacao-do-decreto"
       }
+    },
+    {
+      "id": "cam-decoro-inepcia-representacao-cidadao-2026",
+      "concursoId": "camara-2026",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "inepcia-representacao-cidadao",
+      "mechanism": "triagem-representacao-cidadao-fatos-provas-indicios",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "statement": "Uma cidadã encaminhou à Mesa da Câmara um pedido para que um deputado responda por quebra de decoro. O documento apenas afirma que “houve conduta antiética”, sem descrever o que ocorreu nem apresentar provas. A cidadã pede que o Conselho de Ética instaure imediatamente o processo disciplinar.\n\nCom base no Código de Ética da Câmara dos Deputados, julgue o item a seguir.\n\nO pedido deve ser encaminhado diretamente ao Conselho, pois a legitimidade de qualquer cidadão dispensa o exame de aptidão da representação pela Mesa.",
+      "correctAnswer": "E",
+      "explanation": "**Regra:** qualquer cidadão pode requerer à Mesa que represente contra deputado, mas deve especificar os fatos e as respectivas provas (Código de Ética, art. 9º, § 1º). No pedido de cidadão, há apreciação preliminar na forma regulamentar; para os processos graves, o encaminhamento ao Conselho depende de indícios suficientes e de o requerimento não ser inepto (art. 9º, § 2º). **Aplicação:** a frase genérica não descreve fato nem oferece prova, então não autoriza encaminhamento automático ou instauração direta pelo Conselho. **Distinção:** a representação de partido político com representação no Congresso segue remessa direta ao Conselho em até três sessões ordinárias (art. 9º, § 3º); essa regra não elimina a triagem própria do requerimento de cidadão.",
+      "reviewEvidence": "Resolução da Câmara dos Deputados nº 25/2001 (Código de Ética), art. 9º, §§ 1º a 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html A situação é autoral e não reproduz questão oficial."
+    },
+    {
+      "id": "cam-pl-cpmi-quorum-por-casa-2026",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "cpmi-quorum-minimo-por-casa",
+      "mechanism": "cpmi-terco-individual-de-cada-casa-versus-soma-agregada",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "2. Comissões mistas: designação, composição e exceções (arts. 9º a 10-B)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#2. Comissões mistas: designação, composição e exceções (arts. 9º a 10-B)"
+      ],
+      "statement": "Para investigar determinado contrato federal, um requerimento de criação de comissão parlamentar mista de inquérito recebeu apoio de 28 senadores e 170 deputados. Considerando uma composição de 81 senadores e 513 deputados, os apoiadores afirmaram que o requisito constitucional foi cumprido porque o total de assinaturas supera um terço dos integrantes do Congresso Nacional.\n\nCom base na Constituição Federal e no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nO requerimento atende ao quórum de criação da CPMI, pois basta alcançar um terço do total agregado de congressistas, sem atingir separadamente um terço em cada Casa.",
+      "correctAnswer": "E",
+      "explanation": "**Regra:** a criação de CPI pelo Congresso exige requerimento de um terço dos membros de cada Casa (Constituição, art. 58, § 3º). Para a CPMI, o Regimento Comum conserva a verificação separada: um terço dos deputados e um terço dos senadores, em sessão conjunta (art. 21). **Aplicação:** 28 senadores superam um terço de 81, que é 27; porém 170 deputados não alcançam um terço de 513, que é 171. A soma não corrige essa falta. **Pegadinha:** quórum por Casa não se substitui por um cálculo agregado, mesmo quando o total geral de assinaturas parece suficiente.",
+      "reviewEvidence": "Constituição Federal, art. 58, § 3º; Regimento Comum do Congresso Nacional, art. 21. https://www2.senado.leg.br/bdsf/bitstream/handle/id/607086/Regimento_comum_consolidado_%20jan-2023.pdf A situação é autoral e usa números para testar o quórum separado."
+    },
+    {
+      "id": "cam-pl-comissao-representativa-composicao-recesso-2026",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-4e9b8c207d16f53a",
+      "conceptId": "comissao-representativa-composicao-mandato",
+      "mechanism": "comissao-representativa-comissao-mista-ordinaria-composicao-e-periodo",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990.md",
+        "section": "1. Natureza, composição e eleição: arts. 1º a 6º"
+      },
+      "theoryRefs": [
+        "article:art-4e9b8c207d16f53a#1. Natureza, composição e eleição: arts. 1º a 6º"
+      ],
+      "statement": "No encerramento do período legislativo, as duas Casas elegeram a Comissão Representativa do Congresso Nacional para atuar durante o recesso. Um assessor propôs aplicar a regra geral das comissões mistas do Congresso e formar o colegiado com onze senadores e onze deputados.\n\nÀ luz da Constituição Federal e da Resolução nº 3/1990 do Congresso Nacional, julgue o item a seguir.\n\nA composição proposta está correta, pois a Comissão Representativa segue a regra geral de onze parlamentares de cada Casa prevista para as comissões mistas.",
+      "correctAnswer": "E",
+      "explanation": "**Regra:** a Comissão Representativa que atua no recesso tem composição própria: sete senadores e dezesseis deputados, com igual número de suplentes, eleitos pelas respectivas Casas na última sessão ordinária do período legislativo; seu mandato coincide com o recesso (Resolução nº 3/1990-CN, art. 2º). **Aplicação:** a proposta de onze membros de cada Casa transporta a composição da comissão mista ordinária e está errada. **Distinção:** o nome “comissão do Congresso” não torna intercambiáveis a comissão mista geral, a CPMI, a CMO e a Comissão Representativa.",
+      "reviewEvidence": "Constituição Federal, art. 58, § 4º; Resolução nº 3/1990-CN, arts. 2º e 5º. https://legis.senado.leg.br/norma/561157/publicacao/36852072 O cenário é autoral; composição conferida no texto oficial do Senado."
+    },
+    {
+      "id": "cam-pl-autografos-redacao-final-destino-2026",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "autografos-redacao-aprovada-e-destino",
+      "mechanism": "autografo-conteudo-final-aprovado-e-encaminhamento-conforme-casa",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "statement": "Uma proposição foi aprovada definitivamente pela Câmara. A secretaria prepara o autógrafo para encaminhamento. Como o texto não foi votado pelo Plenário, um servidor sustenta que o documento deve reproduzir exclusivamente a redação de uma emenda aprovada e ser remetido sempre ao Presidente da República.\n\nConsiderando o Regimento Interno da Câmara dos Deputados, julgue o item a seguir.\n\nA orientação está correta: o autógrafo se limita às emendas e seu destinatário é invariavelmente o Presidente da República.",
+      "correctAnswer": "E",
+      "explanation": "**Regra:** a proposição aprovada em definitivo pela Câmara ou por suas comissões é encaminhada em autógrafos à sanção, à promulgação ou ao Senado, conforme o caso, até a segunda sessão seguinte (RICD, art. 200). O documento reproduz a redação final aprovada pelo Plenário ou, se a apreciação for conclusiva, pela CCJC; também pode reproduzir o texto do Senado que não tenha sido emendado (art. 200, § 1º). **Aplicação:** a proposição não ter sido votada pelo Plenário não limita o autógrafo a uma emenda, e o destinatário depende da etapa e da espécie de proposição. **Distinção:** autógrafo é o texto formal da proposição aprovada enviado à etapa seguinte; não é sinônimo de emenda nem segue sempre para sanção presidencial.",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, arts. 199 e 200, texto normativo atualizado. https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html A situação é autoral e testa conteúdo e destino do autógrafo."
     }
   ]
 }

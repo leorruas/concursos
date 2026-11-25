@@ -23105,7 +23105,7 @@
       },
       "statement": "Um partido com representação na Câmara dos Deputados e sem representação no Senado satisfaz o critério constitucional de representação no Congresso Nacional para impetrar mandado de segurança coletivo.",
       "correctAnswer": "C",
-      "explanation": "A Constituição exige representação no Congresso Nacional. A presença em uma de suas Casas satisfaz esse critério, sem exigir representação em ambas.",
+      "explanation": "Para o mandado de segurança coletivo, o art. 5º, LXX, “a”, exige que o partido político tenha representação no Congresso Nacional. O texto não exige representação simultânea na Câmara e no Senado: ter ao menos um representante em uma das Casas satisfaz esse requisito. Isso resolve apenas a legitimidade constitucional do partido; os demais requisitos do mandado de segurança continuam necessários.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXX, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25233,7 +25233,7 @@
       },
       "statement": "Um deputado apresenta projeto para criar cargos em autarquia federal e demonstra que há espaço orçamentário. A disponibilidade de recursos não supre a iniciativa privativa do Presidente da República para o projeto.",
       "correctAnswer": "C",
-      "explanation": "A regra trata da autoria do projeto de criação de cargos na administração federal autárquica. Compatibilidade orçamentária e iniciativa são requisitos distintos.",
+      "explanation": "Criar cargos na administração federal direta ou autárquica é matéria de iniciativa privativa do Presidente da República (Constituição, art. 61, § 1º, II, “a”). Demonstrar que existe dinheiro no orçamento pode ser relevante para a adequação financeira, mas não muda quem tem competência para iniciar o projeto. São controles diferentes: a disponibilidade de recursos não corrige um vício de iniciativa.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 61, § 1º, II, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27109,7 +27109,7 @@
       },
       "statement": "Ao exercer atribuições da judicatura sem substituir ministro do TCU, o auditor mantém, por força da Constituição, as garantias e impedimentos próprios do ministro titular como referência obrigatória.",
       "correctAnswer": "E",
-      "explanation": "Fora da substituição, o parâmetro constitucional é o juiz de Tribunal Regional Federal. O parâmetro do ministro vale quando o auditor o substitui.",
+      "explanation": "A Constituição muda o parâmetro conforme a função exercida pelo auditor do TCU. Enquanto substitui ministro, tem as garantias e os impedimentos do titular; nas demais atribuições da judicatura, a referência é a de juiz de Tribunal Regional Federal (art. 73, § 4º). Portanto, não se deve aplicar automaticamente o regime de ministro a toda atuação do auditor: primeiro identifique se há substituição.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 73, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -28173,7 +28173,7 @@
       },
       "statement": "Uma síntese do texto constitucional classifica a defesa da paz e a garantia do desenvolvimento nacional como objetivos fundamentais expressamente enumerados no art. 3º. A síntese é correta quanto às duas expressões.",
       "correctAnswer": "E",
-      "explanation": "Garantir o desenvolvimento nacional está no art. 3º, II. A defesa da paz figura entre os princípios das relações internacionais no art. 4º, VI.",
+      "explanation": "As duas expressões pertencem a listas constitucionais diferentes. “Garantir o desenvolvimento nacional” é objetivo fundamental da República, no art. 3º, II; “defesa da paz” é princípio que rege as relações internacionais, no art. 4º, VI. Uma política internacional pode promover o desenvolvimento, mas isso não desloca a classificação textual de cada expressão.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 3º, II, e 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29321,7 +29321,7 @@
       },
       "statement": "Uma pessoa pede acesso aos próprios dados mantidos em cadastro público. Após negativa administrativa, pretende usar habeas corpus exclusivamente para obter acesso ao cadastro. Como não há ameaça à liberdade de locomoção, o habeas corpus é inadequado ao pedido.",
       "correctAnswer": "C",
-      "explanation": "O habeas corpus tutela a liberdade de locomoção. Conhecer informações relativas à própria pessoa em registro governamental ou público é hipótese de habeas data, observados seus requisitos.",
+      "explanation": "O habeas corpus protege a liberdade de ir e vir, por isso não serve apenas para obter dados pessoais. Para conhecer informações sobre si em registro ou banco governamental ou de caráter público, o instrumento próprio é o habeas data. Como houve recusa administrativa no enunciado, está presente a resistência que permite levar o pedido ao Judiciário, nos termos da Lei nº 9.507/1997, arts. 7º e 8º.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXVIII e LXXII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29349,7 +29349,7 @@
       },
       "statement": "Um banco público registra incorretamente o endereço de uma cidadã e recusa a retificação. A divergência não restringe a sua locomoção. O habeas corpus é o remédio constitucional especificamente destinado a corrigir esse registro.",
       "correctAnswer": "E",
-      "explanation": "A correção de dados da própria impetrante em registro governamental ou público é matéria de habeas data. O habeas corpus protege contra coação ou ameaça à liberdade de ir e vir.",
+      "explanation": "O pedido é para corrigir informação da própria pessoa em banco de dados público; essa é uma finalidade do habeas data (Constituição, art. 5º, LXXII, e Lei nº 9.507/1997, art. 7º, II). A recusa do banco em retificar o endereço não transforma o caso em questão de liberdade de locomoção. Habeas corpus protege contra coação ou ameaça de ir e vir, não contra qualquer ato ilegal.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXVIII e LXXII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29405,7 +29405,7 @@
       },
       "statement": "A Constituição prevê um direito cujo exercício depende de regulamentação. A norma necessária não foi editada e a omissão impede o exercício do direito. O mandado de injunção é adequado para enfrentar esse obstáculo.",
       "correctAnswer": "C",
-      "explanation": "A inviabilidade decorre da falta de norma regulamentadora, hipótese própria do mandado de injunção. O caso não relata apenas descumprimento de norma já existente.",
+      "explanation": "O mandado de injunção enfrenta uma omissão normativa: falta total ou parcial de regra necessária, e essa falta torna inviável exercer direito ou liberdade constitucional ou prerrogativa ligada à nacionalidade, soberania ou cidadania. A Lei nº 13.300/2016, art. 2º, explicita esses elementos. Se a norma já existe e a autoridade apenas deixa de cumpri-la, não é essa omissão que caracteriza o caso; o problema pode exigir outro instrumento.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXIX e LXXI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30133,7 +30133,7 @@
       },
       "statement": "Uma proposição demanda exame de mérito por quatro comissões e pronunciamento de outra exclusivamente quanto à admissibilidade. A quinta manifestação, por si só, impõe a constituição de comissão especial pela regra do número de comissões de mérito.",
       "correctAnswer": "E",
-      "explanation": "A contagem se refere às comissões que devem examinar o mérito. O pronunciamento exclusivamente de admissibilidade não eleva de quatro para cinco o número relevante.",
+      "explanation": "A comissão especial do art. 34, II, do RICD é criada quando a matéria precisa ser examinada no mérito por mais de quatro comissões. A contagem, portanto, não é simplesmente o número total de órgãos que se manifestarão. A comissão que atua apenas na admissibilidade não acrescenta uma quinta análise de mérito: com quatro comissões de mérito, essa hipótese específica ainda não foi atingida.",
       "reviewEvidence": "Conferência com a seção vinculada. RICD, arts. 34, II, e 139, V. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {

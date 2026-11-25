@@ -7464,7 +7464,7 @@
       ],
       "statement": "Viola a reserva de plenário decisão de órgão fracionário de tribunal que afasta a incidência de lei, integral ou parcialmente, em razão de sua incompatibilidade com a Constituição, ainda que não declare expressamente sua inconstitucionalidade.",
       "correctAnswer": "C",
-      "explanation": "É o núcleo da Súmula Vinculante nº 10, em conexão com o art. 97 da Constituição. O comentário descreve a hipótese coberta pelo verbete, sem afastar exceções jurisprudenciais específicas, como precedentes já firmados pelo STF ou pelo plenário/órgão especial competente.",
+      "explanation": "**Regra:** pelo art. 97 da Constituição, um órgão fracionário de tribunal não pode afastar a aplicação de uma lei por considerá-la incompatível com a Constituição sem que a questão seja decidida pelo Plenário ou órgão especial competente. **Aplicação:** a reserva também incide quando o órgão apenas deixa de aplicar a norma, sem escrever formalmente “declaro inconstitucional”. **Pegadinha:** importa o fundamento e o efeito da decisão, não o rótulo usado. A Súmula Vinculante 10 sintetiza essa proteção, ressalvadas hipóteses reconhecidas pela jurisprudência. (Constituição, art. 97; SV 10.)",
       "estimatedDifficulty": "dificil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -7893,7 +7893,7 @@
       "reviewStatus": "validada",
       "statement": "Um tribunal com vinte julgadores e sem órgão especial submeteu ao Plenário a declaração de inconstitucionalidade de uma lei. Dezesseis julgadores participaram. Dez votaram pela declaração e seis pela rejeição da arguição.\n\nCom base nessa situação, julgue o item a seguir.\n\nApesar da maioria entre os presentes, a declaração não alcançou o quórum constitucional.",
       "correctAnswer": "C",
-      "explanation": "A declaração exige maioria absoluta dos membros do tribunal. Dez votos são metade de vinte, e o mínimo é onze. A maioria entre os presentes não satisfaz a reserva de plenário.",
+      "explanation": "**Regra:** declarar a inconstitucionalidade exige maioria absoluta dos membros do tribunal ou do órgão especial competente, e não apenas maioria dos presentes. **Aplicação:** em tribunal com 20 julgadores, são necessários 11 votos; os 10 favoráveis são exatamente metade e não bastam, embora tenham vencido entre os 16 presentes. **Pegadinha:** calcule sobre a composição total do órgão competente. (Constituição, art. 97.)",
       "reviewEvidence": "Constituição Federal, art. 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -7926,7 +7926,7 @@
       "reviewStatus": "validada",
       "statement": "Um tribunal com trinta e cinco julgadores constituiu regularmente órgão especial de dezessete membros, com atribuição para decidir arguição de inconstitucionalidade. Participaram quatorze membros, e nove votaram pela declaração de inconstitucionalidade.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs nove votos satisfazem o requisito da reserva de plenário nesse órgão especial.",
       "correctAnswer": "C",
-      "explanation": "A maioria absoluta é calculada sobre os dezessete membros do órgão especial. Nove votos alcançam o limiar. Não se usa o total de integrantes do tribunal quando a decisão é do órgão especial competente.",
+      "explanation": "**Regra:** quando a questão é decidida por órgão especial competente, a maioria absoluta é calculada sobre os membros desse órgão, não sobre todos os integrantes do tribunal. **Aplicação:** o órgão especial tem 17 membros; mais da metade são 9 votos. Os nove favoráveis atingem o quórum, embora nem todos os 17 tenham participado. **Distinção:** verifique qual órgão recebeu competência para decidir antes de fazer a conta. (Constituição, arts. 93, XI, e 97.)",
       "reviewEvidence": "Constituição Federal, arts. 93, XI, e 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -8289,7 +8289,7 @@
       "reviewStatus": "validada",
       "statement": "Em hipótese constitucional de intervenção federal, o decreto fixou a área atingida e as medidas a executar. Nomeou interventor e foi remetido ao Congresso no prazo aplicável. Contudo, deixou de indicar o prazo da medida e não se trata de hipótese que dispense a apreciação parlamentar.\n\nCom base nessa situação, julgue o item a seguir.\n\nA nomeação do interventor e a remessa tempestiva não suprem a falta de indicação do prazo.",
       "correctAnswer": "C",
-      "explanation": "O decreto deve indicar amplitude, prazo e condições de execução. A nomeação do interventor é feita se couber e não substitui os elementos obrigatórios. A remessa ao Congresso cumpre requisito de controle distinto.",
+      "explanation": "**Regra:** o decreto de intervenção deve indicar a amplitude, o prazo e as condições de execução; a nomeação de interventor ocorre “se couber”. **Aplicação:** o decreto informou área e medidas, mas omitiu o prazo, que é um elemento obrigatório. Nomear interventor não corrige essa falta. **Distinção:** o decreto conter os dados necessários e ser submetido ao Congresso são requisitos diferentes; cumprir um não dispensa o outro quando há controle parlamentar. (Constituição, art. 36, §§ 1º e 2º.)",
       "reviewEvidence": "Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -8322,7 +8322,7 @@
       "reviewStatus": "validada",
       "statement": "Em uma intervenção federal cuja forma de execução não exige nomear interventor, o decreto indicou amplitude, prazo e condições de execução e foi remetido tempestivamente ao Congresso. Um parlamentar alegou que a omissão do nome do interventor invalida toda intervenção.\n\nCom base nessa situação, julgue o item a seguir.\n\nA ausência de nomeação torna o decreto inválido mesmo quando a hipótese dispensa interventor.",
       "correctAnswer": "E",
-      "explanation": "O art. 36, § 1º, usa a expressão “se couber” para a nomeação. A amplitude, o prazo e as condições continuam sendo elementos do decreto. Na hipótese narrada, a falta de nomeação não é vício por si só.",
+      "explanation": "**Regra:** o decreto deve indicar amplitude, prazo e condições de execução; a nomeação de interventor é exigida apenas se couber. **Aplicação:** a hipótese informa que não é necessário nomear interventor e que os demais elementos foram incluídos, então a ausência de um nome não invalida, por si só, a intervenção. **Pegadinha:** “se couber” qualifica o interventor, não os elementos obrigatórios do decreto. (Constituição, art. 36, § 1º.)",
       "reviewEvidence": "Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -9807,7 +9807,7 @@
       "reviewStatus": "validada",
       "statement": "Em caso de crime de responsabilidade do presidente da República, 341 dos 513 deputados votaram a favor da autorização para instaurar o processo. Um grupo de senadores sustentou que a Casa revisora poderia completar a autorização com seu próprio quórum de dois terços.\n\nCom base nessa situação, julgue o item a seguir.\n\nO Senado pode suprir o voto faltante na autorização da Câmara, desde que reúna pelo menos dois terços de seus membros.",
       "correctAnswer": "E",
-      "explanation": "A autorização exige dois terços dos membros da Câmara, ou 342 votos. O Senado tem competência própria para processar e julgar. Seus votos não são computados no quórum atribuível à Câmara.",
+      "explanation": "**Regra:** cabe à Câmara autorizar a instauração de processo contra o Presidente da República por dois terços de seus membros. Com 513 deputados, são necessários 342 votos. **Aplicação:** 341 votos não alcançam esse quórum. O Senado não pode somar votos próprios para completar a autorização da Câmara; sua função constitucional vem depois, no processamento e julgamento. **Pegadinha:** cada Casa delibera em fase e competência próprias. (Constituição, arts. 51, I, e 52, I.)",
       "reviewEvidence": "Constituição Federal, arts. 51, I, e 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -9840,7 +9840,7 @@
       "reviewStatus": "validada",
       "statement": "Com 343 votos favoráveis, a Câmara autorizou a instauração de processo por crime de responsabilidade do presidente da República. O Senado conduziu o julgamento e 54 dos 81 senadores votaram pela condenação. Ao final, discutiu-se se a condenação precisaria retornar à Câmara para confirmação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autorização da Câmara e a condenação do Senado atingiram seus quóruns constitucionais, e a condenação não exige uma segunda deliberação da Câmara.",
       "correctAnswer": "C",
-      "explanation": "A Câmara autoriza por dois terços, satisfeitos pelos 343 votos. O Senado processa e julga e, para condenar, exige dois terços de seus membros, atingidos com 54 votos. O julgamento é atribuição do Senado.",
+      "explanation": "**Regra:** a Câmara autoriza a instauração por dois terços de seus membros; no crime de responsabilidade, o Senado processa e julga, e a condenação exige dois terços dos senadores. **Aplicação:** 343 votos superam os 342 exigidos na Câmara; 54 votos atingem exatamente dois terços dos 81 senadores. O Senado não precisa devolver a condenação à Câmara para uma segunda confirmação. **Distinção:** autorização e julgamento são fases distintas, atribuídas a Casas diferentes. (Constituição, arts. 51, I, e 52, I e parágrafo único.)",
       "reviewEvidence": "Constituição Federal, arts. 51, I, e 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -24225,7 +24225,7 @@
       },
       "statement": "Em hipótese de intervenção que não requeira a nomeação de interventor, o decreto continua obrigado a indicar o prazo, a amplitude e as condições de execução.",
       "correctAnswer": "C",
-      "explanation": "A expressão “se couber” condiciona a nomeação de interventor. Os demais elementos do decreto continuam exigidos.",
+      "explanation": "**Regra:** ainda que não haja nomeação de interventor, o decreto precisa indicar amplitude, prazo e condições de execução. **Aplicação:** a dispensa possível recai só sobre a nomeação; ela não elimina a obrigação de fixar a duração da intervenção. **Distinção:** “se couber” está ligado ao interventor, enquanto amplitude, prazo e condições são requisitos cumulativos do decreto. (Constituição, art. 36, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -24253,7 +24253,7 @@
       },
       "statement": "Um decreto de intervenção delimita os órgãos alcançados e estabelece condições de execução, mas fica inteiramente silente quanto ao prazo. A delimitação da amplitude supre a omissão temporal.",
       "correctAnswer": "E",
-      "explanation": "A amplitude delimita o alcance. O prazo delimita a duração e é elemento exigido separadamente.",
+      "explanation": "**Regra:** o decreto de intervenção informa separadamente a amplitude (alcance), o prazo (duração) e as condições de execução. **Aplicação:** delimitar os órgãos atingidos não diz por quanto tempo a intervenção vigorará; a omissão do prazo permanece. **Pegadinha:** um requisito não substitui outro só porque ambos tratam dos limites da medida. (Constituição, art. 36, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30161,7 +30161,7 @@
       },
       "statement": "O órgão especial de um tribunal tem 23 membros. Em processo de sua competência, 12 votam pela declaração de inconstitucionalidade de uma lei. Quanto ao número de votos exigido pelo art. 97 da Constituição, foi alcançada a maioria absoluta do órgão especial.",
       "correctAnswer": "C",
-      "explanation": "São necessários mais da metade dos membros do órgão competente. Doze votos superam a metade de 23.",
+      "explanation": "**Regra:** a reserva de plenário exige maioria absoluta dos membros do tribunal ou do órgão especial competente. **Aplicação:** em um órgão especial de 23 integrantes, 12 votos são mais da metade e alcançam o mínimo. **Pegadinha:** a contagem não depende de quantos compareceram; o denominador é a composição do órgão competente. (Constituição, art. 97.)",
       "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30189,7 +30189,7 @@
       },
       "statement": "Em um tribunal sem órgão especial, o plenário tem 21 membros. Dez comparecem à sessão e todos votam pela declaração de inconstitucionalidade de uma lei. A unanimidade dos presentes supre a falta dos demais votos para fins da reserva de plenário.",
       "correctAnswer": "E",
-      "explanation": "O art. 97 exige maioria absoluta dos membros do tribunal ou do órgão especial. Em plenário com 21 membros, são exigidos 11 votos, independentemente da unanimidade entre os presentes.",
+      "explanation": "**Regra:** é necessário voto favorável da maioria absoluta dos membros do tribunal ou do órgão especial, não unanimidade dos presentes. **Aplicação:** em plenário de 21 membros, o mínimo é 11. Os 10 votos unânimes entre os presentes não bastam. **Pegadinha:** unanimidade dos presentes pode continuar abaixo da maioria absoluta da composição total. (Constituição, art. 97.)",
       "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30217,7 +30217,7 @@
       },
       "statement": "O STF tem 11 membros e, após reiteradas decisões sobre matéria constitucional, oito votam a favor de aprovar a súmula vinculante. Esse resultado satisfaz o requisito constitucional de votação.",
       "correctAnswer": "C",
-      "explanation": "A Constituição exige dois terços dos membros. Em uma composição de 11 membros, são necessários no mínimo oito votos.",
+      "explanation": "**Regra:** o STF pode aprovar súmula vinculante por dois terços de seus membros, após reiteradas decisões sobre matéria constitucional e observado o procedimento legal. **Aplicação:** dois terços de 11 correspondem a 7,33; como não há fração de voto, são necessários oito votos. **Pegadinha:** o quórum é calculado sobre os membros do Tribunal, não sobre os presentes. (Constituição, art. 103-A.)",
       "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 103-A. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30245,7 +30245,7 @@
       },
       "statement": "Em sessão do STF com oito ministros presentes, sete aprovam uma proposta de edição de súmula vinculante. O quórum foi cumprido, pois sete votos representam mais de dois terços dos presentes.",
       "correctAnswer": "E",
-      "explanation": "O parâmetro é o número de membros do STF, não o total de presentes à sessão. Para onze membros, sete votos são insuficientes.",
+      "explanation": "**Regra:** a aprovação de súmula vinculante exige dois terços dos membros do STF, depois de reiteradas decisões sobre matéria constitucional; o cálculo não usa apenas os presentes. **Aplicação:** com 11 ministros, são necessários oito votos. Sete de oito presentes ainda ficam abaixo do mínimo. **Distinção:** presença suficiente para deliberar e quórum de aprovação são perguntas diferentes. (Constituição, art. 103-A.)",
       "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 103-A. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -32653,7 +32653,7 @@
       },
       "statement": "Uma equipe chama de “comprometidos com a cultura” os visitantes que participaram de pelo menos quatro eventos no semestre. A frequência observada é o único critério de inclusão. O rótulo atribuído ao grupo torna essa segmentação psicográfica.",
       "correctAnswer": "E",
-      "explanation": "**Regra:** também podem propor PEC mais da metade das Assembleias Legislativas estaduais, desde que cada uma delas se manifeste pela maioria relativa de seus membros (Constituição, art. 60, III). **Aplicação:** mais da metade de 27 unidades federativas corresponde a pelo menos 14 assembleias; as 14 citadas atingem o número mínimo, e a maioria relativa dentro de cada uma satisfaz o requisito de votação. **Pegadinha:** conte assembleias favoráveis, não some votos de deputados estaduais entre estados.",
+      "explanation": "**Regra:** a Câmara admite a acusação contra o Presidente por dois terços. Depois, o órgão julgador depende da natureza da infração: crime comum é julgado pelo Supremo Tribunal Federal; crime de responsabilidade é processado e julgado pelo Senado. **Aplicação:** como o caso é de infração penal comum, a autorização da Câmara não transfere o julgamento ao Senado. **Pegadinha:** a etapa de autorização é semelhante, mas a autoridade julgadora muda conforme a espécie de infração. (Constituição, arts. 51, I, 52, I, e 86.)",
       "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
     },
       {
@@ -82437,7 +82437,7 @@
       },
       "statement": "O decreto de intervenção pode omitir o prazo de duração sempre que a autoridade decidir não nomear interventor.",
       "correctAnswer": "E",
-      "explanation": "O prazo deve ser informado juntamente com a amplitude e as condições de execução. A expressão “se couber” refere-se à nomeação de interventor. (Constituição Federal, art. 36, § 1º.)",
+      "explanation": "**Regra:** o decreto de intervenção deve especificar amplitude, prazo e condições de execução; deve também nomear interventor quando isso couber. **Por que o item está errado:** a possibilidade de não nomear interventor não autoriza omitir o prazo. **Como separar:** prazo, alcance e condições são elementos obrigatórios; a nomeação é condicional. (Constituição, art. 36, § 1º.)",
       "reviewEvidence": "Constituição Federal, art. 36, § 1º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue indicação obrigatória de prazo e nomeação condicionada de interventor."
     },
     {

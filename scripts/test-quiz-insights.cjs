@@ -269,3 +269,25 @@ for(const q of hardDecoro)assert.ok(data.questions.some(item=>item.id===q.id),'q
 assert.equal(new Set(data.questions.map(q=>q.id)).size,data.questions.length);
 assert.ok(data.questions.every(q=>q.unitName&&typeof q.section==='string'&&!('reviewEvidence' in q)),'catálogo público precisa expor só vínculo didático, sem dados internos');
 console.log('OK: prioridade por artigo, contexto do concurso, referência precisa, interface e dados públicos.');
+
+// Markdown compartilhado: superfícies e ordem de carregamento, fallback e URL segura.
+{
+ const source=fs.readFileSync(path.join(root,'web/04a-study-markdown.js'),'utf8');
+ const window={};const document={baseURI:'https://example.org/estudo/',createElement:()=>({classList:{add(){}},textContent:''})};
+ vm.runInNewContext(source,{window,document,URL,Set});
+ const node=window.studyMarkdownNode('**Regra:** texto');
+ assert.equal(node.textContent,'**Regra:** texto','fallback sem parser conserva conteúdo');
+ const safe=vm.runInNewContext('('+source.slice(source.indexOf('function safeHref('),source.indexOf(' function clean(')).trim()+')',{document,URL});
+ assert.equal(safe('javascript:alert(1)'),null);
+ assert.equal(safe('data:text/html,test'),null);
+ assert.equal(safe('/teoria'),'https://example.org/teoria');
+ for(const page of ['questoes.html','resultados.html','index.html']){
+  const html=fs.readFileSync(path.join(root,page),'utf8');
+  assert.ok(html.indexOf('marked.min.js')>=0&&html.indexOf('marked.min.js')<html.indexOf('04a-study-markdown.js'),page);
+ }
+ for(const file of ['web/15-questoes-ui.js','web/13-results-ui.js','web/13d-results-errors.js','web/14-article-errors.js']){
+  const js=fs.readFileSync(path.join(root,file),'utf8');
+  assert.ok(js.includes('studyMarkdownNode('),file);
+  execFileSync(process.execPath,['--check',path.join(root,file)]);
+ }
+}

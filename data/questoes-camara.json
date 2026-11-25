@@ -64573,7 +64573,7 @@
       },
       "statement": "Se o presidente da República deixa transcorrer integralmente o prazo constitucional sem vetar um projeto de lei, a sua omissão posterior em promulgá-lo não desfaz a sanção já ocorrida.",
       "correctAnswer": "C",
-      "explanation": "O silêncio ao término do prazo de veto resulta em sanção tácita. A omissão na promulgação aciona uma competência sucessiva e não altera o efeito do primeiro prazo.",
+      "explanation": "São etapas e prazos diferentes. Se o Presidente não vetar em quinze dias úteis após receber o projeto, ocorre sanção tácita: o projeto foi sancionado, embora não haja manifestação expressa. A promulgação ainda deve ocorrer. Se o Presidente não a fizer em 48 horas, promulga o Presidente do Senado; se ele também não agir nas 48 horas seguintes, a atribuição passa ao Vice-Presidente do Senado. Assim, a omissão na promulgação não desfaz a sanção já formada. (Constituição, art. 66, §§ 3º, 5º e 7º.)",
       "reviewEvidence": "Constituição Federal, art. 66, §§ 3º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -64685,7 +64685,7 @@
       },
       "statement": "Rejeitado o veto, o texto retorna ao presidente da República para promulgação. Se ele deixar transcorrer o prazo de 48 horas, a atribuição seguinte será do presidente do Senado Federal.",
       "correctAnswer": "C",
-      "explanation": "A rejeição do veto conduz à remessa para promulgação presidencial. A Constituição atribui a promulgação ao presidente do Senado se o presidente da República ficar omisso no prazo.",
+      "explanation": "A rejeição do veto é decidida pelo Congresso em sessão conjunta, e não pelo Senado isoladamente. Rejeitado o veto, o texto segue ao Presidente da República para promulgação. Se ele não promulgar em 48 horas, a atribuição passa ao Presidente do Senado; se este também se omitir por 48 horas, passa ao Vice-Presidente do Senado. Portanto, o Senado não recebe o texto para uma nova votação sobre o projeto: seu Presidente só entra na sequência de promulgação diante da omissão presidencial. (Constituição, art. 66, §§ 4º, 5º e 7º.)",
       "reviewEvidence": "Constituição Federal, art. 66, §§ 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {

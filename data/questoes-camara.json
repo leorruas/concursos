@@ -7609,6 +7609,534 @@
       "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",
+      "articleId": "art-20294d2578a610bd",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      },
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      ],
+      "id": "cam-reteste-contratada-responde-por-dever-especifico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "disciplinar-particulares",
+      "mechanism": "contratada-responde-por-dever-especifico",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma empresa contratada para digitalizar arquivos federais deixou de entregar parte do material, embora o termo de referência e o contrato previssem a obrigação. O órgão abriu processo para apurar a responsabilidade e conceder defesa. A empresa alegou que só servidores poderiam sofrer sanções em uma relação especial com a Administração.\n\nCom base nessa situação, julgue o item a seguir.\n\nO vínculo com a Administração permite apurar a infração contratual e aplicar as sanções cabíveis à empresa, observados os requisitos legais.",
+      "correctAnswer": "C",
+      "explanation": "A empresa é particular, mas o contrato a sujeita a obrigações específicas e ao regime sancionador da contratação. A apuração deve demonstrar a infração e respeitar defesa e procedimento. A mesma sanção contratual não pode ser aplicada a quem não ocupa a posição de contratado no caso.",
+      "reviewEvidence": "Lei nº 14.133/2021, arts. 155 a 158. https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",
+      "articleId": "art-20294d2578a610bd",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      },
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      ],
+      "id": "cam-reteste-multa-contratual-a-vizinho-sem-vinculo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "disciplinar-particulares",
+      "mechanism": "multa-contratual-a-vizinho-sem-vinculo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma obra federal interrompeu temporariamente o acesso a estabelecimentos vizinhos. Um lojista sem vínculo com o contrato retirou uma barreira de sinalização. O fiscal tentou aplicar ao lojista a multa prevista para descumprimento de obrigação da empresa contratada, sem indicar outra base legal.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autorização para sancionar a empresa por descumprimento do contrato permite impor a mesma sanção contratual ao lojista.",
+      "correctAnswer": "E",
+      "explanation": "A multa indicada pressupõe o vínculo e a obrigação do contrato. O lojista não é contratado e não está sujeito a essa cláusula. Eventual responsabilização por outra infração depende de fundamento próprio.",
+      "reviewEvidence": "Lei nº 14.133/2021, arts. 155 e 156. https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "articleId": "art-880b577a5c2ba82d",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "2. Modalidades de Descentralização: Outorga vs. Delegação"
+      },
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#2. Modalidades de Descentralização: Outorga vs. Delegação"
+      ],
+      "id": "cam-reteste-concessionaria-executa-sem-integrar-indireta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "outorga-versus-colaboracao",
+      "mechanism": "concessionaria-executa-sem-integrar-indireta",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "O município licitou a concessão da operação de seu sistema de ônibus a uma sociedade privada, por prazo determinado. A sociedade assumiu a execução do serviço e ficou sujeita à fiscalização municipal. Nenhuma entidade administrativa foi criada pela lei que disciplinou o programa.\n\nCom base nessa situação, julgue o item a seguir.\n\nO arranjo configura descentralização por colaboração, e a sociedade concessionária permanece fora da Administração indireta.",
+      "correctAnswer": "C",
+      "explanation": "A concessão delega a execução do serviço a uma pessoa distinta, sob fiscalização do titular. A concessionária privada não se torna entidade da Administração indireta pelo contrato. O cenário seria outro se a lei criasse uma autarquia e lhe atribuísse competências próprias.",
+      "reviewEvidence": "Constituição Federal, arts. 37, XIX, e 175. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "articleId": "art-880b577a5c2ba82d",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "2. Modalidades de Descentralização: Outorga vs. Delegação"
+      },
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#2. Modalidades de Descentralização: Outorga vs. Delegação"
+      ],
+      "id": "cam-reteste-atribuicao-legal-autarquia-sem-concessao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "outorga-versus-colaboracao",
+      "mechanism": "atribuicao-legal-autarquia-sem-concessao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma lei específica criou uma autarquia e atribuiu à nova pessoa jurídica competências próprias na prestação de um serviço público. A Administração não celebrou contrato de concessão com a autarquia. Um parecer sustentou que o arranjo era idêntico à contratação de uma concessionária privada.\n\nCom base nessa situação, julgue o item a seguir.\n\nA transferência legal para a autarquia caracteriza delegação por colaboração, assim como uma concessão contratual a particular.",
+      "correctAnswer": "E",
+      "explanation": "A atribuição a entidade administrativa criada por lei é classificada como outorga ou descentralização por serviços. Na concessão, o particular recebe a execução por delegação contratual. A origem legal ou contratual e a natureza do destinatário distinguem os arranjos.",
+      "reviewEvidence": "Constituição Federal, arts. 37, XIX, e 175. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.1",
+      "articleId": "art-8946971690804376",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+        "section": "Princípios reconhecidos pela legislação e jurisprudência"
+      },
+      "theoryRefs": [
+        "article:art-8946971690804376#Princípios reconhecidos pela legislação e jurisprudência"
+      ],
+      "id": "cam-reteste-novo-entendimento-para-invalidar-situacao-concluida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "seguranca-juridica-interpretacao",
+      "mechanism": "novo-entendimento-para-invalidar-situacao-concluida",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma autarquia federal concedeu autorizações em processos concluídos, aplicando orientação geral então vigente. Anos depois, a procuradoria adotou interpretação mais restritiva do mesmo dispositivo. Não foi identificada fraude nem base autônoma de invalidade. A autarquia pretende desfazer as autorizações exclusivamente pela mudança interpretativa.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autarquia não pode aplicar a mudança como único fundamento para invalidar situações plenamente constituídas sob a orientação anterior.",
+      "correctAnswer": "C",
+      "explanation": "A Lei nº 9.784/1999 veda aplicação retroativa de nova interpretação administrativa. A LINDB manda considerar as orientações gerais da época na revisão de atos já completados. Uma causa autônoma de invalidade exigiria exame próprio, que o caso não apresenta.",
+      "reviewEvidence": "Lei nº 9.784/1999, art. 2º, parágrafo único, XIII, e LINDB, art. 24. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.1",
+      "articleId": "art-8946971690804376",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+        "section": "Princípios reconhecidos pela legislação e jurisprudência"
+      },
+      "theoryRefs": [
+        "article:art-8946971690804376#Princípios reconhecidos pela legislação e jurisprudência"
+      ],
+      "id": "cam-reteste-nova-leitura-para-pedidos-futuros",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "seguranca-juridica-interpretacao",
+      "mechanism": "nova-leitura-para-pedidos-futuros",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma entidade federal revisou a orientação jurídica sobre um requisito de habilitação e anunciou a interpretação para pedidos protocolados dali em diante. Preservou as autorizações já concedidas. Um interessado ainda não havia apresentado requerimento e invocou a vedação à retroatividade para exigir a adoção permanente da leitura anterior.\n\nCom base nessa situação, julgue o item a seguir.\n\nA vedação à aplicação retroativa, por si só, obriga a entidade a manter a interpretação anterior também para requerimentos futuros.",
+      "correctAnswer": "E",
+      "explanation": "A regra protege contra o uso retroativo de uma nova interpretação. Ela não congela o entendimento para solicitações futuras. Requisitos de publicidade, transição ou outras garantias podem ter análise própria, sem converter essa vedação em imutabilidade.",
+      "reviewEvidence": "Lei nº 9.784/1999, art. 2º, parágrafo único, XIII, e LINDB, arts. 23 e 24. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "articleId": "art-e9d0b4352f3e1455",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "Atos da Administração que seguem outros regimes"
+      },
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#Atos da Administração que seguem outros regimes"
+      ],
+      "id": "cam-reteste-contrato-privado-e-interdicao-na-mesma-entidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "atos-administracao",
+      "mechanism": "contrato-privado-e-interdicao-na-mesma-entidade",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Um ente público celebrou um negócio jurídico de direito privado para obter o uso de um imóvel. Em expediente separado, sua autoridade competente interditou estabelecimento particular com base no poder de polícia. Um relatório interno classificou as duas manifestações como atos da Administração.\n\nCom base nessa situação, julgue o item a seguir.\n\nA classificação ampla é compatível com os fatos, embora o negócio sob regime privado e a interdição não estejam sujeitos ao mesmo regime jurídico.",
+      "correctAnswer": "C",
+      "explanation": "Atos da Administração é gênero que abrange a atividade jurídica administrativa sob diferentes regimes. A interdição é ato administrativo típico, com exercício de prerrogativa pública. O negócio submetido a regime privado integra o gênero mais amplo sem adquirir a mesma natureza da interdição.",
+      "reviewEvidence": "Distinção doutrinária na seção vinculada e Lei nº 14.133/2021, art. 89, quanto à incidência supletiva do direito privado nos contratos administrativos. https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "articleId": "art-e9d0b4352f3e1455",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "Atos da Administração que seguem outros regimes"
+      },
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#Atos da Administração que seguem outros regimes"
+      ],
+      "id": "cam-reteste-decisao-interditar-distinta-de-execucao-material",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "atos-administracao",
+      "mechanism": "decisao-interditar-distinta-de-execucao-material",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma autoridade assinou a ordem de interdição de uma sala que apresentava risco. No cumprimento da ordem, servidores instalaram barreiras, fecharam as portas e fixaram aviso. O registro interno equiparou a instalação física das barreiras à própria ordem que determinou a interdição.\n\nCom base nessa situação, julgue o item a seguir.\n\nA instalação das barreiras constitui a manifestação jurídica que impôs a interdição, com a mesma natureza da ordem assinada.",
+      "correctAnswer": "E",
+      "explanation": "A ordem é a manifestação jurídica que determina a interdição. Instalar barreiras é atividade material de execução, subordinada à decisão. Embora ambos integrem a atuação administrativa, a operação física não se confunde com o ato que produziu o comando jurídico.",
+      "reviewEvidence": "Distinção doutrinária na seção vinculada; Lei nº 9.784/1999, art. 50, I, quanto à motivação dos atos que afetem direitos. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-68b5cf209e4d731a",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      },
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      ],
+      "id": "cam-reteste-projeto-aprovado-recurso-improvido-segue",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "recurso-conclusivo-improvido-redacao",
+      "mechanism": "projeto-aprovado-recurso-improvido-segue",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "As comissões aprovaram conclusivamente um projeto e o recurso contra a decisão foi apresentado com subscrição suficiente. O Plenário conheceu do recurso, mas votou por negar seu provimento. A Mesa discutiu se ainda precisava incluir o mérito do projeto na pauta do Plenário.\n\nCom base nessa situação, julgue o item a seguir.\n\nMantida a aprovação conclusiva, o projeto pode seguir à redação final sem nova votação plenária de mérito em razão desse recurso.",
+      "correctAnswer": "C",
+      "explanation": "O recurso improvido não desloca o mérito para o Plenário. Como a decisão conclusiva foi de aprovação, o destino previsto é a redação final. Se o recurso fosse provido, a matéria recorrida seguiria para deliberação plenária.",
+      "reviewEvidence": "RICD, art. 58, §§ 3º e 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-68b5cf209e4d731a",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      },
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      ],
+      "id": "cam-reteste-improvido-nao-obrigar-redacao-apos-rejeicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "recurso-conclusivo-improvido-redacao",
+      "mechanism": "improvido-nao-obrigar-redacao-apos-rejeicao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "As comissões rejeitaram conclusivamente a matéria que lhes foi submetida. Houve recurso regularmente apresentado para que o Plenário examinasse a matéria. Ao decidir sobre o recurso, o Plenário não lhe deu provimento. A secretaria propôs enviar o projeto rejeitado à redação final.\n\nCom base nessa situação, julgue o item a seguir.\n\nO envio à redação final é devido porque todo recurso improvido preserva um texto a ser redigido.",
+      "correctAnswer": "E",
+      "explanation": "O recurso improvido preserva o resultado conclusivo. Quando o resultado original é de rejeição, o destino é o arquivamento. A redação final corresponde ao caso em que há matéria aprovada.",
+      "reviewEvidence": "RICD, art. 58, § 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "articleId": "art-7e91b362a40c58d2",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "id": "cam-reteste-mp-campanha-em-resposta-a-incidente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "mp-direito-eleitoral-urgencia",
+      "mechanism": "mp-campanha-em-resposta-a-incidente",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Após um ataque a sistemas de divulgação eleitoral, o presidente editou medida provisória para alterar as regras de propaganda de candidatos. O governo argumentou que faltavam poucos dias para o início da campanha e que a medida precisava entrar em vigor sem esperar o processo legislativo ordinário.\n\nCom base nessa situação, julgue o item a seguir.\n\nA urgência demonstrada permite usar medida provisória para alterar as regras de propaganda eleitoral.",
+      "correctAnswer": "E",
+      "explanation": "O art. 62, § 1º, I, a, veda medida provisória em direito eleitoral. A proximidade da campanha pode ser relevante ao avaliar urgência, mas não afasta a vedação material.",
+      "reviewEvidence": "Constituição Federal, art. 62, caput e § 1º, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "articleId": "art-7e91b362a40c58d2",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "id": "cam-reteste-mp-manutencao-de-edificio-em-ano-eleitoral",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "mp-direito-eleitoral-urgencia",
+      "mechanism": "mp-manutencao-de-edificio-em-ano-eleitoral",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma inundação interrompeu o atendimento em prédios administrativos federais em ano eleitoral. Uma medida provisória trata somente de procedimentos administrativos de manutenção e de retomada do atendimento; seu texto não altera regras de campanha, eleição, mandato nem partidos.\n\nCom base nessa situação, julgue o item a seguir.\n\nA adoção no ano eleitoral, por si só, não faz incidir a vedação de medida provisória sobre direito eleitoral.",
+      "correctAnswer": "C",
+      "explanation": "A vedação incide sobre a matéria regulada. A data em ano eleitoral não converte procedimentos de manutenção em direito eleitoral. A medida ainda depende dos pressupostos constitucionais próprios e das demais limitações aplicáveis.",
+      "reviewEvidence": "Constituição Federal, art. 62, caput e § 1º, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "id": "cam-reteste-fonte-entrega-documentos-a-deputado-na-fiscalizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "sigilo-identidade-fonte-testemunho",
+      "mechanism": "fonte-entrega-documentos-a-deputado-na-fiscalizacao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Um deputado recebeu de uma servidora documentos relacionados à fiscalização de uma política pública em comissão. Em processo judicial, foi convocado como testemunha para identificar quem lhe confiou esses documentos e explicar as informações recebidas na atividade parlamentar.\n\nCom base nessa situação, julgue o item a seguir.\n\nA garantia constitucional permite que o deputado se recuse a testemunhar quanto ao conteúdo e à identidade da fonte, dadas as circunstâncias narradas.",
+      "correctAnswer": "C",
+      "explanation": "A proteção abrange informações recebidas ou prestadas em razão do mandato e as pessoas relacionadas à sua comunicação. A entrega ocorreu no exercício da atividade parlamentar. Um fato conhecido em situação privada, sem vínculo com o mandato, exigiria análise distinta.",
+      "reviewEvidence": "Constituição Federal, art. 53, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "id": "cam-reteste-testemunho-sobre-fato-privado-sem-vinculo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "sigilo-identidade-fonte-testemunho",
+      "mechanism": "testemunho-sobre-fato-privado-sem-vinculo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma senadora presenciou um acidente no prédio em que mora. Foi chamada a testemunhar sobre o que viu como moradora, e o depoimento não envolve informações recebidas ou prestadas no exercício do mandato nem identificação de fonte parlamentar.\n\nCom base nessa situação, julgue o item a seguir.\n\nA condição de senadora, por si só, assegura a recusa ao testemunho com base na proteção constitucional às informações do mandato.",
+      "correctAnswer": "E",
+      "explanation": "O art. 53, § 6º, exige vínculo entre a informação e o exercício do mandato. O acidente foi presenciado em circunstância privada, com ausência expressa daquele vínculo. A prerrogativa invocada não confere dispensa geral de testemunhar.",
+      "reviewEvidence": "Constituição Federal, art. 53, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "id": "cam-reteste-entendimento-direto-representante-escolhido-pela-diretoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "representante-empresa-finalidade-entendimento",
+      "mechanism": "entendimento-direto-representante-escolhido-pela-diretoria",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma empresa com 240 empregados criou uma função interna para facilitar o diálogo no local de trabalho. A diretoria escolheu unilateralmente a pessoa que ocuparia a função e declarou que essa escolha realizava a representação dos empregados prevista na Constituição.\n\nCom base nessa situação, julgue o item a seguir.\n\nA escolha unilateral satisfaz o mecanismo constitucional porque a finalidade da função é promover o entendimento direto.",
+      "correctAnswer": "E",
+      "explanation": "A finalidade coincide com a do art. 11, mas o meio previsto é a eleição de um representante dos empregados. O empregador não substitui essa eleição por indicação própria. Com eleição dos empregados, esse requisito seria atendido.",
+      "reviewEvidence": "Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "id": "cam-reteste-representante-eleito-sem-substituir-sindicato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "representante-empresa-finalidade-entendimento",
+      "mechanism": "representante-eleito-sem-substituir-sindicato",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Em uma empresa com 230 empregados, os trabalhadores elegeram uma representante para encaminhar questões de organização do trabalho diretamente ao empregador. Em razão da eleição, a direção pretende dispensar a participação sindical nas futuras negociações coletivas de trabalho.\n\nCom base nessa situação, julgue o item a seguir.\n\nA eleição assegura um canal de entendimento direto, mas não dispensa a participação sindical nas negociações coletivas.",
+      "correctAnswer": "C",
+      "explanation": "O art. 11 atribui ao representante eleito a finalidade exclusiva de promover entendimento direto. A participação dos sindicatos nas negociações coletivas é outra exigência, estabelecida no art. 8º, VI. A eleição não transfere essa atribuição sindical.",
+      "reviewEvidence": "Constituição Federal, arts. 8º, VI, e 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
       "articleId": "art-0242ff68d8ca9529",
       "source": {

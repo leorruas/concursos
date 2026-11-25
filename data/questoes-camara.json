@@ -13053,7 +13053,7 @@
       },
       "statement": "Uma divergência material em declaração exigida pelo art. 18 basta para caracterizar a conduta do art. 4º, V, independentemente de se apurar a intenção.",
       "correctAnswer": "E",
-      "explanation": "É preciso distinguir inexatidão sem intenção de omissão ou falsidade intencional.",
+      "explanation": "O art. 4º, V, do Código de Ética trata de omitir intencionalmente informação relevante ou, com a mesma intenção, prestar informação falsa nas declarações exigidas pelo art. 18. Uma divergência numérica pode justificar conferência, mas não prova sozinha que houve omissão ou falsidade deliberada. Por isso, o item está errado ao dispensar a apuração da intenção. É preciso distinguir erro material ou inexatidão sem intenção da conduta intencional descrita no dispositivo; a ausência dessa intenção afasta esse enquadramento específico, sem decidir automaticamente se há outra irregularidade.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 4º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -13221,7 +13221,7 @@
       },
       "statement": "Na reforma do Código de Ética, o prazo de vinte sessões previsto para pareceres estende automaticamente para vinte sessões a janela de apresentação de emendas.",
       "correctAnswer": "E",
-      "explanation": "O rito separa as etapas. O prazo maior para pareceres não altera as cinco sessões para emendas.",
+      "explanation": "Na alteração ou reforma do Código de Ética, a apresentação de emendas e a emissão dos pareceres são etapas sucessivas, com prazos próprios. O Regimento Interno, art. 216, § 1º, reserva cinco sessões para receber emendas; depois do encerramento dessa janela, as comissões examinam o projeto e têm cinco sessões para parecer em uma simples modificação ou vinte sessões em uma reforma (§§ 2º e 3º). Assim, o item está errado: as vinte sessões para parecer não prorrogam o prazo de emendas.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 19, e o Regimento Interno, art. 216, §§ 1º e 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -13529,7 +13529,7 @@
       },
       "statement": "Passam trinta dias do recebimento de um veto sem que o Congresso delibere. O veto deve entrar na Ordem do Dia da sessão imediata.",
       "correctAnswer": "C",
-      "explanation": "Esgotado o prazo, a Constituição prevê a inclusão do veto na pauta da sessão imediata e o sobrestamento das demais proposições até a votação final.",
+      "explanation": "Recebido o veto, o Congresso deve apreciá-lo em sessão conjunta dentro de 30 dias. Se esse prazo termina sem deliberação, a Constituição não considera o veto automaticamente mantido nem rejeitado: ele passa à Ordem do Dia da sessão imediata, e as demais proposições ficam sobrestadas até a votação final (art. 66, §§ 4º e 6º). Por isso, o item está certo. O atraso muda a pauta e a prioridade de votação; não substitui a deliberação que define o destino do veto.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, §§ 4º e 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -13557,7 +13557,7 @@
       },
       "statement": "O Congresso deixa transcorrer trinta dias sem deliberar sobre um veto presidencial. Esse silêncio produz a rejeição tácita do veto.",
       "correctAnswer": "E",
-      "explanation": "O efeito previsto é a inclusão do veto na Ordem do Dia da sessão imediata. Sua rejeição exige votação com o quórum constitucional.",
+      "explanation": "O prazo de 30 dias para o Congresso apreciar um veto não cria uma decisão automática por silêncio. Se não houver deliberação nesse período, o veto entra na Ordem do Dia da sessão conjunta imediata, e as demais proposições ficam sobrestadas até a votação final (Constituição, art. 66, §§ 4º e 6º). O item está errado porque chama esse efeito de rejeição tácita. Para rejeitar o veto, o Congresso precisa votar e alcançar a maioria absoluta dos deputados e dos senadores; a passagem do prazo, por si só, não conta como voto.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, §§ 4º e 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -13585,7 +13585,7 @@
       },
       "statement": "Uma eleitora alfabetizada de 74 anos tem voto facultativo nas eleições.",
       "correctAnswer": "C",
-      "explanation": "A Constituição torna facultativos o alistamento e o voto para os maiores de setenta anos. A alfabetização não afasta a regra etária.",
+      "explanation": "A Constituição torna facultativos o alistamento e o voto para quem tem mais de 70 anos (art. 14, § 1º, II, b). Essa regra vale para a eleitora do enunciado mesmo que seja alfabetizada; a alfabetização não torna obrigatório o voto de quem ultrapassou essa idade. Por isso, o item está certo. A regra geral é voto obrigatório para pessoas alfabetizadas entre 18 e 70 anos; o voto também é facultativo para analfabetos e para quem tem 16 ou 17 anos. Observe a expressão “maiores de setenta”: a exceção etária começa depois dos 70.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 1º, II, b. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -14621,7 +14621,7 @@
       },
       "statement": "A existência de normas gerais federais sobre educação impede qualquer suplementação estadual sobre o assunto.",
       "correctAnswer": "E",
-      "explanation": "O art. 24, § 2º, preserva a competência suplementar estadual mesmo quando já existe norma geral federal.",
+      "explanation": "Educação é matéria de competência legislativa concorrente (Constituição, art. 24, IX). A União estabelece normas gerais; os estados e o Distrito Federal podem complementá-las para atender às suas particularidades, sem contrariar a regra federal (§§ 1º e 2º). Portanto, o item está errado ao dizer que a norma geral federal impede qualquer suplementação estadual. Se não houver norma geral federal, os estados podem exercer competência legislativa plena; quando surgir a norma federal, fica suspensa a eficácia da lei estadual apenas no que houver conflito (§§ 3º e 4º).",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 24, IX e §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16357,7 +16357,7 @@
       },
       "statement": "O pagamento anual e previsível de uma despesa federal passa a ser urgente por atraso administrativo. Essa urgência, por si só, legitima abrir crédito extraordinário por medida provisória.",
       "correctAnswer": "E",
-      "explanation": "O art. 167, § 3º, exige urgência e imprevisibilidade. O atraso não muda a natureza previsível da despesa.",
+      "explanation": "Crédito extraordinário é destinado a despesas urgentes e imprevisíveis, como as decorrentes de guerra, comoção interna ou calamidade pública (Constituição, art. 167, § 3º). Os dois requisitos importam: a despesa precisa ser urgente e não previsível. No enunciado, o pagamento anual já era conhecido; o atraso administrativo pode torná-lo urgente, mas não transforma uma despesa previsível em imprevisível. Por isso, o item está errado. A urgência isolada não autoriza crédito extraordinário por medida provisória.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 62, § 1º, I, d, e 167, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -19157,7 +19157,7 @@
       },
       "statement": "Como o deputado foi intimado para apresentar defesa escrita, o Conselho pode praticar os demais atos de instrução sem intimá-lo novamente.",
       "correctAnswer": "E",
-      "explanation": "A intimação para a defesa escrita não substitui a intimação dos atos posteriores do Conselho.",
+      "explanation": "A intimação para apresentar defesa escrita é apenas um dos atos do processo disciplinar. O Código de Ética, art. 9º, § 5º, garante ao deputado representado intimação de todos os atos praticados pelo Conselho e possibilidade de manifestação em todas as fases. Portanto, o item está errado: a ciência inicial não autoriza conduzir a instrução posterior sem novas intimações. A regra permite que a defesa acompanhe o que surge ao longo do processo e se manifeste quando necessário.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19185,7 +19185,7 @@
       },
       "statement": "Em processo disciplinar, o Conselho realiza diligência depois de receber a defesa escrita. O deputado pode manifestar-se também nessa fase.",
       "correctAnswer": "C",
-      "explanation": "A possibilidade de manifestação se estende a todas as fases do processo, conforme o § 5º.",
+      "explanation": "No processo disciplinar, o direito de defesa não se esgota na entrega da defesa escrita inicial. O art. 9º, § 5º, do Código de Ética determina que o deputado representado seja intimado de todos os atos do Conselho e possa manifestar-se em todas as fases. Assim, se houver uma diligência posterior, ele também pode se pronunciar; o item está certo. A regra dá oportunidade de acompanhar a instrução e responder aos atos do processo, não apenas apresentar uma manifestação única no começo.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19801,7 +19801,7 @@
       },
       "statement": "Uma política voltada a remover barreiras discriminatórias baseadas na idade se relaciona ao objetivo fundamental de promover o bem de todos.",
       "correctAnswer": "C",
-      "explanation": "O art. 3º, IV, enuncia a promoção do bem de todos sem preconceitos, incluindo expressamente o de idade.",
+      "explanation": "Promover o bem de todos sem preconceitos, inclusive de idade, é um dos objetivos fundamentais da República (Constituição, art. 3º, IV). Uma política que remove barreiras etárias em serviços ou oportunidades pode concretizar esse objetivo. Por isso, o item está certo ao relacionar o combate à discriminação etária ao dispositivo. A Constituição não se limita a proibir discriminações em uma situação isolada: estabelece uma diretriz para a atuação do Estado e da sociedade na construção de uma ordem sem preconceitos.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 3º, IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {

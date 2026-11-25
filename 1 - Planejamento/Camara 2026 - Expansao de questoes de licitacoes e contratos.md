@@ -1,6 +1,6 @@
 # Câmara 2026: expansão de questões de licitações e contratos
 
-Data: 25/11/2026. Estado: planejamento e 44 itens editoriais preparados; integração ao banco pendente.
+Data: 25/11/2026. Estado: planejamento e 60 itens editoriais preparados; integração ao banco pendente.
 
 ## Diagnóstico
 Consulta ao banco data/questoes-camara.json: 2.655 entradas em expansao; nenhuma vinculada ao articleId art-e3be4825ac4c455a (Licitações e contratos). Questões de outros capítulos que citam contratos incidentalmente não substituem cobertura direta. Artigo canônico: 3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md. Fonte normativa: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm .
@@ -485,6 +485,185 @@ Com base nessa situação, julgue o item a seguir.
 O recurso previsto na lei possui efeito suspensivo até decisão final da autoridade competente.
 
 Gabarito: C. O art. 168 estabelece efeito suspensivo para recurso e pedido de reconsideração até decisão final da autoridade competente. A interposição tempestiva do recurso contra impedimento impede a produção imediata dos efeitos do ato recorrido, segundo essa regra. Arts. 166 e 168.
+
+## Lotes editoriais finais (16 novos itens)
+Casos fictícios, autorais, destinados a aplicação e distinção de regras. Conferência preliminar de subtítulos no artigo canônico; validação normativa externa, editalRef, calibração e integração pendentes.
+
+### cam-lic-045-tecnica-preco-ponderacao
+Seção: Critérios de julgamento: art. 33
+Conceito: tecnica-preco.
+Uma entidade licita serviço técnico especial pelo critério de técnica e preço. O edital estabelece previamente a ponderação da nota técnica e do preço. Durante o julgamento, a comissão decide alterar os pesos para beneficiar uma proposta que considera melhor.
+
+Com base nessa situação, julgue o item a seguir.
+
+A comissão pode alterar os pesos durante o julgamento em razão de sua avaliação de conveniência.
+
+Gabarito: E. Técnica e preço combina as notas segundo fatores objetivos previamente previstos no edital. Alterar a ponderação após conhecer propostas viola julgamento objetivo e vinculação ao edital. Se os pesos fossem definidos e divulgados regularmente antes da disputa, a comparação ponderada seria possível. Arts. 5º, 33, IV, e 36.
+
+### cam-lic-046-concurso-melhor-conteudo
+Seção: Critérios de julgamento: art. 33
+Conceito: concurso-criterio.
+Uma instituição lança concurso para selecionar projeto artístico mediante prêmio fixo. Uma comissão avalia as propostas conforme critérios de qualidade artística previamente publicados.
+
+Com base nessa situação, julgue o item a seguir.
+
+A modalidade e o critério de melhor técnica ou conteúdo artístico são compatíveis com a situação.
+
+Gabarito: C. O concurso seleciona trabalho técnico, científico ou artístico mediante prêmio ou remuneração, e utiliza melhor técnica ou conteúdo artístico. O preço do prêmio não é o elemento de disputa nesse caso. Em leilão, por contraste, a comparação é pelo maior lance. Arts. 6º, XXXIX, e 35.
+
+### cam-lic-047-recurso-fase-unica
+Seção: Contraditório e prazos sancionatórios
+Conceito: recurso-fase-unica.
+Em licitação com a ordem ordinária de fases, uma empresa manifesta imediatamente intenção de recorrer do julgamento. A Administração pretende apreciar separadamente e em definitivo esse recurso antes de concluir a habilitação.
+
+Com base nessa situação, julgue o item a seguir.
+
+A apreciação dos recursos relativos ao julgamento e à habilitação deve ocorrer em fase única.
+
+Gabarito: C. O art. 165, § 1º, disciplina os recursos contra julgamento e habilitação: intenção imediata, sob pena de preclusão, e apreciação em fase única. A manifestação imediata preserva o direito de recorrer, mas não cria duas fases recursais autônomas. Arts. 17 e 165, § 1º.
+
+### cam-lic-048-recurso-autoridade-superior
+Seção: Contraditório e prazos sancionatórios
+Conceito: recurso-tramitacao.
+Um licitante apresenta recurso tempestivo contra sua inabilitação. A autoridade que praticou o ato decide não reconsiderá-lo e pretende arquivá-lo sem encaminhamento.
+
+Com base nessa situação, julgue o item a seguir.
+
+A autoridade deve encaminhar o recurso motivadamente à autoridade superior se não reconsiderar o ato no prazo legal.
+
+Gabarito: C. O recurso é dirigido à autoridade que praticou o ato. Se ela não reconsiderar em três dias úteis, deve encaminhá-lo com sua motivação à superior, que decide em até dez dias úteis do recebimento. O arquivamento descrito impediria a revisão prevista em lei. Art. 165, § 2º.
+
+### cam-lic-049-dispensa-agencia-executiva
+Seção: Dispensa: art. 75, inclusive valores vigentes em 2026
+Conceito: dispensa-limites-dobrados.
+Uma autarquia formalmente qualificada como agência executiva avalia contratação de serviço comum. O setor de compras aplica o mesmo limite de dispensa por valor utilizado pelos órgãos sem essa qualificação, afirmando que a lei não admite distinção.
+
+Com base nessa situação, julgue o item a seguir.
+
+A Lei nº 14.133 prevê duplicação dos limites dos incisos I e II do art. 75 para a autarquia qualificada como agência executiva.
+
+Gabarito: C. O art. 75, § 2º, duplica esses valores para consórcios públicos e autarquias ou fundações qualificadas como agências executivas. A qualificação é o fato decisivo; autarquia comum não recebe automaticamente esse tratamento. Continuam aplicáveis os demais requisitos da contratação direta.
+
+### cam-lic-050-inexigibilidade-competicao-viavel
+Seção: Inexigibilidade: art. 74
+Conceito: inexigibilidade-pressuposto.
+Uma equipe identifica vários fornecedores capazes de atender ao mesmo objeto mediante especificações objetivas. Sem demonstrar inviabilidade de competição, propõe inexigibilidade apenas para acelerar a contratação.
+
+Com base nessa situação, julgue o item a seguir.
+
+A rapidez desejada constitui fundamento suficiente de inexigibilidade.
+
+Gabarito: E. O pressuposto da inexigibilidade é a inviabilidade de competição. A conveniência de concluir rapidamente não demonstra essa condição. Uma emergência real poderia justificar exame de hipótese de dispensa, mas exigiria requisitos próprios. Arts. 74, caput, e 75, VIII.
+
+### cam-lic-051-credenciamento-modalidade
+Seção: Inexigibilidade: art. 74
+Conceito: credenciamento-modalidade.
+Uma instituição adota credenciamento para contratar prestadores em condições padronizadas, na hipótese de contratação paralela e não excludente. O relatório classifica o credenciamento como modalidade licitatória.
+
+Com base nessa situação, julgue o item a seguir.
+
+A classificação do relatório corresponde à enumeração legal de modalidades.
+
+Gabarito: E. Credenciamento é procedimento auxiliar previsto no art. 78, I, com hipóteses no art. 79. As contratações decorrentes podem fundamentar-se no art. 74, IV. A classificação como modalidade é incorreta: as modalidades estão enumeradas no art. 28.
+
+### cam-lic-052-planejamento-solucao-antecipada
+Seção: Planejamento, ETP e Termo de Referência: edital 10.4 a 10.7
+Conceito: planejamento-alternativas.
+Uma unidade identifica documentos inacessíveis. Antes de estudar alternativas, escolhe determinada empresa e elabora o estudo técnico preliminar apenas para justificar retrospectivamente essa escolha.
+
+Com base nessa situação, julgue o item a seguir.
+
+A prática descrita atende à finalidade do estudo técnico preliminar.
+
+Gabarito: E. O estudo técnico preliminar deve caracterizar a necessidade, a melhor solução e sua viabilidade, subsidiando as etapas posteriores. Justificar retrospectivamente um fornecedor escolhido inverte essa lógica. Uma avaliação prévia de alternativas e requisitos permite fundamentar a solução sem direcionamento. Arts. 6º, XX, e 18.
+
+### cam-lic-053-contratacao-direta-escolha-preco
+Seção: Contratação direta não elimina formalidades
+Conceito: escolha-preco.
+Em procedimento de inexigibilidade, o órgão demonstra a exclusividade do prestador e explica por que ele foi escolhido, mas não apresenta justificativa de preço.
+
+Com base nessa situação, julgue o item a seguir.
+
+A razão da escolha do contratado substitui automaticamente a justificativa de preço.
+
+Gabarito: E. São elementos distintos da instrução: a razão da escolha identifica por que aquele contratado atende ao objeto; a justificativa de preço examina a adequação econômica do valor. Exclusividade não torna qualquer preço aceitável. Art. 72, VI e VII.
+
+### cam-lic-054-publicidade-ato-autorizativo
+Seção: Contratação direta não elimina formalidades
+Conceito: publicidade-contratacao-direta.
+Uma unidade obtém autorização para contratação direta regularmente instruída. Pretende manter o ato autorizativo e o extrato do contrato inacessíveis ao público, por entender que a ausência de edital elimina o dever de divulgação.
+
+Com base nessa situação, julgue o item a seguir.
+
+A ausência de licitação afasta a divulgação prevista no art. 72, parágrafo único.
+
+Gabarito: E. O ato que autoriza a contratação direta ou o extrato decorrente do contrato deve ser divulgado e mantido à disposição do público em sítio eletrônico oficial. Isso é diferente da divulgação contratual no Portal Nacional de Contratações Públicas, tratada no art. 94. Art. 72, parágrafo único.
+
+### cam-lic-055-contrato-regime-supletivo
+Seção: Contratos administrativos
+Conceito: regime-contratual.
+Em contrato administrativo regido pela Lei nº 14.133, uma dúvida não encontra solução nas cláusulas nem nas regras de direito público aplicáveis. O parecerista avalia recorrer supletivamente à teoria geral dos contratos e ao direito privado.
+
+Com base nessa situação, julgue o item a seguir.
+
+A aplicação supletiva é compatível com o regime legal descrito.
+
+Gabarito: C. Os contratos regidos pela lei são disciplinados por suas cláusulas e preceitos de direito público, aplicando-se supletivamente os princípios da teoria geral dos contratos e disposições de direito privado. A aplicação supletiva não substitui normas públicas obrigatórias. Art. 89.
+
+### cam-lic-056-equilibrio-alteracao-encargos
+Seção: Alterações contratuais
+Conceito: equilibrio-alteracao.
+A Administração determina alteração unilateral lícita de especificações que aumenta os encargos da contratada. A equipe pretende manter a remuneração inalterada sob o argumento de que o particular deve aceitar alterações legais.
+
+Com base nessa situação, julgue o item a seguir.
+
+O exercício da prerrogativa dispensa o restabelecimento do equilíbrio econômico-financeiro inicial.
+
+Gabarito: E. Quando alteração unilateral aumenta ou diminui os encargos, a Administração deve restabelecer o equilíbrio econômico-financeiro inicial no mesmo termo aditivo. Aceitar alteração legal não significa assumir gratuitamente encargos novos. Arts. 104, § 2º, e 130.
+
+### cam-lic-057-contrato-verbal-regra
+Seção: Instrumento contratual × contrato verbal
+Conceito: contrato-verbal.
+Uma unidade contrata verbalmente serviço continuado com obrigações futuras e pagamento mensal. O ajuste não se enquadra na exceção legal de pequenas compras ou serviços de pronto pagamento.
+
+Com base nessa situação, julgue o item a seguir.
+
+O contrato verbal é válido apenas porque o serviço atende a uma necessidade pública.
+
+Gabarito: E. O contrato verbal com a Administração é nulo e de nenhum efeito, salvo a exceção legal de pequenas compras ou serviços de pronto pagamento dentro do limite atualizado. A finalidade pública não elimina a exigência de formalização. Art. 95, § 2º.
+
+### cam-lic-058-reequilibrio-forca-maior
+Seção: Alterações contratuais
+Conceito: reequilibrio-extraordinario.
+Evento de força maior torna a execução do contrato inviável nas condições originalmente pactuadas. As partes demonstram os efeitos extraordinários e examinam a repartição objetiva de riscos prevista no contrato.
+
+Com base nessa situação, julgue o item a seguir.
+
+A lei admite alteração por acordo para restabelecer o equilíbrio inicial, respeitada a repartição objetiva de riscos.
+
+Gabarito: C. O art. 124, II, d, permite restabelecimento do equilíbrio por acordo em situações como força maior, caso fortuito e fatos imprevisíveis ou previsíveis de consequências incalculáveis que inviabilizem a execução como pactuada, respeitada a repartição de riscos. Não se confunde com reajuste ordinário por índice.
+
+### cam-lic-059-fiscal-registro-competencia
+Seção: Gestão, fiscalização e recebimento do objeto
+Conceito: fiscal-competencia.
+Um fiscal identifica falha recorrente na execução e registra a ocorrência. A solução exige medida que ultrapassa sua competência, mas ele pretende decidir sozinho para evitar demora.
+
+Com base nessa situação, julgue o item a seguir.
+
+O fiscal deve informar a seus superiores em tempo hábil a situação que demanda decisão além de sua competência.
+
+Gabarito: C. O fiscal registra ocorrências e determina o necessário à regularização dentro de suas atribuições. Situações que demandem decisão ou providência superior devem ser comunicadas em tempo hábil. A competência de fiscalização não transfere automaticamente o poder de decidir qualquer medida. Art. 117, §§ 1º e 2º.
+
+### cam-lic-060-multa-defesa-antes-recurso
+Seção: Contraditório e prazos sancionatórios
+Conceito: defesa-multa.
+Uma autoridade pretende aplicar multa contratual imediatamente, deixando a empresa apresentar argumentos apenas depois, em eventual recurso contra a sanção.
+
+Com base nessa situação, julgue o item a seguir.
+
+A possibilidade de recurso posterior substitui a oportunidade de defesa prevista para a aplicação da multa.
+
+Gabarito: E. Na aplicação de multa, deve ser facultada defesa em quinze dias úteis contados da intimação. O recurso contra a decisão sancionatória tem previsão própria e também prazo de quinze dias úteis. São momentos distintos; a existência de recurso não elimina a defesa anterior. Arts. 157 e 166.
 
 ## Execução
 1. Confirmar editalRef, prova-espelho, unicidade dos IDs e vínculos no banco atualizado; não atribuir origem oficial ou calibração empírica sem evidência.

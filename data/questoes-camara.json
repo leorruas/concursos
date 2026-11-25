@@ -8685,7 +8685,7 @@
       "reviewStatus": "validada",
       "statement": "Ao montar seu calendário de transparência, o TCU reservou uma data para o relatório anual, que consolidará todas as atividades. A área responsável suprimiu os encaminhamentos trimestrais ao Congresso alegando que todos os dados entrariam no documento anual.\n\nCom base nessa situação, julgue o item a seguir.\n\nO envio do relatório anual dispensa os relatórios trimestrais, desde que consolide as informações de todo o exercício.",
       "correctAnswer": "E",
-      "explanation": "A Constituição exige as duas periodicidades. A consolidação anual não substitui o dever de encaminhamento trimestral ao Congresso Nacional.",
+      "explanation": "**Regra:** o TCU deve encaminhar ao Congresso relatórios de suas atividades em duas periodicidades: trimestral e anual. **Aplicação:** o relatório anual consolidado não substitui as remessas trimestrais, pois ambas são exigidas. **Distinção:** esse dever periódico do § 4º não depende de um pedido específico de comissão ou Casa; pedidos pontuais de informação seguem outra hipótese constitucional. (Constituição, art. 71, § 4º.)",
       "reviewEvidence": "Constituição Federal, art. 71, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -8718,7 +8718,7 @@
       "reviewStatus": "validada",
       "statement": "Em três trimestres, comissões solicitaram e receberam informações específicas do TCU sobre auditorias de obras. No trimestre seguinte não houve solicitações. O Tribunal discutiu se deveria suspender o envio de seu relatório de atividades ao Congresso até que alguma comissão o pedisse.\n\nCom base nessa situação, julgue o item a seguir.\n\nO encaminhamento do relatório trimestral decorre de dever próprio e independe de solicitação de comissão.",
       "correctAnswer": "C",
-      "explanation": "Os pedidos específicos são atendidos com base no art. 71, VII. Já o § 4º prevê o envio trimestral e anual de relatório de atividades ao Congresso, sem condicionar esse dever a pedido.",
+      "explanation": "**Regra:** além de responder a pedidos específicos de informação, o TCU deve enviar espontaneamente relatórios trimestrais e anuais de suas atividades ao Congresso. **Aplicação:** a falta de pedidos no trimestre seguinte não suspende o relatório periódico. **Pegadinha:** não confunda respostas a solicitações específicas (art. 71, VII) com prestação periódica de contas das atividades do Tribunal (§ 4º).",
       "reviewEvidence": "Constituição Federal, art. 71, VII e § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -17785,7 +17785,7 @@
       },
       "statement": "O Tribunal de Contas da União organiza o envio ao Congresso Nacional de relatórios sobre suas atividades, com remessas trimestrais e anuais. As duas periodicidades correspondem ao texto constitucional.",
       "correctAnswer": "C",
-      "explanation": "O TCU presta contas das próprias atividades ao Congresso por relatórios em duas periodicidades: trimestral e anual. São deveres cumulativos. Assim, um relatório anual que reúna todos os dados ainda não supre o envio dos relatórios trimestrais. Esses relatórios também têm finalidade distinta das respostas a pedidos específicos de informação das Casas ou comissões. Fundamento: Constituição Federal, art. 71, VII e § 4º.",
+      "explanation": "**Regra:** o TCU encaminha ao Congresso relatórios de atividades tanto trimestrais quanto anuais; as duas remessas são cumulativas. **Aplicação:** a organização descrita atende ao texto constitucional. **Distinção:** o relatório periódico não se confunde com resposta a pedido de informações feito pelo Congresso, por uma Casa ou por comissão; esse pedido tem fundamento próprio no art. 71, VII. (Constituição, art. 71, VII e § 4º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -17813,7 +17813,7 @@
       },
       "statement": "Se o Tribunal de Contas da União encaminhar regularmente ao Congresso seus relatórios trimestrais de atividades, fica dispensado do envio anual.",
       "correctAnswer": "E",
-      "explanation": "A Constituição estabelece as duas periodicidades. O cumprimento de uma não dispensa a outra.",
+      "explanation": "**Regra:** a Constituição exige relatório trimestral e relatório anual das atividades do TCU. **Por que o item está errado:** cumprir a remessa trimestral não dispensa a anual, assim como a anual não elimina as trimestrais. **Aplicação:** são deveres periódicos independentes e cumulativos, não opções entre as quais o Tribunal possa escolher. (Constituição, art. 71, § 4º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -68381,7 +68381,7 @@
       },
       "statement": "O TCU encaminhou ao Congresso Nacional o relatório anual de suas atividades. Essa remessa, por si só, cumpre toda a obrigação constitucional de envio periódico de relatórios de atividades.",
       "correctAnswer": "E",
-      "explanation": "O art. 71, § 4º, prevê relatórios trimestrais e anuais ao Congresso. A remessa anual não substitui as trimestrais.",
+      "explanation": "**Regra:** o TCU deve enviar ao Congresso relatórios de atividades a cada trimestre e também um relatório anual. **Aplicação:** encaminhar apenas o relatório anual não cumpre toda a obrigação; faltam as remessas trimestrais. **Pegadinha:** consolidar dados no documento anual não transforma dois deveres de periodicidade em um só. (Constituição, art. 71, § 4º.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 71, § 4º. O art. 71, § 4º, prevê relatórios trimestrais e anuais ao Congresso. A remessa anual não substitui as trimestrais. Dificuldade estimada."
     },
     {

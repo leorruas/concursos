@@ -297,11 +297,11 @@ Doze questões autorais, seis por concurso. Cobertura do primeiro lote: rito leg
 
 ## Continuidade
 
-Meta indicativa de 120 autorais. Restam 108 após este lote. Priorizar em seguida classificação e estágios da receita e da despesa, com um caso compartilhado, e depois planejamento e princípios, regra de ouro, ciclo do gasto, resultados fiscais, renúncia, despesa continuada e controle. Concluir a revisão individual dos itens legados e dos exercícios nas notas antes de reclassificar em massa. Próximo lote de 10 a 20 itens, com padrão de vínculo por concurso e preflight por SHA.
+Meta indicativa de 120 autorais. Restam 108 após este lote. Priorizar em seguida classificação e estágios da receita e da despesa, com um caso compartilhado, e depois planejamento e princípios, regra de ouro, ciclo do gasto, resultados fiscais, renúncia, despesa continuada e controle. A revisão dos 103 itens públicos originais da Câmara está registrada abaixo. Concluir a revisão substantiva do piloto e dos exercícios nas notas para fechar o inventário editorial. Próximo lote de 10 a 20 itens, com padrão de vínculo por concurso e preflight por SHA.
 
 ### Prompt de continuidade
 
-No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 48 IDs dos quatro primeiros lotes e os históricos. Siga da contagem de 48/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 5, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre créditos adicionais, alterações, controles de fonte e diferenças entre bloqueio e contingenciamento. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
+No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 60 IDs dos cinco primeiros lotes e os históricos. Siga da contagem de 60/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 6, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre restos a pagar, despesas anteriores, suprimento, reconhecimento patrimonial e controle do encerramento. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
 
 ## Lote 2 — classificação, estágios e caso da ponte
 
@@ -347,6 +347,8 @@ Doze autorais, seis por concurso. Total acumulado de 36 e saldo indicativo de 84
 
 ## Lote 4 — responsabilidade fiscal e competências de controle
 
+SHA integrado: `dd04c84997ce506aaf5f728594e37e67a370644c`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45681773122) · [Workflow de publicação](https://github.com/leorruas/concursos/actions/runs/45681985365).
+
 Doze autorais, seis por concurso. Total acumulado de 48 e saldo indicativo de 72. O recorte cobre renúncia, despesa continuada, caixa líquido no fim do mandato, dívida flutuante e fundada, limite prudencial, recondução, recomposição e atribuições de controle. Próximo lote: alterações, crédito disponível e distinções entre bloqueio e contingenciamento.
 
 | ID | Referência | Artigo | Nível | Gabarito |
@@ -363,3 +365,132 @@ Doze autorais, seis por concurso. Total acumulado de 48 e saldo indicativo de 72
 | ca-orc-cal-contas-presidente-versus-gestor | p3 108 | art-91ab320cdfb64b8a | dificil | C |
 | ca-orc-cal-consulta-tecnica-e-sustacao-final | mpo 40 | art-91ab320cdfb64b8a | dificil | E |
 | ca-orc-cal-representacao-tcu-dever-interno | cge 115 | art-91ab320cdfb64b8a | dificil | C |
+
+## Lote 5 — créditos adicionais e programação financeira
+
+Doze autorais, seis por concurso. Total acumulado de 60 e saldo indicativo de 60. Cobertura de autorização e abertura, superávit e excesso de arrecadação, vigência do crédito, recursos descentralizados, programação, limitações simultâneas e exceções ao contingenciamento. Próximo lote: encerramento, restos a pagar, despesas anteriores e suprimento.
+
+| ID | Referência | Artigo | Nível | Gabarito |
+| --- | --- | --- | --- | --- |
+| ca-orc-cal-autorizacao-na-lei-ato-abertura | p1 86 | art-87b69e1d4ac54f20 | dificil | C |
+| ca-orc-cal-urgencia-com-previsibilidade | mpo 16 | art-87b69e1d4ac54f20 | dificil | E |
+| ca-orc-cal-excesso-deducao-extraordinario | mpo 20 | art-87b69e1d4ac54f20 | dificil | C |
+| ca-orc-cal-metas-cronograma-frequencias | cd 166 | art-0fb9b88e4d6c4151 | dificil | E |
+| ca-orc-cal-contingenciamento-servico-da-divida | mpo 26 | art-0fb9b88e4d6c4151 | dificil | C |
+| ca-orc-cal-destaque-credito-sem-caixa | mpo 31 | art-743d234d819842d1 | dificil | C |
+| cg-orc-cal-saldo-reaberto-e-superavit | mpo 30 | art-83d7c5ef2a0b4916 | dificil | C |
+| cg-orc-cal-credito-inexistente-fonte-anulacao | cge 106 | art-83d7c5ef2a0b4916 | dificil | E |
+| cg-orc-cal-bloqueio-e-contingenciamento-concorrentes | mpo 26 | art-6f2c1ae9d483457b | dificil | C |
+| cg-orc-cal-programacao-despesa-previsao-mensal | cd 166 | art-6f2c1ae9d483457b | dificil | E |
+| cg-orc-cal-provisao-e-sub-repasse-evidencias | mpo 31 | art-7a4f21e965d048b3 | dificil | E |
+| cg-orc-cal-limite-empenho-sem-cancelar-dotacao | mpo 26 | art-6f2c1ae9d483457b | dificil | C |
+
+### Revisão de dificuldade da expansão original da Câmara
+
+Leitura individual dos 103 enunciados na ordem da expansão anterior ao lote 1. Fácil corresponde predominantemente ao reconhecimento direto de uma regra ou distinção. Médio exige aplicação de uma condição em situação concreta. Difícil exige detalhe pouco recuperável por eliminação, limite composto, competência específica ou distinção combinada. A triagem de contexto aponta hipóteses que favorecem a eliminação por pistas, mesmo quando a regra é tecnicamente relevante. 58 itens tiveram a dificuldade atualizada. Permanecem os enunciados, gabaritos, IDs e demais campos históricos.
+
+| ID | Dificuldade editorial | Diagnóstico |
+| --- | --- | --- |
+| cam-revisao-saldo-restituido-em-duas-datas-tem-tratamentos-distintos | media | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-prestacao-unica-nao-unifica-classificacao-de-restituicoes | media | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-frustracao-bimestral-compromete-meta | media | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-frustracao-mensal-dispara-corte-proporcional | media | Contexto ou formulação favorece eliminação |
+| cam-revisao-reforco-orcamentario-sem-reforco-financeiro | media | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-saldo-financeiro-nao-substitui-dotacao | media | Contexto ou formulação favorece eliminação |
+| cam-revisao-acao-de-assistencia-integra-seguridade | facil | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-beneficio-assistencial-nao-vai-ao-fiscal-por-ser-nao-contributivo | facil | Contexto ou formulação favorece eliminação |
+| cam-revisao-parecer-favoravel-da-cmo-nao-permite-recesso | media | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-recesso-nao-depende-de-aprovacao-do-ppa | media | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-controle-indireto-com-repasse-para-folha | media | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-aporte-acionario-para-maquinas | media | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-prazo-ata-nao-se-confunde-com-deliberacao | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-deliberacao-tempestiva-nao-sana-atraso-de-ata | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-piso-de-capital-nao-libera-folha | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-amortizacao-continua-vedada-apesar-de-capital | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-empenho-gatilho-meta | media | Julgamento exige recuperar a distinção ou regra |
+| cam-revisao-empenho-recomposicao-parcial | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-001-meta-fisica-vs-execucao-financeira | media | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-002-etapas-concorrentes-do-ciclo | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-003-ldo-sem-dotacao-nao-autoriza-gasto | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-004-ppa-regionalizado-capital-continuados | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-005-nao-afetacao-taxa-servico | media | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-006-vedacao-creditos-ilimitados | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-007-exposicao-justificativa-credito | media | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-008-autarquia-sem-ldo-propria | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-009-credito-extraordinario-comunicacao-legislativo | facil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-010-suplementar-sem-reabertura | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-011-operacao-credito-autorizada | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-012-emenda-nao-especie-credito | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-013-imposto-saude-excecao | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-014-anualidade-vs-politica-continuada | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-015-valor-bruto-sem-compensacao | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-016-regra-ouro-excecao-quorum | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-017-fonte-nao-natureza | facil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-018-imposto-vinculado-nao-muda-natureza | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-019-primaria-nao-e-corrente | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-020-financeira-nao-e-destinacao | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-021-emenda-correcao-erros-omissoes | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-022-emenda-ldo-ppa | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-023-impedimento-tecnico-emenda | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-024-transferencia-especial-convenio | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-025-transferencia-especial-capital | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-026-transferencia-finalidade-programacao | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-027-emenda-comissao-ata | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-028-emenda-comissao-prazo-ata | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-029-obrigacao-excede-credito-autorizado | media | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-030-suplementar-lei-e-abertura | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-031-anulacao-nao-receita-nova | facil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-032-ato-abertura-classificacao | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-033-excesso-arrecadacao-tendencia | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-034-credito-extraordinario-deducao | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-035-superavit-financeiro-balanco | facil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-036-dotacao-global-programa-especial | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-037-credito-adicional-nao-empenho | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-038-excesso-nao-dispensar-lei | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l027-039-credito-extraordinario-mp-uniao | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l027-040-credito-nao-resolve-caixa | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l039-001-cronograma-periodicidade-mensal | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l039-002-vinculacao-caixa-virada-exercicio | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l039-003-arrecadacao-meta-de-resultado | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l039-004-recomposicao-proporcional-nao-linear | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l047-001-adiantamento-terceiro-urgencia | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l047-002-suprimento-empenho-antes-entrega | facil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l047-003-rp-cancelamento-direito-verificado | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l047-004-dea-prescricao-interrompida | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l066-001-esfera-seguridade-assistencia | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l066-002-esfera-investimento-custeio-proprio | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l066-003-loa-esferas-numero-de-leis | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l074-001-saldo-veto-credito-autorizacao | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l074-002-cmo-ordem-relatorio-excecao | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l074-003-emenda-anulacao-transferencias | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l083-001-lrf-um-terco-excedente | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l083-002-lrf-prudencial-antes-do-maximo | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l083-003-lrf-excecao-reposicao-seguranca | facil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l087-001-rcl-janela-atravessa-exercicios | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l087-002-rcl-queda-denominador-pessoal | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l091-001-meta-fisica-sem-aumento-dotacao | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l091-002-elemento-sem-identificar-executor | facil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l091-003-regionalizacao-dentro-da-acao | facil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l099-001-necessidades-dois-predios | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l099-002-acao-nova-sem-montante | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l190-001-superavit-parcela-comprometida | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l191-001-data-autorizacao-abertura | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l192-001-cae-orientacoes-antes-prazo | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l192-002-cfis-exame-projeto-ppa | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l193-001-mensagem-parte-nao-votada | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l194-001-parecer-cmo-recesso | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l195-001-inovacao-fonte-do-custeio | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l196-001-global-liquidacao-por-parcela | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l196-002-dispensa-da-nota | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l197-001-tarifa-conhecida-consumo-incerto | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l198-001-recebimento-preco-divergente | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l199-001-credito-vigente-ano-intermediario | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l200-001-restituicao-em-dois-exercicios | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l201-001-dois-suprimentos-sem-atraso | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l201-002-guarda-unico-servidor | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l202-001-devolucao-caucao-exercicio-seguinte | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l203-001-arrecadacao-dezembro-repasse-janeiro | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l204-001-parcela-acima-da-previsao | facil | Contexto ou formulação favorece eliminação |
+| cam-orc-l205-001-consolidacao-de-receitas-de-capital | media | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l206-001-imoveis-finalidades-distintas | dificil | Julgamento exige recuperar a distinção ou regra |
+| cam-orc-l206-002-compra-direta-ou-repasse | facil | Julgamento exige recuperar a distinção ou regra |

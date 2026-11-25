@@ -22197,7 +22197,7 @@
       "conceptId": "esfera-seguridade-assistencia",
       "mechanism": "acao-de-assistencia-integra-seguridade",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -22225,7 +22225,7 @@
       "conceptId": "esfera-seguridade-assistencia",
       "mechanism": "beneficio-assistencial-nao-vai-ao-fiscal-por-ser-nao-contributivo",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -30597,7 +30597,7 @@
       "conceptId": "camara-editorial-prazo-comissao-lc210",
       "mechanism": "prazo-ata-nao-se-confunde-com-deliberacao",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -30625,7 +30625,7 @@
       "conceptId": "camara-editorial-prazo-comissao-lc210",
       "mechanism": "deliberacao-tempestiva-nao-sana-atraso-de-ata",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -30653,7 +30653,7 @@
       "conceptId": "transferencia-especial-vedacoes",
       "mechanism": "piso-de-capital-nao-libera-folha",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -30681,7 +30681,7 @@
       "conceptId": "transferencia-especial-vedacoes",
       "mechanism": "amortizacao-continua-vedada-apesar-de-capital",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63077,7 +63077,7 @@
       "conceptId": "ldo-prioridade-sem-credito",
       "mechanism": "confundir-prioridade-com-despesa-autorizada",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "dificil",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63161,7 +63161,7 @@
       "conceptId": "vedacao-creditos-orcamentarios-ilimitados",
       "mechanism": "reconhecer-vedacao-constitucional-credito-ilimitado",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63217,7 +63217,7 @@
       "conceptId": "autarquia-ldo-do-ente-federativo",
       "mechanism": "distinguir-contribuicao-tecnica-de-iniciativa-ldo",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63245,7 +63245,7 @@
       "conceptId": "comunicacao-legislativo-credito-extraordinario",
       "mechanism": "distinguir-abertura-e-comunicacao-art44",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63273,7 +63273,7 @@
       "conceptId": "suplementar-fora-excecao-reabertura",
       "mechanism": "estender-excecao-constitucional-a-especie-errada",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63329,7 +63329,7 @@
       "conceptId": "emenda-versus-credito-adicional",
       "mechanism": "classificar-proposta-legislativa-como-credito",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63357,7 +63357,7 @@
       "conceptId": "nao-afetacao-saude",
       "mechanism": "distinguir-proibicao-e-excecao",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63385,7 +63385,7 @@
       "conceptId": "anualidade-orcamentaria-vs-duracao-politica",
       "mechanism": "distinguir-vigencia-orcamento-duracao-politica",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63441,7 +63441,7 @@
       "conceptId": "regra-ouro-ressalva",
       "mechanism": "distinguir-excecao-por-credito-aprovado",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "dificil",
+      "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63469,7 +63469,7 @@
       "conceptId": "fonte-destinacao-vs-natureza",
       "mechanism": "separar-origem-e-restricao",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63497,7 +63497,7 @@
       "conceptId": "vinculacao-nao-altera-natureza",
       "mechanism": "identificar-invariancia-de-classificacao",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63525,7 +63525,7 @@
       "conceptId": "resultado-primario-vs-categoria-economica",
       "mechanism": "distinguir-classificadores-fiscais",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "dificil",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63609,7 +63609,7 @@
       "conceptId": "emenda-ldo-compatibilidade",
       "mechanism": "aplicar-criterio-proprio-ldo",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63693,7 +63693,7 @@
       "conceptId": "transferencia-especial-minimo-capital",
       "mechanism": "aplicar-piso-constitucional",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63721,7 +63721,7 @@
       "conceptId": "transferencia-finalidade-definida",
       "mechanism": "identificar-destinacao-programatica",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63749,7 +63749,7 @@
       "conceptId": "emenda-comissao-deliberacao",
       "mechanism": "separar-aprovacao-e-indicacao",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63777,7 +63777,7 @@
       "conceptId": "emenda-comissao-ata-publicada",
       "mechanism": "distinguir-deliberacao-e-publicidade",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63833,7 +63833,7 @@
       "conceptId": "suplementar-autorizacao-abertura",
       "mechanism": "separar-lei-autorizadora-e-ato-abertura",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63861,7 +63861,7 @@
       "conceptId": "anulacao-dotacao-fonte",
       "mechanism": "distinguir-fonte-orcamentaria-e-ingresso-financeiro",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63889,7 +63889,7 @@
       "conceptId": "ato-abertura-identificacao-credito",
       "mechanism": "exigir-identificacao-montante-especie-classificacao",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63917,7 +63917,7 @@
       "conceptId": "excesso-arrecadacao-tendencia",
       "mechanism": "apurar-fonte-com-projecao",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -63973,7 +63973,7 @@
       "conceptId": "superavit-financeiro-exercicio-anterior",
       "mechanism": "identificar-base-temporal-da-fonte",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -64001,7 +64001,7 @@
       "conceptId": "dotacao-global-excecao-programa-especial",
       "mechanism": "aplicar-ressalva-especificacao-programa-especial",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -64029,7 +64029,7 @@
       "conceptId": "credito-vs-empenho",
       "mechanism": "distinguir-autorizacao-e-execucao",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -64057,7 +64057,7 @@
       "conceptId": "fonte-nao-substitui-autorizacao",
       "mechanism": "distinguir-fonte-e-autorizacao",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -67081,7 +67081,7 @@
       "conceptId": "arrecadacao-meta-de-resultado",
       "mechanism": "avaliar-criterio-fiscal-do-gatilho",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "dificil",
+      "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -68061,7 +68061,7 @@
       "conceptId": "suprimento-empenho-antes-entrega",
       "mechanism": "ordenar-atos-no-regime-excepcional",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -68089,7 +68089,7 @@
       "conceptId": "rp-cancelamento-direito-verificado",
       "mechanism": "separar-registro-e-direito-do-credor",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "dificil",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -69713,7 +69713,7 @@
       "conceptId": "esfera-seguridade-assistencia",
       "mechanism": "classificar-programacao-assistencial",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -69741,7 +69741,7 @@
       "conceptId": "esfera-investimento-custeio-proprio",
       "mechanism": "delimitar-universo-da-esfera-de-investimento",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -70385,7 +70385,7 @@
       "conceptId": "saldo-veto-credito-autorizacao",
       "mechanism": "separar-origem-de-titulo-autorizativo",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -70413,7 +70413,7 @@
       "conceptId": "cmo-ordem-relatorio-excecao",
       "mechanism": "identificar-colegiado-da-excecao",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -70441,7 +70441,7 @@
       "conceptId": "emenda-anulacao-transferencias",
       "mechanism": "verificar-protecao-da-fonte",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -71169,7 +71169,7 @@
       "conceptId": "lrf-prudencial-antes-do-maximo",
       "mechanism": "distinguir-restricao-e-reconducao",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -71197,7 +71197,7 @@
       "conceptId": "lrf-excecao-reposicao-seguranca",
       "mechanism": "delimitar-hipotese-de-reposicao",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -71421,7 +71421,7 @@
       "conceptId": "rcl-janela-atravessa-exercicios",
       "mechanism": "localizar-meses-na-janela-movel",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -71449,7 +71449,7 @@
       "conceptId": "rcl-queda-denominador-pessoal",
       "mechanism": "inferir-razao-com-numerador-constante",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -71757,7 +71757,7 @@
       "conceptId": "elemento-sem-identificar-executor",
       "mechanism": "distinguir-objeto-e-forma-de-aplicacao",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -71785,7 +71785,7 @@
       "conceptId": "regionalizacao-dentro-da-acao",
       "mechanism": "identificar-nivel-de-detalhamento-territorial",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -76601,7 +76601,7 @@
       "conceptId": "reabertura-data-promulgacao-autorizacao",
       "mechanism": "escolher-marco-temporal-entre-autorizacao-e-abertura",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -76629,7 +76629,7 @@
       "conceptId": "cae-orientacoes-antes-prazo",
       "mechanism": "separar-divulgacao-previa-da-ordem-de-votacao",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -76657,7 +76657,7 @@
       "conceptId": "cfis-exame-projeto-ppa",
       "mechanism": "reconhecer-competencia-de-controle-na-fase-de-projeto",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -76685,7 +76685,7 @@
       "conceptId": "mensagem-modificativa-marco-por-parte",
       "mechanism": "distinguir-votacao-de-outra-parte-do-inicio-da-parte-alterada",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -76741,7 +76741,7 @@
       "conceptId": "contingenciamento-inovacao-fundo-especifico",
       "mechanism": "aplicar-condicao-da-fonte-a-projetos-de-mesma-finalidade",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -76797,7 +76797,7 @@
       "conceptId": "dispensa-da-nota",
       "mechanism": "delimitar-dispensa-documental-sem-alterar-sequencia-da-despesa",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -76881,7 +76881,7 @@
       "conceptId": "restos-a-pagar-credito-plurienal-ano-intermediario",
       "mechanism": "aplicar-excecao-a-empenho-nao-liquidado-antes-do-ultimo-ano",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -76937,7 +76937,7 @@
       "conceptId": "dois-suprimentos-sem-atraso",
       "mechanism": "distinguir-limite-simultaneo-de-atraso-de-contas",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -76965,7 +76965,7 @@
       "conceptId": "guarda-unico-servidor",
       "mechanism": "aplicar-ressalva-quando-guardiao-e-unico-servidor",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -76993,7 +76993,7 @@
       "conceptId": "caucao-devolucao-extraorcamentaria-exercicio-seguinte",
       "mechanism": "classificar-saida-de-deposito-apos-mudanca-de-exercicio",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -77049,7 +77049,7 @@
       "conceptId": "arrecadacao-acima-da-previsao-natureza-da-parcela",
       "mechanism": "classificar-parcela-acima-da-estimativa-sem-dividir-natureza-do-ingresso",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -77105,7 +77105,7 @@
       "conceptId": "imoveis-finalidades-distintas",
       "mechanism": "comparar-grupos-de-despesa-em-duas-aquisicoes-imobiliarias",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -77133,7 +77133,7 @@
       "conceptId": "compra-direta-ou-repasse",
       "mechanism": "identificar-mudanca-de-modalidade-mantendo-o-objeto",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
@@ -87091,6 +87091,222 @@
       "source": {
         "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
         "section": "Controle interno, controle externo e prestação de contas"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-autorizacao-na-lei-ato-abertura",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "autorizacao-na-lei-ato-abertura",
+      "mechanism": "autorizacao-na-lei-ato-abertura",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A lei orçamentária anual já autoriza reforçar dotações de certa categoria até um limite, ainda disponível. Com fonte demonstrada e observadas as condições daquela autorização, o Executivo pode abrir crédito suplementar por decreto sem encaminhar outro projeto de lei.",
+      "correctAnswer": "C",
+      "explanation": "O suplementar reforça dotação existente. A autorização legislativa prévia pode estar na própria lei orçamentária; o decreto abre o crédito no limite autorizado, com indicação de recursos. Se a despesa não tivesse dotação na lei, a autorização genérica de suplementação não bastaria para abrir crédito especial. Constituição Federal, arts. 165, § 8º, e 167, V, e Lei nº 4.320/1964, arts. 41 a 43.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 86,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Dispensa de autorização prévia e controle legislativo posterior"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Autorização × abertura"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p1 86: Dispensa de autorização prévia e controle legislativo posterior. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Autorização × abertura",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Autorização × abertura"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-urgencia-com-previsibilidade",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "urgencia-com-previsibilidade",
+      "mechanism": "urgencia-com-previsibilidade",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A União tem contrato de operação rotineira de rede pública próximo do vencimento, sem dotação suficiente para a substituição planejada. Como o intervalo até a interrupção é curto, a urgência autoriza crédito extraordinário, embora a chegada do vencimento fosse conhecida.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição exige, conjuntamente, urgência e imprevisibilidade da despesa. A proximidade de prazo conhecido caracteriza urgência de execução, mas não torna extraordinário um gasto previsível. Dotação existente insuficiente aponta para suplementação. Um desastre imprevisto com despesa urgente mudaria o enquadramento. Constituição Federal, art. 167, § 3º, e Lei nº 4.320/1964, art. 41.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 16,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Guerra, comoção e calamidade exemplificam despesas urgentes e imprevisíveis"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Urgência extraordinária × pressa administrativa"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 16: Guerra, comoção e calamidade exemplificam despesas urgentes e imprevisíveis. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Urgência extraordinária × pressa administrativa",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Urgência extraordinária × pressa administrativa"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-excesso-deducao-extraordinario",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "excesso-deducao-extraordinario",
+      "mechanism": "excesso-deducao-extraordinario",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O excesso de arrecadação estimado conforme a tendência do exercício é de R$ 14 milhões. Foram abertos créditos extraordinários de R$ 4 milhões no próprio exercício e não há outros comprometimentos da fonte. Para abrir crédito especial com base no excesso, o valor disponível é de R$ 10 milhões.",
+      "correctAnswer": "C",
+      "explanation": "Na apuração da fonte excesso de arrecadação, a lei manda deduzir os créditos extraordinários abertos no exercício. A diferença é R$ 14 milhões menos R$ 4 milhões, ou R$ 10 milhões. Um crédito extraordinário aberto apenas no exercício anterior não entraria naquela dedução pelo mesmo fundamento. Lei nº 4.320/1964, art. 43, §§ 3º e 4º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 20,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Superávit como fonte de crédito não equivale a fonte de emenda à lei anual"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Cálculo de recursos disponíveis: duas provas diferentes"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 20: Superávit como fonte de crédito não equivale a fonte de emenda à lei anual. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Cálculo de recursos disponíveis: duas provas diferentes",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Cálculo de recursos disponíveis: duas provas diferentes"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-metas-cronograma-frequencias",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "metas-cronograma-frequencias",
+      "mechanism": "metas-cronograma-frequencias",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Depois da publicação do orçamento, a programação prevê metas mensais de arrecadação e cronograma bimestral de desembolso como os dois intervalos mínimos previstos na Lei de Responsabilidade Fiscal.",
+      "correctAnswer": "E",
+      "explanation": "A lei manda estabelecer cronograma de execução mensal de desembolso e desdobrar as receitas previstas em metas bimestrais de arrecadação. Uma equipe pode usar projeções mais detalhadas, mas não trocar a periodicidade legal de cada instrumento. Trocar os dois intervalos no enunciado o deixaria compatível com a lei. Lei Complementar nº 101/2000, arts. 8º e 13.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 166,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Ter direito verificado não garante caixa disponível, sem afastar obrigações e prazos"
+      },
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Cronograma mensal de desembolso × metas bimestrais de arrecadação"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cd 166: Ter direito verificado não garante caixa disponível, sem afastar obrigações e prazos. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Cronograma mensal de desembolso × metas bimestrais de arrecadação",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Cronograma mensal de desembolso × metas bimestrais de arrecadação"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-contingenciamento-servico-da-divida",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "contingenciamento-servico-da-divida",
+      "mechanism": "contingenciamento-servico-da-divida",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O relatório bimestral indica receita insuficiente para cumprir a meta fiscal. Mesmo nesse cenário, o serviço da dívida fica protegido da limitação de empenho prevista na Lei de Responsabilidade Fiscal.",
+      "correctAnswer": "C",
+      "explanation": "A insuficiência aciona a limitação segundo os critérios da lei de diretrizes, com exceções. O serviço da dívida integra expressamente as despesas protegidas, como outras obrigações constitucionais e legais. Uma despesa discricionária sem ressalva legal ou da lei de diretrizes poderia ser limitada. Lei Complementar nº 101/2000, art. 9º, §§ 1º e 2º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 26,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Anexo de metas não se confunde com vedações e tetos legais"
+      },
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Despesas não sujeitas à limitação"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 26: Anexo de metas não se confunde com vedações e tetos legais. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Despesas não sujeitas à limitação",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Despesas não sujeitas à limitação"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-destaque-credito-sem-caixa",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-743d234d819842d1",
+      "conceptId": "destaque-credito-sem-caixa",
+      "mechanism": "destaque-credito-sem-caixa",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O ministério responsável por uma política descentraliza parte do crédito a uma unidade gestora de outro ministério. A unidade recebe autorização orçamentária para executar, e a movimentação financeira correspondente deve ser identificada em ato próprio.",
+      "correctAnswer": "C",
+      "explanation": "A descentralização externa de crédito entre ministérios é destaque. Ela desloca autorização para executar, enquanto a entrega de recurso financeiro é outra operação. A auditoria deve procurar os dois registros. Se a transferência de crédito ocorresse entre unidades da mesma estrutura, seria provisão. Manual Técnico de Orçamento 2026, programação orçamentária, e Decreto nº 93.872/1986, art. 20.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 31,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Movimentação entre ministérios atravessa estruturas distintas"
+      },
+      "theoryRefs": [
+        "article:art-743d234d819842d1#Provisão, destaque, cota, repasse e sub-repasse"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 31: Movimentação entre ministérios atravessa estruturas distintas. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Provisão, destaque, cota, repasse e sub-repasse",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira.md",
+        "section": "Provisão, destaque, cota, repasse e sub-repasse"
       },
       "reviewStatus": "validada"
     }

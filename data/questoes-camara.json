@@ -7605,6 +7605,534 @@
   ],
   "expansao": [
     {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",
+      "articleId": "art-c61cca38ed36e424",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      },
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      ],
+      "id": "cam-reteste-avocacao-coordenacao-sem-hierarquia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "avocacao",
+      "mechanism": "avocacao-coordenacao-sem-hierarquia",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Duas autarquias federais vinculadas ao mesmo ministério analisam pedidos em sistemas diferentes. Durante a migração de um dos sistemas, a direção da primeira autarquia justificou a urgência e determinou que, por quinze dias, passaria a decidir pedidos atribuídos à segunda. Não existe hierarquia entre as autarquias.\n\nCom base nessa situação, julgue o item a seguir.\n\nA limitação temporal e a motivação suficiente autorizam a avocação pela primeira autarquia.",
+      "correctAnswer": "E",
+      "explanation": "A avocação federal exige competência atribuída a órgão hierarquicamente inferior, além de excepcionalidade, temporariedade e motivos relevantes devidamente justificados. A vinculação ao mesmo ministério não estabelece hierarquia de uma autarquia sobre a outra.",
+      "reviewEvidence": "Lei nº 9.784/1999, art. 15. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",
+      "articleId": "art-c61cca38ed36e424",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      },
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      ],
+      "id": "cam-reteste-avocacao-pane-sem-transferencia-permanente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "avocacao",
+      "mechanism": "avocacao-pane-sem-transferencia-permanente",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "A queda do sistema de uma unidade regional impede o exame de pedidos urgentes sujeitos a prazo. A diretoria que lhe é hierarquicamente superior assume parte desses pedidos por dez dias. O ato é motivado com dados da indisponibilidade, e não há reserva legal exclusiva em favor da unidade regional.\n\nCom base nessa situação, julgue o item a seguir.\n\nSatisfeitas essas condições, a diretoria pode exercer temporariamente a competência por avocação.",
+      "correctAnswer": "C",
+      "explanation": "A urgência motivada, o prazo definido e a inferioridade hierárquica permitem a avocação excepcional. Se a diretoria integrasse um órgão sem hierarquia sobre a unidade regional, essa via não seria cabível.",
+      "reviewEvidence": "Lei nº 9.784/1999, art. 15. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 processo administrativo federal competencia delegacao e avocacao",
+      "articleId": "art-c61cca38ed36e424",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+      },
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+      ],
+      "id": "cam-reteste-delegacao-de-recurso-com-ato-publicado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "competencia-indelegavel",
+      "mechanism": "delegacao-de-recurso-com-ato-publicado",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Durante uma operação de fiscalização, a direção de uma autarquia delegou a um coordenador a instrução de processos e, em cláusula separada, a decisão dos recursos administrativos contra as sanções. O ato indicou o prazo e os limites da delegação e foi publicado oficialmente.\n\nCom base nessa situação, julgue o item a seguir.\n\nA publicação e a delimitação da delegação permitem ao coordenador decidir os recursos administrativos.",
+      "correctAnswer": "E",
+      "explanation": "A publicação é requisito formal de uma delegação admissível. Decidir recursos administrativos é matéria legalmente indelegável. A instrução pode ser atribuída separadamente a outro órgão, com a decisão mantida na autoridade competente.",
+      "reviewEvidence": "Lei nº 9.784/1999, arts. 13, II, e 14. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 processo administrativo federal competencia delegacao e avocacao",
+      "articleId": "art-c61cca38ed36e424",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+      },
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+      ],
+      "id": "cam-reteste-delegacao-sem-hierarquia-e-edicao-de-norma",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "competencia-indelegavel",
+      "mechanism": "delegacao-sem-hierarquia-e-edicao-de-norma",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma autoridade federal publica ato pelo qual atribui a um órgão sem subordinação hierárquica parte da análise de requerimentos individuais e a edição de normas gerais para todos os requerentes. A análise individual não está reservada com exclusividade, e não há outro impedimento legal.\n\nCom base nessa situação, julgue o item a seguir.\n\nA ausência de subordinação por si só não impede delegar a análise dos pedidos, mas a edição das normas gerais não pode ser delegada.",
+      "correctAnswer": "C",
+      "explanation": "É possível delegar parte da competência a órgão não subordinado, nos limites legais. A edição de atos normativos integra as vedações expressas. Se a segunda atribuição fosse apenas instruir processos individuais, a vedação por natureza normativa não incidiria.",
+      "reviewEvidence": "Lei nº 9.784/1999, arts. 12 e 13, I. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "articleId": "art-a7703dd0e3fc4618",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+        "section": "Vícios Sanáveis versus Vícios Insanáveis e Convalidação"
+      },
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#Vícios Sanáveis versus Vícios Insanáveis e Convalidação"
+      ],
+      "id": "cam-reteste-convalidacao-competencia-nao-exclusiva",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "convalidacao-vicio",
+      "mechanism": "convalidacao-competencia-nao-exclusiva",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Um órgão federal autorizou o uso de um auditório com assinatura de servidor que não detinha competência para decidir o pedido. O poder de decidir não era exclusivo, e os demais requisitos da autorização estavam presentes. A autoridade competente reexaminou o caso e registrou a inexistência de lesão ao interesse público ou prejuízo a terceiros.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autoridade competente pode convalidar a autorização, desde que o defeito de competência seja sanável.",
+      "correctAnswer": "C",
+      "explanation": "A lei admite convalidar defeito sanável quando não há lesão ao interesse público nem prejuízo a terceiros. A falta de competência não exclusiva pode ser saneada pela autoridade competente. Se a competência fosse exclusiva, a indicação de ausência de prejuízo não tornaria o vício sanável.",
+      "reviewEvidence": "Lei nº 9.784/1999, art. 55. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "articleId": "art-a7703dd0e3fc4618",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+        "section": "Vícios Sanáveis versus Vícios Insanáveis e Convalidação"
+      },
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#Vícios Sanáveis versus Vícios Insanáveis e Convalidação"
+      ],
+      "id": "cam-reteste-convalidacao-forma-com-prejuizo-a-terceiro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "convalidacao-vicio",
+      "mechanism": "convalidacao-forma-com-prejuizo-a-terceiro",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Em uma seleção federal para uso de um espaço público, a Administração identificou uma falha formal sanável. Antes de ratificar o resultado, confirmou que a falha impediu uma entidade habilitada de apresentar sua proposta e que a mera ratificação manteria esse prejuízo.\n\nCom base nessa situação, julgue o item a seguir.\n\nA natureza sanável da falha permite convalidar o resultado mesmo com a manutenção do prejuízo à entidade.",
+      "correctAnswer": "E",
+      "explanation": "O caráter sanável do vício é necessário, mas insuficiente. O art. 55 também exige ausência de lesão ao interesse público e de prejuízo a terceiros. Se não houvesse prejuízo nem lesão, a falha formal poderia ser avaliada para convalidação.",
+      "reviewEvidence": "Lei nº 9.784/1999, art. 55. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "articleId": "art-733c0e474219cd22",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3. Autoexecutoriedade"
+      },
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3. Autoexecutoriedade"
+      ],
+      "id": "cam-reteste-multa-debito-unilateral-em-conta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "autoexecutoriedade-e-multa",
+      "mechanism": "multa-debito-unilateral-em-conta",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma autarquia federal aplicou regularmente uma multa após processo administrativo. O prazo de pagamento voluntário venceu. Sem autorização legal para débito em conta e sem ordem judicial, a autarquia mandou o banco transferir o valor da conta do infrator para o erário.\n\nCom base nessa situação, julgue o item a seguir.\n\nA exigibilidade da multa autoriza a autarquia a obter o pagamento pelo débito unilateral descrito.",
+      "correctAnswer": "E",
+      "explanation": "A imposição e a exigência administrativa da multa não conferem poder geral para retirar dinheiro da conta do devedor. Para a cobrança forçada, cabe a via legal, como a execução fiscal quando preenchidos seus requisitos. Se o devedor pagasse espontaneamente, não haveria execução forçada.",
+      "reviewEvidence": "Lei nº 6.830/1980, arts. 1º e 2º. https://www.planalto.gov.br/ccivil_03/leis/l6830.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "articleId": "art-733c0e474219cd22",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3. Autoexecutoriedade"
+      },
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3. Autoexecutoriedade"
+      ],
+      "id": "cam-reteste-multa-e-medida-material-com-base-propria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "autoexecutoriedade-e-multa",
+      "mechanism": "multa-e-medida-material-com-base-propria",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma lei autoriza o órgão de fiscalização a interditar imediatamente um depósito com risco iminente aos usuários. A inspeção constata esse risco e o órgão interdita o local. Em processo separado, aplica multa. O responsável deixa vencer o prazo de pagamento, e a lei não prevê apropriação direta de valores.\n\nCom base nessa situação, julgue o item a seguir.\n\nA base legal para a interdição imediata não se estende, por si, à apreensão direta de dinheiro para quitar a multa.",
+      "correctAnswer": "C",
+      "explanation": "A interdição se apoia em autorização legal e no risco constatado. A multa tem finalidade e modo de execução próprios. A autorização para a medida material de segurança não permite usá-la como fundamento para a cobrança forçada do débito.",
+      "reviewEvidence": "Lei nº 6.830/1980, arts. 1º e 2º, quanto à via executiva. https://www.planalto.gov.br/ccivil_03/leis/l6830.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-b6f0d82c91a74e35",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md",
+        "section": "Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      },
+      "theoryRefs": [
+        "article:art-b6f0d82c91a74e35#Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      ],
+      "id": "cam-reteste-cpi-170-pedido-preciso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "criacao-cpi-direito-das-minorias",
+      "mechanism": "cpi-170-pedido-preciso",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Na Câmara dos Deputados, um requerimento reuniu 170 assinaturas para investigar pagamentos feitos em três contratos identificados. Estabeleceu noventa dias de funcionamento. A maioria dos presentes em sessão declarou apoio político, sem acrescentar assinaturas ao requerimento.\n\nCom base nessa situação, julgue o item a seguir.\n\nO apoio da maioria dos presentes na sessão supre a assinatura que falta para preencher o requisito constitucional de criação.",
+      "correctAnswer": "E",
+      "explanation": "Um terço dos 513 membros da Câmara corresponde a 171 requerentes. A precisão do fato e do prazo preenche outros requisitos, mas o apoio político em sessão não supre a subscrição faltante. Uma assinatura válida a mais atingiria o mínimo.",
+      "reviewEvidence": "Constituição Federal, art. 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-b6f0d82c91a74e35",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md",
+        "section": "Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      },
+      "theoryRefs": [
+        "article:art-b6f0d82c91a74e35#Comissão parlamentar de inquérito (CPI): fato determinado e prazo certo"
+      ],
+      "id": "cam-reteste-cpi-senado-prazo-vinculado-a-fato-futuro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "criacao-cpi-direito-das-minorias",
+      "mechanism": "cpi-senado-prazo-vinculado-a-fato-futuro",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Vinte e sete senadores requereram CPI para examinar uma obra federal identificada por contrato, período e órgão responsável. O requerimento dispõe que os trabalhos durarão até chegar uma auditoria externa ainda sem previsão de entrega, sem limite máximo.\n\nCom base nessa situação, julgue o item a seguir.\n\nO requerimento atende ao apoio mínimo e ao requisito de fato determinado, mas ainda não fixa prazo certo para os trabalhos.",
+      "correctAnswer": "C",
+      "explanation": "Vinte e sete dos 81 senadores correspondem a um terço, e o fato está delimitado. Um evento sem previsão e sem limite máximo não fixa prazo certo. Se o requerimento fixasse um prazo determinado, estaria preenchida também essa exigência.",
+      "reviewEvidence": "Constituição Federal, arts. 46, § 1º, e 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "articleId": "art-4c1041281ca44ee5",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Aprovação"
+      },
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Aprovação"
+      ],
+      "id": "cam-reteste-pec-guarda-quorum-entre-casas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "turnos-de-pec",
+      "mechanism": "pec-guarda-quorum-entre-casas",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "A Câmara aprovou uma PEC em dois turnos com 315 votos favoráveis em cada votação. No Senado, o texto recebeu 49 votos favoráveis no primeiro turno e 48 no segundo. Em ambas as Casas o texto votado foi o mesmo.\n\nCom base nessa situação, julgue o item a seguir.\n\nO excedente de votos obtido na Câmara permite considerar superado o quórum da segunda votação no Senado.",
+      "correctAnswer": "E",
+      "explanation": "Cada Casa deve alcançar três quintos de seus membros em ambos os turnos. No Senado são necessários 49 votos em cada turno. O excedente em outra votação ou em outra Casa não compensa o déficit. Um voto favorável adicional no segundo turno do Senado atingiria o limiar.",
+      "reviewEvidence": "Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "articleId": "art-4c1041281ca44ee5",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Aprovação"
+      },
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Aprovação"
+      ],
+      "id": "cam-reteste-pec-camara-total-contra-numero-presentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "turnos-de-pec",
+      "mechanism": "pec-camara-total-contra-numero-presentes",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "No primeiro turno de uma PEC na Câmara, compareceram 490 deputados. Houve 308 votos favoráveis, 170 contrários e 12 abstenções. O presidente da sessão precisa verificar se o texto superou o quórum dessa votação.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs votos favoráveis superaram três quintos dos presentes, mas o texto ainda ficou abaixo do quórum constitucional do primeiro turno.",
+      "correctAnswer": "E",
+      "explanation": "A base é o total de 513 membros da Câmara. Três quintos correspondem a 307,8, de modo que 308 votos já atingem o mínimo. As abstenções não alteram a base. O caso ficaria abaixo do quórum se houvesse apenas 307 votos favoráveis.",
+      "reviewEvidence": "Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "articleId": "art-4c1041281ca44ee5",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Lei ordinária × lei complementar"
+      },
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Lei ordinária × lei complementar"
+      ],
+      "id": "cam-reteste-plp-senado-com-40-a-favor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "lei-complementar-quorum",
+      "mechanism": "plp-senado-com-40-a-favor",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Em uma votação no Senado compareceram 75 dos 81 senadores. O projeto em votação exige lei complementar e recebeu 40 votos favoráveis, 30 contrários e cinco abstenções.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs 40 votos favoráveis não bastam, embora sejam mais do que a metade dos senadores presentes.",
+      "correctAnswer": "C",
+      "explanation": "A lei complementar exige maioria absoluta dos membros, que são 41 dos 81 senadores. Quarenta votos superam a metade dos 75 presentes, mas não atingem a maioria absoluta. Um voto favorável a mais faria diferença.",
+      "reviewEvidence": "Constituição Federal, art. 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "articleId": "art-4c1041281ca44ee5",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Lei ordinária × lei complementar"
+      },
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Lei ordinária × lei complementar"
+      ],
+      "id": "cam-reteste-plp-contraste-com-projeto-ordinario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "lei-complementar-quorum",
+      "mechanism": "plp-contraste-com-projeto-ordinario",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Na Câmara, 440 deputados compareceram a duas votações. O primeiro projeto veicula matéria validamente tratada por lei ordinária. O segundo versa sobre matéria reservada a lei complementar. Cada projeto recebeu 250 votos favoráveis e 190 contrários.\n\nCom base nessa situação, julgue o item a seguir.\n\nComo o número de deputados presentes era o mesmo e ambos os projetos obtiveram maioria dos votos, os dois alcançaram o quórum de aprovação.",
+      "correctAnswer": "E",
+      "explanation": "Com maioria absoluta de membros presentes, a regra geral do art. 47 permite aprovar o projeto ordinário por maioria dos votos. A lei complementar exige maioria absoluta dos membros, ou 257 votos na Câmara. Os 250 votos satisfazem apenas o primeiro regime.",
+      "reviewEvidence": "Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+      "articleId": "art-6bc728a14d0e49f3",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Sujeitos, instrumento e duas modalidades de controle"
+      },
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Sujeitos, instrumento e duas modalidades de controle"
+      ],
+      "id": "cam-reteste-lei-delegada-votacao-reservada-sem-emenda",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "lei-delegada-versus-medida-provisoria",
+      "mechanism": "lei-delegada-votacao-reservada-sem-emenda",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Ao conceder delegação ao presidente da República para tratar de matéria delegável, o Congresso delimitou o tema por resolução e reservou a si a apreciação do projeto. Na apreciação, parlamentares propuseram trocar parte do texto do projeto por uma disposição que ainda caberia nos limites da delegação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA delimitação material foi respeitada, mas a apreciação reservada ao Congresso não permite inserir a alteração proposta.",
+      "correctAnswer": "C",
+      "explanation": "Se a resolução reserva a apreciação ao Congresso, o art. 68, § 3º, manda votar uma única vez e veda emendas ao projeto. Estar dentro do tema delegado não elimina a restrição procedimental.",
+      "reviewEvidence": "Constituição Federal, art. 68, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+      "articleId": "art-6bc728a14d0e49f3",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Sujeitos, instrumento e duas modalidades de controle"
+      },
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Sujeitos, instrumento e duas modalidades de controle"
+      ],
+      "id": "cam-reteste-lei-delegada-escopo-sem-aditamento-informal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "lei-delegada-versus-medida-provisoria",
+      "mechanism": "lei-delegada-escopo-sem-aditamento-informal",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "O Congresso concedeu ao presidente da República delegação para disciplinar procedimentos de transparência em um programa federal. A equipe responsável resolveu incluir assunto distinto, não abrangido pela resolução e que também seria delegável. Para justificar a inclusão, invocou a urgência da nova disciplina.\n\nCom base nessa situação, julgue o item a seguir.\n\nA urgência autoriza incluir o novo assunto na lei delegada ainda que ele esteja fora dos termos fixados na resolução.",
+      "correctAnswer": "E",
+      "explanation": "A resolução define o conteúdo e os termos da delegação. A urgência não amplia esse conteúdo. Relevância e urgência são pressupostos da medida provisória em seu regime próprio. Para incluir matéria delegável fora do objeto autorizado, seria necessária delegação que abrangesse a matéria.",
+      "reviewEvidence": "Constituição Federal, arts. 62 e 68, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
       "origin": "inedita",
       "format": "CE",
       "examPart": "P2",

@@ -283,25 +283,21 @@ Doze questões autorais, seis por concurso. Cobertura do primeiro lote: rito leg
 | ID | Referência | Artigo | Nível | Gabarito |
 | --- | --- | --- | --- | --- |
 | ca-orc-cal-mensagem-parte-autonoma | stj 88 | art-d8f21b70c49e563a | dificil | C |
-| ca-orc-cal-fonte-reserva-versus-superavit | mpo 20 | art-d8f21b70c49e563a | dificil | E |
+| ca-orc-cal-fonte-reserva-versus-superavit | mpo 20 | art-d8f21b70c49e563a | media | E |
 | ca-orc-cal-reabertura-saldo-duas-especies | mpo 30 | art-87b69e1d4ac54f20 | dificil | E |
 | ca-orc-cal-despesa-irregular-primeiro-ato | mpo 40 | art-c917e4a2d63b508f | media | C |
-| ca-orc-cal-lei-anual-autorizacao-fundo | p1 73 | art-a2f47c0d6e184e93 | dificil | E |
+| ca-orc-cal-lei-anual-autorizacao-fundo | p1 73 | art-a2f47c0d6e184e93 | facil | E |
 | ca-orc-cal-impedimento-emenda-com-projeto | mpo 36 | art-715e2d16a93446cb | media | C |
 | cg-orc-cal-superavit-sem-duplicacao | mpo 20 | art-83d7c5ef2a0b4916 | dificil | E |
 | cg-orc-cal-suplementar-final-exercicio | cge 105 | art-83d7c5ef2a0b4916 | media | C |
-| cg-orc-cal-liquidacao-sem-caixa | cd 166 | art-6f2c1ae9d483457b | dificil | C |
+| cg-orc-cal-liquidacao-sem-caixa | cd 166 | art-6f2c1ae9d483457b | media | C |
 | cg-orc-cal-teto-sem-frustracao-receita | mpo 26 | art-6f2c1ae9d483457b | dificil | E |
-| cg-orc-cal-passivo-sem-empenho-vigente | cd 170 | art-c85e29a3741f40bd | dificil | C |
+| cg-orc-cal-passivo-sem-empenho-vigente | cd 170 | art-c85e29a3741f40bd | media | C |
 | cg-orc-cal-receita-dois-regimes-taxa | cge 103 | art-b3e5d91a740c46f8 | media | E |
 
 ## Continuidade
 
-Meta indicativa de 120 autorais. Restam 108 após este lote. Priorizar em seguida classificação e estágios da receita e da despesa, com um caso compartilhado, e depois planejamento e princípios, regra de ouro, ciclo do gasto, resultados fiscais, renúncia, despesa continuada e controle. A revisão dos 103 itens públicos originais da Câmara está registrada abaixo. Concluir a revisão substantiva do piloto e dos exercícios nas notas para fechar o inventário editorial. Próximo lote de 10 a 20 itens, com padrão de vínculo por concurso e preflight por SHA.
-
-### Prompt de continuidade
-
-No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 108 IDs dos nove primeiros lotes e os históricos. Siga da contagem de 108/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 10, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre competências, prazos, controles e exceções ainda pouco explorados. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build preserva a calibração e a identificação de casos compartilhados nos dois bancos públicos. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
+Meta indicativa de 120 autorais. Restam 108 após este lote. Priorizar em seguida classificação e estágios da receita e da despesa, com um caso compartilhado, e depois planejamento e princípios, regra de ouro, ciclo do gasto, resultados fiscais, renúncia, despesa continuada e controle. A revisão dos 103 itens públicos originais da Câmara está registrada abaixo. A leitura do piloto e o inventário de exercícios dos artigos estão registrados abaixo. Próximo lote de 10 a 20 itens, com padrão de vínculo por concurso e preflight por SHA.
 
 ## Lote 2 — classificação, estágios e caso da ponte
 
@@ -314,14 +310,14 @@ Mais 12 autorais, seis por concurso. Total acumulado de 24, com 96 restantes da 
 | ca-orc-cal-ponte-dois-financiamentos | p3 106 | art-4677cfa327ce43bb | dificil | C |
 | ca-orc-cal-ponte-liquidacao-parcial | cd 163 | art-67167e9c18284c4c | media | E |
 | ca-orc-cal-ponte-inscricao-dividida | p1 90 | art-6e4e79c7f4bb4aa3 | dificil | C |
-| ca-orc-cal-venda-veiculo-fonte | mpo 29 | art-f13b65a28d8c4e91 | dificil | E |
-| ca-orc-cal-investimento-auxilio-municipio | mpo 15 | art-28b3d9ef86aa4510 | dificil | C |
+| ca-orc-cal-venda-veiculo-fonte | mpo 29 | art-f13b65a28d8c4e91 | media | E |
+| ca-orc-cal-investimento-auxilio-municipio | mpo 15 | art-28b3d9ef86aa4510 | media | C |
 | ca-orc-cal-funcional-programa-proprio | p1 78 | art-28b3d9ef86aa4510 | media | E |
-| cg-orc-cal-caucao-recurso-proprio | p1 87 | art-e4c982a6713d4bf5 | dificil | E |
-| cg-orc-cal-principal-divida-juros | p1 89 | art-e4c982a6713d4bf5 | dificil | C |
-| cg-orc-cal-historico-numero-funcional | mpo 25 | art-3f9d17a6c04b4e82 | dificil | E |
-| cg-orc-cal-excesso-nota-conferencia | mpo 34 | art-79e2c6a4f80143bd | dificil | C |
-| cg-orc-cal-recolhimento-calendario-bancario | mpo 32 | art-b3e5d91a740c46f8 | dificil | C |
+| cg-orc-cal-caucao-recurso-proprio | p1 87 | art-e4c982a6713d4bf5 | facil | E |
+| cg-orc-cal-principal-divida-juros | p1 89 | art-e4c982a6713d4bf5 | media | C |
+| cg-orc-cal-historico-numero-funcional | mpo 25 | art-3f9d17a6c04b4e82 | facil | E |
+| cg-orc-cal-excesso-nota-conferencia | mpo 34 | art-79e2c6a4f80143bd | media | C |
+| cg-orc-cal-recolhimento-calendario-bancario | mpo 32 | art-b3e5d91a740c46f8 | media | C |
 | cg-orc-cal-alienacao-e-operacao-financeira | p1 89 | art-e6b481a230fc795d | dificil | E |
 
 ## Lote 3 — planejamento, esferas, princípios e exceções
@@ -333,15 +329,15 @@ Doze autorais, seis por concurso. Total acumulado de 36 e saldo indicativo de 84
 | ID | Referência | Artigo | Nível | Gabarito |
 | --- | --- | --- | --- | --- |
 | ca-orc-cal-investimento-dezembro-janeiro | p1 75 | art-c301f2c741504403 | dificil | E |
-| ca-orc-cal-passivo-contingente-como-meta | mpo 17 | art-c301f2c741504403 | dificil | E |
-| ca-orc-cal-receita-despesa-pelo-liquido | p3 100 | art-a2f47c0d6e184e93 | dificil | E |
+| ca-orc-cal-passivo-contingente-como-meta | mpo 17 | art-c301f2c741504403 | media | E |
+| ca-orc-cal-receita-despesa-pelo-liquido | p3 100 | art-a2f47c0d6e184e93 | facil | E |
 | ca-orc-cal-regra-ouro-maioria-absoluta | p1 86 | art-a2f47c0d6e184e93 | dificil | C |
 | ca-orc-cal-cti-funcao-de-destino | mpo 24 | art-a2f47c0d6e184e93 | dificil | E |
-| ca-orc-cal-seguridade-unidade-juridica | stj 89 | art-74d90e9fa1b3452c | dificil | C |
-| cg-orc-cal-plano-investimento-sem-dotacao | p1 75 | art-9dc8a6e2f31b47c0 | dificil | E |
+| ca-orc-cal-seguridade-unidade-juridica | stj 89 | art-74d90e9fa1b3452c | facil | C |
+| cg-orc-cal-plano-investimento-sem-dotacao | p1 75 | art-9dc8a6e2f31b47c0 | media | E |
 | cg-orc-cal-prazo-meta-governo-central | mpo 21 | art-9dc8a6e2f31b47c0 | media | C |
 | cg-orc-cal-aporte-capital-versus-custeio-estatal | p3 107 | art-c84d6e02f3b7a915 | dificil | C |
-| cg-orc-cal-vinculacao-taxa-imposto | p3 101 | art-b419ac8206de7f35 | dificil | E |
+| cg-orc-cal-vinculacao-taxa-imposto | p3 101 | art-b419ac8206de7f35 | media | E |
 | cg-orc-cal-dotacao-global-programa-auditoria | p3 100 | art-b419ac8206de7f35 | dificil | C |
 | cg-orc-cal-regra-ouro-credito-extraordinario | p1 86 | art-b419ac8206de7f35 | dificil | E |
 
@@ -354,15 +350,15 @@ Doze autorais, seis por concurso. Total acumulado de 48 e saldo indicativo de 72
 | ID | Referência | Artigo | Nível | Gabarito |
 | --- | --- | --- | --- | --- |
 | cg-orc-cal-renuncia-receita-apurada-sem-meta | p3 110 | art-d218c459af1e4b73 | dificil | E |
-| cg-orc-cal-despesa-compensada-reducao-permanente | mpo 38 | art-d218c459af1e4b73 | dificil | C |
+| cg-orc-cal-despesa-compensada-reducao-permanente | mpo 38 | art-d218c459af1e4b73 | media | C |
 | cg-orc-cal-fim-mandato-caixa-liquido | cd 166 | art-d218c459af1e4b73 | dificil | C |
-| cg-orc-cal-divida-fundada-flutuante-vencimentos | cge 109 | art-d218c459af1e4b73 | dificil | E |
+| cg-orc-cal-divida-fundada-flutuante-vencimentos | cge 109 | art-d218c459af1e4b73 | media | E |
 | cg-orc-cal-prudencial-sem-extrapolar-maximo | mpo 26 | art-d218c459af1e4b73 | media | C |
-| cg-orc-cal-recuperacao-receita-parcial | mpo 26 | art-d218c459af1e4b73 | dificil | E |
+| cg-orc-cal-recuperacao-receita-parcial | mpo 26 | art-d218c459af1e4b73 | media | E |
 | ca-orc-cal-beneficio-pj-indicador-ausente | p3 110 | art-91ab320cdfb64b8a | dificil | E |
-| ca-orc-cal-ampliacao-bienio-exato | mpo 38 | art-91ab320cdfb64b8a | media | E |
+| ca-orc-cal-ampliacao-bienio-exato | mpo 38 | art-91ab320cdfb64b8a | facil | E |
 | ca-orc-cal-reconducao-fracao-excesso | mpo 26 | art-91ab320cdfb64b8a | dificil | C |
-| ca-orc-cal-contas-presidente-versus-gestor | p3 108 | art-91ab320cdfb64b8a | dificil | C |
+| ca-orc-cal-contas-presidente-versus-gestor | p3 108 | art-91ab320cdfb64b8a | media | C |
 | ca-orc-cal-consulta-tecnica-e-sustacao-final | mpo 40 | art-91ab320cdfb64b8a | dificil | E |
 | ca-orc-cal-representacao-tcu-dever-interno | cge 115 | art-91ab320cdfb64b8a | dificil | C |
 
@@ -374,18 +370,18 @@ Doze autorais, seis por concurso. Total acumulado de 60 e saldo indicativo de 60
 
 | ID | Referência | Artigo | Nível | Gabarito |
 | --- | --- | --- | --- | --- |
-| ca-orc-cal-autorizacao-na-lei-ato-abertura | p1 86 | art-87b69e1d4ac54f20 | dificil | C |
-| ca-orc-cal-urgencia-com-previsibilidade | mpo 16 | art-87b69e1d4ac54f20 | dificil | E |
+| ca-orc-cal-autorizacao-na-lei-ato-abertura | p1 86 | art-87b69e1d4ac54f20 | media | C |
+| ca-orc-cal-urgencia-com-previsibilidade | mpo 16 | art-87b69e1d4ac54f20 | media | E |
 | ca-orc-cal-excesso-deducao-extraordinario | mpo 20 | art-87b69e1d4ac54f20 | dificil | C |
-| ca-orc-cal-metas-cronograma-frequencias | cd 166 | art-0fb9b88e4d6c4151 | dificil | E |
-| ca-orc-cal-contingenciamento-servico-da-divida | mpo 26 | art-0fb9b88e4d6c4151 | dificil | C |
-| ca-orc-cal-destaque-credito-sem-caixa | mpo 31 | art-743d234d819842d1 | dificil | C |
+| ca-orc-cal-metas-cronograma-frequencias | cd 166 | art-0fb9b88e4d6c4151 | media | E |
+| ca-orc-cal-contingenciamento-servico-da-divida | mpo 26 | art-0fb9b88e4d6c4151 | media | C |
+| ca-orc-cal-destaque-credito-sem-caixa | mpo 31 | art-743d234d819842d1 | media | C |
 | cg-orc-cal-saldo-reaberto-e-superavit | mpo 30 | art-83d7c5ef2a0b4916 | dificil | C |
-| cg-orc-cal-credito-inexistente-fonte-anulacao | cge 106 | art-83d7c5ef2a0b4916 | dificil | E |
+| cg-orc-cal-credito-inexistente-fonte-anulacao | cge 106 | art-83d7c5ef2a0b4916 | media | E |
 | cg-orc-cal-bloqueio-e-contingenciamento-concorrentes | mpo 26 | art-6f2c1ae9d483457b | dificil | C |
-| cg-orc-cal-programacao-despesa-previsao-mensal | cd 166 | art-6f2c1ae9d483457b | dificil | E |
+| cg-orc-cal-programacao-despesa-previsao-mensal | cd 166 | art-6f2c1ae9d483457b | media | E |
 | cg-orc-cal-provisao-e-sub-repasse-evidencias | mpo 31 | art-7a4f21e965d048b3 | dificil | E |
-| cg-orc-cal-limite-empenho-sem-cancelar-dotacao | mpo 26 | art-6f2c1ae9d483457b | dificil | C |
+| cg-orc-cal-limite-empenho-sem-cancelar-dotacao | mpo 26 | art-6f2c1ae9d483457b | media | C |
 
 ### Revisão de dificuldade da expansão original da Câmara
 
@@ -507,16 +503,16 @@ Doze autorais, seis por concurso. Total acumulado de 72 e saldo indicativo de 48
 | --- | --- | --- | --- | --- |
 | ca-orc-cal-verificacao-entrega-parcela | p3 102 | art-6e4e79c7f4bb4aa3 | dificil | C |
 | ca-orc-cal-plurienal-ja-liquidado | cd 173 | art-6e4e79c7f4bb4aa3 | dificil | E |
-| ca-orc-cal-credito-proprio-sem-processamento | cd 172 | art-6e4e79c7f4bb4aa3 | dificil | C |
+| ca-orc-cal-credito-proprio-sem-processamento | cd 172 | art-6e4e79c7f4bb4aa3 | media | C |
 | ca-orc-cal-caixa-vinculado-credor-distinto | cd 166 | art-6e4e79c7f4bb4aa3 | dificil | E |
 | ca-orc-cal-sigilo-e-adiantamento | cd 175 | art-6e4e79c7f4bb4aa3 | media | C |
-| ca-orc-cal-cancelamento-debito-nao-liquido | cd 170 | art-6e4e79c7f4bb4aa3 | dificil | E |
+| ca-orc-cal-cancelamento-debito-nao-liquido | cd 170 | art-6e4e79c7f4bb4aa3 | media | E |
 | cg-orc-cal-luz-competencia-resto-saldos | cge 104 | art-c85e29a3741f40bd | dificil | C |
-| cg-orc-cal-dupla-inscricao-empenho-janeiro | cd 170 | art-c85e29a3741f40bd | dificil | E |
+| cg-orc-cal-dupla-inscricao-empenho-janeiro | cd 170 | art-c85e29a3741f40bd | media | E |
 | cg-orc-cal-retorno-valor-receita-ou-registro | cd 172 | art-c85e29a3741f40bd | dificil | C |
-| cg-orc-cal-contas-atrasadas-um-suprimento | p1 83 | art-c85e29a3741f40bd | dificil | E |
-| cg-orc-cal-fechamento-empenho-liquidacao-pago | cge 110 | art-c85e29a3741f40bd | dificil | C |
-| cg-orc-cal-dea-reconhecimento-autoridade | p3 99 | art-c85e29a3741f40bd | dificil | E |
+| cg-orc-cal-contas-atrasadas-um-suprimento | p1 83 | art-c85e29a3741f40bd | media | E |
+| cg-orc-cal-fechamento-empenho-liquidacao-pago | cge 110 | art-c85e29a3741f40bd | media | C |
+| cg-orc-cal-dea-reconhecimento-autoridade | p3 99 | art-c85e29a3741f40bd | media | E |
 
 ### Leitura do piloto e da base de execução da CGU
 
@@ -530,18 +526,18 @@ Doze autorais, seis por concurso. Total acumulado de 84 e saldo indicativo de 36
 
 | ID | Referência | Artigo | Nível | Gabarito |
 | --- | --- | --- | --- | --- |
-| ca-orc-cal-ldo-emenda-incompativel | mpo 21 | art-d8f21b70c49e563a | dificil | E |
-| ca-orc-cal-emenda-saude-servico-divida | p1 74 | art-d8f21b70c49e563a | dificil | E |
+| ca-orc-cal-ldo-emenda-incompativel | mpo 21 | art-d8f21b70c49e563a | media | E |
+| ca-orc-cal-emenda-saude-servico-divida | p1 74 | art-d8f21b70c49e563a | media | E |
 | ca-orc-cal-comite-estimativa-conjunta | p3 108 | art-c917e4a2d63b508f | dificil | C |
 | ca-orc-cal-comite-orienta-antes-prazo | mpo 40 | art-c917e4a2d63b508f | media | C |
 | ca-orc-cal-transferencia-capital-e-divida | mpo 36 | art-715e2d16a93446cb | dificil | E |
-| ca-orc-cal-indicacao-camara-ata-e-prazo | mpo 37 | art-9d42c1f68a7be053 | dificil | C |
-| cg-orc-cal-repasse-identificador-contrato | cge 101 | art-a91ef3c628d04b57 | dificil | E |
-| cg-orc-cal-metas-transferencia-execucao | cge 115 | art-a91ef3c628d04b57 | dificil | C |
-| cg-orc-cal-fundo-especial-convenio-vedacoes | mpo 36 | art-a91ef3c628d04b57 | dificil | C |
-| cg-orc-cal-emenda-autoriza-alteracao-execucao | mpo 20 | art-a91ef3c628d04b57 | dificil | E |
-| cg-orc-cal-impedimento-sem-prova-no-processo | mpo 36 | art-a91ef3c628d04b57 | dificil | C |
-| cg-orc-cal-trilha-pagou-fornecedor-e-objeto | cge 114 | art-a91ef3c628d04b57 | dificil | E |
+| ca-orc-cal-indicacao-camara-ata-e-prazo | mpo 37 | art-9d42c1f68a7be053 | media | C |
+| cg-orc-cal-repasse-identificador-contrato | cge 101 | art-a91ef3c628d04b57 | media | E |
+| cg-orc-cal-metas-transferencia-execucao | cge 115 | art-a91ef3c628d04b57 | facil | C |
+| cg-orc-cal-fundo-especial-convenio-vedacoes | mpo 36 | art-a91ef3c628d04b57 | media | C |
+| cg-orc-cal-emenda-autoriza-alteracao-execucao | mpo 20 | art-a91ef3c628d04b57 | media | E |
+| cg-orc-cal-impedimento-sem-prova-no-processo | mpo 36 | art-a91ef3c628d04b57 | media | C |
+| cg-orc-cal-trilha-pagou-fornecedor-e-objeto | cge 114 | art-a91ef3c628d04b57 | facil | E |
 
 ## Lote 8 — fiscalização, relatórios e resultados fiscais
 
@@ -551,34 +547,106 @@ Doze autorais, seis por concurso. Total acumulado de 96 e saldo indicativo de 24
 
 | ID | Referência | Artigo | Nível | Gabarito |
 | --- | --- | --- | --- | --- |
-| ca-orc-cal-economicidade-sem-ilegalidade-formal | cge 114 | art-91ab320cdfb64b8a | dificil | C |
+| ca-orc-cal-economicidade-sem-ilegalidade-formal | cge 114 | art-91ab320cdfb64b8a | facil | C |
 | ca-orc-cal-sustacao-contrato-passo-imediato | cge 116 | art-91ab320cdfb64b8a | dificil | E |
-| ca-orc-cal-multa-tcu-titulo-judicial | cge 116 | art-91ab320cdfb64b8a | dificil | C |
+| ca-orc-cal-multa-tcu-titulo-judicial | cge 116 | art-91ab320cdfb64b8a | media | C |
 | ca-orc-cal-relatorio-abril-prazo-bimestre | mpo 26 | art-91ab320cdfb64b8a | media | E |
-| ca-orc-cal-controle-quadrimestre-pessoal | mpo 26 | art-91ab320cdfb64b8a | dificil | C |
-| ca-orc-cal-interna-avaliacao-metas-patrimonio | cge 115 | art-91ab320cdfb64b8a | dificil | E |
-| cg-orc-cal-relatorio-executivo-consolidado | mpo 26 | art-d218c459af1e4b73 | dificil | C |
+| ca-orc-cal-controle-quadrimestre-pessoal | mpo 26 | art-91ab320cdfb64b8a | media | C |
+| ca-orc-cal-interna-avaliacao-metas-patrimonio | cge 115 | art-91ab320cdfb64b8a | facil | E |
+| cg-orc-cal-relatorio-executivo-consolidado | mpo 26 | art-d218c459af1e4b73 | media | C |
 | cg-orc-cal-primario-orcamentario-base-distinta | cge 111 | art-d218c459af1e4b73 | dificil | E |
 | cg-orc-cal-nominal-juros-sinal-resultado | mpo 26 | art-d218c459af1e4b73 | dificil | C |
 | cg-orc-cal-rcl-periodo-movel-agosto | mpo 26 | art-d218c459af1e4b73 | media | E |
-| cg-orc-cal-limite-com-vies-de-perimetro | cge 114 | art-d218c459af1e4b73 | dificil | E |
-| cg-orc-cal-risco-garantia-obrigacao-vencida | mpo 17 | art-d218c459af1e4b73 | dificil | C |
+| cg-orc-cal-limite-com-vies-de-perimetro | cge 114 | art-d218c459af1e4b73 | media | E |
+| cg-orc-cal-risco-garantia-obrigacao-vencida | mpo 17 | art-d218c459af1e4b73 | media | C |
 
 ## Lote 9 — casos integrados e execução
+
+SHA integrado: `7aeba4a5417b17eaa18fd1661cb3d248a15c03b0`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45683812975) · [Workflow de publicação](https://github.com/leorruas/concursos/actions/runs/45683908638).
 
 Doze autorais, seis por concurso. Total acumulado de 108 e saldo indicativo de 12. O caso do auditório associa emendas, veto e investimento plurianual. O caso da oficina separa arrecadação, liquidação e inscrição de restos a pagar. A projeção e o teste de interface verificam os casos completos nos dois concursos. Próximo lote: completar o recorte com competências e exceções de baixa cobertura.
 
 | ID | Referência | Artigo | Nível | Gabarito |
 | --- | --- | --- | --- | --- |
-| cg-orc-cal-oficina-arrecadacao-dezembro | cge 103 | art-b3e5d91a740c46f8 | dificil | C |
-| cg-orc-cal-oficina-quantidade-atestada | cd 163 | art-79e2c6a4f80143bd | dificil | E |
+| cg-orc-cal-oficina-arrecadacao-dezembro | cge 103 | art-b3e5d91a740c46f8 | media | C |
+| cg-orc-cal-oficina-quantidade-atestada | cd 163 | art-79e2c6a4f80143bd | media | E |
 | cg-orc-cal-oficina-restos-duas-parcelas | cd 173 | art-c85e29a3741f40bd | dificil | C |
-| cg-orc-cal-centralizacao-vinculo-ano-seguinte | cd 166 | art-7a4f21e965d048b3 | dificil | E |
-| cg-orc-cal-empenho-global-parcelas-mesmo-ano | mpo 33 | art-79e2c6a4f80143bd | dificil | C |
+| cg-orc-cal-centralizacao-vinculo-ano-seguinte | cd 166 | art-7a4f21e965d048b3 | media | E |
+| cg-orc-cal-empenho-global-parcelas-mesmo-ano | mpo 33 | art-79e2c6a4f80143bd | media | C |
 | cg-orc-cal-aro-ultimos-dias | p3 106 | art-e4c982a6713d4bf5 | dificil | E |
-| ca-orc-cal-auditorio-veto-fonte-protegida | p1 74 | art-d8f21b70c49e563a | dificil | E |
+| ca-orc-cal-auditorio-veto-fonte-protegida | p1 74 | art-d8f21b70c49e563a | media | E |
 | ca-orc-cal-auditorio-veto-credito-legislativo | mpo 20 | art-87b69e1d4ac54f20 | dificil | C |
-| ca-orc-cal-auditorio-lei-inclusao-plano | p1 75 | art-c301f2c741504403 | dificil | C |
+| ca-orc-cal-auditorio-lei-inclusao-plano | p1 75 | art-c301f2c741504403 | media | C |
 | ca-orc-cal-sessao-recesso-projeto-sancao | p1 69 | art-d8f21b70c49e563a | dificil | C |
-| ca-orc-cal-siafi-confirmacao-material | cd 167 | art-743d234d819842d1 | dificil | E |
-| ca-orc-cal-amortizacao-e-encargos-categorias | mpo 35 | art-28b3d9ef86aa4510 | dificil | E |
+| ca-orc-cal-siafi-confirmacao-material | cd 167 | art-743d234d819842d1 | media | E |
+| ca-orc-cal-amortizacao-e-encargos-categorias | mpo 35 | art-28b3d9ef86aa4510 | media | E |
+
+## Lote 10 — competências, exceções e fechamento da meta
+
+Doze autorais, seis por concurso. Total acumulado de 120, sendo 60 para a Câmara e 60 para a CGU. O lote fecha o recorte com prazos da proposta, limites da autonomia orçamentária, fiscalização de obras, créditos extraordinários, repartição tributária, dívida consolidada, classificação institucional e controle da execução. O próximo ciclo deve usar evidência de resolução e fontes oficiais novas para apontar lacunas, preservando os enunciados e IDs existentes.
+
+| ID | Referência | Artigo | Nível | Gabarito |
+| --- | --- | --- | --- | --- |
+| ca-orc-cal-judiciario-proposta-fora-limite | p1 69 | art-4be219d8f750ac63 | dificil | C |
+| ca-orc-cal-prazo-ldo-periodo-sessao | stj 88 | art-c301f2c741504403 | media | E |
+| ca-orc-cal-saude-individual-minimo | mpo 36 | art-715e2d16a93446cb | dificil | E |
+| ca-orc-cal-obra-fiscalizacao-relatorio-coi | cge 114 | art-c917e4a2d63b508f | dificil | C |
+| ca-orc-cal-extraordinario-dois-planos-controle | p1 86 | art-87b69e1d4ac54f20 | media | C |
+| ca-orc-cal-reparticao-vinculacao-impostos | p3 101 | art-a2f47c0d6e184e93 | media | C |
+| cg-orc-cal-prazo-curto-divida-consolidada | p3 109 | art-d218c459af1e4b73 | dificil | C |
+| cg-orc-cal-execucao-superior-meta-fisica | cge 115 | art-a07c26f4e92031ab | facil | C |
+| cg-orc-cal-investimento-estatal-folha-propria | stj 89 | art-c84d6e02f3b7a915 | media | E |
+| cg-orc-cal-funcao-e-orgao-nao-herdam | mpo 25 | art-3f9d17a6c04b4e82 | facil | E |
+| cg-orc-cal-receita-sem-previsao-e-compensatoria | mpo 29 | art-e4c982a6713d4bf5 | facil | C |
+| cg-orc-cal-ato-credito-especie-e-valor | p1 81 | art-83d7c5ef2a0b4916 | media | E |
+
+## Inventário dos exercícios embutidos nos artigos
+
+O inventário registra os gabaritos textuais de Certo ou Errado identificáveis na pasta canônica, incluindo testes rápidos e exemplos comentados. A busca localizou 93 ocorrências na Câmara e 157 na CGU. Esses exercícios ficam na leitura do artigo e não ampliam a contagem do seletor de questões. O nível editorial da coleção é de aprendizagem dirigida, com destaques de aplicação nos casos progressivos. A Câmara concentra variações sobre créditos e emendas, enquanto a CGU oferece núcleos didáticos em execução e auditoria. Os marcadores de linha se referem ao arquivo nesta revisão; a associação está ancorada pelo ID do artigo.
+
+| Trilha | Artigo | Nota | Total | C | E | Linhas do gabarito |
+| --- | --- | --- | --- | --- | --- | --- |
+| Câmara | art-f6cfe9fbcc764554 | 01 - orcamento publico e ciclo orcamentario | 5 | 1 | 4 | 115, 182, 184, 186, 188 |
+| Câmara | art-c301f2c741504403 | 02 - ppa ldo e loa | 6 | 1 | 5 | 71, 107, 184, 209, 253, 255 |
+| Câmara | art-74d90e9fa1b3452c | 02a - esferas da loa e estatais dependentes | 3 | 1 | 2 | 98, 102, 106 |
+| Câmara | art-a2f47c0d6e184e93 | 03 - principios orcamentarios e vedacoes constitucionais | 6 | 2 | 4 | 197, 199, 223, 225, 227 |
+| Câmara | art-f13b65a28d8c4e91 | 04a - classificacao da receita | 2 | 0 | 2 | 179, 181 |
+| Câmara | art-28b3d9ef86aa4510 | 04b - classificacao da despesa | 2 | 1 | 1 | 219, 221 |
+| Câmara | art-87b69e1d4ac54f20 | 05 - creditos adicionais e emendas parlamentares | 4 | 1 | 3 | 99, 169, 189, 191 |
+| Câmara | art-715e2d16a93446cb | 05a - emendas parlamentares e orcamento impositivo | 5 | 1 | 4 | 86, 104, 116, 118, 138 |
+| Câmara | art-0fb9b88e4d6c4151 | 06 - programacao orcamentaria e contingenciamento | 9 | 3 | 6 | 85, 128, 175, 179, 183, 187, 213, 215, 217 |
+| Câmara | art-4677cfa327ce43bb | 07 - receitas publicas e estagios | 5 | 1 | 4 | 153, 169, 171, 173, 175 |
+| Câmara | art-67167e9c18284c4c | 08 - despesas publicas e estagios | 5 | 3 | 2 | 149, 151, 153, 155, 157 |
+| Câmara | art-6e4e79c7f4bb4aa3 | 09 - restos a pagar dea e suprimento de fundos | 8 | 2 | 6 | 65, 101, 193, 197, 201, 223, 225, 227 |
+| Câmara | art-743d234d819842d1 | 10 - conta unica e execucao financeira | 5 | 3 | 2 | 199, 203, 227, 229, 231 |
+| Câmara | art-91ab320cdfb64b8a | 11 - responsabilidade fiscal e controle orcamentario | 8 | 4 | 4 | 142, 297, 301, 305, 309, 337, 339, 341 |
+| Câmara | art-4be219d8f750ac63 | 12 - elaboracao da proposta orcamentaria orgaos e etapas | 4 | 2 | 2 | 91, 119, 123, 127 |
+| Câmara | art-d8f21b70c49e563a | 13 - tramitacao legislativa das leis orcamentarias | 3 | 2 | 1 | 157, 161, 165 |
+| Câmara | art-c917e4a2d63b508f | 14 - comissao mista de orcamento composicao comites e competencias | 3 | 2 | 1 | 136, 140, 144 |
+| Câmara | art-9d42c1f68a7be053 | 15 - emendas parlamentares deliberacao e rastreabilidade | 10 | 2 | 8 | 101, 129, 133, 137, 141, 145, 149, 153, 157, 165 |
+| CGU | art-a07c26f4e92031ab | CGU 2026 - ciclo orcamentario e evidencias de auditoria | 8 | 4 | 4 | 86, 88, 90, 92, 94, 96, 98, 100 |
+| CGU | art-3f9d17a6c04b4e82 | CGU 2026 - classificacao da despesa e rastreamento | 10 | 5 | 5 | 129, 133, 137, 141, 145, 149, 153, 157, 161, 165 |
+| CGU | art-e6b481a230fc795d | CGU 2026 - classificacoes de receitas e despesas | 14 | 7 | 7 | 148, 150, 152, 154, 156, 158, 160, 162, 164, 166, 168, 170, 172, 174 |
+| CGU | art-7a4f21e965d048b3 | CGU 2026 - conta unica e execucao financeira | 10 | 5 | 5 | 87, 91, 95, 99, 103, 107, 111, 115, 119, 123 |
+| CGU | art-83d7c5ef2a0b4916 | CGU 2026 - creditos adicionais e evidencias de auditoria | 10 | 4 | 6 | 91, 95, 99, 103, 107, 111, 115, 119, 123, 127 |
+| CGU | art-79e2c6a4f80143bd | CGU 2026 - despesa empenho liquidacao e evidencias | 10 | 6 | 4 | 101, 105, 109, 113, 117, 121, 125, 129, 133, 137 |
+| CGU | art-a91ef3c628d04b57 | CGU 2026 - emendas rastreabilidade e controle | 10 | 5 | 5 | 97, 101, 105, 109, 113, 117, 121, 125, 129, 133 |
+| CGU | art-c84d6e02f3b7a915 | CGU 2026 - esferas da loa e estatais dependentes | 15 | 7 | 8 | 102, 104, 106, 108, 110, 112, 114, 116, 118, 120, 122, 124, 126, 128, 130 |
+| CGU | art-e4c982a6713d4bf5 | CGU 2026 - natureza fonte e resultado da receita | 10 | 5 | 5 | 126, 130, 134, 138, 142, 146, 150, 154, 158, 162 |
+| CGU | art-9dc8a6e2f31b47c0 | CGU 2026 - ppa ldo e loa | 8 | 3 | 5 | 86, 88, 90, 92, 94, 96, 98, 100 |
+| CGU | art-b419ac8206de7f35 | CGU 2026 - principios orcamentarios e vedacoes | 12 | 6 | 6 | 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129 |
+| CGU | art-6f2c1ae9d483457b | CGU 2026 - programacao financeira contingenciamento e bloqueio | 10 | 5 | 5 | 95, 99, 103, 107, 111, 115, 119, 123, 127, 131 |
+| CGU | art-b3e5d91a740c46f8 | CGU 2026 - receitas publicas registros e evidencias | 10 | 4 | 6 | 122, 126, 130, 134, 138, 142, 146, 150, 154, 158 |
+| CGU | art-d218c459af1e4b73 | CGU 2026 - responsabilidade fiscal riscos e controle | 10 | 5 | 5 | 119, 123, 127, 131, 135, 139, 143, 147, 151, 155 |
+| CGU | art-c85e29a3741f40bd | CGU 2026 - restos a pagar dea e suprimento de fundos | 10 | 4 | 6 | 104, 108, 112, 116, 120, 124, 128, 132, 136, 140 |
+
+## Composição da expansão
+
+O nível foi revisado item a item após a redação dos lotes. Questões curtas ou contextualizadas de reconhecimento de uma regra familiar podem ser fáceis. O nível médio exige aplicação direta, e a faixa difícil fica para as relações menos óbvias, condições cumulativas, exceções ou marcos específicos. A operação cognitiva permanece documentada como eixo independente.
+
+| Concurso | Itens | Fáceis | Médios | Difíceis | C | E |
+| --- | --- | --- | --- | --- | --- | --- |
+| camara-2026 | 60 | 6 | 31 | 23 | 31 | 29 |
+| cgu-2026 | 60 | 7 | 35 | 18 | 30 | 30 |
+
+O seletor após este lote tem 163 itens de Orçamento da Câmara (42 fáceis, 75 médios, 46 difíceis) e 63 da CGU (sete fáceis, 38 médios, 18 difíceis). A comparação com a base confirma 58 mudanças de dificuldade no legado público da Câmara e preservação dos demais campos, inclusive enunciados, gabaritos e IDs. A validação de publicação deve confrontar a lista dos 120 IDs com o catálogo servido, incluindo os campos de calibração, e verificar a seção teórica alterada da CGU.

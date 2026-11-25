@@ -88392,6 +88392,1967 @@
         "section": "Não afetação de impostos e as exceções"
       },
       "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-financiamento-no-orcamento",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-4677cfa327ce43bb",
+      "conceptId": "financiamento-no-orcamento",
+      "mechanism": "financiamento-no-orcamento",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Um estado previu, na lei orçamentária, receita de financiamento bancário e despesa de recuperação de estradas pelos valores integrais. Na execução, recebeu uma caução em dinheiro de uma contratada. No mesmo trimestre, arrecadou receitas tributárias acima do previsto, mas a equipe ainda avaliava a tendência para os meses seguintes. A dotação para uma das estradas já constava do orçamento.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nO ingresso do financiamento, se autorizado em lei, integra a receita orçamentária, embora implique obrigação de devolução.",
+      "correctAnswer": "C",
+      "explanation": "A lei inclui operações de crédito autorizadas no orçamento, de modo que o dever de pagar o banco não descaracteriza a receita da operação ordinária. Se o crédito fosse uma antecipação de receita orçamentária, o ingresso seria extraorçamentário. Lei nº 4.320/1964, art. 3º e parágrafo único.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 89,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Natureza de operação de crédito permanece quando o banco paga ao fornecedor",
+        "caseId": "orca-ampl-reserva-e-estadual"
+      },
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Receita orçamentária × ingresso extraorçamentário"
+      ],
+      "reviewEvidence": "Calibração com p1 89. Natureza de operação de crédito permanece quando o banco paga ao fornecedor O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Receita orçamentária × ingresso extraorçamentário",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+        "section": "Receita orçamentária × ingresso extraorçamentário"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-caucao-em-dinheiro",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-4677cfa327ce43bb",
+      "conceptId": "caucao-em-dinheiro",
+      "mechanism": "caucao-em-dinheiro",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Um estado previu, na lei orçamentária, receita de financiamento bancário e despesa de recuperação de estradas pelos valores integrais. Na execução, recebeu uma caução em dinheiro de uma contratada. No mesmo trimestre, arrecadou receitas tributárias acima do previsto, mas a equipe ainda avaliava a tendência para os meses seguintes. A dotação para uma das estradas já constava do orçamento.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nO depósito da caução pode financiar o reforço da dotação como receita arrecadada no trimestre.",
+      "correctAnswer": "E",
+      "explanation": "A caução recebida com obrigação de restituição constitui ingresso compensatório. Enquanto conservar essa natureza, ela não compõe o excesso de arrecadação que poderia financiar crédito suplementar. Uma receita tributária arrecadada, por sua vez, integra a apuração do excesso. Lei nº 4.320/1964, arts. 3º, parágrafo único, e 43, § 1º, II.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 87,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Ingressos temporários não passam à lei orçamentária por conta da movimentação interna",
+        "caseId": "orca-ampl-reserva-e-estadual"
+      },
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Receita orçamentária × ingresso extraorçamentário"
+      ],
+      "reviewEvidence": "Calibração com p1 87. Ingressos temporários não passam à lei orçamentária por conta da movimentação interna O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Receita orçamentária × ingresso extraorçamentário",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+        "section": "Receita orçamentária × ingresso extraorçamentário"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-tendencia-excesso",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "tendencia-excesso",
+      "mechanism": "tendencia-excesso",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Um estado previu, na lei orçamentária, receita de financiamento bancário e despesa de recuperação de estradas pelos valores integrais. Na execução, recebeu uma caução em dinheiro de uma contratada. No mesmo trimestre, arrecadou receitas tributárias acima do previsto, mas a equipe ainda avaliava a tendência para os meses seguintes. A dotação para uma das estradas já constava do orçamento.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nPara financiar crédito suplementar por excesso de arrecadação, basta deduzir do saldo acumulado os créditos extraordinários abertos no exercício, ainda que a projeção dos meses seguintes indique reversão do saldo.",
+      "correctAnswer": "E",
+      "explanation": "O excesso leva em conta as diferenças acumuladas entre arrecadação prevista e realizada e a tendência do exercício. A dedução dos créditos extraordinários é outro passo da apuração. Uma alta temporária que desaparece na projeção não sustenta a mesma abertura que um aumento consistente. Lei nº 4.320/1964, art. 43, §§ 3º e 4º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 81,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Distinguir alteração da dotação, descentralização e evidência no sistema",
+        "caseId": "orca-ampl-reserva-e-estadual"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
+      ],
+      "reviewEvidence": "Calibração com p1 81. Distinguir alteração da dotação, descentralização e evidência no sistema O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Recursos disponíveis para suplementares e especiais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-dotacao-estrada-reforco",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "dotacao-estrada-reforco",
+      "mechanism": "dotacao-estrada-reforco",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Um estado previu, na lei orçamentária, receita de financiamento bancário e despesa de recuperação de estradas pelos valores integrais. Na execução, recebeu uma caução em dinheiro de uma contratada. No mesmo trimestre, arrecadou receitas tributárias acima do previsto, mas a equipe ainda avaliava a tendência para os meses seguintes. A dotação para uma das estradas já constava do orçamento.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nSe houver recursos disponíveis e autorização legislativa suficiente, o Executivo poderá reforçar a dotação da estrada com crédito suplementar.",
+      "correctAnswer": "C",
+      "explanation": "O crédito suplementar reforça dotação já existente. A existência da dotação distingue o caso da estrada de uma nova ação sem dotação específica, para a qual caberia crédito especial se presentes os requisitos. Lei nº 4.320/1964, arts. 41, I e II, 42 e 43.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 81,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Distinguir alteração da dotação, descentralização e evidência no sistema",
+        "caseId": "orca-ampl-reserva-e-estadual"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+      ],
+      "reviewEvidence": "Calibração com p1 81. Distinguir alteração da dotação, descentralização e evidência no sistema O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Suplementar, especial e extraordinário",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-medicoes-dois-saldos",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "medicoes-dois-saldos",
+      "mechanism": "medicoes-dois-saldos",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma autarquia empenhou regularmente R$ 800 mil para reformar um armazém. A primeira medição, no valor de R$ 300 mil, foi aceita e liquidada em dezembro, mas a autarquia só a pagou em janeiro. Os R$ 500 mil do restante do contrato correspondiam a serviço ainda em execução, com prazo contratual vigente no encerramento do exercício.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nSe atendidas as condições de inscrição, o fechamento poderá separar o mesmo empenho em R$ 300 mil de restos a pagar processados e R$ 500 mil de restos a pagar não processados.",
+      "correctAnswer": "C",
+      "explanation": "Restos a pagar são valores empenhados e não pagos no encerramento. A liquidação da primeira medição separa o saldo processado do restante não liquidado, cuja inscrição depende das condições aplicáveis. Se as duas parcelas tivessem sido liquidadas e continuassem sem pagamento, ambas seriam processadas. Lei nº 4.320/1964, art. 36.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 90,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Liquidação até o encerramento é o divisor",
+        "caseId": "orca-ampl-armazem-medicoes"
+      },
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Restos a pagar: condição e espécie"
+      ],
+      "reviewEvidence": "Calibração com p1 90. Liquidação até o encerramento é o divisor O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Restos a pagar: condição e espécie",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Restos a pagar: condição e espécie"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-medicao-despesa-exercicio",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "medicao-despesa-exercicio",
+      "mechanism": "medicao-despesa-exercicio",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma autarquia empenhou regularmente R$ 800 mil para reformar um armazém. A primeira medição, no valor de R$ 300 mil, foi aceita e liquidada em dezembro, mas a autarquia só a pagou em janeiro. Os R$ 500 mil do restante do contrato correspondiam a serviço ainda em execução, com prazo contratual vigente no encerramento do exercício.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nPelo critério orçamentário, os R$ 300 mil são despesa de janeiro, pois o desembolso ocorreu nesse mês.",
+      "correctAnswer": "E",
+      "explanation": "A despesa orçamentária pertence ao exercício do empenho regular. A saída de caixa em janeiro quita o resto a pagar processado da autarquia. Se o empenho regular tivesse ocorrido em janeiro, seria despesa orçamentária do novo exercício. Lei nº 4.320/1964, arts. 35, II, e 36.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 173,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Inscrição na virada do exercício conserva o empenho original",
+        "caseId": "orca-ampl-armazem-medicoes"
+      },
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Despesa empenhada em um exercício e paga no seguinte"
+      ],
+      "reviewEvidence": "Calibração com cd 173. Inscrição na virada do exercício conserva o empenho original O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Despesa empenhada em um exercício e paga no seguinte",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Despesa empenhada em um exercício e paga no seguinte"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-medicao-credor-e-ordem",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "medicao-credor-e-ordem",
+      "mechanism": "medicao-credor-e-ordem",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Uma autarquia empenhou regularmente R$ 800 mil para reformar um armazém. A primeira medição, no valor de R$ 300 mil, foi aceita e liquidada em dezembro, mas a autarquia só a pagou em janeiro. Os R$ 500 mil do restante do contrato correspondiam a serviço ainda em execução, com prazo contratual vigente no encerramento do exercício.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA medição aceita serviu como elemento para apurar a parcela devida, enquanto a ordem de pagamento exigiu despacho próprio após a liquidação.",
+      "correctAnswer": "C",
+      "explanation": "Na liquidação, a autarquia verifica o direito do credor e identifica o valor devido mediante contrato, empenho e comprovantes da prestação. A ordem de pagamento é o despacho da autoridade competente. Se a medição ainda estivesse em análise, a etapa de verificação do valor devido permaneceria aberta. Lei nº 4.320/1964, arts. 62 a 64.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 34,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Verificação documental do direito deve anteceder o desembolso",
+        "caseId": "orca-ampl-armazem-medicoes"
+      },
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Liquidação: verificar o direito do credor"
+      ],
+      "reviewEvidence": "Calibração com mpo 34. Verificação documental do direito deve anteceder o desembolso O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Liquidação: verificar o direito do credor",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Liquidação: verificar o direito do credor"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-medicao-dea-hipotese",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "medicao-dea-hipotese",
+      "mechanism": "medicao-dea-hipotese",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma autarquia empenhou regularmente R$ 800 mil para reformar um armazém. A primeira medição, no valor de R$ 300 mil, foi aceita e liquidada em dezembro, mas a autarquia só a pagou em janeiro. Os R$ 500 mil do restante do contrato correspondiam a serviço ainda em execução, com prazo contratual vigente no encerramento do exercício.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nComo a primeira medição foi quitada após o encerramento, ela exigiu dotação de despesas de exercícios anteriores no orçamento de janeiro.",
+      "correctAnswer": "E",
+      "explanation": "A medição liquidada, inscrita e ainda pendente na virada conserva a classificação de restos a pagar processados. A despesa de exercício anterior usa dotação específica do exercício corrente nas hipóteses legais, como compromisso reconhecido após o encerramento. Lei nº 4.320/1964, arts. 36 e 37.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_003_01",
+        "item": 99,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_003_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_003_01.pdf",
+        "mechanism": "Dotação corrente específica não transforma obrigação em resto inscrito no crédito antigo",
+        "caseId": "orca-ampl-armazem-medicoes"
+      },
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Despesas de Exercícios Anteriores (DEA): art. 37"
+      ],
+      "reviewEvidence": "Calibração com p3 99. Dotação corrente específica não transforma obrigação em resto inscrito no crédito antigo O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Despesas de Exercícios Anteriores (DEA): art. 37",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Despesas de Exercícios Anteriores (DEA): art. 37"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-mensagem-parte-logistica",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "mensagem-parte-logistica",
+      "mechanism": "mensagem-parte-logistica",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Na tramitação do projeto federal da lei orçamentária anual, a Comissão Mista de Orçamento já havia iniciado a votação do trecho sobre logística, enquanto o trecho de comunicação pública ainda aguardava votação. A Presidência da República enviou mensagem sobre os dois trechos. No mesmo projeto, uma parlamentar apresentou emenda de mérito para ampliar a comunicação, compatível com o plano plurianual e a lei de diretrizes, indicando cancelamento de dotação para amortização da dívida.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA Presidência ainda pode propor por mensagem a alteração do trecho de logística porque a votação do projeto como um todo está em curso.",
+      "correctAnswer": "E",
+      "explanation": "O marco para o Presidente enviar mensagem modificativa é o início da votação, na comissão mista, da parte que se pretende modificar. A votação do trecho de logística já começou. Quanto ao trecho de comunicação, o marco ainda não ocorreu. Constituição Federal, art. 166, § 5º.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "018_stj_007_01",
+        "item": 88,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_007_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_007_01.PDF",
+        "mechanism": "Votação da matéria específica, na comissão mista, é o marco que encerra a possibilidade",
+        "caseId": "orca-ampl-votacao-comissao"
+      },
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Sequência do projeto: do recebimento à lei"
+      ],
+      "reviewEvidence": "Calibração com stj 88. Votação da matéria específica, na comissão mista, é o marco que encerra a possibilidade O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Sequência do projeto: do recebimento à lei",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "Sequência do projeto: do recebimento à lei"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-fonte-amortizacao",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "fonte-amortizacao",
+      "mechanism": "fonte-amortizacao",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Na tramitação do projeto federal da lei orçamentária anual, a Comissão Mista de Orçamento já havia iniciado a votação do trecho sobre logística, enquanto o trecho de comunicação pública ainda aguardava votação. A Presidência da República enviou mensagem sobre os dois trechos. No mesmo projeto, uma parlamentar apresentou emenda de mérito para ampliar a comunicação, compatível com o plano plurianual e a lei de diretrizes, indicando cancelamento de dotação para amortização da dívida.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA compatibilidade com os instrumentos de planejamento torna admissível a emenda com cancelamento de dotação para amortização da dívida.",
+      "correctAnswer": "E",
+      "explanation": "A emenda de mérito deve ser compatível com o planejamento e indicar fonte idônea. Despesas com o serviço da dívida, como a amortização, estão protegidas contra cancelamento para essa finalidade. Uma dotação discricionária cancelável poderia suprir a condição de fonte. Constituição Federal, art. 166, § 3º, I e II, b.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 74,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Anulação de dotação de pessoal e encargos não serve de fonte para essa emenda",
+        "caseId": "orca-ampl-votacao-comissao"
+      },
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Regras constitucionais para emendas ao orçamento anual"
+      ],
+      "reviewEvidence": "Calibração com p1 74. Anulação de dotação de pessoal e encargos não serve de fonte para essa emenda O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Regras constitucionais para emendas ao orçamento anual",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-parecer-e-deliberacao",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-c917e4a2d63b508f",
+      "conceptId": "parecer-e-deliberacao",
+      "mechanism": "parecer-e-deliberacao",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Na tramitação do projeto federal da lei orçamentária anual, a Comissão Mista de Orçamento já havia iniciado a votação do trecho sobre logística, enquanto o trecho de comunicação pública ainda aguardava votação. A Presidência da República enviou mensagem sobre os dois trechos. No mesmo projeto, uma parlamentar apresentou emenda de mérito para ampliar a comunicação, compatível com o plano plurianual e a lei de diretrizes, indicando cancelamento de dotação para amortização da dívida.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA comissão mista examina o projeto e emite parecer, cabendo a apreciação às duas Casas na forma do regimento comum.",
+      "correctAnswer": "C",
+      "explanation": "A Comissão Mista de Orçamento analisa e opina sobre o projeto anual. A apreciação parlamentar ocorre pelas duas Casas segundo o rito comum. Para acompanhamento da execução, a comissão exerce função fiscalizadora própria, ainda que inexista projeto pendente de votação. Constituição Federal, art. 166, caput e § 1º, I e II.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 40,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Solicitação de esclarecimentos em cinco dias precede medidas subsequentes",
+        "caseId": "orca-ampl-votacao-comissao"
+      },
+      "theoryRefs": [
+        "article:art-c917e4a2d63b508f#Competências constitucionais e regimentais"
+      ],
+      "reviewEvidence": "Calibração com mpo 40. Solicitação de esclarecimentos em cinco dias precede medidas subsequentes O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Competências constitucionais e regimentais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias.md",
+        "section": "Competências constitucionais e regimentais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-ppainvest-datacenter",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-c301f2c741504403",
+      "conceptId": "ppainvest-datacenter",
+      "mechanism": "ppainvest-datacenter",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O Executivo federal planejou um investimento com implantação prevista para começar em outubro e seguir por três exercícios. A ação recebeu dotação na lei orçamentária anual, mas o investimento não foi incluído no plano plurianual nem houve lei que autorizasse a inclusão. A mesma lei anual inseriu uma autorização genérica para criar uma nova autarquia e autorização limitada para abertura de crédito suplementar.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA dotação anual não autoriza, por si só, o início do investimento descrito em outubro.",
+      "correctAnswer": "C",
+      "explanation": "Obras e outros investimentos cuja execução ultrapasse um exercício exigem inclusão prévia no plano plurianual ou lei autorizativa dessa inclusão. A dotação anual resolve a autorização de despesa daquele ano. Uma implantação integral no mesmo exercício não atrairia essa vedação específica. Constituição Federal, art. 167, § 1º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 75,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Inclusão no plano ou lei que a autorize deve preceder o início",
+        "caseId": "orca-ampl-programa-de-dados"
+      },
+      "theoryRefs": [
+        "article:art-c301f2c741504403#PPA: Plano Plurianual"
+      ],
+      "reviewEvidence": "Calibração com p1 75. Inclusão no plano ou lei que a autorize deve preceder o início O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA: Plano Plurianual",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+        "section": "PPA: Plano Plurianual"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-exclusividade-duas-clausulas",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "exclusividade-duas-clausulas",
+      "mechanism": "exclusividade-duas-clausulas",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O Executivo federal planejou um investimento com implantação prevista para começar em outubro e seguir por três exercícios. A ação recebeu dotação na lei orçamentária anual, mas o investimento não foi incluído no plano plurianual nem houve lei que autorizasse a inclusão. A mesma lei anual inseriu uma autorização genérica para criar uma nova autarquia e autorização limitada para abertura de crédito suplementar.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA autorização para crédito suplementar cabe no conteúdo da lei orçamentária anual, ao passo que a criação de autarquia exige lei específica.",
+      "correctAnswer": "C",
+      "explanation": "A autorização de suplementação é exceção expressa à exclusividade orçamentária. A criação de autarquia constitui matéria de organização administrativa reservada à lei específica. Autorização para operação de crédito também caberia na lei anual. Constituição Federal, arts. 37, XIX, e 165, § 8º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 73,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Justificação não inclui criação de fundo entre ressalvas da lei orçamentária",
+        "caseId": "orca-ampl-programa-de-dados"
+      },
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Exclusividade e suas duas exceções constitucionais"
+      ],
+      "reviewEvidence": "Calibração com p1 73. Justificação não inclui criação de fundo entre ressalvas da lei orçamentária O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Exclusividade e suas duas exceções constitucionais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Exclusividade e suas duas exceções constitucionais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-autorizacao-limite-suplemento",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "autorizacao-limite-suplemento",
+      "mechanism": "autorizacao-limite-suplemento",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "O Executivo federal planejou um investimento com implantação prevista para começar em outubro e seguir por três exercícios. A ação recebeu dotação na lei orçamentária anual, mas o investimento não foi incluído no plano plurianual nem houve lei que autorizasse a inclusão. A mesma lei anual inseriu uma autorização genérica para criar uma nova autarquia e autorização limitada para abertura de crédito suplementar.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA autorização limitada contida na lei anual abre os créditos suplementares abrangidos por ela, de modo que as dotações podem ser reforçadas mediante simples registro.",
+      "correctAnswer": "E",
+      "explanation": "A cláusula legislativa fornece autorização dentro de seus limites. A abertura do suplemento depende de ato do Executivo e da existência de recursos disponíveis. Caso a autorização da lei anual já esteja esgotada, será necessária nova autorização legislativa. Lei nº 4.320/1964, arts. 42 e 43.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 81,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Distinguir alteração da dotação, descentralização e evidência no sistema",
+        "caseId": "orca-ampl-programa-de-dados"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Autorização × abertura"
+      ],
+      "reviewEvidence": "Calibração com p1 81. Distinguir alteração da dotação, descentralização e evidência no sistema O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Autorização × abertura",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Autorização × abertura"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-urgencia-imprevisivel-acesso",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "urgencia-imprevisivel-acesso",
+      "mechanism": "urgencia-imprevisivel-acesso",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Em novembro, um desastre imprevisível interrompeu o acesso a comunidades isoladas. A União abriu crédito extraordinário por medida provisória para restabelecer o acesso e obteve a promulgação em novembro. Na mesma ocasião, abriu crédito suplementar para reforçar dotações de manutenção já existentes. Ambos tinham saldo em 31 de dezembro.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA urgência do restabelecimento do acesso e a imprevisibilidade do desastre permitem o crédito extraordinário para a resposta imediata.",
+      "correctAnswer": "C",
+      "explanation": "Na União, a medida provisória pode abrir crédito extraordinário para despesa urgente e imprevisível. Os fatos concentram essa hipótese nas ações imediatas do desastre. Uma obra programada de ampliação de vias, ainda que urgente por atraso, precisaria satisfazer a imprevisibilidade para se enquadrar. Constituição Federal, arts. 62, § 1º, I, d, e 167, § 3º.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 77,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Urgência e imprevisibilidade determinam a hipótese",
+        "caseId": "orca-ampl-enxurrada-e-saldo"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+      ],
+      "reviewEvidence": "Calibração com p1 77. Urgência e imprevisibilidade determinam a hipótese O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Suplementar, especial e extraordinário",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-novembro-reabertura-saldos",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "novembro-reabertura-saldos",
+      "mechanism": "novembro-reabertura-saldos",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em novembro, um desastre imprevisível interrompeu o acesso a comunidades isoladas. A União abriu crédito extraordinário por medida provisória para restabelecer o acesso e obteve a promulgação em novembro. Na mesma ocasião, abriu crédito suplementar para reforçar dotações de manutenção já existentes. Ambos tinham saldo em 31 de dezembro.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA abertura em novembro admite a reabertura dos dois créditos no orçamento do exercício seguinte, pelos saldos remanescentes.",
+      "correctAnswer": "E",
+      "explanation": "A exceção à vigência anual abrange créditos especiais e extraordinários autorizados nos quatro últimos meses, até o saldo. O crédito suplementar fica no exercício em que foi aberto. Se o segundo crédito fosse especial e o ato autorizativo tivesse sido promulgado em novembro, também poderia ser reaberto. Constituição Federal, art. 167, § 2º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 86,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Dispensa de autorização prévia e controle legislativo posterior",
+        "caseId": "orca-ampl-enxurrada-e-saldo"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Vigência e reabertura"
+      ],
+      "reviewEvidence": "Calibração com p1 86. Dispensa de autorização prévia e controle legislativo posterior O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Vigência e reabertura",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Vigência e reabertura"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-limitacao-tres-despesas",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "limitacao-tres-despesas",
+      "mechanism": "limitacao-tres-despesas",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em agosto, no último ano de mandato do prefeito, a arrecadação de um município ficou abaixo da trajetória necessária para atingir a meta fiscal. O município tinha dotações para publicidade institucional, serviço da dívida e uma prestação continuada imposta por lei. Uma nova contratação discricionária, prevista para outubro, teria parcelas a pagar no exercício seguinte.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nConfirmado o risco à meta ao fim do bimestre, a publicidade pode sofrer limitação, preservadas as despesas descritas com serviço da dívida e obrigação legal.",
+      "correctAnswer": "C",
+      "explanation": "Verificado o risco à meta, cada Poder limita empenho e movimentação financeira, nos critérios da Lei de Diretrizes Orçamentárias. O serviço da dívida e a obrigação legal estão protegidos. Publicidade discricionária pode ser limitada, salvo ressalva aplicável. Lei de Responsabilidade Fiscal, art. 9º, caput e § 2º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 26,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Anexo de metas não se confunde com vedações e tetos legais",
+        "caseId": "orca-ampl-municipio-ano-fim"
+      },
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Contingenciamento: art. 9º da LRF"
+      ],
+      "reviewEvidence": "Calibração com mpo 26. Anexo de metas não se confunde com vedações e tetos legais O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Contingenciamento: art. 9º da LRF",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-caixa-final-contrato-outubro",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "caixa-final-contrato-outubro",
+      "mechanism": "caixa-final-contrato-outubro",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em agosto, no último ano de mandato do prefeito, a arrecadação de um município ficou abaixo da trajetória necessária para atingir a meta fiscal. O município tinha dotações para publicidade institucional, serviço da dívida e uma prestação continuada imposta por lei. Uma nova contratação discricionária, prevista para outubro, teria parcelas a pagar no exercício seguinte.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nUma dotação integral na lei orçamentária permite contratar em outubro com parcelas no ano seguinte, ainda que falte caixa para suportá-las.",
+      "correctAnswer": "E",
+      "explanation": "Nos últimos dois quadrimestres, o titular de Poder ou órgão sujeito à regra precisa deixar disponibilidade suficiente para parcelas de obrigação contraída que passem ao exercício seguinte. A dotação autoriza despesa, mas não comprova esse caixa. Com disponibilidade suficiente após os encargos e compromissos, esse impedimento específico desapareceria. Lei de Responsabilidade Fiscal, art. 42.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 166,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Ter direito verificado não garante caixa disponível, sem afastar obrigações e prazos",
+        "caseId": "orca-ampl-municipio-ano-fim"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Riscos, limitação de empenho e final de mandato"
+      ],
+      "reviewEvidence": "Calibração com cd 166. Ter direito verificado não garante caixa disponível, sem afastar obrigações e prazos O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Riscos, limitação de empenho e final de mandato",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Riscos, limitação de empenho e final de mandato"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-limite-retorno-receita",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "limite-retorno-receita",
+      "mechanism": "limite-retorno-receita",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em agosto, no último ano de mandato do prefeito, a arrecadação de um município ficou abaixo da trajetória necessária para atingir a meta fiscal. O município tinha dotações para publicidade institucional, serviço da dívida e uma prestação continuada imposta por lei. Uma nova contratação discricionária, prevista para outubro, teria parcelas a pagar no exercício seguinte.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nSe a receita se restabelecer parcialmente, a recomposição das dotações limitadas deverá ser proporcional às reduções efetuadas.",
+      "correctAnswer": "C",
+      "explanation": "Para os Poderes e órgãos que limitaram empenho, a recuperação da receita prevista, ainda que parcial, exige recomposição proporcional às reduções. Se a receita continuar frustrada, esse fato gerador da recomposição não estará presente. Lei de Responsabilidade Fiscal, art. 9º, § 1º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 21,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Meta fiscal orienta proposta, em horizonte do exercício a que se aplica",
+        "caseId": "orca-ampl-municipio-ano-fim"
+      },
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Contingenciamento: art. 9º da LRF"
+      ],
+      "reviewEvidence": "Calibração com mpo 21. Meta fiscal orienta proposta, em horizonte do exercício a que se aplica O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Contingenciamento: art. 9º da LRF",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-investimento-estatal-autofinanciado",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-74d90e9fa1b3452c",
+      "conceptId": "investimento-estatal-autofinanciado",
+      "mechanism": "investimento-estatal-autofinanciado",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O Executivo federal preparou uma proposta anual segundo os limites e as prioridades da lei de diretrizes orçamentárias. Uma estatal controlada pela União que opera comercialmente e não é dependente previu construir um centro logístico com seus recursos. Outra estatal controlada recebe recursos da União para custeio geral, executa atividades fora da seguridade social e segue o regime orçamentário ordinário das dependentes.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nO investimento do centro logístico integra o orçamento de investimento, mesmo que a estatal comercial utilize recursos próprios.",
+      "correctAnswer": "C",
+      "explanation": "O orçamento de investimento abrange investimentos das empresas em que a União detenha, direta ou indiretamente, maioria do capital votante, observado o enquadramento da estatal. A origem própria dos recursos da estatal não dependente não a exclui. Seu custeio comercial ordinário, contudo, não integra esse orçamento de investimentos. Constituição Federal, art. 165, § 5º, II.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "018_stj_007_01",
+        "item": 89,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_007_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_007_01.PDF",
+        "mechanism": "Nem toda estatal entra integralmente no orçamento; verificar controle, dependência e esfera competente",
+        "caseId": "orca-ampl-orcamento-coordenacao"
+      },
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Três orçamentos em uma lei"
+      ],
+      "reviewEvidence": "Calibração com stj 89. Nem toda estatal entra integralmente no orçamento; verificar controle, dependência e esfera competente O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Três orçamentos em uma lei",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md",
+        "section": "Três orçamentos em uma lei"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-estatal-custeio-dependencia",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-74d90e9fa1b3452c",
+      "conceptId": "estatal-custeio-dependencia",
+      "mechanism": "estatal-custeio-dependencia",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O Executivo federal preparou uma proposta anual segundo os limites e as prioridades da lei de diretrizes orçamentárias. Uma estatal controlada pela União que opera comercialmente e não é dependente previu construir um centro logístico com seus recursos. Outra estatal controlada recebe recursos da União para custeio geral, executa atividades fora da seguridade social e segue o regime orçamentário ordinário das dependentes.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA segunda estatal também integra o orçamento de investimento porque o critério de controle societário prevalece sobre os repasses de custeio.",
+      "correctAnswer": "E",
+      "explanation": "A estatal controlada que recebe do ente controlador recursos para custeio geral é dependente. Como a segunda estatal atua fora da seguridade, suas atividades orçamentárias integram o orçamento fiscal. Uma empresa controlada não dependente pode ter os investimentos no orçamento de investimento. Constituição Federal, art. 165, § 5º, e Lei de Responsabilidade Fiscal, art. 2º, III.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "018_stj_007_01",
+        "item": 89,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_007_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_007_01.PDF",
+        "mechanism": "Nem toda estatal entra integralmente no orçamento; verificar controle, dependência e esfera competente",
+        "caseId": "orca-ampl-orcamento-coordenacao"
+      },
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Núcleo do conceito: três perguntas que não podem se misturar"
+      ],
+      "reviewEvidence": "Calibração com stj 89. Nem toda estatal entra integralmente no orçamento; verificar controle, dependência e esfera competente O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Núcleo do conceito: três perguntas que não podem se misturar",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md",
+        "section": "Núcleo do conceito: três perguntas que não podem se misturar"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-diretrizes-estimar-receita-proposta",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-c301f2c741504403",
+      "conceptId": "diretrizes-estimar-receita-proposta",
+      "mechanism": "diretrizes-estimar-receita-proposta",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "O Executivo federal preparou uma proposta anual segundo os limites e as prioridades da lei de diretrizes orçamentárias. Uma estatal controlada pela União que opera comercialmente e não é dependente previu construir um centro logístico com seus recursos. Outra estatal controlada recebe recursos da União para custeio geral, executa atividades fora da seguridade social e segue o regime orçamentário ordinário das dependentes.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA estimativa da receita para a construção do centro logístico deve ser aprovada na lei de diretrizes orçamentárias por ela fixar as prioridades anuais.",
+      "correctAnswer": "E",
+      "explanation": "A lei de diretrizes orçamentárias orienta a elaboração da proposta anual e fixa metas e prioridades. Cabe à lei orçamentária anual dar expressão à previsão de receitas e à fixação de despesas nas suas esferas. A escolha de prioridades para elaborar a proposta, por outro lado, cabe às diretrizes. Constituição Federal, art. 165, §§ 2º e 5º.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_003_01",
+        "item": 107,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_003_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_003_01.pdf",
+        "mechanism": "Fixar e estimar são funções da lei orçamentária anual",
+        "caseId": "orca-ampl-orcamento-coordenacao"
+      },
+      "theoryRefs": [
+        "article:art-c301f2c741504403#PPA LDO e LOA lado a lado"
+      ],
+      "reviewEvidence": "Calibração com p3 107. Fixar e estimar são funções da lei orçamentária anual O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA LDO e LOA lado a lado",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+        "section": "PPA LDO e LOA lado a lado"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-taxa-janeiro-arrecadada",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-4677cfa327ce43bb",
+      "conceptId": "taxa-janeiro-arrecadada",
+      "mechanism": "taxa-janeiro-arrecadada",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Um município lançou uma taxa em dezembro. O contribuinte só entregou os valores ao agente arrecadador em 30 de janeiro, que os transferiu à conta do Tesouro em fevereiro. No mesmo exercício de janeiro, o município liquidou e pagou uma despesa de R$ 80 mil que havia sido regularmente empenhada no exercício anterior. Outra despesa de R$ 20 mil foi empenhada no mês de janeiro, sem pagamento.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nPara o orçamento, a taxa pertence ao exercício de janeiro, quando houve a entrega do valor ao agente arrecadador.",
+      "correctAnswer": "C",
+      "explanation": "A lei atribui a receita orçamentária ao exercício em que foi arrecadada. A entrega em janeiro já constitui arrecadação. A transferência ao Tesouro em fevereiro é recolhimento. Se o contribuinte tivesse pago ao agente em dezembro, o exercício de arrecadação seria o anterior. Lei nº 4.320/1964, arts. 35, I, e 56.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "199_cge_al_001_01",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf",
+        "mechanism": "Aplicar regime de arrecadação à cobrança em exercício seguinte; adaptar sem reproduzir exemplo de tributo municipal tratado como estadual",
+        "caseId": "orca-ampl-cobranca-na-virada"
+      },
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Previsão, lançamento, arrecadação e recolhimento"
+      ],
+      "reviewEvidence": "Calibração com cge 103. Aplicar regime de arrecadação à cobrança em exercício seguinte; adaptar sem reproduzir exemplo de tributo municipal tratado como estadual O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Previsão, lançamento, arrecadação e recolhimento",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+        "section": "Previsão, lançamento, arrecadação e recolhimento"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-resultado-com-resto-de-oitenta",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "resultado-com-resto-de-oitenta",
+      "mechanism": "resultado-com-resto-de-oitenta",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Um município lançou uma taxa em dezembro. O contribuinte só entregou os valores ao agente arrecadador em 30 de janeiro, que os transferiu à conta do Tesouro em fevereiro. No mesmo exercício de janeiro, o município liquidou e pagou uma despesa de R$ 80 mil que havia sido regularmente empenhada no exercício anterior. Outra despesa de R$ 20 mil foi empenhada no mês de janeiro, sem pagamento.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nPara calcular o resultado orçamentário do novo exercício, a despesa dos dois compromissos soma R$ 100 mil.",
+      "correctAnswer": "E",
+      "explanation": "No resultado orçamentário, entram as despesas empenhadas no exercício. Os R$ 80 mil pertencem ao orçamento anterior e seu pagamento atual é baixa do resto a pagar. Entram os R$ 20 mil empenhados em janeiro, ainda que não pagos. Se ambos tivessem sido regularmente empenhados no novo exercício, a soma seria R$ 100 mil. Lei nº 4.320/1964, arts. 35, II, 36 e 102.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "199_cge_al_001_01",
+        "item": 111,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf",
+        "mechanism": "Subtrair empenhos da arrecadação, sem aplicar o estágio de pagamento",
+        "caseId": "orca-ampl-cobranca-na-virada"
+      },
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Despesa empenhada em um exercício e paga no seguinte"
+      ],
+      "reviewEvidence": "Calibração com cge 111. Subtrair empenhos da arrecadação, sem aplicar o estágio de pagamento O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Despesa empenhada em um exercício e paga no seguinte",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Despesa empenhada em um exercício e paga no seguinte"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-liquidacao-janeiro-classificacao-fechamento",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "liquidacao-janeiro-classificacao-fechamento",
+      "mechanism": "liquidacao-janeiro-classificacao-fechamento",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Um município lançou uma taxa em dezembro. O contribuinte só entregou os valores ao agente arrecadador em 30 de janeiro, que os transferiu à conta do Tesouro em fevereiro. No mesmo exercício de janeiro, o município liquidou e pagou uma despesa de R$ 80 mil que havia sido regularmente empenhada no exercício anterior. Outra despesa de R$ 20 mil foi empenhada no mês de janeiro, sem pagamento.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nSe inscrito na virada, o empenho de R$ 80 mil ingressou no exercício seguinte como resto a pagar não processado.",
+      "correctAnswer": "C",
+      "explanation": "O tipo de resto depende da situação ao encerrar o exercício. Como a obrigação só foi liquidada em janeiro, a inscrição anterior teria sido de resto não processado. Se liquidada até dezembro, entraria como processado. Lei nº 4.320/1964, art. 36.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 173,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Inscrição na virada do exercício conserva o empenho original",
+        "caseId": "orca-ampl-cobranca-na-virada"
+      },
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Restos a pagar: condição e espécie"
+      ],
+      "reviewEvidence": "Calibração com cd 173. Inscrição na virada do exercício conserva o empenho original O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Restos a pagar: condição e espécie",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Restos a pagar: condição e espécie"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-esclarecimentos-prazo-indicios",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-c917e4a2d63b508f",
+      "conceptId": "esclarecimentos-prazo-indicios",
+      "mechanism": "esclarecimentos-prazo-indicios",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Uma comissão parlamentar identificou indícios de despesa não autorizada em obra federal que estava em execução. A Comissão Mista de Orçamento recebeu as informações, solicitou esclarecimentos ao ministério responsável e ainda não recebeu resposta. O relatório também indicou baixo desempenho da obra, apesar de os pagamentos seguirem os estágios formais previstos.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA Comissão Mista de Orçamento pode solicitar ao ministério esclarecimentos no prazo de cinco dias em razão dos indícios de despesa não autorizada.",
+      "correctAnswer": "C",
+      "explanation": "A comissão mista pode pedir esclarecimentos à autoridade responsável quando houver indícios de despesas não autorizadas. Os cinco dias aplicam-se ao pedido inicial. Sem resposta ou com explicações insuficientes, o procedimento passa à solicitação de pronunciamento do Tribunal de Contas da União. Constituição Federal, art. 72, caput e § 1º.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 40,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Solicitação de esclarecimentos em cinco dias precede medidas subsequentes",
+        "caseId": "orca-ampl-obra-em-fiscalizacao"
+      },
+      "theoryRefs": [
+        "article:art-c917e4a2d63b508f#Competências constitucionais e regimentais"
+      ],
+      "reviewEvidence": "Calibração com mpo 40. Solicitação de esclarecimentos em cinco dias precede medidas subsequentes O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Competências constitucionais e regimentais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias.md",
+        "section": "Competências constitucionais e regimentais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-desempenho-regularidade-formal",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "desempenho-regularidade-formal",
+      "mechanism": "desempenho-regularidade-formal",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma comissão parlamentar identificou indícios de despesa não autorizada em obra federal que estava em execução. A Comissão Mista de Orçamento recebeu as informações, solicitou esclarecimentos ao ministério responsável e ainda não recebeu resposta. O relatório também indicou baixo desempenho da obra, apesar de os pagamentos seguirem os estágios formais previstos.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA regularidade formal dos pagamentos retira o desempenho da obra do alcance da fiscalização operacional.",
+      "correctAnswer": "E",
+      "explanation": "A fiscalização federal alcança também o desempenho operacional e a economicidade. O rito correto de pagamento não impede que se avaliem os resultados da obra. Uma auditoria restrita à legalidade de determinado pagamento teria escopo mais estreito. Constituição Federal, arts. 70 e 71, IV.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "199_cge_al_001_01",
+        "item": 114,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf",
+        "mechanism": "Inclui dimensões operacional e patrimonial e alcança a administração indireta",
+        "caseId": "orca-ampl-obra-em-fiscalizacao"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Fiscalização orçamentária: Congresso e Tribunal de Contas da União"
+      ],
+      "reviewEvidence": "Calibração com cge 114. Inclui dimensões operacional e patrimonial e alcança a administração indireta O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Fiscalização orçamentária: Congresso e Tribunal de Contas da União",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Fiscalização orçamentária: Congresso e Tribunal de Contas da União"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-sustacao-direta-comissao",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-c917e4a2d63b508f",
+      "conceptId": "sustacao-direta-comissao",
+      "mechanism": "sustacao-direta-comissao",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma comissão parlamentar identificou indícios de despesa não autorizada em obra federal que estava em execução. A Comissão Mista de Orçamento recebeu as informações, solicitou esclarecimentos ao ministério responsável e ainda não recebeu resposta. O relatório também indicou baixo desempenho da obra, apesar de os pagamentos seguirem os estágios formais previstos.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nEsgotado o prazo sem resposta, a comissão passa a ter competência para sustar diretamente a despesa por decisão própria.",
+      "correctAnswer": "E",
+      "explanation": "A ausência de esclarecimentos leva a comissão a solicitar pronunciamento conclusivo do Tribunal de Contas da União em 30 dias. Se o tribunal entender irregular a despesa e a comissão julgar que o gasto pode causar dano irreparável ou grave lesão à economia pública, ela propõe a sustação ao Congresso. Constituição Federal, art. 72, §§ 1º e 2º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 40,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Solicitação de esclarecimentos em cinco dias precede medidas subsequentes",
+        "caseId": "orca-ampl-obra-em-fiscalizacao"
+      },
+      "theoryRefs": [
+        "article:art-c917e4a2d63b508f#Competências constitucionais e regimentais"
+      ],
+      "reviewEvidence": "Calibração com mpo 40. Solicitação de esclarecimentos em cinco dias precede medidas subsequentes O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Competências constitucionais e regimentais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias.md",
+        "section": "Competências constitucionais e regimentais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-emenda-origem-reparticao",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "emenda-origem-reparticao",
+      "mechanism": "emenda-origem-reparticao",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma deputada apresentou emenda de mérito ao projeto federal da lei orçamentária para equipar hospitais públicos. A proposta era compatível com o plano plurianual e a lei de diretrizes. A autora apontou, como fonte, uma dotação destinada às transferências tributárias constitucionais a municípios. Depois, foi sugerida como alternativa a utilização direta do superávit financeiro do balanço patrimonial anterior.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA finalidade de saúde e a compatibilidade com o planejamento tornam possível anular a dotação das transferências constitucionais para financiar a emenda.",
+      "correctAnswer": "E",
+      "explanation": "A emenda de mérito deve atender simultaneamente à compatibilidade e à regra de fonte. A Constituição protege dotações de transferências tributárias constitucionais de anulação para financiar essa emenda. Se a fonte fosse uma dotação discricionária passível de cancelamento, esse obstáculo não incidiria. Constituição Federal, art. 166, § 3º, I e II, c.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 74,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Anulação de dotação de pessoal e encargos não serve de fonte para essa emenda",
+        "caseId": "orca-ampl-hospital-e-emenda"
+      },
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Regras constitucionais para emendas ao orçamento anual"
+      ],
+      "reviewEvidence": "Calibração com p1 74. Anulação de dotação de pessoal e encargos não serve de fonte para essa emenda O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Regras constitucionais para emendas ao orçamento anual",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-superavit-emenda-alternativa",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "superavit-emenda-alternativa",
+      "mechanism": "superavit-emenda-alternativa",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma deputada apresentou emenda de mérito ao projeto federal da lei orçamentária para equipar hospitais públicos. A proposta era compatível com o plano plurianual e a lei de diretrizes. A autora apontou, como fonte, uma dotação destinada às transferências tributárias constitucionais a municípios. Depois, foi sugerida como alternativa a utilização direta do superávit financeiro do balanço patrimonial anterior.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nO superávit financeiro pode, sob requisitos próprios, financiar crédito especial, mas não substitui a indicação de anulação exigida da emenda de mérito descrita.",
+      "correctAnswer": "C",
+      "explanation": "A lei admite superávit financeiro apurado em balanço anterior como recurso para créditos suplementares e especiais, desde que disponível. A emenda ao projeto anual, nesse caso de ampliação de despesa, exige a indicação de recursos provenientes de anulação. Uma emenda de correção de erro ou omissão se enquadra em hipótese constitucional distinta. Lei nº 4.320/1964, art. 43, § 1º, I, e Constituição Federal, art. 166, § 3º, II e III.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 20,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Superávit como fonte de crédito não equivale a fonte de emenda à lei anual",
+        "caseId": "orca-ampl-hospital-e-emenda"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Emendas aos projetos orçamentários: critérios"
+      ],
+      "reviewEvidence": "Calibração com mpo 20. Superávit como fonte de crédito não equivale a fonte de emenda à lei anual O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Emendas aos projetos orçamentários: critérios",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Emendas aos projetos orçamentários: critérios"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-imposto-fonte-permanente",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "imposto-fonte-permanente",
+      "mechanism": "imposto-fonte-permanente",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O projeto de lei orçamentária anual federal estimou recursos de impostos para um programa regional de inclusão digital. Uma emenda propôs vincular permanentemente parte do Imposto sobre Produtos Industrializados ao programa, que não se enquadra nas ressalvas constitucionais à vinculação. Outra emenda reservou para o programa, naquele exercício, uma dotação à conta de recursos ordinários sem criar vinculação de receitas futuras. A proposta também criou, em seu texto, um fundo público para o programa.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA vinculação permanente da receita do imposto é permitida porque o programa já consta da proposta orçamentária.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição veda a vinculação de receita de impostos fora de hipóteses expressas, como ações e serviços públicos de saúde. A antecipação no projeto anual não cria exceção. A dotação anual com recursos ordinários permite programar gasto sem vincular permanentemente o produto do imposto. Constituição Federal, art. 167, IV.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 73,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Justificação não inclui criação de fundo entre ressalvas da lei orçamentária",
+        "caseId": "orca-ampl-rede-regional"
+      },
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Não afetação de impostos e as exceções"
+      ],
+      "reviewEvidence": "Calibração com p1 73. Justificação não inclui criação de fundo entre ressalvas da lei orçamentária O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Não afetação de impostos e as exceções",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Não afetação de impostos e as exceções"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-dotacao-recurso-ordinario",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "dotacao-recurso-ordinario",
+      "mechanism": "dotacao-recurso-ordinario",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O projeto de lei orçamentária anual federal estimou recursos de impostos para um programa regional de inclusão digital. Uma emenda propôs vincular permanentemente parte do Imposto sobre Produtos Industrializados ao programa, que não se enquadra nas ressalvas constitucionais à vinculação. Outra emenda reservou para o programa, naquele exercício, uma dotação à conta de recursos ordinários sem criar vinculação de receitas futuras. A proposta também criou, em seu texto, um fundo público para o programa.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nDestinar dotação anual ao programa com recursos ordinários não equivale à vinculação permanente do produto do imposto.",
+      "correctAnswer": "C",
+      "explanation": "A não afetação veda atrelar receita de impostos a órgão, fundo ou despesa, ressalvadas as hipóteses constitucionais. A dotação autoriza um montante de despesa no exercício. Se a regra reservasse ao programa uma parcela permanente do produto do imposto, trataria de uma vinculação de receita. Constituição Federal, art. 167, IV.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 71,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Receita e despesa são núcleo, com duas ressalvas taxativas",
+        "caseId": "orca-ampl-rede-regional"
+      },
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Não afetação de impostos e as exceções"
+      ],
+      "reviewEvidence": "Calibração com p1 71. Receita e despesa são núcleo, com duas ressalvas taxativas O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Não afetação de impostos e as exceções",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Não afetação de impostos e as exceções"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-rede-criacao-no-texto",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "rede-criacao-no-texto",
+      "mechanism": "rede-criacao-no-texto",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O projeto de lei orçamentária anual federal estimou recursos de impostos para um programa regional de inclusão digital. Uma emenda propôs vincular permanentemente parte do Imposto sobre Produtos Industrializados ao programa, que não se enquadra nas ressalvas constitucionais à vinculação. Outra emenda reservou para o programa, naquele exercício, uma dotação à conta de recursos ordinários sem criar vinculação de receitas futuras. A proposta também criou, em seu texto, um fundo público para o programa.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA previsão de dotação para o fundo permite incluir sua criação no texto da lei orçamentária anual.",
+      "correctAnswer": "E",
+      "explanation": "Criar fundo é matéria estranha à previsão de receita e à fixação de despesa e não integra as duas exceções da lei orçamentária anual. A instituição depende de autorização legislativa prévia e também está sujeita à vedação de criar fundo quando seus objetivos possam ser atingidos por outro meio constitucionalmente admitido. Se já existisse fundo válido, a lei anual poderia destinar-lhe dotações. Constituição Federal, arts. 165, § 8º, e 167, IX e XIV.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 73,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Justificação não inclui criação de fundo entre ressalvas da lei orçamentária",
+        "caseId": "orca-ampl-rede-regional"
+      },
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Exclusividade e suas duas exceções constitucionais"
+      ],
+      "reviewEvidence": "Calibração com p1 73. Justificação não inclui criação de fundo entre ressalvas da lei orçamentária O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Exclusividade e suas duas exceções constitucionais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Exclusividade e suas duas exceções constitucionais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-reforco-coleta-superavit",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "reforco-coleta-superavit",
+      "mechanism": "reforco-coleta-superavit",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma prefeitura identificou R$ 600 mil de superávit financeiro sem comprometimento com créditos transferidos, vinculado por lei à coleta de resíduos. A unidade solicitou R$ 400 mil para reforçar dotação insuficiente de coleta. A unidade de cultura solicitou R$ 200 mil para criar ação sem dotação específica e indicou o mesmo saldo.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA parcela disponível do superávit pode ser indicada como recurso para o crédito suplementar da coleta, respeitada a autorização legislativa.",
+      "correctAnswer": "C",
+      "explanation": "O superávit financeiro do balanço anterior pode financiar suplemento quando disponível e compatível com a finalidade legal. A coleta já possui dotação e coincide com a vinculação. Se faltasse dotação específica, o mesmo recurso poderia fundamentar um crédito especial para a coleta. Lei nº 4.320/1964, arts. 41 a 43, e Lei de Responsabilidade Fiscal, art. 8º, parágrafo único.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 20,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Superávit como fonte de crédito não equivale a fonte de emenda à lei anual",
+        "caseId": "orca-ampl-duas-fontes-credito"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
+      ],
+      "reviewEvidence": "Calibração com mpo 20. Superávit como fonte de crédito não equivale a fonte de emenda à lei anual O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Recursos disponíveis para suplementares e especiais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-cultura-saldo-vinculado",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "cultura-saldo-vinculado",
+      "mechanism": "cultura-saldo-vinculado",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma prefeitura identificou R$ 600 mil de superávit financeiro sem comprometimento com créditos transferidos, vinculado por lei à coleta de resíduos. A unidade solicitou R$ 400 mil para reforçar dotação insuficiente de coleta. A unidade de cultura solicitou R$ 200 mil para criar ação sem dotação específica e indicou o mesmo saldo.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA parcela de R$ 200 mil pode financiar a ação de cultura por se tratar de saldo apurado no exercício anterior.",
+      "correctAnswer": "E",
+      "explanation": "Recursos legalmente vinculados mantêm a destinação ainda que o ingresso tenha ocorrido em exercício anterior. O superávit vinculado à coleta não financia cultura. Se houvesse saldo livre ou vinculado à política cultural e disponível, poderia ser indicado nos termos da lei. Lei de Responsabilidade Fiscal, art. 8º, parágrafo único, e Lei nº 4.320/1964, art. 43.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 88,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Recurso livre também recebe classificação de fonte",
+        "caseId": "orca-ampl-duas-fontes-credito"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
+      ],
+      "reviewEvidence": "Calibração com p1 88. Recurso livre também recebe classificação de fonte O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Recursos disponíveis para suplementares e especiais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-acao-nova-credito-especial",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "acao-nova-credito-especial",
+      "mechanism": "acao-nova-credito-especial",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Uma prefeitura identificou R$ 600 mil de superávit financeiro sem comprometimento com créditos transferidos, vinculado por lei à coleta de resíduos. A unidade solicitou R$ 400 mil para reforçar dotação insuficiente de coleta. A unidade de cultura solicitou R$ 200 mil para criar ação sem dotação específica e indicou o mesmo saldo.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nEncontrada uma fonte válida, o crédito para criar a ação cultural será especial, pois falta dotação específica.",
+      "correctAnswer": "C",
+      "explanation": "O crédito especial atende despesa sem dotação específica. O crédito suplementar reforçaria dotação existente, como no caso da coleta. Em ambos, a indicação de recursos disponíveis e a prévia autorização são exigidas. Lei nº 4.320/1964, arts. 41 a 43.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "199_cge_al_001_01",
+        "item": 106,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf",
+        "mechanism": "Insuficiência de dotação existente caracteriza crédito suplementar",
+        "caseId": "orca-ampl-duas-fontes-credito"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+      ],
+      "reviewEvidence": "Calibração com cge 106. Insuficiência de dotação existente caracteriza crédito suplementar O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Suplementar, especial e extraordinário",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-provisao-mesma-estrutura",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-743d234d819842d1",
+      "conceptId": "provisao-mesma-estrutura",
+      "mechanism": "provisao-mesma-estrutura",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Um ministério celebrou termo de execução descentralizada com uma autarquia integrante de sua própria estrutura, para produzir uma base georreferenciada. O crédito foi movimentado à unidade executora, mas a primeira liberação financeira estava prevista para meses depois. A autarquia já possuía dotação própria para outro projeto.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA movimentação descrita é uma descentralização interna de crédito. No vocabulário orçamentário federal, classifica-se como provisão.",
+      "correctAnswer": "C",
+      "explanation": "No âmbito federal, a movimentação de crédito entre unidades no mesmo órgão constitui provisão. A autarquia está na estrutura informada no caso. Se a movimentação se desse entre estruturas de órgãos distintos, seria destaque. Manual Técnico de Orçamento, seção Descentralização de Créditos Orçamentários.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 31,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Movimentação entre ministérios atravessa estruturas distintas",
+        "caseId": "orca-ampl-credito-e-dinheiro"
+      },
+      "theoryRefs": [
+        "article:art-743d234d819842d1#Descentralização de crédito × descentralização financeira"
+      ],
+      "reviewEvidence": "Calibração com mpo 31. Movimentação entre ministérios atravessa estruturas distintas O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Descentralização de crédito × descentralização financeira",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira.md",
+        "section": "Descentralização de crédito × descentralização financeira"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-tec-descentralizacao-nao-credito-adicional",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-743d234d819842d1",
+      "conceptId": "tec-descentralizacao-nao-credito-adicional",
+      "mechanism": "tec-descentralizacao-nao-credito-adicional",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Um ministério celebrou termo de execução descentralizada com uma autarquia integrante de sua própria estrutura, para produzir uma base georreferenciada. O crédito foi movimentado à unidade executora, mas a primeira liberação financeira estava prevista para meses depois. A autarquia já possuía dotação própria para outro projeto.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nO crédito descentralizado eleva o valor total da autorização orçamentária para o projeto e equivale à abertura de suplemento.",
+      "correctAnswer": "E",
+      "explanation": "A descentralização distribui a execução de crédito já autorizado entre unidades, preservando o objeto e a programação. A abertura de crédito suplementar reforçaria a autorização de uma dotação existente. Lei nº 4.320/1964, arts. 40 e 41, e Manual Técnico de Orçamento, seção Descentralização de Créditos Orçamentários.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 81,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Distinguir alteração da dotação, descentralização e evidência no sistema",
+        "caseId": "orca-ampl-credito-e-dinheiro"
+      },
+      "theoryRefs": [
+        "article:art-743d234d819842d1#Descentralização de crédito × descentralização financeira"
+      ],
+      "reviewEvidence": "Calibração com p1 81. Distinguir alteração da dotação, descentralização e evidência no sistema O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Descentralização de crédito × descentralização financeira",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira.md",
+        "section": "Descentralização de crédito × descentralização financeira"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-tec-credito-e-financeiro",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-743d234d819842d1",
+      "conceptId": "tec-credito-e-financeiro",
+      "mechanism": "tec-credito-e-financeiro",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Um ministério celebrou termo de execução descentralizada com uma autarquia integrante de sua própria estrutura, para produzir uma base georreferenciada. O crédito foi movimentado à unidade executora, mas a primeira liberação financeira estava prevista para meses depois. A autarquia já possuía dotação própria para outro projeto.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA movimentação de crédito, por si só, não permite concluir que já exista caixa à disposição da unidade executora para pagamento.",
+      "correctAnswer": "C",
+      "explanation": "A descentralização orçamentária transfere a possibilidade de executar o crédito dentro de sua programação. A disponibilidade financeira segue o cronograma e a liberação de recursos. Se o repasse financeiro também tivesse ocorrido, haveria evidência adicional sobre o caixa disponível. Lei de Responsabilidade Fiscal, art. 8º, e Manual Técnico de Orçamento, seção Descentralização de Créditos Orçamentários.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 166,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Ter direito verificado não garante caixa disponível, sem afastar obrigações e prazos",
+        "caseId": "orca-ampl-credito-e-dinheiro"
+      },
+      "theoryRefs": [
+        "article:art-743d234d819842d1#Execução orçamentária × execução financeira"
+      ],
+      "reviewEvidence": "Calibração com cd 166. Ter direito verificado não garante caixa disponível, sem afastar obrigações e prazos O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Execução orçamentária × execução financeira",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira.md",
+        "section": "Execução orçamentária × execução financeira"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-despesa-quatro-exercicios",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "despesa-quatro-exercicios",
+      "mechanism": "despesa-quatro-exercicios",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Um município pretende ampliar por lei o atendimento odontológico com uma despesa corrente obrigatória por quatro exercícios. O projeto identifica redução permanente de uma despesa discricionária para absorver o impacto. Em projeto separado, o município prevê isenção tributária seletiva a um setor, com diminuição de receita durante três exercícios.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA ampliação legal do atendimento constitui despesa obrigatória de caráter continuado, considerando a duração indicada.",
+      "correctAnswer": "C",
+      "explanation": "Despesa corrente imposta por lei, medida provisória ou ato normativo como obrigação por período superior a dois exercícios é continuada. A lei municipal prevê quatro. Uma obrigação corrente por exatamente dois exercícios ficaria fora dessa definição, embora possa atrair outros requisitos fiscais. Lei de Responsabilidade Fiscal, art. 17, caput.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 38,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Redução permanente de despesa também pode compensar aumento continuado",
+        "caseId": "orca-ampl-odontologia-politica"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Receita, geração de despesas e compromissos continuados"
+      ],
+      "reviewEvidence": "Calibração com mpo 38. Redução permanente de despesa também pode compensar aumento continuado O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Receita, geração de despesas e compromissos continuados",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Receita, geração de despesas e compromissos continuados"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-reducao-permanente-odontologia",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "reducao-permanente-odontologia",
+      "mechanism": "reducao-permanente-odontologia",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Um município pretende ampliar por lei o atendimento odontológico com uma despesa corrente obrigatória por quatro exercícios. O projeto identifica redução permanente de uma despesa discricionária para absorver o impacto. Em projeto separado, o município prevê isenção tributária seletiva a um setor, com diminuição de receita durante três exercícios.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA redução permanente da despesa é inadequada como compensação, pois o aumento continuado exige arrecadação adicional permanente.",
+      "correctAnswer": "E",
+      "explanation": "A compensação do aumento continuado pode ocorrer por aumento permanente de receita ou redução permanente de despesa. A redução identificada pode atender a essa condição, com a demonstração do impacto e dos demais requisitos. Um corte limitado a um único exercício não produziria a compensação permanente exigida. Lei de Responsabilidade Fiscal, art. 17, §§ 1º a 3º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 38,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Redução permanente de despesa também pode compensar aumento continuado",
+        "caseId": "orca-ampl-odontologia-politica"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Receita, geração de despesas e compromissos continuados"
+      ],
+      "reviewEvidence": "Calibração com mpo 38. Redução permanente de despesa também pode compensar aumento continuado O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Receita, geração de despesas e compromissos continuados",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Receita, geração de despesas e compromissos continuados"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-isencao-seletiva-estimativa",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "isencao-seletiva-estimativa",
+      "mechanism": "isencao-seletiva-estimativa",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Um município pretende ampliar por lei o atendimento odontológico com uma despesa corrente obrigatória por quatro exercícios. O projeto identifica redução permanente de uma despesa discricionária para absorver o impacto. Em projeto separado, o município prevê isenção tributária seletiva a um setor, com diminuição de receita durante três exercícios.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA isenção seletiva exige estimativa de impacto para o exercício de início e os dois seguintes, além das demais condições legais da renúncia.",
+      "correctAnswer": "C",
+      "explanation": "Benefício tributário seletivo com renúncia exige estimativa para o primeiro exercício e os dois seguintes, compatibilidade com a lei de diretrizes e atendimento a uma das condições do art. 14. A estimativa isolada não comprova a condição escolhida. Uma isenção geral sem tratamento diferenciado exige análise distinta do enquadramento. Lei de Responsabilidade Fiscal, art. 14, caput e § 1º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_003_01",
+        "item": 110,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_003_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_003_01.pdf",
+        "mechanism": "Caráter diferenciado e redução discriminada separam o benefício da regra geral",
+        "caseId": "orca-ampl-odontologia-politica"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Receita, geração de despesas e compromissos continuados"
+      ],
+      "reviewEvidence": "Calibração com p3 110. Caráter diferenciado e redução discriminada separam o benefício da regra geral O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Receita, geração de despesas e compromissos continuados",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Receita, geração de despesas e compromissos continuados"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-taxa-digital-destino",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-743d234d819842d1",
+      "conceptId": "taxa-digital-destino",
+      "mechanism": "taxa-digital-destino",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma autarquia federal arrecadou uma taxa própria por canal digital. O fornecedor do sistema propôs que os valores permanecessem em uma conta bancária da contratada até o fim do trimestre. Por outro lado, uma comissão de licitação mantinha caução em dinheiro a restituir ao depositante após o término de um contrato.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nComo a taxa foi paga por canal digital, os recursos podem permanecer na conta da operadora como disponibilidade da União até o fechamento trimestral.",
+      "correctAnswer": "E",
+      "explanation": "O canal de pagamento facilita a arrecadação, preservada a destinação dos valores à Conta Única do Tesouro Nacional. A previsão de mantê-los como disponibilidade da União em conta da operadora confunde o meio com o destino. O pagamento por guia convencional também observa o recolhimento centralizado. Constituição Federal, art. 164, § 3º, e Decreto nº 10.494/2020, arts. 1º a 3º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 169,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Canal de pagamento distinto da destinação dos valores",
+        "caseId": "orca-ampl-fundos-e-taxas"
+      },
+      "theoryRefs": [
+        "article:art-743d234d819842d1#Conta Única: fundamento, localização e administração"
+      ],
+      "reviewEvidence": "Calibração com cd 169. Canal de pagamento distinto da destinação dos valores O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Conta Única: fundamento, localização e administração",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira.md",
+        "section": "Conta Única: fundamento, localização e administração"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-caucao-restituicao-despesa",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-4677cfa327ce43bb",
+      "conceptId": "caucao-restituicao-despesa",
+      "mechanism": "caucao-restituicao-despesa",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma autarquia federal arrecadou uma taxa própria por canal digital. O fornecedor do sistema propôs que os valores permanecessem em uma conta bancária da contratada até o fim do trimestre. Por outro lado, uma comissão de licitação mantinha caução em dinheiro a restituir ao depositante após o término de um contrato.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nAo devolver a caução, a autarquia pode tratar o desembolso como restituição extraorçamentária, correspondente à baixa da obrigação de devolver o valor.",
+      "correctAnswer": "C",
+      "explanation": "A caução temporária é entrada compensatória, com obrigação correspondente de restituição. Devolvê-la é baixar essa obrigação, sem executar nova despesa orçamentária. Se o desembolso remunerasse o serviço contratado, a despesa seria orçamentária. Lei nº 4.320/1964, art. 3º, parágrafo único.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 87,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Ingressos temporários não passam à lei orçamentária por conta da movimentação interna",
+        "caseId": "orca-ampl-fundos-e-taxas"
+      },
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Receita orçamentária × ingresso extraorçamentário"
+      ],
+      "reviewEvidence": "Calibração com p1 87. Ingressos temporários não passam à lei orçamentária por conta da movimentação interna O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Receita orçamentária × ingresso extraorçamentário",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+        "section": "Receita orçamentária × ingresso extraorçamentário"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-cronograma-meta-fisica",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "cronograma-meta-fisica",
+      "mechanism": "cronograma-meta-fisica",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma unidade federal pretende publicar um serviço digital com dotação suficiente. O cronograma financeiro posterga a liberação de caixa. Ao fim do bimestre, entretanto, há notícia de provável frustração de receita e o órgão setorial começa a estimar o efeito sobre a meta fiscal. A unidade de comunicação alega que uma meta física aprovada dispensa adequar a execução ao cronograma.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA meta física aprovada permite à unidade exercer a autorização orçamentária e pagar o fornecedor antes da liberação de caixa.",
+      "correctAnswer": "E",
+      "explanation": "Meta física informa o resultado planejado, ao passo que o pagamento depende de execução regular e de disponibilidade financeira conforme programação. Ter dotação e meta não libera dinheiro. Havendo caixa e ordem após liquidação, o pagamento pode prosseguir quando atendidos os demais requisitos. Lei de Responsabilidade Fiscal, art. 8º, e Lei nº 4.320/1964, arts. 62 a 64.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 166,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Ter direito verificado não garante caixa disponível, sem afastar obrigações e prazos",
+        "caseId": "orca-ampl-limite-produtos-unidade"
+      },
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Programação financeira: art. 8º da LRF"
+      ],
+      "reviewEvidence": "Calibração com cd 166. Ter direito verificado não garante caixa disponível, sem afastar obrigações e prazos O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Programação financeira: art. 8º da LRF",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Programação financeira: art. 8º da LRF"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-cronograma-contingencia-distincao",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "cronograma-contingencia-distincao",
+      "mechanism": "cronograma-contingencia-distincao",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma unidade federal pretende publicar um serviço digital com dotação suficiente. O cronograma financeiro posterga a liberação de caixa. Ao fim do bimestre, entretanto, há notícia de provável frustração de receita e o órgão setorial começa a estimar o efeito sobre a meta fiscal. A unidade de comunicação alega que uma meta física aprovada dispensa adequar a execução ao cronograma.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA postergação financeira prevista no cronograma e uma eventual limitação de empenho por risco fiscal exigem fundamentos distintos.",
+      "correctAnswer": "C",
+      "explanation": "A programação organiza o fluxo de pagamentos. A limitação de empenho e de movimentação financeira é medida ligada ao risco de descumprimento das metas, apurado ao fim do bimestre. Atraso no cronograma, isoladamente, não configura o gatilho do contingenciamento. Lei de Responsabilidade Fiscal, arts. 8º e 9º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 26,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Anexo de metas não se confunde com vedações e tetos legais",
+        "caseId": "orca-ampl-limite-produtos-unidade"
+      },
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Limitação de empenho × bloqueio × anulação"
+      ],
+      "reviewEvidence": "Calibração com mpo 26. Anexo de metas não se confunde com vedações e tetos legais O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Limitação de empenho × bloqueio × anulação",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Limitação de empenho × bloqueio × anulação"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-tipo-empenho-parcelado",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "tipo-empenho-parcelado",
+      "mechanism": "tipo-empenho-parcelado",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Uma unidade federal adquiriu itens de consumo com entregas parceladas e preço contratual total conhecido. Antes da assinatura, reservou administrativamente parte da dotação. Após o empenho regular, parte do material foi entregue acompanhada de nota fiscal, cuja quantidade excedia o recebido. Havia dinheiro suficiente para o pagamento integral previsto no contrato.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nPara o contrato com valor determinado e entregas parceladas, cabe empenho global.",
+      "correctAnswer": "C",
+      "explanation": "A Lei nº 4.320/1964 permite empenho global para despesas contratuais sujeitas a parcelamento. O valor total do contrato é conhecido. Se o montante não pudesse ser determinado previamente, seria caso de empenho por estimativa. Art. 60, §§ 2º e 3º.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 164,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Compromisso orçamentário precede verificação definitiva do credor",
+        "caseId": "orca-ampl-material-sob-encomenda"
+      },
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Empenho: reserva e obrigação orçamentária"
+      ],
+      "reviewEvidence": "Calibração com cd 164. Compromisso orçamentário precede verificação definitiva do credor O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Empenho: reserva e obrigação orçamentária",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Empenho: reserva e obrigação orçamentária"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-reserva-aquisicao-nota",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "reserva-aquisicao-nota",
+      "mechanism": "reserva-aquisicao-nota",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma unidade federal adquiriu itens de consumo com entregas parceladas e preço contratual total conhecido. Antes da assinatura, reservou administrativamente parte da dotação. Após o empenho regular, parte do material foi entregue acompanhada de nota fiscal, cuja quantidade excedia o recebido. Havia dinheiro suficiente para o pagamento integral previsto no contrato.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA reserva administrativa inicial é o ato de empenho, já que indisponibilizou crédito para a compra.",
+      "correctAnswer": "E",
+      "explanation": "O pré-empenho é uma reserva administrativa. O empenho é o ato da autoridade competente que cria obrigação de pagamento pendente ou não de condição. Uma reserva sem empenho regular não autoriza a realização da despesa. Lei nº 4.320/1964, arts. 58 e 60, e Manual Técnico de Orçamento, seção Execução da Despesa.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 33,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Pré-empenho é instrumento facultativo para indisponibilizar crédito",
+        "caseId": "orca-ampl-material-sob-encomenda"
+      },
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Empenho: reserva e obrigação orçamentária"
+      ],
+      "reviewEvidence": "Calibração com mpo 33. Pré-empenho é instrumento facultativo para indisponibilizar crédito O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Empenho: reserva e obrigação orçamentária",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Empenho: reserva e obrigação orçamentária"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-liquidacao-nota-divergente",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "liquidacao-nota-divergente",
+      "mechanism": "liquidacao-nota-divergente",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma unidade federal adquiriu itens de consumo com entregas parceladas e preço contratual total conhecido. Antes da assinatura, reservou administrativamente parte da dotação. Após o empenho regular, parte do material foi entregue acompanhada de nota fiscal, cuja quantidade excedia o recebido. Havia dinheiro suficiente para o pagamento integral previsto no contrato.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA nota fiscal e o saldo de caixa autorizam liquidar o valor integral faturado antes de confirmar o recebimento da quantidade remanescente.",
+      "correctAnswer": "E",
+      "explanation": "A liquidação exige comprovar o direito do credor e apurar a importância exata a pagar. Documento fiscal e caixa não superam a divergência de quantidade. Se a entrega integral fosse comprovada, a unidade poderia liquidar o valor integral devido. Lei nº 4.320/1964, arts. 62 e 63.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 163,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Documento fiscal não substitui evidência do cumprimento da prestação",
+        "caseId": "orca-ampl-material-sob-encomenda"
+      },
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Liquidação: verificar o direito do credor"
+      ],
+      "reviewEvidence": "Calibração com cd 163. Documento fiscal não substitui evidência do cumprimento da prestação O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Liquidação: verificar o direito do credor",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Liquidação: verificar o direito do credor"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-competencia-entrega-armarios",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "competencia-entrega-armarios",
+      "mechanism": "competencia-entrega-armarios",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em 18 de dezembro, uma secretaria empenhou a aquisição de armários. A empresa entregou e instalou os bens em 28 de dezembro. O fiscal confirmou a entrega em 3 de janeiro, quando a rotina formal de liquidação foi concluída. O pagamento ocorreu em fevereiro.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nConfirmada a entrega em dezembro, o reconhecimento patrimonial da obrigação pode pertencer a dezembro, embora a liquidação formal tenha sido concluída em janeiro.",
+      "correctAnswer": "C",
+      "explanation": "O passivo patrimonial é reconhecido quando nasce a obrigação presente, que neste caso decorre da entrega de dezembro. A liquidação verifica formalmente o direito com base em documentos e pode vir depois. Se a entrega tivesse ocorrido em janeiro, o fato gerador patrimonial também seria de janeiro. Manual de Contabilidade Aplicada ao Setor Público, Parte II, e Lei nº 4.320/1964, art. 63.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_003_01",
+        "item": 102,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_003_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_003_01.pdf",
+        "mechanism": "Fato gerador pode exigir reconhecimento patrimonial anterior à liquidação formal",
+        "caseId": "orca-ampl-entrega-armarios"
+      },
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Despesa empenhada em um exercício e paga no seguinte"
+      ],
+      "reviewEvidence": "Calibração com p3 102. Fato gerador pode exigir reconhecimento patrimonial anterior à liquidação formal O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Despesa empenhada em um exercício e paga no seguinte",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Despesa empenhada em um exercício e paga no seguinte"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-inscricao-entrega-armarios",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "inscricao-entrega-armarios",
+      "mechanism": "inscricao-entrega-armarios",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em 18 de dezembro, uma secretaria empenhou a aquisição de armários. A empresa entregou e instalou os bens em 28 de dezembro. O fiscal confirmou a entrega em 3 de janeiro, quando a rotina formal de liquidação foi concluída. O pagamento ocorreu em fevereiro.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA entrega em dezembro basta para classificar o saldo como resto a pagar processado na virada, embora a liquidação formal tenha ocorrido em janeiro.",
+      "correctAnswer": "E",
+      "explanation": "Resto a pagar processado exige despesa liquidada até o encerramento. Entrega e reconhecimento patrimonial do passivo não substituem a liquidação orçamentária. Se a liquidação também fosse concluída em dezembro, a classificação seria de processado. Lei nº 4.320/1964, art. 36.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 90,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Liquidação até o encerramento é o divisor",
+        "caseId": "orca-ampl-entrega-armarios"
+      },
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Restos a pagar: condição e espécie"
+      ],
+      "reviewEvidence": "Calibração com p1 90. Liquidação até o encerramento é o divisor O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Restos a pagar: condição e espécie",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Restos a pagar: condição e espécie"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-transparencia-ate-entrega",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "transparencia-ate-entrega",
+      "mechanism": "transparencia-ate-entrega",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Uma autarquia federal publicou o orçamento inicial de uma política, mas não divulgou os dados de execução. Ao analisar a política, a auditoria interna identificou baixa entrega. O dirigente argumentou que o Congresso e o Tribunal de Contas só poderiam atuar depois do encerramento do exercício.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA divulgação do orçamento inicial satisfaz a transparência fiscal da execução, desde que a auditoria interna consiga consultar os pagamentos.",
+      "correctAnswer": "E",
+      "explanation": "A transparência exige divulgar instrumentos de planejamento e informações pormenorizadas da execução orçamentária e financeira. O acesso interno aos pagamentos não atende à publicidade da execução. A divulgação pública tempestiva dos dados exigidos é a providência pertinente. Lei de Responsabilidade Fiscal, arts. 48 e 48-A.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "199_cge_al_001_01",
+        "item": 101,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf",
+        "mechanism": "Publicidade inclui orçamento previsto e execução",
+        "caseId": "orca-ampl-audiencia-e-contas"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Transparência fiscal × fiscalização × responsabilização"
+      ],
+      "reviewEvidence": "Calibração com cge 101. Publicidade inclui orçamento previsto e execução O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Transparência fiscal × fiscalização × responsabilização",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Transparência fiscal × fiscalização × responsabilização"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-ampl-controle-interno-resultados",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "controle-interno-resultados",
+      "mechanism": "controle-interno-resultados",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma autarquia federal publicou o orçamento inicial de uma política, mas não divulgou os dados de execução. Ao analisar a política, a auditoria interna identificou baixa entrega. O dirigente argumentou que o Congresso e o Tribunal de Contas só poderiam atuar depois do encerramento do exercício.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nAvaliar o cumprimento de metas durante a execução integra as atribuições do controle interno, sem afastar a fiscalização externa.",
+      "correctAnswer": "C",
+      "explanation": "O controle interno avalia metas e resultados da gestão e apoia o controle externo. O Congresso exerce controle externo com auxílio do Tribunal de Contas da União, que pode trabalhar mediante auditorias durante o exercício. O julgamento anual de contas tem rito próprio. Constituição Federal, arts. 70, 71 e 74.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "199_cge_al_001_01",
+        "item": 115,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf",
+        "mechanism": "Cada Poder mantém sistema integrado com funções de legalidade e avaliação de resultados",
+        "caseId": "orca-ampl-audiencia-e-contas"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Fiscalização orçamentária: Congresso e Tribunal de Contas da União"
+      ],
+      "reviewEvidence": "Calibração com cge 115. Cada Poder mantém sistema integrado com funções de legalidade e avaliação de resultados O comentário identifica a regra aplicável e o fato decisivo.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Fiscalização orçamentária: Congresso e Tribunal de Contas da União",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Fiscalização orçamentária: Congresso e Tribunal de Contas da União"
+      },
+      "reviewStatus": "validada"
     }
   ]
 }

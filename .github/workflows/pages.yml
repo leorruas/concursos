@@ -100,10 +100,11 @@ jobs:
       - name: Testar ranking real da busca
         run: node scripts/test-search-ranking.js
       - uses: actions/configure-pages@v5
-      # Usar o nome padrão esperado pelo deploy-pages. O nome customizado
-      # aparecia na API de Actions, mas o deploy-pages não o localizava.
+      # Cada tentativa recebe um nome próprio: execuções repetidas do mesmo
+      # run podem deixar artefatos anteriores com o nome fixo no GitHub Actions.
       - uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages-${{ github.run_attempt }}
           path: ./_site
       # A API do Pages pode demorar alguns segundos a indexar um artefato
       # que a API de Actions já confirmou como enviado.
@@ -112,6 +113,8 @@ jobs:
       - id: deployment
         name: Publicar no Pages
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
       - name: Confirmar catálogo publicado no Pages
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}

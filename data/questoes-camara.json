@@ -86226,6 +86226,222 @@
         "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/ARSAL_26/arquivos/F93FCCABA72987BCAF35352D0FE5CFFDB8225C04BEB8F14B33CCA3786333931E.pdf",
         "mechanism": "Ligar resultado econômico a remuneração e desconto"
       }
+    },
+    {
+      "id": "ca-orc-cal-mensagem-parte-autonoma",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "mensagem-parte-autonoma",
+      "mechanism": "mensagem-parte-autonoma",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Na Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, começou a votação da parte do projeto de orçamento relativa ao Ministério da Cultura. A parte relativa às dotações de saúde ainda não entrou em votação. Nesse momento, o presidente da República pode propor por mensagem uma modificação restrita à parte da saúde.",
+      "correctAnswer": "C",
+      "explanation": "O presidente pode enviar mensagem modificativa de projeto orçamentário enquanto a comissão mista ainda não iniciou a votação da parte que se pretende alterar. O marco é o início da votação do trecho atingido. Como o pedido se limita à saúde, a votação da parte da cultura não impede a mensagem. Se a votação da parte da saúde já tivesse começado, a faculdade estaria encerrada para aquele trecho. Constituição Federal, art. 166, § 5º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "018_stj_007_01",
+        "item": 88,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_007_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_007_01.PDF",
+        "mechanism": "Votação da matéria específica, na comissão mista, é o marco que encerra a possibilidade"
+      },
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Sequência do projeto: do recebimento à lei"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial stj 88: Votação da matéria específica, na comissão mista, é o marco que encerra a possibilidade. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Sequência do projeto: do recebimento à lei",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "Sequência do projeto: do recebimento à lei"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-fonte-reserva-versus-superavit",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "fonte-reserva-versus-superavit",
+      "mechanism": "fonte-reserva-versus-superavit",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma emenda parlamentar ao projeto de lei orçamentária anual cria despesa compatível com os instrumentos de planejamento. Para financiá-la, indica como fonte o superávit financeiro do exercício anterior, sem anular programação existente. A fonte escolhida atende ao requisito constitucional das emendas de despesa.",
+      "correctAnswer": "E",
+      "explanation": "Para incluir despesa no projeto de lei orçamentária anual, a emenda parlamentar deve indicar recursos de anulação de despesa, respeitadas as categorias protegidas. Antes de executar, é preciso distinguir esse procedimento da abertura de crédito adicional, em que o superávit financeiro pode ser fonte. Se a emenda anulasse uma dotação de custeio não protegida e cumprisse os demais requisitos, a fonte poderia ser admitida. Constituição Federal, art. 166, § 3º, e Lei nº 4.320/1964, art. 43, § 1º, I.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 20,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Superávit como fonte de crédito não equivale a fonte de emenda à lei anual"
+      },
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Regras constitucionais para emendas ao orçamento anual"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 20: Superávit como fonte de crédito não equivale a fonte de emenda à lei anual. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Regras constitucionais para emendas ao orçamento anual",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-reabertura-saldo-duas-especies",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "reabertura-saldo-duas-especies",
+      "mechanism": "reabertura-saldo-duas-especies",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A União abriu em outubro dois créditos adicionais. Um criou dotação para um projeto inédito e outro reforçou dotação insuficiente de um projeto existente. Ambos tinham saldo em dezembro. O limite de reabertura em janeiro resulta da soma dos saldos dos dois créditos.",
+      "correctAnswer": "E",
+      "explanation": "O crédito especial cria dotação inexistente e pode ser reaberto até o saldo se o ato autorizador for promulgado nos últimos quatro meses do exercício. O suplementar apenas reforça dotação e não entra nessa exceção. No caso, a soma incluiria indevidamente o saldo do suplementar. Se ambos fossem especiais e cumprissem o marco temporal, o raciocínio sobre a soma poderia ser válido. Constituição Federal, art. 167, § 2º, e Lei nº 4.320/1964, art. 41, I e II.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 30,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Últimos quatro meses e saldo remanescente delimitam a reabertura"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Vigência e reabertura"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 30: Últimos quatro meses e saldo remanescente delimitam a reabertura. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Vigência e reabertura",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Vigência e reabertura"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-despesa-irregular-primeiro-ato",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-c917e4a2d63b508f",
+      "conceptId": "despesa-irregular-primeiro-ato",
+      "mechanism": "despesa-irregular-primeiro-ato",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "A Comissão Mista de Planos, Orçamentos Públicos e Fiscalização detectou indícios de subsídio não aprovado. Antes de pedir pronunciamento conclusivo ao Tribunal de Contas da União, a comissão pode solicitar esclarecimentos à autoridade governamental responsável, com prazo de cinco dias.",
+      "correctAnswer": "C",
+      "explanation": "O rito começa pela solicitação de esclarecimentos à autoridade responsável. Se a resposta não vier no prazo de cinco dias ou for insuficiente, a comissão solicita pronunciamento conclusivo do Tribunal de Contas da União, no prazo de trinta dias. Se o pronunciamento concluir pela irregularidade e a comissão entender que pode haver dano irreparável ou grave lesão à economia pública, ela propõe a sustação ao Congresso. Constituição Federal, art. 72.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 40,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Solicitação de esclarecimentos em cinco dias precede medidas subsequentes"
+      },
+      "theoryRefs": [
+        "article:art-c917e4a2d63b508f#Competências constitucionais e regimentais"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 40: Solicitação de esclarecimentos em cinco dias precede medidas subsequentes. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Competências constitucionais e regimentais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias.md",
+        "section": "Competências constitucionais e regimentais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-lei-anual-autorizacao-fundo",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "lei-anual-autorizacao-fundo",
+      "mechanism": "lei-anual-autorizacao-fundo",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O projeto de lei orçamentária anual contém autorização para operações de crédito e um dispositivo que institui um fundo de proteção do patrimônio cultural. A vinculação entre a receita do empréstimo e as despesas do fundo torna os dois dispositivos compatíveis com o princípio da exclusividade.",
+      "correctAnswer": "E",
+      "explanation": "A lei orçamentária anual prevê receitas e fixa despesas. Pode também autorizar créditos suplementares e operações de crédito. A instituição de um fundo é providência normativa distinta e não integra essas exceções, ainda que a programação preveja financiá-lo. Se houvesse apenas a autorização para a operação de crédito, essa cláusula estaria abrangida pela ressalva da exclusividade. Constituição Federal, arts. 165, § 8º, e 167, IX.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 73,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Justificação não inclui criação de fundo entre ressalvas da lei orçamentária"
+      },
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Exclusividade e suas duas exceções constitucionais"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p1 73: Justificação não inclui criação de fundo entre ressalvas da lei orçamentária. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Exclusividade e suas duas exceções constitucionais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Exclusividade e suas duas exceções constitucionais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-impedimento-emenda-com-projeto",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "impedimento-emenda-com-projeto",
+      "mechanism": "impedimento-emenda-com-projeto",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Um projeto incluído no orçamento por emenda individual depende de licenciamento ambiental. A unidade executora comprovou que o licenciamento exigido ainda não foi obtido e que isso impossibilita tecnicamente a execução. A existência de dotação e o caráter impositivo da emenda não afastam esse impedimento.",
+      "correctAnswer": "C",
+      "explanation": "A execução das programações oriundas de emendas individuais é obrigatória nos limites constitucionais, ressalvado impedimento de ordem técnica. Se o licenciamento é necessário e sua ausência impede executar, dotação e impositividade não suprirão o requisito. Se o impedimento for superado e as demais condições estiverem satisfeitas, volta a incidir a obrigação de execução. Constituição Federal, art. 166, §§ 11 e 13.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 36,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Impedimento técnico afasta obrigatoriedade nas hipóteses constitucionais"
+      },
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Emendas impositivas: obrigatoriedade condicionada"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 36: Impedimento técnico afasta obrigatoriedade nas hipóteses constitucionais. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Emendas impositivas: obrigatoriedade condicionada",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Emendas impositivas: obrigatoriedade condicionada"
+      },
+      "reviewStatus": "validada"
     }
   ]
 }

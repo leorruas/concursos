@@ -18625,8 +18625,8 @@
       },
       "statement": "De um suprimento concedido em novembro, R$ 150 sem aplicação são devolvidos em dezembro e outros R$ 70 em janeiro seguinte. A primeira restituição anula parte da despesa e a segunda é receita orçamentária do novo exercício.",
       "correctAnswer": "C",
-      "explanation": "Os recolhimentos são classificados separadamente. No mesmo exercício, ocorre anulação da despesa. Depois de seu encerramento, a restituição constitui receita orçamentária.",
-      "reviewEvidence": "Conferência com a seção vinculada e o Decreto nº 93.872/1986, art. 45, § 1º. https://www.planalto.gov.br/ccivil_03/decreto/d93872.htm"
+      "explanation": "O suprimento é contabilizado inicialmente como despesa realizada. Se o valor não aplicado (ou aplicado indevidamente) retorna antes do encerramento do mesmo exercício, a restituição anula a despesa correspondente; se o recolhimento ocorre depois do encerramento, entra como receita orçamentária. Assim, os R$ 150 devolvidos em dezembro reduzem a despesa daquele exercício, enquanto os R$ 70 recolhidos em janeiro, após seu fechamento, são receita do exercício seguinte. O marco que muda o tratamento é o encerramento do exercício, não o fato de os valores pertencerem ao mesmo suprimento. (Decreto nº 93.872/1986, art. 45, § 1º.)",
+      "reviewEvidence": "Conferido com o Decreto nº 93.872/1986, art. 45, § 1º: restituição de suprimento por falta de aplicação ou aplicação indevida anula a despesa se recolhida no exercício; após o encerramento, constitui receita orçamentária. Fonte oficial: https://www.planalto.gov.br/ccivil_03/decreto/d93872.htm"
     },
     {
       "origin": "inedita",
@@ -22097,8 +22097,8 @@
       },
       "statement": "No fechamento do bimestre, a arrecadação projetada indica risco de descumprimento da meta de resultado primário. A limitação de empenho e movimentação financeira deve observar os critérios da LDO e ocorrer nos trinta dias seguintes.",
       "correctAnswer": "C",
-      "explanation": "O art. 9º toma por referência o risco para a meta apurado no fechamento bimestral e prevê a adoção das medidas em montante necessário.",
-      "reviewEvidence": "Conferência com a seção vinculada e a LRF, art. 9º. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+      "explanation": "O contingenciamento (limitação de empenho e de movimentação financeira) é acionado quando, ao fim de um bimestre, a receita poderá não comportar o cumprimento das metas de resultado primário ou nominal. Identificado esse risco, os Poderes e o Ministério Público devem promover, cada qual por ato próprio, as limitações necessárias nos 30 dias seguintes, observando os critérios da LDO; não se trata de um corte automático e uniforme. Aqui, a projeção bimestral aponta risco para a meta, por isso a limitação é devida. (Lei Complementar nº 101/2000, art. 9º.)",
+      "reviewEvidence": "Conferido com a seção “Contingenciamento: art. 9º da LRF” e com a LRF, art. 9º, caput: avaliação ao final do bimestre, risco às metas primária ou nominal, ato próprio de cada Poder e do Ministério Público, montante necessário e prazo de 30 dias, conforme critérios da LDO. Fonte oficial: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
     },
     {
       "origin": "inedita",
@@ -22125,8 +22125,8 @@
       },
       "statement": "A receita de um único mês fica abaixo da previsão. Esse fato obriga a limitar automaticamente o empenho no mesmo percentual da frustração, mesmo se a avaliação bimestral indicar preservação das metas fiscais.",
       "correctAnswer": "E",
-      "explanation": "A limitação prevista no art. 9º depende do risco para as metas identificado na avaliação bimestral. Seu montante é o necessário, conforme os critérios da LDO.",
-      "reviewEvidence": "Conferência com a seção vinculada e a LRF, art. 9º. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+      "explanation": "Uma arrecadação mensal abaixo da previsão, isoladamente, não determina o corte descrito no art. 9º da LRF. O gatilho é a avaliação ao final do bimestre indicar que a receita poderá comprometer as metas de resultado primário ou nominal. Se esse risco existir, os Poderes e o Ministério Público promovem, cada qual por ato próprio, a limitação de empenhos e movimentação financeira em montante necessário e segundo os critérios da LDO; a lei não manda simplesmente cortar o mesmo percentual da frustração mensal. A recomposição proporcional prevista no § 1º trata de outra situação: o restabelecimento, ainda que parcial, da receita estimada. (Lei Complementar nº 101/2000, art. 9º, caput e § 1º.)",
+      "reviewEvidence": "Conferido com a LRF, art. 9º, caput e § 1º. O gatilho é o risco verificado ao final do bimestre; os cortes são necessários, seguem a LDO e são promovidos por ato próprio. A proporcionalidade prevista no § 1º refere-se à recomposição após restabelecimento da receita. Fonte oficial: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
     },
     {
       "origin": "inedita",
@@ -68045,8 +68045,8 @@
       },
       "statement": "Um servidor responde por dois adiantamentos em aberto. A urgência da próxima despesa permite conceder-lhe um terceiro, desde que exista dotação própria.",
       "correctAnswer": "E",
-      "explanation": "A existência de dotação atende a requisito orçamentário, mas não afasta a vedação de conceder adiantamento a servidor responsável por dois adiantamentos.",
-      "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 4.320/1964, art. 69, e seção canônica. Critério conferido: A existência de dotação atende a requisito orçamentário, mas não afasta a vedação de conceder adiantamento a servidor responsável por dois adiantamentos. Dificuldade estimada."
+      "explanation": "Suprimento de fundos é a entrega excepcional de numerário a um servidor para despesas previstas em lei que não podem seguir o processo normal; a concessão exige empenho prévio em dotação própria (Lei nº 4.320/1964, art. 68). A existência de dotação e a urgência não afastam os impedimentos do art. 69: não se concede adiantamento a servidor em alcance nem a quem já seja responsável por dois adiantamentos. Como o servidor do caso ainda responde por dois, não pode receber um terceiro. Se não houvesse esse impedimento, a despesa ainda teria de caber nas hipóteses legais do suprimento; urgência, sozinha, não substitui esses requisitos.",
+      "reviewEvidence": "Conferido com a seção “Suprimento de fundos: adiantamento excepcional” e com a Lei nº 4.320/1964, arts. 68 e 69: o regime é excepcional, requer empenho prévio e não permite novo adiantamento a quem responde por dois. Fonte oficial: https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm"
     },
     {
       "id": "cam-orc-l047-002-suprimento-empenho-antes-entrega",
@@ -71769,8 +71769,8 @@
       },
       "statement": "Em um extrato orçamentário que informa apenas o elemento de despesa, é possível determinar, com base nesse campo, se a aplicação do recurso será direta ou mediante transferência.",
       "correctAnswer": "E",
-      "explanation": "O elemento identifica o objeto do gasto. A forma de aplicação é informada pela modalidade de aplicação.",
-      "reviewEvidence": "Revisão por IA. Conferência da seção indicada e do MTO, capítulo 4. O elemento identifica o objeto do gasto. A forma de aplicação é informada pela modalidade de aplicação. Dificuldade estimada."
+      "explanation": "A classificação por natureza da despesa separa informações diferentes. No código de oito algarismos usado no SIOP, a modalidade de aplicação ocupa o 3º e o 4º dígitos e indica se o recurso será aplicado diretamente ou por transferência; o elemento ocupa o 5º e o 6º e identifica o objeto do gasto, como material de consumo ou serviços. Portanto, saber apenas o elemento permite reconhecer o que se compra ou paga, mas não quem executará a despesa nem se haverá transferência. (MTO 2026, item 4.6.2.1, “Natureza da despesa”.)",
+      "reviewEvidence": "Conferido com o MTO 2026, item 4.6.2.1, “Natureza da despesa”: o código SIOP tem oito algarismos; modalidade de aplicação nos dígitos 3–4 e elemento nos dígitos 5–6. A modalidade indica aplicação direta ou por transferência; o elemento identifica o objeto do gasto. Fonte oficial: https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
     },
     {
       "id": "cam-orc-l091-003-regionalizacao-dentro-da-acao",

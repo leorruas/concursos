@@ -77,7 +77,8 @@
     "mechanism": "nota-sem-recebimento",
     "statement": "Uma unidade comprou mobiliário, emitiu a nota de empenho e recebeu a nota fiscal antes da entrega. No fluxo ordinário da despesa, a nota fiscal e o empenho bastam para liquidar o valor, pois já identificam o credor e o preço.",
     "correctAnswer": "E",
-    "explanation": "A liquidação verifica o direito adquirido pelo credor. Para fornecimento de material, o contrato ou ajuste e a nota de empenho devem ser acompanhados dos comprovantes da entrega. Identificar preço e credor não basta. Lei nº 4.320/1964, art. 63, §§ 1º e 2º."
+    "explanation": "Empenho reserva dotação para a despesa; a nota fiscal informa o que foi cobrado, mas, sozinha, não comprova que o material foi entregue. Na liquidação, a Administração verifica o direito do fornecedor e o valor exato devido com base no ajuste, na nota de empenho e no comprovante de entrega. Como o mobiliário ainda não chegou, falta prova de um requisito essencial: não basta conhecer o credor e o preço. Se o material for entregue depois e a entrega for conferida, a obrigação poderá então ser liquidada nos limites do que foi efetivamente recebido. (Lei nº 4.320/1964, art. 63, caput e §§ 1º e 2º.)",
+    "reviewEvidence": "Conferido com o artigo CGU vinculado, seção “Liquidação: o que foi efetivamente devido?”, e com a Lei nº 4.320/1964, art. 63, caput e §§ 1º e 2º: para fornecimento, a liquidação exige comprovante da entrega do material. Fonte oficial: https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm"
   },
   {
     "concursoId": "cgu-2026",
@@ -117,7 +118,8 @@
     "mechanism": "servico-faturado-nao-medido",
     "statement": "Uma contratada faturou cem horas de manutenção, mas os registros comprovam apenas oitenta. No exame da liquidação, a existência de saldo de empenho suficiente para cem horas supre a falta de comprovação das vinte horas restantes.",
     "correctAnswer": "E",
-    "explanation": "O saldo de empenho indica o compromisso assumido. Para liquidar uma despesa de serviços, a Administração precisa verificar a execução efetiva e o valor devido nos termos do ajuste. Lei nº 4.320/1964, art. 63, §§ 1º e 2º."
+    "explanation": "Liquidar é confirmar, com documentos, que o credor adquiriu o direito de receber e qual é o valor exato devido. Em serviços, a Lei nº 4.320/1964 exige o contrato ou ajuste, a nota de empenho e comprovantes da prestação efetiva (art. 63, caput e §§ 1º e 2º). Os registros do caso comprovam 80 horas, não 100; por isso, o saldo de empenho para cem horas não prova que as vinte restantes foram executadas. A liquidação deve se limitar ao serviço efetivamente comprovado e ao valor previsto no ajuste; eventual parcela adicional dependerá de comprovação posterior.",
+    "reviewEvidence": "Conferido com o artigo CGU vinculado, seção “Liquidação: o que foi efetivamente devido?”, e com a Lei nº 4.320/1964, art. 63, caput e §§ 1º e 2º, especialmente o requisito de comprovante da prestação efetiva do serviço. Fonte oficial: https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm"
   },
   {
     "concursoId": "cgu-2026",

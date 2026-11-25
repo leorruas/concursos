@@ -1,6 +1,6 @@
 # Câmara 2026: expansão de questões de licitações e contratos
 
-Data: 25/11/2026. Estado: planejamento e 24 itens editoriais preparados; integração ao banco pendente.
+Data: 25/11/2026. Estado: planejamento e 44 itens editoriais preparados; integração ao banco pendente.
 
 ## Diagnóstico
 Consulta ao banco data/questoes-camara.json: 2.655 entradas em expansao; nenhuma vinculada ao articleId art-e3be4825ac4c455a (Licitações e contratos). Questões de outros capítulos que citam contratos incidentalmente não substituem cobertura direta. Artigo canônico: 3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md. Fonte normativa: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm .
@@ -262,6 +262,229 @@ Com base nessa situação, julgue o item a seguir.
 A Administração pode utilizar a forma unilateral de extinção, observadas as hipóteses e condições legais.
 
 Gabarito: C. O descumprimento contratual pode constituir motivo de extinção, que deve ser formalmente motivada, assegurada defesa. A forma unilateral é ato escrito da Administração nos casos legais, observada a ressalva de descumprimento decorrente de sua própria conduta. Arts. 137, I, e 138, I.
+
+## Lotes editoriais 5 a 7 (20 novos itens)
+Casos fictícios e autorais. Validação normativa externa, editalRef, calibração e integração ainda pendentes.
+
+### cam-lic-025-retorno-economico
+Seção: Critérios de julgamento: art. 33
+Conceito: retorno-economico.
+Um órgão pretende contratar medidas de redução de despesas correntes e remunerar o contratado em função da economia efetivamente gerada. A equipe analisa o critério de maior retorno econômico.
+
+Com base nessa situação, julgue o item a seguir.
+
+Esse critério é pertinente à contratação de eficiência descrita.
+
+Gabarito: C. O maior retorno econômico destina-se exclusivamente ao contrato de eficiência. A remuneração vincula-se à economia gerada, segundo os parâmetros legais e contratuais. Uma compra ordinária de computadores não se enquadra apenas porque seu preço é baixo. Arts. 6º, LIII, e 39.
+
+### cam-lic-026-proposta-barata-desconforme
+Seção: Princípios de prova
+Conceito: julgamento-objetivo.
+Uma licitação exige equipamentos com requisitos mínimos de acessibilidade. A proposta mais barata descumpre uma especificação técnica obrigatória, e a comissão confirma que não cabe saneamento.
+
+Com base nessa situação, julgue o item a seguir.
+
+A comissão deve aceitar essa proposta apenas porque apresenta menor preço.
+
+Gabarito: E. A escolha da proposta vantajosa observa requisitos do edital e julgamento objetivo. A desconformidade técnica impede que o menor preço, isoladamente, determine a vitória. Se a proposta cumprisse as especificações, o preço poderia decidir a disputa. Arts. 5º, 11 e 59, II.
+
+### cam-lic-027-pregoeiro-agente
+Seção: Quem conduz e quem decide
+Conceito: agente-contratacao.
+A Câmara designa servidor efetivo do quadro permanente para conduzir um pregão. A autoridade superior conserva a competência de encerramento do procedimento.
+
+Com base nessa situação, julgue o item a seguir.
+
+O agente responsável pela condução do pregão recebe a designação de pregoeiro, sem assumir automaticamente a competência de homologação.
+
+Gabarito: C. O agente conduz o procedimento e, no pregão, é denominado pregoeiro. A autoridade superior exerce as competências de encerramento previstas no art. 71, inclusive adjudicar e homologar. Arts. 8º, § 5º, e 71, IV.
+
+### cam-lic-028-impugnacao-qualquer-pessoa
+Seção: Contraditório e prazos sancionatórios
+Conceito: impugnacao-edital.
+Uma pessoa que não pretende apresentar proposta identifica exigência ilegal no edital e protocola impugnação quatro dias úteis antes da abertura do certame.
+
+Com base nessa situação, julgue o item a seguir.
+
+A ausência de intenção de participar impede o exame da impugnação.
+
+Gabarito: E. Qualquer pessoa é parte legítima para impugnar edital por irregularidade ou pedir esclarecimentos, até três dias úteis antes da abertura. A impugnação não exige a condição de licitante. O recurso contra julgamento é instituto diferente. Art. 164.
+
+### cam-lic-029-saneamento-retorno
+Seção: Adjudicação não é uma oitava fase do art. 17
+Conceito: saneamento-licitacao.
+Após o encerramento das fases anteriores, a autoridade superior identifica irregularidade que pode ser sanada sem modificar a substância das propostas nem violar a igualdade.
+
+Com base nessa situação, julgue o item a seguir.
+
+A autoridade pode determinar o retorno dos autos para saneamento.
+
+Gabarito: C. A lei permite o retorno dos autos para saneamento de irregularidades. A anulação é a resposta à ilegalidade insanável, e não consequência obrigatória de qualquer defeito. Art. 71, I e III.
+
+### cam-lic-030-recurso-julgamento
+Seção: Contraditório e prazos sancionatórios
+Conceito: recurso-licitacao.
+Uma empresa pretende recorrer do julgamento das propostas e manifesta imediatamente sua intenção de recorrer. Sustenta que tem quinze dias úteis para apresentar as razões.
+
+Com base nessa situação, julgue o item a seguir.
+
+O prazo alegado corresponde ao recurso contra o julgamento das propostas.
+
+Gabarito: E. O recurso contra julgamento segue o prazo de três dias úteis, observado o procedimento do art. 165, § 1º. Quinze dias úteis é prazo de recursos sancionatórios específicos, como o da multa. Arts. 165, I, b, e 166.
+
+### cam-lic-031-locacao-imovel-especifico
+Seção: Inexigibilidade: art. 74
+Conceito: inexigibilidade-imovel.
+Uma unidade precisa alugar imóvel cujas características de localização e instalações tornam necessária uma escolha específica. A instrução inclui avaliação prévia, certificação de inexistência de imóvel público vago e disponível que atenda ao objeto e justificativas da singularidade e vantagem.
+
+Com base nessa situação, julgue o item a seguir.
+
+A hipótese descrita pode fundamentar inexigibilidade, observados os demais requisitos legais.
+
+Gabarito: C. A escolha necessária de imóvel pelas suas características pode tornar inviável a competição. O art. 74, V e § 5º, estabelece os requisitos adicionais descritos no caso. A mera preferência por uma localização, sem essas demonstrações, não basta.
+
+### cam-lic-032-artista-representante-eventual
+Seção: Inexigibilidade: art. 74
+Conceito: inexigibilidade-artista.
+Um órgão quer contratar artista consagrado pela crítica especializada. Um empresário apresenta autorização de representação exclusiva limitada ao evento pretendido.
+
+Com base nessa situação, julgue o item a seguir.
+
+A autorização limitada a esse evento comprova a exclusividade exigida para a contratação por intermédio do empresário.
+
+Gabarito: E. A inexigibilidade artística pode ocorrer diretamente ou por empresário exclusivo. A lei exige representação exclusiva permanente e contínua no país ou em estado específico, afastando a representação restrita a evento ou local específico. Art. 74, II e § 2º.
+
+### cam-lic-033-emergencia-objeto-excessivo
+Seção: Dispensa: art. 75, inclusive valores vigentes em 2026
+Conceito: dispensa-emergencia.
+Uma inundação danifica o prédio público. O órgão identifica reparos urgentes indispensáveis à segurança e pretende acrescentar, no mesmo contrato emergencial, reforma estética sem relação com o risco identificado.
+
+Com base nessa situação, julgue o item a seguir.
+
+A emergência autoriza a inclusão de toda a reforma estética no objeto dispensado.
+
+Gabarito: E. A dispensa emergencial restringe-se aos bens necessários à emergência e às parcelas de obras e serviços que possam ser concluídas no prazo legal. A urgência não autoriza inserir serviços sem vínculo com seu atendimento. A reforma estética exige fundamento próprio. Art. 75, VIII.
+
+### cam-lic-034-aviso-dispensa-preferencial
+Seção: Dispensa: art. 75, inclusive valores vigentes em 2026
+Conceito: aviso-dispensa.
+Em contratação direta enquadrada na dispensa por valor, uma equipe sustenta que a Lei nº 14.133 exige, sem exceção, divulgação prévia de aviso de três dias úteis, ainda que se analisem apenas as normas gerais da lei.
+
+Com base nessa situação, julgue o item a seguir.
+
+A afirmação reproduz corretamente o caráter obrigatório e absoluto do aviso estabelecido no art. 75, § 3º.
+
+Gabarito: E. O dispositivo prevê preferencialmente a divulgação de aviso por pelo menos três dias úteis para obter propostas adicionais. A palavra preferencialmente não estabelece obrigação absoluta na norma geral, sem prejuízo de regras específicas aplicáveis e do dever de motivar. Art. 75, § 3º.
+
+### cam-lic-035-etp-versus-termo
+Seção: Planejamento, ETP e Termo de Referência: edital 10.4 a 10.7
+Conceito: etp-tr.
+A equipe compara alternativas para solucionar a inacessibilidade de documentos e conclui pela viabilidade de uma solução. Em seguida deve detalhar requisitos, execução, medição e pagamento para a contratação.
+
+Com base nessa situação, julgue o item a seguir.
+
+A comparação inicial de alternativas corresponde ao estudo técnico preliminar, enquanto o detalhamento subsequente integra o termo de referência, quando cabível.
+
+Gabarito: C. O estudo técnico preliminar caracteriza a necessidade e a melhor solução, avaliando viabilidade. O termo de referência define os parâmetros da contratação de bens e serviços. A distinção evita escolher fornecedor antes de entender o problema. Arts. 6º, XX e XXIII, e 18.
+
+### cam-lic-036-segregacao-funcoes-risco
+Seção: Princípios de prova
+Conceito: segregacao-funcoes.
+Um órgão concentra no mesmo agente tarefas simultâneas que foram identificadas como especialmente suscetíveis a riscos de ocultação de erros e fraude. A justificativa limita-se à conveniência administrativa.
+
+Com base nessa situação, julgue o item a seguir.
+
+A concentração descrita é compatível com o princípio da segregação de funções apenas porque simplifica o trabalho.
+
+Gabarito: E. A segregação de funções exige evitar designação do mesmo agente para atuação simultânea em funções mais suscetíveis a riscos. Simplificação não afasta esse limite. A regra não significa que toda atividade administrativa exija pessoa distinta. Arts. 5º e 7º, § 1º.
+
+### cam-lic-037-instrumento-nota-empenho
+Seção: Instrumento contratual × contrato verbal
+Conceito: instrumento-contratual.
+Uma unidade realiza contratação por dispensa em razão do valor, regularmente instruída, e decide utilizar nota de empenho em substituição ao instrumento formal de contrato.
+
+Com base nessa situação, julgue o item a seguir.
+
+A substituição do instrumento é admitida nessa hipótese e não significa ausência de vínculo contratual.
+
+Gabarito: C. O art. 95, I, permite substituir o instrumento contratual por outro documento hábil na dispensa em razão do valor. As obrigações e os requisitos da contratação permanecem. O contrato verbal possui exceção própria e não se confunde com essa substituição.
+
+### cam-lic-038-pncp-prazo-licitacao
+Seção: Publicação no PNCP e eficácia: art. 94
+Conceito: pncp-licitacao.
+Um órgão assina contrato ordinário decorrente de licitação. A equipe considera que o prazo legal de divulgação no Portal Nacional de Contratações Públicas é de dez dias úteis da assinatura.
+
+Com base nessa situação, julgue o item a seguir.
+
+O prazo indicado é o previsto para o contrato decorrente de licitação.
+
+Gabarito: E. A divulgação é condição de eficácia e deve ocorrer em vinte dias úteis da assinatura quando o contrato decorre de licitação. Dez dias úteis é o prazo para contratação direta. Art. 94, I e II.
+
+### cam-lic-039-clausula-financeira-consentimento
+Seção: Prerrogativas da Administração: art. 104
+Conceito: clausulas-economicas.
+A Administração pretende reduzir unilateralmente a remuneração contratual sem alterar os encargos do contratado, invocando genericamente as cláusulas exorbitantes.
+
+Com base nessa situação, julgue o item a seguir.
+
+As prerrogativas administrativas autorizam modificar unilateralmente cláusulas econômico-financeiras sem concordância do contratado.
+
+Gabarito: E. As prerrogativas do art. 104 não são ilimitadas. Cláusulas econômico-financeiras e monetárias não podem ser alteradas sem prévia concordância do contratado. Na alteração unilateral legal, deve ser revisto o equilíbrio contratual quando necessário. Art. 104, §§ 1º e 2º.
+
+### cam-lic-040-alteracao-acrescimo-reforma
+Seção: Alterações contratuais
+Conceito: limites-alteracao.
+Em reforma de edifício, a Administração justifica acréscimo quantitativo de 40% do valor inicial atualizado, mantendo a identidade do objeto e observando os demais requisitos legais.
+
+Com base nessa situação, julgue o item a seguir.
+
+O percentual do acréscimo está dentro do limite especial aplicável à reforma.
+
+Gabarito: C. O limite geral de alterações unilaterais é 25%, mas, para acréscimos em reforma de edifício ou equipamento, a lei admite até 50%. O caso descreve acréscimo, não supressão, e não transfigura o objeto. Arts. 125 e 126.
+
+### cam-lic-041-inidoneidade-nacional
+Seção: Sanções administrativas
+Conceito: alcance-sancao.
+Uma autoridade competente aplica declaração de inidoneidade por quatro anos, depois do processo legal, por infração que admite essa sanção. A empresa alega que poderá contratar normalmente com os demais entes federativos.
+
+Com base nessa situação, julgue o item a seguir.
+
+O alcance da sanção descrita restringe-se ao ente que a aplicou.
+
+Gabarito: E. A declaração de inidoneidade alcança a Administração direta e indireta de todos os entes federativos, por três a seis anos. O impedimento, por contraste, limita-se ao ente sancionador e dura até três anos. Art. 156, §§ 4º e 5º.
+
+### cam-lic-042-advertencia-inexecucao-parcial
+Seção: Sanções administrativas
+Conceito: advertencia-cabimento.
+Uma empresa comete inexecução parcial sem gravidade que justifique sanção mais severa. A autoridade, após apuração, avalia a aplicação de advertência.
+
+Com base nessa situação, julgue o item a seguir.
+
+A advertência é espécie de sanção admitida para a infração descrita.
+
+Gabarito: C. A advertência é reservada à inexecução parcial do contrato prevista no art. 155, I, quando não se justifica sanção mais grave. Outras infrações não admitem advertência pelo simples fato de serem consideradas leves. Art. 156, § 2º.
+
+### cam-lic-043-reconsideracao-inidoneidade
+Seção: Contraditório e prazos sancionatórios
+Conceito: reconsideracao-inidoneidade.
+Uma empresa é intimada de declaração de inidoneidade e prepara pedido de reconsideração no décimo dia útil após a intimação.
+
+Com base nessa situação, julgue o item a seguir.
+
+A medida escolhida corresponde à prevista na lei e, quanto ao prazo descrito, é tempestiva.
+
+Gabarito: C. Da declaração de inidoneidade cabe apenas pedido de reconsideração em quinze dias úteis da intimação, a ser decidido em até vinte dias úteis do recebimento. Recurso do art. 166 é reservado a advertência, multa e impedimento. Arts. 166 e 167.
+
+### cam-lic-044-efeito-suspensivo-sancao
+Seção: Contraditório e prazos sancionatórios
+Conceito: efeito-suspensivo.
+Uma empresa interpõe tempestivamente recurso contra impedimento de licitar e contratar. A autoridade determina que a sanção produza efeitos imediatamente, antes da decisão final do recurso.
+
+Com base nessa situação, julgue o item a seguir.
+
+O recurso previsto na lei possui efeito suspensivo até decisão final da autoridade competente.
+
+Gabarito: C. O art. 168 estabelece efeito suspensivo para recurso e pedido de reconsideração até decisão final da autoridade competente. A interposição tempestiva do recurso contra impedimento impede a produção imediata dos efeitos do ato recorrido, segundo essa regra. Arts. 166 e 168.
 
 ## Execução
 1. Confirmar editalRef, prova-espelho, unicidade dos IDs e vínculos no banco atualizado; não atribuir origem oficial ou calibração empírica sem evidência.

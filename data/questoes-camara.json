@@ -11639,7 +11639,7 @@
       },
       "statement": "Uma comissão permanente da Câmara apresenta projeto que cria cargos na administração direta federal. O texto é aprovado pela Câmara e pelo Senado. A aprovação das duas Casas supre a falta de iniciativa do Presidente da República.",
       "correctAnswer": "E",
-      "explanation": "As comissões possuem iniciativa legislativa geral, sujeita às reservas constitucionais. A criação de cargos na administração direta federal é de iniciativa privativa presidencial. A aprovação bicameral não altera a autoria do projeto. Em matéria sem reserva, a iniciativa de comissão pode ser válida.",
+      "explanation": "**Regra:** comissões podem iniciar projetos de lei, mas essa legitimidade geral deve respeitar as matérias cuja iniciativa a Constituição reserva a outra autoridade. A criação de cargos na administração direta federal é de iniciativa privativa do Presidente. **Aplicação:** a comissão não podia iniciar esse projeto; a aprovação pelas duas Casas não corrige o vício de iniciativa. **Pegadinha:** autoria e votação são etapas diferentes: o apoio posterior não substitui quem tinha competência para iniciar. (Constituição, art. 61, caput e § 1º, II, a.)",
       "reviewEvidence": "CF, art. 61, caput e § 1º, II, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 79, da Câmara de 2014."
     },
     {
@@ -21593,7 +21593,7 @@
       },
       "statement": "Uma comissão permanente da Câmara pretende apresentar projeto de lei ordinária sobre matéria federal sem reserva de iniciativa. A Constituição inclui a comissão entre os possíveis autores do projeto.",
       "correctAnswer": "C",
-      "explanation": "O art. 61, caput, inclui comissão da Câmara, do Senado ou do Congresso entre os legitimados, observados os casos previstos na Constituição.",
+      "explanation": "**Regra:** projetos de lei complementar e ordinária podem ser apresentados por membro ou comissão da Câmara, do Senado ou do Congresso, salvo matérias com iniciativa constitucionalmente reservada. **Aplicação:** a matéria do caso não está sujeita a reserva, então a comissão permanente pode apresentar o projeto. **Distinção:** ter legitimidade geral não autoriza a comissão a iniciar qualquer assunto; é preciso conferir as exceções do art. 61, § 1º.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 61, caput e § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -21621,7 +21621,7 @@
       },
       "statement": "Uma comissão legislativa pode iniciar projeto que cria cargos na administração direta federal, pois a legitimação das comissões no art. 61 prevalece sobre a iniciativa privativa do Presidente.",
       "correctAnswer": "E",
-      "explanation": "A legitimação geral convive com as reservas constitucionais. A criação desses cargos é matéria de iniciativa privativa presidencial.",
+      "explanation": "**Regra:** comissões estão entre os legitimados para apresentar projetos de lei, mas não podem iniciar matéria reservada ao Presidente da República. A criação de cargos na administração direta federal está nessa reserva. **Aplicação:** a comissão não pode iniciar o projeto descrito. **Pegadinha:** a regra geral do caput do art. 61 não prevalece sobre a restrição expressa do § 1º; os dispositivos devem ser lidos em conjunto. (Constituição, art. 61, caput e § 1º, II, a.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 61, caput e § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -78069,7 +78069,7 @@
       },
       "statement": "Comissão do Senado Federal está entre os legitimados constitucionais para iniciar lei ordinária federal em matéria sem reserva de iniciativa.",
       "correctAnswer": "C",
-      "explanation": "O art. 61 inclui comissões do Senado entre os legitimados. Em matéria sem reserva, a iniciativa não precisa partir de um senador individualmente. (Constituição Federal, art. 61, caput.)",
+      "explanation": "**Regra:** o art. 61, caput, autoriza expressamente comissões da Câmara, do Senado e do Congresso a iniciar leis complementares e ordinárias, respeitadas as reservas constitucionais. **Aplicação:** como a matéria não tem iniciativa reservada, uma comissão do Senado pode apresentar o projeto; não é necessário que um senador individual assine como autor. **Limite:** se a matéria estiver no § 1º, a autorização geral não se aplica. (Constituição, art. 61.)",
       "reviewEvidence": "Constituição Federal, art. 61, caput — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece um legitimado expresso em matéria sem reserva."
     },
     {

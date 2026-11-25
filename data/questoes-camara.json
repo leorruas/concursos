@@ -12857,7 +12857,7 @@
       },
       "statement": "Uma comissão recebe o Presidente e o Vice-Presidente eleitos à entrada principal. Depois da suspensão e da reabertura da sessão de posse, essa mesma comissão os introduz no Plenário.",
       "correctAnswer": "C",
-      "explanation": "A comissão inicialmente designada recebe os eleitos e volta a atuar na reabertura para introduzi-los no Plenário.",
+      "explanation": "Na sessão de posse presidencial, a mesma comissão parlamentar designada para receber o Presidente e o Vice-Presidente eleitos volta a atuar após a reabertura e os conduz ao Plenário, conforme o procedimento do Regimento Comum. A suspensão da sessão entre a recepção e a introdução não exige a formação de uma segunda comissão.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, arts. 60 e 61. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
     },
     {
@@ -13277,7 +13277,7 @@
       },
       "statement": "Com o levantamento da sessão, a inscrição não atendida no Pequeno Expediente é transferida automaticamente a outro deputado indicado pelo orador.",
       "correctAnswer": "E",
-      "explanation": "A transferência preserva a inscrição do próprio orador para outra sessão. Ela não é cessão a um colega.",
+      "explanation": "A inscrição no Pequeno Expediente é pessoal e intransferível (RICD, art. 81, § 2º). Há uma regra diferente para a inscrição que não pôde ser atendida porque a sessão foi levantada ou não ocorreu: ela passa para a sessão ordinária seguinte, mas continua vinculada ao mesmo deputado (§ 4º). Não pode ser cedida a um colega indicado pelo orador.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 81, § 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -13333,7 +13333,7 @@
       },
       "statement": "A sessão solene só pode ter pronunciamento de um senador e de um deputado se pertencerem a partidos distintos.",
       "correctAnswer": "E",
-      "explanation": "A composição com partidos distintos é preferencial. O Regimento não a transforma em requisito obrigatório.",
+      "explanation": "Nas sessões solenes conjuntas, o Regimento Comum prefere, quando possível, que o senador e o deputado escolhidos para falar pertençam a partidos diferentes. “Preferencialmente” orienta a escolha, mas não torna a diferença partidária uma condição de validade da sessão ou dos pronunciamentos.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, art. 55. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
     },
     {
@@ -23805,7 +23805,7 @@
       },
       "statement": "Sem número legal na Ordem do Dia, o presidente pode substituir a votação nominal por votação simbólica e deliberar normalmente.",
       "correctAnswer": "E",
-      "explanation": "A forma de registrar os votos não resolve a falta de quórum. O Regimento direciona os trabalhos ao debate.",
+      "explanation": "O RICD não permite resolver falta de quórum trocando a modalidade de votação. Se não houver número legal para deliberar na Ordem do Dia, o Presidente anuncia o debate das matérias em discussão (art. 82, §§ 2º e 3º). Votação simbólica e nominal são formas de registrar uma deliberação; nenhuma delas supre o quórum para que ela aconteça.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 82, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -24001,7 +24001,7 @@
       },
       "statement": "A liderança aprova a obstrução e comunica a decisão à Mesa. Quanto a esses requisitos, a ausência à votação pode enquadrar-se na ressalva regimental para obstrução legítima.",
       "correctAnswer": "C",
-      "explanation": "A ressalva exige aprovação da bancada ou liderança e comunicação à Mesa. Ambos os atos aparecem no caso.",
+      "explanation": "O RICD equipara a ausência a uma votação à ausência à sessão, mas abre exceção para obstrução parlamentar legítima (art. 82, § 6º). Para a exceção valer, a bancada ou sua liderança precisa aprovar a obstrução e comunicá-la à Mesa. O caso reúne os dois requisitos; a falta à votação, então, não recebe o tratamento ordinário de ausência.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 82, § 6º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -24141,7 +24141,7 @@
       },
       "statement": "A regularidade formal da convocação de um ministro basta para caracterizar crime de responsabilidade sempre que ele faltar, mesmo se a ausência for adequadamente justificada.",
       "correctAnswer": "E",
-      "explanation": "Além de observar a convocação, é preciso verificar se houve justificação adequada para a ausência.",
+      "explanation": "O art. 50, § 2º, da Constituição trata como crime de responsabilidade a ausência de ministro à convocação da Câmara, do Senado ou de comissão sem justificação adequada. A convocação regular é necessária, mas não basta: se a ausência foi devidamente justificada, falta o elemento que permitiria aplicar essa consequência.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 50. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -24337,7 +24337,7 @@
       },
       "statement": "Um estado pretende integrar a execução de funções públicas de interesse comum de municípios limítrofes. A instituição da microrregião deve ser feita por lei complementar estadual.",
       "correctAnswer": "C",
-      "explanation": "O art. 25, § 3º, reserva à lei complementar estadual a instituição de microrregiões para essa finalidade.",
+      "explanation": "O Estado pode instituir microrregião por lei complementar estadual para integrar a organização, o planejamento e a execução de funções públicas de interesse comum de municípios limítrofes (Constituição, art. 25, § 3º). A regra define tanto quem institui — o Estado — quanto o instrumento legislativo exigido.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 25, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -24365,7 +24365,7 @@
       },
       "statement": "Todos os municípios limítrofes aceitam participar de uma microrregião. O consentimento conjunto permite ao estado instituí-la por lei ordinária estadual.",
       "correctAnswer": "E",
-      "explanation": "O apoio municipal não altera a espécie normativa exigida pela Constituição. É necessária lei complementar estadual.",
+      "explanation": "A instituição de microrregião é competência do Estado, exercida por lei complementar, quando o objetivo for integrar funções públicas de interesse comum entre municípios limítrofes (Constituição, art. 25, § 3º). A concordância dos municípios pode existir no caso, mas não troca a lei complementar por lei ordinária nem muda quem tem competência para instituir a região.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 25, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -24421,7 +24421,7 @@
       },
       "statement": "Uma medida provisória determina o sequestro de ativos financeiros por apenas 48 horas. A limitação temporal torna a matéria admissível para esse instrumento.",
       "correctAnswer": "E",
-      "explanation": "A proibição constitucional é material. Encurtar o prazo não torna admissível o sequestro por medida provisória.",
+      "explanation": "A Constituição proíbe medida provisória sobre matéria relativa à detenção ou ao sequestro de bens, de poupança popular ou de qualquer outro ativo financeiro (art. 62, § 1º, II). A vedação é definida pelo conteúdo da medida, não pela duração do bloqueio; reduzi-lo a 48 horas não torna a MP admissível.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 62, § 1º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25009,7 +25009,7 @@
       },
       "statement": "Um sindicato reúne indícios de irregularidade em órgão federal e apresenta denúncia perante o TCU. A condição de sindicato é hipótese de legitimação expressa na Constituição.",
       "correctAnswer": "C",
-      "explanation": "O art. 74, § 2º, enumera sindicatos entre os legitimados a denunciar irregularidades ou ilegalidades ao TCU.",
+      "explanation": "O art. 74, § 2º, da Constituição autoriza cidadão, partido político, associação ou sindicato a denunciar irregularidades ou ilegalidades ao Tribunal de Contas da União. O sindicato tem legitimidade própria; não precisa obter a assinatura de partido para usar essa via de fiscalização.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 74, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25121,7 +25121,7 @@
       },
       "statement": "Uma pessoa de dezessete anos já se alistou e pode votar. A realização do alistamento não torna obrigatório seu comparecimento à votação enquanto estiver na faixa etária de voto facultativo.",
       "correctAnswer": "C",
-      "explanation": "Alistamento e voto são facultativos nessa faixa etária. Ter feito o primeiro não muda o regime do segundo.",
+      "explanation": "Entre 16 e 18 anos, tanto o alistamento quanto o voto são facultativos (Constituição, art. 14, § 1º, I, c). Uma pessoa de 17 anos pode escolher tirar o título sem transformar o comparecimento às urnas em obrigação. A opção de alistar-se não altera a faixa etária constitucional do voto facultativo.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27389,7 +27389,7 @@
       },
       "statement": "A vedação constitucional de medida provisória sobre direito eleitoral pode ser afastada se a norma alterar regras da eleição apenas durante uma campanha.",
       "correctAnswer": "E",
-      "explanation": "A proibição se refere à matéria. A duração temporária ou o alcance limitado a uma eleição não remove a vedação.",
+      "explanation": "O art. 62, § 1º, I, a, da Constituição impede medida provisória sobre direito eleitoral, dentro da vedação relativa a nacionalidade, cidadania, direitos políticos, partidos políticos e direito eleitoral. A restrição é material: limitar a regra a uma campanha ou eleição não cria exceção temporal.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 62, § 1º, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27585,7 +27585,7 @@
       },
       "statement": "Uma vaga definitiva de deputado federal fica sem suplente quando faltam dezesseis meses para o fim do mandato. A Constituição prevê eleição para preenchê-la.",
       "correctAnswer": "C",
-      "explanation": "Estão presentes a vaga, a inexistência de suplente e o prazo superior a quinze meses até o fim do mandato.",
+      "explanation": "O art. 56, § 2º, da Constituição prevê eleição para preencher a vaga de deputado quando não houver suplente e faltarem mais de quinze meses para o fim do mandato. Como faltam dezesseis meses, o limite foi ultrapassado e a eleição deve ocorrer para completar o período restante. Se faltassem quinze meses exatos ou menos, esse critério não seria atendido.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 56, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -60959,10 +60959,10 @@
         "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
         "section": "Inalistáveis"
       },
-      "statement": "Estrangeiro residente no Brasil não pode alistar-se como eleitor nas eleições brasileiras pelo regime previsto no art. 14, § 2º, da Constituição.",
+      "statement": "Um estrangeiro residente no Brasil, sem ter adquirido o gozo de direitos políticos pelo Estatuto de Igualdade entre brasileiros e portugueses, pretende alistar-se como eleitor. À luz do art. 14, § 2º, da Constituição, ele não pode fazê-lo.",
       "correctAnswer": "C",
-      "explanation": "O art. 14, § 2º, torna os estrangeiros inalistáveis, ressalvadas questões jurídicas distintas não tratadas no enunciado.",
-      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/05 - direitos politicos.md / Inalistáveis; CI obrigatório antes de integrar."
+      "explanation": "Como regra, estrangeiros não podem alistar-se como eleitores (Constituição, art. 14, § 2º). Há uma exceção relevante: portugueses que obtenham o gozo de direitos políticos no Brasil pelo regime de igualdade podem alistar-se, conforme art. 12, § 1º, e Resolução-TSE nº 23.659/2021, art. 11, II. O enunciado, por isso, foi delimitado a estrangeiro sem essa condição especial.",
+      "reviewEvidence": "Conferência com a Constituição Federal, arts. 12, § 1º, e 14, § 2º, e com a Resolução-TSE nº 23.659/2021, art. 11, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | https://www.tse.jus.br/legislacao/compilada/res/2021/resolucao-no-23-659-de-26-de-outubro-de-2021"
     },
     {
       "id": "cam-const-nao-intervencao-impede-cooperacao",
@@ -65161,7 +65161,7 @@
       },
       "statement": "Em proposição de autoria coletiva, o reconhecimento de todos os signatários como autores assegura a cada um deles o exercício cumulativo das prerrogativas de autoria em Plenário.",
       "correctAnswer": "E",
-      "explanation": "Todos são autores, mas apenas um exerce as prerrogativas em Plenário, respeitada a ordem das assinaturas.",
+      "explanation": "O RICD reconhece todos os signatários como autores da proposição coletiva (art. 102, § 1º). Isso não multiplica as prerrogativas em Plenário: elas são exercidas por um só signatário, com precedência definida pela ordem das assinaturas (§ 2º). Assim, autoria compartilhada e exercício das prerrogativas são coisas distintas.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 102, § 1º. Critério de julgamento: Todos são autores, mas apenas um exerce as prerrogativas em Plenário, respeitada a ordem das assinaturas. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
     },
     {
@@ -65329,7 +65329,7 @@
       },
       "statement": "O Plenário aprovou requerimento de líder para dispensar a discussão de projeto que recebeu todos os pareceres favoráveis. A dispensa impede, por si só, a apresentação de emendas ao projeto.",
       "correctAnswer": "E",
-      "explanation": "A dispensa suprime a discussão nessa hipótese, mas preserva a possibilidade regimental de apresentar emendas.",
+      "explanation": "Quando uma proposição tem todos os pareceres favoráveis, um Líder pode requerer a dispensa da discussão, e o Plenário decide (RICD, art. 167). A dispensa deve ser pedida quando a matéria é anunciada e elimina a fase de debate, mas o parágrafo único preserva a apresentação de emendas. Discutir o texto e emendá-lo são etapas distintas.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 167. Critério de julgamento: A dispensa suprime a discussão nessa hipótese, mas preserva a possibilidade regimental de apresentar emendas. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
     },
     {

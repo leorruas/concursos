@@ -7695,7 +7695,7 @@
       "reviewStatus": "validada",
       "statement": "Uma empresa tem exatamente duzentos empregados e pretende criar canal de diálogo. O sindicato afirmou que o número já torna obrigatória a aplicação do mecanismo constitucional de eleição de representante na empresa.\n\nCom base nessa situação, julgue o item a seguir.\n\nO número indicado atinge o limiar do art. 11 e aciona por si só o direito constitucional ali previsto.",
       "correctAnswer": "E",
-      "explanation": "O art. 11 se aplica a empresas com mais de duzentos empregados. Exatamente duzentos não satisfaz o limiar. Isso não impede outros mecanismos de diálogo ou representação cabíveis.",
+      "explanation": "**Regra:** o art. 11 assegura a eleição de representante em empresa com mais de duzentos empregados. **Aplicação:** exatamente duzentos não é “mais de duzentos”, então o limite constitucional ainda não foi alcançado. **Pegadinha:** um empregado a menos ou a mais pode mudar a incidência; outros canais de diálogo podem existir, mas não decorrem automaticamente dessa regra específica. (Constituição, art. 11.)",
       "reviewEvidence": "Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -7728,7 +7728,7 @@
       "reviewStatus": "validada",
       "statement": "Uma empresa empregava 199 pessoas e contratou mais quatro. Os empregados propuseram eleger um representante para promover entendimento direto com a direção. A direção alegou que um canal informal mantido pelo RH tornava desnecessária a eleição prevista na Constituição.\n\nCom base nessa situação, julgue o item a seguir.\n\nCom a nova quantidade de empregados, incide a garantia constitucional de eleição, e o canal informal não substitui a escolha pelos empregados.",
       "correctAnswer": "C",
-      "explanation": "Após as contratações, são 203 empregados, acima de duzentos. O art. 11 assegura a eleição do representante para promover entendimento direto. Um canal administrado pelo RH não equivale a essa eleição.",
+      "explanation": "**Regra:** superado o número de duzentos empregados, a Constituição assegura a eleição de um representante para promover entendimento direto com o empregador. **Aplicação:** a empresa chegou a 203 pessoas; o canal informal do RH não substitui a escolha eleitoral dos empregados. **Distinção:** cumprir o limiar de tamanho ativa a garantia, mas ainda é necessário observar a forma constitucional de escolha. (Constituição, art. 11.)",
       "reviewEvidence": "Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -9279,7 +9279,7 @@
       "reviewStatus": "validada",
       "statement": "Uma empresa com 240 empregados criou uma função interna para facilitar o diálogo no local de trabalho. A diretoria escolheu unilateralmente a pessoa que ocuparia a função e declarou que essa escolha realizava a representação dos empregados prevista na Constituição.\n\nCom base nessa situação, julgue o item a seguir.\n\nA escolha unilateral satisfaz o mecanismo constitucional porque a finalidade da função é promover o entendimento direto.",
       "correctAnswer": "E",
-      "explanation": "A finalidade coincide com a do art. 11, mas o meio previsto é a eleição de um representante dos empregados. O empregador não substitui essa eleição por indicação própria. Com eleição dos empregados, esse requisito seria atendido.",
+      "explanation": "**Regra:** em empresa com mais de duzentos empregados, a Constituição assegura a eleição de representante dos empregados para promover entendimento direto com o empregador. **Aplicação:** a diretoria não pode escolher unilateralmente quem ocupará essa representação; a garantia é de eleição pelos empregados. **Pegadinha:** criar um canal interno de diálogo não equivale ao procedimento e à finalidade constitucionais. (Constituição, art. 11.)",
       "reviewEvidence": "Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -9312,7 +9312,7 @@
       "reviewStatus": "validada",
       "statement": "Em uma empresa com 230 empregados, os trabalhadores elegeram uma representante para encaminhar questões de organização do trabalho diretamente ao empregador. Em razão da eleição, a direção pretende dispensar a participação sindical nas futuras negociações coletivas de trabalho.\n\nCom base nessa situação, julgue o item a seguir.\n\nA eleição assegura um canal de entendimento direto, mas não dispensa a participação sindical nas negociações coletivas.",
       "correctAnswer": "C",
-      "explanation": "O art. 11 atribui ao representante eleito a finalidade exclusiva de promover entendimento direto. A participação dos sindicatos nas negociações coletivas é outra exigência, estabelecida no art. 8º, VI. A eleição não transfere essa atribuição sindical.",
+      "explanation": "**Regra:** o representante eleito pelo art. 11 promove entendimento direto dos empregados com o empregador. Essa função não elimina a participação sindical nas negociações coletivas, exigida pelo art. 8º, VI. **Aplicação:** a eleição da representante não autoriza a empresa a dispensar o sindicato em negociações coletivas. **Distinção:** diálogo direto na empresa e representação sindical coletiva são papéis diferentes. (Constituição, arts. 8º, VI, e 11.)",
       "reviewEvidence": "Constituição Federal, arts. 8º, VI, e 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -11936,7 +11936,7 @@
       },
       "statement": "O Senado Federal processa um ministro do Supremo Tribunal Federal por crime de responsabilidade. Alcançados dois terços dos votos pela condenação, o Senado pode aplicar a perda do cargo com inabilitação para função pública por oito anos, sem prejuízo das demais sanções judiciais cabíveis.",
       "correctAnswer": "C",
-      "explanation": "O art. 52 atribui ao Senado o julgamento de ministro do Supremo por crime de responsabilidade e delimita os efeitos da condenação. Se a votação ficasse abaixo dos dois terços, não haveria condenação pelo Senado.",
+      "explanation": "**Regra:** cabe ao Senado processar e julgar ministros do STF por crime de responsabilidade. A condenação exige dois terços dos senadores e pode resultar em perda do cargo e inabilitação para função pública por oito anos, sem prejuízo de outras sanções judiciais cabíveis. **Aplicação:** os votos narrados atingem o quórum de dois terços. **Distinção:** o Senado exerce julgamento político-constitucional, não substitui a jurisdição penal. (Constituição, art. 52, II e parágrafo único.)",
       "reviewEvidence": "CF, art. 52, II e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 95, da Câmara de 2014."
     },
     {
@@ -16273,7 +16273,7 @@
       },
       "statement": "Um ministro do Supremo Tribunal Federal é condenado pelo Senado por crime de responsabilidade. A sanção aplicada pelo Senado não impede outras sanções judiciais cabíveis.",
       "correctAnswer": "C",
-      "explanation": "O parágrafo único limita a condenação no Senado à perda do cargo, com inabilitação por oito anos para função pública, sem prejuízo das demais sanções judiciais cabíveis.",
+      "explanation": "**Regra:** a condenação pelo Senado por crime de responsabilidade pode levar à perda do cargo e à inabilitação por oito anos, sem prejuízo das demais sanções judiciais cabíveis. **Aplicação:** a decisão política do Senado não bloqueia eventual responsabilização judicial. **Distinção:** o julgamento do Senado e os processos judiciais têm natureza e consequências próprias; um não elimina automaticamente o outro. (Constituição, art. 52, II e parágrafo único.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, II e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16301,7 +16301,7 @@
       },
       "statement": "Ao condenar um ministro do Supremo por crime de responsabilidade, o Senado pode impor pena de prisão nesse mesmo julgamento, além da perda do cargo.",
       "correctAnswer": "E",
-      "explanation": "O art. 52 limita os efeitos da condenação no Senado à perda do cargo com inabilitação. As demais sanções cabíveis pertencem à esfera judicial.",
+      "explanation": "**Regra:** no julgamento de ministro do STF por crime de responsabilidade, o Senado pode impor as consequências político-constitucionais previstas: perda do cargo e inabilitação por oito anos para função pública. **Por que o item está errado:** prisão não está entre as sanções aplicadas pelo Senado nesse julgamento. **Distinção:** a Constituição ressalva as demais sanções judiciais cabíveis, que pertencem à esfera jurisdicional. (Constituição, art. 52, II e parágrafo único.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, II e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27473,7 +27473,7 @@
       },
       "statement": "Uma empresa com 350 empregados indica unilateralmente um gerente para ser o representante dos trabalhadores no entendimento direto com o empregador. A indicação não cumpre a garantia constitucional de eleição pelos empregados.",
       "correctAnswer": "C",
-      "explanation": "O art. 11 assegura a eleição do representante dos empregados para promover o entendimento direto. A indicação unilateral pelo empregador não realiza essa eleição.",
+      "explanation": "**Regra:** o art. 11 assegura, em empresas com mais de duzentos empregados, a eleição de um representante dos empregados para promover entendimento direto com o empregador. **Aplicação:** o gerente foi indicado unilateralmente pela empresa, não eleito pelos empregados; por isso, a indicação não realiza a garantia. **Pegadinha:** a adequação da pessoa escolhida não substitui a forma de escolha constitucional.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27501,7 +27501,7 @@
       },
       "statement": "Em uma empresa com mais de 200 empregados, o representante eleito nos termos do art. 11 recebe, por essa eleição, atribuição constitucional para substituir o sindicato na negociação coletiva de toda a categoria.",
       "correctAnswer": "E",
-      "explanation": "O art. 11 prevê representação com finalidade exclusiva de promover entendimento direto com o empregador. A eleição não transfere as atribuições sindicais da categoria.",
+      "explanation": "**Regra:** a representação do art. 11 tem finalidade exclusiva de promover entendimento direto com o empregador. **Por que o item está errado:** ela não confere ao eleito poder para substituir o sindicato na negociação coletiva da categoria. **Distinção:** representação direta na empresa e negociação coletiva sindical têm bases e funções próprias. (Constituição, arts. 8º, VI, e 11.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29601,7 +29601,7 @@
       },
       "statement": "Uma empresa passa de 200 para 201 empregados. Pelo art. 11 da Constituição, fica assegurada a eleição de representante dos empregados para promover o entendimento direto com o empregador.",
       "correctAnswer": "C",
-      "explanation": "O direito previsto no artigo incide quando a empresa supera 200 empregados, com a finalidade específica de promover o entendimento direto.",
+      "explanation": "**Regra:** o direito do art. 11 nasce quando a empresa tem mais de duzentos empregados. **Aplicação:** com 201, o limite foi superado por uma pessoa e fica assegurada a eleição de representante. **Finalidade:** esse representante existe para promover entendimento direto entre empregados e empregador; não se trata de substituir o sindicato em todas as suas funções. (Constituição, art. 11.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29629,7 +29629,7 @@
       },
       "statement": "Uma empresa com 240 empregados elege representante nos termos do art. 11 da Constituição. A eleição transfere ao representante todas as funções constitucionais do sindicato da categoria.",
       "correctAnswer": "E",
-      "explanation": "O mandato do art. 11 tem a finalidade específica de promover o entendimento direto com o empregador. A eleição não transfere ao representante as atribuições constitucionais do sindicato.",
+      "explanation": "**Regra:** o representante eleito em empresa com mais de duzentos empregados tem finalidade constitucional específica: promover entendimento direto com o empregador. **Por que o item está errado:** a eleição não transfere a ele todas as funções do sindicato da categoria. **Distinção:** negociações coletivas continuam sujeitas à participação sindical prevista no art. 8º, VI. (Constituição, arts. 8º, VI, e 11.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -80757,7 +80757,7 @@
       },
       "statement": "Em empresa com duzentos e quarenta empregados, a Constituição assegura a eleição de um representante dos empregados para promover o entendimento direto com o empregador.",
       "correctAnswer": "C",
-      "explanation": "O número ultrapassa duzentos empregados. A finalidade constitucional dessa representação é promover o entendimento direto entre empregados e empregador. (Constituição Federal, art. 11.)",
+      "explanation": "**Regra:** em empresa com mais de duzentos empregados, deve ser assegurada a eleição de um representante dos empregados para promover entendimento direto com o empregador. **Aplicação:** a empresa tem 240 empregados, então ultrapassa o limite e se enquadra. **Pegadinha:** exatamente duzentos não bastariam; a Constituição usa o critério estrito “mais de duzentos”. (Constituição, art. 11.)",
       "reviewEvidence": "Constituição Federal, art. 11 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica o limite de empregados e identifica a finalidade própria da representação."
     },
     {
@@ -81905,7 +81905,7 @@
       },
       "statement": "A condenação de ministro do Supremo Tribunal Federal pelo Senado por crime de responsabilidade impede a aplicação de sanções judiciais cabíveis pelo mesmo fato.",
       "correctAnswer": "E",
-      "explanation": "A condenação no Senado se limita à perda do cargo, com inabilitação por oito anos para o exercício de função pública. A Constituição ressalva as demais sanções judiciais cabíveis. (Constituição Federal, art. 52, II e parágrafo único.)",
+      "explanation": "**Regra:** a condenação pelo Senado limita-se às consequências constitucionais do julgamento político, sem excluir outras sanções judiciais cabíveis. **Aplicação:** dizer que a decisão impede qualquer sanção judicial contradiz a ressalva expressa do parágrafo único. **Distinção:** uma condenação no Senado não equivale a uma decisão judicial sobre eventual responsabilidade em outra esfera. (Constituição, art. 52, II e parágrafo único.)",
       "reviewEvidence": "Constituição Federal, art. 52, II e parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue o cargo, a jurisdição política e o alcance da condenação."
     },
     {

@@ -11309,7 +11309,7 @@
       },
       "statement": "O Tribunal de Contas da União recebe as contas anuais do Presidente da República e emite parecer desfavorável cinquenta dias depois. Uma comissão afirma que, por ter sido emitido no prazo, o parecer já encerra o julgamento das contas. A afirmação está correta.",
       "correctAnswer": "E",
-      "explanation": "O Tribunal dispõe de sessenta dias, contados do recebimento, para elaborar o parecer prévio. O Congresso Nacional julga as contas. A emissão tempestiva cumpre a etapa de apreciação técnica e mantém necessária a deliberação do Congresso.",
+      "explanation": "**Regra:** o TCU aprecia tecnicamente as contas anuais do Presidente e emite parecer prévio em até sessenta dias do recebimento; quem julga as contas é o Congresso Nacional. **Aplicação:** um parecer desfavorável emitido em cinquenta dias cumpre o prazo, mas não encerra o julgamento. **Distinção:** parecer prévio do Tribunal e julgamento político-contábil pelo Congresso são etapas diferentes, atribuídas a órgãos diferentes. (Constituição, arts. 49, IX, e 71, I.)",
       "reviewEvidence": "CF, arts. 49, IX, e 71, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
     },
     {
@@ -18737,7 +18737,7 @@
       },
       "statement": "Ao receber as contas anuais do Presidente da República, o Tribunal de Contas da União passa a dispor de sessenta dias para elaborar seu parecer prévio.",
       "correctAnswer": "C",
-      "explanation": "O art. 71, I, conta o prazo de sessenta dias do recebimento das contas pelo Tribunal.",
+      "explanation": "**Regra:** o TCU tem sessenta dias para elaborar o parecer prévio sobre as contas anuais do Presidente, contados do recebimento das contas pelo Tribunal. **Aplicação:** o marco é o protocolo/recebimento, não o fim do exercício nem outra data do calendário orçamentário. **Pegadinha:** identifique o evento que a Constituição escolheu expressamente como início do prazo. (Constituição, art. 71, I.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 49, IX, e 71, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -18765,7 +18765,7 @@
       },
       "statement": "No exame das contas anuais do Presidente da República, o prazo de sessenta dias para o parecer prévio do TCU começa no encerramento do exercício financeiro, mesmo antes de receber as contas.",
       "correctAnswer": "E",
-      "explanation": "O marco constitucional é o recebimento das contas. O encerramento do exercício não inicia o prazo do TCU.",
+      "explanation": "**Regra:** o prazo de sessenta dias do TCU começa quando o Tribunal recebe as contas presidenciais. **Por que o item está errado:** o encerramento do exercício financeiro pode anteceder a entrega das contas, mas não é o marco previsto no art. 71, I. **Distinção:** a prestação anual das contas e o início do prazo para o parecer são eventos relacionados, porém diferentes. (Constituição, art. 71, I.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 49, IX, e 71, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -21929,7 +21929,7 @@
       },
       "statement": "O Presidente pretende vetar apenas a expressão “exceto em julho”, contida em um inciso, preservando as demais palavras desse inciso. O recorte contraria a Constituição.",
       "correctAnswer": "C",
-      "explanation": "O veto parcial deve coincidir com o texto integral de artigo, parágrafo, inciso ou alínea. Uma expressão isolada não é unidade autorizada.",
+      "explanation": "**Regra:** o veto parcial só pode abranger texto integral de artigo, parágrafo, inciso ou alínea. **Aplicação:** o Presidente pretende retirar apenas uma expressão, deixando o restante do inciso; esse recorte não corresponde a uma unidade textual autorizada. **Pegadinha:** ainda que a parte restante continue gramatical ou faça sentido, isso não torna válido o veto de palavras isoladas. (Constituição, art. 66, § 2º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -21957,7 +21957,7 @@
       },
       "statement": "O Presidente pode vetar apenas uma das frases de um inciso, desde que a frase represente comando autônomo e a parte restante preserve a coerência gramatical.",
       "correctAnswer": "E",
-      "explanation": "A autonomia semântica da frase não altera as unidades formais admitidas no art. 66, § 2º.",
+      "explanation": "**Regra:** o veto parcial deve alcançar integralmente um artigo, parágrafo, inciso ou alínea; não pode retirar uma frase isolada dentro de uma dessas unidades. **Por que o item está errado:** autonomia de sentido e coerência gramatical não são os critérios constitucionais. **Aplicação:** mesmo que o trecho possa ser lido sozinho, o veto precisa respeitar a unidade formal enumerada. (Constituição, art. 66, § 2º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22041,7 +22041,7 @@
       },
       "statement": "O Presidente considera constitucional um projeto, mas o julga contrário ao interesse público. Essa avaliação pode fundamentar o veto presidencial.",
       "correctAnswer": "C",
-      "explanation": "O art. 66, § 1º, prevê dois fundamentos alternativos: inconstitucionalidade ou contrariedade ao interesse público.",
+      "explanation": "**Regra:** o Presidente pode vetar projeto de lei, total ou parcialmente, por inconstitucionalidade ou por contrariedade ao interesse público. São fundamentos alternativos. **Aplicação:** o projeto é considerado constitucional, mas pode receber veto por avaliação de interesse público. **Distinção:** o primeiro fundamento é jurídico; o segundo é político. A existência de um não exige que o outro também esteja presente. (Constituição, art. 66, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22069,7 +22069,7 @@
       },
       "statement": "O Presidente veta um projeto por contrariedade ao interesse público. Por se tratar de juízo político, fica dispensado de comunicar os motivos ao Presidente do Senado.",
       "correctAnswer": "E",
-      "explanation": "A comunicação dos motivos ao Presidente do Senado em até 48 horas é exigida também para o veto fundado no interesse público.",
+      "explanation": "**Regra:** qualquer veto — por inconstitucionalidade ou por contrariedade ao interesse público — deve ter seus motivos comunicados ao Presidente do Senado em até 48 horas. **Aplicação:** a natureza política do fundamento não dispensa a comunicação formal. **Pegadinha:** o motivo muda a justificativa do veto, mas não elimina o requisito comum de informar o Senado. (Constituição, art. 66, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -64797,7 +64797,7 @@
       },
       "statement": "Se o presidente da República vetar um projeto de lei no último dia útil do prazo constitucional para o veto, a comunicação dos motivos ao presidente do Senado pode ocorrer depois desse dia, desde que feita dentro das 48 horas seguintes ao veto.",
       "correctAnswer": "C",
-      "explanation": "A decisão de veto tem prazo de quinze dias úteis a partir do recebimento. Uma vez exercido o veto, começa a janela distinta de 48 horas para comunicar os motivos ao Presidente do Senado. A comunicação pode ocorrer depois do último dia útil do primeiro prazo, pois seu marco é a decisão de vetar.",
+      "explanation": "**Regra:** há dois prazos com marcos diferentes: quinze dias úteis, contados do recebimento, para decidir o veto; e 48 horas, após vetar, para comunicar os motivos ao Presidente do Senado. **Aplicação:** o veto foi exercido no último dia do primeiro prazo, então a comunicação pode ocorrer depois desse dia, desde que respeite as 48 horas seguintes. **Pegadinha:** não confunda decisão e comunicação. (Constituição, art. 66, § 1º.)",
       "reviewEvidence": "Constituição Federal, art. 66, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -72189,7 +72189,7 @@
       },
       "statement": "O prazo constitucional do TCU para elaborar parecer prévio sobre as contas anuais do Presidente da República tem como marco inicial o recebimento das contas pelo Tribunal.",
       "correctAnswer": "C",
-      "explanation": "O art. 71, I, dá ao TCU sessenta dias a partir do recebimento das contas para elaborar o parecer prévio.",
+      "explanation": "**Regra:** para o parecer prévio das contas anuais do Presidente da República, o TCU dispõe de sessenta dias a partir do recebimento das contas. **Aplicação:** o recebimento é o termo inicial expressamente indicado; não se conta automaticamente do fim do ano ou da apresentação ao Congresso. **Distinção:** o TCU emite parecer técnico prévio; o Congresso Nacional exerce a competência de julgamento. (Constituição, arts. 49, IX, e 71, I.)",
       "reviewEvidence": "Revisão por IA com conferência da Constituição consolidada pela Câmara. O art. 71, I, dá ao TCU sessenta dias a partir do recebimento das contas para elaborar o parecer prévio. Dificuldade estimada."
     },
     {
@@ -81373,7 +81373,7 @@
       },
       "statement": "Se o prazo constitucional para apreciação do veto presidencial termina sem deliberação, o veto deve ser incluído na Ordem do Dia da sessão imediata.",
       "correctAnswer": "C",
-      "explanation": "O fim do prazo produz consequência na pauta. O veto deve ser levado à sessão imediata, com sobrestamento das demais proposições até a votação final, na forma constitucional. (Constituição Federal, art. 66, §§ 4º e 6º.)",
+      "explanation": "**Regra:** se o Congresso não apreciar o veto em até trinta dias do recebimento, ele passa à Ordem do Dia da sessão imediata e sobresta as demais proposições até a votação final. **Aplicação:** encerrado o prazo sem deliberação, o veto tem prioridade de pauta. **Distinção:** o prazo de quinze dias úteis é para o Presidente decidir se veta; os trinta dias dizem respeito à apreciação do veto pelo Congresso. (Constituição, art. 66, §§ 1º, 4º e 6º.)",
       "reviewEvidence": "Constituição Federal, art. 66, §§ 4º e 6º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica o efeito do prazo vencido sobre a ordem do dia."
     },
     {
@@ -81401,7 +81401,7 @@
       },
       "statement": "A Constituição vigente não exige escrutínio secreto para apreciar veto presidencial.",
       "correctAnswer": "C",
-      "explanation": "A Emenda Constitucional nº 76/2013 retirou a expressão que exigia escrutínio secreto. A apreciação continua ocorrendo em sessão conjunta e a rejeição exige maioria absoluta em cada Casa. (Constituição Federal, art. 66, § 4º, com redação da EC nº 76/2013.)",
+      "explanation": "**Regra:** após a EC 76/2013, o veto é apreciado em sessão conjunta sem exigência de escrutínio secreto. Para rejeitá-lo, exige-se maioria absoluta separada na Câmara e no Senado. **Aplicação:** a Constituição vigente não manda votar o veto secretamente. **Pegadinha:** não use redação constitucional anterior à emenda; publicidade da votação e quórum de rejeição são pontos distintos. (Constituição, art. 66, § 4º.)",
       "reviewEvidence": "Constituição Federal, art. 66, § 4º, com redação da EC nº 76/2013 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica a retirada do sigilo do procedimento constitucional."
     },
     {
@@ -81457,7 +81457,7 @@
       },
       "statement": "Se a Casa legislativa expede o projeto numa segunda-feira, mas a Presidência da República só o recebe na quinta-feira, o prazo constitucional de veto é contado a partir da expedição.",
       "correctAnswer": "E",
-      "explanation": "O marco indicado está incorreto. Os quinze dias úteis para veto são contados da data em que o projeto é recebido pela Presidência. (Constituição Federal, art. 66, § 1º.)",
+      "explanation": "**Regra:** o Presidente tem quinze dias úteis para sancionar ou vetar, contados do recebimento do projeto. **Aplicação:** o prazo começa na quinta-feira, quando a Presidência recebeu a proposição, não na segunda-feira em que a Casa a expediu. **Distinção:** envio e recebimento são eventos diferentes; para a contagem constitucional, importa o recebimento pelo Presidente. (Constituição, art. 66, § 1º.)",
       "reviewEvidence": "Constituição Federal, art. 66, § 1º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue o envio pela Casa legislativa do efetivo recebimento."
     },
     {

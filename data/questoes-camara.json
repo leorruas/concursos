@@ -87741,6 +87741,222 @@
         "section": "Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução"
       },
       "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-economicidade-sem-ilegalidade-formal",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "economicidade-sem-ilegalidade-formal",
+      "mechanism": "economicidade-sem-ilegalidade-formal",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em fiscalização de programa federal, o controle externo verifica que os pagamentos seguiram a dotação e a forma prescrita. Ainda assim, pode examinar se o custo de um serviço equivalente é desproporcional, como questão de economicidade.",
+      "correctAnswer": "C",
+      "explanation": "O exame financeiro e orçamentário inclui legalidade, legitimidade e economicidade. A regularidade formal do pagamento não encerra a pergunta sobre o custo. Se a fiscalização analisasse apenas a autorização legal da despesa, estaria avaliando dimensão diferente. Constituição Federal, art. 70.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "199_cge_al_001_01",
+        "item": 114,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf",
+        "mechanism": "Inclui dimensões operacional e patrimonial e alcança a administração indireta"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Objeto de fiscalização: cinco dimensões"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cge 114: Inclui dimensões operacional e patrimonial e alcança a administração indireta. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Objeto de fiscalização: cinco dimensões",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Objeto de fiscalização: cinco dimensões"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-sustacao-contrato-passo-imediato",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "sustacao-contrato-passo-imediato",
+      "mechanism": "sustacao-contrato-passo-imediato",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Detectada ilegalidade insuscetível de correção em contrato administrativo federal, o Tribunal de Contas pode seguir imediatamente a mesma competência de sustação aplicável a ato administrativo impugnado.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição distingue a sustação de ato e de contrato. No caso de contrato, o ato de sustação compete inicialmente ao Congresso Nacional, que solicita de imediato as medidas ao Executivo. Se Congresso ou Executivo não agirem em noventa dias, o Tribunal decide a respeito. Para ato impugnado, a hipótese de sustação pelo Tribunal está no inciso X. Constituição Federal, art. 71, X e §§ 1º e 2º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "199_cge_al_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf",
+        "mechanism": "Eficácia executiva convive com possibilidade de controle judicial"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Sustação de ato administrativo × sustação de contrato"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cge 116: Eficácia executiva convive com possibilidade de controle judicial. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Sustação de ato administrativo × sustação de contrato",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Sustação de ato administrativo × sustação de contrato"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-multa-tcu-titulo-judicial",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "multa-tcu-titulo-judicial",
+      "mechanism": "multa-tcu-titulo-judicial",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O Tribunal de Contas da União julgou contas de gestor e imputou débito. A decisão tem eficácia de título executivo, independentemente de sentença judicial prévia que constitua o débito.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição atribui eficácia executiva às decisões que imputem débito ou multa. O título pode ser levado à execução pelas vias cabíveis e está sujeito a controle jurisdicional; não é necessário novo julgamento de mérito prévio para constituí-lo. Parecer prévio sobre contas presidenciais tem natureza diferente. Constituição Federal, art. 71, I, II e § 3º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "199_cge_al_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf",
+        "mechanism": "Eficácia executiva convive com possibilidade de controle judicial"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Quem exerce qual competência"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cge 116: Eficácia executiva convive com possibilidade de controle judicial. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Quem exerce qual competência",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Quem exerce qual competência"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-relatorio-abril-prazo-bimestre",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "relatorio-abril-prazo-bimestre",
+      "mechanism": "relatorio-abril-prazo-bimestre",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Encerrado o bimestre de março e abril, o Poder Executivo decide divulgar o Relatório Resumido da Execução Orçamentária junto com as informações do próximo bimestre, dentro de sessenta dias. Esse calendário satisfaz a periodicidade constitucional.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição exige publicação em até trinta dias após o encerramento de cada bimestre. A reunião de períodos não cumpre o prazo original. Se o relatório de março e abril fosse publicado dentro de trinta dias, esse requisito temporal seria atendido. Constituição Federal, art. 165, § 3º, e Lei Complementar nº 101/2000, art. 52.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 26,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Anexo de metas não se confunde com vedações e tetos legais"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#RREO: informações sobre execução"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 26: Anexo de metas não se confunde com vedações e tetos legais. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / RREO: informações sobre execução",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "RREO: informações sobre execução"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-controle-quadrimestre-pessoal",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "controle-quadrimestre-pessoal",
+      "mechanism": "controle-quadrimestre-pessoal",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Ao examinar o cumprimento dos limites de despesa com pessoal de um Poder federal, a comissão identifica que a publicação bimestral de execução orçamentária está regular. Ainda deve obter o Relatório de Gestão Fiscal pertinente ao Poder e ao quadrimestre examinado.",
+      "correctAnswer": "C",
+      "explanation": "O Relatório Resumido da Execução Orçamentária acompanha a execução bimestral, enquanto o Relatório de Gestão Fiscal do titular do Poder ou órgão reúne comparativos de limites que incluem pessoal. Publicação regular de um não prova que o outro foi emitido ou que o limite foi atendido. Se o exame tratasse apenas da execução bimestral, o primeiro relatório seria diretamente pertinente. Lei Complementar nº 101/2000, arts. 52, 54 e 55.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 26,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Anexo de metas não se confunde com vedações e tetos legais"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#RGF: limites, disponibilidade e responsabilidade por Poder/órgão"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 26: Anexo de metas não se confunde com vedações e tetos legais. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / RGF: limites, disponibilidade e responsabilidade por Poder/órgão",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "RGF: limites, disponibilidade e responsabilidade por Poder/órgão"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-interna-avaliacao-metas-patrimonio",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "interna-avaliacao-metas-patrimonio",
+      "mechanism": "interna-avaliacao-metas-patrimonio",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O sistema de controle interno de um Poder verifica a legalidade de um programa, mas deixa a avaliação de eficácia e eficiência integralmente ao controle externo. A divisão corresponde ao desenho constitucional dos sistemas de controle interno.",
+      "correctAnswer": "E",
+      "explanation": "O controle interno avalia metas, programas e orçamentos e verifica resultados quanto à eficácia e eficiência da gestão, além de comprovar legalidade e apoiar o controle externo. Se a questão perguntasse quem julga contas de determinados administradores, a atribuição externa do Tribunal de Contas seria pertinente. Constituição Federal, arts. 71, II, e 74, I, II e IV.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "199_cge_al_001_01",
+        "item": 115,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf",
+        "mechanism": "Cada Poder mantém sistema integrado com funções de legalidade e avaliação de resultados"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Controle interno, controle externo e prestação de contas"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cge 115: Cada Poder mantém sistema integrado com funções de legalidade e avaliação de resultados. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Controle interno, controle externo e prestação de contas",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Controle interno, controle externo e prestação de contas"
+      },
+      "reviewStatus": "validada"
     }
   ]
 }

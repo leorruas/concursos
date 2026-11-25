@@ -91,6 +91,10 @@ A auditoria da dívida exige distinguir **estoque de dívida**, **pagamentos de 
 
 A LRF estabelece regras e condições para endividamento, operações de crédito, garantias e limites, complementadas por normas constitucionais, resoluções pertinentes e regras específicas do exercício. O auditor deve evitar aplicar limite percentual de uma modalidade a outra sem conferir **ente, instrumento, prazo, finalidade e base de cálculo**.
 
+### Do primário ao nominal na apuração acima da linha
+
+O resultado primário compara receitas e despesas primárias segundo a metodologia fiscal aplicável. A diferença entre receita arrecadada e despesa empenhada responde a uma pergunta orçamentária distinta. No resultado nominal acima da linha, some ao resultado primário os juros ativos e deduza os juros passivos. Com superávit primário de R$ 12 milhões, juros ativos de R$ 3 milhões e juros passivos de R$ 18 milhões, o nominal é deficitário em R$ 3 milhões. A apuração abaixo da linha parte da evolução da dívida líquida e usa os ajustes metodológicos pertinentes. [Secretaria do Tesouro Nacional, Manual de Demonstrativos Fiscais, tabela de metas fiscais](https://conteudo.tesouro.gov.br/manuais/index.php?Itemid=675&catid=600&id=1178&option=com_content&view=article).
+
 ## Contingenciamento e recomposição
 
 A LRF, art. 9º, exige avaliação ao fim de cada bimestre sobre a realização da receita e o cumprimento das metas. Nas condições legais, os Poderes e o Ministério Público devem limitar empenho e movimentação financeira dentro do prazo e critérios aplicáveis. A recomposição proporcional pode ocorrer se a receita prevista se restabelecer, observado o § 1º.

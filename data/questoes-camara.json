@@ -21033,7 +21033,7 @@
       },
       "statement": "Antes de partir para viagem particular ao exterior, uma deputada dá ciência do afastamento à Câmara por intermédio da Presidência, indicando o motivo da viagem e quantos dias estima ficar fora. Ela atende à regra de comunicação do art. 228.",
       "correctAnswer": "C",
-      "explanation": "A ciência deve ser prévia e passar pela Presidência, com indicação da natureza e da duração estimada do afastamento.",
+      "explanation": "O art. 228 do RICD exige que o deputado comunique previamente à Câmara, por intermédio da Presidência, o afastamento do território nacional e indique sua natureza e duração estimada. O caso atende aos elementos de aviso previstos. A regra descrita é de ciência à Casa; não se deve trocar seus requisitos por simples aviso ao líder ou por comunicação posterior.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 228. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -23441,7 +23441,7 @@
       },
       "statement": "Uma lei complementar federal autoriza os estados a legislar sobre questão específica de propaganda comercial. A autorização é, em tese, compatível com o mecanismo constitucional de delegação de competência privativa.",
       "correctAnswer": "C",
-      "explanation": "O parágrafo único admite que lei complementar autorize os estados a legislar sobre questões específicas das matérias do art. 22.",
+      "explanation": "Propaganda comercial está na competência legislativa privativa da União (CF, art. 22, XXIX). O parágrafo único permite que uma lei complementar federal autorize os estados a legislar sobre questões específicas dessa matéria. A autorização deve ser expressa e delimitada; ela não transfere toda a competência nem cria uma autorização geral para os estados.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 22, XXIX e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -23469,7 +23469,7 @@
       },
       "statement": "O silêncio da legislação federal sobre determinada forma de propaganda comercial transfere, por si só, a competência legislativa aos estados.",
       "correctAnswer": "E",
-      "explanation": "A propaganda comercial é matéria de competência privativa da União. A ausência de lei federal não equivale à autorização por lei complementar para questão específica.",
+      "explanation": "O silêncio do Congresso sobre propaganda comercial não libera automaticamente a legislação estadual. Como a matéria é privativa da União, a atuação estadual nesse campo depende da autorização por lei complementar prevista no art. 22, parágrafo único, e fica restrita às questões específicas que essa lei indicar. Ausência de norma federal não substitui essa autorização.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 22, XXIX e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -23945,7 +23945,7 @@
       },
       "statement": "Uma deputada pede licença para desempenhar missão temporária diplomática. A decisão sobre o pedido cabe à Mesa, conforme a regra específica do Regimento.",
       "correctAnswer": "C",
-      "explanation": "A missão temporária diplomática ou cultural é tratada no inciso I e tem concessão atribuída à Mesa pelo § 4º.",
+      "explanation": "Para missão temporária diplomática ou cultural, o RICD prevê licença específica e atribui à Mesa sua concessão (art. 235, I e § 4º). A pergunta cobra quem decide o pedido; não se deve aplicar automaticamente a regra geral de outra hipótese de licença nem confundir missão oficial com viagem particular.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 235, I e § 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -24477,7 +24477,7 @@
       },
       "statement": "Como a Constituição adota a não intervenção, ela exclui a cooperação entre os povos do rol de princípios das relações internacionais brasileiras.",
       "correctAnswer": "E",
-      "explanation": "O rol inclui expressamente ambos os princípios. A não intervenção não equivale a isolamento internacional.",
+      "explanation": "A Constituição enumera, em incisos diferentes do art. 4º, a não intervenção e a cooperação entre os povos. Os princípios convivem: cooperar por acordo e com respeito à autonomia dos participantes não equivale, por si só, a impor decisões a outro Estado. O item erra ao transformar a não intervenção em isolamento internacional.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 4º, IV e IX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25261,7 +25261,7 @@
       },
       "statement": "Uma comissão da Câmara apresenta projeto de criação de cargos em autarquia federal. Pelo fato de a autoria ser de uma comissão, e não de um deputado isolado, a iniciativa reservada ao Presidente deixa de se aplicar.",
       "correctAnswer": "E",
-      "explanation": "A regra de iniciativa privativa continua valendo. O caráter colegiado da iniciativa parlamentar não altera a matéria reservada.",
+      "explanation": "A criação de cargos na administração federal, inclusive em autarquia, está sujeita à iniciativa privativa do Presidente da República (CF, art. 61, § 1º, II, a). A reserva diz respeito à matéria do projeto, não a quem, dentro do Legislativo, o assina: uma comissão parlamentar também não pode iniciar projeto sobre tema reservado. Previsão orçamentária não corrige o vício de iniciativa.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 61, § 1º, II, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26129,7 +26129,7 @@
       },
       "statement": "Um município exerce competências próprias de organização e administração dentro da Constituição. Essa autonomia é compatível com sua condição de ente da organização político-administrativa brasileira.",
       "correctAnswer": "C",
-      "explanation": "O art. 18 inclui os municípios entre os entes autônomos. A autonomia é exercida dentro dos limites constitucionais.",
+      "explanation": "Os municípios integram a organização político-administrativa e são autônomos, nos termos do art. 18. Essa autonomia permite organizar o governo local e exercer competências próprias dentro da Constituição; não significa soberania nem liberdade para contrariar a Constituição ou as leis nacionais. Soberana é a República Federativa do Brasil.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 18. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27025,7 +27025,7 @@
       },
       "statement": "Um projeto de iniciativa parlamentar, já aprovado pela Câmara e revisado pelo Senado, continua em tramitação ao término da legislatura. A tramitação cumpre uma das exceções regimentais ao arquivamento, ainda que a iniciativa não seja popular.",
       "correctAnswer": "C",
-      "explanation": "A aprovação pela Câmara seguida de revisão pelo Senado é exceção própria do art. 105. Ela independe de quem iniciou o projeto.",
+      "explanation": "Ao fim da legislatura, a regra geral é arquivar as proposições ainda em tramitação. O art. 105, X, do RICD ressalva as proposições aprovadas pela Câmara e revisadas pelo Senado. Esse é exatamente o percurso descrito, então o projeto pode continuar, ainda que tenha sido apresentado por deputado e não seja de iniciativa popular.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 105. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -28313,7 +28313,7 @@
       },
       "statement": "No mesmo semestre, um deputado usa a palavra uma vez por sorteio e outra por cessão de vaga de colega. O Regimento admite uma terceira fala obtida por nova cessão de vaga.",
       "correctAnswer": "C",
-      "explanation": "O limite é de três falas por semestre, com uma vaga por sorteio e duas por cessão. O caso preserva essa distribuição.",
+      "explanation": "O art. 87, § 2º, admite no semestre até três falas: uma obtida por sorteio e duas por cessão. O deputado já usou uma de cada forma; uma nova cessão seria a segunda cessão e sua terceira fala, ainda dentro dos dois limites. Portanto, o item está certo. A regra não permitiria uma terceira cessão nem uma quarta fala no semestre.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 87, § 2º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -28341,7 +28341,7 @@
       },
       "statement": "Um deputado já falou uma vez por sorteio no Grande Expediente neste semestre e ainda não recebeu cessão de vaga. Como está abaixo do limite total de três falas, pode ocupar uma segunda vaga por sorteio.",
       "correctAnswer": "E",
-      "explanation": "O limite total não afasta o limite por forma de obtenção. O Regimento reserva uma fala por sorteio e admite duas mediante cessão.",
+      "explanation": "Estar abaixo do máximo de três falas não basta. A distribuição também limita a uma fala por sorteio e duas por cessão de vaga em cada semestre (RICD, art. 87, § 2º). Como o deputado já ocupou a vaga sorteada, a vaga seguinte só pode vir de cessão; o total disponível não altera essa regra por modalidade.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 87, § 2º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -28369,7 +28369,7 @@
       },
       "statement": "Uma iniciativa entre países latino-americanos busca aproximar seus sistemas de formação artística e incentivar intercâmbio cultural. A dimensão cultural está expressamente compreendida na diretriz constitucional de integração regional.",
       "correctAnswer": "C",
-      "explanation": "O parágrafo único abrange integração econômica, política, social e cultural dos povos da América Latina.",
+      "explanation": "O art. 4º, parágrafo único, estabelece uma diretriz específica de integração entre os povos da América Latina e menciona expressamente a dimensão cultural, ao lado das dimensões econômica, política e social. Por isso, intercâmbios de formação artística podem se enquadrar nesse objetivo. Não é preciso reduzir a integração regional apenas a comércio ou política.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 4º, parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -65105,7 +65105,7 @@
       },
       "statement": "Diante de omissão de uma comissão, um de seus membros pode recorrer diretamente ao Plenário pela via da reclamação, ainda que o presidente da comissão não tenha decidido a questão.",
       "correctAnswer": "E",
-      "explanation": "A decisão inicial cabe ao presidente da comissão. A via recursal pressupõe essa decisão, em vez de substituir o exame inicial.",
+      "explanation": "Na comissão, a questão deve ser resolvida primeiro pelo seu presidente. Só depois de uma decisão conclusiva o membro pode recorrer por escrito ao Presidente da Câmara, sem interromper a tramitação (RICD, art. 57, XXI). O recurso não serve para pular a instância inicial e não é dirigido diretamente ao Plenário.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 96, § 2º. Critério de julgamento: A decisão inicial cabe ao presidente da comissão. A via recursal pressupõe essa decisão, em vez de substituir o exame inicial. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
     },
     {

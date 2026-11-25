@@ -10203,7 +10203,7 @@
       "reviewStatus": "validada",
       "statement": "A Câmara aprovou uma PEC em dois turnos com 315 votos favoráveis em cada votação. No Senado, o texto recebeu 49 votos favoráveis no primeiro turno e 48 no segundo. Em ambas as Casas o texto votado foi o mesmo.\n\nCom base nessa situação, julgue o item a seguir.\n\nO excedente de votos obtido na Câmara permite considerar superado o quórum da segunda votação no Senado.",
       "correctAnswer": "E",
-      "explanation": "Cada Casa deve alcançar três quintos de seus membros em ambos os turnos. No Senado são necessários 49 votos em cada turno. O excedente em outra votação ou em outra Casa não compensa o déficit. Um voto favorável adicional no segundo turno do Senado atingiria o limiar.",
+      "explanation": "**Regra:** cada Casa precisa aprovar a PEC por três quintos de seus próprios membros em dois turnos. No Senado, isso corresponde a 49 votos em cada turno. **Aplicação:** o Senado teve 49 no primeiro turno, mas apenas 48 no segundo; a PEC não alcançou o quórum nessa Casa. **Pegadinha:** os votos excedentes da Câmara não compensam a insuficiência no Senado, nem um turno compensa o outro. (Constituição, art. 60, § 2º.)",
       "reviewEvidence": "Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10236,7 +10236,7 @@
       "reviewStatus": "validada",
       "statement": "No primeiro turno de uma PEC na Câmara, compareceram 490 deputados. Houve 308 votos favoráveis, 170 contrários e 12 abstenções. O presidente da sessão precisa verificar se o texto superou o quórum dessa votação.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs votos favoráveis superaram três quintos dos presentes, mas o texto ainda ficou abaixo do quórum constitucional do primeiro turno.",
       "correctAnswer": "E",
-      "explanation": "A base é o total de 513 membros da Câmara. Três quintos correspondem a 307,8, de modo que 308 votos já atingem o mínimo. As abstenções não alteram a base. O caso ficaria abaixo do quórum se houvesse apenas 307 votos favoráveis.",
+      "explanation": "**Regra:** na Câmara, três quintos de 513 membros equivalem a 307,8; como não existe fração de voto, são necessários pelo menos 308 votos favoráveis em cada turno. **Aplicação:** os 308 votos do item atingem o mínimo, portanto o quórum foi superado. **Distinção:** a base é o total de deputados, não os 490 presentes; abstenções não reduzem o piso. (Constituição, art. 60, § 2º.)",
       "reviewEvidence": "Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10269,7 +10269,7 @@
       "reviewStatus": "validada",
       "statement": "Em uma votação no Senado compareceram 75 dos 81 senadores. O projeto em votação exige lei complementar e recebeu 40 votos favoráveis, 30 contrários e cinco abstenções.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs 40 votos favoráveis não bastam, embora sejam mais do que a metade dos senadores presentes.",
       "correctAnswer": "C",
-      "explanation": "A lei complementar exige maioria absoluta dos membros, que são 41 dos 81 senadores. Quarenta votos superam a metade dos 75 presentes, mas não atingem a maioria absoluta. Um voto favorável a mais faria diferença.",
+      "explanation": "**Regra:** lei complementar exige maioria absoluta dos membros da Casa, e não maioria simples dos presentes. No Senado, com 81 membros, são necessários ao menos 41 votos favoráveis. **Aplicação:** 40 votos superam metade dos 75 presentes, mas ficam abaixo de 41; portanto, o projeto não alcança o quórum. **Pegadinha:** presença e abstenções não reduzem o número de votos exigido. Um voto favorável a mais atingiria o mínimo. (Constituição, art. 69.)",
       "reviewEvidence": "Constituição Federal, art. 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10302,7 +10302,7 @@
       "reviewStatus": "validada",
       "statement": "Na Câmara, 440 deputados compareceram a duas votações. O primeiro projeto veicula matéria validamente tratada por lei ordinária. O segundo versa sobre matéria reservada a lei complementar. Cada projeto recebeu 250 votos favoráveis e 190 contrários.\n\nCom base nessa situação, julgue o item a seguir.\n\nComo o número de deputados presentes era o mesmo e ambos os projetos obtiveram maioria dos votos, os dois alcançaram o quórum de aprovação.",
       "correctAnswer": "E",
-      "explanation": "Com maioria absoluta de membros presentes, a regra geral do art. 47 permite aprovar o projeto ordinário por maioria dos votos. A lei complementar exige maioria absoluta dos membros, ou 257 votos na Câmara. Os 250 votos satisfazem apenas o primeiro regime.",
+      "explanation": "**Regra:** a regra geral para deliberações legislativas é maioria dos votos, desde que esteja presente a maioria absoluta dos membros (art. 47). Lei complementar exige maioria absoluta da composição (art. 69). **Aplicação:** os 440 presentes satisfazem o quórum de presença; 250 votos podem aprovar o projeto ordinário, mas não alcançam os 257 exigidos para o projeto de lei complementar. **Pegadinha:** estar presente a maioria absoluta não significa que o mesmo quórum baste para aprovar toda matéria.",
       "reviewEvidence": "Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -30273,7 +30273,7 @@
       },
       "statement": "Em uma votação na Câmara dos Deputados, 300 dos 513 deputados estão presentes. Um projeto de lei complementar recebe 230 votos favoráveis. A maioria de votos entre os presentes basta para aprovar o projeto.",
       "correctAnswer": "E",
-      "explanation": "A aprovação de lei complementar exige maioria absoluta. A Câmara precisa de pelo menos 257 votos favoráveis, mesmo se houver menos parlamentares presentes.",
+      "explanation": "**Regra:** lei complementar só é aprovada com votos favoráveis da maioria absoluta dos 513 deputados: pelo menos 257. **Aplicação:** 230 votos ficam abaixo desse piso, ainda que sejam maioria entre os presentes. **Distinção:** o art. 47 usa a maioria de votos para a regra geral; o art. 69 fixa quórum mais alto para lei complementar. (Constituição, arts. 47 e 69.)",
       "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30301,7 +30301,7 @@
       },
       "statement": "O plenário da Câmara, composto de 513 deputados, registra 257 votos favoráveis a um projeto de lei complementar. Quanto ao número de votos favoráveis exigido pela Constituição, o resultado é suficiente.",
       "correctAnswer": "C",
-      "explanation": "O art. 69 exige maioria absoluta. Em uma composição de 513 deputados, o menor número inteiro acima da metade é 257.",
+      "explanation": "**Regra:** maioria absoluta significa mais da metade da composição total; com 513 deputados, o mínimo é 257, pois não há fração de voto. **Aplicação:** 257 votos favoráveis alcançam exatamente esse número e satisfazem o quórum da lei complementar. **Pegadinha:** 256 ainda seriam menos da metade, mesmo que a diferença fosse de apenas um voto. (Constituição, art. 69.)",
       "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30329,7 +30329,7 @@
       },
       "statement": "Na Câmara dos Deputados, uma PEC recebe 320 votos favoráveis no primeiro turno e 307 no segundo. Como recebeu mais de 308 votos no primeiro turno, a proposta pode ser considerada aprovada nessa Casa.",
       "correctAnswer": "E",
-      "explanation": "A Câmara exige pelo menos 308 votos favoráveis em cada turno. O resultado de um turno não compensa a insuficiência em outro.",
+      "explanation": "**Regra:** a proposta de emenda exige, na Câmara, pelo menos 308 votos favoráveis em cada um dos dois turnos. **Aplicação:** o primeiro turno passou com 320, mas o segundo recebeu 307, um voto abaixo do mínimo; por isso, a Casa não aprovou a PEC. **Pegadinha:** cada turno tem de cumprir o quórum por si; o excedente do primeiro não cobre a falta no segundo. (Constituição, art. 60, § 2º.)",
       "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -32653,7 +32653,7 @@
       },
       "statement": "Uma equipe chama de “comprometidos com a cultura” os visitantes que participaram de pelo menos quatro eventos no semestre. A frequência observada é o único critério de inclusão. O rótulo atribuído ao grupo torna essa segmentação psicográfica.",
       "correctAnswer": "E",
-      "explanation": "**Regra:** relevância e urgência são requisitos para edição de medida provisória, não para a lei delegada. A lei delegada exige autorização do Congresso por resolução e respeito aos limites dessa autorização e às matérias que a Constituição exclui. **Aplicação:** a falta de urgência, isoladamente, não invalida a lei delegada do caso. **Pegadinha:** não transportar pressupostos de uma espécie normativa para a outra. (Constituição, arts. 62 e 68.)",
+      "explanation": "**Regra:** também podem propor PEC mais da metade das Assembleias Legislativas estaduais, desde que cada uma delas se manifeste pela maioria relativa de seus membros (Constituição, art. 60, III). **Aplicação:** mais da metade de 27 unidades federativas corresponde a pelo menos 14 assembleias; as 14 citadas atingem o número mínimo, e a maioria relativa dentro de cada uma satisfaz o requisito de votação. **Pegadinha:** conte assembleias favoráveis, não some votos de deputados estaduais entre estados.",
       "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
     },
       {

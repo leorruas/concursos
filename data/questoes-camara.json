@@ -20193,7 +20193,7 @@
       },
       "statement": "A Câmara cria um novo banco de dados após a edição do Código de Ética. O fato de o banco ser novo não o exclui da previsão de acesso para consulta pelo Conselho de Ética.",
       "correctAnswer": "C",
-      "explanation": "O art. 17 abrange sistemas e bancos de dados que venham a ser criados no âmbito da Câmara.",
+      "explanation": "**Regra:** o acesso do Conselho para consulta alcança sistemas e bancos de dados da Câmara existentes e os que venham a ser criados. **Aplicação:** a data posterior de criação dessa base não a exclui do alcance do art. 17. **Limite:** o acesso continua sendo apenas para consulta; a regra não autoriza o Conselho a administrar ou alterar o banco. Assim, a novidade da base não muda a finalidade nem amplia os poderes do usuário. (Código de Ética, art. 17.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 17. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20221,7 +20221,7 @@
       },
       "statement": "O acesso de consulta previsto no art. 17 só alcança as bases de dados que já existiam na Câmara quando o Código de Ética foi editado.",
       "correctAnswer": "E",
-      "explanation": "A previsão alcança também sistemas e bancos de dados posteriores criados no âmbito da Casa.",
+      "explanation": "**Regra:** o art. 17 não congela o acesso aos sistemas existentes na data em que o Código foi aprovado; inclui também sistemas e bancos de dados que venham a ser criados na Câmara. **Aplicação:** uma base nova continua disponível para consulta do Conselho, desde que esteja abrangida pela previsão normativa. **Distinção:** o limite está na finalidade — consultar —, não na data de criação. Isso não dá autorização para inserir, modificar ou apagar registros. (Código de Ética, art. 17.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 17. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20557,7 +20557,7 @@
       },
       "statement": "Um deputado que apresentou autorização de acesso a dados fiscais na posse pode recusar nova apresentação solicitada pelo órgão competente, porque essa obrigação só existe na posse.",
       "correctAnswer": "E",
-      "explanation": "O Código também prevê apresentação quando o órgão competente a solicita.",
+      "explanation": "**Regra:** a autorização de acesso às declarações fiscais e bancárias é apresentada na posse e também quando solicitada pelo órgão competente da Câmara. **Aplicação:** ter autorizado o acesso no início do mandato não permite recusar uma nova apresentação quando houver solicitação válida. **Distinção:** o Código prevê acesso para controle institucional, preservando o tratamento sigiloso das informações; não se trata de publicação geral dos dados patrimoniais. (Código de Ética, art. 18, I e II.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 18, I. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -28033,7 +28033,7 @@
       },
       "statement": "Um texto sobre a organização dos trabalhos do Conselho de Ética é encaminhado à Comissão de Constituição e Justiça e de Cidadania para aprovação. A indicação dessa comissão como órgão aprovador é compatível com o Código.",
       "correctAnswer": "C",
-      "explanation": "O art. 8º atribui à CCJC a aprovação do regulamento específico do Conselho.",
+      "explanation": "**Regra:** o regulamento específico de funcionamento do Conselho de Ética é aprovado pela Comissão de Constituição e Justiça e de Cidadania. **Aplicação:** encaminhá-lo à CCJC para aprovação respeita a competência expressamente atribuída pelo Código. **Distinção:** o Conselho é o órgão cujo funcionamento será regulado, mas isso não lhe transfere a competência de aprovar seu próprio regulamento. (Código de Ética, art. 8º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 8º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -28061,7 +28061,7 @@
       },
       "statement": "O Conselho de Ética considera que, por ser destinatário do próprio regulamento de funcionamento, pode substituir a Comissão de Constituição e Justiça e de Cidadania na aprovação prevista no Código. Essa substituição é admissível.",
       "correctAnswer": "E",
-      "explanation": "A condição de destinatário do regulamento não altera a competência de aprovação atribuída à CCJC.",
+      "explanation": "**Regra:** a aprovação do regulamento específico do Conselho de Ética cabe à CCJC. **Aplicação:** o Conselho pode participar da organização de seus trabalhos, mas não substituir a comissão que o Código indicou como responsável pela aprovação. **Distinção:** elaborar ou aplicar regras internas e aprovar formalmente o regulamento são funções diferentes. O fato de o Conselho ser destinatário das regras não cria competência decisória para ele. (Código de Ética, art. 8º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 8º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -58189,7 +58189,7 @@
       },
       "statement": "O ressarcimento ao erário de vantagens indevidas provenientes de recursos públicos utilizados em desconformidade com o Código pode ser exigido sem prejuízo das sanções disciplinares.",
       "correctAnswer": "C",
-      "explanation": "O art. 10, § 3º, estabelece ressarcimento integral sem prejuízo das penalidades.",
+      "explanation": "**Regra:** o deputado deve ressarcir integralmente ao erário vantagens indevidas provenientes do uso irregular de recursos públicos, sem prejuízo das sanções disciplinares. **Aplicação:** a devolução recompõe o patrimônio público, mas o processo ainda pode avaliar a infração e aplicar penalidade. **Distinção:** reparação financeira e responsabilização disciplinar têm objetos diferentes; cumprir uma não extingue automaticamente a outra. (Código de Ética, art. 10, § 3º.)",
       "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14); CI obrigatório para integração."
     },
     {

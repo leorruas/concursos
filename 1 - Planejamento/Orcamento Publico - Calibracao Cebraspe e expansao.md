@@ -583,6 +583,8 @@ Doze autorais, seis por concurso. Total acumulado de 108 e saldo indicativo de 1
 
 ## Lote 10 — competências, exceções e fechamento da meta
 
+SHA integrado e publicado: `7086cbd74343ba1ede788475e992888a136b7f56`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45684304289) · [Publicação aprovada](https://github.com/leorruas/concursos/actions/runs/45684415581).
+
 Doze autorais, seis por concurso. Total acumulado de 120, sendo 60 para a Câmara e 60 para a CGU. O lote fecha o recorte com prazos da proposta, limites da autonomia orçamentária, fiscalização de obras, créditos extraordinários, repartição tributária, dívida consolidada, classificação institucional e controle da execução. O próximo ciclo deve usar evidência de resolução e fontes oficiais novas para apontar lacunas, preservando os enunciados e IDs existentes.
 
 | ID | Referência | Artigo | Nível | Gabarito |
@@ -649,4 +651,4 @@ O nível foi revisado item a item após a redação dos lotes. Questões curtas 
 | camara-2026 | 60 | 6 | 31 | 23 | 31 | 29 |
 | cgu-2026 | 60 | 7 | 35 | 18 | 30 | 30 |
 
-O seletor após este lote tem 163 itens de Orçamento da Câmara (42 fáceis, 75 médios, 46 difíceis) e 63 da CGU (sete fáceis, 38 médios, 18 difíceis). A comparação com a base confirma 58 mudanças de dificuldade no legado público da Câmara e preservação dos demais campos, inclusive enunciados, gabaritos e IDs. A validação de publicação deve confrontar a lista dos 120 IDs com o catálogo servido, incluindo os campos de calibração, e verificar a seção teórica alterada da CGU.
+O seletor após este lote tem 163 itens de Orçamento da Câmara (42 fáceis, 75 médios, 46 difíceis) e 63 da CGU (sete fáceis, 38 médios, 18 difíceis). A comparação com a base confirma 58 mudanças de dificuldade no legado público da Câmara e preservação dos demais campos, inclusive enunciados, gabaritos e IDs. O catálogo servido pelo Pages coincidiu com o build local nos 226 itens de Orçamento e preservou a calibração dos 120 novos IDs e os três casos compartilhados. A seção teórica da CGU publicada coincidiu com a versão do build. Os dez preflights remotos e os dez workflows de publicação correspondentes concluíram com sucesso.

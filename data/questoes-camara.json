@@ -7609,6 +7609,402 @@
       "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "Atos Negociais (Consentimento Estatal)"
+      },
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#Atos Negociais (Consentimento Estatal)"
+      ],
+      "id": "cam-reteste-licenca-laudo-superado-em-recurso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "licenca-multicriterio",
+      "mechanism": "licenca-laudo-superado-em-recurso",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "A lei municipal exige três requisitos objetivos para a licença de um laboratório. O órgão indeferiu o pedido por falta de um laudo. No recurso, comprovou-se que o laudo válido já constava do processo e que os outros requisitos estavam preenchidos.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autoridade deve conceder a licença, sem acrescentar a exigência de que considere pessoalmente o laboratório conveniente.",
+      "correctAnswer": "C",
+      "explanation": "A licença descrita é vinculada aos requisitos da lei. Comprovado que todos estão satisfeitos, não há juízo de conveniência adicional. Se o laudo exigido continuasse ausente, faltaria um requisito para concedê-la.",
+      "reviewEvidence": "CTN, art. 78, parágrafo único, e regime da licença na seção vinculada. https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "Atos Negociais (Consentimento Estatal)"
+      },
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#Atos Negociais (Consentimento Estatal)"
+      ],
+      "id": "cam-reteste-licenca-preenchimento-parcial-e-atividade-util",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "licenca-multicriterio",
+      "mechanism": "licenca-preenchimento-parcial-e-atividade-util",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "O interessado pediu licença de funcionamento para uma atividade que contribuiria para revitalizar a região. A lei exige acessibilidade e saída de emergência. A vistoria confirmou a acessibilidade, mas registrou que ainda não existia a saída de emergência exigida.\n\nCom base nessa situação, julgue o item a seguir.\n\nA utilidade econômica da atividade permite à autoridade conceder desde logo a licença vinculada, apesar do requisito de segurança não preenchido.",
+      "correctAnswer": "E",
+      "explanation": "Para a licença vinculada, a Administração deve verificar todos os requisitos legais. A utilidade da atividade não dispensa a saída exigida. A solução mudaria se o interessado comprovasse também a condição de segurança.",
+      "reviewEvidence": "CTN, art. 78, parágrafo único, e regime da licença na seção vinculada. https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5",
+      "articleId": "art-b740cbbd05e54a26",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/04 - poderes administrativos.md",
+        "section": "Poder de polícia: limites gerais a direitos e atividades"
+      },
+      "theoryRefs": [
+        "article:art-b740cbbd05e54a26#Poder de polícia: limites gerais a direitos e atividades"
+      ],
+      "id": "cam-reteste-policia-fiscalizacao-de-atividade-sem-contrato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "policia-supremacia-geral",
+      "mechanism": "policia-fiscalizacao-de-atividade-sem-contrato",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Fiscais visitaram academias de um bairro para verificar a existência das saídas de emergência exigidas pela legislação municipal. Uma academia sustentou que a fiscalização seria possível apenas se ela tivesse celebrado contrato com o poder público.\n\nCom base nessa situação, julgue o item a seguir.\n\nA exigência fiscalizada pode decorrer do poder de polícia, apesar de a academia não ter vínculo especial com a Administração.",
+      "correctAnswer": "C",
+      "explanation": "A fiscalização aplica restrições gerais de segurança a atividades privadas. O poder de polícia opera sobre particulares sujeitos à lei, independentemente de um vínculo contratual ou funcional específico.",
+      "reviewEvidence": "CTN, art. 78, caput. https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5",
+      "articleId": "art-b740cbbd05e54a26",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/04 - poderes administrativos.md",
+        "section": "Poder de polícia: limites gerais a direitos e atividades"
+      },
+      "theoryRefs": [
+        "article:art-b740cbbd05e54a26#Poder de polícia: limites gerais a direitos e atividades"
+      ],
+      "id": "cam-reteste-policia-contratada-sujeita-a-regras-publicas-gerais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "policia-supremacia-geral",
+      "mechanism": "policia-contratada-sujeita-a-regras-publicas-gerais",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma empresa que também presta serviço a um município mantém um depósito próprio. O fiscal examina a ventilação do depósito com base em norma geral aplicável a todos os estabelecimentos do mesmo tipo. A inspeção não examina obrigações previstas no contrato da empresa.\n\nCom base nessa situação, julgue o item a seguir.\n\nComo há um contrato com o município, a fiscalização descrita decorre necessariamente de poder disciplinar contratual.",
+      "correctAnswer": "E",
+      "explanation": "O fato decisivo é a base da fiscalização: a norma geral de segurança aplica-se a todos os estabelecimentos. A existência de um contrato não muda a natureza dessa atuação. Se fossem examinadas obrigações específicas da contratação, haveria outro fundamento.",
+      "reviewEvidence": "CTN, art. 78, caput. https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "articleId": "art-86dee064aef44ba4",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Entidades da Administração Indireta e como são constituídas"
+      },
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+      ],
+      "id": "cam-reteste-qualificacao-autarquia-sem-nova-personalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "agencia-executiva",
+      "mechanism": "qualificacao-autarquia-sem-nova-personalidade",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma autarquia federal iniciou plano estratégico de reestruturação, firmou contrato de gestão com o ministério supervisor e foi qualificada como agência executiva por decreto. O setor patrimonial propôs transferir os bens da autarquia para uma nova pessoa jurídica, supostamente criada pelo decreto.\n\nCom base nessa situação, julgue o item a seguir.\n\nA qualificação muda a condição institucional da autarquia, mas não cria outra pessoa jurídica para receber seu patrimônio.",
+      "correctAnswer": "C",
+      "explanation": "Agência executiva é uma qualificação atribuída a entidade existente. Plano, contrato de gestão e decreto não substituem a personalidade jurídica da autarquia.",
+      "reviewEvidence": "Lei nº 9.649/1998, art. 51, e Decreto nº 2.487/1998, art. 1º. https://www.planalto.gov.br/ccivil_03/decreto/d2487.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "articleId": "art-86dee064aef44ba4",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Entidades da Administração Indireta e como são constituídas"
+      },
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+      ],
+      "id": "cam-reteste-plano-sem-contrato-de-gestao-agencia-executiva",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "agencia-executiva",
+      "mechanism": "plano-sem-contrato-de-gestao-agencia-executiva",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma fundação federal já executa seu plano estratégico de reestruturação. O ministério supervisor ainda não celebrou contrato de gestão com ela. A direção pretende usar a má qualidade dos serviços como motivo para dispensar o instrumento e obter a qualificação imediatamente.\n\nCom base nessa situação, julgue o item a seguir.\n\nO plano em andamento é suficiente para a qualificação como agência executiva e supre a ausência de contrato de gestão.",
+      "correctAnswer": "E",
+      "explanation": "O plano e o contrato de gestão com o ministério supervisor são requisitos próprios. A existência de um não supre a falta do outro. Com ambos satisfeitos, ainda se exige o ato de qualificação.",
+      "reviewEvidence": "Lei nº 9.649/1998, art. 51, e Decreto nº 2.487/1998, art. 1º. https://www.planalto.gov.br/ccivil_03/decreto/d2487.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "id": "cam-reteste-comissao-solicita-resultados-de-inspecao-tcu",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "informacoes-comissao-sem-intermediacao",
+      "mechanism": "comissao-solicita-resultados-de-inspecao-tcu",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Após realizar audiência sobre gastos com obras federais, uma comissão da Câmara aprovou solicitação ao TCU pelos resultados de uma inspeção já realizada. A secretaria consultou se deveria submeter o pedido à Mesa antes de dirigi-lo ao Tribunal.\n\nCom base nessa situação, julgue o item a seguir.\n\nA Constituição inclui a própria comissão entre os órgãos que podem solicitar ao TCU essas informações, sem impor encaminhamento pela Mesa.",
+      "correctAnswer": "C",
+      "explanation": "O art. 71, VII, inclui expressamente as comissões. O pedido versa sobre resultados de inspeção, matéria abrangida pelo dispositivo. O regime seria diferente para pedido escrito da Casa dirigido a ministro com base no art. 50, § 2º.",
+      "reviewEvidence": "Constituição Federal, arts. 50, § 2º, e 71, VII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "id": "cam-reteste-comissao-tcu-e-pedido-escrito-ministro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "informacoes-comissao-sem-intermediacao",
+      "mechanism": "comissao-tcu-e-pedido-escrito-ministro",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma comissão da Câmara aprovou dois expedientes. Um solicita ao TCU dados de auditoria operacional. O outro exige de ministro de Estado informação por escrito e pretende fazer incidir o regime constitucional de responsabilidade pela falta de resposta. A própria comissão enviou os dois, sem intermediação da Mesa.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autorização constitucional para a comissão encaminhar o primeiro expediente permite, pelo mesmo fundamento, exigir a informação ministerial sob o regime do art. 50, § 2º.",
+      "correctAnswer": "E",
+      "explanation": "Cada destinatário tem regra própria. A comissão pode solicitar dados de auditoria ao TCU pelo art. 71, VII. O pedido escrito a ministro no regime do art. 50, § 2º, é encaminhado pelas Mesas. A competência de um expediente não se estende ao outro.",
+      "reviewEvidence": "Constituição Federal, arts. 50, § 2º, e 71, VII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "id": "cam-reteste-tcu-relatorio-anual-nao-supre-periodo-trimestral",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "tcu-relatorio-dupla-periodicidade",
+      "mechanism": "tcu-relatorio-anual-nao-supre-periodo-trimestral",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Ao montar seu calendário de transparência, o TCU reservou uma data para o relatório anual, que consolidará todas as atividades. A área responsável suprimiu os encaminhamentos trimestrais ao Congresso alegando que todos os dados entrariam no documento anual.\n\nCom base nessa situação, julgue o item a seguir.\n\nO envio do relatório anual dispensa os relatórios trimestrais, desde que consolide as informações de todo o exercício.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição exige as duas periodicidades. A consolidação anual não substitui o dever de encaminhamento trimestral ao Congresso Nacional.",
+      "reviewEvidence": "Constituição Federal, art. 71, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "id": "cam-reteste-tcu-relatorio-trimestral-nao-depende-de-pedido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "tcu-relatorio-dupla-periodicidade",
+      "mechanism": "tcu-relatorio-trimestral-nao-depende-de-pedido",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Em três trimestres, comissões solicitaram e receberam informações específicas do TCU sobre auditorias de obras. No trimestre seguinte não houve solicitações. O Tribunal discutiu se deveria suspender o envio de seu relatório de atividades ao Congresso até que alguma comissão o pedisse.\n\nCom base nessa situação, julgue o item a seguir.\n\nO encaminhamento do relatório trimestral decorre de dever próprio e independe de solicitação de comissão.",
+      "correctAnswer": "C",
+      "explanation": "Os pedidos específicos são atendidos com base no art. 71, VII. Já o § 4º prevê o envio trimestral e anual de relatório de atividades ao Congresso, sem condicionar esse dever a pedido.",
+      "reviewEvidence": "Constituição Federal, art. 71, VII e § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas corpus — HC"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas corpus — HC"
+      ],
+      "id": "cam-reteste-hc-empresario-sem-prova-de-renda",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "hc-gratuidade-independe-pobreza",
+      "mechanism": "hc-empresario-sem-prova-de-renda",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Um empresário questionou por habeas corpus a retenção ilegal de seu passaporte, alegando ameaça concreta à liberdade de locomoção. Antes de examinar o pedido, a serventia exigiu guia de custas porque ele não comprovou insuficiência de recursos.\n\nCom base nessa situação, julgue o item a seguir.\n\nA ausência de prova de insuficiência de recursos não justifica cobrar custas pelo ajuizamento do habeas corpus.",
+      "correctAnswer": "C",
+      "explanation": "A gratuidade do habeas corpus está assegurada no art. 5º, LXXVII. Ela decorre da espécie de ação, sem teste de renda. O cabimento do pedido de proteção da locomoção é uma questão distinta.",
+      "reviewEvidence": "Constituição Federal, art. 5º, LXVIII e LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas corpus — HC"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas corpus — HC"
+      ],
+      "id": "cam-reteste-hc-advogado-particular-nao-afasta-gratuidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "hc-gratuidade-independe-pobreza",
+      "mechanism": "hc-advogado-particular-nao-afasta-gratuidade",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma pessoa assistida por advogado particular impetrou habeas corpus contra prisão que considerava ilegal. O órgão judicial condicionou o processamento ao pagamento de custas porque a contratação do advogado indicaria capacidade financeira.\n\nCom base nessa situação, julgue o item a seguir.\n\nA contratação de advogado particular afasta a gratuidade constitucional do habeas corpus se o impetrante puder pagar as custas.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição torna gratuita a ação de habeas corpus. Contratar advogado e ter capacidade financeira não alteram a gratuidade processual da ação. A existência de honorários contratados não cria custas judiciais.",
+      "reviewEvidence": "Constituição Federal, art. 5º, LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 5.1",
       "articleId": "art-20294d2578a610bd",
       "source": {

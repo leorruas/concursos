@@ -7609,6 +7609,534 @@
       "examPart": "P1",
       "subjectId": "direito-administrativo",
       "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "articleId": "art-0242ff68d8ca9529",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      },
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      ],
+      "id": "cam-reteste-prioridade-politica-e-analise-de-recurso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "governo-formulacao-administracao-execucao",
+      "mechanism": "prioridade-politica-e-analise-de-recurso",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "O ministério redefiniu a prioridade de um programa federal de conectividade e passou a atender primeiro regiões com menor cobertura. Concluída a mudança, uma equipe analisou o recurso de um município questionando os dados usados para aplicar o critério e corrigiu o cadastro.\n\nCom base nessa situação, julgue o item a seguir.\n\nA equipe exerceu direção política do programa ao decidir o recurso, pois a correção influenciou a ordem de atendimento.",
+      "correctAnswer": "E",
+      "explanation": "O recurso trata da aplicação do critério a um caso individual. Corrigir os dados é atividade de execução administrativa, ainda que altere o resultado do requerimento. A direção política aparece na escolha de dar prioridade às regiões de menor cobertura.",
+      "reviewEvidence": "Decreto-Lei nº 200/1967, arts. 6º e 7º, e distinção funcional da nota vinculada. https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "articleId": "art-0242ff68d8ca9529",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      },
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      ],
+      "id": "cam-reteste-governo-mudanca-de-prioridade-com-execucao-terceirizada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "governo-formulacao-administracao-execucao",
+      "mechanism": "governo-mudanca-de-prioridade-com-execucao-terceirizada",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Em um programa de preservação de acervos, a autoridade superior escolheu priorizar arquivos em risco de perda. Uma empresa contratada transportou os documentos, e os servidores avaliaram se as coleções atendiam aos critérios já estabelecidos. Uma análise técnica excluiu determinado arquivo do primeiro cronograma.\n\nCom base nessa situação, julgue o item a seguir.\n\nA escolha de quais riscos o programa prioriza pertence à direção governamental. A exclusão do arquivo por aplicação do critério pertence à execução administrativa.",
+      "correctAnswer": "C",
+      "explanation": "O primeiro ato define a prioridade coletiva. O segundo aplica essa prioridade a um caso, com base em avaliação técnica. O transporte contratado integra a execução material e não transfere à empresa a decisão sobre os critérios do programa.",
+      "reviewEvidence": "Decreto-Lei nº 200/1967, arts. 6º e 7º, e distinção funcional da nota vinculada. https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 3",
+      "articleId": "art-6b9002df47604ea5",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/05 - agentes publicos.md",
+        "section": "4. Servidores Temporários (Art. 37, IX, da CF/1988)"
+      },
+      "theoryRefs": [
+        "article:art-6b9002df47604ea5#4. Servidores Temporários (Art. 37, IX, da CF/1988)"
+      ],
+      "id": "cam-reteste-contratados-em-selecao-para-surto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "temporario-cargo-efetivo",
+      "mechanism": "contratados-em-selecao-para-surto",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Após um surto, um órgão federal seleciona profissionais por procedimento público para atender, durante seis meses, a necessidade temporária de excepcional interesse público. A contratação está prevista em lei. Encerrada a emergência, o órgão cogita aproveitar os profissionais em cargos efetivos vagos, sem outro concurso.\n\nCom base nessa situação, julgue o item a seguir.\n\nA seleção pública do vínculo temporário dispensa concurso próprio para a investidura nos cargos efetivos.",
+      "correctAnswer": "E",
+      "explanation": "A seleção habilitou os profissionais para um contrato temporário, conforme o art. 37, IX. A investidura em cargo efetivo depende do concurso do art. 37, II. O objetivo e as condições da seleção realizada são decisivos.",
+      "reviewEvidence": "Constituição Federal, art. 37, II e IX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 3",
+      "articleId": "art-6b9002df47604ea5",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/05 - agentes publicos.md",
+        "section": "4. Servidores Temporários (Art. 37, IX, da CF/1988)"
+      },
+      "theoryRefs": [
+        "article:art-6b9002df47604ea5#4. Servidores Temporários (Art. 37, IX, da CF/1988)"
+      ],
+      "id": "cam-reteste-selecao-repetida-para-carencia-permanente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "temporario-cargo-efetivo",
+      "mechanism": "selecao-repetida-para-carencia-permanente",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "A direção de um órgão federal promove seleções anuais para contratar pessoal por tempo determinado. Os contratados ocupam, ano após ano, os mesmos postos de atendimento ordinário. O relatório de gestão registra carência permanente, sem evento excepcional nem necessidade temporária.\n\nCom base nessa situação, julgue o item a seguir.\n\nO prazo anual de cada contrato não basta para enquadrar a prática na hipótese constitucional de contratação temporária.",
+      "correctAnswer": "C",
+      "explanation": "O prazo do vínculo não substitui os requisitos da necessidade: ela deve ser temporária e de excepcional interesse público, em hipótese prevista em lei. A descrição indica carência permanente e ordinária. Uma emergência temporária prevista em lei configuraria situação diferente.",
+      "reviewEvidence": "Constituição Federal, art. 37, II e IX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "articleId": "art-a7703dd0e3fc4618",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+        "section": "Objeto (Conteúdo)"
+      },
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#Objeto (Conteúdo)"
+      ],
+      "id": "cam-reteste-motivo-falso-de-cassacao-de-licenca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "objeto-vs-motivo",
+      "mechanism": "motivo-falso-de-cassacao-de-licenca",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma autoridade determinou a cassação de uma licença porque o titular supostamente descumprira a condição de segurança do estabelecimento. Antes de produzir efeitos, a decisão foi revisada e os registros comprovaram que a condição sempre fora observada.\n\nCom base nessa situação, julgue o item a seguir.\n\nA determinação de cassar a licença é o objeto do ato. O descumprimento indicado na decisão é o pressuposto fático invocado como motivo.",
+      "correctAnswer": "C",
+      "explanation": "O objeto é a consequência jurídica imediata pretendida, a cassação. O fato alegado para fundamentá-la pertence ao motivo. A constatação de que o fato não existiu não transforma a cassação em motivo: revela um problema em seu fundamento.",
+      "reviewEvidence": "Lei nº 4.717/1965, art. 2º, parágrafo único, c e d. https://www.planalto.gov.br/ccivil_03/leis/l4717.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "articleId": "art-a7703dd0e3fc4618",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+        "section": "Objeto (Conteúdo)"
+      },
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#Objeto (Conteúdo)"
+      ],
+      "id": "cam-reteste-conteudo-de-interdicao-e-risco-tecnico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "objeto-vs-motivo",
+      "mechanism": "conteudo-de-interdicao-e-risco-tecnico",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Após vistoria, o órgão de fiscalização proibiu temporariamente o acesso a um depósito. A decisão escrita indicou risco de colapso de uma estrutura, com base no laudo, e apontou a norma aplicável. No dia seguinte, o responsável contestou a conclusão do laudo.\n\nCom base nessa situação, julgue o item a seguir.\n\nO risco apontado no laudo é o objeto do ato, enquanto a proibição de acesso constitui o motivo.",
+      "correctAnswer": "E",
+      "explanation": "A proibição de acesso é a consequência jurídica imposta, ou objeto. O risco de colapso é o fato invocado como motivo. Contestar o laudo questiona a premissa fática que sustentou a interdição.",
+      "reviewEvidence": "Lei nº 4.717/1965, art. 2º, parágrafo único, c e d. https://www.planalto.gov.br/ccivil_03/leis/l4717.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "articleId": "art-86dee064aef44ba4",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Entidades da Administração Indireta e como são constituídas"
+      },
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+      ],
+      "id": "cam-reteste-autarquia-decreto-apos-autorizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "lei-criacao-autorizacao",
+      "mechanism": "autarquia-decreto-apos-autorizacao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma lei federal específica autorizou a instituição de uma empresa pública e também declarou que a Administração poderia criar uma autarquia no futuro, se julgasse conveniente. O Poder Executivo editou decreto para dar personalidade jurídica à autarquia.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autorização contida na lei específica basta para o decreto criar a autarquia, seguindo o mesmo modelo da empresa pública.",
+      "correctAnswer": "E",
+      "explanation": "A lei específica cria diretamente a autarquia. Para a empresa pública, a lei específica autoriza a instituição, que se completa pelos atos constitutivos cabíveis. A simples autorização para o Executivo criar a autarquia por decreto não preenche a exigência constitucional.",
+      "reviewEvidence": "Constituição Federal, art. 37, XIX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 1.2",
+      "articleId": "art-86dee064aef44ba4",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
+        "section": "Entidades da Administração Indireta e como são constituídas"
+      },
+      "theoryRefs": [
+        "article:art-86dee064aef44ba4#Entidades da Administração Indireta e como são constituídas"
+      ],
+      "id": "cam-reteste-empresa-publica-lei-autoriza-atos-constitutivos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "lei-criacao-autorizacao",
+      "mechanism": "empresa-publica-lei-autoriza-atos-constitutivos",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma lei específica instituiu diretamente uma autarquia para fiscalizar serviços e autorizou a instituição de uma empresa pública para executar um projeto distinto. Após a entrada em vigor da lei, a equipe ainda não praticou os atos constitutivos necessários à empresa.\n\nCom base nessa situação, julgue o item a seguir.\n\nA lei aplicou regimes distintos. A autarquia foi criada pela lei, enquanto a existência da empresa depende da instituição autorizada.",
+      "correctAnswer": "C",
+      "explanation": "O art. 37, XIX, determina criação direta da autarquia por lei específica e autorização legal específica para instituir a empresa pública. Na empresa, os atos constitutivos completam a instituição.",
+      "reviewEvidence": "Constituição Federal, art. 37, XIX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "Votos: pelas conclusões, com restrições, em separado e vencido"
+      },
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#Votos: pelas conclusões, com restrições, em separado e vencido"
+      ],
+      "id": "cam-reteste-restricao-vazia-muda-maioria-da-comissao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "restricao-sem-conteudo",
+      "mechanism": "restricao-vazia-muda-maioria-da-comissao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Em uma comissão, oito deputados participaram da votação de um parecer, com presença regimental suficiente. Três votaram a favor sem ressalvas, três votaram contra e dois anunciaram voto favorável com restrições sem indicar em que consistia a divergência.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs dois votos sem explicação contam como integralmente favoráveis, resultando em cinco votos a favor do parecer.",
+      "correctAnswer": "C",
+      "explanation": "Cada membro que adota o parecer com restrição deve indicar a divergência. Sem essa indicação, o regimento computa o voto como integralmente favorável. São três votos expressos sem ressalvas mais dois com restrições não especificadas.",
+      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "Votos: pelas conclusões, com restrições, em separado e vencido"
+      },
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#Votos: pelas conclusões, com restrições, em separado e vencido"
+      ],
+      "id": "cam-reteste-restricao-especificada-nao-se-apaga",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "restricao-sem-conteudo",
+      "mechanism": "restricao-especificada-nao-se-apaga",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Ao votar em comissão, uma deputada disse que acompanhava o parecer com restrição e indicou a passagem do relatório com a qual discordava, além de explicar a divergência. Na ata, a secretaria registrou o voto como integralmente favorável com base na regra aplicável à falta de especificação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA regra invocada pela secretaria autoriza desconsiderar a restrição que a deputada explicitou.",
+      "correctAnswer": "E",
+      "explanation": "O regimento atribui o efeito de voto integralmente favorável quando o membro deixa de indicar a divergência. A deputada indicou a passagem e explicou a restrição. Se apenas tivesse anunciado uma ressalva genérica, a regra invocada seria aplicável.",
+      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "id": "cam-reteste-empate-ostensivo-substituto-em-vez-de-repetir",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "empate-abstencao-presidente",
+      "mechanism": "empate-ostensivo-substituto-em-vez-de-repetir",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Em sessão deliberativa do Plenário da Câmara, uma votação ostensiva não eleitoral terminou empatada. O presidente da sessão declarou que se abstinha de desempatar. O substituto regimental estava presente e pronto para atuar.\n\nCom base nessa situação, julgue o item a seguir.\n\nCabe ao substituto regimental desempatar naquela votação.",
+      "correctAnswer": "C",
+      "explanation": "O § 5º do art. 180 transfere o desempate ao substituto regimental quando o presidente se abstém de exercê-lo. O presidente já declarou a abstenção. Se ele próprio desempatesse, não se acionaria essa substituição.",
+      "reviewEvidence": "RICD, art. 180, §§ 4º e 5º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "id": "cam-reteste-empate-votacao-ostensiva-proclamacao-imediata",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "empate-abstencao-presidente",
+      "mechanism": "empate-votacao-ostensiva-proclamacao-imediata",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Na votação ostensiva de uma proposição no Plenário da Câmara, os votos favoráveis e contrários empataram. O presidente se absteve expressamente de desempatar. Sem ouvir o substituto regimental, a Mesa anunciou que a proposta fora rejeitada em razão do empate.\n\nCom base nessa situação, julgue o item a seguir.\n\nA abstenção do presidente permite proclamar a rejeição pelo empate sem dar ao substituto regimental a oportunidade de desempatar.",
+      "correctAnswer": "E",
+      "explanation": "Em votação ostensiva, a abstenção do presidente quanto ao desempate aciona a regra de exercício pelo substituto regimental. A proclamação descrita eliminou essa etapa.",
+      "reviewEvidence": "RICD, art. 180, §§ 4º e 5º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Escolha dos Ministros"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Escolha dos Ministros"
+      ],
+      "id": "cam-reteste-tcu-lista-triplice-sem-aval-senado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "tcu-aprovacao-senado",
+      "mechanism": "tcu-lista-triplice-sem-aval-senado",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Para uma vaga do terço presidencial no TCU, reservada a membro do Ministério Público junto ao Tribunal, o TCU formou lista tríplice segundo os critérios constitucionais. O presidente escolheu um dos nomes. A assessoria alegou que a lista permitia concluir a escolha sem submetê-la ao Senado.\n\nCom base nessa situação, julgue o item a seguir.\n\nA lista tríplice torna dispensável a aprovação do Senado nessa vaga reservada.",
+      "correctAnswer": "E",
+      "explanation": "A lista tríplice disciplina a indicação para a vaga reservada. A aprovação do Senado vale para o terço escolhido pelo presidente, inclusive para essa vaga. Cumprir a etapa da lista não substitui a aprovação.",
+      "reviewEvidence": "Constituição Federal, arts. 52, III, b, e 73, § 2º, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Escolha dos Ministros"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Escolha dos Ministros"
+      ],
+      "id": "cam-reteste-tcu-escolha-presidencial-sem-reserva-tambem-passa-senado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "tcu-aprovacao-senado",
+      "mechanism": "tcu-escolha-presidencial-sem-reserva-tambem-passa-senado",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Uma vaga do terço de escolha presidencial no TCU não se enquadra nas duas vagas reservadas alternadamente às carreiras indicadas na Constituição. O presidente escolheu um candidato que satisfaz os requisitos constitucionais. Um parecer sustenta que o Senado só atua nas vagas de lista tríplice.\n\nCom base nessa situação, julgue o item a seguir.\n\nMesmo sem a lista tríplice aplicável às vagas reservadas, a escolha presidencial para essa vaga exige aprovação do Senado.",
+      "correctAnswer": "C",
+      "explanation": "A aprovação do Senado alcança as três escolhas presidenciais. A lista tríplice é uma exigência adicional para duas vagas reservadas, e sua ausência na outra vaga não elimina o controle senatorial.",
+      "reviewEvidence": "Constituição Federal, arts. 52, III, b, e 73, § 2º, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Art. 52: o que cabe ao Senado Federal"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Art. 52: o que cabe ao Senado Federal"
+      ],
+      "id": "cam-reteste-camara-341-sem-suplemento-do-senado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "competencia-camara-senado-processo-presidente",
+      "mechanism": "camara-341-sem-suplemento-do-senado",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Em caso de crime de responsabilidade do presidente da República, 341 dos 513 deputados votaram a favor da autorização para instaurar o processo. Um grupo de senadores sustentou que a Casa revisora poderia completar a autorização com seu próprio quórum de dois terços.\n\nCom base nessa situação, julgue o item a seguir.\n\nO Senado pode suprir o voto faltante na autorização da Câmara, desde que reúna pelo menos dois terços de seus membros.",
+      "correctAnswer": "E",
+      "explanation": "A autorização exige dois terços dos membros da Câmara, ou 342 votos. O Senado tem competência própria para processar e julgar. Seus votos não são computados no quórum atribuível à Câmara.",
+      "reviewEvidence": "Constituição Federal, arts. 51, I, e 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Art. 52: o que cabe ao Senado Federal"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Art. 52: o que cabe ao Senado Federal"
+      ],
+      "id": "cam-reteste-senado-54-votos-depois-da-autorizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "competencia-camara-senado-processo-presidente",
+      "mechanism": "senado-54-votos-depois-da-autorizacao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Com 343 votos favoráveis, a Câmara autorizou a instauração de processo por crime de responsabilidade do presidente da República. O Senado conduziu o julgamento e 54 dos 81 senadores votaram pela condenação. Ao final, discutiu-se se a condenação precisaria retornar à Câmara para confirmação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autorização da Câmara e a condenação do Senado atingiram seus quóruns constitucionais, e a condenação não exige uma segunda deliberação da Câmara.",
+      "correctAnswer": "C",
+      "explanation": "A Câmara autoriza por dois terços, satisfeitos pelos 343 votos. O Senado processa e julga e, para condenar, exige dois terços de seus membros, atingidos com 54 votos. O julgamento é atribuição do Senado.",
+      "reviewEvidence": "Constituição Federal, arts. 51, I, e 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",
       "articleId": "art-c61cca38ed36e424",
       "source": {

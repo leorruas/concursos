@@ -10639,7 +10639,7 @@
       },
       "statement": "O presidente da República encaminhou um projeto de lei ordinária para instituir um programa de digitalização de acervos públicos e solicitou urgência constitucional. A Câmara dos Deputados aprovou o projeto. No Senado, a redação aprovada modificou os critérios de participação dos municípios, sem alterar a finalidade do programa. As emendas foram recebidas pela Câmara, que ainda não as havia apreciado após doze dias corridos, todos fora de recesso. Na pauta da Câmara constavam tanto uma deliberação cujo prazo está fixado na própria Constituição quanto um projeto de lei ordinária sem prazo constitucional. Na mesma sessão legislativa, a Câmara rejeitou integralmente, como revisora, outro projeto, de autoria de senador, sobre a divulgação de dados em bibliotecas públicas. Quarenta e um senadores subscreveram proposta para reapresentar a matéria.\n\nCom base nessa situação, julgue o item a seguir.\n\nAo fim dos doze dias, a Câmara poderia deliberar sobre a matéria com prazo constitucional, ficando sobrestada a deliberação sobre o projeto ordinário sem esse prazo até que se ultimasse a votação das emendas.",
       "correctAnswer": "C",
-      "explanation": "Na apreciação de emendas do Senado sob urgência constitucional, a Câmara tem dez dias. O prazo passou sem deliberação, e o sobrestamento alcança as demais deliberações legislativas da Câmara, ressalvadas as de prazo constitucional determinado. Se ainda não tivessem transcorrido os dez dias, o atraso descrito não produziria esse efeito.",
+      "explanation": "Quando o Presidente pede urgência constitucional, a Casa iniciadora tem até 45 dias para votar; se o Senado altera o projeto e o devolve, a Câmara tem dez dias para examinar as emendas (CF, art. 64, §§ 2º e 3º). Como já se passaram doze dias, o prazo especial das emendas foi ultrapassado e a pauta da Câmara fica sobrestada, ressalvadas matérias cujo prazo esteja fixado na própria Constituição. Essa exceção permite votar a deliberação constitucional descrita, mas não o projeto ordinário sem prazo constitucional.",
       "reviewEvidence": "Constituição Federal, art. 64, §§ 1º a 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. Caso compartilhado calibrado pela Câmara aplicada em 2026, itens 47 e 48; referência de mecanismo na prova Câmara 2014 CB2-03.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10673,7 +10673,7 @@
       },
       "statement": "O presidente da República encaminhou um projeto de lei ordinária para instituir um programa de digitalização de acervos públicos e solicitou urgência constitucional. A Câmara dos Deputados aprovou o projeto. No Senado, a redação aprovada modificou os critérios de participação dos municípios, sem alterar a finalidade do programa. As emendas foram recebidas pela Câmara, que ainda não as havia apreciado após doze dias corridos, todos fora de recesso. Na pauta da Câmara constavam tanto uma deliberação cujo prazo está fixado na própria Constituição quanto um projeto de lei ordinária sem prazo constitucional. Na mesma sessão legislativa, a Câmara rejeitou integralmente, como revisora, outro projeto, de autoria de senador, sobre a divulgação de dados em bibliotecas públicas. Quarenta e um senadores subscreveram proposta para reapresentar a matéria.\n\nCom base nessa situação, julgue o item a seguir.\n\nA rejeição do segundo projeto na Câmara levou ao seu arquivamento. Ainda nessa sessão legislativa, as assinaturas dos quarenta e um senadores satisfazem o quórum constitucional para propor novo projeto sobre a matéria.",
       "correctAnswer": "C",
-      "explanation": "O art. 65 determina o arquivamento quando a revisora rejeita o projeto. Pelo art. 67, a matéria pode voltar em outro projeto na mesma sessão legislativa por proposta da maioria absoluta dos membros de qualquer das Casas. São necessários 41 dos 81 senadores. Com apenas 40 assinaturas no Senado e sem proposta da maioria absoluta na Câmara, faltaria o requisito.",
+      "explanation": "A Casa revisora que rejeita um projeto determina seu arquivamento (CF, art. 65). Ainda na mesma sessão legislativa, porém, a matéria pode ser objeto de novo projeto se houver proposta da maioria absoluta dos membros da Câmara ou do Senado (art. 67). No Senado, 81 membros significam um mínimo de 41: as 41 assinaturas narradas atingem exatamente esse quórum. O requisito não é a maioria dos presentes nem uma soma de apoios das duas Casas.",
       "reviewEvidence": "Constituição Federal, arts. 46, § 1º, 65 e 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. Caso compartilhado calibrado pela Câmara aplicada em 2026, itens 47 e 48; referência de mecanismo na prova Câmara 2014 CB2-03.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -28761,7 +28761,7 @@
       },
       "statement": "A comissão mista permanente identifica indícios de despesa sem autorização em obra de investimento que não constava da programação. O caráter não programado do investimento é compatível com a solicitação de esclarecimentos à autoridade responsável pelo procedimento do art. 72 da Constituição.",
       "correctAnswer": "C",
-      "explanation": "O dispositivo inclui o investimento não programado entre as formas de despesa não autorizada sob apuração. A primeira providência é solicitar esclarecimentos à autoridade responsável.",
+      "explanation": "O art. 72 inclui entre os indícios que podem iniciar o procedimento tanto despesa sem autorização quanto investimento não programado ou subsídio não aprovado. Diante desses indícios, a comissão mista permanente pode pedir esclarecimentos à autoridade responsável, que tem cinco dias para prestá-los. O item cobra essa primeira etapa: a comissão ainda não está sustando a despesa nem afirmando que ela já foi declarada irregular pelo TCU.",
       "reviewEvidence": "Caso e resolução conferidos com a seção vinculada. Constituição Federal, art. 72. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -28789,7 +28789,7 @@
       },
       "statement": "Ao encontrar indícios de investimento não programado, a comissão mista decreta a sustação definitiva da despesa, sem solicitar esclarecimentos à autoridade responsável nem pronunciamento do TCU. O art. 72 autoriza essa sequência.",
       "correctAnswer": "E",
-      "explanation": "A comissão pode pedir esclarecimentos à autoridade. Se forem omitidos ou insuficientes, solicita pronunciamento conclusivo do TCU. Se o Tribunal entender irregular a despesa e a comissão julgar presente o risco constitucional, ela propõe a sustação ao Congresso.",
+      "explanation": "A comissão não pode decretar diretamente a sustação. Pelo art. 72, primeiro pede esclarecimentos à autoridade responsável; se não forem prestados ou forem insuficientes, solicita ao TCU pronunciamento conclusivo. Só se o Tribunal considerar a despesa irregular e a comissão avaliar que o gasto pode causar dano irreparável ou grave lesão à economia pública é que ela propõe ao Congresso a sustação. São etapas e juízos distintos.",
       "reviewEvidence": "Caso e resolução conferidos com a seção vinculada. Constituição Federal, art. 72. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29993,7 +29993,7 @@
       },
       "statement": "Um requerimento para CPI na Câmara conta com 171 assinaturas, indica fato determinado e fixa prazo certo. Não há outras CPIs em funcionamento. Atendidos os requisitos, a instalação não depende de aprovação política adicional do Plenário.",
       "correctAnswer": "C",
-      "explanation": "O quórum de um terço, o fato determinado e o prazo certo asseguram a iniciativa da minoria. A maioria não vota livremente a conveniência da instalação quando cumpridos os requisitos.",
+      "explanation": "A Constituição exige três elementos independentes para a criação da CPI: requerimento de pelo menos um terço dos membros, fato determinado e prazo certo (art. 58, § 3º). Em uma Câmara de 513 deputados, 171 assinaturas atingem exatamente um terço. Cumpridos os requisitos, a instalação decorre da garantia constitucional de investigação parlamentar; a maioria não pode acrescentar uma votação discricionária sobre conveniência política.",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 58, § 3º, e RICD, art. 35. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -30021,7 +30021,7 @@
       },
       "statement": "Na Câmara, 200 deputados assinam pedido de CPI para investigar “qualquer irregularidade em qualquer programa público”, sem circunscrever um fato, embora haja prazo certo. O número de assinaturas supre a ausência de fato determinado.",
       "correctAnswer": "E",
-      "explanation": "O quórum de um terço é um requisito. A delimitação de fato determinado é outro, que permanece exigido mesmo com mais assinaturas.",
+      "explanation": "O requerimento precisa delimitar um fato específico e indicar prazo certo, além de reunir um terço das assinaturas. As 200 assinaturas superam o mínimo de 171 na Câmara, mas não transformam “qualquer irregularidade em qualquer programa” em fato determinado. Quórum, objeto delimitado e prazo são requisitos cumulativos; cumprir um não supre a falta de outro (CF, art. 58, § 3º).",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 58, § 3º, e RICD, art. 35. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -68437,7 +68437,7 @@
       },
       "statement": "Depois de o TCU considerar irregular uma despesa no procedimento do art. 72, a comissão mista deve propor sua sustação ao Congresso mesmo se entender que o gasto não pode causar dano irreparável nem grave lesão à economia pública.",
       "correctAnswer": "E",
-      "explanation": "A proposta de sustação depende também do juízo da comissão de que o gasto poderá causar dano irreparável ou grave lesão à economia pública.",
+      "explanation": "A irregularidade apontada pelo TCU é necessária, mas não basta para a proposta de sustação prevista no art. 72, § 2º. A comissão também precisa julgar que o gasto pode causar dano irreparável ou grave lesão à economia pública. Se ela considera ausente esse risco, não deve propor a sustação, ainda que o Tribunal tenha considerado a despesa irregular.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 72, § 2º. A proposta de sustação depende também do juízo da comissão de que o gasto poderá causar dano irreparável ou grave lesão à economia pública. Dificuldade estimada."
     },
     {

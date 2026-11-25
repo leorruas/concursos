@@ -247,7 +247,7 @@ assert.ok(card.textContent.trim());
 assert.notEqual(card.textContent,linkedOfficials[0].statement);
 assert.equal(card.children.length,0,'limpa o link ao mostrar o item autoral');
 const sharedCasePracticeIds=getFunction(quizSource,'sharedCasePracticeIds','renderSuggestions');
-for(const caseId of ['fiscalizacao-do-decreto','autotutela-vantagem-mensal']){
+for(const caseId of ['fiscalizacao-do-decreto','autotutela-vantagem-mensal','revisao-bicameral-digitalizacao']){
  const items=camaraPool.filter(q=>q.calibration?.caseId===caseId);
  const otherSeenIds=camaraPool.filter(q=>q.calibration?.caseId!==caseId).map(q=>q.id);
  assert.equal(items.length,3);

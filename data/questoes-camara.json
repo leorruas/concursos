@@ -7605,6 +7605,108 @@
   ],
   "expansao": [
     {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-caso-revisao-bicameral-emenda-muda-destino",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "remessa-casa-que-conclui",
+      "mechanism": "emenda-muda-destino",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Encerramento da formação de lei: sanção, veto, promulgação e publicação"
+      },
+      "statement": "O presidente da República encaminhou um projeto de lei ordinária para instituir um programa de digitalização de acervos públicos e solicitou urgência constitucional. A Câmara dos Deputados aprovou o projeto. No Senado, a redação aprovada modificou os critérios de participação dos municípios, sem alterar a finalidade do programa. As emendas foram recebidas pela Câmara, que ainda não as havia apreciado após doze dias corridos, todos fora de recesso. Na pauta da Câmara constavam tanto uma deliberação cujo prazo está fixado na própria Constituição quanto um projeto de lei ordinária sem prazo constitucional. Na mesma sessão legislativa, a Câmara rejeitou integralmente, como revisora, outro projeto, de autoria de senador, sobre a divulgação de dados em bibliotecas públicas. Quarenta e um senadores subscreveram proposta para reapresentar a matéria.\n\nCom base nessa situação, julgue o item a seguir.\n\nA votação no Senado concluiu a deliberação do primeiro projeto, que poderia ter sido remetido diretamente à Presidência da República.",
+      "correctAnswer": "E",
+      "explanation": "O Senado atuou como revisor e alterou os critérios de participação. O art. 65, parágrafo único, exige que o projeto retorne à Câmara, a Casa iniciadora. Se o Senado tivesse aprovado o texto sem emendas, essa etapa de retorno seria dispensada.",
+      "reviewEvidence": "Constituição Federal, art. 65, caput e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. Caso compartilhado calibrado pela Câmara aplicada em 2026, itens 47 e 48; referência de mecanismo na prova Câmara 2014 CB2-03.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 91,
+        "caseId": "revisao-bicameral-digitalizacao"
+      }
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "id": "cam-caso-revisao-bicameral-prazo-e-excecao-da-pauta",
+      "concursoId": "camara-2026",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "urgencia-emenda-senado-novo-periodo",
+      "mechanism": "prazo-e-excecao-da-pauta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento sumário: urgência constitucional presidencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento sumário: urgência constitucional presidencial"
+      },
+      "statement": "O presidente da República encaminhou um projeto de lei ordinária para instituir um programa de digitalização de acervos públicos e solicitou urgência constitucional. A Câmara dos Deputados aprovou o projeto. No Senado, a redação aprovada modificou os critérios de participação dos municípios, sem alterar a finalidade do programa. As emendas foram recebidas pela Câmara, que ainda não as havia apreciado após doze dias corridos, todos fora de recesso. Na pauta da Câmara constavam tanto uma deliberação cujo prazo está fixado na própria Constituição quanto um projeto de lei ordinária sem prazo constitucional. Na mesma sessão legislativa, a Câmara rejeitou integralmente, como revisora, outro projeto, de autoria de senador, sobre a divulgação de dados em bibliotecas públicas. Quarenta e um senadores subscreveram proposta para reapresentar a matéria.\n\nCom base nessa situação, julgue o item a seguir.\n\nAo fim dos doze dias, a Câmara poderia deliberar sobre a matéria com prazo constitucional, ficando sobrestada a deliberação sobre o projeto ordinário sem esse prazo até que se ultimasse a votação das emendas.",
+      "correctAnswer": "C",
+      "explanation": "Na apreciação de emendas do Senado sob urgência constitucional, a Câmara tem dez dias. O prazo passou sem deliberação, e o sobrestamento alcança as demais deliberações legislativas da Câmara, ressalvadas as de prazo constitucional determinado. Se ainda não tivessem transcorrido os dez dias, o atraso descrito não produziria esse efeito.",
+      "reviewEvidence": "Constituição Federal, art. 64, §§ 1º a 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. Caso compartilhado calibrado pela Câmara aplicada em 2026, itens 47 e 48; referência de mecanismo na prova Câmara 2014 CB2-03.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 91,
+        "caseId": "revisao-bicameral-digitalizacao"
+      }
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / procedimentos legislativos, sanção, veto e promulgação",
+      "id": "cam-caso-revisao-bicameral-reapresentacao-por-maioria-no-senado",
+      "concursoId": "camara-2026",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "reapresentacao-maioria-absoluta",
+      "mechanism": "reapresentacao-por-maioria-no-senado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Arquivamento por rejeição e novo projeto na mesma sessão legislativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Arquivamento por rejeição e novo projeto na mesma sessão legislativa"
+      },
+      "statement": "O presidente da República encaminhou um projeto de lei ordinária para instituir um programa de digitalização de acervos públicos e solicitou urgência constitucional. A Câmara dos Deputados aprovou o projeto. No Senado, a redação aprovada modificou os critérios de participação dos municípios, sem alterar a finalidade do programa. As emendas foram recebidas pela Câmara, que ainda não as havia apreciado após doze dias corridos, todos fora de recesso. Na pauta da Câmara constavam tanto uma deliberação cujo prazo está fixado na própria Constituição quanto um projeto de lei ordinária sem prazo constitucional. Na mesma sessão legislativa, a Câmara rejeitou integralmente, como revisora, outro projeto, de autoria de senador, sobre a divulgação de dados em bibliotecas públicas. Quarenta e um senadores subscreveram proposta para reapresentar a matéria.\n\nCom base nessa situação, julgue o item a seguir.\n\nA rejeição do segundo projeto na Câmara levou ao seu arquivamento. Ainda nessa sessão legislativa, as assinaturas dos quarenta e um senadores satisfazem o quórum constitucional para propor novo projeto sobre a matéria.",
+      "correctAnswer": "C",
+      "explanation": "O art. 65 determina o arquivamento quando a revisora rejeita o projeto. Pelo art. 67, a matéria pode voltar em outro projeto na mesma sessão legislativa por proposta da maioria absoluta dos membros de qualquer das Casas. São necessários 41 dos 81 senadores. Com apenas 40 assinaturas no Senado e sem proposta da maioria absoluta na Câmara, faltaria o requisito.",
+      "reviewEvidence": "Constituição Federal, arts. 46, § 1º, 65 e 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. Caso compartilhado calibrado pela Câmara aplicada em 2026, itens 47 e 48; referência de mecanismo na prova Câmara 2014 CB2-03.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92,
+        "caseId": "revisao-bicameral-digitalizacao"
+      }
+    },
+    {
       "id": "cam-caso-autotutela-termo-inicial-primeiro-pagamento",
       "concursoId": "camara-2026",
       "origin": "inedita",

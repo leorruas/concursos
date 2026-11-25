@@ -5,7 +5,7 @@ title: "Discussão, votação, quóruns e modalidades de decisão na Câmara"
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-11
+updated: 2026-11-25
 aliases:
   - "Quóruns de presença e deliberação"
   - "Maioria simples, absoluta e qualificada"
@@ -57,7 +57,9 @@ O **art. 165 do RICD** define discussão como fase dos trabalhos destinada ao **
 
 **Encerramento da discussão, art. 178:** pode ocorrer pela **ausência de oradores**, pelo **decurso dos prazos** ou por **deliberação do Plenário**. Quando o encerramento depende de requerimento submetido a votação, o **§ 2º** exige subscrição por **5% dos membros** ou Líderes que representem esse número **e** discussão por **pelo menos doze oradores**, com alternância quanto possível. São condições cumulativas para **essa via de requerimento**, não uma exigência de doze falas para toda discussão encerrar-se.
 
-**Adiamento da discussão, art. 177:** antes de iniciada a discussão, admite-se requerimento de **Líder, autor ou relator**, nos prazos regimentais de **uma sessão (urgência), três (prioridade), cinco (ordinária ou PEC)**, observadas condições específicas. Para urgência, o requerimento precisa da subscrição prevista no § 1º: **um décimo dos membros** ou Líderes que representem esse número. Um segundo adiamento depende da condição restrita do § 3º. Adiar discussão **não é o mesmo** que suspender votação iniciada nem que rejeitar a proposição.
+**Adiamento da discussão, art. 177:** quando um projeto está na Ordem do Dia, mas seu debate ainda não começou, Líder, autor ou relator pode requerer que a discussão ocorra em sessão posterior. O Plenário vota o pedido antes da matéria (art. 159, II). Se aprovado, o adiamento será de **uma sessão (urgência), três (prioridade) ou cinco (tramitação ordinária e proposta de emenda à Constituição, PEC)**. Em urgência, o § 1º exige subscrição de um décimo dos membros da Câmara (52 deputados) ou Líderes que representem esse número. Na hipótese de urgência do art. 155, o parágrafo único, II, desse artigo impede ou prejudica o pedido se a matéria já contar com todos os pareceres.
+
+**Segundo adiamento da discussão:** o art. 177, § 3º, admite novo adiamento somente diante de alegação de erro na publicação reconhecida pelo Presidente da Câmara. O reconhecimento permite aplicar a exceção, observadas as demais condições regimentais. Exemplo: após um primeiro adiamento, verifica-se que o texto publicado omitiu um dispositivo constante da versão original. Se o Presidente reconhecer o erro, cabe novo pedido. Se a publicação estiver correta e um Líder apenas desejar mais tempo para negociar, a discussão não pode ser novamente adiada por esse motivo. A medida posterga o debate, sem rejeitar o projeto.
 
 **Restrição após encerramento, art. 178, § 4º:** aprovado requerimento de encerramento da discussão, **fica impedido ou prejudicado, na mesma sessão, o requerimento de adiamento da votação**, salvo se o **Relator reformular o parecer para promover alterações de mérito**. Essa hipótese não deve ser confundida com toda modalidade de encerramento da discussão.
 
@@ -109,6 +111,16 @@ O requerimento de quebra do interstício de uma hora é **oral**, após a procla
 **Destaque para votação em separado (DVS):** pelo **art. 162, VI**, vota-se **primeiro a matéria principal** e, depois, a **matéria destacada**, que **somente integrará** o texto se for aprovada. O comando que diz que uma parcela do texto é destacada “para ser excluída automaticamente” inverte a lógica de apreciação do destaque.
 
 **Art. 192:** o **encaminhamento de votação** pode ocorrer antes da decisão, nas condições regimentais, com regra geral de **três minutos por orador**, **até dois favoráveis e dois contrários**, sem confundir encaminhamento com a etapa ampla de **discussão**. A orientação de cada Líder à bancada tem prazo próprio de **até um minuto**. O **§ 2º-A** esclarece que a orientação de bancada **não prejudica o início da votação nominal**; o **§ 7º** limita o encaminhamento de **destaque do art. 161** a **um orador favorável e um contrário**; e o **§ 8º** afasta encaminhamento para **eleições**, limitando-o, em requerimentos quando cabível, ao signatário e a um orador contrário. A existência de encaminhamento **não muda a espécie normativa nem seu quórum de aprovação**.
+
+**Adiamento da votação, art. 193:** depois da discussão e antes de iniciada a votação, Líder, autor ou relator pode pedir que a decisão seja tomada em sessão posterior. O Plenário delibera sobre o requerimento antes da proposição (art. 159, II). Os prazos são os mesmos do adiamento da discussão, assim como o requisito de subscrição de um décimo dos membros ou Líderes equivalentes em urgência (art. 193, § 3º). A diferença está no § 1º: o adiamento da votação só pode ser concedido uma vez, sem a exceção por erro na publicação prevista para a discussão.
+
+| Critério | Adiamento da discussão (art. 177) | Adiamento da votação (art. 193) |
+| :--- | :--- | :--- |
+| Momento do pedido | Antes do início da discussão | Antes do início da votação |
+| Prazo em sessões (urgência / prioridade / ordinária e PEC) | 1 / 3 / 5 | 1 / 3 / 5 |
+| Novo adiamento | Apenas diante de erro na publicação alegado e reconhecido pelo Presidente (§ 3º) | Vedado (§ 1º) |
+
+**Limites comuns:** pelo art. 163, IX, ficam prejudicados os requerimentos de adiamento da discussão ou da votação que sucedam à rejeição do pedido de retirada da proposição da Ordem do Dia. Por exemplo, se o Plenário rejeita a retirada de pauta, o pedido subsequente de adiamento fica prejudicado, mesmo que apresentado por um Líder. A regra evita a repetição de medidas para impedir a apreciação da matéria. Além disso, o art. 178, § 4º, prevê a restrição específica ao adiamento da votação após aprovação do requerimento de encerramento da discussão, descrita acima.
 
 ## Caso progressivo: mesma sessão, sete conclusões diferentes
 
@@ -205,7 +217,7 @@ Apresentar o **art. 47** como regra de deliberação, distinguir **presença e a
 ## Fontes e limites
 
 - [Constituição Federal, arts. 47, 51, 60 e 69, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
-- [Regimento Interno da Câmara dos Deputados, arts. 165 a 200 e arts. 162, 178, 183 a 192, texto normativo consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+- [Regimento Interno da Câmara dos Deputados, arts. 155, 159, 163 e 165 a 200, texto normativo consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
 - [Portal oficial: Regimento Interno atualizado até Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 - [Guia da Câmara: Votação, quóruns, modos de votação e apreciação plenária](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/votacao).
 

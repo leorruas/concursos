@@ -25177,7 +25177,7 @@
       },
       "statement": "Uma associação admite que determinada pessoa ingressou voluntariamente, mas a proíbe de desligar-se por tempo indeterminado. A liberdade de associação também protege a decisão de deixar a entidade.",
       "correctAnswer": "C",
-      "explanation": "A Constituição protege tanto a liberdade de aderir quanto a de não permanecer. O ingresso voluntário não afasta a segunda garantia.",
+      "explanation": "A liberdade de associação protege duas decisões: entrar ou não entrar e, depois, permanecer ou sair. Assim, o consentimento dado no ingresso não autoriza a associação a manter alguém vinculado contra sua vontade. A Constituição veda tanto a associação compulsória quanto a permanência compulsória (art. 5º, XX).",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, XX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26157,7 +26157,7 @@
       },
       "statement": "Um estado afirma que seus municípios só exercem autonomia se houver delegação expressa do governo estadual, pois a Constituição não os inclui entre os entes autônomos. A afirmação é correta.",
       "correctAnswer": "E",
-      "explanation": "O art. 18 inclui expressamente os municípios. Sua autonomia é assegurada pela Constituição, sem depender de delegação estadual.",
+      "explanation": "Os municípios são entes autônomos da Federação porque a própria Constituição os inclui no art. 18; não recebem essa condição por concessão do estado. Autonomia significa capacidade de se organizar, governar e administrar dentro dos limites constitucionais. Isso não equivale a soberania, que pertence à República Federativa do Brasil.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 18. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26185,7 +26185,7 @@
       },
       "statement": "Uma medida provisória é editada e ainda aguarda deliberação do Congresso. Mesmo antes da eventual conversão em lei, a medida provisória já é espécie prevista no art. 59 da Constituição.",
       "correctAnswer": "C",
-      "explanation": "O dispositivo enumera a medida provisória como espécie própria do processo legislativo. Sua inclusão no rol não depende de conversão.",
+      "explanation": "A medida provisória já é uma espécie normativa listada no art. 59 da Constituição desde sua edição; ela não precisa ser convertida para entrar nesse rol. Isso não significa que já seja uma lei permanente: a MP tem força de lei e segue para apreciação do Congresso, podendo ser convertida ou perder eficácia conforme o resultado e os prazos constitucionais.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 59. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26353,7 +26353,7 @@
       },
       "statement": "Uma criança nasce no Brasil, filha de pais estrangeiros que trabalham para empresas privadas e não estão a serviço de seu país. A nacionalidade estrangeira dos pais, por si só, não exclui a nacionalidade brasileira originária.",
       "correctAnswer": "C",
-      "explanation": "A regra territorial alcança nascidos no Brasil, inclusive filhos de estrangeiros. A exceção envolve pais estrangeiros a serviço de seu país.",
+      "explanation": "A regra geral do art. 12, I, “a”, é a nacionalidade brasileira originária para quem nasce no Brasil. A exceção exige que os pais sejam estrangeiros e estejam a serviço do próprio país; não basta que sejam estrangeiros. Como os pais do caso trabalham para empresas privadas e não representam seu Estado, a exceção não se aplica e o nascimento no território brasileiro é suficiente para essa via.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26381,7 +26381,7 @@
       },
       "statement": "Uma criança nasce no Brasil, filha de pais estrangeiros que integram missão oficial a serviço do próprio país. O nascimento em território brasileiro basta para enquadrá-la na regra do art. 12, I, a.",
       "correctAnswer": "E",
-      "explanation": "A hipótese corresponde à exceção expressa à regra territorial. O serviço prestado pelos pais estrangeiros ao próprio país impede o enquadramento por essa via.",
+      "explanation": "O art. 12, I, “a”, adota a regra territorial, mas exclui o filho de pais estrangeiros quando eles estão a serviço do próprio país. Uma missão oficial que representa aquele Estado é o exemplo típico dessa exceção; por isso, o local do parto, sozinho, não basta nesse caso. Se os pais fossem estrangeiros trabalhando em atividade privada, a regra territorial voltaria a incidir.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26521,8 +26521,8 @@
       },
       "statement": "Uma brasileira adquire outra nacionalidade e obtém passaporte estrangeiro, sem pedir a perda da nacionalidade brasileira. Esses atos, por si sós, não causam perda automática da nacionalidade brasileira.",
       "correctAnswer": "C",
-      "explanation": "A aquisição de outra nacionalidade deixou de ser fundamento autônomo de perda. O caso não apresenta pedido expresso nem outra hipótese constitucional.",
-      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, § 4º, com a EC nº 131/2023. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+      "explanation": "Desde a EC nº 131/2023, obter outra nacionalidade ou passaporte estrangeiro deixou de causar, por si só, a perda da nacionalidade brasileira. A Constituição agora prevê perda por cancelamento judicial da naturalização em hipóteses específicas ou por pedido expresso da própria pessoa, sem gerar apatridia (art. 12, § 4º). Como não houve pedido de perda nem outra hipótese constitucional, o segundo passaporte não retira automaticamente a nacionalidade brasileira.",
+      "reviewEvidence": "Conferência com a Constituição Federal, art. 12, § 4º, na redação da EC nº 131/2023: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc131.htm"
     },
     {
       "origin": "inedita",
@@ -26997,7 +26997,7 @@
       },
       "statement": "Para uma pessoa analfabeta de quarenta anos, a regra geral de obrigatoriedade do voto entre dezoito e setenta anos prevalece sobre a previsão específica de voto facultativo.",
       "correctAnswer": "E",
-      "explanation": "A Constituição prevê expressamente a facultatividade para os analfabetos. A incidência da regra específica não depende de ter mais de setenta anos.",
+      "explanation": "O voto é facultativo para analfabetos em qualquer idade; a idade superior a setenta anos é uma hipótese facultativa independente (art. 14, § 1º, II). Portanto, a regra geral de obrigatoriedade entre dezoito e setenta anos não torna obrigatório o voto de uma pessoa analfabeta de quarenta anos. Isso também não significa que ela possa se candidatar: a Constituição declara os analfabetos inelegíveis no § 4º.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 1º, II, a, e § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30497,7 +30497,7 @@
       },
       "statement": "Um tratado sobre direitos humanos é aprovado em dois turnos na Câmara e em dois no Senado, por mais de três quintos dos membros em cada votação. O rito de aprovação atende aos requisitos de equivalência às emendas constitucionais.",
       "correctAnswer": "C",
-      "explanation": "O art. 5º, § 3º, exige tratado ou convenção sobre direitos humanos, votação em dois turnos por Casa e ao menos três quintos dos membros em cada turno.",
+      "explanation": "Para que um tratado ou convenção sobre direitos humanos tenha equivalência a emenda constitucional, o art. 5º, § 3º, exige três elementos juntos: dois turnos na Câmara, dois no Senado e votos favoráveis de pelo menos três quintos dos membros de cada Casa em cada turno. Aprovado por esse rito, o tratado recebe equivalência formal às emendas constitucionais. O item afirma que todos os requisitos foram cumpridos.",
       "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, art. 5º, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {

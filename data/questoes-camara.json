@@ -20893,7 +20893,7 @@
       },
       "statement": "Para a primeira sessão plenária de uma sessão legislativa, a Presidência pode designar Ordem do Dia se anunciar os projetos com antecedência às lideranças.",
       "correctAnswer": "E",
-      "explanation": "A regra do art. 85, parágrafo único, impede a designação nessa sessão, independentemente de anúncio prévio.",
+      "explanation": "O parágrafo único do art. 85 do RICD proíbe designar Ordem do Dia para a primeira sessão plenária da sessão legislativa. O anúncio antecipado de projetos às lideranças não cria exceção: a vedação decorre do tipo de sessão, e não da falta de divulgação prévia da pauta.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 85, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -21733,7 +21733,7 @@
       },
       "statement": "A aprovação unânime de tratado de direitos humanos em turno único em cada Casa supre a exigência de dois turnos para que ele seja equivalente a emenda constitucional.",
       "correctAnswer": "E",
-      "explanation": "Número de votos e número de turnos são requisitos cumulativos. A unanimidade não substitui o segundo turno.",
+      "explanation": "Para que tratado de direitos humanos tenha equivalência de emenda constitucional, o art. 5º, § 3º, exige aprovação em cada Casa, em dois turnos, por três quintos dos votos dos respectivos membros. Quórum e número de turnos são condições cumulativas; unanimidade no primeiro turno não supre a votação que faltou no segundo.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -23133,7 +23133,7 @@
       },
       "statement": "Um partido possui deputados estaduais, mas não tem representantes na Câmara nem no Senado. A representação em assembleia estadual atende, por si só, ao requisito constitucional para o partido impetrar mandado de segurança coletivo.",
       "correctAnswer": "E",
-      "explanation": "A exigência expressa é representação no Congresso Nacional. Mandatos estaduais não preenchem esse requisito.",
+      "explanation": "Para impetrar mandado de segurança coletivo, o partido político precisa ter representação no Congresso Nacional (Constituição, art. 5º, LXX, a). Deputados estaduais dão representação na assembleia do estado, mas não satisfazem esse requisito federal. O item usa dois níveis legislativos diferentes como se fossem equivalentes.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXX, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -23189,7 +23189,7 @@
       },
       "statement": "Uma PEC é rejeitada antes do recesso de julho. Após o recesso, com apoio da maioria absoluta, a mesma matéria volta em nova PEC no segundo período da mesma sessão legislativa. O recesso torna válida a reapresentação.",
       "correctAnswer": "E",
-      "explanation": "O recesso separa períodos da mesma sessão legislativa. A maioria absoluta não cria exceção à vedação do art. 60, § 5º.",
+      "explanation": "O recesso de julho separa os dois períodos legislativos, mas não encerra a sessão legislativa anual. Por isso, a PEC rejeitada continua sujeita à proibição do art. 60, § 5º, durante todo o mesmo ano legislativo, sem exceção por apoio de maioria absoluta. Não se deve importar para PEC a regra geral de reapresentação de projeto de lei do art. 67.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 60, § 5º, e 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -23413,7 +23413,7 @@
       },
       "statement": "A Câmara resolve sobre prisão de deputado nas condições constitucionais. Como 400 parlamentares estão presentes, uma posição apoiada por 220 deputados satisfaz a maioria exigida pelo art. 53, § 2º.",
       "correctAnswer": "E",
-      "explanation": "O parâmetro é a composição da Câmara, e não os presentes. Duzentos e vinte não atingem a maioria dos 513 membros.",
+      "explanation": "O art. 53, § 2º, usa como base a composição total da Câmara, e não apenas os presentes. Em uma Casa de 513 deputados, são necessários pelo menos 257 votos favoráveis; ter 400 presentes não reduz esse número. Assim, 220 votos não atingem a maioria absoluta exigida.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 53, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -23749,7 +23749,7 @@
       },
       "statement": "Uma reclamação formulada em reunião de comissão precisa ser encaminhada de imediato ao Presidente da Câmara para decisão originária, sem pronunciamento do presidente da comissão.",
       "correctAnswer": "E",
-      "explanation": "A apreciação inicial cabe ao presidente da comissão. O recurso, quando cabível, pressupõe o pronunciamento inicial.",
+      "explanation": "Em reclamação feita durante reunião de comissão, o presidente do colegiado decide primeiro, de forma conclusiva. Só depois cabe recurso escrito ou verbal ao Presidente da Câmara ou ao Plenário, conforme art. 96, § 2º, do RICD. Encaminhar diretamente a reclamação para decisão originária da Presidência pula a instância inicial prevista no Regimento.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 96. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -23833,7 +23833,7 @@
       },
       "statement": "O Plenário aprecia requerimento oral para permitir nova verificação antes de transcorrida uma hora da anterior. O requerimento de quebra do interstício é votado simbolicamente.",
       "correctAnswer": "C",
-      "explanation": "O § 7º prevê votação simbólica para o requerimento. A verificação de votação que pode ocorrer depois é uma etapa distinta.",
+      "explanation": "O pedido para quebrar o intervalo de uma hora é uma deliberação sobre o procedimento: o Plenário decide simbolicamente se autoriza nova verificação antes do prazo. Se a verificação for autorizada, ela apura a votação da matéria e pode seguir outra modalidade. São decisões distintas: primeiro se vota o requerimento; depois se verifica o resultado da proposição.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 185, §§ 4º a 7º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -24281,7 +24281,7 @@
       },
       "statement": "O Vice-Presidente pretende ausentar-se do país por exatamente quinze dias. Considerada apenas a duração prevista no art. 83, essa ausência não exige licença do Congresso Nacional.",
       "correctAnswer": "C",
-      "explanation": "O art. 83 exige licença quando a ausência do país for superior a quinze dias, inclusive no caso do Vice-Presidente.",
+      "explanation": "A Constituição exige autorização do Congresso quando o Presidente ou o Vice-Presidente se ausentar do País por período superior a quinze dias (arts. 49, III, e 83). Exatamente quinze dias não ultrapassam o limite. A palavra decisiva é “superior”: a licença torna-se necessária a partir do 16º dia.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 49, III, e 83. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -24505,7 +24505,7 @@
       },
       "statement": "Dois deputados empatam na votação para cargo da Mesa e ambos têm o mesmo número de legislaturas. É eleito o candidato mais idoso.",
       "correctAnswer": "C",
-      "explanation": "O maior número de legislaturas é o primeiro critério do desempate. Se ambos tiverem o mesmo número, a idade resolve.",
+      "explanation": "No empate para cargo da Mesa, o RICD aplica primeiro o critério de maior número de legislaturas; a idade só desempata se os candidatos também tiverem o mesmo número de legislaturas (art. 7º, IV). O item já fixa essa igualdade, então a pessoa mais idosa vence. Idade não é o primeiro critério.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 7º, IV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -25093,7 +25093,7 @@
       },
       "statement": "O piso constitucional de oito deputados por estado e pelo Distrito Federal determina que todas essas bancadas tenham exatamente oito deputados.",
       "correctAnswer": "E",
-      "explanation": "O número oito é um mínimo. A distribuição é proporcional à população, respeitados o piso e o teto constitucionais.",
+      "explanation": "O art. 45, § 1º, determina distribuição das cadeiras proporcional à população, respeitados um mínimo de 8 e um máximo de 70 deputados por unidade da Federação. O número oito é um piso para estados e Distrito Federal, não o tamanho fixo de todas as bancadas.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 45, § 1º, e 46, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25289,7 +25289,7 @@
       },
       "statement": "A Câmara decide revisar normas internas aplicáveis apenas à organização de seus trabalhos. A elaboração de seu Regimento Interno é competência privativa da própria Câmara.",
       "correctAnswer": "C",
-      "explanation": "O art. 51, III, atribui essa competência à Câmara. O Regimento Comum trata de um âmbito institucional distinto.",
+      "explanation": "A Câmara elabora seu próprio Regimento Interno, conforme art. 51, III, da Constituição. Já o Regimento Comum organiza matérias em que Câmara e Senado atuam conjuntamente, como as sessões conjuntas mencionadas no art. 57, § 3º. A existência de regras comuns não transfere nem elimina a competência de cada Casa sobre seu funcionamento interno.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 51, III, 52, XII, e 57, § 3º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25457,7 +25457,7 @@
       },
       "statement": "Um projeto inicialmente distribuído para apreciação conclusiva pelas comissões passa regularmente ao regime de urgência. O novo regime afasta a tramitação conclusiva nas comissões.",
       "correctAnswer": "C",
-      "explanation": "As proposições em regime de urgência estão entre as exceções do art. 24, II, à dispensa da competência do Plenário.",
+      "explanation": "A regra geral permite que certas proposições sejam decididas conclusivamente pelas comissões. O art. 24, II, h, do RICD exclui dessa competência as proposições em regime de urgência; por isso, quando a urgência é adotada, a matéria deixa de poder ser encerrada apenas pelas comissões e segue para decisão do Plenário.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 24, II, h. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -25485,7 +25485,7 @@
       },
       "statement": "Um projeto tramita em regime de urgência. A falta de recurso parlamentar torna conclusiva a decisão das comissões e permite dispensar o Plenário.",
       "correctAnswer": "E",
-      "explanation": "A urgência é exceção própria à apreciação conclusiva. A falta de recurso não elimina o efeito do regime de urgência.",
+      "explanation": "A falta de recurso parlamentar não torna conclusiva uma decisão que o Regimento já exclui dessa via. Como a urgência está entre as exceções do art. 24, II, h, o Plenário continua competente para deliberar. A ausência de recurso só importa quando a proposição poderia, em princípio, ser decidida conclusivamente pelas comissões.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 24, II, h. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -27893,7 +27893,7 @@
       },
       "statement": "Um militar alistável com quatorze anos de serviço, agregado para disputar eleição, tem a vitória proclamada, mas ainda não foi diplomado. A divulgação do resultado basta para produzir a passagem automática à inatividade prevista no art. 14.",
       "correctAnswer": "E",
-      "explanation": "A proclamação do resultado não substitui a diplomação. A Constituição fixa a diplomação como marco da inatividade.",
+      "explanation": "Como tem mais de dez anos de serviço, o militar fica agregado pela autoridade superior enquanto concorre (art. 14, § 8º, II). Se eleito, passa para a inatividade somente quando diplomado. A proclamação do resultado eleitoral ocorre antes da diplomação e não antecipa esse efeito constitucional.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 8º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29769,7 +29769,7 @@
       },
       "statement": "O Congresso rejeita um veto total. O projeto segue ao Presidente da República para promulgação. A rejeição do veto não abre nova oportunidade de veto sobre o mesmo projeto.",
       "correctAnswer": "C",
-      "explanation": "O art. 66, § 5º, manda enviar o projeto para promulgação. A deliberação congressional encerrou a apreciação do veto.",
+      "explanation": "Rejeitado o veto pelo Congresso, o projeto retorna ao Presidente da República para promulgação (art. 66, § 5º). A votação do veto encerra a decisão presidencial sobre aquele texto: o Presidente não recebe uma nova oportunidade de vetá-lo. Se não promulgar no prazo constitucional, a atribuição passa ao Presidente do Senado e, depois, ao Vice-Presidente do Senado (§ 7º).",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -61521,7 +61521,7 @@
       },
       "statement": "A filiação partidária não é requisito de elegibilidade no Brasil, motivo pelo qual basta preencher a idade mínima para disputar cargo eletivo sem partido.",
       "correctAnswer": "E",
-      "explanation": "A filiação partidária integra as condições constitucionais de elegibilidade, ao lado de outros requisitos.",
+      "explanation": "A Constituição exige filiação partidária como uma das condições de elegibilidade (art. 14, § 3º, V). A idade mínima também varia conforme o cargo, mas não substitui os demais requisitos: é preciso preencher todos os aplicáveis, inclusive nacionalidade, direitos políticos, alistamento, domicílio eleitoral e filiação. Por isso, idade sozinha não permite candidatura independente.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/05 - direitos politicos.md / Condições de elegibilidade: art. 14, § 3º; CI obrigatório antes de integrar."
     },
     {
@@ -61801,7 +61801,7 @@
       },
       "statement": "Uma emenda constitucional aprovada nos dois turnos em cada Casa depende de sanção presidencial para produzir efeitos, segundo o processo legislativo constitucional.",
       "correctAnswer": "E",
-      "explanation": "Emenda constitucional é promulgada pelas Mesas da Câmara e do Senado, não submetida a sanção presidencial.",
+      "explanation": "A aprovação de PEC em dois turnos em cada Casa não a envia ao Presidente para sanção ou veto. Cumprido o rito do art. 60, § 2º, a emenda é promulgada pelas Mesas da Câmara e do Senado, com o respectivo número de ordem (art. 60, § 3º). Sanção e veto pertencem à etapa presidencial do processo de formação das leis, não à promulgação de emenda constitucional.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md / 1. Emenda constitucional: mudar a regra fundamental; CI obrigatório antes de integrar."
     },
     {
@@ -65441,7 +65441,7 @@
       },
       "statement": "Em votação ostensiva de matéria não eleitoral no Plenário, a abstenção do presidente quanto ao desempate transfere o ato ao substituto regimental.",
       "correctAnswer": "C",
-      "explanation": "O regimento atribui o desempate ao presidente e prevê atuação do substituto quando o presidente se abstiver de desempatar.",
+      "explanation": "Em votação ostensiva, cabe ao Presidente desempatar; se ele se abstiver, o substituto regimental faz esse desempate (RICD, art. 180, §§ 3º e 5º). A regra resolve quem atua diante do empate e da abstenção do Presidente. Ela não transforma abstenção em voto favorável ou contrário nem altera o quórum exigido para a matéria.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 180, §§ 3º e 5º. Critério de julgamento: O regimento atribui o desempate ao presidente e prevê atuação do substituto quando o presidente se abstiver de desempatar. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
     },
     {
@@ -65497,7 +65497,7 @@
       },
       "statement": "Dois líderes firmaram acordo prévio de apoio recíproco para pedidos de verificação de votações simbólicas. O acordo pode substituir as manifestações específicas dos líderes em cada votação.",
       "correctAnswer": "E",
-      "explanation": "O regimento veda apoiamento prévio e acordos recíprocos. O apoiamento deve ser manifestado em relação à votação concreta.",
+      "explanation": "O art. 185, § 3º-A, do RICD impede acordo prévio ou recíproco para apoiar pedidos de verificação de votação. O apoiamento precisa ser manifestado para a votação simbólica concreta, no momento regimental próprio; um pacto anterior entre líderes não substitui esse requisito em votações futuras.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 185, § 3º-A. Critério de julgamento: O regimento veda apoiamento prévio e acordos recíprocos. O apoiamento deve ser manifestado em relação à votação concreta. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
     },
     {

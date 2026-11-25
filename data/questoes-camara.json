@@ -7629,7 +7629,7 @@
       "reviewStatus": "validada",
       "statement": "Uma CPI da Câmara investiga contratos de manutenção em escolas federais. Ao se aproximar do fim dos 120 dias originais, solicitou mais 65 dias. O Plenário aprovou exatamente o prazo pedido, com fundamento na quantidade de depoimentos ainda pendentes.\n\nCom base nessa situação, julgue o item a seguir.\n\nA deliberação do Plenário não basta para autorizar os 65 dias, pois o prazo excede o limite regimental.",
       "correctAnswer": "C",
-      "explanation": "O Plenário é competente para deliberar, mas a prorrogação é limitada à metade dos 120 dias originais, ou 60 dias. A importância das diligências não amplia esse limite.",
+      "explanation": "**Regra:** a CPI da Câmara tem prazo inicial de 120 dias, prorrogável pelo Plenário por até metade desse período: 60 dias (RICD, art. 35, § 3º). **Aplicação:** os 65 dias ultrapassam o limite em cinco dias, então a deliberação favorável não valida esse prazo integral. **Pegadinha:** a importância das diligências explica o pedido, mas não autoriza exceder o teto regimental.",
       "reviewEvidence": "RICD, art. 35, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10368,7 +10368,7 @@
       "reviewStatus": "validada",
       "statement": "O Congresso concedeu ao presidente da República delegação para disciplinar procedimentos de transparência em um programa federal. A equipe responsável resolveu incluir assunto distinto, não abrangido pela resolução e que também seria delegável. Para justificar a inclusão, invocou a urgência da nova disciplina.\n\nCom base nessa situação, julgue o item a seguir.\n\nA urgência autoriza incluir o novo assunto na lei delegada ainda que ele esteja fora dos termos fixados na resolução.",
       "correctAnswer": "E",
-      "explanation": "A resolução define o conteúdo e os termos da delegação. A urgência não amplia esse conteúdo. Relevância e urgência são pressupostos da medida provisória em seu regime próprio. Para incluir matéria delegável fora do objeto autorizado, seria necessária delegação que abrangesse a matéria.",
+      "explanation": "**Regra:** a resolução do Congresso delimita o assunto e os termos em que o Presidente pode elaborar lei delegada. **Aplicação:** a nova matéria não está dentro dessa autorização. A urgência não amplia o objeto delegado nem permite acrescentar tema por decisão da equipe. **Distinção:** urgência e relevância são pressupostos de medida provisória, que tem regime próprio; não substituem a autorização legislativa necessária à lei delegada. (Constituição, arts. 62 e 68, §§ 2º e 3º.)",
       "reviewEvidence": "Constituição Federal, arts. 62 e 68, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -11078,7 +11078,7 @@
       },
       "statement": "Um inciso de projeto de lei contém três alíneas. O Presidente veta o texto integral de duas delas e preserva a terceira. Quanto à unidade de texto atingida, o veto é admissível.",
       "correctAnswer": "C",
-      "explanation": "O art. 66 permite veto parcial sobre alínea integral. A quantidade de alíneas vetadas não obriga a vetar o inciso todo. O julgamento seria diferente se o veto atingisse só palavras isoladas de uma alínea.",
+      "explanation": "**Regra:** o veto parcial deve atingir o texto integral de uma unidade admitida pela Constituição, que pode ser artigo, parágrafo, inciso ou alínea. **Aplicação:** vetar duas alíneas inteiras e manter a terceira é permitido; a Constituição não exige que se vete também o inciso completo. **Limite:** não se pode recortar apenas palavras ou fragmentos de alínea. A quantidade de unidades vetadas não altera o requisito de integralidade de cada uma. (Constituição, art. 66, § 2º.)",
       "reviewEvidence": "CF, art. 66, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 80, da Câmara de 2014."
     },
     {
@@ -18177,7 +18177,7 @@
       },
       "statement": "Durante sessão plenária, um deputado perturba a ordem dos trabalhos. Para essa conduta, o Código prevê censura verbal pela presidência da Câmara.",
       "correctAnswer": "C",
-      "explanation": "A perturbação da ordem da sessão está no art. 5º, I, e é alcançada pela censura verbal do art. 11.",
+      "explanation": "**Regra:** perturbar a ordem dos trabalhos em sessão plenária é uma conduta atentatória ao decoro que pode receber censura verbal. **Aplicação:** como a perturbação ocorreu durante sessão da Câmara, a censura verbal pode ser aplicada pelo Presidente da Câmara. Se ocorresse em reunião de comissão, a competência caberia ao presidente daquela comissão. **Pegadinha:** o local da conduta ajuda a identificar quem aplica a sanção. (Código de Ética e Decoro Parlamentar, arts. 5º, I, e 11.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 5º, I, 11 e 12. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -18401,7 +18401,7 @@
       },
       "statement": "Um integrante do Conselho pertence a partido e bloco diferentes dos do representado, mas foi eleito pelo mesmo estado. A coincidência do estado impede que assuma a relatoria.",
       "correctAnswer": "C",
-      "explanation": "O inciso I estabelece vedações independentes, entre elas ser do mesmo estado do representado.",
+      "explanation": "**Regra:** para relatar representação, o membro do Conselho não pode ser do mesmo estado do representado; o Código também prevê impedimentos partidários próprios. **Aplicação:** aqui partidos e blocos são diferentes, mas ambos são do mesmo estado, então essa vedação territorial já basta para impedir a relatoria. **Pegadinha:** os impedimentos do inciso são alternativos; afastar um deles não neutraliza outro. (Código de Ética e Decoro Parlamentar, art. 13, I, b.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I, b. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -18429,7 +18429,7 @@
       },
       "statement": "Um deputado do mesmo estado que o representado pode assumir a relatoria se seu nome sair no sorteio, desde que ambos estejam em partidos diferentes.",
       "correctAnswer": "E",
-      "explanation": "A vedação de coincidência do estado é autônoma. Nem o sorteio nem a diferença partidária afastam o impedimento.",
+      "explanation": "**Regra:** o membro do Conselho que seja do mesmo estado do representado não pode ser relator. **Aplicação:** o sorteio não torna elegível alguém que o Código exclui, e a diferença de partido também não afasta o impedimento territorial. **Distinção:** sorteio escolhe entre nomes aptos; não revoga os critérios de impedimento. (Código de Ética e Decoro Parlamentar, art. 13, I, b.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I, b. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19101,7 +19101,7 @@
       },
       "statement": "No processo de suspensão temporária do mandato, o relator dispõe do mesmo prazo de quarenta dias úteis para diligências e instrução aplicável ao caso de perda do mandato.",
       "correctAnswer": "E",
-      "explanation": "O Código fixa trinta dias úteis para instrução no caso de suspensão temporária do mandato.",
+      "explanation": "**Regra:** após a defesa, a instrução dura até quarenta dias úteis no processo de perda do mandato e até trinta dias úteis no processo de suspensão temporária do exercício do mandato. **Aplicação:** o caso é de suspensão temporária, então vale o prazo menor, de trinta dias úteis. **Pegadinha:** identifique primeiro a sanção que o processo pode aplicar; o rito determina qual prazo usar. (Código de Ética e Decoro Parlamentar, art. 14, § 4º, IV.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 4º, IV. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20053,7 +20053,7 @@
       },
       "statement": "Ao se defender em um único processo de perda do mandato, o deputado pode arrolar oito testemunhas por fato imputado, pois o Código aplica o limite separadamente a cada fato.",
       "correctAnswer": "E",
-      "explanation": "O dispositivo fixa o máximo de oito testemunhas para o arrolamento na defesa. Não estabelece uma cota para cada fato.",
+      "explanation": "**Regra:** no processo de perda do mandato, o representado pode arrolar até oito testemunhas, conforme o limite do art. 14, § 4º, II. **Aplicação:** o Código não multiplica esse teto pelo número de fatos imputados no mesmo processo. **Pegadinha:** o limite é de testemunhas na defesa do processo, não uma cota autônoma para cada acusação. O prazo para apresentar a defesa e o número de testemunhas são requisitos distintos.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 4º, II. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20081,7 +20081,7 @@
       },
       "statement": "Na etapa de julgamento em Plenário de processo disciplinar, o representado indica para sua defesa uma deputada que não integra o Conselho de Ética. O Código admite essa forma de defesa.",
       "correctAnswer": "C",
-      "explanation": "O art. 15 permite indicar outro parlamentar, desde que ele não integre o Conselho de Ética, inclusive na fase de Plenário.",
+      "explanation": "**Regra:** o representado pode defender-se pessoalmente, por advogado ou por outro parlamentar que indique, desde que esse parlamentar não integre o Conselho de Ética. A condição vale em todas as fases, inclusive no Plenário. **Aplicação:** a deputada indicada não é integrante do Conselho, então a defesa é admitida. **Pegadinha:** o julgamento ter saído do Conselho e chegado ao Plenário não suspende a restrição. (Código de Ética e Decoro Parlamentar, art. 15.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 15. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -21873,7 +21873,7 @@
       },
       "statement": "O Presidente veta integralmente a alínea b de um inciso e mantém sua alínea a. Quanto à extensão do texto vetado, a medida é admitida pela Constituição.",
       "correctAnswer": "C",
-      "explanation": "Alínea integral é uma das unidades textuais que podem ser objeto de veto parcial. O veto não precisa alcançar todo o inciso.",
+      "explanation": "**Regra:** a Constituição admite veto parcial sobre uma alínea inteira. **Aplicação:** o Presidente pode vetar a alínea b e sancionar a alínea a do mesmo inciso. **Distinção:** a unidade mínima autorizada é a alínea completa; o Presidente não pode vetar palavras isoladas ou fragmentos de texto. Não precisa alcançar todo o inciso pai. (Constituição, art. 66, § 2º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -21901,7 +21901,7 @@
       },
       "statement": "Se a alínea vetada estiver vinculada a um inciso, o veto parcial só será válido quanto à sua extensão se alcançar também o inciso inteiro.",
       "correctAnswer": "E",
-      "explanation": "O art. 66, § 2º, autoriza o veto de alínea integral mesmo quando o restante do inciso é mantido.",
+      "explanation": "**Regra:** o veto parcial pode atingir o texto integral de uma alínea, mesmo que as demais alíneas do inciso sejam mantidas. **Por que o item está errado:** a Constituição não exige que o veto suba até o inciso inteiro. **Limite:** o veto precisa abranger a unidade textual por completo; não é permitido eliminar apenas palavras soltas dentro da alínea. (Constituição, art. 66, § 2º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30049,7 +30049,7 @@
       },
       "statement": "Na Câmara, uma CPI precisa de mais 45 dias além do prazo inicial de 120. O Plenário delibera favoravelmente à prorrogação. Considerado o limite temporal do RICD, a extensão é admissível.",
       "correctAnswer": "C",
-      "explanation": "A prorrogação pelo Plenário pode alcançar até a metade do prazo inicial, ou seja, 60 dias. A extensão de 45 dias está dentro desse limite.",
+      "explanation": "**Regra:** o Plenário pode prorrogar o prazo da CPI em até metade dos 120 dias iniciais, isto é, no máximo 60 dias. **Aplicação:** a extensão de 45 dias respeita o teto e foi deliberada pelo órgão competente; portanto, é admissível. **Distinção:** estar abaixo do limite não basta se faltar deliberação do Plenário. (RICD, art. 35, § 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 35, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -30077,7 +30077,7 @@
       },
       "statement": "Os membros de uma CPI da Câmara aprovam unanimemente estender por 30 dias o prazo de 120 dias e decidem dispensar a deliberação do Plenário. Como a extensão é inferior à metade do prazo, a deliberação interna basta.",
       "correctAnswer": "E",
-      "explanation": "O intervalo de 30 dias está dentro do limite, mas o RICD exige deliberação do Plenário. A votação da própria CPI não substitui esse ato.",
+      "explanation": "**Regra:** a prorrogação de CPI depende de deliberação do Plenário e não pode superar metade do prazo inicial; para 120 dias, o máximo é 60. **Aplicação:** os 30 dias pedidos estão dentro do teto, mas a votação da própria comissão não substitui a aprovação plenária. **Pegadinha:** limite temporal e competência para autorizar são requisitos cumulativos. (RICD, art. 35, § 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 35, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -32653,7 +32653,7 @@
       },
       "statement": "Uma equipe chama de “comprometidos com a cultura” os visitantes que participaram de pelo menos quatro eventos no semestre. A frequência observada é o único critério de inclusão. O rótulo atribuído ao grupo torna essa segmentação psicográfica.",
       "correctAnswer": "E",
-      "explanation": "A base é comportamental porque o critério é a participação efetiva em eventos. Um rótulo que atribui valores aos participantes não transforma frequência em medida desses valores.",
+      "explanation": "**Regra:** relevância e urgência são requisitos para edição de medida provisória, não para a lei delegada. A lei delegada exige autorização do Congresso por resolução e respeito aos limites dessa autorização e às matérias que a Constituição exclui. **Aplicação:** a falta de urgência, isoladamente, não invalida a lei delegada do caso. **Pegadinha:** não transportar pressupostos de uma espécie normativa para a outra. (Constituição, arts. 62 e 68.)",
       "reviewEvidence": "Conferência do caso, do gabarito e da explicação com a seção teórica vinculada."
     },
       {
@@ -71377,7 +71377,7 @@
       },
       "statement": "Após reincidência em conduta sujeita a censura verbal, o presidente da comissão solicita censura escrita. Em razão de ter feito a solicitação, ele próprio passa a ser competente para aplicar a censura escrita.",
       "correctAnswer": "E",
-      "explanation": "Nos casos de reincidência, a presidência da comissão pode solicitar a medida, mas a aplicação cabe à Mesa, conforme o art. 12.",
+      "explanation": "**Regra:** nos casos de reincidência em conduta sujeita à censura verbal, o presidente da comissão pode solicitar censura escrita, mas a aplicação dessa sanção compete à Mesa. **Aplicação:** pedir a medida não transfere ao presidente da comissão a competência para aplicá-la. **Distinção:** separe a autoridade que provoca a análise da autoridade que decide. (Código de Ética e Decoro Parlamentar, art. 12.)",
       "reviewEvidence": "Revisão editorial por IA. Código de Ética, art. 12. Nos casos de reincidência, a presidência da comissão pode solicitar a medida, mas a aplicação cabe à Mesa, conforme o art. 12. Dificuldade estimada."
     },
     {
@@ -71405,7 +71405,7 @@
       },
       "statement": "Se a decisão de censura escrita for comunicada na sexta-feira e os dois dias seguintes não forem úteis, a passagem do sábado e do domingo não consome os dois dias de prazo para recorrer ao Plenário.",
       "correctAnswer": "C",
-      "explanation": "O art. 12, § 2º, fixa prazo de dois dias úteis. Dias sem expediente não esgotam esse prazo por mera passagem do tempo.",
+      "explanation": "**Regra:** da censura escrita cabe recurso ao Plenário no prazo de dois dias úteis, contado da comunicação da decisão, conforme o art. 12, § 2º. **Aplicação:** sábado e domingo não consomem dias úteis quando não há expediente. **Distinção:** o Código prevê prazo e recurso próprios para censura escrita; não use automaticamente o rito de outra sanção disciplinar.",
       "reviewEvidence": "Revisão editorial por IA. Código de Ética, art. 12. O art. 12, § 2º, fixa prazo de dois dias úteis. Dias sem expediente não esgotam esse prazo por mera passagem do tempo. Dificuldade estimada."
     },
     {
@@ -76529,7 +76529,7 @@
       },
       "statement": "Um projeto de resolução propõe uma reforma do Código de Ética e Decoro Parlamentar da Câmara. Como o prazo para os pareceres é de vinte sessões, o projeto deve permanecer na Ordem do Dia por esse mesmo período para receber emendas após a publicação e distribuição.",
       "correctAnswer": "E",
-      "explanation": "O art. 19 do Código remete ao art. 216 do Regimento Interno. Pelo § 1º, a janela para emendas é de cinco sessões. As vinte sessões previstas no § 3º referem-se aos pareceres quando o projeto trata de reforma.",
+      "explanation": "**Regra:** o art. 19 do Código determina que projetos de alteração do próprio Código observem o art. 216 do RICD. Nesse procedimento, a janela para apresentação de emendas é de cinco sessões; o prazo de vinte sessões diz respeito aos pareceres. **Aplicação:** não se mantém o projeto em pauta por vinte sessões só para receber emendas. **Pegadinha:** são prazos para etapas diferentes. (Código de Ética, art. 19; RICD, art. 216, §§ 1º e 3º.)",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 19 do Código de Ética, o art. 216, §§ 1º e 3º, do RICD, e o subtítulo literal. O item verifica a transferência indevida de um prazo entre duas etapas."
     },
     {
@@ -76557,7 +76557,7 @@
       },
       "statement": "A discussão em primeiro turno de um projeto de alteração do Código de Ética e Decoro Parlamentar ocupou três sessões. A sessão excedente do primeiro turno pode ser aproveitada para encerrar o segundo turno após uma única sessão, caso não haja oradores inscritos.",
       "correctAnswer": "E",
-      "explanation": "Por força do art. 19 do Código, aplica-se o art. 216 do Regimento Interno. Seus §§ 4º e 5º fixam um mínimo de duas sessões em cada turno. O tempo adicional do primeiro turno e a falta de oradores não reduzem o mínimo do segundo.",
+      "explanation": "**Regra:** projetos de alteração do Código de Ética seguem o rito do art. 216 do RICD, que exige discussão por pelo menos duas sessões em cada turno. **Aplicação:** sessões excedentes do primeiro turno não podem ser transferidas para completar o mínimo do segundo. **Pegadinha:** a exigência é autônoma por turno; terminar mais cedo porque não há oradores não elimina o mínimo regimental. (Código de Ética, art. 19; RICD, art. 216, §§ 4º e 5º.)",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 19 do Código e os §§ 4º e 5º do art. 216 do Regimento Interno no portal da Câmara. O caso testa a incidência do mínimo de sessões por turno, em vez de um prazo global."
     },
     {
@@ -81429,7 +81429,7 @@
       },
       "statement": "O Presidente pode vetar o texto integral de uma alínea sem estender o veto às demais alíneas do mesmo inciso.",
       "correctAnswer": "C",
-      "explanation": "A alínea completa é uma das unidades de texto que podem ser objeto de veto parcial. A regra veda recortar palavras soltas e não exige que todo o inciso seja vetado. (Constituição Federal, art. 66, § 2º.)",
+      "explanation": "**Regra:** a Constituição permite veto parcial sobre unidade textual completa, incluindo alínea. **Aplicação:** o Presidente pode vetar uma alínea inteira e preservar as demais do mesmo inciso. **Limite:** não pode selecionar apenas palavras ou expressões isoladas para vetar. **Pegadinha:** a exigência é de integralidade da unidade escolhida, não de veto de todo o inciso. (Constituição, art. 66, § 2º.)",
       "reviewEvidence": "Constituição Federal, art. 66, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue unidade textual autônoma e trecho isolado."
     },
     {

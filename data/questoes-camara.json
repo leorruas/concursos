@@ -13417,7 +13417,7 @@
       },
       "statement": "O Tribunal de Contas da União fixa prazo para corrigir ilegalidade em ato administrativo. Descumprida a determinação, susta a execução do ato e comunica a decisão à Câmara e ao Senado.",
       "correctAnswer": "C",
-      "explanation": "O Tribunal susta o ato se a determinação não for atendida e comunica a decisão a ambas as Casas.",
+      "explanation": "**Regra:** ao encontrar ilegalidade em ato administrativo, o TCU fixa prazo para que o órgão responsável adote as providências corretivas; se não houver atendimento, pode sustar a execução e comunica a decisão à Câmara e ao Senado. **Aplicação:** o enunciado fala de ato administrativo, então se aplica esse caminho de determinação, prazo e eventual sustação. **Distinção importante:** em caso de contrato, a sustação é adotada inicialmente pelo Congresso Nacional, que solicita as medidas cabíveis ao Executivo; se Congresso e Executivo não agirem em noventa dias, o TCU decide a respeito. Portanto, não se deve transferir automaticamente ao TCU o rito inicial dos contratos (Constituição, art. 71, IX e X e § 1º).",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, IX e X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -13473,7 +13473,7 @@
       },
       "statement": "Em votação secreta no Senado, 41 dos 81 senadores aprovam a exoneração de ofício do Procurador-Geral da República antes do fim do mandato. O quórum constitucional de aprovação foi atingido.",
       "correctAnswer": "C",
-      "explanation": "A maioria absoluta do Senado corresponde a 41 votos. A Constituição também exige voto secreto.",
+      "explanation": "**Regra:** o Procurador-Geral da República pode ser destituído antes do fim do mandato por iniciativa do Presidente da República, mas a exoneração de ofício depende de autorização prévia da maioria absoluta do Senado, em votação secreta. **Aplicação:** num Senado com 81 membros, maioria absoluta significa ao menos 41 votos; esse número satisfaz o quórum descrito. **Distinção:** não basta maioria dos presentes: a conta toma como referência o total de senadores. A votação secreta é requisito adicional, separado do número de votos (Constituição, art. 128, § 2º).",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 52, XI, e 128, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -14537,7 +14537,7 @@
       },
       "statement": "Cessados os motivos da intervenção, as autoridades afastadas retornam aos cargos se não houver impedimento legal.",
       "correctAnswer": "C",
-      "explanation": "O retorno após cessarem os motivos é a regra. A Constituição ressalva o impedimento legal.",
+      "explanation": "**Regra:** encerrada a intervenção federal, as autoridades afastadas retornam aos cargos, salvo se houver impedimento legal. **Aplicação:** cessaram os motivos da intervenção e o enunciado informa que não há impedimento; portanto, o retorno é a consequência prevista. **Distinção:** o afastamento durante a intervenção não extingue, por si só, o mandato ou cargo. A ressalva preserva situações em que outra norma ou decisão válida impeça a reassunção (Constituição, art. 36, § 4º).",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 36, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16245,7 +16245,7 @@
       },
       "statement": "Como o Presidente do Supremo Tribunal Federal preside o julgamento do Presidente da República por crime de responsabilidade, o julgamento é de competência do plenário do STF.",
       "correctAnswer": "E",
-      "explanation": "A presidência dos trabalhos cabe ao Presidente do STF. A competência para julgar continua com o Senado.",
+      "explanation": "**Regra:** nos crimes de responsabilidade do Presidente da República, quem processa e julga é o Senado Federal. **Aplicação:** o Presidente do STF preside a sessão de julgamento, mas essa função de conduzir os trabalhos não transforma o STF em órgão julgador. **Distinção:** competência para julgar é diferente de presidência da sessão; a Constituição atribui a primeira ao Senado e a segunda ao Presidente do STF. A condenação depende de dois terços dos votos do Senado (Constituição, art. 52, I e parágrafo único).",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -18597,7 +18597,7 @@
       },
       "statement": "A restituição integral de vantagem indevida obtida com recursos públicos impede que seja aplicada a sanção disciplinar cabível pela mesma conduta.",
       "correctAnswer": "E",
-      "explanation": "O ressarcimento e a sanção podem coexistir. O primeiro recompõe o erário. A segunda incide sobre a infração.",
+      "explanation": "**Regra:** o ressarcimento recompõe o dinheiro público usado indevidamente; a sanção disciplinar responde à infração ética. **Aplicação:** mesmo que o deputado devolva integralmente a vantagem, a conduta ainda pode ser apurada e punida. **Distinção:** devolver o valor resolve a obrigação de recompor o erário, mas não apaga automaticamente o ilícito nem impede censura, suspensão ou outra sanção cabível. O Código prevê expressamente ressarcimento sem prejuízo das penalidades (art. 10, § 3º, da Resolução da Câmara nº 25/2001).",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19045,7 +19045,7 @@
       },
       "statement": "A remessa à Procuradoria Parlamentar prevista para representação leviana tem por finalidade aplicar censura ao deputado contra quem a acusação foi formulada.",
       "correctAnswer": "E",
-      "explanation": "A finalidade da remessa é reparadora, voltada à imagem atingida. A regra não cria sanção disciplinar contra o representado.",
+      "explanation": "**Regra:** a remessa à Procuradoria Parlamentar tem finalidade reparadora quando a representação é considerada leviana ou ofensiva; não é uma penalidade disciplinar aplicada ao deputado representado. **Aplicação:** o encaminhamento pode buscar proteger a imagem atingida pela acusação. **Distinção:** apurar se houve infração ética e aplicar censura ou outra sanção são atos do processo disciplinar, submetidos ao rito e às autoridades do Código. A remessa à Procuradoria não equivale a declarar o representado culpado nem a puni-lo (Código de Ética, art. 15).",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 15, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20781,7 +20781,7 @@
       },
       "statement": "Em reunião de comissão, cabe exclusivamente à Mesa aplicar censura verbal, mesmo que a conduta tenha ocorrido na presença do presidente da comissão.",
       "correctAnswer": "E",
-      "explanation": "O art. 11 prevê aplicação pelo presidente da comissão durante reunião e pelo presidente da Câmara em sessão. A Mesa aplica censura escrita nas hipóteses do art. 12.",
+      "explanation": "**Regra:** a censura verbal é aplicada pelo Presidente da Câmara durante sessão ou pelo presidente da comissão durante reunião, para as condutas previstas no art. 5º, I e II. **Aplicação:** se a conduta ocorre em reunião de comissão, o presidente desse colegiado pode aplicar a censura; a Mesa não tem exclusividade. **Distinção:** censura escrita é aplicada pela Mesa, nas hipóteses do art. 12, depois de assegurar cinco dias úteis para defesa. Da censura verbal cabe recurso ao plenário competente em dois dias úteis (Código de Ética, arts. 11 e 12).",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 11. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20837,7 +20837,7 @@
       },
       "statement": "Quando a acusação vem acompanhada de documentos, o cidadão deve apresentar representação diretamente ao Conselho de Ética, sem passar pela Mesa.",
       "correctAnswer": "E",
-      "explanation": "A presença de documentos não altera o destinatário inicial previsto: a representação deve ser dirigida à Mesa.",
+      "explanation": "**Regra:** qualquer cidadão pode apresentar à Mesa pedido para que seja oferecida representação, descrevendo os fatos e indicando as provas. **Aplicação:** documentos anexos ajudam a fundamentar a acusação, mas não mudam o destinatário previsto no Código: o pedido do cidadão começa na Mesa. **Distinção:** representação de partido político com representação no Congresso segue fluxo próprio e é encaminhada ao Conselho nos termos do art. 9º. Não se deve confundir esse encaminhamento posterior com protocolo inicial direto no Conselho por qualquer cidadão (Código de Ética, art. 9º).",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -23609,7 +23609,7 @@
       },
       "statement": "Por descumprimento do prazo, um relator é substituído após a conclusão da instrução. O prazo de cinco dias úteis do novo relator se destina à apresentação do parecer ao Conselho.",
       "correctAnswer": "C",
-      "explanation": "Com a instrução concluída, a providência prevista no dispositivo é apresentar o parecer no prazo de cinco dias úteis.",
+      "explanation": "**Regra:** se o relator deixa de cumprir o prazo, pode ser substituído; quando a instrução já terminou, o novo relator recebe prazo de cinco dias úteis para apresentar seu parecer. **Aplicação:** no caso, não se reabre automaticamente a coleta de provas: o trabalho pendente é examinar o que foi instruído e oferecer o parecer. **Distinção:** o prazo e a tarefa variam conforme a fase em que ocorre a substituição. A troca de relator não reinicia por si só todo o processo nem transforma o parecer em decisão final; o órgão competente ainda delibera sobre a representação (Código de Ética, art. 16).",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 16, § 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {

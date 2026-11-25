@@ -29713,7 +29713,7 @@
       },
       "statement": "Em sessão conjunta do Congresso, 280 deputados e 40 senadores votam pela rejeição de um veto. O veto é rejeitado porque a soma dos votos favoráveis supera a maioria absoluta dos membros do Congresso.",
       "correctAnswer": "E",
-      "explanation": "Em sessão conjunta, a maioria absoluta é apurada separadamente. São necessários 257 votos de deputados e 41 de senadores. A Câmara atingiu o seu quórum e o Senado ficou abaixo.",
+      "explanation": "**Regra:** o Congresso aprecia o veto em sessão conjunta, mas a maioria absoluta é contada separadamente: são necessários ao menos 257 dos 513 deputados e 41 dos 81 senadores. **Aplicação:** os 280 deputados alcançam o quórum da Câmara; os 40 senadores ficam um voto abaixo do quórum do Senado. **Conclusão:** não se rejeita o veto, porque votos excedentes de uma Casa não compensam a falta na outra. A sessão é conjunta; os quóruns, não. (Constituição, art. 66, § 4º.)",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {

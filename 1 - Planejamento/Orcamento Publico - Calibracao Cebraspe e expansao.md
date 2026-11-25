@@ -301,7 +301,7 @@ Meta indicativa de 120 autorais. Restam 108 após este lote. Priorizar em seguid
 
 ### Prompt de continuidade
 
-No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 36 IDs dos três primeiros lotes e os históricos. Siga da contagem de 36/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 4, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre responsabilidade fiscal, metas, riscos, renúncia, despesa continuada e recondução. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
+No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 48 IDs dos quatro primeiros lotes e os históricos. Siga da contagem de 48/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 5, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre créditos adicionais, alterações, controles de fonte e diferenças entre bloqueio e contingenciamento. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
 
 ## Lote 2 — classificação, estágios e caso da ponte
 
@@ -326,6 +326,8 @@ Mais 12 autorais, seis por concurso. Total acumulado de 24, com 96 restantes da 
 
 ## Lote 3 — planejamento, esferas, princípios e exceções
 
+SHA integrado: `5aa3d9ab545d04f6e8a8a7943ab40e3eab85209c`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45681423735) · [Workflow de publicação](https://github.com/leorruas/concursos/actions/runs/45681603692).
+
 Doze autorais, seis por concurso. Total acumulado de 36 e saldo indicativo de 84. Os itens exploram investimento que atravessa o exercício, horizonte das metas, anexo de riscos, orçamento bruto, unidade das três esferas, dependência da estatal, vinculação, especificação e exceções constitucionais relacionadas à regra de ouro e à realocação em ciência e tecnologia. Próximo lote: responsabilidade fiscal, dívida, metas, renúncia e geração de despesa continuada.
 
 | ID | Referência | Artigo | Nível | Gabarito |
@@ -342,3 +344,22 @@ Doze autorais, seis por concurso. Total acumulado de 36 e saldo indicativo de 84
 | cg-orc-cal-vinculacao-taxa-imposto | p3 101 | art-b419ac8206de7f35 | dificil | E |
 | cg-orc-cal-dotacao-global-programa-auditoria | p3 100 | art-b419ac8206de7f35 | dificil | C |
 | cg-orc-cal-regra-ouro-credito-extraordinario | p1 86 | art-b419ac8206de7f35 | dificil | E |
+
+## Lote 4 — responsabilidade fiscal e competências de controle
+
+Doze autorais, seis por concurso. Total acumulado de 48 e saldo indicativo de 72. O recorte cobre renúncia, despesa continuada, caixa líquido no fim do mandato, dívida flutuante e fundada, limite prudencial, recondução, recomposição e atribuições de controle. Próximo lote: alterações, crédito disponível e distinções entre bloqueio e contingenciamento.
+
+| ID | Referência | Artigo | Nível | Gabarito |
+| --- | --- | --- | --- | --- |
+| cg-orc-cal-renuncia-receita-apurada-sem-meta | p3 110 | art-d218c459af1e4b73 | dificil | E |
+| cg-orc-cal-despesa-compensada-reducao-permanente | mpo 38 | art-d218c459af1e4b73 | dificil | C |
+| cg-orc-cal-fim-mandato-caixa-liquido | cd 166 | art-d218c459af1e4b73 | dificil | C |
+| cg-orc-cal-divida-fundada-flutuante-vencimentos | cge 109 | art-d218c459af1e4b73 | dificil | E |
+| cg-orc-cal-prudencial-sem-extrapolar-maximo | mpo 26 | art-d218c459af1e4b73 | media | C |
+| cg-orc-cal-recuperacao-receita-parcial | mpo 26 | art-d218c459af1e4b73 | dificil | E |
+| ca-orc-cal-beneficio-pj-indicador-ausente | p3 110 | art-91ab320cdfb64b8a | dificil | E |
+| ca-orc-cal-ampliacao-bienio-exato | mpo 38 | art-91ab320cdfb64b8a | media | E |
+| ca-orc-cal-reconducao-fracao-excesso | mpo 26 | art-91ab320cdfb64b8a | dificil | C |
+| ca-orc-cal-contas-presidente-versus-gestor | p3 108 | art-91ab320cdfb64b8a | dificil | C |
+| ca-orc-cal-consulta-tecnica-e-sustacao-final | mpo 40 | art-91ab320cdfb64b8a | dificil | E |
+| ca-orc-cal-representacao-tcu-dever-interno | cge 115 | art-91ab320cdfb64b8a | dificil | C |

@@ -86877,6 +86877,222 @@
         "section": "Três orçamentos em uma lei"
       },
       "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-beneficio-pj-indicador-ausente",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "beneficio-pj-indicador-ausente",
+      "mechanism": "beneficio-pj-indicador-ausente",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Um projeto sujeito ao regime geral de renúncia concede benefício tributário a pessoas jurídicas. Estão documentados o impacto e a via compensatória do art. 14. Nessas condições, o projeto atende integralmente aos requisitos fiscais de instrução mesmo sem metas objetivas e quantificáveis de desempenho.",
+      "correctAnswer": "E",
+      "explanation": "A demonstração do impacto e da compensação atende parte da instrução do art. 14. Para benefício a pessoa jurídica, o art. 14-A exige também metas objetivas e quantificáveis, além de outros requisitos aplicáveis. A omissão de metas impede afirmar suficiência da instrução. Se os beneficiários fossem pessoas físicas, esse fundamento específico do art. 14-A não incidiria. Lei Complementar nº 101/2000, arts. 14 e 14-A, III.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_003_01",
+        "item": 110,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_003_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_003_01.pdf",
+        "mechanism": "Caráter diferenciado e redução discriminada separam o benefício da regra geral"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Benefícios tributários para pessoas jurídicas: LRF art. 14-A (LC nº 224/2025)"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p3 110: Caráter diferenciado e redução discriminada separam o benefício da regra geral. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Benefícios tributários para pessoas jurídicas: LRF art. 14-A (LC nº 224/2025)",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Benefícios tributários para pessoas jurídicas: LRF art. 14-A (LC nº 224/2025)"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-ampliacao-bienio-exato",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "ampliacao-bienio-exato",
+      "mechanism": "ampliacao-bienio-exato",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Lei federal cria despesa corrente e obriga sua execução por exatamente dois exercícios. Esse período, por si, satisfaz a condição temporal da despesa obrigatória de caráter continuado.",
+      "correctAnswer": "E",
+      "explanation": "A despesa corrente com obrigação legal é continuada para o art. 17 quando a execução é imposta por período superior a dois exercícios. Exatamente dois não superam esse marco, ainda que outras regras de geração de despesa sejam aplicáveis. Se a obrigação fosse de três exercícios, a condição temporal estaria presente. Lei Complementar nº 101/2000, arts. 16 e 17.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 38,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Redução permanente de despesa também pode compensar aumento continuado"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Receita, geração de despesas e compromissos continuados"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 38: Redução permanente de despesa também pode compensar aumento continuado. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Receita, geração de despesas e compromissos continuados",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Receita, geração de despesas e compromissos continuados"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-reconducao-fracao-excesso",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "reconducao-fracao-excesso",
+      "mechanism": "reconducao-fracao-excesso",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em situação ordinária, um Poder excedeu em três pontos percentuais seu limite máximo de despesa com pessoal. No quadrimestre seguinte, a redução para dois pontos de excesso cumpre a fração mínima inicial da recondução.",
+      "correctAnswer": "C",
+      "explanation": "Nos dois quadrimestres seguintes, deve-se eliminar o excedente, com redução mínima de um terço já no primeiro. Um terço de três pontos percentuais é um ponto. Restarem dois cumpre a parcela inicial, sem dispensar eliminar o saldo no segundo quadrimestre. Se a redução inicial fosse de meio ponto, não alcançaria o mínimo. Lei Complementar nº 101/2000, art. 23.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 26,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Anexo de metas não se confunde com vedações e tetos legais"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Recondução após ultrapassar o máximo"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 26: Anexo de metas não se confunde com vedações e tetos legais. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Recondução após ultrapassar o máximo",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Recondução após ultrapassar o máximo"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-contas-presidente-versus-gestor",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "contas-presidente-versus-gestor",
+      "mechanism": "contas-presidente-versus-gestor",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Ao examinar contas anuais do presidente da República e contas de administrador por suprimentos e bens sob sua responsabilidade, o Tribunal de Contas da União atua de formas diferentes. Nas primeiras emite parecer prévio, e nas segundas pode exercer a competência de julgamento.",
+      "correctAnswer": "C",
+      "explanation": "O Tribunal de Contas auxilia o Congresso, que julga as contas presidenciais após parecer prévio. O próprio Tribunal julga as contas de administradores e demais responsáveis por bens e valores públicos. Se ambas fossem contas de administradores dentro do inciso II, a distinção de competência do caso desapareceria. Constituição Federal, arts. 49, IX, e 71, I e II.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_003_01",
+        "item": 108,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_003_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_003_01.pdf",
+        "mechanism": "Executivo consolida e tribunal de contas emite parecer na sua esfera"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Quem exerce qual competência"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p3 108: Executivo consolida e tribunal de contas emite parecer na sua esfera. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Quem exerce qual competência",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Quem exerce qual competência"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-consulta-tecnica-e-sustacao-final",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "consulta-tecnica-e-sustacao-final",
+      "mechanism": "consulta-tecnica-e-sustacao-final",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em procedimento por despesa sem autorização, a autoridade deixou de prestar esclarecimentos. O Tribunal de Contas emitiu pronunciamento conclusivo pela irregularidade e a comissão mista identificou risco de grave lesão econômica. Cabe à comissão, nessa etapa, sustar a despesa por decisão final própria.",
+      "correctAnswer": "E",
+      "explanation": "A comissão solicita esclarecimentos, pede pronunciamento ao Tribunal de Contas se forem ausentes ou insuficientes e, presentes a irregularidade e o risco grave, propõe a sustação ao Congresso. A última deliberação é do Congresso. Se o pronunciamento afastasse a irregularidade, faltaria a condição indicada para essa proposta de sustação. Constituição Federal, art. 72, §§ 1º e 2º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 40,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Solicitação de esclarecimentos em cinco dias precede medidas subsequentes"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Despesas não autorizadas: o procedimento especial do art. 72"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 40: Solicitação de esclarecimentos em cinco dias precede medidas subsequentes. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Despesas não autorizadas: o procedimento especial do art. 72",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Despesas não autorizadas: o procedimento especial do art. 72"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-representacao-tcu-dever-interno",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "representacao-tcu-dever-interno",
+      "mechanism": "representacao-tcu-dever-interno",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A unidade de controle interno de um Poder toma conhecimento de desvio na execução financeira. A abertura de apuração interna é compatível com o dever de dar ciência da irregularidade ao Tribunal de Contas da União.",
+      "correctAnswer": "C",
+      "explanation": "O sistema de controle interno presta apoio ao controle externo. Quando seus responsáveis conhecem irregularidade ou ilegalidade, devem dar ciência ao Tribunal de Contas da União, sob pena de responsabilidade solidária. Apuração interna não substitui a comunicação. Se existisse só um indicador genérico de risco, sem conhecimento de irregularidade, o pressuposto desse dever específico seria diferente. Constituição Federal, art. 74, IV e § 1º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "199_cge_al_001_01",
+        "item": 115,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf",
+        "mechanism": "Cada Poder mantém sistema integrado com funções de legalidade e avaliação de resultados"
+      },
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Controle interno, controle externo e prestação de contas"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cge 115: Cada Poder mantém sistema integrado com funções de legalidade e avaliação de resultados. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Controle interno, controle externo e prestação de contas",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Controle interno, controle externo e prestação de contas"
+      },
+      "reviewStatus": "validada"
     }
   ]
 }

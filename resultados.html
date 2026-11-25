@@ -165,12 +165,12 @@
     .results-daily-card-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px}
     .results-daily-card-head strong{font-size:14px;font-weight:620;color:var(--text)}
     .results-daily-card-head span{font:11px 'IBM Plex Mono',monospace;color:var(--muted)}
-    .results-daily-statement{font-size:15px;line-height:1.65;color:var(--text);margin:14px 0 17px;white-space:pre-wrap;overflow-wrap:anywhere}
+    .study-markdown>p:first-child{margin-top:0}.study-markdown>p:last-child{margin-bottom:0}.study-markdown{overflow-wrap:anywhere}.study-markdown pre{white-space:pre-wrap}.study-markdown table{display:block;overflow-x:auto}.results-daily-statement{font-size:15px;line-height:1.65;color:var(--text);margin:14px 0 17px;white-space:pre-wrap;overflow-wrap:anywhere}
     .results-daily-answers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 24px;margin:0 0 14px}
     .results-daily-answers p{font-size:13px;color:var(--text);line-height:1.55;margin:0}
     .results-daily-answers strong{font-weight:650}
     .results-daily-explanation{padding:13px 0;border-top:1px solid color-mix(in srgb,var(--text) 14%,transparent);margin-bottom:10px}
-    .results-daily-explanation strong{font-size:13px;color:var(--text);font-weight:650}
+    .results-daily-explanation>strong{font-size:13px;color:var(--text);font-weight:650}
     .results-daily-explanation p{font-size:13px;line-height:1.65;color:var(--muted);white-space:pre-wrap;overflow-wrap:anywhere;margin:6px 0}
     .results-daily-card .results-link{font-size:13px}
     @media(max-width:600px){.results-daily-answers{grid-template-columns:1fr}.results-daily-card{padding:17px 0 19px}}
@@ -294,7 +294,9 @@
       <p class="results-caption results-privacy">O histórico do chat permanece no cofre GitHub privado, e o do site, no banco D1 privado. O painel combina as duas fontes apenas depois do login GitHub. Nenhuma resposta pessoal entra na biblioteca pública.</p>
     </div>
   </main>
-  <script src="web/16-study-nav.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+<script src="web/04a-study-markdown.js" defer></script>
+<script src="web/16-study-nav.js" defer></script>
   <script src="web/13a-results-retests.js" defer></script>
   <script src="web/13b-results-planner.js" defer></script>
   <script src="web/13-results-ui.js" defer></script>

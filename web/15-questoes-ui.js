@@ -297,7 +297,7 @@ function theory(q){
  if(!q.articleId||!manifest.has(q.articleId))return null;const m=manifest.get(q.articleId),a=elem('a','Revisar artigo: '+(m.tituloExibicao||m.titulo||'ver conteúdo'));a.href=quizArticleLink(q.articleId,q.section||'',session.concursoId);a.target='_blank';a.rel='noopener noreferrer';return a;
 }
 function questionStatement(el,q){
- el.textContent=q.statement;
+ window.renderStudyMarkdown(el,q.statement);
  if(q.format!=='reference'||!q.officialSource)return;
  const source=q.officialSource;
  const link=elem('a','Abrir caderno no item '+source.numero+' (PDF)');
@@ -344,7 +344,7 @@ function feedback(q,a){
  const el=$('qs-feedback');
  const chosen=a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco';
  const solution=q.correctAnswer==='C'?'Certo':'Errado';
- el.replaceChildren(elem('strong',(a.result==='correct'?'Acertou':a.result==='blank'?'Em branco':'Errou')+' · Sua resposta: '+chosen+' · Gabarito: '+solution),elem('p',q.explanation));
+ el.replaceChildren(elem('strong',(a.result==='correct'?'Acertou':a.result==='blank'?'Em branco':'Errou')+' · Sua resposta: '+chosen+' · Gabarito: '+solution),window.studyMarkdownNode(q.explanation));
  el.append(questionProvenance(q));
  const link=theory(q);if(link)el.append(link);toggle('qs-feedback',true);
 }
@@ -434,7 +434,7 @@ function finish(){
  }
  $('qs-review-count').textContent='('+session.answers.length+')';
  const review=$('qs-reviews');review.replaceChildren();
- session.answers.forEach((a,i)=>{const q=data.map.get(a.questionId);if(!q)return;const d=elem('details');d.className='qs-review';const statement=elem('p');questionStatement(statement,q);d.append(elem('summary',(i+1)+'. '+(q.subjectName||q.subjectId)+' · '+(a.result==='correct'?'acerto':a.result==='blank'?'em branco':'erro')),statement,elem('p','Sua resposta: '+(a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco')+' · Gabarito: '+(q.correctAnswer==='C'?'Certo':'Errado')),elem('p',q.explanation),questionProvenance(q));const link=theory(q);if(link)d.append(link);review.append(d);});
+ session.answers.forEach((a,i)=>{const q=data.map.get(a.questionId);if(!q)return;const d=elem('details');d.className='qs-review';const statement=elem('div');questionStatement(statement,q);d.append(elem('summary',(i+1)+'. '+(q.subjectName||q.subjectId)+' · '+(a.result==='correct'?'acerto':a.result==='blank'?'em branco':'erro')),statement,elem('p','Sua resposta: '+(a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco')+' · Gabarito: '+(q.correctAnswer==='C'?'Certo':'Errado')),window.studyMarkdownNode(q.explanation),questionProvenance(q));const link=theory(q);if(link)d.append(link);review.append(d);});
  status('Bateria concluída. Prioridades de leitura calculadas a partir desta sessão.');
 }
 function resume(){

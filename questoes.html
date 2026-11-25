@@ -84,7 +84,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .qs-answer-result{border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent);padding-top:22px;scroll-margin-top:20px}
 .qs-answer-result:focus{outline:none}
 .qs-answer-result .qs-feedback{margin:0 0 21px;padding:22px 24px}
-.qs-answer-result .qs-feedback strong{display:block;font-size:1.12rem;line-height:1.45;margin-bottom:10px}
+.qs-answer-result .qs-feedback>strong{display:block;font-size:1.12rem;line-height:1.45;margin-bottom:10px}
 .qs-answer-result .qs-feedback p{line-height:1.65;margin:8px 0;font-size:.95rem}
 .qs-answer-result .qs-feedback a{display:inline-block;margin-top:8px}
 .qs-answer-result #qs-pending{margin:2px 0 22px}
@@ -150,7 +150,8 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .questoes-page .qs-difficulty{font-size:.68rem;color:var(--muted);letter-spacing:0;border-color:color-mix(in srgb,var(--text) 16%,transparent);padding:5px 8px}
 .questoes-page .qs-progress{margin:17px 0 32px;height:3px;border-radius:4px;overflow:hidden}
 .questoes-page .qs-statement{font-family:'Archivo',sans-serif;font-size:clamp(1.35rem,2.4vw,1.8rem);line-height:1.46;letter-spacing:-.025em;font-weight:520;margin:0 0 32px;max-width:690px;overflow-wrap:anywhere}
-.questoes-page .qs-statement{white-space:pre-line}
+.questoes-page .qs-statement{white-space:normal}
+.study-markdown>p:first-child{margin-top:0}.study-markdown>p:last-child{margin-bottom:0}.study-markdown{overflow-wrap:anywhere}.study-markdown pre{white-space:pre-wrap}.study-markdown table{display:block;overflow-x:auto}.qs-feedback .study-markdown strong{display:inline;font-size:inherit;font-weight:700;margin:0}.qs-statement .study-markdown,.qs-statement p{font:inherit}
 .questoes-page .qs-statement:focus{outline:none}
 .questoes-page .qs-answers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .questoes-page .qs-answers label{margin:0;min-height:72px;padding:18px 20px;gap:12px;font-size:1.03rem;font-weight:600;line-height:1.35;border-radius:8px;transition:border-color .14s ease,background-color .14s ease}
@@ -172,7 +173,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .questoes-page .qs-submit-row .qs-button{min-width:220px}
 .questoes-page .qs-answer-result{margin-top:29px;border-color:color-mix(in srgb,var(--text) 17%,transparent);padding-top:25px;scroll-margin-top:24px}
 .questoes-page .qs-answer-result .qs-feedback{background:transparent;border:0;padding:0;margin:0 0 23px;max-width:700px}
-.questoes-page .qs-answer-result .qs-feedback strong{font-size:1.04rem;font-weight:650;margin-bottom:12px}
+.questoes-page .qs-answer-result .qs-feedback>strong{font-size:1.04rem;font-weight:650;margin-bottom:12px}
 .questoes-page .qs-answer-result .qs-feedback p{font-size:1rem;line-height:1.7;margin:0 0 14px;color:var(--text)}
 .questoes-page .qs-answer-result .qs-feedback a{margin-top:7px}
 .questoes-page .qs-answer-result #qs-next{min-width:220px}
@@ -350,7 +351,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <div class="qs-top" id="qs-reading-start" tabindex="-1"><span class="qs-meta" id="qs-number"></span><button class="qs-stop" id="qs-finish" type="button">Encerrar bateria</button></div>
 <div class="qs-question-attributes"><p class="qs-meta qs-context" id="qs-context"></p><span class="qs-meta qs-difficulty" id="qs-question-difficulty"></span></div>
 <div class="qs-progress" aria-hidden="true"><div id="qs-progress-bar"></div></div>
-<h2 class="sr-only">Questão</h2><p class="qs-statement" id="qs-statement" tabindex="-1"></p>
+<h2 class="sr-only">Questão</h2><div class="qs-statement" id="qs-statement" tabindex="-1"></div>
 <form id="qs-answer-form"><fieldset class="qs-answers" style="border:0;padding:0;margin:0"><legend class="sr-only">Julgue o item</legend>
 <label><input type="radio" name="qs-answer" value="C"> Certo</label><label><input type="radio" name="qs-answer" value="E"> Errado</label><label id="qs-blank-wrap" hidden><input type="radio" name="qs-answer" value="blank"> Em branco</label>
 </fieldset>
@@ -380,6 +381,8 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 </section>
 <footer class="qs-footer" id="qs-sync">Seu histórico não é publicado no repositório de questões.</footer>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+<script src="web/04a-study-markdown.js" defer></script>
 <script src="web/16-study-nav.js" defer></script>
 <script src="web/15-questoes-ui.js" defer></script>
 </body></html>

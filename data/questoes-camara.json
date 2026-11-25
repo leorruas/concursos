@@ -19913,7 +19913,7 @@
       },
       "statement": "Uma deputada usa prerrogativa do mandato para constranger um servidor a dar prioridade a pedido particular de um conhecido. Essa conduta pode ser enquadrada como ato atentatório ao decoro.",
       "correctAnswer": "C",
-      "explanation": "O inciso IV alcança o uso de prerrogativas para constranger servidor com o fim de obter favorecimento para si ou para outrem.",
+      "explanation": "O art. 5º, IV, do Código de Ética considera atentatório ao decoro usar poderes ou prerrogativas do cargo para constranger ou aliciar alguém com o objetivo de obter favorecimento. O favorecimento pode ser para o próprio parlamentar ou para outra pessoa; aqui, a prioridade buscada para um conhecido atende a esse elemento. Para essa conduta, o art. 14, § 1º, prevê suspensão do exercício do mandato e de suas prerrogativas regimentais.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, IV. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20809,7 +20809,7 @@
       },
       "statement": "Um eleitor pretende apresentar representação por conduta incompatível com o decoro. O Código indica a Mesa como destinatária inicial.",
       "correctAnswer": "C",
-      "explanation": "A representação é feita diretamente à Mesa. O encaminhamento subsequente segue os requisitos do Código.",
+      "explanation": "Qualquer cidadão pode requerer à Mesa representação contra deputado, especificando os fatos e as provas. A Mesa faz a análise inicial e, se houver indícios suficientes e a representação não for inepta, encaminha o caso ao Conselho nas hipóteses previstas no Código (art. 9º, §§ 1º e 2º). A representação de partido político tem fluxo próprio: a Mesa a encaminha diretamente ao Conselho (§ 3º).",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -22517,7 +22517,7 @@
       },
       "statement": "No Senado, um projeto de lei complementar recebe 41 votos favoráveis. O número é insuficiente porque o quórum constitucional de aprovação é de três quintos dos membros.",
       "correctAnswer": "E",
-      "explanation": "A aprovação exige maioria absoluta, não três quintos. Em uma Casa com 81 membros, 41 atingem a maioria absoluta.",
+      "explanation": "Lei complementar é aprovada por maioria absoluta, segundo o art. 69 da Constituição: mais da metade dos membros da Casa, e não três quintos. Como o Senado tem 81 membros, são necessários 41 votos favoráveis. Três quintos é o quórum de aprovação de emenda constitucional, não de lei complementar.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26297,7 +26297,7 @@
       },
       "statement": "Um senador eleito para mandato integral permanece no cargo após o término da primeira legislatura de quatro anos compreendida no seu mandato. Essa situação é compatível com a duração constitucional do mandato senatorial.",
       "correctAnswer": "C",
-      "explanation": "O mandato de senador é de oito anos. O fim de uma legislatura de quatro anos não encerra por si só esse mandato.",
+      "explanation": "O mandato de senador dura oito anos, enquanto cada legislatura dura quatro (Constituição, arts. 44, parágrafo único, e 46, § 1º). Por isso, um mandato integral atravessa duas legislaturas. O encerramento de uma legislatura não funciona como eleição ou término automático do mandato senatorial.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 44, parágrafo único, e 46, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26465,7 +26465,7 @@
       },
       "statement": "Câmara e Senado votam uma PEC em sessão conjunta, em dois turnos, e obtêm três quintos dos votos do total de congressistas. Esse procedimento atende à exigência constitucional de votação da proposta.",
       "correctAnswer": "E",
-      "explanation": "O rito exige discussão e votação em cada Casa, com dois turnos e três quintos dos membros de cada uma em ambos.",
+      "explanation": "A PEC não é votada em sessão conjunta para somar os votos das duas Casas. O art. 60, § 2º, exige dois turnos de votação em cada Casa, e três quintos dos respectivos membros em cada turno. A Câmara precisa atingir seu próprio quórum e o Senado, o dele; um total agregado de votos não substitui essas quatro aprovações.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -28481,7 +28481,7 @@
       },
       "statement": "Uma comissão autora de proposição autoriza previamente sua retirada. O presidente do colegiado apresenta o requerimento. Quanto à autoria do requerimento e à autorização interna, o procedimento segue o Regimento.",
       "correctAnswer": "C",
-      "explanation": "Para proposta de comissão, o requerimento cabe ao presidente do colegiado com autorização prévia da própria comissão.",
+      "explanation": "Quando a proposição pertence a uma comissão, o requerimento de retirada é apresentado pelo presidente do colegiado e depende de autorização prévia da própria comissão (RICD, art. 104, § 3º). A presidência da Câmara não substitui essa autorização; o item descreve os dois requisitos regimentais.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 104, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -29489,7 +29489,7 @@
       },
       "statement": "Uma convenção coletiva prevê redução salarial dentro dos limites legais aplicáveis. A simples existência da redução não torna a cláusula incompatível com o princípio da irredutibilidade salarial previsto na Constituição.",
       "correctAnswer": "C",
-      "explanation": "A irredutibilidade é a regra. O art. 7º, VI, prevê expressamente a exceção por convenção ou acordo coletivo.",
+      "explanation": "A Constituição protege o salário contra redução como regra, mas o art. 7º, VI, admite que convenção ou acordo coletivo disponha sobre redução. O item pressupõe que a negociação respeita os limites legais aplicáveis; por isso, a mera redução não basta para concluir que houve violação. Sem instrumento coletivo, a regra geral de irredutibilidade continua valendo.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 7º, VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -57825,7 +57825,7 @@
       },
       "statement": "Condicionar a posse de suplente a contraprestação financeira, mediante acordo entre parlamentares, caracteriza conduta incompatível com o decoro prevista no Código.",
       "correctAnswer": "C",
-      "explanation": "O art. 4º, inciso III, prevê acordo relativo à posse de suplente condicionado a vantagem financeira ou prática contrária a deveres éticos ou regimentais.",
+      "explanation": "O art. 4º, III, do Código de Ética pune com perda do mandato o acordo cujo objeto seja a posse de suplente quando ela é condicionada a pagamento ou a atos contrários aos deveres éticos ou regimentais. A irregularidade está em negociar a posse sob essa condição, não na substituição regular do titular por um suplente convocado.",
       "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO; CI obrigatório para integração."
     },
     {
@@ -61409,7 +61409,7 @@
       },
       "statement": "Toda pessoa nascida no Brasil é brasileira nata, inclusive se filha de estrangeiros que estejam a serviço de seu país, sem qualquer exceção constitucional.",
       "correctAnswer": "E",
-      "explanation": "A Constituição prevê exceção ao critério territorial para filhos de pais estrangeiros a serviço de seu país.",
+      "explanation": "O critério territorial tem uma exceção: não é brasileiro nato quem nasce no Brasil sendo filho de pais estrangeiros que estejam a serviço do país deles. O local do nascimento, sozinho, não resolve a nacionalidade nesse caso. A ressalva não se aplica apenas porque os pais são estrangeiros; é necessário que estejam a serviço de seu país (Constituição, art. 12, I, a).",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/04 - nacionalidade.md / 1. Nascimento no Brasil; CI obrigatório antes de integrar."
     },
     {
@@ -61493,7 +61493,7 @@
       },
       "statement": "A Constituição permite alistamento e voto facultativos aos analfabetos, embora estabeleça limites distintos para a elegibilidade.",
       "correctAnswer": "C",
-      "explanation": "O art. 14, § 1º, II, a, prevê voto facultativo aos analfabetos; há inelegibilidade constitucional específica.",
+      "explanation": "O analfabeto pode alistar-se e votar facultativamente, conforme art. 14, § 1º, II, a, da Constituição. Isso não significa que também possa candidatar-se: o § 4º declara inelegíveis os analfabetos. A questão separa capacidade eleitoral ativa (votar) de capacidade eleitoral passiva (ser eleito).",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/05 - direitos politicos.md / Facultativos; CI obrigatório antes de integrar."
     },
     {
@@ -64965,7 +64965,7 @@
       },
       "statement": "Durante a apreciação de proposição em regime de urgência, um membro da comissão pode exigir vista pelo prazo regimental de duas sessões se for o primeiro a fazer o pedido.",
       "correctAnswer": "E",
-      "explanation": "A vista por duas sessões não se aplica à matéria urgente. A ordem de apresentação dos pedidos não altera essa exceção.",
+      "explanation": "A vista regimental de duas sessões é a regra para exame de matéria na comissão, mas o art. 57, XVI, do RICD exclui matérias em regime de urgência. Ser o primeiro a pedir vista não supera essa exceção: a urgência altera o prazo e impede exigir a suspensão ordinária do exame.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 57, XVI, cotejado com a nota canônica. Critério decisivo: A vista por duas sessões não se aplica à matéria urgente. A ordem de apresentação dos pedidos não altera essa exceção. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
     },
     {
@@ -65245,7 +65245,7 @@
       },
       "statement": "Se uma proposição for retirada, o Plenário pode autorizar sua reapresentação na mesma sessão legislativa.",
       "correctAnswer": "C",
-      "explanation": "A vedação de reapresentar a matéria retirada na mesma sessão legislativa admite exceção por deliberação do Plenário.",
+      "explanation": "A regra do art. 104, § 4º, do RICD impede reapresentar, na mesma sessão legislativa, proposição retirada. O próprio dispositivo abre uma exceção: o Plenário pode autorizar a reapresentação. Portanto, não basta o autor ou a comissão decidir reapresentá-la; é necessária deliberação do Plenário.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 104, § 4º. Critério de julgamento: A vedação de reapresentar a matéria retirada na mesma sessão legislativa admite exceção por deliberação do Plenário. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
     },
     {
@@ -65553,7 +65553,7 @@
       },
       "statement": "A aprovação do substitutivo de comissão prejudica também, por esse único motivo, a emenda que tenha sido apresentada ao próprio substitutivo.",
       "correctAnswer": "E",
-      "explanation": "A prejudicialidade decorrente da aprovação do substitutivo ressalva as emendas ao próprio substitutivo e os destaques.",
+      "explanation": "Pelo art. 191 do RICD, a aprovação do substitutivo prejudica a proposição principal e as emendas a ela apresentadas, mas preserva as emendas dirigidas ao próprio substitutivo e os destaques. O item erra ao tratar toda emenda como prejudicada: é preciso identificar a qual texto ela foi apresentada.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 191. Critério de julgamento: A prejudicialidade decorrente da aprovação do substitutivo ressalva as emendas ao próprio substitutivo e os destaques. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
     },
     {
@@ -71349,7 +71349,7 @@
       },
       "statement": "Em representação de autoria de partido político, um deputado filiado à legenda autora está impedido de assumir a relatoria mesmo que pertença a outro Estado e não pertença ao partido ou bloco do representado.",
       "correctAnswer": "C",
-      "explanation": "A filiação à agremiação autora constitui vedação própria no caso. A ausência das demais vedações não a afasta.",
+      "explanation": "Na escolha do relator, o art. 13, I, do Código prevê impedimentos independentes: ele não pode ser do partido ou bloco do representado, do mesmo estado do representado e, quando a representação partir de partido, da legenda autora. O caso satisfaz esta última vedação; não pertencer ao estado nem ao bloco do acusado não a neutraliza.",
       "reviewEvidence": "Revisão por IA. Código de Ética, art. 13, I, c, e 14, § 4º, I. A filiação à agremiação autora constitui vedação própria no caso. A ausência das demais vedações não a afasta. Dificuldade estimada."
     },
     {
@@ -71909,7 +71909,7 @@
       },
       "statement": "Encerrada a última sessão legislativa da legislatura, um conselheiro pode continuar no Conselho de Ética até a posse dos novos integrantes com base na regra geral de continuidade do exercício.",
       "correctAnswer": "E",
-      "explanation": "O art. 7º ressalva a última sessão legislativa da legislatura. Seu encerramento faz cessar os mandatos no Conselho.",
+      "explanation": "O art. 7º determina mandatos de dois anos e, em geral, continuidade até a posse dos novos integrantes. Porém, faz uma exceção expressa para a última sessão legislativa: encerrada a legislatura, cessam os mandatos no Conselho, ainda que os novos membros não tenham tomado posse. A regra geral de continuidade não prevalece sobre essa ressalva.",
       "reviewEvidence": "Revisão por IA com conferência da Resolução nº 25/2001 consolidada pela Câmara. O art. 7º ressalva a última sessão legislativa da legislatura. Seu encerramento faz cessar os mandatos no Conselho. Dificuldade estimada."
     },
     {

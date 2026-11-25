@@ -9114,7 +9114,7 @@
       "reviewStatus": "validada",
       "statement": "As comissões rejeitaram conclusivamente a matéria que lhes foi submetida. Houve recurso regularmente apresentado para que o Plenário examinasse a matéria. Ao decidir sobre o recurso, o Plenário não lhe deu provimento. A secretaria propôs enviar o projeto rejeitado à redação final.\n\nCom base nessa situação, julgue o item a seguir.\n\nO envio à redação final é devido porque todo recurso improvido preserva um texto a ser redigido.",
       "correctAnswer": "E",
-      "explanation": "O recurso improvido preserva o resultado conclusivo. Quando o resultado original é de rejeição, o destino é o arquivamento. A redação final corresponde ao caso em que há matéria aprovada.",
+      "explanation": "**Regra:** quando as comissões rejeitam uma proposição conclusivamente, cabe recurso para levar a matéria ao Plenário. Se o Plenário não dá provimento ao recurso, mantém o resultado anterior. **Aplicação:** como o resultado das comissões foi rejeição, a proposição permanece rejeitada e deve ser arquivada; não há texto aprovado para encaminhar à redação final. **Distinção:** redação final serve para ajustar a forma do texto aprovado, não para preparar texto de projeto rejeitado. (RICD, art. 58, § 4º.)",
       "reviewEvidence": "RICD, art. 58, § 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10335,7 +10335,7 @@
       "reviewStatus": "validada",
       "statement": "Ao conceder delegação ao presidente da República para tratar de matéria delegável, o Congresso delimitou o tema por resolução e reservou a si a apreciação do projeto. Na apreciação, parlamentares propuseram trocar parte do texto do projeto por uma disposição que ainda caberia nos limites da delegação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA delimitação material foi respeitada, mas a apreciação reservada ao Congresso não permite inserir a alteração proposta.",
       "correctAnswer": "C",
-      "explanation": "Se a resolução reserva a apreciação ao Congresso, o art. 68, § 3º, manda votar uma única vez e veda emendas ao projeto. Estar dentro do tema delegado não elimina a restrição procedimental.",
+      "explanation": "**Regra:** o Congresso pode delegar ao Presidente a elaboração de lei delegada por resolução e definir os termos da delegação. Se a resolução reservar ao Congresso a apreciação do projeto, essa votação será única e sem possibilidade de emenda. **Aplicação:** a emenda proposta não pode ser inserida, ainda que permaneça dentro do tema autorizado. **Pegadinha:** respeitar o conteúdo delegado não afasta a regra de procedimento sobre a apreciação reservada. (Constituição, art. 68, §§ 2º e 3º.)",
       "reviewEvidence": "Constituição Federal, art. 68, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -11672,7 +11672,7 @@
       },
       "statement": "Em sessão conjunta, 260 deputados e 40 senadores votam pela rejeição de um veto presidencial. O presidente da sessão proclama a rejeição e determina a remessa para promulgação, com base na soma dos votos das duas Casas. A proclamação está de acordo com a Constituição.",
       "correctAnswer": "E",
-      "explanation": "A sessão é conjunta, mas a maioria absoluta é apurada separadamente. Houve maioria na Câmara e faltou um voto no Senado. A remessa para promulgação prevista no § 5º pressupõe que o veto não tenha sido mantido. Com 41 senadores a favor, os dois quóruns seriam alcançados.",
+      "explanation": "**Regra:** para rejeitar veto, o Congresso delibera em sessão conjunta, mas a maioria absoluta é verificada separadamente entre deputados e senadores. São necessários 257 votos na Câmara e 41 no Senado. **Aplicação:** 260 deputados alcançam o número da Câmara; 40 senadores ficam um voto abaixo do número do Senado. Logo, a soma das votações não permite proclamar a rejeição. **Pegadinha:** sessão conjunta não significa quórum único do Congresso. (Constituição, art. 66, § 4º.)",
       "reviewEvidence": "CF, arts. 57, § 3º, IV, e 66, §§ 4º e 5º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 80, da Câmara de 2014."
     },
     {
@@ -13025,7 +13025,7 @@
       },
       "statement": "Um erro de digitação sem intenção de falsear informação não basta, por si só, para caracterizar a conduta incompatível com o decoro prevista no art. 4º, V.",
       "correctAnswer": "C",
-      "explanation": "A hipótese do inciso exige intencionalidade na omissão ou no fornecimento de informação falsa nas declarações do art. 18.",
+      "explanation": "**Regra:** a conduta do art. 4º, V, envolve omitir intencionalmente informação relevante ou prestar informação falsa nas declarações previstas no Código. **Aplicação:** um erro de digitação sem intenção de falsear os dados, por si só, não satisfaz esse elemento subjetivo. **Limite:** isso não torna qualquer erro irrelevante; é preciso apurar o que ocorreu e se houve intenção de omitir ou falsear. A pegadinha é presumir dolo apenas porque o dado saiu incorreto. (Código de Ética e Decoro Parlamentar, arts. 4º, V, e 18.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 4º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -13109,7 +13109,7 @@
       },
       "statement": "Uma convocação extraordinária sem matéria de competência do Conselho de Ética faz com que todos os prazos do Conselho voltem a correr durante o recesso.",
       "correctAnswer": "E",
-      "explanation": "A exceção exige matéria da competência do Conselho incluída na pauta da convocação. A convocação por outro motivo não basta.",
+      "explanation": "**Regra:** os prazos do Conselho ficam suspensos durante o recesso parlamentar, salvo quando houver convocação extraordinária e a pauta incluir matéria da competência do Conselho. **Aplicação:** a convocação por assunto alheio à sua competência não aciona a exceção; os prazos continuam suspensos. **Pegadinha:** a mera existência de sessão extraordinária não basta. É necessário que a matéria pertinente ao Conselho esteja incluída na pauta. (Código de Ética e Decoro Parlamentar, art. 8º, §§ 2º e 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 8º, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -13165,7 +13165,7 @@
       },
       "statement": "Enquanto não vencer o prazo global do processo disciplinar, o presidente do Conselho está impedido de avocar a relatoria, ainda que o relator já tenha descumprido prazo dos arts. 13 ou 14.",
       "correctAnswer": "E",
-      "explanation": "O art. 16, § 4º, vincula a possibilidade de avocação ao atraso do relator nos prazos previstos nesses artigos.",
+      "explanation": "**Regra:** se o relator não apresentar parecer dentro do prazo aplicável nos arts. 13 ou 14, o presidente do Conselho pode avocar a matéria e redistribuí-la. **Aplicação:** o gatilho é o atraso do relator no prazo próprio, não o vencimento do prazo global do processo. **Por que o item está errado:** o prazo total ainda estar correndo não impede a providência prevista para corrigir a demora individual. (Código de Ética e Decoro Parlamentar, art. 16, § 4º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 16, § 4º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -15993,7 +15993,7 @@
       },
       "statement": "Instaurado o processo de suspensão de prerrogativas, são sorteados três integrantes elegíveis para uma lista. O presidente do Conselho escolhe o relator entre eles.",
       "correctAnswer": "C",
-      "explanation": "O sorteio forma a lista de três nomes. A designação do relator é feita pelo presidente do Conselho dentro dessa lista.",
+      "explanation": "**Regra:** no processo de suspensão de prerrogativas, sorteiam-se três nomes elegíveis para compor uma lista, e o presidente do Conselho designa o relator entre eles. **Aplicação:** o sorteio cria as opções; não transforma os três deputados em relatores conjuntos. **Pegadinha:** diferencie a formação da lista da decisão posterior de designar uma pessoa para relatar. (Código de Ética e Decoro Parlamentar, art. 13, I.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17113,7 +17113,7 @@
       },
       "statement": "Um deputado divulga publicamente matéria que foi objeto de deliberação secreta na Câmara. Essa revelação é conduta atentatória ao decoro prevista no Código.",
       "correctAnswer": "C",
-      "explanation": "O inciso V tipifica a revelação de conteúdo de debates ou deliberações que a Câmara ou comissão tenha resolvido manter em segredo.",
+      "explanation": "**Regra:** revelar conteúdo de debate ou deliberação que a Câmara ou uma comissão tenha decidido manter em segredo é conduta atentatória ao decoro. **Aplicação:** a divulgação pública descrita alcança matéria protegida por decisão de sigilo. **Distinção:** o dever de sigilo decorre da decisão de manter aquela matéria em segredo; não é uma proibição genérica de comentar qualquer debate parlamentar. (Código de Ética e Decoro Parlamentar, art. 5º, V.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17253,7 +17253,7 @@
       },
       "statement": "A divulgação de documento oficial que o Regimento protege sob sigilo exige a perda do mandato por força do art. 5º, VI.",
       "correctAnswer": "E",
-      "explanation": "A hipótese do art. 5º, VI, está entre as condutas sujeitas à suspensão de prerrogativas pelo art. 13. A perda do mandato tem previsão própria.",
+      "explanation": "**Regra:** a divulgação de documento oficial protegido por sigilo regimental pode gerar a suspensão de prerrogativas prevista para a hipótese do art. 5º, VI, conforme o procedimento e a deliberação do Plenário. **Por que o item está errado:** o Código não torna a perda do mandato automática por esse inciso. **Distinção:** enquadrar uma conduta e identificar sua sanção exigem consultar também os dispositivos que disciplinam a penalidade. (Código de Ética e Decoro Parlamentar, arts. 5º, VI, e 13.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 5º, VI, e 13. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17561,7 +17561,7 @@
       },
       "statement": "Ao fixar o alcance da suspensão de prerrogativas regimentais, o Conselho pode propor que a medida recaia apenas sobre a possibilidade de o deputado ser designado relator.",
       "correctAnswer": "C",
-      "explanation": "O art. 13, VI, inclui a designação como relator, e o inciso VII permite que apenas algumas prerrogativas sejam suspensas.",
+      "explanation": "**Regra:** a suspensão de prerrogativas pode ser parcial; o Código permite restringir uma ou mais prerrogativas regimentais, entre elas a possibilidade de ser designado relator. **Aplicação:** propor que a suspensão alcance apenas a relatoria é compatível com essa previsão. **Distinção:** não é necessário retirar todas as prerrogativas de uma vez. A extensão da sanção deve corresponder ao que for proposto e aprovado no procedimento próprio. (Código de Ética e Decoro Parlamentar, art. 13, VI e VII.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, VI e VII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19073,7 +19073,7 @@
       },
       "statement": "Apresentada a defesa em processo de perda do mandato, o prazo improrrogável para diligências e instrução probatória é de quarenta dias úteis.",
       "correctAnswer": "C",
-      "explanation": "A duração da instrução depende da sanção em exame. São quarenta dias úteis para perda e trinta dias úteis para suspensão temporária do mandato.",
+      "explanation": "**Regra:** depois da apresentação da defesa, o relator dispõe de até quarenta dias úteis para diligências e instrução probatória no processo que pode resultar em perda do mandato. **Aplicação:** o item informa essa espécie de processo e o prazo correspondente. **Distinção:** para processo de suspensão temporária do exercício do mandato, o prazo de instrução é de trinta dias úteis; não transfira o prazo de um rito ao outro. (Código de Ética e Decoro Parlamentar, art. 14, § 4º, IV.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 4º, IV. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19213,7 +19213,7 @@
       },
       "statement": "Depois de apresentar defesa inicial, o representado perde a possibilidade de se manifestar sobre novos atos praticados pelo Conselho durante o processo.",
       "correctAnswer": "E",
-      "explanation": "O Código garante ao representado a possibilidade de manifestação em todas as fases.",
+      "explanation": "**Regra:** o representado pode exercer sua defesa ao longo das fases do processo disciplinar, inclusive em relação aos atos praticados durante a instrução, além de apresentar defesa inicial. **Por que o item está errado:** a primeira peça escrita não encerra o direito de se manifestar sobre o que acontece depois. **Aplicação:** novos atos do Conselho devem respeitar a oportunidade de defesa prevista no Código. (Código de Ética e Decoro Parlamentar, art. 9º, § 5º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19269,7 +19269,7 @@
       },
       "statement": "Indicado para o Conselho durante a última sessão legislativa, o deputado conserva automaticamente seu mandato no colegiado na legislatura seguinte até completar dois anos.",
       "correctAnswer": "E",
-      "explanation": "A regra de duração do mandato cede diante do encerramento da última sessão legislativa da legislatura.",
+      "explanation": "**Regra:** o mandato dos integrantes do Conselho de Ética dura dois anos, mas termina com o encerramento da última sessão legislativa da legislatura. **Aplicação:** quem é indicado no último ano não conserva automaticamente a vaga na legislatura seguinte para completar o biênio. **Pegadinha:** a duração ordinária do mandato tem uma ressalva expressa ligada ao fim da legislatura. (Código de Ética e Decoro Parlamentar, art. 7º, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -21985,7 +21985,7 @@
       },
       "statement": "Em sessão conjunta, 257 dos 513 deputados e 41 dos 81 senadores votam pela rejeição de um veto. Os dois grupos alcançam o quórum constitucional de rejeição.",
       "correctAnswer": "C",
-      "explanation": "Obtém-se maioria absoluta com pelo menos 257 votos na Câmara e 41 no Senado. A aferição é feita separadamente.",
+      "explanation": "**Regra:** a rejeição do veto exige maioria absoluta dos deputados e maioria absoluta dos senadores, apuradas em separado, em sessão conjunta. **Aplicação:** 257 votos na Câmara correspondem à maioria absoluta de 513; 41 no Senado correspondem à maioria absoluta de 81. Como ambos atingem o mínimo, o veto é rejeitado. **Pegadinha:** não se somam os votos das duas Casas para atingir um total geral. (Constituição, art. 66, § 4º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22013,7 +22013,7 @@
       },
       "statement": "Em sessão conjunta, votam pela rejeição do veto 300 deputados e 40 senadores. Como a soma supera a metade dos membros do Congresso, o veto é rejeitado.",
       "correctAnswer": "E",
-      "explanation": "A maioria absoluta deve ser atingida entre os senadores e entre os deputados. No Senado, são necessários 41 votos.",
+      "explanation": "**Regra:** o veto só é rejeitado quando há maioria absoluta em cada Casa, ainda que a votação seja em sessão conjunta. **Aplicação:** os 300 votos da Câmara passam do mínimo de 257, mas os 40 votos do Senado não chegam aos 41 exigidos. **Por que está errado:** o total agregado de deputados e senadores não substitui o quórum próprio de cada Casa. Assim, o veto não foi rejeitado. (Constituição, art. 66, § 4º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 66, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29825,7 +29825,7 @@
       },
       "statement": "O Presidente da República recebe um projeto e, ao fim do prazo constitucional de apreciação, não sanciona expressamente nem veta. Há sanção tácita, mas ainda pode faltar a promulgação.",
       "correctAnswer": "C",
-      "explanation": "O silêncio no prazo produz sanção por força da Constituição. O § 7º prevê quem deve promulgar se o Presidente da República deixar de fazê-lo.",
+      "explanation": "**Regra:** se o Presidente não se manifestar sobre o projeto no prazo constitucional de quinze dias úteis, ocorre sanção tácita. A sanção não é a mesma etapa que a promulgação. **Aplicação:** o projeto foi sancionado pelo silêncio, mas ainda pode faltar a promulgação formal. Se o Presidente não promulgar a lei em 48 horas, a Constituição atribui essa providência ao Presidente do Senado e, depois, ao Vice-Presidente do Senado. **Pegadinha:** silêncio gera sanção, não dispensa a etapa de promulgação. (Constituição, art. 66, §§ 1º, 3º e 7º.)",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 1º, 3º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29853,7 +29853,7 @@
       },
       "statement": "Decorrido o prazo constitucional sem manifestação sobre um projeto, considera-se que não houve sanção. O Presidente do Senado deve aguardar indefinidamente uma manifestação expressa do Presidente da República antes de poder promulgar.",
       "correctAnswer": "E",
-      "explanation": "A sanção é tácita quando o prazo transcorre em silêncio. Se a lei não for promulgada pelo Presidente da República em 48 horas, o § 7º atribui a promulgação ao Presidente do Senado.",
+      "explanation": "**Regra:** transcorridos quinze dias úteis sem manifestação presidencial, considera-se sancionado o projeto. Se a lei não for promulgada pelo Presidente da República em 48 horas, cabe ao Presidente do Senado promulgá-la; se este também não o fizer em igual prazo, a atribuição passa ao Vice-Presidente do Senado. **Por que o item está errado:** não se aguarda indefinidamente uma declaração expressa. **Distinção:** sanção tácita e promulgação são atos diferentes. (Constituição, art. 66, §§ 1º, 3º e 7º.)",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 1º, 3º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29881,7 +29881,7 @@
       },
       "statement": "O Presidente veta um inciso inteiro, promulga a parte sancionada e o Congresso depois rejeita o veto ao inciso. O texto recuperado segue ao Presidente da República para promulgação.",
       "correctAnswer": "C",
-      "explanation": "O inciso inteiro pode ser objeto de veto parcial. A rejeição do veto faz seguir à promulgação o texto cuja incorporação estava pendente.",
+      "explanation": "**Regra:** o Presidente pode vetar integralmente um inciso de projeto de lei; depois, o Congresso aprecia o veto. Se o rejeitar, o trecho vetado volta ao processo de formação da lei e segue para promulgação. **Aplicação:** como o veto ao inciso foi rejeitado, esse inciso deve ser promulgado. **Distinção:** a promulgação do trecho recuperado não reabre a etapa de sanção presidencial; ela dá forma oficial à parte cuja inclusão estava pendente. (Constituição, art. 66, §§ 2º, 5º e 7º.)",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 2º, 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29909,7 +29909,7 @@
       },
       "statement": "Dois incisos foram vetados integralmente. Na apreciação do veto, o Congresso rejeita o veto relativo ao primeiro inciso e mantém o relativo ao segundo. A promulgação posterior deve incorporar os dois.",
       "correctAnswer": "E",
-      "explanation": "A rejeição recupera o texto alcançado por aquela deliberação. O inciso cujo veto foi mantido continua excluído.",
+      "explanation": "**Regra:** cada veto é apreciado pelo Congresso; somente o trecho cujo veto é rejeitado retorna para promulgação. **Aplicação:** o primeiro inciso foi recuperado, mas o segundo continua vetado porque o Congresso manteve o veto correspondente. **Pegadinha:** a rejeição de um veto não derruba automaticamente os demais vetos do mesmo projeto; o efeito acompanha cada deliberação. (Constituição, art. 66, §§ 5º e 7º.)",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, §§ 2º, 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29965,7 +29965,7 @@
       },
       "statement": "Ao apresentar validamente um projeto de lei, o STJ envia cópias aos senadores para conhecimento. O envio permite que a discussão e a votação sejam iniciadas no Senado Federal.",
       "correctAnswer": "E",
-      "explanation": "Uma cópia para conhecimento não define a Casa iniciadora. O art. 64 fixa o início da discussão e votação na Câmara dos Deputados.",
+      "explanation": "**Regra:** projetos de lei de iniciativa do Supremo Tribunal Federal e dos Tribunais Superiores começam a tramitar na Câmara dos Deputados; depois de aprovados, seguem ao Senado para revisão. **Aplicação:** enviar cópias aos senadores para informação não transforma o Senado em Casa iniciadora. **Pegadinha:** a iniciativa pertence ao STJ, mas a Casa legislativa em que a proposta começa é definida pela Constituição. (Constituição, arts. 64, caput, e 65.)",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, arts. 64, caput, e 65. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {

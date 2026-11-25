@@ -12885,7 +12885,7 @@
       },
       "statement": "Na reabertura da sessão de posse, deve ser designada outra comissão para introduzir os eleitos no Plenário, pois o encargo da primeira termina no Salão de Honra.",
       "correctAnswer": "E",
-      "explanation": "O art. 61 atribui o ingresso no Plenário à mesma comissão anteriormente designada.",
+      "explanation": "Na posse do Presidente e do Vice-Presidente da República perante o Congresso, o art. 60 do Regimento Comum prevê que uma comissão de cinco senadores e cinco deputados os receba na entrada principal e os conduza ao Salão de Honra; em seguida, a sessão é suspensa. Reaberta a sessão, o art. 61 determina que os eleitos sejam introduzidos no Plenário pela mesma comissão. Logo, o item está errado ao exigir uma segunda comissão: o regimento mantém o encargo da comissão já designada. A sequência é receber e conduzir ao Salão de Honra, suspender a sessão e, depois da reabertura, acompanhar os eleitos até o Plenário.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, arts. 60 e 61. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
     },
     {
@@ -16525,7 +16525,7 @@
       },
       "statement": "Qualquer representação do Tribunal de Contas da União prevista no art. 71, XI, deve ser encaminhada ao Executivo, ainda que a providência caiba a outro Poder.",
       "correctAnswer": "E",
-      "explanation": "O destinatário é o Poder competente diante da irregularidade ou do abuso apurado.",
+      "explanation": "O art. 71, XI, da Constituição permite ao Tribunal de Contas da União representar ao poder competente sobre irregularidades ou abusos apurados. O destinatário depende do assunto e de quem pode adotar a providência: não existe encaminhamento obrigatório ao Executivo em todos os casos. Assim, o item está errado porque transforma uma regra funcional — comunicar à autoridade competente — em uma destinação fixa. Por exemplo, uma questão que exija providência legislativa deve ser levada ao órgão legislativo competente; outra situação pode demandar atuação de autoridade de outro Poder.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, XI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16581,7 +16581,7 @@
       },
       "statement": "Para obter informações do Tribunal de Contas da União sobre uma inspeção, uma comissão do Senado deve pedir que o Congresso Nacional formule a solicitação em seu nome.",
       "correctAnswer": "E",
-      "explanation": "O art. 71, VII, permite que as respectivas comissões solicitem essas informações.",
+      "explanation": "O art. 71, VII, da Constituição atribui ao TCU o dever de prestar informações solicitadas pelo Congresso Nacional, por qualquer de suas Casas ou por qualquer comissão sobre fiscalização e auditoria. Portanto, uma comissão do Senado pode fazer o pedido diretamente, dentro desse objeto; não precisa pedir que o Congresso, como órgão, formule a solicitação em seu nome. O item está errado por acrescentar uma etapa de intermediação que o texto constitucional não exige. A comissão não ganha, com isso, poder para pedir qualquer informação sem relação com a fiscalização contábil, financeira, orçamentária, operacional ou patrimonial.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, VII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -17365,7 +17365,7 @@
       },
       "statement": "A censura verbal é mera medida de organização da sessão e não integra o rol de penalidades do Código de Ética.",
       "correctAnswer": "E",
-      "explanation": "O art. 10, I, lista expressamente a censura verbal e a escrita.",
+      "explanation": "O Código distingue a forma da censura, mas ambas aparecem como penalidades. O art. 10, I, inclui expressamente censura verbal e censura escrita no rol de sanções disciplinares. A censura verbal pode ser aplicada pela autoridade regimental nas hipóteses previstas, mas isso não a transforma em simples medida administrativa fora do sistema de penalidades. Portanto, o item está errado ao dizer que ela não integra o rol. A palavra “verbal” descreve como a sanção é aplicada, não sua natureza disciplinar.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -23273,7 +23273,7 @@
       },
       "statement": "Uma cartilha agrupa os princípios do Estado brasileiro e classifica o pluralismo político como fundamento da República. A classificação corresponde ao texto constitucional.",
       "correctAnswer": "C",
-      "explanation": "O pluralismo político está no rol de fundamentos do art. 1º, no inciso V.",
+      "explanation": "O pluralismo político é um dos fundamentos da República Federativa do Brasil, conforme o art. 1º, V, da Constituição. A ideia reconhece a coexistência legítima de diferentes correntes, partidos e visões políticas dentro do Estado democrático. Assim, o item está certo ao classificar o pluralismo como fundamento. A pegadinha comum é confundir os fundamentos do art. 1º com os princípios que orientam as relações internacionais, listados separadamente no art. 4º: são listas constitucionais distintas.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 1º, V. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -57685,7 +57685,7 @@
       },
       "statement": "A condenação criminal por órgão jurisdicional colegiado, mesmo sem trânsito em julgado, está entre as condições impeditivas para compor o Conselho de Ética.",
       "correctAnswer": "C",
-      "explanation": "O art. 7º, § 2º, inciso IV, traz expressamente a vedação.",
+      "explanation": "O Código de Ética estabelece condições para integrar o Conselho de Ética. Entre elas, o art. 7º, § 2º, IV, impede a participação do deputado condenado em processo criminal por decisão de órgão jurisdicional colegiado, mesmo que ainda caiba recurso e não haja trânsito em julgado. “Órgão colegiado” é um tribunal ou órgão judicial que decide com mais de um julgador. Logo, o item está certo: para essa vedação específica, não é necessário esperar que a condenação se torne definitiva. Isso é uma regra de composição do Conselho, não uma afirmação de que toda condenação colegiada produz automaticamente perda do mandato.",
       "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / Composição e mandato (art. 7º); CI obrigatório para integração."
     },
     {
@@ -58021,7 +58021,7 @@
       },
       "statement": "Prestar contas do mandato à sociedade e disponibilizar informações para seu acompanhamento e fiscalização integra os deveres fundamentais do deputado.",
       "correctAnswer": "C",
-      "explanation": "A prestação de contas está no art. 3º, inciso VIII.",
+      "explanation": "Prestar contas significa permitir que a sociedade acompanhe e fiscalize como o mandato é exercido. Por isso, o art. 3º, VIII, do Código de Ética inclui entre os deveres fundamentais do deputado disponibilizar informações necessárias a esse acompanhamento. O item está certo: não se trata apenas de apresentar contas financeiras, mas de dar transparência sobre a atuação parlamentar. A norma não transforma toda informação em pública sem limites; devem ser respeitados os sigilos legalmente protegidos.",
       "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º); CI obrigatório para integração."
     },
     {
@@ -58105,7 +58105,7 @@
       },
       "statement": "Promover a defesa do interesse público e da soberania nacional constitui dever fundamental de deputado federal previsto no Código de Ética da Câmara.",
       "correctAnswer": "C",
-      "explanation": "A obrigação está expressa no art. 3º, inciso I.",
+      "explanation": "O Código de Ética trata a defesa do interesse público e da soberania nacional como dever fundamental do deputado (art. 3º, I). Em termos simples, o mandato deve ser exercido considerando o que atende à coletividade e protege a autonomia do país, e não apenas a conveniência particular de quem ocupa o cargo. O item está certo porque reproduz esse dever previsto expressamente no Código. Isso não significa que toda decisão parlamentar tenha uma única solução possível: significa que o interesse público deve orientar a atuação e o exame das proposições.",
       "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º); CI obrigatório para integração."
     },
     {
@@ -61353,7 +61353,7 @@
       },
       "statement": "A competência dos estados inclui matérias que não lhes sejam vedadas pela Constituição, o que é usualmente descrito como competência remanescente.",
       "correctAnswer": "C",
-      "explanation": "O art. 25, § 1º, assegura aos estados competências não vedadas constitucionalmente.",
+      "explanation": "A Constituição distribui competências entre União, estados, Distrito Federal e municípios. Para os estados, o art. 25, § 1º, adota a competência remanescente: eles podem tratar das matérias que a Constituição não lhes proíbe e que não foram atribuídas expressamente a outro ente. Por isso, o item está certo ao dizer que a competência estadual abrange matérias não vedadas pela Constituição. “Remanescente” não quer dizer que o estado possa contrariar uma competência expressa da União ou ignorar uma proibição constitucional; a regra vale depois de respeitados os limites e as atribuições já definidos no texto constitucional.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/11 - organizacao do estado.md / Estados: competência remanescente; CI obrigatório antes de integrar."
     },
     {
@@ -61577,7 +61577,7 @@
       },
       "statement": "Projeto de decreto legislativo aprovado pelo Congresso segue ao Presidente da República para sanção ou veto, assim como um projeto de lei ordinária.",
       "correctAnswer": "E",
-      "explanation": "Decretos legislativos não se submetem a sanção ou veto do Presidente da República.",
+      "explanation": "O veto presidencial se aplica a projetos de lei enviados à sanção, conforme o procedimento do art. 66 da Constituição. O decreto legislativo, porém, é ato normativo de competência exclusiva do Congresso Nacional, usado em matérias que a Constituição reserva ao próprio Legislativo; por isso, não é enviado ao Presidente para sanção ou veto (Constituição, arts. 49 e 59, VI). O item está errado justamente ao colocar projeto de decreto legislativo no mesmo fluxo do projeto de lei ordinária. A semelhança entre os nomes “projeto” não muda a espécie normativa nem cria participação presidencial.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md / 4. O critério da Sanção e Veto Presidencial: o que vai e o que não vai ao Executivo; CI obrigatório antes de integrar."
     },
     {

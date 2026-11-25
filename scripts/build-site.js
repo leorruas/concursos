@@ -652,7 +652,12 @@ for (const item of questoesCgu) {
     throw Error('Questão pública da CGU inválida: ' + id);
   }
   questoesPublicas.push({id,concursoId,subjectId,subjectName,unitId,unitName,examPart,editalRef,articleId,section,
-    conceptId,mechanism,format,origin,estimatedDifficulty,statement,correctAnswer,explanation});
+    conceptId,mechanism,format,origin,estimatedDifficulty,statement,correctAnswer,explanation,
+    ...(typeof item.cognitiveOperation === 'string' && item.cognitiveOperation.trim()
+      ? {cognitiveOperation: item.cognitiveOperation} : {}),
+    ...(typeof item.questionType === 'string' && item.questionType.trim()
+      ? {questionType: item.questionType} : {}),
+    ...(item.calibration?.type === 'autoral-calibrada' ? {calibration: item.calibration} : {})});
 }
 if(new Set(questoesPublicas.map(q=>q.id)).size !== questoesPublicas.length)throw Error('IDs duplicados no catálogo público de questões.');
 const editalUnits = Object.entries(arquivoQuestoes.subjects).flatMap(([subjectId, subject]) =>

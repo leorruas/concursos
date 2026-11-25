@@ -149,6 +149,8 @@ Uso de análise: `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md"
 
 **Banco público da Câmara.** A projeção do banco principal e dos cinco suplementos de Direito Administrativo preserva a operação cognitiva e o tipo de questão quando informados na fonte editorial. Os campos são opcionais no acervo legado. O arquivo histórico de questões difíceis aceita reclassificação editorial. Os mínimos por capítulo e o equilíbrio de gabarito são verificados na faixa Difícil efetivamente publicada. A lista `data/questoes-camara-referencias-oficiais.json` publica referências aos PDFs oficiais com item, página e gabarito definitivo. O formato de referência preserva as ligações do histórico e fica fora da seleção de novas baterias. Enunciados de itens oficiais são servidos pelo catálogo autenticado. Após a correção, a tela mostra a prova e o gabarito.
 
+**Banco público da CGU.** A projeção conserva operação cognitiva, tipo e calibração autoral opcionais. O identificador de caso compartilhado alimenta a mesma prática já usada pela Câmara. Cada enunciado carrega o cenário completo. Evidências internas de revisão ficam no banco-fonte.
+
 **Limites:** build não executa todos os validadores; JSON autorizado ausente gera aviso; parsers simplificados de frontmatter/cabeçalhos não equivalem a parsers completos de YAML/Markdown. Alterar cabeçalho pode alterar URL da seção. Não editar derivados manualmente. Uso: `node scripts/build-site.js`.
 
 ### scripts/validate-search-index.js

@@ -301,7 +301,7 @@ Meta indicativa de 120 autorais. Restam 108 após este lote. Priorizar em seguid
 
 ### Prompt de continuidade
 
-No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 96 IDs dos oito primeiros lotes e os históricos. Siga da contagem de 96/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 9, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre casos integrados de execução, receita e controle. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
+No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 108 IDs dos nove primeiros lotes e os históricos. Siga da contagem de 108/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 10, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre competências, prazos, controles e exceções ainda pouco explorados. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build preserva a calibração e a identificação de casos compartilhados nos dois bancos públicos. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
 
 ## Lote 2 — classificação, estágios e caso da ponte
 
@@ -524,7 +524,7 @@ No piloto Câmara, os itens 1–8 fixam plano, diretrizes, orçamento, esferas e
 
 ## Lote 7 — emendas, tramitação e rastreabilidade
 
-SHA integrado: `ddbfbed830fbd088c617963bfa33d3841c174543`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45682956551).
+SHA integrado: `ddbfbed830fbd088c617963bfa33d3841c174543`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45682956551) · [Workflow de publicação](https://github.com/leorruas/concursos/actions/runs/45683205320).
 
 Doze autorais, seis por concurso. Total acumulado de 84 e saldo indicativo de 36. O recorte Câmara trata de compatibilidade, fontes protegidas, comissão mista e tramitação. O recorte CGU testa evidência de execução, rastreabilidade, vinculação e impedimentos. Próximo lote: controle, competências, relatórios e casos integrados. [Lei Complementar nº 210/2024](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm).
 
@@ -545,6 +545,8 @@ Doze autorais, seis por concurso. Total acumulado de 84 e saldo indicativo de 36
 
 ## Lote 8 — fiscalização, relatórios e resultados fiscais
 
+SHA integrado: `38eed24ea872331091191f4c3cf56d58dedb06d9`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45683262216) · [Workflow de publicação](https://github.com/leorruas/concursos/actions/runs/45683582959).
+
 Doze autorais, seis por concurso. Total acumulado de 96 e saldo indicativo de 24. Entram distinções de competência, publicação e periodicidade dos relatórios, acompanhamento de limites, cálculo de resultado nominal e avaliação de riscos fiscais. A teoria própria da CGU recebe o cálculo acima da linha e seu contraste com o saldo orçamentário. Próximo lote: casos integrados de execução, receita e controle.
 
 | ID | Referência | Artigo | Nível | Gabarito |
@@ -561,3 +563,22 @@ Doze autorais, seis por concurso. Total acumulado de 96 e saldo indicativo de 24
 | cg-orc-cal-rcl-periodo-movel-agosto | mpo 26 | art-d218c459af1e4b73 | media | E |
 | cg-orc-cal-limite-com-vies-de-perimetro | cge 114 | art-d218c459af1e4b73 | dificil | E |
 | cg-orc-cal-risco-garantia-obrigacao-vencida | mpo 17 | art-d218c459af1e4b73 | dificil | C |
+
+## Lote 9 — casos integrados e execução
+
+Doze autorais, seis por concurso. Total acumulado de 108 e saldo indicativo de 12. O caso do auditório associa emendas, veto e investimento plurianual. O caso da oficina separa arrecadação, liquidação e inscrição de restos a pagar. A projeção e o teste de interface verificam os casos completos nos dois concursos. Próximo lote: completar o recorte com competências e exceções de baixa cobertura.
+
+| ID | Referência | Artigo | Nível | Gabarito |
+| --- | --- | --- | --- | --- |
+| cg-orc-cal-oficina-arrecadacao-dezembro | cge 103 | art-b3e5d91a740c46f8 | dificil | C |
+| cg-orc-cal-oficina-quantidade-atestada | cd 163 | art-79e2c6a4f80143bd | dificil | E |
+| cg-orc-cal-oficina-restos-duas-parcelas | cd 173 | art-c85e29a3741f40bd | dificil | C |
+| cg-orc-cal-centralizacao-vinculo-ano-seguinte | cd 166 | art-7a4f21e965d048b3 | dificil | E |
+| cg-orc-cal-empenho-global-parcelas-mesmo-ano | mpo 33 | art-79e2c6a4f80143bd | dificil | C |
+| cg-orc-cal-aro-ultimos-dias | p3 106 | art-e4c982a6713d4bf5 | dificil | E |
+| ca-orc-cal-auditorio-veto-fonte-protegida | p1 74 | art-d8f21b70c49e563a | dificil | E |
+| ca-orc-cal-auditorio-veto-credito-legislativo | mpo 20 | art-87b69e1d4ac54f20 | dificil | C |
+| ca-orc-cal-auditorio-lei-inclusao-plano | p1 75 | art-c301f2c741504403 | dificil | C |
+| ca-orc-cal-sessao-recesso-projeto-sancao | p1 69 | art-d8f21b70c49e563a | dificil | C |
+| ca-orc-cal-siafi-confirmacao-material | cd 167 | art-743d234d819842d1 | dificil | E |
+| ca-orc-cal-amortizacao-e-encargos-categorias | mpo 35 | art-28b3d9ef86aa4510 | dificil | E |

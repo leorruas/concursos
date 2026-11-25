@@ -87957,6 +87957,225 @@
         "section": "Controle interno, controle externo e prestação de contas"
       },
       "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-auditorio-veto-fonte-protegida",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "auditorio-veto-fonte-protegida",
+      "mechanism": "auditorio-veto-fonte-protegida",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A União estuda implantar um auditório com execução por dois exercícios, sem previsão no Plano Plurianual. Durante a apreciação da proposta anual, uma emenda propõe ampliar a obra com cancelamento de dotações de pessoal. Considerando separadamente o orçamento aprovado, o veto de outra programação deixou recursos sem despesa correspondente. O gestor cogita aproveitar esse saldo para a implantação do auditório, ainda sem dotação específica.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nSem outra fonte indicada, a expansão do projeto pode ser financiada pela anulação da parcela já destinada ao pagamento de pessoal, porque as novas despesas também constariam da lei anual.",
+      "correctAnswer": "E",
+      "explanation": "Indicar anulação é requisito, e a Constituição protege dotações de pessoal e encargos, serviço da dívida e transferências tributárias constitucionais. A inclusão da programação no projeto não legitima fonte proibida. A anulação de dotação discricionária elegível, conjugada às demais condições, poderia atender ao requisito. Constituição Federal, art. 166, § 3º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 74,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Anulação de dotação de pessoal e encargos não serve de fonte para essa emenda",
+        "caseId": "orcamento-camara-auditorio-e-veto"
+      },
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Regras constitucionais para emendas ao orçamento anual"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p1 74: Anulação de dotação de pessoal e encargos não serve de fonte para essa emenda. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Regras constitucionais para emendas ao orçamento anual",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-auditorio-veto-credito-legislativo",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "auditorio-veto-credito-legislativo",
+      "mechanism": "auditorio-veto-credito-legislativo",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A União estuda implantar um auditório com execução por dois exercícios, sem previsão no Plano Plurianual. Durante a apreciação da proposta anual, uma emenda propõe ampliar a obra com cancelamento de dotações de pessoal. Considerando separadamente o orçamento aprovado, o veto de outra programação deixou recursos sem despesa correspondente. O gestor cogita aproveitar esse saldo para a implantação do auditório, ainda sem dotação específica.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nO saldo que ficou sem despesa correspondente após o veto pode ser aproveitado por crédito especial para despesa sem dotação específica, desde que haja prévia e específica autorização legislativa e os demais requisitos de abertura.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição permite aproveitar recursos sem despesa correspondente em razão de veto, emenda ou rejeição do projeto, mediante créditos especiais ou suplementares com autorização prévia e específica. A espécie varia conforme exista dotação a reforçar. Se a autorização específica faltasse, o veto por si não liberaria o gasto. Constituição Federal, art. 166, § 8º, e art. 167, V.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 20,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Superávit como fonte de crédito não equivale a fonte de emenda à lei anual",
+        "caseId": "orcamento-camara-auditorio-e-veto"
+      },
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 20: Superávit como fonte de crédito não equivale a fonte de emenda à lei anual. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Recursos disponíveis para suplementares e especiais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-auditorio-lei-inclusao-plano",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-c301f2c741504403",
+      "conceptId": "auditorio-lei-inclusao-plano",
+      "mechanism": "auditorio-lei-inclusao-plano",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A União estuda implantar um auditório com execução por dois exercícios, sem previsão no Plano Plurianual. Durante a apreciação da proposta anual, uma emenda propõe ampliar a obra com cancelamento de dotações de pessoal. Considerando separadamente o orçamento aprovado, o veto de outra programação deixou recursos sem despesa correspondente. O gestor cogita aproveitar esse saldo para a implantação do auditório, ainda sem dotação específica.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nAinda que a nova despesa seja autorizada no orçamento anual, o investimento só pode iniciar após inclusão no Plano Plurianual ou lei que autorize essa inclusão.",
+      "correctAnswer": "C",
+      "explanation": "A regra constitucional alcança investimento que ultrapasse um exercício, como o projeto de dois anos. A autorização orçamentária para a despesa e a inclusão no plano cumprem condições diferentes. Se o investimento fosse inteiramente realizado dentro do exercício corrente, a condição temporal do art. 167, § 1º, não se aplicaria. Constituição Federal, art. 167, II e § 1º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 75,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Inclusão no plano ou lei que a autorize deve preceder o início",
+        "caseId": "orcamento-camara-auditorio-e-veto"
+      },
+      "theoryRefs": [
+        "article:art-c301f2c741504403#PPA e investimento plurianual"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p1 75: Inclusão no plano ou lei que a autorize deve preceder o início. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA e investimento plurianual",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+        "section": "PPA e investimento plurianual"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-sessao-recesso-projeto-sancao",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "sessao-recesso-projeto-sancao",
+      "mechanism": "sessao-recesso-projeto-sancao",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A aprovação congressual do projeto de diretrizes orçamentárias, ainda na etapa de encaminhamento à sanção, satisfaz o requisito de aprovação do projeto previsto para interromper a sessão legislativa.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição condiciona a interrupção à aprovação do projeto de diretrizes. A sanção integra etapa posterior da formação da lei e o art. 57, § 2º, usa aprovação do projeto como marco. Se houvesse apenas parecer aprovado na comissão, o Congresso ainda não teria satisfeito a condição. Constituição Federal, arts. 57, § 2º, 66 e 166.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 69,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Executivo atua após aprovação pelo Congresso"
+      },
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#PPA, LDO e LOA: três procedimentos, não uma única agenda"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p1 69: Executivo atua após aprovação pelo Congresso. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA, LDO e LOA: três procedimentos, não uma única agenda",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "PPA, LDO e LOA: três procedimentos, não uma única agenda"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-siafi-confirmacao-material",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-743d234d819842d1",
+      "conceptId": "siafi-confirmacao-material",
+      "mechanism": "siafi-confirmacao-material",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O Sistema Integrado de Administração Financeira do Governo Federal mostra empenho, liquidação e pagamento regularmente registrados. O próprio registro, sem documentos de suporte, demonstra a quantidade física entregue para fins de fiscalização.",
+      "correctAnswer": "E",
+      "explanation": "O sistema integra registros, mas a existência de lançamento não substitui comprovação de material entregue ou serviço prestado. A fiscalização confronta a informação contábil com medição, documentos e evidência física conforme o caso. Se os registros estivessem corroborados por termo fidedigno de recebimento e outros documentos, haveria suporte adicional para a conclusão. Lei nº 10.180/2001, art. 15, e Lei nº 4.320/1964, art. 63.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 167,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "SIAFI reúne registros orçamentários, financeiros e contábeis da União"
+      },
+      "theoryRefs": [
+        "article:art-743d234d819842d1#SIAFI: papel e limites da informação"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cd 167: SIAFI reúne registros orçamentários, financeiros e contábeis da União. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / SIAFI: papel e limites da informação",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira.md",
+        "section": "SIAFI: papel e limites da informação"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-amortizacao-e-encargos-categorias",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-28b3d9ef86aa4510",
+      "conceptId": "amortizacao-e-encargos-categorias",
+      "mechanism": "amortizacao-e-encargos-categorias",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma operação contratual exige pagamento conjunto de juros e parcela do principal. Por integrarem o mesmo serviço da dívida, as duas parcelas são despesas de capital.",
+      "correctAnswer": "E",
+      "explanation": "Amortizar principal reduz a dívida e integra despesas de capital. Os juros e encargos da dívida são despesas correntes, apesar de decorrerem do mesmo contrato. Se a parcela contivesse apenas principal, poderia ser inteiramente classificada como amortização. Lei nº 4.320/1964, art. 12, e Portaria STN/SOF nº 163/2001, Anexo II.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 35,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Juros e redução do principal produzem efeitos patrimoniais diferentes"
+      },
+      "theoryRefs": [
+        "article:art-28b3d9ef86aa4510#Natureza da despesa: categoria, GND, modalidade e elemento"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 35: Juros e redução do principal produzem efeitos patrimoniais diferentes. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Natureza da despesa: categoria, GND, modalidade e elemento",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04b - classificacao da despesa.md",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "reviewStatus": "validada"
     }
   ]
 }

@@ -257,6 +257,22 @@ for(const caseId of ['fiscalizacao-do-decreto','autotutela-vantagem-mensal','rev
   items.map(q=>q.id));
  assert.equal(sharedCasePracticeIds(camaraPool,new Set([...otherSeenIds,items[0].id])).length,0);
 }
+for (const [contestId, caseId] of [
+ ['camara-2026','orcamento-camara-auditorio-e-veto'],
+ ['cgu-2026','orcamento-cgu-oficina-e-fechamento'],
+]) {
+ const pool=data.questions.filter(q=>q.concursoId===contestId);
+ const items=pool.filter(q=>q.calibration?.caseId===caseId);
+ const seen=new Set(pool.filter(q=>q.calibration?.caseId!==caseId).map(q=>q.id));
+ assert.equal(items.length,3);
+ assert.deepEqual(Array.from(sharedCasePracticeIds(pool,seen)),items.map(q=>q.id));
+ assert.equal(new Set(items.map(q=>q.statement.split('\n\n')[0])).size,1);
+ for (const item of items) {
+  statementRenderer(card,item);
+  assert.equal(card.textContent,item.statement);
+  assert.equal(card.textContent.split('\n\n').length,3);
+ }
+}
 const publishedById=new Map(data.questions.map(q=>[q.id,q]));
 for(const q of [...additional,...variants,...applications,...casesAdmin,...hardAdmin]){
  const published=publishedById.get(q.id);

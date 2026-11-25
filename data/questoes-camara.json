@@ -65357,7 +65357,7 @@
       },
       "statement": "Após um primeiro adiamento da discussão, a alegação de erro na publicação, reconhecida pelo presidente da Câmara, é condição regimental para um novo adiamento.",
       "correctAnswer": "C",
-      "explanation": "O segundo adiamento exige a alegação de erro de publicação reconhecida pelo presidente. A regra do primeiro adiamento não é suficiente para repetir a medida.",
+      "explanation": "O RICD permite o adiamento da discussão, mas não autoriza repetir a medida sem limite. Depois de um primeiro adiamento, um segundo só cabe se houver erro na publicação e o Presidente da Câmara reconhecer esse erro (art. 177, § 3º). Não basta pedir mais tempo ou repetir o motivo anterior. No enunciado, a condição regimental está presente, por isso o novo adiamento é possível.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 177, § 3º. Critério de julgamento: O segundo adiamento exige a alegação de erro de publicação reconhecida pelo presidente. A regra do primeiro adiamento não é suficiente para repetir a medida. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
     },
     {
@@ -65525,7 +65525,7 @@
       },
       "statement": "O requerimento oral para permitir nova verificação antes de uma hora é votado simbolicamente, ainda que a eventual verificação do resultado da matéria seja nominal.",
       "correctAnswer": "C",
-      "explanation": "A votação simbólica decide a quebra do interstício. A votação nominal que pode ocorrer em seguida verifica o resultado da matéria.",
+      "explanation": "Há duas votações possíveis, com objetos diferentes. A votação simbólica do requerimento oral decide se o Plenário autoriza quebrar o intervalo de uma hora e fazer nova verificação. Se o requerimento for aprovado, a verificação da votação original poderá ocorrer pelo processo nominal, que apura os votos dos deputados. Assim, o modo nominal da verificação não muda a forma simbólica expressamente prevista para decidir o requerimento (RICD, art. 185, §§ 4º, 6º e 7º).",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 185, §§ 6º e 7º. Critério de julgamento: A votação simbólica decide a quebra do interstício. A votação nominal que pode ocorrer em seguida verifica o resultado da matéria. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
     },
     {
@@ -68577,8 +68577,8 @@
       },
       "statement": "A cônjuge de um prefeito já exerce mandato de vereadora no mesmo município e pretende concorrer à reeleição para vereadora. A inelegibilidade reflexa do art. 14, § 7º, não impede, por si só, essa candidatura.",
       "correctAnswer": "C",
-      "explanation": "A regra ressalva quem já é titular de mandato eletivo e se apresenta para a reeleição. O caso envolve o mesmo cargo que a vereadora já ocupa.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 14, § 7º. A regra ressalva quem já é titular de mandato eletivo e se apresenta para a reeleição. O caso envolve o mesmo cargo que a vereadora já ocupa. Dificuldade estimada."
+      "explanation": "O art. 14, § 7º, da Constituição estabelece a inelegibilidade reflexa de cônjuge e parentes do prefeito dentro da circunscrição municipal, mas abre uma exceção para quem já ocupa mandato eletivo e concorre à reeleição. Aqui, a vereadora busca renovar o próprio mandato; por isso, incide a ressalva. A exceção é estreita: ela não autoriza automaticamente disputar outro cargo. (Constituição, art. 14, § 7º; TSE, regras para candidatura de quem já ocupa cargo eletivo.)",
+      "reviewEvidence": "Constituição Federal, art. 14, § 7º; TSE, regras para candidatura de quem já ocupa cargo político-eletivo, com referência ao REspe nº 25.336/AM: https://www.tse.jus.br/institucional/escola-judiciaria-eleitoral/publicacoes/revistas-da-eje/artigos/regras-para-a-candidatura-de-quem-ja-ocupa-cargo-politico-eletivo"
     },
     {
       "id": "cam-const-l052-003-inelegibilidade-reflexa-irmao-outro-cargo",
@@ -68605,8 +68605,8 @@
       },
       "statement": "Dentro do território de jurisdição do prefeito, seu irmão, que é vereador, pode invocar a exceção constitucional destinada a candidatos à reeleição se trocar a disputa pela vereança por uma candidatura a vice-prefeito.",
       "correctAnswer": "E",
-      "explanation": "A exceção exige candidatura à reeleição. A candidatura a vice-prefeito é a outro cargo, mesmo que o irmão já exerça mandato eletivo.",
-      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 14, § 7º. A exceção exige candidatura à reeleição. A candidatura a vice-prefeito é a outro cargo, mesmo que o irmão já exerça mandato eletivo. Dificuldade estimada."
+      "explanation": "O irmão do prefeito é parente colateral de segundo grau, abrangido pela inelegibilidade reflexa no território municipal. A ressalva do art. 14, § 7º, protege quem já tem mandato eletivo e concorre à reeleição para o próprio cargo. Como o vereador pretende mudar da vereança para a vice-prefeitura, não está buscando reeleição; a exceção não o alcança. (Constituição, art. 14, § 7º; TSE, regras para candidatura de quem já ocupa cargo eletivo.)",
+      "reviewEvidence": "Constituição Federal, art. 14, § 7º; TSE, regras para candidatura de quem já ocupa cargo político-eletivo, com referência ao REspe nº 25.336/AM: https://www.tse.jus.br/institucional/escola-judiciaria-eleitoral/publicacoes/revistas-da-eje/artigos/regras-para-a-candidatura-de-quem-ja-ocupa-cargo-politico-eletivo"
     },
     {
       "id": "cam-pt-l053-001-menos-invariavel",

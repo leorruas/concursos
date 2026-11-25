@@ -7618,6 +7618,402 @@
       "theoryRefs": [
         "article:art-10a91f6bf9b53f1a#Atos Negociais (Consentimento Estatal)"
       ],
+      "id": "cam-reteste-uso-temporario-praca-sem-direito-subjetivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "autorizacao-uso",
+      "mechanism": "uso-temporario-praca-sem-direito-subjetivo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Uma associação pede para montar um posto de arrecadação em praça municipal por uma tarde. O regulamento local prevê autorização unilateral e precária, sujeita à conveniência do uso. O pedido reúne os documentos exigidos, mas o local já está reservado para uma atividade incompatível no mesmo horário.\n\nCom base nessa situação, julgue o item a seguir.\n\nO cumprimento das formalidades do pedido obriga o município a autorizar o uso na data solicitada.",
+      "correctAnswer": "E",
+      "explanation": "O regime descrito é o da autorização de uso, discricionária e precária. A documentação torna o pedido examinável, mas não elimina a avaliação de compatibilidade do uso. A conclusão seria diferente num regime vinculado em que todos os requisitos se encontrassem satisfeitos.",
+      "reviewEvidence": "Regime doutrinário da autorização de uso na seção vinculada. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "Atos Negociais (Consentimento Estatal)"
+      },
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#Atos Negociais (Consentimento Estatal)"
+      ],
+      "id": "cam-reteste-autorizacao-uso-reserva-precaria-alterada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "autorizacao-uso",
+      "mechanism": "autorizacao-uso-reserva-precaria-alterada",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "O município autorizou um fotógrafo a usar parte de um jardim público por um dia, em atividade individual e removível. A lei local qualifica o ato como precário e autoriza sua revogação motivada por necessidade pública. Antes da atividade, o espaço foi destinado a uma operação emergencial de defesa civil.\n\nCom base nessa situação, julgue o item a seguir.\n\nO município pode revogar motivadamente a autorização em razão da necessidade superveniente do espaço.",
+      "correctAnswer": "C",
+      "explanation": "A autorização descrita é precária e a necessidade superveniente justifica a revisão de mérito. Se a causa fosse ilegalidade original da autorização, a retirada teria outra natureza.",
+      "reviewEvidence": "Distinção doutrinária na seção vinculada; Lei nº 9.784/1999, art. 53, como referência geral da revogação por mérito. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "articleId": "art-733c0e474219cd22",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3.2. Hipóteses em que a autoexecutoriedade é admitida"
+      },
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3.2. Hipóteses em que a autoexecutoriedade é admitida"
+      ],
+      "id": "cam-reteste-risco-iminente-cautelar-sem-ouvir-previamente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "autoexecutoriedade-previsao-ou-urgencia",
+      "mechanism": "risco-iminente-cautelar-sem-ouvir-previamente",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Um órgão federal verificou risco iminente de intoxicação em sala aberta a usuários. A autoridade competente registrou as medições, justificou a urgência e determinou o isolamento apenas da sala, providência necessária até a ventilação do ambiente.\n\nCom base nessa situação, julgue o item a seguir.\n\nO isolamento cautelar motivado pode ser adotado antes da manifestação do responsável, em razão do risco iminente.",
+      "correctAnswer": "C",
+      "explanation": "A Lei nº 9.784/1999 autoriza providência acauteladora motivada sem manifestação prévia diante de risco iminente. A regra não dispensa motivação nem autoriza medidas além das necessárias.",
+      "reviewEvidence": "Lei nº 9.784/1999, art. 45. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "articleId": "art-733c0e474219cd22",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3.2. Hipóteses em que a autoexecutoriedade é admitida"
+      },
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3.2. Hipóteses em que a autoexecutoriedade é admitida"
+      ],
+      "id": "cam-reteste-cautelar-urgente-nao-justifica-reter-bens-alheios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "autoexecutoriedade-previsao-ou-urgencia",
+      "mechanism": "cautelar-urgente-nao-justifica-reter-bens-alheios",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Ao detectar vazamento iminente em um galpão, a autoridade federal isolou o local. Depois de neutralizado o risco, decidiu recolher computadores de um escritório próximo que não contribuía para o vazamento. A autoridade não indicou outra autorização legal nem risco ligado aos bens.\n\nCom base nessa situação, julgue o item a seguir.\n\nA urgência inicial justifica igualmente o recolhimento posterior porque as duas providências pertencem ao mesmo procedimento.",
+      "correctAnswer": "E",
+      "explanation": "A justificativa de urgência deve corresponder à própria medida. O isolamento respondeu ao perigo identificado. Com o risco neutralizado e sem conexão dos bens com o perigo, a urgência inicial não fundamenta a nova intervenção.",
+      "reviewEvidence": "Lei nº 9.784/1999, arts. 2º, parágrafo único, VI, e 45. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "id": "cam-reteste-visto-sem-formacao-conjunta-do-conteudo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "visto-e-ato-principal",
+      "mechanism": "visto-sem-formacao-conjunta-do-conteudo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "A diretora competente aprovou um pagamento e definiu seu conteúdo em despacho. O regulamento exige que, antes da execução, um órgão de controle confira a conformidade e aponha visto. Esse órgão não pode alterar o valor nem participar da escolha do beneficiário.\n\nCom base nessa situação, julgue o item a seguir.\n\nO visto condiciona a eficácia da decisão principal, sem que as duas manifestações formem conjuntamente o conteúdo dessa decisão.",
+      "correctAnswer": "C",
+      "explanation": "A primeira manifestação já contém a decisão. O visto é um ato instrumental de controle exigido para que ela produza efeitos. Haveria composição conjunta se o conteúdo principal dependesse da formação de uma única vontade por ambos.",
+      "reviewEvidence": "Classificação de ato composto na seção vinculada; regime hipotético explicitado no enunciado. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "id": "cam-reteste-visto-ausente-execucao-nao-autorizada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "visto-e-ato-principal",
+      "mechanism": "visto-ausente-execucao-nao-autorizada",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Um órgão autorizou o pagamento de auxílio conforme os requisitos legais. O regulamento estabelece que a decisão está formada com a assinatura da autoridade, mas só pode ser executada após visto do controlador. O setor financeiro não recebeu o visto e quer efetuar o pagamento.\n\nCom base nessa situação, julgue o item a seguir.\n\nComo já existe uma decisão principal formada, a falta do visto não impede que ela produza imediatamente o efeito de liberar o pagamento.",
+      "correctAnswer": "E",
+      "explanation": "A decisão e sua eficácia são etapas distintas no regime descrito. O visto não forma o conteúdo do ato, mas é condição para sua execução. A assinatura da decisão supre a primeira etapa, não o controle posterior.",
+      "reviewEvidence": "Classificação de ato composto na seção vinculada; regime hipotético explicitado no enunciado. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 110
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Distrito Federal: acumulação de competências"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Distrito Federal: acumulação de competências"
+      ],
+      "id": "cam-reteste-df-dois-tercos-sem-intersticio-minimo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "df-lei-organica-camara-legislativa",
+      "mechanism": "df-dois-tercos-sem-intersticio-minimo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "A Câmara Legislativa do Distrito Federal votou o projeto de sua lei orgânica em dois turnos com vinte votos favoráveis em cada um, num total de 24 membros. O segundo turno ocorreu oito dias depois do primeiro.\n\nCom base nessa situação, julgue o item a seguir.\n\nA votação atingiu dois terços, mas faltou requisito constitucional para a aprovação porque o intervalo entre os turnos foi insuficiente.",
+      "correctAnswer": "C",
+      "explanation": "O mínimo de dois terços corresponde a 16 membros. Os votos bastam, mas a Constituição também exige interstício mínimo de dez dias entre os turnos. As condições são cumulativas.",
+      "reviewEvidence": "Constituição Federal, art. 32, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Distrito Federal: acumulação de competências"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Distrito Federal: acumulação de competências"
+      ],
+      "id": "cam-reteste-df-promulgacao-sem-sancao-governador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "df-lei-organica-camara-legislativa",
+      "mechanism": "df-promulgacao-sem-sancao-governador",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "A Câmara Legislativa do Distrito Federal aprovou a lei orgânica em dois turnos, com interstício mínimo de dez dias e pelo menos dois terços dos membros em cada turno. Ao fim, a secretaria propôs encaminhar o texto ao governador para sanção.\n\nCom base nessa situação, julgue o item a seguir.\n\nA promulgação depende de sanção do governador porque a votação parlamentar apenas aprova o texto.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição atribui à própria Câmara Legislativa a promulgação da lei orgânica do Distrito Federal. O procedimento descrito não inclui sanção do governador.",
+      "reviewEvidence": "Constituição Federal, art. 32, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "id": "cam-reteste-intervencao-escopo-tempo-omitido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "intervencao-decreto-prazo-omissao",
+      "mechanism": "intervencao-escopo-tempo-omitido",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "Em hipótese constitucional de intervenção federal, o decreto fixou a área atingida e as medidas a executar. Nomeou interventor e foi remetido ao Congresso no prazo aplicável. Contudo, deixou de indicar o prazo da medida e não se trata de hipótese que dispense a apreciação parlamentar.\n\nCom base nessa situação, julgue o item a seguir.\n\nA nomeação do interventor e a remessa tempestiva não suprem a falta de indicação do prazo.",
+      "correctAnswer": "C",
+      "explanation": "O decreto deve indicar amplitude, prazo e condições de execução. A nomeação do interventor é feita se couber e não substitui os elementos obrigatórios. A remessa ao Congresso cumpre requisito de controle distinto.",
+      "reviewEvidence": "Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "id": "cam-reteste-intervencao-sem-interventor-automaticamente-invalida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "intervencao-decreto-prazo-omissao",
+      "mechanism": "intervencao-sem-interventor-automaticamente-invalida",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "Em uma intervenção federal cuja forma de execução não exige nomear interventor, o decreto indicou amplitude, prazo e condições de execução e foi remetido tempestivamente ao Congresso. Um parlamentar alegou que a omissão do nome do interventor invalida toda intervenção.\n\nCom base nessa situação, julgue o item a seguir.\n\nA ausência de nomeação torna o decreto inválido mesmo quando a hipótese dispensa interventor.",
+      "correctAnswer": "E",
+      "explanation": "O art. 36, § 1º, usa a expressão “se couber” para a nomeação. A amplitude, o prazo e as condições continuam sendo elementos do decreto. Na hipótese narrada, a falta de nomeação não é vício por si só.",
+      "reviewEvidence": "Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "id": "cam-reteste-camara-fiscaliza-ato-de-autarquia-federal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "congresso-controle-administracao-indireta",
+      "mechanism": "camara-fiscaliza-ato-de-autarquia-federal",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "reviewStatus": "validada",
+      "statement": "A Câmara dos Deputados decidiu fiscalizar atos de uma autarquia federal do Poder Executivo. O órgão alegou que apenas sessão conjunta do Congresso poderia deliberar sobre o exercício dessa competência, pois a entidade possui personalidade própria.\n\nCom base nessa situação, julgue o item a seguir.\n\nA personalidade da autarquia não impede o controle pela Câmara no exercício da competência constitucional de fiscalizar atos do Executivo.",
+      "correctAnswer": "C",
+      "explanation": "O art. 49, X, inclui expressamente a Administração indireta e admite o exercício pela via de qualquer das Casas. A personalidade da autarquia não a retira desse alcance.",
+      "reviewEvidence": "Constituição Federal, art. 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "id": "cam-reteste-fiscalizar-empresa-estatal-nao-e-gerir",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "congresso-controle-administracao-indireta",
+      "mechanism": "fiscalizar-empresa-estatal-nao-e-gerir",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "integração",
+      "estimatedDifficulty": "dificil",
+      "reviewStatus": "validada",
+      "statement": "A Câmara fiscalizou gastos de uma empresa pública federal vinculada ao Executivo. Depois de obter os dados, uma unidade da Casa pretendeu substituir a diretoria da empresa na decisão cotidiana sobre qual fornecedor contratar em procedimento regular, invocando apenas a competência de fiscalização.\n\nCom base nessa situação, julgue o item a seguir.\n\nA competência de fiscalizar atos da Administração indireta autoriza a unidade da Câmara a substituir a diretoria na escolha do fornecedor.",
+      "correctAnswer": "E",
+      "explanation": "Controle e fiscalização não transferem à Casa a gestão ordinária da entidade. É possível examinar a regularidade das despesas da empresa, mas a competência invocada não torna a Câmara responsável pela decisão administrativa do contrato.",
+      "reviewEvidence": "Constituição Federal, arts. 2º e 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 92
+      }
+    },
+    {
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / 2.1",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "Atos Negociais (Consentimento Estatal)"
+      },
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#Atos Negociais (Consentimento Estatal)"
+      ],
       "id": "cam-reteste-licenca-laudo-superado-em-recurso",
       "concursoId": "camara-2026",
       "origin": "inedita",

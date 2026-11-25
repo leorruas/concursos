@@ -83101,6 +83101,1686 @@
       "correctAnswer": "E",
       "explanation": "**Regra:** o destaque para votação em separado permite que parte de uma proposição ou emenda receba deliberação própria (RICD, arts. 161 e 162, VI). A matéria principal é votada primeiro; em seguida, vota-se a parte destacada, que somente integrará o texto se for aprovada. **Aplicação:** o destaque não exclui o dispositivo por si só. A Mesa deve submetê-lo à votação específica. **Distinção:** destacar é separar para decidir; não é o mesmo que aprovar, rejeitar ou suprimir automaticamente. A regra examinada é a da Câmara e não deve ser transportada sem verificação para o Regimento Comum ou para o Senado.",
       "reviewEvidence": "Regimento Interno da Câmara dos Deputados, arts. 161 e 162, VI, texto atualizado. https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/arquivos-1/RICDatualizadoatRCD342026.pdf A situação é autoral e testa o efeito jurídico do destaque."
+    },
+    {
+      "id": "cam-lic-001-pregao-desconto",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Modalidades de licitação: art. 28"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Modalidades de licitação: art. 28"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "modalidade-criterio",
+      "mechanism": "distinguir-modalidade-e-criterio",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma unidade da Câmara pretende adquirir monitores com padrões de desempenho definidos por especificações usuais de mercado. O edital prevê disputa por maior desconto sobre preço de referência. Um servidor sustenta que o maior desconto é modalidade diferente do pregão.\n\nCom base nessa situação, julgue o item a seguir.\n\nA adoção do maior desconto impede a utilização do pregão.",
+      "correctAnswer": "E",
+      "explanation": "O pregão é a modalidade para bens e serviços comuns; maior desconto e menor preço são critérios de julgamento admitidos nesse procedimento. O objeto padronizado permite pregão e o desconto define como comparar as propostas. Se o objeto fosse serviço técnico especializado predominantemente intelectual, a vedação ao pregão decorreria da natureza do objeto, não do desconto. Lei 14.133, arts. 6º, XLI, 29 e 33, II.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Modalidades de licitação: art. 28",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-002-inversao-habilitacao",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Fases da licitação: art. 17"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Fases da licitação: art. 17"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "inversao-fases",
+      "mechanism": "condicoes-cumulativas",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma comissão quer verificar a habilitação antes das propostas. A autoridade registra os benefícios dessa inversão em ato motivado, mas o edital publicado mantém a sequência legal ordinária.\n\nCom base nessa situação, julgue o item a seguir.\n\nA motivação registrada basta para realizar a inversão sem previsão expressa no edital.",
+      "correctAnswer": "E",
+      "explanation": "Em regra, a habilitação ocorre depois do julgamento. A inversão exige ato motivado com explicitação dos benefícios e previsão expressa no edital. O registro dos benefícios satisfaz apenas uma condição. Se também houvesse previsão expressa, a inversão poderia ser adotada nos termos legais. Art. 17, caput e § 1º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Fases da licitação: art. 17",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-003-adjudicacao-homologacao",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Adjudicação não é uma oitava fase do art. 17"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Adjudicação não é uma oitava fase do art. 17"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "encerramento-licitacao",
+      "mechanism": "separar-efeitos-e-fase",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Encerradas as etapas de julgamento e habilitação e exauridos os recursos, a autoridade superior atribui o objeto ao vencedor e aprova o certame.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs atos descritos correspondem, respectivamente, à adjudicação e à homologação, e a adjudicação não constitui uma oitava fase autônoma na lista legal.",
+      "correctAnswer": "C",
+      "explanation": "A adjudicação atribui o objeto ao vencedor; a homologação aprova o procedimento. A lista do art. 17 termina na homologação. O art. 71, IV, prevê as duas providências de encerramento pela autoridade superior. Se a autoridade encontrasse ilegalidade insanável, a providência cabível seria anular, conforme art. 71, III.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Adjudicação não é uma oitava fase do art. 17",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-004-publicidade-inexigibilidade",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Inexigibilidade: art. 74"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Inexigibilidade: art. 74"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "inexigibilidade-publicidade",
+      "mechanism": "excecao-expressa",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão pretende contratar serviços de publicidade e divulgação. A equipe propõe inexigibilidade fundada exclusivamente no art. 74, III, por considerar a agência notoriamente especializada.\n\nCom base nessa situação, julgue o item a seguir.\n\nA notória especialização é suficiente para autorizar a contratação direta com esse fundamento.",
+      "correctAnswer": "E",
+      "explanation": "O inciso III prevê serviços técnicos especializados predominantemente intelectuais nas hipóteses legais, mas veda expressamente a inexigibilidade por esse fundamento para publicidade e divulgação. A qualificação da agência não supera a vedação. A contratação deve observar o regime legal aplicável ao objeto. Art. 74, III.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Inexigibilidade: art. 74",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-005-contratacao-direta-instrucao",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contratação direta não elimina formalidades"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contratação direta não elimina formalidades"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "instrucao-contratacao-direta",
+      "mechanism": "distinguir-dispensa-de-licitacao-e-dispensa-de-processo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão identificou hipótese legal de dispensa. A equipe juntou autorização da autoridade competente, mas pretende deixar de demonstrar a compatibilidade orçamentária e de justificar o preço.\n\nCom base nessa situação, julgue o item a seguir.\n\nA dispensa da disputa permite omitir essas duas demonstrações.",
+      "correctAnswer": "E",
+      "explanation": "A contratação direta dispensa a licitação, não a instrução do processo. O art. 72, IV e VII, exige demonstração da compatibilidade dos recursos e justificativa de preço. A autorização não substitui esses elementos. A mesma exigência de instrução alcança a inexigibilidade.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contratação direta não elimina formalidades",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-006-credenciamento-paralelo",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Inexigibilidade: art. 74"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Inexigibilidade: art. 74"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "credenciamento",
+      "mechanism": "relacionar-procedimento-auxiliar-e-contratacao-direta",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão pretende contratar vários prestadores simultaneamente sob condições padronizadas, quando essa contratação paralela e não excludente é viável e vantajosa. Publica chamamento para credenciar interessados aptos.\n\nCom base nessa situação, julgue o item a seguir.\n\nO credenciamento pode ser utilizado nesse contexto e as contratações dele decorrentes podem fundamentar-se na inexigibilidade prevista em lei.",
+      "correctAnswer": "C",
+      "explanation": "Credenciamento é procedimento auxiliar, não modalidade de licitação. A contratação paralela e não excludente constitui hipótese legal de utilização; a contratação de objetos que devam ou possam ser contratados por credenciamento encontra fundamento no art. 74, IV. Se houvesse uma disputa ordinária por um único fornecedor, seria necessário avaliar outro procedimento adequado ao caso. Arts. 74, IV, 78, I e 79, I.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Inexigibilidade: art. 74",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-007-pregao-engenharia-comum",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Modalidades de licitação: art. 28"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Modalidades de licitação: art. 28"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "pregao-engenharia",
+      "mechanism": "pregao-engenharia-comum",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão precisa contratar manutenção predial classificada tecnicamente como serviço comum de engenharia, com padrões objetivos usuais de mercado. A equipe rejeita o pregão apenas por se tratar de engenharia.\n\nCom base nessa situação, julgue o item a seguir.\n\nA natureza de serviço de engenharia, por si só, impede a utilização do pregão.",
+      "correctAnswer": "E",
+      "explanation": "O art. 29, parágrafo único, exclui obras e serviços de engenharia do pregão, mas ressalva serviços comuns de engenharia. Como o caso foi classificado nessa exceção, o impedimento genérico está errado. Se fosse obra ou serviço especial de engenharia, a conclusão seria diferente.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Modalidades de licitação: art. 28",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-008-concurso-trabalho-artistico",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Modalidades de licitação: art. 28"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Modalidades de licitação: art. 28"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "concurso-modalidade",
+      "mechanism": "concurso-trabalho-artistico",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma instituição deseja selecionar uma obra artística mediante prêmio, sem prover cargos públicos. A equipe prepara edital com critérios de avaliação do conteúdo artístico.\n\nCom base nessa situação, julgue o item a seguir.\n\nO concurso é modalidade compatível com a finalidade descrita.",
+      "correctAnswer": "C",
+      "explanation": "O concurso licitatório seleciona trabalho técnico, científico ou artístico mediante prêmio ou remuneração. O caso envolve escolha de obra, não ingresso de servidor. O concurso para provimento de cargo tem outro fundamento. Arts. 6º, XXXIX, 28, III, e 30.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Modalidades de licitação: art. 28",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-009-leilao-maior-lance",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Critérios de julgamento: art. 33"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Critérios de julgamento: art. 33"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "leilao-criterio",
+      "mechanism": "leilao-maior-lance",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma entidade pretende alienar bens móveis inservíveis em leilão e anuncia que vencerá quem oferecer o menor preço.\n\nCom base nessa situação, julgue o item a seguir.\n\nO critério anunciado é compatível com a modalidade selecionada.",
+      "correctAnswer": "E",
+      "explanation": "O leilão serve à alienação e utiliza maior lance. A Administração recebe o preço, de modo que menor preço não é o critério legal dessa disputa. Em compra por pregão, menor preço pode ser adequado. Arts. 6º, XL, 28, IV, e 33, V.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Critérios de julgamento: art. 33",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-010-dialogo-sem-requisitos",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Modalidades de licitação: art. 28"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Modalidades de licitação: art. 28"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "dialogo-competitivo",
+      "mechanism": "dialogo-sem-requisitos",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão quer comprar equipamentos comuns disponíveis no mercado e cujas especificações conhece. A equipe prefere dialogar com fornecedores antes de receber propostas, sem demonstrar os requisitos legais do diálogo competitivo.\n\nCom base nessa situação, julgue o item a seguir.\n\nA preferência da equipe é suficiente para adotar essa modalidade.",
+      "correctAnswer": "E",
+      "explanation": "O diálogo competitivo possui pressupostos legais específicos, não é uma escolha livre baseada na preferência por conversar. O objeto comum, já especificável, não demonstra os pressupostos descritos no caso. A existência comprovada das condições do art. 32 exigiria outra análise. Art. 32.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Modalidades de licitação: art. 28",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-011-vedacao-combinar-modalidades",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Modalidades de licitação: art. 28"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Modalidades de licitação: art. 28"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "modalidades-combinacao",
+      "mechanism": "vedacao-combinar-modalidades",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um gestor cria edital que combina pregão e concurso em uma única modalidade nova, alegando que ambas constam na lei.\n\nCom base nessa situação, julgue o item a seguir.\n\nA presença das duas modalidades na lei autoriza a combinação proposta.",
+      "correctAnswer": "E",
+      "explanation": "A lei enumera modalidades e veda expressamente criar outras ou combinar as existentes. A Administração deve selecionar o procedimento legal adequado, sem inventar modalidade híbrida. Art. 28, § 2º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Modalidades de licitação: art. 28",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-012-habilitacao-capacidade-tecnica",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Habilitação: o que é verificado?"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Habilitação: o que é verificado?"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "habilitacao-julgamento",
+      "mechanism": "habilitacao-capacidade-tecnica",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma empresa apresenta a proposta de menor preço, mas não comprova requisito técnico de habilitação legalmente exigido no edital, após as diligências cabíveis.\n\nCom base nessa situação, julgue o item a seguir.\n\nO resultado econômico do julgamento, por si só, assegura à empresa a habilitação.",
+      "correctAnswer": "E",
+      "explanation": "Julgamento compara propostas; habilitação verifica a capacidade jurídica, técnica, fiscal/social/trabalhista e econômico-financeira. O menor preço não substitui requisito técnico válido. Se a capacidade fosse comprovada, o obstáculo descrito desapareceria. Arts. 17 e 62.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Habilitação: o que é verificado?",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-013-revogacao-fato-superveniente",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Adjudicação não é uma oitava fase do art. 17"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Adjudicação não é uma oitava fase do art. 17"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "revogacao-licitacao",
+      "mechanism": "revogacao-fato-superveniente",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Depois da publicação do edital, fato novo comprovado torna a contratação desnecessária. A autoridade avalia a conveniência, motiva a decisão e assegura manifestação prévia dos interessados.\n\nCom base nessa situação, julgue o item a seguir.\n\nA revogação pode ser adotada nesse caso, embora não haja ilegalidade no certame.",
+      "correctAnswer": "C",
+      "explanation": "Revogar encerra procedimento válido por conveniência e oportunidade decorrentes de fato superveniente comprovado. Anular responde à ilegalidade insanável. O caso apresenta motivo superveniente e manifestação prévia. Art. 71, II e §§ 2º e 3º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Adjudicação não é uma oitava fase do art. 17",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-014-anulacao-ilegalidade-insanavel",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Adjudicação não é uma oitava fase do art. 17"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Adjudicação não é uma oitava fase do art. 17"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "anulacao-licitacao",
+      "mechanism": "anulacao-ilegalidade-insanavel",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "A autoridade identifica ilegalidade insanável no certame. Após assegurar manifestação prévia, propõe revogá-lo exclusivamente em razão do vício.\n\nCom base nessa situação, julgue o item a seguir.\n\nA providência adequada ao fundamento indicado é a revogação.",
+      "correctAnswer": "E",
+      "explanation": "A ilegalidade insanável fundamenta anulação; a revogação decorre de conveniência e oportunidade vinculadas a fato superveniente comprovado. O vício do caso determina a primeira providência. Se houvesse irregularidade sanável, seria possível retorno para saneamento. Art. 71, I a III e § 3º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Adjudicação não é uma oitava fase do art. 17",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-015-fornecedor-exclusivo-marca",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Inexigibilidade: art. 74"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Inexigibilidade: art. 74"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "exclusividade",
+      "mechanism": "fornecedor-exclusivo-marca",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão deseja comprar determinada marca e afirma que essa preferência prova a exclusividade do fornecedor, sem documento idôneo de exclusividade.\n\nCom base nessa situação, julgue o item a seguir.\n\nA preferência por marca basta para fundamentar inexigibilidade por fornecedor exclusivo.",
+      "correctAnswer": "E",
+      "explanation": "A inexigibilidade exige inviabilidade de competição. Na hipótese de fornecedor exclusivo, a Administração deve demonstrar exclusividade por documento idôneo; a lei veda preferência por marca específica como fundamento. Art. 74, I e § 1º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Inexigibilidade: art. 74",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-016-fracionamento-mesma-natureza",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Dispensa: art. 75, inclusive valores vigentes em 2026"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Dispensa: art. 75, inclusive valores vigentes em 2026"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "dispensa-somatorio",
+      "mechanism": "fracionamento-mesma-natureza",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma unidade gestora divide compras planejadas do mesmo ramo de atividade em pedidos pequenos ao longo do mesmo exercício, cujo total ultrapassa o limite legal aplicável. Pretende invocar dispensa por valor para cada pedido.\n\nCom base nessa situação, julgue o item a seguir.\n\nO valor individual abaixo do limite é suficiente para dispensar a licitação em cada compra.",
+      "correctAnswer": "E",
+      "explanation": "Para a dispensa por valor, considera-se o somatório no exercício financeiro pela unidade gestora e o das despesas com objetos da mesma natureza. Dividir pedidos não afasta esses critérios. Se o total respeitasse o limite, ainda seria necessário verificar os demais requisitos. Art. 75, § 1º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Dispensa: art. 75, inclusive valores vigentes em 2026",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-017-eficacia-publicacao-urgencia",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Publicação no PNCP e eficácia: art. 94"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Publicação no PNCP e eficácia: art. 94"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "eficacia-urgencia",
+      "mechanism": "eficacia-publicacao-urgencia",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão firma contrato urgente por contratação direta, com justificativa e requisitos legais presentes. A equipe pretende iniciar a execução imediatamente e divulgar o contrato no Portal Nacional de Contratações Públicas dentro do prazo legal.\n\nCom base nessa situação, julgue o item a seguir.\n\nA urgência permite eficácia desde a assinatura, sem afastar o dever de divulgação no prazo aplicável.",
+      "correctAnswer": "C",
+      "explanation": "A divulgação é normalmente condição de eficácia; contratos urgentes produzem efeitos desde a assinatura, mas devem ser publicados no prazo legal, sob pena de nulidade. Para contratação direta, são dez dias úteis da assinatura. Art. 94, II e § 1º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Publicação no PNCP e eficácia: art. 94",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-018-supressao-reforma-quarenta",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Alterações contratuais"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Alterações contratuais"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "limites-alteracao",
+      "mechanism": "supressao-reforma-quarenta",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Em contrato de reforma de edifício, a Administração quer impor redução quantitativa de 40% do valor inicial atualizado, alegando que reformas admitem alterações de até 50%.\n\nCom base nessa situação, julgue o item a seguir.\n\nO limite especial de 50% autoriza essa supressão unilateral.",
+      "correctAnswer": "E",
+      "explanation": "O limite geral de acréscimos e supressões unilaterais é 25%. Nas reformas de edifício ou equipamento, o limite especial de 50% aplica-se apenas aos acréscimos. A supressão unilateral de 40% não se enquadra nessa exceção. Art. 125.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Alterações contratuais",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-019-alteracao-transfigura-objeto",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Alterações contratuais"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Alterações contratuais"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "transfiguracao",
+      "mechanism": "alteracao-transfigura-objeto",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um contrato de digitalização de documentos recebe proposta de alteração unilateral para incluir campanha publicitária sem relação com a finalidade original. O custo adicional é de 10% do valor inicial atualizado.\n\nCom base nessa situação, julgue o item a seguir.\n\nO respeito ao limite percentual basta para legitimar a alteração.",
+      "correctAnswer": "E",
+      "explanation": "Além dos limites quantitativos, a lei proíbe alterações unilaterais que transfigurem o objeto. Uma campanha sem relação com a digitalização muda sua identidade. Se fossem serviços adicionais de digitalização compatíveis, o percentual seria um dos requisitos a examinar. Arts. 124 a 126.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Alterações contratuais",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-020-fiscal-terceiro-auxilio",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Gestão, fiscalização e recebimento do objeto"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Gestão, fiscalização e recebimento do objeto"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "fiscalizacao-auxilio",
+      "mechanism": "fiscal-terceiro-auxilio",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão contrata consultoria para produzir laudos técnicos que auxiliem o fiscal do contrato. O gestor pretende dispensar a designação de fiscal público, transferindo a atividade integralmente à consultoria.\n\nCom base nessa situação, julgue o item a seguir.\n\nA contratação de apoio técnico permite dispensar a designação de fiscal.",
+      "correctAnswer": "E",
+      "explanation": "O art. 117 exige acompanhamento e fiscalização por fiscais designados e admite terceiros para assisti-los e subsidiá-los com informações. Apoio não substitui atribuições próprias do fiscal. O arranjo seria compatível se preservasse o agente público e os limites do auxílio. Art. 117, caput e § 4º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Gestão, fiscalização e recebimento do objeto",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-021-recebimento-servico-definitivo",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Gestão, fiscalização e recebimento do objeto"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Gestão, fiscalização e recebimento do objeto"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "recebimento",
+      "mechanism": "recebimento-servico-definitivo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "O fiscal de um contrato de serviços registra o recebimento provisório mediante termo detalhado. O gestor afirma que esse documento elimina a necessidade de recebimento definitivo previsto para o objeto.\n\nCom base nessa situação, julgue o item a seguir.\n\nO recebimento provisório substitui automaticamente o definitivo.",
+      "correctAnswer": "E",
+      "explanation": "Em obras e serviços, o recebimento provisório cabe ao responsável pelo acompanhamento e fiscalização; o definitivo cabe ao servidor ou comissão designados, após comprovação do atendimento contratual. São verificações distintas. Art. 140, I.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Gestão, fiscalização e recebimento do objeto",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-022-impedimento-alcance-federativo",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Sanções administrativas"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Sanções administrativas"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "alcance-sancao",
+      "mechanism": "impedimento-alcance-federativo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um município aplica impedimento de licitar e contratar com fundamento no art. 156, III. Um órgão estadual afirma que a sanção, por força desse dispositivo, também impede a empresa de contratar com ele.\n\nCom base nessa situação, julgue o item a seguir.\n\nO impedimento possui alcance nacional automático.",
+      "correctAnswer": "E",
+      "explanation": "O impedimento alcança a Administração direta e indireta do ente federativo que aplicou a sanção, pelo prazo máximo de três anos. A declaração de inidoneidade, por contraste, alcança todos os entes. Arts. 156, §§ 4º e 5º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Sanções administrativas",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-023-multa-recurso-prazo",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contraditório e prazos sancionatórios"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contraditório e prazos sancionatórios"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "recurso-sancao",
+      "mechanism": "multa-recurso-prazo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma empresa recebe intimação de decisão que lhe aplica multa contratual. A autoridade informa que o recurso deverá ser interposto em três dias úteis, prazo utilizado para recursos de julgamento da licitação.\n\nCom base nessa situação, julgue o item a seguir.\n\nO prazo informado corresponde ao recurso contra a multa.",
+      "correctAnswer": "E",
+      "explanation": "O recurso contra multa, advertência ou impedimento é de 15 dias úteis, contados da intimação, conforme art. 166. Os três dias úteis do art. 165 tratam de outros atos, como julgamento e habilitação. O caso mistura prazos de etapas diferentes.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contraditório e prazos sancionatórios",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-024-extincao-motivada-defesa",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Extinção do contrato"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Extinção do contrato"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "extincao-unilateral",
+      "mechanism": "extincao-motivada-defesa",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão comprova descumprimento contratual e pretende extinguir unilateralmente o vínculo por escrito, com motivo registrado nos autos e garantia de contraditório e ampla defesa.\n\nCom base nessa situação, julgue o item a seguir.\n\nA Administração pode utilizar a forma unilateral de extinção, observadas as hipóteses e condições legais.",
+      "correctAnswer": "C",
+      "explanation": "O descumprimento contratual pode constituir motivo de extinção, que deve ser formalmente motivada, assegurada defesa. A forma unilateral é ato escrito da Administração nos casos legais, observada a ressalva de descumprimento decorrente de sua própria conduta. Arts. 137, I, e 138, I.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Extinção do contrato",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-025-retorno-economico",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Critérios de julgamento: art. 33"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Critérios de julgamento: art. 33"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "retorno-economico",
+      "mechanism": "retorno-economico",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão pretende contratar medidas de redução de despesas correntes e remunerar o contratado em função da economia efetivamente gerada. A equipe analisa o critério de maior retorno econômico.\n\nCom base nessa situação, julgue o item a seguir.\n\nEsse critério é pertinente à contratação de eficiência descrita.",
+      "correctAnswer": "C",
+      "explanation": "O maior retorno econômico destina-se exclusivamente ao contrato de eficiência. A remuneração vincula-se à economia gerada, segundo os parâmetros legais e contratuais. Uma compra ordinária de computadores não se enquadra apenas porque seu preço é baixo. Arts. 6º, LIII, e 39.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Critérios de julgamento: art. 33",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-026-proposta-barata-desconforme",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Princípios de prova"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Princípios de prova"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "julgamento-objetivo",
+      "mechanism": "proposta-barata-desconforme",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma licitação exige equipamentos com requisitos mínimos de acessibilidade. A proposta mais barata descumpre uma especificação técnica obrigatória, e a comissão confirma que não cabe saneamento.\n\nCom base nessa situação, julgue o item a seguir.\n\nA comissão deve aceitar essa proposta apenas porque apresenta menor preço.",
+      "correctAnswer": "E",
+      "explanation": "A escolha da proposta vantajosa observa requisitos do edital e julgamento objetivo. A desconformidade técnica impede que o menor preço, isoladamente, determine a vitória. Se a proposta cumprisse as especificações, o preço poderia decidir a disputa. Arts. 5º, 11 e 59, II.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Princípios de prova",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-027-pregoeiro-agente",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Quem conduz e quem decide"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Quem conduz e quem decide"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "agente-contratacao",
+      "mechanism": "pregoeiro-agente",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "A Câmara designa servidor efetivo do quadro permanente para conduzir um pregão. A autoridade superior conserva a competência de encerramento do procedimento.\n\nCom base nessa situação, julgue o item a seguir.\n\nO agente responsável pela condução do pregão recebe a designação de pregoeiro, sem assumir automaticamente a competência de homologação.",
+      "correctAnswer": "C",
+      "explanation": "O agente conduz o procedimento e, no pregão, é denominado pregoeiro. A autoridade superior exerce as competências de encerramento previstas no art. 71, inclusive adjudicar e homologar. Arts. 8º, § 5º, e 71, IV.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Quem conduz e quem decide",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-028-impugnacao-qualquer-pessoa",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contraditório e prazos sancionatórios"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contraditório e prazos sancionatórios"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "impugnacao-edital",
+      "mechanism": "impugnacao-qualquer-pessoa",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma pessoa que não pretende apresentar proposta identifica exigência ilegal no edital e protocola impugnação quatro dias úteis antes da abertura do certame.\n\nCom base nessa situação, julgue o item a seguir.\n\nA ausência de intenção de participar impede o exame da impugnação.",
+      "correctAnswer": "E",
+      "explanation": "Qualquer pessoa é parte legítima para impugnar edital por irregularidade ou pedir esclarecimentos, até três dias úteis antes da abertura. A impugnação não exige a condição de licitante. O recurso contra julgamento é instituto diferente. Art. 164.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contraditório e prazos sancionatórios",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-029-saneamento-retorno",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Adjudicação não é uma oitava fase do art. 17"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Adjudicação não é uma oitava fase do art. 17"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "saneamento-licitacao",
+      "mechanism": "saneamento-retorno",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Após o encerramento das fases anteriores, a autoridade superior identifica irregularidade que pode ser sanada sem modificar a substância das propostas nem violar a igualdade.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autoridade pode determinar o retorno dos autos para saneamento.",
+      "correctAnswer": "C",
+      "explanation": "A lei permite o retorno dos autos para saneamento de irregularidades. A anulação é a resposta à ilegalidade insanável, e não consequência obrigatória de qualquer defeito. Art. 71, I e III.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Adjudicação não é uma oitava fase do art. 17",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-030-recurso-julgamento",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contraditório e prazos sancionatórios"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contraditório e prazos sancionatórios"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "recurso-licitacao",
+      "mechanism": "recurso-julgamento",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma empresa pretende recorrer do julgamento das propostas e manifesta imediatamente sua intenção de recorrer. Sustenta que tem quinze dias úteis para apresentar as razões.\n\nCom base nessa situação, julgue o item a seguir.\n\nO prazo alegado corresponde ao recurso contra o julgamento das propostas.",
+      "correctAnswer": "E",
+      "explanation": "O recurso contra julgamento segue o prazo de três dias úteis, observado o procedimento do art. 165, § 1º. Quinze dias úteis é prazo de recursos sancionatórios específicos, como o da multa. Arts. 165, I, b, e 166.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contraditório e prazos sancionatórios",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-031-locacao-imovel-especifico",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Inexigibilidade: art. 74"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Inexigibilidade: art. 74"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "inexigibilidade-imovel",
+      "mechanism": "locacao-imovel-especifico",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma unidade precisa alugar imóvel cujas características de localização e instalações tornam necessária uma escolha específica. A instrução inclui avaliação prévia, certificação de inexistência de imóvel público vago e disponível que atenda ao objeto e justificativas da singularidade e vantagem.\n\nCom base nessa situação, julgue o item a seguir.\n\nA hipótese descrita pode fundamentar inexigibilidade, observados os demais requisitos legais.",
+      "correctAnswer": "C",
+      "explanation": "A escolha necessária de imóvel pelas suas características pode tornar inviável a competição. O art. 74, V e § 5º, estabelece os requisitos adicionais descritos no caso. A mera preferência por uma localização, sem essas demonstrações, não basta.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Inexigibilidade: art. 74",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-032-artista-representante-eventual",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Inexigibilidade: art. 74"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Inexigibilidade: art. 74"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "inexigibilidade-artista",
+      "mechanism": "artista-representante-eventual",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão quer contratar artista consagrado pela crítica especializada. Um empresário apresenta autorização de representação exclusiva limitada ao evento pretendido.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autorização limitada a esse evento comprova a exclusividade exigida para a contratação por intermédio do empresário.",
+      "correctAnswer": "E",
+      "explanation": "A inexigibilidade artística pode ocorrer diretamente ou por empresário exclusivo. A lei exige representação exclusiva permanente e contínua no país ou em estado específico, afastando a representação restrita a evento ou local específico. Art. 74, II e § 2º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Inexigibilidade: art. 74",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-033-emergencia-objeto-excessivo",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Dispensa: art. 75, inclusive valores vigentes em 2026"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Dispensa: art. 75, inclusive valores vigentes em 2026"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "dispensa-emergencia",
+      "mechanism": "emergencia-objeto-excessivo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma inundação danifica o prédio público. O órgão identifica reparos urgentes indispensáveis à segurança e pretende acrescentar, no mesmo contrato emergencial, reforma estética sem relação com o risco identificado.\n\nCom base nessa situação, julgue o item a seguir.\n\nA emergência autoriza a inclusão de toda a reforma estética no objeto dispensado.",
+      "correctAnswer": "E",
+      "explanation": "A dispensa emergencial só pode abranger o que for necessário para enfrentar a emergência e as parcelas de obras e serviços que possam ser concluídas em até um ano, contado da ocorrência. Reforma estética sem relação com o risco não atende a essa finalidade e precisa de fundamento próprio; a urgência não transforma qualquer obra desejada em contratação emergencial. A lei também veda a prorrogação desse contrato. Art. 75, VIII.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Dispensa: art. 75, inclusive valores vigentes em 2026",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-034-aviso-dispensa-preferencial",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Dispensa: art. 75, inclusive valores vigentes em 2026"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Dispensa: art. 75, inclusive valores vigentes em 2026"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "aviso-dispensa",
+      "mechanism": "aviso-dispensa-preferencial",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Em contratação direta enquadrada na dispensa por valor, uma equipe sustenta que a Lei nº 14.133 exige, sem exceção, divulgação prévia de aviso de três dias úteis, ainda que se analisem apenas as normas gerais da lei.\n\nCom base nessa situação, julgue o item a seguir.\n\nA afirmação reproduz corretamente o caráter obrigatório e absoluto do aviso estabelecido no art. 75, § 3º.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo prevê preferencialmente a divulgação de aviso por pelo menos três dias úteis para obter propostas adicionais. A palavra preferencialmente não estabelece obrigação absoluta na norma geral, sem prejuízo de regras específicas aplicáveis e do dever de motivar. Art. 75, § 3º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Dispensa: art. 75, inclusive valores vigentes em 2026",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-035-etp-versus-termo",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Planejamento, ETP e Termo de Referência: edital 10.4 a 10.7"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Planejamento, ETP e Termo de Referência: edital 10.4 a 10.7"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "etp-tr",
+      "mechanism": "etp-versus-termo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "A equipe compara alternativas para solucionar a inacessibilidade de documentos e conclui pela viabilidade de uma solução. Em seguida deve detalhar requisitos, execução, medição e pagamento para a contratação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA comparação inicial de alternativas corresponde ao estudo técnico preliminar, enquanto o detalhamento subsequente integra o termo de referência, quando cabível.",
+      "correctAnswer": "C",
+      "explanation": "O estudo técnico preliminar caracteriza a necessidade e a melhor solução, avaliando viabilidade. O termo de referência define os parâmetros da contratação de bens e serviços. A distinção evita escolher fornecedor antes de entender o problema. Arts. 6º, XX e XXIII, e 18.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Planejamento, ETP e Termo de Referência / 10.4 a 10.7",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-036-segregacao-funcoes-risco",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Princípios de prova"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Princípios de prova"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "segregacao-funcoes",
+      "mechanism": "segregacao-funcoes-risco",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão concentra no mesmo agente tarefas simultâneas que foram identificadas como especialmente suscetíveis a riscos de ocultação de erros e fraude. A justificativa limita-se à conveniência administrativa.\n\nCom base nessa situação, julgue o item a seguir.\n\nA concentração descrita é compatível com o princípio da segregação de funções apenas porque simplifica o trabalho.",
+      "correctAnswer": "E",
+      "explanation": "A segregação de funções exige evitar designação do mesmo agente para atuação simultânea em funções mais suscetíveis a riscos. Simplificação não afasta esse limite. A regra não significa que toda atividade administrativa exija pessoa distinta. Arts. 5º e 7º, § 1º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Princípios de prova",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-037-instrumento-nota-empenho",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Instrumento contratual × contrato verbal"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Instrumento contratual × contrato verbal"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "instrumento-contratual",
+      "mechanism": "instrumento-nota-empenho",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma unidade realiza contratação por dispensa em razão do valor, regularmente instruída, e decide utilizar nota de empenho em substituição ao instrumento formal de contrato.\n\nCom base nessa situação, julgue o item a seguir.\n\nA substituição do instrumento é admitida nessa hipótese e não significa ausência de vínculo contratual.",
+      "correctAnswer": "C",
+      "explanation": "O art. 95, I, permite substituir o instrumento contratual por outro documento hábil na dispensa em razão do valor. As obrigações e os requisitos da contratação permanecem. O contrato verbal possui exceção própria e não se confunde com essa substituição.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Instrumento contratual × contrato verbal",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-038-pncp-prazo-licitacao",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Publicação no PNCP e eficácia: art. 94"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Publicação no PNCP e eficácia: art. 94"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "pncp-licitacao",
+      "mechanism": "pncp-prazo-licitacao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um órgão assina contrato ordinário decorrente de licitação. A equipe considera que o prazo legal de divulgação no Portal Nacional de Contratações Públicas é de dez dias úteis da assinatura.\n\nCom base nessa situação, julgue o item a seguir.\n\nO prazo indicado é o previsto para o contrato decorrente de licitação.",
+      "correctAnswer": "E",
+      "explanation": "A divulgação é condição de eficácia e deve ocorrer em vinte dias úteis da assinatura quando o contrato decorre de licitação. Dez dias úteis é o prazo para contratação direta. Art. 94, I e II.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Publicação no PNCP e eficácia: art. 94",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-039-clausula-financeira-consentimento",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Prerrogativas da Administração: art. 104"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Prerrogativas da Administração: art. 104"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "clausulas-economicas",
+      "mechanism": "clausula-financeira-consentimento",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "A Administração pretende reduzir unilateralmente a remuneração contratual sem alterar os encargos do contratado, invocando genericamente as cláusulas exorbitantes.\n\nCom base nessa situação, julgue o item a seguir.\n\nAs prerrogativas administrativas autorizam modificar unilateralmente cláusulas econômico-financeiras sem concordância do contratado.",
+      "correctAnswer": "E",
+      "explanation": "As prerrogativas do art. 104 não são ilimitadas. Cláusulas econômico-financeiras e monetárias não podem ser alteradas sem prévia concordância do contratado. Na alteração unilateral legal, deve ser revisto o equilíbrio contratual quando necessário. Art. 104, §§ 1º e 2º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Prerrogativas da Administração: art. 104",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-040-alteracao-acrescimo-reforma",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Alterações contratuais"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Alterações contratuais"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "limites-alteracao",
+      "mechanism": "alteracao-acrescimo-reforma",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Em reforma de edifício, a Administração justifica acréscimo quantitativo de 40% do valor inicial atualizado, mantendo a identidade do objeto e observando os demais requisitos legais.\n\nCom base nessa situação, julgue o item a seguir.\n\nO percentual do acréscimo está dentro do limite especial aplicável à reforma.",
+      "correctAnswer": "C",
+      "explanation": "O limite geral de alterações unilaterais é 25%, mas, para acréscimos em reforma de edifício ou equipamento, a lei admite até 50%. O caso descreve acréscimo, não supressão, e não transfigura o objeto. Arts. 125 e 126.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Alterações contratuais",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-041-inidoneidade-nacional",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Sanções administrativas"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Sanções administrativas"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "alcance-sancao",
+      "mechanism": "inidoneidade-nacional",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma autoridade competente aplica declaração de inidoneidade por quatro anos, depois do processo legal, por infração que admite essa sanção. A empresa alega que poderá contratar normalmente com os demais entes federativos.\n\nCom base nessa situação, julgue o item a seguir.\n\nO alcance da sanção descrita restringe-se ao ente que a aplicou.",
+      "correctAnswer": "E",
+      "explanation": "A declaração de inidoneidade alcança a Administração direta e indireta de todos os entes federativos, por três a seis anos. O impedimento, por contraste, limita-se ao ente sancionador e dura até três anos. Art. 156, §§ 4º e 5º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Sanções administrativas",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-042-advertencia-inexecucao-parcial",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Sanções administrativas"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Sanções administrativas"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "advertencia-cabimento",
+      "mechanism": "advertencia-inexecucao-parcial",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma empresa comete inexecução parcial sem gravidade que justifique sanção mais severa. A autoridade, após apuração, avalia a aplicação de advertência.\n\nCom base nessa situação, julgue o item a seguir.\n\nA advertência é espécie de sanção admitida para a infração descrita.",
+      "correctAnswer": "C",
+      "explanation": "A advertência é reservada à inexecução parcial do contrato prevista no art. 155, I, quando não se justifica sanção mais grave. Outras infrações não admitem advertência pelo simples fato de serem consideradas leves. Art. 156, § 2º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Sanções administrativas",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-043-reconsideracao-inidoneidade",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contraditório e prazos sancionatórios"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contraditório e prazos sancionatórios"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "reconsideracao-inidoneidade",
+      "mechanism": "reconsideracao-inidoneidade",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma empresa é intimada de declaração de inidoneidade e prepara pedido de reconsideração no décimo dia útil após a intimação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA medida escolhida corresponde à prevista na lei e, quanto ao prazo descrito, é tempestiva.",
+      "correctAnswer": "C",
+      "explanation": "Da declaração de inidoneidade cabe apenas pedido de reconsideração em quinze dias úteis da intimação, a ser decidido em até vinte dias úteis do recebimento. Recurso do art. 166 é reservado a advertência, multa e impedimento. Arts. 166 e 167.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contraditório e prazos sancionatórios",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-044-efeito-suspensivo-sancao",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contraditório e prazos sancionatórios"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contraditório e prazos sancionatórios"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "efeito-suspensivo",
+      "mechanism": "efeito-suspensivo-sancao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma empresa interpõe tempestivamente recurso contra impedimento de licitar e contratar. A autoridade determina que a sanção produza efeitos imediatamente, antes da decisão final do recurso.\n\nCom base nessa situação, julgue o item a seguir.\n\nO recurso previsto na lei possui efeito suspensivo até decisão final da autoridade competente.",
+      "correctAnswer": "C",
+      "explanation": "O art. 168 estabelece efeito suspensivo para recurso e pedido de reconsideração até decisão final da autoridade competente. A interposição tempestiva do recurso contra impedimento impede a produção imediata dos efeitos do ato recorrido, segundo essa regra. Arts. 166 e 168.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contraditório e prazos sancionatórios",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-045-tecnica-preco-ponderacao",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Critérios de julgamento: art. 33"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Critérios de julgamento: art. 33"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "tecnica-preco",
+      "mechanism": "tecnica-preco-ponderacao",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma entidade licita serviço técnico especial pelo critério de técnica e preço. O edital estabelece previamente a ponderação da nota técnica e do preço. Durante o julgamento, a comissão decide alterar os pesos para beneficiar uma proposta que considera melhor.\n\nCom base nessa situação, julgue o item a seguir.\n\nA comissão pode alterar os pesos durante o julgamento em razão de sua avaliação de conveniência.",
+      "correctAnswer": "E",
+      "explanation": "Técnica e preço combina as notas segundo fatores objetivos previamente previstos no edital. Alterar a ponderação após conhecer propostas viola julgamento objetivo e vinculação ao edital. Se os pesos fossem definidos e divulgados regularmente antes da disputa, a comparação ponderada seria possível. Arts. 5º, 33, IV, e 36.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Critérios de julgamento: art. 33",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-046-concurso-melhor-conteudo",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Critérios de julgamento: art. 33"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Critérios de julgamento: art. 33"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "concurso-criterio",
+      "mechanism": "concurso-melhor-conteudo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma instituição lança concurso para selecionar projeto artístico mediante prêmio fixo. Uma comissão avalia as propostas conforme critérios de qualidade artística previamente publicados.\n\nCom base nessa situação, julgue o item a seguir.\n\nA modalidade e o critério de melhor técnica ou conteúdo artístico são compatíveis com a situação.",
+      "correctAnswer": "C",
+      "explanation": "O concurso seleciona trabalho técnico, científico ou artístico mediante prêmio ou remuneração, e utiliza melhor técnica ou conteúdo artístico. O preço do prêmio não é o elemento de disputa nesse caso. Em leilão, por contraste, a comparação é pelo maior lance. Arts. 6º, XXXIX, e 35.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Critérios de julgamento: art. 33",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-047-recurso-fase-unica",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contraditório e prazos sancionatórios"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contraditório e prazos sancionatórios"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "recurso-fase-unica",
+      "mechanism": "recurso-fase-unica",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Em licitação com a ordem ordinária de fases, uma empresa manifesta imediatamente intenção de recorrer do julgamento. A Administração pretende apreciar separadamente e em definitivo esse recurso antes de concluir a habilitação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA apreciação dos recursos relativos ao julgamento e à habilitação deve ocorrer em fase única.",
+      "correctAnswer": "C",
+      "explanation": "O art. 165, § 1º, disciplina os recursos contra julgamento e habilitação: intenção imediata, sob pena de preclusão, e apreciação em fase única. A manifestação imediata preserva o direito de recorrer, mas não cria duas fases recursais autônomas. Arts. 17 e 165, § 1º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contraditório e prazos sancionatórios",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-048-recurso-autoridade-superior",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contraditório e prazos sancionatórios"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contraditório e prazos sancionatórios"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "recurso-tramitacao",
+      "mechanism": "recurso-autoridade-superior",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um licitante apresenta recurso tempestivo contra sua inabilitação. A autoridade que praticou o ato decide não reconsiderá-lo e pretende arquivá-lo sem encaminhamento.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autoridade deve encaminhar o recurso motivadamente à autoridade superior se não reconsiderar o ato no prazo legal.",
+      "correctAnswer": "C",
+      "explanation": "O recurso é dirigido à autoridade que praticou o ato. Se ela não reconsiderar em três dias úteis, deve encaminhá-lo com sua motivação à superior, que decide em até dez dias úteis do recebimento. O arquivamento descrito impediria a revisão prevista em lei. Art. 165, § 2º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contraditório e prazos sancionatórios",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-049-dispensa-agencia-executiva",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Dispensa: art. 75, inclusive valores vigentes em 2026"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Dispensa: art. 75, inclusive valores vigentes em 2026"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "dispensa-limites-dobrados",
+      "mechanism": "dispensa-agencia-executiva",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma autarquia formalmente qualificada como agência executiva avalia contratação de serviço comum. O setor de compras aplica o mesmo limite de dispensa por valor utilizado pelos órgãos sem essa qualificação, afirmando que a lei não admite distinção.\n\nCom base nessa situação, julgue o item a seguir.\n\nA Lei nº 14.133 prevê duplicação dos limites dos incisos I e II do art. 75 para a autarquia qualificada como agência executiva.",
+      "correctAnswer": "C",
+      "explanation": "O art. 75, § 2º, duplica esses valores para consórcios públicos e autarquias ou fundações qualificadas como agências executivas. A qualificação é o fato decisivo; autarquia comum não recebe automaticamente esse tratamento. Continuam aplicáveis os demais requisitos da contratação direta.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Dispensa: art. 75, inclusive valores vigentes em 2026",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-050-inexigibilidade-competicao-viavel",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Inexigibilidade: art. 74"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Inexigibilidade: art. 74"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "inexigibilidade-pressuposto",
+      "mechanism": "inexigibilidade-competicao-viavel",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma equipe identifica vários fornecedores capazes de atender ao mesmo objeto mediante especificações objetivas. Sem demonstrar inviabilidade de competição, propõe inexigibilidade apenas para acelerar a contratação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA rapidez desejada constitui fundamento suficiente de inexigibilidade.",
+      "correctAnswer": "E",
+      "explanation": "O pressuposto da inexigibilidade é a inviabilidade de competição. A conveniência de concluir rapidamente não demonstra essa condição. Uma emergência real poderia justificar exame de hipótese de dispensa, mas exigiria requisitos próprios. Arts. 74, caput, e 75, VIII.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Inexigibilidade: art. 74",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-051-credenciamento-modalidade",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Inexigibilidade: art. 74"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Inexigibilidade: art. 74"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "credenciamento-modalidade",
+      "mechanism": "credenciamento-modalidade",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma instituição adota credenciamento para contratar prestadores em condições padronizadas, na hipótese de contratação paralela e não excludente. O relatório classifica o credenciamento como modalidade licitatória.\n\nCom base nessa situação, julgue o item a seguir.\n\nA classificação do relatório corresponde à enumeração legal de modalidades.",
+      "correctAnswer": "E",
+      "explanation": "Credenciamento é procedimento auxiliar previsto no art. 78, I, com hipóteses no art. 79. As contratações decorrentes podem fundamentar-se no art. 74, IV. A classificação como modalidade é incorreta: as modalidades estão enumeradas no art. 28.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Inexigibilidade: art. 74",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-052-planejamento-solucao-antecipada",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Planejamento, ETP e Termo de Referência: edital 10.4 a 10.7"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Planejamento, ETP e Termo de Referência: edital 10.4 a 10.7"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "planejamento-alternativas",
+      "mechanism": "planejamento-solucao-antecipada",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma unidade identifica documentos inacessíveis. Antes de estudar alternativas, escolhe determinada empresa e elabora o estudo técnico preliminar apenas para justificar retrospectivamente essa escolha.\n\nCom base nessa situação, julgue o item a seguir.\n\nA prática descrita atende à finalidade do estudo técnico preliminar.",
+      "correctAnswer": "E",
+      "explanation": "O estudo técnico preliminar deve caracterizar a necessidade, a melhor solução e sua viabilidade, subsidiando as etapas posteriores. Justificar retrospectivamente um fornecedor escolhido inverte essa lógica. Uma avaliação prévia de alternativas e requisitos permite fundamentar a solução sem direcionamento. Arts. 6º, XX, e 18.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Planejamento, ETP e Termo de Referência / 10.4 a 10.7",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-053-contratacao-direta-escolha-preco",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contratação direta não elimina formalidades"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contratação direta não elimina formalidades"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "escolha-preco",
+      "mechanism": "contratacao-direta-escolha-preco",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Em procedimento de inexigibilidade, o órgão demonstra a exclusividade do prestador e explica por que ele foi escolhido, mas não apresenta justificativa de preço.\n\nCom base nessa situação, julgue o item a seguir.\n\nA razão da escolha do contratado substitui automaticamente a justificativa de preço.",
+      "correctAnswer": "E",
+      "explanation": "São elementos distintos da instrução: a razão da escolha identifica por que aquele contratado atende ao objeto; a justificativa de preço examina a adequação econômica do valor. Exclusividade não torna qualquer preço aceitável. Art. 72, VI e VII.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contratação direta não elimina formalidades",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-054-publicidade-ato-autorizativo",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contratação direta não elimina formalidades"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contratação direta não elimina formalidades"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "publicidade-contratacao-direta",
+      "mechanism": "publicidade-ato-autorizativo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma unidade obtém autorização para contratação direta regularmente instruída. Pretende manter o ato autorizativo e o extrato do contrato inacessíveis ao público, por entender que a ausência de edital elimina o dever de divulgação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA ausência de licitação afasta a divulgação prevista no art. 72, parágrafo único.",
+      "correctAnswer": "E",
+      "explanation": "O ato que autoriza a contratação direta ou o extrato decorrente do contrato deve ser divulgado e mantido à disposição do público em sítio eletrônico oficial. Isso é diferente da divulgação contratual no Portal Nacional de Contratações Públicas, tratada no art. 94. Art. 72, parágrafo único.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contratação direta não elimina formalidades",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-055-contrato-regime-supletivo",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contratos administrativos"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contratos administrativos"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "regime-contratual",
+      "mechanism": "contrato-regime-supletivo",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Em contrato administrativo regido pela Lei nº 14.133, uma dúvida não encontra solução nas cláusulas nem nas regras de direito público aplicáveis. O parecerista avalia recorrer supletivamente à teoria geral dos contratos e ao direito privado.\n\nCom base nessa situação, julgue o item a seguir.\n\nA aplicação supletiva é compatível com o regime legal descrito.",
+      "correctAnswer": "C",
+      "explanation": "Os contratos regidos pela lei são disciplinados por suas cláusulas e preceitos de direito público, aplicando-se supletivamente os princípios da teoria geral dos contratos e disposições de direito privado. A aplicação supletiva não substitui normas públicas obrigatórias. Art. 89.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contratos administrativos",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-056-equilibrio-alteracao-encargos",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Alterações contratuais"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Alterações contratuais"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "equilibrio-alteracao",
+      "mechanism": "equilibrio-alteracao-encargos",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "A Administração determina alteração unilateral lícita de especificações que aumenta os encargos da contratada. A equipe pretende manter a remuneração inalterada sob o argumento de que o particular deve aceitar alterações legais.\n\nCom base nessa situação, julgue o item a seguir.\n\nO exercício da prerrogativa dispensa o restabelecimento do equilíbrio econômico-financeiro inicial.",
+      "correctAnswer": "E",
+      "explanation": "Quando alteração unilateral aumenta ou diminui os encargos, a Administração deve restabelecer o equilíbrio econômico-financeiro inicial no mesmo termo aditivo. Aceitar alteração legal não significa assumir gratuitamente encargos novos. Arts. 104, § 2º, e 130.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Alterações contratuais",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-057-contrato-verbal-regra",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Instrumento contratual × contrato verbal"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Instrumento contratual × contrato verbal"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "contrato-verbal",
+      "mechanism": "contrato-verbal-regra",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma unidade contrata verbalmente serviço continuado com obrigações futuras e pagamento mensal. O ajuste não se enquadra na exceção legal de pequenas compras ou serviços de pronto pagamento.\n\nCom base nessa situação, julgue o item a seguir.\n\nO contrato verbal é válido apenas porque o serviço atende a uma necessidade pública.",
+      "correctAnswer": "E",
+      "explanation": "O contrato verbal com a Administração é nulo e de nenhum efeito, salvo a exceção legal de pequenas compras ou serviços de pronto pagamento dentro do limite atualizado. A finalidade pública não elimina a exigência de formalização. Art. 95, § 2º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Instrumento contratual × contrato verbal",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-058-reequilibrio-forca-maior",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Alterações contratuais"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Alterações contratuais"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "reequilibrio-extraordinario",
+      "mechanism": "reequilibrio-forca-maior",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Evento de força maior torna a execução do contrato inviável nas condições originalmente pactuadas. As partes demonstram os efeitos extraordinários e examinam a repartição objetiva de riscos prevista no contrato.\n\nCom base nessa situação, julgue o item a seguir.\n\nA lei admite alteração por acordo para restabelecer o equilíbrio inicial, respeitada a repartição objetiva de riscos.",
+      "correctAnswer": "C",
+      "explanation": "O art. 124, II, d, permite restabelecimento do equilíbrio por acordo em situações como força maior, caso fortuito e fatos imprevisíveis ou previsíveis de consequências incalculáveis que inviabilizem a execução como pactuada, respeitada a repartição de riscos. Não se confunde com reajuste ordinário por índice.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Alterações contratuais",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-059-fiscal-registro-competencia",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Gestão, fiscalização e recebimento do objeto"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Gestão, fiscalização e recebimento do objeto"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "fiscal-competencia",
+      "mechanism": "fiscal-registro-competencia",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Um fiscal identifica falha recorrente na execução e registra a ocorrência. A solução exige medida que ultrapassa sua competência, mas ele pretende decidir sozinho para evitar demora.\n\nCom base nessa situação, julgue o item a seguir.\n\nO fiscal deve informar a seus superiores em tempo hábil a situação que demanda decisão além de sua competência.",
+      "correctAnswer": "C",
+      "explanation": "O fiscal registra ocorrências e determina o necessário à regularização dentro de suas atribuições. Situações que demandem decisão ou providência superior devem ser comunicadas em tempo hábil. A competência de fiscalização não transfere automaticamente o poder de decidir qualquer medida. Art. 117, §§ 1º e 2º.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Gestão, fiscalização e recebimento do objeto",
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-lic-060-multa-defesa-antes-recurso",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "articleId": "art-e3be4825ac4c455a",
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+        "section": "Contraditório e prazos sancionatórios"
+      },
+      "theoryRefs": [
+        "article:art-e3be4825ac4c455a#Contraditório e prazos sancionatórios"
+      ],
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "conceptId": "defesa-multa",
+      "mechanism": "multa-defesa-antes-recurso",
+      "questionType": "aplicacao",
+      "cognitiveOperation": "aplicação",
+      "estimatedDifficulty": "media",
+      "statement": "Uma autoridade pretende aplicar multa contratual imediatamente, deixando a empresa apresentar argumentos apenas depois, em eventual recurso contra a sanção.\n\nCom base nessa situação, julgue o item a seguir.\n\nA possibilidade de recurso posterior substitui a oportunidade de defesa prevista para a aplicação da multa.",
+      "correctAnswer": "E",
+      "explanation": "Na aplicação de multa, deve ser facultada defesa em quinze dias úteis contados da intimação. O recurso contra a decisão sancionatória tem previsão própria e também prazo de quinze dias úteis. São momentos distintos; a existência de recurso não elimina a defesa anterior. Arts. 157 e 166.",
+      "reviewEvidence": "Conferência da regra, do dispositivo citado e da aplicação ao fato decisivo na Lei nº 14.133/2021, texto oficial do Planalto consultado em 25/11/2026. Vínculo ao artigo e ao subtítulo conferido. Item autoral para aprendizagem; não identificado como questão oficial nem como calibração empírica.",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 14.133/2021 / Contraditório e prazos sancionatórios",
+      "reviewStatus": "validada"
     }
   ]
 }

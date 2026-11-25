@@ -12465,7 +12465,7 @@
       },
       "statement": "Na eleição de dirigentes da comissão mista de orçamento, o Regimento Comum exclui a aplicação da regra do § 4º do art. 90 sobre rejeição por uma das representações.",
       "correctAnswer": "C",
-      "explanation": "O § 5º afasta expressamente a aplicação do § 4º nessa eleição.",
+      "explanation": "Nas deliberações sobre o projeto orçamentário, a Comissão Mista começa a votar pelos representantes da Câmara. Se a maioria dos representantes de uma das Casas votar contra a matéria, ela é rejeitada. O próprio Regimento abre uma exceção para a eleição do presidente e do vice-presidente da Comissão: nessa escolha de dirigentes, a regra de rejeição do § 4º não se aplica. O item identifica corretamente essa exceção, restrita à eleição. Fundamento: Regimento Comum do Congresso Nacional, art. 90, §§ 4º e 5º.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, art. 90, §§ 4º e 5º. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
     },
     {
@@ -16133,7 +16133,7 @@
       },
       "statement": "A percepção de vantagem indevida em razão da atividade parlamentar só é incompatível com o decoro quando o deputado retém a vantagem para si.",
       "correctAnswer": "E",
-      "explanation": "O Código também alcança a vantagem percebida para outrem.",
+      "explanation": "A proibição não depende de o deputado ficar pessoalmente com o benefício. O Código alcança vantagem indevida percebida no exercício da atividade parlamentar tanto em proveito próprio quanto em proveito de outra pessoa. Assim, direcionar o benefício a um terceiro não afasta, por si só, a incompatibilidade com o decoro. Para a hipótese do art. 4º, o Código prevê perda do mandato, observados o processo e as competências constitucionais aplicáveis. Fundamento: Código de Ética da Câmara, art. 4º, II, combinado com a Constituição Federal, art. 55.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 4º, II, e 14, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -18541,7 +18541,7 @@
       },
       "statement": "Contra censura verbal, o deputado tem cinco dias úteis para recorrer ao respectivo Plenário.",
       "correctAnswer": "E",
-      "explanation": "O prazo previsto para esse recurso é de dois dias úteis.",
+      "explanation": "A censura verbal é aplicada pelo presidente da Câmara, durante sessão, ou pelo presidente de comissão, durante reunião. Depois da aplicação, o deputado pode recorrer ao plenário correspondente, mas o prazo é de dois dias úteis. Os cinco dias úteis que aparecem em outras regras do Código não são o prazo desse recurso. A troca de “dois” por “cinco” torna o item errado. Fundamento: Código de Ética da Câmara, art. 11 e parágrafo único.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 11, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -23889,7 +23889,7 @@
       },
       "statement": "Nas Comunicações de Lideranças, um líder transfere parte de seu tempo a outro líder. A cessão parcial está entre as possibilidades regimentais.",
       "correctAnswer": "C",
-      "explanation": "O art. 89 admite cessão entre líderes, que pode ser parcial ou total.",
+      "explanation": "Nas Comunicações de Lideranças, cada líder dispõe de um tempo para falar conforme as regras do art. 89. O Regimento permite que os líderes cedam esse tempo entre si, inclusive só uma parte dele. Portanto, o líder que cede uma fração ainda pode usar o tempo restante. A regra trata de cessão entre líderes, não de transferência a qualquer deputado. Fundamento: Regimento Interno da Câmara dos Deputados, art. 89, parágrafo único.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 89. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -57545,7 +57545,7 @@
       },
       "statement": "A suspensão de prerrogativas regimentais pode durar até seis meses, conforme o elenco de sanções do art. 10 do Código de Ética.",
       "correctAnswer": "C",
-      "explanation": "O art. 10, inciso II, limita essa suspensão a seis meses.",
+      "explanation": "Suspender prerrogativas regimentais significa retirar temporariamente determinadas faculdades ligadas ao exercício do mandato, como as especificadas no processo disciplinar. Essa sanção tem duração máxima de seis meses; o Conselho deve fixar seu alcance e considerar os fatos e as circunstâncias do caso. O Código também prevê outra sanção, a suspensão do exercício do mandato, que é diferente e tem limite próprio igualmente de até seis meses. Fundamento: Código de Ética da Câmara, arts. 10, II e III, e 13, VI a VIII.",
       "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14); CI obrigatório para integração."
     },
     {
@@ -57657,7 +57657,7 @@
       },
       "statement": "Na composição da lista para relatoria de processo disciplinar do art. 13, o relator não pode pertencer ao mesmo estado do deputado representado.",
       "correctAnswer": "C",
-      "explanation": "O art. 13, inciso I, alínea b, prevê a vedação para o relator.",
+      "explanation": "Em processos disciplinares sujeitos ao art. 13, o presidente do Conselho sorteia uma lista de três integrantes para que um deles seja designado relator. O relator não pode ser do mesmo partido ou bloco do deputado representado nem do mesmo estado. Se a representação for iniciativa de partido político, também não pode pertencer ao partido autor. O item menciona corretamente uma dessas barreiras: relator e representado não podem ser do mesmo estado. Fundamento: Código de Ética da Câmara, art. 13, I, “a” a “c”.",
       "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário; CI obrigatório para integração."
     },
     {
@@ -58525,7 +58525,7 @@
       },
       "statement": "Revelar conteúdo de deliberação que a Câmara tenha decidido manter secreto pode constituir ato atentatório ao decoro parlamentar.",
       "correctAnswer": "C",
-      "explanation": "A conduta integra o art. 5º, inciso V, do Código de Ética.",
+      "explanation": "A regra alcança uma situação específica: a Câmara ou uma comissão decidiu que determinado debate ou deliberação deve permanecer secreto, e alguém revela seu conteúdo. Essa divulgação pode configurar conduta atentatória ao decoro. O dispositivo não transforma toda conversa parlamentar em sigilosa; é necessário que o órgão tenha decidido manter aquele conteúdo em segredo. Fundamento: Código de Ética da Câmara, art. 5º, V.",
       "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão; CI obrigatório para integração."
     },
     {
@@ -61101,7 +61101,7 @@
       },
       "statement": "A proposta de emenda constitucional precisa ser aprovada em dois turnos em cada Casa do Congresso, por três quintos dos votos dos respectivos membros.",
       "correctAnswer": "C",
-      "explanation": "O art. 60, § 2º, fixa dois turnos e quórum de três quintos em cada Casa.",
+      "explanation": "Para alterar a Constituição, não basta a maioria simples usada em muitas votações de leis. A proposta de emenda à Constituição deve passar por dois turnos na Câmara e, depois, por dois turnos no Senado. Em cada turno, precisa receber votos favoráveis de três quintos dos membros da respectiva Casa. O quórum é calculado separadamente em cada Casa, não pela soma de deputados e senadores. Fundamento: Constituição Federal, art. 60, § 2º.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md / 1. Emenda constitucional: mudar a regra fundamental; CI obrigatório antes de integrar."
     },
     {
@@ -61381,7 +61381,7 @@
       },
       "statement": "A soberania e a cidadania figuram entre os fundamentos do Estado Democrático de Direito brasileiro previstos no art. 1º da Constituição.",
       "correctAnswer": "C",
-      "explanation": "O art. 1º enumera soberania e cidadania, entre outros fundamentos.",
+      "explanation": "O art. 1º apresenta os fundamentos que sustentam a organização política do Brasil. Entre eles estão a soberania, que expressa a autoridade do Estado brasileiro para se organizar sem subordinação a outro Estado, e a cidadania, que reconhece a participação da pessoa na vida política e seus direitos e deveres. Ambas aparecem nesse rol. Não se devem confundir os fundamentos do art. 1º com os objetivos da República, enumerados no art. 3º. Fundamento: Constituição Federal, arts. 1º, I e II, e 3º.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/01 - principios fundamentais.md / Art. 1º — Estado Democrático de Direito e fundamentos; CI obrigatório antes de integrar."
     },
     {
@@ -61437,7 +61437,7 @@
       },
       "statement": "O Congresso Nacional exerce o Poder Legislativo federal por meio de duas Casas: Câmara dos Deputados e Senado Federal.",
       "correctAnswer": "C",
-      "explanation": "O art. 44 institui o sistema bicameral no Congresso Nacional.",
+      "explanation": "No plano federal, o Poder Legislativo é exercido pelo Congresso Nacional, formado por duas Casas: Câmara dos Deputados e Senado Federal. Por isso, o sistema é bicameral. A Câmara representa o povo e o Senado representa os estados e o Distrito Federal; as duas Casas atuam em conjunto em algumas situações e separadamente em outras. A afirmação descreve essa composição corretamente. Fundamento: Constituição Federal, arts. 44 e 45.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/06 - poder legislativo.md / Bicameralismo federal; CI obrigatório antes de integrar."
     },
     {

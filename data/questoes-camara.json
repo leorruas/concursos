@@ -10401,7 +10401,7 @@
       },
       "statement": "Em uma fiscalização sobre a conservação de acervos federais, o Tribunal de Contas da União examinou três expedientes. No expediente I, identificou ilegalidade em um ato administrativo autônomo de distribuição de equipamentos, sem natureza contratual. O órgão corrigiu inteiramente o ato dentro do prazo formalmente fixado pelo Tribunal. Nos expedientes II e III, a ilegalidade recaía sobre contratos administrativos distintos, ainda em execução, e o TCU levou os casos ao Congresso Nacional para as medidas constitucionais cabíveis. No expediente II haviam transcorrido sessenta dias do início do prazo constitucional, sem providência. No expediente III haviam passado noventa e cinco dias, e nem o Congresso nem o Poder Executivo haviam efetivado as medidas cabíveis. Discute-se a sustação no mérito, sem pedido de medida cautelar.\n\nCom base nessa situação, julgue o item a seguir.\n\nNo expediente I, a constatação inicial de ilegalidade basta para o TCU sustar a execução do ato, mesmo depois de cumprida integralmente a determinação de correção.",
       "correctAnswer": "E",
-      "explanation": "Os incisos IX e X do art. 71 vinculam a sustação do ato impugnado ao descumprimento da determinação do TCU. O órgão corrigiu o ato no prazo, portanto esse pressuposto não está presente. Se a determinação tivesse sido descumprida, o Tribunal poderia sustar a execução do ato e teria de comunicar a decisão às duas Casas.",
+      "explanation": "**Regra:** diante de ilegalidade em ato administrativo não contratual, o TCU assina prazo para que o órgão adote as providências necessárias ao cumprimento da lei. Se a determinação não for atendida, o Tribunal pode sustar a execução do ato e deve comunicar a decisão à Câmara e ao Senado (Constituição, art. 71, IX e X). **Aplicação:** o órgão corrigiu integralmente o ato dentro do prazo; falta, portanto, o descumprimento que permitiria essa sustação. **Distinção:** a ilegalidade inicial gera determinação corretiva; a sustação prevista no inciso X depende da etapa posterior de não atendimento. (Constituição, art. 71, IX e X.)",
       "reviewEvidence": "Constituição Federal, art. 71, IX e X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. O item 112 do TCU 2025 fornece referência temática de sustação. Estrutura compartilhada cotejada com itens 47 e 48 da Câmara aplicada em 2026.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10435,7 +10435,7 @@
       },
       "statement": "Em uma fiscalização sobre a conservação de acervos federais, o Tribunal de Contas da União examinou três expedientes. No expediente I, identificou ilegalidade em um ato administrativo autônomo de distribuição de equipamentos, sem natureza contratual. O órgão corrigiu inteiramente o ato dentro do prazo formalmente fixado pelo Tribunal. Nos expedientes II e III, a ilegalidade recaía sobre contratos administrativos distintos, ainda em execução, e o TCU levou os casos ao Congresso Nacional para as medidas constitucionais cabíveis. No expediente II haviam transcorrido sessenta dias do início do prazo constitucional, sem providência. No expediente III haviam passado noventa e cinco dias, e nem o Congresso nem o Poder Executivo haviam efetivado as medidas cabíveis. Discute-se a sustação no mérito, sem pedido de medida cautelar.\n\nCom base nessa situação, julgue o item a seguir.\n\nNo expediente II, o TCU já pode adotar diretamente a sustação do contrato com fundamento no mesmo rito que se aplica aos atos administrativos autônomos.",
       "correctAnswer": "E",
-      "explanation": "O objeto é um contrato, por isso se aplica o art. 71, § 1º. A sustação cabe inicialmente ao Congresso Nacional, que solicita ao Executivo as medidas cabíveis. Sessenta dias de inércia não atingem o prazo de noventa dias do § 2º. Se o objeto fosse um ato administrativo não contratual, seria preciso verificar os pressupostos do inciso X.",
+      "explanation": "**Regra:** quando a ilegalidade está em contrato, o rito constitucional é específico: o Congresso Nacional susta o contrato e solicita ao Executivo as medidas cabíveis (art. 71, § 1º). Se essas medidas não forem efetivadas em noventa dias, o Tribunal de Contas decide a respeito (§ 2º). **Aplicação:** transcorreram apenas sessenta dias, então o prazo para a atuação subsidiária do TCU ainda está correndo; o Tribunal não pode usar desde logo o rito aplicável a atos administrativos não contratuais. **Pegadinha:** primeiro identifique o objeto — contrato ou outro ato — e só então defina quem susta e quando. (Constituição, art. 71, X e §§ 1º e 2º.)",
       "reviewEvidence": "Constituição Federal, art. 71, X e § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. O item 112 do TCU 2025 fornece referência temática de sustação. Estrutura compartilhada cotejada com itens 47 e 48 da Câmara aplicada em 2026.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10469,7 +10469,7 @@
       },
       "statement": "Em uma fiscalização sobre a conservação de acervos federais, o Tribunal de Contas da União examinou três expedientes. No expediente I, identificou ilegalidade em um ato administrativo autônomo de distribuição de equipamentos, sem natureza contratual. O órgão corrigiu inteiramente o ato dentro do prazo formalmente fixado pelo Tribunal. Nos expedientes II e III, a ilegalidade recaía sobre contratos administrativos distintos, ainda em execução, e o TCU levou os casos ao Congresso Nacional para as medidas constitucionais cabíveis. No expediente II haviam transcorrido sessenta dias do início do prazo constitucional, sem providência. No expediente III haviam passado noventa e cinco dias, e nem o Congresso nem o Poder Executivo haviam efetivado as medidas cabíveis. Discute-se a sustação no mérito, sem pedido de medida cautelar.\n\nCom base nessa situação, julgue o item a seguir.\n\nNo expediente III, o TCU pode decidir a respeito do caso diante da inércia durante o prazo constitucional, embora a sustação do contrato caiba inicialmente ao Congresso Nacional.",
       "correctAnswer": "C",
-      "explanation": "A regra inicial é a do § 1º, que atribui ao Congresso a sustação e a solicitação de medidas ao Executivo. Como se passaram mais de noventa dias sem efetivação das medidas, aplica-se o § 2º: o Tribunal decidirá a respeito. Se o prazo ainda estivesse em curso, essa competência por inércia não teria sido acionada.",
+      "explanation": "**Regra:** em contrato, cabe inicialmente ao Congresso sustá-lo e solicitar ao Executivo as medidas cabíveis. Se, em noventa dias, essas medidas não forem efetivadas, o Tribunal de Contas decide a respeito (Constituição, art. 71, §§ 1º e 2º). **Aplicação:** já se passaram noventa e cinco dias sem providência efetiva, portanto a condição temporal para a atuação do TCU foi preenchida. **Limite:** o dispositivo diz que o Tribunal decidirá a respeito; não se deve simplificar isso como poder de sustação inicial automática do contrato. (Constituição, art. 71, §§ 1º e 2º.)",
       "reviewEvidence": "Constituição Federal, art. 71, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. O item 112 do TCU 2025 fornece referência temática de sustação. Estrutura compartilhada cotejada com itens 47 e 48 da Câmara aplicada em 2026.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -11111,7 +11111,7 @@
       },
       "statement": "Um projeto de lei complementar obtém 300 votos favoráveis na Câmara. No Senado, a votação final registra 40 votos favoráveis e 30 contrários. A maioria de votos presentes no Senado é suficiente para aprovar o projeto porque a Câmara já superou a maioria absoluta.",
       "correctAnswer": "E",
-      "explanation": "Lei complementar exige maioria absoluta em cada Casa que delibera. A Câmara alcançou o mínimo de 257, mas o Senado precisa de 41 e registrou 40. Um voto favorável adicional no Senado satisfaria o requisito.",
+      "explanation": "**Regra:** lei complementar é aprovada por maioria absoluta dos membros de cada Casa que a delibera, não apenas pela maioria dos presentes (Constituição, art. 69). **Aplicação:** a Câmara superou seu mínimo, mas, no Senado, 40 votos não alcançam a maioria absoluta dos 81 senadores, que é 41. A aprovação na Câmara não compensa o resultado insuficiente na Casa revisora. **Pegadinha:** o quórum é aferido separadamente em cada Casa e considera sua composição total. (Constituição, arts. 65 e 69.)",
       "reviewEvidence": "CF, arts. 65 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
     },
     {
@@ -11375,7 +11375,7 @@
       },
       "statement": "A comissão mista de orçamento recebe pronunciamento do Tribunal de Contas da União pela irregularidade de uma despesa. Ao examinar suas consequências, conclui que o gasto não pode produzir dano irreparável nem grave lesão à economia pública. Só o pronunciamento do Tribunal obriga a comissão a propor a sustação ao Congresso.",
       "correctAnswer": "E",
-      "explanation": "O procedimento do art. 72, § 2º, exige que o Tribunal considere a despesa irregular e que a comissão identifique pelo menos um dos riscos previstos. Se o gasto pudesse causar grave lesão à economia pública, a comissão deveria propor a sustação ao Congresso.",
+      "explanation": "**Regra:** ao receber pronunciamento do TCU sobre despesa não autorizada, a comissão mista pode solicitar à autoridade responsável esclarecimentos em cinco dias; se não forem prestados ou forem insuficientes, pede ao Tribunal pronunciamento conclusivo. A sustação é proposta ao Congresso quando a comissão identificar risco de dano irreparável ou grave lesão à economia pública (Constituição, art. 72, §§ 1º e 2º). **Aplicação:** o TCU considerar a despesa irregular não basta, isoladamente, para obrigar a proposta de sustação; no caso, a comissão afastou os riscos qualificados. **Distinção:** irregularidade e risco grave são requisitos relacionados, mas não intercambiáveis. (Constituição, art. 72, §§ 1º e 2º.)",
       "reviewEvidence": "CF, arts. 71, caput, e 72, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
     },
     {
@@ -11705,7 +11705,7 @@
       },
       "statement": "O Senado recebe da Câmara um projeto de lei ordinária. Em vez de aprovar o texto recebido, aprova um substitutivo que preserva a matéria e altera o modo de executá-la. A aprovação do substitutivo exige que o projeto retorne à Câmara.",
       "correctAnswer": "C",
-      "explanation": "A aprovação de substitutivo constitui emenda pela Casa revisora. O retorno permite à iniciadora apreciar a alteração. Se a revisora rejeitasse integralmente o projeto, sem aprovar substitutivo, o resultado seria o arquivamento.",
+      "explanation": "**Regra:** aprovado um projeto de lei por uma Casa e enviado à revisora, a revisora pode aprová-lo ou emendá-lo. Se aprovar substitutivo, há alteração do texto: ele retorna à Casa iniciadora para apreciação da mudança (Constituição, art. 65, parágrafo único). **Aplicação:** o Senado aprovou substitutivo, então o projeto deve voltar à Câmara. **Distinção:** se o Senado rejeitasse integralmente o projeto, não haveria texto aprovado a devolver e a proposição seria arquivada; substitutivo aprovado não equivale a rejeição total. (Constituição, art. 65, caput e parágrafo único.)",
       "reviewEvidence": "CF, art. 65, caput e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 92, da Câmara de 2014."
     },
     {
@@ -11771,7 +11771,7 @@
       },
       "statement": "Ao preparar o próximo exercício financeiro, o Congresso aprova resolução que delega ao Presidente a elaboração da lei de diretrizes orçamentárias. A resolução dispensa a apreciação posterior pelo Congresso. Essa modalidade de delegação é válida por se tratar de projeto de iniciativa presidencial.",
       "correctAnswer": "E",
-      "explanation": "A iniciativa presidencial e a elaboração por delegação são institutos distintos. A Constituição atribui ao Executivo a iniciativa da LDO e veda delegar sua elaboração como lei delegada. Prever apreciação posterior pelo Congresso também não afastaria a vedação.",
+      "explanation": "**Regra:** a Constituição proíbe delegação legislativa sobre matérias reservadas a lei complementar e sobre planos plurianuais, diretrizes orçamentárias e orçamentos (art. 68, § 1º, III). A iniciativa da LDO é do Executivo (art. 165, II), mas isso não autoriza o presidente a elaborá-la por delegação do Congresso como lei delegada. **Aplicação:** a resolução não pode contornar a vedação; dispensar a apreciação posterior tampouco a tornaria válida. **Distinção:** iniciativa presidencial e delegação legislativa são institutos diferentes. (Constituição, arts. 68, § 1º, III, e 165, II.)",
       "reviewEvidence": "CF, arts. 68, § 1º, III, e 165, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 79, da Câmara de 2014."
     },
     {
@@ -11804,7 +11804,7 @@
       },
       "statement": "Uma comissão da Câmara convoca ministro de Estado para prestar esclarecimentos sobre assunto previamente determinado. O ministro não comparece e apresenta justificativa adequada, acolhida pela comissão. Mesmo assim, a ausência configura crime de responsabilidade apenas por se tratar de convocação formal.",
       "correctAnswer": "E",
-      "explanation": "A Constituição admite a convocação pela comissão, mas associa o crime de responsabilidade à ausência sem justificação adequada. Se o ministro faltasse sem justificativa adequada, estaria presente a condição que falta no caso.",
+      "explanation": "**Regra:** a Câmara ou o Senado, assim como suas comissões, pode convocar ministro de Estado para prestar pessoalmente informações sobre assunto previamente determinado. A ausência sem justificação adequada configura crime de responsabilidade (Constituição, art. 50, caput). **Aplicação:** o ministro não compareceu, mas apresentou justificativa adequada e aceita; falta a condição constitucional de ausência injustificada, de modo que não se configura o crime por esse fundamento. **Pegadinha:** convocação formal não transforma qualquer falta em crime; é preciso observar a ressalva expressa sobre a justificativa. (Constituição, art. 50, caput.)",
       "reviewEvidence": "CF, art. 50, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 76, da Câmara de 2014."
     },
     {
@@ -12002,7 +12002,7 @@
       },
       "statement": "Recebido um projeto de lei, o Presidente da República deixou passar o prazo constitucional sem se manifestar. Depois da sanção tácita, nem o Presidente da República nem, sucessivamente, o Presidente do Senado promulgou a lei no respectivo prazo de 48 horas. A promulgação cabe ao Vice-Presidente do Senado.",
       "correctAnswer": "C",
-      "explanation": "O silêncio no prazo de sanção produz sanção tácita. A promulgação segue uma ordem distinta: Presidente da República, Presidente do Senado e Vice-Presidente do Senado, observados os dois prazos sucessivos. Uma promulgação tempestiva pelo Presidente do Senado encerraria essa sequência.",
+      "explanation": "**Regra:** o presidente tem quinze dias úteis para sancionar ou vetar. O silêncio gera sanção tácita. A partir daí, se o Presidente da República não promulgar a lei em quarenta e oito horas, o Presidente do Senado o fará; se este também não o fizer no mesmo prazo, cabe ao Vice-Presidente do Senado (Constituição, art. 66, §§ 3º e 7º). **Aplicação:** as duas omissões sucessivas narradas completaram a sequência até o Vice-Presidente do Senado. **Distinção:** sanção tácita resolve a etapa de sanção; a promulgação ainda precisa seguir essa ordem e os prazos de 48 horas. (Constituição, art. 66, §§ 3º e 7º.)",
       "reviewEvidence": "CF, art. 66, §§ 3º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 80, da Câmara de 2014."
     },
     {
@@ -12035,7 +12035,7 @@
       },
       "statement": "Um projeto de lei foi rejeitado no Senado. Ainda na mesma sessão legislativa, 257 deputados subscrevem novo projeto sobre a mesma matéria. A iniciativa atende ao requisito de maioria absoluta, embora os signatários pertençam à Casa em que o texto anterior não foi rejeitado.",
       "correctAnswer": "C",
-      "explanation": "A Constituição admite proposta subscrita pela maioria absoluta dos membros de qualquer uma das Casas. Na Câmara, 257 de 513 atingem esse mínimo. Com 256 subscrições e sem proposta que atingisse maioria absoluta no Senado, a condição não seria satisfeita.",
+      "explanation": "**Regra:** em regra, projeto rejeitado não pode ser reapresentado na mesma sessão legislativa. A exceção permite nova proposta sobre a mesma matéria se houver subscrição da maioria absoluta dos membros de qualquer das Casas (Constituição, art. 67). **Aplicação:** na Câmara, 257 assinaturas entre 513 deputados atingem a maioria absoluta; não é necessário obter essa subscrição na Casa que rejeitou o projeto. **Pegadinha:** “qualquer das Casas” permite alcançar o requisito na Câmara ou no Senado, mas maioria simples dos presentes não basta. (Constituição, art. 67.)",
       "reviewEvidence": "CF, art. 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 92, da Câmara de 2014."
     },
     {
@@ -18485,7 +18485,7 @@
       },
       "statement": "Um integrante do Conselho e o representado pertencem a partidos diferentes do mesmo bloco parlamentar. A diferença entre os partidos permite que o primeiro seja relator.",
       "correctAnswer": "E",
-      "explanation": "O dispositivo abrange tanto a coincidência de partido quanto a de bloco parlamentar.",
+      "explanation": "**Regra:** no rito de suspensão de prerrogativas, o relator não pode pertencer ao mesmo partido ou bloco parlamentar do deputado representado. São dois impedimentos alternativos previstos no art. 13, I, a. **Aplicação:** embora os partidos sejam diferentes, representado e integrante pertencem ao mesmo bloco; a vedação continua incidindo. **Pegadinha:** bloco parlamentar tem relevância própria para o impedimento, não basta comparar apenas as legendas individuais. (Código de Ética, art. 13, I, a.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I, a. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -18569,7 +18569,7 @@
       },
       "statement": "O processo identifica vantagem indevida decorrente do uso de recursos públicos em desacordo com o Código de Ética. A aplicação de penalidade disciplinar não afasta o ressarcimento integral ao erário.",
       "correctAnswer": "C",
-      "explanation": "O ressarcimento integral é devido sem prejuízo das sanções disciplinares previstas no Código.",
+      "explanation": "**Regra:** vantagens indevidas provenientes do uso irregular de recursos públicos devem ser integralmente ressarcidas ao erário, sem prejuízo das sanções disciplinares cabíveis (Código de Ética, art. 10, § 3º). **Aplicação:** o parlamentar pode ter de devolver a vantagem e, ao mesmo tempo, responder pelo ilícito disciplinar. **Distinção:** ressarcimento recompõe os recursos públicos; a sanção pune a infração. A devolução não apaga automaticamente a conduta nem substitui a penalidade. (Código de Ética, art. 10, § 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -18989,7 +18989,7 @@
       },
       "statement": "Um cidadão que não integra partido político está impedido de requerer à Mesa representação por ofensa ao decoro, ainda que identifique fatos e provas.",
       "correctAnswer": "E",
-      "explanation": "O Código confere legitimidade própria ao cidadão. A filiação partidária não é condição para formular o requerimento.",
+      "explanation": "**Regra:** qualquer cidadão pode requerer à Mesa que seja apresentada representação contra deputado por conduta incompatível ou atentatória ao decoro, desde que especifique os fatos e as respectivas provas (Código de Ética, art. 9º, § 1º). **Aplicação:** a falta de filiação partidária não impede o cidadão de apresentar o requerimento. **Distinção:** o cidadão provoca a análise da Mesa; não encaminha diretamente a representação ao Conselho nem decide se haverá processo. (Código de Ética, art. 9º, caput e §§ 1º e 2º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19017,7 +19017,7 @@
       },
       "statement": "Declarada leviana e ofensiva à imagem do deputado e da Câmara, a representação é encaminhada à Procuradoria Parlamentar para providências reparadoras.",
       "correctAnswer": "C",
-      "explanation": "A Procuradoria recebe os autos para as medidas de reparação de sua alçada.",
+      "explanation": "**Regra:** quando uma representação ou requerimento contra deputado for considerado leviano ou ofensivo à imagem do parlamentar ou da Câmara, os autos são enviados à Procuradoria Parlamentar para providências reparadoras de sua competência (Código de Ética, art. 15, parágrafo único). **Aplicação:** a remessa descrita segue essa finalidade de reparação. **Distinção:** não é, por si, uma punição disciplinar imposta ao representado nem encerra automaticamente o exame de eventual infração. (Código de Ética, art. 15, parágrafo único; RICD, art. 21.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 15, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19129,7 +19129,7 @@
       },
       "statement": "Depois da defesa inicial, o Conselho pratica atos de instrução. A obrigação de intimar o representado alcança também esses atos.",
       "correctAnswer": "C",
-      "explanation": "O § 5º exige intimação de todos os atos praticados pelo Conselho, inclusive os posteriores à defesa inicial.",
+      "explanation": "**Regra:** o deputado representado deve ser intimado de todos os atos praticados pelo Conselho e pode manifestar-se em todas as fases do processo (Código de Ética, art. 9º, § 5º). **Aplicação:** a garantia não termina com a intimação para apresentar a defesa inicial; também alcança diligências e outros atos posteriores da instrução. **Pegadinha:** defesa escrita e ciência dos atos seguintes são garantias distintas. A primeira não substitui a intimação contínua exigida pelo Código. (Código de Ética, art. 9º, § 5º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19241,7 +19241,7 @@
       },
       "statement": "Um membro do Conselho de Ética é indicado no último ano da legislatura. Encerrada a última sessão legislativa, cessa seu mandato no colegiado.",
       "correctAnswer": "C",
-      "explanation": "O encerramento da última sessão legislativa da legislatura é a ressalva expressa ao mandato no Conselho.",
+      "explanation": "**Regra:** os membros do Conselho de Ética têm mandato de dois anos e, em regra, permanecem em exercício até a posse dos novos integrantes. Há uma exceção: o encerramento da última sessão legislativa da legislatura faz cessar os mandatos no colegiado (Código de Ética, art. 7º, caput). **Aplicação:** como a última sessão legislativa terminou, o conselheiro não permanece até a posse seguinte. **Pegadinha:** a continuidade até a posse vale nas demais transições, mas não afasta a ressalva expressa do final da legislatura. (Código de Ética, art. 7º, caput.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19857,7 +19857,7 @@
       },
       "statement": "Um partido indica ao Conselho de Ética um deputado condenado criminalmente por tribunal em decisão colegiada. Embora ainda caiba recurso, a condenação integra as hipóteses de impedimento para compor o Conselho.",
       "correctAnswer": "C",
-      "explanation": "O dispositivo prevê a condenação criminal por órgão colegiado como impedimento sem exigir trânsito em julgado.",
+      "explanation": "**Regra:** não pode integrar o Conselho de Ética o deputado condenado em processo criminal por decisão de órgão jurisdicional colegiado, ainda que a decisão não tenha transitado em julgado (Código de Ética, art. 7º, § 2º, IV). **Aplicação:** a existência de recurso pendente não afasta o impedimento descrito. **Limite:** o fundamento é a condenação colegiada; não se deve confundi-la com mera investigação, denúncia recebida ou decisão individual ainda não confirmada por colegiado. (Código de Ética, art. 7º, § 2º, IV.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 2º, IV. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -19997,7 +19997,7 @@
       },
       "statement": "O Código de Ética inclui expressamente decisões manifestamente ilegais dos órgãos da Câmara no dever previsto no art. 3º, IX.",
       "correctAnswer": "E",
-      "explanation": "O inciso prevê o dever de respeitar decisões legítimas dos órgãos da Casa.",
+      "explanation": "**Regra:** entre os deveres fundamentais está respeitar as decisões legítimas dos órgãos da Casa (Código de Ética, art. 3º, IX). **Aplicação:** o item erra ao ampliar o dever para incluir expressamente decisões manifestamente ilegais; essa expressão não consta da regra. **Distinção:** discordar politicamente de uma decisão legítima não libera o deputado de respeitá-la, mas a obrigação ética citada não transforma em legítimo um ato manifestamente ilegal. (Código de Ética, art. 3º, IX.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, IX. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20473,7 +20473,7 @@
       },
       "statement": "Para apreciar conduta enquadrada no art. 5º, o Código de Ética exige prova, mesmo que a narrativa apresentada seja detalhada.",
       "correctAnswer": "C",
-      "explanation": "O detalhamento da acusação não substitui a exigência de provas prevista no parágrafo único.",
+      "explanation": "**Regra:** as condutas do art. 5º, que enumera atos atentatórios ao decoro, só serão objeto de apreciação mediante provas (parágrafo único). **Aplicação:** uma narrativa detalhada pode indicar o que deve ser apurado, mas não substitui a prova necessária para apreciar a imputação. **Distinção:** especificar fatos e apresentar provas são exigências relacionadas, porém diferentes; a precisão da acusação não cria presunção de que ela seja verdadeira. (Código de Ética, art. 5º, parágrafo único, e art. 9º, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20501,7 +20501,7 @@
       },
       "statement": "Uma imputação de ato atentatório ao decoro ganhou divulgação na imprensa. A divulgação, por si só, dispensa a prova exigida para a apreciação da conduta pelo Código.",
       "correctAnswer": "E",
-      "explanation": "O art. 5º, parágrafo único, exige prova. A repercussão pública da alegação não cria exceção a esse requisito.",
+      "explanation": "**Regra:** o Código determina que condutas do art. 5º só sejam apreciadas mediante provas, sem prever exceção por repercussão pública da acusação. **Aplicação:** notícias ou ampla divulgação podem tornar a imputação conhecida, mas não comprovam por si mesmas a conduta nem eliminam o requisito probatório. **Pegadinha:** publicidade de uma alegação não é prova automática do fato. (Código de Ética, art. 5º, parágrafo único.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20585,7 +20585,7 @@
       },
       "statement": "Em recurso disciplinar à Comissão de Constituição e Justiça e de Cidadania, o deputado aponta que o Conselho descumpriu regra regimental de defesa. O exame da comissão deve se concentrar nesse vício indicado.",
       "correctAnswer": "C",
-      "explanation": "A competência recursal abrange os vícios constitucionais, regimentais ou do próprio Código que forem apontados.",
+      "explanation": "**Regra:** concluído o processo, o representado pode recorrer à Comissão de Constituição e Justiça e de Cidadania contra ato do Conselho que tenha violado norma constitucional, regimental ou do próprio Código; a Comissão examina exclusivamente os vícios apontados (Código de Ética, art. 14, § 4º, VII). **Aplicação:** alegada violação do direito de defesa previsto no Regimento, cabe analisar esse defeito procedimental. **Limite:** o recurso não autoriza reabrir todos os fatos sem relação com o vício indicado. (Código de Ética, art. 14, § 4º, VII.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 13, IV, e 14, § 4º, VII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -20613,7 +20613,7 @@
       },
       "statement": "Sem indicar violação constitucional, regimental ou do Código, um deputado recorre à Comissão de Constituição e Justiça e de Cidadania para que ela reavalie o mérito de todas as provas. Esse reexame integra a competência recursal da comissão.",
       "correctAnswer": "E",
-      "explanation": "O recurso tem cognição limitada aos vícios normativos apontados. A comissão não funciona como nova instância geral de mérito.",
+      "explanation": "**Regra:** a competência recursal da CCJC, nesse procedimento, é limitada à análise de atos que contrariem norma constitucional, regimental ou do Código, e apenas quanto aos vícios indicados pelo recorrente (Código de Ética, art. 14, § 4º, VII). **Aplicação:** discordar da avaliação das provas, sem apontar uma violação normativa, não permite exigir que a Comissão reexamine livremente todo o mérito. **Distinção:** controle de legalidade do procedimento não é uma nova instância geral para refazer o julgamento disciplinar. (Código de Ética, art. 14, § 4º, VII.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 13, IV, e 14, § 4º, VII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {

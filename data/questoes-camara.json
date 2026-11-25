@@ -12129,7 +12129,7 @@
       },
       "statement": "A previsão constitucional do direito à saúde gera deveres para o poder público cuja implementação exige políticas, serviços e organização dos recursos.",
       "correctAnswer": "C",
-      "explanation": "O art. 196 prevê a garantia por meio de políticas sociais e econômicas, com redução de riscos e acesso a ações e serviços.",
+      "explanation": "O direito à saúde não se concretiza apenas com a ausência de interferência estatal: exige políticas públicas, estrutura e serviços capazes de reduzir riscos e permitir acesso às ações de saúde (Constituição, art. 196). Por isso, o item está certo ao associar a garantia à implementação de políticas sociais e econômicas. A regra não promete risco zero nem atendimento de qualquer demanda sem critérios; exige atuação pública organizada para promover, proteger e recuperar a saúde, com acesso universal e igualitário.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 6º e 196. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -12157,7 +12157,7 @@
       },
       "statement": "O reconhecimento constitucional do caráter prestacional dos direitos sociais permite concluir que os meios materiais necessários à sua execução são, por definição, ilimitados.",
       "correctAnswer": "E",
-      "explanation": "O caráter prestacional aponta para deveres positivos de implementação. A existência desses deveres não implica disponibilidade ilimitada de meios.",
+      "explanation": "Direitos sociais, como saúde, geram deveres positivos para o Estado: é preciso organizar políticas, serviços e ações para torná-los acessíveis. Isso não significa que os recursos públicos sejam ilimitados, nem permite concluir que qualquer pedido individual será atendido sem considerar as regras aplicáveis. O art. 196, por exemplo, garante a saúde por meio de políticas sociais e econômicas e de acesso universal e igualitário. O item está errado porque transforma a existência de deveres de implementação em afirmação de recursos materiais sem limite.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 6º e 196. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -12185,7 +12185,7 @@
       },
       "statement": "Uma proposta estadual prevê manter sete conselheiros no Tribunal de Contas do Estado. Esse número corresponde à composição prevista pela Constituição Federal.",
       "correctAnswer": "C",
-      "explanation": "O art. 75 fixa sete conselheiros para os tribunais estaduais. Os nove ministros compõem o Tribunal de Contas da União.",
+      "explanation": "A Constituição estabelece nove ministros para o Tribunal de Contas da União (art. 73) e determina que cada Tribunal de Contas estadual seja integrado por sete conselheiros (art. 75, parágrafo único). Por isso, a proposta do enunciado mantém o número constitucional e o item está certo. Não se aplica automaticamente o número do TCU aos estados: o próprio art. 75 fixa uma composição estadual específica.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 73 e 75. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -12213,7 +12213,7 @@
       },
       "statement": "O estado pode ampliar seu Tribunal de Contas para nove conselheiros invocando simetria com a composição do Tribunal de Contas da União.",
       "correctAnswer": "E",
-      "explanation": "A Constituição fixa especificamente sete conselheiros para o tribunal estadual. A simetria não substitui essa regra expressa.",
+      "explanation": "A simetria orienta aspectos da organização dos tribunais de contas estaduais a partir do modelo federal, mas não autoriza afastar uma regra constitucional expressa. O art. 73 prevê nove ministros no TCU; já o art. 75, parágrafo único, determina sete conselheiros para os tribunais estaduais. Assim, o item está errado: o estado não pode elevar a composição para nove invocando simetria, pois a própria Constituição especifica o número aplicável.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 73 e 75. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16077,7 +16077,7 @@
       },
       "statement": "Um deputado de estado e partido distintos dos do representado pode relatar o caso mesmo sendo filiado ao partido autor da representação.",
       "correctAnswer": "E",
-      "explanation": "O inciso I, c, também impede a designação de filiado ao partido autor.",
+      "explanation": "A escolha do relator no processo disciplinar precisa respeitar impedimentos independentes previstos no Código de Ética, art. 13, I. Além de não poder pertencer ao partido ou bloco do representado nem ao mesmo estado, o relator, quando a representação é de iniciativa de partido, não pode integrar a agremiação autora (alíneas a a c). Assim, o deputado do enunciado continua impedido mesmo sendo de outro estado e de partido diferente do representado: o vínculo com o partido que apresentou a representação é suficiente. O item está errado.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I, c. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -16609,7 +16609,7 @@
       },
       "statement": "O Tribunal de Contas da União considera irregular uma despesa examinada no procedimento do art. 72. Se a comissão mista julgar que o gasto pode causar dano irreparável ou grave lesão à economia pública, deve propor sua sustação ao Congresso.",
       "correctAnswer": "C",
-      "explanation": "A proposta exige manifestação do Tribunal pela irregularidade e avaliação da comissão quanto ao risco. A comissão propõe a sustação ao Congresso.",
+      "explanation": "No procedimento do art. 72 da Constituição, o Tribunal de Contas da União examina despesas e comunica a irregularidade à comissão mista. Se a comissão também avaliar que o gasto pode causar dano irreparável ou grave lesão à economia pública, propõe ao Congresso que o suste (§ 2º). O item está certo porque descreve as duas condições e identifica o destinatário da proposta. A comissão não interrompe diretamente a despesa: ela leva a proposta ao Congresso Nacional.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 72, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16637,7 +16637,7 @@
       },
       "statement": "Recebida a conclusão do Tribunal de Contas da União de que uma despesa é irregular, a comissão mista deve sustá-la diretamente, mesmo sem avaliar risco de dano irreparável ou de grave lesão à economia pública.",
       "correctAnswer": "E",
-      "explanation": "No procedimento do art. 72, § 2º, a comissão avalia também o risco e propõe a sustação ao Congresso. Ela não susta diretamente a despesa.",
+      "explanation": "A conclusão do TCU de que uma despesa é irregular não autoriza a comissão mista a sustá-la diretamente. Pelo art. 72, § 2º, da Constituição, a comissão avalia se o gasto pode causar dano irreparável ou grave lesão à economia pública e, se entender que sim, propõe ao Congresso Nacional a sustação. Portanto, o item está errado em dois pontos: dispensa a avaliação do risco e atribui à comissão uma decisão que ela apenas propõe ao Congresso.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 72, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -17449,7 +17449,7 @@
       },
       "statement": "O Plenário suspende o exercício do mandato de um deputado por 121 dias. O suplente será convocado imediatamente após a publicação da resolução que decreta a sanção.",
       "correctAnswer": "C",
-      "explanation": "O prazo de suspensão supera 120 dias. A publicação da resolução é o marco para a convocação imediata.",
+      "explanation": "O Código de Ética prevê convocação imediata do suplente quando a suspensão do exercício do mandato ultrapassa 120 dias; o marco é a publicação da resolução que aplica a sanção (art. 14, § 2º). Como 121 dias excedem o limite, o suplente é convocado logo após a publicação, e o item está certo. O limite é estrito: uma suspensão de exatamente 120 dias não é “superior” a 120 e, por essa regra específica, não aciona a convocação.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 14, § 2º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17729,7 +17729,7 @@
       },
       "statement": "Dois estados têm populações de tamanhos muito diferentes. A Constituição atribui a cada um deles o mesmo número total de cadeiras no Senado.",
       "correctAnswer": "C",
-      "explanation": "Cada estado e o Distrito Federal elegem três senadores. A população não é o critério de distribuição dessas cadeiras.",
+      "explanation": "O Senado representa os estados e o Distrito Federal em igualdade numérica: cada unidade elege três senadores (Constituição, art. 46, § 1º). Assim, estados com populações diferentes têm o mesmo número de cadeiras nessa Casa, e o item está certo. Essa igualdade contrasta com a Câmara dos Deputados, onde a representação é proporcional à população, respeitados os limites do art. 45, § 1º. A diferença decorre das funções representativas distintas das duas Casas no Congresso bicameral.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 45 e 46. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -17757,7 +17757,7 @@
       },
       "statement": "Se a população de um estado duplicar, sua bancada no Senado poderá passar de três a seis senadores pela aplicação do critério constitucional de proporcionalidade populacional.",
       "correctAnswer": "E",
-      "explanation": "O número de senadores é fixo por estado e pelo Distrito Federal. A população é critério para a representação na Câmara dos Deputados.",
+      "explanation": "A Constituição usa critérios diferentes para compor as duas Casas. Na Câmara, a quantidade de deputados por unidade da Federação é proporcional à população, dentro de limites constitucionais (art. 45, § 1º). No Senado, cada estado e o Distrito Federal elegem três senadores, sem ajuste pelo tamanho da população (art. 46, § 1º). Portanto, o item está errado: a população pode influenciar o número de deputados, mas não aumenta a bancada de senadores de um estado.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 45 e 46. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {

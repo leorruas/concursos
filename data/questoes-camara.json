@@ -12913,7 +12913,7 @@
       },
       "statement": "Com 240 deputados presentes, 80 apoiam requerimento para que o Plenário decida de imediato se concede efeito suspensivo ao recurso contra decisão em questão de ordem. O apoiamento atinge o mínimo regimental.",
       "correctAnswer": "C",
-      "explanation": "O requisito é um terço dos presentes. O apoiamento permite a deliberação imediata, sem conceder por si só o efeito suspensivo.",
+      "explanation": "O art. 95, § 9º, do Regimento Interno da Câmara permite que um deputado peça ao Plenário uma decisão imediata sobre o efeito suspensivo de um recurso contra decisão em questão de ordem, desde que haja apoio de um terço dos presentes. Com 240 deputados na sessão, um terço corresponde a 80; por isso, o número do enunciado atinge o mínimo e o item está certo. Esse cálculo usa os presentes, não os 513 membros da Câmara. O apoio só permite que o pedido seja decidido de imediato: não concede, por si mesmo, o efeito suspensivo.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 95, § 9º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -12941,7 +12941,7 @@
       },
       "statement": "Uma vez apoiado por um terço dos presentes, o requerimento de decisão imediata concede automaticamente efeito suspensivo ao recurso sobre a questão de ordem.",
       "correctAnswer": "E",
-      "explanation": "O apoiamento é requisito para o Plenário decidir de imediato. A concessão do efeito depende dessa decisão.",
+      "explanation": "O apoiamento de um terço dos presentes é uma condição para que o Plenário decida imediatamente sobre o efeito suspensivo do recurso contra decisão em questão de ordem (RICD, art. 95, § 9º). Ele não decide o pedido. Portanto, o item está errado ao dizer que o efeito suspensivo nasce automaticamente quando se reúne o apoio: ainda cabe ao Plenário deliberar se o concede. Pense em duas etapas distintas: primeiro, o apoio abre a possibilidade de decisão imediata; depois, o Plenário decide o efeito do recurso.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 95, § 9º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -13081,7 +13081,7 @@
       },
       "statement": "Um prazo do Conselho de Ética em curso é alcançado pelo recesso. Sem inclusão de matéria da competência do Conselho na pauta de convocação extraordinária, o prazo fica suspenso.",
       "correctAnswer": "C",
-      "explanation": "O recesso suspende os prazos. A ressalva exige a inclusão de matéria da competência do Conselho na convocação extraordinária.",
+      "explanation": "Os prazos do Conselho de Ética são contados em dias úteis e ficam suspensos durante o recesso parlamentar (Código de Ética, art. 8º, § 3º). A exceção só vale se matéria da competência do próprio Conselho for incluída na pauta da convocação extraordinária, conforme o § 2º. No cenário, não há essa inclusão; portanto, o prazo fica suspenso e o item está certo. Uma convocação extraordinária para assunto alheio ao Conselho não reativa os prazos disciplinares.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 8º, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -13137,7 +13137,7 @@
       },
       "statement": "Um relator deixa vencer prazo que o Código lhe atribui em processo disciplinar. O presidente do Conselho pode designar substituto elegível mesmo antes de se esgotar o prazo global do processo.",
       "correctAnswer": "C",
-      "explanation": "O descumprimento do prazo próprio do relator é suficiente para autorizar a substituição ou a avocação, observadas as condições do Código.",
+      "explanation": "O Código fixa prazos para atos do relator durante a instrução do processo disciplinar. Se ele deixa passar um desses prazos, o presidente do Conselho de Ética pode avocar a relatoria ou designar substituto que cumpra os requisitos de impedimento (Código de Ética, art. 16, § 4º). Não é preciso esperar que termine o prazo global do processo: a regra responde ao atraso individual do relator. Se a instrução ainda estiver pendente, o substituto tem até cinco dias úteis para concluí-la; se já estiver concluída, deve apresentar o parecer em até cinco dias úteis. O item está certo.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 16, § 4º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -13361,7 +13361,7 @@
       },
       "statement": "Durante a tramitação de projeto de iniciativa presidencial submetido à urgência constitucional, o Senado aprova emendas. O prazo constitucional para a Câmara apreciar essas emendas é de dez dias.",
       "correctAnswer": "C",
-      "explanation": "A apreciação das emendas pelo primeiro colegiado tem prazo específico de dez dias, distinto dos prazos de deliberação inicial.",
+      "explanation": "Quando o Senado altera um projeto de lei sob urgência constitucional, o texto volta à Câmara, que é a Casa iniciadora. A Constituição dá à Câmara até dez dias para apreciar as emendas do Senado (art. 64, § 4º). Esse é um prazo específico para examinar as alterações; não se confunde com os 45 dias previstos para cada Casa se manifestar sobre o projeto na tramitação urgente. Assim, o item está certo: a Câmara deve avaliar as emendas dentro do prazo próprio de dez dias.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 64, §§ 2º a 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -14425,7 +14425,7 @@
       },
       "statement": "Um município adota medidas administrativas de combate à poluição. Essa atuação encontra fundamento na competência comum dos entes federativos.",
       "correctAnswer": "C",
-      "explanation": "O art. 23, VI, inclui todos os entes na competência material de proteger o meio ambiente e combater a poluição.",
+      "explanation": "A Constituição divide competências administrativas (o que os entes devem ou podem fazer na prática) e competências legislativas (quem pode produzir leis sobre cada assunto). O art. 23, VI, inclui União, estados, Distrito Federal e municípios na proteção do meio ambiente e no combate à poluição. Por isso, um município pode adotar medidas administrativas contra a poluição, e o item está certo. Não confunda essa competência comum de atuação com a competência para editar normas gerais ambientais, que segue a repartição legislativa do art. 24.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 23, VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16217,7 +16217,7 @@
       },
       "statement": "Instaurado processo por crime de responsabilidade contra o Presidente da República, o julgamento cabe ao Senado, sob a presidência do Presidente do Supremo Tribunal Federal.",
       "correctAnswer": "C",
-      "explanation": "O Senado processa e julga. O Presidente do STF preside o julgamento nas hipóteses dos incisos I e II.",
+      "explanation": "No processo por crime de responsabilidade do Presidente da República, o Senado Federal mantém a competência para processar e julgar (Constituição, art. 52, I). O Presidente do Supremo Tribunal Federal preside a sessão de julgamento, conforme o parágrafo único do mesmo artigo. Presidir os trabalhos não significa ser o órgão julgador: o julgamento e a decisão continuam sendo do Senado. Portanto, o item está certo. A banca tenta trocar a função de quem conduz a sessão pela competência de quem decide o caso.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16441,7 +16441,7 @@
       },
       "statement": "O Presidente da República propõe limites globais para a dívida consolidada dos municípios. Cabe ao Senado fixar esses limites.",
       "correctAnswer": "C",
-      "explanation": "O art. 52, VI, atribui a fixação ao Senado, por proposta do Presidente da República.",
+      "explanation": "A Constituição separa a iniciativa da proposta e a decisão final: cabe ao Presidente da República propor limites globais para o montante da dívida consolidada; cabe ao Senado fixá-los (art. 52, VI). A regra alcança a União, os estados, o Distrito Federal e os municípios. Assim, o item está certo: no exemplo, a proposta parte do Presidente e a fixação é feita pelo Senado. O fato de a dívida ser municipal não desloca essa competência para a Câmara Municipal nem torna o Presidente autor da decisão final.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -17197,7 +17197,7 @@
       },
       "statement": "Ao aplicar sanção disciplinar, a autoridade pode desconsiderar atenuantes comprovadas, pois o Código determina considerar apenas gravidade e dano.",
       "correctAnswer": "E",
-      "explanation": "O Código também exige considerar agravantes, atenuantes e antecedentes, além da natureza e gravidade da infração e dos danos.",
+      "explanation": "A sanção disciplinar deve ser individualizada conforme os critérios do Código de Ética. Além da natureza e da gravidade da infração e dos danos causados à Câmara e ao Congresso, o art. 10, § 1º, manda considerar circunstâncias agravantes ou atenuantes e os antecedentes do infrator. Por isso, o item está errado ao dizer que a autoridade pode ignorar atenuantes comprovadas. A regra busca que a resposta considere o caso concreto, e não apenas o tipo de conduta ou o dano produzido.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10, § 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17225,7 +17225,7 @@
       },
       "statement": "A divulgação de documento oficial sigiloso protegido na forma regimental, enquadrada no art. 5º, VI, constitui ato atentatório ao decoro e pode ensejar suspensão de prerrogativas.",
       "correctAnswer": "C",
-      "explanation": "Essa conduta é classificada pelo art. 5º, VI. O art. 13 prevê suspensão de prerrogativas para os incisos VI a VIII do art. 5º.",
+      "explanation": "O Código de Ética considera atentatória ao decoro a divulgação de informação ou documento oficial sigiloso conhecido na forma regimental (art. 5º, VI). Para essa conduta, o art. 13 prevê processo que pode levar à suspensão de prerrogativas regimentais. Logo, o item está certo ao classificá-la como ato atentatório e dizer que pode ensejar essa sanção. “Pode” é importante: a consequência não é automática pela simples alegação; exige apuração e decisão no procedimento disciplinar previsto no Código.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 5º, VI, e 13. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {

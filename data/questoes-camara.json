@@ -7761,7 +7761,7 @@
       "reviewStatus": "validada",
       "statement": "Ao votar em comissão, um deputado declarou que acompanhava o parecer, ressalvados pontos que mencionara reservadamente a seu assessor. Sem indicar a divergência durante a deliberação, pediu que o voto fosse registrado como restrito.\n\nCom base nessa situação, julgue o item a seguir.\n\nPara aplicar a regra regimental sobre voto com restrição, a comissão pode computar esse voto como integralmente favorável, pois o deputado não indicou a divergência.",
       "correctAnswer": "C",
-      "explanation": "O membro precisa expressar em que consiste a divergência quando adota o parecer com restrição. Mencionar uma conversa privada sem explicitar o ponto divergente não cumpre esse requisito. Nessa situação, o regimento considera o voto integralmente favorável.",
+      "explanation": "**Regra:** o membro da comissão pode acompanhar o parecer com restrição, mas precisa dizer claramente em que consiste a divergência. Se não especificar, o Regimento manda computar o voto como integralmente favorável. **Aplicação:** mencionar que havia divergência em conversa reservada não informa ao colegiado qual ponto foi ressalvado; por isso, o voto recebe o tratamento favorável integral. **Pegadinha:** a divergência precisa ser explicitada na deliberação, não apenas existir na intenção do parlamentar. (RICD, art. 57, XV.)",
       "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -7794,7 +7794,7 @@
       "reviewStatus": "validada",
       "statement": "Uma deputada declarou que acompanhava a conclusão do parecer, mas divergia de um fundamento específico. Ela identificou o fundamento e explicou a divergência ao colegiado. A secretaria propôs apagar a ressalva por entender que o resultado final continuava favorável.\n\nCom base nessa situação, julgue o item a seguir.\n\nA regra que trata como integralmente favorável o voto com restrição não explicada autoriza eliminar a ressalva registrada pela deputada.",
       "correctAnswer": "E",
-      "explanation": "A regra alcança a falta de explicitação da divergência. A deputada identificou e explicou sua restrição. Que o voto acompanhe a conclusão não torna aplicável a regra voltada a ressalva inespecífica.",
+      "explanation": "**Regra:** a consequência de considerar o voto integralmente favorável só ocorre quando o parlamentar não explica em que consiste sua restrição. **Aplicação:** a deputada indicou o fundamento específico e explicou a divergência; logo, a regra da ressalva não especificada não autoriza apagar o registro. **Distinção:** acompanhar a conclusão do parecer não significa concordar com todos os fundamentos. O Regimento permite registrar a restrição quando ela é explicitada. (RICD, art. 57, XV.)",
       "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -9609,7 +9609,7 @@
       "reviewStatus": "validada",
       "statement": "Em uma comissão, oito deputados participaram da votação de um parecer, com presença regimental suficiente. Três votaram a favor sem ressalvas, três votaram contra e dois anunciaram voto favorável com restrições sem indicar em que consistia a divergência.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs dois votos sem explicação contam como integralmente favoráveis, resultando em cinco votos a favor do parecer.",
       "correctAnswer": "C",
-      "explanation": "Cada membro que adota o parecer com restrição deve indicar a divergência. Sem essa indicação, o regimento computa o voto como integralmente favorável. São três votos expressos sem ressalvas mais dois com restrições não especificadas.",
+      "explanation": "**Regra:** ao votar com restrição ao parecer, o membro deve explicitar o ponto de divergência; se não o fizer, seu voto é considerado integralmente favorável. **Aplicação:** três votos são favoráveis sem ressalvas e os outros dois também contam como favoráveis, porque as restrições ficaram sem explicação. O resultado, então, é de cinco votos favoráveis e três contrários. **Pegadinha:** o rótulo “com restrição” não muda a contagem quando a divergência não foi especificada. (RICD, art. 57, XV.)",
       "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -9642,7 +9642,7 @@
       "reviewStatus": "validada",
       "statement": "Ao votar em comissão, uma deputada disse que acompanhava o parecer com restrição e indicou a passagem do relatório com a qual discordava, além de explicar a divergência. Na ata, a secretaria registrou o voto como integralmente favorável com base na regra aplicável à falta de especificação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA regra invocada pela secretaria autoriza desconsiderar a restrição que a deputada explicitou.",
       "correctAnswer": "E",
-      "explanation": "O regimento atribui o efeito de voto integralmente favorável quando o membro deixa de indicar a divergência. A deputada indicou a passagem e explicou a restrição. Se apenas tivesse anunciado uma ressalva genérica, a regra invocada seria aplicável.",
+      "explanation": "**Regra:** o efeito de contar o voto como favorável integralmente se limita à falta de indicação da divergência. **Aplicação:** a deputada apontou a passagem contestada e explicou a ressalva; a secretaria não pode usar essa regra para eliminar o registro. **Contraste:** uma declaração genérica de voto “com restrições”, sem explicar quais são, seria tratada como voto favorável integral. A indicação concreta preserva o sentido restrito. (RICD, art. 57, XV.)",
       "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10605,7 +10605,7 @@
       },
       "statement": "O presidente da República encaminhou um projeto de lei ordinária para instituir um programa de digitalização de acervos públicos e solicitou urgência constitucional. A Câmara dos Deputados aprovou o projeto. No Senado, a redação aprovada modificou os critérios de participação dos municípios, sem alterar a finalidade do programa. As emendas foram recebidas pela Câmara, que ainda não as havia apreciado após doze dias corridos, todos fora de recesso. Na pauta da Câmara constavam tanto uma deliberação cujo prazo está fixado na própria Constituição quanto um projeto de lei ordinária sem prazo constitucional. Na mesma sessão legislativa, a Câmara rejeitou integralmente, como revisora, outro projeto, de autoria de senador, sobre a divulgação de dados em bibliotecas públicas. Quarenta e um senadores subscreveram proposta para reapresentar a matéria.\n\nCom base nessa situação, julgue o item a seguir.\n\nA votação no Senado concluiu a deliberação do primeiro projeto, que poderia ter sido remetido diretamente à Presidência da República.",
       "correctAnswer": "E",
-      "explanation": "O Senado atuou como revisor e alterou os critérios de participação. O art. 65, parágrafo único, exige que o projeto retorne à Câmara, a Casa iniciadora. Se o Senado tivesse aprovado o texto sem emendas, essa etapa de retorno seria dispensada.",
+      "explanation": "**Regra:** aprovado o projeto pela Casa iniciadora, ele segue à revisora. Se a revisora alterar o texto, o projeto retorna à iniciadora para apreciar as emendas; não vai direto à sanção. **Aplicação:** o Senado mudou os critérios para os municípios, então o texto precisa voltar à Câmara. A alteração ser pontual, sem mudar a finalidade geral, não elimina o retorno. **Contraste:** se a revisora aprovar exatamente o mesmo texto, ela conclui a votação e pode enviá-lo à Presidência. (Constituição, art. 65, parágrafo único, e art. 66.)",
       "reviewEvidence": "Constituição Federal, art. 65, caput e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. Caso compartilhado calibrado pela Câmara aplicada em 2026, itens 47 e 48; referência de mecanismo na prova Câmara 2014 CB2-03.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -28425,7 +28425,7 @@
       },
       "statement": "O Senado modifica um projeto aprovado pela Câmara, que então aprecia as emendas do Senado e conclui a votação. Cabe à Câmara enviar o projeto à Presidência da República.",
       "correctAnswer": "C",
-      "explanation": "Quando a Casa revisora emenda, o projeto retorna à iniciadora. Concluída a votação ali, a Câmara faz o envio previsto no art. 66.",
+      "explanation": "**Regra:** se a Casa revisora aprovar emendas, a proposição retorna à Casa iniciadora, que aprecia as mudanças. Concluída essa deliberação, a Casa que encerrou a votação envia o projeto à Presidência da República. **Aplicação:** a Câmara examinou as emendas do Senado e concluiu a votação; por isso, cabe à Câmara fazer a remessa. **Pegadinha:** a Casa de origem não determina sozinha quem remete ao Presidente; importa qual Casa concluiu a votação. (Constituição, arts. 65 e 66.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 65 e 66. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -28453,7 +28453,7 @@
       },
       "statement": "A Câmara aprova um projeto e o Senado o aprova sem alterações. Para o envio à Presidência da República, é obrigatório devolvê-lo à Câmara pelo simples fato de ela ter iniciado a votação.",
       "correctAnswer": "E",
-      "explanation": "A remessa cabe à Casa que conclui a votação. Nessa hipótese, o Senado aprovou o texto sem alteração e concluiu a apreciação.",
+      "explanation": "**Regra:** o projeto só retorna à Casa iniciadora quando a Casa revisora o emenda. Se a revisora aprova o texto sem alterações, ela conclui a votação e encaminha o projeto ao Presidente da República. **Aplicação:** o Senado aprovou o mesmo texto da Câmara, então não há etapa de devolução. **Pegadinha:** não confunda “Casa iniciadora” com “Casa que sempre envia”; a regra constitucional atribui a remessa à Casa que conclui a votação. (Constituição, arts. 65 e 66.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 65 e 66. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -64769,7 +64769,7 @@
       },
       "statement": "Um projeto de lei de iniciativa de senador foi aprovado pelo Senado e, depois, pela Câmara sem alterações. Para que a sanção seja possível, o projeto precisa retornar ao Senado apenas para que a Casa iniciadora o envie à Presidência da República.",
       "correctAnswer": "E",
-      "explanation": "A Câmara concluiu a votação e deve enviar o projeto à Presidência. A Constituição atribui o envio à Casa que concluiu a votação, independentemente da origem do projeto.",
+      "explanation": "**Regra:** quando a Casa revisora aprova o projeto sem alterações, ela encerra a deliberação legislativa e faz a remessa ao Presidente para sanção ou veto. **Aplicação:** o Senado iniciou a tramitação, mas a Câmara aprovou o texto sem mudanças e concluiu a votação; cabe à Câmara enviar o projeto. **Distinção:** a origem da iniciativa e a Casa que conclui a votação são critérios diferentes. (Constituição, arts. 65 e 66, caput.)",
       "reviewEvidence": "Constituição Federal, art. 65 e 66, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -64937,7 +64937,7 @@
       },
       "statement": "Uma deputada registra voto com restrições, mas não explica em que consistem. Na contagem regimental, esse voto é considerado integralmente favorável.",
       "correctAnswer": "C",
-      "explanation": "O regimento exige que a restrição seja explicada. Sem essa explicação, o voto recebe o tratamento de voto integralmente favorável.",
+      "explanation": "**Regra:** quem acompanha o parecer com restrição precisa explicar qual é a divergência; sem essa especificação, o voto é computado como integralmente favorável. **Aplicação:** a deputada registrou a ressalva, mas não descreveu seu conteúdo, então a contagem segue a regra do voto favorável integral. **Distinção:** não se trata de dizer que toda divergência é irrelevante; o Regimento exige que ela seja apresentada de forma identificável para produzir efeito na votação. (RICD, art. 57, XV.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 57, XIV e XV, cotejado com a nota canônica. Critério decisivo: O regimento exige que a restrição seja explicada. Sem essa explicação, o voto recebe o tratamento de voto integralmente favorável. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
     },
     {

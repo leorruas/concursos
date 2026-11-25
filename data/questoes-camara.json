@@ -66869,7 +66869,7 @@
       },
       "statement": "Em processo de perda do mandato, o deputado oferece defesa escrita no prazo legal e arrola nove testemunhas. A tempestividade da defesa permite que ele arrole todas as nove.",
       "correctAnswer": "E",
-      "explanation": "O código estabelece limite de oito testemunhas. O cumprimento do prazo da defesa não altera esse limite.",
+      "explanation": "**Regra:** no rito do art. 14, depois de recebida a representação e afastadas inépcia ou falta de justa causa, o deputado tem dez dias úteis para apresentar defesa escrita, indicar provas e arrolar até oito testemunhas. **Aplicação:** a defesa foi tempestiva, mas nove testemunhas excedem o limite regimental; o prazo cumprido não amplia o número permitido. **Pegadinha:** prazo de defesa e limite probatório são requisitos distintos. (Código de Ética, art. 14, § 4º, II.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 14, § 4º, II. Critério conferido: O código estabelece limite de oito testemunhas. O cumprimento do prazo da defesa não altera esse limite. Dificuldade estimada."
     },
     {
@@ -66897,7 +66897,7 @@
       },
       "statement": "Após a apresentação da defesa, o prazo improrrogável para diligências e instrução é maior no processo de perda do mandato que no processo de suspensão temporária do mandato.",
       "correctAnswer": "C",
-      "explanation": "O código prevê quarenta dias úteis para perda e trinta dias úteis para suspensão temporária.",
+      "explanation": "**Regra:** apresentada a defesa, a instrução e as diligências têm prazo improrrogável de quarenta dias úteis quando o processo pode resultar em perda do mandato e de trinta dias úteis quando se trata de suspensão temporária. Depois, o relator dispõe de dez dias úteis para apresentar parecer. **Aplicação:** o prazo maior é o da perda do mandato, como afirma o item. **Distinção:** não confunda esses prazos da etapa de instrução com os prazos totais para deliberação do processo previstos no art. 16. (Código de Ética, art. 14, § 4º, IV, e art. 16.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 14, § 4º, IV. Critério conferido: O código prevê quarenta dias úteis para perda e trinta dias úteis para suspensão temporária. Dificuldade estimada."
     },
     {
@@ -66953,7 +66953,7 @@
       },
       "statement": "Mesmo tendo apresentado autorização de acesso aos dados fiscais ao assumir o mandato, o deputado deve apresentá-la quando solicitada pelo órgão competente.",
       "correctAnswer": "C",
-      "explanation": "O código prevê a apresentação ao assumir o mandato e quando houver solicitação do órgão competente.",
+      "explanation": "**Regra:** o deputado deve apresentar à Mesa a autorização de acesso às declarações anuais de Imposto de Renda ao assumir o mandato e também quando o órgão competente da Câmara a solicitar (art. 18, I). **Aplicação:** a entrega na posse cumpre a primeira ocasião, mas não elimina o dever que pode surgir depois mediante solicitação. **Distinção:** não é uma autorização única e irrevogável que dispense futuras apresentações; o dispositivo prevê expressamente as duas hipóteses. (Código de Ética, art. 18, I.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 18, I. Critério conferido: O código prevê a apresentação ao assumir o mandato e quando houver solicitação do órgão competente. Dificuldade estimada."
     },
     {
@@ -66981,7 +66981,7 @@
       },
       "statement": "Ao iniciar-se na comissão a apreciação de matéria que envolve direta e especificamente seus interesses patrimoniais, o deputado deve declarar impedimento para votar, ainda que não haja votação prevista em Plenário.",
       "correctAnswer": "C",
-      "explanation": "O dever alcança a apreciação em comissão e em Plenário e é acionado pela relação direta e específica com o interesse patrimonial.",
+      "explanation": "**Regra:** quando começa a apreciação, em comissão ou no Plenário, de matéria que envolva direta e especificamente os interesses patrimoniais do deputado, ele deve declarar impedimento para votar (art. 18, II). **Aplicação:** o dever aparece já na etapa da comissão, mesmo que ainda não haja votação prevista no Plenário. **Limite:** não basta qualquer interesse remoto ou genérico; a relação exigida pelo texto é direta e específica. (Código de Ética, art. 18, II.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 18, II. Critério conferido: O dever alcança a apreciação em comissão e em Plenário e é acionado pela relação direta e específica com o interesse patrimonial. Dificuldade estimada."
     },
     {
@@ -67009,7 +67009,7 @@
       },
       "statement": "A responsabilidade pelo sigilo dos dados fiscais pode ser transferida ao Conselho de Ética com aprovação de requerimento em votação simbólica.",
       "correctAnswer": "E",
-      "explanation": "A transferência exige requerimento aprovado em votação nominal. O resultado simbólico não satisfaz essa exigência.",
+      "explanation": "**Regra:** os dados das declarações fiscais permanecem protegidos por sigilo. Quando o Conselho solicitar a transferência da responsabilidade por esse sigilo, o requerimento deve ser aprovado em votação nominal (art. 18, § 3º). **Aplicação:** a votação simbólica descrita não atende à forma expressamente exigida, ainda que haja apoio suficiente. **Pegadinha:** o dispositivo trata de transferir a responsabilidade pelo resguardo do sigilo ao Conselho, não de tornar os dados públicos. (Código de Ética, art. 18, §§ 3º e 4º.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 18, § 3º. Critério conferido: A transferência exige requerimento aprovado em votação nominal. O resultado simbólico não satisfaz essa exigência. Dificuldade estimada."
     },
     {
@@ -67961,7 +67961,7 @@
       },
       "statement": "O relator de processo de perda do mandato deixa vencer seu prazo de instrução. O presidente do Conselho precisa aguardar o esgotamento do prazo global do processo para designar substituto.",
       "correctAnswer": "E",
-      "explanation": "O atraso do relator no prazo próprio permite avocar a relatoria ou designar substituto, observadas as condições do Código. Não é necessário aguardar o prazo global.",
+      "explanation": "**Regra:** se o relator descumprir o prazo que lhe cabe nos arts. 13 ou 14, o presidente pode avocar a relatoria ou designar substituto, observados os impedimentos legais (art. 16, § 4º). **Aplicação:** não é necessário esperar o prazo global do processo terminar; o fato relevante é o vencimento do prazo individual do relator. **Distinção:** os limites totais do art. 16 organizam a duração do processo, enquanto o § 4º permite reagir ao atraso da relatoria durante sua tramitação. (Código de Ética, art. 16, caput, §§ 1º e 4º.)",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Código de Ética, art. 16, § 4º. Critério conferido: O atraso do relator no prazo próprio permite avocar a relatoria ou designar substituto, observadas as condições do Código. Não é necessário aguardar o prazo global. Dificuldade estimada."
     },
     {
@@ -67989,7 +67989,7 @@
       },
       "statement": "Se o relator for substituído por descumprimento de prazo após a conclusão da instrução, o novo relator deve apresentar parecer em até cinco dias úteis.",
       "correctAnswer": "C",
-      "explanation": "Com a instrução concluída, resta apresentar parecer. Se a instrução estivesse pendente, o prazo legal seria empregado para concluí-la.",
+      "explanation": "**Regra:** substituído o relator por atraso, o novo relator tem cinco dias úteis para a tarefa que ainda estiver pendente: concluir a instrução, se ela não terminou, ou apresentar o parecer, se a instrução já foi concluída (art. 16, § 4º, I e II). **Aplicação:** no caso, a instrução terminou; portanto, cabe apresentar o parecer dentro de cinco dias úteis. **Pegadinha:** o prazo é o mesmo, mas o ato exigido varia conforme a fase do processo. (Código de Ética, art. 16, § 4º.)",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Código de Ética, art. 16, § 4º. Critério conferido: Com a instrução concluída, resta apresentar parecer. Se a instrução estivesse pendente, o prazo legal seria empregado para concluí-la. Dificuldade estimada."
     },
     {
@@ -68017,7 +68017,7 @@
       },
       "statement": "No julgamento em Plenário de processo de suspensão do mandato, o representado pode indicar membro do Conselho de Ética para exercer sua defesa, pois o processo já saiu daquele colegiado.",
       "correctAnswer": "E",
-      "explanation": "A defesa por outro parlamentar é admitida desde que ele não integre o Conselho de Ética. A restrição também vale na fase de Plenário.",
+      "explanation": "**Regra:** em qualquer fase do processo disciplinar, inclusive no Plenário, o deputado pode se defender pessoalmente, constituir advogado ou indicar outro parlamentar, desde que esse parlamentar não integre o Conselho de Ética (art. 15). **Aplicação:** sair do Conselho e chegar ao Plenário não remove a restrição; o representante indicado continua impedido se for membro do colegiado. **Distinção:** a garantia é ampla quanto às fases, mas tem uma condição expressa para a defesa feita por parlamentar. (Código de Ética, art. 15.)",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Código de Ética, art. 15. Critério conferido: A defesa por outro parlamentar é admitida desde que ele não integre o Conselho de Ética. A restrição também vale na fase de Plenário. Dificuldade estimada."
     },
     {
@@ -70313,7 +70313,7 @@
       },
       "statement": "Ao encontrar divergência em registro de presença parlamentar, o Conselho de Ética pode alterá-lo diretamente com base no acesso ao sistema assegurado pelo art. 17 do Código de Ética.",
       "correctAnswer": "E",
-      "explanation": "O acesso previsto nesse artigo é exclusivamente para consulta. A constatação de divergência não confere ao Conselho permissão para editar o registro.",
+      "explanation": "**Regra:** o Conselho de Ética pode consultar o sistema de acompanhamento do mandato e outros bancos de dados da Câmara para as finalidades previstas no Código; o art. 17 concede acesso exclusivamente para consulta. **Aplicação:** encontrar dado de presença divergente não autoriza o Conselho a editar ou corrigir diretamente o registro. **Distinção:** consultar informação para instruir uma apuração é diferente de alterar o sistema que a mantém; eventual correção deve seguir o procedimento administrativo competente. (Código de Ética, art. 17.)",
       "reviewEvidence": "Revisão por IA. Código de Ética, art. 17. O acesso previsto nesse artigo é exclusivamente para consulta. A constatação de divergência não confere ao Conselho permissão para editar o registro. Dificuldade estimada."
     },
     {
@@ -70341,7 +70341,7 @@
       },
       "statement": "A criação de um novo banco de dados na Câmara após a edição do Código de Ética não o exclui, por esse único motivo, da previsão de acesso para consulta pelo Conselho.",
       "correctAnswer": "C",
-      "explanation": "O dispositivo alcança também sistemas e bancos de dados que venham a ser criados na Câmara, observada a finalidade de consulta.",
+      "explanation": "**Regra:** o art. 17 assegura ao Conselho de Ética acesso para consulta tanto ao sistema de acompanhamento do mandato quanto a outros sistemas e bancos de dados existentes ou que venham a ser criados na Câmara. **Aplicação:** a novidade do banco não o exclui da previsão; o dispositivo alcança sistemas futuros. **Limite:** esse acesso continua restrito à consulta e às informações pertinentes às finalidades legais, não autorizando edição de dados nem uso estranho ao processo político-disciplinar. (Código de Ética, arts. 6º, IV, e 17.)",
       "reviewEvidence": "Revisão por IA. Código de Ética, art. 17. O dispositivo alcança também sistemas e bancos de dados que venham a ser criados na Câmara, observada a finalidade de consulta. Dificuldade estimada."
     },
     {
@@ -70369,7 +70369,7 @@
       },
       "statement": "Se a representação for considerada leviana ou ofensiva à imagem do deputado, a remessa dos autos à Procuradoria Parlamentar destina-se a providências reparadoras.",
       "correctAnswer": "C",
-      "explanation": "A Procuradoria recebe os autos para providências de reparação da imagem. Essa remessa não é uma penalidade disciplinar imposta ao deputado representado.",
+      "explanation": "**Regra:** se a representação ou o requerimento for considerado leviano ou ofensivo à imagem do deputado ou da Câmara, os autos são encaminhados à Procuradoria Parlamentar para providências reparadoras de sua competência (art. 15, parágrafo único). **Aplicação:** a remessa busca reparar a imagem atingida; não constitui, por si só, sanção disciplinar contra o parlamentar representado. **Distinção:** a apuração e eventual punição seguem os procedimentos dos arts. 13 e 14; a atuação da Procuradoria tem finalidade reparadora. (Código de Ética, art. 15, parágrafo único.)",
       "reviewEvidence": "Revisão por IA. Código de Ética, art. 15, parágrafo único. A Procuradoria recebe os autos para providências de reparação da imagem. Essa remessa não é uma penalidade disciplinar imposta ao deputado representado. Dificuldade estimada."
     },
     {
@@ -71321,7 +71321,7 @@
       },
       "statement": "No rito disciplinar que pode levar à perda do mandato, o sorteio da lista tríplice constitui um colegiado de três relatores, que deve elaborar e assinar conjuntamente o parecer.",
       "correctAnswer": "E",
-      "explanation": "O sorteio forma a lista de candidatos. O presidente do Conselho designa um relator dentre os nomes elegíveis da lista.",
+      "explanation": "**Regra:** o sorteio forma uma lista de três integrantes elegíveis; o presidente do Conselho escolhe e designa um deles para atuar como relator (art. 13, I, aplicado também ao rito do art. 14, § 4º, I). **Aplicação:** os três nomes não formam um colegiado de relatores nem elaboram parecer em conjunto. **Pegadinha:** lista tríplice é etapa de seleção; a responsabilidade pela relatoria e pelo parecer cabe a uma só pessoa designada, respeitados os impedimentos do Código. (Código de Ética, arts. 13, I, e 14, § 4º, I.)",
       "reviewEvidence": "Revisão por IA. Código de Ética, art. 13, I, e 14, § 4º, I. O sorteio forma a lista de candidatos. O presidente do Conselho designa um relator dentre os nomes elegíveis da lista. Dificuldade estimada."
     },
     {

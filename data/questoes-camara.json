@@ -244,7 +244,7 @@
       ],
       "statement": "Em sessão da Câmara com 301 deputados presentes, um projeto de lei complementar recebeu 256 votos favoráveis e 45 contrários. Se apenas um dos deputados que votaram contra mudar seu voto para favorável, o projeto atingirá o quórum constitucional de aprovação.",
       "correctAnswer": "C",
-      "explanation": "O art. 69 da Constituição exige maioria absoluta. Dos 513 deputados, são necessários 257 votos favoráveis. Alterar um voto eleva o total de 256 para 257.",
+      "explanation": "**Regra:** lei complementar é aprovada por maioria absoluta dos membros da Casa (Constituição, art. 69). Na Câmara, com 513 deputados, isso corresponde a pelo menos 257 votos favoráveis. **Aplicação:** o projeto tem 256 votos; se um voto contrário mudar para favorável, passa a 257 e alcança o quórum. **Pegadinha:** maioria absoluta não é maioria dos presentes. Os 301 presentes não mudam o número mínimo de votos exigido.",
       "estimatedDifficulty": "dificil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6438,7 +6438,7 @@
       ],
       "statement": "Para iniciar uma proposta de emenda à Constituição pela via parlamentar, 150 deputados e 21 senadores podem somar suas assinaturas para atingir o mínimo exigido de 171.",
       "correctAnswer": "E",
-      "explanation": "O art. 60, I, exige um terço dos membros de uma das Casas. Cento e cinquenta deputados e vinte e um senadores ficam abaixo dos mínimos de suas respectivas Casas.",
+      "explanation": "**Regra:** a iniciativa parlamentar de PEC exige a assinatura de, no mínimo, um terço dos membros de uma das Casas: 171 deputados ou 27 senadores. **Aplicação:** as 150 assinaturas na Câmara ficam abaixo do mínimo daquela Casa, e as 21 do Senado também ficam abaixo do mínimo do Senado. **Por que está errado:** os apoiamentos não podem ser somados entre as Casas para completar um terço. O requisito precisa ser atingido dentro de uma das vias previstas no art. 60, I.",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6457,7 +6457,7 @@
       ],
       "statement": "Em uma votação de proposta de emenda à Constituição na Câmara, 300 votos favoráveis entre 400 deputados presentes não atingem o quórum constitucional de aprovação.",
       "correctAnswer": "C",
-      "explanation": "O quórum corresponde a três quintos dos 513 membros da Câmara, o que exige 308 votos favoráveis. O número de presentes não altera esse mínimo.",
+      "explanation": "**Regra:** uma PEC é aprovada em cada Casa por três quintos dos respectivos membros, em dois turnos (Constituição, art. 60, § 2º). Na Câmara, 3/5 de 513 exigem 308 votos favoráveis. **Aplicação:** os 300 votos do enunciado não alcançam 308, mesmo com apenas 400 deputados presentes. **Pegadinha:** o denominador é a composição total da Casa, não o número de presentes.",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6476,7 +6476,7 @@
       ],
       "statement": "Uma proposta recebe 320 votos no primeiro turno e 307 no segundo, na Câmara. A soma dos votos dos dois turnos permite considerar a proposta aprovada nessa Casa.",
       "correctAnswer": "E",
-      "explanation": "Cada turno exige pelo menos 308 votos favoráveis. O excedente do primeiro não compensa a insuficiência do segundo.",
+      "explanation": "**Regra:** a PEC precisa obter três quintos dos membros em cada um dos dois turnos de votação na mesma Casa. Na Câmara, são pelo menos 308 votos em cada turno. **Aplicação:** 320 votos aprovam no primeiro turno, mas 307 no segundo ficam abaixo do mínimo. **Por que está errado:** os turnos são votações autônomas; votos excedentes de um não compensam a falta no outro. A proposta não foi aprovada na Câmara. (Constituição, art. 60, § 2º.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6495,7 +6495,7 @@
       ],
       "statement": "Após aprovação regular nos dois turnos de cada Casa, a emenda constitucional é promulgada pelas Mesas da Câmara e do Senado, sem depender de sanção presidencial.",
       "correctAnswer": "C",
-      "explanation": "O art. 60, § 3º, atribui a promulgação às duas Mesas. O procedimento não inclui sanção do presidente da República.",
+      "explanation": "**Regra:** concluída a aprovação da PEC nas duas Casas, em dois turnos e com o quórum exigido, a emenda é promulgada pelas Mesas da Câmara e do Senado, com o número de ordem. **Aplicação:** essa promulgação conjunta é o procedimento correto. **Distinção:** emenda constitucional não segue a etapa de sanção ou veto presidencial própria dos projetos de lei; o Presidente não pode sancionar nem vetar uma PEC aprovada. (Constituição, art. 60, §§ 2º e 3º.)",
       "estimatedDifficulty": "facil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6514,7 +6514,7 @@
       ],
       "statement": "Durante a vigência de estado de defesa, é possível emendar a Constituição se a proposta receber aprovação unânime nas duas Casas.",
       "correctAnswer": "E",
-      "explanation": "A vigência de estado de defesa impede emendar a Constituição. Mesmo a unanimidade não afasta a limitação circunstancial.",
+      "explanation": "**Regra:** a Constituição não pode ser emendada durante intervenção federal, estado de defesa ou estado de sítio (art. 60, § 1º). **Aplicação:** enquanto vigorar o estado de defesa, a PEC não pode ser deliberada para emenda, ainda que haja apoio unânime. **Pegadinha:** essa é uma limitação circunstancial ao próprio processo de emenda, diferente do quórum de aprovação; aumentar votos não remove a proibição temporária.",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6533,7 +6533,7 @@
       ],
       "statement": "Uma proposta intitulada “reorganização institucional” elimina a separação dos Poderes. O título da proposta não afasta a vedação constitucional à deliberação.",
       "correctAnswer": "C",
-      "explanation": "O art. 60, § 4º, protege a separação dos Poderes. A análise considera o efeito da proposta, independentemente de seu título.",
+      "explanation": "**Regra:** não será sequer objeto de deliberação proposta de emenda tendente a abolir a separação dos Poderes (Constituição, art. 60, § 4º, III). **Aplicação:** o que importa é o efeito descrito — eliminar a separação —, não o nome neutro “reorganização institucional”. **Pegadinha:** as limitações materiais protegem o conteúdo constitucional contra propostas que o abolam, ainda que o texto não anuncie isso no título.",
       "estimatedDifficulty": "facil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -7662,7 +7662,7 @@
       "reviewStatus": "validada",
       "statement": "Uma CPI da Câmara atuou regularmente durante o recesso. Perto do fim dos 120 dias iniciais, o próprio colegiado aprovou pedido de mais 35 dias. O Plenário ainda não deliberou sobre o pedido.\n\nCom base nessa situação, julgue o item a seguir.\n\nO colegiado já prorrogou validamente o prazo porque atua também no recesso e pediu menos de 60 dias adicionais.",
       "correctAnswer": "E",
-      "explanation": "A atuação no recesso é admitida e 35 dias estão dentro do limite. Para prorrogar, porém, o regimento exige deliberação do Plenário. A aprovação interna do pedido não produz esse efeito por si só.",
+      "explanation": "**Regra:** a CPI da Câmara pode funcionar durante o recesso, mas sua prorrogação depende de deliberação do Plenário e não pode exceder metade do prazo original. Para 120 dias, o limite adicional é 60 dias (RICD, art. 35, § 3º). **Aplicação:** os 35 dias estão dentro do limite, mas a aprovação apenas pelo colegiado não basta: falta a deliberação do Plenário. **Pegadinha:** o fato de a comissão funcionar no recesso não substitui o requisito de aprovação da prorrogação.",
       "reviewEvidence": "RICD, art. 35, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -7959,7 +7959,7 @@
       "reviewStatus": "validada",
       "statement": "Depois de aprovada em dois turnos nas duas Casas, uma PEC foi encaminhada para promulgação. Como o texto partiu de proposta de senadores e a última votação ocorreu no Senado, sua Mesa planejou assinar a promulgação sozinha.\n\nCom base nessa situação, julgue o item a seguir.\n\nA Mesa do Senado pode promulgar sozinha a emenda porque a iniciativa e a última votação se deram no Senado.",
       "correctAnswer": "E",
-      "explanation": "O art. 60, § 3º, atribui a promulgação às Mesas da Câmara e do Senado. A iniciativa e o local da última votação não mudam a competência conjunta.",
+      "explanation": "**Regra:** aprovada a PEC nas duas Casas, a promulgação é feita pelas Mesas da Câmara dos Deputados e do Senado Federal, em conjunto, com o respectivo número de ordem. **Aplicação:** a Mesa do Senado não pode promulgar sozinha. **O que não altera a regra:** nem a Casa de origem da proposta nem o local da última votação mudam a competência conjunta. **Distinção:** a promulgação de emenda não depende de sanção presidencial. (Constituição, art. 60, § 3º.)",
       "reviewEvidence": "Constituição Federal, art. 60, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -15909,7 +15909,7 @@
       },
       "statement": "Um deputado comparece às sessões do Plenário. Por isso, fica dispensado do dever de participar das reuniões da comissão que integra.",
       "correctAnswer": "E",
-      "explanation": "O dever previsto no inciso V alcança o Plenário e as reuniões das comissões que o parlamentar integra.",
+      "explanation": "**Regra:** o dever do deputado inclui comparecer às sessões do Plenário e às reuniões das comissões de que seja membro. **Aplicação:** a presença no Plenário cumpre apenas uma parte desse dever; como ele integra uma comissão, também deve participar das reuniões dela. **Limite:** a norma não exige presença em todas as comissões da Casa, mas nas que o parlamentar integra. **Pegadinha:** a banca tenta tratar o comparecimento ao Plenário como suficiente. (Código de Ética e Decoro Parlamentar, art. 3º, V.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -15965,7 +15965,7 @@
       },
       "statement": "O Código deixa inteiramente à conveniência do deputado prestar contas de sua atuação parlamentar.",
       "correctAnswer": "E",
-      "explanation": "A prestação de contas é um dever fundamental previsto no art. 3º, VIII.",
+      "explanation": "**Regra:** prestar contas do mandato à sociedade é dever fundamental do deputado, e não uma escolha deixada inteiramente à sua conveniência. **Por que o item está errado:** ele transforma um dever expresso em faculdade. **Como aplicar:** diferencie a forma concreta de divulgação, que pode depender de regras e meios próprios, da existência do dever de prestar contas. O item nega justamente essa obrigação. (Código de Ética e Decoro Parlamentar, art. 3º, VIII.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 3º, VIII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -16105,7 +16105,7 @@
       },
       "statement": "Valendo-se da atividade parlamentar, um deputado recebe vantagem indevida em favor de terceiro. A conduta pode ser enquadrada entre os atos incompatíveis com o decoro.",
       "correctAnswer": "C",
-      "explanation": "O art. 4º, II, inclui vantagem indevida percebida para si ou para outrem em razão da atividade parlamentar.",
+      "explanation": "**Regra:** é incompatível com o decoro receber vantagem indevida em razão da atividade parlamentar, seja para si, seja para outra pessoa. **Aplicação:** o parlamentar usa a atividade do mandato e recebe o benefício destinado a terceiro; o fato de não ficar pessoalmente com o valor não elimina o enquadramento. **Pegadinha:** o dispositivo alcança vantagem percebida “para si ou para outrem”, desde que exista o vínculo com a atividade parlamentar. (Código de Ética e Decoro Parlamentar, art. 4º, II.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 4º, II, e 14, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17309,7 +17309,7 @@
       },
       "statement": "O Conselho de Ética aprova por unanimidade, em votação simbólica, requerimento de transferência da responsabilidade pelo sigilo dos dados fiscais. O resultado dispensa a votação nominal.",
       "correctAnswer": "E",
-      "explanation": "O Código exige votação nominal. A unanimidade em votação simbólica não satisfaz essa exigência de forma.",
+      "explanation": "**Regra:** a transferência da responsabilidade pela guarda do sigilo fiscal depende de requerimento aprovado por maioria absoluta do Conselho em votação nominal. **Aplicação:** o item informa votação simbólica. Mesmo que todos tenham concordado, não foi usada a forma exigida pelo Código. **Pegadinha:** resultado unânime e forma de votação são requisitos diferentes; unanimidade não transforma votação simbólica em nominal. (Código de Ética e Decoro Parlamentar, art. 18, § 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 18, § 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17337,7 +17337,7 @@
       },
       "statement": "A suspensão de prerrogativas regimentais e a suspensão do exercício do mandato constam como sanções distintas no Código de Ética.",
       "correctAnswer": "C",
-      "explanation": "As duas medidas aparecem em incisos separados do art. 10, assim como censura e perda do mandato.",
+      "explanation": "**Regra:** o Código prevê diferentes sanções disciplinares, incluindo a suspensão de prerrogativas regimentais e a suspensão do exercício do mandato. São medidas distintas, descritas em incisos próprios. **Aplicação:** o item identifica corretamente duas sanções previstas. **Distinção:** suspender prerrogativas limita temporariamente faculdades regimentais; suspender o exercício do mandato afasta temporariamente o parlamentar do exercício. Não trate os nomes como sinônimos nem como uma única penalidade. (Código de Ética e Decoro Parlamentar, art. 10, II e III.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17421,7 +17421,7 @@
       },
       "statement": "Um deputado que exerce o mandato como suplente convocado pode integrar o Conselho de Ética se ocupar vaga de suplente no próprio colegiado, sem assumir uma vaga titular no Conselho.",
       "correctAnswer": "E",
-      "explanation": "O impedimento recai sobre ser membro do Conselho. Não distingue vaga titular de suplente no colegiado.",
+      "explanation": "**Regra:** o deputado que exerce o mandato como suplente convocado fica impedido de integrar o Conselho de Ética. **Aplicação:** o impedimento é para ser membro do Conselho; o texto não cria uma exceção para quem ocuparia vaga de suplente dentro do próprio colegiado. **Pegadinha:** há duas suplências diferentes no enunciado: exercer temporariamente o mandato parlamentar e ser suplente do Conselho. A segunda condição não apaga o impedimento decorrente da primeira. (Código de Ética e Decoro Parlamentar, art. 7º, § 2º, III.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 2º, III. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17533,7 +17533,7 @@
       },
       "statement": "Por considerar a conduta muito grave, o Plenário pode aplicar suspensão de prerrogativas regimentais por sete meses.",
       "correctAnswer": "E",
-      "explanation": "O Código limita essa sanção a seis meses, inclusive nos casos mais graves.",
+      "explanation": "**Regra:** a suspensão de prerrogativas regimentais pode durar no máximo seis meses. **Aplicação:** sete meses excedem o teto previsto, portanto a gravidade alegada não autoriza aumentar o prazo. **Distinção:** a gravidade pode ser relevante para a escolha da sanção cabível, mas não permite ultrapassar o limite temporal fixado para essa penalidade específica. (Código de Ética e Decoro Parlamentar, arts. 10, II, e 13, VIII.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, arts. 10, II, e 13, VIII. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17617,7 +17617,7 @@
       },
       "statement": "Após a rejeição de um projeto de lei, 42 senadores propõem novo projeto sobre a mesma matéria na mesma sessão legislativa. O grupo satisfaz a exigência de maioria absoluta do art. 67.",
       "correctAnswer": "C",
-      "explanation": "Em um Senado de 81 membros, 41 já constituem maioria absoluta. O dispositivo exige a maioria absoluta em qualquer uma das Casas.",
+      "explanation": "**Regra:** matéria de projeto de lei rejeitado só pode ser objeto de novo projeto na mesma sessão legislativa mediante proposta da maioria absoluta dos membros de qualquer das Casas (Constituição, art. 67). **Aplicação:** o Senado tem 81 membros; a maioria absoluta é 41. Como 42 senadores apresentam o novo projeto, o requisito está satisfeito. **Pegadinha:** não é preciso reunir maioria nas duas Casas nem somar frações delas; basta a maioria absoluta em uma Casa.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -18149,7 +18149,7 @@
       },
       "statement": "Por ter representação no Congresso Nacional, um partido deve apresentar a representação por perda de mandato diretamente ao Conselho de Ética, sem passar pela Mesa.",
       "correctAnswer": "E",
-      "explanation": "A Mesa recebe a representação e é responsável pelo encaminhamento direto ao Conselho.",
+      "explanation": "**Regra:** quando partido com representação no Congresso apresenta representação por hipótese de perda do mandato, o expediente é dirigido à Mesa; cabe à Mesa encaminhá-lo diretamente ao Conselho de Ética dentro do prazo previsto. **Aplicação:** o partido tem legitimidade para apresentar a representação, mas isso não elimina a etapa de recebimento pela Mesa. **Pegadinha:** diferencie quem pode provocar o procedimento de qual órgão faz o encaminhamento ao Conselho. (Código de Ética e Decoro Parlamentar, art. 9º, §§ 2º e 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -18261,7 +18261,7 @@
       },
       "statement": "Em votação ostensiva, 230 dos 350 deputados presentes aprovam projeto de suspensão de prerrogativas regimentais. A maioria dos presentes é suficiente para a aprovação.",
       "correctAnswer": "E",
-      "explanation": "Como a Câmara tem 513 membros, a maioria absoluta exige pelo menos 257 votos favoráveis.",
+      "explanation": "**Regra:** a apreciação pelo Plenário de suspensão de prerrogativas exige votação ostensiva e maioria absoluta da composição da Câmara. Com 513 deputados, são necessários ao menos 257 votos favoráveis. **Aplicação:** 230 votos não alcançam esse número, embora sejam maioria entre os 350 presentes. **Pegadinha:** o denominador é o total de membros da Casa, não apenas os presentes. (Código de Ética e Decoro Parlamentar, art. 13, caput.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, caput. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -18317,7 +18317,7 @@
       },
       "statement": "A Mesa da Câmara pode escolher diretamente o presidente do Conselho de Ética, dispensando a eleição interna se o escolhido for titular.",
       "correctAnswer": "E",
-      "explanation": "A condição de titular permite a candidatura. A escolha cabe aos membros do Conselho, por eleição.",
+      "explanation": "**Regra:** os integrantes do Conselho de Ética elegem, entre os titulares, seu presidente e dois vice-presidentes. **Aplicação:** a Mesa não pode substituir essa eleição por uma escolha direta, ainda que indique uma pessoa que seja titular. **Distinção:** ser titular é requisito para poder concorrer; não determina quem escolhe. A escolha cabe aos pares, por eleição. (Código de Ética e Decoro Parlamentar, art. 7º, § 5º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 7º, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {

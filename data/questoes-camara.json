@@ -1859,7 +1859,7 @@
       ],
       "statement": "Ao estabelecer uma prioridade para a elaboração do orçamento anual, a Lei de Diretrizes Orçamentárias já fixa a dotação específica que permitirá empenhar a despesa correspondente.",
       "correctAnswer": "E",
-      "explanation": "A Lei de Diretrizes Orçamentárias orienta o orçamento anual. A prioridade não equivale à dotação orçamentária necessária para a despesa.",
+      "explanation": "A LDO define prioridades e orienta a elaboração da LOA; a LOA é que traz a dotação que autoriza a despesa. Portanto, a prioridade citada no enunciado não cria, sozinha, crédito para empenhar ou pagar. (Constituição Federal, art. 165, §§ 2º e 5º.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -1954,7 +1954,7 @@
       ],
       "statement": "O fato de o Congresso Nacional apreciar o projeto de Lei de Diretrizes Orçamentárias federal é compatível com a iniciativa reservada ao Poder Executivo.",
       "correctAnswer": "C",
-      "explanation": "Iniciar o processo com o envio do projeto e apreciar seu conteúdo são competências distintas. O Executivo inicia e o Legislativo aprecia.",
+      "explanation": "A iniciativa dos projetos de PPA, LDO e LOA é reservada ao Poder Executivo; ao Congresso cabe apreciá-los e deliberar sobre eles. Assim, o Congresso pode examinar a LDO sem ser autor da proposta. (Constituição Federal, arts. 165, caput, e 166, caput.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -5526,7 +5526,7 @@
       ],
       "statement": "Um projeto de orçamento anual federal recebeu parecer favorável da Comissão Mista de Orçamento. Esse parecer, sozinho, encerra a apreciação legislativa do projeto.",
       "correctAnswer": "E",
-      "explanation": "A comissão examina e emite parecer. A apreciação pelo Congresso segue as etapas regimentais.",
+      "explanation": "A Comissão Mista de Orçamento examina os projetos e emite parecer; esse parecer é etapa preparatória. A decisão legislativa cabe às duas Casas do Congresso, conforme o processo regimental, por isso o parecer favorável não encerra a apreciação. (Constituição Federal, art. 166, caput e § 1º.)",
       "estimatedDifficulty": "facil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -5659,7 +5659,7 @@
       ],
       "statement": "Para uma despesa sem dotação específica, sem urgência ou imprevisibilidade, o crédito adequado é suplementar porque a dotação disponível é zero.",
       "correctAnswer": "E",
-      "explanation": "A ausência de dotação específica aponta para crédito especial. Suplementação pressupõe uma dotação existente a reforçar.",
+      "explanation": "Crédito especial é a autorização para despesa sem dotação específica. Já o suplementar apenas reforça uma dotação existente; como o enunciado informa que ela é zero, não há dotação a suplementar. A falta de dotação aponta para o crédito especial. (Lei nº 4.320/1964, art. 41, I e II.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -5697,7 +5697,7 @@
       ],
       "statement": "Na regra geral do art. 42 da Lei nº 4.320/1964, autorizar um crédito especial por lei e abri-lo por decreto executivo são atos distintos.",
       "correctAnswer": "C",
-      "explanation": "A lei dá a autorização. O decreto executivo pratica a abertura na regra indicada.",
+      "explanation": "A autorização e a abertura são atos diferentes: a lei autoriza o crédito especial, e um decreto executivo o abre. A edição do decreto, por si só, não substitui a autorização legislativa. (Lei nº 4.320/1964, art. 42.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -5754,7 +5754,7 @@
       ],
       "statement": "Uma dotação de R$ 300 mil para equipamentos consta do orçamento aprovado. A existência da dotação, sem outros atos de execução, comprova que o fornecedor recebeu o valor.",
       "correctAnswer": "E",
-      "explanation": "A dotação autoriza despesa até o limite correspondente. O recebimento exige pagamento, que é uma etapa posterior.",
+      "explanation": "A dotação é um limite de autorização no orçamento, não prova de que houve entrega nem pagamento. Para pagar, a despesa precisa ser empenhada, liquidada e ter ordem de pagamento; por isso, a mera dotação de R$ 300 mil não demonstra que o fornecedor recebeu dinheiro. (Lei nº 4.320/1964, arts. 58, 62 e 64.)",
       "estimatedDifficulty": "dificil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -5773,7 +5773,7 @@
       ],
       "statement": "Um órgão emite nota de empenho antes de receber um equipamento. A emissão registra o empenho e não equivale à transferência de dinheiro ao fornecedor.",
       "correctAnswer": "C",
-      "explanation": "A nota documenta o empenho da despesa. A transferência financeira ocorre no pagamento.",
+      "explanation": "O empenho reserva crédito e cria para o Estado uma obrigação de pagamento, mas não transfere dinheiro ao fornecedor. A nota de empenho documenta essa etapa; o pagamento só ocorre depois da liquidação regular e da ordem de pagamento. (Lei nº 4.320/1964, arts. 58, 61, 62 e 64.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -5792,7 +5792,7 @@
       ],
       "statement": "Se a nota fiscal cobra 100 unidades, mas o recebimento comprovado registra 80, a nota fiscal isolada basta para liquidar a despesa relativa às 100 unidades.",
       "correctAnswer": "E",
-      "explanation": "A liquidação verifica o direito do credor com base nos documentos e na entrega efetiva. A divergência precisa ser esclarecida antes de reconhecer o valor integral.",
+      "explanation": "Na liquidação, a Administração verifica o direito do fornecedor, o valor exato devido e a prova da entrega. Como só 80 unidades foram recebidas, a nota fiscal não basta para liquidar as 100: as 20 restantes dependem de entrega e comprovação antes de serem reconhecidas. (Lei nº 4.320/1964, art. 63, caput e §§ 1º e 2º.)",
       "estimatedDifficulty": "dificil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -5811,7 +5811,7 @@
       ],
       "statement": "Ao verificar qual fornecedor deve receber e qual valor é devido pelo serviço prestado, a administração examina elementos próprios da liquidação da despesa.",
       "correctAnswer": "C",
-      "explanation": "A verificação identifica o credor e a importância exata a pagar, além da origem e do objeto da obrigação.",
+      "explanation": "A liquidação confirma três pontos: o que foi fornecido ou prestado, quanto é devido e a quem pagar. Para serviços, a Administração confere o contrato, a nota de empenho e a prova da prestação efetiva; esses são precisamente os elementos descritos no enunciado. (Lei nº 4.320/1964, art. 63, caput e §§ 1º e 2º.)",
       "estimatedDifficulty": "facil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -5849,7 +5849,7 @@
       ],
       "statement": "Uma despesa regularmente empenhada e liquidada em dezembro continua sem pagamento em 31 de dezembro. Quando inscrita em restos a pagar, é classificada como processada.",
       "correctAnswer": "C",
-      "explanation": "A liquidação já ocorreu. O que resta é o pagamento, característica dos restos a pagar processados.",
+      "explanation": "Restos a pagar são despesas empenhadas e ainda não pagas em 31 de dezembro. São processadas quando já foram liquidadas, isto é, quando o direito do credor e o valor devido foram verificados. Como esse passo ocorreu em dezembro, resta apenas pagar. (Lei nº 4.320/1964, arts. 36 e 63.)",
       "estimatedDifficulty": "dificil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -5868,7 +5868,7 @@
       ],
       "statement": "Uma despesa chega ao encerramento do exercício regularmente empenhada, ainda sem liquidação nem pagamento. Se inscrita em restos a pagar, integra os não processados.",
       "correctAnswer": "C",
-      "explanation": "A classificação depende da liquidação. Como essa etapa ainda não ocorreu, a inscrição é em restos a pagar não processados.",
+      "explanation": "Restos a pagar não processados são despesas empenhadas e não pagas cuja liquidação ainda não ocorreu. No caso, como não houve verificação do direito do credor até o encerramento, a despesa permanece nessa categoria. (Lei nº 4.320/1964, art. 36, combinado com o art. 63.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -5925,7 +5925,7 @@
       ],
       "statement": "Uma despesa inscrita regularmente em restos a pagar é quitada no exercício seguinte pela própria inscrição. O ano do pagamento torna a despesa automaticamente uma despesa de exercícios anteriores.",
       "correctAnswer": "E",
-      "explanation": "O pagamento ocorreu pela inscrição em restos a pagar. Despesa de exercícios anteriores tem hipóteses próprias e usa dotação específica do orçamento vigente.",
+      "explanation": "O pagamento no exercício seguinte não transforma automaticamente uma despesa em DEA. Se ela foi empenhada e inscrita regularmente em restos a pagar, é paga com base nessa inscrição; DEA usa dotação específica do orçamento vigente apenas nas hipóteses do art. 37, como compromisso reconhecido após o encerramento ou RP com prescrição interrompida. (Lei nº 4.320/1964, arts. 36 e 37.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6666,7 +6666,7 @@
       ],
       "statement": "O orçamento estima R$ 4 milhões de receita tributária. No primeiro mês, ingressam R$ 250 mil dessa receita. Os R$ 4 milhões correspondem à previsão, enquanto os R$ 250 mil correspondem à arrecadação informada.",
       "correctAnswer": "C",
-      "explanation": "Previsão é estimativa para o orçamento. Arrecadação é o recebimento efetivo no período indicado.",
+      "explanation": "Previsão é a estimativa incluída no orçamento; arrecadação é o ingresso efetivamente recebido. No exemplo, R$ 4 milhões são a estimativa anual e R$ 250 mil são o que entrou no primeiro mês, não valores da mesma etapa. (MCASP, 11ª edição, Parte I, itens 3.5.1 e 3.5.3.)",
       "estimatedDifficulty": "dificil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6685,7 +6685,7 @@
       ],
       "statement": "Ao identificar o contribuinte e inscrever seu débito, a repartição já arrecada o valor, ainda que o contribuinte não tenha efetuado o pagamento.",
       "correctAnswer": "E",
-      "explanation": "Esses atos descrevem o lançamento. O recebimento do valor é uma etapa distinta.",
+      "explanation": "Lançamento é o ato em que a repartição verifica a origem do crédito fiscal, identifica quem deve e registra o débito. Como o contribuinte ainda não pagou, houve lançamento, mas não arrecadação; o recebimento é uma etapa posterior. (Lei nº 4.320/1964, art. 53; Código Tributário Nacional, art. 142.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6704,7 +6704,7 @@
       ],
       "statement": "Um contribuinte paga a guia ao agente arrecadador, que posteriormente transfere os valores à conta do Tesouro. O primeiro evento é a arrecadação e o segundo, o recolhimento.",
       "correctAnswer": "C",
-      "explanation": "A arrecadação ocorre no recebimento pelo agente. O recolhimento transfere o produto arrecadado à tesouraria.",
+      "explanation": "A arrecadação acontece quando o contribuinte paga ao agente autorizado. O recolhimento é a transferência posterior do valor arrecadado à tesouraria, seguindo a unidade de caixa; por isso, os dois eventos descritos são etapas distintas. (MCASP, 11ª edição, Parte I, itens 3.5.3 e 3.5.4; Lei nº 4.320/1964, art. 56.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6742,7 +6742,7 @@
       ],
       "statement": "Um órgão recebe em dinheiro uma caução contratual que deve devolver caso sejam cumpridas as condições de restituição. Enquanto mantém o valor a título de garantia, o ingresso é extraorçamentário.",
       "correctAnswer": "C",
-      "explanation": "O valor é mantido temporariamente como garantia e pode ter de ser devolvido. O simples recebimento não o transforma em receita própria.",
+      "explanation": "A caução continua sendo dinheiro de terceiro que o órgão deve devolver se as condições contratuais forem cumpridas; não é receita própria só porque entrou em caixa. Por representar obrigação de restituição, fica fora da receita orçamentária e é tratada como ingresso extraorçamentário. (Lei nº 4.320/1964, art. 3º, parágrafo único; MCASP, 11ª edição, Parte I, seção de ingressos extraorçamentários.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6780,7 +6780,7 @@
       ],
       "statement": "Uma dotação é transferida de uma unidade orçamentária para outra, mantendo a mesma função Saúde. A alteração da unidade modifica a classificação institucional, sem que a função precise mudar.",
       "correctAnswer": "C",
-      "explanation": "A classificação institucional identifica a unidade da dotação. A função identifica a área de atuação.",
+      "explanation": "A classificação institucional responde quem recebe e executa a dotação; a classificação funcional mostra a área de atuação governamental. Assim, trocar a unidade orçamentária pode mudar a classificação institucional sem alterar a função Saúde. (MTO 2026, itens 4.3 e 4.4.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6799,7 +6799,7 @@
       ],
       "statement": "Um relatório informa apenas que a despesa foi classificada no elemento Equipamentos e Material Permanente. Esse dado identifica o projeto governamental específico em que os equipamentos serão usados.",
       "correctAnswer": "E",
-      "explanation": "O elemento descreve o objeto do gasto. O projeto ou outra ação é identificado na classificação programática.",
+      "explanation": "O elemento informa o objeto do gasto — por exemplo, o tipo de bem adquirido. O projeto ou outra ação, que indica o que o governo fará, pertence à estrutura programática. Saber apenas que se compraram equipamentos não revela em qual ação serão usados. (MTO 2026, itens 4.4 e 4.6.2.1.)",
       "estimatedDifficulty": "dificil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6818,7 +6818,7 @@
       ],
       "statement": "Uma ação prevê reformar quatro bibliotecas com dotação de R$ 800 mil. O número de bibliotecas é a meta física indicada, enquanto o valor é uma informação financeira.",
       "correctAnswer": "C",
-      "explanation": "A meta física informa a quantidade da entrega. A dotação informa recursos autorizados em dinheiro.",
+      "explanation": "A meta física mede a quantidade do produto ou serviço que a ação pretende entregar; a dotação expressa o recurso financeiro autorizado. No caso, quatro bibliotecas são a meta física e R$ 800 mil são a dimensão financeira. (MTO 2026, itens 4.1.2 e 4.6.1.1.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6837,7 +6837,7 @@
       ],
       "statement": "Se receitas de origens diferentes forem destinadas à mesma finalidade, a destinação comum obriga a classificá-las na mesma natureza de receita.",
       "correctAnswer": "E",
-      "explanation": "A natureza identifica a operação que gerou o ingresso. A destinação disciplina a aplicação dos recursos e pode ser comum a ingressos de naturezas diferentes.",
+      "explanation": "A natureza registra que tipo de receita foi gerada; a fonte ou destinação registra as regras sobre onde o dinheiro pode ser aplicado. Por isso, receitas de origens diferentes podem ter a mesma destinação, sem se tornarem a mesma natureza. (MTO 2026, seção 3.2, especialmente o item 3.2.3.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6856,7 +6856,7 @@
       ],
       "statement": "Uma ação do orçamento fiscal pode conter despesa classificada no grupo Investimentos. O grupo de natureza e a esfera respondem a perguntas diferentes.",
       "correctAnswer": "C",
-      "explanation": "Investimentos identifica um grupo da natureza da despesa. A esfera identifica em qual orçamento a programação está incluída.",
+      "explanation": "A esfera indica em qual orçamento a programação aparece — fiscal, seguridade social ou investimento das estatais. “Investimentos” é um grupo da natureza da despesa e descreve o tipo de gasto. Assim, uma despesa de investimentos pode estar no orçamento fiscal. (Constituição Federal, art. 165, § 5º; MTO 2026, itens 4.2 e 4.6.2.1.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6875,7 +6875,7 @@
       ],
       "statement": "Duas ações pertencem à mesma unidade orçamentária. Essa informação é suficiente para concluir que as duas têm necessariamente a mesma função.",
       "correctAnswer": "E",
-      "explanation": "Uma unidade pode executar ações em áreas de atuação distintas. É preciso conferir a classificação funcional de cada ação.",
+      "explanation": "A unidade orçamentária mostra a estrutura responsável pela dotação, enquanto a função agrega a despesa pela área de atuação. Uma mesma unidade pode executar ações em áreas diferentes; por isso, a unidade comum não prova que as funções coincidem. (MTO 2026, itens 4.3 e 4.4.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6894,7 +6894,7 @@
       ],
       "statement": "Ao final de um bimestre, a receita realizada indica risco de descumprimento das metas fiscais. A existência de dotações na LOA, por si só, afasta a limitação de empenho prevista no art. 9º da Lei de Responsabilidade Fiscal.",
       "correctAnswer": "E",
-      "explanation": "A dotação autoriza despesa. A limitação atua sobre a execução quando a realização da receita pode comprometer as metas, observados os critérios da LDO.",
+      "explanation": "A dotação autoriza a despesa até um limite, mas não garante que a receita arrecadada será suficiente para cumprir as metas fiscais. Se a avaliação ao fim do bimestre apontar esse risco, os Poderes e o Ministério Público devem limitar empenho e movimentação financeira nos montantes necessários, segundo a LDO. Logo, a dotação não afasta o contingenciamento. (LRF, art. 9º.)",
       "estimatedDifficulty": "dificil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6913,7 +6913,7 @@
       ],
       "statement": "Limitar o empenho de uma programação para adequar a execução à receita não equivale, por si só, a anular a dotação correspondente.",
       "correctAnswer": "C",
-      "explanation": "A limitação restringe a execução. A anulação altera a autorização orçamentária e constitui ato distinto.",
+      "explanation": "Limitar empenhos restringe temporariamente a execução para adequá-la às metas fiscais; não apaga a autorização da LOA. Anular a dotação é outro ato, que reduz ou retira o crédito. Portanto, a limitação não equivale, por si só, a anulação. (LRF, art. 9º; Lei nº 4.320/1964, art. 43, § 1º, III.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6932,7 +6932,7 @@
       ],
       "statement": "Para verificar o cumprimento dos limites de despesa com pessoal, o Relatório de Gestão Fiscal pode trazer informações que não se resumem ao acompanhamento da execução orçamentária pelo Relatório Resumido da Execução Orçamentária.",
       "correctAnswer": "C",
-      "explanation": "Os relatórios têm funções distintas. O Relatório de Gestão Fiscal compara valores com limites legais, inclusive de pessoal.",
+      "explanation": "O RREO acompanha a execução orçamentária e financeira; o RGF evidencia o cumprimento de limites fiscais, inclusive a despesa com pessoal. Por isso, o RGF pode informar uma comparação com limites legais que não se reduz ao acompanhamento do orçamento mostrado no RREO. (LRF, arts. 52 e 54.)",
       "estimatedDifficulty": "dificil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6951,7 +6951,7 @@
       ],
       "statement": "Uma instituição publica seus relatórios fiscais. A publicação substitui a verificação pelos órgãos competentes quanto ao cumprimento dos limites legais.",
       "correctAnswer": "E",
-      "explanation": "A divulgação dá acesso aos dados. A fiscalização examina o cumprimento das obrigações e permanece como função própria.",
+      "explanation": "Publicar relatórios é dar transparência para que a sociedade e os órgãos de controle acessem os dados; isso não substitui a análise de cumprimento das regras. A fiscalização continua com os órgãos competentes, como prevê a LRF. (LRF, arts. 48 e 59.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -6989,7 +6989,7 @@
       ],
       "statement": "Registrar um passivo contingente no Anexo de Riscos Fiscais comprova que o evento de risco já ocorreu e que a despesa correspondente foi paga.",
       "correctAnswer": "E",
-      "explanation": "O anexo avalia riscos e indica providências caso se concretizem. O registro do risco não comprova ocorrência nem pagamento.",
+      "explanation": "O Anexo de Riscos Fiscais identifica passivos contingentes e outros riscos que podem afetar as contas e prevê providências caso ocorram. Registrar uma possibilidade não prova que ela se concretizou, que nasceu uma obrigação certa ou que houve pagamento. (LRF, art. 4º, § 3º.)",
       "estimatedDifficulty": "media",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -7293,7 +7293,7 @@
       ],
       "statement": "O prejuízo contábil de uma empresa estatal e a concessão de garantia da União para empréstimo bancário permitem afirmar, sem exame das transferências efetivamente recebidas, que a empresa se tornou estatal dependente.",
       "correctAnswer": "E",
-      "explanation": "Prejuízo e garantia podem sinalizar risco fiscal, mas a condição legal de dependência exige o critério do art. 2º, III, da LRF. A diferença entre risco e enquadramento jurídico é central no caso dos Correios apresentado acima.",
+      "explanation": "Prejuízo contábil e garantia da União podem sinalizar risco fiscal, mas não bastam para classificar uma empresa como estatal dependente. A LRF exige que a empresa controlada receba do controlador recursos para pagar pessoal, custeio ou despesas de capital, ressalvada, neste último caso, a participação acionária. Sem informação sobre esses repasses, não se pode afirmar a dependência. (LRF, art. 2º, II e III.)",
       "estimatedDifficulty": "dificil",
       "difficultyReviewStatus": "pendente",
       "difficultyMethod": "triagem-estrutural-v1"
@@ -18653,7 +18653,7 @@
       },
       "statement": "O saldo de um suprimento foi restituído parte no exercício da despesa e parte no ano seguinte. Como as parcelas integram a mesma prestação de contas, ambas devem ser registradas como anulação da despesa.",
       "correctAnswer": "E",
-      "explanation": "O que determina o tratamento é o exercício de cada recolhimento. A parcela posterior ao encerramento é receita orçamentária.",
+      "explanation": "A prestação de contas única não muda o tratamento de cada valor: importa quando cada restituição foi recolhida. A parcela devolvida ainda no exercício da despesa anula essa despesa; a parte recolhida depois do encerramento entra como receita orçamentária. Portanto, as duas parcelas não recebem a mesma classificação apenas por estarem na mesma prestação. (Decreto nº 93.872/1986, art. 45, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Decreto nº 93.872/1986, art. 45, § 1º. https://www.planalto.gov.br/ccivil_03/decreto/d93872.htm"
     },
     {
@@ -22153,7 +22153,7 @@
       },
       "statement": "Um crédito suplementar reforça a dotação destinada a um contrato, mas o cronograma financeiro continua restringindo os desembolsos. O reforço da dotação, por si só, não disponibiliza dinheiro para pagar o contrato.",
       "correctAnswer": "C",
-      "explanation": "A dotação é autorização orçamentária. O pagamento depende também da execução financeira, sujeita à programação de desembolsos.",
+      "explanation": "Crédito suplementar aumenta a autorização orçamentária da dotação, mas não deposita dinheiro na conta da unidade. O pagamento ainda depende de programação financeira e limite de desembolso; por isso, a dotação reforçada pode coexistir com a restrição de caixa descrita no caso. (Lei nº 4.320/1964, arts. 40 e 41, I; LRF, art. 8º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a LRF, arts. 8º e 9º. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
     },
     {
@@ -22209,7 +22209,7 @@
       },
       "statement": "Uma ação federal de assistência social, destinada a famílias em situação de vulnerabilidade, deve ser classificada no orçamento da seguridade social.",
       "correctAnswer": "C",
-      "explanation": "A assistência integra a seguridade junto com saúde e previdência. A ausência de contribuição prévia dos beneficiários não altera essa classificação.",
+      "explanation": "O orçamento da seguridade social abrange ações de saúde, previdência e assistência social. Assistência é direito que independe de contribuição prévia; essa característica a diferencia da previdência contributiva, mas não a desloca para o orçamento fiscal. (Constituição Federal, arts. 165, § 5º, III, 194, 201 e 203.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 165, § 5º, III, e 194. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22237,7 +22237,7 @@
       },
       "statement": "Uma despesa federal com benefício assistencial deve constar do orçamento fiscal porque seus beneficiários não precisam contribuir para recebê-lo.",
       "correctAnswer": "E",
-      "explanation": "A natureza assistencial é suficiente para o enquadramento na seguridade. A exigência de contribuição diferencia prestações previdenciárias de assistenciais, sem excluir estas da seguridade.",
+      "explanation": "A seguridade reúne saúde, previdência e assistência social; o fato de a assistência não exigir contribuição não a exclui desse conjunto. A contribuição é característica da previdência social, enquanto a assistência atende quem dela necessita, independentemente de contribuição. Logo, a natureza assistencial do benefício mantém a despesa na esfera da seguridade. (Constituição Federal, arts. 165, § 5º, III, 194, 201 e 203.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 165, § 5º, III, e 194. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22293,7 +22293,7 @@
       },
       "statement": "O Congresso aprovou o projeto de LDO e o projeto de PPA ainda tramita. A pendência do PPA impede a interrupção da sessão legislativa nos termos do art. 57, § 2º.",
       "correctAnswer": "E",
-      "explanation": "O dispositivo condiciona a interrupção à aprovação do projeto de LDO. Ele não impõe a mesma condição ao projeto de PPA.",
+      "explanation": "A Constituição condiciona a interrupção da sessão legislativa à aprovação do projeto de LDO, não à conclusão do PPA. Como a LDO já foi aprovada, a pendência do PPA, por si só, não impede o recesso previsto nesse dispositivo. (Constituição Federal, art. 57, § 2º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 57, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -30553,7 +30553,7 @@
       },
       "statement": "Um estado detém indiretamente a maioria do capital votante de uma sociedade e transfere recursos à empresa para pagar sua folha. A sociedade reúne os critérios de controle e dependência previstos na Lei de Responsabilidade Fiscal.",
       "correctAnswer": "C",
-      "explanation": "A maioria do capital votante pode ser detida de forma direta ou indireta. O repasse do controlador para pagar pessoal preenche a condição adicional de dependência.",
+      "explanation": "A LRF considera controlada a sociedade em que o ente detenha, direta ou indiretamente, a maioria do capital votante. Para ser dependente, exige também recebimento de recursos do controlador para pagar pessoal, custeio ou capital (com a ressalva legal para aporte de participação acionária). O estado do enunciado satisfaz ambos os critérios: controla indiretamente e transfere recursos para a folha. (LRF, art. 2º, II e III.)",
       "reviewEvidence": "Conferência com a seção teórica vinculada. LC nº 101/2000, art. 2º, II e III. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
     },
     {
@@ -30581,7 +30581,7 @@
       },
       "statement": "Uma sociedade controlada recebe do controlador recursos para comprar máquinas, exclusivamente por aumento de participação acionária, e não recebe outros repasses. Esse aporte, por financiar despesa de capital, basta para classificá-la como estatal dependente na Lei de Responsabilidade Fiscal.",
       "correctAnswer": "E",
-      "explanation": "A lei exclui, no caso das despesas de capital, recursos que provenham de aumento de participação acionária. Sem outro repasse relevante, o aporte descrito é insuficiente para caracterizar dependência.",
+      "explanation": "Controle e dependência são critérios distintos: a maioria do capital votante caracteriza empresa controlada, mas a dependência exige receber recursos do controlador para finalidades legais. Para despesa de capital, a LRF exclui o aporte proveniente de aumento da participação acionária. Como esse é o único repasse descrito, ele não basta para caracterizar a dependência. (LRF, art. 2º, II e III.)",
       "reviewEvidence": "Conferência com a seção teórica vinculada. LC nº 101/2000, art. 2º, II e III. https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
     },
     {
@@ -30665,7 +30665,7 @@
       },
       "statement": "Uma prefeitura quer aplicar 80% de uma transferência especial em equipamentos permanentes e os 20% restantes em salários de servidores. O cumprimento do piso de despesas de capital torna permitida a aplicação da parcela restante em pessoal.",
       "correctAnswer": "E",
-      "explanation": "O piso de capital e a vedação ao pagamento de pessoal são requisitos cumulativos. Cumprir o percentual mínimo não permite usar o restante para a folha.",
+      "explanation": "A transferência especial exige que pelo menos 70% dos recursos sejam aplicados em despesas de capital; além disso, é vedado usar esses recursos para pessoal ou serviço da dívida. São requisitos simultâneos: reservar 80% para equipamentos supera o piso, mas não torna permitidos os 20% para salários. (Constituição Federal, art. 166-A, § 1º, II, e § 5º.)",
       "reviewEvidence": "Conferência com a seção teórica vinculada. Constituição Federal, art. 166-A, § 1º, II, e § 5º. https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/constituicao"
     },
     {
@@ -30693,7 +30693,7 @@
       },
       "statement": "Um município pretende aplicar todo o valor de uma transferência especial na amortização de dívida. Mesmo que a amortização seja classificada como despesa de capital, a destinação é vedada pela Constituição.",
       "correctAnswer": "C",
-      "explanation": "A vedação ao serviço da dívida deve ser observada inclusive nas despesas de capital. Amortizar dívida com esses recursos viola essa vedação.",
+      "explanation": "Embora amortizar dívida seja classificado como despesa de capital, a Constituição proíbe aplicar transferência especial no serviço da dívida. A classificação econômica não afasta a vedação de finalidade: usar todo o repasse para amortização continua vedado. (Constituição Federal, art. 166-A, § 1º, II.)",
       "reviewEvidence": "Conferência com a seção teórica vinculada. Constituição Federal, art. 166-A, § 1º, II, e § 5º. https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/constituicao"
     },
     {
@@ -63033,7 +63033,7 @@
       },
       "statement": "Uma ação orçamentária previa concluir cinco escolas no exercício. Ao final do ano, foram entregues apenas três, embora todo o valor financeiro previsto tenha sido pago. A execução financeira integral, nesse caso, não comprova o cumprimento integral da meta física.",
       "correctAnswer": "C",
-      "explanation": "Certo. A meta física mede o produto entregue no período: foram concluídas três das cinco escolas previstas, ou 60% da meta medida em unidades. O montante pago ou empenhado não substitui a medida de entrega física.",
+      "explanation": "A meta física é a quantidade do produto que a ação pretende entregar. O órgão entregou 3 das 5 escolas previstas, ou 60% da meta, mesmo tendo pago todo o valor financeiro. O pagamento mede execução financeira e não prova que as outras duas escolas foram concluídas. (MTO 2026, item 4.6.1.1.)",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-001-meta-fisica-vs-execucao-financeira, gabarito C, mecanismo distinguir-meta-fisica-valor-executado. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md, articleId art-f6cfe9fbcc764554, heading literal 'O que significa programação física cumprida' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 (orçamento e execução). Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica/editorial por IA em 13/11/2026: item 001 reformulado para avaliação de meta física versus execução financeira, evitando repetição do piloto 291, cujo mecanismo era dotação versus pagamento. Artigo 'Orçamento público e ciclo orçamentário', seção literal 'O que significa programação física cumprida' e exemplo progressivo de cinco escolas conferidos. A meta 3/5=60% confere. A questão não presume que as despesas foram pagas regularmente, apenas separa pagamento de entrega de meta. Revisão automática, sem homologação humana; integração ainda sujeita a testes e cotejo final. Ajuste de integridade 13/11/2026: corrigida theoryRefs para o articleId real art-f6cfe9fbcc764554 do artigo 01; frontmatter e heading verificados na main."
     },
     {
@@ -63061,7 +63061,7 @@
       },
       "statement": "Enquanto a União executa o orçamento do exercício corrente, o Congresso pode discutir a proposta do exercício seguinte e órgãos de controle podem examinar contas de exercício anterior, sem contrariar a ideia de ciclo orçamentário.",
       "correctAnswer": "C",
-      "explanation": "As fases do ciclo são uma classificação analítica e podem ocorrer ao mesmo tempo para exercícios distintos. A execução de um ano não impede elaboração ou controle de outros.",
+      "explanation": "O ciclo orçamentário percorre planejamento, aprovação, execução e controle, mas cada etapa pode se referir a um exercício diferente. Enquanto se executa a LOA vigente, o Congresso pode apreciar a proposta seguinte e os órgãos de controle podem examinar contas anteriores; isso não significa executar duas vezes o mesmo orçamento. (Constituição Federal, arts. 165 a 169; Lei nº 4.320/1964, arts. 34 a 36.)",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-002-etapas-concorrentes-do-ciclo, gabarito C, mecanismo distinguir-fases-de-calendario-unico. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md, articleId art-f6cfe9fbcc764554, heading literal 'Estrutura do ciclo orçamentário' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 (orçamento e execução). Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção inicial 12/11/2026: conferência preliminar de art-f6cfe9fbcc764554 / Estrutura do ciclo orçamentário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
     },
     {
@@ -63089,7 +63089,7 @@
       },
       "statement": "Uma ação consta como prioridade na LDO, mas não recebeu dotação na LOA. Por isso, a indicação na LDO basta para autorizar imediatamente o pagamento da ação nesse exercício.",
       "correctAnswer": "E",
-      "explanation": "A LDO orienta a elaboração da LOA, mas não substitui a autorização orçamentária e os atos da execução financeira. A prioridade sem dotação não autoriza pagamento imediato.",
+      "explanation": "A LDO estabelece prioridades e orienta a elaboração da LOA, mas não abre uma dotação específica nem autoriza, sozinha, o empenho. Como a ação não recebeu crédito na LOA, a prioridade não basta para pagar a despesa; autorização e etapas de execução continuam necessárias. (Constituição Federal, arts. 165, § 2º, e 167, II; Lei nº 4.320/1964, arts. 58 e 62.)",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-003-ldo-sem-dotacao-nao-autoriza-gasto, gabarito E, mecanismo confundir-prioridade-com-despesa-autorizada. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md, articleId art-c301f2c741504403, heading literal 'Três leis, três perguntas e uma mesma política' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal art. 165; Lei nº 4.320/1964 (planejamento e exercício). Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção inicial 12/11/2026: conferência preliminar de art-c301f2c741504403 / Três leis, três perguntas e uma mesma política e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
     },
     {
@@ -63117,7 +63117,7 @@
       },
       "statement": "Ao preparar o PPA, o Executivo prevê metas regionalizadas tanto para investimentos em unidades de atendimento quanto para programas de duração continuada. A estrutura é compatível com o art. 165, § 1º, da Constituição.",
       "correctAnswer": "C",
-      "explanation": "O PPA estabelece regionalizadamente diretrizes, objetivos e metas para despesas de capital e decorrentes, além das relativas a programas continuados.",
+      "explanation": "O PPA organiza, de forma regionalizada, diretrizes, objetivos e metas para despesas de capital, as que delas decorrem e os programas de duração continuada. A proposta descrita combina esses dois grupos no planejamento plurianual, como permite a Constituição. (Constituição Federal, art. 165, § 1º.)",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-004-ppa-regionalizado-capital-continuados, gabarito C, mecanismo combinar-despesa-capital-e-programas-continuados. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md, articleId art-c301f2c741504403, heading literal 'PPA: Plano Plurianual' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal art. 165; Lei nº 4.320/1964 (planejamento e exercício). Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção inicial 12/11/2026: conferência preliminar de art-c301f2c741504403 / PPA: Plano Plurianual e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
     },
     {
@@ -63285,7 +63285,7 @@
       },
       "statement": "Um crédito suplementar autorizado em dezembro tem assegurada, pelo art. 167, § 2º, da Constituição, a reabertura automática de seu saldo no exercício seguinte.",
       "correctAnswer": "E",
-      "explanation": "A exceção constitucional de reabertura alcança créditos especiais e extraordinários, não suplementares; tampouco a reabertura é automática.",
+      "explanation": "A reabertura no exercício seguinte é exceção para créditos especiais e extraordinários autorizados nos últimos quatro meses do exercício, limitada aos saldos. Crédito suplementar não está nessa lista e não se reabre automaticamente; a autorização em dezembro não muda essa regra. (Constituição Federal, art. 167, § 2º.)",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-010-suplementar-sem-reabertura, gabarito E, mecanismo estender-excecao-constitucional-a-especie-errada. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Vigência e reabertura' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Vigência e reabertura'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: Conferência técnica: CF art. 167 §2º exclui suplementares da exceção de reabertura e não estabelece reabertura automática; heading literal Vigência e reabertura e artigo canônico conferidos. Distinção da espécie em relação a 009/036; triagem semântica integral pendente. Status gerada preservado; não homologado."
     },
     {
@@ -63481,7 +63481,7 @@
       },
       "statement": "Uma receita tributária classificada quanto à natureza pode receber identificação adicional por fonte ou destinação de recursos, pois a primeira classificação descreve o ingresso e a segunda permite controlar regras de aplicação.",
       "correctAnswer": "C",
-      "explanation": "Natureza da receita e fonte/destinação respondem a perguntas distintas: qual o fato gerador do ingresso e quais regras regem o uso dos recursos.",
+      "explanation": "Natureza da receita responde que tipo de ingresso ocorreu; fonte/destinação identifica as regras de aplicação do dinheiro arrecadado. Assim, o mesmo ingresso pode ser identificado por sua natureza e, separadamente, receber uma fonte que controle sua destinação. (MTO 2026, seção 3.2, especialmente itens 3.2.1 e 3.2.3.)",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-017-fonte-nao-natureza, gabarito C, mecanismo separar-origem-e-restricao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/04a - classificacao da receita.md, articleId art-f13b65a28d8c4e91, heading literal 'Fonte/destinação de recursos × natureza da receita' (theoryRef conforme nota). Normas/fontes principais: Manuais oficiais STN/MTO sobre natureza, fonte/destinação e classificação primária/financeira, confrontados com artigo canônico. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica incremental 13/11/2026, item 017: cotejo do enunciado, gabarito C e explicação com seção literal 'Fonte/destinação de recursos × natureza da receita' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
     },
     {
@@ -63509,7 +63509,7 @@
       },
       "statement": "Ao vincular constitucionalmente parte da receita de impostos à educação, a administração deve reclassificar essa arrecadação como receita de contribuição, pois a finalidade obrigatória altera sua natureza.",
       "correctAnswer": "E",
-      "explanation": "A destinação constitucional de impostos não muda a espécie do tributo arrecadado. Natureza e destinação são eixos independentes.",
+      "explanation": "A vinculação à educação determina onde parte do imposto deve ser aplicada, mas não muda o fato gerador nem a espécie da receita: continua sendo imposto. Natureza e fonte/destinação são classificações diferentes. (Constituição Federal, art. 212; MTO 2026, seção 3.2.3.)",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-018-imposto-vinculado-nao-muda-natureza, gabarito E, mecanismo identificar-invariancia-de-classificacao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/04a - classificacao da receita.md, articleId art-f13b65a28d8c4e91, heading literal 'Fonte/destinação de recursos × natureza da receita' (theoryRef conforme nota). Normas/fontes principais: Manuais oficiais STN/MTO sobre natureza, fonte/destinação e classificação primária/financeira, confrontados com artigo canônico. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica incremental 13/11/2026, item 018: cotejo do enunciado, gabarito E e explicação com seção literal 'Fonte/destinação de recursos × natureza da receita' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
     },
     {
@@ -63537,7 +63537,7 @@
       },
       "statement": "Uma receita classificada como corrente será necessariamente primária, pois as classificações corrente e primária são equivalentes e adotam o mesmo critério.",
       "correctAnswer": "E",
-      "explanation": "A categoria econômica corrente/capital e o indicador primária/financeira respondem a critérios diferentes. Receitas correntes podem ser financeiras, como determinados rendimentos de aplicações.",
+      "explanation": "“Corrente” descreve a categoria econômica do ingresso; “primária” ou “financeira” indica sua classificação para apuração do resultado fiscal. Por isso, uma receita corrente pode ser financeira — por exemplo, certos rendimentos de aplicações — e os critérios não são equivalentes. (MTO 2026, itens 3.2.1 e 3.2.4.)",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-019-primaria-nao-e-corrente, gabarito E, mecanismo distinguir-classificadores-fiscais. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/04a - classificacao da receita.md, articleId art-f13b65a28d8c4e91, heading literal 'Primária × financeira: efeito no resultado primário' (theoryRef conforme nota). Normas/fontes principais: Manuais oficiais STN/MTO sobre natureza, fonte/destinação e classificação primária/financeira, confrontados com artigo canônico. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica incremental 13/11/2026, item 019: cotejo do enunciado, gabarito E e explicação com seção literal 'Primária × financeira: efeito no resultado primário' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
     },
     {
@@ -63565,7 +63565,7 @@
       },
       "statement": "O indicador que distingue receitas primárias de financeiras permite avaliar seu tratamento no resultado primário, enquanto a fonte/destinação informa regras de utilização; os dois classificadores podem coexistir para o mesmo ingresso.",
       "correctAnswer": "C",
-      "explanation": "A classificação por indicador de resultado primário e a classificação por fonte/destinação não são substitutas. Uma informa o efeito fiscal; a outra identifica regras de aplicação.",
+      "explanation": "O indicador primária/financeira informa como a receita é considerada no resultado fiscal; fonte/destinação informa as regras de utilização do valor. São atributos diferentes que podem coexistir para a mesma receita, sem que um determine o outro. (MTO 2026, itens 3.2.3 e 3.2.4.)",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-020-financeira-nao-e-destinacao, gabarito C, mecanismo distinguir-resultado-fiscal-e-vinculacao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/04a - classificacao da receita.md, articleId art-f13b65a28d8c4e91, heading literal 'Primária × financeira: efeito no resultado primário' (theoryRef conforme nota). Normas/fontes principais: Manuais oficiais STN/MTO sobre natureza, fonte/destinação e classificação primária/financeira, confrontados com artigo canônico. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica incremental 13/11/2026, item 020: cotejo do enunciado, gabarito C e explicação com seção literal 'Primária × financeira: efeito no resultado primário' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
     },
     {
@@ -64041,7 +64041,7 @@
       },
       "statement": "A abertura de crédito adicional, por ampliar ou criar autorização orçamentária, equivale ao empenho da despesa correspondente, dispensando a etapa de execução que reserva dotação para uma obrigação específica.",
       "correctAnswer": "E",
-      "explanation": "Crédito adicional ajusta a autorização orçamentária; empenho é ato distinto da execução da despesa. A abertura do crédito não realiza automaticamente empenho, liquidação ou pagamento.",
+      "explanation": "Crédito adicional é autorização orçamentária para criar ou reforçar dotação; empenho é o ato posterior que vincula parte do crédito a uma obrigação específica. Abrir o crédito não reserva recursos para um credor nem comprova entrega ou pagamento. (Lei nº 4.320/1964, arts. 40 e 58.)",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-037-credito-adicional-nao-empenho, gabarito E, mecanismo distinguir-autorizacao-e-execucao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica automatizada em 13/11/2026: enunciado E, crédito adicional não equivale a empenho. Artigo canônico 05, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação'. Lei 4.320/1964 arts. 40, 58 a 60, texto atualizado Câmara: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem lexical Jaccard contra expansao+piloto+outros itens do lote: máximo 0,25. Similaridade semântica global e testes locais pendentes; não homologado."
     },
     {
@@ -64125,7 +64125,7 @@
       },
       "statement": "Mesmo após a abertura regular de crédito suplementar, a realização do pagamento pode depender de disponibilidade financeira e da observância das etapas de execução da despesa.",
       "correctAnswer": "C",
-      "explanation": "A autorização orçamentária adicional não gera automaticamente caixa nem substitui empenho, liquidação e demais condições para pagamento.",
+      "explanation": "Crédito adicional amplia a autorização para gastar, mas não cria saldo financeiro em caixa. Mesmo com o crédito aberto, a despesa precisa ser empenhada e liquidada, e o pagamento depende da programação e da disponibilidade financeira. (Lei nº 4.320/1964, arts. 40, 58 e 62; LRF, art. 8º.)",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-040-credito-nao-resolve-caixa, gabarito C, mecanismo separar-orcamento-e-financas. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica automatizada em 13/11/2026: enunciado C, abertura de crédito suplementar não substitui disponibilidade financeira nem fases de despesa. Artigo 05, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação'. Lei 4.320/1964 arts. 40, 47 a 49, 58 a 65, texto atualizado Câmara: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem lexical Jaccard máxima 0,125; semântica e testes locais pendentes; não homologado."
     },
     {
@@ -67037,7 +67037,7 @@
       },
       "statement": "Um Poder publica a programação financeira dentro dos trinta dias posteriores à publicação da LOA, mas estabelece apenas limites trimestrais de desembolso. O atendimento do prazo de edição supre a ausência de cronograma mensal.",
       "correctAnswer": "E",
-      "explanation": "O prazo para estabelecer a programação e a periodicidade mensal do cronograma são requisitos distintos. Cumprir o primeiro não dispensa o segundo.",
+      "explanation": "O art. 8º da LRF impõe duas coisas: o Executivo estabelece a programação financeira até 30 dias após a publicação do orçamento e fixa cronograma mensal de desembolso. Publicar no prazo satisfaz o primeiro requisito, mas limites apenas trimestrais não cumprem a periodicidade mensal exigida. (LRF, art. 8º.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. LC 101/2000, art. 8º. Critério conferido: O prazo para estabelecer a programação e a periodicidade mensal do cronograma são requisitos distintos. Cumprir o primeiro não dispensa o segundo. Dificuldade estimada."
     },
     {
@@ -67065,7 +67065,7 @@
       },
       "statement": "Uma autarquia mantém saldo de recursos legalmente vinculados a um programa ao encerrar o exercício. O ingresso no exercício anterior não autoriza usar esse saldo em outro programa estranho à finalidade da vinculação.",
       "correctAnswer": "C",
-      "explanation": "A obrigação de aplicar o recurso na finalidade legal continua mesmo em exercício diverso daquele em que ele ingressou.",
+      "explanation": "Recurso vinculado conserva sua finalidade legal mesmo depois da virada do exercício. A data em que o dinheiro entrou não autoriza transferi-lo para outro programa; a obrigação é usar o saldo no objeto da vinculação. (LRF, art. 8º, parágrafo único.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. LC 101/2000, art. 8º, parágrafo único. Critério conferido: A obrigação de aplicar o recurso na finalidade legal continua mesmo em exercício diverso daquele em que ele ingressou. Dificuldade estimada."
     },
     {
@@ -67093,7 +67093,7 @@
       },
       "statement": "Ao fim de um bimestre, a arrecadação acumulada ficou abaixo da estimativa, mas a realização da receita ainda comporta as metas fiscais estabelecidas no Anexo de Metas Fiscais. Pelo art. 9º da LRF, a diferença em relação à estimativa basta para exigir limitação.",
       "correctAnswer": "E",
-      "explanation": "O gatilho é o risco de que a realização da receita não comporte as metas de resultado. A diferença isolada não demonstra esse risco no caso.",
+      "explanation": "Uma arrecadação abaixo da estimativa não basta para limitar empenhos. O art. 9º exige que, ao final do bimestre, a receita possa comprometer as metas de resultado primário ou nominal; como o enunciado diz que as metas ainda são alcançáveis, o gatilho não se verificou. (LRF, art. 9º.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. LC 101/2000, art. 9º, caput. Critério conferido: O gatilho é o risco de que a realização da receita não comporte as metas de resultado. A diferença isolada não demonstra esse risco no caso. Dificuldade estimada."
     },
     {
@@ -67121,7 +67121,7 @@
       },
       "statement": "Dois órgãos sofreram reduções de limites de R$ 3 milhões e R$ 9 milhões. Se a recomposição parcial disponível para o conjunto for de R$ 4 milhões, atribuir R$ 2 milhões a cada órgão satisfaz o critério proporcional da LRF.",
       "correctAnswer": "E",
-      "explanation": "A base da recomposição são as reduções efetivadas. A proporção de 1 para 3 resulta em R$ 1 milhão para o primeiro órgão e R$ 3 milhões para o segundo.",
+      "explanation": "A recomposição segue a proporção dos limites originalmente reduzidos: R$ 3 milhões e R$ 9 milhões formam proporção de 1 para 3. Dos R$ 4 milhões recuperados, cabe R$ 1 milhão ao primeiro órgão e R$ 3 milhões ao segundo; dividir igualmente não respeita essa proporção. (LRF, art. 9º, § 1º.)",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. LC 101/2000, art. 9º, § 1º. Critério conferido: A base da recomposição são as reduções efetivadas. A proporção de 1 para 3 resulta em R$ 1 milhão para o primeiro órgão e R$ 3 milhões para o segundo. Dificuldade estimada."
     },
     {
@@ -68073,7 +68073,7 @@
       },
       "statement": "Em despesa que não pode seguir o processamento normal e se enquadra em hipótese legal de adiantamento, o empenho em dotação própria deve anteceder a entrega do numerário ao servidor.",
       "correctAnswer": "C",
-      "explanation": "O caráter excepcional do regime altera a execução do gasto pelo servidor, mas a lei exige empenho antes da entrega do numerário.",
+      "explanation": "No suprimento de fundos, o servidor recebe numerário para despesa legalmente definida que não pode seguir o procedimento normal, mas a excepcionalidade não elimina o empenho prévio. O empenho na dotação própria deve ocorrer antes da entrega do dinheiro. (Lei nº 4.320/1964, art. 68.)",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 4.320/1964, art. 68, e seção canônica. Critério conferido: O caráter excepcional do regime altera a execução do gasto pelo servidor, mas a lei exige empenho antes da entrega do numerário. Dificuldade estimada."
     },
     {
@@ -68101,7 +68101,7 @@
       },
       "statement": "Uma despesa regularmente liquidada foi inscrita em restos a pagar. O cancelamento do registro, sem análise da obrigação, basta para demonstrar que o direito do credor deixou de existir.",
       "correctAnswer": "E",
-      "explanation": "A liquidação verifica o direito do credor. O cancelamento contábil isolado não demonstra causa jurídica de extinção da obrigação.",
+      "explanation": "A liquidação já reconheceu, com base em documentos, o direito do credor e o valor devido. Cancelar a inscrição contábil de restos a pagar não demonstra, por si só, pagamento, quitação ou outra causa que extinga a obrigação; seria necessário analisar o fundamento jurídico do cancelamento. (Lei nº 4.320/1964, arts. 36, 37 e 63.)",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 4.320/1964, art. 36, e seção canônica. Critério conferido: A liquidação verifica o direito do credor. O cancelamento contábil isolado não demonstra causa jurídica de extinção da obrigação. Dificuldade estimada."
     },
     {
@@ -71209,7 +71209,7 @@
       },
       "statement": "Mesmo quando incidem as restrições do limite prudencial, a LRF ressalva a reposição decorrente de aposentadoria de servidor da área de segurança.",
       "correctAnswer": "C",
-      "explanation": "A vedação de provimento ressalva a reposição por aposentadoria ou falecimento de servidores das áreas de educação, saúde e segurança.",
+      "explanation": "No limite prudencial, a LRF restringe certas medidas de pessoal, mas ressalva a reposição decorrente de aposentadoria ou falecimento nas áreas de educação, saúde e segurança. A reposição descrita na questão se enquadra nessa exceção específica. (LRF, art. 22, parágrafo único, IV.)",
       "reviewEvidence": "Revisão editorial por IA. LC 101/2000, art. 22, parágrafo único, IV. A vedação de provimento ressalva a reposição por aposentadoria ou falecimento de servidores das áreas de educação, saúde e segurança. Dificuldade estimada."
     },
     {
@@ -71461,7 +71461,7 @@
       },
       "statement": "Se a despesa total com pessoal permanece constante e a receita corrente líquida cai de R$ 100 milhões para R$ 80 milhões, a razão entre despesa com pessoal positiva e RCL necessariamente diminui.",
       "correctAnswer": "E",
-      "explanation": "Com numerador positivo constante, reduzir o denominador aumenta a razão. Isso pode aproximar a despesa dos limites fiscais mesmo sem elevar o valor nominal gasto.",
+      "explanation": "A despesa com pessoal é comparada com a RCL. Mantido um numerador positivo, reduzir o denominador de R$ 100 milhões para R$ 80 milhões aumenta a razão percentual; isso pode aproximar o Poder do limite mesmo sem aumento nominal da folha. (LRF, arts. 18 e 20.)",
       "reviewEvidence": "Revisão por IA. Conferência da janela e do denominador da LRF: Com numerador positivo constante, reduzir o denominador aumenta a razão. Isso pode aproximar a despesa dos limites fiscais mesmo sem elevar o valor nominal gasto. Dificuldade estimada."
     },
     {
@@ -71741,7 +71741,7 @@
       },
       "statement": "Ao comparar duas propostas orçamentárias para o mesmo subtítulo, verifica-se que ambas preveem R$ 800 mil e que a quantidade prevista de laboratórios a equipar passou de quatro para cinco. A alteração identificada recai sobre a meta física.",
       "correctAnswer": "C",
-      "explanation": "A meta física quantifica o produto esperado. O aumento de quatro para cinco laboratórios altera a meta, mantendo o valor financeiro informado.",
+      "explanation": "A meta física é a quantidade de produto prevista para a ação. Como o valor financeiro permaneceu em R$ 800 mil e a quantidade passou de quatro para cinco laboratórios, mudou a entrega física planejada, não a dotação. (MTO 2026, item 4.6.1.1.)",
       "reviewEvidence": "Revisão por IA. Conferência da seção indicada e do MTO, capítulo 4. A meta física quantifica o produto esperado. O aumento de quatro para cinco laboratórios altera a meta, mantendo o valor financeiro informado. Dificuldade estimada."
     },
     {
@@ -71797,7 +71797,7 @@
       },
       "statement": "Uma mesma ação orçamentária federal pode ter dois subtítulos para distinguir a localização de suas entregas em estados diferentes.",
       "correctAnswer": "C",
-      "explanation": "O subtítulo detalha a ação e pode identificar sua localização. É possível, assim, distinguir as duas programações territoriais dentro da mesma ação.",
+      "explanation": "A ação pode ser detalhada em subtítulos, que registram recortes como a localização da entrega. Portanto, dois estados podem aparecer em subtítulos distintos da mesma ação sem criar duas ações diferentes. (MTO 2026, item 4.4, estrutura programática.)",
       "reviewEvidence": "Revisão por IA. Conferência da seção indicada e do MTO, capítulo 4. O subtítulo detalha a ação e pode identificar sua localização. É possível, assim, distinguir as duas programações territoriais dentro da mesma ação. Dificuldade estimada."
     },
     {
@@ -72273,7 +72273,7 @@
       },
       "statement": "Dois setores de um mesmo órgão federal funcionam em prédios diferentes e dependem das dotações atribuídas a uma só unidade orçamentária. A separação física dos setores não exige, por si só, que cada um constitua uma unidade orçamentária.",
       "correctAnswer": "C",
-      "explanation": "A unidade orçamentária é identificada pela estrutura do orçamento. O local de funcionamento de um setor não determina sua classificação institucional.",
+      "explanation": "A unidade orçamentária é definida na estrutura do orçamento, e não pelo número de prédios onde seus setores funcionam. Se os dois setores recebem dotações sob a mesma unidade, a separação física, sozinha, não exige criar outra unidade orçamentária. (MTO 2026, item 4.3.)",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A unidade orçamentária é identificada pela estrutura do orçamento. O local de funcionamento de um setor não determina sua classificação institucional. Dificuldade estimada."
     },
     {
@@ -72301,7 +72301,7 @@
       },
       "statement": "Durante a elaboração da proposta federal, o trabalho de incluir uma nova ação e definir seu produto, antes de associar valores financeiros, trata da dimensão qualitativa da programação.",
       "correctAnswer": "C",
-      "explanation": "A criação da ação e a definição de seu produto dizem respeito à estrutura e aos atributos da programação. A dimensão quantitativa detalha as magnitudes físicas e financeiras.",
+      "explanation": "A dimensão qualitativa define a estrutura da programação — por exemplo, a ação e seu produto — antes da distribuição dos valores. A dimensão quantitativa atribui as magnitudes físicas e financeiras. Como o enunciado ainda não associa valores, trata da etapa qualitativa. (MTO 2026, itens 4.1.1 e 4.1.2.)",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A criação da ação e a definição de seu produto dizem respeito à estrutura e aos atributos da programação. A dimensão quantitativa detalha as magnitudes físicas e financeiras. Dificuldade estimada."
     },
     {
@@ -76613,7 +76613,7 @@
       },
       "statement": "A lei que autorizou determinado crédito especial foi promulgada em agosto, mas o decreto de abertura só foi editado em outubro. Havendo saldo ao fim do exercício, a data do decreto de abertura permite reabrir esse saldo no exercício seguinte com base no art. 167, § 2º, da Constituição.",
       "correctAnswer": "E",
-      "explanation": "A exceção constitucional é determinada pela promulgação do ato de autorização nos últimos quatro meses do exercício, de setembro a dezembro. A lei foi promulgada em agosto. A edição do decreto de abertura em outubro não altera essa data.",
+      "explanation": "Para reabrir saldo de crédito especial, o que conta é a data de promulgação da lei de autorização, que deve cair nos últimos quatro meses do exercício; não é a data posterior do decreto de abertura. Agosto fica fora desse período, então o decreto de outubro não cria a condição constitucional. (Constituição Federal, art. 167, § 2º.)",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 167, § 2º, na Constituição publicada pela Câmara, o subtítulo literal e o marco temporal. O item exige escolher o ato determinante quando autorização e abertura estão em meses diferentes."
     },
     {
@@ -77005,7 +77005,7 @@
       },
       "statement": "Uma prefeitura recebeu, em dezembro, uma caução em dinheiro para garantir um contrato. Em janeiro, após o cumprimento das condições contratuais, devolveu integralmente o valor ao fornecedor. A mudança de exercício torna a devolução uma despesa orçamentária do novo ano.",
       "correctAnswer": "E",
-      "explanation": "A prefeitura devolveu recursos de terceiro que mantinha em garantia. O desembolso extingue a obrigação de devolver a caução e é extraorçamentário, ainda que a entrada e a saída ocorram em exercícios diferentes.",
+      "explanation": "A caução é recurso de terceiro recebido como garantia e que deve ser devolvido quando satisfeitas as condições; a entrada não é receita própria, e a devolução extingue essa obrigação. A mudança de exercício não transforma o reembolso extraorçamentário em despesa orçamentária. (Lei nº 4.320/1964, art. 3º, parágrafo único; MCASP, 11ª edição, Parte I, seção de ingressos extraorçamentários.)",
       "reviewEvidence": "Revisão editorial por IA. Conferidos o MCASP, 11ª edição, Parte I, tópico Dispêndios, e a seção canônica. O item testa a classificação da saída em exercício posterior."
     },
     {
@@ -77089,7 +77089,7 @@
       },
       "statement": "Em um mês, um ente recebe R$ 200 mil de um financiamento que contratou e R$ 50 mil referentes exclusivamente ao principal de um empréstimo que havia concedido. Os dois ingressos somam R$ 250 mil em receitas de capital, mas devem ser registrados em origens distintas.",
       "correctAnswer": "C",
-      "explanation": "Os R$ 200 mil são receita de operação de crédito, pois o ente tomou o financiamento. Os R$ 50 mil são receita de amortização de empréstimos concedidos, pois o ente recuperou principal que havia emprestado. Ambas as origens pertencem à categoria econômica receitas de capital.",
+      "explanation": "A operação de crédito é recurso obtido por financiamento; a amortização de empréstimo concedido é a recuperação do principal que o ente havia emprestado. Ambas são receitas de capital, mas têm origens distintas — uma cria endividamento do ente e a outra reduz um crédito a receber. (Lei nº 4.320/1964, art. 11, § 2º; MTO 2026, classificação da receita por origem.)",
       "reviewEvidence": "Revisão editorial por IA. Conferidas as naturezas de receita de capital no MCASP, Parte I, e o subtítulo do artigo. O caso exige somar na categoria econômica e separar os ingressos por origem."
     },
     {
@@ -77117,7 +77117,7 @@
       },
       "statement": "Um órgão compra um terreno indispensável à execução de uma obra e, em operação separada, compra um prédio em uso para instalar uma unidade administrativa, sem obras. As duas aquisições integram a categoria econômica despesas de capital, mas a primeira é investimento e a segunda é inversão financeira.",
       "correctAnswer": "C",
-      "explanation": "O terreno necessário à execução da obra integra Investimentos (GND 4). A compra do prédio em uso, desvinculada de obras, integra Inversões Financeiras (GND 5). Os dois grupos pertencem às despesas de capital.",
+      "explanation": "O terreno comprado porque é necessário para executar uma obra compõe o investimento da obra. Já a aquisição de prédio pronto e em uso, sem obra, é inversão financeira. O critério é a relação do imóvel com a realização de obras, não apenas o fato de ambos serem imóveis. (Lei nº 4.320/1964, art. 12, §§ 4º e 5º.)",
       "reviewEvidence": "Revisão editorial por IA. Conferidos o capítulo 4 do MTO 2026, a seção literal e a aplicação ao cenário. Mecanismo revisado: comparar-grupos-de-despesa-em-duas-aquisicoes-imobiliarias."
     },
     {
@@ -77145,7 +77145,7 @@
       },
       "statement": "Para equipar duas unidades de saúde, a União compra diretamente os equipamentos para uma delas e transfere recursos a um município para que ele compre os da outra. Como os bens a adquirir são do mesmo tipo, a modalidade de aplicação é necessariamente a mesma nas duas despesas da União.",
       "correctAnswer": "E",
-      "explanation": "A modalidade identifica como o orçamento da União aplica os recursos. Na primeira operação, ela contrata diretamente. Na segunda, ela transfere recursos ao município, que fará a compra. A identidade dos equipamentos não iguala essas modalidades.",
+      "explanation": "A modalidade de aplicação descreve como a União executa o orçamento: na primeira compra, ela contrata diretamente; na segunda, transfere recursos para o município comprar. O mesmo tipo de equipamento não muda quem aplica os recursos nem iguala as modalidades. (MTO 2026, item 4.6.2.1.)",
       "reviewEvidence": "Revisão editorial por IA. Conferidos o capítulo 4 do MTO 2026, a seção literal e a aplicação ao cenário. Mecanismo revisado: identificar-mudanca-de-modalidade-mantendo-o-objeto."
     },
     {

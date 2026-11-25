@@ -652,3 +652,33 @@ O nível foi revisado item a item após a redação dos lotes. Questões curtas 
 | cgu-2026 | 60 | 7 | 35 | 18 | 30 | 30 |
 
 O seletor após este lote tem 163 itens de Orçamento da Câmara (42 fáceis, 75 médios, 46 difíceis) e 63 da CGU (sete fáceis, 38 médios, 18 difíceis). A comparação com a base confirma 58 mudanças de dificuldade no legado público da Câmara e preservação dos demais campos, inclusive enunciados, gabaritos e IDs. O catálogo servido pelo Pages coincidiu com o build local nos 226 itens de Orçamento e preservou a calibração dos 120 novos IDs e os três casos compartilhados. A seção teórica da CGU publicada coincidiu com a versão do build. Os dez preflights remotos e os dez workflows de publicação correspondentes concluíram com sucesso.
+
+## Ampliação do banco da Câmara de 163 para 326 questões
+
+A ampliação acrescenta 163 itens autorais Certo/Errado em 13 lotes, com apoio de 19 artigos da trilha. Os casos foram escritos para a edição pública e os itens oficiais da matriz acima servem como referência para a operação de julgamento. Cada novo registro identifica o caderno e o gabarito definitivo, o artigo e a seção da trilha, a operação cognitiva e a evidência editorial. Nas 64 situações compartilhadas, o contexto completo acompanha cada item.
+
+A seleção reforça a tramitação e a fiscalização pela Comissão Mista de Orçamento, a distinção entre as decisões sobre emendas e a integração entre autorização orçamentária, disponibilidade financeira e execução. Os comentários localizam a norma, aplicam a regra ao fato decisivo e apresentam uma alteração de fato ou requisito para comparação.
+
+| Lote | Itens | Cobertura |
+| --- | ---: | --- |
+| 1 | 16 | Créditos, fontes, tramitação e encerramento |
+| 2 | 14 | Limitação de empenho, esferas, receita e controle de obras |
+| 3 | 12 | Vedações constitucionais, vinculações, descentralização e despesa continuada |
+| 4 | 11 | Arrecadação digital, programação, medição e controle interno |
+| 5 | 11 | Comitês, recurso, prazos e alterações de emendas |
+| 6 | 12 | Prazos federais, metas fiscais e classificações |
+| 7 | 12 | Antecipação de receita, cálculos de execução e relatórios |
+| 8 | 11 | Bancada, transferência especial, impedimentos e rastreabilidade |
+| 9 | 12 | Elaboração, autonomia orçamentária, veto, remanejamento e pessoal |
+| 10 | 12 | Despesas anteriores, suprimento de fundos, limites e registros |
+| 11 | 13 | Reconhecimento, natureza da receita e despesa, fonte e plano plurianual |
+| 12 | 14 | Renúncia, corte anual, recursos vinculados e controle parlamentar |
+| 13 | 13 | Cronogramas, emendas impositivas, classificações e créditos |
+
+| Banco da Câmara | Fáceis | Médias | Difíceis | Total |
+| --- | ---: | ---: | ---: | ---: |
+| Base | 42 | 75 | 46 | 163 |
+| Ampliação | 5 | 45 | 113 | 163 |
+| Total | 47 | 120 | 159 | 326 |
+
+Os novos itens têm 89 gabaritos Certo e 74 Errado. A verificação compara a estrutura completa das 163 questões originais com a base, confere IDs, vínculos teóricos e localizadores oficiais, e procura duplicatas literais e similaridade lexical nos enunciados. O banco público de Orçamento da CGU conserva os seus 63 itens. Os quatro primeiros lotes estão no commit `de2229532720f8f12545e014034205eddb87141f`. [Preflight público](https://github.com/leorruas/concursos/actions/runs/45695412735) · [Publicação](https://github.com/leorruas/concursos/actions/runs/45695586756).

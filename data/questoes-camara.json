@@ -18793,7 +18793,7 @@
       },
       "statement": "Eleita por partido que não preencheu a cláusula de desempenho, uma deputada decide se filiar a partido que cumpriu os requisitos. Nessa hipótese, a Constituição permite a nova filiação sem perda do mandato.",
       "correctAnswer": "C",
-      "explanation": "O § 5º assegura o mandato e faculta a filiação, sem perda, a partido que tenha preenchido os requisitos do § 3º.",
+      "explanation": "**Regra:** o parlamentar eleito por partido que não atingiu a cláusula de desempenho pode filiar-se, sem perder o mandato, a outro partido que tenha cumprido os requisitos constitucionais. **Aplicação:** a nova legenda descrita alcançou o desempenho exigido, então a migração se enquadra na exceção. **Limite:** a Constituição também determina que essa mudança não seja considerada para distribuir recursos do Fundo Partidário e acesso gratuito ao rádio e à televisão. A regra protege o mandato na mudança específica, não cria liberdade irrestrita para qualquer troca partidária. (Constituição, art. 17, § 5º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 17, §§ 3º e 5º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -18821,7 +18821,7 @@
       },
       "statement": "Um parlamentar eleito por partido que não atingiu a cláusula de desempenho invoca o art. 17, § 5º, para migrar sem perda do mandato para outra legenda que também não preencheu os requisitos. Essa mudança está protegida pelo referido dispositivo.",
       "correctAnswer": "E",
-      "explanation": "A proteção específica do § 5º exige que o partido de destino tenha atingido os requisitos de desempenho.",
+      "explanation": "**Regra:** a exceção do art. 17, § 5º, exige dois elementos: o parlamentar foi eleito por partido que não atingiu a cláusula de desempenho e migra para legenda que a atingiu. **Aplicação:** se o partido de destino também ficou abaixo do desempenho exigido, falta a condição constitucional; essa mudança não está protegida por esse dispositivo. **Distinção:** não basta que o partido de origem tenha falhado na cláusula. A qualidade do partido de destino também é decisiva. (Constituição, art. 17, § 5º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 17, §§ 3º e 5º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -18849,7 +18849,7 @@
       },
       "statement": "Uma pessoa que possui somente a nacionalidade brasileira formula pedido expresso de perda perante autoridade brasileira competente. Se o deferimento a deixaria sem nacionalidade, incide a ressalva constitucional de apatridia.",
       "correctAnswer": "C",
-      "explanation": "O pedido expresso constitui hipótese de perda, com ressalva para os casos que acarretem apatridia.",
+      "explanation": "**Regra:** a perda da nacionalidade brasileira pode ser declarada quando a própria pessoa apresenta pedido expresso a autoridade brasileira competente, desde que isso não a torne apátrida. **Aplicação:** quem só tem nacionalidade brasileira não pode perder essa nacionalidade por esse caminho se o resultado for ficar sem nenhuma nacionalidade. **Distinção:** adquirir outra nacionalidade, por si só, não gera perda automática desde a EC nº 131/2023; o pedido expresso é a hipótese constitucional atual, limitada pela vedação à apatridia. (Constituição, art. 12, § 4º, II, e § 5º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, § 4º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -18877,7 +18877,7 @@
       },
       "statement": "A autoridade pode declarar a perda a pedido da única nacionalidade da pessoa, desde que ela aceite expressamente ficar apátrida.",
       "correctAnswer": "E",
-      "explanation": "A Constituição ressalva as situações que acarretem apatridia. A concordância do requerente não afasta essa ressalva.",
+      "explanation": "**Regra:** a autoridade pode declarar a perda a pedido expresso, mas não quando isso provocar apatridia. **Aplicação:** o consentimento da pessoa não afasta a vedação; aceitar ficar sem nacionalidade não torna o resultado admissível. **Distinção:** a Constituição trata a proteção contra apatridia como limite à hipótese de perda, e não como direito que a pessoa possa dispensar por vontade própria. Também não se deve confundir essa hipótese atual com a antiga perda automática por aquisição voluntária de outra nacionalidade, alterada pela EC nº 131/2023. (Constituição, art. 12, § 4º, II, e § 5º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, § 4º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -19633,7 +19633,7 @@
       },
       "statement": "Uma pessoa de nacionalidade estrangeira, sem nacionalidade brasileira nem estatuto de igualdade de direitos políticos, reside no Brasil há dez anos. O tempo de residência, por si só, não permite seu alistamento eleitoral.",
       "correctAnswer": "C",
-      "explanation": "O art. 14, § 2º, veda o alistamento eleitoral de estrangeiros. Residência prolongada não satisfaz o requisito de nacionalidade.",
+      "explanation": "**Regra:** estrangeiros não podem alistar-se como eleitores no Brasil; o tempo de residência não substitui a nacionalidade brasileira. **Aplicação:** dez anos de residência, sem naturalização, não habilitam a pessoa ao alistamento. **Ressalva:** a Constituição prevê situação específica para portugueses com residência permanente e reciprocidade, quando houver atribuição de direitos políticos pelo estatuto de igualdade; o enunciado exclui expressamente esse caso. (Constituição, art. 14, § 2º, combinado com art. 12, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -19661,7 +19661,7 @@
       },
       "statement": "Pessoa estrangeira com residência permanente, sem nacionalidade brasileira nem estatuto de igualdade de direitos políticos, pode alistar-se para votar apenas nas eleições municipais.",
       "correctAnswer": "E",
-      "explanation": "A vedação constitucional ao alistamento eleitoral de estrangeiros também alcança eleições municipais.",
+      "explanation": "**Regra:** a vedação ao alistamento de estrangeiros não se limita às eleições federais; alcança também o voto municipal. **Aplicação:** residência permanente, isoladamente, não habilita a pessoa estrangeira a votar para prefeito ou vereador. **Ressalva:** a hipótese constitucional de igualdade de direitos entre brasileiros e portugueses depende dos requisitos próprios do art. 12, § 1º; a questão afirma que essa condição não existe. (Constituição, art. 14, § 2º, e art. 12, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -19745,7 +19745,7 @@
       },
       "statement": "Filha de brasileira, nascida no exterior e registrada em repartição brasileira competente, continua residindo fora do Brasil. O registro satisfaz a condição constitucional para que seja brasileira nata.",
       "correctAnswer": "C",
-      "explanation": "O registro em repartição competente configura via própria. A residência no Brasil e a opção após a maioridade pertencem à outra via prevista na alínea c.",
+      "explanation": "**Regra:** filho de pai brasileiro ou mãe brasileira nascido no exterior pode ser brasileiro nato se registrado em repartição brasileira competente. **Aplicação:** o registro consular descrito satisfaz essa via, mesmo que a pessoa continue morando fora do Brasil. **Distinção:** existe outra possibilidade: vir a residir no Brasil e, depois da maioridade, optar pela nacionalidade brasileira. Essa residência e opção são requisitos da via alternativa, não se somam ao registro consular. (Constituição, art. 12, I, c.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, I, c. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -19773,7 +19773,7 @@
       },
       "statement": "Filho de brasileiro, nascido no exterior e registrado em repartição brasileira competente, precisa optar pela nacionalidade após a maioridade para ser reconhecido como brasileiro nato.",
       "correctAnswer": "E",
-      "explanation": "O registro em repartição brasileira competente é suficiente nessa hipótese. A opção integra a via que pressupõe residência no Brasil, usada como alternativa ao registro.",
+      "explanation": "**Regra:** o registro em repartição brasileira competente basta para reconhecer como brasileiro nato o filho de brasileiro nascido no exterior, sem exigir opção posterior. **Aplicação:** no caso, o registro já foi feito; portanto, não é necessário aguardar residência no Brasil nem uma manifestação após a maioridade. **Distinção:** a opção após a maioridade pertence à via alternativa em que a pessoa vem residir no Brasil e não foi registrada no exterior. (Constituição, art. 12, I, c.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 12, I, c. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -19829,7 +19829,7 @@
       },
       "statement": "O art. 3º, IV, restringe o objetivo de promover o bem de todos aos preconceitos que enumera expressamente e exclui as demais formas de discriminação.",
       "correctAnswer": "E",
-      "explanation": "O dispositivo apresenta exemplos expressos e inclui as demais formas de discriminação, sem limitar o objetivo às categorias listadas.",
+      "explanation": "**Regra:** a República tem como objetivo promover o bem de todos sem preconceitos de origem, raça, sexo, cor, idade ou quaisquer outras formas de discriminação. **Aplicação:** a lista expressa não é fechada; discriminações por motivos não enumerados também contrariam o objetivo constitucional. **Pegadinha:** a expressão “quaisquer outras” amplia a proteção para além dos exemplos escritos no inciso. (Constituição, art. 3º, IV.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 3º, IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -20865,7 +20865,7 @@
       },
       "statement": "No início do terceiro ano de uma legislatura, a Presidência organiza a primeira sessão plenária da nova sessão legislativa. Para essa reunião, o Regimento veda a designação de Ordem do Dia.",
       "correctAnswer": "C",
-      "explanation": "O marco é o início de cada sessão legislativa, que ocorre em cada ano da legislatura.",
+      "explanation": "**Regra:** não há Ordem do Dia na primeira sessão plenária de cada sessão legislativa. Como há uma sessão legislativa por ano, a vedação não se limita ao primeiro ano de uma legislatura. **Aplicação:** a primeira plenária do terceiro ano também está abrangida. **Distinção:** legislatura costuma durar quatro anos; sessão legislativa é o período anual de funcionamento. O marco do Regimento é a sessão legislativa, e não o início de uma nova legislatura. (RICD, art. 85, parágrafo único.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 85, parágrafo único. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -20977,7 +20977,7 @@
       },
       "statement": "Uma licença para tratamento da saúde é concedida originalmente por 121 dias. A duração do ato original já satisfaz o requisito temporal para a convocação do suplente nessa hipótese.",
       "correctAnswer": "C",
-      "explanation": "O prazo original precisa ser superior a 120 dias. Uma licença originalmente concedida por 121 dias satisfaz o critério.",
+      "explanation": "**Regra:** para licença de saúde justificar a convocação de suplente, o afastamento original deve ser superior a 120 dias. **Aplicação:** 121 dias supera o limite, portanto atende ao requisito temporal do Regimento. **Distinção:** a análise considera o prazo originalmente concedido; não se deve somar prorrogações de licença originalmente igual ou inferior a 120 dias para alcançar o limiar. (RICD, art. 241, I.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 241, III. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -21005,7 +21005,7 @@
       },
       "statement": "Um deputado obtém licença de saúde por 120 dias e depois a prorroga por cinco dias. A soma autoriza convocar suplente pela regra de licença de saúde.",
       "correctAnswer": "E",
-      "explanation": "O Regimento exige prazo original superior a 120 dias e veda a soma de períodos para esse efeito. Uma licença original de 120 dias não basta.",
+      "explanation": "**Regra:** o Regimento exige que a licença de saúde seja concedida originalmente por prazo superior a 120 dias para convocar suplente por essa hipótese; períodos não podem ser somados para alcançar o limite. **Aplicação:** uma licença original de 120 dias não supera o marco, e a prorrogação posterior de cinco dias não corrige esse requisito inicial. **Pegadinha:** 120 dias exatos não são “mais de 120”. (RICD, art. 241, I.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 241, III. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {

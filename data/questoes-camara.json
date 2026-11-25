@@ -7605,6 +7605,108 @@
   ],
   "expansao": [
     {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "id": "cam-caso-tcu-ato-corrigido-no-prazo",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-ato-prazo-e-dupla-comunicacao",
+      "mechanism": "ato-corrigido-no-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Atos administrativos, contratos e execução de decisões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Atos administrativos, contratos e execução de decisões"
+      },
+      "statement": "Em uma fiscalização sobre a conservação de acervos federais, o Tribunal de Contas da União examinou três expedientes. No expediente I, identificou ilegalidade em um ato administrativo autônomo de distribuição de equipamentos, sem natureza contratual. O órgão corrigiu inteiramente o ato dentro do prazo formalmente fixado pelo Tribunal. Nos expedientes II e III, a ilegalidade recaía sobre contratos administrativos distintos, ainda em execução, e o TCU levou os casos ao Congresso Nacional para as medidas constitucionais cabíveis. No expediente II haviam transcorrido sessenta dias do início do prazo constitucional, sem providência. No expediente III haviam passado noventa e cinco dias, e nem o Congresso nem o Poder Executivo haviam efetivado as medidas cabíveis. Discute-se a sustação no mérito, sem pedido de medida cautelar.\n\nCom base nessa situação, julgue o item a seguir.\n\nNo expediente I, a constatação inicial de ilegalidade basta para o TCU sustar a execução do ato, mesmo depois de cumprida integralmente a determinação de correção.",
+      "correctAnswer": "E",
+      "explanation": "Os incisos IX e X do art. 71 vinculam a sustação do ato impugnado ao descumprimento da determinação do TCU. O órgão corrigiu o ato no prazo, portanto esse pressuposto não está presente. Se a determinação tivesse sido descumprida, o Tribunal poderia sustar a execução do ato e teria de comunicar a decisão às duas Casas.",
+      "reviewEvidence": "Constituição Federal, art. 71, IX e X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. O item 112 do TCU 2025 fornece referência temática de sustação. Estrutura compartilhada cotejada com itens 47 e 48 da Câmara aplicada em 2026.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 112,
+        "caseId": "tcu-ato-e-contratos-em-fiscalizacao"
+      }
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "id": "cam-caso-tcu-contrato-com-prazo-em-curso",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-contrato-sustacao-e-inercia",
+      "mechanism": "contrato-com-prazo-em-curso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Atos administrativos, contratos e execução de decisões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Atos administrativos, contratos e execução de decisões"
+      },
+      "statement": "Em uma fiscalização sobre a conservação de acervos federais, o Tribunal de Contas da União examinou três expedientes. No expediente I, identificou ilegalidade em um ato administrativo autônomo de distribuição de equipamentos, sem natureza contratual. O órgão corrigiu inteiramente o ato dentro do prazo formalmente fixado pelo Tribunal. Nos expedientes II e III, a ilegalidade recaía sobre contratos administrativos distintos, ainda em execução, e o TCU levou os casos ao Congresso Nacional para as medidas constitucionais cabíveis. No expediente II haviam transcorrido sessenta dias do início do prazo constitucional, sem providência. No expediente III haviam passado noventa e cinco dias, e nem o Congresso nem o Poder Executivo haviam efetivado as medidas cabíveis. Discute-se a sustação no mérito, sem pedido de medida cautelar.\n\nCom base nessa situação, julgue o item a seguir.\n\nNo expediente II, o TCU já pode adotar diretamente a sustação do contrato com fundamento no mesmo rito que se aplica aos atos administrativos autônomos.",
+      "correctAnswer": "E",
+      "explanation": "O objeto é um contrato, por isso se aplica o art. 71, § 1º. A sustação cabe inicialmente ao Congresso Nacional, que solicita ao Executivo as medidas cabíveis. Sessenta dias de inércia não atingem o prazo de noventa dias do § 2º. Se o objeto fosse um ato administrativo não contratual, seria preciso verificar os pressupostos do inciso X.",
+      "reviewEvidence": "Constituição Federal, art. 71, X e § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. O item 112 do TCU 2025 fornece referência temática de sustação. Estrutura compartilhada cotejada com itens 47 e 48 da Câmara aplicada em 2026.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 112,
+        "caseId": "tcu-ato-e-contratos-em-fiscalizacao"
+      }
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "id": "cam-caso-tcu-contrato-depois-do-prazo",
+      "concursoId": "camara-2026",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-contrato-sustacao-e-inercia",
+      "mechanism": "contrato-depois-do-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Atos administrativos, contratos e execução de decisões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Atos administrativos, contratos e execução de decisões"
+      },
+      "statement": "Em uma fiscalização sobre a conservação de acervos federais, o Tribunal de Contas da União examinou três expedientes. No expediente I, identificou ilegalidade em um ato administrativo autônomo de distribuição de equipamentos, sem natureza contratual. O órgão corrigiu inteiramente o ato dentro do prazo formalmente fixado pelo Tribunal. Nos expedientes II e III, a ilegalidade recaía sobre contratos administrativos distintos, ainda em execução, e o TCU levou os casos ao Congresso Nacional para as medidas constitucionais cabíveis. No expediente II haviam transcorrido sessenta dias do início do prazo constitucional, sem providência. No expediente III haviam passado noventa e cinco dias, e nem o Congresso nem o Poder Executivo haviam efetivado as medidas cabíveis. Discute-se a sustação no mérito, sem pedido de medida cautelar.\n\nCom base nessa situação, julgue o item a seguir.\n\nNo expediente III, o TCU pode decidir a respeito do caso diante da inércia durante o prazo constitucional, embora a sustação do contrato caiba inicialmente ao Congresso Nacional.",
+      "correctAnswer": "C",
+      "explanation": "A regra inicial é a do § 1º, que atribui ao Congresso a sustação e a solicitação de medidas ao Executivo. Como se passaram mais de noventa dias sem efetivação das medidas, aplica-se o § 2º: o Tribunal decidirá a respeito. Se o prazo ainda estivesse em curso, essa competência por inércia não teria sido acionada.",
+      "reviewEvidence": "Constituição Federal, art. 71, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. O item 112 do TCU 2025 fornece referência temática de sustação. Estrutura compartilhada cotejada com itens 47 e 48 da Câmara aplicada em 2026.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "tcu-2025-tefc-001-01",
+        "item": 112,
+        "caseId": "tcu-ato-e-contratos-em-fiscalizacao"
+      }
+    },
+    {
       "id": "cam-caso-decoro-recurso-com-51-assinaturas",
       "concursoId": "camara-2026",
       "subjectId": "etica-publica",

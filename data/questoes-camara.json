@@ -21705,7 +21705,7 @@
       },
       "statement": "Um tratado de direitos humanos recebe três quintos dos votos em dois turnos na Câmara e em um único turno no Senado. Esse resultado ainda não satisfaz o rito de equivalência às emendas constitucionais.",
       "correctAnswer": "C",
-      "explanation": "São necessários dois turnos em cada Casa, com três quintos dos respectivos membros em cada votação.",
+      "explanation": "**Regra:** tratado de direitos humanos só equivale a emenda constitucional se for aprovado em cada uma das duas Casas, em dois turnos, por três quintos dos votos dos respectivos membros. **Aplicação:** a Câmara cumpriu o rito, mas o Senado votou apenas uma vez; falta uma deliberação em segundo turno, ainda que o quórum tenha sido alcançado no primeiro. **Distinção:** são quatro votações no total — duas na Câmara e duas no Senado —, todas com o quórum qualificado. (Constituição, art. 5º, § 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22489,7 +22489,7 @@
       },
       "statement": "No Senado, 70 membros comparecem e 40 votam a favor de um projeto de lei complementar. Mesmo sendo maioria entre os presentes, 40 votos não bastam para aprová-lo.",
       "correctAnswer": "C",
-      "explanation": "A lei complementar exige maioria absoluta dos 81 senadores, ou seja, 41 votos favoráveis.",
+      "explanation": "**Regra:** projeto de lei complementar é aprovado por maioria absoluta dos membros da Casa, e não pela maioria dos presentes. **Aplicação:** no Senado, composto por 81 membros, são necessários 41 votos favoráveis. Com 70 presentes, os 40 votos representam maioria dos presentes, mas não maioria absoluta da composição total. **Pegadinha:** calcular o quórum sobre quem compareceu altera o critério constitucional. (Constituição, arts. 47 e 69.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22797,7 +22797,7 @@
       },
       "statement": "Um território federal, desde sua criação, tem a mesma posição constitucional de um estado autônomo e deixa de integrar a União.",
       "correctAnswer": "E",
-      "explanation": "O território federal integra a União. Sua posição constitucional difere da de um estado-membro.",
+      "explanation": "**Regra:** território federal integra a União; não é estado-membro autônomo da Federação. **Aplicação:** a criação do território não o retira da União nem lhe confere automaticamente a mesma posição constitucional dos estados. **Distinção:** estados têm autonomia federativa própria; territórios são organização administrativa da União e podem ser divididos em municípios, conforme a Constituição. (Constituição, arts. 18, § 2º, e 33.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 18, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22853,7 +22853,7 @@
       },
       "statement": "A reintegração de território federal ao estado de origem pode ser disciplinada por lei ordinária federal, pois a lei complementar só é exigida para transformação em estado.",
       "correctAnswer": "E",
-      "explanation": "A exigência de lei complementar alcança também a reintegração, além da criação e da transformação.",
+      "explanation": "**Regra:** lei complementar é exigida para criação, transformação em estado ou reintegração de território federal ao estado de origem. **Aplicação:** a reintegração não pode ser disciplinada apenas por lei ordinária; a reserva constitucional abrange esse caminho também. **Distinção:** lei ordinária não supre o quórum e o procedimento legislativo de lei complementar. O tipo de lei é requisito formal da decisão sobre a organização territorial. (Constituição, art. 18, § 2º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 18, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25149,7 +25149,7 @@
       },
       "statement": "Uma eleitora de dezessete anos votará pela primeira vez. A condição de primeiro pleito converte em obrigatório o voto que, pela idade, seria facultativo.",
       "correctAnswer": "E",
-      "explanation": "A regra constitucional considera a idade. A condição de estreante não altera a facultatividade.",
+      "explanation": "**Regra:** o alistamento e o voto são facultativos para pessoas com 16 ou 17 anos. **Aplicação:** votar pela primeira vez aos 17 não torna o voto obrigatório; a idade continua sendo o critério. **Distinção:** a Constituição também torna facultativo o voto para analfabetos e maiores de 70 anos. Ser estreante, por si só, não é uma categoria constitucional de obrigatoriedade ou dispensa. (Constituição, art. 14, § 1º, II.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26325,7 +26325,7 @@
       },
       "statement": "O Senado renova parte de suas vagas a cada quatro anos. Essa periodicidade implica que o mandato individual de todo senador eleito para mandato integral também dure quatro anos.",
       "correctAnswer": "E",
-      "explanation": "A renovação parcial do Senado ocorre a cada quatro anos, mas o mandato individual é de oito anos.",
+      "explanation": "**Regra:** cada senador exerce mandato de oito anos, embora o Senado renove alternadamente um terço e dois terços de suas cadeiras a cada quatro anos. **Aplicação:** a renovação parcial é a periodicidade eleitoral do colegiado, não a duração do mandato individual. **Exemplo:** em uma eleição renova-se um terço; quatro anos depois, renovam-se os outros dois terços, enquanto os mandatos individuais continuam contando oito anos. (Constituição, art. 46, §§ 1º e 2º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 44, parágrafo único, e 46, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -28537,7 +28537,7 @@
       },
       "statement": "Ao apreciar a escolha de chefe de missão diplomática permanente, o Senado realiza arguição em sessão secreta e delibera por voto secreto. Esse procedimento está de acordo com a Constituição.",
       "correctAnswer": "C",
-      "explanation": "O inciso IV prescreve aprovação prévia por voto secreto após arguição em sessão secreta.",
+      "explanation": "**Regra:** a escolha de chefe de missão diplomática permanente depende de aprovação prévia do Senado após arguição em sessão secreta, seguida de votação secreta. **Aplicação:** a questão descreve corretamente as duas etapas e o sigilo de cada uma. **Distinção:** a Constituição prevê esse rito para chefes de missão diplomática permanente; não se deve generalizá-lo para toda nomeação de cargo público. (Constituição, art. 52, IV.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, III e IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -60989,7 +60989,7 @@
       },
       "statement": "Por adotar a não intervenção como princípio de relações internacionais, o Brasil está constitucionalmente impedido de cooperar com outros povos para o progresso da humanidade.",
       "correctAnswer": "E",
-      "explanation": "A não intervenção e a cooperação entre os povos constam conjuntamente dos princípios do art. 4º.",
+      "explanation": "**Regra:** a não intervenção e a cooperação entre os povos para o progresso da humanidade são princípios que coexistem nas relações internacionais do Brasil. **Aplicação:** respeitar a soberania alheia não impede acordos e ações cooperativas; o país pode cooperar sem impor sua vontade a outro Estado. **Distinção:** intervenção e cooperação não são sinônimos: a primeira viola a autonomia externa; a segunda pode ocorrer por consentimento e em condições compatíveis com a soberania. (Constituição, art. 4º, IV e IX.)",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/01 - principios fundamentais.md / Art. 4º — relações internacionais; CI obrigatório antes de integrar."
     },
     {
@@ -61129,7 +61129,7 @@
       },
       "statement": "Quando a Constituição prevê competência comum de União, estados, Distrito Federal e municípios, a matéria passa a ser executada exclusivamente pela União.",
       "correctAnswer": "E",
-      "explanation": "Competência comum envolve atuação administrativa dos entes federativos, nos termos constitucionais.",
+      "explanation": "**Regra:** competência comum é administrativa e pertence à União, aos estados, ao Distrito Federal e aos municípios, cada qual atuando dentro da Constituição e das normas de cooperação. **Aplicação:** a previsão de competência comum não torna a atuação exclusiva da União. **Distinção:** competência comum (art. 23) trata de executar políticas e serviços; competência concorrente (art. 24) trata de legislar sobre matérias em que a União edita normas gerais e os estados e o DF suplementam. (Constituição, arts. 23 e 24.)",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/11 - organizacao do estado.md / Competência comum: art. 23; CI obrigatório antes de integrar."
     },
     {
@@ -61157,7 +61157,7 @@
       },
       "statement": "A independência e harmonia dos Poderes não impedem que o Legislativo exerça funções administrativas necessárias à sua organização.",
       "correctAnswer": "C",
-      "explanation": "A separação dos Poderes admite funções típicas e atípicas, dentro das competências constitucionais.",
+      "explanation": "**Regra:** os Poderes são independentes e harmônicos, mas a separação não impede que um Poder exerça, em hipóteses constitucionais, funções atípicas. **Aplicação:** o Legislativo administra seus servidores, instalações e orçamento para organizar a própria atividade; isso é função administrativa, normalmente associada ao Executivo, exercida aqui de modo instrumental. **Distinção:** a função atípica precisa estar autorizada pelo sistema constitucional e não elimina a separação entre os Poderes. (Constituição, arts. 2º e 51, IV.)",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/01 - principios fundamentais.md / Art. 2º — separação dos Poderes; CI obrigatório antes de integrar."
     },
     {

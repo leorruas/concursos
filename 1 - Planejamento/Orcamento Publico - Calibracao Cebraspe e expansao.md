@@ -19,7 +19,7 @@ A leitura de normas usa o texto vigente da [Constituição Federal](https://www.
 
 ## Matriz por item
 
-O recorte tem 88 itens, dos quais 2 foram anulados. O rótulo de operação indica a dificuldade principal percebida editorialmente, e a coluna final dupla registra aderência temática. A estimativa de acerto por bom senso considera a redação e não é medição de desempenho. Frequências do recorte válido: distinção 26, integração 11, competência 10, exceção 10, marco temporal 10, precisão 10, condição 5, cálculo 3, aplicação 1. A amostra é intencional e não permite inferir a frequência da banca na população de provas.
+O recorte tem 89 itens, dos quais 2 foram anulados. O rótulo de operação indica a dificuldade principal percebida editorialmente, e a coluna final dupla registra aderência temática. A estimativa de acerto por bom senso considera a redação e não é medição de desempenho. Frequências do recorte válido: distinção 27, integração 11, competência 10, exceção 10, marco temporal 10, precisão 10, condição 5, cálculo 3, aplicação 1. A amostra é intencional e não permite inferir a frequência da banca na população de provas.
 
 | Caderno e item | Gabarito | Operação | Fundamento | Conceitos | Condição, competência ou detalhe decisivo | Acerto por bom senso | Câmara | CGU |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -111,6 +111,7 @@ O recorte tem 88 itens, dos quais 2 foram anulados. O rótulo de operação indi
 | cge 115 | C | Competência | CF 74 | Controle interno integrado | Cada Poder mantém sistema integrado com funções de legalidade e avaliação de resultados | Baixa | Direta | Direta |
 | cge 116 | E | Distinção | CF 71 § 3º | Débito, multa e título executivo | Eficácia executiva convive com possibilidade de controle judicial | Baixa | Direta | Direta |
 | stj 88 | C | Marco temporal | CF 166 § 5º | Mensagem modificativa e votação | Votação da matéria específica, na comissão mista, é o marco que encerra a possibilidade | Baixa | Direta | Direta |
+| stj 89 | E | Distinção | CF 165 § 5º e Lei 4.320 art. 2º | Universalidade, unidade e alcance das esferas | Verificar controle, dependência e esfera competente | Baixa | Direta | Direta |
 
 ## Inventário no estado de origem
 
@@ -300,9 +301,11 @@ Meta indicativa de 120 autorais. Restam 108 após este lote. Priorizar em seguid
 
 ### Prompt de continuidade
 
-No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 24 IDs dos dois primeiros lotes e os históricos. Siga da contagem de 24/120 e use os 88 localizadores já examinados, sem repetir o levantamento. Antes do lote 3, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre planejamento, esferas e princípios, com atenção à separação entre função orçamentária, cobertura institucional e exceções constitucionais. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
+No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 36 IDs dos três primeiros lotes e os históricos. Siga da contagem de 36/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 4, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre responsabilidade fiscal, metas, riscos, renúncia, despesa continuada e recondução. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
 
 ## Lote 2 — classificação, estágios e caso da ponte
+
+SHA integrado: `dfe1b1f9d0fedc93b042eee585cc58f1815e56b5`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45681018850) · [Workflow de publicação](https://github.com/leorruas/concursos/actions/runs/45681247644).
 
 Mais 12 autorais, seis por concurso. Total acumulado de 24, com 96 restantes da meta indicativa. O caso da ponte oferece três julgamentos independentes sobre financiamento, liquidação parcial e inscrição de restos a pagar. Cada item carrega o contexto completo. Os demais comparam classificações econômica, funcional e fiscal, transferências de capital, ingresso compensatório, arrecadação e recolhimento. Na CGU, cada classificação ou registro deve responder ao que a auditoria consegue verificar. Preflight local e check remoto por SHA seguem o contrato de publicação. Próximo lote previsto: planejamento, esferas, princípios e exceções.
 
@@ -320,3 +323,22 @@ Mais 12 autorais, seis por concurso. Total acumulado de 24, com 96 restantes da 
 | cg-orc-cal-excesso-nota-conferencia | mpo 34 | art-79e2c6a4f80143bd | dificil | C |
 | cg-orc-cal-recolhimento-calendario-bancario | mpo 32 | art-b3e5d91a740c46f8 | dificil | C |
 | cg-orc-cal-alienacao-e-operacao-financeira | p1 89 | art-e6b481a230fc795d | dificil | E |
+
+## Lote 3 — planejamento, esferas, princípios e exceções
+
+Doze autorais, seis por concurso. Total acumulado de 36 e saldo indicativo de 84. Os itens exploram investimento que atravessa o exercício, horizonte das metas, anexo de riscos, orçamento bruto, unidade das três esferas, dependência da estatal, vinculação, especificação e exceções constitucionais relacionadas à regra de ouro e à realocação em ciência e tecnologia. Próximo lote: responsabilidade fiscal, dívida, metas, renúncia e geração de despesa continuada.
+
+| ID | Referência | Artigo | Nível | Gabarito |
+| --- | --- | --- | --- | --- |
+| ca-orc-cal-investimento-dezembro-janeiro | p1 75 | art-c301f2c741504403 | dificil | E |
+| ca-orc-cal-passivo-contingente-como-meta | mpo 17 | art-c301f2c741504403 | dificil | E |
+| ca-orc-cal-receita-despesa-pelo-liquido | p3 100 | art-a2f47c0d6e184e93 | dificil | E |
+| ca-orc-cal-regra-ouro-maioria-absoluta | p1 86 | art-a2f47c0d6e184e93 | dificil | C |
+| ca-orc-cal-cti-funcao-de-destino | mpo 24 | art-a2f47c0d6e184e93 | dificil | E |
+| ca-orc-cal-seguridade-unidade-juridica | stj 89 | art-74d90e9fa1b3452c | dificil | C |
+| cg-orc-cal-plano-investimento-sem-dotacao | p1 75 | art-9dc8a6e2f31b47c0 | dificil | E |
+| cg-orc-cal-prazo-meta-governo-central | mpo 21 | art-9dc8a6e2f31b47c0 | media | C |
+| cg-orc-cal-aporte-capital-versus-custeio-estatal | p3 107 | art-c84d6e02f3b7a915 | dificil | C |
+| cg-orc-cal-vinculacao-taxa-imposto | p3 101 | art-b419ac8206de7f35 | dificil | E |
+| cg-orc-cal-dotacao-global-programa-auditoria | p3 100 | art-b419ac8206de7f35 | dificil | C |
+| cg-orc-cal-regra-ouro-credito-extraordinario | p1 86 | art-b419ac8206de7f35 | dificil | E |

@@ -86661,6 +86661,222 @@
         "section": "Classificação funcional: função × subfunção"
       },
       "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-investimento-dezembro-janeiro",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-c301f2c741504403",
+      "conceptId": "investimento-dezembro-janeiro",
+      "mechanism": "investimento-dezembro-janeiro",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A execução de um investimento começa em dezembro e termina em fevereiro, com todo o crédito para iniciar a obra previsto no orçamento de dezembro. Como o contrato tem duração inferior a um ano, a execução pode começar sem inclusão prévia no plano plurianual nem lei que autorize a inclusão.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição adota como marco mais de um exercício financeiro, ainda que a duração em meses fique abaixo de doze. O crédito anual possibilita assumir despesa, mas não satisfaz a exigência de inclusão prévia no plano plurianual ou de lei que autorize a inclusão. Se toda a execução coubesse no mesmo exercício, essa vedação específica não incidiria. Constituição Federal, art. 167, § 1º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 75,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Inclusão no plano ou lei que a autorize deve preceder o início"
+      },
+      "theoryRefs": [
+        "article:art-c301f2c741504403#PPA e investimento plurianual"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p1 75: Inclusão no plano ou lei que a autorize deve preceder o início. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA e investimento plurianual",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+        "section": "PPA e investimento plurianual"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-passivo-contingente-como-meta",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-c301f2c741504403",
+      "conceptId": "passivo-contingente-como-meta",
+      "mechanism": "passivo-contingente-como-meta",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Na proposta da lei de diretrizes orçamentárias, a União estimou uma obrigação contingente em litígio e descreveu providências para a hipótese de perda. Essas informações cumprem a função do Anexo de Metas Fiscais quando apresentadas antes do envio do orçamento anual.",
+      "correctAnswer": "E",
+      "explanation": "A estimativa do passivo contingente e as providências em caso de materialização pertencem ao Anexo de Riscos Fiscais. O Anexo de Metas Fiscais estabelece valores e metas, incluindo receitas, despesas e resultados. A antecedência em relação à lei anual não altera a função do anexo. Se a informação fosse a meta de resultado primário do exercício, caberia no Anexo de Metas Fiscais. Lei Complementar nº 101/2000, art. 4º, §§ 1º e 3º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 17,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Lei de diretrizes inclui metas e orientação fiscal"
+      },
+      "theoryRefs": [
+        "article:art-c301f2c741504403#Metas fiscais × riscos fiscais"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 17: Lei de diretrizes inclui metas e orientação fiscal. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Metas fiscais × riscos fiscais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+        "section": "Metas fiscais × riscos fiscais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-receita-despesa-pelo-liquido",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "receita-despesa-pelo-liquido",
+      "mechanism": "receita-despesa-pelo-liquido",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Na proposta orçamentária, uma unidade incluiu uma receita estimada de R$ 8 milhões e uma despesa de R$ 2 milhões para operacionalizar o serviço associado. Para cumprir o princípio do orçamento bruto, pode substituir as duas previsões por receita líquida de R$ 6 milhões, desde que a memória de cálculo fique publicada.",
+      "correctAnswer": "E",
+      "explanation": "O orçamento bruto exige registrar receitas e despesas pelos totais. Deduzir o custo do serviço apagaria a despesa de R$ 2 milhões do orçamento, apesar da transparência do cálculo. O resultado líquido pode servir como indicador auxiliar. Se as duas rubricas permanecerem registradas integralmente e o relatório exibir a diferença como informação adicional, a apresentação é compatível com a regra. Lei nº 4.320/1964, art. 6º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_003_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_003_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_003_01.pdf",
+        "mechanism": "Reconhecer princípios clássicos e de transparência"
+      },
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Orçamento bruto: registrar pelos totais"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p3 100: Reconhecer princípios clássicos e de transparência. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Orçamento bruto: registrar pelos totais",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Orçamento bruto: registrar pelos totais"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-regra-ouro-maioria-absoluta",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "regra-ouro-maioria-absoluta",
+      "mechanism": "regra-ouro-maioria-absoluta",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A União pretende autorizar determinadas operações de crédito que, no exercício, excederiam o montante de despesas de capital. Um crédito especial com finalidade precisa, aprovado pelo Legislativo por maioria absoluta, pode integrar a ressalva constitucional aplicável a essas operações.",
+      "correctAnswer": "C",
+      "explanation": "A regra de ouro limita o montante de operações de crédito ao de despesas de capital. A Constituição ressalva operações autorizadas mediante créditos suplementares ou especiais com finalidade precisa e aprovação legislativa por maioria absoluta. Se a aprovação fosse por maioria simples ou a finalidade fosse genérica, a exceção indicada não se completaria. Constituição Federal, art. 167, III.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 86,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Dispensa de autorização prévia e controle legislativo posterior"
+      },
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Regra de ouro: limite e ressalva"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p1 86: Dispensa de autorização prévia e controle legislativo posterior. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Regra de ouro: limite e ressalva",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Regra de ouro: limite e ressalva"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-cti-funcao-de-destino",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "cti-funcao-de-destino",
+      "mechanism": "cti-funcao-de-destino",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A União pretende realocar recursos de uma categoria de programação de pesquisa para custear publicidade institucional genérica de outro órgão. A origem dos recursos em pesquisa permite fazer a operação por ato do Executivo, sem autorização legislativa prévia.",
+      "correctAnswer": "E",
+      "explanation": "A realocação entre categorias ou órgãos exige, em regra, autorização legislativa prévia. Para ciência, tecnologia e inovação, a Constituição admite ato do Executivo em recorte restrito às funções e à finalidade de viabilizar os resultados dos projetos. A origem em pesquisa não basta se o destino for publicidade institucional genérica. Se a realocação se limitasse àquelas funções e viabilizasse o projeto correspondente, poderia incidir a ressalva. Constituição Federal, art. 167, VI e § 5º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 24,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Exceção depende de finalidade e restrição às funções indicadas"
+      },
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Remanejamento, transposição e transferência"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 24: Exceção depende de finalidade e restrição às funções indicadas. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Remanejamento, transposição e transferência",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Remanejamento, transposição e transferência"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-seguridade-unidade-juridica",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-74d90e9fa1b3452c",
+      "conceptId": "seguridade-unidade-juridica",
+      "mechanism": "seguridade-unidade-juridica",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "O Congresso recebe um projeto de lei orçamentária anual com os orçamentos fiscal, da seguridade social e de investimento em anexos distintos. O encaminhamento conjunto preserva a unidade orçamentária, mesmo que cada esfera tenha abrangência própria.",
+      "correctAnswer": "C",
+      "explanation": "A lei orçamentária anual reúne três orçamentos com escopos constitucionais próprios. A separação identificável em anexos é compatível com a unidade da lei. O exame legislativo recai sobre o projeto conjunto. Se fossem três leis anuais autônomas editadas como substitutas da lei orçamentária anual, o arranjo deixaria de corresponder ao previsto. Constituição Federal, art. 165, § 5º, e Lei nº 4.320/1964, art. 2º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "018_stj_007_01",
+        "item": 89,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_007_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_007_01.PDF",
+        "mechanism": "Nem toda estatal entra integralmente no orçamento; verificar controle, dependência e esfera competente"
+      },
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Três orçamentos em uma lei"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial stj 89: Nem toda estatal entra integralmente no orçamento; verificar controle, dependência e esfera competente. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Três orçamentos em uma lei",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md",
+        "section": "Três orçamentos em uma lei"
+      },
+      "reviewStatus": "validada"
     }
   ]
 }

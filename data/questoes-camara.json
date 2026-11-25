@@ -16497,7 +16497,7 @@
       },
       "statement": "Em fiscalização, o Tribunal de Contas da União identifica abuso que exige providência de autoridade competente de outro Poder. A Constituição prevê que o Tribunal represente ao Poder competente sobre o abuso apurado.",
       "correctAnswer": "C",
-      "explanation": "O inciso XI prevê representação ao Poder competente sobre irregularidades ou abusos apurados.",
+      "explanation": "**Regra:** no exercício do controle externo, o TCU pode representar ao Poder competente sobre irregularidades ou abusos que apurar. **Aplicação:** quando a providência necessária cabe a outro órgão ou Poder, o Tribunal comunica formalmente o que encontrou à autoridade competente para as medidas cabíveis. **Distinção:** representar não é substituir a autoridade responsável nem aplicar, por essa frase, uma sanção que a Constituição tenha reservado a outro órgão. A representação encaminha o achado ao destinatário com competência para agir. (Constituição, art. 71, XI.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, XI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16553,7 +16553,7 @@
       },
       "statement": "Uma comissão da Câmara solicita ao Tribunal de Contas da União informações sobre resultados de uma auditoria. A Constituição prevê que o Tribunal preste informações a pedido de comissão de qualquer das Casas.",
       "correctAnswer": "C",
-      "explanation": "O inciso VII contempla solicitações do Congresso, de qualquer de suas Casas e de suas respectivas comissões.",
+      "explanation": "**Regra:** o TCU deve prestar informações solicitadas pelo Congresso, por qualquer das Casas ou por suas comissões sobre fiscalizações e resultados de auditorias. **Aplicação:** uma comissão da Câmara pode pedir informações de auditoria; não precisa que o pedido venha do Plenário da Casa ou do Congresso reunido. **Distinção:** esse dever de informar não transfere à comissão a execução da auditoria nem substitui a competência fiscalizatória do Tribunal. (Constituição, art. 71, VII.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, VII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -21145,7 +21145,7 @@
       },
       "statement": "Uma comissão temporária conclui a finalidade para a qual foi constituída, embora ainda haja semanas até o fim de seu prazo. O alcance da finalidade é causa regimental de extinção da comissão.",
       "correctAnswer": "C",
-      "explanation": "O cumprimento da finalidade, o término do prazo e o fim da legislatura são hipóteses regimentais de extinção.",
+      "explanation": "**Regra:** comissão temporária se extingue quando alcança a finalidade para a qual foi criada, quando termina o prazo ou ao fim da legislatura, conforme a hipótese regimental. **Aplicação:** a comissão concluiu sua missão; por isso, não precisa esperar a data final que havia sido fixada. **Distinção:** finalidade e prazo são causas independentes de encerramento. O prazo máximo não garante que a comissão continue funcionando depois de cumprir o objetivo. (RICD, art. 22, II.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 22, II. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -21173,7 +21173,7 @@
       },
       "statement": "Uma comissão temporária chega ao fim da legislatura sem cumprir sua finalidade e sem esgotar seu prazo. O Regimento determina que ela atravesse automaticamente para a legislatura seguinte.",
       "correctAnswer": "E",
-      "explanation": "O fim da legislatura é causa de extinção, independentemente de a finalidade ter sido cumprida ou de o prazo ter terminado.",
+      "explanation": "**Regra:** comissão temporária se extingue ao fim da legislatura, mesmo que ainda não tenha concluído a finalidade ou atingido o prazo originalmente fixado. **Aplicação:** a comissão descrita não atravessa automaticamente para a legislatura seguinte. **Distinção:** duração prevista e continuidade entre legislaturas não são a mesma coisa; para prosseguir, seria necessária nova providência regimental, e não a mera permanência do prazo anterior. (RICD, art. 22, II.)",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 22, II. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -21761,7 +21761,7 @@
       },
       "statement": "O Presidente apresenta projeto de sua iniciativa sobre tema que também poderia ser proposto por parlamentar. Havendo despesa para implementar a medida, esse fato por si só não impede que o Presidente solicite urgência constitucional.",
       "correctAnswer": "C",
-      "explanation": "O art. 64, § 1º, aplica-se aos projetos de iniciativa presidencial. O dispositivo não exige que a iniciativa seja privativa nem que o projeto seja sem despesa.",
+      "explanation": "**Regra:** o Presidente da República pode solicitar urgência para projetos de lei de sua própria iniciativa. A Constituição não restringe essa possibilidade aos projetos de iniciativa privativa nem aos que não gerem despesa. **Aplicação:** o projeto é presidencial e ter impacto financeiro, por si só, não impede o pedido de urgência. **Distinção:** a origem da iniciativa é o requisito do art. 64, § 1º; a existência de despesa é questão diferente e não aparece como impedimento nessa regra. (Constituição, art. 64, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 61 a 64. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -21789,7 +21789,7 @@
       },
       "statement": "Um deputado apresenta projeto com impacto financeiro. O Presidente pode submetê-lo à urgência do art. 64, § 1º, com base somente na existência de despesa.",
       "correctAnswer": "E",
-      "explanation": "A urgência constitucional do art. 64, § 1º, pressupõe projeto de iniciativa do próprio Presidente. O impacto financeiro não atende a esse requisito.",
+      "explanation": "**Regra:** a urgência constitucional do art. 64, § 1º, pode ser solicitada pelo Presidente para projeto de lei que ele próprio tenha enviado. **Aplicação:** o projeto apresentado por deputado não se torna projeto de iniciativa presidencial só porque gera despesa ou porque o Presidente deseja acelerar sua votação. **Distinção:** impacto financeiro não altera a autoria nem cria legitimidade para usar esse rito constitucional. Outros regimes de urgência podem existir, mas dependem de seus próprios requisitos. (Constituição, art. 64, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 61 a 64. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22321,7 +22321,7 @@
       },
       "statement": "Uma lei estabelece que entra em vigor após decorridos dez dias da publicação oficial, ocorrida no dia 4. Incluídos o dia da publicação e o último dia do prazo, a vigência começa no dia 14.",
       "correctAnswer": "C",
-      "explanation": "O dia 4 é o primeiro de dez dias e o dia 13 é o décimo. Pelo art. 8º, § 1º, a lei começa a vigorar no dia seguinte.",
+      "explanation": "**Regra:** quando a lei marca uma vacatio legis em dias, contam-se a data da publicação e o último dia do prazo; a vigência começa no dia seguinte ao da consumação integral. **Aplicação:** publicada no dia 4, essa lei completa dez dias no dia 13 e começa a vigorar no dia 14. **Pegadinha:** o dia da publicação entra na conta, mas a vigência não começa nesse último dia contado; é necessário esperar o dia seguinte. (LINDB, art. 8º, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Lei Complementar nº 95/1998, art. 8º. https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm"
     },
     {
@@ -22349,7 +22349,7 @@
       },
       "statement": "Uma lei publicada no dia 10 estabelece vigência após decorridos vinte dias de sua publicação oficial. Por já estar disponível ao público, a lei começa a vigorar no próprio dia 10.",
       "correctAnswer": "E",
-      "explanation": "A publicação divulga o texto e inicia a contagem da vacância. Quando há vacância expressa, a vigência começa após o prazo integral.",
+      "explanation": "**Regra:** publicação e vigência podem ocorrer em datas diferentes. Se a própria lei estabelece prazo de vacância, ela só entra em vigor depois que esse prazo se completa, com a contagem legal. **Aplicação:** a lei publicada no dia 10 inicia então a contagem dos vinte dias, mas não passa a valer no próprio dia da publicação. **Distinção:** publicar torna o texto oficialmente conhecido; vacatio legis adia seus efeitos obrigatórios. (LINDB, art. 1º, e art. 8º, § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Lei Complementar nº 95/1998, art. 8º. https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm"
     },
     {
@@ -22881,7 +22881,7 @@
       },
       "statement": "Uma decisão do TCU impõe apenas multa ao responsável, sem imputar débito. A ausência de débito não impede a eficácia de título executivo prevista constitucionalmente.",
       "correctAnswer": "C",
-      "explanation": "O art. 71, § 3º, usa multa e imputação de débito como hipóteses alternativas. A multa já satisfaz a condição mencionada.",
+      "explanation": "**Regra:** decisões do TCU que imputem débito ou apliquem multa têm eficácia de título executivo. **Aplicação:** uma decisão que impõe somente multa já se enquadra; não é preciso que também haja imputação de débito. **Distinção:** o texto constitucional apresenta duas hipóteses alternativas, e não exige cumulação. A decisão do Tribunal constitui o título; a cobrança segue a via executiva própria. (Constituição, art. 71, § 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22909,7 +22909,7 @@
       },
       "statement": "Uma decisão do TCU que imputa débito só passa a ter eficácia de título executivo se também impuser multa no mesmo ato.",
       "correctAnswer": "E",
-      "explanation": "A imputação de débito ou a aplicação de multa já é suficiente. A Constituição não exige que apareçam cumulativamente.",
+      "explanation": "**Regra:** para que a decisão do TCU tenha eficácia de título executivo, basta que impute débito ou aplique multa. **Aplicação:** a imputação de débito no caso descrito já satisfaz uma das alternativas; não é necessário somar uma multa. **Distinção:** a Constituição usa “débito” e “multa” como fundamentos alternativos de eficácia executiva, não como requisitos cumulativos. Isso não significa que toda conclusão de auditoria, sem uma dessas decisões, seja automaticamente título executivo. (Constituição, art. 71, § 3º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 71, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {

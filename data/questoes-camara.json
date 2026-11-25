@@ -12353,7 +12353,7 @@
       },
       "statement": "Durante greve em atividade essencial, o exercício do direito de greve é compatível com a observância das regras legais de atendimento das necessidades inadiáveis da comunidade.",
       "correctAnswer": "C",
-      "explanation": "A Constituição remete à lei a definição das atividades essenciais e a disciplina do atendimento às necessidades inadiáveis.",
+      "explanation": "**Regra:** a Constituição reconhece o direito de greve, mas determina que a lei defina os serviços essenciais e como será atendido o que não pode esperar sem colocar a comunidade em risco. **Aplicação:** uma greve pode ocorrer e, ao mesmo tempo, deve preservar o atendimento mínimo das necessidades inadiáveis. **Distinção:** essencialidade não elimina automaticamente o direito de greve; ela exige compatibilizar seu exercício com a continuidade do atendimento indispensável. (Constituição, art. 9º, caput e § 1º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 9º, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -12409,7 +12409,7 @@
       },
       "statement": "Um projeto pretende estabelecer normas gerais sobre crédito tributário aplicáveis a todos os entes federativos. A matéria, nesse alcance, está reservada à lei complementar.",
       "correctAnswer": "C",
-      "explanation": "O art. 146, III, b, inclui crédito tributário entre os objetos de normas gerais reservadas à lei complementar.",
+      "explanation": "**Regra:** cabe à lei complementar estabelecer normas gerais sobre obrigação, lançamento, crédito, prescrição e decadência tributários. **Aplicação:** como o projeto pretende fixar regra geral de crédito tributário para todos os entes, a matéria está na reserva de lei complementar. **Distinção:** a reserva alcança a disciplina geral do sistema; não significa que toda lei que trate de tributo, alíquota ou cobrança tenha de ser complementar. (Constituição, art. 146, III, b.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 146, III, b. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -12969,7 +12969,7 @@
       },
       "statement": "Em votação nominal, um parlamentar registra voto contrário à orientação da liderança. Havendo registro válido, o voto deve ser computado no sentido efetivamente indicado pelo parlamentar.",
       "correctAnswer": "C",
-      "explanation": "A orientação de liderança indica posição política. Ela não substitui a manifestação nominal regularmente registrada.",
+      "explanation": "**Regra:** em votação nominal, registra-se o voto individual de cada parlamentar. A orientação da liderança expressa a posição política da bancada, mas não substitui o voto pessoal. **Aplicação:** se o deputado registra validamente voto contrário, a apuração deve contar esse voto como contrário, ainda que o líder tenha orientado a bancada a votar a favor. **Pegadinha:** orientação não é ordem que apaga o registro individual; o resultado é formado pelos votos efetivamente computados. (RICD, arts. 180 e 192; decisão da Câmara sobre voto contrário à orientação da liderança.)",
       "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre votação nominal. "
     },
     {
@@ -14453,7 +14453,7 @@
       },
       "statement": "A proteção administrativa do meio ambiente é exclusiva da União. Os estados só podem atuar se receberem delegação federal.",
       "correctAnswer": "E",
-      "explanation": "A Constituição atribui competência material comum à União, aos estados, ao Distrito Federal e aos municípios.",
+      "explanation": "**Regra:** proteger o meio ambiente e combater a poluição é competência administrativa comum da União, dos estados, do Distrito Federal e dos municípios. **Aplicação:** os estados podem agir diretamente dentro de suas atribuições, sem depender de delegação federal para toda medida de proteção ambiental. **Distinção:** competência comum trata da atuação administrativa; não se confunde com a competência legislativa concorrente sobre meio ambiente, em que a União edita normas gerais e os demais entes suplementam dentro dos limites constitucionais. (Constituição, arts. 23, VI, e 24, VI.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 23, VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -14481,7 +14481,7 @@
       },
       "statement": "A autonomia do Ministério Público é compatível com a organização constitucional em Legislativo, Executivo e Judiciário.",
       "correctAnswer": "C",
-      "explanation": "A autonomia institucional do Ministério Público não muda a enumeração dos três Poderes no art. 2º.",
+      "explanation": "**Regra:** o art. 2º enumera Legislativo, Executivo e Judiciário como Poderes da União. O Ministério Público tem autonomia e funções constitucionais próprias, mas não aparece como um quarto Poder nessa enumeração. **Aplicação:** reconhecer sua autonomia institucional não altera a estrutura expressamente descrita no art. 2º. **Distinção:** autonomia funcional e administrativa significa capacidade de exercer suas atribuições sem subordinação indevida; não equivale a integrar um Poder adicional. (Constituição, arts. 2º e 127, § 2º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 2º e 127. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -14593,7 +14593,7 @@
       },
       "statement": "Editadas normas gerais federais sobre educação, um estado pode suplementá-las em sua esfera de competência, respeitando as diretrizes federais aplicáveis.",
       "correctAnswer": "C",
-      "explanation": "A competência da União para normas gerais não exclui a competência suplementar dos estados.",
+      "explanation": "**Regra:** a União edita normas gerais sobre educação; estados e Distrito Federal podem suplementá-las no âmbito da competência concorrente. Se não houver norma geral federal, os estados exercem competência legislativa plena para atender às suas peculiaridades, e uma lei federal posterior suspende a eficácia apenas no que for incompatível. **Aplicação:** havendo diretrizes federais, o estado pode detalhá-las e complementá-las sem contrariá-las. **Distinção:** suplementar não significa substituir nem afastar a norma geral nacional. (Constituição, art. 24, IX e §§ 1º a 4º.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 24, IX e §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -14649,7 +14649,7 @@
       },
       "statement": "O município pode organizar o transporte coletivo local e prestá-lo sob regime de concessão. O serviço mantém seu caráter constitucional de essencial.",
       "correctAnswer": "C",
-      "explanation": "O art. 30, V, admite a concessão e qualifica o transporte coletivo local como serviço essencial.",
+      "explanation": "**Regra:** compete ao município organizar e prestar os serviços públicos de interesse local, diretamente ou sob concessão ou permissão; a Constituição qualifica o transporte coletivo como serviço essencial. **Aplicação:** a concessão transfere a execução à empresa contratada, mas não muda a titularidade municipal nem retira a essencialidade do serviço. **Distinção:** essencialidade descreve a importância constitucional do transporte; não impede a concessão nem desloca automaticamente a competência ao estado. (Constituição, art. 30, V.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 30, V. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -14677,7 +14677,7 @@
       },
       "statement": "Por ser essencial, o transporte coletivo de interesse exclusivamente local deve ser organizado pelo estado, cabendo ao município apenas fiscalizá-lo.",
       "correctAnswer": "E",
-      "explanation": "A Constituição atribui aos municípios a organização e a prestação dos serviços de interesse local, incluindo o transporte coletivo.",
+      "explanation": "**Regra:** o município organiza e presta os serviços de interesse local, inclusive o transporte coletivo, que a Constituição declara essencial. **Aplicação:** se o interesse do serviço é exclusivamente local, a competência organizadora é municipal; o município pode prestá-lo diretamente ou por concessão ou permissão. **Pegadinha:** ser essencial não significa ser de competência estadual. A natureza essencial do serviço e o ente competente para organizá-lo são perguntas diferentes. (Constituição, art. 30, V.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 30, V. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16469,7 +16469,7 @@
       },
       "statement": "Como o Senado fixa os limites globais da dívida consolidada dos estados, qualquer senador pode formular a proposta prevista no art. 52, VI.",
       "correctAnswer": "E",
-      "explanation": "O dispositivo atribui a proposta ao Presidente da República e a fixação dos limites ao Senado.",
+      "explanation": "**Regra:** o art. 52, VI, atribui ao Senado a competência de fixar, por proposta do Presidente da República, limites globais para o montante da dívida consolidada dos entes federativos. **Aplicação:** o Senado delibera e fixa o limite; um senador individual não substitui o autor da proposta constitucionalmente indicado. **Distinção:** iniciativa da proposta e competência para decidir são funções diferentes. A competência deliberativa do Senado não torna todos os seus membros legitimados a iniciar essa proposição específica. (Constituição, art. 52, VI.)",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {

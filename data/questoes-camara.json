@@ -7605,6 +7605,108 @@
   ],
   "expansao": [
     {
+      "id": "cam-caso-decoro-recurso-com-51-assinaturas",
+      "concursoId": "camara-2026",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "recurso-decisao-terminativa-conselho",
+      "mechanism": "recurso-com-51-assinaturas",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "statement": "Em uma Câmara dos Deputados com 513 membros, dois processos disciplinares tratam de possível perda de mandato por quebra de decoro. No primeiro, a representação foi apresentada por partido político representado no Congresso Nacional. Na análise inicial, o relator suscitou falta de justa causa, e o Plenário do Conselho de Ética acolheu o fundamento. Dentro do prazo, 51 deputados subscreveram recurso ao Plenário da Câmara. No segundo, a representação foi apresentada pela Mesa. Após a instauração do processo e durante a instrução, a Mesa tentou retirá-la. A instrução prosseguiu, com ampla defesa, e a proposta de perda do mandato chegou ao Plenário. Na votação ostensiva houve 256 votos favoráveis, 155 contrários e 19 abstenções.\n\nCom base nessa situação, julgue o item a seguir.\n\nO recurso do primeiro processo preencheu o requisito de subscrição necessário para que a decisão terminativa do Conselho fosse examinada pelo Plenário da Câmara.",
+      "correctAnswer": "E",
+      "explanation": "Como a representação é de partido político, cabe a decisão terminativa por falta de justa causa, ressalvado recurso ao Plenário subscrito por um décimo dos membros da Casa. Um décimo de 513 é 51,3. Como o requisito deve ser atingido, são necessárias pelo menos 52 assinaturas. Uma assinatura a mais supriria o requisito numérico.",
+      "reviewEvidence": "Código de Ética, art. 14, § 4º, II e III. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html Estrutura compartilhada cotejada com a Câmara aplicada em 2026, itens 47 e 48. A Câmara 2014 CB2-03, itens 94 a 96, é a referência temática de rito e sanção.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 95,
+        "caseId": "decoro-recurso-e-votacao"
+      }
+    },
+    {
+      "id": "cam-caso-decoro-retirada-pela-mesa-depois-da-instauracao",
+      "concursoId": "camara-2026",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "retirada-da-representacao-apos-instauracao",
+      "mechanism": "retirada-pela-mesa-depois-da-instauracao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "statement": "Em uma Câmara dos Deputados com 513 membros, dois processos disciplinares tratam de possível perda de mandato por quebra de decoro. No primeiro, a representação foi apresentada por partido político representado no Congresso Nacional. Na análise inicial, o relator suscitou falta de justa causa, e o Plenário do Conselho de Ética acolheu o fundamento. Dentro do prazo, 51 deputados subscreveram recurso ao Plenário da Câmara. No segundo, a representação foi apresentada pela Mesa. Após a instauração do processo e durante a instrução, a Mesa tentou retirá-la. A instrução prosseguiu, com ampla defesa, e a proposta de perda do mandato chegou ao Plenário. Na votação ostensiva houve 256 votos favoráveis, 155 contrários e 19 abstenções.\n\nCom base nessa situação, julgue o item a seguir.\n\nNo segundo processo, a tentativa da Mesa de retirar a representação durante a instrução não impediu o prosseguimento.",
+      "correctAnswer": "C",
+      "explanation": "A representação pode ser de autoria da Mesa. Uma vez instaurado o processo, o Código veda sua retirada pela parte autora. O momento da tentativa é decisivo: durante a instrução, a instauração já ocorreu. A vedação do § 5º pressupõe esse marco processual.",
+      "reviewEvidence": "Código de Ética, art. 14, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html Estrutura compartilhada cotejada com a Câmara aplicada em 2026, itens 47 e 48. A Câmara 2014 CB2-03, itens 94 a 96, é a referência temática de rito e sanção.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 96,
+        "caseId": "decoro-recurso-e-votacao"
+      }
+    },
+    {
+      "id": "cam-caso-decoro-perda-com-256-votos",
+      "concursoId": "camara-2026",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "plenario-maioria-absoluta",
+      "mechanism": "perda-com-256-votos",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "statement": "Em uma Câmara dos Deputados com 513 membros, dois processos disciplinares tratam de possível perda de mandato por quebra de decoro. No primeiro, a representação foi apresentada por partido político representado no Congresso Nacional. Na análise inicial, o relator suscitou falta de justa causa, e o Plenário do Conselho de Ética acolheu o fundamento. Dentro do prazo, 51 deputados subscreveram recurso ao Plenário da Câmara. No segundo, a representação foi apresentada pela Mesa. Após a instauração do processo e durante a instrução, a Mesa tentou retirá-la. A instrução prosseguiu, com ampla defesa, e a proposta de perda do mandato chegou ao Plenário. Na votação ostensiva houve 256 votos favoráveis, 155 contrários e 19 abstenções.\n\nCom base nessa situação, julgue o item a seguir.\n\nComo a perda do mandato recebeu mais votos favoráveis que contrários e a votação foi ostensiva, a proposta foi aprovada.",
+      "correctAnswer": "E",
+      "explanation": "A perda do mandato por quebra de decoro exige decisão do Plenário por maioria absoluta dos membros da Câmara. Com 513 membros, o mínimo é de 257 votos favoráveis. Houve 256. As abstenções não reduzem o limiar, e a votação ostensiva satisfaz outro requisito. Um voto favorável a mais atingiria o quórum.",
+      "reviewEvidence": "Constituição Federal, art. 55, II e § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Código de Ética, art. 14. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html Estrutura compartilhada cotejada com a Câmara aplicada em 2026, itens 47 e 48. A Câmara 2014 CB2-03, itens 94 a 96, é a referência temática de rito e sanção.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara-2014-cb2-03",
+        "item": 94,
+        "caseId": "decoro-recurso-e-votacao"
+      }
+    },
+    {
       "origin": "inedita",
       "format": "CE",
       "examPart": "P2",

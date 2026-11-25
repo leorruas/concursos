@@ -27417,7 +27417,7 @@
       },
       "statement": "As comissões aprovam conclusivamente um projeto. Um recurso regular é submetido ao Plenário, que o rejeita. A deliberação plenária sobre o recurso não abre nova votação de mérito do projeto.",
       "correctAnswer": "C",
-      "explanation": "Só o provimento do recurso leva a matéria recorrida à discussão e votação no Plenário. Rejeitado o recurso, subsiste a aprovação conclusiva e o projeto segue para redação final.",
+      "explanation": "O recurso serve para levar ao Plenário a matéria que as comissões decidiram conclusivamente. Ele deve ser apresentado em até cinco sessões, por pelo menos um décimo dos deputados, e indicar o trecho que se quer submeter ao Plenário. Mas a simples apresentação não basta: o Plenário precisa dar provimento. Como o recurso foi rejeitado, a decisão conclusiva das comissões permanece; o projeto segue para redação final ou é arquivado, conforme o resultado.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, arts. 58, § 4º, e 132, § 2º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -27445,7 +27445,7 @@
       },
       "statement": "O Plenário dá provimento a recurso para apreciar integralmente projeto aprovado conclusivamente pelas comissões. A aprovação anterior permite enviar o projeto diretamente à redação final, sem deliberação plenária sobre o mérito.",
       "correctAnswer": "E",
-      "explanation": "Provido o recurso integral, o Plenário discute e vota o projeto. A aprovação conclusiva das comissões deixa de dispensar a apreciação plenária.",
+      "explanation": "O recurso contra a decisão conclusiva deve ser apresentado em até cinco sessões, por pelo menos um décimo dos deputados, e delimitar a matéria que irá ao Plenário. Se o Plenário o provê, passa a discutir e votar o mérito da parte recorrida; essa parte não pode seguir direto à redação final. Se o recurso alcançou todo o projeto, a apreciação plenária abrange o projeto inteiro. Trechos não incluídos no recurso continuam sob a decisão conclusiva das comissões.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, arts. 58, § 4º, e 132, § 2º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {

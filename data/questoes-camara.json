@@ -29153,7 +29153,7 @@
       },
       "statement": "A comissão rejeita o voto do relator e o relator substituto está ausente. O presidente da comissão designa outro deputado para redigir o parecer vencedor. A designação segue o Regimento.",
       "correctAnswer": "C",
-      "explanation": "O relator substituto é o primeiro responsável pela redação do parecer vencedor. Em sua ausência, o presidente designa outro deputado.",
+      "explanation": "Quando a Comissão não adota o voto do relator, o parecer vencedor precisa ser redigido para registrar a conclusão que o colegiado aprovou. Pelo art. 57, XII, do RICD, a tarefa cabe primeiro ao relator substituto e deve ser concluída até a reunião ordinária seguinte. Se ele estiver ausente ou também tiver sido vencido, o presidente da Comissão designa outro deputado. O relator original não reassume automaticamente a redação só porque seu voto foi rejeitado.",
       "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 57, XII. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -29181,7 +29181,7 @@
       },
       "statement": "Na votação em comissão, tanto o relator inicial como o relator substituto ficam vencidos. Mesmo vencido, o substituto deve obrigatoriamente redigir o parecer vencedor por estar presente.",
       "correctAnswer": "E",
-      "explanation": "O inciso XII trata tanto da ausência quanto da derrota do relator substituto. Em ambas as hipóteses, cabe ao presidente designar outro deputado.",
+      "explanation": "O relator substituto só redige o parecer vencedor se não tiver sido vencido. O art. 57, XII, prevê duas situações que afastam essa tarefa: substituto ausente ou substituto vencido. Em qualquer delas, o presidente da Comissão designa outro deputado para registrar a posição que o colegiado efetivamente aprovou. Estar presente, portanto, não basta para obrigá-lo a escrever um parecer cuja conclusão ele também perdeu na votação.",
       "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 57, XII. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -65021,7 +65021,7 @@
       },
       "statement": "Se o colegiado adotar parecer diverso do proposto pelo relator original, a posição inicial do relator pode ser identificada nos registros como voto em separado.",
       "correctAnswer": "C",
-      "explanation": "O voto original passa a constituir voto em separado quando a comissão adota parecer diverso. Ele deixa de representar a posição do colegiado, mas permanece registrado.",
+      "explanation": "Quando a Comissão rejeita o voto do relator e aprova outra conclusão, a posição aprovada passa a ser o parecer vencedor do colegiado; o voto original, por divergir do resultado, fica registrado como voto em separado (RICD, art. 57, XIII). São coisas diferentes: o parecer vencedor documenta o que a Comissão decidiu; o voto em separado preserva a posição do relator vencido. A redação do parecer vencedor cabe primeiro ao relator substituto, e não ao autor do voto derrotado, observada a exceção do inciso XII.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 57, XIII, cotejado com a nota canônica. Critério decisivo: O voto original passa a constituir voto em separado quando a comissão adota parecer diverso. Ele deixa de representar a posição do colegiado, mas permanece registrado. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
     },
     {

@@ -10537,7 +10537,7 @@
       ],
       "statement": "Em uma Câmara dos Deputados com 513 membros, dois processos disciplinares tratam de possível perda de mandato por quebra de decoro. No primeiro, a representação foi apresentada por partido político representado no Congresso Nacional. Na análise inicial, o relator suscitou falta de justa causa, e o Plenário do Conselho de Ética acolheu o fundamento. Dentro do prazo, 51 deputados subscreveram recurso ao Plenário da Câmara. No segundo, a representação foi apresentada pela Mesa. Após a instauração do processo e durante a instrução, a Mesa tentou retirá-la. A instrução prosseguiu, com ampla defesa, e a proposta de perda do mandato chegou ao Plenário. Na votação ostensiva houve 256 votos favoráveis, 155 contrários e 19 abstenções.\n\nCom base nessa situação, julgue o item a seguir.\n\nNo segundo processo, a tentativa da Mesa de retirar a representação durante a instrução não impediu o prosseguimento.",
       "correctAnswer": "C",
-      "explanation": "A representação pode ser de autoria da Mesa. Uma vez instaurado o processo, o Código veda sua retirada pela parte autora. O momento da tentativa é decisivo: durante a instrução, a instauração já ocorreu. A vedação do § 5º pressupõe esse marco processual.",
+      "explanation": "O art. 14, § 5º, do Código de Ética fixa o marco com precisão: instaurado o processo ético-disciplinar, a parte legítima não pode retirar a representação. Como a tentativa da Mesa ocorreu durante a instrução, o processo já estava instaurado e deve prosseguir. A regra vale independentemente de a representação ter sido apresentada pela Mesa ou por partido; o item pergunta apenas pelo segundo processo.",
       "reviewEvidence": "Código de Ética, art. 14, § 5º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html Estrutura compartilhada cotejada com a Câmara aplicada em 2026, itens 47 e 48. A Câmara 2014 CB2-03, itens 94 a 96, é a referência temática de rito e sanção.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -22657,7 +22657,7 @@
       },
       "statement": "Um deputado apresenta renúncia enquanto responde a processo que pode levar à perda do mandato nos termos do art. 55. Os efeitos da renúncia ficam suspensos até as deliberações finais.",
       "correctAnswer": "C",
-      "explanation": "O § 4º suspende os efeitos nessa situação. A apresentação do pedido não produz vacância imediata nem encerra o processo.",
+      "explanation": "Se o deputado apresenta renúncia enquanto responde a processo que possa levar à perda do mandato, os efeitos do pedido ficam suspensos até as deliberações finais (Constituição, art. 55, § 4º). Assim, a renúncia não produz vacância imediata nem permite encerrar o processo antes do resultado; o marco é o desfecho das deliberações, não a data do pedido.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 55, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -22769,7 +22769,7 @@
       },
       "statement": "Discute-se a criação de um território federal. Se instituído, ele integrará a União, conforme a disciplina constitucional.",
       "correctAnswer": "C",
-      "explanation": "O art. 18, § 2º, estabelece que os territórios federais integram a União. Não os enumera como entes autônomos do caput.",
+      "explanation": "O território federal integra a União, nos termos do art. 18, § 2º, da Constituição. Ele não aparece no caput entre os entes federativos autônomos — União, estados, Distrito Federal e municípios. Portanto, não se deve confundir território federal com estado-membro, embora ambos sejam formas de organização territorial previstas na Constituição.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 18, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -23245,7 +23245,7 @@
       },
       "statement": "Câmara e Senado decidem promulgar a mesma emenda em duas sessões separadas. A mera participação de ambas as Mesas, em momentos distintos, cumpre a exigência de sessão conjunta solene.",
       "correctAnswer": "E",
-      "explanation": "O art. 85 prevê uma sessão conjunta solene para a promulgação pelas duas Mesas. Duas sessões separadas não atendem a essa forma.",
+      "explanation": "A Constituição determina que, aprovada a emenda, ela seja promulgada pelas Mesas da Câmara e do Senado (art. 60, § 3º); o Regimento Comum organiza esse ato em sessão conjunta solene (art. 85). Duas cerimônias separadas não cumprem a forma regimental. Isso trata da promulgação, depois da aprovação da PEC em cada Casa, e não transforma a votação em votação conjunta.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, art. 85, e a Constituição Federal, art. 60, § 3º. https://legis.senado.leg.br/norma/372889/publicacao/16429440"
     },
     {
@@ -23329,7 +23329,7 @@
       },
       "statement": "Um programa é apresentado como meio de combater a marginalização até sua erradicação. A erradicação da marginalização consta expressamente entre os objetivos fundamentais da República.",
       "correctAnswer": "C",
-      "explanation": "O art. 3º, III, associa a erradicação à pobreza e à marginalização, e a redução às desigualdades sociais e regionais.",
+      "explanation": "O art. 3º, III, separa dois objetivos que a banca costuma inverter: erradicar a pobreza e a marginalização; reduzir as desigualdades sociais e regionais. No caso, combater a marginalização até eliminá-la corresponde literalmente a um objetivo fundamental da República.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 3º, III. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25345,7 +25345,7 @@
       },
       "statement": "Ao reorganizar seus serviços, a Câmara pretende também fixar a remuneração dos cargos. Para essa segunda providência, cabe à Casa a iniciativa de lei específica, observados os parâmetros da LDO.",
       "correctAnswer": "C",
-      "explanation": "A competência de organizar os serviços é própria da Câmara. A fixação da remuneração exige lei específica de iniciativa da Casa.",
+      "explanation": "A Câmara pode organizar seus serviços por competência privativa, mas não fixar vencimentos apenas por ato interno: remuneração depende de lei específica e deve observar os parâmetros da LDO (Constituição, arts. 37, X, e 51, IV). O caso está correto porque separa os instrumentos: reorganização interna de um lado, lei de iniciativa da Casa para remuneração do outro.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 37, X, e 51, IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27053,7 +27053,7 @@
       },
       "statement": "Um projeto aprovado pela Câmara foi enviado ao Senado, que ainda não o revisou. Esse simples envio basta para enquadrá-lo na exceção ao arquivamento referente a proposições aprovadas pela Câmara e revisadas pelo Senado.",
       "correctAnswer": "E",
-      "explanation": "A exceção citada exige revisão, e não apenas remessa. Outras exceções ao arquivamento devem ser avaliadas conforme a tramitação.",
+      "explanation": "A exceção do art. 105 do RICD exige que o projeto tenha sido aprovado pela Câmara e efetivamente revisto pelo Senado. Enviar o texto à Casa revisora apenas inicia essa etapa; não prova que ela ocorreu. O item tenta substituir o fato jurídico “revisado” por um ato anterior, “remetido”.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 105. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -28509,7 +28509,7 @@
       },
       "statement": "O presidente da Mesa pede a retirada de uma proposição de autoria da Mesa sem autorização prévia do colegiado. Por se tratar da Mesa, a exigência de autorização é dispensada.",
       "correctAnswer": "E",
-      "explanation": "O art. 104, § 3º, impõe autorização prévia do colegiado para retirada tanto de proposição da comissão quanto de proposição da Mesa.",
+      "explanation": "O art. 104, § 3º, do RICD exige autorização prévia do colegiado tanto para retirar proposição de comissão quanto proposição da Mesa. O presidente da Mesa pode formalizar o requerimento, mas não decide sozinho em nome do colegiado. A autoria institucional da proposta não elimina essa condição.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 104, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -29741,7 +29741,7 @@
       },
       "statement": "Em sessão conjunta, 257 deputados e 41 senadores votam pela rejeição de um veto. Considerado apenas o número de votos, a rejeição atingiu a maioria absoluta exigida em cada Casa.",
       "correctAnswer": "C",
-      "explanation": "Com 513 deputados e 81 senadores, a maioria absoluta corresponde a 257 e 41, respectivamente. Os dois limiares foram alcançados.",
+      "explanation": "A votação do veto ocorre em sessão conjunta, mas o quórum de rejeição é contado separadamente: é necessária maioria absoluta na Câmara e no Senado (Constituição, art. 66, § 4º). Com 513 deputados e 81 senadores, os limiares são 257 e 41. Como ambos foram atingidos, os números do item bastam; não se somam votos de uma Casa para compensar falta na outra.",
       "reviewEvidence": "Conferência com a seção vinculada. Constituição Federal, art. 66, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -60793,7 +60793,7 @@
       },
       "statement": "Uma pessoa que busca exclusivamente retificar informação pessoal mantida por entidade pública deve utilizar habeas corpus, pois esse remédio protege registros administrativos.",
       "correctAnswer": "E",
-      "explanation": "O habeas corpus protege liberdade de locomoção; situações de informação pessoal correspondem, em tese, ao habeas data.",
+      "explanation": "Habeas corpus protege a liberdade de locomoção contra ilegalidade ou abuso de poder. Para conhecer ou retificar dados pessoais em registros ou bancos de dados governamentais ou de caráter público, o remédio constitucional é, em tese, o habeas data (Constituição, art. 5º, LXXII). A finalidade do pedido — movimentar-se ou acessar/corrigir dados — define a distinção.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md / Habeas corpus — HC; CI obrigatório antes de integrar."
     },
     {
@@ -61857,7 +61857,7 @@
       },
       "statement": "Após a Emenda Constitucional nº 131/2023, a aquisição de outra nacionalidade não implica, por si só, perda automática da nacionalidade brasileira.",
       "correctAnswer": "C",
-      "explanation": "A EC nº 131/2023 alterou o regime de perda da nacionalidade, afastando a perda automática por mera aquisição de outra.",
+      "explanation": "Desde a EC nº 131/2023, adquirir outra nacionalidade não causa, por si só, a perda da brasileira. A Constituição prevê hipóteses próprias: cancelamento judicial da naturalização nas condições do inciso I e pedido expresso de perda, ressalvada a apatridia (art. 12, § 4º). O item afasta apenas a antiga ideia de perda automática pela aquisição de outra nacionalidade.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/04 - nacionalidade.md / Perda da nacionalidade: EC nº 131/2023; CI obrigatório antes de integrar."
     },
     {
@@ -64713,7 +64713,7 @@
       },
       "statement": "Houve sanção tácita de um projeto. O presidente da República e o presidente do Senado deixaram transcorrer, sucessivamente, os respectivos prazos de promulgação. Nessa situação, o presidente da Câmara assume a atribuição de promulgar a lei.",
       "correctAnswer": "E",
-      "explanation": "Depois da omissão sucessiva do presidente da República e do presidente do Senado, a competência passa ao vice-presidente do Senado.",
+      "explanation": "Na sanção tácita, o Presidente da República deve promulgar a lei em 48 horas; se não o fizer, a atribuição passa ao Presidente do Senado. Se este também se omitir no mesmo prazo, cabe ao Vice-Presidente do Senado promulgar (Constituição, art. 66, §§ 3º e 7º). A sequência não transfere essa última etapa ao Presidente da Câmara.",
       "reviewEvidence": "Constituição Federal, art. 66, §§ 3º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -64881,7 +64881,7 @@
       },
       "statement": "Durante a deliberação, a comissão sugere mudanças no texto do relator e ele concorda com elas. Nessa hipótese, o próprio relator pode redigir o novo texto, com prazo até a reunião seguinte.",
       "correctAnswer": "C",
-      "explanation": "O acolhimento das mudanças pelo relator mantém com ele a tarefa de redigir o novo texto e aciona o prazo até a reunião seguinte.",
+      "explanation": "Pelo art. 57, XI, do RICD, quando a comissão sugere alterações no voto e o relator concorda, é concedido a ele prazo até a reunião seguinte para redigir o novo texto. O dispositivo trata de quem prepara a versão reformulada e do prazo; não significa que a sugestão, só por ter sido feita, já se tornou parecer aprovado pela comissão.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 57, XI, cotejado com a nota canônica. Critério decisivo: O acolhimento das mudanças pelo relator mantém com ele a tarefa de redigir o novo texto e aciona o prazo até a reunião seguinte. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
     },
     {
@@ -68409,7 +68409,7 @@
       },
       "statement": "Diante de indícios de despesa não autorizada sob a forma de investimento não programado, a comissão mista permanente de orçamento pode solicitar esclarecimentos à autoridade governamental responsável.",
       "correctAnswer": "C",
-      "explanation": "O art. 72 inclui expressamente investimentos não programados entre as formas que podem assumir as despesas investigadas.",
+      "explanation": "O art. 72 da Constituição permite à comissão mista permanente de orçamento solicitar esclarecimentos à autoridade governamental responsável quando houver indícios de despesa não autorizada. Investimento não programado é uma das formas expressamente abrangidas. O pedido de explicações é uma etapa de fiscalização; a comissão não declara, só por isso, que a despesa é ilícita.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 72, caput. O art. 72 inclui expressamente investimentos não programados entre as formas que podem assumir as despesas investigadas. Dificuldade estimada."
     },
     {
@@ -71937,7 +71937,7 @@
       },
       "statement": "Em processo disciplinar parlamentar, a intimação regular para apresentar defesa escrita permite ao Conselho dispensar a intimação do representado sobre uma diligência posterior que o próprio Conselho pratique na instrução.",
       "correctAnswer": "E",
-      "explanation": "O art. 9º, § 5º, exige a intimação de todos os atos do Conselho e permite manifestação em todas as fases. A intimação para a defesa escrita não supre a intimação sobre atos posteriores.",
+      "explanation": "O art. 9º, § 5º, do Código de Ética exige que o deputado representado seja intimado de todos os atos do Conselho e lhe assegura manifestação em todas as fases. A intimação inicial para apresentar defesa escrita não cobre diligências posteriores: cada novo ato processual também precisa ser comunicado para que a defesa possa participar.",
       "reviewEvidence": "Revisão por IA com conferência da Resolução nº 25/2001 consolidada pela Câmara. O art. 9º, § 5º, exige a intimação de todos os atos do Conselho e permite manifestação em todas as fases. A intimação para a defesa escrita não supre a intimação sobre atos posteriores. Dificuldade estimada."
     },
     {

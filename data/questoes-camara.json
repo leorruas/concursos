@@ -10503,7 +10503,7 @@
       ],
       "statement": "Em uma Câmara dos Deputados com 513 membros, dois processos disciplinares tratam de possível perda de mandato por quebra de decoro. No primeiro, a representação foi apresentada por partido político representado no Congresso Nacional. Na análise inicial, o relator suscitou falta de justa causa, e o Plenário do Conselho de Ética acolheu o fundamento. Dentro do prazo, 51 deputados subscreveram recurso ao Plenário da Câmara. No segundo, a representação foi apresentada pela Mesa. Após a instauração do processo e durante a instrução, a Mesa tentou retirá-la. A instrução prosseguiu, com ampla defesa, e a proposta de perda do mandato chegou ao Plenário. Na votação ostensiva houve 256 votos favoráveis, 155 contrários e 19 abstenções.\n\nCom base nessa situação, julgue o item a seguir.\n\nO recurso do primeiro processo preencheu o requisito de subscrição necessário para que a decisão terminativa do Conselho fosse examinada pelo Plenário da Câmara.",
       "correctAnswer": "E",
-      "explanation": "Como a representação é de partido político, cabe a decisão terminativa por falta de justa causa, ressalvado recurso ao Plenário subscrito por um décimo dos membros da Casa. Um décimo de 513 é 51,3. Como o requisito deve ser atingido, são necessárias pelo menos 52 assinaturas. Uma assinatura a mais supriria o requisito numérico.",
+      "explanation": "O Conselho pode encerrar o processo por falta de justa causa quando a representação vem de partido político, mas essa decisão terminativa pode ser levada ao Plenário por recurso subscrito por um décimo dos deputados. Como a Câmara tem 513 membros, 10% correspondem a 51,3; não existe fração de assinatura, então é preciso arredondar para cima: o mínimo é 52. As 51 assinaturas do caso ficam abaixo do requisito. Essa conta usa a composição total da Casa, não apenas os presentes.",
       "reviewEvidence": "Código de Ética, art. 14, § 4º, II e III. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html Estrutura compartilhada cotejada com a Câmara aplicada em 2026, itens 47 e 48. A Câmara 2014 CB2-03, itens 94 a 96, é a referência temática de rito e sanção.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -10571,7 +10571,7 @@
       ],
       "statement": "Em uma Câmara dos Deputados com 513 membros, dois processos disciplinares tratam de possível perda de mandato por quebra de decoro. No primeiro, a representação foi apresentada por partido político representado no Congresso Nacional. Na análise inicial, o relator suscitou falta de justa causa, e o Plenário do Conselho de Ética acolheu o fundamento. Dentro do prazo, 51 deputados subscreveram recurso ao Plenário da Câmara. No segundo, a representação foi apresentada pela Mesa. Após a instauração do processo e durante a instrução, a Mesa tentou retirá-la. A instrução prosseguiu, com ampla defesa, e a proposta de perda do mandato chegou ao Plenário. Na votação ostensiva houve 256 votos favoráveis, 155 contrários e 19 abstenções.\n\nCom base nessa situação, julgue o item a seguir.\n\nComo a perda do mandato recebeu mais votos favoráveis que contrários e a votação foi ostensiva, a proposta foi aprovada.",
       "correctAnswer": "E",
-      "explanation": "A perda do mandato por quebra de decoro exige decisão do Plenário por maioria absoluta dos membros da Câmara. Com 513 membros, o mínimo é de 257 votos favoráveis. Houve 256. As abstenções não reduzem o limiar, e a votação ostensiva satisfaz outro requisito. Um voto favorável a mais atingiria o quórum.",
+      "explanation": "A perda do mandato por quebra de decoro depende de voto favorável da maioria absoluta dos integrantes da Câmara, com ampla defesa. Em uma Casa de 513 deputados, maioria absoluta significa mais da metade do total: são necessários 257 votos. Os 256 votos favoráveis não atingem esse número, ainda que superem os 155 contrários. As 19 abstenções não diminuem o limiar, porque o cálculo é feito sobre a composição da Casa. A votação ostensiva atende à forma de votação, mas não compensa a falta do voto necessário.",
       "reviewEvidence": "Constituição Federal, art. 55, II e § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Código de Ética, art. 14. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html Estrutura compartilhada cotejada com a Câmara aplicada em 2026, itens 47 e 48. A Câmara 2014 CB2-03, itens 94 a 96, é a referência temática de rito e sanção.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -11342,7 +11342,7 @@
       },
       "statement": "Ao concluir uma fiscalização, o Tribunal de Contas da União aplica multa a um responsável, sem imputar débito. O responsável sustenta que a decisão só poderá ter eficácia de título executivo caso também determine o ressarcimento de prejuízo. A alegação procede.",
       "correctAnswer": "E",
-      "explanation": "A Constituição atribui eficácia de título executivo à decisão que imputa débito ou aplica multa. Basta a multa regularmente aplicada. Uma recomendação desacompanhada de multa ou imputação de débito não teria essa eficácia pelo § 3º.",
+      "explanation": "A Constituição dá eficácia de título executivo à decisão do Tribunal de Contas da União da qual resulte imputação de débito ou multa (art. 71, § 3º). As hipóteses são alternativas: a multa aplicada basta, mesmo sem condenação ao ressarcimento de dano. Uma recomendação ou determinação sem débito imputado nem multa não se enquadra, por esse dispositivo, na mesma regra. Portanto, a alegação do responsável está errada.",
       "reviewEvidence": "CF, art. 71, VIII e § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
     },
     {
@@ -11408,7 +11408,7 @@
       },
       "statement": "Um deputado federal renuncia após a instauração de processo que pode levar à perda do mandato por quebra de decoro. A Mesa recebe a renúncia e pretende convocar suplente de imediato, tratando a cadeira como vaga. Nessa hipótese, a renúncia tem eficácia suspensa até a deliberação final.",
       "correctAnswer": "C",
-      "explanation": "Se o parlamentar já está submetido a processo que vise ou possa levar à perda do mandato, a renúncia fica com efeitos suspensos. A Câmara decide o caso de decoro por maioria absoluta, assegurada ampla defesa. Sem processo dessa natureza, essa causa de suspensão não incidiria.",
+      "explanation": "A renúncia não produz efeitos imediatamente quando o deputado já responde a processo que possa levar à perda do mandato nas hipóteses do art. 55 da Constituição. A suspensão evita que a renúncia esvazie a decisão disciplinar: o processo continua e a Casa delibera, assegurada ampla defesa. Se não houver processo com esse possível resultado, essa regra específica de suspensão não incide. Para perda por quebra de decoro, a deliberação exige maioria absoluta dos membros da Casa.",
       "reviewEvidence": "CF, art. 55, II e §§ 2º e 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 82, da Câmara de 2014."
     },
     {
@@ -26661,7 +26661,7 @@
       },
       "statement": "Na Câmara, 240 deputados comparecem e todos votam pela aprovação de um projeto de lei ordinária sujeito à regra geral. A unanimidade dos presentes supre a falta da maioria absoluta de integrantes para deliberar.",
       "correctAnswer": "E",
-      "explanation": "Presença e aprovação são requisitos distintos. Sem pelo menos 257 presentes, a unanimidade dos 240 não satisfaz o quórum de deliberação.",
+      "explanation": "Há duas perguntas diferentes: existe presença suficiente para deliberar e, depois, houve votos suficientes para aprovar? Pela regra geral do art. 47 da Constituição, a Câmara só pode deliberar com a presença da maioria absoluta de seus 513 membros: no mínimo 257 deputados. Com 240 presentes, falta quórum de presença; a unanimidade dos 240 não permite sequer iniciar validamente a deliberação. O fato de ser projeto de lei ordinária não elimina esse mínimo.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29433,7 +29433,7 @@
       },
       "statement": "Para demonstrar o fato constitutivo do direito invocado, a parte depende de perícia que ainda deve ser realizada. O mandado de segurança é a via adequada para produzir essa prova durante a instrução.",
       "correctAnswer": "E",
-      "explanation": "A via exige que os fatos essenciais possam ser demonstrados de plano. A necessidade de produzir perícia caracteriza dilação probatória incompatível com o rito.",
+      "explanation": "O mandado de segurança protege direito líquido e certo contra ilegalidade ou abuso de poder e exige que os fatos essenciais possam ser demonstrados desde o início, normalmente por prova documental já disponível. Seu rito não abre uma fase para produzir prova complexa, como perícia ainda necessária para descobrir o que aconteceu. Por isso, no caso, essa via não serve para realizar a perícia. A situação é diferente quando os fatos já estão comprovados e a discussão restante é apenas sobre o sentido da lei: controvérsia jurídica, por si só, não impede mandado de segurança (Súmula 625 do STF).",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXIX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29461,8 +29461,8 @@
       },
       "statement": "Os fatos necessários à análise do direito estão comprovados por documentos já disponíveis. A única controvérsia recai sobre a interpretação da lei. Essa divergência jurídica, por si só, não impede o uso do mandado de segurança.",
       "correctAnswer": "C",
-      "explanation": "Liquidez e certeza exigem demonstração de plano dos fatos. A controvérsia jurídica pode ser decidida pelo julgador sem necessidade de produção de novas provas.",
-      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXIX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+      "explanation": "No mandado de segurança, “direito líquido e certo” não significa que a interpretação da lei seja incontroversa; significa que os fatos necessários para analisar o pedido já podem ser comprovados de plano. Se os documentos demonstram esses fatos e só há divergência sobre qual regra jurídica se aplica, o juiz pode resolver a questão sem abrir instrução probatória. A Súmula 625 do STF confirma que controvérsia sobre matéria de direito não impede a concessão do mandado de segurança. Se, ao contrário, for preciso produzir prova para estabelecer os fatos, pode faltar o requisito próprio dessa via.",
+      "reviewEvidence": "Conferência com a seção vinculada, a Constituição Federal, art. 5º, LXIX, e a Súmula 625 do STF: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2817"
     },
     {
       "id": "cam-revisao-reducao-prevista-em-convencao-coletiva",
@@ -32765,7 +32765,7 @@
       },
       "statement": "A Câmara e o Senado aprovam, em dois turnos cada, o mesmo texto de emenda. Como a última votação ocorreu no Senado, a Mesa dessa Casa pode promulgar sozinha a emenda.",
       "correctAnswer": "E",
-      "explanation": "A última votação encerra a etapa deliberativa, mas não altera a competência de promulgação. O art. 60, § 3º, atribui a promulgação às Mesas das duas Casas.",
+      "explanation": "A aprovação do mesmo texto em dois turnos por três quintos em cada Casa conclui a votação da proposta de emenda. A etapa seguinte não cabe apenas à Casa que votou por último: o art. 60, § 3º, determina que a emenda seja promulgada pelas Mesas da Câmara e do Senado, com o respectivo número de ordem. Diferentemente de um projeto de lei, a emenda constitucional não segue para sanção ou veto presidencial.",
       "reviewEvidence": "Conferência editorial de caso e gabarito com a seção vinculada e a Constituição Federal, art. 60, §§ 2º e 3º. https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
     },
     {
@@ -64601,7 +64601,7 @@
       },
       "statement": "Na sessão conjunta do Congresso Nacional, 280 deputados e 40 senadores votaram pela rejeição de um veto. Como os 320 votos superam a maioria absoluta do total de parlamentares das duas Casas, o veto foi rejeitado.",
       "correctAnswer": "E",
-      "explanation": "A rejeição exige maioria absoluta em cada Casa. Os 280 votos superam os 257 exigidos na Câmara, mas os 40 votos no Senado ficam abaixo dos 41 necessários.",
+      "explanation": "A rejeição do veto é votada em sessão conjunta, mas o quórum não é calculado somando deputados e senadores. A Constituição exige maioria absoluta em cada Casa: pelo menos 257 votos na Câmara e 41 no Senado. Os 280 deputados atingem o requisito da Câmara; os 40 senadores não alcançam o do Senado. Como os quóruns são independentes, os votos excedentes de uma Casa não compensam a falta na outra, e o veto permanece mantido.",
       "reviewEvidence": "Constituição Federal, art. 66, § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -65385,7 +65385,7 @@
       },
       "statement": "Depois de oito pronunciamentos, não restam oradores para discutir um projeto. A discussão pode encerrar-se por falta de oradores mesmo sem atingir doze pronunciamentos.",
       "correctAnswer": "C",
-      "explanation": "O mínimo de doze oradores pertence à hipótese de encerramento por requerimento. A falta de oradores é outro fundamento regimental para encerrar a discussão.",
+      "explanation": "O Regimento prevê caminhos distintos para encerrar a discussão. Se não houver orador inscrito, ela se encerra por ausência de quem queira falar (art. 178, § 1º), sem exigir número mínimo de pronunciamentos. Já o requerimento de encerramento depende de apoio de 5% dos membros e de a matéria ter sido discutida por pelo menos 12 oradores (art. 178, § 2º). Como o enunciado diz que, após oito falas, não restou ninguém inscrito, aplica-se a primeira hipótese; não é preciso completar doze.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 178, caput e § 2º. Critério de julgamento: O mínimo de doze oradores pertence à hipótese de encerramento por requerimento. A falta de oradores é outro fundamento regimental para encerrar a discussão. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
     },
     {

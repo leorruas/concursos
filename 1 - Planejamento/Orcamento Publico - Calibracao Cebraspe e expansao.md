@@ -301,7 +301,7 @@ Meta indicativa de 120 autorais. Restam 108 após este lote. Priorizar em seguid
 
 ### Prompt de continuidade
 
-No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 72 IDs dos seis primeiros lotes e os históricos. Siga da contagem de 72/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 7, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre emendas, tramitação e controles de transferências. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
+No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 84 IDs dos sete primeiros lotes e os históricos. Siga da contagem de 84/120 e use os 89 localizadores já examinados, sem repetir o levantamento. Antes do lote 8, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre controle, competências, relatórios e casos integrados. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
 
 ## Lote 2 — classificação, estágios e caso da ponte
 
@@ -368,7 +368,7 @@ Doze autorais, seis por concurso. Total acumulado de 48 e saldo indicativo de 72
 
 ## Lote 5 — créditos adicionais e programação financeira
 
-SHA integrado: `5c9a1992834c1b121dba6ddc26e200508414f0aa`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45682392185).
+SHA integrado: `5c9a1992834c1b121dba6ddc26e200508414f0aa`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45682392185) · [Workflow de publicação](https://github.com/leorruas/concursos/actions/runs/45682509460).
 
 Doze autorais, seis por concurso. Total acumulado de 60 e saldo indicativo de 60. Cobertura de autorização e abertura, superávit e excesso de arrecadação, vigência do crédito, recursos descentralizados, programação, limitações simultâneas e exceções ao contingenciamento. Próximo lote: encerramento, restos a pagar, despesas anteriores e suprimento.
 
@@ -499,6 +499,8 @@ Leitura individual dos 103 enunciados na ordem da expansão anterior ao lote 1. 
 
 ## Lote 6 — fechamento do exercício, restos a pagar e suprimento
 
+SHA integrado: `ba02774244e9c302e606dad90cbf7c59c4ff78d7`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45682600838).
+
 Doze autorais, seis por concurso. Total acumulado de 72 e saldo indicativo de 48. O lote cobre corte patrimonial e orçamentário, inscrição e cancelamento, caixa vinculado, suprimento sigiloso, pagamentos em duplicidade e reconhecimento de despesas de exercícios anteriores. Próximo lote: emendas, tramitação e controle de transferências.
 
 | ID | Referência | Artigo | Nível | Gabarito |
@@ -519,3 +521,22 @@ Doze autorais, seis por concurso. Total acumulado de 72 e saldo indicativo de 48
 ### Leitura do piloto e da base de execução da CGU
 
 No piloto Câmara, os itens 1–8 fixam plano, diretrizes, orçamento, esferas e iniciativa; 9–14 separam parecer, votação e emenda; 15–20 cobrem espécies, fontes e reabertura; 21–32 percorrem execução, restos e adiantamento; 33–44 distinguem estágios e classificadores; 45–51 tratam de limitação, relatórios, riscos e benefício tributário; 52–59 revisam cancelamento, dependência estatal, indicação de emendas e orçamento de médio prazo. A função predominante é aprendizagem dirigida. Os itens 5, 21, 23, 28, 33 e 40 podem ser resolvidos por uma distinção isolada, apesar do nível difícil registrado. Os itens 56–59 exigem base normativa temporal específica. As três questões públicas originais da CGU comparam comprovação material e documento fiscal em liquidação, com uma variação útil sobre preço ou quantidade de prestação efetivamente demonstrada, mas sem cobrir reconhecimento patrimonial nem o fim do exercício.
+
+## Lote 7 — emendas, tramitação e rastreabilidade
+
+Doze autorais, seis por concurso. Total acumulado de 84 e saldo indicativo de 36. O recorte Câmara trata de compatibilidade, fontes protegidas, comissão mista e tramitação. O recorte CGU testa evidência de execução, rastreabilidade, vinculação e impedimentos. Próximo lote: controle, competências, relatórios e casos integrados. [Lei Complementar nº 210/2024](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm).
+
+| ID | Referência | Artigo | Nível | Gabarito |
+| --- | --- | --- | --- | --- |
+| ca-orc-cal-ldo-emenda-incompativel | mpo 21 | art-d8f21b70c49e563a | dificil | E |
+| ca-orc-cal-emenda-saude-servico-divida | p1 74 | art-d8f21b70c49e563a | dificil | E |
+| ca-orc-cal-comite-estimativa-conjunta | p3 108 | art-c917e4a2d63b508f | dificil | C |
+| ca-orc-cal-comite-orienta-antes-prazo | mpo 40 | art-c917e4a2d63b508f | media | C |
+| ca-orc-cal-transferencia-capital-e-divida | mpo 36 | art-715e2d16a93446cb | dificil | E |
+| ca-orc-cal-indicacao-camara-ata-e-prazo | mpo 37 | art-9d42c1f68a7be053 | dificil | C |
+| cg-orc-cal-repasse-identificador-contrato | cge 101 | art-a91ef3c628d04b57 | dificil | E |
+| cg-orc-cal-metas-transferencia-execucao | cge 115 | art-a91ef3c628d04b57 | dificil | C |
+| cg-orc-cal-fundo-especial-convenio-vedacoes | mpo 36 | art-a91ef3c628d04b57 | dificil | C |
+| cg-orc-cal-emenda-autoriza-alteracao-execucao | mpo 20 | art-a91ef3c628d04b57 | dificil | E |
+| cg-orc-cal-impedimento-sem-prova-no-processo | mpo 36 | art-a91ef3c628d04b57 | dificil | C |
+| cg-orc-cal-trilha-pagou-fornecedor-e-objeto | cge 114 | art-a91ef3c628d04b57 | dificil | E |

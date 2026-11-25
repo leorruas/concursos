@@ -87525,6 +87525,222 @@
         "section": "Execução, cancelamento e seus limites"
       },
       "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-ldo-emenda-incompativel",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "ldo-emenda-incompativel",
+      "mechanism": "ldo-emenda-incompativel",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma emenda à proposta de diretrizes contraria opção expressa do Plano Plurianual vigente. Se houver fonte suficiente para as despesas que decorreriam da mudança, a disponibilidade financeira sana a incompatibilidade entre os dois instrumentos.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição veda aprovar emenda ao projeto de diretrizes incompatível com o Plano Plurianual. Conseguir fonte atende questão distinta e não altera o plano vigente. Se a emenda passasse a respeitar o plano, esse obstáculo específico desapareceria. Constituição Federal, art. 166, § 4º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 21,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Meta fiscal orienta proposta, em horizonte do exercício a que se aplica"
+      },
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#PPA, LDO e LOA: três procedimentos, não uma única agenda"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 21: Meta fiscal orienta proposta, em horizonte do exercício a que se aplica. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA, LDO e LOA: três procedimentos, não uma única agenda",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "PPA, LDO e LOA: três procedimentos, não uma única agenda"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-emenda-saude-servico-divida",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "emenda-saude-servico-divida",
+      "mechanism": "emenda-saude-servico-divida",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma emenda à proposta anual financia expansão hospitalar anulando dotações de serviço da dívida. A conformidade com o planejamento e com o piso constitucional de saúde torna admissível a fonte de cancelamento.",
+      "correctAnswer": "E",
+      "explanation": "A emenda que aumenta despesa deve satisfazer cumulativamente compatibilidade com o planejamento e indicação de recursos admitidos. Serviço da dívida está protegido contra esse tipo de anulação. Fonte oriunda de dotação não protegida pode satisfazer esse requisito se as demais condições forem atendidas. Constituição Federal, art. 166, § 3º, I e II.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 74,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Anulação de dotação de pessoal e encargos não serve de fonte para essa emenda"
+      },
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Regras constitucionais para emendas ao orçamento anual"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p1 74: Anulação de dotação de pessoal e encargos não serve de fonte para essa emenda. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Regras constitucionais para emendas ao orçamento anual",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-comite-estimativa-conjunta",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-c917e4a2d63b508f",
+      "conceptId": "comite-estimativa-conjunta",
+      "mechanism": "comite-estimativa-conjunta",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Na Comissão Mista de Orçamento, a análise da consistência fiscal do projeto anual exige examinar receitas e despesas. O comitê encarregado do acompanhamento da execução pode atuar nessa análise em conjunto com o comitê de avaliação da receita.",
+      "correctAnswer": "C",
+      "explanation": "O comitê de fiscalização da execução tem atribuição de consistência fiscal dos projetos. A análise deve ser conjunta com o comitê de avaliação da receita. Quando a atividade consistir apenas em acompanhar a evolução da arrecadação, há atribuição própria do comitê de receita. Resolução nº 1/2006 do Congresso Nacional, arts. 22, II e § 1º, e 23, I.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_003_01",
+        "item": 108,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_003_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_003_01.pdf",
+        "mechanism": "Executivo consolida e tribunal de contas emite parecer na sua esfera"
+      },
+      "theoryRefs": [
+        "article:art-c917e4a2d63b508f#CAR: avaliação da receita"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p3 108: Executivo consolida e tribunal de contas emite parecer na sua esfera. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / CAR: avaliação da receita",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias.md",
+        "section": "CAR: avaliação da receita"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-comite-orienta-antes-prazo",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-c917e4a2d63b508f",
+      "conceptId": "comite-orienta-antes-prazo",
+      "mechanism": "comite-orienta-antes-prazo",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Antes de abrir o prazo de emendas ao projeto anual, o Comitê de Admissibilidade de Emendas deve divulgar orientações. A competência do Plenário da Comissão Mista para deliberar sobre a ordem de votação dos relatórios não elimina essa etapa anterior.",
+      "correctAnswer": "C",
+      "explanation": "A resolução prevê duas regras distintas. O comitê divulga orientações antes do prazo de emendas. A mudança na ordem de votação é exceção específica à votação prévia de seu relatório. Se o Plenário deliberar a inversão, essa deliberação afeta a votação, não a divulgação prévia. Resolução nº 1/2006 do Congresso Nacional, art. 25, §§ 1º e 2º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 40,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Solicitação de esclarecimentos em cinco dias precede medidas subsequentes"
+      },
+      "theoryRefs": [
+        "article:art-c917e4a2d63b508f#CAE: admissibilidade das emendas"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 40: Solicitação de esclarecimentos em cinco dias precede medidas subsequentes. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / CAE: admissibilidade das emendas",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias.md",
+        "section": "CAE: admissibilidade das emendas"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-transferencia-capital-e-divida",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "transferencia-capital-e-divida",
+      "mechanism": "transferencia-capital-e-divida",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Um município destina 75% da transferência especial ao pagamento do principal de sua dívida e 25% a despesas de custeio admitidas. A classificação da amortização como despesa de capital é suficiente para que o plano cumpra o regime constitucional da transferência.",
+      "correctAnswer": "E",
+      "explanation": "O piso de 70% para despesas de capital convive com proibição de aplicar os recursos em encargos referentes ao serviço da dívida. Amortização não satisfaz o regime apenas por se classificar como capital. Se o percentual fosse aplicado em investimento elegível, essa proibição deixaria de ser o obstáculo indicado. Constituição Federal, art. 166-A, §§ 1º e 5º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 36,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Impedimento técnico afasta obrigatoriedade nas hipóteses constitucionais"
+      },
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Transferência especial × finalidade definida"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 36: Impedimento técnico afasta obrigatoriedade nas hipóteses constitucionais. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Transferência especial × finalidade definida",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Transferência especial × finalidade definida"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-indicacao-camara-ata-e-prazo",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-9d42c1f68a7be053",
+      "conceptId": "indicacao-camara-ata-e-prazo",
+      "mechanism": "indicacao-camara-ata-e-prazo",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Uma comissão aprovou a indicação de beneficiário de emenda de sua autoria. A deliberação ocorre depois da etapa de aprovação da programação orçamentária, e o presidente da comissão ainda precisa publicar e encaminhar a ata ao órgão executor no prazo legal.",
+      "correctAnswer": "C",
+      "explanation": "A aprovação da programação na lei e a indicação na fase de execução são atos distintos. Após a deliberação das indicações, a presidência publica e encaminha a ata em até cinco dias. Se a programação apenas houvesse sido aprovada no orçamento, faltaria a deliberação da indicação apta a gerar essa ata. Lei Complementar nº 210/2024, art. 5º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 37,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Dever constitucional de execução convive com condicionamentos"
+      },
+      "theoryRefs": [
+        "article:art-9d42c1f68a7be053#Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 37: Dever constitucional de execução convive com condicionamentos. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/15 - emendas parlamentares deliberacao e rastreabilidade.md",
+        "section": "Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução"
+      },
+      "reviewStatus": "validada"
     }
   ]
 }

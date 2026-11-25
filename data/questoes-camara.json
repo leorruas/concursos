@@ -25205,7 +25205,7 @@
       },
       "statement": "A liberdade de associação impede exigir que alguém se filie. Após a filiação, porém, a Constituição permite que o estatuto torne compulsória a permanência do associado.",
       "correctAnswer": "E",
-      "explanation": "O art. 5º, XX, veda obrigar alguém a associar-se ou a permanecer associado. A garantia alcança a saída.",
+      "explanation": "A liberdade de associação protege dois momentos: ninguém pode ser obrigado a entrar em uma associação nem a continuar nela. Por isso, o estatuto pode organizar a entidade, mas não eliminar a liberdade constitucional de saída (CF, art. 5º, XX).",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, XX. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25429,7 +25429,7 @@
       },
       "statement": "A cidadania está expressamente enumerada no art. 3º da Constituição como objetivo fundamental da República, ao lado da redução das desigualdades.",
       "correctAnswer": "E",
-      "explanation": "A redução das desigualdades consta entre os objetivos do art. 3º. A cidadania está no rol de fundamentos do art. 1º.",
+      "explanation": "A questão mistura duas listas próximas. Cidadania é fundamento da República, no art. 1º, II; reduzir as desigualdades sociais e regionais é objetivo fundamental, no art. 3º, III. O tema pode se relacionar aos dois, mas a pergunta cobra em qual dispositivo cada expressão aparece.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 1º, II, e 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26409,7 +26409,7 @@
       },
       "statement": "Uma proposta de emenda surge por iniciativa do Presidente da República e é aprovada conforme o rito constitucional. A autoria presidencial não altera a competência das Mesas da Câmara e do Senado para promulgá-la.",
       "correctAnswer": "C",
-      "explanation": "A iniciativa da proposta e a promulgação da emenda são atos distintos. A Constituição atribui a promulgação às duas Mesas.",
+      "explanation": "A iniciativa responde quem pode apresentar a PEC; a promulgação identifica quem formaliza a emenda depois da aprovação. Mesmo que o Presidente da República proponha a mudança, o rito exige aprovação em dois turnos em cada Casa, por três quintos dos respectivos membros, e a promulgação pelas Mesas da Câmara e do Senado. Não há sanção presidencial nesse processo (CF, art. 60, §§ 2º e 3º).",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 60, §§ 1º a 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26493,7 +26493,7 @@
       },
       "statement": "Em uma das votações no Senado, 60 senadores comparecem e 48 votam a favor da PEC. Embora sejam mais de três quintos dos presentes, os votos favoráveis não atingem o quórum constitucional.",
       "correctAnswer": "C",
-      "explanation": "A base é a composição do Senado, com 81 membros. São necessários 49 votos favoráveis, independentemente do comparecimento.",
+      "explanation": "Os três quintos são calculados sobre o total de membros de cada Casa, e não apenas sobre quem compareceu. No Senado, 3/5 de 81 correspondem a 48,6; como não existe fração de voto, são necessários pelo menos 49 votos favoráveis. Assim, 48 votos não bastam, embora sejam mais de três quintos dos 60 presentes.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27221,7 +27221,7 @@
       },
       "statement": "O Distrito Federal acumula competências legislativas reservadas a estados e municípios. Por essa razão, sua lei orgânica pode transformar regiões administrativas em municípios autônomos.",
       "correctAnswer": "E",
-      "explanation": "A acumulação de competências não permite criar municípios no Distrito Federal. O caput do art. 32 proíbe a divisão.",
+      "explanation": "O Distrito Federal acumula competências legislativas estaduais e municipais, mas continua sendo um único ente federativo. Essa acumulação não transforma regiões administrativas em municípios: o art. 32 da Constituição proíbe dividir o DF em municípios. Região administrativa é uma divisão interna de gestão, sem autonomia municipal própria.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 32. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27837,7 +27837,7 @@
       },
       "statement": "A Constituição condiciona a gratuidade do habeas corpus e a gratuidade do registro civil de nascimento prevista no art. 5º, LXXVI, à mesma demonstração de pobreza.",
       "correctAnswer": "E",
-      "explanation": "A condição de pobreza consta do inciso LXXVI. A gratuidade do habeas corpus consta do inciso LXXVII e segue regra própria.",
+      "explanation": "A Constituição trata de gratuidades diferentes em incisos distintos. O art. 5º, LXXVI, garante registros de nascimento e óbito aos reconhecidamente pobres, na forma da lei; o inciso LXXVII declara gratuitos o habeas corpus e o habeas data. Portanto, não se deve transportar automaticamente para esses remédios a condição de pobreza prevista para os registros.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, LXXVI e LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -60933,7 +60933,7 @@
       },
       "statement": "Por possuir poderes de investigação próprios de autoridades judiciais, uma CPI pode determinar diretamente interceptação telefônica de conversas futuras, sem decisão judicial.",
       "correctAnswer": "E",
-      "explanation": "A interceptação telefônica submete-se à reserva de jurisdição; poderes investigatórios da CPI têm limites constitucionais.",
+      "explanation": "“Poderes de investigação próprios das autoridades judiciais” não significa que a CPI possa praticar todo ato reservado ao Judiciário. Interceptar uma conversa telefônica futura é medida sujeita à reserva de jurisdição e depende de ordem judicial, conforme a proteção constitucional do sigilo das comunicações. A CPI pode investigar e requisitar informações dentro de suas atribuições, mas não substituir o juiz nessa autorização (CF, art. 5º, XII, e art. 58, § 3º).",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md / 2. A cláusula constitucional: \"Poderes de investigação próprios das autoridades judiciais\"; CI obrigatório antes de integrar."
     },
     {
@@ -61185,7 +61185,7 @@
       },
       "statement": "A previsão constitucional de um direito fundamental dispensa qualquer análise de limites e de convivência com outros direitos, pois todos eles têm alcance absoluto.",
       "correctAnswer": "E",
-      "explanation": "A proteção dos direitos fundamentais exige ponderar seus limites constitucionais e sua relação com outros direitos.",
+      "explanation": "Direitos fundamentais têm proteção constitucional forte, mas isso não os torna ilimitados em qualquer situação. O exercício de um direito precisa conviver com regras constitucionais e com os direitos de outras pessoas; quando há conflito concreto, a solução deve justificar a restrição e preservar a maior proteção possível a cada direito. Portanto, não se pode dispensar previamente a análise de limites e conflitos.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md / Aplicação e limites dos direitos fundamentais; CI obrigatório antes de integrar."
     },
     {
@@ -61549,7 +61549,7 @@
       },
       "statement": "A Constituição autoriza compelir qualquer pessoa a fazer ou deixar de fazer algo por mera preferência administrativa, mesmo na ausência de lei ou fundamento normativo válido.",
       "correctAnswer": "E",
-      "explanation": "O art. 5º, II, estabelece que ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei.",
+      "explanation": "O art. 5º, II, protege a liberdade das pessoas: o poder público não pode criar uma obrigação apenas porque a considera conveniente. Para obrigar alguém a agir ou deixar de agir, é necessária base legal. A regra não impede a Administração de executar a lei; impede que uma preferência administrativa, sozinha, substitua a lei.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md / Legalidade individual; CI obrigatório antes de integrar."
     },
     {
@@ -61689,7 +61689,7 @@
       },
       "statement": "Brasileiro naturalizado pode ocupar a Presidência da República nas mesmas condições de brasileiro nato, pois a Constituição não distingue a nacionalidade para esse cargo.",
       "correctAnswer": "E",
-      "explanation": "A Presidência da República está entre os cargos privativos de brasileiro nato, conforme art. 12, § 3º.",
+      "explanation": "A afirmação erra ao tratar brasileiros natos e naturalizados como equivalentes para todos os cargos. O art. 12, § 3º, reserva a Presidência e a Vice-Presidência da República a brasileiros natos. Isso não impede o naturalizado de exercer outros cargos públicos para os quais cumpra os requisitos constitucionais e legais.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/04 - nacionalidade.md / Cargos privativos de brasileiro nato; CI obrigatório antes de integrar."
     },
     {

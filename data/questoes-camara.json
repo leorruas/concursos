@@ -12297,7 +12297,7 @@
       },
       "statement": "Uma comissão parlamentar de inquérito pretende interceptar o conteúdo de chamadas futuras. Seus poderes de investigação não suprem a ordem judicial exigida para interceptação.",
       "correctAnswer": "C",
-      "explanation": "A interceptação do conteúdo das comunicações telefônicas está submetida à reserva de jurisdição.",
+      "explanation": "A CPI pode investigar fatos determinados e dispõe de poderes de investigação, mas não substitui o juiz nas medidas que a Constituição reservou à jurisdição. Interceptar uma chamada futura significa captar a conversa enquanto ela ocorre; para isso, o art. 5º, XII, exige ordem judicial e finalidade de investigação criminal ou instrução penal, conforme a Lei nº 9.296/1996, art. 1º. O item está certo: a comissão não pode autorizar essa interceptação por conta própria. Não confunda isso com solicitar registros já existentes de ligações, que são dados armazenados e têm regime jurídico distinto.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 5º, XII, e 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -12437,7 +12437,7 @@
       },
       "statement": "Uma lei ordinária pode instituir normas gerais sobre crédito tributário desde que declare sua aplicação nacional.",
       "correctAnswer": "E",
-      "explanation": "A abrangência nacional não substitui a espécie normativa exigida pelo art. 146, III, b.",
+      "explanation": "A Constituição reservou à lei complementar o estabelecimento de normas gerais sobre legislação tributária, inclusive obrigação, crédito, prescrição e decadência (art. 146, III, b). “Lei complementar” é uma espécie normativa com procedimento próprio; dizer que uma lei ordinária vale no país inteiro não muda a espécie usada para aprová-la. Por isso, o item está errado: a abrangência nacional não supre a reserva constitucional. Uma lei ordinária federal pode tratar de matérias que não estejam nessa reserva, mas não pode ocupar, só por declarar alcance nacional, o espaço normativo reservado à lei complementar.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 146, III, b. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -12997,8 +12997,8 @@
       },
       "statement": "Em votação nominal, a Mesa pode alterar voto individual regularmente registrado para ajustá-lo à orientação da liderança.",
       "correctAnswer": "E",
-      "explanation": "A divergência da orientação não invalida o voto nem autoriza alterar o sentido do registro.",
-      "reviewEvidence": "Conferência com a seção vinculada e a seção vinculada sobre votação nominal. "
+      "explanation": "Na votação nominal, cada parlamentar registra seu próprio voto, e o resultado identifica quem votou a favor, contra ou se absteve (Regimento Interno da Câmara, art. 187, §§ 1º e 2º). A orientação de liderança expressa a posição recomendada pela bancada; ela não substitui nem altera o voto individual. Por isso, o item está errado: a Mesa não pode mudar um voto válido apenas para fazê-lo coincidir com a orientação política. A orientação pode divergir do registro individual sem tornar esse registro inválido.",
+      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara dos Deputados, art. 187, §§ 1º a 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
       "origin": "inedita",
@@ -13193,7 +13193,7 @@
       },
       "statement": "Na tramitação de projeto de reforma do Código de Ética pelo rito do art. 216, a etapa de apresentação de emendas dura cinco sessões, ainda que o prazo aplicável aos pareceres seja maior.",
       "correctAnswer": "C",
-      "explanation": "O § 1º destina cinco sessões ao recebimento de emendas. O § 3º disciplina os prazos para parecer.",
+      "explanation": "Na reforma do Regimento, o prazo para apresentar emendas e o prazo para as comissões emitirem parecer são etapas diferentes. Primeiro, o projeto fica cinco sessões na Ordem do Dia para receber emendas (RICD, art. 216, § 1º). Encerrada essa janela, ele segue às comissões; os pareceres têm prazo de vinte sessões quando se trata de reforma (§§ 2º e 3º). Como a questão pergunta apenas a janela de emendas, o item está certo: o prazo maior para parecer não estica o período de apresentação das emendas.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 19, e o Regimento Interno, art. 216, §§ 1º e 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -13305,7 +13305,7 @@
       },
       "statement": "Para uma sessão solene do Congresso, cada Casa designa previamente seu orador, e ambos pertencem ao mesmo partido. A coincidência partidária, por si só, não impede seus pronunciamentos.",
       "correctAnswer": "C",
-      "explanation": "O Regimento Comum indica preferência por partidos diferentes, sem impor uma vedação absoluta.",
+      "explanation": "Nas sessões solenes do Congresso, podem falar um senador e um deputado, previamente designados pelas respectivas Casas. O Regimento Comum, art. 55, diz que eles devem ser, de preferência, de partidos diferentes. “Preferência” orienta a escolha, mas não cria proibição nem requisito de validade. Assim, se os dois oradores designados pertencem ao mesmo partido, isso por si só não impede os pronunciamentos; o item está certo. A banca poderia trocar “de preferência” por “obrigatoriamente”: essa mudança tornaria a afirmação errada.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, art. 55. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
     },
     {
@@ -13501,7 +13501,7 @@
       },
       "statement": "Presentes 58 senadores, 37 votam secretamente a favor da exoneração de ofício do Procurador-Geral da República antes do fim do mandato. A maioria dos presentes basta para aprovar a medida.",
       "correctAnswer": "E",
-      "explanation": "A exigência é maioria absoluta dos membros, ou seja, pelo menos 41 votos favoráveis.",
+      "explanation": "A exoneração de ofício do Procurador-Geral da República antes do fim do mandato depende de aprovação do Senado por maioria absoluta e voto secreto (Constituição, art. 52, XI; art. 128, § 2º). Maioria absoluta é calculada sobre todos os 81 senadores: são necessários ao menos 41 votos, não apenas mais da metade dos presentes. No cenário, 37 votos são maioria entre os 58 presentes, mas ficam abaixo dos 41 exigidos. Portanto, o item está errado: maioria simples dos presentes não substitui o quórum constitucional.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 52, XI, e 128, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -16021,7 +16021,7 @@
       },
       "statement": "Os três membros sorteados para compor a lista do art. 13, I, assumem conjuntamente a relatoria do processo disciplinar.",
       "correctAnswer": "E",
-      "explanation": "A lista oferece três nomes para a escolha de um relator pelo presidente do Conselho.",
+      "explanation": "No processo previsto no art. 13, I, do Código de Ética, o sorteio não escolhe três relatores. Ele forma uma lista com três integrantes elegíveis do Conselho; o presidente do Conselho então designa um relator dentre esses nomes. A lista amplia a impessoalidade da escolha, mas a relatoria continua individual. Portanto, o item está errado ao atribuir o trabalho conjuntamente aos três sorteados.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 13, I. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17141,7 +17141,7 @@
       },
       "statement": "A divulgação de conteúdo de debate que uma comissão resolveu manter em segredo fica fora do art. 5º, V, se ocorrer depois de encerrada a reunião.",
       "correctAnswer": "E",
-      "explanation": "O fim da reunião não torna público por si só o conteúdo que a comissão decidiu manter em segredo.",
+      "explanation": "Quando a Câmara ou uma comissão decide que um debate ou deliberação deve permanecer secreto, o dever de sigilo recai sobre o conteúdo protegido (Código de Ética, art. 5º, V). O encerramento da reunião marca o fim dos trabalhos daquele dia; não transforma automaticamente em público o que foi deliberado em segredo. Assim, o item está errado: divulgar depois o conteúdo ainda pode violar o dever ético. O que se torna consultável depende das regras de guarda e do prazo de sigilo aplicáveis, não apenas de a sessão ter terminado.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 5º, V. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -17169,7 +17169,7 @@
       },
       "statement": "Na aplicação de sanção disciplinar, além da gravidade da infração, devem ser considerados os antecedentes do infrator e as circunstâncias agravantes ou atenuantes.",
       "correctAnswer": "C",
-      "explanation": "Esses fatores integram os critérios do § 1º, junto com a natureza da infração e os danos causados.",
+      "explanation": "A escolha da sanção disciplinar deve considerar mais do que a gravidade abstrata da conduta. O Código de Ética, art. 10, § 1º, manda avaliar a natureza e a gravidade da infração, os danos causados à Câmara e ao Congresso, as circunstâncias agravantes ou atenuantes e os antecedentes do infrator. Esses fatores ajudam a ajustar a resposta ao caso concreto. Portanto, o item está certo ao mencionar antecedentes e circunstâncias; não se trata de aplicar automaticamente a mesma penalidade a qualquer ocorrência da mesma categoria.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 10, § 1º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {
@@ -18961,7 +18961,7 @@
       },
       "statement": "Uma cidadã reúne documentos sobre possível conduta atentatória ao decoro e descreve os fatos à Mesa, requerendo representação. Ela tem legitimidade para formular esse requerimento.",
       "correctAnswer": "C",
-      "explanation": "O § 1º reconhece a legitimidade de qualquer cidadão que especifique os fatos e as respectivas provas.",
+      "explanation": "Qualquer cidadão pode requerer à Mesa da Câmara que apresente representação contra deputado por possível conduta incompatível ou atentatória ao decoro, desde que especifique os fatos e as provas (Código de Ética, art. 9º, § 1º). O cidadão não julga o caso nem aplica sanção: ele provoca a Mesa, que segue o procedimento regimental de encaminhamento. O item está certo porque reconhece essa legitimidade e indica a Mesa como destinatária. Uma alegação genérica, sem fatos identificados e sem as respectivas provas, não atende ao requisito descrito no dispositivo.",
       "reviewEvidence": "Conferência com a seção vinculada e o Código de Ética, art. 9º, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html"
     },
     {

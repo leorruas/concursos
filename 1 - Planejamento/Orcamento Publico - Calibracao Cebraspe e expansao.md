@@ -275,6 +275,8 @@ Créditos adicionais e emendas somavam 31 itens da Câmara vinculados às duas n
 
 ## Lote 1 — competências, créditos, execução e controle
 
+SHA integrado `4566ff73e1a2223091a21b21efaa8bc7ad32bb32`. [Preflight aprovado](https://github.com/leorruas/concursos/actions/runs/45680569832) · [Workflow de publicação](https://github.com/leorruas/concursos/actions/runs/45680780443).
+
 Doze questões autorais, seis por concurso. Cobertura do primeiro lote: rito legislativo, fonte de emenda, exclusividade, impedimento técnico, créditos e reabertura; superávit disponível, caixa e dotação, bloqueio, despesas anteriores e regime da receita. As seções canônicas já desenvolvem as regras usadas. Enunciados, gabaritos e IDs legados foram preservados.
 
 | ID | Referência | Artigo | Nível | Gabarito |
@@ -298,4 +300,23 @@ Meta indicativa de 120 autorais. Restam 108 após este lote. Priorizar em seguid
 
 ### Prompt de continuidade
 
-No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as duas listas de IDs do lote com o catálogo público. Preserve os 12 IDs do lote 1 e os históricos. Siga da contagem de 12/120 e use os 88 localizadores já examinados, sem repetir o levantamento. Antes do lote 2, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre classificação e estágios, com pelo menos um contexto compartilhado e julgamento independente. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
+No repositório público leorruas/concursos, retome a solicitação de expansão calibrada de Orçamento Público de 25/11/2026. Consulte AGENTS.md, guias 02–04, arquitetura e percursos Câmara/CGU. Releia este arquivo, confira o último commit que o alterou e compare as listas de IDs dos lotes com o catálogo público. Preserve os 24 IDs dos dois primeiros lotes e os históricos. Siga da contagem de 24/120 e use os 88 localizadores já examinados, sem repetir o levantamento. Antes do lote 3, conclua a leitura substantiva dos itens legados e dos exercícios no artigo necessários ao recorte. Produza 10 a 20 itens sobre planejamento, esferas e princípios, com atenção à separação entre função orçamentária, cobertura institucional e exceções constitucionais. Verifique a apresentação isolada na interface, validade normativa e filtro por concurso. A CGU tem vínculo próprio de artigos e edital; o build atual projeta os campos básicos dela, enquanto a matriz editorial conserva sua calibração. Após cada lote, registre IDs e lacunas, execute preflight local, valide o candidato em codex/preflight, integre o mesmo SHA por fast-forward e confira o Pages ao vivo. Continue pelos demais blocos até satisfazer a meta ajustada pelo diagnóstico.
+
+## Lote 2 — classificação, estágios e caso da ponte
+
+Mais 12 autorais, seis por concurso. Total acumulado de 24, com 96 restantes da meta indicativa. O caso da ponte oferece três julgamentos independentes sobre financiamento, liquidação parcial e inscrição de restos a pagar. Cada item carrega o contexto completo. Os demais comparam classificações econômica, funcional e fiscal, transferências de capital, ingresso compensatório, arrecadação e recolhimento. Na CGU, cada classificação ou registro deve responder ao que a auditoria consegue verificar. Preflight local e check remoto por SHA seguem o contrato de publicação. Próximo lote previsto: planejamento, esferas, princípios e exceções.
+
+| ID | Referência | Artigo | Nível | Gabarito |
+| --- | --- | --- | --- | --- |
+| ca-orc-cal-ponte-dois-financiamentos | p3 106 | art-4677cfa327ce43bb | dificil | C |
+| ca-orc-cal-ponte-liquidacao-parcial | cd 163 | art-67167e9c18284c4c | media | E |
+| ca-orc-cal-ponte-inscricao-dividida | p1 90 | art-6e4e79c7f4bb4aa3 | dificil | C |
+| ca-orc-cal-venda-veiculo-fonte | mpo 29 | art-f13b65a28d8c4e91 | dificil | E |
+| ca-orc-cal-investimento-auxilio-municipio | mpo 15 | art-28b3d9ef86aa4510 | dificil | C |
+| ca-orc-cal-funcional-programa-proprio | p1 78 | art-28b3d9ef86aa4510 | media | E |
+| cg-orc-cal-caucao-recurso-proprio | p1 87 | art-e4c982a6713d4bf5 | dificil | E |
+| cg-orc-cal-principal-divida-juros | p1 89 | art-e4c982a6713d4bf5 | dificil | C |
+| cg-orc-cal-historico-numero-funcional | mpo 25 | art-3f9d17a6c04b4e82 | dificil | E |
+| cg-orc-cal-excesso-nota-conferencia | mpo 34 | art-79e2c6a4f80143bd | dificil | C |
+| cg-orc-cal-recolhimento-calendario-bancario | mpo 32 | art-b3e5d91a740c46f8 | dificil | C |
+| cg-orc-cal-alienacao-e-operacao-financeira | p1 89 | art-e6b481a230fc795d | dificil | E |

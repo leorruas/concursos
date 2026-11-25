@@ -86442,6 +86442,225 @@
         "section": "Emendas impositivas: obrigatoriedade condicionada"
       },
       "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-ponte-dois-financiamentos",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-4677cfa327ce43bb",
+      "conceptId": "ponte-dois-financiamentos",
+      "mechanism": "ponte-dois-financiamentos",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em maio, um estado recebeu um financiamento bancário ordinário para construir uma ponte e uma operação de antecipação de receita orçamentária para cobrir insuficiência sazonal de caixa, quitada em novembro. A unidade empenhou o valor integral da obra. Em dezembro, a primeira medição comprovou a execução de uma parcela que foi liquidada, mas não paga. O restante do empenho ainda não tinha sido liquidado ao fim do ano.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nEntre os dois ingressos bancários, o financiamento da obra é receita orçamentária de capital, e o adiantamento para insuficiência sazonal é ingresso extraorçamentário.",
+      "correctAnswer": "C",
+      "explanation": "O financiamento ordinário gera receita de capital na origem operações de crédito. A antecipação de receita orçamentária antecipa liquidez e entra como ingresso compensatório temporário. Por isso a classificação dos dois créditos bancários difere embora ambos gerem obrigação com instituição financeira. Se o segundo fosse empréstimo ordinário, também integraria a receita de capital. Lei nº 4.320/1964, arts. 3º, parágrafo único, e 11, § 2º, e Lei Complementar nº 101/2000, art. 38.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_003_01",
+        "item": 106,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_003_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_003_01.pdf",
+        "mechanism": "Ingresso compensatório temporário e restituição extraorçamentária",
+        "caseId": "orcamento-ponte-financiamento-e-execucao"
+      },
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Operações de crédito × antecipação de receita (ARO)"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p3 106: Ingresso compensatório temporário e restituição extraorçamentária. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Operações de crédito × antecipação de receita (ARO)",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+        "section": "Operações de crédito × antecipação de receita (ARO)"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-ponte-liquidacao-parcial",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "ponte-liquidacao-parcial",
+      "mechanism": "ponte-liquidacao-parcial",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Em maio, um estado recebeu um financiamento bancário ordinário para construir uma ponte e uma operação de antecipação de receita orçamentária para cobrir insuficiência sazonal de caixa, quitada em novembro. A unidade empenhou o valor integral da obra. Em dezembro, a primeira medição comprovou a execução de uma parcela que foi liquidada, mas não paga. O restante do empenho ainda não tinha sido liquidado ao fim do ano.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nA Administração pode liquidar o valor total empenhado da obra, porque a primeira medição confirma a execução e o contrato estabelece o preço global.",
+      "correctAnswer": "E",
+      "explanation": "A liquidação comprova o direito adquirido pelo credor e apura a importância exata da parcela devida. Uma primeira medição parcial não comprova o restante, ainda que o empenho cubra tudo. Se a medição demonstrasse a execução integral e o cumprimento das condições contratuais, o valor total poderia ser liquidado. Lei nº 4.320/1964, art. 63, §§ 1º e 2º.",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_002_01",
+        "item": 163,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/0F0D35E9168F758645B7D40A60AD61E49410BD36B49373E3FE0F5991D582D045.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/B39332ACCDF4D8B0BBFC82E8A3A90A6C3838EF0DC6C9A0DB09A85D306C87DC38.pdf",
+        "mechanism": "Documento fiscal não substitui evidência do cumprimento da prestação",
+        "caseId": "orcamento-ponte-financiamento-e-execucao"
+      },
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Liquidação: verificar o direito do credor"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial cd 163: Documento fiscal não substitui evidência do cumprimento da prestação. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Liquidação: verificar o direito do credor",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Liquidação: verificar o direito do credor"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-ponte-inscricao-dividida",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "ponte-inscricao-dividida",
+      "mechanism": "ponte-inscricao-dividida",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Em maio, um estado recebeu um financiamento bancário ordinário para construir uma ponte e uma operação de antecipação de receita orçamentária para cobrir insuficiência sazonal de caixa, quitada em novembro. A unidade empenhou o valor integral da obra. Em dezembro, a primeira medição comprovou a execução de uma parcela que foi liquidada, mas não paga. O restante do empenho ainda não tinha sido liquidado ao fim do ano.\n\nJulgue o item a seguir, considerando a situação apresentada.\n\nEncerrado o exercício e atendidas as condições de inscrição, a parcela comprovada e liquidada, sem pagamento, fica em restos a pagar processados, e o saldo empenhado elegível ainda não liquidado fica em não processados.",
+      "correctAnswer": "C",
+      "explanation": "As parcelas empenhadas e não pagas atravessam o encerramento como restos a pagar se cumpridos os requisitos de inscrição. O divisor é a liquidação de cada parcela: a primeira verifica o direito do credor e é processada; a segunda ainda não o verificou e é não processada. Se a primeira parcela já tivesse sido paga em dezembro, ela não entraria em restos a pagar. Lei nº 4.320/1964, arts. 35, II, e 36.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 90,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Liquidação até o encerramento é o divisor",
+        "caseId": "orcamento-ponte-financiamento-e-execucao"
+      },
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Restos a pagar: condição e espécie"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p1 90: Liquidação até o encerramento é o divisor. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Restos a pagar: condição e espécie",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Restos a pagar: condição e espécie"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-venda-veiculo-fonte",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-f13b65a28d8c4e91",
+      "conceptId": "venda-veiculo-fonte",
+      "mechanism": "venda-veiculo-fonte",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "Um órgão vende veículos usados e usa o dinheiro para adquirir mobiliário. Como a venda é eventual e o valor fica temporariamente em conta bancária, o ingresso deve ser registrado fora do orçamento até a compra dos bens.",
+      "correctAnswer": "E",
+      "explanation": "A venda de bens públicos gera receita orçamentária de capital na origem alienação de bens, reconhecida na arrecadação. A espera para aplicar o dinheiro não converte o ingresso em depósito temporário de terceiro. Se fosse caução em dinheiro a devolver ao licitante, o ingresso teria natureza extraorçamentária. Lei nº 4.320/1964, arts. 3º, 11, § 2º, e 35, I.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 29,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Sentido amplo inclui cauções temporárias, excluídas da receita orçamentária"
+      },
+      "theoryRefs": [
+        "article:art-f13b65a28d8c4e91#Corrente × capital: natureza econômica, não periodicidade"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 29: Sentido amplo inclui cauções temporárias, excluídas da receita orçamentária. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Corrente × capital: natureza econômica, não periodicidade",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04a - classificacao da receita.md",
+        "section": "Corrente × capital: natureza econômica, não periodicidade"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-investimento-auxilio-municipio",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-28b3d9ef86aa4510",
+      "conceptId": "investimento-auxilio-municipio",
+      "mechanism": "investimento-auxilio-municipio",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "dificil",
+      "statement": "A União transfere recursos a um município para construir uma biblioteca, sem receber bens ou serviços em contraprestação direta. A despesa federal pode ser classificada como transferência de capital, e o município registra o ingresso como receita de capital.",
+      "correctAnswer": "C",
+      "explanation": "Auxílio destinado a investimento de outro ente, sem contraprestação direta, enquadra-se como transferência de capital no orçamento de quem envia. Para o município, é receita de transferência de capital destinada a despesa de capital. Se o repasse financiasse manutenção corrente, a classificação seria reavaliada pela finalidade. Lei nº 4.320/1964, arts. 11, § 2º, e 12, § 6º.",
+      "cognitiveOperation": "integração",
+      "questionType": "integracao",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "958_mpo_analista_001_01",
+        "item": 15,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+        "mechanism": "Auxílio para investimento é transferência de capital"
+      },
+      "theoryRefs": [
+        "article:art-28b3d9ef86aa4510#Transferência: despesa de quem envia × receita de quem recebe"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial mpo 15: Auxílio para investimento é transferência de capital. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Transferência: despesa de quem envia × receita de quem recebe",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04b - classificacao da despesa.md",
+        "section": "Transferência: despesa de quem envia × receita de quem recebe"
+      },
+      "reviewStatus": "validada"
+    },
+    {
+      "id": "ca-orc-cal-funcional-programa-proprio",
+      "concursoId": "camara-2026",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "examPart": "P2",
+      "articleId": "art-28b3d9ef86aa4510",
+      "conceptId": "funcional-programa-proprio",
+      "mechanism": "funcional-programa-proprio",
+      "origin": "inedita",
+      "format": "CE",
+      "estimatedDifficulty": "media",
+      "statement": "Um município adota as funções e subfunções da classificação nacional. Ao elaborar sua lei de orçamento, ele precisa copiar também os programas federais em que se enquadram essas mesmas funções.",
+      "correctAnswer": "E",
+      "explanation": "Funções e subfunções seguem a classificação geral aplicável aos entes. Cada ente estrutura seus programas, com seus códigos e identificação, respeitados os conceitos gerais. A função comum permite comparar áreas de atuação; o programa organiza objetivos próprios. Se a exigência se limitasse a adotar as funções e subfunções nacionais, seria compatível com a regra. Portaria MOG nº 42/1999, arts. 1º e 3º.",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "094_pf_001_01",
+        "item": 78,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_001_01.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_001_01.pdf",
+        "mechanism": "Funções comuns e programas próprios do ente têm regimes distintos"
+      },
+      "theoryRefs": [
+        "article:art-28b3d9ef86aa4510#Classificação funcional: função × subfunção"
+      ],
+      "reviewEvidence": "Conferência do edital e da seção teórica. Referência oficial p1 78: Funções comuns e programas próprios do ente têm regimes distintos. Regra, fato decisivo e variação descritos na correção.",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Classificação funcional: função × subfunção",
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04b - classificacao da despesa.md",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "reviewStatus": "validada"
     }
   ]
 }

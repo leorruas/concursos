@@ -82961,6 +82961,146 @@
       "correctAnswer": "E",
       "explanation": "**Regra:** a proposição aprovada em definitivo pela Câmara ou por suas comissões é encaminhada em autógrafos à sanção, à promulgação ou ao Senado, conforme o caso, até a segunda sessão seguinte (RICD, art. 200). O documento reproduz a redação final aprovada pelo Plenário ou, se a apreciação for conclusiva, pela CCJC; também pode reproduzir o texto do Senado que não tenha sido emendado (art. 200, § 1º). **Aplicação:** a proposição não ter sido votada pelo Plenário não limita o autógrafo a uma emenda, e o destinatário depende da etapa e da espécie de proposição. **Distinção:** autógrafo é o texto formal da proposição aprovada enviado à etapa seguinte; não é sinônimo de emenda nem segue sempre para sanção presidencial.",
       "reviewEvidence": "Regimento Interno da Câmara dos Deputados, arts. 199 e 200, texto normativo atualizado. https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html A situação é autoral e testa conteúdo e destino do autógrafo."
+    },
+    {
+      "id": "cam-pl-comissao-mista-geral-sequencia-instalacao-2026",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "comissao-mista-geral-instalacao-e-relatoria",
+      "mechanism": "comissao-mista-ordinaria-sequencia-de-constituicao-instalacao-e-relatoria",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "2. Comissões mistas: designação, composição e exceções (arts. 9º a 10-B)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#2. Comissões mistas: designação, composição e exceções (arts. 9º a 10-B)"
+      ],
+      "statement": "Uma proposição de competência do Congresso foi distribuída a uma comissão mista sujeita à regra geral do Regimento Comum. Após as lideranças indicarem seus representantes, o Presidente do Senado formalizou a designação dos membros. Na preparação da primeira reunião, surgiu divergência sobre quem deveria conduzir a instalação e escolher o relator.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nO Presidente do Senado deve designar o relator junto com os integrantes; a reunião de instalação, sob a presidência do membro mais idoso, serve apenas para ratificar essa escolha.",
+      "correctAnswer": "E",
+      "explanation": "**Regra:** as lideranças indicam os representantes e o Presidente do Senado designa os integrantes (RCCN, art. 9º). Constituída a comissão mista geral, ela se reúne em até 48 horas, sob a presidência do membro mais idoso, para eleger presidente e vice-presidente; depois, o presidente eleito designa o relator da matéria (art. 10, §§ 2º e 3º). **Aplicação:** o Presidente do Senado não escolhe o relator junto com os membros, e a instalação não é mera ratificação. **Distinção:** indicar, designar os integrantes, conduzir a instalação e designar o relator são atos de agentes diferentes e ocorrem em momentos sucessivos. A regra geral de composição é 11 senadores e 11 deputados, ressalvadas comissões especiais.",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, arts. 9º e 10, §§ 2º–3º. https://legis.senado.leg.br/norma/561098/publicacao/16433839 Situação autoral; sequência cotejada no texto oficial compilado."
+    },
+    {
+      "id": "cam-pl-comissao-mista-mp-prazo-instalacao-2026",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7bc9230e51a6d84f",
+      "conceptId": "comissao-mista-mp-prazo-instalacao",
+      "mechanism": "prazo-de-instalacao-da-comissao-de-mp-contado-da-designacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN.md",
+        "section": "1. Publicação, comissão e emendas: arts. 1º a 4º"
+      },
+      "theoryRefs": [
+        "article:art-7bc9230e51a6d84f#1. Publicação, comissão e emendas: arts. 1º a 4º"
+      ],
+      "statement": "Uma medida provisória foi publicada no Diário Oficial. As lideranças indicaram os membros da comissão mista e a Presidência do Congresso formalizou a designação dentro do prazo previsto. A secretaria marcou a reunião de instalação para 48 horas depois desse ato, por entender que toda comissão mista segue o prazo geral do Regimento Comum.\n\nConsiderando o rito ordinário da Resolução nº 1/2002-CN, julgue o item a seguir.\n\nA reunião foi marcada dentro do prazo: a comissão mista de medida provisória deve instalar-se em até 48 horas da designação de seus membros.",
+      "correctAnswer": "E",
+      "explanation": "**Regra:** no rito ordinário de medida provisória, a Resolução nº 1/2002-CN estabelece prazo específico: a comissão mista instala-se em até 24 horas após a designação de seus integrantes (art. 3º). A designação, por sua vez, ocorre no marco de 48 horas contado da publicação da MP, observadas as indicações das lideranças (art. 2º). **Aplicação:** esperar 48 horas depois da designação excede em um dia o prazo de instalação. **Distinção:** não se deve transportar para a comissão de MP o prazo de 48 horas da comissão mista geral, contado da constituição, previsto no art. 10, § 2º, do Regimento Comum.",
+      "reviewEvidence": "Resolução nº 1/2002-CN, arts. 2º e 3º, texto atualizado. https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html Situação autoral; marcos temporais cotejados com a norma oficial."
+    },
+    {
+      "id": "cam-pl-cpi-cpmi-classificacao-assinaturas-composicao-2026",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7bc9230e51a6d84f",
+      "conceptId": "cpi-versus-cpmi-classificacao-e-composicao",
+      "mechanism": "diferenciar-cpi-de-uma-casa-e-cpmi-conjunta-e-separar-assinaturas-de-composicao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN.md",
+        "section": "CPI versus CPMI: três números que não se confundem"
+      },
+      "theoryRefs": [
+        "article:art-7bc9230e51a6d84f#CPI versus CPMI: três números que não se confundem"
+      ],
+      "statement": "Para investigar um fato determinado, 171 deputados e 27 senadores subscreveram requerimento conjunto. O ato de criação previu 15 deputados e 15 senadores como integrantes do colegiado. Um servidor classificou a comissão como CPI da Câmara e afirmou que as 198 assinaturas também determinariam o número de membros.\n\nÀ luz da Constituição Federal e do Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nA classificação e a composição indicadas estão corretas, pois uma CPI pode reunir parlamentares das duas Casas e o total de assinaturas fixa a quantidade de integrantes.",
+      "correctAnswer": "E",
+      "explanation": "**Regra:** CPI é criada por uma única Casa e reúne parlamentares dela; quando a investigação é conjunta, há uma CPMI, cuja criação exige um terço dos membros da Câmara e um terço dos membros do Senado, separadamente (CF, art. 58, § 3º; RCCN, art. 21). O ato de criação fixa a quantidade de integrantes da CPMI, com igual participação de deputados e senadores. **Aplicação:** com assinaturas das duas Casas e composição paritária, o caso descreve uma CPMI, não uma CPI da Câmara. As 198 assinaturas atendem ao requisito de criação, mas não definem o tamanho do colegiado; 15+15 é o número fixado para a composição no cenário. **Distinção:** assinaturas de apoio, integrantes nomeados e quórum para deliberar respondem a perguntas diferentes.",
+      "reviewEvidence": "Constituição Federal, art. 58, § 3º; Regimento Comum do Congresso Nacional, art. 21. https://legis.senado.leg.br/norma/561098/publicacao/16433839 A classificação decorre da composição conjunta; a situação é autoral."
+    },
+    {
+      "id": "cam-pl-mp-admissibilidade-preliminar-antes-merito-2026",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7bc9230e51a6d84f",
+      "conceptId": "apreciacao-preliminar-mp-admissibilidade-merito",
+      "mechanism": "ordem-entre-juizo-preliminar-de-admissibilidade-e-merito-da-mp",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN.md",
+        "section": "Preliminar, mérito e quórum especial"
+      },
+      "theoryRefs": [
+        "article:art-7bc9230e51a6d84f#Preliminar, mérito e quórum especial"
+      ],
+      "statement": "A comissão mista concluiu seu parecer sobre uma medida provisória, examinando relevância, urgência, compatibilidade constitucional, adequação orçamentária e mérito. Na Câmara, a Presidência propôs que o Plenário votasse primeiro o conteúdo da MP e deixasse a análise dos pressupostos para depois, caso o mérito fosse aprovado.\n\nCom base na Constituição Federal e na Resolução nº 1/2002-CN, julgue o item a seguir.\n\nA ordem proposta é adequada, pois o exame de relevância, urgência e admissibilidade cabe apenas à comissão mista e não condiciona a deliberação do Plenário sobre o mérito.",
+      "correctAnswer": "E",
+      "explanation": "**Regra:** o parecer da comissão mista examina os pressupostos e a matéria, mas a etapa preliminar não termina nela. Antes de deliberar sobre o mérito, cada Plenário aprecia os pressupostos constitucionais da medida provisória; a Constituição explicita que a deliberação de mérito depende de juízo prévio sobre relevância e urgência (art. 62, §§ 5º e 9º). A Resolução nº 1/2002-CN também disciplina a apreciação preliminar da adequação financeira e orçamentária (arts. 5º e 8º). **Aplicação:** a Câmara não pode inverter a ordem e votar o mérito antes do juízo preliminar. **Distinção:** a comissão emite parecer; cada Casa mantém sua própria votação preliminar e sua deliberação de mérito, em sessão separada.",
+      "reviewEvidence": "Constituição Federal, art. 62, §§ 5º e 9º; Resolução nº 1/2002-CN, arts. 5º e 8º. https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html; https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988 Situação autoral; a ordem entre a preliminar e o mérito foi conferida nas fontes oficiais."
+    },
+    {
+      "id": "cam-pl-destaque-votacao-separada-nao-exclui-automatico-2026",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "destaque-para-votacao-em-separado-efeito",
+      "mechanism": "efeito-do-destaque-e-votacao-autonoma-da-parte-separada",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Ordem da votação, substitutivo, emendas e destaques"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Ordem da votação, substitutivo, emendas e destaques"
+      ],
+      "statement": "Durante a votação de um projeto na Câmara, um destaque para votação em separado foi aprovado para determinado dispositivo. Um assessor orientou a Mesa a considerar o trecho automaticamente excluído assim que o texto principal fosse aprovado, sem submeter o dispositivo destacado a votação própria.\n\nConsiderando o Regimento Interno da Câmara dos Deputados, julgue o item a seguir.\n\nA orientação está correta, porque o destaque para votação em separado tem como efeito retirar automaticamente o trecho do projeto aprovado em bloco.",
+      "correctAnswer": "E",
+      "explanation": "**Regra:** o destaque para votação em separado permite que parte de uma proposição ou emenda receba deliberação própria (RICD, arts. 161 e 162, VI). A matéria principal é votada primeiro; em seguida, vota-se a parte destacada, que somente integrará o texto se for aprovada. **Aplicação:** o destaque não exclui o dispositivo por si só. A Mesa deve submetê-lo à votação específica. **Distinção:** destacar é separar para decidir; não é o mesmo que aprovar, rejeitar ou suprimir automaticamente. A regra examinada é a da Câmara e não deve ser transportada sem verificação para o Regimento Comum ou para o Senado.",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, arts. 161 e 162, VI, texto atualizado. https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/arquivos-1/RICDatualizadoatRCD342026.pdf A situação é autoral e testa o efeito jurídico do destaque."
     }
   ]
 }

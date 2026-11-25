@@ -21089,7 +21089,7 @@
       },
       "statement": "Na sessão de recepção a um chefe de Estado estrangeiro, o visitante manifesta vontade de discursar. Seu pronunciamento deve ser programado para depois dos oradores da sessão.",
       "correctAnswer": "C",
-      "explanation": "O Regimento Comum assegura essa possibilidade e define a ordem: o visitante usa a palavra após os oradores.",
+      "explanation": "O chefe de Estado estrangeiro não é obrigado a discursar, mas, se quiser falar, o Regimento Comum define a posição de sua fala: depois dos oradores da sessão. Portanto, a regra estabelece uma ordem protocolar para o pronunciamento eventual; não transforma a fala em etapa obrigatória (arts. 69 e 70).",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Comum, arts. 69 e 70. https://imagem.camara.leg.br/internet/infolegapp/regimentocn.pdf"
     },
     {
@@ -23161,7 +23161,7 @@
       },
       "statement": "Uma PEC foi considerada prejudicada. Um novo texto, sobre a mesma matéria, é apresentado na sessão legislativa seguinte. Quanto à vedação temporal do art. 60, § 5º, a nova proposta é admissível.",
       "correctAnswer": "C",
-      "explanation": "A vedação alcança a reapresentação na mesma sessão legislativa. Ela não veda uma proposta na sessão seguinte, ainda que na mesma legislatura.",
+      "explanation": "O art. 60, § 5º, impede que uma PEC rejeitada ou considerada prejudicada seja reapresentada na mesma sessão legislativa. “Sessão legislativa” é o período anual de trabalhos do Congresso; não é sinônimo de legislatura, que corresponde ao mandato parlamentar de quatro anos. Por isso, a nova sessão pode admitir a reapresentação, ainda que a legislatura continue a mesma.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 60, § 5º, e 67. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -23777,7 +23777,7 @@
       },
       "statement": "Ao chegar a hora das votações na Ordem do Dia, a Câmara constata a ausência do número legal. O Regimento prevê, nesse caso, o anúncio do debate das matérias em discussão.",
       "correctAnswer": "C",
-      "explanation": "A falta de quórum impede a votação naquele momento. O art. 82 prevê que a Presidência anuncie o debate das matérias em discussão.",
+      "explanation": "Sem o número regimental de deputados, a Presidência não pode iniciar a votação. Isso não significa que toda a Ordem do Dia tenha de parar: pelo art. 82, § 3º, ela anuncia o debate das matérias em discussão. A regra separa a presença necessária para deliberar da possibilidade de prosseguir com a fase de debates.",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 82, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -24085,7 +24085,7 @@
       },
       "statement": "Em comissão de 18 membros, nove comparecem e aprovam o parecer por unanimidade. A unanimidade torna suficiente a presença de metade dos integrantes.",
       "correctAnswer": "E",
-      "explanation": "A deliberação exige a presença da maioria absoluta, que é de dez integrantes. A unanimidade de nove votantes não supre a falta.",
+      "explanation": "Em comissão com 18 membros, a reunião precisa ter pelo menos 10 presentes para deliberar: maioria absoluta é o primeiro número inteiro acima da metade. Só depois de atingida essa presença é que se conta a maioria de votos para aprovar o parecer. Nove votos unânimes não corrigem a falta do décimo integrante (RICD, art. 56, § 2º).",
       "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 56, § 2º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -24393,7 +24393,7 @@
       },
       "statement": "Em contexto de emergência econômica, o Presidente pretende editar medida provisória que determina a detenção de ativos financeiros. A relevância da medida não remove a vedação constitucional quanto à matéria.",
       "correctAnswer": "C",
-      "explanation": "A Constituição veda medida provisória sobre detenção ou sequestro de bens, poupança popular ou qualquer outro ativo financeiro.",
+      "explanation": "Mesmo que exista relevância e urgência, há matérias que a Constituição exclui do campo das medidas provisórias. Entre elas está a detenção ou o sequestro de bens, poupança popular ou qualquer outro ativo financeiro (art. 62, § 1º, II). A urgência econômica não funciona como autorização para ultrapassar essa vedação material.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 62, § 1º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25037,7 +25037,7 @@
       },
       "statement": "Um sindicato só tem legitimidade para denunciar irregularidade ao TCU se um partido político subscrever a denúncia em conjunto.",
       "correctAnswer": "E",
-      "explanation": "A norma enumera sindicatos e partidos como legitimados próprios. A legitimidade de um não depende da participação do outro.",
+      "explanation": "O art. 74, § 2º, permite que qualquer cidadão, partido político, associação ou sindicato denuncie irregularidades ou ilegalidades ao Tribunal de Contas da União. Cada categoria aparece como legitimada por si. Portanto, um sindicato pode apresentar a denúncia sem conseguir a assinatura conjunta de um partido.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 74, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29209,7 +29209,7 @@
       },
       "statement": "O Plenário aprova um substitutivo de comissão. Antes da votação, havia uma emenda ao projeto original e outra ao próprio substitutivo, sem destaques. Pela regra geral de prejudicialidade, a primeira fica prejudicada e a segunda está ressalvada.",
       "correctAnswer": "C",
-      "explanation": "A aprovação prejudica o projeto e as emendas ao original. As emendas ao substitutivo ficam fora dessa hipótese de prejudicialidade.",
+      "explanation": "Quando o Plenário aprova um substitutivo, o texto original do projeto e as emendas apresentadas a esse texto ficam prejudicados. O art. 191, IV, ressalva as emendas feitas ao próprio substitutivo e os destaques: elas continuam aptas a ser votadas. Assim, a emenda ao texto substitutivo sobrevive; a emenda ao projeto original, em regra, não.",
       "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 191, IV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -29237,7 +29237,7 @@
       },
       "statement": "Com a aprovação de um substitutivo, uma emenda apresentada a ele fica ressalvada da prejudicialidade. Essa ressalva faz a emenda incorporar-se automaticamente ao texto aprovado.",
       "correctAnswer": "E",
-      "explanation": "A ressalva preserva a possibilidade de apreciar a emenda ao substitutivo. Impedir sua prejudicialidade automática não equivale a aprová-la.",
+      "explanation": "A ressalva do art. 191, IV, apenas impede que a emenda ao substitutivo seja considerada prejudicada automaticamente junto com o projeto original. Ela continua no processo para apreciação e votação próprias. Permanecer votável não significa ter sido aprovada nem incorporada ao texto: ainda é preciso que o Plenário delibere sobre ela.",
       "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 191, IV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -65133,7 +65133,7 @@
       },
       "statement": "Detectado erro em discurso já publicado no Diário da Câmara, a correção pode ser divulgada na seção Errata sem republicação integral do discurso.",
       "correctAnswer": "C",
-      "explanation": "As correções de discursos publicados saem em Errata. A providência documental retifica o erro sem reproduzir todo o texto anterior.",
+      "explanation": "Se um discurso já publicado no Diário contiver erro, o Regimento prevê a publicação da correção na seção Errata. O objetivo é corrigir o registro oficial de forma identificável, sem republicar o discurso inteiro. Essa retificação documental não autoriza alterar silenciosamente o sentido do pronunciamento (RICD, art. 98, § 1º).",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 98, § 1º. Critério de julgamento: As correções de discursos publicados saem em Errata. A providência documental retifica o erro sem reproduzir todo o texto anterior. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
     },
     {
@@ -65413,7 +65413,7 @@
       },
       "statement": "Aprovado requerimento de encerramento da discussão, o requerimento de adiamento da votação fica necessariamente impedido na mesma sessão, mesmo se o relator reformular o parecer para alterar o mérito.",
       "correctAnswer": "E",
-      "explanation": "O impedimento na mesma sessão ressalva a reformulação do parecer pelo relator para promover alteração de mérito.",
+      "explanation": "Em regra, depois de aprovado o encerramento da discussão, não se apresenta novo requerimento de adiamento da votação na mesma sessão, ou o pedido pendente fica prejudicado. O art. 178, § 4º, abre uma exceção: se o relator reformular o parecer para alterar o mérito, o adiamento volta a poder ser requerido. A palavra “necessariamente” torna o item errado porque ignora essa hipótese.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 178, § 4º. Critério de julgamento: O impedimento na mesma sessão ressalva a reformulação do parecer pelo relator para promover alteração de mérito. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
     },
     {

@@ -82,6 +82,7 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.ok(await page.locator('#qs-concurso option[value="cgu-2026"]').count());
    assert.equal(await page.locator('#qs-concurso option[value="dataprev-2026"]').count(),0);
    await page.selectOption('#qs-concurso','cgu-2026');
+   await page.locator('#qs-custom input').first().waitFor({state:'attached',timeout:10000});
    await page.locator('input[name="qs-scope"][value="custom"]').check();
    assert.equal(await page.locator('#qs-start').isDisabled(),true);
    const subjects=['auditoria-governamental','orcamento-publico','politicas-publicas'];

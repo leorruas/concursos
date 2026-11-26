@@ -48,3 +48,7 @@ Dezesseis questões, cinco médias e onze difíceis. São doze no capítulo 37 e
 ## Lote 6. Nacionalidade e direitos políticos
 
 Treze questões, quatro médias e nove difíceis. Cinco no capítulo 04 e oito no capítulo 05. Os casos combinam registro e opção na nacionalidade originária, perda a pedido e apatridia, cargo privativo de nato e elegibilidade parlamentar, alistamento facultativo e candidatura, reeleição e desincompatibilização, inelegibilidade reflexa, militar alistável e conscrito, vigência da lei e anualidade eleitoral. As seções existentes já tratam dos dispositivos cobrados. [Constituição Federal, arts. 12 a 16](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm).
+
+## Lote 7. Organização do Estado e competências federativas
+
+Dezessete questões no capítulo 11. São cinco médias e doze difíceis. Os casos cobrem legislação concorrente, delegação de questão específica, competência administrativa comum, regiões metropolitanas, alteração territorial, organização do Distrito Federal, territórios e intervenção. Foi incorporada à teoria a identificação da população consultada e do efeito da manifestação das Assembleias Legislativas. [Constituição Federal, arts. 18 a 36](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) · [Lei nº 9.709/1998, arts. 4º e 7º](https://www.planalto.gov.br/ccivil_03/leis/l9709.htm).

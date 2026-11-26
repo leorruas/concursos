@@ -85,6 +85,8 @@ A Constituição estabelece procedimentos diferentes para mudanças territoriais
 
 Para **Estados**, incorporação, subdivisão ou desmembramento exige aprovação da população diretamente interessada por plebiscito e do Congresso Nacional por lei complementar.
 
+A consulta alcança a população da área a desmembrar e a do território que perderá a área. Na anexação, inclui também a população do território que a receberá. Após resultado favorável, o projeto de lei complementar pode ser apresentado em qualquer Casa do Congresso, que ouvirá as Assembleias Legislativas. A manifestação estadual é obrigatória como etapa de instrução, sem caráter vinculante para o Congresso. [Lei nº 9.709/1998, arts. 4º e 7º](https://www.planalto.gov.br/ccivil_03/leis/l9709.htm).
+
 Para **Municípios**, criação, incorporação, fusão e desmembramento dependem de lei estadual, dentro do período determinado por lei complementar federal, consulta prévia mediante plebiscito às populações envolvidas e divulgação dos estudos de viabilidade municipal, nos termos constitucionais e legais.
 
 ### Formação de municípios: requisitos e impedimento atual

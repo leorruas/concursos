@@ -97268,6 +97268,635 @@
         "caseId": "cam-cpl-exp26-lei-e-calendario-eleitoral"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-norma-superveniente-parcial",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "suspensao-parcial-da-eficacia-estadual",
+      "mechanism": "fed-norma-superveniente-parcial",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Repartição de competências"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Repartição de competências"
+      ],
+      "statement": "Um estado, sem norma geral federal sobre proteção de determinada espécie, criou calendário para monitoramento e autorizou coleta em certa área. Norma geral federal posterior vedou a coleta nessa área, sem disciplinar o calendário. O estado e um município vizinho também organizaram operação administrativa conjunta para preservar a espécie.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA norma geral federal suspende a eficácia da autorização estadual de coleta na medida da incompatibilidade, sem atingir necessariamente o calendário estadual.",
+      "correctAnswer": "C",
+      "explanation": "Na ausência de norma geral federal, o estado pode legislar plenamente para atender suas peculiaridades no campo concorrente. A norma geral superveniente suspende a eficácia da regra estadual contrária. Se o calendário não conflitar, ele pode continuar eficaz. Constituição Federal, art. 24, VI e §§ 1º a 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 101,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "competência administrativa comum versus competência privativa",
+        "caseId": "cam-cpl-exp26-calendario-fauna"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-fauna-execucao-nao-delega-legislar",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "competencia-comum-versus-legislacao-concorrente",
+      "mechanism": "fed-fauna-execucao-nao-delega-legislar",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Repartição de competências"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Repartição de competências"
+      ],
+      "statement": "Um estado, sem norma geral federal sobre proteção de determinada espécie, criou calendário para monitoramento e autorizou coleta em certa área. Norma geral federal posterior vedou a coleta nessa área, sem disciplinar o calendário. O estado e um município vizinho também organizaram operação administrativa conjunta para preservar a espécie.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA participação na operação administrativa torna o município competente para legislar plenamente sobre fauna em substituição ao estado.",
+      "correctAnswer": "E",
+      "explanation": "A preservação da fauna é competência material comum. União, estados e Distrito Federal exercem competência legislativa concorrente sobre a matéria. O município pode legislar sobre interesse local e suplementar leis federais e estaduais no que couber. A operação não lhe transfere a competência legislativa plena do estado. Constituição Federal, arts. 23, VI e VII, 24, VI e § 3º, e 30, I e II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 101,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "competência administrativa comum versus competência privativa",
+        "caseId": "cam-cpl-exp26-calendario-fauna"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-transito-lei-complementar-especifica",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "delegacao-de-questao-especifica",
+      "mechanism": "fed-transito-lei-complementar-especifica",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Repartição de competências"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Repartição de competências"
+      ],
+      "statement": "Lei complementar federal autoriza estados a legislar sobre uma questão específica de trânsito. Um estado disciplina esse ponto e também outro, fora do alcance da autorização. Um município institui campanha de educação para a segurança no trânsito.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA autorização legislativa permite ao estado regular os dois pontos, desde que ambos estejam no mesmo setor de trânsito.",
+      "correctAnswer": "E",
+      "explanation": "A legislação sobre trânsito é privativa da União. Lei complementar pode autorizar os estados a legislar sobre questões específicas desse domínio. O primeiro ponto está abrangido, mas pertencer ao mesmo setor não basta para o segundo. Constituição Federal, art. 22, XI e parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 102,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "serviço postal e competência legislativa",
+        "caseId": "cam-cpl-exp26-autorizacao-de-transito"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-transito-campanha-municipal",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "educacao-transito-competencia-material",
+      "mechanism": "fed-transito-campanha-municipal",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Repartição de competências"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Repartição de competências"
+      ],
+      "statement": "Lei complementar federal autoriza estados a legislar sobre uma questão específica de trânsito. Um estado disciplina esse ponto e também outro, fora do alcance da autorização. Um município institui campanha de educação para a segurança no trânsito.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO município pode implantar a campanha sem depender da delegação legislativa que foi dirigida aos estados.",
+      "correctAnswer": "C",
+      "explanation": "A competência comum inclui estabelecer e implantar política de educação para a segurança do trânsito. A campanha executa essa atribuição. A autorização por lei complementar tem outro objeto, a legislação estadual sobre questão específica. Constituição Federal, arts. 22, parágrafo único, e 23, XII.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 101,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "competência administrativa comum versus competência privativa",
+        "caseId": "cam-cpl-exp26-autorizacao-de-transito"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-regiao-metropolitana-lei-complementar",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "instrumento-de-instituicao-metropolitana",
+      "mechanism": "fed-regiao-metropolitana-lei-complementar",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Repartição de competências"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Repartição de competências"
+      ],
+      "statement": "Um estado pretende reunir dois municípios limítrofes para planejar e executar funções públicas de saneamento de interesse comum. A iniciativa é apresentada como lei ordinária estadual. Um prefeito sustenta que a simples integração extinguiria o município.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA concordância dos dois municípios permite instituir a região metropolitana por lei ordinária estadual.",
+      "correctAnswer": "E",
+      "explanation": "A instituição de região metropolitana pelo estado exige lei complementar estadual. A adesão política dos entes interessados não muda a espécie normativa. Um convênio de cooperação tem outro regime e não substitui o ato de instituição. Constituição Federal, art. 25, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "território federal e organização por lei",
+        "caseId": "cam-cpl-exp26-integracao-saneamento"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-integracao-nao-equivale-a-fusao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "regiao-metropolitana-versus-fusao",
+      "mechanism": "fed-integracao-nao-equivale-a-fusao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "statement": "Um estado pretende reunir dois municípios limítrofes para planejar e executar funções públicas de saneamento de interesse comum. A iniciativa é apresentada como lei ordinária estadual. Um prefeito sustenta que a simples integração extinguiria o município.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO agrupamento para executar funções comuns não extingue os municípios nem equivale ao procedimento de fusão municipal.",
+      "correctAnswer": "C",
+      "explanation": "A região metropolitana integra organização, planejamento e execução de funções comuns dos municípios limítrofes. Sua criação não muda a identidade dos entes. A fusão municipal constitui alteração territorial e obedece ao procedimento próprio, inclusive consulta às populações envolvidas. Constituição Federal, arts. 18, § 4º, e 25, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "território federal e organização por lei",
+        "caseId": "cam-cpl-exp26-integracao-saneamento"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-df-divisao-municipal-vedada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "vedacao-a-municipios-no-df",
+      "mechanism": "fed-df-divisao-municipal-vedada",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "statement": "No Distrito Federal, um projeto propõe converter regiões administrativas em municípios para descentralizar a execução de serviços de interesse local. Outro prevê que a União deve legislar sempre que a atribuição corresponder a matéria municipal.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA aprovação da divisão por emenda à lei orgânica distrital permite criar os municípios propostos.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição proíbe a divisão do Distrito Federal em municípios. A possibilidade de organizar regiões administrativas não inclui a criação de entes municipais. A revisão da lei orgânica deve respeitar a vedação constitucional. Constituição Federal, art. 32, caput.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "território federal e organização por lei",
+        "caseId": "cam-cpl-exp26-distrito-descentralizacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-df-competencias-acumuladas",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "competencia-distrital-estadual-e-municipal",
+      "mechanism": "fed-df-competencias-acumuladas",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Repartição de competências"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Repartição de competências"
+      ],
+      "statement": "No Distrito Federal, um projeto propõe converter regiões administrativas em municípios para descentralizar a execução de serviços de interesse local. Outro prevê que a União deve legislar sempre que a atribuição corresponder a matéria municipal.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO Distrito Federal acumula as competências legislativas reservadas aos estados e aos municípios, de modo que o projeto parte de premissa incorreta sobre o legislador.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição atribui ao Distrito Federal as competências legislativas estaduais e municipais. O fato de não haver municípios no território distrital não transfere as matérias municipais em bloco para a União. Uma matéria privativa federal seguiria o regime próprio. Constituição Federal, art. 32, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "território federal e organização por lei",
+        "caseId": "cam-cpl-exp26-distrito-descentralizacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-intervencao-ordem-requisicao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "requisicao-judicial-versus-solicitacao",
+      "mechanism": "fed-intervencao-ordem-requisicao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Intervenção: autonomia com exceção constitucional"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Intervenção: autonomia com exceção constitucional"
+      ],
+      "statement": "Em um estado, medida administrativa impede o cumprimento de decisão judicial. A autoridade competente conclui que suspender a medida basta para restabelecer a normalidade. Em outro estado, coação impede o exercício regular do Poder Legislativo local.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNa primeira situação, a intervenção federal pode ser decretada com base apenas em solicitação do Poder Executivo estadual, sem requisição judicial.",
+      "correctAnswer": "E",
+      "explanation": "Na desobediência a ordem ou decisão judicial, exige-se requisição do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do Tribunal Superior Eleitoral, conforme a hipótese. Solicitação do Poder coacto é própria do impedimento ao exercício do Executivo ou Legislativo. Constituição Federal, arts. 34, IV e VI, e 36, I e II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 73,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "ato do Presidente e autorização legislativa",
+        "caseId": "cam-cpl-exp26-ordem-e-coacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-intervencao-suspensao-suficiente",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "suspensao-do-ato-e-dispensa-de-apreciacao",
+      "mechanism": "fed-intervencao-suspensao-suficiente",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Intervenção: autonomia com exceção constitucional"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Intervenção: autonomia com exceção constitucional"
+      ],
+      "statement": "Em um estado, medida administrativa impede o cumprimento de decisão judicial. A autoridade competente conclui que suspender a medida basta para restabelecer a normalidade. Em outro estado, coação impede o exercício regular do Poder Legislativo local.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNa primeira situação, a Constituição permite limitar o decreto à suspensão do ato impugnado e dispensar a apreciação do Congresso, se essa medida bastar.",
+      "correctAnswer": "C",
+      "explanation": "Para prover execução de ordem judicial, a intervenção pode adotar o rito restrito quando a suspensão for suficiente. A dispensa de apreciação acompanha essa hipótese. Se a medida não bastasse, seria necessário examinar o decreto e o controle parlamentar pelo regime aplicável. Constituição Federal, arts. 34, VI, e 36, §§ 1º e 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 73,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "ato do Presidente e autorização legislativa",
+        "caseId": "cam-cpl-exp26-ordem-e-coacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-coacao-legislativo-solicitacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "poder-legislativo-coacto-solicita-intervencao",
+      "mechanism": "fed-coacao-legislativo-solicitacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Intervenção: autonomia com exceção constitucional"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Intervenção: autonomia com exceção constitucional"
+      ],
+      "statement": "Em um estado, medida administrativa impede o cumprimento de decisão judicial. A autoridade competente conclui que suspender a medida basta para restabelecer a normalidade. Em outro estado, coação impede o exercício regular do Poder Legislativo local.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNa segunda situação, a solicitação do Legislativo coacto é o instrumento previsto para provocar a intervenção.",
+      "correctAnswer": "C",
+      "explanation": "Se a coação ou impedimento atinge o Poder Legislativo ou Executivo, a Constituição prevê solicitação do próprio Poder coacto ou impedido. Quando a coação recai sobre o Judiciário, exige-se requisição do Supremo Tribunal Federal. Constituição Federal, arts. 34, IV, e 36, I.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 73,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "ato do Presidente e autorização legislativa",
+        "caseId": "cam-cpl-exp26-ordem-e-coacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-plebiscito-afetados-ambos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "populacao-diretamente-interessada",
+      "mechanism": "fed-plebiscito-afetados-ambos",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "statement": "Parte de um estado quer anexar-se a um estado vizinho. Organizadores pretendem consultar somente moradores da área que será anexada. Após a consulta, uma Assembleia Legislativa envolvida pretende vincular o Congresso com parecer contrário.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA consulta pode limitar-se aos moradores da área que mudará de estado, pois os demais habitantes não mudarão de domicílio.",
+      "correctAnswer": "E",
+      "explanation": "A alteração territorial exige plebiscito da população diretamente interessada. A lei abrange a população do território a desmembrar e a do que sofre o desmembramento, além da área receptora na anexação. O critério é o território afetado, sem depender de mudança de domicílio. Constituição Federal, art. 18, § 3º, e Lei nº 9.709/1998, arts. 4º e 7º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "território federal e organização por lei",
+        "caseId": "cam-cpl-exp26-desmembramento-anexacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-parecer-assembleia-nao-vincula",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "audiencia-estadual-e-lei-complementar",
+      "mechanism": "fed-parecer-assembleia-nao-vincula",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "statement": "Parte de um estado quer anexar-se a um estado vizinho. Organizadores pretendem consultar somente moradores da área que será anexada. Após a consulta, uma Assembleia Legislativa envolvida pretende vincular o Congresso com parecer contrário.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA Assembleia deve ser ouvida no procedimento legislativo, mas sua manifestação não vincula a deliberação congressual sobre a lei complementar.",
+      "correctAnswer": "C",
+      "explanation": "Após plebiscito favorável, tramita projeto de lei complementar no Congresso. A Casa em que o projeto for apresentado promove a audiência das Assembleias, que opinam sem força vinculante. Parecer contrário não equivale à rejeição da alteração pelo Congresso. Constituição Federal, art. 18, § 3º, e Lei nº 9.709/1998, art. 4º, §§ 1º a 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-desmembramento-anexacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-territorio-integra-uniao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "territorio-versus-ente-autonomo",
+      "mechanism": "fed-territorio-integra-uniao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "statement": "Considere a organização de território federal criado por lei complementar. Um relatório o classifica como ente federado autônomo, em pé de igualdade com os estados. Outro relatório observa que o território pode ser dividido em municípios.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA existência de municípios no território federal torna o próprio território ente autônomo da Federação.",
+      "correctAnswer": "E",
+      "explanation": "Territórios federais integram a União, embora possam ser divididos em municípios. A autonomia municipal não se transfere ao território. Os entes enumerados como autônomos são União, estados, Distrito Federal e municípios. Constituição Federal, arts. 18, caput e § 2º, e 33, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "território federal e organização por lei",
+        "caseId": "cam-cpl-exp26-autonomia-e-territorio"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-substituicao-diretrizes-nacionais",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "diretrizes-nacionais-versus-normas-estaduais",
+      "mechanism": "fed-substituicao-diretrizes-nacionais",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Repartição de competências"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Repartição de competências"
+      ],
+      "statement": "Um estado pretende substituir por lei suas diretrizes e bases nacionais de educação, alegando competência concorrente sobre ensino. Em programa distinto, coopera com municípios para ampliar o acesso à educação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA competência concorrente em educação autoriza substituir as diretrizes e bases nacionais por um regime estadual próprio.",
+      "correctAnswer": "E",
+      "explanation": "Cabe privativamente à União legislar sobre diretrizes e bases da educação nacional. A competência concorrente sobre educação e ensino admite atuação estadual nos limites constitucionais, sem substituir a disciplina nacional. A cooperação material para acesso à educação responde a questão distinta. Constituição Federal, arts. 22, XXIV, 23, V, e 24, IX.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 105,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "educação e regime de cooperação federativa",
+        "caseId": "cam-cpl-exp26-diretrizes-e-politica-educacional"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-cooperacao-educacao-e-normas",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "competencia-comum-acesso-educacao",
+      "mechanism": "fed-cooperacao-educacao-e-normas",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Repartição de competências"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Repartição de competências"
+      ],
+      "statement": "Um estado pretende substituir por lei suas diretrizes e bases nacionais de educação, alegando competência concorrente sobre ensino. Em programa distinto, coopera com municípios para ampliar o acesso à educação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO programa de acesso pode ser executado em cooperação, mesmo que a proposta de substituir as diretrizes nacionais extrapole a competência estadual.",
+      "correctAnswer": "C",
+      "explanation": "Proporcionar meios de acesso à educação é atribuição material comum. Estados e municípios podem cooperar para executá-la. A iniciativa legislativa que pretende substituir diretrizes nacionais precisa ser avaliada pelo critério de competência privativa. Constituição Federal, arts. 22, XXIV, 23, V, e 211.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 105,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "educação e regime de cooperação federativa",
+        "caseId": "cam-cpl-exp26-diretrizes-e-politica-educacional"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-fed-municipio-divida-forca-maior",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "forca-maior-na-intervencao-municipal",
+      "mechanism": "fed-municipio-divida-forca-maior",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Intervenção: autonomia com exceção constitucional"
+      },
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Intervenção: autonomia com exceção constitucional"
+      ],
+      "statement": "Um município deixou de pagar dívida fundada por dois anos consecutivos em razão de força maior comprovada. Em município distinto, as contas devidas deixaram de ser prestadas na forma da lei.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO prazo de inadimplência do primeiro município não basta para fundamentar a intervenção por dívida, porque houve força maior. A falta de prestação de contas do segundo pode caracterizar hipótese própria.",
+      "correctAnswer": "C",
+      "explanation": "A intervenção estadual por inadimplemento da dívida fundada exige dois anos consecutivos sem pagamento e ausência de força maior. Já a falta de prestação das contas na forma da lei é fundamento autônomo. Constituição Federal, art. 35, I e II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 73,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "ato do Presidente e autorização legislativa",
+        "caseId": "cam-cpl-exp26-municipio-divida-e-contas"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
     }
   ]
 }

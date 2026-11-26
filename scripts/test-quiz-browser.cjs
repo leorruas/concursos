@@ -96,11 +96,14 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.locator('#qs-count').fill('100');
    const shortage=page.waitForEvent('dialog').then(async dialog=>{
     assert.match(dialog.message(),new RegExp('Há '+available+' questões'));
-    await dialog.dismiss();
+    await dialog.accept();
    });
    await Promise.all([shortage,page.locator('#qs-start').click()]);
-   assert.equal(await page.locator('#qs-config').isVisible(),true);
+   await page.locator('#qs-play').waitFor({state:'visible'});
    await page.evaluate(()=>{
+    const sessions=JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1')||'[]');
+    localStorage.setItem('concursos-quiz-sessoes-v1',JSON.stringify(sessions.slice(0,-1)));
+    localStorage.removeItem('concursos-quiz-ativa-v1');
     document.querySelector('input[name="qs-scope"][value="mixed"]').checked=true;
     document.querySelector('#qs-custom-wrap').hidden=true;
     document.querySelector('#qs-custom input').checked=false;

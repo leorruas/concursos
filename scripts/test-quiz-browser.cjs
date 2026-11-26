@@ -159,7 +159,8 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.equal(await page.locator('#qs-capitulo').getAttribute('max'),'27');
    await page.locator('#qs-capitulo').evaluate(el=>{el.value='10';el.dispatchEvent(new Event('input',{bubbles:true}));});
    const administrativeQuestions=questions.filter(q=>q.concursoId==='camara-2026'&&q.subjectId==='direito-administrativo');
-   const adminEligible=administrativeQuestions.filter(q=>adminIds.slice(0,10).includes(q.articleId));
+   const reservedIds=new Set(JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/data/avaliacao-reservada-camara-2026.json'),'utf8')).reservedQuestionIds);
+   const adminEligible=administrativeQuestions.filter(q=>adminIds.slice(0,10).includes(q.articleId)&&!reservedIds.has(q.id));
    assert.match(await page.locator('#qs-availability').innerText(),new RegExp('^'+adminEligible.length+' questões'));
    assert.match(await page.locator('#qs-capitulo-description').innerText(),/Classificações e espécies de atos administrativos/i);
    // O filtro de Constitucional deve seguir sua própria ordem, não o número dos arquivos.

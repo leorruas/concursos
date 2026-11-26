@@ -368,7 +368,8 @@ const JSONS_PUBLICOS_AUTORIZADOS = [
   'flashcards.json',
   'concursos.json',
   'edital-itens.json',
-  'catalogo-materias-por-concurso.json'
+  'catalogo-materias-por-concurso.json',
+  'avaliacao-reservada-camara-2026.json'
 ];
 
 const dataDest = path.join(outDir, 'data');

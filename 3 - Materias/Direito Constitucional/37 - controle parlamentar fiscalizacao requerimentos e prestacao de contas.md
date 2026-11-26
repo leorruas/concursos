@@ -125,6 +125,10 @@ A competência do Tribunal de Contas da União (TCU) varia conforme o objeto e a
 >
 > **Fontes:** STF, [ADPF 982/PR (2025)](https://noticias.stf.jus.br/postsnoticias/tribunais-de-contas-podem-julgar-prefeitos-que-ordenam-despesas-decide-stf/), Temas 835 e 1287 de repercussão geral; CF, arts. 31 e 71.
 
+**Registro e prazo:** o Tribunal aprecia a legalidade dos atos de admissão para registro, exceto nomeações para cargo em comissão. Também aprecia a concessão inicial de aposentadoria, reforma ou pensão. Melhoria posterior que mantenha o fundamento legal não exige novo registro. Segundo o Supremo Tribunal Federal, a apreciação da concessão inicial está sujeita a prazo de cinco anos contado da **chegada do processo ao Tribunal**, e não da concessão pelo órgão de origem. [Constituição Federal, art. 71, III](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) · [Supremo Tribunal Federal, Tema 445](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=445).
+
+**Objeto e iniciativa da fiscalização:** o Tribunal pode auditar unidades administrativas dos três Poderes por iniciativa própria, de uma Casa do Congresso ou de comissão técnica ou de inquérito. A auditoria operacional sobre órgão do Judiciário avalia sua atuação administrativa, sem rever o mérito de decisões jurisdicionais. Recursos repassados pela União por convênio permanecem sujeitos à fiscalização quanto à aplicação. Qualquer Casa ou comissão pode requisitar informações sobre a fiscalização e seus resultados (Constituição Federal, art. 71, IV, VI e VII).
+
 ---
 
 ## 4. Julgamento das contas do Presidente da República (CF, art. 49, IX e art. 71, I)

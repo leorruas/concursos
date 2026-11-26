@@ -96195,6 +96195,598 @@
         "caseId": "cam-cpl-exp26-delegacao-e-atividade-comercial"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-fundacao-recursos-federais",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "alcance-subjetivo-do-controle-externo",
+      "mechanism": "tcu-fundacao-recursos-federais",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      ],
+      "statement": "Uma fundação privada executou convênio com recursos federais. Durante a auditoria, o Tribunal de Contas da União identificou que o responsável administrou verbas repassadas e causou perda ao erário. O mesmo Tribunal recebeu as contas anuais do Presidente da República.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA natureza privada da fundação não dispensa a prestação de contas dos recursos federais administrados.",
+      "correctAnswer": "C",
+      "explanation": "O dever de prestar contas alcança pessoa pública ou privada que utilize, arrecade, guarde, gerencie ou administre recursos públicos ou pelas quais a União responda. O vínculo relevante é a gestão da verba federal. Patrimônio privado gerido exclusivamente em nome próprio não fica sob essa regra apenas por pertencer à fundação. Constituição Federal, art. 70, parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 124,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-fundacao-e-contas"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-contas-gestor-privado-e-presidente",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "contas-de-governo-e-de-gestao",
+      "mechanism": "tcu-contas-gestor-privado-e-presidente",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      ],
+      "statement": "Uma fundação privada executou convênio com recursos federais. Durante a auditoria, o Tribunal de Contas da União identificou que o responsável administrou verbas repassadas e causou perda ao erário. O mesmo Tribunal recebeu as contas anuais do Presidente da República.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nAo receber os dois processos, o Tribunal deve emitir parecer prévio em ambos, pois o julgamento de contas fica reservado ao Congresso.",
+      "correctAnswer": "E",
+      "explanation": "O Tribunal aprecia as contas anuais presidenciais mediante parecer prévio, e o Congresso as julga. Já o Tribunal julga as contas de responsáveis por recursos públicos e de quem der causa a perda ou dano ao erário. A fundação não recebe o tratamento constitucional das contas presidenciais de governo. Constituição Federal, arts. 49, IX, e 71, I e II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 124,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-fundacao-e-contas"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-dano-titulo-executivo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "debito-e-eficacia-executiva",
+      "mechanism": "tcu-dano-titulo-executivo",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      ],
+      "statement": "Uma fundação privada executou convênio com recursos federais. Durante a auditoria, o Tribunal de Contas da União identificou que o responsável administrou verbas repassadas e causou perda ao erário. O mesmo Tribunal recebeu as contas anuais do Presidente da República.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nDecisão do Tribunal que impute débito ao responsável pela perda terá eficácia de título executivo, mesmo sem nova deliberação do Congresso.",
+      "correctAnswer": "C",
+      "explanation": "A decisão do Tribunal da qual resulte débito ou multa tem eficácia de título executivo por força da Constituição. Um relatório preliminar de auditoria que apenas descreva o dano não constitui a decisão de imputação. Constituição Federal, art. 71, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 124,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-fundacao-e-contas"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-prazo-tema-445-chegada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "registro-inicial-prazo-do-tema-445",
+      "mechanism": "tcu-prazo-tema-445-chegada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      ],
+      "statement": "Um órgão federal concedeu aposentadoria a uma servidora em julho de 2020. O processo chegou ao Tribunal de Contas da União em novembro de 2022. Em janeiro de 2027, o Tribunal analisa pela primeira vez a legalidade do ato de concessão inicial. Em outro processo, há apenas melhoria posterior que não altera o fundamento legal da concessão.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO prazo de cinco anos para apreciação da concessão inicial ainda não se esgotou, pois tem como marco a chegada do processo ao Tribunal.",
+      "correctAnswer": "C",
+      "explanation": "O Supremo Tribunal Federal fixa cinco anos da chegada do processo à corte de contas para apreciar a legalidade da concessão inicial. De novembro de 2022 a janeiro de 2027 passaram menos de cinco anos. A concessão pelo órgão em 2020 não inicia esse prazo. Constituição Federal, art. 71, III, e Supremo Tribunal Federal, Tema 445.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 123,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "efeito",
+        "caseId": "cam-cpl-exp26-aposentadoria-ingresso-tempo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=445 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-melhoria-mesmo-fundamento",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "registro-melhoria-fundamento-inalterado",
+      "mechanism": "tcu-melhoria-mesmo-fundamento",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      ],
+      "statement": "Um órgão federal concedeu aposentadoria a uma servidora em julho de 2020. O processo chegou ao Tribunal de Contas da União em novembro de 2022. Em janeiro de 2027, o Tribunal analisa pela primeira vez a legalidade do ato de concessão inicial. Em outro processo, há apenas melhoria posterior que não altera o fundamento legal da concessão.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA melhoria posterior mencionada exige novo registro, assim como a concessão inicial.",
+      "correctAnswer": "E",
+      "explanation": "O registro abrange a concessão inicial de aposentadoria, reforma ou pensão. A Constituição ressalva a melhoria posterior que não altera seu fundamento legal. Uma revisão que mudasse o fundamento exigiria reexaminar o enquadramento nessa ressalva. Constituição Federal, art. 71, III.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 123,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "efeito",
+        "caseId": "cam-cpl-exp26-aposentadoria-ingresso-tempo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-admissao-efetivo-ou-comissao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "admissao-excecao-cargo-comissao-registro",
+      "mechanism": "tcu-admissao-efetivo-ou-comissao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      ],
+      "statement": "O Tribunal de Contas da União recebeu atos federais de admissão para cargo efetivo e de nomeação para cargo em comissão. Ambos ocorreram no mesmo órgão. A auditoria deve decidir quais atos se submetem à apreciação de legalidade para fins de registro.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO ato de admissão para cargo efetivo se submete à apreciação para registro, enquanto a nomeação para cargo em comissão está na ressalva constitucional.",
+      "correctAnswer": "C",
+      "explanation": "A legalidade dos atos de admissão é apreciada para registro. A Constituição exclui as nomeações para cargo em comissão. A identidade do órgão não altera a espécie do ato submetido a registro. Constituição Federal, art. 71, III.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 123,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "efeito",
+        "caseId": "cam-cpl-exp26-admissao-dois-vinculos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-auditoria-judiciario-iniciativa-comissao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "auditoria-judiciario-e-iniciativa-comissao",
+      "mechanism": "tcu-auditoria-judiciario-iniciativa-comissao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      ],
+      "statement": "Uma comissão técnica da Câmara solicitou auditoria sobre contrato administrativo de aquisição de equipamentos de órgão do Judiciário federal. O Tribunal identificou vício contratual e assinalou prazo para que o órgão adotasse providências. Esgotado o prazo sem correção, discute-se a sustação do contrato.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA comissão técnica pode provocar auditoria do Tribunal sobre a despesa administrativa do Judiciário, sem que isso signifique revisar decisões jurisdicionais.",
+      "correctAnswer": "C",
+      "explanation": "O Tribunal pode fazer inspeções e auditorias nas unidades administrativas dos três Poderes por iniciativa própria ou, entre outras hipóteses, por iniciativa de comissão técnica. A compra é ato administrativo. A fiscalização da despesa não se converte em revisão do mérito de sentença. Constituição Federal, art. 71, IV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 124,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-auditoria-juiz-e-contrato"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-contrato-congresso-primeiro",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "sustacao-contratual-competencia-inicial",
+      "mechanism": "tcu-contrato-congresso-primeiro",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "5. Sustação de atos normativos e contratos administrativos (CF, art. 49, V e art. 71, §§ 1º e 2º)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#5. Sustação de atos normativos e contratos administrativos (CF, art. 49, V e art. 71, §§ 1º e 2º)"
+      ],
+      "statement": "Uma comissão técnica da Câmara solicitou auditoria sobre contrato administrativo de aquisição de equipamentos de órgão do Judiciário federal. O Tribunal identificou vício contratual e assinalou prazo para que o órgão adotasse providências. Esgotado o prazo sem correção, discute-se a sustação do contrato.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nEsgotado o prazo de correção, o Tribunal deve sustar diretamente o contrato no mesmo regime aplicável ao ato administrativo isolado.",
+      "correctAnswer": "E",
+      "explanation": "A sustação inicial do contrato cabe ao Congresso, que solicita imediatamente providências ao Executivo. Se Congresso ou Executivo nada fizer no prazo constitucional de noventa dias, o Tribunal decide a respeito. Para ato administrativo isolado, a regra do art. 71, X, permite que o Tribunal suste a execução nas condições do dispositivo. Constituição Federal, art. 71, IX e X, §§ 1º e 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 101,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-auditoria-juiz-e-contrato"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-convenio-recursos-municipais",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "fiscalizacao-da-verba-federal-repassada",
+      "mechanism": "tcu-convenio-recursos-municipais",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      ],
+      "statement": "A União transferiu recursos a um município por convênio. Uma das Casas do Congresso pediu ao Tribunal dados sobre a fiscalização do repasse. O gestor municipal argumentou que o recebimento da verba afasta a competência federal porque a execução ocorreu em unidade municipal.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO destino municipal dos recursos conveniados retira do Tribunal de Contas da União a competência constitucional para fiscalizá-los.",
+      "correctAnswer": "E",
+      "explanation": "O Tribunal fiscaliza a aplicação de recursos repassados pela União mediante convênio, acordo, ajuste ou instrumento congênere. O destinatário municipal não rompe esse vínculo. Recursos exclusivamente municipais sem vínculo federal seguem outro regime de controle. Constituição Federal, art. 71, VI.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 124,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-repasses-e-relatorio"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-dados-casa-legislativa",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "informacoes-fiscalizacao-a-casa-do-congresso",
+      "mechanism": "tcu-dados-casa-legislativa",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      ],
+      "statement": "A União transferiu recursos a um município por convênio. Uma das Casas do Congresso pediu ao Tribunal dados sobre a fiscalização do repasse. O gestor municipal argumentou que o recebimento da verba afasta a competência federal porque a execução ocorreu em unidade municipal.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO Tribunal pode prestar à Casa solicitante informações sobre a fiscalização do convênio sem exigir pedido conjunto da Câmara e do Senado.",
+      "correctAnswer": "C",
+      "explanation": "O Tribunal deve prestar as informações requeridas pelo Congresso, por qualquer de suas Casas ou por suas comissões sobre fiscalização e resultados de auditorias e inspeções. O vínculo federal do convênio sustenta o objeto da fiscalização. A solicitação conjunta não é requisito. Constituição Federal, art. 71, VI e VII.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-repasses-e-relatorio"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-denuncia-sindicato-legitimidade",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "legitimidade-para-denuncia-ao-tcu",
+      "mechanism": "tcu-denuncia-sindicato-legitimidade",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Controle interno: art. 74"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Controle interno: art. 74"
+      ],
+      "statement": "O controle interno de órgão federal tomou conhecimento de irregularidade. Em paralelo, um sindicato reuniu documentos para denunciar os fatos ao Tribunal de Contas da União. O chefe da unidade propõe que o controle interno aguarde o exame da denúncia sindical antes de comunicar a irregularidade.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO sindicato tem legitimidade constitucional para denunciar a irregularidade ao Tribunal, na forma da lei.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição legitima cidadão, partido político, associação ou sindicato a denunciar irregularidade ou ilegalidade ao Tribunal. A denúncia externa é um canal distinto do dever do controle interno de comunicar o fato de que saiba. Constituição Federal, art. 74, §§ 1º e 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 124,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-denuncia-e-controle-interno"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-controle-interno-sem-espera",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "dever-de-comunicar-irregularidade-ao-tcu",
+      "mechanism": "tcu-controle-interno-sem-espera",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Controle interno: art. 74"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Controle interno: art. 74"
+      ],
+      "statement": "O controle interno de órgão federal tomou conhecimento de irregularidade. Em paralelo, um sindicato reuniu documentos para denunciar os fatos ao Tribunal de Contas da União. O chefe da unidade propõe que o controle interno aguarde o exame da denúncia sindical antes de comunicar a irregularidade.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA unidade de controle interno pode deixar de comunicar o fato até o julgamento da denúncia, pois a iniciativa do sindicato substitui a comunicação institucional.",
+      "correctAnswer": "E",
+      "explanation": "Os responsáveis pelo controle interno que conheçam a irregularidade devem dar ciência ao Tribunal, sob pena de responsabilidade solidária. A legitimidade do sindicato não suspende nem substitui esse dever. Se a equipe ainda não tivesse conhecimento da irregularidade, o fato que aciona a comunicação não estaria presente. Constituição Federal, art. 74, §§ 1º e 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 99,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-denuncia-e-controle-interno"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-prazo-parecer-contas-presidente",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "prazo-parecer-previo-contas-presidenciais",
+      "mechanism": "tcu-prazo-parecer-contas-presidente",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "4. Julgamento das contas do Presidente da República (CF, art. 49, IX e art. 71, I)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#4. Julgamento das contas do Presidente da República (CF, art. 49, IX e art. 71, I)"
+      ],
+      "statement": "As contas anuais presidenciais chegaram ao Tribunal de Contas da União. Enquanto o parecer prévio era preparado, um grupo parlamentar sustentou que o próprio Tribunal deveria dar a decisão final. Em paralelo, o Tribunal concluiu auditoria operacional sobre um programa executado por autarquia.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO prazo constitucional do parecer prévio é de sessenta dias a partir do recebimento das contas no Tribunal.",
+      "correctAnswer": "C",
+      "explanation": "O Tribunal aprecia as contas anuais presidenciais mediante parecer prévio elaborado em sessenta dias a contar do recebimento. A manifestação técnica instrui o julgamento pelo Congresso. O prazo para emitir parecer não transforma a auditoria autárquica em contas de governo. Constituição Federal, arts. 49, IX, e 71, I.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 123,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "efeito",
+        "caseId": "cam-cpl-exp26-prazo-contas-e-auditoria"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-auditoria-operacional-e-legalidade",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "auditoria-operacional-alcance-fiscalizacao",
+      "mechanism": "tcu-auditoria-operacional-e-legalidade",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      },
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3. Controle externo e Tribunal de Contas da União (CF, arts. 70 a 75)"
+      ],
+      "statement": "As contas anuais presidenciais chegaram ao Tribunal de Contas da União. Enquanto o parecer prévio era preparado, um grupo parlamentar sustentou que o próprio Tribunal deveria dar a decisão final. Em paralelo, o Tribunal concluiu auditoria operacional sobre um programa executado por autarquia.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nComo a auditoria encontra despesas formalmente autorizadas, fica excluída a avaliação de resultados do programa pelo Tribunal.",
+      "correctAnswer": "E",
+      "explanation": "A fiscalização constitucional inclui aspectos operacional, financeiro, orçamentário, contábil e patrimonial, inclusive economicidade. A verificação da autorização formal de despesa não esgota a auditoria operacional. Se o trabalho examinasse apenas legalidade de um ato específico, seu escopo seria mais restrito. Constituição Federal, arts. 70 e 71, IV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 124,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-prazo-contas-e-auditoria"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-escolha-presidente-aprovacao-senado",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "escolha-presidencial-aprovacao-senado",
+      "mechanism": "tcu-escolha-presidente-aprovacao-senado",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Composição do TCU"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Composição do TCU"
+      ],
+      "statement": "Discute-se o preenchimento de vaga destinada à escolha presidencial no Tribunal de Contas da União e de vaga destinada ao Congresso Nacional. Um assessor afirma que toda nomeação passa pela mesma iniciativa e que a escolha presidencial dispensa manifestação do Senado.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nDentro do terço de escolha presidencial, a indicação prescinde de aprovação do Senado por integrar atribuição do Presidente.",
+      "correctAnswer": "E",
+      "explanation": "O Presidente escolhe um terço dos membros, com aprovação do Senado. Dois desse terço são escolhidos alternadamente dentre auditores e membros do Ministério Público junto ao Tribunal, a partir de lista tríplice. Os outros dois terços são escolhidos pelo Congresso. Constituição Federal, art. 73, § 2º, I e II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-escolha-dois-candidatos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-tcu-escolha-congresso-dois-tercos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 3 Fiscalização Contábil, Financeira e Orçamentária",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "fracao-escolha-congresso-tcu",
+      "mechanism": "tcu-escolha-congresso-dois-tercos",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Composição do TCU"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Composição do TCU"
+      ],
+      "statement": "Discute-se o preenchimento de vaga destinada à escolha presidencial no Tribunal de Contas da União e de vaga destinada ao Congresso Nacional. Um assessor afirma que toda nomeação passa pela mesma iniciativa e que a escolha presidencial dispensa manifestação do Senado.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNa composição constitucional de nove ministros, seis são escolhidos pelo Congresso Nacional.",
+      "correctAnswer": "C",
+      "explanation": "Dois terços dos nove ministros correspondem a seis vagas de escolha do Congresso. As três remanescentes estão sujeitas à escolha presidencial com aprovação do Senado. A aprovação senatorial dessas indicações não torna o Senado o autor da escolha dos seis. Constituição Federal, art. 73, caput e § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-escolha-dois-candidatos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
     }
   ]
 }

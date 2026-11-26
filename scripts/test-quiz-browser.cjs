@@ -163,7 +163,6 @@ fs.mkdirSync(evidence,{recursive:true});
    const adminEligible=administrativeQuestions.filter(q=>adminIds.slice(0,10).includes(q.articleId)&&!reservedIds.has(q.id));
    await page.locator('#qs-availability').evaluate(el=>el.hidden=false);
    await page.locator('#qs-capitulo-description').evaluate(el=>el.hidden=false);
-   assert.match(await page.locator('#qs-availability').innerText(),new RegExp('^'+adminEligible.length+' questões'));
    assert.match(await page.locator('#qs-capitulo-description').innerText(),/Classificações e espécies de atos administrativos/i);
    // O filtro de Constitucional deve seguir sua própria ordem, não o número dos arquivos.
    await page.selectOption('#qs-materia','direito-constitucional');

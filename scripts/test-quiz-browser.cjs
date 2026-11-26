@@ -214,6 +214,7 @@ fs.mkdirSync(evidence,{recursive:true});
     const q=questions.find(x=>x.statement===statement);
     assert.ok(q,'enunciado deve existir no banco publicado');
     assert.ok(chapterIds.slice(0,cutoff).includes(q.articleId),'questão deve respeitar a ordem dos capítulos do catálogo');
+   await page.locator('input[name="qs-mode"][value="aprendizagem"]').check();
     await page.locator('input[name="qs-answer"][value="'+(q.correctAnswer==='C'?'E':'C')+'"]').check();
     if(i===0){
      await page.locator('#qs-insecure').check();

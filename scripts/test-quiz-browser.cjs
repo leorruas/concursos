@@ -7,6 +7,7 @@ const {questions,editalUnits}=JSON.parse(fs.readFileSync(path.join(__dirname,'..
 const manifest=new Map(JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/manifest.json'),'utf8'))
  .map(article=>[article.articleId,article]));
 const catalog=JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/data/catalogo-materias-por-concurso.json'),'utf8'));
+const reservedQuestionIds=new Set(JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/data/avaliacao-reservada-camara-2026.json'),'utf8')).reservedQuestionIds);
 const chapters=(exam,subject)=>catalog.contests.find(c=>c.concursoId===exam)?.subjects.find(x=>x.subjectId===subject)?.articleIds||[];
 const evidence=path.join(__dirname,'../quiz-visual-evidence');
 fs.mkdirSync(evidence,{recursive:true});
@@ -258,7 +259,7 @@ fs.mkdirSync(evidence,{recursive:true});
    // História sintética de chat + site para validar o painel unificado, sem dados privados.
    const meta=questions.find(q=>q.concursoId==='camara-2026'&&q.articleId&&q.section&&q.estimatedDifficulty);
    assert.ok(meta,'necessário um artigo com trecho e dificuldade');
-   const proposed=questions.find(q=>q.subjectId==='direito-constitucional');
+   const proposed=questions.find(q=>q.subjectId==='direito-constitucional'&&!reservedQuestionIds.has(q.id));
    const fake={
     version:2,concursoId:'camara-2026',cut:'2026-11-14',
     summary:{valid:3,correct:2,incorrect:1,blank:0,accuracy:66.7},

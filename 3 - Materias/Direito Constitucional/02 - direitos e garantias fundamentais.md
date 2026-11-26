@@ -97,6 +97,10 @@ Serve para:
 - retificar esses dados;
 - nos termos da Lei nº 9.507/1997, permitir anotação de contestação ou explicação sobre dado verdadeiro mas justificável e sob pendência.
 
+A entidade mantenedora pode ser privada. O caráter público decorre de as informações poderem ser transmitidas a terceiros ou de não serem de uso privativo do depositário. O dado deve referir-se ao impetrante. Se a informação é verdadeira, mas o fato anotado está sob pendência judicial ou amigável, a anotação acrescenta a explicação ou contestação, sem substituir o dado original.
+
+**Resistência e prazo:** para instruir a petição inicial, cabe provar recusa ou silêncio superior a **dez dias no acesso** e **quinze dias na retificação ou anotação**. Esses marcos do art. 8º, parágrafo único, da Lei nº 9.507/1997 dizem respeito à prova de resistência para ajuizar. O prazo de decisão administrativa sobre o acesso é de **48 horas** (art. 2º). Uma recusa expressa dispensa aguardar o decurso do prazo de silêncio para o respectivo pedido.
+
 Pegadinha: habeas data não é instrumento genérico para obter **qualquer informação pública**; isso se relaciona ao direito de acesso à informação e à Lei de Acesso à Informação (LAI).
 
 ### Mandado de segurança — MS
@@ -104,6 +108,8 @@ Pegadinha: habeas data não é instrumento genérico para obter **qualquer infor
 Protege **direito líquido e certo**, não amparado por habeas corpus ou habeas data, contra ilegalidade ou abuso de poder praticado por autoridade ou agente no exercício de atribuições públicas.
 
 “Líquido e certo” significa que os fatos essenciais ao direito devem ser demonstráveis por prova pré-constituída; não quer dizer que o direito seja “óbvio” ou que jamais exista controvérsia jurídica.
+
+A prova documental pode estar em uma repartição que recusa acesso. Nessa hipótese, o juiz pode ordenar a exibição do documento preexistente. A requisição é diferente de descobrir fatos por testemunhas ou perícia. O administrador de concessionária pode ser equiparado à autoridade quando atua em atribuição pública. Um ato separado de gestão comercial da mesma empresa fica fora dessa regra (Lei nº 12.016/2009, arts. 1º, §§ 1º e 2º, e 6º, § 1º).
 
 ### Mandado de segurança coletivo
 
@@ -114,17 +120,21 @@ A Constituição legitima, entre outros casos previstos no art. 5º, LXX:
 
 Pegadinha: o requisito temporal de um ano aparece constitucionalmente para a **associação**, não deve ser transferido indiscriminadamente às demais entidades listadas.
 
+A associação pode defender direitos líquidos e certos de parte dos associados atingidos, quando pertinentes a suas finalidades estatutárias. Para o mandado de segurança coletivo, a Lei nº 12.016/2009, art. 21, dispensa autorização especial.
+
 ### Mandado de injunção — MI
 
 É cabível quando a **falta de norma regulamentadora** torna inviável o exercício de direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, soberania e cidadania.
 
 A chave é: **omissão normativa que inviabiliza exercício constitucional**. Não é remédio geral contra qualquer omissão administrativa.
 
+A omissão pode ser total ou parcial. A parcial existe quando as disposições editadas são insuficientes para tornar possível o exercício do direito. A impetração é dirigida contra o Poder, órgão ou autoridade com atribuição para regulamentar, que pode ser diferente de quem executa a política pública (Lei nº 13.300/2016, arts. 2º e 3º).
+
 ### Ação popular — AP
 
 Pode ser proposta por **cidadão** para anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural, nos termos do art. 5º, LXXIII.
 
-Em prova, cidadão aqui está ligado à condição político-eleitoral; não confundir com “qualquer pessoa” em sentido coloquial.
+A cidadania em sentido político pode ser demonstrada com título eleitoral ou documento correspondente. A Constituição isenta a parte autora de custas e do ônus da sucumbência, ressalvada a má-fé comprovada. Improcedência e má-fé são verificações distintas (Constituição Federal, art. 5º, LXXIII, e Lei nº 4.717/1965, art. 1º, § 3º).
 
 ## Como escolher o remédio constitucional: três casos progressivos
 

@@ -95640,6 +95640,561 @@
         "caseId": "cam-cpl-exp26-representativa-votos-antagonicos"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-hd-carater-publico-entidade-privada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "habeas-data-proprios-registros",
+      "mechanism": "hd-carater-publico-entidade-privada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas data — HD"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas data — HD"
+      ],
+      "statement": "Uma entidade privada transmite regularmente seus cadastros a instituições que os usam para conceder crédito. Uma cliente teve indeferido o pedido de acesso ao próprio registro. Ela também queria consultar registros individualizados de outros clientes para comparar o tratamento recebido.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO caráter público do banco pode permitir habeas data para conhecer os próprios dados após a recusa, sem estender o remédio aos registros individualizados dos outros clientes.",
+      "correctAnswer": "C",
+      "explanation": "O habeas data permite conhecer informações do impetrante mantidas em banco governamental ou de caráter público. A transmissão a terceiros caracteriza o banco indicado, ainda que a entidade seja privada. A negativa comprova a resistência quanto aos dados próprios. Para informações de terceiros, falta a relação pessoal exigida. Constituição Federal, art. 5º, LXXII, a, e Lei nº 9.507/1997, arts. 1º, parágrafo único, 7º, I, e 8º, parágrafo único, I.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 106,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "jurisprudência",
+        "caseId": "cam-cpl-exp26-cadastro-de-credito"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-hd-dado-verdadeiro-pendencia",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "anotacao-em-habeas-data",
+      "mechanism": "hd-dado-verdadeiro-pendencia",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas data — HD"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas data — HD"
+      ],
+      "statement": "Uma entidade governamental registra corretamente que uma cobrança foi lançada. A cidadã a quem foi dirigida a cobrança discute em juízo se o débito é exigível. A entidade recusou-se a anotar essa contestação depois de receber a documentação pertinente. Em outro momento, a cidadã constatou que seu endereço consta incorretamente no mesmo cadastro.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA veracidade do lançamento exclui o habeas data para incluir a contestação, pois seria necessário provar antes que o lançamento jamais ocorreu.",
+      "correctAnswer": "E",
+      "explanation": "A Lei nº 9.507/1997 admite a anotação de explicação ou contestação sobre dado verdadeiro, justificável e sob pendência judicial ou amigável. A recusa não transforma a anotação em exclusão do lançamento. Se o próprio dado fosse inexato, o objeto seria retificação. Arts. 4º, § 2º, 7º, II e III, e 8º, parágrafo único, III.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 106,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "jurisprudência",
+        "caseId": "cam-cpl-exp26-debito-registrado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-hd-retificacao-nao-exige-sigilo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "retificacao-de-dado-proprio",
+      "mechanism": "hd-retificacao-nao-exige-sigilo",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas data — HD"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas data — HD"
+      ],
+      "statement": "Uma entidade governamental registra corretamente que uma cobrança foi lançada. A cidadã a quem foi dirigida a cobrança discute em juízo se o débito é exigível. A entidade recusou-se a anotar essa contestação depois de receber a documentação pertinente. Em outro momento, a cidadã constatou que seu endereço consta incorretamente no mesmo cadastro.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nQuanto ao endereço incorreto, a cidadã pode pedir retificação administrativa e, diante de recusa comprovada, avaliar o habeas data, sem necessidade de optar por processo sigiloso.",
+      "correctAnswer": "C",
+      "explanation": "A retificação de informação própria é hipótese de habeas data quando não se prefere o processo sigiloso. A inexatidão do endereço é distinta da contestação sobre dado verdadeiro. Se a entidade deferisse e corrigisse o endereço, a necessidade da via judicial para esse objeto deixaria de existir. Constituição Federal, art. 5º, LXXII, b, e Lei nº 9.507/1997, arts. 4º, 7º e 8º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 106,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "jurisprudência",
+        "caseId": "cam-cpl-exp26-debito-registrado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-hd-acesso-e-retificacao-prazo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "interesse-processual-habeas-data",
+      "mechanism": "hd-acesso-e-retificacao-prazo",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas data — HD"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas data — HD"
+      ],
+      "statement": "Uma pessoa apresentou a uma entidade pública dois pedidos completos e distintos: acesso a seus dados e retificação de uma informação inexata. Passaram doze dias sem resposta a ambos. Nenhuma recusa expressa ocorreu.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO silêncio já satisfaz a condição temporal da prova de resistência ao acesso, mas ainda não satisfaz a condição temporal relativa à retificação.",
+      "correctAnswer": "C",
+      "explanation": "Sem recusa expressa, a lei exige mais de dez dias sem decisão para o acesso e mais de quinze dias para retificação. Os doze dias superam só o primeiro prazo. Se a retificação tivesse sido recusada expressamente, a recusa poderia ser provada sem esperar quinze dias. Lei nº 9.507/1997, art. 8º, parágrafo único, I e II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-pedidos-prazo-diferente"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-hc-ameaca-e-renda",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "hc-gratuidade-independe-pobreza",
+      "mechanism": "hc-ameaca-e-renda",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas corpus — HC"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas corpus — HC"
+      ],
+      "statement": "Dois empresários com recursos suficientes discutem atos ilegais. Um enfrenta ameaça concreta de prisão indevida. O outro quer liberar bem apreendido e não sofre restrição ou ameaça de restrição à liberdade de ir e vir.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO primeiro pode usar habeas corpus preventivo, e o pagamento de custas dessa ação não se torna exigível em razão de sua capacidade econômica.",
+      "correctAnswer": "C",
+      "explanation": "O habeas corpus protege a locomoção contra ameaça ou coação ilegal. A gratuidade da ação independe de renda. A insuficiência de recursos diz respeito à assistência jurídica gratuita em outra norma, enquanto o registro civil de nascimento e a certidão de óbito são o objeto específico do inciso LXXVI. Constituição Federal, art. 5º, LXVIII e LXXIV a LXXVII.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 106,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "jurisprudência",
+        "caseId": "cam-cpl-exp26-locomocao-e-direito-patrimonial"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-hc-objeto-apreensao-patrimonial",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "hc-liberdade-locomocao",
+      "mechanism": "hc-objeto-apreensao-patrimonial",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas corpus — HC"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas corpus — HC"
+      ],
+      "statement": "Dois empresários com recursos suficientes discutem atos ilegais. Um enfrenta ameaça concreta de prisão indevida. O outro quer liberar bem apreendido e não sofre restrição ou ameaça de restrição à liberdade de ir e vir.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO segundo pode eleger o habeas corpus para liberar o bem porque a apreensão ilegal constitui coação, ainda que não afete a locomoção.",
+      "correctAnswer": "E",
+      "explanation": "O habeas corpus protege a liberdade de ir e vir. A restrição apontada incide apenas sobre um bem. Eventual ilegalidade patrimonial precisa de via que tutele esse direito, como o mandado de segurança se satisfeitos seus requisitos. Constituição Federal, art. 5º, LXVIII e LXIX.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 106,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "jurisprudência",
+        "caseId": "cam-cpl-exp26-locomocao-e-direito-patrimonial"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-msc-partido-sem-cadeira-e-associacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "partido-sem-representacao",
+      "mechanism": "msc-partido-sem-cadeira-e-associacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de segurança coletivo"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de segurança coletivo"
+      ],
+      "statement": "Um partido não tem representação no Congresso Nacional. Uma associação legalmente constituída atua há dois anos na defesa de seus membros. Um ato administrativo atinge apenas um grupo de associados, todos com direitos fundados na mesma situação provada por documentos. A controvérsia é pertinente às finalidades estatutárias.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO partido carece da condição constitucional de representação, enquanto a associação pode impetrar mandado de segurança coletivo para defender a parte de seus associados atingida.",
+      "correctAnswer": "C",
+      "explanation": "O partido precisa ter representação no Congresso Nacional. A associação legalmente constituída e em funcionamento há pelo menos um ano pode defender direito da totalidade ou de parte dos membros, dentro da finalidade estatutária. Ausência de representação partidária e limitação dos beneficiários são requisitos distintos. Constituição Federal, art. 5º, LXX, e Lei nº 12.016/2009, art. 21.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-entidades-e-coletivo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-msc-autorizacao-individual-dispensada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "autorizacao-no-mandado-de-seguranca-coletivo",
+      "mechanism": "msc-autorizacao-individual-dispensada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de segurança coletivo"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de segurança coletivo"
+      ],
+      "statement": "Um partido não tem representação no Congresso Nacional. Uma associação legalmente constituída atua há dois anos na defesa de seus membros. Um ato administrativo atinge apenas um grupo de associados, todos com direitos fundados na mesma situação provada por documentos. A controvérsia é pertinente às finalidades estatutárias.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA associação precisa colher autorização especial individual dos beneficiários antes de impetrar o mandado de segurança coletivo.",
+      "correctAnswer": "E",
+      "explanation": "A associação atua como substituta processual e a lei dispensa autorização especial. Deve demonstrar os requisitos próprios de legitimidade, como tempo de funcionamento e pertinência com suas finalidades. Se o direito não guardasse relação com a finalidade estatutária, a dispensa de autorização não resolveria o problema. Lei nº 12.016/2009, art. 21.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-entidades-e-coletivo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-ms-certidao-preexistente-retida",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "prova-pre-constituida-em-mandado-de-seguranca",
+      "mechanism": "ms-certidao-preexistente-retida",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de segurança — MS"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de segurança — MS"
+      ],
+      "statement": "Uma servidora tomou ciência de ato que lhe negou direito. O fato essencial consta de certidão preexistente em repartição pública que se recusa a fornecê-la. Não é necessário ouvir testemunhas. A impetração ocorreu com oitenta dias contados da ciência. Do ato não cabe recurso administrativo com efeito suspensivo.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA recusa em fornecer a certidão não impede por si só a impetração, pois o juiz pode ordenar sua exibição.",
+      "correctAnswer": "C",
+      "explanation": "O mandado de segurança pressupõe fatos demonstráveis por prova documental preexistente. Quando documento necessário está retido em repartição, o juiz pode requisitar a exibição. Isso difere de produzir prova testemunhal para descobrir os fatos. O ajuizamento informado também está dentro de 120 dias. Lei nº 12.016/2009, arts. 6º, § 1º, e 23.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 123,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "efeito",
+        "caseId": "cam-cpl-exp26-ms-prova-em-reparticao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mi-parcial-legitimidade-passiva",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "omissao-normativa-parcial",
+      "mechanism": "mi-parcial-legitimidade-passiva",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de injunção — MI"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de injunção — MI"
+      ],
+      "statement": "Uma norma regulamentadora contempla só parte de um direito constitucional e deixa sem disciplina essencial justamente o grupo da impetrante, que não consegue exercê-lo. A autoridade executora não tem atribuição para completar a norma. Outro grupo já está integralmente abrangido, mas teve seu pedido concreto negado em ato administrativo.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO primeiro grupo pode discutir a omissão parcial em mandado de injunção, apontando como impetrado o órgão com atribuição para completar a norma.",
+      "correctAnswer": "C",
+      "explanation": "Há omissão parcial quando a disciplina existente é insuficiente e inviabiliza exercer direito constitucional. O impetrado é o órgão, Poder ou autoridade que tem atribuição normativa. Se a norma fosse completa e apenas descumprida pela administração, faltaria o pressuposto da injunção. Lei nº 13.300/2016, arts. 2º e 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-regra-insuficiente"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mi-negativa-concreta-norma-suficiente",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "mandado-injuncao-versus-seguranca",
+      "mechanism": "mi-negativa-concreta-norma-suficiente",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de injunção — MI"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de injunção — MI"
+      ],
+      "statement": "Uma norma regulamentadora contempla só parte de um direito constitucional e deixa sem disciplina essencial justamente o grupo da impetrante, que não consegue exercê-lo. A autoridade executora não tem atribuição para completar a norma. Outro grupo já está integralmente abrangido, mas teve seu pedido concreto negado em ato administrativo.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA negativa administrativa ao segundo grupo revela, por si, omissão normativa apta a ensejar mandado de injunção.",
+      "correctAnswer": "E",
+      "explanation": "O segundo grupo já dispõe de regulamentação suficiente. Sua dificuldade decorre de ato concreto de aplicação da norma. Se demonstrar direito líquido e certo contra ilegalidade, pode avaliar mandado de segurança. A injunção se dirige à falta ou insuficiência da norma necessária. Constituição Federal, art. 5º, LXIX e LXXI, e Lei nº 13.300/2016, art. 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-regra-insuficiente"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-ap-pessoa-juridica-e-eleitora",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "legitimidade-ativa-da-acao-popular",
+      "mechanism": "ap-pessoa-juridica-e-eleitora",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Ação popular — AP"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Ação popular — AP"
+      ],
+      "statement": "Uma associação ambiental, como pessoa jurídica, e uma eleitora com título regular querem anular um ato lesivo ao meio ambiente. A eleitora ajuíza ação popular. A demanda acaba julgada improcedente e não há comprovação de má-fé.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA condição eleitoral da eleitora permite demonstrar legitimidade, enquanto a finalidade ambiental da associação não lhe atribui, como pessoa jurídica, a condição de cidadã para a ação popular.",
+      "correctAnswer": "C",
+      "explanation": "A ação popular exige cidadania em sentido político, demonstrável por título eleitoral ou documento correspondente. O interesse institucional da associação não substitui essa condição. A tutela coletiva ambiental por outros instrumentos tem regras próprias. Constituição Federal, art. 5º, LXXIII, e Lei nº 4.717/1965, art. 1º, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-acao-ambiental-cidadania"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-ap-improcedencia-sem-fe",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "custas-e-ma-fe-na-acao-popular",
+      "mechanism": "ap-improcedencia-sem-fe",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Ação popular — AP"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Ação popular — AP"
+      ],
+      "statement": "Uma associação ambiental, como pessoa jurídica, e uma eleitora com título regular querem anular um ato lesivo ao meio ambiente. A eleitora ajuíza ação popular. A demanda acaba julgada improcedente e não há comprovação de má-fé.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA improcedência da ação popular retira, por si só, a isenção constitucional de custas e de ônus da sucumbência.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição isenta o autor popular de custas e sucumbência, salvo comprovada má-fé. Perder a causa não demonstra, sem outros elementos, má-fé. Se a má-fé fosse comprovada, a exceção constitucional poderia incidir. Constituição Federal, art. 5º, LXXIII.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 106,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "jurisprudência",
+        "caseId": "cam-cpl-exp26-acao-ambiental-cidadania"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-ms-concessionaria-certidao-delegacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "mandado-seguranca-atribuicao-publica",
+      "mechanism": "ms-concessionaria-certidao-delegacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de segurança — MS"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de segurança — MS"
+      ],
+      "statement": "Uma concessionária de serviço público negou ao usuário certidão que devia fornecer no exercício das atribuições delegadas. Em contrato comercial separado, seu administrador recusou proposta de locação de imóvel da empresa. Ambos os atos estão documentados.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA natureza privada da empresa não impede o exame de mandado de segurança contra a negativa de certidão ligada ao exercício de atribuição pública.",
+      "correctAnswer": "C",
+      "explanation": "Dirigente privado pode ser equiparado à autoridade quanto ao exercício de atribuição pública. O ato delegado exige examinar os demais requisitos do mandado de segurança. O contrato comercial da concessionária é regido pela exclusão relativa aos atos de gestão comercial. Lei nº 12.016/2009, art. 1º, §§ 1º e 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 99,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-delegacao-e-atividade-comercial"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-ms-gestao-comercial-concessionaria",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "ato-comercial-de-concessionaria",
+      "mechanism": "ms-gestao-comercial-concessionaria",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de segurança — MS"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de segurança — MS"
+      ],
+      "statement": "Uma concessionária de serviço público negou ao usuário certidão que devia fornecer no exercício das atribuições delegadas. Em contrato comercial separado, seu administrador recusou proposta de locação de imóvel da empresa. Ambos os atos estão documentados.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA prova documental da recusa de locar o imóvel torna cabível mandado de segurança porque a empresa explora serviço público sob delegação.",
+      "correctAnswer": "E",
+      "explanation": "A documentação demonstra o ato, mas não altera sua natureza comercial. A lei exclui o mandado de segurança contra atos de gestão comercial de concessionária. Seria possível examinar a via mandamental em ato distinto ligado ao exercício de atribuição pública. Lei nº 12.016/2009, art. 1º, §§ 1º e 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 99,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-delegacao-e-atividade-comercial"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e legal dos remédios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
     }
   ]
 }

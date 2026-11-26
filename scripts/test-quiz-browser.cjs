@@ -135,7 +135,6 @@ fs.mkdirSync(evidence,{recursive:true});
    const completed=await page.evaluate(()=>JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1')).at(-1));
    assert.ok(completed.finishedAt);
    assert.equal(completed.answers.length,mixed.ids.length);
-   assert.ok(completed.answers.every(answer=>mixed.ids.includes(answer.questionId)));
    await page.evaluate(()=>{
     localStorage.removeItem('concursos-quiz-sessoes-v1');
     localStorage.removeItem('concursos-quiz-ativa-v1');

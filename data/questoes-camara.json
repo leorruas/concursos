@@ -102374,6 +102374,1671 @@
         "caseId": "cam-cpl-exp26-indexacao-e-resolucao"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do procedimentos e recursos da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-ordinaria-abstencoes-votos-validos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "abstencao-quorum-e-maioria-simples",
+      "mechanism": "qv-ordinaria-abstencoes-votos-validos",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Os três números: presença, aprovação e modalidade"
+      ],
+      "statement": "Na votação ostensiva e nominal de projeto de lei ordinária na Câmara, 261 deputados registram presença. Há 130 votos favoráveis, 120 contrários e 11 abstenções. Uma assessoria quer incorporar as abstenções ao conjunto de votos contrários.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nHá quórum para deliberar, e os votos favoráveis superam os contrários, pois as abstenções contam para quórum de presença.",
+      "correctAnswer": "C",
+      "explanation": "Na regra geral, exige-se presença da maioria absoluta da Casa e maioria de votos. As 11 abstenções integram o quórum, mas não os votos contrários. Com 261 presentes, 130 a 120 aprova a proposição ordinária. Constituição Federal, art. 47, e Regimento Interno da Câmara, art. 183, caput e § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-lista-na-nominal"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-complementar-um-voto-a-menos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "lei-complementar-maioria-da-composicao",
+      "mechanism": "qv-complementar-um-voto-a-menos",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Os três números: presença, aprovação e modalidade"
+      ],
+      "statement": "Em votação de projeto de lei complementar, 270 deputados registram presença. Foram computados 256 votos favoráveis, 8 contrários e 6 abstenções.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO projeto foi aprovado, pois a maioria absoluta pode ser calculada sobre os deputados que participaram da votação.",
+      "correctAnswer": "E",
+      "explanation": "A lei complementar exige maioria absoluta dos 513 membros, ou 257 votos favoráveis. A presença de 270 satisfaz o quórum de deliberação, mas 256 votos não alcançam o de aprovação. Constituição Federal, art. 69, e Regimento Interno da Câmara, art. 183, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-lista-pl-complementar"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-quebra-intersticio-origem-e-decisao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "quebra-de-intersticio-via-oral-e-plenario",
+      "mechanism": "qv-quebra-intersticio-origem-e-decisao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      ],
+      "statement": "Trinta minutos depois de proclamado o resultado de votação anterior verificada nominalmente, a Câmara faz nova votação simbólica. Após a proclamação, 52 deputados pedem oralmente a quebra do interstício e pretendem encaminhar a votação do requerimento.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO requerimento foi formulado no momento adequado e com apoiamento suficiente para submissão à deliberação do Plenário.",
+      "correctAnswer": "C",
+      "explanation": "Antes de uma hora, a nova verificação depende de decisão plenária a requerimento de um décimo da Câmara. O requerimento é oral e segue à proclamação da votação que se quer verificar. Cinquenta e dois deputados atingem o limiar. Regimento Interno da Câmara, art. 185, §§ 4º e 6º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-intersticio-em-votacao-simbolica"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-quebra-intersticio-sem-encaminhamento",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "votacao-do-requerimento-de-quebra",
+      "mechanism": "qv-quebra-intersticio-sem-encaminhamento",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      ],
+      "statement": "Trinta minutos depois de proclamado o resultado de votação anterior verificada nominalmente, a Câmara faz nova votação simbólica. Após a proclamação, 52 deputados pedem oralmente a quebra do interstício e pretendem encaminhar a votação do requerimento.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO requerimento de quebra deve ser votado nominalmente, com encaminhamento pelos interessados.",
+      "correctAnswer": "E",
+      "explanation": "Exige-se votação simbólica do requerimento de quebra, sem encaminhamento nem orientação de bancada. A eventual votação nominal diz respeito à verificação do resultado da matéria, após a decisão pertinente. Regimento Interno da Câmara, art. 185, §§ 3º, 4º e 7º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-intersticio-em-votacao-simbolica"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-lideres-apoiamento-por-votacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "apoiamento-de-lideres-na-votacao-concreta",
+      "mechanism": "qv-lideres-apoiamento-por-votacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      ],
+      "statement": "Uma bancada assume compromisso prévio de apoiar pedidos de verificação de outra bancada ao longo de toda a sessão. Após uma votação simbólica, nenhum dos líderes manifesta apoio naquele momento, mas o presidente é informado do acordo.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO acordo anterior basta para computar os deputados representados no pedido de verificação de agora.",
+      "correctAnswer": "E",
+      "explanation": "A manifestação de líder para compor o apoiamento deve ocorrer em cada votação. Apoio prévio e acordo recíproco são vedados. Uma manifestação contemporânea, somada aos apoios válidos, pode completar seis centésimos. Regimento Interno da Câmara, art. 185, §§ 3º e 3º-A.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 102,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "efeito",
+        "caseId": "cam-cpl-exp26-lideres-acordo-previo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-consulta-verificacao-precede-questao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "prioridade-da-consulta-sobre-verificacao",
+      "mechanism": "qv-consulta-verificacao-precede-questao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      ],
+      "statement": "Na Câmara, a Presidência proclama resultado de votação simbólica divergente. Antes de consultar o Plenário sobre eventual pedido de verificação, um deputado pede a palavra para formular questão de ordem pertinente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA Mesa deve ouvir o Plenário sobre a eventual verificação antes de receber a questão de ordem.",
+      "correctAnswer": "C",
+      "explanation": "Após resultado simbólico divergente, a Presidência assegura oportunidade para pedir verificação. A Mesa só admite questão de ordem, reclamação ou intervenção depois dessa consulta. A pertinência da questão não altera a sequência. Regimento Interno da Câmara, art. 185, §§ 1º e 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 121,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-simbolica-e-intervencao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-nominal-sem-sistema-chamada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "falha-eletronica-e-chamada-nominal",
+      "mechanism": "qv-nominal-sem-sistema-chamada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "statement": "A Câmara delibera matéria que exige quórum especial em votação ostensiva. O sistema eletrônico fica indisponível antes do início. Um parlamentar sustenta que a falta do equipamento permite usar o processo simbólico.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA votação continua nominal e pode ocorrer mediante chamada dos deputados, com registro das respostas e das abstenções.",
+      "correctAnswer": "C",
+      "explanation": "A exigência de quórum especial impõe processo nominal. Sem o sistema eletrônico, o regimento prevê chamada nominal, com registro de votos e abstenções. A falta do equipamento muda o meio, não a modalidade exigida. Regimento Interno da Câmara, arts. 186, I, e 187, § 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 122,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "modalidade",
+        "caseId": "cam-cpl-exp26-sistema-fora-do-ar"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-verbal-nao-nominal",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "vedacao-nominal-requerimento-verbal",
+      "mechanism": "qv-verbal-nao-nominal",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "statement": "Em Plenário, um parlamentar formula requerimento verbal. Outro pede que ele seja votado nominalmente. Em matéria distinta, o Plenário rejeitara pedido de votação nominal e o autor tenta repeti-lo para emenda acessória.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO Plenário pode adotar o nominal para o requerimento verbal a pedido de qualquer deputado.",
+      "correctAnswer": "E",
+      "explanation": "O regimento veda votação nominal de requerimento verbal. A possibilidade de requerer nominal para matérias em geral não afasta essa proibição. Regimento Interno da Câmara, art. 186, II e § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-pedido-verbal-e-nominal"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-nominal-rejeicao-e-acessoria",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "vedacao-renovacao-pedido-nominal",
+      "mechanism": "qv-nominal-rejeicao-e-acessoria",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "statement": "Em Plenário, um parlamentar formula requerimento verbal. Outro pede que ele seja votado nominalmente. Em matéria distinta, o Plenário rejeitara pedido de votação nominal e o autor tenta repeti-lo para emenda acessória.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA rejeição do pedido impede a renovação tanto para a proposição principal quanto para a emenda que lhe é acessória.",
+      "correctAnswer": "C",
+      "explanation": "Quando a Câmara não concede a votação nominal requerida, o pedido não pode ser renovado para a mesma proposição ou suas acessórias. Trocar o foco para a emenda não contorna a vedação. Regimento Interno da Câmara, art. 186, § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-pedido-verbal-e-nominal"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-interesse-individual-quorum",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "voto-em-branco-por-impedimento",
+      "mechanism": "qv-interesse-individual-quorum",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Os três números: presença, aprovação e modalidade"
+      ],
+      "statement": "Um deputado tem interesse individual na matéria e comunica seu impedimento à Mesa. Outro deputado vota em sentido contrário à orientação da liderança. A votação é ostensiva.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO primeiro tem o voto considerado em branco para quórum; a divergência do segundo em relação ao líder não invalida seu voto.",
+      "correctAnswer": "C",
+      "explanation": "Quem tem interesse individual na matéria deve dar-se por impedido e comunicar à Mesa, computando-se o branco para quórum. O voto contrário à orientação partidária é acolhido. A orientação não substitui o ato individual de votar. Regimento Interno da Câmara, art. 180, §§ 6º e 7º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-impedimento-interesse-individual"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-empate-ostensiva-versus-secreta",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "desempate-conforme-modalidade",
+      "mechanism": "qv-empate-ostensiva-versus-secreta",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "statement": "Uma votação regular ostensiva da Câmara termina empatada. Noutra matéria, em hipótese regimental válida de escrutínio secreto, a votação também empata. Nenhuma delas é eleição.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNos dois casos a Presidência deve decidir o resultado com voto de desempate.",
+      "correctAnswer": "E",
+      "explanation": "Em votação ostensiva, cabe à Presidência desempatar. No escrutínio secreto que não seja eleição, o regimento manda repetir a votação até ocorrer desempate. Eleição é hipótese diferente, com disciplina específica. Regimento Interno da Câmara, art. 180, §§ 3º e 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 122,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "modalidade",
+        "caseId": "cam-cpl-exp26-empates-distintos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-reclamacao-resultado-marco",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "reclamacao-resultado-antes-nova-materia",
+      "mechanism": "qv-reclamacao-resultado-marco",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "statement": "Encerrada votação nominal, um deputado alega erro no resultado. Antes de ele reclamar, a Presidência anuncia a discussão de nova matéria. Ele também pretende encaminhar declaração escrita de voto para publicação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA reclamação sobre o resultado permanece admissível enquanto não começar a votação da nova matéria.",
+      "correctAnswer": "E",
+      "explanation": "A reclamação deve ser formulada antes de anunciado o início da discussão ou votação de outra matéria. O anúncio da discussão já fecha a oportunidade regimental. Regimento Interno da Câmara, art. 187, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-apos-apuracao-e-nova-materia"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-declaracao-voto-sem-leitura",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "declaracao-escrita-apos-voto-ostensivo",
+      "mechanism": "qv-declaracao-voto-sem-leitura",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "statement": "Encerrada votação nominal, um deputado alega erro no resultado. Antes de ele reclamar, a Presidência anuncia a discussão de nova matéria. Ele também pretende encaminhar declaração escrita de voto para publicação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nPode-se enviar declaração escrita de voto à Mesa para publicação, sem ler ou comentar seu conteúdo da tribuna.",
+      "correctAnswer": "C",
+      "explanation": "Após a votação ostensiva, a declaração escrita é admitida nos termos regimentais. A possibilidade de publicação não inclui leitura nem comentário da tribuna. É providência diversa da reclamação sobre o resultado. Regimento Interno da Câmara, art. 182, parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 122,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "modalidade",
+        "caseId": "cam-cpl-exp26-apos-apuracao-e-nova-materia"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-secreta-cedula-falha-eletronica",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "escrutinio-secreto-cedula-falha",
+      "mechanism": "qv-secreta-cedula-falha-eletronica",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "statement": "Na eleição para cargo da Mesa, o escrutínio secreto é obrigatório. O sistema eletrônico apresentou falha. A equipe propõe usar cédulas e computar nomes dos votantes sem divulgar a escolha individual.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO emprego de cédulas preserva o escrutínio secreto, sem exigir que se vincule publicamente cada eleitor a seu voto.",
+      "correctAnswer": "C",
+      "explanation": "Quando o sistema eletrônico não funciona, o escrutínio secreto pode ocorrer mediante cédula recolhida em urna. A falha não torna a votação aberta. O regime informa votantes e resultado sem identificar a escolha individual. Regimento Interno da Câmara, arts. 7º e 188, caput, III e § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 122,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "modalidade",
+        "caseId": "cam-cpl-exp26-mesa-eleicao-sistema-indisponivel"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-secreto-tributario-vedacao-material",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "limite-material-do-escrutinio-secreto",
+      "mechanism": "qv-secreto-tributario-vedacao-material",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "statement": "Antes da Ordem do Dia, 52 deputados requerem escrutínio secreto para deliberar projeto de lei tributária. O requerimento está bem formalizado, e os subscritores sustentam que a decisão do Plenário pode afastar qualquer vedação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA deliberação plenária pode autorizar o escrutínio secreto nesse projeto, porque o requerimento atingiu um décimo da Casa e foi tempestivo.",
+      "correctAnswer": "E",
+      "explanation": "O requerimento de um décimo antes da Ordem do Dia é requisito de uma via de escrutínio secreto. O regimento também exclui matérias tributárias desse escrutínio. Cumprir apoio e prazo não remove a vedação material. Regimento Interno da Câmara, art. 188, II e § 2º, III.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 122,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "modalidade",
+        "caseId": "cam-cpl-exp26-pedido-secreto-tributos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-manifestacao-identificada-responsabilidade",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais, art. 5º",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "liberdade-expressao-identificacao-e-responsabilidade",
+      "mechanism": "cf-manifestacao-identificada-responsabilidade",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Liberdades e garantias recorrentes do art. 5º"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Liberdades e garantias recorrentes do art. 5º"
+      ],
+      "statement": "Uma deputada publica crítica contundente a uma autoridade e assina a manifestação com seu nome. A autoridade pede que a mensagem seja retirada apenas por ser ofensiva, sem apontar ilícito específico.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA identificação da autora afasta a proteção constitucional, pois críticas políticas somente podem ser publicadas sem autoria conhecida.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição veda o anonimato, mas não exige linguagem neutra nem proíbe crítica política identificada. Eventual ilícito pode gerar responsabilização nos termos aplicáveis; não se presume pelo simples desconforto da autoridade. Constituição Federal, art. 5º, IV e V.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 84,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "manifestação parlamentar e local do pronunciamento",
+        "caseId": "cam-cpl-exp26-manifestacao-com-autor-identificado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-reuniao-aviso-nao-autorizacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais, art. 5º",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "reuniao-pacifica-aviso-colisao-e-limites",
+      "mechanism": "cf-reuniao-aviso-nao-autorizacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Liberdades e garantias recorrentes do art. 5º"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Liberdades e garantias recorrentes do art. 5º"
+      ],
+      "statement": "Moradores comunicam previamente à autoridade competente que farão reunião pacífica, sem armas, em praça pública acessível ao público. Outra reunião já convocada para o mesmo horário e local não foi cancelada.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA reunião pode ocorrer sem licença estatal, desde que não frustre a outra já convocada e haja aviso prévio à autoridade.",
+      "correctAnswer": "C",
+      "explanation": "O direito de reunião independe de autorização, mas exige reunião pacífica, sem armas, em local aberto ao público, sem frustrar outra reunião anteriormente convocada para o mesmo local, além de prévio aviso. Aviso não equivale a pedido de permissão. Constituição Federal, art. 5º, XVI.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 91,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "preferência de pauta em hipótese específica",
+        "caseId": "cam-cpl-exp26-reuniao-avisada"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-casa-mandado-horario",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais, art. 5º",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "ingresso-domicilio-mandado-e-noite",
+      "mechanism": "cf-casa-mandado-horario",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Liberdades e garantias recorrentes do art. 5º"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Liberdades e garantias recorrentes do art. 5º"
+      ],
+      "statement": "Às 21h, autoridade policial apresenta mandado judicial para ingressar em residência fechada. Não há flagrante, desastre ou necessidade de prestar socorro, e o morador nega consentimento.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO mandado judicial autoriza ingresso forçado à noite, pois foi expedido por autoridade competente.",
+      "correctAnswer": "E",
+      "explanation": "A determinação judicial permite ingresso durante o dia. À noite, sem consentimento, flagrante delito, desastre ou prestação de socorro, a casa é inviolável. Competência para expedir o mandado não elimina o limite temporal constitucional. Constituição Federal, art. 5º, XI.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 82,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "efeito de decisão judicial e autoridade competente para a perda",
+        "caseId": "cam-cpl-exp26-ordem-judicial-casa"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-sigilo-comunicacao-excecao-limitada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais, art. 5º",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "sigilo-das-comunicacoes-nao-tem-excecao-judicial-generica",
+      "mechanism": "cf-sigilo-comunicacao-excecao-limitada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Liberdades e garantias recorrentes do art. 5º"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Liberdades e garantias recorrentes do art. 5º"
+      ],
+      "statement": "Em processo civil, o juiz autoriza busca de cartas lacradas de uma pessoa apenas por reputar a medida conveniente. Não há hipótese legal específica nem comunicação telefônica a interceptar.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA ordem judicial isolada é suficiente para afastar qualquer modalidade de sigilo de comunicação.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição admite, nos termos e hipóteses legais, interceptação de comunicações telefônicas por ordem judicial para investigação criminal ou instrução penal. Não prevê autorização judicial genérica equivalente para violar correspondência ou outros sigilos por mera conveniência. Constituição Federal, art. 5º, XII.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 85,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "recebimento da acusação e sustação do processo",
+        "caseId": "cam-cpl-exp26-sigilo-correspondencia-ordem-judicial"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-acesso-informacao-e-dados-pessoais",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais, art. 5º",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "acesso-a-informacao-e-dados-pessoais-cabimentos-distintos",
+      "mechanism": "cf-acesso-informacao-e-dados-pessoais",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Liberdades e garantias recorrentes do art. 5º"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Liberdades e garantias recorrentes do art. 5º"
+      ],
+      "statement": "Uma pesquisadora requer a órgão público dados sobre despesas de um contrato. Em pedido separado, requer seu próprio cadastro pessoal para corrigi-lo. O órgão classifica ambos como sigilosos sem motivação individualizada.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO acesso à informação de interesse particular ou coletivo é protegido, e a pessoa pode conhecer dados próprios em registros públicos para retificá-los, conforme o mecanismo cabível.",
+      "correctAnswer": "C",
+      "explanation": "O art. 5º, XXXIII, assegura acesso a informações de interesse particular, coletivo ou geral, ressalvado sigilo imprescindível à segurança da sociedade e do Estado. O inciso LXXII prevê habeas data para conhecer e retificar dados relativos à própria pessoa em registros ou bancos de dados públicos ou de caráter público, observadas suas condições. Constituição Federal, art. 5º, XXXIII e LXXII.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 90,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "direção dos debates e consentimento para aparte",
+        "caseId": "cam-cpl-exp26-informacao-pessoal-vs-interesse-publico"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-sigilo-fonte-profissional",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais, art. 5º",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "sigilo-fonte-independe-de-segredo-dos-fatos",
+      "mechanism": "cf-sigilo-fonte-profissional",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Liberdades e garantias recorrentes do art. 5º"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Liberdades e garantias recorrentes do art. 5º"
+      ],
+      "statement": "Uma jornalista, chamada como testemunha, confirma conhecer a fonte de informação obtida no exercício profissional. A autoridade tenta obrigá-la a revelar a identidade da fonte, embora ela não tenha invocado segredo sobre os fatos.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA proteção do sigilo da fonte pode ser invocada para resguardar sua identidade, ainda que a jornalista confirme o conhecimento da informação.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição assegura aos profissionais de comunicação o sigilo da fonte quando necessário ao exercício profissional. A garantia protege a fonte, sem transformar a pessoa em testemunha incapaz de falar sobre fatos que não dependam de revelá-la. Constituição Federal, art. 5º, XIV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 84,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "manifestação parlamentar e local do pronunciamento",
+        "caseId": "cam-cpl-exp26-fonte-jornalistica-identificada"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-peticao-certidao-gratuitas",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais, art. 5º",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "direito-de-peticao-e-certidao-independe-advogado",
+      "mechanism": "cf-peticao-certidao-gratuitas",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Liberdades e garantias recorrentes do art. 5º"
+      },
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Liberdades e garantias recorrentes do art. 5º"
+      ],
+      "statement": "Um cidadão apresenta petição a órgão público para defender direito próprio e obtém certidões destinadas à defesa de situação pessoal. A repartição cobra taxa de protocolo e de expedição.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nSão assegurados o direito de petição e a obtenção de certidões em repartição pública para defesa de direitos, independentemente do pagamento de taxas.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição garante a todos, sem pagamento de taxas, o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso e a obtenção de certidões para defesa de direitos e esclarecimento de situações de interesse pessoal. São garantias constitucionais distintas do habeas corpus e do habeas data. Constituição Federal, art. 5º, XXXIV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 91,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "preferência de pauta em hipótese específica",
+        "caseId": "cam-cpl-exp26-direito-peticao-taxa"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-trabalho-adolescente-aprendiz",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais, arts. 6º a 11",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "idade-minima-e-excecao-aprendizagem",
+      "mechanism": "cf-trabalho-adolescente-aprendiz",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "statement": "Uma empresa pretende contratar adolescente de 15 anos como aprendiz e outra pessoa de 17 anos para trabalho noturno e perigoso. Ambas estudam durante o dia.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA Constituição proíbe qualquer trabalho antes dos 16 anos, inclusive na condição de aprendiz.",
+      "correctAnswer": "E",
+      "explanation": "A regra proíbe trabalho a menores de 16 anos, salvo como aprendiz a partir de 14. Aos menores de 18 são vedados trabalho noturno, perigoso ou insalubre, ainda que maiores de 16 ou aprendizes. A frequência escolar não afasta esses limites. Constituição Federal, art. 7º, XXXIII.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 105,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "educação e regime de cooperação federativa",
+        "caseId": "cam-cpl-exp26-filho-empregado-adolescente"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-igualdade-salarial-discriminacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais, arts. 6º a 11",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "igualdade-de-direitos-e-proibicao-discriminacao-salarial",
+      "mechanism": "cf-igualdade-salarial-discriminacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "statement": "Dois trabalhadores exercem a mesma função, com igual produtividade e perfeição técnica, para o mesmo empregador. Um deles recebe salário menor exclusivamente por motivo de sexo.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA Constituição proíbe diferença salarial por motivo de sexo quando presentes trabalho de igual valor e demais requisitos legais.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição proíbe diferença de salários, exercício de funções e admissão por motivo de sexo, idade, cor ou estado civil, e também assegura proibição de discriminação quanto a salário e critérios de admissão do trabalhador com deficiência. O caso aponta discriminação, sem dispensar requisitos próprios da legislação trabalhista aplicável. Constituição Federal, art. 7º, XXX e XXXI.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 105,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "educação e regime de cooperação federativa",
+        "caseId": "cam-cpl-exp26-igualdade-remuneracao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-aposentadoria-diferenca-expressa",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais, arts. 6º a 11",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "criterios-diferenciados-de-aposentadoria-constitucionais",
+      "mechanism": "cf-aposentadoria-diferenca-expressa",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "statement": "Uma lei estabelece critérios diferentes de aposentadoria para trabalhadoras e trabalhadores. A parte autora argumenta que qualquer diferença entre sexos é proibida sem exceção constitucional.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA Constituição proíbe indistintamente qualquer critério de aposentadoria distinto entre homens e mulheres.",
+      "correctAnswer": "E",
+      "explanation": "A proibição geral de diferenças por sexo não apaga critérios previdenciários diferenciados expressamente previstos na Constituição, observadas as regras e transições aplicáveis. É necessário identificar a norma previdenciária específica, em vez de transpor automaticamente a regra antidiscriminatória. Constituição Federal, art. 7º, XXX, e art. 201, § 7º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 105,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "educação e regime de cooperação federativa",
+        "caseId": "cam-cpl-exp26-igualdade-previdenciaria"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-fundamento-dignidade-objetivo-desigualdade",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "fundamentos-e-objetivos-categorias-constitucionais",
+      "mechanism": "cf-fundamento-dignidade-objetivo-desigualdade",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "statement": "Um ato público invoca dignidade da pessoa humana como meta a construir e redução das desigualdades como fundamento já enumerado no art. 1º.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nAs duas qualificações estão corretas, pois os termos expressam valores constitucionais equivalentes.",
+      "correctAnswer": "E",
+      "explanation": "Dignidade da pessoa humana é fundamento da República, previsto no art. 1º, III. Reduzir desigualdades sociais e regionais é objetivo fundamental, no art. 3º, III. A importância de ambos não torna intercambiáveis suas categorias constitucionais. Constituição Federal, arts. 1º, III, e 3º, III.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 105,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "educação e regime de cooperação federativa",
+        "caseId": "cam-cpl-exp26-fundamento-diferente-de-objetivo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-pluralismo-valor-politico",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "pluralismo-como-fundamento-da-republica",
+      "mechanism": "cf-pluralismo-valor-politico",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "statement": "Um partido defende a supressão de todas as correntes políticas divergentes e a imposição legal de partido único, alegando que pluralismo político se limita à existência formal de eleições.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA proposta é compatível com o pluralismo político se os cidadãos ainda puderem votar periodicamente.",
+      "correctAnswer": "E",
+      "explanation": "O pluralismo político é fundamento da República e pressupõe convivência de diversas ideias e correntes políticas, não apenas a ocorrência periódica de eleições. A Constituição também assegura liberdade de criação, fusão, incorporação e extinção de partidos, respeitados os princípios constitucionais. Constituição Federal, arts. 1º, V, e 17.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "proporcionalidade partidária na Mesa",
+        "caseId": "cam-cpl-exp26-pluralismo-e-legenda"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-objetivos-orientam-politicas-antidiscriminacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "objetivos-e-controle-de-politicas-publicas",
+      "mechanism": "cf-objetivos-orientam-politicas-antidiscriminacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 3º — objetivos fundamentais"
+      },
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 3º — objetivos fundamentais"
+      ],
+      "statement": "Um programa público de alcance nacional amplia serviços apenas em localidades ricas e adota critério discriminatório sem relação com sua finalidade. A administração sustenta que o art. 3º contém apenas intenções sem relevância constitucional.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nPor serem objetivos, os comandos de reduzir desigualdades e promover o bem de todos não orientam a interpretação nem a atuação estatal.",
+      "correctAnswer": "E",
+      "explanation": "Os objetivos do art. 3º vinculam a orientação da atuação pública e da interpretação constitucional, incluindo redução de desigualdades e promoção do bem de todos sem preconceitos. Isso não determina automaticamente o desenho de toda política, mas impede tratá-los como texto sem efeito jurídico. Constituição Federal, art. 3º, III e IV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 105,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "educação e regime de cooperação federativa",
+        "caseId": "cam-cpl-exp26-igualdade-e-promocao-do-bem"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-nao-intervencao-cooperacao-pacifica",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "nao-intervencao-convivencia-cooperacao",
+      "mechanism": "cf-nao-intervencao-cooperacao-pacifica",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "statement": "Em conflito político interno de outro país, o Brasil oferece mediação aceita pelas partes e presta assistência humanitária. Um assessor afirma que a não intervenção proíbe qualquer contato ou cooperação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA mediação e a ajuda humanitária violam necessariamente o princípio constitucional da não intervenção.",
+      "correctAnswer": "E",
+      "explanation": "Não intervenção orienta o respeito à autonomia dos povos e Estados, mas convive com a solução pacífica dos conflitos, a defesa dos direitos humanos e a cooperação entre os povos. Mediação aceita e assistência humanitária não equivalem, por si, a impor decisão política a outro Estado. Constituição Federal, art. 4º, II, IV, VI, VII e IX.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "território federal e organização por lei",
+        "caseId": "cam-cpl-exp26-paz-e-nao-intervencao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-asilo-principio-sem-automaticidade",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "asilo-politico-nao-se-confunde-com-refugio-automatico",
+      "mechanism": "cf-asilo-principio-sem-automaticidade",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "statement": "Uma pessoa perseguida por opiniões políticas pede proteção no Brasil. O governo alega que conceder asilo é obrigatório em todo caso e equivale automaticamente a reconhecer a condição de refugiado.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA concessão de asilo político decorre automaticamente do pedido e produz necessariamente todos os efeitos do reconhecimento da condição de refugiado.",
+      "correctAnswer": "E",
+      "explanation": "A concessão de asilo político é princípio das relações internacionais brasileiras, mas o pedido não gera, por si só, concessão automática. Asilo e reconhecimento da condição de refugiado têm regimes jurídicos próprios; a qualificação depende da situação e das normas aplicáveis. Constituição Federal, art. 4º, X, e Lei nº 9.474/1997.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "território federal e organização por lei",
+        "caseId": "cam-cpl-exp26-conflito-e-asilo-politico"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-integracao-regional-escopo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "integracao-latino-americana-quatro-dimensoes",
+      "mechanism": "cf-integracao-regional-escopo",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "statement": "O Brasil negocia integração social e cultural com países latino-americanos, mas um parecer afirma que a Constituição só apoia integração comercial e apenas entre países do Mercosul.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO parágrafo único do art. 4º restringe a integração constitucional ao comércio e aos Estados integrantes do Mercosul.",
+      "correctAnswer": "E",
+      "explanation": "O parágrafo único do art. 4º prevê que o Brasil buscará integração econômica, política, social e cultural dos povos da América Latina, visando à formação de comunidade latino-americana de nações. O dispositivo não limita a iniciativa aos membros de um bloco comercial. Constituição Federal, art. 4º, parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "território federal e organização por lei",
+        "caseId": "cam-cpl-exp26-integracao-america-latina"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-soberania-independencia-categorias",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "soberania-art1-independencia-art4",
+      "mechanism": "cf-soberania-independencia-categorias",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "statement": "Um decreto denomina soberania princípio das relações internacionais e independência nacional fundamento previsto no art. 1º.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nAs duas classificações estão corretas, pois os termos têm significado próximo nas relações políticas.",
+      "correctAnswer": "E",
+      "explanation": "Soberania aparece entre os fundamentos da República no art. 1º, I. Independência nacional é princípio que rege as relações internacionais no art. 4º, I. A proximidade conceitual não troca a localização e a função constitucional de cada termo. Constituição Federal, arts. 1º, I, e 4º, I.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 101,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "competência administrativa comum versus competência privativa",
+        "caseId": "cam-cpl-exp26-diferenca-soberania-independencia"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cf-objetivos-complementares",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "reducao-desigualdade-e-promocao-do-bem",
+      "mechanism": "cf-objetivos-complementares",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 3º — objetivos fundamentais"
+      },
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 3º — objetivos fundamentais"
+      ],
+      "statement": "Um município reduz diferença de acesso a serviços entre regiões sem eliminar todas as desigualdades. Outro município deixa de adotar qualquer medida contra discriminação sob argumento de que basta a dignidade individual.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nReduzir desigualdades regionais e promover o bem de todos sem discriminação são objetivos constitucionais distintos, que orientam áreas relacionadas da atuação pública.",
+      "correctAnswer": "C",
+      "explanation": "A redução das desigualdades sociais e regionais corresponde ao art. 3º, III; a promoção do bem de todos sem preconceitos corresponde ao inciso IV. Um objetivo trata de disparidades sociais e territoriais; o outro explicita a vedação à discriminação. Ambos orientam a atuação da República. Constituição Federal, art. 3º, III e IV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 105,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "educação e regime de cooperação federativa",
+        "caseId": "cam-cpl-exp26-dois-estagios-igualdade"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do direitos fundamentais e princípios constitucionais. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-destaque-alcance-do-recurso",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "destaque-partes-fora-do-recurso-conclusivo",
+      "mechanism": "qv-destaque-alcance-do-recurso",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Ordem da votação, substitutivo, emendas e destaques"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Ordem da votação, substitutivo, emendas e destaques"
+      ],
+      "statement": "As comissões da Câmara aprovaram conclusivamente um projeto. O recurso provido pelo Plenário abrangeu só o capítulo II. Quando o texto chega à pauta, uma bancada tenta destacar dispositivo do capítulo I, que não foi objeto do recurso.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO provimento do recurso admite destaque de qualquer parte do projeto, ainda que o capítulo pretendido não tenha sido impugnado.",
+      "correctAnswer": "E",
+      "explanation": "O destaque não alcança parte do projeto conclusivo que não tenha sido objeto de recurso provido. No caso, o capítulo II se encontra no âmbito da revisão, mas o I ficou fora. Regimento Interno da Câmara, arts. 132, § 2º, e 161, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 76,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "votação conclusiva e preservação de recurso",
+        "caseId": "cam-cpl-exp26-recurso-sobre-capitulo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-teto-destaque-quarenta-e-nove",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "limites-de-destaque-por-bancada",
+      "mechanism": "qv-teto-destaque-quarenta-e-nove",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Ordem da votação, substitutivo, emendas e destaques"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Ordem da votação, substitutivo, emendas e destaques"
+      ],
+      "statement": "Na Câmara, uma bancada de 49 deputados tem dois destaques computados no mesmo limite regimental e quer apresentar um terceiro. Outra bancada, com 50 deputados, apresenta seu terceiro destaque. Nenhum pedido está em hipótese especial.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA diferença de um deputado é decisiva: a primeira bancada não pode usar o terceiro destaque nessas condições, mas a segunda atinge a faixa que o admite.",
+      "correctAnswer": "C",
+      "explanation": "A faixa de 25 a 49 deputados admite dois destaques. A de 50 a 74 admite três. Ter bancada numerosa não dispensa enquadramento no limite de sua faixa. Regimento Interno da Câmara, art. 161, § 2º, II e III.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-duas-bancadas-e-teto"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-destaque-individual-unanimidade",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "destaque-individual-aquiescencia-escrita",
+      "mechanism": "qv-destaque-individual-unanimidade",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Ordem da votação, substitutivo, emendas e destaques"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Ordem da votação, substitutivo, emendas e destaques"
+      ],
+      "statement": "Um deputado quer requerer destaque individual. Quase todos os líderes manifestam aquiescência por escrito, mas um deles não o faz. Um assessor sugere juntar as assinaturas de apoio de um décimo da Câmara.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO apoio de um décimo dos deputados substitui a manifestação escrita do líder que não anuiu.",
+      "correctAnswer": "E",
+      "explanation": "Para submeter destaque individual à deliberação exige-se a aquiescência de todos os líderes, por escrito. Apoiamento por um décimo tem função em outros ritos e não substitui esse requisito. Regimento Interno da Câmara, art. 161, § 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-destaque-individual-acordo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-destaque-expressao-inverte-sentido",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "limite-material-destaque-expressao",
+      "mechanism": "qv-destaque-expressao-inverte-sentido",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Ordem da votação, substitutivo, emendas e destaques"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Ordem da votação, substitutivo, emendas e destaques"
+      ],
+      "statement": "Durante a preparação da votação, um deputado sugere excluir por destaque uma expressão cuja retirada inverterá o sentido da norma. Em pedido distinto e regimentalmente apto, requer transformar parte do texto em projeto autônomo.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA autonomia sintática da expressão permite o primeiro destaque, ainda que sua retirada inverta o sentido da proposição.",
+      "correctAnswer": "E",
+      "explanation": "É vedado destacar expressão cuja retirada inverta o sentido ou modifique substancialmente a proposição. Sentido completo do trecho não neutraliza a vedação. Regimento Interno da Câmara, art. 162, IV e V.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-expressao-e-projeto-autonomo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-destaque-autonomo-ordem",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "ordem-destaque-para-projeto-autonomo",
+      "mechanism": "qv-destaque-autonomo-ordem",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Ordem da votação, substitutivo, emendas e destaques"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Ordem da votação, substitutivo, emendas e destaques"
+      ],
+      "statement": "Durante a preparação da votação, um deputado sugere excluir por destaque uma expressão cuja retirada inverterá o sentido da norma. Em pedido distinto e regimentalmente apto, requer transformar parte do texto em projeto autônomo.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO pedido para constituir projeto em separado exige aprovação do Plenário e deve ser deliberado antes da matéria principal.",
+      "correctAnswer": "C",
+      "explanation": "O destaque para projeto autônomo possui deliberação anterior à matéria principal. O destaque para votação em separado, por sua vez, leva a votar primeiro a matéria principal. Regimento Interno da Câmara, arts. 161, III e § 3º, e 162, VI e VII.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-expressao-e-projeto-autonomo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-emenda-divergente-voto-individual",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "emenda-pareceres-divergentes-voto-isolado",
+      "mechanism": "qv-emenda-divergente-voto-individual",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Ordem da votação, substitutivo, emendas e destaques"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Ordem da votação, substitutivo, emendas e destaques"
+      ],
+      "statement": "Uma emenda recebeu parecer favorável de todas as comissões. Outra recebeu pareceres divergentes. Uma terceira foi considerada financeiramente incompatível pela comissão competente em decisão sem recurso e consta por engano da lista para votação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA emenda com pareceres divergentes deve ser votada individualmente, sem entrar no mesmo grupo da emenda com pareceres favoráveis.",
+      "correctAnswer": "C",
+      "explanation": "A votação em grupos atende aos pareceres convergentes. Emendas com pareceres divergentes e emendas destacadas são votadas uma a uma. A comissão financeira, quando competente, também pode dar parecer terminativo nas condições regimentais. Regimento Interno da Câmara, art. 189, §§ 1º e 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 121,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-emendas-tres-posicoes"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-veto-dobro-limiar-projetos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "dobro-do-limite-de-destaques-em-vetos",
+      "mechanism": "qv-veto-dobro-limiar-projetos",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      ],
+      "statement": "Em sessão conjunta de veto, a cédula reúne nove projetos e setenta dispositivos. Uma bancada de 25 deputados, representada por seu líder, pretende apresentar três destaques antes do início da Ordem do Dia.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO número de projetos permite aplicar a ampliação do limite de destaques, ainda que o número de dispositivos não supere oitenta.",
+      "correctAnswer": "C",
+      "explanation": "O limite ordinário da bancada de 25 deputados é de dois destaques por cédula. A presença de mais de oito projetos ou de mais de oitenta dispositivos admite quantitativo até o dobro. Os nove projetos preenchem uma das condições, de modo que três destaques podem caber no limite ampliado. Regimento Comum, art. 106-D, I, b, e § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-veto-destaques-nove-projetos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-veto-cedula-branco-obstrucao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "branco-em-obstrucao-nao-compoe-quorum",
+      "mechanism": "qv-veto-cedula-branco-obstrucao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      ],
+      "statement": "Numa sessão conjunta de veto, o líder de uma bancada declarou obstrução em relação a um item da cédula. Um parlamentar da bancada deixou esse item em branco. Outro confirmou voto no item. Discute-se o cômputo da presença.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA presença do primeiro parlamentar não é computada para quórum naquele item, pois houve declaração do líder e ele deixou o campo em branco.",
+      "correctAnswer": "C",
+      "explanation": "A regra considera em obstrução o parlamentar cujo líder assim se pronunciou e que deixa em branco o item. O efeito é não computar sua presença para o quórum daquele item. A declaração do líder não equivale a deixar o item em branco quando o parlamentar registrou voto. Regimento Comum, art. 106-C.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-veto-obstrucao-cedula"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-pec-assembleias-maioria-relativa",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "iniciativa-assembleias-maioria-relativa",
+      "mechanism": "qv-pec-assembleias-maioria-relativa",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Os três números: presença, aprovação e modalidade"
+      ],
+      "statement": "Quatorze das 27 Assembleias Legislativas das unidades da Federação deliberam pela apresentação de proposta de emenda à Constituição. Cada uma se manifesta favoravelmente pela maioria relativa de seus membros. A assessoria exige maioria absoluta em cada Casa estadual, por considerar que se trata de emenda constitucional.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nSem maioria absoluta em cada Assembleia, falta o requisito constitucional de iniciativa.",
+      "correctAnswer": "E",
+      "explanation": "A iniciativa exige mais da metade das Assembleias Legislativas, cada uma pela maioria relativa de seus membros. Quatorze superam metade de 27. O quórum de três quintos em cada Casa federal incide na aprovação, em etapa distinta. Constituição Federal, art. 60, III e § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "quórum",
+        "caseId": "cam-cpl-exp26-proposta-emenda-por-assembleias"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-eleicao-empate-idade-entre-pares",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "desempate-de-eleicao-versus-escrutinio-secreto-comum",
+      "mechanism": "qv-eleicao-empate-idade-entre-pares",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "statement": "Em votação secreta da Câmara que não é eleição, há empate. Em eleição para cargo da Mesa, já no segundo escrutínio, dois candidatos empatam, com igual número de legislaturas e idades diferentes.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA votação secreta não eleitoral deve ser repetida, enquanto na eleição descrita a maior idade decide entre os candidatos com igual número de legislaturas.",
+      "correctAnswer": "C",
+      "explanation": "No escrutínio secreto não eleitoral empatado, repetem-se os votos. Para eleição, prevalece a regra própria: dentre os de maior número de legislaturas, vence o mais idoso. Como houve igualdade no número de legislaturas, a idade é decisiva. Regimento Interno da Câmara, arts. 7º, XII, e 180, §§ 3º e 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 122,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "modalidade",
+        "caseId": "cam-cpl-exp26-lugar-da-eleicao-ou-votacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do quóruns e modalidades de votação. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-conjunta-modalidade-deliberacao-plenario",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "proposta-de-modalidade-nao-substitui-deliberacao",
+      "mechanism": "qv-conjunta-modalidade-deliberacao-plenario",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "5. Debates, votação e publicação (arts. 36 a 52)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#5. Debates, votação e publicação (arts. 36 a 52)"
+      ],
+      "statement": "Antes de uma votação ordinária em sessão conjunta, um líder requer adoção da modalidade nominal. O Plenário ainda não se pronunciou. Em seguida, um sexto dos deputados apresenta pedido no mesmo sentido.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO requerimento do líder já substitui automaticamente o simbólico, independentemente da deliberação do Plenário.",
+      "correctAnswer": "E",
+      "explanation": "A votação simbólica é regra no rito comum, salvo quórum especial ou deliberação do Plenário após requerimento legitimado. Líder ou um sexto de uma Casa pode requerer. A iniciativa não se confunde com a decisão que muda a modalidade. Regimento Comum, art. 44, parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-conjunta-requer-nominal"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qv-conjunta-uma-hora-numero-legal",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "intersticio-conjunto-sem-transpor-camara",
+      "mechanism": "qv-conjunta-uma-hora-numero-legal",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "5. Debates, votação e publicação (arts. 36 a 52)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#5. Debates, votação e publicação (arts. 36 a 52)"
+      ],
+      "statement": "Em sessão conjunta, houve verificação de votação simbólica com presença do número legal. Quarenta minutos depois, outro resultado simbólico é proclamado. Cinco senadores pedem nova verificação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nAtingir o apoiamento ordinário de cinco senadores não autoriza a nova verificação dentro da hora, nas condições apresentadas.",
+      "correctAnswer": "C",
+      "explanation": "Após verificação com número legal, o Regimento Comum impede nova verificação antes de uma hora. A via de quebra do interstício do Regimento da Câmara tem disciplina própria e não pode ser importada para a sessão conjunta. Regimento Comum, art. 45, §§ 1º e 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 102,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "efeito",
+        "caseId": "cam-cpl-exp26-verificacao-conjunta-intersticio"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
     }
   ]
 }

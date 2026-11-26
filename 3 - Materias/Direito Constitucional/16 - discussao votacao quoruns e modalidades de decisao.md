@@ -81,6 +81,10 @@ O **art. 184 do RICD** distingue **votação ostensiva**, que pode adotar proces
 
 **Votação ostensiva em empate:** pelo **art. 180, § 3º**, cabe ao **Presidente da Câmara desempatar**, enquanto em **escrutínio secreto** realizam-se **novas votações sucessivas** até o desempate, ressalvados casos próprios como eleições. Não confundir essa regra do Plenário com o **art. 56, § 2º**, sobre desempate pelo **voto do relator nas comissões**.
 
+**Depois da votação:** uma declaração escrita de voto ostensivo pode ser enviada à Mesa para publicação. O parlamentar não pode lê-la nem comentá-la da tribuna. Reclamar do resultado da votação nominal tem outra função: a reclamação deve ocorrer antes de ser anunciada a discussão ou a votação de nova matéria (arts. 182, parágrafo único, e 187, § 3º).
+
+**Pedidos que não mudam a modalidade:** requerimento verbal não admite votação nominal. Se a Câmara negar pedido de votação nominal, não se pode renová-lo para a proposição principal ou suas acessórias. Pedir escrutínio secreto antes da Ordem do Dia com o apoio exigido também não afasta as exclusões materiais, como a de projetos tributários (arts. 186, §§ 1º e 2º, e 188, II e § 2º).
+
 ## Verificação de votação simbólica: 6% ≠ 10% ≠ 5%
 
 A ausência de placar nominal na votação **simbólica** não impede controle. Pelo **art. 185**, havendo dúvida quanto ao resultado proclamado, é permitido **pedido de verificação**. O § 3º determina que, com apoiamento de **6% dos membros** da Casa ou Líderes que representem esse número, realiza-se **votação nominal** para verificar o resultado.

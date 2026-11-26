@@ -80,3 +80,15 @@ Dezessete questões, cinco médias e doze difíceis. São quatro no capítulo 24
 ## Lote 14. Recursos, questões de ordem e decisões de comissões
 
 Dezessete questões, duas médias e quinze difíceis. São cinco no capítulo 13, uma no 15, três no 25, sete no 31 e uma no 35. Quatro completam o eixo de comissões e treze o de recursos e questões de ordem. Os casos separam recorribilidade, prazo, efeito, parecer, decisão e autoridade competente. O capítulo 25 recebeu explicações sobre o recurso relativo à publicação de documento e sobre a distinção entre registro de decisão e reforma regimental. [Regimento Interno da Câmara](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) · [Regimento Comum](https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028).
+
+## Lote 15. Quórum, verificação e modalidades no Plenário da Câmara
+
+Quinze questões no capítulo 16, duas médias e treze difíceis. Os casos separam quórum de presença e de aprovação, tratamento de abstenções e impedimentos, apoiamento contemporâneo, quebra de interstício, modalidade e meio de votação, desempate, reclamação e declaração de voto. A teoria recebeu os limites dos pedidos de votação, a regra de publicação de declaração e o marco máximo para reclamar do resultado. [Regimento Interno da Câmara, arts. 180 a 188](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+
+## Lote 16. Destaques, emendas e votações do Congresso
+
+Doze questões difíceis: oito no capítulo 16, duas no 17 e duas no 31. Após cotejo com as variantes já incluídas, foram mantidos os casos de limites e alcance dos destaques, ordem de votação, votação de emendas e procedimento conjunto de vetos, sem duplicar mecanismos equivalentes. A teoria foi completada nos dispositivos correspondentes do Regimento Interno e do Regimento Comum. [Regimento Interno da Câmara, arts. 132, 161, 162 e 189](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) · [Regimento Comum, arts. 44, 45 e 106-C a 106-D](https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028).
+
+## Lote 17. Direitos fundamentais e princípios da República
+
+Dezoito questões: oito no capítulo 01, sete no 02 e três no 03, todas difíceis. Os casos tratam de direitos de reunião, domicílio, comunicação, informação, petição e certidão, liberdade de expressão e trabalho de adolescentes; articulam fundamentos, objetivos fundamentais e princípios das relações internacionais. [Constituição Federal, arts. 1º a 7º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm).

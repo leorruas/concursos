@@ -542,6 +542,17 @@ function renderAdaptive(plan) {
  if (queueSection && queueItems) {
   queueSection.hidden = remaining.children.length === 0;
   const rows=[...remaining.children];
+  const batteryPools=ranked.map(item=>[...(Array.isArray(item.questionIds)?item.questionIds:[]),item.repeatQuestionId]
+   .filter(id=>typeof id==='string'&&id));
+  const batteryIds=[],usedQuestionIds=new Set();
+  for(let round=0;batteryIds.length<10&&batteryPools.some(pool=>round<pool.length);round++){
+   for(const pool of batteryPools){
+    const id=pool[round];
+    if(!id||usedQuestionIds.has(id))continue;
+    usedQuestionIds.add(id);batteryIds.push(id);
+    if(batteryIds.length===10)break;
+   }
+  }
   const count=el('p','results-concept-count',rows.length+' atividades neste concurso'+
    (selectedSubject?' e matéria':'')+' · mostrando '+Math.min(6,rows.length)+' de '+rows.length);
   const footer=el('div','results-concepts-footer');
@@ -551,11 +562,27 @@ function renderAdaptive(plan) {
    count.textContent=rows.length+' atividades neste concurso'+(selectedSubject?' e matéria':'')+
     ' · mostrando '+Math.min(visibleCount,rows.length)+' de '+rows.length;
    footer.replaceChildren();
+   const batch=el('button','results-concept-more','Criar bateria de 10 questões');
+   batch.type='button';
+   batch.disabled=batteryIds.length<10;
+   if(batch.disabled)batch.title='A fila tem '+batteryIds.length+' questões indicadas; são necessárias 10 para criar a bateria.';
+   batch.addEventListener('click',()=>{
+    if(batteryIds.length<10)return;
+    const params=new URLSearchParams({concurso:current?.concursoId||select.value,questoes:batteryIds.join(',')});
+    const destination=new URL('questoes.html',location.href);
+    destination.hash=params.toString();
+    location.assign(destination.href);
+   });
+   footer.append(batch);
+   if(batch.disabled)footer.append(el('span','results-caption','Disponíveis: '+batteryIds.length+' de 10 questões.'));
    if(rows.length>visibleCount){
     const more=el('button','results-concept-more','Mostrar mais '+Math.min(6,rows.length-visibleCount)+' atividades');
     more.type='button';
     more.addEventListener('click',()=>{visibleCount+=6;showPage();});
     footer.append(more);
+    const all=el('button','results-concept-more','Mostrar tudo');
+    all.type='button';all.addEventListener('click',()=>{visibleCount=rows.length;showPage();});
+    footer.append(all);
    }else if(rows.length>6){
     const less=el('button','results-concept-more','Mostrar menos');
     less.type='button';less.addEventListener('click',()=>{visibleCount=6;showPage();});

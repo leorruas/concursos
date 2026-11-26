@@ -562,7 +562,7 @@ function offerRecommendedBatch() {
  if (!params.has('questoes')) return;
  const exam = params.get('concurso');
  const ids = [...new Set(params.get('questoes').split(','))];
- if (exam==='dataprev-2026' || ids.length > 6 || !ids.every(id => {
+ if (exam==='dataprev-2026' || ids.length > 10 || !ids.every(id => {
   const q = data.map.get(id);
   return q?.concursoId === exam && q.format === 'CE' && !q.annulled;
  })) {

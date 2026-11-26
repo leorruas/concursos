@@ -213,6 +213,10 @@ São scripts clássicos compartilhando funções/variáveis globais. Não são m
 
 A numeração dos nomes não basta: `08-provas.js` vem antes de `07-router-init.js` no HTML. As bibliotecas externas carregadas são Marked, Mermaid e KaTeX/auto-render. Marked e Mermaid usam URLs sem versão fixa; disponibilidade e mudanças externas podem afetar a interface sem alteração dos scripts locais.
 
+### Páginas independentes de resultados e questões
+
+`resultados.html` carrega `web/13-results-ui.js`, que projeta as recomendações autenticadas em atividades de revisão e as filtra pela matéria selecionada. Na página de Revisões, a fila mostra seis itens inicialmente; “Mostrar mais” acrescenta seis, “Mostrar tudo” revela o restante e a bateria é montada em rodízio pelas atividades filtradas, sem repetir IDs, com até dez questões indicadas (itens novos e retestes). A ação só fica habilitada quando há dez IDs disponíveis. `questoes.html` carrega `web/15-questoes-ui.js`, que valida o concurso, formato e catálogo antes de abrir a bateria; a rota de bateria recomendada aceita até dez itens. Essas telas não alteram históricos ao simplesmente abrir a bateria; as respostas só são registradas pelo fluxo normal de resolução.
+
 ### JavaScript embutido em index.html
 
 **Entrada:** tema salvo, preferência do sistema e estado da raiz/DOM. **Faz:** aplica tema antecipadamente, mostra loader inicial/transição e publica `CONCURSOS_FINALIZAR_CARREGAMENTO`, `CONCURSOS_MOSTRAR_TRANSICAO` e `CONCURSOS_FINALIZAR_TRANSICAO`. **Efeitos:** classes, elementos e timers, incluindo fallback de 10 segundos. **Consumidores:** core, article-navigation e router-init. O loader desaparecer por timeout não prova que dados/renderização concluíram corretamente.

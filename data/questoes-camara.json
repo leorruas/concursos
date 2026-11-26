@@ -95270,6 +95270,376 @@
         "caseId": "cam-cpl-exp26-conjunta-interpretacao-especifica"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-representativa-convocacao-mandato",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.2 Resolução nº 3/1990 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-4e9b8c207d16f53a",
+      "conceptId": "mandato-da-comissao-representativa",
+      "mechanism": "representativa-convocacao-mandato",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990.md",
+        "section": "1. Natureza, composição e eleição: arts. 1º a 6º"
+      },
+      "theoryRefs": [
+        "article:art-4e9b8c207d16f53a#1. Natureza, composição e eleição: arts. 1º a 6º"
+      ],
+      "statement": "Antes do recesso de julho, Senado e Câmara elegeram seus representantes para a Comissão Representativa nas respectivas últimas sessões ordinárias do período. No recesso, o Congresso foi convocado extraordinariamente para apreciar uma matéria. Uma senadora indicada para integrar missão do Executivo pediu autorização, e havia providência administrativa urgente para a qual os membros da Mesa competente estavam impedidos.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA convocação extraordinária suspende os mandatos dos integrantes da Comissão Representativa até o encerramento dos trabalhos do Congresso.",
+      "correctAnswer": "E",
+      "explanation": "A Comissão Representativa exerce mandato no recesso que sucede sua composição, excluídas as sessões preparatórias pertinentes. A convocação extraordinária tem regra expressa de não suspensão do mandato. O término do recesso é um marco diferente da convocação extraordinária durante o período. Resolução nº 3/1990 do Congresso Nacional, arts. 2º e 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-recesso-e-missao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-representativa-missao-reserva-mesas",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.2 Resolução nº 3/1990 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-4e9b8c207d16f53a",
+      "conceptId": "missao-parlamentar-e-competencia-reservada",
+      "mechanism": "representativa-missao-reserva-mesas",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990.md",
+        "section": "2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      },
+      "theoryRefs": [
+        "article:art-4e9b8c207d16f53a#2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      ],
+      "statement": "Antes do recesso de julho, Senado e Câmara elegeram seus representantes para a Comissão Representativa nas respectivas últimas sessões ordinárias do período. No recesso, o Congresso foi convocado extraordinariamente para apreciar uma matéria. Uma senadora indicada para integrar missão do Executivo pediu autorização, e havia providência administrativa urgente para a qual os membros da Mesa competente estavam impedidos.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA Comissão Representativa tem atribuição para autorizar missão do Executivo a parlamentar, observada a ressalva de competência das Mesas das Casas e de seus membros.",
+      "correctAnswer": "C",
+      "explanation": "A autorização da missão está entre as competências da Comissão Representativa, ressalvadas as das Mesas e de seus integrantes. A convocação extraordinária não altera essa distribuição nem suspende o mandato. Licença parlamentar está submetida à mesma ressalva. Resolução nº 3/1990 do Congresso Nacional, arts. 4º e 7º, V.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-recesso-e-missao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-representativa-administracao-urgencia",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.2 Resolução nº 3/1990 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-4e9b8c207d16f53a",
+      "conceptId": "urgencia-e-impedimento-das-mesas",
+      "mechanism": "representativa-administracao-urgencia",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990.md",
+        "section": "2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      },
+      "theoryRefs": [
+        "article:art-4e9b8c207d16f53a#2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      ],
+      "statement": "Antes do recesso de julho, Senado e Câmara elegeram seus representantes para a Comissão Representativa nas respectivas últimas sessões ordinárias do período. No recesso, o Congresso foi convocado extraordinariamente para apreciar uma matéria. Uma senadora indicada para integrar missão do Executivo pediu autorização, e havia providência administrativa urgente para a qual os membros da Mesa competente estavam impedidos.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA urgência e o impedimento descritos permitem à Comissão exercer a competência administrativa da Mesa para essa providência.",
+      "correctAnswer": "C",
+      "explanation": "A atuação administrativa substitutiva depende de urgência e de ausência ou impedimento dos membros das Mesas. Ambos os requisitos estão presentes. O simples recesso, com a Mesa apta a atuar, não transferiria sua competência administrativa. Resolução nº 3/1990 do Congresso Nacional, art. 7º, VI.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 99,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-recesso-e-missao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-representativa-autarquia-atos-controle",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.2 Resolução nº 3/1990 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-4e9b8c207d16f53a",
+      "conceptId": "controle-da-administracao-indireta-no-recesso",
+      "mechanism": "representativa-autarquia-atos-controle",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990.md",
+        "section": "2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      },
+      "theoryRefs": [
+        "article:art-4e9b8c207d16f53a#2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      ],
+      "statement": "Durante o recesso, a Comissão Representativa apurava atos de uma autarquia federal. A comissão pretende convocar o ministro responsável, embora as Mesas das Casas interessadas estejam aptas a atuar. Também foi identificado ato normativo do Executivo que excede a delegação legislativa e que, segundo os elementos do caso, exige sustação cautelar urgente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA disponibilidade das Mesas não impede a fiscalização dos atos da autarquia pela Comissão Representativa.",
+      "correctAnswer": "C",
+      "explanation": "A fiscalização da administração direta e indireta integra a competência própria da Comissão. O impedimento das Mesas é condição prevista para certos instrumentos, entre os quais a convocação de ministro. A autarquia não sai do alcance fiscalizatório por integrar a administração indireta. Resolução nº 3/1990 do Congresso Nacional, art. 7º, VII e IX.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 99,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-duas-competencias-no-recesso"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-representativa-convocacao-mesas-aptas",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.2 Resolução nº 3/1990 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-4e9b8c207d16f53a",
+      "conceptId": "convocacao-ministro-impedimento-das-mesas",
+      "mechanism": "representativa-convocacao-mesas-aptas",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990.md",
+        "section": "2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      },
+      "theoryRefs": [
+        "article:art-4e9b8c207d16f53a#2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      ],
+      "statement": "Durante o recesso, a Comissão Representativa apurava atos de uma autarquia federal. A comissão pretende convocar o ministro responsável, embora as Mesas das Casas interessadas estejam aptas a atuar. Também foi identificado ato normativo do Executivo que excede a delegação legislativa e que, segundo os elementos do caso, exige sustação cautelar urgente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA competência para fiscalizar a autarquia torna dispensável confirmar o impedimento das Mesas para que a Comissão convoque o ministro.",
+      "correctAnswer": "E",
+      "explanation": "A regra de convocação pela Comissão Representativa exige impedimento das Mesas das Casas interessadas. A fiscalização geral de atos do Executivo não tem a mesma condição e pode prosseguir. A convocação seria examinada de outro modo se houvesse o impedimento previsto no inciso IX. Resolução nº 3/1990 do Congresso Nacional, art. 7º, VII e IX.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-duas-competencias-no-recesso"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-representativa-sustacao-cautelar",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.2 Resolução nº 3/1990 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-4e9b8c207d16f53a",
+      "conceptId": "sustacao-cautelar-de-excesso-normativo",
+      "mechanism": "representativa-sustacao-cautelar",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990.md",
+        "section": "2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      },
+      "theoryRefs": [
+        "article:art-4e9b8c207d16f53a#2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      ],
+      "statement": "Durante o recesso, a Comissão Representativa apurava atos de uma autarquia federal. A comissão pretende convocar o ministro responsável, embora as Mesas das Casas interessadas estejam aptas a atuar. Também foi identificado ato normativo do Executivo que excede a delegação legislativa e que, segundo os elementos do caso, exige sustação cautelar urgente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNo caso descrito, a Comissão pode deliberar sobre a sustação cautelar do ato normativo durante o recesso.",
+      "correctAnswer": "C",
+      "explanation": "A deliberação cautelar cabe quando o ato exorbita o poder regulamentar ou os limites da delegação e a medida urgente é necessária. O contexto reúne excesso e urgência. Discordar politicamente de ato situado nos limites da delegação não satisfaria as condições. Constituição Federal, art. 49, V, e Resolução nº 3/1990 do Congresso Nacional, art. 7º, IV, a.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 101,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-duas-competencias-no-recesso"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-representativa-acordo-oitavo-util",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.2 Resolução nº 3/1990 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-4e9b8c207d16f53a",
+      "conceptId": "prazo-de-acordo-internacional-pos-recesso",
+      "mechanism": "representativa-acordo-oitavo-util",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990.md",
+        "section": "2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      },
+      "theoryRefs": [
+        "article:art-4e9b8c207d16f53a#2. Competências do art. 7º: o verbo e a condição fazem diferença"
+      ],
+      "statement": "Durante o recesso, a Comissão Representativa recebeu acordo internacional cujo prazo para manifestação do Brasil vence no oitavo dia útil após o fim do recesso. Os membros receberam, treze horas antes, aviso com dia, hora, local e pauta. Na hora marcada, havia seis deputados e cinco senadores integrantes da Comissão.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO vencimento posterior ao recesso ainda está dentro do intervalo em que a Comissão pode deliberar sobre esse acordo, atendidas as demais condições.",
+      "correctAnswer": "C",
+      "explanation": "A competência alcança acordo com prazo de manifestação durante o recesso ou nos dez dias úteis seguintes a seu término. O oitavo dia útil entra no intervalo. O décimo primeiro ficaria fora dessa hipótese, mesmo que o assunto já estivesse em pauta. Resolução nº 3/1990 do Congresso Nacional, art. 7º, IV, d.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-prazo-acordo-e-deliberacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-representativa-aviso-e-abertura",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.2 Resolução nº 3/1990 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-4e9b8c207d16f53a",
+      "conceptId": "convocacao-e-quorum-de-abertura-no-recesso",
+      "mechanism": "representativa-aviso-e-abertura",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990.md",
+        "section": "3. Convocação e sessões: art. 8º"
+      },
+      "theoryRefs": [
+        "article:art-4e9b8c207d16f53a#3. Convocação e sessões: art. 8º"
+      ],
+      "statement": "Durante o recesso, a Comissão Representativa recebeu acordo internacional cujo prazo para manifestação do Brasil vence no oitavo dia útil após o fim do recesso. Os membros receberam, treze horas antes, aviso com dia, hora, local e pauta. Na hora marcada, havia seis deputados e cinco senadores integrantes da Comissão.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO aviso e a presença atendem aos mínimos para iniciar a reunião, consideradas as informações fornecidas.",
+      "correctAnswer": "C",
+      "explanation": "A comunicação antecede a reunião em pelo menos doze horas. Para iniciar, exige-se um terço dos integrantes de cada Casa na Comissão, isto é, três senadores e seis deputados. O aviso de treze horas e a presença de cinco senadores e seis deputados bastam para abrir. Para votar, seria preciso atingir nove deputados e quatro senadores. Resolução nº 3/1990 do Congresso Nacional, arts. 8º a 10.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-prazo-acordo-e-deliberacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-representativa-deputados-votacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.2 Resolução nº 3/1990 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-4e9b8c207d16f53a",
+      "conceptId": "quorum-deliberativo-separado-na-comissao-representativa",
+      "mechanism": "representativa-deputados-votacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990.md",
+        "section": "4. Quóruns de início e votação: arts. 9º e 10"
+      },
+      "theoryRefs": [
+        "article:art-4e9b8c207d16f53a#4. Quóruns de início e votação: arts. 9º e 10"
+      ],
+      "statement": "Durante o recesso, a Comissão Representativa recebeu acordo internacional cujo prazo para manifestação do Brasil vence no oitavo dia útil após o fim do recesso. Os membros receberam, treze horas antes, aviso com dia, hora, local e pauta. Na hora marcada, havia seis deputados e cinco senadores integrantes da Comissão.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO comparecimento de cinco senadores permite compensar a presença de seis deputados para deliberar sobre o acordo.",
+      "correctAnswer": "E",
+      "explanation": "A deliberação requer maioria absoluta em cada delegação da Comissão. Dos sete senadores, devem comparecer quatro. Dos dezesseis deputados, nove. O excesso de senadores sobre seu limiar não compensa a falta de deputados. Com nove deputados e cinco senadores, a presença permitiria deliberar. Resolução nº 3/1990 do Congresso Nacional, arts. 9º e 10.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-prazo-acordo-e-deliberacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-representativa-placar-agregado",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.2 Resolução nº 3/1990 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-4e9b8c207d16f53a",
+      "conceptId": "resultado-por-casa-na-comissao-representativa",
+      "mechanism": "representativa-placar-agregado",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990.md",
+        "section": "4. Quóruns de início e votação: arts. 9º e 10"
+      },
+      "theoryRefs": [
+        "article:art-4e9b8c207d16f53a#4. Quóruns de início e votação: arts. 9º e 10"
+      ],
+      "statement": "Em outra reunião da Comissão Representativa, os dez deputados presentes dividiram-se igualmente: cinco a favor e cinco contra. Dos cinco senadores presentes, quatro votaram a favor e um contra. A Presidência anunciou um placar agregado favorável.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO resultado agregado de nove votos favoráveis contra seis contrários permite considerar aprovada a proposta.",
+      "correctAnswer": "E",
+      "explanation": "Os votos são computados separadamente por delegação. A maioria favorável dos senadores não supre o empate entre os deputados. Nenhum dos lados na representação da Câmara obteve maioria. Para aprovação, cada Casa deveria formar maioria favorável entre seus votos, com presença qualificada. Resolução nº 3/1990 do Congresso Nacional, art. 10.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 102,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "efeito",
+        "caseId": "cam-cpl-exp26-representativa-votos-antagonicos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
     }
   ]
 }

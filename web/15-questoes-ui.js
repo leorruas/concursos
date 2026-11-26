@@ -8,6 +8,7 @@ const privateOrigin=location.origin===WORKER;
 let cguCatalogLoaded=false;
 let data=null,session=null,loggedIn=false,manifest=new Map(),chapterCatalog=null,shownAt=null;
 let seenByContest=new Map(), retestsByContest=new Map(), reviewQueueLoaded=new Set(), suggestionRequest=0;
+let reservedQuestionIds=new Set();
 const singleSubjectRanges=new Map();
 const contentOrder=new Intl.Collator('pt-BR',{numeric:true});
 const elem=(tag,text)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=String(text);return e;};
@@ -96,19 +97,12 @@ function markSynced(attemptId){
 
 function shuffle(a){let x=a.slice();for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]];}return x;}
 function contest(){return data?.contests.find(c=>c.id===$('qs-concurso').value);}
-function available(){return data?.questions.filter(q=>q.concursoId===contest()?.id&&q.format==='CE'&&(!q.officialSource||loggedIn))||[];}
+function available(){return data?.questions.filter(q=>q.concursoId===contest()?.id&&q.format==='CE'&&!reservedQuestionIds.has(q.id)&&(!q.officialSource||loggedIn))||[];}
 function answeredQuestionIds(contestId){
  return new Set(storeRead().filter(s=>s.concursoId===contestId).flatMap(s=>(s.answers||[]).map(a=>a.questionId)));
 }
 function retestQuestionIds(contestId){
- const daysByQuestion=new Map(),studyDay=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo'});
- for(const session of storeRead().filter(s=>s.concursoId===contestId))for(const attempt of session.answers||[]){
-  const when=Number(attempt.answeredAt);
-  if(!['correct','incorrect'].includes(attempt.result)||!Number.isFinite(when)||when<=0)continue;
-  if(!daysByQuestion.has(attempt.questionId))daysByQuestion.set(attempt.questionId,new Set());
-  daysByQuestion.get(attempt.questionId).add(studyDay.format(when));
- }
- const ids=new Set([...daysByQuestion].filter(([,days])=>days.size>=2).map(([questionId])=>questionId));
+ const ids=new Set();
  for(const bySubject of retestsByContest.get(contestId)?.values()||[])for(const id of bySubject)ids.add(id);
  return ids;
 }
@@ -117,6 +111,12 @@ function customSubjects(){
 }
 function eligible(){
  let a=available();
+ const mode=selected('qs-mode'),examId=contest()?.id;
+ if(mode==='reteste'){
+  const retests=retestQuestionIds(examId);
+  const seen=new Set([...answeredQuestionIds(examId),...(seenByContest.get(examId)||[])]);
+  a=a.filter(q=>retests.has(q.id)&&!seen.has(q.id));
+ }
  const scope=selected('qs-scope');
  if(scope==='custom'){
   const subjects=customSubjects();
@@ -131,7 +131,8 @@ function eligible(){
    a=a.filter(q=>!seen.has(q.id));
   }else if(filter==='retests'){
    const retests=retestQuestionIds(examId);
-   a=a.filter(q=>retests.has(q.id));
+   const seen=new Set([...answeredQuestionIds(examId),...(seenByContest.get(examId)||[])]);
+   a=a.filter(q=>retests.has(q.id)&&!seen.has(q.id));
   }
  }
  const level=$('qs-difficulty-filter').value;
@@ -201,6 +202,27 @@ function updateUnits(){
 }
 function availability(){
  const focused=selected('qs-scope')==='single', custom=selected('qs-scope')==='custom';
+ const mode=selected('qs-mode'),assessmentMode=mode==='avaliacao',retestMode=mode==='reteste';
+ toggle('qs-assessment-options',assessmentMode);
+ toggle('qs-scope-field',!assessmentMode);toggle('qs-custom-wrap',!assessmentMode&&custom);
+ toggle('qs-specific-range',!assessmentMode&&focused);
+ toggle('qs-count-field',!assessmentMode);toggle('qs-difficulty-field',!assessmentMode);
+ $('qs-count').disabled=assessmentMode;$('qs-difficulty-filter').disabled=assessmentMode;
+ const assessmentRadio=document.querySelector('input[name="qs-mode"][value="avaliacao"]');
+ assessmentRadio.disabled=!privateOrigin||!loggedIn;
+ $('qs-mode-description').textContent=assessmentMode
+  ?'Bateria fixa de 100 questões reservadas. Sem consulta e sem correção antes do envio final.'
+  :retestMode?'Questões inéditas do mesmo conceito, liberadas quando o ciclo de revisão vence.'
+  :'Resolva e veja a explicação após cada resposta.';
+ if(assessmentMode){
+  const canStart=privateOrigin&&loggedIn&&contest()?.id==='camara-2026';
+  $('qs-availability').textContent=!privateOrigin?'Avaliação independente disponível somente na versão autenticada do estudo.'
+   :!loggedIn?'Entre com GitHub para iniciar uma avaliação independente.'
+   :contest()?.id!=='camara-2026'?'Selecione Câmara dos Deputados para esta bateria reservada.'
+   :'100 questões inéditas reservadas para esta bateria.';
+  $('qs-start').disabled=!canStart;
+  return;
+ }
  toggle('qs-custom-wrap',custom);
  toggle('qs-materia-wrap',focused);
  toggle('qs-content-filter-wrap',focused);
@@ -215,10 +237,10 @@ function availability(){
  const contentFilter=focused?(selected('qs-content-filter')||'algorithm'):'algorithm';
  if(focused&&contentFilter==='unanswered')$('qs-content-filter-description').textContent='Filtra questões sem resposta nem exposição registradas no histórico consultado. Isso não significa que entraram recentemente no catálogo.';
  else if(focused&&contentFilter==='retests'){
-  $('qs-content-filter-description').textContent='Filtra questões respondidas em dias diferentes ou indicadas como reteste pela fila de revisão sincronizada.';
+  $('qs-content-filter-description').textContent='Filtra itens ainda não expostos de conceitos liberados pela fila de revisão sincronizada.';
   if(!n){
-   if(loggedIn&&!reviewQueueLoaded.has(contest()?.id))$('qs-availability').textContent='Consultando o histórico sincronizado para localizar retestes desta matéria.';
-   else if(!loggedIn&&!retestQuestionIds(contest()?.id).size)$('qs-availability').textContent='Não há retestes registrados em dias diferentes neste navegador. Entre na versão autenticada para consultar a fila sincronizada.';
+   if(loggedIn&&!reviewQueueLoaded.has(contest()?.id))$('qs-availability').textContent='Consultando a fila privada para localizar retestes vencidos desta matéria.';
+   else if(!loggedIn&&!retestQuestionIds(contest()?.id).size)$('qs-availability').textContent='Entre na versão autenticada para consultar a fila privada de retestes vencidos.';
    else $('qs-availability').textContent='Não há retestes neste recorte. Amplie os capítulos ou consulte outra matéria.';
   }
  }else if(focused)$('qs-content-filter-description').textContent='O algoritmo continua escolhendo a bateria como de costume.';
@@ -226,6 +248,11 @@ function availability(){
  const subjects=custom?customSubjects():new Set();
  if(custom && subjects.size<2) $('qs-availability').textContent='Selecione pelo menos duas matérias.';
  else if(custom && amounts.size<subjects.size) $('qs-availability').textContent='Uma das matérias selecionadas ficou sem itens. Ajuste a dificuldade ou a seleção.';
+ if(retestMode&&!n)$('qs-availability').textContent=!loggedIn
+  ?'Entre na versão autenticada para consultar a fila privada de retestes vencidos.'
+  :!reviewQueueLoaded.has(contest()?.id)
+   ?'Consultando a fila sincronizada para verificar se há retestes vencidos.'
+   :'Não há retestes vencidos com questão diferente neste recorte.';
  $('qs-start').disabled=n<1||(custom&&(subjects.size<2||amounts.size<subjects.size));
 }
 function choose(n, pool=eligible()){
@@ -266,7 +293,7 @@ function renderSuggestions(review,repeat){
   button.addEventListener('click',()=>start(ids,mode));
   list.append(button);
  }
- if(review)offer('Revisar erros e dúvidas',review.title,review.questionIds);
+ if(review)offer('Reteste de conceitos vencidos',review.title,review.questionIds,'reteste');
  else if(repeat)offer('Refazer questão anterior',repeat.title,[repeat.repeatQuestionId]);
  offer('Diagnóstico misto','Questões distribuídas entre matérias de '+exam.nome+'.',choose(10,pool));
  const official=loggedIn?pool.filter(q=>q.officialSource&&!seen.has(q.id)):[];
@@ -282,8 +309,8 @@ function renderSuggestions(review,repeat){
   offer(authorIds.length?'Praticar oficiais e autorais':'Praticar questões oficiais',description,
    [...officialIds,...authorIds]);
  }
- offer('Praticar caso compartilhado','Julgue itens sobre o mesmo cenário. A correção aparece ao final.',
-  loggedIn&&!seenByContest.has(exam.id)?[]:sharedCasePracticeIds(pool,seen),'simulado');
+ offer('Praticar caso compartilhado','Julgue itens sobre o mesmo cenário. A correção aparece após cada resposta.',
+  loggedIn&&!seenByContest.has(exam.id)?[]:sharedCasePracticeIds(pool,seen),'aprendizagem');
  toggle('qs-suggestions',list.childElementCount>0);
 }
 async function updateSuggestions(){
@@ -300,10 +327,11 @@ async function updateSuggestions(){
   if(Array.isArray(adaptive?.exposedQuestionIds))
    seenByContest.set(exam,new Set(adaptive.exposedQuestionIds));
   const local=new Set(storeRead().filter(s=>s.concursoId===exam).flatMap(s=>s.answers.map(a=>a.questionId)));
-  const pending=(adaptive?.recommendations||[]).filter(item=>item.state==='review-pending');
+  const pending=(adaptive?.recommendations||[]).filter(item=>item.state==='review-pending'&&
+   typeof item.nextReview==='string'&&item.nextReview<=adaptive.asOf);
   const valid=id=>{
    const question=data.map.get(id);
-   return question?.concursoId===exam&&question.format==='CE'&&!question.annulled;
+   return question?.concursoId===exam&&question.format==='CE'&&!question.annulled&&!reservedQuestionIds.has(id);
   };
   const topics=pending.map(item=>({
    title:item.title,
@@ -326,23 +354,43 @@ async function updateSuggestions(){
     'Questões inéditas de '+includedTopics.size+' temas da sua fila de revisão.'
   }:null;
   const retests=new Map();
-  for(const item of pending){
-   const q=data.map.get(item.repeatQuestionId);
-   if(!q||q.concursoId!==exam||q.format!=='CE'||q.annulled)continue;
+  for(const id of questionIds){
+   const q=data.map.get(id);if(!q)continue;
    if(!retests.has(q.subjectId))retests.set(q.subjectId,new Set());
    retests.get(q.subjectId).add(q.id);
   }
   retestsByContest.set(exam,retests);
   reviewQueueLoaded.add(exam);
-  const repeat=pending.find(item=>valid(item.repeatQuestionId));
+  const repeat=(adaptive?.recommendations||[]).find(item=>item.state==='review-pending'&&valid(item.repeatQuestionId));
   renderSuggestions(review,repeat);
   availability();
  }catch{
   if(request===suggestionRequest){renderSuggestions();availability();}
  }
 }
-function start(recommended, directedMode='simulado'){
+async function startAssessment(){
+ if(!privateOrigin||!loggedIn||contest()?.id!=='camara-2026'){status('Entre na versão autenticada e selecione Câmara dos Deputados.');return;}
+ const poolId=$('qs-assessment-pool').value;
+ const localExposureIds=[...new Set(storeRead().flatMap(saved=>saved.ids||[]))].filter(questionId=>reservedQuestionIds.has(questionId));
+ status('Reservando a bateria inédita…');$('qs-start').disabled=true;
+ try{
+  const response=await fetch('/v1/study/assessment',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json','X-Quiz-Sync':'1'},
+   body:JSON.stringify({action:'start',poolId,localExposureIds})});
+  const payload=await response.json();
+  if(!response.ok)throw Error(payload.error||'HTTP '+response.status);
+  const c=contest();session={version:1,id:id(),assessmentSessionId:payload.sessionId,assessmentPoolId:payload.poolId,
+   questions:payload.questions,concursoId:c.id,concursoName:c.nome,directed:true,mode:'avaliacao',scope:'reserved',
+   startedAt:new Date().toISOString(),finishedAt:null,ids:payload.questions.map(q=>q.id),answers:[]};
+  storeWrite();toggle('qs-config',false);toggle('qs-play',true);toggle('qs-summary',false);playing(true);render();readingStart();
+  status('Avaliação independente iniciada. A correção e o gabarito ficam indisponíveis até o envio final.');
+ }catch(error){
+  status('Não foi possível iniciar a avaliação: '+error.message);
+  availability();
+ }
+}
+function start(recommended, directedMode='aprendizagem'){
  const directed=Array.isArray(recommended);
+ if(!directed&&selected('qs-mode')==='avaliacao'){void startAssessment();return;}
  const n=directed?recommended.length:Number($('qs-count').value);if(!Number.isInteger(n)||n<1||n>100){status('Escolha entre 1 e 100 questões.');return;}
  const scope=selected('qs-scope'), custom=!directed&&scope==='custom';
  const pool=directed?null:eligible();
@@ -355,7 +403,7 @@ function start(recommended, directedMode='simulado'){
  const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,directed,mode:directed?directedMode:selected('qs-mode'),scope:directed||custom?'mixed':scope,subjectId:!directed&&selected('qs-scope')==='single'?$('qs-materia').value:null,unitId,questionSelection:!directed&&scope==='single'?(selected('qs-content-filter')||'algorithm'):'algorithm',startedAt:new Date().toISOString(),finishedAt:null,ids:directed?recommended:choose(Math.min(n,availableCount),pool),answers:[]};
  storeWrite();toggle('qs-config',false);toggle('qs-play',true);toggle('qs-summary',false);playing(true);render();readingStart();status('Bateria iniciada. Respostas registradas após cada envio.');
 }
-function question(){return data.map.get(session.ids[session.answers.length]);}
+function question(){return session?.mode==='avaliacao'?session.questions?.[session.answers.length]:data.map.get(session.ids[session.answers.length]);}
 function theory(q){
  if(!q.articleId||!manifest.has(q.articleId))return null;const m=manifest.get(q.articleId),a=elem('a','Revisar artigo: '+(m.tituloExibicao||m.titulo||'ver conteúdo'));a.href=quizArticleLink(q.articleId,q.section||'',session.concursoId);a.target='_blank';a.rel='noopener noreferrer';return a;
 }
@@ -370,7 +418,7 @@ function questionStatement(el,q){
  el.replaceChildren(link,document.createTextNode(' e julgar o enunciado. O PDF abre em outra aba.'));
 }
 function render(){
- if(!session)return;if(session.answers.length>=session.ids.length){finish();return;}
+ if(!session)return;if(session.answers.length>=session.ids.length){void finish();return;}
  const q=question();if(!q){status('Questão indisponível. Encerre esta bateria.');return;}
  $('qs-number').textContent='Questão '+(session.answers.length+1)+' / '+session.ids.length;
  $('qs-context').textContent=(q.examPart||'')+' · '+(q.unitName||q.subjectName||q.subjectId);
@@ -382,8 +430,10 @@ function render(){
  $('qs-consulted').checked=false;
  $('qs-feedback-before').checked=false;
  $('qs-insecure').checked=false;$('qs-insecure').disabled=false;
- toggle('qs-blank-wrap',session.mode==='simulado');toggle('qs-after',false);toggle('qs-feedback',false);toggle('qs-pending',false);toggle('qs-answer-form',true);toggle('qs-answer-metadata',true);toggle('qs-submit-row',true);
- $('qs-consulted').disabled=false;$('qs-feedback-before').disabled=false;
+ toggle('qs-blank-wrap',session.mode==='simulado'||session.mode==='avaliacao');toggle('qs-after',false);toggle('qs-feedback',false);toggle('qs-pending',false);toggle('qs-answer-form',true);toggle('qs-answer-metadata',true);toggle('qs-submit-row',true);
+ toggle('qs-response-context',session.mode!=='avaliacao');
+ $('qs-consulted').checked=false;$('qs-feedback-before').checked=false;
+ $('qs-consulted').disabled=session.mode==='avaliacao';$('qs-feedback-before').disabled=session.mode==='avaliacao';
 }
 function questionProvenance(q){
  const label=q.origin==='real'?'Questão oficial':q.calibration?.type==='autoral-calibrada'?
@@ -430,40 +480,71 @@ async function sync(a){
 }
 function answer(ev){
  ev.preventDefault();if(!session||session.finishedAt)return;
- const c=document.querySelector('input[name="qs-answer"]:checked');if(!c){status('Marque Certo ou Errado para registrar.');return;}
+ const c=document.querySelector('input[name="qs-answer"]:checked');if(!c){status('Marque Certo, Errado ou Em branco para registrar.');return;}
  const q=question();if(!q)return;const v=c.value,blank=v==='blank';
  const elapsed=shownAt===null?null:Math.round(performance.now()-shownAt);
  const responseMs=elapsed!==null&&elapsed>=0&&elapsed<=86400000?elapsed:null;
  shownAt=null;
- const a={responseMs,consulted:$('qs-consulted').checked,feedbackBefore:$('qs-feedback-before').checked,id:id(),sessionId:session.id,concursoId:session.concursoId,questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:session.mode,answer:blank?null:v,correctAnswer:q.correctAnswer,result:blank?'blank':v===q.correctAnswer?'correct':'incorrect',confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',answeredAt:Date.now(),synced:false};
- session.answers.push(a);storeWrite();sync(a);
+ const a=session.mode==='avaliacao'
+  ?{responseMs,id:id(),sessionId:session.assessmentSessionId,concursoId:session.concursoId,questionId:q.id,answer:blank?null:v,
+    confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',mode:'avaliacao',answeredAt:Date.now(),synced:false}
+  :{responseMs,consulted:$('qs-consulted').checked,feedbackBefore:$('qs-feedback-before').checked,id:id(),sessionId:session.id,concursoId:session.concursoId,questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:session.mode,answer:blank?null:v,correctAnswer:q.correctAnswer,result:blank?'blank':v===q.correctAnswer?'correct':'incorrect',confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',answeredAt:Date.now(),synced:false};
+ session.answers.push(a);storeWrite();if(session.mode!=='avaliacao')sync(a);
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>e.disabled=true);
  $('qs-insecure').disabled=true;$('qs-consulted').disabled=true;$('qs-feedback-before').disabled=true;
  // Preserva a alternativa escolhida para o leitor comparar com o gabarito.
  toggle('qs-answer-metadata',false);toggle('qs-submit-row',false);
  toggle('qs-after',true);
- if(session.mode==='aprendizagem')feedback(q,a);
+ if(session.mode==='aprendizagem'||session.mode==='reteste')feedback(q,a);
  else toggle('qs-pending',true);
  $('qs-next').textContent=session.answers.length===session.ids.length?'Ver resultado':'Próxima questão';
  // Não deslocar a leitura automaticamente para longe do enunciado.
  $('qs-next').focus({preventScroll:true});
- status('Resposta registrada. '+(session.mode==='simulado'?'Correção disponível ao final.':'Confira o comentário junto ao enunciado.'));
+ status('Resposta registrada. '+(session.mode==='avaliacao'?'Correção disponível ao final.':'Confira o comentário junto ao enunciado.'));
 }
-function finish(){
- if(!session)return;if(!session.finishedAt){session.finishedAt=new Date().toISOString();storeWrite();}
+async function finish(){
+ if(!session||session.finishedAt||session.finishing)return;
+ if(session.mode==='avaliacao'){
+  session.finishing=true;status('Enviando respostas e corrigindo a bateria…');
+  const saved=new Map(session.answers.map(a=>[a.questionId,a]));
+  const answers=session.ids.map(questionId=>{const a=saved.get(questionId);return {
+   questionId,answer:a?.answer??null,confidence:a?.confidence??'unknown',responseMs:a?.responseMs??null
+  };});
+  try{
+   const response=await fetch('/v1/study/assessment',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json','X-Quiz-Sync':'1'},
+    body:JSON.stringify({action:'submit',sessionId:session.assessmentSessionId,answers})});
+   const payload=await response.json();if(!response.ok)throw Error(payload.error||'HTTP '+response.status);
+   session.questions=payload.questions;
+   session.assessmentTotals=payload.totals;
+   session.answers=payload.questions.map(q=>{
+    const previous=saved.get(q.id)||{};data.map.set(q.id,q);data.questions.push(q);
+    return {...previous,id:previous.id||id(),sessionId:session.assessmentSessionId,concursoId:session.concursoId,
+     questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:'avaliacao',
+     answer:q.userAnswer,correctAnswer:q.correctAnswer,result:q.result,confidence:previous.confidence||'unknown',
+     responseMs:previous.responseMs??null,consulted:false,feedbackBefore:false,answeredAt:previous.answeredAt||Date.now(),synced:true};
+   });
+   session.finishing=false;
+  }catch(error){
+   session.finishing=false;storeWrite();status('A correção ainda não foi confirmada: '+error.message+'. Tente enviar novamente.');return;
+  }
+ }
+ if(!session.finishedAt){session.finishedAt=new Date().toISOString();storeWrite();}
  localStorage.removeItem(ACTIVE);toggle('qs-play',false);toggle('qs-config',false);toggle('qs-summary',true);playing(false);
  window.scrollTo({top:0,behavior:'instant'});
- $('qs-result-context').textContent=session.concursoName+' / '+(session.mode==='aprendizagem'?'aprendizagem':'simulado');
+ $('qs-result-context').textContent=session.concursoName+' / '+({aprendizagem:'aprendizagem',reteste:'reteste espaçado',avaliacao:'avaliação independente',simulado:'bateria histórica'}[session.mode]||session.mode);
  const correct=session.answers.filter(a=>a.result==='correct').length;
  const wrong=session.answers.filter(a=>a.result==='incorrect').length;
  const blank=session.answers.filter(a=>a.result==='blank').length;
  const unsure=session.answers.filter(a=>a.result==='correct'&&a.confidence==='insecure').length;
- const percent=session.answers.length?Math.round(100*correct/session.answers.length):0;
+ const percent=session.answers.length?Math.round(100*(session.mode==='avaliacao'?correct-wrong:correct)/session.answers.length):0;
  $('qs-result-percent').textContent=percent+'%';
  $('qs-stats').replaceChildren(...[['Acertos',correct],['Erros',wrong],['Acertos inseguros',unsure],['Em branco',blank]].map(([label,value])=>{
   const box=elem('div');box.append(elem('strong',value),elem('span',label));return box;
  }));
- $('qs-score').textContent=correct+' de '+session.answers.length+' questões. '+(session.concursoId==='camara-2026'?'Saldo C/E: '+(correct-wrong)+'. ':'')+'Treino didático, não equivale à nota oficial.';
+ $('qs-score').textContent=session.mode==='avaliacao'
+  ?'Pontuação líquida: '+(session.assessmentTotals?.net??(correct-wrong))+' / '+session.answers.length+
+   '. A meta de 95% corresponde a 171/180 na prova completa; esta bateria mede apenas o pool reservado.'
+  :correct+' de '+session.answers.length+' questões. '+(session.concursoId==='camara-2026'?'Saldo C/E: '+(correct-wrong)+'. ':'')+'Desempenho de aprendizagem, não equivale à nota oficial.';
  const difficultyGroups=new Map();
  for(const a of session.answers){
   const q=data.map.get(a.questionId),k=q?.estimatedDifficulty||'sem-classificacao';
@@ -502,7 +583,7 @@ function finish(){
 }
 function resume(){
  const key=localStorage.getItem(ACTIVE),s=storeRead().find(x=>x.id===key&&!x.finishedAt);
- if(!s||!s.ids.every(x=>data.map.has(x)))return;
+ if(!s||(s.mode==='avaliacao'?(!Array.isArray(s.questions)||!s.assessmentSessionId):!s.ids.every(x=>data.map.has(x))))return;
  session=s;if([...$('qs-concurso').options].some(o=>o.value===s.concursoId)) $('qs-concurso').value=s.concursoId;updateSubjects();toggle('qs-config',false);toggle('qs-play',true);playing(true);render();readingStart();status('Bateria anterior retomada.');
 }
 function exportJson(){
@@ -584,7 +665,7 @@ function offerRecommendedBatch() {
   updateSubjects();
   toggle('qs-recommended',false);
   history.replaceState(null, '', location.pathname + location.search);
-  start(ids,repeat?'aprendizagem':'simulado');
+  start(ids,'aprendizagem');
  });
  toggle('qs-recommended',true);
 }
@@ -593,6 +674,7 @@ async function init(){
  $('qs-login').addEventListener('click',saveBatchForLogin);
  $('qs-custom').addEventListener('change',availability);
  $('qs-concurso').addEventListener('change',()=>{updateSubjects();updateSuggestions();});$('qs-materia').addEventListener('change',updateUnits);
+ document.querySelectorAll('input[name="qs-mode"]').forEach(input=>input.addEventListener('change',availability));
  $('qs-capitulo').addEventListener('input',()=>{updateChapterDisplay();availability();});
  $('qs-capitulo-prev').addEventListener('click',()=>{$('qs-capitulo').value=String(Math.max(Number($('qs-capitulo').min),Number($('qs-capitulo').value)-1));updateChapterDisplay();availability();});
  $('qs-capitulo-next').addEventListener('click',()=>{$('qs-capitulo').value=String(Math.min(Number($('qs-capitulo').max),Number($('qs-capitulo').value)+1));updateChapterDisplay();availability();});
@@ -616,7 +698,17 @@ async function init(){
  try{
   const r=await fetch('data/questoes-publicas.json',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);data=await r.json();
   if(data.version!==1||!Array.isArray(data.questions)||!Array.isArray(data.contests))throw Error('Formato do banco inválido.');
+  const reserveResponse=await fetch('data/avaliacao-reservada-camara-2026.json',{cache:'no-store'});
+  if(!reserveResponse.ok)throw Error('Lista de reserva da avaliação indisponível.');
+  const reserve=await reserveResponse.json();
+  if(reserve.schemaVersion!==1||reserve.contestId!=='camara-2026'||!Array.isArray(reserve.reservedQuestionIds)||
+   new Set(reserve.reservedQuestionIds).size!==reserve.reservedQuestionIds.length)throw Error('Lista de reserva inválida.');
+  reservedQuestionIds=new Set(reserve.reservedQuestionIds);
+  const locallyKnown=new Set(storeRead().flatMap(saved=>saved.ids||[]));
+  const reservedFromActiveSessions=data.questions.filter(q=>reservedQuestionIds.has(q.id)&&locallyKnown.has(q.id));
+  data.questions=data.questions.filter(q=>!reservedQuestionIds.has(q.id));
   data.map=new Map(data.questions.map(q=>[q.id,q]));
+  for(const q of reservedFromActiveSessions)data.map.set(q.id,q);
   try{const m=await fetch('manifest.json').then(r=>r.ok?r.json():[]);manifest=new Map(m.filter(x=>x.articleId).map(x=>[x.articleId,x]));}catch{}
   const catalogResponse=await fetch('data/catalogo-materias-por-concurso.json',{cache:'no-store'});
   if(!catalogResponse.ok)throw Error('Catálogo editorial indisponível (HTTP '+catalogResponse.status+').');

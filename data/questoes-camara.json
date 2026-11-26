@@ -101745,6 +101745,635 @@
         "caseId": "cam-cpl-exp26-solene-inauguracao-poucos"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-relator-vencido-parecer-do-colegiado",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "relator-vencido-e-redacao-do-parecer",
+      "mechanism": "comissao-relator-vencido-parecer-do-colegiado",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "O que acontece entre voto do relator e parecer da comissão"
+      },
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#O que acontece entre voto do relator e parecer da comissão"
+      ],
+      "statement": "Na Câmara, o relator recomenda aprovar projeto com substitutivo. A comissão rejeita a conclusão do relator e adota a posição contrária. Um parlamentar que votou com a maioria é designado para redigir a manifestação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO voto inicialmente apresentado constitui voto em separado, e a redação do parecer deve refletir a posição adotada pela comissão.",
+      "correctAnswer": "C",
+      "explanation": "O voto do relator é proposta ao órgão. Rejeitada a conclusão, a redação cabe ao relator substituto, salvo se vencido ou ausente, hipótese em que o presidente designa outro deputado. A apresentação do voto não vincula o colegiado. Regimento Interno da Câmara, art. 57, XII e XIII.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 121,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-relator-no-colegiado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do procedimentos e recursos da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-mista-votos-com-restricoes",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "votos-favoraveis-com-restricao-em-mista",
+      "mechanism": "comissao-mista-votos-com-restricoes",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      ],
+      "statement": "Dois deputados votam pela conclusão de um parecer de comissão mista, um deles registra ressalvas. Um terceiro junta voto em separado propondo a rejeição. A secretaria precisa distinguir os registros do cômputo favorável.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nOs dois primeiros votos contam a favor da conclusão, apesar da ressalva registrada por um dos deputados.",
+      "correctAnswer": "C",
+      "explanation": "No parecer de comissão mista, votos pelas conclusões e com restrições são considerados favoráveis. O voto em separado não é automaticamente favorável. Sua conclusão deve ser examinada para identificar a posição manifestada. Regimento Comum, art. 15.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 121,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-comissao-voto-com-ressalva"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-mista-merito-apos-inconstitucionalidade",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "exame-de-merito-e-juizo-constitucional",
+      "mechanism": "comissao-mista-merito-apos-inconstitucionalidade",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      ],
+      "statement": "Uma comissão mista sujeita ao rito geral entende que o projeto principal é inconstitucional. Foram apresentadas emendas pertinentes, e a relatoria propõe deixar de examinar seu mérito.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA conclusão pela inconstitucionalidade dispensa a comissão mista de se pronunciar sobre o mérito do projeto e das emendas.",
+      "correctAnswer": "E",
+      "explanation": "No rito geral, a comissão mista deve pronunciar-se sobre o mérito da proposição e das emendas ainda quando conclua pela inconstitucionalidade do principal. A regra de instrução não obriga o Plenário a ignorar o exame preliminar. Regimento Comum, arts. 17 e 37, parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 121,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-parecer-misto-dupla-analise"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-mista-designacao-ausencia-indicacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "escolha-supletiva-na-comissao-mista",
+      "mechanism": "comissao-mista-designacao-ausencia-indicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "2. Comissões mistas: designação, composição e exceções (arts. 9º a 10-B)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#2. Comissões mistas: designação, composição e exceções (arts. 9º a 10-B)"
+      ],
+      "statement": "Na formação de comissão mista submetida à regra geral, as lideranças não indicaram nomes. Como a matéria é relevante para a Câmara, sua Mesa cogita designar diretamente os membros.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA ausência de indicação pelas lideranças desloca a escolha dos membros para a Mesa da Câmara.",
+      "correctAnswer": "E",
+      "explanation": "No rito geral, o Presidente do Senado designa os membros indicados pelas lideranças. Se estas não indicarem, a escolha cabe ao Presidente. A matéria tratar de tema relevante para a Câmara não desloca a competência. Regimento Comum, art. 9º, caput e § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 98,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-designacao-sem-nomes"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-conjunta-irrecorribilidade-regimental",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "recurso-questao-constitucional-versus-regimental",
+      "mechanism": "rec-conjunta-irrecorribilidade-regimental",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      ],
+      "statement": "Em sessão conjunta, a Presidência decide duas questões de ordem. A primeira discute exclusivamente interpretação regimental. A segunda envolve diretamente dispositivo constitucional. A decisão sobre a primeira já foi proclamada, e outro congressista tenta renovar a mesma questão nessa sessão.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNa sessão conjunta, somente a segunda decisão se enquadra na ressalva de recorribilidade prevista no Regimento Comum.",
+      "correctAnswer": "C",
+      "explanation": "A decisão em questão de ordem na sessão conjunta é irrecorrível, salvo quando relacionada a dispositivo constitucional. A primeira dúvida é só regimental. Na Câmara, em sessão da própria Casa, a disciplina da recorribilidade é diferente. Regimento Comum, art. 132, e Regimento Interno da Câmara, art. 95, § 8º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-duas-duvidas-no-congresso"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-conjunta-renovacao-por-outro",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "renovacao-da-questao-por-outro-congressista",
+      "mechanism": "rec-conjunta-renovacao-por-outro",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      ],
+      "statement": "Em sessão conjunta, a Presidência decide duas questões de ordem. A primeira discute exclusivamente interpretação regimental. A segunda envolve diretamente dispositivo constitucional. A decisão sobre a primeira já foi proclamada, e outro congressista tenta renovar a mesma questão nessa sessão.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nOutro congressista pode renovar a primeira questão na mesma sessão porque não foi quem a formulou originalmente.",
+      "correctAnswer": "E",
+      "explanation": "A vedação alcança qualquer congressista que tente renovar, na mesma sessão, questão resolvida pela Presidência. A substituição do autor não resolve a vedação. Regimento Comum, art. 133.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 98,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-duas-duvidas-no-congresso"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-conjunta-comissao-da-casa-recorrente",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "comissao-da-casa-do-recorrente",
+      "mechanism": "rec-conjunta-comissao-da-casa-recorrente",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      ],
+      "statement": "Uma senadora recorre de decisão tomada em sessão conjunta sobre questão de ordem relacionada diretamente a dispositivo constitucional. O Presidente decide encaminhar de ofício a matéria para parecer. Um assessor sugere remeter à Comissão de Constituição e Justiça da Câmara porque a sessão ocorre em seu Plenário.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO local em que se realiza a sessão determina a comissão competente para a análise do recurso.",
+      "correctAnswer": "E",
+      "explanation": "Na sessão conjunta, a remessa para exame recai sobre a Comissão de Constituição e Justiça da Casa a que pertence a recorrente, neste caso o Senado. O Plenário emprestado para a sessão não altera a filiação parlamentar. Regimento Comum, art. 132, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-recurso-constitucional-senadora"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-conjunta-parecer-e-norma-mesa",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "parecer-aprovado-vincula-hipoteses-identicas",
+      "mechanism": "rec-conjunta-parecer-e-norma-mesa",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      ],
+      "statement": "Uma senadora recorre de decisão tomada em sessão conjunta sobre questão de ordem relacionada diretamente a dispositivo constitucional. O Presidente decide encaminhar de ofício a matéria para parecer. Um assessor sugere remeter à Comissão de Constituição e Justiça da Câmara porque a sessão ocorre em seu Plenário.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nSe o Plenário aprovar o parecer da comissão competente, a regra nele fixada deverá ser observada pela Mesa em hipóteses idênticas.",
+      "correctAnswer": "C",
+      "explanation": "A remessa à comissão prepara o parecer. O efeito normativo para hipóteses idênticas depende da aprovação pelo Plenário. Parecer ainda não aprovado não produz esse efeito. Regimento Comum, art. 132, §§ 1º e 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-recurso-constitucional-senadora"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-apensacao-prazo-publicacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "recurso-contra-apensacao-marco",
+      "mechanism": "rec-apensacao-prazo-publicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Apensação: tramitação conjunta sem fusão de textos"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Apensação: tramitação conjunta sem fusão de textos"
+      ],
+      "statement": "O Presidente da Câmara defere a tramitação conjunta de dois projetos da mesma espécie e sobre matéria correlata. O despacho é publicado. Um deputado quer impugná-lo na quarta sessão após a publicação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO despacho é recorrível ao Plenário, e a quarta sessão está dentro do prazo contado da publicação.",
+      "correctAnswer": "C",
+      "explanation": "O recurso contra o despacho de tramitação conjunta tem prazo de cinco sessões contado da publicação. O protocolo do pedido de apensação não começa essa contagem. Regimento Interno da Câmara, art. 142, I.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-apensacao-e-contagem"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do procedimentos e recursos da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-consulta-comissao-objeto-preciso",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "limite-do-pronunciamento-da-comissao-consultada",
+      "mechanism": "rec-consulta-comissao-objeto-preciso",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Manifestação de outra comissão e conflito de competência: arts. 140 e 141"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Manifestação de outra comissão e conflito de competência: arts. 140 e 141"
+      ],
+      "statement": "Uma comissão pede, por escrito, que outra se manifeste sobre um ponto identificado do projeto. O Presidente decide o pedido e publica o despacho. A comissão consultada pretende opinar sobre todo o projeto.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nUma vez recebida a solicitação, a comissão consultada pode estender seu pronunciamento a todo o projeto.",
+      "correctAnswer": "E",
+      "explanation": "A consulta deve indicar a questão precisa. O pronunciamento da outra comissão limita-se ao ponto formulado. Alterar formalmente a distribuição da proposição é providência distinta. Regimento Interno da Câmara, art. 140, II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-pronunciamento-comissao-delimitado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do procedimentos e recursos da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-consulta-comissao-recurso-prazo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "recurso-do-despacho-de-consulta",
+      "mechanism": "rec-consulta-comissao-recurso-prazo",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Manifestação de outra comissão e conflito de competência: arts. 140 e 141"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Manifestação de outra comissão e conflito de competência: arts. 140 e 141"
+      ],
+      "statement": "Uma comissão pede, por escrito, que outra se manifeste sobre um ponto identificado do projeto. O Presidente decide o pedido e publica o despacho. A comissão consultada pretende opinar sobre todo o projeto.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO despacho admite recurso ao Plenário em cinco sessões contadas da publicação.",
+      "correctAnswer": "C",
+      "explanation": "A regra do art. 140 distingue o despacho presidencial, recorrível em cinco sessões da publicação, da manifestação técnica limitada à questão consultada. O prazo não tem como marco o protocolo da solicitação. Regimento Interno da Câmara, art. 140, I e II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-pronunciamento-comissao-delimitado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do procedimentos e recursos da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-conflito-urgencia-decisao-imediata",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "conflito-de-competencia-em-urgencia",
+      "mechanism": "rec-conflito-urgencia-decisao-imediata",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Manifestação de outra comissão e conflito de competência: arts. 140 e 141"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Manifestação de outra comissão e conflito de competência: arts. 140 e 141"
+      ],
+      "statement": "Durante o prazo pertinente para emendas, um deputado suscita conflito sobre a competência de comissão para apreciar projeto que tramita em regime de urgência. O Presidente da Câmara resolve o conflito.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA urgência exige que o Presidente dirima o conflito de imediato, sem eliminar a via recursal ao Plenário.",
+      "correctAnswer": "C",
+      "explanation": "Em matéria comum, o Presidente dirime em duas sessões. Na urgente, a decisão é imediata. O dispositivo preserva a possibilidade de recurso ao Plenário em qualquer caso. Regimento Interno da Câmara, art. 141.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 99,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "prazo e parecer na tramitação urgente",
+        "caseId": "cam-cpl-exp26-conflito-em-materia-urgente"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do procedimentos e recursos da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-cpi-devolucao-prazo-colegiado",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "recurso-contra-devolucao-do-requerimento-cpi",
+      "mechanism": "rec-cpi-devolucao-prazo-colegiado",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      },
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      ],
+      "statement": "O Presidente devolveu requerimento de CPI por considerar ausentes requisitos regimentais. Em procedimento distinto, devolveu uma proposição ordinária ao autor por regimentalmente inadmissível. Ambos os autores querem recorrer.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO autor do requerimento de CPI pode recorrer ao Plenário no prazo de cinco sessões, ouvida a Comissão de Constituição e Justiça e de Cidadania.",
+      "correctAnswer": "C",
+      "explanation": "A decisão presidencial de devolver o requerimento admite recurso. O prazo é de cinco sessões e a comissão de constituição é ouvida. A oitiva não transfere a competência final de decidir o recurso do Plenário para a comissão. Regimento Interno da Câmara, art. 35, § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 77,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "competência investigatória e medida sujeita à jurisdição",
+        "caseId": "cam-cpl-exp26-devolucao-cpi-e-projeto"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do procedimentos e recursos da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-proposicao-provimento-volta-presidencia",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "efeito-do-provimento-apos-devolucao",
+      "mechanism": "rec-proposicao-provimento-volta-presidencia",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Recebimento e distribuição: procedimento na Câmara"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Recebimento e distribuição: procedimento na Câmara"
+      ],
+      "statement": "O Presidente devolveu requerimento de CPI por considerar ausentes requisitos regimentais. Em procedimento distinto, devolveu uma proposição ordinária ao autor por regimentalmente inadmissível. Ambos os autores querem recorrer.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nSe for provido o recurso contra a devolução da proposição ordinária, o Plenário deve votá-la imediatamente no mérito.",
+      "correctAnswer": "E",
+      "explanation": "O recurso contra devolução passa pelo Plenário após oitiva da comissão de constituição. O provimento faz a proposição voltar à Presidência para seguir a tramitação devida. Admitir o processamento não equivale a aprovar ou mesmo votar de imediato o conteúdo. Regimento Interno da Câmara, art. 137, §§ 1º e 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-devolucao-cpi-e-projeto"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do procedimentos e recursos da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-documento-voto-simbolico-sem-discussao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "recurso-publicacao-sem-discussao",
+      "mechanism": "rec-documento-voto-simbolico-sem-discussao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Uma deputada pede inserção nos Anais de documento de outro Poder que referiu sem ler integralmente. O pedido é indeferido e o despacho é publicado. Ela recorre ao Plenário na terceira sessão e pede a abertura de discussão do recurso antes da votação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO recurso tempestivo deve passar por discussão antes da votação nominal obrigatória.",
+      "correctAnswer": "E",
+      "explanation": "O recurso cabe em cinco sessões da publicação do indeferimento. Decide-se pelo processo simbólico, sem discussão. Autor e líderes podem encaminhar a votação por cinco minutos cada. Regimento Interno da Câmara, arts. 98, § 3º, e 115, parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-documento-nao-lido"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do procedimentos e recursos da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-registro-livro-divulgacao-anual",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "registro-e-indice-das-decisoes",
+      "mechanism": "rec-registro-livro-divulgacao-anual",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Na Câmara, decisões sobre questões de ordem foram proferidas ao longo do ano. A Mesa identifica que algumas delas demandam alteração regimental. Um assessor propõe atualizar o Regimento diretamente pelo registro das decisões.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nAs decisões devem ser registradas e indexadas em livro especial com ampla divulgação anual, mesmo quando não exigirem alteração regimental.",
+      "correctAnswer": "C",
+      "explanation": "O dever de registro, indexação e divulgação é geral para decisões sobre questão de ordem. A proposta de alteração é providência adicional, condicionada à necessidade identificada. Regimento Interno da Câmara, art. 95, § 10.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 98,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-indexacao-e-resolucao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do procedimentos e recursos da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-rec-registro-nao-efetiva-reforma",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "alteracao-regimental-decorrente-de-decisao",
+      "mechanism": "rec-registro-nao-efetiva-reforma",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Na Câmara, decisões sobre questões de ordem foram proferidas ao longo do ano. A Mesa identifica que algumas delas demandam alteração regimental. Um assessor propõe atualizar o Regimento diretamente pelo registro das decisões.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO registro e a divulgação das decisões bastam para alterar formalmente o Regimento nos pontos identificados pela Mesa.",
+      "correctAnswer": "E",
+      "explanation": "A Mesa elabora projeto de resolução propondo as alterações pertinentes, para apreciação em tempo hábil antes de findar o biênio. O registro das decisões cumpre função de publicidade, sem substituir o exame da proposta de alteração. Regimento Interno da Câmara, art. 95, § 10.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-indexacao-e-resolucao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do procedimentos e recursos da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
     }
   ]
 }

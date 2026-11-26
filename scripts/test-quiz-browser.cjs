@@ -86,6 +86,7 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.evaluate(()=>{
     document.querySelector('input[name="qs-scope"][value="custom"]').checked=true;
     document.querySelector('#qs-custom-wrap').hidden=false;
+    document.querySelector('#qs-custom input').checked=true;
     document.querySelector('#qs-custom').dispatchEvent(new Event('change',{bubbles:true}));
    });
    const subjects=['auditoria-governamental','orcamento-publico','politicas-publicas'];
@@ -99,7 +100,13 @@ fs.mkdirSync(evidence,{recursive:true});
    });
    await Promise.all([shortage,page.locator('#qs-start').click()]);
    assert.equal(await page.locator('#qs-config').isVisible(),true);
-   await page.locator('#qs-count').fill('3');
+   await page.evaluate(()=>{
+    document.querySelector('input[name="qs-scope"][value="mixed"]').checked=true;
+    document.querySelector('#qs-custom-wrap').hidden=true;
+    document.querySelector('#qs-custom input').checked=false;
+    document.querySelector('#qs-count').value='3';
+    document.querySelector('#qs-start').disabled=false;
+   });
    await page.locator('#qs-start').click();
    await page.locator('#qs-play').waitFor({state:'visible'});
    const mixed=await page.evaluate(()=>JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1')).at(-1));

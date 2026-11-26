@@ -143,11 +143,13 @@ Uso de análise: `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md"
 
 ### scripts/build-site.js
 
-**Faz:** reconstrói o artefato estático isolado. **Entrada:** notas, metadados, `index.html`, `style.css`, `script.js`, `web/*.js` e quatro JSONs autorizados. **Saída/escrita:** apaga e recria `_site/`, copia recursos públicos, gera `manifest.json` e `search-index.json`.
+**Faz:** reconstrói o artefato estático isolado. **Entrada:** notas, metadados, `index.html`, `style.css`, `script.js`, `web/*.js` e cinco JSONs autorizados. **Saída/escrita:** apaga e recria `_site/`, copia recursos públicos, gera `manifest.json` e `search-index.json`.
 
 **Visibilidade:** aceita Markdown em `3 - Materias/` e `00 - Desempenho/`; exclui bastidores, duplicatas de sincronização e simulados que declarem simultaneamente `status: rascunho` e `parcial: true`. Referências em matérias podem ser públicas. **Contrato:** manifesto e índice representam exatamente os mesmos sourcePaths únicos. Seções H2/H3 recebem anchor normalizado e sufixo para repetição; `Avancos.md` recebe seções vazias. O índice compacta termos e trecho de 220 caracteres.
 
 **Banco público da Câmara.** A projeção do banco principal e dos cinco suplementos de Direito Administrativo preserva a operação cognitiva e o tipo de questão quando informados na fonte editorial. Os campos são opcionais no acervo legado. O arquivo histórico de questões difíceis aceita reclassificação editorial. Os mínimos por capítulo e o equilíbrio de gabarito são verificados na faixa Difícil efetivamente publicada. A lista `data/questoes-camara-referencias-oficiais.json` publica referências aos PDFs oficiais com item, página e gabarito definitivo. O formato de referência preserva as ligações do histórico e fica fora da seleção de novas baterias. Enunciados de itens oficiais são servidos pelo catálogo autenticado. Após a correção, a tela mostra a prova e o gabarito.
+
+**Modos da Câmara 2026.** `web/15-questoes-ui.js` separa aprendizagem com correção imediata, reteste com item diferente do mesmo conceito e avaliação independente ao final. `data/avaliacao-reservada-camara-2026.json` contém somente 183 IDs reservados e faz a interface excluí-los do catálogo de aprendizagem. O Worker autenticado serve os dois pools de 100 itens a partir de `concurso-dados`; a migração D1 `0005_assessment_modes.sql` registra sessões, amplia os modos e preserva as tentativas anteriores. O navegador só recebe enunciados da bateria ao iniciar e o Worker corrige após o envio integral. A biblioteca pública continua acessível por código-fonte; a independência é operacional na interface e não impede inspeção deliberada dos arquivos públicos.
 
 **Banco público da CGU.** A projeção conserva operação cognitiva, tipo e calibração autoral opcionais. O identificador de caso compartilhado alimenta a mesma prática já usada pela Câmara. Cada enunciado carrega o cenário completo. Evidências internas de revisão ficam no banco-fonte.
 

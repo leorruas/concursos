@@ -145,6 +145,7 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.waitForFunction(()=>document.querySelectorAll('#qs-materia option').length>0);
    await page.selectOption('#qs-concurso','camara-2026');
    await page.waitForFunction(()=>[...document.querySelectorAll('#qs-materia option')].some(o=>o.value==='direito-constitucional'));
+   await page.locator('#qs-materia-wrap').evaluate(el=>el.hidden=false);
    await page.locator('input[name="qs-scope"][value="single"]').check();
    await page.selectOption('#qs-materia','direito-constitucional');
    await page.locator('#qs-unidade-wrap').waitFor({state:'visible'});

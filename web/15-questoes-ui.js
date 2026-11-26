@@ -12,6 +12,27 @@ const singleSubjectRanges=new Map();
 const contentOrder=new Intl.Collator('pt-BR',{numeric:true});
 const elem=(tag,text)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=String(text);return e;};
 const toggle=(id,show)=>{$(id).hidden=!show;};
+function appendInlineMarkdown(parent,text){
+ const source=String(text||''),pattern=/(\*\*|__)(.+?)\1|`([^`]+)`/g;
+ let cursor=0,match;
+ while((match=pattern.exec(source))){
+  if(match.index>cursor)parent.append(document.createTextNode(source.slice(cursor,match.index)));
+  if(match[2]!==undefined){const strong=elem('strong');appendInlineMarkdown(strong,match[2]);parent.append(strong);}
+  else parent.append(elem('code',match[3]));
+  cursor=pattern.lastIndex;
+ }
+ if(cursor<source.length)parent.append(document.createTextNode(source.slice(cursor)));
+}
+function explanationContent(markdown){
+ const fragment=document.createDocumentFragment();
+ const blocks=String(markdown||'').trim().split(/\n[\t ]*\n/).filter(Boolean);
+ for(const block of blocks){
+  const paragraph=elem('p');
+  block.split(/\r?\n/).forEach((line,index)=>{if(index)paragraph.append(document.createElement('br'));appendInlineMarkdown(paragraph,line);});
+  fragment.append(paragraph);
+ }
+ return fragment;
+}
 function readingStart(){
  const target=$('qs-reading-start');
  // Volta ao início da questão inclusive depois de uma correção longa.
@@ -386,7 +407,7 @@ function feedback(q,a){
  const el=$('qs-feedback');
  const chosen=a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco';
  const solution=q.correctAnswer==='C'?'Certo':'Errado';
- el.replaceChildren(elem('strong',(a.result==='correct'?'Acertou':a.result==='blank'?'Em branco':'Errou')+' · Sua resposta: '+chosen+' · Gabarito: '+solution),elem('p',q.explanation));
+ el.replaceChildren(elem('strong',(a.result==='correct'?'Acertou':a.result==='blank'?'Em branco':'Errou')+' · Sua resposta: '+chosen+' · Gabarito: '+solution),explanationContent(q.explanation));
  el.append(questionProvenance(q));
  const link=theory(q);if(link)el.append(link);toggle('qs-feedback',true);
 }
@@ -476,7 +497,7 @@ function finish(){
  }
  $('qs-review-count').textContent='('+session.answers.length+')';
  const review=$('qs-reviews');review.replaceChildren();
- session.answers.forEach((a,i)=>{const q=data.map.get(a.questionId);if(!q)return;const d=elem('details');d.className='qs-review';const statement=elem('p');questionStatement(statement,q);d.append(elem('summary',(i+1)+'. '+(q.subjectName||q.subjectId)+' · '+(a.result==='correct'?'acerto':a.result==='blank'?'em branco':'erro')),statement,elem('p','Sua resposta: '+(a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco')+' · Gabarito: '+(q.correctAnswer==='C'?'Certo':'Errado')),elem('p',q.explanation),questionProvenance(q));const link=theory(q);if(link)d.append(link);review.append(d);});
+ session.answers.forEach((a,i)=>{const q=data.map.get(a.questionId);if(!q)return;const d=elem('details');d.className='qs-review';const statement=elem('p');questionStatement(statement,q);d.append(elem('summary',(i+1)+'. '+(q.subjectName||q.subjectId)+' · '+(a.result==='correct'?'acerto':a.result==='blank'?'em branco':'erro')),statement,elem('p','Sua resposta: '+(a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco')+' · Gabarito: '+(q.correctAnswer==='C'?'Certo':'Errado')),explanationContent(q.explanation),questionProvenance(q));const link=theory(q);if(link)d.append(link);review.append(d);});
  status('Bateria concluída. Prioridades de leitura calculadas a partir desta sessão.');
 }
 function resume(){

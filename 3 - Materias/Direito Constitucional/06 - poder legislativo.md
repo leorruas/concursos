@@ -82,6 +82,8 @@ Nesse último caso, pense em um decreto que deveria apenas detalhar uma lei, mas
 
 **Comparação decisiva:** criar uma lei federal e decidir sobre um tratado internacional gravoso são atividades que podem envolver o Congresso, mas seguem instrumentos e procedimentos diferentes. O art. 49 não exige sanção presidencial.
 
+**Guerra, paz e ausências presidenciais:** em caso de agressão estrangeira, é o Presidente da República quem declara guerra, autorizado pelo Congresso ou referendado quando a agressão ocorrer no intervalo das sessões. A celebração da paz também é ato presidencial sujeito a autorização ou referendo. A licença para ausência do país superior a quinze dias recai sobre Presidente e Vice-Presidente (arts. 49, II e III, 83 e 84, XIX e XX).
+
 ### Art. 51: o que cabe à Câmara dos Deputados
 
 Imagine uma acusação de **crime de responsabilidade** contra o Presidente, isto é, uma infração político-jurídica sujeita ao procedimento constitucional próprio. A Câmara decide se **autoriza a instauração do processo**. Para isso, o art. 51, I, exige votos favoráveis de **dois terços de seus membros**: com 513 deputados, são **342 votos**. Autorizar o processo significa permitir que ele avance; **não significa declarar culpabilidade ou condenar**.
@@ -101,6 +103,12 @@ Se a Câmara autorizar a instauração do processo presidencial por crime de res
 O Senado também exerce outras competências próprias, como **aprovar previamente indicações de determinadas autoridades**, nas hipóteses constitucionais, e decidir sobre **operações externas de natureza financeira** e certos **limites de endividamento** (art. 52). Aprovar a escolha de uma autoridade não é o mesmo que nomeá-la.
 
 O exemplo presidencial mostra a divisão de tarefas: **a Câmara autoriza a instauração; o Senado processa e julga**. O quórum de dois terços aparece nas duas etapas, mas os votos são contados sobre o total de integrantes **da Casa que toma cada decisão**.
+
+**Acusações contra outras autoridades:** o crime de responsabilidade atribuído a ministro de Estado é julgado pelo Senado quando conexo ao do Presidente ou Vice-Presidente. O Procurador-Geral da República aparece separadamente entre as autoridades do art. 52, II, e não está no rol de autorização da Câmara do art. 51, I. A presidência do Supremo Tribunal Federal dirige o julgamento, nos casos dos incisos I e II, com decisão pelo Senado (art. 52, parágrafo único).
+
+**Escolhas e exoneração:** a escolha de diretor do Banco Central tem arguição pública seguida de voto secreto. A de chefe de missão diplomática permanente tem arguição em sessão secreta, também com voto secreto. Para aprovar a exoneração de ofício do Procurador-Geral da República antes do fim do mandato, exige-se maioria absoluta, por voto secreto (art. 52, III, IV e XI).
+
+**Endividamento:** autorizar uma operação financeira externa é decidir sobre caso individual. Ao fixar limites globais da dívida consolidada, o Senado delibera sobre proposta do Presidente da República, com alcance geral (art. 52, V e VI).
 
 ### Art. 50: fiscalizar por convocação ou por pedido escrito
 

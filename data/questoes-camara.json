@@ -100376,6 +100376,746 @@
         "caseId": "cam-cpl-exp26-cpi-relatorio-e-acao"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-guerra-referendo-no-intervalo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "guerra-entre-sessoes-e-referendo",
+      "mechanism": "comp-guerra-referendo-no-intervalo",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "Durante o intervalo das sessões legislativas, ocorreu agressão estrangeira. O Presidente da República cogita declarar guerra e submeter o ato ao Congresso. Em outro momento, pretende celebrar a paz.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNa situação descrita, a declaração cabe ao Presidente da República e admite referendo congressual, dado o momento da agressão.",
+      "correctAnswer": "C",
+      "explanation": "Em caso de agressão estrangeira, o Presidente declara guerra com autorização do Congresso ou com seu referendo quando a agressão ocorrer no intervalo das sessões. A competência do Congresso é autorizar ou referendar, e não realizar a declaração presidencial. Constituição Federal, arts. 49, II, e 84, XIX.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 73,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "ato do Presidente e autorização legislativa",
+        "caseId": "cam-cpl-exp26-agressao-e-paz"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-paz-ato-presidencial-e-congresso",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "celebracao-da-paz-e-autorizacao",
+      "mechanism": "comp-paz-ato-presidencial-e-congresso",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "Durante o intervalo das sessões legislativas, ocorreu agressão estrangeira. O Presidente da República cogita declarar guerra e submeter o ato ao Congresso. Em outro momento, pretende celebrar a paz.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nComo o ato anterior foi submetido ao Congresso, a celebração da paz independe de autorização ou referendo específico.",
+      "correctAnswer": "E",
+      "explanation": "A celebração da paz é ato presidencial sujeito à autorização ou ao referendo congressual. A anuência relativa à guerra não dispensa o controle constitucional do ato de paz. Constituição Federal, arts. 49, II, e 84, XX.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 73,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "ato do Presidente e autorização legislativa",
+        "caseId": "cam-cpl-exp26-agressao-e-paz"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-licenca-presidente-dezesseis-dias",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "licenca-presidente-ausencia-mais-de-quinze-dias",
+      "mechanism": "comp-licenca-presidente-dezesseis-dias",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "O Presidente planeja viagem oficial com ausência de dezesseis dias. Um ministro viajará na mesma comitiva pelo mesmo período. Um assessor sustenta que o mesmo procedimento constitucional de autorização parlamentar se impõe a ambos.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA ausência de dezesseis dias faz incidir a exigência constitucional de autorização do Congresso para o Presidente.",
+      "correctAnswer": "C",
+      "explanation": "Quando Presidente ou Vice-Presidente se ausentam do país por mais de quinze dias, a autorização é do Congresso. Com exatamente quinze dias não incidiria essa condição específica. Constituição Federal, arts. 49, III, e 83.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-licenca-viagem-e-ministro"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-licenca-ministro-distincao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "limite-subjetivo-da-licenca-para-viagem",
+      "mechanism": "comp-licenca-ministro-distincao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "O Presidente planeja viagem oficial com ausência de dezesseis dias. Um ministro viajará na mesma comitiva pelo mesmo período. Um assessor sustenta que o mesmo procedimento constitucional de autorização parlamentar se impõe a ambos.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO ministro deve obter a mesma autorização congressual porque integra a comitiva e ficará fora do país pelo mesmo período.",
+      "correctAnswer": "E",
+      "explanation": "A exigência recai constitucionalmente sobre Presidente e Vice-Presidente, com duração superior a quinze dias. Integrar a comitiva não equipara o ministro a essas autoridades. Constituição Federal, arts. 49, III, e 83.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-licenca-viagem-e-ministro"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-camara-transformacao-de-cargo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "organizacao-e-transformacao-de-cargo-camara",
+      "mechanism": "comp-camara-transformacao-de-cargo",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "Uma proposta interna da Câmara altera a organização de seus serviços e transforma determinado cargo. Outra pretende fixar a remuneração desse cargo apenas no mesmo ato interno. As propostas serão examinadas à luz das diretrizes orçamentárias.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA transformação do cargo de seus serviços integra a competência privativa da Câmara, distinta da iniciativa de lei para fixar a remuneração.",
+      "correctAnswer": "C",
+      "explanation": "A Câmara dispõe privativamente sobre organização e cargos de seus serviços. Quanto à remuneração, cabe-lhe a iniciativa de lei, observadas as diretrizes orçamentárias. A transformação e a fixação remuneratória exigem identificar competências distintas. Constituição Federal, arts. 48 e 51, IV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-ajustes-servicos-camara"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-camara-remuneracao-ato-interno",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "fixacao-remuneracao-reserva-de-lei",
+      "mechanism": "comp-camara-remuneracao-ato-interno",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "Uma proposta interna da Câmara altera a organização de seus serviços e transforma determinado cargo. Outra pretende fixar a remuneração desse cargo apenas no mesmo ato interno. As propostas serão examinadas à luz das diretrizes orçamentárias.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO ato interno que transforma o cargo pode, pelo mesmo fundamento, fixar a remuneração sem projeto de lei.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição reserva à Câmara a iniciativa de lei de remuneração. A regra de organização interna não abrange fixar o valor pelo mesmo ato. Um projeto iniciado pela Câmara seguiria a via legislativa pertinente. Constituição Federal, arts. 48, caput e 51, IV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-ajustes-servicos-camara"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-tomada-contas-camara-omissao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "omissao-e-tomada-contas-pela-camara",
+      "mechanism": "comp-tomada-contas-camara-omissao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "Passaram sessenta dias da abertura da sessão legislativa sem apresentação das contas presidenciais ao Congresso. Cogita-se iniciar a tomada de contas. Um parlamentar também discute quem deve julgar as contas quando instruídas.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA ausência de apresentação no prazo aciona a competência privativa da Câmara para proceder à tomada de contas.",
+      "correctAnswer": "C",
+      "explanation": "O Presidente presta contas ao Congresso em até sessenta dias da abertura da sessão legislativa. Se não o fizer, a Câmara procede à tomada. A atuação de tomada não equivale ao julgamento político que compete ao Congresso. Constituição Federal, arts. 49, IX, 51, II, e 84, XXIV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 124,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-contas-nao-entregues"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-tomada-e-julgamento-organos-distintos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tomada-camara-julgamento-congresso",
+      "mechanism": "comp-tomada-e-julgamento-organos-distintos",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "Passaram sessenta dias da abertura da sessão legislativa sem apresentação das contas presidenciais ao Congresso. Cogita-se iniciar a tomada de contas. Um parlamentar também discute quem deve julgar as contas quando instruídas.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nComo iniciou a tomada, a Câmara pode julgar as contas presidenciais sem participação do Senado.",
+      "correctAnswer": "E",
+      "explanation": "A tomada de contas por omissão compete privativamente à Câmara. O julgamento das contas do Presidente é do Congresso Nacional. A origem da instrução não desloca a competência final. Constituição Federal, arts. 49, IX, 51, II, e 71, I.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 124,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "alcance",
+        "caseId": "cam-cpl-exp26-contas-nao-entregues"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-missao-diplomatica-arguicao-secreta",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "diplomacia-permanente-arguicao-secreta",
+      "mechanism": "comp-missao-diplomatica-arguicao-secreta",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "O Presidente indica uma pessoa para a chefia de missão diplomática permanente e outra para a direção do Banco Central. No Senado, discute-se a forma de arguição e votação para cada escolha.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nPara a chefia diplomática permanente, a aprovação é prévia e por voto secreto, após arguição em sessão secreta.",
+      "correctAnswer": "C",
+      "explanation": "A chefia de missão permanente tem regime próprio no art. 52, IV: voto secreto depois de arguição em sessão secreta. A direção do Banco Central está no inciso III, cuja arguição é pública. Constituição Federal, art. 52, III, d, e IV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-dois-nomes-arguicao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-bc-voto-secreto-arguicao-publica",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "diretoria-bc-arguicao-publica",
+      "mechanism": "comp-bc-voto-secreto-arguicao-publica",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "O Presidente indica uma pessoa para a chefia de missão diplomática permanente e outra para a direção do Banco Central. No Senado, discute-se a forma de arguição e votação para cada escolha.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nPor serem ambas escolhas de iniciativa presidencial, os dois candidatos passam por arguição em sessão secreta.",
+      "correctAnswer": "E",
+      "explanation": "As duas aprovações são por voto secreto, mas a arguição que antecede a escolha dos dirigentes do Banco Central é pública. A arguição em sessão secreta é a regra específica da chefia de missão permanente. Constituição Federal, art. 52, III, d, e IV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 122,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "modalidade",
+        "caseId": "cam-cpl-exp26-dois-nomes-arguicao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-pgr-exoneracao-quarenta-insuficiente",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "exoneracao-antecipada-pgr-maioria-absoluta",
+      "mechanism": "comp-pgr-exoneracao-quarenta-insuficiente",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "O Presidente pretende exonerar de ofício a pessoa titular da Procuradoria-Geral da República antes de terminar seu mandato. Na votação do Senado, havendo composição de 81 senadores, quarenta votam favoravelmente por escrutínio secreto.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nAinda que o escrutínio tenha sido secreto, quarenta votos são insuficientes para aprovar a exoneração antecipada.",
+      "correctAnswer": "C",
+      "explanation": "O Senado deve aprovar por maioria absoluta e voto secreto a exoneração de ofício antes do fim do mandato. Em 81 cadeiras, a maioria absoluta é 41; quarenta não bastam. O modo de votação correto não supre a insuficiência de votos. Constituição Federal, art. 52, XI.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-pgr-exoneracao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-ministro-conexao-senado",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "conexao-crime-ministro-e-presidente",
+      "mechanism": "comp-ministro-conexao-senado",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "O Senado recebe duas acusações por crime de responsabilidade. A primeira envolve ministro de Estado, por fatos conexos ao crime imputado ao Presidente da República. A segunda é dirigida ao Procurador-Geral da República. No segundo processo, uma assessoria propõe aplicar as regras da fase de autorização da Câmara previstas para o Presidente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO Senado é competente para processar e julgar o ministro na hipótese, porque seu crime de responsabilidade está conectado ao imputado ao Presidente.",
+      "correctAnswer": "C",
+      "explanation": "A competência do Senado sobre ministro no art. 52, I, exige conexão com crime de responsabilidade do Presidente ou do Vice-Presidente. A identidade da espécie de infração, sozinha, não demonstraria a conexão. Constituição Federal, art. 52, I.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-dois-processos-de-responsabilidade"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-pgr-nao-se-transpoe-autorizacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "pgr-processo-senado-e-autorizacao-camara",
+      "mechanism": "comp-pgr-nao-se-transpoe-autorizacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "O Senado recebe duas acusações por crime de responsabilidade. A primeira envolve ministro de Estado, por fatos conexos ao crime imputado ao Presidente da República. A segunda é dirigida ao Procurador-Geral da República. No segundo processo, uma assessoria propõe aplicar as regras da fase de autorização da Câmara previstas para o Presidente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA autorização prévia por dois terços da Câmara, exigida para processo contra o Presidente da República, é também condição constitucional do processo por crime de responsabilidade contra o Procurador-Geral da República.",
+      "correctAnswer": "E",
+      "explanation": "O art. 51, I, enumera Presidente, Vice-Presidente e ministros de Estado, sem incluir o Procurador-Geral da República. O art. 52, II, atribui ao Senado processar e julgar o Procurador-Geral por crime de responsabilidade. A autorização prevista para os sujeitos do art. 51 não pode ser transposta pela semelhança do rito. Constituição Federal, arts. 51, I, e 52, I e II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-dois-processos-de-responsabilidade"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-julgamento-presidencia-do-stf",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "presidencia-stf-no-julgamento-senado",
+      "mechanism": "comp-julgamento-presidencia-do-stf",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "O Senado recebe duas acusações por crime de responsabilidade. A primeira envolve ministro de Estado, por fatos conexos ao crime imputado ao Presidente da República. A segunda é dirigida ao Procurador-Geral da República. No segundo processo, uma assessoria propõe aplicar as regras da fase de autorização da Câmara previstas para o Presidente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nTambém no julgamento do Procurador-Geral da República, o Presidente do Supremo Tribunal Federal exerce a presidência, enquanto o julgamento cabe ao Senado.",
+      "correctAnswer": "C",
+      "explanation": "A regra de presidência pelo Presidente do Supremo vale para os julgamentos dos incisos I e II do art. 52. No caso do Procurador-Geral, o órgão que julga é o Senado. A presidência dos trabalhos não transfere ao Supremo o julgamento político. Constituição Federal, art. 52, II e parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-dois-processos-de-responsabilidade"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-decreto-exorbita-sustacao-congresso",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "excesso-regulamentar-sustacao-congresso",
+      "mechanism": "comp-decreto-exorbita-sustacao-congresso",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "Um decreto do Executivo extrapola o poder regulamentar e cria obrigação fora da lei. Em outro caso, o Supremo declara definitivamente inconstitucional uma lei em processo no qual se examina a hipótese do art. 52, X. Um relatório propõe aplicar uma única competência de suspensão a ambos.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO primeiro caso pode ensejar sustação pelo Congresso, em competência distinta da suspensão da execução de lei referida no art. 52, X.",
+      "correctAnswer": "C",
+      "explanation": "A sustação de ato normativo executivo exorbitante cabe ao Congresso. A hipótese do art. 52, X, refere-se à execução de lei declarada inconstitucional por decisão definitiva do Supremo e é atribuída ao Senado. Constituição Federal, arts. 49, V, e 52, X.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 101,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-decreto-exorbita-e-lei"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-lei-art52-senado-autoridade",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "suspensao-da-execucao-de-lei-senado",
+      "mechanism": "comp-lei-art52-senado-autoridade",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "Um decreto do Executivo extrapola o poder regulamentar e cria obrigação fora da lei. Em outro caso, o Supremo declara definitivamente inconstitucional uma lei em processo no qual se examina a hipótese do art. 52, X. Um relatório propõe aplicar uma única competência de suspensão a ambos.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNo segundo caso, cabe à Câmara decidir privativamente sobre a suspensão da execução da lei.",
+      "correctAnswer": "E",
+      "explanation": "O art. 52, X, atribui essa competência privativamente ao Senado. A decisão definitiva do Supremo é a condição indicada no dispositivo. O primeiro caso envolve excesso regulamentar e competência do Congresso. Constituição Federal, arts. 49, V, e 52, X.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 101,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-decreto-exorbita-e-lei"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-operacao-externa-municipio-senado",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "autorizacao-de-operacao-externa-municipal",
+      "mechanism": "comp-operacao-externa-municipio-senado",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "Um município pretende assumir operação externa de natureza financeira. Em paralelo, o Presidente da República apresenta proposta de limites globais de dívida consolidada para entes federados.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA Constituição atribui ao Senado autorização da operação externa de natureza financeira de interesse municipal.",
+      "correctAnswer": "C",
+      "explanation": "As operações externas de natureza financeira dos entes enumerados, inclusive municípios, submetem-se à competência de autorização do Senado. Fixar limites gerais de dívida tem outro objeto. Constituição Federal, art. 52, V e VI.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-operacao-municipio-e-limite"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-limites-divida-iniciativa-president",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "limites-divida-consolidada-proposta-presidencial",
+      "mechanism": "comp-limites-divida-iniciativa-president",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "Um município pretende assumir operação externa de natureza financeira. Em paralelo, o Presidente da República apresenta proposta de limites globais de dívida consolidada para entes federados.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA proposta presidencial já estabelece os limites de dívida consolidada, pois o Senado atua apenas na autorização de operações individuais.",
+      "correctAnswer": "E",
+      "explanation": "O Presidente propõe e o Senado fixa limites globais para a dívida consolidada. Essa atribuição normativa é distinta da autorização de determinada operação externa. Constituição Federal, art. 52, V e VI.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-operacao-municipio-e-limite"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-tratado-gravoso-sem-sancao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tratado-gravoso-decisao-exclusiva-congresso",
+      "mechanism": "comp-tratado-gravoso-sem-sancao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "O Congresso examina ato internacional que acarreta compromisso gravoso ao patrimônio nacional e uma proposta de convocação de plebiscito. Uma assessoria sugere encaminhar ambos como leis ordinárias com sanção presidencial obrigatória.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA decisão do Congresso sobre o ato internacional gravoso integra sua competência exclusiva, dispensada a sanção presidencial dessa deliberação congressual.",
+      "correctAnswer": "C",
+      "explanation": "O Congresso resolve definitivamente sobre compromissos gravosos por ato de competência exclusiva. A atuação parlamentar não se confunde com a celebração presidencial do tratado nem exige sanção à deliberação congressual. Constituição Federal, arts. 49, I, e 84, VIII.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-plebiscito-tratado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comp-convocacao-plebiscito-congresso",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "plebiscito-convocacao-ato-exclusivo",
+      "mechanism": "comp-convocacao-plebiscito-congresso",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "statement": "O Congresso examina ato internacional que acarreta compromisso gravoso ao patrimônio nacional e uma proposta de convocação de plebiscito. Uma assessoria sugere encaminhar ambos como leis ordinárias com sanção presidencial obrigatória.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA convocação do plebiscito federal depende de lei ordinária sancionada por ser exercício direto da soberania popular.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição reserva ao Congresso convocar plebiscito e autorizar referendo. Na hipótese federal pertinente, a Lei nº 9.709/1998 prevê convocação por decreto legislativo. Lei ordinária e sanção não integram essa via. Constituição Federal, art. 49, XV, e Lei nº 9.709/1998, art. 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 72,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "lei e participação presidencial versus exclusividade do Congresso",
+        "caseId": "cam-cpl-exp26-plebiscito-tratado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
     }
   ]
 }

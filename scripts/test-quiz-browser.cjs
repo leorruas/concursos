@@ -130,6 +130,7 @@ fs.mkdirSync(evidence,{recursive:true});
     await page.locator('input[name="qs-answer"][value="'+q.correctAnswer+'"]').check();
     await page.locator('#qs-submit').click();
     if(index===0){
+     await page.locator('#qs-next').click();
      await page.reload({waitUntil:'domcontentloaded'});
      await page.locator('#qs-play').waitFor({state:'visible'});
      assert.match(await page.locator('#qs-status').textContent(),/anterior retomada/);

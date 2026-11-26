@@ -104,6 +104,7 @@ fs.mkdirSync(evidence,{recursive:true});
     const sessions=JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1')||'[]');
     localStorage.setItem('concursos-quiz-sessoes-v1',JSON.stringify(sessions.slice(0,-1)));
     localStorage.removeItem('concursos-quiz-ativa-v1');
+    document.querySelector('#qs-config').hidden=false;
     document.querySelector('input[name="qs-scope"][value="mixed"]').checked=true;
     document.querySelector('#qs-custom-wrap').hidden=true;
     document.querySelector('#qs-custom input').checked=false;

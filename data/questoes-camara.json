@@ -97897,6 +97897,561 @@
         "caseId": "cam-cpl-exp26-municipio-divida-e-contas"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da organização do Estado. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-popular-limiar-local",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 2.6 Iniciativa Legislativa",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "apoiamento-popular-em-cada-estado",
+      "mechanism": "pl-popular-limiar-local",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa popular federal: três requisitos cumulativos"
+      },
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa popular federal: três requisitos cumulativos"
+      ],
+      "statement": "Um projeto de lei federal de iniciativa popular sobre um só assunto reuniu assinaturas de 1,2% do eleitorado nacional, distribuídas por cinco estados. Em um deles, o apoio alcançou 0,29% do eleitorado local. Os organizadores também propuseram apresentar o texto ao Senado, onde obtiveram maior apoio político.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO percentual nacional e a presença de subscritores em cinco estados suprem a insuficiência de assinaturas no quinto estado.",
+      "correctAnswer": "E",
+      "explanation": "A proposta exige pelo menos 1% do eleitorado nacional, distribuído em pelo menos cinco estados, com 0,3% do eleitorado em cada um deles. Como apenas quatro atingiram o limiar local, a distribuição é insuficiente. Se houvesse um sexto estado elegível atingindo 0,3%, a condição territorial poderia ser cumprida. Constituição Federal, art. 61, § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "quórum",
+        "caseId": "cam-cpl-exp26-assinaturas-e-casa"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-popular-casa-iniciadora",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 2.6 Iniciativa Legislativa",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "iniciativa-popular-casa-de-apresentacao",
+      "mechanism": "pl-popular-casa-iniciadora",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa popular federal: três requisitos cumulativos"
+      },
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa popular federal: três requisitos cumulativos"
+      ],
+      "statement": "Um projeto de lei federal de iniciativa popular sobre um só assunto reuniu assinaturas de 1,2% do eleitorado nacional, distribuídas por cinco estados. Em um deles, o apoio alcançou 0,29% do eleitorado local. Os organizadores também propuseram apresentar o texto ao Senado, onde obtiveram maior apoio político.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nSe o déficit de assinaturas for suprido, a iniciativa popular poderá ser apresentada no Senado pela mesma via constitucional.",
+      "correctAnswer": "E",
+      "explanation": "A iniciativa popular federal de projeto de lei se exerce mediante apresentação à Câmara dos Deputados. A coleta adequada resolve o apoiamento, sem alterar a Casa onde o projeto deve ser apresentado. O Senado pode atuar na revisão, conforme o rito. Constituição Federal, arts. 61, § 2º, e 65.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "quórum",
+        "caseId": "cam-cpl-exp26-assinaturas-e-casa"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-popular-vicio-redacional",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 2.6 Iniciativa Legislativa",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "correcao-formal-da-iniciativa-popular",
+      "mechanism": "pl-popular-vicio-redacional",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa popular federal: três requisitos cumulativos"
+      },
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa popular federal: três requisitos cumulativos"
+      ],
+      "statement": "Um grupo entrega à Câmara projeto de iniciativa popular com assinaturas suficientes e objeto único. O texto apresenta falha de técnica legislativa. Em paralelo, um parlamentar apresenta projeto que modifica o regime jurídico dos servidores da União, matéria submetida à iniciativa presidencial.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA Câmara deve providenciar a correção da impropriedade técnica do primeiro projeto, em vez de rejeitá-lo por esse motivo formal.",
+      "correctAnswer": "C",
+      "explanation": "A legislação protege a iniciativa popular contra rejeição por vício de forma e atribui à Câmara a correção técnica ou redacional. A providência supõe separar erro de redação de falta de requisito material. A insuficiência de assinaturas, por exemplo, não é mera impropriedade redacional corrigível. Lei nº 9.709/1998, art. 13, § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-forma-e-regime-federal"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-regime-servidor-reserva",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 2.6 Iniciativa Legislativa",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "iniciativa-reservada-regime-juridico-federal",
+      "mechanism": "pl-regime-servidor-reserva",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa privativa do presidente: art. 61, § 1º"
+      },
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa privativa do presidente: art. 61, § 1º"
+      ],
+      "statement": "Um grupo entrega à Câmara projeto de iniciativa popular com assinaturas suficientes e objeto único. O texto apresenta falha de técnica legislativa. Em paralelo, um parlamentar apresenta projeto que modifica o regime jurídico dos servidores da União, matéria submetida à iniciativa presidencial.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA competência da Câmara para iniciar a apreciação de proposições federais não autoriza o parlamentar a suprir a iniciativa presidencial no segundo projeto.",
+      "correctAnswer": "C",
+      "explanation": "A reserva de iniciativa é requisito de apresentação, distinto da competência deliberativa. Alterar o regime jurídico dos servidores da União integra a reserva do Presidente. Uma matéria de iniciativa geral poderia ser apresentada por parlamentar. Constituição Federal, art. 61, caput e § 1º, II, c.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 114,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "iniciativa",
+        "caseId": "cam-cpl-exp26-forma-e-regime-federal"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-revisora-mudanca-material",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.2 Etapas e noções básicas",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "emenda-de-merito-e-retorno-a-iniciadora",
+      "mechanism": "pl-revisora-mudanca-material",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "statement": "A Câmara aprovou projeto de lei e o enviou ao Senado. Na revisão, foi aprovada uma emenda que alterou uma obrigação do destinatário. O Senado também corrigiu grafia que não modificava o sentido de outro dispositivo. Em uma hipótese alternativa, o Senado rejeitaria integralmente o projeto.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA modificação da obrigação exige retorno à Câmara, ainda que o Senado também tenha feito correção meramente redacional.",
+      "correctAnswer": "C",
+      "explanation": "A Casa revisora aprova, rejeita ou emenda. Alterar uma obrigação modifica o mérito e exige retorno à Casa iniciadora. Uma correção exclusivamente de redação, sem modificação material, não produz a mesma consequência. Constituição Federal, art. 65, parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-duas-emendas-revisora"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-revisora-rejeicao-total",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.2 Etapas e noções básicas",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "rejeicao-pela-casa-revisora",
+      "mechanism": "pl-revisora-rejeicao-total",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "statement": "A Câmara aprovou projeto de lei e o enviou ao Senado. Na revisão, foi aprovada uma emenda que alterou uma obrigação do destinatário. O Senado também corrigiu grafia que não modificava o sentido de outro dispositivo. Em uma hipótese alternativa, o Senado rejeitaria integralmente o projeto.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNa hipótese de rejeição integral, o projeto voltaria à Câmara para que esta decidisse se mantém a aprovação anterior.",
+      "correctAnswer": "E",
+      "explanation": "O projeto rejeitado pela revisora é arquivado. O retorno previsto no parágrafo único destina-se ao projeto emendado. Portanto, reformular uma disposição e rejeitar a proposição integralmente têm consequências diferentes. Constituição Federal, art. 65, caput e parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-duas-emendas-revisora"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-reapresentacao-maioria-uma-casa",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.2 Etapas e noções básicas",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "reapresentacao-projeto-maioria-absoluta",
+      "mechanism": "pl-reapresentacao-maioria-uma-casa",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "statement": "No mesmo ano legislativo, um projeto de lei rejeitado é reapresentado com apoio de 41 senadores, dentro de um Senado de 81 membros. Em outra pauta, uma proposta de emenda à Constituição rejeitada seria reapresentada com o mesmo apoio, ainda na mesma sessão legislativa.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO apoiamento dos 41 senadores é suficiente para superar a restrição específica à reapresentação do projeto de lei na mesma sessão legislativa.",
+      "correctAnswer": "C",
+      "explanation": "A matéria de projeto rejeitado pode voltar na mesma sessão por proposta da maioria absoluta de qualquer Casa. Quarenta e um dos 81 senadores alcançam esse limiar. O apoiamento permite propor, sem representar a aprovação final do projeto. Constituição Federal, art. 67.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-reapresentacao-na-mesma-sessao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-pec-reapresentacao-sem-excecao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.2 Etapas e noções básicas",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "vedacao-reapresentacao-de-pec",
+      "mechanism": "pl-pec-reapresentacao-sem-excecao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "statement": "No mesmo ano legislativo, um projeto de lei rejeitado é reapresentado com apoio de 41 senadores, dentro de um Senado de 81 membros. Em outra pauta, uma proposta de emenda à Constituição rejeitada seria reapresentada com o mesmo apoio, ainda na mesma sessão legislativa.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA maioria absoluta de uma Casa autoriza também a nova proposta de emenda à Constituição sobre matéria rejeitada na mesma sessão legislativa.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição veda nova proposta de emenda na mesma sessão legislativa quando a matéria foi rejeitada ou havida por prejudicada. A exceção de maioria absoluta vale para projeto de lei, não para essa vedação de emenda constitucional. Constituição Federal, arts. 60, § 5º, e 67.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "quórum",
+        "caseId": "cam-cpl-exp26-reapresentacao-na-mesma-sessao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-delegada-controle-votacao-unica",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 2.1 Projeto de lei ordinária, complementar e delegada",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6bc728a14d0e49f3",
+      "conceptId": "delegacao-com-apreciacao-e-sem-emendas",
+      "mechanism": "pl-delegada-controle-votacao-unica",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Sujeitos, instrumento e duas modalidades de controle"
+      },
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Sujeitos, instrumento e duas modalidades de controle"
+      ],
+      "statement": "O Presidente solicita delegação ao Congresso para editar lei sobre matéria delegável. A resolução descreve conteúdo e limites e determina que o texto preparado seja apreciado pelo Congresso. No exame, um parlamentar sugere inserir nova cláusula por emenda. Outro sugere aplicar o mesmo procedimento a matéria reservada a lei complementar.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nComo a resolução prevê a apreciação, o Congresso deverá deliberar em votação única, sem admitir a emenda sugerida.",
+      "correctAnswer": "C",
+      "explanation": "A delegação pode prever a apreciação congressual do projeto elaborado pelo Presidente. Se a previr, a deliberação é única e não admite emendas. Quando a resolução não exige apreciação, esse controle prévio não integra a execução da delegação. Constituição Federal, art. 68, §§ 2º e 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-resolucao-e-emenda-lei-delegada"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-delegada-reserva-complementar",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 2.1 Projeto de lei ordinária, complementar e delegada",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6bc728a14d0e49f3",
+      "conceptId": "limite-material-da-lei-delegada",
+      "mechanism": "pl-delegada-reserva-complementar",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Matérias que não podem ser delegadas: art. 68, § 1º"
+      },
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Matérias que não podem ser delegadas: art. 68, § 1º"
+      ],
+      "statement": "O Presidente solicita delegação ao Congresso para editar lei sobre matéria delegável. A resolução descreve conteúdo e limites e determina que o texto preparado seja apreciado pelo Congresso. No exame, um parlamentar sugere inserir nova cláusula por emenda. Outro sugere aplicar o mesmo procedimento a matéria reservada a lei complementar.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA exigência de apreciação congressual torna possível delegar a matéria reservada a lei complementar.",
+      "correctAnswer": "E",
+      "explanation": "A reserva de lei complementar é limite material à delegação. O controle posterior previsto na resolução não transforma matéria indelegável em delegável. O instrumento cabível para aquela matéria continua sendo a lei complementar aprovada no rito próprio. Constituição Federal, arts. 68, §§ 1º e 3º, e 69.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 118,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "exceção",
+        "caseId": "cam-cpl-exp26-resolucao-e-emenda-lei-delegada"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-mp-texto-inalterado-promulgacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.3 Resolução nº 1/2002 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7bc9230e51a6d84f",
+      "conceptId": "promulgacao-mp-sem-mudanca-de-merito",
+      "mechanism": "pl-mp-texto-inalterado-promulgacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN.md",
+        "section": "5. Efeitos jurídicos: arts. 11 a 14"
+      },
+      "theoryRefs": [
+        "article:art-7bc9230e51a6d84f#5. Efeitos jurídicos: arts. 11 a 14"
+      ],
+      "statement": "Após parecer da comissão mista, a Câmara aprova sem alteração de mérito uma medida provisória sobre política pública. No Senado, discute-se a aprovação do mesmo texto ou a introdução de mudança material. A equipe confunde a destinação final em cada hipótese.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nSe as duas Casas aprovarem a medida sem alteração de mérito, caberá ao Presidente da Mesa do Congresso promulgá-la para publicação como lei.",
+      "correctAnswer": "C",
+      "explanation": "A medida provisória aprovada sem mudança de mérito é promulgada pelo Presidente da Mesa do Congresso, sem nova sanção presidencial. Se o texto aprovado for projeto de lei de conversão com alteração, seguirá para sanção. Resolução nº 1/2002 do Congresso Nacional, arts. 12 e 13.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-mp-dois-textos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-mp-texto-convertido-depois-sancao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.3 Resolução nº 1/2002 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7bc9230e51a6d84f",
+      "conceptId": "plv-com-mudanca-e-sancao",
+      "mechanism": "pl-mp-texto-convertido-depois-sancao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN.md",
+        "section": "5. Efeitos jurídicos: arts. 11 a 14"
+      },
+      "theoryRefs": [
+        "article:art-7bc9230e51a6d84f#5. Efeitos jurídicos: arts. 11 a 14"
+      ],
+      "statement": "Após parecer da comissão mista, a Câmara aprova sem alteração de mérito uma medida provisória sobre política pública. No Senado, discute-se a aprovação do mesmo texto ou a introdução de mudança material. A equipe confunde a destinação final em cada hipótese.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nMesmo se houver alteração material aprovada nas duas Casas, o Presidente da Mesa do Congresso deverá promulgar imediatamente o texto como se a medida tivesse sido aprovada sem alteração.",
+      "correctAnswer": "E",
+      "explanation": "Com alteração de mérito, o Congresso aprecia projeto de lei de conversão; aprovado, ele é encaminhado à sanção pela Casa que concluiu a votação. Se mudar o texto original, a medida provisória permanece em vigor até a sanção ou o veto do projeto. Constituição Federal, art. 62, § 12, e Resolução nº 1/2002 do Congresso Nacional, arts. 12 e 13.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 118,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "exceção",
+        "caseId": "cam-cpl-exp26-mp-dois-textos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-mp-relacoes-na-omissao-decreto",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.3 Resolução nº 1/2002 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7bc9230e51a6d84f",
+      "conceptId": "efeitos-de-mp-caduca-sem-decreto",
+      "mechanism": "pl-mp-relacoes-na-omissao-decreto",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN.md",
+        "section": "5. Efeitos jurídicos: arts. 11 a 14"
+      },
+      "theoryRefs": [
+        "article:art-7bc9230e51a6d84f#5. Efeitos jurídicos: arts. 11 a 14"
+      ],
+      "statement": "Uma medida provisória deixou de vigorar por decurso de prazo sem conversão. Foram celebrados atos durante sua vigência. Depois de sessenta dias da perda de eficácia, o Congresso não editou decreto legislativo sobre essas relações. Ainda na mesma sessão legislativa, o Executivo cogita reeditar a medida.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nAs relações constituídas por atos praticados durante a vigência conservam-se regidas pela medida, diante da falta de decreto no prazo constitucional.",
+      "correctAnswer": "C",
+      "explanation": "O Congresso pode disciplinar os efeitos por decreto legislativo. Se não o fizer em até sessenta dias da rejeição ou perda de eficácia, as relações constituídas e decorrentes de atos praticados durante a vigência continuam regidas pela medida. Isso não autoriza novos atos com base nela depois de cessada sua eficácia. Constituição Federal, art. 62, §§ 3º e 11.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-mp-perda-e-fatos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-mp-nao-reedicao-da-caduca",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.3 Resolução nº 1/2002 – CN",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7bc9230e51a6d84f",
+      "conceptId": "vedacao-reedicao-mp-caduca-na-sessao",
+      "mechanism": "pl-mp-nao-reedicao-da-caduca",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN.md",
+        "section": "5. Efeitos jurídicos: arts. 11 a 14"
+      },
+      "theoryRefs": [
+        "article:art-7bc9230e51a6d84f#5. Efeitos jurídicos: arts. 11 a 14"
+      ],
+      "statement": "Uma medida provisória deixou de vigorar por decurso de prazo sem conversão. Foram celebrados atos durante sua vigência. Depois de sessenta dias da perda de eficácia, o Congresso não editou decreto legislativo sobre essas relações. Ainda na mesma sessão legislativa, o Executivo cogita reeditar a medida.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA preservação das relações anteriores permite reeditar a medida ainda na mesma sessão legislativa.",
+      "correctAnswer": "E",
+      "explanation": "A regra que preserva relações constituídas durante a vigência não reabre a competência de reeditar. Na mesma sessão legislativa, é vedada a reedição da medida rejeitada ou que perdeu eficácia por decurso de prazo. Constituição Federal, art. 62, §§ 10 e 11.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-mp-perda-e-fatos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-mp-projeto-pendente-de-sancao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 2.2 Medida provisória",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "vedacao-mp-materia-em-projeto-aprovado",
+      "mechanism": "pl-mp-projeto-pendente-de-sancao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "statement": "O Congresso aprovou um projeto sobre regras materiais de determinado programa administrativo. O texto aguarda sanção ou veto. Diante de fato novo urgente, o Presidente cogita editar medida provisória sobre a mesma matéria enquanto o projeto está pendente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA urgência superveniente permite a medida provisória porque a matéria ainda não integra uma lei promulgada.",
+      "correctAnswer": "E",
+      "explanation": "A vedação alcança matéria já disciplinada em projeto aprovado pelo Congresso e pendente de sanção ou veto. A urgência é pressuposto geral e não afasta a proibição específica. Se o Congresso ainda não tivesse aprovado o projeto, essa vedação particular não se aplicaria, embora incidissem os demais requisitos. Constituição Federal, art. 62, caput e § 1º, IV.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 118,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "exceção",
+        "caseId": "cam-cpl-exp26-projeto-pronto-e-medida"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
     }
   ]
 }

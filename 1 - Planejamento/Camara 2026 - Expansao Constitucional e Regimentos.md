@@ -52,3 +52,7 @@ Treze questões, quatro médias e nove difíceis. Cinco no capítulo 04 e oito n
 ## Lote 7. Organização do Estado e competências federativas
 
 Dezessete questões no capítulo 11. São cinco médias e doze difíceis. Os casos cobrem legislação concorrente, delegação de questão específica, competência administrativa comum, regiões metropolitanas, alteração territorial, organização do Distrito Federal, territórios e intervenção. Foi incorporada à teoria a identificação da população consultada e do efeito da manifestação das Assembleias Legislativas. [Constituição Federal, arts. 18 a 36](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) · [Lei nº 9.709/1998, arts. 4º e 7º](https://www.planalto.gov.br/ccivil_03/leis/l9709.htm).
+
+## Lote 8. Iniciativa, bicameralismo, lei delegada e medida provisória
+
+Quinze questões, duas médias e treze difíceis. São quatro no capítulo 12, quatro no 13, duas no 20, uma no 21 e quatro no 33. Os casos distinguem requisitos da iniciativa popular, reserva de iniciativa, efeitos da revisão bicameral, reapresentação de matéria, limites da delegação e destino da medida provisória. Os capítulos já desenvolvem os dispositivos selecionados. [Constituição Federal, arts. 60 a 68](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) · [Lei nº 9.709/1998, art. 13](https://www.planalto.gov.br/ccivil_03/leis/l9709.htm) · [Resolução nº 1/2002-CN](https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028).

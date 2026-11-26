@@ -96787,6 +96787,487 @@
         "caseId": "cam-cpl-exp26-escolha-dois-candidatos"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do controle externo e das competências do Tribunal de Contas da União. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-nacional-registro-e-opcao-caminhos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nacionalidade-nata-no-exterior",
+      "mechanism": "nacional-registro-e-opcao-caminhos",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Brasileiros natos"
+      },
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Brasileiros natos"
+      ],
+      "statement": "Duas pessoas nasceram no exterior, filhas de mãe brasileira que não estava a serviço do Brasil. A primeira foi registrada em repartição brasileira competente ainda criança. A segunda não foi registrada, veio residir no Brasil e, depois de atingir a maioridade, pretende exercer a opção pela nacionalidade.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO registro da primeira e a residência seguida de opção pela segunda correspondem a vias constitucionais alternativas de nacionalidade originária.",
+      "correctAnswer": "C",
+      "explanation": "Para filho de brasileiro nascido no exterior, a Constituição admite registro em repartição brasileira competente ou residência no Brasil seguida de opção após a maioridade. As duas vias levam à condição de brasileiro nato. Se a mãe estivesse a serviço do Brasil no exterior, haveria a hipótese distinta da alínea b. Constituição Federal, art. 12, I, b e c.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "quórum",
+        "caseId": "cam-cpl-exp26-registro-e-opcao-exterior"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-nacional-residencia-sem-opcao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "opcao-de-nacionalidade-apos-maioridade",
+      "mechanism": "nacional-residencia-sem-opcao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Brasileiros natos"
+      },
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Brasileiros natos"
+      ],
+      "statement": "Duas pessoas nasceram no exterior, filhas de mãe brasileira que não estava a serviço do Brasil. A primeira foi registrada em repartição brasileira competente ainda criança. A segunda não foi registrada, veio residir no Brasil e, depois de atingir a maioridade, pretende exercer a opção pela nacionalidade.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nComo a segunda pessoa passou a residir no Brasil, a opção após a maioridade é dispensável para completar a via indicada.",
+      "correctAnswer": "E",
+      "explanation": "Na via sem registro em repartição brasileira, a residência deve ser acompanhada da opção pela nacionalidade, exercida depois da maioridade. Para a primeira pessoa, o registro já satisfaz a via alternativa. Constituição Federal, art. 12, I, c.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-registro-e-opcao-exterior"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-nacional-segunda-cidadania-sem-pedido",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "perda-da-nacionalidade-pedido-expresso",
+      "mechanism": "nacional-segunda-cidadania-sem-pedido",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Perda da nacionalidade: EC nº 131/2023"
+      },
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Perda da nacionalidade: EC nº 131/2023"
+      ],
+      "statement": "Uma brasileira nata adquiriu voluntariamente uma segunda nacionalidade após a Emenda Constitucional nº 131/2023, sem pedir perda da brasileira. Outra pessoa brasileira formulou pedido expresso a autoridade brasileira competente, mas o deferimento a deixaria sem qualquer nacionalidade.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA obtenção voluntária da segunda nacionalidade acarreta a perda da nacionalidade brasileira, ainda que não tenha havido pedido expresso.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição vigente deixou de ligar a perda à mera aquisição de outra nacionalidade. A hipótese depende de pedido expresso perante autoridade brasileira competente, ressalvada apatridia. Assim, a primeira pessoa conserva a nacionalidade brasileira à luz dos fatos descritos. Constituição Federal, art. 12, § 4º, II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-pedido-expresso-dupla"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-nacional-apatridia-limita-pedido",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "apatridia-e-pedido-de-perda",
+      "mechanism": "nacional-apatridia-limita-pedido",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Perda da nacionalidade: EC nº 131/2023"
+      },
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Perda da nacionalidade: EC nº 131/2023"
+      ],
+      "statement": "Uma brasileira nata adquiriu voluntariamente uma segunda nacionalidade após a Emenda Constitucional nº 131/2023, sem pedir perda da brasileira. Outra pessoa brasileira formulou pedido expresso a autoridade brasileira competente, mas o deferimento a deixaria sem qualquer nacionalidade.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO pedido formal da segunda pessoa encontra obstáculo constitucional, embora tenha sido apresentado à autoridade competente.",
+      "correctAnswer": "C",
+      "explanation": "A hipótese de perda a pedido expresso ressalva situações que acarretem apatridia. Como ela ficaria sem nacionalidade, a formalidade do pedido não elimina o obstáculo. Se possuísse outra nacionalidade, esse impedimento específico deixaria de incidir. Constituição Federal, art. 12, § 4º, II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "quórum",
+        "caseId": "cam-cpl-exp26-pedido-expresso-dupla"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-nacional-presidencia-da-camara-e-mandato",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "cargo-privativo-e-mandato-legislativo",
+      "mechanism": "nacional-presidencia-da-camara-e-mandato",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Nato × naturalizado: regra e exceções"
+      },
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Nato × naturalizado: regra e exceções"
+      ],
+      "statement": "Uma deputada federal brasileira naturalizada pretende concorrer à Presidência da Câmara. Outro brasileiro naturalizado pretende concorrer a cargo no Congresso sem pretender dirigir a Casa. Suponha cumpridas as condições eleitorais comuns e ausentes outras inelegibilidades.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO mandato parlamentar, nas condições descritas, é compatível com a naturalização, mas a Presidência da Câmara exige brasileiro nato.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição reserva expressamente a Presidência da Câmara a brasileiro nato. Essa reserva não se estende ao mandato de deputado federal. O segundo interessado pode concorrer observadas as condições do cargo. Constituição Federal, arts. 12, §§ 2º e 3º, II, e 14, § 3º, I.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-mesa-e-juizo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-eleicao-analfabeta-ativa-passiva",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "voto-facultativo-e-inelegibilidade",
+      "mechanism": "eleicao-analfabeta-ativa-passiva",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Alistamento eleitoral e voto"
+      },
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Alistamento eleitoral e voto"
+      ],
+      "statement": "Uma pessoa brasileira adulta e analfabeta pretende votar e depois disputar mandato de vereadora. Uma brasileira de dezessete anos que sabe ler pretende alistar-se e concorrer ao mesmo cargo, mas ainda terá dezessete anos no marco aplicável à aferição da idade para a candidatura.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO alistamento e o voto da primeira pessoa são facultativos, mas ela é inelegível.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição permite ao analfabeto alistar-se e votar facultativamente, preservando a distinção entre capacidade eleitoral ativa e passiva. O analfabeto é inelegível. Pessoa alfabetizada de dezessete anos enfrenta outro requisito para vereança, a idade mínima. Constituição Federal, art. 14, §§ 1º, II, a, 3º, VI, d, e 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "quórum",
+        "caseId": "cam-cpl-exp26-dois-eleitores"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-eleicao-menor-voto-nao-habilita-vereanca",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "idade-e-capacidade-eleitoral-passiva",
+      "mechanism": "eleicao-menor-voto-nao-habilita-vereanca",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Condições de elegibilidade: art. 14, § 3º"
+      },
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Condições de elegibilidade: art. 14, § 3º"
+      ],
+      "statement": "Uma pessoa brasileira adulta e analfabeta pretende votar e depois disputar mandato de vereadora. Uma brasileira de dezessete anos que sabe ler pretende alistar-se e concorrer ao mesmo cargo, mas ainda terá dezessete anos no marco aplicável à aferição da idade para a candidatura.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO alistamento facultativo da segunda pessoa afasta a exigência constitucional de idade mínima para concorrer à vereança.",
+      "correctAnswer": "E",
+      "explanation": "O eleitor de dezesseis ou dezessete anos pode alistar-se e votar. A candidatura a vereador exige idade mínima de dezoito anos, aferida no marco legal referido no caso. Se a idade mínima estivesse satisfeita, ainda seriam exigidas as demais condições da candidatura. Constituição Federal, art. 14, §§ 1º, II, c, e 3º, VI, d.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "quórum",
+        "caseId": "cam-cpl-exp26-dois-eleitores"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-eleicao-mesmo-cargo-um-periodo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "reeleicao-e-renuncia-cargo-diverso",
+      "mechanism": "eleicao-mesmo-cargo-um-periodo",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "statement": "Uma prefeita em primeiro mandato pretende disputar novamente a prefeitura. Seu cônjuge, que não exerce mandato eletivo, também cogita concorrer a vereador nesse município. Em outro cenário, a prefeita pretende disputar cargo diferente e permanece no cargo até quatro meses antes da eleição.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA prefeita pode concorrer a um único período subsequente no mesmo cargo, sem que a renúncia prevista para outros cargos se aplique a essa reeleição.",
+      "correctAnswer": "C",
+      "explanation": "Chefes do Executivo podem ser reeleitos uma única vez para período subsequente. A renúncia até seis meses antes da eleição incide para concorrer a outro cargo. O cenário da disputa para cargo diferente exige examinar esse afastamento. Constituição Federal, art. 14, §§ 5º e 6º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-titular-e-proximo-pleito"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-eleicao-conjuge-vereanca-no-territorio",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "inelegibilidade-reflexa-vereanca",
+      "mechanism": "eleicao-conjuge-vereanca-no-territorio",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "statement": "Uma prefeita em primeiro mandato pretende disputar novamente a prefeitura. Seu cônjuge, que não exerce mandato eletivo, também cogita concorrer a vereador nesse município. Em outro cenário, a prefeita pretende disputar cargo diferente e permanece no cargo até quatro meses antes da eleição.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nComo o cônjuge disputaria cargo legislativo, a inelegibilidade reflexa não se aplica à candidatura no mesmo município.",
+      "correctAnswer": "E",
+      "explanation": "A inelegibilidade reflexa alcança candidaturas no território de jurisdição da chefe do Executivo. Seu alcance não se restringe ao cargo de prefeita. A exceção constitucional refere-se a quem já é titular de mandato eletivo e candidato à reeleição, o que não ocorre aqui. Constituição Federal, art. 14, § 7º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-titular-e-proximo-pleito"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-eleicao-cargo-diferente-quatro-meses",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "desincompatibilizacao-cargo-diverso",
+      "mechanism": "eleicao-cargo-diferente-quatro-meses",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "statement": "Uma prefeita em primeiro mandato pretende disputar novamente a prefeitura. Seu cônjuge, que não exerce mandato eletivo, também cogita concorrer a vereador nesse município. Em outro cenário, a prefeita pretende disputar cargo diferente e permanece no cargo até quatro meses antes da eleição.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA permanência no cargo até quatro meses antes do pleito é compatível com a exigência constitucional de renúncia para disputar cargo diferente.",
+      "correctAnswer": "E",
+      "explanation": "Para concorrer a outro cargo, prefeitos devem renunciar até seis meses antes da eleição. Quatro meses ficam aquém da antecedência. Para disputar a reeleição no mesmo cargo, a regra do § 5º tem objeto próprio. Constituição Federal, art. 14, §§ 5º e 6º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-titular-e-proximo-pleito"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-eleicao-militar-nove-e-onze",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "militar-alistavel-nove-ou-onze-anos",
+      "mechanism": "eleicao-militar-nove-e-onze",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Condições de elegibilidade: art. 14, § 3º"
+      },
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Condições de elegibilidade: art. 14, § 3º"
+      ],
+      "statement": "Dois militares alistáveis pretendem concorrer. Um tem nove anos de serviço, e o outro tem onze. Considere satisfeitos os demais requisitos aplicáveis. Um terceiro interessado é conscrito que ainda cumpre o serviço militar obrigatório.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO militar de nove anos deve afastar-se da atividade, e o de onze anos será agregado e, se eleito, passará à inatividade no ato da diplomação.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição diferencia militar alistável com menos e com mais de dez anos. No primeiro caso exige afastamento da atividade. No segundo prevê agregação e passagem à inatividade, se eleito, na diplomação. A situação do conscrito em serviço obrigatório é diferente porque ele não pode alistar-se eleitor nesse período. Constituição Federal, art. 14, §§ 2º e 8º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "quórum",
+        "caseId": "cam-cpl-exp26-militares-e-eleicao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-eleicao-conscrito-nao-e-militar-alistavel",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "conscrito-impedimento-de-alistamento",
+      "mechanism": "eleicao-conscrito-nao-e-militar-alistavel",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Alistamento eleitoral e voto"
+      },
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Alistamento eleitoral e voto"
+      ],
+      "statement": "Dois militares alistáveis pretendem concorrer. Um tem nove anos de serviço, e o outro tem onze. Considere satisfeitos os demais requisitos aplicáveis. Um terceiro interessado é conscrito que ainda cumpre o serviço militar obrigatório.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO terceiro pode usar o regime de candidatura dos militares alistáveis enquanto cumpre o serviço obrigatório, caso se afaste da atividade.",
+      "correctAnswer": "E",
+      "explanation": "Enquanto cumpre serviço militar obrigatório, o conscrito não pode alistar-se eleitor. A disciplina da candidatura do militar alistável não supera essa vedação. Cessado o período, as condições de alistamento podem ser reavaliadas. Constituição Federal, art. 14, §§ 2º e 8º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 116,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "quórum",
+        "caseId": "cam-cpl-exp26-militares-e-eleicao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-eleicao-anualidade-vigencia-e-aplicacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "vigencia-e-anualidade-eleitoral",
+      "mechanism": "eleicao-anualidade-vigencia-e-aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      },
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      ],
+      "statement": "Uma lei que altera o processo eleitoral foi publicada e entrou em vigor oito meses antes de determinada eleição. Um órgão eleitoral pretende aplicar a mudança ao pleito porque o procedimento só seria iniciado depois da vigência da lei.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA vigência da lei permite sua aplicação imediata a essa eleição, já que os atos do procedimento ocorrerão depois da publicação.",
+      "correctAnswer": "E",
+      "explanation": "A lei que altera o processo eleitoral entra em vigor na publicação, mas não se aplica a eleição ocorrida até um ano da vigência. A data decisiva é a do pleito perante a vigência, ainda que atos do procedimento sejam posteriores à publicação. Constituição Federal, art. 16.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-lei-e-calendario-eleitoral"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional da nacionalidade e dos direitos políticos. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
     }
   ]
 }

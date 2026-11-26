@@ -44,3 +44,7 @@ Quinze questões no capítulo 02, três médias e doze difíceis. Os casos cruza
 ## Lote 5. Tribunal de Contas da União e fiscalização
 
 Dezesseis questões, cinco médias e onze difíceis. São doze no capítulo 37 e quatro no capítulo 06. O lote cobre prestação de contas por agente privado, parecer prévio, julgamento e imputação de débito, atos sujeitos a registro, auditoria de unidades administrativas, sustação contratual, fiscalização de repasses, denúncia e comunicação pelo controle interno, além da composição do Tribunal. O capítulo 37 recebeu explicações sobre registro e exceções, marco de contagem do Tema 445 e condições da fiscalização administrativa e dos recursos federais repassados. [Constituição Federal, arts. 70 a 75](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) · [Tema 445 do Supremo Tribunal Federal](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=445).
+
+## Lote 6. Nacionalidade e direitos políticos
+
+Treze questões, quatro médias e nove difíceis. Cinco no capítulo 04 e oito no capítulo 05. Os casos combinam registro e opção na nacionalidade originária, perda a pedido e apatridia, cargo privativo de nato e elegibilidade parlamentar, alistamento facultativo e candidatura, reeleição e desincompatibilização, inelegibilidade reflexa, militar alistável e conscrito, vigência da lei e anualidade eleitoral. As seções existentes já tratam dos dispositivos cobrados. [Constituição Federal, arts. 12 a 16](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm).

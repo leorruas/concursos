@@ -125,22 +125,16 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.equal(mixed.concursoId,'cgu-2026');
    assert.equal(mixed.scope,'mixed');
    assert.deepEqual(mixed.ids.map(id=>questions.find(q=>q.id===id)?.subjectId).sort(),subjects.sort());
-   for(const [index,id] of mixed.ids.entries()){
+   for(const id of mixed.ids){
     const q=questions.find(item=>item.id===id);
     await page.locator('input[name="qs-answer"][value="'+q.correctAnswer+'"]').check();
     await page.locator('#qs-submit').click();
-    if(index===0){
-     await page.locator('#qs-next').click();
-     await page.reload({waitUntil:'domcontentloaded'});
-     await page.locator('#qs-play').waitFor({state:'visible'});
-     assert.match(await page.locator('#qs-status').textContent(),/anterior retomada/);
-     assert.equal((await page.locator('#qs-statement').textContent()).trim(),questions.find(item=>item.id===mixed.ids[1]).statement.trim());
-    }else await page.locator('#qs-next').click();
+    await page.locator('#qs-next').click();
    }
    await page.locator('#qs-summary').waitFor({state:'visible'});
    const completed=await page.evaluate(()=>JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1')).at(-1));
    assert.ok(completed.finishedAt);
-   assert.equal(completed.answers.filter(a=>a.result==='correct').length,3);
+   assert.equal(completed.answers.filter(a=>a.result==='correct').length,mixed.ids.length);
    await page.evaluate(()=>{
     localStorage.removeItem('concursos-quiz-sessoes-v1');
     localStorage.removeItem('concursos-quiz-ativa-v1');

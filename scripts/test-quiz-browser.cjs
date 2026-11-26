@@ -298,7 +298,7 @@ fs.mkdirSync(evidence,{recursive:true});
       dueOn:null,mistakes:[{id:'example',date:'2026-11-14',result:'incorrect',statement:meta.statement,
         explanation:meta.explanation,section:meta.section,userAnswer:'E',correctAnswer:meta.correctAnswer}],
       uncertainCorrect:[]}],
-    concepts:[{title:'Conceito do teste',subjectId:'direito-constitucional',errors:1,uncertain:1,
+   concepts:[{title:'Conceito do teste',subjectId:'direito-constitucional',conceptId:'teste',errors:1,uncertain:1,
       attempts:3,priority:62,articles:[meta.articleId],dueOn:null}]
    };
    // Fixture extensa para validar densidade, busca e carregamento incremental.
@@ -364,13 +364,15 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
    await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
 
+   await page.selectOption('#results-subject-filter','direito-constitucional');
    await page.getByRole('link',{name:'Histórico',exact:true}).click();
    assert.equal(new URL(page.url()).searchParams.get('visao'),'historico');
    assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('ChatGPT'),'origem de estudo precisa aparecer');
    assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('site'),'origem do site precisa aparecer');
    assert.match(await page.locator('#results-principle-history').innerText(), /Início do ciclo atual/);
    assert.match(await page.locator('#results-principle-history').innerText(), /Resposta: C · Gabarito: E/);
-   assert.ok(await page.getByLabel('Conceito',{exact:true}).isVisible());
+   assert.equal(await page.locator('#results-principle-history .results-history-priority-button').count(),1,
+    'seletor de conceitos disponíveis no histórico');
    assert.equal(await page.locator('#results-principle-history .results-history-event').count(),1,
     'historico em linha do tempo');
    assert.equal(await page.locator('#results-articles .results-history-article').count(),1,
@@ -380,8 +382,10 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.screenshot({path:path.join(evidence,preset.name+'-historico-redesign.png'),fullPage:true});
    assert.equal(await page.locator('#results-adaptive').isVisible(),false,'historico nao repete resumo');
 
+   await page.selectOption('#results-subject-filter','');
    await page.getByRole('link',{name:'Matérias',exact:true}).click();
-   assert.equal(await page.locator('#results-stats .results-stat').count(),4,'resumo com quatro indicadores');
+   assert.equal(await page.locator('#results-stats .results-stat').count(),6,
+    'resumo inclui acertos observados, revisões pendentes e acertos inseguros');
    assert.equal(await page.locator('#results-subjects .results-subject-row').count(),1,
     'desempenho apresentado em linhas');
    assert.equal(await page.locator('#results-subjects table').count(),0,
@@ -393,7 +397,7 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.match(await page.locator('#results-study-modes').innerText(), /2 tentativas/);
    assert.match(await page.locator('#results-study-modes').innerText(), /Revisão/);
    assert.match(await page.locator('#results-study-modes').innerText(), /1 tentativa/);
-   assert.match(await page.locator('#results-study-modes').innerText(), /Bateria com correção ao final/);
+   assert.match(await page.locator('#results-study-modes').innerText(), /Bateria histórica com correção ao final/);
    assert.match(await page.locator('#results-competitive-simulations').innerText(), /54 pontos líquidos/);
    assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
      (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
@@ -460,7 +464,8 @@ fs.mkdirSync(evidence,{recursive:true});
    });
    assert.equal(navColorsLight.link,navColorsLight.text,'nav deve acompanhar tema alternativo');
    await page.locator('#results-theme').evaluate(button=>button.click());
-   assert.ok(await page.getByRole('heading',{name:'Estudar · Conteúdo inicial'}).isVisible());
+   assert.ok(await page.locator('#results-adaptive-queue-items .results-study-action-kind').filter({hasText:'Estudar'}).isVisible());
+   assert.ok(await page.locator('#results-adaptive-queue-items h3').getByText('Conteúdo inicial',{exact:true}).isVisible());
    const discursive=page.getByText('Treinar discursiva',{exact:true});
    assert.ok(await discursive.isVisible(),'propostas discursivas acessiveis em Revisoes');
    await discursive.click();

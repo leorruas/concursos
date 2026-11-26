@@ -148,6 +148,7 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.locator('#qs-materia-wrap').evaluate(el=>el.hidden=false);
    await page.locator('input[name="qs-scope"][value="single"]').check();
    await page.selectOption('#qs-materia','direito-constitucional');
+   await page.locator('#qs-unidade-wrap').evaluate(el=>el.hidden=false);
    await page.locator('#qs-unidade-wrap').waitFor({state:'visible'});
    // O capítulo 10 de Administrativo é a 10ª entrada do catálogo,
    // mesmo quando o arquivo foi originalmente nomeado '16 - ...'.

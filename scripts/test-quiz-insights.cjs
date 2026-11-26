@@ -100,7 +100,14 @@ assert.ok(quizHtml.indexOf('id="qs-practice-title"') < quizHtml.indexOf('id="qs-
 for(const id of ['qs-concurso','qs-materia','qs-capitulo','qs-count','qs-difficulty-filter','qs-start'])
  assert.equal(quizHtml.split('id="'+id+'"').length-1,1,'controle duplicado: '+id);
 assert.ok(quizHtml.includes('name="qs-scope" value="single"'),'modo de uma matéria preservado');
-assert.ok(quizHtml.includes('name="qs-mode" value="simulado"'),'modo simulado preservado');
+for(const mode of ['aprendizagem','reteste','avaliacao'])
+ assert.ok(quizHtml.includes('name="qs-mode" value="'+mode+'"'),'modalidade '+mode+' preservada');
+assert.ok(!quizHtml.includes('name="qs-mode" value="simulado"'),'modo legado não deve ser oferecido como quarta modalidade');
+assert.ok(quizSource.includes('!reservedQuestionIds.has(q.id)'),'questões reservadas não entram no pool de aprendizagem');
+assert.ok(quizSource.includes('data.questions=data.questions.filter(q=>!reservedQuestionIds.has(q.id))'),'gabaritos reservados são removidos do catálogo carregado pela interface');
+const assessmentReserve=JSON.parse(fs.readFileSync(path.join(root,'data/avaliacao-reservada-camara-2026.json'),'utf8'));
+assert.equal(assessmentReserve.reservedQuestionIds.length,183,'100 itens C/PL e 83 itens de decoro ficam reservados na interface pública');
+assert.equal(new Set(assessmentReserve.reservedQuestionIds).size,183,'IDs reservados são únicos');
 const resultsHtml=fs.readFileSync(path.join(root,'resultados.html'),'utf8');
 for(const id of ['qs-priorities','qs-unidade','qs-capitulo','qs-capitulo-value','qs-capitulo-description','qs-result-percent','qs-results-link'])
  assert.ok(quizHtml.includes('id="'+id+'"'),'campo ausente: '+id);
@@ -206,6 +213,8 @@ for(const item of officialReferences.itens){
  assert.equal(q.statement,`Julgue o item ${item.numero} do caderno ${source.codigo}: ${q.officialSource.url}`);
 }
 const camaraPool=data.questions.filter(q=>q.concursoId==='camara-2026');
+const camaraIds=new Set(camaraPool.map(q=>q.id));
+assert.ok(assessmentReserve.reservedQuestionIds.every(id=>camaraIds.has(id)),'todos os IDs reservados existem no banco publicado');
 const syncAttempt=vm.runInNewContext('('+quizSource.slice(
  quizSource.indexOf('function quizSyncAttempt('),
  quizSource.indexOf('async function sync(a)')

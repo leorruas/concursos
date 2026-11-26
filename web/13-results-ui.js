@@ -624,9 +624,10 @@ function renderAdaptive(plan) {
 
 }
 const studyModeLabels = {
- aprendizagem:'Aprendizagem', revisao:'Revisão', para_valer:'Treino para valer',
+ aprendizagem:'Aprendizagem · correção imediata', reteste:'Reteste espaçado · questão diferente', avaliacao:'Avaliação independente · correção final',
+ revisao:'Revisão', para_valer:'Treino para valer',
  real:'Questões de prova', adaptada:'Questões adaptadas',
- simulado:'Bateria com correção ao final', unknown:'Modalidade sem registro'
+ simulado:'Bateria histórica com correção ao final', unknown:'Modalidade sem registro'
 };
 function renderPrincipleHistory(plan,concepts){
  const target=$('results-principle-history');
@@ -905,19 +906,41 @@ function render(){
  );
  const competitive = $('results-competitive-simulations');
  competitive.replaceChildren();
- competitive.hidden = !Array.isArray(current.competitiveSimulations);
+ competitive.hidden = !Array.isArray(current.competitiveSimulations)&&!current.independentAssessments;
  if (!competitive.hidden) {
-  competitive.append(el('h3', '', 'Pontuação líquida em simulados integrais'));
-  if (!current.competitiveSimulations.length) {
-   competitive.append(el('p', 'results-caption', 'Nenhum simulado objetivo completo registrado.'));
-  } else {
-   const list = el('ul');
-   for (const sample of current.competitiveSimulations) {
-    list.append(el('li', '', fmtDate(sample.date) + ' · ' + sample.total + ' pontos líquidos · P1 ' +
-     sample.P1 + ' · P2 ' + sample.P2 + ' · ' +
-     (sample.objectiveMinimumMet ? 'Atingiu os mínimos objetivos' : 'Abaixo de pelo menos um mínimo objetivo')));
+  if(current.independentAssessments){
+   competitive.append(el('h3','','Avaliações independentes'));
+   const sessions=current.independentAssessments.sessions||[];
+   if(!sessions.length)competitive.append(el('p','results-caption','Nenhuma avaliação independente registrada.'));
+   else{
+    const list=el('ul');
+    for(const sample of sessions){
+     const subjects=(sample.bySubject||[]).map(row=>title(row.subjectId)+': '+row.net+'/'+row.total).join(' · ');
+     list.append(el('li','',fmtDate(sample.date)+' · '+sample.net+' pontos líquidos em '+sample.total+
+      ' itens ('+sample.netPercent+'%) · '+sample.correct+' acertos, '+sample.incorrect+' erros, '+sample.blank+' em branco'+
+      (sample.secureErrors?' · '+sample.secureErrors+' erros com segurança':'' )+
+      (sample.insecureCorrect?' · '+sample.insecureCorrect+' acertos inseguros':'' )+
+      (subjects?' · '+subjects:'')));
+    }
+    competitive.append(list);
    }
-   competitive.append(list, el('p', 'results-caption', 'O saldo mede o desempenho nesta aplicação. A classificação e a correção da discursiva dependem das regras do concurso.'));
+   competitive.append(el('p','results-caption','A pontuação líquida usa +1 por acerto, −1 por erro e 0 em branco. Pool de 100 itens: amostra parcial, não substitui a prova integral de 180 itens; a meta de referência é 171/180 (95%).'));
+  }
+  if(Array.isArray(current.competitiveSimulations)){
+   competitive.append(el('h3', '', 'Pontuação líquida em simulados integrais'));
+   if (!current.competitiveSimulations.length) {
+    competitive.append(el('p', 'results-caption', 'Nenhum simulado objetivo completo registrado.'));
+   } else {
+    const list = el('ul');
+    for (const sample of current.competitiveSimulations) {
+     list.append(el('li', '', fmtDate(sample.date) + ' · ' + sample.total + ' pontos líquidos · P1 ' +
+      sample.P1 + ' · P2 ' + sample.P2 + ' · ' +
+      (sample.objectiveMinimumMet ? 'Atingiu os mínimos objetivos' : 'Abaixo de pelo menos um mínimo objetivo')));
+    }
+    competitive.append(list, el('p', 'results-caption', 'O saldo mede o desempenho nesta aplicação. A classificação e a correção da discursiva dependem das regras do concurso.'));
+   }
+  } else {
+   competitive.append(el('p','results-caption','Simulados integrais não estão disponíveis para este concurso.'));
   }
  }
  const origins=$('results-quiz-stats');

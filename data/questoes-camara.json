@@ -99747,6 +99747,635 @@
         "caseId": "cam-cpl-exp26-renuncia-processo-aberto"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-plcomplementar-sem-rito-conclusivo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "excecao-conclusiva-lei-complementar",
+      "mechanism": "comissao-plcomplementar-sem-rito-conclusivo",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "statement": "Uma comissão permanente da Câmara recebe três projetos: um de lei complementar, um de lei ordinária em urgência e um de lei ordinária sobre matéria delegável, sem urgência e sem qualquer outra exceção ao rito conclusivo. As comissões concordam no mérito dos três.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO consenso nas comissões permite dispensar a deliberação plenária do projeto de lei complementar.",
+      "correctAnswer": "E",
+      "explanation": "O Regimento exclui projetos de lei complementar da competência conclusiva. O consenso instrui o Plenário, sem alterar o rito imposto pela espécie. O projeto ordinário sem exceção pode seguir a rota conclusiva nas condições regimentais. Regimento Interno da Câmara, art. 24, I e II, a.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-pl-complementar-urgencia"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-urgencia-ordinaria-plenario",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "regime-urgencia-exclui-apreciacao-conclusiva",
+      "mechanism": "comissao-urgencia-ordinaria-plenario",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "statement": "Uma comissão permanente da Câmara recebe três projetos: um de lei complementar, um de lei ordinária em urgência e um de lei ordinária sobre matéria delegável, sem urgência e sem qualquer outra exceção ao rito conclusivo. As comissões concordam no mérito dos três.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nEstar em regime de urgência impede a apreciação conclusiva pelas comissões mesmo quando o projeto é de lei ordinária e recebe pareceres convergentes.",
+      "correctAnswer": "C",
+      "explanation": "A urgência é exceção independente ao rito conclusivo. Os pareceres convergentes não suprimem o requisito de apreciação do Plenário no caso. Sem urgência ou outra ressalva, o projeto ordinário poderia ser apreciado conclusivamente. Regimento Interno da Câmara, art. 24, II, g e h.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 99,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "prazo e parecer na tramitação urgente",
+        "caseId": "cam-cpl-exp26-pl-complementar-urgencia"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-projeto-senado-aprovado-plenario",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "origem-no-senado-e-deliberacao-plenaria",
+      "mechanism": "comissao-projeto-senado-aprovado-plenario",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "statement": "Chegam à Câmara dois projetos ordinários, sem urgência. O primeiro veio do Senado, onde foi aprovado pelo Plenário. O segundo nasceu de comissão permanente da Câmara. A mesa de uma comissão propõe que a votação conclusiva encerre ambos sem apreciação plenária.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA origem senatorial do primeiro projeto permite apreciação conclusiva na Câmara, ainda que o Plenário do Senado já tenha votado a matéria.",
+      "correctAnswer": "E",
+      "explanation": "O Regimento excetua os projetos oriundos do Senado ou por ele emendados que tenham sido aprovados pelo Plenário de qualquer das Casas. O dado decisivo não é a origem isolada, mas sua combinação com a deliberação plenária. Regimento Interno da Câmara, art. 24, II, f.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 76,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "votação conclusiva e preservação de recurso",
+        "caseId": "cam-cpl-exp26-projetos-senado-comissao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-projeto-de-autoria-colegiada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "projeto-de-comissao-e-rota-de-votacao",
+      "mechanism": "comissao-projeto-de-autoria-colegiada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "statement": "Chegam à Câmara dois projetos ordinários, sem urgência. O primeiro veio do Senado, onde foi aprovado pelo Plenário. O segundo nasceu de comissão permanente da Câmara. A mesa de uma comissão propõe que a votação conclusiva encerre ambos sem apreciação plenária.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO segundo projeto deve passar pelo Plenário, pois a autoria de comissão é uma exceção ao rito conclusivo.",
+      "correctAnswer": "C",
+      "explanation": "Projetos de comissão integram o rol de exceções. A autoria colegiada não transfere a decisão final ao próprio colegiado. Um projeto de parlamentar sem outra exceção poderia ter tramitação conclusiva. Regimento Interno da Câmara, art. 24, II, d.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 76,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "votação conclusiva e preservação de recurso",
+        "caseId": "cam-cpl-exp26-projetos-senado-comissao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-recurso-parcial-e-prazo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "recurso-parcial-conclusivo-em-cinco-sessoes",
+      "mechanism": "comissao-recurso-parcial-e-prazo",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Duas rotas na Câmara: comissões e Plenário"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Duas rotas na Câmara: comissões e Plenário"
+      ],
+      "statement": "Um projeto recebeu aprovação conclusiva nas comissões da Câmara. Após a publicação do anúncio no Diário e no avulso da Ordem do Dia, 52 deputados apresentaram recurso em sessão, na quarta sessão, restrito a um de seus capítulos. O Plenário ainda não decidiu sobre o recurso.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO recurso atende ao mínimo de apoiamento e ao prazo, e pode ser restrito a parte da proposição.",
+      "correctAnswer": "C",
+      "explanation": "O recurso pode abranger todo o projeto ou parte dele. Deve ser apresentado em sessão dentro de cinco sessões da publicação e ter apoio de um décimo dos membros, isto é, pelo menos 52 numa Câmara de 513. Ele ainda precisa ser provido pelo Plenário. Constituição Federal, art. 58, § 2º, I, e Regimento Interno da Câmara, art. 132, § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 76,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "votação conclusiva e preservação de recurso",
+        "caseId": "cam-cpl-exp26-recurso-dois-capitulos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-recurso-apoiamento-e-provimento",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "apoiamento-nao-substitui-provimento",
+      "mechanism": "comissao-recurso-apoiamento-e-provimento",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Duas rotas na Câmara: comissões e Plenário"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Duas rotas na Câmara: comissões e Plenário"
+      ],
+      "statement": "Um projeto recebeu aprovação conclusiva nas comissões da Câmara. Após a publicação do anúncio no Diário e no avulso da Ordem do Dia, 52 deputados apresentaram recurso em sessão, na quarta sessão, restrito a um de seus capítulos. O Plenário ainda não decidiu sobre o recurso.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nAtingidas as 52 assinaturas, o capítulo impugnado deve ser votado em Plenário independentemente da decisão sobre o recurso.",
+      "correctAnswer": "E",
+      "explanation": "O apoiamento qualifica a interposição e o provimento decide se o Plenário retomará o exame. O rito exige ambos. Se o recurso for rejeitado, não se abre por seu efeito a discussão e votação plenárias do capítulo. Regimento Interno da Câmara, art. 132, § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 76,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "votação conclusiva e preservação de recurso",
+        "caseId": "cam-cpl-exp26-recurso-dois-capitulos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-ministro-comparecimento-pessoal",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "convocacao-ministro-pela-comissao",
+      "mechanism": "comissao-ministro-comparecimento-pessoal",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "statement": "Uma comissão permanente decide convocar ministro para prestar esclarecimentos pessoais sobre matéria de sua pasta previamente determinada. Em seguida, prepara pedido escrito de informação ao mesmo ministro e cogita enviá-lo diretamente, sem passar pela Mesa.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA comissão tem competência para a convocação pessoal sobre a matéria determinada.",
+      "correctAnswer": "C",
+      "explanation": "Comissões da Câmara e do Senado podem convocar ministro para prestar pessoalmente informações sobre assunto previamente determinado. O pedido escrito segue outro rito, com encaminhamento pela Mesa. Constituição Federal, art. 50, caput e § 2º, e Regimento Interno da Câmara, art. 24, IV e V.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-convocacao-pedido-escrito"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-escrito-tramita-via-mesa",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "pedido-escrito-nao-usa-rota-da-convocacao",
+      "mechanism": "comissao-escrito-tramita-via-mesa",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "statement": "Uma comissão permanente decide convocar ministro para prestar esclarecimentos pessoais sobre matéria de sua pasta previamente determinada. Em seguida, prepara pedido escrito de informação ao mesmo ministro e cogita enviá-lo diretamente, sem passar pela Mesa.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nComo a comissão pode convocar o ministro, pode também expedir diretamente a ele o pedido escrito de informação pela mesma competência.",
+      "correctAnswer": "E",
+      "explanation": "A convocação pessoal pode ser feita pela comissão, mas pedidos escritos de informação seguem por intermédio da Mesa. A identidade do destinatário não unifica as duas rotas. Constituição Federal, art. 50, §§ 1º e 2º, e Regimento Interno da Câmara, art. 24, IV e V.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-convocacao-pedido-escrito"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-comissao-desvinculacao-perda-de-vaga",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "perda-da-vaga-por-desvinculacao",
+      "mechanism": "comissao-desvinculacao-perda-de-vaga",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "statement": "Um deputado desvincula-se da bancada em razão da qual ocupa vaga eletiva em determinada comissão permanente. Sua nova bancada solicita a preservação automática da vaga até nova instalação. Ao mesmo tempo, a Câmara deve observar a representação proporcional na composição do colegiado.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA desvinculação produz perda da vaga obtida em razão da bancada, mesmo quando o parlamentar ocupa posição eletiva no colegiado.",
+      "correctAnswer": "C",
+      "explanation": "A vaga daquela bancada é perdida pela desvinculação, incluindo cargo de natureza eletiva. A nova filiação não mantém automaticamente vaga obtida por representação anterior. A composição observa proporcionalidade na medida do possível. Constituição Federal, art. 58, § 1º, e Regimento Interno da Câmara, art. 23, parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 98,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-vagas-e-colegiado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cpi-sexta-resolucao-camara",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "limite-regimental-cpi-e-projeto-de-resolucao",
+      "mechanism": "cpi-sexta-resolucao-camara",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      },
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      ],
+      "statement": "Na Câmara, 171 deputados subscrevem requerimento para CPI sobre fato caracterizado e com prazo certo. Já funcionam cinco CPIs. Os subscritores querem simplesmente usar a mesma via que seria adotada se houvesse apenas quatro em funcionamento.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nCom cinco CPIs em funcionamento, a regra regimental exige projeto de resolução com o mesmo quórum de apresentação para viabilizar nova criação.",
+      "correctAnswer": "C",
+      "explanation": "Fato determinado, prazo certo e apoio de um terço são requisitos constitucionais. A Câmara prevê, para superar o limite de cinco em funcionamento, projeto de resolução com o mesmo quórum de apresentação. Com quatro, essa exceção ao limite não precisaria ser acionada. Constituição Federal, art. 58, § 3º, e Regimento Interno da Câmara, art. 35, § 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 77,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "competência investigatória e medida sujeita à jurisdição",
+        "caseId": "cam-cpl-exp26-cpi-requisitos-limite-cinco"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cpi-prorrogacao-cinquenta-plenario",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "prazo-e-prorrogacao-cpi-camara",
+      "mechanism": "cpi-prorrogacao-cinquenta-plenario",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      },
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      ],
+      "statement": "Uma CPI regularmente instalada na Câmara, com prazo inicial de 120 dias, ainda precisa analisar documentos e quer prorrogar seus trabalhos por 50 dias. Em outra proposição, uma CPI mista foi requerida por 190 deputados e 26 senadores.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA primeira CPI pode ter o prazo prorrogado pelo período pretendido se o Plenário deliberar favoravelmente.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento da Câmara admite 120 dias e prorrogação de até metade, mediante deliberação do Plenário. Cinquenta dias estão dentro desse máximo de 60. Ultrapassar a metade excederia o limite regimental. Regimento Interno da Câmara, art. 35, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 77,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "competência investigatória e medida sujeita à jurisdição",
+        "caseId": "cam-cpl-exp26-duas-cpis-perguntas"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cpi-mista-deficit-de-um-senador",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "apoiamento-bicameral-da-cpmi",
+      "mechanism": "cpi-mista-deficit-de-um-senador",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "7. CPMI: particularidades da Comissão Parlamentar Mista de Inquérito"
+      },
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#7. CPMI: particularidades da Comissão Parlamentar Mista de Inquérito"
+      ],
+      "statement": "Uma CPI regularmente instalada na Câmara, com prazo inicial de 120 dias, ainda precisa analisar documentos e quer prorrogar seus trabalhos por 50 dias. Em outra proposição, uma CPI mista foi requerida por 190 deputados e 26 senadores.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO número de deputados acima da fração mínima supre a falta de um senador na formação do requerimento da comissão mista.",
+      "correctAnswer": "E",
+      "explanation": "A comissão mista exige um terço em cada Casa, sem soma compensatória. São necessários 171 deputados e 27 senadores. O número de deputados supera o mínimo, mas faltou uma assinatura do Senado. Constituição Federal, art. 58, § 3º, e Regimento Comum, art. 21.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 109,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "jurisprudência",
+        "caseId": "cam-cpl-exp26-duas-cpis-perguntas"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cpi-registros-passados-fundamentados",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "quebra-registros-telefonicos-fundamentada",
+      "mechanism": "cpi-registros-passados-fundamentados",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "3. Requisitos de validade da quebra de sigilo por CPI"
+      },
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#3. Requisitos de validade da quebra de sigilo por CPI"
+      ],
+      "statement": "Uma CPI apura transferência irregular de recursos. Por decisão colegiada que delimita pessoas, período e vínculo com o fato, pretende obter registros de chamadas já realizadas. Em medida distinta, pretende ouvir telefonemas futuros das mesmas pessoas.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA CPI pode determinar acesso a registros pretéritos pertinentes mediante deliberação adequadamente fundamentada.",
+      "correctAnswer": "C",
+      "explanation": "Os poderes investigatórios permitem acessar dados telefônicos de ligações já realizadas se houver deliberação motivada, pertinência e delimitação. Isso difere de captar a comunicação futura. Constituição Federal, arts. 5º, XII, e 58, § 3º, e Supremo Tribunal Federal, MS 23.452.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 77,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "competência investigatória e medida sujeita à jurisdição",
+        "caseId": "cam-cpl-exp26-registros-e-interceptacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cpi-futuros-reserva-judicial",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "interceptacao-de-comunicacao-futura",
+      "mechanism": "cpi-futuros-reserva-judicial",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "2. A cláusula constitucional: \"Poderes de investigação próprios das autoridades judiciais\""
+      },
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#2. A cláusula constitucional: \"Poderes de investigação próprios das autoridades judiciais\""
+      ],
+      "statement": "Uma CPI apura transferência irregular de recursos. Por decisão colegiada que delimita pessoas, período e vínculo com o fato, pretende obter registros de chamadas já realizadas. Em medida distinta, pretende ouvir telefonemas futuros das mesmas pessoas.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA fundamentação individualizada também permite que a CPI determine diretamente a interceptação dos telefonemas futuros.",
+      "correctAnswer": "E",
+      "explanation": "Interceptação do conteúdo de comunicações depende de ordem judicial. A boa motivação não desloca a reserva de jurisdição. Acesso a registros pretéritos, com requisitos cumpridos, é medida distinta. Constituição Federal, arts. 5º, XII, e 58, § 3º, e Supremo Tribunal Federal, MS 23.452.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 77,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "competência investigatória e medida sujeita à jurisdição",
+        "caseId": "cam-cpl-exp26-registros-e-interceptacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cpi-busca-domiciliar-sem-ordem",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "busca-domiciliar-reserva-de-jurisdicao",
+      "mechanism": "cpi-busca-domiciliar-sem-ordem",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "2. A cláusula constitucional: \"Poderes de investigação próprios das autoridades judiciais\""
+      },
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#2. A cláusula constitucional: \"Poderes de investigação próprios das autoridades judiciais\""
+      ],
+      "statement": "A CPI aprovou requerimento indicando precisamente uma residência, os documentos procurados e a causa concreta da diligência. Não há consentimento do morador, flagrante, desastre ou necessidade de prestar socorro.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA especificidade da decisão da CPI permite a entrada durante o dia sem ordem judicial.",
+      "correctAnswer": "E",
+      "explanation": "Sem consentimento ou outra exceção constitucional, a entrada para busca em residência durante o dia exige determinação judicial. A delimitação da CPI pode instruir pedido à autoridade competente, sem suprir a reserva de jurisdição. Constituição Federal, arts. 5º, XI, e 58, § 3º, e Supremo Tribunal Federal, MS 23.452.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 77,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "competência investigatória e medida sujeita à jurisdição",
+        "caseId": "cam-cpl-exp26-cpi-busca-residencia"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cpi-testemunha-protecao-em-pergunta-especifica",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "autoincriminacao-no-depoimento-testemunhal",
+      "mechanism": "cpi-testemunha-protecao-em-pergunta-especifica",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "4. Garantias fundamentais da testemunha e do investigado"
+      },
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#4. Garantias fundamentais da testemunha e do investigado"
+      ],
+      "statement": "Uma pessoa comparece a CPI como testemunha. Ela pode explicar fatos de terceiros, mas a resposta a uma pergunta específica pode incriminá-la. Presidência e defesa discutem o alcance do direito ao silêncio.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA qualificação como testemunha não elimina a possibilidade de recusar resposta que possa incriminá-la.",
+      "correctAnswer": "C",
+      "explanation": "A garantia contra autoincriminação incide sobre a pergunta potencialmente incriminadora. O dever de depor sobre outros fatos, quando aplicável, não autoriza obrigar a pessoa a produzir prova contra si. Constituição Federal, art. 5º, LXIII, e Supremo Tribunal Federal, HC 201.970.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 106,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "jurisprudência",
+        "caseId": "cam-cpl-exp26-cpi-testemunha-pergunta-autoincriminatoria"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-cpi-relatorio-nao-condena",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "relatorio-de-cpi-e-responsabilidade-penal",
+      "mechanism": "cpi-relatorio-nao-condena",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "6. O relatório final e seus desdobramentos jurídicos"
+      },
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#6. O relatório final e seus desdobramentos jurídicos"
+      ],
+      "statement": "Ao concluir investigação, uma comissão parlamentar de inquérito aprova relatório com indícios de infrações administrativas e penais. Uma liderança quer aplicar pena criminal por votação da própria comissão. Outra propõe encaminhar as conclusões ao Ministério Público.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nSe a votação do relatório for unânime, a CPI pode aplicar pena criminal sem encaminhar o caso a outro órgão.",
+      "correctAnswer": "E",
+      "explanation": "A CPI investiga e delibera sobre suas conclusões. Ela não exerce jurisdição penal para condenar. O encaminhamento ao Ministério Público, quando cabível, destina-se à promoção da responsabilidade civil ou criminal na forma própria. Constituição Federal, art. 58, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 77,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "competência investigatória e medida sujeita à jurisdição",
+        "caseId": "cam-cpl-exp26-cpi-relatorio-e-acao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais e regimentais das comissões. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF O item de referência calibra a operação de julgamento."
     }
   ]
 }

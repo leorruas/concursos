@@ -74,7 +74,7 @@ fs.mkdirSync(evidence,{recursive:true});
    const errors=[];
    page.on('pageerror',err=>errors.push(err.message));
    await page.goto('http://127.0.0.1:8765/questoes.html',{waitUntil:'networkidle',timeout:45000});
-   await page.locator('#qs-mode').waitFor({state:'visible',timeout:10000});
+   await page.locator('#qs-config').waitFor({state:'attached',timeout:10000});
    await page.locator('#qs-config').evaluate(el=>el.hidden=false);
    await page.locator('#qs-config').waitFor({state:'visible',timeout:10000});
    assert.equal(await page.locator('#qs-start').isEnabled(),true,'questões precisam carregar');

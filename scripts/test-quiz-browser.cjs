@@ -138,7 +138,8 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.evaluate(()=>{
     localStorage.removeItem('concursos-quiz-sessoes-v1');
     localStorage.removeItem('concursos-quiz-ativa-v1');
-    document.querySelector('#qs-config').hidden=false;
+    document.querySelector('#qs-config').hidden=true;
+    document.querySelector('#qs-restart').click();
    });
    await page.locator('#qs-config').waitFor({state:'visible'});
    await page.selectOption('#qs-concurso','camara-2026');

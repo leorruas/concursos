@@ -94863,6 +94863,413 @@
         "caseId": "cam-cpl-exp26-fim-de-votacao-conjunta"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qo-dispositivo-anunciado-no-inicio",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "indicacao-inicial-do-dispositivo-em-questao-de-ordem",
+      "mechanism": "qo-dispositivo-anunciado-no-inicio",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Durante a Ordem do Dia da Câmara dos Deputados, uma deputada pediu a palavra para levantar questão de ordem diretamente relacionada ao projeto em discussão. Ela começou a narrar o ocorrido, mas deixou para indicar o dispositivo regimental após a exposição. O presidente interrompeu sua intervenção e determinou a exclusão das palavras da ata.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA providência da Presidência é compatível com a regra específica, ainda que a matéria esteja na Ordem do Dia.",
+      "correctAnswer": "C",
+      "explanation": "A questão de ordem durante a Ordem do Dia deve dizer respeito à matéria da pauta e indicar inicialmente os dispositivos que embasam a dúvida. A vinculação ao projeto cumpre o primeiro requisito. O descumprimento do segundo autoriza interromper a permanência na tribuna e determinar exclusão das palavras da ata. Regimento Interno da Câmara dos Deputados, art. 95, §§ 1º, 4º e 5º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 98,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-ata-e-dispositivo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Interno da Câmara dos Deputados. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qo-autor-sem-terceira-intervencao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "limite-de-palavra-na-redacao-final",
+      "mechanism": "qo-autor-sem-terceira-intervencao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Na Câmara dos Deputados, enquanto o Plenário discutia a redação final de uma proposição, o relator e outra deputada já haviam recebido a palavra para formular questão de ordem. O autor do projeto pretendeu formular uma terceira questão de ordem na mesma etapa, invocando a preferência conferida à autoria.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA preferência dada ao autor assegura uma terceira intervenção nessa etapa, além das duas já concedidas.",
+      "correctAnswer": "E",
+      "explanation": "Na discussão e votação da redação final, a palavra para formular questão de ordem pode ser concedida uma vez ao relator e uma vez a outro deputado. O autor tem preferência para essa segunda intervenção, sem direito a uma terceira. Regimento Interno da Câmara dos Deputados, art. 95, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-redacao-final-e-palavra"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Interno da Câmara dos Deputados. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qo-recurso-marco-publicacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "pauta-do-recurso-apos-publicacao-do-parecer",
+      "mechanism": "qo-recurso-marco-publicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Na Câmara, um deputado teve uma questão de ordem decidida pela Presidência durante o Expediente. Ele quer criticar a decisão na mesma sessão e recorrer ao Plenário. A Comissão de Constituição e Justiça e de Cidadania, ouvida sobre o recurso, se pronuncia na segunda sessão após receber a matéria. O parecer é publicado um dia depois.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nPublicado o parecer, o recurso deve ser submetido ao Plenário na sessão seguinte à publicação, mesmo que a comissão tenha se pronunciado antes de esgotar o prazo.",
+      "correctAnswer": "C",
+      "explanation": "A comissão tem até três sessões para se pronunciar, mas o marco para levar o recurso ao Plenário é a publicação do parecer. O lapso entre a manifestação e a publicação altera a pauta. A contagem não começa no dia da decisão inicial da Presidência. Regimento Interno da Câmara dos Deputados, art. 95, § 8º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-decisao-e-sessao-seguinte"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Interno da Câmara dos Deputados. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qo-critica-e-recurso-prazos-distintos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "critica-em-sessao-seguinte-e-recurso-ao-plenario",
+      "mechanism": "qo-critica-e-recurso-prazos-distintos",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Na Câmara, um deputado teve uma questão de ordem decidida pela Presidência durante o Expediente. Ele quer criticar a decisão na mesma sessão e recorrer ao Plenário. A Comissão de Constituição e Justiça e de Cidadania, ouvida sobre o recurso, se pronuncia na segunda sessão após receber a matéria. O parecer é publicado um dia depois.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nComo a crítica deve ser reservada para o Expediente da sessão seguinte, a interposição do recurso também depende de aguardar essa sessão.",
+      "correctAnswer": "E",
+      "explanation": "A restrição ao comentário, protesto ou crítica na mesma sessão não se confunde com o direito de recorrer ao Plenário. A crítica pode ser feita na sessão seguinte, com preferência durante dez minutos no Expediente. O recurso tem rito próprio, com oitiva da comissão e deliberação após a publicação do parecer. Regimento Interno da Câmara dos Deputados, art. 95, §§ 6º a 8º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 98,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-decisao-e-sessao-seguinte"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Interno da Câmara dos Deputados. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-reclamacao-recurso-oral-presidente",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "via-oral-no-recurso-contra-decisao-de-comissao",
+      "mechanism": "reclamacao-recurso-oral-presidente",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Durante reunião de comissão permanente, um deputado que integra o colegiado aponta descumprimento de regra expressa relativa a uma deliberação. O presidente decide conclusivamente a reclamação. O deputado pretende levar a matéria oralmente ao Presidente da Câmara, sem seguir o rito da questão de ordem decidida no Plenário.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nDepois da decisão conclusiva, é admissível levar oralmente o assunto ao Presidente da Câmara em grau de recurso.",
+      "correctAnswer": "C",
+      "explanation": "O membro pode reclamar de ação ou omissão da comissão que integra. Após a decisão conclusiva de seu presidente, o regimento permite recurso oral ou escrito ao Presidente da Câmara ou ao Plenário. Antes da decisão conclusiva, essa via recursal ainda não está aberta. Regimento Interno da Câmara dos Deputados, art. 96, § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-reclamacao-em-reuniao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Interno da Câmara dos Deputados. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-reclamacao-remissao-parcial",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "limite-da-remissao-sobre-reclamacao",
+      "mechanism": "reclamacao-remissao-parcial",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Durante reunião de comissão permanente, um deputado que integra o colegiado aponta descumprimento de regra expressa relativa a uma deliberação. O presidente decide conclusivamente a reclamação. O deputado pretende levar a matéria oralmente ao Presidente da Câmara, sem seguir o rito da questão de ordem decidida no Plenário.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA remissão às regras de questão de ordem obriga o deputado a submeter o recurso primeiro à Comissão de Constituição e Justiça e de Cidadania.",
+      "correctAnswer": "E",
+      "explanation": "A remissão do art. 96 abrange os §§ 1º a 7º do art. 95. A oitiva da comissão no recurso de questão de ordem está no § 8º, fora da remissão. Para reclamação na comissão, vale o itinerário próprio do art. 96, § 2º. Regimento Interno da Câmara dos Deputados, arts. 95, § 8º, e 96, §§ 2º e 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-reclamacao-em-reuniao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Interno da Câmara dos Deputados. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-ata-documento-integral-recurso",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "indeferimento-de-publicacao-integral-e-recurso",
+      "mechanism": "ata-documento-integral-recurso",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Em sessão da Câmara, uma deputada menciona um documento público de outro Poder e lê um único trecho. Ela pede à Mesa a publicação integral do documento, mas o pedido é indeferido. O texto de seu próprio discurso foi publicado e ela identificou um erro de transcrição.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA deputada pode recorrer ao Plenário contra o indeferimento da publicação integral.",
+      "correctAnswer": "C",
+      "explanation": "Quando o documento de outro Poder não foi lido integralmente, a regra é indicar seu objeto na ata. A Mesa pode autorizar a publicação integral mediante requerimento da oradora. Se indeferir, cabe recurso ao Plenário. A publicação do discurso não equivale a autorizar a íntegra do documento citado. Regimento Interno da Câmara dos Deputados, art. 98, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-discurso-e-documento"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Interno da Câmara dos Deputados. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-diario-errata-discurso-publicado",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "correcao-de-discurso-ja-publicado",
+      "mechanism": "diario-errata-discurso-publicado",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Em sessão da Câmara, uma deputada menciona um documento público de outro Poder e lê um único trecho. Ela pede à Mesa a publicação integral do documento, mas o pedido é indeferido. O texto de seu próprio discurso foi publicado e ela identificou um erro de transcrição.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nPara corrigir o erro de transcrição, deve-se republicar o discurso inteiro na edição seguinte do Diário da Câmara.",
+      "correctAnswer": "E",
+      "explanation": "O Diário corrige erros e omissões de discursos já publicados por meio da seção Errata. A republicação integral com esse fundamento é vedada. Antes da publicação, a deputada poderia retirar o discurso na Taquigrafia para revisão nas condições regimentais. Regimento Interno da Câmara dos Deputados, art. 98, §§ 1º e 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-discurso-e-documento"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Interno da Câmara dos Deputados. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-ata-encerramento-qualquer-numero",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "aprovacao-da-ata-no-encerramento-anual",
+      "mechanism": "ata-encerramento-qualquer-numero",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "statement": "Na última sessão da Câmara antes do encerramento da sessão legislativa anual, ao terminar os trabalhos, sobraram no Plenário poucos deputados. A Mesa tem a ata em resumo pronta. Em outra sessão ordinária do mesmo ano, também houve baixa presença ao fim dos trabalhos.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA regra especial permite discutir e aprovar a ata resumida antes de levantar a última sessão, com os deputados que permaneceram.",
+      "correctAnswer": "C",
+      "explanation": "No encerramento da sessão legislativa, o Regimento manda submeter a ata resumida da última sessão a discussão e aprovação antes de levantá-la, com qualquer número presente. A condição decisiva é o encerramento da sessão legislativa. A regra não se estende a toda sessão ordinária de baixa presença. Regimento Interno da Câmara dos Deputados, art. 97, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-ata-de-dezembro"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Interno da Câmara dos Deputados. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qo-conjunta-quatro-minutos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "prazo-de-questao-de-ordem-conjunta",
+      "mechanism": "qo-conjunta-quatro-minutos",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      ],
+      "statement": "Em sessão conjunta, durante a apreciação de matéria do rito geral, um deputado suscita questão de ordem concreta, vinculada à matéria, com indicação do artigo do Regimento Comum. Usa quatro minutos. Sobre outra dúvida de procedimento da mesma sessão, verifica-se lacuna no Regimento Comum, mas há resposta expressa no Regimento do Senado.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA manifestação de quatro minutos está dentro do limite da sessão conjunta, embora ultrapasse o limite geral da questão de ordem no Plenário da Câmara.",
+      "correctAnswer": "C",
+      "explanation": "A questão de ordem concreta em sessão conjunta pode ser formulada em até cinco minutos. Na Câmara, em sessão de sua própria Casa, o limite geral é de três minutos. A natureza da sessão determina a norma aplicável. Regimento Comum do Congresso Nacional, art. 131, e Regimento Interno da Câmara dos Deputados, art. 95, § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 98,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-conjunta-interpretacao-especifica"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-qo-subsidiariedade-casa-presidencia",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "ordem-de-subsidiariedade-regimental",
+      "mechanism": "qo-subsidiariedade-casa-presidencia",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#6. Questão de ordem e norma subsidiária (arts. 131–133 e 151)"
+      ],
+      "statement": "Em sessão conjunta, durante a apreciação de matéria do rito geral, um deputado suscita questão de ordem concreta, vinculada à matéria, com indicação do artigo do Regimento Comum. Usa quatro minutos. Sobre outra dúvida de procedimento da mesma sessão, verifica-se lacuna no Regimento Comum, mas há resposta expressa no Regimento do Senado.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nPara a dúvida sem resposta no Regimento Comum, o fato de o suscitante ser deputado permite preferir a regra da Câmara à do Senado.",
+      "correctAnswer": "E",
+      "explanation": "A lacuna do Regimento Comum é suprida primeiro pelo Regimento do Senado. Só se este também for omisso recorre-se ao da Câmara. A Casa a que pertence o parlamentar não altera a ordem das fontes. Regimento Comum do Congresso Nacional, art. 151.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 102,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "efeito",
+        "caseId": "cam-cpl-exp26-conjunta-interpretacao-especifica"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
     }
   ]
 }

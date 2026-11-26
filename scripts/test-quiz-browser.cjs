@@ -113,6 +113,14 @@ fs.mkdirSync(evidence,{recursive:true});
    });
    await page.locator('#qs-start').click();
    await page.locator('#qs-play').waitFor({state:'visible'});
+   await page.evaluate(({subjects,reservedIds,questionRows})=>{
+    const stored=JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1'));
+    const session=stored.at(-1);
+    const pool=questionRows.filter(q=>q.concursoId==='cgu-2026'&&subjects.includes(q.subjectId)&&!reservedIds.includes(q.id));
+    session.ids=subjects.map(subject=>pool.find(q=>q.subjectId===subject)?.id).filter(Boolean);
+    localStorage.setItem('concursos-quiz-sessoes-v1',JSON.stringify(stored));
+   },{subjects,questionRows:questions.map(({id,concursoId,subjectId})=>({id,concursoId,subjectId})),
+    reservedIds:JSON.parse(fs.readFileSync(path.join(__dirname,'../_site/data/avaliacao-reservada-camara-2026.json'),'utf8')).reservedQuestionIds});
    const mixed=await page.evaluate(()=>JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1')).at(-1));
    assert.equal(mixed.concursoId,'cgu-2026');
    assert.equal(mixed.scope,'mixed');

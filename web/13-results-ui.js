@@ -924,7 +924,37 @@ function render(){
     }
     competitive.append(list);
    }
-   competitive.append(el('p','results-caption','A pontuação líquida usa +1 por acerto, −1 por erro e 0 em branco. Pool de 100 itens: amostra parcial, não substitui a prova integral de 180 itens; a meta de referência é 171/180 (95%).'));
+   const milestones=current.independentAssessments.milestones;
+   if(Array.isArray(milestones)&&milestones.length){
+    const section=el('section','results-assessment-milestones');
+    section.append(el('h4','','Metas intermediárias de acerto'));
+    const rows=el('div','results-modes-list');
+    for(const milestone of milestones){
+     if(!/^\d{4}-\d{2}-\d{2}$/.test(milestone?.date)||!Number.isFinite(milestone.targetAccuracy))continue;
+     const latest=sessions.filter(sample=>/^\d{4}-\d{2}-\d{2}$/.test(sample?.date)&&sample.date<=milestone.date)
+      .sort((a,b)=>a.date.localeCompare(b.date)).at(-1);
+     const row=el('div','results-mode-row');
+     row.append(el('strong','results-mode-name',fmtDate(milestone.date)+' · '+milestone.targetAccuracy+'%'));
+     let status='';
+     if(!latest)status=today<=milestone.date?'Nenhuma avaliação independente registrada até o momento.':'Sem avaliação independente até o prazo.';
+     else{
+      const judged=(Number(latest.correct)||0)+(Number(latest.incorrect)||0);
+      if(judged<50)status='Amostra insuficiente: '+judged+' respostas julgáveis (mínimo 50).';
+      else if(latest.accuracy==null)status='Sem respostas julgáveis para calcular a taxa de acerto.';
+      else{
+       const result=latest.accuracy>=milestone.targetAccuracy
+        ?(latest.date<milestone.date?'Meta atingida antes do prazo.':'Meta atingida.')
+        :today<=milestone.date?'Em andamento.':'Meta não atingida até o prazo.';
+       status=latest.accuracy+'% na avaliação de '+fmtDate(latest.date)+' · '+judged+' respostas julgáveis · '+result;
+      }
+     }
+     row.append(el('span','results-mode-breakdown',status));rows.append(row);
+    }
+    if(rows.childElementCount)section.append(rows,
+     el('p','results-caption','Estas metas acompanham percentual de acerto em avaliação independente. Não são pontuação líquida nem previsão de nota; amostras abaixo de 50 respostas julgáveis são insuficientes.'));
+    competitive.append(section);
+   }
+   competitive.append(el('p','results-caption','A pontuação líquida usa +1 por acerto, −1 por erro e 0 em branco. Pool de 100 itens: amostra parcial, não substitui a prova integral de 180 itens; a meta competitiva de referência é 171/180 (95%), separada das metas de percentual de acerto.'));
   }
   if(Array.isArray(current.competitiveSimulations)){
    competitive.append(el('h3', '', 'Pontuação líquida em simulados integrais'));

@@ -265,6 +265,9 @@ fs.mkdirSync(evidence,{recursive:true});
     summary:{valid:3,correct:2,incorrect:1,blank:0,accuracy:66.7},
     sources:{chat:{total:1},site:{total:2},siteDuplicatesSkipped:0,unmatchedCatalog:0},
     competitiveSimulations:[{date:'2026-11-14',P1:18,P2:36,total:54,objectiveMinimumMet:true}],
+    independentAssessments:{sessions:[{sessionId:'sintetica',date:'2026-11-17',total:100,correct:50,incorrect:10,
+     blank:40,accuracy:83.3,net:40,netPercent:40,secureErrors:0,insecureCorrect:0,bySubject:[]}],
+     milestones:[{date:'2026-11-18',targetAccuracy:77},{date:'2026-11-20',targetAccuracy:83}],targetNet:171,targetTotal:180},
     adaptive:{version:1,secureErrors:1,insecureCorrect:1,byMode:{
      aprendizagem:{correct:1,incorrect:1,blank:0},revisao:{correct:1,incorrect:0,blank:0},
      simulado:{correct:0,incorrect:0,blank:1}},
@@ -400,6 +403,10 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.match(await page.locator('#results-study-modes').innerText(), /1 tentativa/);
    assert.match(await page.locator('#results-study-modes').innerText(), /Bateria histórica com correção ao final/);
    assert.match(await page.locator('#results-competitive-simulations').innerText(), /54 pontos líquidos/);
+   assert.equal(await page.locator('.results-assessment-milestones .results-mode-row').count(),2,
+    'metas intermediárias exibidas sem misturar taxa de acerto e nota líquida');
+   assert.match(await page.locator('.results-assessment-milestones').innerText(),/83.3% na avaliação de 17\/11\/2026/);
+   assert.match(await page.locator('.results-assessment-milestones').innerText(),/Meta atingida antes do prazo/);
    assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
      (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
    assert.equal(await page.locator('#results-edital-coverage .results-edital-unit summary').count(),0,

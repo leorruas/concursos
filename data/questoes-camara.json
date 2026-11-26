@@ -99007,6 +99007,746 @@
         "caseId": "cam-cpl-exp26-urgencia-codigo-e-lei"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-entrevista-fiscalizacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regime constitucional dos parlamentares",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "nexo-funcional-da-imunidade-material",
+      "mechanism": "mandato-entrevista-fiscalizacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "statement": "Fora do recinto parlamentar, uma deputada dá entrevista na qual apresenta resultados de fiscalização de um contrato federal que ela conduziu no mandato. Em outra ocasião, publica um comentário ofensivo motivado exclusivamente por disputa pessoal sobre um imóvel, sem relação com suas funções.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO fato de a entrevista ocorrer fora da Câmara não impede a incidência da imunidade material sobre as manifestações ligadas à fiscalização descrita.",
+      "correctAnswer": "C",
+      "explanation": "A inviolabilidade civil e penal protege opiniões, palavras e votos vinculados à função. A entrevista divulga atividade legislativa de fiscalização. Em manifestação feita fora da Casa, o elemento decisivo é o nexo funcional, ausente na disputa sobre imóvel. Constituição Federal, art. 53, caput, e Supremo Tribunal Federal, Inq 1.775 AgR.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 84,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "manifestação parlamentar e local do pronunciamento",
+        "caseId": "cam-cpl-exp26-entrevista-e-briga-privada"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://www.stf.jus.br/arquivo/informativo/documento/informativo275.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-disputa-privada-sem-nexo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regime constitucional dos parlamentares",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "imunidade-material-e-conflito-privado",
+      "mechanism": "mandato-disputa-privada-sem-nexo",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "statement": "Fora do recinto parlamentar, uma deputada dá entrevista na qual apresenta resultados de fiscalização de um contrato federal que ela conduziu no mandato. Em outra ocasião, publica um comentário ofensivo motivado exclusivamente por disputa pessoal sobre um imóvel, sem relação com suas funções.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA condição de deputada estende ao comentário motivado exclusivamente pela disputa pessoal a mesma imunidade incidente na entrevista.",
+      "correctAnswer": "E",
+      "explanation": "A inviolabilidade funcional não alcança automaticamente manifestação fora do Parlamento. A disputa privada não tem nexo com o exercício do mandato. O meio usado para publicar não supre essa falta, ao contrário do conteúdo de fiscalização na entrevista. Constituição Federal, art. 53, caput, e Supremo Tribunal Federal, Inq 1.775 AgR.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 84,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "manifestação parlamentar e local do pronunciamento",
+        "caseId": "cam-cpl-exp26-entrevista-e-briga-privada"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://www.stf.jus.br/arquivo/informativo/documento/informativo275.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-prisao-depois-diploma",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regime constitucional dos parlamentares",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "inicio-garantia-prisao-na-diplomacao",
+      "mechanism": "mandato-prisao-depois-diploma",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "statement": "Um deputado federal diplomado ainda não tomou posse. Ele é preso em flagrante de crime inafiançável. Os autos são remetidos à Câmara dezoito horas depois. Outra pessoa, eleita, mas ainda não diplomada, afirma que também pode invocar a mesma garantia.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA garantia já se aplica ao primeiro deputado, e a remessa tempestiva permite à Câmara decidir sobre a prisão pela maioria absoluta de seus membros.",
+      "correctAnswer": "C",
+      "explanation": "Desde a expedição do diploma, a prisão só é admitida em flagrante de crime inafiançável. Os autos devem ser encaminhados em vinte e quatro horas para a Casa decidir pela maioria de seus membros. O caso ocorreu depois da diplomação, ainda que antes da posse. Constituição Federal, art. 53, § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 85,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "recebimento da acusação e sustação do processo",
+        "caseId": "cam-cpl-exp26-prisao-antes-da-posse"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-eleicao-nao-anterior-a-diplomacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regime constitucional dos parlamentares",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "eleicao-versus-diplomacao-na-imunidade-formal",
+      "mechanism": "mandato-eleicao-nao-anterior-a-diplomacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "statement": "Um deputado federal diplomado ainda não tomou posse. Ele é preso em flagrante de crime inafiançável. Os autos são remetidos à Câmara dezoito horas depois. Outra pessoa, eleita, mas ainda não diplomada, afirma que também pode invocar a mesma garantia.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA eleição basta para antecipar à segunda pessoa a garantia constitucional contra prisão.",
+      "correctAnswer": "E",
+      "explanation": "A proteção formal prevista no art. 53, § 2º, começa na expedição do diploma. A eleição anterior, sem diplomação, não aciona essa regra. A posse posterior, por outro lado, não é exigida para o diplomado. Constituição Federal, art. 53, § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 85,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "recebimento da acusação e sustação do processo",
+        "caseId": "cam-cpl-exp26-prisao-antes-da-posse"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-pedido-nao-para-prescricao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regime constitucional dos parlamentares",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "efeito-prescricional-da-sustacao",
+      "mechanism": "mandato-pedido-nao-para-prescricao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "statement": "O Supremo Tribunal Federal recebeu denúncia por crime cometido depois da diplomação de um deputado e comunicou o fato à Câmara. Um partido nela representado apresentou pedido de sustação à Mesa Diretora. O Plenário ainda não deliberou.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO recebimento do pedido pela Mesa já suspende a prescrição, mesmo sem deliberação do Plenário.",
+      "correctAnswer": "E",
+      "explanation": "O pedido abre o procedimento, sem suspender automaticamente processo ou prescrição. A suspensão da prescrição decorre da sustação efetivamente aprovada e dura enquanto perdurar o mandato. Constituição Federal, art. 53, §§ 3º a 5º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 85,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "recebimento da acusação e sustação do processo",
+        "caseId": "cam-cpl-exp26-acao-penal-e-curto-prazo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-prazo-da-mesa-diretora",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regime constitucional dos parlamentares",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "marco-de-prazo-da-sustacao",
+      "mechanism": "mandato-prazo-da-mesa-diretora",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "statement": "O Supremo Tribunal Federal recebeu denúncia por crime cometido depois da diplomação de um deputado e comunicou o fato à Câmara. Um partido nela representado apresentou pedido de sustação à Mesa Diretora. O Plenário ainda não deliberou.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO prazo improrrogável para apreciação do pedido é de quarenta e cinco dias a partir de seu recebimento pela Mesa Diretora.",
+      "correctAnswer": "C",
+      "explanation": "A comunicação do Supremo e o recebimento do pedido pela Mesa são eventos distintos. O segundo inicia os quarenta e cinco dias. A sustação depende de voto da maioria dos membros da Casa até a decisão final. Constituição Federal, art. 53, §§ 3º e 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 85,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "recebimento da acusação e sustação do processo",
+        "caseId": "cam-cpl-exp26-acao-penal-e-curto-prazo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-fonte-informacao-testemunho",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regime constitucional dos parlamentares",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "sigilo-fonte-parlamentar-testemunho",
+      "mechanism": "mandato-fonte-informacao-testemunho",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "statement": "Em investigação, um deputado é chamado a depor sobre a identidade de pessoa que lhe entregou informações em razão de fiscalização conduzida durante o mandato. Em hipótese distinta, durante guerra, pretende-se incorporá-lo às Forças Armadas sem solicitar licença à Câmara.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA dispensa de testemunhar pode alcançar tanto a informação recebida na função quanto a identificação da pessoa que a confiou ao parlamentar.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição protege informações recebidas ou prestadas em razão do mandato e as pessoas que as confiaram ou receberam. Um fato da vida privada conhecido sem conexão com a função não se enquadraria nessa dispensa específica. Constituição Federal, art. 53, § 6º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 83,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "titularidade funcional e renúncia individual",
+        "caseId": "cam-cpl-exp26-testemunho-e-missao-militar"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-incorporacao-guerra-licenca",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regime constitucional dos parlamentares",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "incorporacao-militar-licenca-da-casa",
+      "mechanism": "mandato-incorporacao-guerra-licenca",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "statement": "Em investigação, um deputado é chamado a depor sobre a identidade de pessoa que lhe entregou informações em razão de fiscalização conduzida durante o mandato. Em hipótese distinta, durante guerra, pretende-se incorporá-lo às Forças Armadas sem solicitar licença à Câmara.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA guerra afasta a necessidade de licença da Câmara para a incorporação militar do deputado.",
+      "correctAnswer": "E",
+      "explanation": "A incorporação de parlamentar exige licença prévia da Casa, inclusive se for militar e ainda que em tempo de guerra. A situação excepcional descrita não altera a autoridade que concede a licença. Constituição Federal, art. 53, § 7º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 81,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "momento de incidência de incompatibilidade e natureza da função",
+        "caseId": "cam-cpl-exp26-testemunho-e-missao-militar"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-foro-cessacao-crime-funcional",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regime constitucional dos parlamentares",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "foro-funcional-apos-fim-do-mandato",
+      "mechanism": "mandato-foro-cessacao-crime-funcional",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "statement": "Um ex-deputado é investigado por fato praticado durante o mandato e diretamente relacionado a suas funções. A investigação só começou após o encerramento do mandato. Apura-se separadamente fato privado que ocorreu antes de sua investidura.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA investigação iniciada após o mandato não afasta por si só o foro do primeiro fato, dadas as circunstâncias funcionais descritas.",
+      "correctAnswer": "C",
+      "explanation": "O Supremo Tribunal Federal fixou que o foro para crimes praticados no cargo e em razão das funções subsiste após o afastamento, ainda que a investigação seja posterior. A data de instauração não elimina o vínculo funcional já demonstrado. Supremo Tribunal Federal, HC 232.627 e Inq 4.787.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 85,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "recebimento da acusação e sustação do processo",
+        "caseId": "cam-cpl-exp26-forocargo-e-conduta-anterior"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://www.stf.jus.br/arquivo/informativo/documento/informativo1168.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-foro-fato-privado-anterior",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regime constitucional dos parlamentares",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "limites-temporal-e-funcional-do-foro",
+      "mechanism": "mandato-foro-fato-privado-anterior",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "statement": "Um ex-deputado é investigado por fato praticado durante o mandato e diretamente relacionado a suas funções. A investigação só começou após o encerramento do mandato. Apura-se separadamente fato privado que ocorreu antes de sua investidura.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA conexão pessoal entre as duas investigações, por se referirem ao mesmo ex-deputado, torna suficiente a antiga investidura para firmar o foro quanto ao fato privado anterior.",
+      "correctAnswer": "E",
+      "explanation": "O foro funcional pressupõe fato cometido no cargo e em razão dele. A identidade do investigado não demonstra esses requisitos quanto ao fato privado anterior. A conclusão seria diferente se o fato fosse funcional e praticado durante a investidura. Supremo Tribunal Federal, HC 232.627 e Inq 4.787.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 85,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "recebimento da acusação e sustação do processo",
+        "caseId": "cam-cpl-exp26-forocargo-e-conduta-anterior"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html https://www.stf.jus.br/arquivo/informativo/documento/informativo1168.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-clausula-uniforme-diploma",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 226 a 251",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "excecao-contrato-clausulas-uniformes",
+      "mechanism": "mandato-clausula-uniforme-diploma",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "statement": "Uma deputada diplomada mantém contrato de fornecimento de energia submetido às mesmas cláusulas oferecidas a qualquer consumidor. Após a posse, cogita aceitar função remunerada na direção de empresa que goza de favor decorrente de contrato com pessoa jurídica de direito público.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO primeiro contrato enquadra-se na ressalva de cláusulas uniformes, embora as incompatibilidades contratuais já incidam desde a diplomação.",
+      "correctAnswer": "C",
+      "explanation": "Desde a diplomação, há restrição a contratos com as entidades listadas, ressalvadas cláusulas uniformes. O contrato padronizado de fornecimento descrito preenche a ressalva. Cláusulas negociadas individualmente exigiriam outro exame. Constituição Federal, art. 54, I, a.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 81,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "momento de incidência de incompatibilidade e natureza da função",
+        "caseId": "cam-cpl-exp26-contrato-uniforme-empresa"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-direcao-favor-apos-posse",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 226 a 251",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "incompatibilidade-empresa-favorecida-apos-posse",
+      "mechanism": "mandato-direcao-favor-apos-posse",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "statement": "Uma deputada diplomada mantém contrato de fornecimento de energia submetido às mesmas cláusulas oferecidas a qualquer consumidor. Após a posse, cogita aceitar função remunerada na direção de empresa que goza de favor decorrente de contrato com pessoa jurídica de direito público.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA ressalva relativa ao contrato de consumo permite também assumir a função remunerada na empresa favorecida após a posse.",
+      "correctAnswer": "E",
+      "explanation": "A ressalva das cláusulas uniformes pertence à vedação contratual da diplomação. Desde a posse, há regra distinta para ser proprietário, controlador ou diretor ou exercer função remunerada em empresa favorecida por contrato com pessoa de direito público. Constituição Federal, art. 54, I, a, e II, a.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 81,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "momento de incidência de incompatibilidade e natureza da função",
+        "caseId": "cam-cpl-exp26-contrato-uniforme-empresa"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-faltas-mesa-declara",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 226 a 251",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "perda-de-mandato-faltas-e-competencia",
+      "mechanism": "mandato-faltas-mesa-declara",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      },
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      ],
+      "statement": "Um deputado incorreu em faltas a exatamente um terço das sessões ordinárias da Casa durante a sessão legislativa, sem licença ou missão autorizada. Outro teve o procedimento declarado incompatível com o decoro parlamentar. Ambos receberam oportunidade de defesa.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNo primeiro caso, a perda é declarada pela Mesa, assegurada ampla defesa, ainda que o número de faltas não tenha ultrapassado um terço.",
+      "correctAnswer": "C",
+      "explanation": "A hipótese de faltas alcança quem deixa de comparecer à terça parte das sessões ordinárias, salvo licença ou missão autorizada. A Mesa declara a perda nessa hipótese. Decoro segue a via de decisão pela Casa. Constituição Federal, art. 55, III, §§ 2º e 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 82,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "efeito de decisão judicial e autoridade competente para a perda",
+        "caseId": "cam-cpl-exp26-ocorrencias-diferentes"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-decoro-plenario-maioria",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 226 a 251",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "perda-por-decoro-e-maioria-absoluta",
+      "mechanism": "mandato-decoro-plenario-maioria",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      },
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      ],
+      "statement": "Um deputado incorreu em faltas a exatamente um terço das sessões ordinárias da Casa durante a sessão legislativa, sem licença ou missão autorizada. Outro teve o procedimento declarado incompatível com o decoro parlamentar. Ambos receberam oportunidade de defesa.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA Mesa pode declarar a perda por decoro sem votação da Casa, pois o fato já foi apurado em procedimento com defesa.",
+      "correctAnswer": "E",
+      "explanation": "A perda por decoro é decidida pela Casa por maioria absoluta, mediante provocação legitimada, com ampla defesa. Apuração e defesa não substituem o juízo do Plenário. A hipótese de faltas, por sua vez, se inclui nas perdas declaradas pela Mesa. Constituição Federal, art. 55, II, §§ 2º e 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 82,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "efeito de decisão judicial e autoridade competente para a perda",
+        "caseId": "cam-cpl-exp26-ocorrencias-diferentes"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-ministro-suplemento-sem-vacancia",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 226 a 251",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "investidura-em-ministerio-e-suplencia",
+      "mechanism": "mandato-ministro-suplemento-sem-vacancia",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      },
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      ],
+      "statement": "Um deputado assume cargo de Ministro de Estado e comunica a investidura. Outra deputada pede licença, sem remuneração, para tratar de interesse particular por 120 dias na sessão legislativa. Os dois casos são encaminhados à Mesa.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO primeiro mantém o mandato e pode ter suplente convocado, ainda que não haja vacância.",
+      "correctAnswer": "C",
+      "explanation": "A investidura como Ministro de Estado não faz perder o mandato. Essa investidura é hipótese autônoma de convocação de suplente, separada da vacância e da licença superior ao prazo constitucional. Constituição Federal, art. 56, I e § 1º, e Regimento Interno da Câmara, art. 241.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 82,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "efeito de decisão judicial e autoridade competente para a perda",
+        "caseId": "cam-cpl-exp26-ministerio-e-afastamento"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-licenca-particular-igual-limiar",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 226 a 251",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "licenca-particular-de-cento-e-vinte-dias",
+      "mechanism": "mandato-licenca-particular-igual-limiar",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "3. Licenças: arts. 235 a 237"
+      },
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#3. Licenças: arts. 235 a 237"
+      ],
+      "statement": "Um deputado assume cargo de Ministro de Estado e comunica a investidura. Outra deputada pede licença, sem remuneração, para tratar de interesse particular por 120 dias na sessão legislativa. Os dois casos são encaminhados à Mesa.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA licença particular de exatamente 120 dias impõe convocação de suplente pelo simples fato de atingir o limite permitido para o afastamento.",
+      "correctAnswer": "E",
+      "explanation": "A licença particular sem remuneração pode chegar a 120 dias por sessão legislativa. A convocação por motivo de licença requer período superior a 120 dias. O limite do afastamento particular não constitui gatilho de suplência. Constituição Federal, art. 56, II e § 1º, e Regimento Interno da Câmara, arts. 235 e 241.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 97,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "fase e ato de posse",
+        "caseId": "cam-cpl-exp26-ministerio-e-afastamento"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-saude-soma-periodos-vedada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 226 a 251",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "suplente-prazo-original-licenca-saude",
+      "mechanism": "mandato-saude-soma-periodos-vedada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      },
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      ],
+      "statement": "A titular recebeu licença de saúde com prazo original de 90 dias. Após laudo para prorrogação, a licença foi estendida por mais 60 dias. Em outro caso, a licença de saúde original foi de 130 dias.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA soma de 90 e 60 dias não atende ao requisito regimental de prazo original superior a 120 dias para convocar suplente, enquanto a licença original de 130 dias atende.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento da Câmara exige prazo original superior a 120 dias na licença de saúde e veda somar períodos para esse efeito. O primeiro afastamento totaliza 150 dias, mas começou com 90. O segundo nasceu com 130, o que satisfaz o requisito. Regimento Interno da Câmara, art. 241, III.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 97,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "fase e ato de posse",
+        "caseId": "cam-cpl-exp26-licencas-seriadas"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-licenca-missao-mesa",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 226 a 251",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "competencia-deferir-licenca-missao",
+      "mechanism": "mandato-licenca-missao-mesa",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "3. Licenças: arts. 235 a 237"
+      },
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#3. Licenças: arts. 235 a 237"
+      ],
+      "statement": "Uma deputada pede licença à Câmara para missão diplomática temporária. Outra pede licença para tratamento de saúde, instruída com o laudo exigido.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA missão diplomática temporária exige decisão da Mesa, enquanto a licença de saúde é concedida pela Presidência.",
+      "correctAnswer": "C",
+      "explanation": "A regra geral atribui à Presidência a concessão da licença. A missão temporária diplomática ou cultural é exceção que cabe à Mesa. A comprovação médica da necessidade não desloca a competência na licença de saúde. Regimento Interno da Câmara, arts. 235, I e II, § 4º, e 236.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 81,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "momento de incidência de incompatibilidade e natureza da função",
+        "caseId": "cam-cpl-exp26-licenca-missao-diplomatica"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-sitio-dois-tercos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regime constitucional dos parlamentares",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "suspensao-imunidade-estado-de-sitio",
+      "mechanism": "mandato-sitio-dois-tercos",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "statement": "Durante estado de sítio, um senador pratica fora do recinto do Congresso ato incompatível com a execução da medida. A Mesa do Senado propõe suspender a imunidade por maioria absoluta da Casa.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA localização e a incompatibilidade do ato permitem suspender a imunidade por maioria absoluta.",
+      "correctAnswer": "E",
+      "explanation": "As imunidades subsistem durante o estado de sítio. Para suspender, é necessário que o ato tenha sido praticado fora do recinto e seja incompatível com a medida, além de aprovação por dois terços dos membros da Casa. Maioria absoluta não equivale a esse quórum. Constituição Federal, art. 53, § 8º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 83,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "titularidade funcional e renúncia individual",
+        "caseId": "cam-cpl-exp26-sitio-e-imunidade"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mandato-renuncia-efeitos-suspensos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 226 a 251",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "renuncia-durante-processo-de-perda",
+      "mechanism": "mandato-renuncia-efeitos-suspensos",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      },
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      ],
+      "statement": "Um deputado submetido a processo que pode levar à perda do mandato entrega à Mesa declaração escrita de renúncia, que é lida em sessão e publicada. Pretende deixar o mandato antes da deliberação final.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA renúncia não produzirá seus efeitos imediatamente, pois permanece suspensa até a deliberação final do processo.",
+      "correctAnswer": "C",
+      "explanation": "A regra regimental de eficácia da renúncia após comunicação formal não afasta a suspensão constitucional quando há processo que vise ou possa levar à perda do mandato. Sem processo dessa natureza, o impedimento do art. 55, § 4º, não incidiria. Constituição Federal, art. 55, § 4º, e Regimento Interno da Câmara, art. 239.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 82,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "efeito de decisão judicial e autoridade competente para a perda",
+        "caseId": "cam-cpl-exp26-renuncia-processo-aberto"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime constitucional e regimental dos parlamentares. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
     }
   ]
 }

@@ -7,7 +7,7 @@ const LOGIN_BATCH='concursos-quiz-retorno-login';
 const privateOrigin=location.origin===WORKER;
 let cguCatalogLoaded=false;
 let data=null,session=null,loggedIn=false,manifest=new Map(),chapterCatalog=null,shownAt=null;
-let seenByContest=new Map(), suggestionRequest=0;
+let seenByContest=new Map(), retestsByContest=new Map(), reviewQueueLoaded=new Set(), suggestionRequest=0;
 const singleSubjectRanges=new Map();
 const contentOrder=new Intl.Collator('pt-BR',{numeric:true});
 const elem=(tag,text)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=String(text);return e;};
@@ -76,6 +76,21 @@ function markSynced(attemptId){
 function shuffle(a){let x=a.slice();for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]];}return x;}
 function contest(){return data?.contests.find(c=>c.id===$('qs-concurso').value);}
 function available(){return data?.questions.filter(q=>q.concursoId===contest()?.id&&q.format==='CE'&&(!q.officialSource||loggedIn))||[];}
+function answeredQuestionIds(contestId){
+ return new Set(storeRead().filter(s=>s.concursoId===contestId).flatMap(s=>(s.answers||[]).map(a=>a.questionId)));
+}
+function retestQuestionIds(contestId){
+ const daysByQuestion=new Map(),studyDay=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo'});
+ for(const session of storeRead().filter(s=>s.concursoId===contestId))for(const attempt of session.answers||[]){
+  const when=Number(attempt.answeredAt);
+  if(!['correct','incorrect'].includes(attempt.result)||!Number.isFinite(when)||when<=0)continue;
+  if(!daysByQuestion.has(attempt.questionId))daysByQuestion.set(attempt.questionId,new Set());
+  daysByQuestion.get(attempt.questionId).add(studyDay.format(when));
+ }
+ const ids=new Set([...daysByQuestion].filter(([,days])=>days.size>=2).map(([questionId])=>questionId));
+ for(const bySubject of retestsByContest.get(contestId)?.values()||[])for(const id of bySubject)ids.add(id);
+ return ids;
+}
 function customSubjects(){
  return new Set([...$("qs-custom").querySelectorAll("input:checked")].map(input=>input.value));
 }
@@ -89,6 +104,14 @@ function eligible(){
  if(scope==='single'){
   const range=singleSubjectRanges.get($('qs-unidade').value);
   a=a.filter(q=>q.subjectId===$('qs-materia').value&&range?.ids.has(q[range.field]));
+  const filter=selected('qs-content-filter')||'algorithm',examId=contest()?.id;
+  if(filter==='unanswered'){
+   const seen=new Set([...answeredQuestionIds(examId),...(seenByContest.get(examId)||[])]);
+   a=a.filter(q=>!seen.has(q.id));
+  }else if(filter==='retests'){
+   const retests=retestQuestionIds(examId);
+   a=a.filter(q=>retests.has(q.id));
+  }
  }
  const level=$('qs-difficulty-filter').value;
  return level?a.filter(q=>q.estimatedDifficulty===level):a;
@@ -159,6 +182,7 @@ function availability(){
  const focused=selected('qs-scope')==='single', custom=selected('qs-scope')==='custom';
  toggle('qs-custom-wrap',custom);
  toggle('qs-materia-wrap',focused);
+ toggle('qs-content-filter-wrap',focused);
  toggle('qs-unidade-wrap',focused&&$('qs-unidade').options.length>0);
  const n=eligible().length;
  const total=available().length;
@@ -167,6 +191,16 @@ function availability(){
   ?(n===total?total+' questões disponíveis':n+' de '+total+' questões nesta seleção')+'.'
   :'Ainda não há questões disponíveis para esta seleção.';
  if(focused&&!chapterIds.length)$('qs-availability').textContent='Esta matéria ainda não tem capítulos registrados no catálogo editorial.';
+ const contentFilter=focused?(selected('qs-content-filter')||'algorithm'):'algorithm';
+ if(focused&&contentFilter==='unanswered')$('qs-content-filter-description').textContent='Filtra questões sem resposta nem exposição registradas no histórico consultado. Isso não significa que entraram recentemente no catálogo.';
+ else if(focused&&contentFilter==='retests'){
+  $('qs-content-filter-description').textContent='Filtra questões respondidas em dias diferentes ou indicadas como reteste pela fila de revisão sincronizada.';
+  if(!n){
+   if(loggedIn&&!reviewQueueLoaded.has(contest()?.id))$('qs-availability').textContent='Consultando o histórico sincronizado para localizar retestes desta matéria.';
+   else if(!loggedIn&&!retestQuestionIds(contest()?.id).size)$('qs-availability').textContent='Não há retestes registrados em dias diferentes neste navegador. Entre na versão autenticada para consultar a fila sincronizada.';
+   else $('qs-availability').textContent='Não há retestes neste recorte. Amplie os capítulos ou consulte outra matéria.';
+  }
+ }else if(focused)$('qs-content-filter-description').textContent='O algoritmo continua escolhendo a bateria como de costume.';
  if(custom) for(const q of eligible()) amounts.set(q.subjectId,(amounts.get(q.subjectId)||0)+1);
  const subjects=custom?customSubjects():new Set();
  if(custom && subjects.size<2) $('qs-availability').textContent='Selecione pelo menos duas matérias.';
@@ -213,8 +247,6 @@ function renderSuggestions(review,repeat){
  }
  if(review)offer('Revisar erros e dúvidas',review.title,review.questionIds);
  else if(repeat)offer('Refazer questão anterior',repeat.title,[repeat.repeatQuestionId]);
- offer('Praticar questões novas',loggedIn?'Itens sem resposta no histórico consultado.':'Itens sem resposta neste navegador.',
-  loggedIn&&!seenByContest.has(exam.id)?[]:choose(10,pool.filter(q=>!seen.has(q.id))));
  offer('Diagnóstico misto','Questões distribuídas entre matérias de '+exam.nome+'.',choose(10,pool));
  const official=loggedIn?pool.filter(q=>q.officialSource&&!seen.has(q.id)):[];
  if(official.length&&(!loggedIn||seenByContest.has(exam.id))){
@@ -272,10 +304,20 @@ async function updateSuggestions(){
    title:includedTopics.size===1?[...includedTopics][0].title:
     'Questões inéditas de '+includedTopics.size+' temas da sua fila de revisão.'
   }:null;
+  const retests=new Map();
+  for(const item of pending){
+   const q=data.map.get(item.repeatQuestionId);
+   if(!q||q.concursoId!==exam||q.format!=='CE'||q.annulled)continue;
+   if(!retests.has(q.subjectId))retests.set(q.subjectId,new Set());
+   retests.get(q.subjectId).add(q.id);
+  }
+  retestsByContest.set(exam,retests);
+  reviewQueueLoaded.add(exam);
   const repeat=pending.find(item=>valid(item.repeatQuestionId));
   renderSuggestions(review,repeat);
+  availability();
  }catch{
-  if(request===suggestionRequest)renderSuggestions();
+  if(request===suggestionRequest){renderSuggestions();availability();}
  }
 }
 function start(recommended, directedMode='simulado'){
@@ -289,7 +331,7 @@ function start(recommended, directedMode='simulado'){
  if(!directed&&availableCount<n&&!window.confirm('Há '+availableCount+' questões para esta seleção. Iniciar com essa quantidade?'))return;
  const selection=$('qs-unidade').value;
  const unitId=scope==='single'&&!directed?(singleSubjectRanges.get(selection)?.unitId??null):null;
- const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,directed,mode:directed?directedMode:selected('qs-mode'),scope:directed||custom?'mixed':scope,subjectId:!directed&&selected('qs-scope')==='single'?$('qs-materia').value:null,unitId,startedAt:new Date().toISOString(),finishedAt:null,ids:directed?recommended:choose(Math.min(n,availableCount),pool),answers:[]};
+ const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,directed,mode:directed?directedMode:selected('qs-mode'),scope:directed||custom?'mixed':scope,subjectId:!directed&&selected('qs-scope')==='single'?$('qs-materia').value:null,unitId,questionSelection:!directed&&scope==='single'?(selected('qs-content-filter')||'algorithm'):'algorithm',startedAt:new Date().toISOString(),finishedAt:null,ids:directed?recommended:choose(Math.min(n,availableCount),pool),answers:[]};
  storeWrite();toggle('qs-config',false);toggle('qs-play',true);toggle('qs-summary',false);playing(true);render();readingStart();status('Bateria iniciada. Respostas registradas após cada envio.');
 }
 function question(){return data.map.get(session.ids[session.answers.length]);}
@@ -539,6 +581,7 @@ async function init(){
  count.addEventListener('input',refreshPresets);
  document.querySelectorAll('#qs-presets button').forEach(b=>b.addEventListener('click',()=>{count.value=b.dataset.count;refreshPresets();}));
  document.querySelectorAll('input[name="qs-scope"]').forEach(e=>e.addEventListener('change',availability));
+ document.querySelectorAll('input[name="qs-content-filter"]').forEach(e=>e.addEventListener('change',availability));
  $('qs-start').addEventListener('click',start);$('qs-answer-form').addEventListener('submit',answer);
  $('qs-next').addEventListener('click',()=>{const previous=session?.answers.length||0;render();if(session&&!session.finishedAt&&session.answers.length===previous)readingStart();});
  $('qs-finish').addEventListener('click',()=>{

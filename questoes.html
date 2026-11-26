@@ -258,6 +258,10 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .questoes-page #qs-config .qs-scope-options input{margin:0}
 .questoes-page #qs-config .qs-specific-range{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 25px}
 .questoes-page #qs-config .qs-specific-range:has(> [hidden]:first-child):has(> [hidden]:last-child){display:none}
+.questoes-page #qs-config .qs-content-filter{grid-column:1/-1}
+.questoes-page #qs-config .qs-content-filter-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.questoes-page #qs-config .qs-content-filter-options label{align-items:flex-start;min-width:0;line-height:1.35}
+.questoes-page #qs-config #qs-content-filter-description{margin:2px 0 0}
 .questoes-page #qs-config .qs-chapter-field{grid-column:auto;align-items:stretch}
 .questoes-page #qs-config .qs-chapter-picker{width:100%;max-width:100%;grid-template-columns:34px minmax(50px,1fr) 34px 47px}
 .questoes-page #qs-config .qs-chapter-caption{max-width:none}
@@ -288,6 +292,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
  .questoes-page .qs-builder-fields,.questoes-page .qs-builder-section[aria-labelledby="qs-content-title"]>.qs-builder-fields,.questoes-page #qs-config .qs-specific-range{grid-template-columns:1fr;gap:19px}
  .questoes-page #qs-config .qs-scope-options{grid-template-columns:1fr}
  .questoes-page #qs-config .qs-scope-options label{justify-content:flex-start;text-align:left}
+ .questoes-page #qs-config .qs-content-filter-options{grid-template-columns:1fr}
  .questoes-page #qs-config #qs-custom{grid-template-columns:1fr}
  .questoes-page .qs-builder-footer{flex-direction:column;align-items:stretch}
  .questoes-page .qs-builder-footer .qs-actions{flex-direction:column;align-items:stretch}
@@ -319,6 +324,11 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <fieldset class="qs-field qs-conditional" id="qs-custom-wrap" hidden><legend class="qs-label">Matérias da bateria</legend><div class="qs-options" id="qs-custom"></div></fieldset>
 <div class="qs-specific-range">
 <label class="qs-field qs-conditional" id="qs-materia-wrap" for="qs-materia" hidden><span class="qs-label">Escolher matéria</span><select id="qs-materia"></select></label>
+<fieldset class="qs-field qs-conditional qs-content-filter" id="qs-content-filter-wrap" hidden><legend class="qs-label">Questões desta matéria</legend><div class="qs-options qs-content-filter-options">
+<label><input type="radio" name="qs-content-filter" value="algorithm" checked> Pelo algoritmo (padrão)</label>
+<label><input type="radio" name="qs-content-filter" value="unanswered"> Só questões novas para mim</label>
+<label><input type="radio" name="qs-content-filter" value="retests"> Só retestes (já respondidas)</label>
+</div><p class="qs-chapter-caption" id="qs-content-filter-description" aria-live="polite">O algoritmo continua escolhendo a bateria como de costume.</p></fieldset>
 <div class="qs-field qs-conditional qs-chapter-field" id="qs-unidade-wrap" hidden>
 <label class="qs-label" id="qs-capitulo-label" for="qs-capitulo">Estudar até o capítulo</label>
 <div class="qs-chapter-picker">

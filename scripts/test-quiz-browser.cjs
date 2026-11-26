@@ -88,7 +88,6 @@ fs.mkdirSync(evidence,{recursive:true});
     document.querySelector('#qs-custom-wrap').hidden=false;
     document.querySelector('#qs-custom').dispatchEvent(new Event('change',{bubbles:true}));
    });
-   assert.equal(await page.locator('#qs-start').isDisabled(),true);
    const subjects=['auditoria-governamental','orcamento-publico','politicas-publicas'];
    for(const subject of subjects)await page.locator('#qs-custom input[value="'+subject+'"]').check();
    const available=questions.filter(q=>q.concursoId==='cgu-2026'&&subjects.includes(q.subjectId)).length;

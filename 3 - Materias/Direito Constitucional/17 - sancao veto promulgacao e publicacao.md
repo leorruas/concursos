@@ -137,6 +137,8 @@ O **art. 1º da Lei de Introdução às Normas do Direito Brasileiro (LINDB), De
 
 **Exemplo B:** a lei é promulgada e publicada, mas prevê entrada em vigor **90 dias após sua publicação**. A lei existe e seu texto foi divulgado, mas seu início de vigência segue o **prazo de 90 dias**.
 
+**Correção do texto publicado:** se houver nova publicação para corrigir o texto antes de iniciada a vigência, a vacância recomeça da nova publicação. Se a lei já estiver em vigor, suas correções são consideradas lei nova. O momento da correção define o efeito (Lei de Introdução às Normas do Direito Brasileiro, art. 1º, §§ 3º e 4º).
+
 **Exemplo C:** a lei é publicada e **não contém cláusula específica** sobre início de vigência. Aplica-se, em regra, o prazo **supletivo de 45 dias** do art. 1º da LINDB. **Publicação não significa vigência instantânea em todas as leis.**
 
 A **LC nº 95/1998**, art. 8º, disciplina a indicação expressa da vigência e reserva a cláusula de vigência na data de publicação para leis de pequena repercussão, observados os critérios da norma. A existência de uma data de publicação também **não prova**, por si, que o conteúdo já foi aplicado ou gerou todos os seus efeitos materiais.

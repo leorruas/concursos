@@ -98452,6 +98452,561 @@
         "caseId": "cam-cpl-exp26-projeto-pronto-e-medida"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-veto-expressao-indivisivel",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "unidade-minima-veto-parcial",
+      "mechanism": "pl-veto-expressao-indivisivel",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Veto total versus parcial: a unidade mínima do texto"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Veto total versus parcial: a unidade mínima do texto"
+      ],
+      "statement": "Um projeto foi aprovado pelas duas Casas. O Presidente considera inconstitucional parte do texto e anuncia que vetará uma expressão dentro de um inciso e, em outro dispositivo, uma alínea integral. A motivação constitucional foi explicitada.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA motivação jurídica torna válida a supressão apenas da expressão dentro do inciso.",
+      "correctAnswer": "E",
+      "explanation": "A motivação por inconstitucionalidade é fundamento admissível. A extensão do veto parcial segue requisito independente: deve alcançar a integralidade de artigo, parágrafo, inciso ou alínea. Uma expressão isolada não é unidade autônoma para veto. Constituição Federal, art. 66, §§ 1º e 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-duas-unidades-vetadas"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-veto-alinea-integral",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "alinea-integral-como-objeto-de-veto",
+      "mechanism": "pl-veto-alinea-integral",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Veto total versus parcial: a unidade mínima do texto"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Veto total versus parcial: a unidade mínima do texto"
+      ],
+      "statement": "Um projeto foi aprovado pelas duas Casas. O Presidente considera inconstitucional parte do texto e anuncia que vetará uma expressão dentro de um inciso e, em outro dispositivo, uma alínea integral. A motivação constitucional foi explicitada.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO veto pode alcançar a alínea integral sem abranger todo o inciso ao qual ela pertence.",
+      "correctAnswer": "C",
+      "explanation": "O veto parcial pode incidir sobre o texto integral de alínea. Não é necessário vetar o inciso inteiro quando a própria alínea constitui unidade formal completa. Um segmento da alínea não atenderia ao mesmo requisito. Constituição Federal, art. 66, § 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-duas-unidades-vetadas"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-envio-da-casa-ultima-votacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "casa-que-concluiu-votacao-envia",
+      "mechanism": "pl-envio-da-casa-ultima-votacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Sanção expressa, sanção tácita e veto: decisões alternativas"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Sanção expressa, sanção tácita e veto: decisões alternativas"
+      ],
+      "statement": "A Câmara iniciou um projeto de lei. O Senado o aprovou sem emendas, concluindo a votação. Após receber o projeto, o Presidente formalizou veto no décimo quinto dia útil. As razões foram encaminhadas dentro de quarenta e oito horas à Presidência da Câmara, sem comunicação à Presidência do Senado.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO Senado é a Casa competente para enviar o projeto ao Presidente, ainda que a Câmara tenha sido a iniciadora.",
+      "correctAnswer": "C",
+      "explanation": "A remessa ao Presidente compete à Casa em que se concluiu a votação. No caso, o Senado aprovou sem emendas. Se houvesse emenda de mérito e a Câmara concluísse a deliberação após o retorno, a Casa responsável pelo envio seria outra. Constituição Federal, arts. 65 e 66, caput.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-envio-revisora-eventos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-veto-comunicacao-destinatario",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "comunicacao-motivada-destinatario",
+      "mechanism": "pl-veto-comunicacao-destinatario",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Sanção expressa, sanção tácita e veto: decisões alternativas"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Sanção expressa, sanção tácita e veto: decisões alternativas"
+      ],
+      "statement": "A Câmara iniciou um projeto de lei. O Senado o aprovou sem emendas, concluindo a votação. Após receber o projeto, o Presidente formalizou veto no décimo quinto dia útil. As razões foram encaminhadas dentro de quarenta e oito horas à Presidência da Câmara, sem comunicação à Presidência do Senado.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nComo o prazo de veto e o intervalo de comunicação foram respeitados, o envio à Câmara cumpre o dever de comunicação.",
+      "correctAnswer": "E",
+      "explanation": "A contagem dos quinze dias úteis parte do recebimento presidencial. O dever subsequente de comunicar, em quarenta e oito horas, tem destinatário definido: o Presidente do Senado Federal. A Casa de origem do projeto não muda esse destinatário. Constituição Federal, art. 66, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-envio-revisora-eventos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-silencio-sancao-nao-publicacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "sancao-tacita-e-etapas-posteriores",
+      "mechanism": "pl-silencio-sancao-nao-publicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Sanção expressa, sanção tácita e veto: decisões alternativas"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Sanção expressa, sanção tácita e veto: decisões alternativas"
+      ],
+      "statement": "Recebido um projeto de lei, o Presidente deixa transcorrer integralmente o prazo constitucional sem se manifestar. Passado também o prazo de quarenta e oito horas para promulgação, nem o Presidente da República nem o Presidente do Senado, este depois de dispor de igual prazo, promulgaram a lei.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO silêncio no prazo constitucional produz sanção, mas não substitui os atos posteriores de promulgação e publicação.",
+      "correctAnswer": "C",
+      "explanation": "O decurso de quinze dias úteis sem manifestação configura sanção tácita. A promulgação atesta a formação da lei e a publicação a divulga. Um veto exige manifestação expressa no prazo e não se presume por silêncio. Constituição Federal, art. 66, §§ 1º, 3º e 7º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-silencio-e-omissoes"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-vice-do-senado-substituicao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "substituicao-escalonada-na-promulgacao",
+      "mechanism": "pl-vice-do-senado-substituicao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Promulgação: competência principal e substituições específicas"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Promulgação: competência principal e substituições específicas"
+      ],
+      "statement": "Recebido um projeto de lei, o Presidente deixa transcorrer integralmente o prazo constitucional sem se manifestar. Passado também o prazo de quarenta e oito horas para promulgação, nem o Presidente da República nem o Presidente do Senado, este depois de dispor de igual prazo, promulgaram a lei.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nCom as duas omissões descritas, a competência de promulgar passa ao Vice-Presidente do Senado.",
+      "correctAnswer": "C",
+      "explanation": "Na sanção tácita, a omissão do Presidente da República por quarenta e oito horas desloca a promulgação para o Presidente do Senado. Se este também se omitir em igual prazo, a competência passa ao seu Vice-Presidente. Não é necessário nova aprovação das Casas. Constituição Federal, art. 66, § 7º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-silencio-e-omissoes"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-veto-iniciativa-senadores-apuracao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "ordem-de-apuracao-projeto-do-senado",
+      "mechanism": "pl-veto-iniciativa-senadores-apuracao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      ],
+      "statement": "O Congresso reúne-se para apreciar veto a projeto de iniciativa de senadores. Há 41 votos de senadores pela rejeição e 256 votos de deputados pela rejeição. O presidente da sessão consulta a equipe sobre a ordem da apuração e o resultado.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA apuração começa pelo Senado nesse caso e pode prosseguir para a Câmara, porque os senadores alcançaram a maioria exigida para rejeitar.",
+      "correctAnswer": "C",
+      "explanation": "A regra inicial é apurar primeiro a Câmara, exceto em projeto de iniciativa de senadores. Nesta exceção, a maioria absoluta senatorial de 41 permite apurar a outra Casa. Se o Senado mantivesse o veto, a apuração da outra Casa seria dispensada. Regimento Comum, arts. 43, § 2º, e 106-B.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-veto-iniciado-senado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-veto-maioria-uma-casa-insuficiente",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "rejeicao-veto-maioria-absoluta-por-casa",
+      "mechanism": "pl-veto-maioria-uma-casa-insuficiente",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      ],
+      "statement": "O Congresso reúne-se para apreciar veto a projeto de iniciativa de senadores. Há 41 votos de senadores pela rejeição e 256 votos de deputados pela rejeição. O presidente da sessão consulta a equipe sobre a ordem da apuração e o resultado.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nOs 256 votos na Câmara são suficientes para rejeitar o veto, pois na soma das Casas a rejeição ultrapassa metade dos congressistas.",
+      "correctAnswer": "E",
+      "explanation": "Exige-se maioria absoluta dos membros de cada Casa, apurada separadamente. Quarenta e um senadores cumprem o limiar do Senado, mas faltou um dos 257 votos necessários na Câmara. A votação conjunta não agrega os placares para substituir uma maioria faltante. Constituição Federal, art. 66, § 4º, e Regimento Comum, art. 43.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-veto-iniciado-senado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-veto-cedula-eletronica-ostensiva",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "ostensividade-versus-suporte-eletronico",
+      "mechanism": "pl-veto-cedula-eletronica-ostensiva",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      ],
+      "statement": "Em sessão conjunta de apreciação de vetos, a Mesa oferece cédula eletrônica. Uma liderança interpreta que o uso de cédula torna a votação secreta. Para um dispositivo destacado, pergunta se a votação em painel eletrônico é compatível com a disciplina atual.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA votação por cédula eletrônica preserva o sigilo dos votos, pois a escolha do suporte é suficiente para definir o escrutínio como secreto.",
+      "correctAnswer": "E",
+      "explanation": "A votação de veto é ostensiva e nominal. Cédula eletrônica é meio de registro, não modalidade sigilosa. A Emenda Constitucional nº 76/2013 retirou o escrutínio secreto do art. 66, § 4º. Regimento Comum, arts. 46, 106-B e 106-D.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 122,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "modalidade",
+        "caseId": "cam-cpl-exp26-veto-modo-cedula"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-veto-destaque-painel-eletronico",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "destaque-e-apuracao-em-painel",
+      "mechanism": "pl-veto-destaque-painel-eletronico",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      ],
+      "statement": "Em sessão conjunta de apreciação de vetos, a Mesa oferece cédula eletrônica. Uma liderança interpreta que o uso de cédula torna a votação secreta. Para um dispositivo destacado, pergunta se a votação em painel eletrônico é compatível com a disciplina atual.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO uso de painel para a votação do dispositivo destacado conserva o caráter ostensivo e nominal da apreciação.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento Comum admite deliberação em painel eletrônico em hipótese de destaque para dispositivo. A escolha do suporte eletrônico não elimina a identificação dos votos nem o quórum de rejeição por Casa. A cédula eletrônica também mantém o caráter ostensivo. Regimento Comum, arts. 46, 106-B e 106-D.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-veto-modo-cedula"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-veto-marco-protocolo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "prazo-apreciacao-e-recebimento-veto",
+      "mechanism": "pl-veto-marco-protocolo",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      ],
+      "statement": "Um veto foi publicado na imprensa oficial. A mensagem com as razões foi protocolizada no Congresso no dia seguinte. Passaram trinta dias corridos a partir do protocolo, sem decisão do Plenário.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nEsgotado o prazo contado do recebimento, o veto deve entrar na ordem do dia da sessão imediata, com o efeito constitucional de sobrestamento até sua votação final.",
+      "correctAnswer": "C",
+      "explanation": "O prazo de apreciação começa com o recebimento e protocolo da mensagem, e não com a publicação no Diário Oficial da União. O decurso dos trinta dias aciona inclusão na sessão imediata e sobrestamento nas condições constitucionais. Constituição Federal, art. 66, §§ 4º e 6º, e Regimento Comum, art. 104-A.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-recebimento-e-sessao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-veto-prazo-nao-e-rejeicao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "efeito-do-vencimento-do-prazo-do-veto",
+      "mechanism": "pl-veto-prazo-nao-e-rejeicao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Controle do veto pelo Congresso: sessão conjunta, duas maiorias"
+      ],
+      "statement": "Um veto foi publicado na imprensa oficial. A mensagem com as razões foi protocolizada no Congresso no dia seguinte. Passaram trinta dias corridos a partir do protocolo, sem decisão do Plenário.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA falta de deliberação dentro dos trinta dias equivale à rejeição tácita do veto.",
+      "correctAnswer": "E",
+      "explanation": "O fim do prazo determina inclusão e sobrestamento, não rejeição por silêncio. Rejeitar exige maioria absoluta dos deputados e senadores. Sanção tácita é efeito do silêncio presidencial em outra etapa. Constituição Federal, art. 66, §§ 3º, 4º e 6º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-recebimento-e-sessao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-pec-promulgacao-mesas-conjuntas",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "promulgacao-de-pec-pelas-mesas",
+      "mechanism": "pl-pec-promulgacao-mesas-conjuntas",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Promulgação: competência principal e substituições específicas"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Promulgação: competência principal e substituições específicas"
+      ],
+      "statement": "Uma proposta de emenda à Constituição foi aprovada em dois turnos em cada Casa, alcançando três quintos dos respectivos membros em todas as votações. Um projeto de lei ordinária distinto foi sancionado. A equipe pretende usar o mesmo expediente de remessa ao Presidente para as duas matérias.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO Presidente da República deve receber e sancionar a proposta de emenda antes de as duas Mesas a promulgarem.",
+      "correctAnswer": "E",
+      "explanation": "Uma vez aprovada no rito constitucional, a emenda é promulgada pelas Mesas da Câmara e do Senado, com número de ordem. Não passa por sanção presidencial. O projeto de lei ordinária segue circuito distinto de sanção e promulgação. Constituição Federal, arts. 60, §§ 2º e 3º, e 66.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 95,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-pec-e-lei-sancionada"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-vacancia-nova-publicacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.3 Comissões, pareceres, deliberação, votação, sanção e veto",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-51c7e2f904a68db3",
+      "conceptId": "correcao-antes-da-vigencia-reinicia-prazo",
+      "mechanism": "pl-vacancia-nova-publicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md",
+        "section": "Publicação, vigência e vacatio legis"
+      },
+      "theoryRefs": [
+        "article:art-51c7e2f904a68db3#Publicação, vigência e vacatio legis"
+      ],
+      "statement": "Uma lei com vacância de quarenta e cinco dias passou por nova publicação antes da vigência, para corrigir seu texto. Outra lei, já em vigor, teve o texto corrigido por nova publicação. Não há regra específica alterando o regime geral.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nPara a primeira lei, o prazo de vacância recomeça com a nova publicação; as correções da lei já em vigor consideram-se lei nova.",
+      "correctAnswer": "C",
+      "explanation": "Enquanto não começou a vigência, nova publicação para corrigir o texto reinicia o prazo. Correções do texto de lei que já vigora são consideradas lei nova. A diferença decisiva está no momento da correção perante a vigência. Lei de Introdução às Normas do Direito Brasileiro, art. 1º, §§ 3º e 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-publicacao-republicacao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo de formação das normas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-pl-urgencia-codigo-e-recesso",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 1.2 Etapas e noções básicas",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "urgencia-constitucional-exclusao-codigo",
+      "mechanism": "pl-urgencia-codigo-e-recesso",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "statement": "O Presidente da República encaminhou projeto de código de sua iniciativa e solicitou urgência constitucional. Enviou também outro projeto de sua iniciativa, sem natureza de código, com pedido de urgência. O Congresso ingressou em recesso durante a tramitação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nOs prazos constitucionais de urgência não se aplicam ao projeto de código e, para o outro projeto, não correm no recesso.",
+      "correctAnswer": "C",
+      "explanation": "O regime constitucional de urgência admite pedido presidencial em projetos de sua iniciativa. Os prazos do art. 64, § 2º, não correm durante o recesso nem se aplicam a projetos de código. A natureza do primeiro projeto e o período de tramitação do segundo exigem verificações diferentes. Constituição Federal, art. 64, §§ 1º, 2º e 4º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-urgencia-codigo-e-lei"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do processo legislativo constitucional e regimental. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
     }
   ]
 }

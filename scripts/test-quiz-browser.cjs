@@ -360,7 +360,7 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.equal(await page.locator('#results-adaptive-actions').getByText('Reteste independente previsto para',{exact:false}).count(),0,
     'nao repetir a data do reteste como paragrafo');
    assert.match(await page.locator('#results-adaptive-actions').innerText(),/Reteste: 15\/11\/2026/);
-   assert.match(await page.locator('#results-retention').innerText(), /após 6 dias/);
+   assert.match(await page.locator('#results-retention').innerText(), /6 dia\(s\) depois/);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
    await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
 

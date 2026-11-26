@@ -415,6 +415,9 @@ const officialLinks = JSON.parse(fs.readFileSync(path.join(rootDir,'data/vinculo
 const officialCodeByReference = new Map();
 const officialCodeByQuestion = new Map();
 const referenceKey = (unitId, ref) => JSON.stringify([unitId, ref]);
+const reservaAvaliacao = JSON.parse(fs.readFileSync(path.join(rootDir, "data/avaliacao-reservada-camara-2026.json"), "utf8"));
+if (!Array.isArray(reservaAvaliacao.reservedQuestionIds) || new Set(reservaAvaliacao.reservedQuestionIds).size !== reservaAvaliacao.reservedQuestionIds.length) throw Error("Lista de IDs de avaliação reservada inválida.");
+const reservedQuestionIds = new Set(reservaAvaliacao.reservedQuestionIds);
 const reviewed = arquivoQuestoes.expansao.filter(q => q.reviewStatus === 'validada');
 const reviewedReferences = new Set(reviewed.map(q => referenceKey(q.unitId, q.editalRef)));
 const reviewedQuestions = new Map(reviewed.map(q => [q.id, q]));
@@ -440,7 +443,7 @@ for (const links of officialLinks) {
   }
 }
 const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
-  q.reviewStatus === 'validada' && typeof q.reviewEvidence === 'string' && q.reviewEvidence.trim() &&
+  !reservedQuestionIds.has(q.id) && q.reviewStatus === 'validada' && typeof q.reviewEvidence === 'string' && q.reviewEvidence.trim() &&
   typeof q.id === 'string' && typeof q.statement === 'string' &&
   typeof q.explanation === 'string' && ['C','E'].includes(q.correctAnswer) && q.format === 'CE'
 ).map(q => ({id:q.id,concursoId:q.concursoId,subjectId:q.subjectId,subjectName:materiasQuestoes[q.subjectId] || q.subjectId,
@@ -660,6 +663,7 @@ for (const item of questoesCgu) {
       ? {questionType: item.questionType} : {}),
     ...(item.calibration?.type === 'autoral-calibrada' ? {calibration: item.calibration} : {})});
 }
+if(questoesPublicas.some(q=>reservedQuestionIds.has(q.id))) throw Error("Conteúdo reservado apareceu no catálogo público.");
 if(new Set(questoesPublicas.map(q=>q.id)).size !== questoesPublicas.length)throw Error('IDs duplicados no catálogo público de questões.');
 const editalUnits = Object.entries(arquivoQuestoes.subjects).flatMap(([subjectId, subject]) =>
   subject.units.map(([unitId, title, examPart, editalRef]) => ({subjectId, unitId, title, examPart, editalRef})));

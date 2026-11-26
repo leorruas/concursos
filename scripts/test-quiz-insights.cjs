@@ -214,7 +214,9 @@ for(const item of officialReferences.itens){
 }
 const camaraPool=data.questions.filter(q=>q.concursoId==='camara-2026');
 const camaraIds=new Set(camaraPool.map(q=>q.id));
-assert.ok(assessmentReserve.reservedQuestionIds.every(id=>camaraIds.has(id)),'todos os IDs reservados existem no banco publicado');
+const sourceQuestionIds=new Set([...canonical.pilotoDidatico,...canonical.expansao].map(q=>q.id));
+assert.ok(assessmentReserve.reservedQuestionIds.every(id=>!camaraIds.has(id)), "itens reservados não são distribuídos no catálogo público");
+assert.ok(assessmentReserve.reservedQuestionIds.every(id=>!sourceQuestionIds.has(id)), "itens reservados não permanecem na fonte pública");
 const syncAttempt=vm.runInNewContext('('+quizSource.slice(
  quizSource.indexOf('function quizSyncAttempt('),
  quizSource.indexOf('async function sync(a)')
@@ -256,7 +258,7 @@ assert.ok(card.textContent.trim());
 assert.notEqual(card.textContent,linkedOfficials[0].statement);
 assert.equal(card.children.length,0,'limpa o link ao mostrar o item autoral');
 const sharedCasePracticeIds=getFunction(quizSource,'sharedCasePracticeIds','renderSuggestions');
-for(const caseId of ['fiscalizacao-do-decreto','autotutela-vantagem-mensal','revisao-bicameral-digitalizacao','decoro-recurso-e-votacao','tcu-ato-e-contratos-em-fiscalizacao']){
+for(const caseId of ['autotutela-vantagem-mensal','fiscalizacao-limpeza-dedicacao-exclusiva','orcamento-ponte-financiamento-e-execucao','orcamento-camara-auditorio-e-veto','orca-ampl-votacao-comissao']){
  const items=camaraPool.filter(q=>q.calibration?.caseId===caseId);
  const otherSeenIds=camaraPool.filter(q=>q.calibration?.caseId!==caseId).map(q=>q.id);
  assert.equal(items.length,3);

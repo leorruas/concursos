@@ -140,7 +140,6 @@ fs.mkdirSync(evidence,{recursive:true});
     localStorage.removeItem('concursos-quiz-ativa-v1');
     document.querySelector('#qs-config').hidden=false;
    });
-   await page.reload({waitUntil:'domcontentloaded'});
    await page.locator('#qs-config').waitFor({state:'visible'});
    await page.selectOption('#qs-concurso','camara-2026');
    await page.locator('input[name="qs-scope"][value="single"]').check();

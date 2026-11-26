@@ -94419,6 +94419,450 @@
         "section": "Programação financeira: art. 8º da LRF"
       },
       "reviewStatus": "validada"
+    },
+    {
+      "id": "cam-cpl-exp26-mista-um-terco-abre",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "comissao-mista-abertura-e-deliberacao",
+      "mechanism": "mista-um-terco-abre",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      ],
+      "statement": "Uma comissão mista de 24 integrantes, sujeita ao rito geral do Regimento Comum, examina projeto sobre acessibilidade de transmissões oficiais. Comparecem inicialmente oito membros. Depois chegam mais quatro. Nesse momento, o presidente propõe colocar o parecer em votação. Mais tarde, com presença suficiente e observadas as demais condições de votação, há empate entre os votos proferidos pelos membros antes do voto da Presidência.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nA comissão pode iniciar os trabalhos com os oito membros presentes, mas a chegada de mais quatro ainda não permite deliberar sobre o parecer.",
+      "correctAnswer": "C",
+      "explanation": "A comissão mista inicia os trabalhos com pelo menos um terço de seus integrantes e delibera com presença da maioria de seus membros. Oito atingem um terço de 24. Doze são metade, e a maioria exige treze. Se chegasse mais um membro, o quórum de presença para deliberar estaria alcançado. Regimento Comum do Congresso Nacional, arts. 12 e 14.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 100,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-edital-de-acessibilidade"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mista-presidente-voto-empate",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "voto-do-presidente-de-comissao-mista",
+      "mechanism": "mista-presidente-voto-empate",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      ],
+      "statement": "Uma comissão mista de 24 integrantes, sujeita ao rito geral do Regimento Comum, examina projeto sobre acessibilidade de transmissões oficiais. Comparecem inicialmente oito membros. Depois chegam mais quatro. Nesse momento, o presidente propõe colocar o parecer em votação. Mais tarde, com presença suficiente e observadas as demais condições de votação, há empate entre os votos proferidos pelos membros antes do voto da Presidência.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nNa etapa em que ocorreu empate, o presidente pode votar para resolvê-lo, embora a regra geral da comissão não lhe atribua voto ordinário.",
+      "correctAnswer": "C",
+      "explanation": "No rito geral, o presidente da comissão mista só vota em caso de desempate. Sua presença integra o quórum, mas não lhe dá voto ordinário. Se já houvesse maioria de votos sem empate, não incidiria a hipótese de voto presidencial. Regimento Comum do Congresso Nacional, art. 14.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 121,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-edital-de-acessibilidade"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mista-emenda-dias-da-instalacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "prazo-de-emendas-na-comissao-mista",
+      "mechanism": "mista-emenda-dias-da-instalacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      ],
+      "statement": "No sétimo dia após a instalação de uma comissão mista sujeita ao rito geral, uma senadora apresentou emenda a projeto que disciplina a divulgação de audiências públicas. O presidente não a recebeu e publicou o despacho. Vinte horas depois do despacho, a autora recorreu, com apoio de cinco integrantes da comissão.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nA apresentação ocorreu dentro do prazo geral de emendas, ainda que a composição da comissão tenha sido designada antes da instalação.",
+      "correctAnswer": "C",
+      "explanation": "No rito comum, qualquer congressista pode apresentar emenda em oito dias contados da instalação. O sétimo dia é tempestivo quanto a esse requisito. A existência de procedimento especial poderia alterar o marco ou o prazo aplicável. Regimento Comum do Congresso Nacional, art. 11, caput.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-mista-emenda-protocolo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-mista-recurso-cinco-assinaturas",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "recurso-contra-nao-recebimento-de-emenda-mista",
+      "mechanism": "mista-recurso-cinco-assinaturas",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)"
+      ],
+      "statement": "No sétimo dia após a instalação de uma comissão mista sujeita ao rito geral, uma senadora apresentou emenda a projeto que disciplina a divulgação de audiências públicas. O presidente não a recebeu e publicou o despacho. Vinte horas depois do despacho, a autora recorreu, com apoio de cinco integrantes da comissão.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nO recurso reúne condições de processamento porque foi apresentado em menos de 24 horas e cinco membros manifestaram apoio.",
+      "correctAnswer": "E",
+      "explanation": "O recurso contra o não recebimento de emenda precisa ser apresentado em 24 horas do despacho com apoio de pelo menos seis membros da comissão. A autora respeitou o prazo, mas apresentou apoio de cinco integrantes. Com seis apoios e o mesmo prazo, preencheria essas condições. Regimento Comum do Congresso Nacional, art. 11, §§ 2º e 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-mista-emenda-protocolo"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-conjunta-lider-representa-presentes",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "efeito-do-pronunciamento-do-lider-no-simbolico",
+      "mechanism": "conjunta-lider-representa-presentes",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "5. Debates, votação e publicação (arts. 36 a 52)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#5. Debates, votação e publicação (arts. 36 a 52)"
+      ],
+      "statement": "Em sessão conjunta sobre matéria submetida ao rito geral do Regimento Comum, sem quórum especial, a liderança de uma bancada manifestou apoio no processo simbólico. Dos seus 18 liderados, quatro estavam ausentes e um dos presentes quis apresentar declaração de voto. Proclamado o resultado dos deputados, vinte deputados pediram de imediato verificação, sem pedir votação nominal imediata.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nA manifestação da liderança não estende a representação aos quatro ausentes, e o parlamentar presente pode fazer sua declaração de voto.",
+      "correctAnswer": "C",
+      "explanation": "No processo simbólico da sessão conjunta, o pronunciamento do líder representa os liderados presentes e é permitida a declaração de voto. A ausência de um integrante impede que ele seja tratado como presente pela manifestação coletiva. Na votação nominal, o registro identifica cada voto. Regimento Comum do Congresso Nacional, arts. 45 e 46.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 102,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "efeito",
+        "caseId": "cam-cpl-exp26-painel-sessao-conjunta"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-conjunta-assinaturas-modalidade-previa",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "apoiamento-modalidade-votacao-conjunta",
+      "mechanism": "conjunta-assinaturas-modalidade-previa",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "5. Debates, votação e publicação (arts. 36 a 52)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#5. Debates, votação e publicação (arts. 36 a 52)"
+      ],
+      "statement": "Em sessão conjunta sobre matéria submetida ao rito geral do Regimento Comum, sem quórum especial, a liderança de uma bancada manifestou apoio no processo simbólico. Dos seus 18 liderados, quatro estavam ausentes e um dos presentes quis apresentar declaração de voto. Proclamado o resultado dos deputados, vinte deputados pediram de imediato verificação, sem pedir votação nominal imediata.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nOs mesmos vinte deputados poderiam, antes da votação e sem apoio de líder, levar ao Plenário o requerimento de outra modalidade previsto no art. 44 do Regimento Comum.",
+      "correctAnswer": "E",
+      "explanation": "A mudança de modalidade por requerimento no art. 44 exige iniciativa de líder ou de um sexto dos deputados ou senadores. Vinte deputados bastam para requerer a verificação posterior, mas não atingem um sexto de 513 para a iniciativa anterior. Um líder poderia apresentar o requerimento do art. 44. Regimento Comum do Congresso Nacional, arts. 44, parágrafo único, e 45, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-painel-sessao-conjunta"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-conjunta-conferencia-por-bancada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "rito-da-verificacao-de-votacao-conjunta",
+      "mechanism": "conjunta-conferencia-por-bancada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "5. Debates, votação e publicação (arts. 36 a 52)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#5. Debates, votação e publicação (arts. 36 a 52)"
+      ],
+      "statement": "Em sessão conjunta sobre matéria submetida ao rito geral do Regimento Comum, sem quórum especial, a liderança de uma bancada manifestou apoio no processo simbólico. Dos seus 18 liderados, quatro estavam ausentes e um dos presentes quis apresentar declaração de voto. Proclamado o resultado dos deputados, vinte deputados pediram de imediato verificação, sem pedir votação nominal imediata.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nO pedido de verificação é suficiente quanto ao apoiamento, e a recontagem pode seguir por bancada, sem registro nominal imediato.",
+      "correctAnswer": "C",
+      "explanation": "Na sessão conjunta, vinte deputados podem pedir verificação após a proclamação. A regra para esse pedido é a contagem dos votos por bancada. Se o requerimento exigisse nominal imediata, caberia adotar esse processo. Regimento Comum do Congresso Nacional, art. 45, §§ 1º a 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 122,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "modalidade",
+        "caseId": "cam-cpl-exp26-painel-sessao-conjunta"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-conjunta-um-sexto-por-casa",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "quorum-de-abertura-de-sessao-conjunta",
+      "mechanism": "conjunta-um-sexto-por-casa",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "4. Sessões conjuntas em geral: rito, abertura e pauta (arts. 22 a 35)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#4. Sessões conjuntas em geral: rito, abertura e pauta (arts. 22 a 35)"
+      ],
+      "statement": "Uma sessão conjunta convocada para matéria do rito geral estava marcada para as 14 horas. No horário, estavam presentes cem deputados e treze senadores. Uma senadora compareceu vinte minutos depois, sem saída de parlamentares nesse intervalo.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nÀs 14 horas a Presidência já podia abrir os trabalhos, pois os 113 presentes superavam um sexto do total das duas Casas.",
+      "correctAnswer": "E",
+      "explanation": "Para abrir a sessão conjunta, exige-se um sexto de cada Casa, equivalente a pelo menos 86 deputados e 14 senadores. Os treze senadores eram insuficientes, mesmo com cem deputados presentes. A entrada de outra senadora satisfez a exigência de presença do Senado. Regimento Comum do Congresso Nacional, art. 28.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-painel-abertura-sessao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-conjunta-espera-vinte-minutos",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "espera-por-quorum-de-sessao-conjunta",
+      "mechanism": "conjunta-espera-vinte-minutos",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "4. Sessões conjuntas em geral: rito, abertura e pauta (arts. 22 a 35)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#4. Sessões conjuntas em geral: rito, abertura e pauta (arts. 22 a 35)"
+      ],
+      "statement": "Uma sessão conjunta convocada para matéria do rito geral estava marcada para as 14 horas. No horário, estavam presentes cem deputados e treze senadores. Uma senadora compareceu vinte minutos depois, sem saída de parlamentares nesse intervalo.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nA entrada da senadora dentro do intervalo indicado pode permitir a abertura, pois o Regimento Comum prevê espera de até trinta minutos para completar o quórum.",
+      "correctAnswer": "C",
+      "explanation": "Sem quórum no horário previsto, a Presidência aguarda até trinta minutos. Com a chegada no vigésimo minuto, há cem deputados e quatorze senadores, suficientes para abrir. Persistindo a insuficiência ao término da espera, a sessão não se realiza. Regimento Comum do Congresso Nacional, arts. 28 e 29, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-painel-abertura-sessao"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-retirada-conjunta-votacao-iniciada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "competencia-para-retirada-em-sessao-conjunta",
+      "mechanism": "retirada-conjunta-votacao-iniciada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "5. Debates, votação e publicação (arts. 36 a 52)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#5. Debates, votação e publicação (arts. 36 a 52)"
+      ],
+      "statement": "Numa sessão conjunta regida pelas regras gerais, começou a votação de uma proposição. A autora requereu sua retirada na seguida. Na mesma sessão, foi apresentado um requerimento autônomo de procedimento, para o qual não há rito especial.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nA Presidência pode deferir sozinha a retirada da proposição porque o requerimento foi apresentado pela própria autora.",
+      "correctAnswer": "E",
+      "explanation": "No regime geral, a autora pode requerer a retirada, e antes da votação cabe despacho da Presidência. Iniciada a votação, a competência para decidir passa ao Plenário. A autoria satisfaz o requisito para pedir, mas não altera quem decide nessa fase. Regimento Comum do Congresso Nacional, art. 42.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-retirada-de-requerimento"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-requerimento-encaminhamento-conjunta",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "encaminhamento-de-requerimento-em-sessao-conjunta",
+      "mechanism": "requerimento-encaminhamento-conjunta",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "5. Debates, votação e publicação (arts. 36 a 52)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#5. Debates, votação e publicação (arts. 36 a 52)"
+      ],
+      "statement": "Numa sessão conjunta regida pelas regras gerais, começou a votação de uma proposição. A autora requereu sua retirada na seguida. Na mesma sessão, foi apresentado um requerimento autônomo de procedimento, para o qual não há rito especial.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nO requerimento de procedimento, embora não admita discussão, pode ter a votação encaminhada por dois membros de cada Casa, no limite de cinco minutos por pessoa.",
+      "correctAnswer": "C",
+      "explanation": "No rito comum, o requerimento em sessão conjunta não é discutido, mas pode haver encaminhamento da votação por dois membros de cada Casa, preferencialmente um a favor e outro contra, até cinco minutos cada. O projeto principal segue regras diferentes de discussão e encaminhamento. Regimento Comum do Congresso Nacional, arts. 38, 41 e 49.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-retirada-de-requerimento"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-conjunta-duracao-votacao-ultimada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-91d84ac6f2b70e35",
+      "conceptId": "votacao-em-curso-no-fim-da-sessao-conjunta",
+      "mechanism": "conjunta-duracao-votacao-ultimada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md",
+        "section": "4. Sessões conjuntas em geral: rito, abertura e pauta (arts. 22 a 35)"
+      },
+      "theoryRefs": [
+        "article:art-91d84ac6f2b70e35#4. Sessões conjuntas em geral: rito, abertura e pauta (arts. 22 a 35)"
+      ],
+      "statement": "O Congresso aprecia, em sessão conjunta, matéria do rito geral com redação final ainda necessária. A votação começa antes do fim da duração da sessão. Quando se esgota o horário, parte dos votos ainda não foi colhida, e liderança alguma pediu prorrogação.\n\nCom base no Regimento Comum do Congresso Nacional, julgue o item a seguir.\n\nO fim do tempo regulamentar impede concluir a votação, salvo se já houver requerimento de prorrogação da sessão.",
+      "correctAnswer": "E",
+      "explanation": "Se a sessão conjunta se esgota durante votação já iniciada, o Regimento Comum manda ultimá-la independentemente de pedido de prorrogação. Para prorrogar a sessão em situação ordinária, há procedimento próprio. Se a votação ainda não tivesse começado, essa exceção não se aplicaria. Regimento Comum do Congresso Nacional, arts. 22 e 23.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-fim-de-votacao-conjunta"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
     }
   ]
 }

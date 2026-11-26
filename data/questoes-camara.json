@@ -101116,6 +101116,635 @@
         "caseId": "cam-cpl-exp26-plebiscito-tratado"
       },
       "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do competências constitucionais do Congresso e de suas Casas. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-abertura-fracao-desprezada",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 65 a 94",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-8c7b2f4d50a963e1",
+      "conceptId": "abertura-presenca-decima-parte",
+      "mechanism": "sessao-abertura-fracao-desprezada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80.md",
+        "section": "6. Decoro, fala, registro, mídia e abertura (arts. 73 a 80)"
+      },
+      "theoryRefs": [
+        "article:art-8c7b2f4d50a963e1#6. Decoro, fala, registro, mídia e abertura (arts. 73 a 80)"
+      ],
+      "statement": "No horário de abertura de uma sessão pública da Câmara, 48 deputados estão presentes. Vinte minutos depois, chegam três deputados. A Presidência pretende abrir os trabalhos assim que o número for atingido e manter o tempo integral do Expediente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nOs 51 presentes após vinte minutos atingem o mínimo regimental de abertura da Câmara.",
+      "correctAnswer": "C",
+      "explanation": "Para abrir sessão exige-se um décimo da composição, desprezada a fração. Em 513, o mínimo é 51. Os 48 iniciais eram insuficientes, mas os três posteriores completam o quórum antes de terminar a espera de meia hora. Regimento Interno da Câmara, art. 79, §§ 2º e 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-expediente-atrasado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-atraso-deduzido-expediente",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 65 a 94",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-8c7b2f4d50a963e1",
+      "conceptId": "efeito-da-espera-no-expediente",
+      "mechanism": "sessao-atraso-deduzido-expediente",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80.md",
+        "section": "6. Decoro, fala, registro, mídia e abertura (arts. 73 a 80)"
+      },
+      "theoryRefs": [
+        "article:art-8c7b2f4d50a963e1#6. Decoro, fala, registro, mídia e abertura (arts. 73 a 80)"
+      ],
+      "statement": "No horário de abertura de uma sessão pública da Câmara, 48 deputados estão presentes. Vinte minutos depois, chegam três deputados. A Presidência pretende abrir os trabalhos assim que o número for atingido e manter o tempo integral do Expediente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nUma vez aberta a sessão, os vinte minutos de espera não afetam o tempo do Expediente.",
+      "correctAnswer": "E",
+      "explanation": "Com falta de número no horário inicial, a Presidência aguarda até meia hora. O retardamento é deduzido do tempo destinado ao Expediente. Abrir quando o quórum se completa e recompor a duração do Expediente são decisões distintas. Regimento Interno da Câmara, art. 79, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-expediente-atrasado"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-ata-anterior-sem-votacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 65 a 94",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-8c7b2f4d50a963e1",
+      "conceptId": "aprovacao-ata-anterior-regra-geral",
+      "mechanism": "sessao-ata-anterior-sem-votacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80.md",
+        "section": "6. Decoro, fala, registro, mídia e abertura (arts. 73 a 80)"
+      },
+      "theoryRefs": [
+        "article:art-8c7b2f4d50a963e1#6. Decoro, fala, registro, mídia e abertura (arts. 73 a 80)"
+      ],
+      "statement": "No início da sessão pública da Câmara, o Segundo-Secretário lê a ata da sessão anterior. Uma deputada identifica erro de registro e envia à Mesa declaração escrita de retificação. O Presidente considera a retificação improcedente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nNa rotina descrita, o Presidente pode considerar aprovada a ata independentemente de votação.",
+      "correctAnswer": "C",
+      "explanation": "A ata da sessão anterior é lida pelo Segundo-Secretário e considerada aprovada pelo Presidente sem votação. A possibilidade de declarar retificação não muda essa regra geral. A ata do encerramento da sessão legislativa recebe tratamento próprio. Regimento Interno da Câmara, arts. 80 e 97, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-ata-anterior-exame"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-retificacao-ata-recorre",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 5.1 Resolução nº 17/1989 – CD e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-8c7b2f4d50a963e1",
+      "conceptId": "retificacao-da-ata-decisao-e-recurso",
+      "mechanism": "sessao-retificacao-ata-recorre",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80.md",
+        "section": "6. Decoro, fala, registro, mídia e abertura (arts. 73 a 80)"
+      },
+      "theoryRefs": [
+        "article:art-8c7b2f4d50a963e1#6. Decoro, fala, registro, mídia e abertura (arts. 73 a 80)"
+      ],
+      "statement": "No início da sessão pública da Câmara, o Segundo-Secretário lê a ata da sessão anterior. Uma deputada identifica erro de registro e envia à Mesa declaração escrita de retificação. O Presidente considera a retificação improcedente.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA declaração escrita permite suscitar a retificação, e da decisão presidencial cabe recurso ao Plenário.",
+      "correctAnswer": "C",
+      "explanation": "A deputada encaminha a retificação por escrito à Mesa, e a declaração entra em ata. O Presidente pode explicar por que a acolheu ou rejeitou e cabe recurso ao Plenário. Essa via difere de republicar discurso com erro de transcrição. Regimento Interno da Câmara, arts. 80, § 1º, e 98, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 119,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-ata-anterior-exame"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-comunicacao-escrita-sem-anexo",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 65 a 94",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "limite-documentos-comunicacao-escrita",
+      "mechanism": "sessao-comunicacao-escrita-sem-anexo",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      ],
+      "statement": "Uma deputada inscrita para breves comunicações pretende entregar à Mesa texto escrito acompanhado da íntegra de um documento. Outro parlamentar pede aparte durante a mesma fase. Em momento posterior, dois líderes pretendem ceder parte de seus tempos entre si para comunicações de liderança.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA possibilidade de apresentar comunicação escrita permite anexar a íntegra do documento para publicação no Diário.",
+      "correctAnswer": "E",
+      "explanation": "A comunicação escrita pode ser enviada para publicação, mas não pode juntar ou transcrever documentos. A alternativa à exposição oral não amplia o conteúdo admitido. Regimento Interno da Câmara, art. 81, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-relatorio-e-aparte"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-breves-sem-aparte",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 65 a 94",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "aparte-vedado-breves-comunicacoes",
+      "mechanism": "sessao-breves-sem-aparte",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      ],
+      "statement": "Uma deputada inscrita para breves comunicações pretende entregar à Mesa texto escrito acompanhado da íntegra de um documento. Outro parlamentar pede aparte durante a mesma fase. Em momento posterior, dois líderes pretendem ceder parte de seus tempos entre si para comunicações de liderança.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO aparte pode ocorrer nas breves comunicações se a deputada que ocupar a tribuna consentir.",
+      "correctAnswer": "E",
+      "explanation": "Nas breves comunicações o regimento proíbe apartes e concede cinco minutos a cada inscrito. A anuência não supera a proibição própria da fase. Regimento Interno da Câmara, art. 81.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "camara14_cb2_03",
+        "item": 90,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+        "mechanism": "direção dos debates e consentimento para aparte",
+        "caseId": "cam-cpl-exp26-relatorio-e-aparte"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-lider-cessao-parcial",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 65 a 94",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "cessao-de-tempo-entre-lideres",
+      "mechanism": "sessao-lider-cessao-parcial",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      ],
+      "statement": "Uma deputada inscrita para breves comunicações pretende entregar à Mesa texto escrito acompanhado da íntegra de um documento. Outro parlamentar pede aparte durante a mesma fase. Em momento posterior, dois líderes pretendem ceder parte de seus tempos entre si para comunicações de liderança.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nOs líderes podem ceder entre si parte do tempo regimental de suas comunicações.",
+      "correctAnswer": "C",
+      "explanation": "A cessão total ou parcial entre líderes é facultada pelo regimento. Essa flexibilidade não torna admissíveis apartes, que seguem vedados nas comunicações de liderança. Regimento Interno da Câmara, art. 89, caput e parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 98,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-relatorio-e-aparte"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-comissao-geral-um-terco",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 65 a 94",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "comissao-geral-apoiamento",
+      "mechanism": "sessao-comissao-geral-um-terco",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      ],
+      "statement": "Na Câmara, 171 deputados requerem transformar a sessão em Comissão Geral para debater matéria relevante. Cada partido ou bloco indica dois convidados, mas a lista foi divulgada pela Mesa apenas dezoito horas antes. Encerrada a finalidade especial, ainda restam trabalhos ordinários de Plenário.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO requerimento reúne o quórum de apoiamento para o debate especial, sem depender de proposta conjunta dos líderes.",
+      "correctAnswer": "C",
+      "explanation": "A transformação pode decorrer de proposta conjunta dos líderes ou de requerimento de um terço da totalidade da Câmara. Cento e setenta e um de 513 atingem o limiar. O cumprimento dos demais requisitos do debate é verificação separada. Regimento Interno da Câmara, art. 91, I.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 120,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "integração",
+        "caseId": "cam-cpl-exp26-comissao-geral-debate"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-comissao-geral-divulgacao-lista",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 65 a 94",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "prazo-divulgacao-convidados-comissao-geral",
+      "mechanism": "sessao-comissao-geral-divulgacao-lista",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      ],
+      "statement": "Na Câmara, 171 deputados requerem transformar a sessão em Comissão Geral para debater matéria relevante. Cada partido ou bloco indica dois convidados, mas a lista foi divulgada pela Mesa apenas dezoito horas antes. Encerrada a finalidade especial, ainda restam trabalhos ordinários de Plenário.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nComo foi observado o limite de convidados por partido ou bloco, a divulgação dezoito horas antes também atende à regra.",
+      "correctAnswer": "E",
+      "explanation": "A norma prevê até dois convidados por partido ou bloco e exige divulgar a lista com antecedência mínima de 24 horas. Respeitar a quantidade não supre a antecedência de apenas dezoito horas. Regimento Interno da Câmara, art. 91, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 98,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-comissao-geral-debate"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-comissao-geral-retorno-fase",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 65 a 94",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "retomada-da-sessao-plenaria",
+      "mechanism": "sessao-comissao-geral-retorno-fase",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      ],
+      "statement": "Na Câmara, 171 deputados requerem transformar a sessão em Comissão Geral para debater matéria relevante. Cada partido ou bloco indica dois convidados, mas a lista foi divulgada pela Mesa apenas dezoito horas antes. Encerrada a finalidade especial, ainda restam trabalhos ordinários de Plenário.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nAlcançada a finalidade da Comissão Geral, os trabalhos plenários podem continuar a partir da fase em que ordinariamente se encontrariam.",
+      "correctAnswer": "C",
+      "explanation": "A Comissão Geral é transformação da própria sessão da Câmara para finalidade específica. Satisfeita a finalidade, retoma-se a fase ordinária pertinente, sem obrigação de reiniciar todo o expediente. Regimento Interno da Câmara, art. 91, § 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-comissao-geral-debate"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-um-quinto-requer-deliberacao",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 65 a 94",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "sessao-secreta-um-quinto-versus-um-terco",
+      "mechanism": "sessao-um-quinto-requer-deliberacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      ],
+      "statement": "Um requerimento escrito e fundamentado de sessão secreta na Câmara é subscrito por 104 deputados, sem subscrição de líder, do Colégio de Líderes ou de comissão. A matéria não integra as hipóteses em que o Regimento manda deliberar em sessão secreta.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO número de subscritores determina a convocação automática da sessão secreta.",
+      "correctAnswer": "E",
+      "explanation": "Um quinto dos membros pode requerer, mas a convocação depende de deliberação do Plenário. A via automática por parlamentares exige pelo menos um terço. Com 104 subscritores, alcança-se um quinto, mas não um terço de 513. Regimento Interno da Câmara, art. 92, I e II.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-sigilo-um-quinto"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-secreta-avaliacao-preliminar",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "examPart": "P1",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados, arts. 65 a 94",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "decisao-preliminar-sobre-sigilo",
+      "mechanism": "sessao-secreta-avaliacao-preliminar",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      },
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      ],
+      "statement": "Um requerimento escrito e fundamentado de sessão secreta na Câmara é subscrito por 104 deputados, sem subscrição de líder, do Colégio de Líderes ou de comissão. A matéria não integra as hipóteses em que o Regimento manda deliberar em sessão secreta.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nSe a sessão for convocada, a Câmara deve em regra deliberar preliminarmente se o assunto será tratado sigilosa ou publicamente.",
+      "correctAnswer": "C",
+      "explanation": "A convocação da sessão secreta não encerra o juízo sobre a forma do tratamento do assunto. O regimento exige decisão preliminar, salvo hipóteses de sigilo obrigatório indicadas no parágrafo único do art. 92. Regimento Interno da Câmara, arts. 92 e 93, § 1º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 103,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "condição",
+        "caseId": "cam-cpl-exp26-sigilo-um-quinto"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do regime das sessões da Câmara. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-conjunta-audiencia-nao-convoca",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f25a1c9074de83b6",
+      "conceptId": "convocacao-conjunta-e-audiencia-mesa",
+      "mechanism": "sessao-conjunta-audiencia-nao-convoca",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3.md",
+        "section": "2. Convocação: art. 2º"
+      },
+      "theoryRefs": [
+        "article:art-f25a1c9074de83b6#2. Convocação: art. 2º"
+      ],
+      "statement": "Está prevista sessão conjunta para finalidade regimental, sem data legalmente fixada. O Plenário da Câmara está indisponível, e a equipe indicou outro local com antecedência e anúncio. A Mesa da Câmara foi ouvida quanto à convocação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA audiência da Mesa da Câmara é etapa prévia, mas a convocação cabe ao Presidente do Senado ou a seu substituto.",
+      "correctAnswer": "C",
+      "explanation": "Em sessão sem data legalmente fixada, a convocação é feita pelo Presidente do Senado ou substituto depois de ouvida a Mesa da Câmara. A audiência não transfere à Mesa da Câmara o ato convocatório. Regimento Comum, art. 2º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-conjunta-sem-data-fixada"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-conjunta-excecao-de-local",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-f25a1c9074de83b6",
+      "conceptId": "local-alternativo-previamente-anunciado",
+      "mechanism": "sessao-conjunta-excecao-de-local",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3.md",
+        "section": "3. Local: art. 3º"
+      },
+      "theoryRefs": [
+        "article:art-f25a1c9074de83b6#3. Local: art. 3º"
+      ],
+      "statement": "Está prevista sessão conjunta para finalidade regimental, sem data legalmente fixada. O Plenário da Câmara está indisponível, e a equipe indicou outro local com antecedência e anúncio. A Mesa da Câmara foi ouvida quanto à convocação.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO local alternativo pode ser usado sem alterar a natureza conjunta da sessão, desde que tenha sido escolhido previamente e anunciado.",
+      "correctAnswer": "C",
+      "explanation": "A regra prevê o Plenário da Câmara, ressalvada escolha prévia de outro local devidamente anunciado. A condição do local não redefine o colegiado convocado. Sem prévia escolha e anúncio, faltaria a condição da exceção. Regimento Comum, art. 3º.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-conjunta-sem-data-fixada"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-solene-qualquer-numero",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "abertura-solene-quorum-especial",
+      "mechanism": "sessao-solene-qualquer-numero",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      },
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      ],
+      "statement": "Na inauguração da sessão legislativa do Congresso, comparecem onze senadores e oitenta deputados. Um parlamentar quer suscitar questão de ordem, e outro pede aplicar o mínimo de abertura das sessões conjuntas em geral.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA regra especial da sessão solene permite sua realização com os presentes, apesar de não se atingir o quórum ordinário da sessão conjunta.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento Comum admite realizar sessão solene com qualquer número. O limiar de um sexto da composição de cada Casa é o da sessão conjunta em geral, que não substitui a regra especial. Regimento Comum, arts. 28 e 53, parágrafo único.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-solene-inauguracao-poucos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-solene-sem-questao-de-ordem",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "questao-de-ordem-na-sessao-solene",
+      "mechanism": "sessao-solene-sem-questao-de-ordem",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "questionType": "aplicacao",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      },
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      ],
+      "statement": "Na inauguração da sessão legislativa do Congresso, comparecem onze senadores e oitenta deputados. Um parlamentar quer suscitar questão de ordem, e outro pede aplicar o mínimo de abertura das sessões conjuntas em geral.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO parlamentar pode suscitar questão de ordem na inauguração desde que a formule com indicação precisa do dispositivo.",
+      "correctAnswer": "E",
+      "explanation": "Sessões solenes não admitem questões de ordem. Na sessão conjunta comum, a questão concreta e a indicação do fundamento integram disciplina distinta. Regimento Comum, arts. 56 e 131.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 98,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-solene-inauguracao-poucos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
+    },
+    {
+      "id": "cam-cpl-exp26-sessao-inauguracao-excecao-oradores",
+      "concursoId": "camara-2026",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "examPart": "P2",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 6.1 Resolução nº 1/1970 – CN e suas alterações",
+      "format": "CE",
+      "origin": "inedita",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "ausencia-de-oradores-na-inauguracao",
+      "mechanism": "sessao-inauguracao-excecao-oradores",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "questionType": "analise",
+      "reviewStatus": "validada",
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "2. Inauguração dos trabalhos do Congresso (arts. 57–59)"
+      },
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#2. Inauguração dos trabalhos do Congresso (arts. 57–59)"
+      ],
+      "statement": "Na inauguração da sessão legislativa do Congresso, comparecem onze senadores e oitenta deputados. Um parlamentar quer suscitar questão de ordem, e outro pede aplicar o mínimo de abertura das sessões conjuntas em geral.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nA regra geral de um senador e um deputado previamente designados aplica-se também aos discursos de inauguração da sessão legislativa.",
+      "correctAnswer": "E",
+      "explanation": "A regra geral das solenidades prevê um senador e um deputado. Seu próprio parágrafo único excepciona a inauguração da sessão legislativa e a posse presidencial, nas quais não há oradores. Regimento Comum, art. 55.",
+      "calibration": {
+        "type": "autoral-calibrada",
+        "mirror": "167_cdns_001_01",
+        "item": 94,
+        "caderno": "https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/B2488E2CFFA8DFA75CFAE86B83860AACDF488497CC3A9C4E33E11FF7121A8490.pdf",
+        "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E01DCB982BAA0FA752C2FEA22CBFB4A0F40965D309F70984B1E43BDAE0C78BDA.pdf",
+        "mechanism": "competência",
+        "caseId": "cam-cpl-exp26-solene-inauguracao-poucos"
+      },
+      "reviewEvidence": "Conferido o dispositivo indicado na correção no texto compilado do Regimento Comum do Congresso Nacional. https://www.congressonacional.leg.br/documents/12427/45875/RCCN.pdf/747c5b18-8997-4d16-b4df-a30a68837028 O item de referência calibra a operação de julgamento."
     }
   ]
 }

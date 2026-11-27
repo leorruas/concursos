@@ -179,10 +179,10 @@ const camaraGap = (questions, cut) => {
   const context = JSON.parse(outputs.get('data/contexto-estudo/camara-2026/direito-constitucional.json'));
   return context.gaps.find(gap => gap.questionId === 'camara-erro-inicial');
 };
-const initialError = {...question, id:'camara-erro-inicial', date:'2026-11-01',
+const initialError = {...question, concursoId:'camara-2026', id:'camara-erro-inicial', date:'2026-11-01',
   result:'incorrect', userAnswer:'E', confidence:'secure', retrievalOf:[],
   repetition:{classification:'new', similarTo:[], intentional:false}};
-const independentRetest = (id,date) => ({...question, id, date, result:'correct', userAnswer:'C',
+const independentRetest = (id,date) => ({...question, concursoId:'camara-2026', id, date, result:'correct', userAnswer:'C',
   confidence:'secure', retrievalOf:['camara-erro-inicial'],
   repetition:{classification:'thematic', similarTo:['camara-erro-inicial'], intentional:false}});
 assert.equal(camaraGap([initialError], '2026-11-01').dueOn, '2026-11-03',

@@ -61,7 +61,7 @@ vm.runInContext(fs.readFileSync(path.join(root, 'web/09-glossary.js'), 'utf8'), 
 const mockListeners = new Map();
 let scrollToTopOptions = null;
 const mockControls = Object.fromEntries([
-  'glossario-busca','glossario-bloco','glossario-materia',
+  'glossario-busca','glossario-concurso','glossario-bloco','glossario-materia',
   'glossario-artigo','glossario-organizacao','glossario-voltar-topo'
 ].map(id => [id, { value: '', addEventListener(type, fn) {
   mockListeners.set(id + ':' + type, fn);

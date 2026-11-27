@@ -57,7 +57,26 @@ for (const item of bank.expansao) {
   }
 }
 
-console.log('Câmara: integridade de ' + bank.expansao.length + ' itens de expansão verificada.');
+const decoroItems = JSON.parse(read('../data/questoes-camara-decoro-dificeis.json'));
+const decoroPath = '../3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md';
+const decoroArticle = read(decoroPath);
+const decoroArticleId = articleMetadata(decoroArticle).articleId;
+const decoroHeadings = new Set(decoroArticle.split(/\r?\n/)
+  .filter(line => /^#{1,6} /.test(line)).map(line => line.replace(/^#{1,6} /, '')));
+const decoroSubject = catalog.subjects.find(subject => subject.subjectId === 'etica-publica');
+assert.equal(decoroItems.length, 50, 'Lote difícil de Decoro deve conter 50 itens');
+for (const item of decoroItems) {
+  const label = item.id || '(sem ID)';
+  assert(!ids.has(item.id), 'ID de Decoro repetido: ' + label);
+  ids.add(item.id);
+  assert.equal(item.articleId, decoroArticleId, label);
+  assert(decoroSubject?.articleIds.includes(item.articleId), 'Artigo de Decoro fora do catálogo: ' + label);
+  assert(decoroHeadings.has(item.section), 'Seção teórica de Decoro inexistente: ' + label + ' / ' + item.section);
+  assert(Array.isArray(item.theoryRefs) && item.theoryRefs.includes('article:' + item.articleId + '#' + item.section),
+    'Âncora teórica ausente em Decoro: ' + label);
+}
+
+console.log('Câmara: integridade de ' + bank.expansao.length + ' itens de expansão e 50 itens difíceis de Decoro verificada.');
 
 const fixture = bank.expansao[0];
 const selection = selectCamaraQuestions({ expansao: [

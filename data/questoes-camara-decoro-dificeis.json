@@ -8,7 +8,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "O que acontece depois de uma censura verbal ou escrita?",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -18,7 +18,10 @@
     "statement": "Um deputado censurado verbalmente pelo presidente de uma comissão durante reunião pode recorrer ao Plenário da respectiva comissão no prazo de dois dias úteis; essa censura não implica, por si, suspensão do exercício do mandato.",
     "correctAnswer": "C",
     "explanation": "A censura verbal admite recurso ao respectivo Plenário em dois dias úteis; é sanção distinta da suspensão do mandato.",
-    "sourceNote": "Código de Ética, art. 11."
+    "sourceNote": "Código de Ética, art. 11.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#O que acontece depois de uma censura verbal ou escrita?"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -29,7 +32,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "O que acontece depois de uma censura verbal ou escrita?",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -39,7 +42,10 @@
     "statement": "Diante de ofensa a outro deputado, a Mesa pode aplicar censura escrita sem conceder defesa prévia, desde que assegure ao punido recurso ao Plenário no prazo de cinco dias úteis.",
     "correctAnswer": "E",
     "explanation": "A censura escrita exige defesa em cinco dias úteis e admite recurso em dois dias úteis. Recurso posterior não suprime defesa prévia.",
-    "sourceNote": "Código de Ética, art. 12, §§ 1º e 2º."
+    "sourceNote": "Código de Ética, art. 12, §§ 1º e 2º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#O que acontece depois de uma censura verbal ou escrita?"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -50,7 +56,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "O que acontece depois de uma censura verbal ou escrita?",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -60,7 +66,10 @@
     "statement": "A reincidência em perturbação da ordem de sessão pode justificar censura escrita a pedido da presidência competente, embora o episódio anterior tenha sido punível apenas com censura verbal.",
     "correctAnswer": "C",
     "explanation": "O art. 12 admite censura escrita por reincidência nas hipóteses do art. 11, mediante solicitação da autoridade indicada.",
-    "sourceNote": "Código de Ética, arts. 11 e 12."
+    "sourceNote": "Código de Ética, arts. 11 e 12.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#O que acontece depois de uma censura verbal ou escrita?"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -71,7 +80,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "O que acontece depois de uma censura verbal ou escrita?",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -81,7 +90,10 @@
     "statement": "A censura verbal aplicada pelo presidente de comissão somente passa a produzir efeitos depois de homologada pelo Conselho de Ética, pois toda penalidade disciplinar exige deliberação prévia do colegiado.",
     "correctAnswer": "E",
     "explanation": "A censura verbal é aplicada diretamente pelo presidente da Câmara em sessão ou pelo presidente de comissão em reunião, com recurso previsto, sem homologação obrigatória pelo Conselho.",
-    "sourceNote": "Código de Ética, art. 11."
+    "sourceNote": "Código de Ética, art. 11.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#O que acontece depois de uma censura verbal ou escrita?"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -92,7 +104,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -102,7 +114,10 @@
     "statement": "Um cidadão que apresente fatos e provas à Mesa contra deputado não instaura diretamente processo no Conselho de Ética; a Mesa aprecia a representação e define seu encaminhamento conforme a possível sanção.",
     "correctAnswer": "C",
     "explanation": "O cidadão requer à Mesa, que realiza a apreciação preliminar e encaminha, quando cabível, ao Conselho; o rito depende da tipificação.",
-    "sourceNote": "Código de Ética, art. 9º, §§ 1º e 2º."
+    "sourceNote": "Código de Ética, art. 9º, §§ 1º e 2º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -113,7 +128,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -123,7 +138,10 @@
     "statement": "A representação assinada por partido com representação no Congresso deve ser submetida obrigatoriamente a sindicância da Corregedoria antes de ser enviada ao Conselho de Ética, ainda que o Código determine remessa em três sessões ordinárias.",
     "correctAnswer": "E",
     "explanation": "O Código prevê remessa direta da Mesa ao Conselho de Ética, em até três sessões ordinárias, para representação partidária habilitada; apuração prévia na Corregedoria não é etapa universal.",
-    "sourceNote": "Código de Ética, art. 9º, § 3º."
+    "sourceNote": "Código de Ética, art. 9º, § 3º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -134,7 +152,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -144,7 +162,10 @@
     "statement": "O prazo de três sessões ordinárias para encaminhamento de representação partidária ao Conselho de Ética não equivale, necessariamente, a três dias úteis, pois a unidade temporal prevista para essa etapa é a sessão parlamentar.",
     "correctAnswer": "C",
     "explanation": "O art. 9º, § 3º fixa três sessões ordinárias, unidade diferente de dias úteis usados em outros momentos processuais.",
-    "sourceNote": "Código de Ética, art. 9º, § 3º."
+    "sourceNote": "Código de Ética, art. 9º, § 3º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -155,7 +176,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Confronto normativo: instrução, defesa e quórum de pareceres",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -165,7 +186,10 @@
     "statement": "Em recurso contra parecer disciplinar, a Comissão de Constituição e Justiça e de Cidadania pode substituir a convicção do Conselho de Ética sobre a credibilidade de testemunhas, mesmo sem apontar vício constitucional, regimental ou procedimental.",
     "correctAnswer": "E",
     "explanation": "O recurso à CCJC é restrito a vícios jurídicos; não constitui nova apreciação livre do mérito fático e político-disciplinar.",
-    "sourceNote": "Código de Ética, arts. 13, IV, e 14, § 4º, VII."
+    "sourceNote": "Código de Ética, arts. 13, IV, e 14, § 4º, VII.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Confronto normativo: instrução, defesa e quórum de pareceres"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -176,7 +200,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Confronto normativo: instrução, defesa e quórum de pareceres",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -186,7 +210,10 @@
     "statement": "No rito disciplinar dos arts. 13 e 14, o representado pode recorrer à Comissão de Constituição e Justiça e de Cidadania, em cinco dias úteis, por vício jurídico, e a interposição produz efeito suspensivo.",
     "correctAnswer": "C",
     "explanation": "A norma prevê recurso em cinco dias úteis, com efeito suspensivo, limitado a vícios constitucionais, regimentais ou do Código.",
-    "sourceNote": "Código de Ética, arts. 13, IV, e 14, § 4º, VII."
+    "sourceNote": "Código de Ética, arts. 13, IV, e 14, § 4º, VII.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Confronto normativo: instrução, defesa e quórum de pareceres"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -197,7 +224,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Confronto normativo: instrução, defesa e quórum de pareceres",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -207,7 +234,10 @@
     "statement": "O recurso contra decisão conclusiva do presidente do Conselho em questão de ordem tem, por determinação do Regulamento, o mesmo efeito suspensivo do recurso à Comissão de Constituição e Justiça e de Cidadania.",
     "correctAnswer": "E",
     "explanation": "O recurso contra decisão em questão de ordem ou reclamação é dirigido ao Presidente da Câmara, sem efeito suspensivo; difere do recurso à CCJC.",
-    "sourceNote": "Regulamento do Conselho, art. 19; Código de Ética, art. 13, IV."
+    "sourceNote": "Regulamento do Conselho, art. 19; Código de Ética, art. 13, IV.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Confronto normativo: instrução, defesa e quórum de pareceres"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -218,7 +248,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -228,7 +258,10 @@
     "statement": "O pedido de acesso a dados protegidos de terceiros em processo ético-disciplinar exige justificativa específica, e o Conselho de Ética não pode equiparar seus poderes instrutórios aos poderes de investigação de uma comissão parlamentar de inquérito.",
     "correctAnswer": "C",
     "explanation": "O Conselho não dispõe de poderes próprios de quebra direta de sigilos; sigilo de terceiros exige relatório preliminar circunstanciado.",
-    "sourceNote": "Regulamento do Conselho, arts. 14 a 16; CF, art. 58, § 3º."
+    "sourceNote": "Regulamento do Conselho, arts. 14 a 16; CF, art. 58, § 3º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -239,7 +272,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -249,7 +282,10 @@
     "statement": "O relator de processo por perda de mandato pode determinar diretamente a quebra de sigilo bancário do representado, dispensando deliberação da Mesa e do Plenário, porque o Conselho exerce poder jurisdicional de investigação.",
     "correctAnswer": "E",
     "explanation": "O Conselho deve seguir o procedimento regulamentar de requerimento motivado à Mesa e autorização pelo Plenário ou eventual transferência de dados legitimamente obtidos; não há poder direto próprio de quebra.",
-    "sourceNote": "Regulamento do Conselho, arts. 14 a 16."
+    "sourceNote": "Regulamento do Conselho, arts. 14 a 16.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -260,7 +296,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Exceções decisivas no rito grave",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -270,7 +306,10 @@
     "statement": "Em processo que possa levar à perda do mandato, o presidente do Conselho escolhe relator entre três nomes sorteados, observadas as restrições de partido e de Estado previstas para preservar a imparcialidade.",
     "correctAnswer": "C",
     "explanation": "Há lista tríplice formada por sorteio e um relator designado entre seus integrantes; aplicam-se os impedimentos do art. 13, I.",
-    "sourceNote": "Código de Ética, arts. 13, I, e 14, § 4º, I."
+    "sourceNote": "Código de Ética, arts. 13, I, e 14, § 4º, I.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Exceções decisivas no rito grave"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -281,7 +320,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Exceções decisivas no rito grave",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -291,7 +330,10 @@
     "statement": "A seleção de lista tríplice para relatoria do processo ético constitui automaticamente comissão de três relatores com poder decisório conjunto, de forma que o presidente do Conselho não pode indicar relator único.",
     "correctAnswer": "E",
     "explanation": "O sorteio forma uma lista de três elegíveis, e o presidente designa um relator. Não há colegiado de três relatores por esse único fato.",
-    "sourceNote": "Código de Ética, art. 13, I; art. 14, § 4º, I."
+    "sourceNote": "Código de Ética, art. 13, I; art. 14, § 4º, I.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Exceções decisivas no rito grave"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -302,7 +344,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Exceções decisivas no rito grave",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -312,7 +354,10 @@
     "statement": "Se o Conselho de Ética rejeitar o parecer apresentado no rito por perda do mandato, deve ser designado novo relator, preferencialmente entre os integrantes que votaram contra o primeiro parecer.",
     "correctAnswer": "C",
     "explanation": "O Código exige novo relator em caso de rejeição do parecer, com preferência pelos que se manifestaram contrariamente.",
-    "sourceNote": "Código de Ética, art. 14, § 4º, V."
+    "sourceNote": "Código de Ética, art. 14, § 4º, V.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Exceções decisivas no rito grave"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -323,7 +368,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Exceções decisivas no rito grave",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -333,7 +378,10 @@
     "statement": "Rejeitado o primeiro parecer do relator no rito grave, a representação é obrigatoriamente arquivada sem nova elaboração, pois a votação negativa encerra definitivamente a competência do Conselho.",
     "correctAnswer": "E",
     "explanation": "A rejeição do parecer aciona a designação de novo relator, não arquivamento automático; o processo prossegue segundo o Código.",
-    "sourceNote": "Código de Ética, art. 14, § 4º, V."
+    "sourceNote": "Código de Ética, art. 14, § 4º, V.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Exceções decisivas no rito grave"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -344,7 +392,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Exceções decisivas no rito grave",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -354,7 +402,10 @@
     "statement": "Se, na apuração de hipótese de suspensão de prerrogativas, forem identificados fatos que justifiquem pena mais grave, a passagem ao rito correspondente depende das providências do Código, inclusive nova oportunidade de defesa quando cabível.",
     "correctAnswer": "C",
     "explanation": "O art. 13, III, d prevê representação do Conselho à Mesa para pena mais grave, com reabertura da defesa e instrução complementar após aprovação da Mesa.",
-    "sourceNote": "Código de Ética, art. 13, III, d."
+    "sourceNote": "Código de Ética, art. 13, III, d.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Exceções decisivas no rito grave"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -365,7 +416,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Exceções decisivas no rito grave",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -375,7 +426,10 @@
     "statement": "O Conselho de Ética pode converter diretamente, sem nova defesa, um processo iniciado para suspender prerrogativas em proposta de perda do mandato, bastando constatar agravante durante a instrução.",
     "correctAnswer": "E",
     "explanation": "A requalificação para pena mais grave exige o procedimento do art. 13, III, d e as garantias do rito aplicável; não há conversão automática sem defesa.",
-    "sourceNote": "Código de Ética, arts. 10, § 2º, e 13, III, d."
+    "sourceNote": "Código de Ética, arts. 10, § 2º, e 13, III, d.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Exceções decisivas no rito grave"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -386,7 +440,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -396,7 +450,10 @@
     "statement": "Na suspensão de prerrogativas regimentais, a extensão da restrição e sua duração constituem decisões distintas: o Conselho pode propor limitar apenas algumas prerrogativas e fixar período inferior ao máximo de seis meses, com motivação.",
     "correctAnswer": "C",
     "explanation": "O art. 13 admite suspensão de todas ou de parte das prerrogativas e duração de até seis meses; critérios e prazo devem ser motivados.",
-    "sourceNote": "Código de Ética, art. 13, VI a VIII."
+    "sourceNote": "Código de Ética, art. 13, VI a VIII.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -407,7 +464,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -417,7 +474,10 @@
     "statement": "Se o Conselho concluir que devem ser suspensas todas as prerrogativas regimentais, deverá fixar obrigatoriamente o prazo de seis meses, pois o alcance total da sanção determina sua duração máxima.",
     "correctAnswer": "E",
     "explanation": "O alcance material e o prazo são decisões distintas; seis meses é limite máximo, não duração obrigatória.",
-    "sourceNote": "Código de Ética, art. 13, VII e VIII."
+    "sourceNote": "Código de Ética, art. 13, VII e VIII.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -428,7 +488,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -438,7 +498,10 @@
     "statement": "Uma resolução que suspenda o exercício do mandato por período superior a 120 dias aciona a convocação do suplente após sua publicação, efeito que não decorre automaticamente da simples suspensão de algumas prerrogativas regimentais.",
     "correctAnswer": "C",
     "explanation": "O art. 14, § 2º prevê convocação do suplente na suspensão do exercício superior a 120 dias; a suspensão de prerrogativas tem natureza diferente.",
-    "sourceNote": "Código de Ética, arts. 13 e 14, § 2º."
+    "sourceNote": "Código de Ética, arts. 13 e 14, § 2º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -449,7 +512,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -459,7 +522,10 @@
     "statement": "A suspensão parcial de prerrogativas regimentais implica necessariamente impedimento de votar em Plenário e convocação imediata do suplente, tal como ocorre na suspensão do exercício do mandato superior a 120 dias.",
     "correctAnswer": "E",
     "explanation": "A suspensão de prerrogativas restringe as hipóteses regimentais específicas do art. 13; não equivale à suspensão do exercício do mandato e não gera convocação automática de suplente.",
-    "sourceNote": "Código de Ética, arts. 13 e 14, § 2º."
+    "sourceNote": "Código de Ética, arts. 13 e 14, § 2º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -470,7 +536,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Exceções decisivas no rito grave",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -480,7 +546,10 @@
     "statement": "No rito do art. 14, a instrução dispõe de prazo improrrogável de trinta dias úteis para suspensão do exercício do mandato e quarenta dias úteis para perda do mandato, seguindo-se prazo específico para parecer.",
     "correctAnswer": "C",
     "explanation": "Os prazos de instrução são 30 e 40 dias úteis, conforme a sanção, com mais 10 dias úteis para o parecer do relator após a instrução.",
-    "sourceNote": "Código de Ética, art. 14, § 4º, IV."
+    "sourceNote": "Código de Ética, art. 14, § 4º, IV.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Exceções decisivas no rito grave"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -491,7 +560,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Exceções decisivas no rito grave",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -501,7 +570,10 @@
     "statement": "O prazo improrrogável de quarenta dias úteis para instrução em processo de perda do mandato pode ser estendido uma vez por igual período, por decisão do presidente do Conselho, porque se aplica a regra geral de diligências do art. 13.",
     "correctAnswer": "E",
     "explanation": "O art. 14 estabelece instrução improrrogável de quarenta dias úteis para perda do mandato; a prorrogação de diligências do art. 13 não se transfere a esse prazo.",
-    "sourceNote": "Código de Ética, arts. 13, II, e 14, § 4º, IV."
+    "sourceNote": "Código de Ética, arts. 13, II, e 14, § 4º, IV.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Exceções decisivas no rito grave"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -512,7 +584,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Composição e mandato (art. 7º)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -522,7 +594,10 @@
     "statement": "Uma censura escrita anterior pode ser considerada nos antecedentes do parlamentar para dosimetria de nova sanção, mas, isoladamente, não se confunde com as penalidades de suspensão que impedem integrar o Conselho de Ética.",
     "correctAnswer": "C",
     "explanation": "O art. 10 manda considerar antecedentes; a vedação específica do art. 7º, § 2º, II refere-se à suspensão de prerrogativas ou do mandato.",
-    "sourceNote": "Código de Ética, arts. 7º, § 2º, II, e 10, § 1º."
+    "sourceNote": "Código de Ética, arts. 7º, § 2º, II, e 10, § 1º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -533,7 +608,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -543,7 +618,10 @@
     "statement": "Se deputado ressarcir integralmente recursos públicos empregados indevidamente, a restituição substitui obrigatoriamente a penalidade de decoro e impede qualquer suspensão ou perda de mandato pelos mesmos fatos.",
     "correctAnswer": "E",
     "explanation": "O ressarcimento de vantagem indevida não afasta, por si, aplicação de pena disciplinar; o Código exige restituição sem prejuízo da penalidade.",
-    "sourceNote": "Código de Ética, art. 10, § 3º."
+    "sourceNote": "Código de Ética, art. 10, § 3º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -554,7 +632,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -564,7 +642,10 @@
     "statement": "Durante processo de decoro, o deputado representado deve ser intimado dos atos do Conselho e pode manifestar-se ao longo das fases; a apresentação inicial de defesa escrita não elimina essas garantias nas diligências posteriores.",
     "correctAnswer": "C",
     "explanation": "O art. 9º, § 5º assegura intimação de todos os atos praticados pelo Conselho e manifestação em todas as fases.",
-    "sourceNote": "Código de Ética, art. 9º, § 5º."
+    "sourceNote": "Código de Ética, art. 9º, § 5º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -575,7 +656,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Competência para aprovar o Regulamento do Conselho (art. 8º)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -585,7 +666,10 @@
     "statement": "Os prazos processuais do Conselho de Ética são sempre contados em dias corridos e continuam fluindo normalmente durante o recesso parlamentar, inclusive sem convocação extraordinária.",
     "correctAnswer": "E",
     "explanation": "Os prazos do Conselho contam-se em dias úteis e ficam suspensos no recesso, ressalvada convocação extraordinária pertinente.",
-    "sourceNote": "Código de Ética, art. 8º, § 3º."
+    "sourceNote": "Código de Ética, art. 8º, § 3º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Competência para aprovar o Regulamento do Conselho (art. 8º)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -596,7 +680,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Exceções decisivas no rito grave",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -606,7 +690,10 @@
     "statement": "A decisão do Plenário pela suspensão temporária do exercício do mandato segue votação ostensiva e maioria absoluta, não sendo suficiente transportar automaticamente para essa decisão a regra de maioria simples aplicada a determinados pareceres no Conselho.",
     "correctAnswer": "C",
     "explanation": "Sanções de suspensão do mandato e perda exigem maioria absoluta no Plenário e votação ostensiva. O quórum do Conselho possui disciplina própria.",
-    "sourceNote": "CF, art. 55, § 2º; Código de Ética, art. 14."
+    "sourceNote": "CF, art. 55, § 2º; Código de Ética, art. 14.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Exceções decisivas no rito grave"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -617,7 +704,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Confronto normativo: instrução, defesa e quórum de pareceres",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -627,7 +714,10 @@
     "statement": "O efeito suspensivo previsto para o recurso à Comissão de Constituição e Justiça e de Cidadania faz com que todo recurso regimental interposto durante o procedimento disciplinar paralise automaticamente o processo, inclusive questões de ordem.",
     "correctAnswer": "E",
     "explanation": "Há recursos distintos: o recurso à CCJC tem efeito suspensivo nas hipóteses legais; o recurso ao Presidente da Câmara contra decisão em questão de ordem não o tem.",
-    "sourceNote": "Código de Ética, arts. 13, IV, e 14, § 4º, VII; Regulamento do Conselho, art. 19."
+    "sourceNote": "Código de Ética, arts. 13, IV, e 14, § 4º, VII; Regulamento do Conselho, art. 19.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Confronto normativo: instrução, defesa e quórum de pareceres"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -638,7 +728,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -648,7 +738,10 @@
     "statement": "Deputado que possua interesse patrimonial direto e específico em proposição submetida a comissão deve declarar o impedimento quando se iniciar a apreciação da matéria, ainda que já tenha fornecido autorização de acesso a dados fiscais ao assumir o mandato.",
     "correctAnswer": "C",
     "explanation": "A autorização de acesso a dados fiscais e a declaração de impedimento para votar são obrigações distintas, previstas nos incisos I e II do art. 18.",
-    "sourceNote": "Código de Ética, art. 18, I e II."
+    "sourceNote": "Código de Ética, art. 18, I e II.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -659,7 +752,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -669,7 +762,10 @@
     "statement": "Por força do art. 18 do Código de Ética, todos os deputados devem entregar anualmente, em trinta dias, cópia de declaração de imposto de renda ao Conselho, independentemente de solicitação do órgão competente.",
     "correctAnswer": "E",
     "explanation": "A redação consolidada do art. 18 prevê autorização de acesso à declaração de ajuste ao assumir o mandato e quando solicitada, não essa entrega anual automática.",
-    "sourceNote": "Código de Ética, art. 18, I."
+    "sourceNote": "Código de Ética, art. 18, I.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -680,7 +776,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Composição e mandato (art. 7º)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -690,7 +786,10 @@
     "statement": "Deputado no exercício do mandato como suplente convocado em substituição ao titular não pode integrar o Conselho de Ética, embora o Código de Ética alcance quem esteja exercendo mandato parlamentar.",
     "correctAnswer": "C",
     "explanation": "O art. 1º alcança o exercício do mandato, mas o art. 7º, § 2º, III estabelece impedimento específico para integrar o Conselho nessa condição.",
-    "sourceNote": "Código de Ética, arts. 1º e 7º, § 2º, III."
+    "sourceNote": "Código de Ética, arts. 1º e 7º, § 2º, III.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -701,7 +800,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Composição e mandato (art. 7º)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -711,7 +810,10 @@
     "statement": "Deputado condenado criminalmente por órgão colegiado somente estará impedido de compor o Conselho de Ética após o trânsito em julgado, pois a condenação não definitiva impede apenas a presidência do órgão.",
     "correctAnswer": "E",
     "explanation": "O art. 7º, § 2º prevê impedimento de integrar o Conselho em caso de condenação criminal colegiada, ainda que sem trânsito em julgado.",
-    "sourceNote": "Código de Ética, art. 7º, § 2º, IV."
+    "sourceNote": "Código de Ética, art. 7º, § 2º, IV.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -722,7 +824,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Composição e mandato (art. 7º)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -732,7 +834,10 @@
     "statement": "O titular que faltar a cinco reuniões consecutivas do Conselho de Ética, sem motivo de força maior justificado por escrito, está sujeito à perda da vaga no colegiado, medida distinta da cassação de seu mandato parlamentar.",
     "correctAnswer": "C",
     "explanation": "A perda de vaga no Conselho decorre de faltas nos limites do art. 7º, § 6º e não configura, por si, perda do mandato de deputado.",
-    "sourceNote": "Código de Ética, art. 7º, § 6º."
+    "sourceNote": "Código de Ética, art. 7º, § 6º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -743,7 +848,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Composição e mandato (art. 7º)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -753,7 +858,10 @@
     "statement": "O corregedor parlamentar pode participar da instrução de representação no Conselho de Ética e votar o parecer final, desde que esteja presente em todas as reuniões de instrução.",
     "correctAnswer": "E",
     "explanation": "O Corregedor pode participar de todas as fases, inclusive discussões, mas sem direito a voto nessa qualidade; participação não confere voto.",
-    "sourceNote": "Código de Ética, art. 9º, § 4º."
+    "sourceNote": "Código de Ética, art. 9º, § 4º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -764,7 +872,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Competência para aprovar o Regulamento do Conselho (art. 8º)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -774,7 +882,10 @@
     "statement": "O Conselho de Ética pode propor alterações de seu regulamento de funcionamento, mas a competência para aprová-lo pertence à Comissão de Constituição e Justiça e de Cidadania.",
     "correctAnswer": "C",
     "explanation": "A iniciativa de reformulação pelo Conselho e a aprovação do Regulamento pela CCJC são competências distintas.",
-    "sourceNote": "Código de Ética, art. 8º, caput e § 1º."
+    "sourceNote": "Código de Ética, art. 8º, caput e § 1º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Competência para aprovar o Regulamento do Conselho (art. 8º)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -785,7 +896,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Competência para aprovar o Regulamento do Conselho (art. 8º)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -795,7 +906,10 @@
     "statement": "Alteração do regulamento interno do Conselho de Ética produz efeitos definitivos após aprovação da maioria de seus membros, ficando a Comissão de Constituição e Justiça e de Cidadania limitada a receber comunicação.",
     "correctAnswer": "E",
     "explanation": "A aprovação do regulamento específico cabe à CCJC; o Conselho pode propor sua reformulação.",
-    "sourceNote": "Código de Ética, art. 8º, caput e § 1º."
+    "sourceNote": "Código de Ética, art. 8º, caput e § 1º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Competência para aprovar o Regulamento do Conselho (art. 8º)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -806,7 +920,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -816,7 +930,10 @@
     "statement": "A fraude intencional de registro de presença a reunião de comissão enquadra-se entre os atos atentatórios ao decoro que podem ensejar suspensão do exercício do mandato, sem que se deva confundi-la com falsificação de declarações patrimoniais do art. 18.",
     "correctAnswer": "C",
     "explanation": "Fraudar o registro de presença corresponde ao art. 5º, IX, relacionado à sanção do art. 14, § 1º; falsidade nas declarações do art. 18 tem enquadramento próprio no art. 4º, V.",
-    "sourceNote": "Código de Ética, arts. 4º, V; 5º, IX; 14, § 1º."
+    "sourceNote": "Código de Ética, arts. 4º, V; 5º, IX; 14, § 1º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -827,7 +944,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -837,7 +954,10 @@
     "statement": "Empregar verba de gabinete em desacordo com os princípios constitucionais da administração conduz automaticamente à perda do mandato, mesmo que o fato seja tipificado somente no inciso VII do art. 5º do Código.",
     "correctAnswer": "E",
     "explanation": "O uso irregular de verbas no art. 5º, VII é ato atentatório relacionado à suspensão de prerrogativas; perda do mandato corresponde às hipóteses do art. 4º, mediante devido processo.",
-    "sourceNote": "Código de Ética, arts. 4º, 5º, VII, e 13."
+    "sourceNote": "Código de Ética, arts. 4º, 5º, VII, e 13.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -848,7 +968,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -858,7 +978,10 @@
     "statement": "Revelar informação oficial sigilosa obtida regimentalmente e divulgar deliberação que uma comissão decidiu manter secreta são condutas descritas em incisos distintos do art. 5º, com possíveis enquadramentos sancionatórios diferentes.",
     "correctAnswer": "C",
     "explanation": "O art. 5º, VI trata de informação ou documento oficial sigiloso; o inciso V, de debate ou deliberação secreta, e o rito de suspensão se distingue conforme o inciso.",
-    "sourceNote": "Código de Ética, arts. 5º, V e VI; 13 e 14."
+    "sourceNote": "Código de Ética, arts. 5º, V e VI; 13 e 14.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -869,7 +992,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -879,7 +1002,10 @@
     "statement": "O simples fato de pessoa jurídica ter contribuído para a campanha de um deputado impede que ele seja relator de qualquer proposição apresentada na legislatura, ainda que inexista interesse específico do financiador na matéria.",
     "correctAnswer": "E",
     "explanation": "O art. 5º, VIII exige matéria de interesse específico do financiador; não institui proibição geral de relatoria para toda proposição.",
-    "sourceNote": "Código de Ética, art. 5º, VIII."
+    "sourceNote": "Código de Ética, art. 5º, VIII.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -890,7 +1016,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Suspensão cautelar do exercício do mandato: RICD art. 15, XXX, e Ato da Mesa nº 180/2025",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -900,7 +1026,10 @@
     "statement": "Se o Conselho de Ética recusar proposta de suspensão cautelar apresentada pela Mesa, esta poderá recorrer ao Plenário, observado o prazo de um dia útil após a publicação da decisão e o quórum exigido para a deliberação da Mesa.",
     "correctAnswer": "C",
     "explanation": "Na cautelar, a Mesa tem legitimidade para recorrer da recusa; o recurso exige deliberação da Mesa por maioria absoluta e prazo de um dia útil após publicação.",
-    "sourceNote": "RICD, art. 15, §§ 4º e 5º; Ato da Mesa 180/2025, art. 4º."
+    "sourceNote": "RICD, art. 15, §§ 4º e 5º; Ato da Mesa 180/2025, art. 4º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Suspensão cautelar do exercício do mandato: RICD art. 15, XXX, e Ato da Mesa nº 180/2025"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -911,7 +1040,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Suspensão cautelar do exercício do mandato: RICD art. 15, XXX, e Ato da Mesa nº 180/2025",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -921,7 +1050,10 @@
     "statement": "O silêncio do Conselho de Ética por três dias úteis sobre proposta de suspensão cautelar faz a Mesa perder definitivamente a possibilidade de apreciação da medida, mesmo quando ela foi apresentada tempestivamente.",
     "correctAnswer": "E",
     "explanation": "O RICD prevê remessa pela Mesa ao Plenário se o Conselho não decidir em três dias úteis; o Plenário aprecia na sessão imediatamente subsequente.",
-    "sourceNote": "RICD, art. 15, § 6º."
+    "sourceNote": "RICD, art. 15, § 6º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Suspensão cautelar do exercício do mandato: RICD art. 15, XXX, e Ato da Mesa nº 180/2025"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -932,7 +1064,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Suspensão cautelar do exercício do mandato: RICD art. 15, XXX, e Ato da Mesa nº 180/2025",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -942,7 +1074,10 @@
     "statement": "A proposta de suspensão cautelar do exercício do mandato é medida anterior ao julgamento de mérito e segue prazo e via recursal próprios, distintos do procedimento para aplicação de sanção definitiva por quebra de decoro.",
     "correctAnswer": "C",
     "explanation": "A cautelar segue RICD art. 15 e Ato da Mesa 180/2025; sanções definitivas dependem do rito do Código de Ética, arts. 10 a 14.",
-    "sourceNote": "RICD, art. 15, XXX e §§ 1º a 6º; Código de Ética, arts. 10 a 14."
+    "sourceNote": "RICD, art. 15, XXX e §§ 1º a 6º; Código de Ética, arts. 10 a 14.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Suspensão cautelar do exercício do mandato: RICD art. 15, XXX, e Ato da Mesa nº 180/2025"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -953,7 +1088,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Suspensão cautelar do exercício do mandato: RICD art. 15, XXX, e Ato da Mesa nº 180/2025",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -963,7 +1098,10 @@
     "statement": "Na representação de autoria da Mesa que pede suspensão cautelar, o Presidente da Câmara pode decidir isoladamente pela apresentação da proposta, sujeito à ratificação posterior, desde que o caso seja urgente.",
     "correctAnswer": "E",
     "explanation": "O RICD veda decisão monocrática ad referendum nessa hipótese; cabe à Mesa deliberar conforme o rito aplicável.",
-    "sourceNote": "RICD, art. 15, § 1º."
+    "sourceNote": "RICD, art. 15, § 1º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Suspensão cautelar do exercício do mandato: RICD art. 15, XXX, e Ato da Mesa nº 180/2025"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -974,7 +1112,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Alteração do próprio Código de Ética (art. 19)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -984,7 +1122,10 @@
     "statement": "Projeto de resolução destinado a reformar o Código de Ética submete-se ao art. 216 do Regimento Interno, com prazo de vinte sessões para pareceres, distinto das cinco sessões destinadas a emendas após publicação e distribuição.",
     "correctAnswer": "C",
     "explanation": "O art. 19 remete ao art. 216 do RICD. O prazo de emendas é de cinco sessões; o de pareceres em reforma é vinte sessões.",
-    "sourceNote": "Código de Ética, art. 19; RICD, art. 216, §§ 1º e 3º."
+    "sourceNote": "Código de Ética, art. 19; RICD, art. 216, §§ 1º e 3º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Alteração do próprio Código de Ética (art. 19)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -995,7 +1136,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Alteração do próprio Código de Ética (art. 19)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -1005,7 +1146,10 @@
     "statement": "Na tramitação de proposta para alterar o Código de Ética, a permanência por cinco sessões para apresentação de emendas dispensa a discussão em segundo turno, desde que o primeiro turno tenha durado duas sessões.",
     "correctAnswer": "E",
     "explanation": "O art. 216 do RICD estabelece discussão em dois turnos e duração mínima de duas sessões para encerramento de cada turno; o prazo de emendas não substitui o segundo turno.",
-    "sourceNote": "Código de Ética, art. 19; RICD, art. 216, §§ 1º, 4º e 5º."
+    "sourceNote": "Código de Ética, art. 19; RICD, art. 216, §§ 1º, 4º e 5º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Alteração do próprio Código de Ética (art. 19)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -1016,7 +1160,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -1026,7 +1170,10 @@
     "statement": "O Conselho de Ética dispõe de acesso aos sistemas da Câmara para consulta dos dados de acompanhamento parlamentar, inclusive informações de processos disciplinares em andamento, sem que isso lhe atribua poder irrestrito de alterar os registros.",
     "correctAnswer": "C",
     "explanation": "O art. 17 assegura pleno acesso para fins de consulta, não autorização geral de edição dos registros administrativos.",
-    "sourceNote": "Código de Ética, art. 17."
+    "sourceNote": "Código de Ética, art. 17.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+    ]
   },
   {
     "concursoId": "camara-2026",
@@ -1037,7 +1184,7 @@
     "examPart": "P2",
     "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
     "articleId": "art-5b41764164052519",
-    "section": "Código de Ética e Decoro Parlamentar",
+    "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)",
     "format": "CE",
     "origin": "inedita",
     "estimatedDifficulty": "dificil",
@@ -1047,6 +1194,9 @@
     "statement": "A existência de previsão de consulta pública de informações sobre o mandato no art. 17 elimina o dever de sigilo relativo a dados fiscais apresentados nos termos do art. 18, inclusive quando acessados por servidor da Câmara.",
     "correctAnswer": "E",
     "explanation": "As informações de acompanhamento divulgáveis não tornam públicos indiscriminadamente dados fiscais sigilosos, que permanecem protegidos por obrigações específicas no art. 18.",
-    "sourceNote": "Código de Ética, arts. 17 e 18, §§ 1º a 4º."
+    "sourceNote": "Código de Ética, arts. 17 e 18, §§ 1º a 4º.",
+    "theoryRefs": [
+      "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+    ]
   }
 ]

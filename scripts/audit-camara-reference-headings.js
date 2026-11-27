@@ -6,13 +6,14 @@ import { fileURLToPath } from 'node:url';
 import { articleInventory } from './article-identity.js';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const bank=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara.json'),'utf8'));
+const decoro=JSON.parse(fs.readFileSync(path.join(root,'data/questoes-camara-decoro-dificeis.json'),'utf8'));
 const items=articleInventory(root);
 const byId=new Map(items.map(x=>[x.articleId,x]));
 const byPath=new Map(items.map(x=>[x.sourcePath,x]));
 const headingsCache=new Map();
 function tokens(s){return new Set(s.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().match(/[a-z]{3,}/g)||[])}
 const violations=[];
-for(const [index,q] of [...bank.pilotoDidatico,...bank.expansao].entries()){
+for(const [index,q] of [...bank.pilotoDidatico,...bank.expansao,...decoro].entries()){
   const refs=q.theoryRefs||[];
   if(q.source){
     const article=byPath.get(q.source.path);
@@ -38,5 +39,5 @@ for(const [index,q] of [...bank.pilotoDidatico,...bank.expansao].entries()){
     violations.push({index,id:q.id||null,subjectId:q.subjectId,ref,path:info.sourcePath,suggestions});
   }
 }
-console.log(JSON.stringify({total:bank.pilotoDidatico.length+bank.expansao.length,articlesChecked:headingsCache.size,missingHeadings:violations.filter(item=>item.suggestions).length,violations},null,2));
+console.log(JSON.stringify({total:bank.pilotoDidatico.length+bank.expansao.length+decoro.length,articlesChecked:headingsCache.size,missingHeadings:violations.filter(item=>item.suggestions).length,violations},null,2));
 if(violations.length)process.exitCode=1;

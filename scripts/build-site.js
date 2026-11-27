@@ -636,12 +636,13 @@ for(const q of decoroDificeis){
    q.unitId!=='decoro-parlamentar'||q.examPart!=='P2'||q.format!=='CE'||
    q.articleId!==artigoDecoro||q.estimatedDifficulty!=='dificil'||
    q.origin!=='inedita'||!['C','E'].includes(q.correctAnswer)||
+   !Array.isArray(q.theoryRefs)||!q.theoryRefs.includes('article:'+q.articleId+'#'+q.section)||
    !q.editalRef.includes('Código de Ética e Decoro Parlamentar')||
    q.statement.length<100||q.explanation.length<90||officialEditalCode!=='7'||idsDecoroExistentes.has(q.id))
    throw Error('Questão difícil de decoro inválida: '+q.id);
  idsDecoroExistentes.add(q.id);
  respostasDecoro[q.correctAnswer]++;
- questoesPublicas.push({...Object.fromEntries(['id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','articleId','section','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'].map(k=>[k,q[k]])),officialEditalCode});
+ questoesPublicas.push({...Object.fromEntries(['id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','articleId','section','theoryRefs','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'].map(k=>[k,q[k]])),officialEditalCode});
 }
 if(Math.abs(respostasDecoro.C-respostasDecoro.E)>1)throw Error('Gabarito do lote de decoro desequilibrado.');
 console.log('✓ 30 questões difíceis de decoro parlamentar integradas ao treino.');

@@ -421,7 +421,15 @@
       "Mandato e prerrogativas parlamentares": "6",
       "Regimento Interno da Câmara dos Deputados": "7",
       "Princípios fundamentais": "2",
-      "Poder Legislativo e competências das Casas": "5"
+      "Poder Legislativo e competências das Casas": "5",
+      "Direitos e garantias fundamentais, art. 5º": "2",
+      "Direitos políticos": "2",
+      "Poder Legislativo": "5",
+      "Poder Legislativo e regime dos parlamentares": "6",
+      "Regime constitucional dos parlamentares": "6",
+      "Regimento Interno da Câmara dos Deputados, arts. 226 a 251": "7.3",
+      "Regimento Interno da Câmara dos Deputados, arts. 65 a 94": "7.2",
+      "fiscalização contábil, financeira e orçamentária": "5"
     },
     "questions": {
       "cam-const-habeas-corpus-informacoes-pessoais": "2",
@@ -487,7 +495,15 @@
       "Regimento Comum do Congresso Nacional": "6",
       "Regimento Interno da Câmara dos Deputados": "5",
       "Fiscalização e controle externo": "3",
-      "Tramitação legislativa": "1"
+      "Tramitação legislativa": "1",
+      "1.2 Etapas e noções básicas": "1.2",
+      "1.3 Comissões, pareceres, deliberação, votação, sanção e veto": "1.3",
+      "3 Fiscalização Contábil, Financeira e Orçamentária": "3",
+      "5.1 Resolução nº 17/1989 – CD e suas alterações": "5.1",
+      "6.1 Resolução nº 1/1970 – CN e suas alterações": "6.1",
+      "6.2 Resolução nº 3/1990 – CN": "6.2",
+      "6.3 Resolução nº 1/2002 – CN": "6.3",
+      "espécies legislativas": "2"
     },
     "questions": {
       "cam-const-200-veto-prazo-ordem-dia-sem-deliberacao": "1.3",

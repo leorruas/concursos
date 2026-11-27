@@ -5,7 +5,7 @@ title: "Código de Ética e Decoro Parlamentar da Câmara dos Deputados: deveres
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-20
+updated: 2026-11-27
 ---
 
 # Código de Ética e Decoro Parlamentar da Câmara dos Deputados: deveres, vedações, Conselho de Ética e processo disciplinar
@@ -62,7 +62,7 @@ Constituem condutas de gravidade máxima, cuja consequência regimental e consti
 2. **Vantagem indevida:** perceber, a qualquer título, em proveito próprio ou de outrem, no exercício da atividade parlamentar, vantagens indevidas (CF, art. 55, § 1º);
 3. **Acordo espúrio de suplência:** celebrar acordo que tenha por objeto a posse do suplente, condicionando-a a contraprestação financeira ou à prática de atos contrários aos deveres éticos ou regimentais;
 4. **Fraude ao processo deliberativo:** fraudar, por qualquer meio ou forma, o regular andamento dos trabalhos legislativos para alterar o resultado de deliberação;
-5. **Falsidade ou omissão nas declarações do art. 18:** omitir intencionalmente informação relevante ou prestar informação falsa nas declarações ali previstas;
+5. **Falsidade ou omissão nas declarações do art. 18:** omitir intencionalmente informação relevante ou, nas mesmas condições, prestar informação falsa nas declarações ali previstas. A expressão “nas mesmas condições” impede tratar qualquer inexatidão como infração automática: a omissão relevante e a informação falsa devem ser examinadas sob o requisito de intencionalidade. Exemplo: ocultar deliberadamente um dado relevante ou inserir conscientemente informação falsa pode preencher a hipótese; um erro material involuntário, identificado e corrigido, não se converte por si só em falsidade intencional. A prova e o contexto determinam o enquadramento.
 6. **Irregularidade grave no exercício do mandato:** praticar irregularidades graves no desempenho do mandato ou de encargos dele decorrentes que afetem a dignidade da representação popular (art. 4º, VI).
 
 ### B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão
@@ -342,7 +342,7 @@ O **art. 18 da Resolução nº 25/2001, na redação consolidada**, estabelece:
 1. **Autorização de acesso aos dados das Declarações de Ajuste Anual do IRPF e retificações:** apresentada ao assumir o mandato e quando solicitada pelo órgão competente (art. 18, I). Trata-se de autorização de acesso a dados fiscais, e não de obrigação, nesse dispositivo, de entregar uma nova declaração de bens a cada ano.
 2. **Declaração de impedimento para votar:** durante o exercício do mandato, em Comissão ou Plenário, ao iniciar-se a apreciação de matéria que envolva direta e especificamente os interesses patrimoniais do deputado. A declaração é apresentada à Mesa ou, quando couber, à Comissão (art. 18, caput e II).
 3. **Tratamento dos dados (art. 18, §§ 1º a 4º):** as declarações são autuadas com recibo, uma cópia é encaminhada ao Tribunal de Contas da União e o sigilo deve ser preservado. A transferência da responsabilidade pelo sigilo ao Conselho exige **requerimento aprovado em votação nominal** (art. 18, § 3º). A redação vigente **não exige expressamente maioria absoluta dos membros** para essa deliberação: aplica-se a regra geral de votação, respeitado o quórum de presença. É importante distinguir a forma nominal da votação de seu quórum. Os servidores que tenham acesso ficam obrigados à preservação do sigilo (§ 4º). Eventuais obrigações adicionais de outras leis devem ser identificadas separadamente.
-4. **Consequência disciplinar:** omitir intencionalmente informação relevante ou prestar informação falsa nas declarações previstas no art. 18 pode configurar a conduta do art. 4º, V, sujeita à apuração e à sanção cabível.
+4. **Consequência disciplinar:** o art. 4º, V, alcança tanto a omissão intencional de informação relevante quanto a prestação intencional de informação falsa nas declarações do art. 18. A fórmula “nas mesmas condições” estende o requisito de intenção à segunda conduta. Assim, uma inexatidão involuntária não basta automaticamente; é preciso apurar o que foi declarado, sua relevância e as circunstâncias que demonstram ou afastam a intenção.
 
 **Atenção:** as fórmulas antigas de reapresentação 90 dias antes das eleições gerais e envio anual de cópia do IR em 30 dias **não correspondem ao texto vigente do art. 18** e foram retiradas deste resumo.
 

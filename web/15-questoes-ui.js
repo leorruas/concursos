@@ -463,7 +463,17 @@ function feedback(q,a){
  const el=$('qs-feedback');
  const chosen=a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco';
  const solution=q.correctAnswer==='C'?'Certo':'Errado';
- el.replaceChildren(elem('strong',(a.result==='correct'?'Acertou':a.result==='blank'?'Em branco':'Errou')+' · Sua resposta: '+chosen+' · Gabarito: '+solution),explanationContent(q.explanation));
+ const status=elem('strong',a.result==='correct'?'Acertou':a.result==='blank'?'Em branco':'Errou');
+ status.className='qs-feedback-status';
+ const answers=elem('div');
+ answers.className='qs-feedback-answers';
+ for(const [label,value] of [['Sua resposta',chosen],['Gabarito',solution]]){
+  const item=elem('div');
+  item.className='qs-feedback-answer';
+  item.append(elem('span',label),elem('strong',value));
+  answers.append(item);
+ }
+ el.replaceChildren(status,answers,explanationContent(q.explanation));
  el.append(questionProvenance(q));
  const link=theory(q);if(link)el.append(link);toggle('qs-feedback',true);
 }

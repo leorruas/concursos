@@ -645,6 +645,14 @@
       "status": "planned"
     },
     {
+      "id": "glo-camara-contrato-gestao-agencia-executiva",
+      "term": "Contrato de gestão de agência executiva",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
       "id": "glo-camara-agencia-reguladora-federal",
       "term": "Agência reguladora federal",
       "subjectId": "administracao-publica",

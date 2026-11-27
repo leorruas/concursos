@@ -12,6 +12,7 @@ tags:
   - fundacoes-publicas
   - cebraspe
   - camara-dos-deputados
+updated: 2026-11-27
 ---
 # Administração Direta e Indireta: entidades, vínculos e regime jurídico
 
@@ -45,6 +46,18 @@ A criação de órgãos dentro de uma mesma pessoa jurídica é forma de **desco
 
 <a id="2-quadro-comparativo-das-entidades-da-administracao-indireta"></a>
 ## Entidades da Administração Indireta e como são constituídas
+
+### Agência executiva: requisitos cumulativos
+
+Uma **agência executiva não é uma nova entidade**: é uma qualificação que o Poder Executivo pode atribuir a uma autarquia ou fundação. Para recebê-la, a entidade deve cumprir **ao mesmo tempo** dois requisitos: (1) ter em andamento um plano estratégico de reestruturação e desenvolvimento institucional; e (2) ter celebrado contrato de gestão com o respectivo ministério supervisor. A qualificação é formalizada por ato do Presidente da República (Lei nº 9.649/1998, art. 51).
+
+O contrato de gestão pactua objetivos, metas e indicadores de desempenho, além dos recursos necessários e dos critérios e instrumentos de avaliação. Para agências executivas, deve ter periodicidade mínima de um ano (art. 52, § 1º). O contrato organiza a gestão por resultados e dá base às medidas de autonomia de gestão previstas em lei; não autoriza descumprir normas nem substitui o plano estratégico. **Ter o contrato sem o plano em andamento não basta** para a qualificação.
+
+**Exemplo:** uma fundação pública federal assinou contrato de gestão, mas ainda não iniciou seu plano estratégico. Falta um dos requisitos cumulativos, então ela ainda não pode ser qualificada como agência executiva. Se o plano também estiver em andamento, o Poder Executivo poderá qualificá-la por ato do Presidente da República.
+
+**Distinção importante:** o contrato de gestão da agência executiva, previsto na Lei nº 9.649/1998, não é o **contrato de desempenho** que regulamenta o art. 37, § 8º, da Constituição no âmbito federal (Lei nº 13.934/2019), nem o contrato de gestão firmado com uma **organização social** (Lei nº 9.637/1998). Os instrumentos têm sujeitos, requisitos e efeitos próprios; metas de desempenho não afastam a legalidade nem a fiscalização.
+
+Fonte: [Lei nº 9.649/1998, arts. 51 e 52](https://www2.camara.leg.br/legin/fed/lei/1998/lei-9649-27-maio-1998-372115-normaatualizada-pl.html); [Constituição Federal, art. 37, § 8º](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html); [Lei nº 13.934/2019](https://www2.camara.leg.br/legin/fed/lei/2019/lei-13934-11-dezembro-2019-789558-publicacaooriginal-159614-pl.html).
 
 O art. 37, XIX, da Constituição faz uma distinção decisiva: **a lei específica cria a autarquia**, ao passo que **autoriza a instituição** de empresa pública, sociedade de economia mista e fundação. A jurisprudência reconhece que a **fundação pública de direito público**, também chamada *fundação autárquica*, segue o regime da autarquia e é criada diretamente pela lei. A fundação pública de direito privado depende de autorização e posterior constituição. A Constituição exige lei complementar que defina as áreas de atuação das fundações: esse comando não deve ser confundido com uma lei complementar que crie individualmente cada fundação.
 

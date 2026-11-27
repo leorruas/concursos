@@ -121,15 +121,17 @@
       "aliases": [
         "qualificação de agência executiva"
       ],
-      "definition": "Qualificação federal de autarquia ou fundação que possui plano estratégico de reestruturação em andamento e contrato de gestão com o ministério supervisor, nos termos do art. 51 da Lei nº 9.649/1998. A qualificação ocorre por ato do Presidente da República.",
-      "contrast": "A agência executiva recebe qualificação para gestão e resultados; a agência reguladora federal é autarquia em regime especial com competência regulatória definida por lei. Não são duas denominações para a mesma espécie de entidade.",
-      "cebraspeTrap": "Supor que qualquer autarquia com metas vira agência executiva ou que a qualificação dobra todos os limites de qualquer modalidade licitatória.",
-      "example": "Uma autarquia federal qualificada pode aplicar, quando cabível, a duplicação específica dos limites de dispensa por valor prevista no art. 75, § 2º, da Lei nº 14.133/2021.",
+      "definition": "Agência executiva é uma qualificação federal que pode ampliar a autonomia de gestão por resultados. O Poder Executivo pode dá-la a uma autarquia ou fundação somente quando estão presentes as duas condições do art. 51 da Lei nº 9.649/1998: plano estratégico de reestruturação e desenvolvimento institucional em andamento e contrato de gestão com o ministério supervisor; a qualificação é formalizada por ato do Presidente da República.",
+      "contrast": "A agência executiva continua sendo a mesma autarquia ou fundação, agora qualificada; não nasce outra pessoa jurídica. A agência reguladora é uma autarquia sob regime especial, com competências regulatórias definidas em lei. Para a qualificação executiva, plano em andamento e contrato são requisitos cumulativos.",
+      "cebraspeTrap": "Tratar o contrato de gestão isolado como suficiente, chamar a agência executiva de nova entidade ou estender a duplicação de dispensa por valor a qualquer modalidade licitatória.",
+      "example": "Uma fundação federal assinou contrato de gestão, mas ainda não iniciou seu plano estratégico. Falta um requisito; se o plano também estiver em andamento, poderá ser qualificada por ato do Presidente da República.",
       "articleIds": [
+        "art-86dee064aef44ba4",
         "art-2e8a8f600b964d40"
       ],
       "subjectIds": [
-        "administracao-publica"
+        "administracao-publica",
+        "direito-administrativo"
       ],
       "contestIds": [
         "camara-2026"
@@ -142,6 +144,33 @@
         {
           "label": "Lei nº 14.133/2021, art. 75, § 2º",
           "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-contrato-gestao-agencia-executiva",
+      "term": "Contrato de gestão de agência executiva",
+      "aliases": [],
+      "definition": "É o acordo da autarquia ou fundação com seu ministério supervisor que define objetivos, metas e indicadores de desempenho, os recursos necessários e como os resultados serão avaliados. Para agência executiva, a Lei nº 9.649/1998 exige periodicidade mínima de um ano.",
+      "contrast": "Este contrato integra o regime de qualificação de agência executiva. Não é o contrato de desempenho da Lei nº 13.934/2019, cuja vigência é de um a cinco anos, nem o contrato de gestão de uma organização social da Lei nº 9.637/1998; sujeitos, finalidade e regras mudam.",
+      "cebraspeTrap": "Aplicar ao contrato da agência executiva o prazo de um a cinco anos do contrato de desempenho, ou presumir que pactuar metas afasta legalidade e fiscalização.",
+      "example": "Ministério e autarquia qualificável pactuam metas, indicadores, recursos e critérios de avaliação para acompanhar o desempenho; o contrato deve respeitar a periodicidade mínima de um ano.",
+      "articleIds": [
+        "art-86dee064aef44ba4",
+        "art-2e8a8f600b964d40"
+      ],
+      "subjectIds": [
+        "administracao-publica",
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.649/1998, arts. 51 e 52, § 1º",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9649-27-maio-1998-372115-normaatualizada-pl.html"
         }
       ],
       "status": "reviewed"

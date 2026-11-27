@@ -20,6 +20,14 @@ A **federação** é uma forma de organizar o país em entes políticos com resp
 
 Os **Territórios Federais não são entes federativos autônomos**: integram a União.
 
+### Territórios Federais: criação, organização e transformação
+
+O art. 18, § 2º, estabelece que os Territórios Federais integram a União e que **sua criação, transformação em Estado ou reintegração ao Estado de origem será regulada por lei complementar**. Portanto, lei ordinária não substitui a espécie normativa expressamente exigida. O Território pode ser dividido em Municípios (art. 33, § 1º), mas essa divisão não o transforma em Estado nem lhe dá autonomia federativa.
+
+A organização administrativa e judiciária dos Territórios é definida por **lei federal** (art. 33, caput). Nos Territórios com **mais de cem mil habitantes**, haverá órgãos judiciários de primeira e segunda instância, membros do Ministério Público e defensores públicos federais; a lei também prevê eleições para a Câmara Territorial, com atribuições deliberativas (art. 33, § 3º). A Câmara Territorial não é assembleia legislativa estadual: sua existência não altera o status do Território como parte da União.
+
+**Exemplo:** criar Municípios dentro de um Território é compatível com o art. 33, § 1º; convertê-lo em Estado, porém, exige lei complementar. Mesmo que haja Câmara Territorial eleita, isso não supre o requisito nem muda o ente ao qual o Território pertence.
+
 ## Repartição de competências
 
 **Competência** é a responsabilidade ou autorização que a Constituição atribui a um órgão ou ente. Uma **competência administrativa (material)** permite agir, prestar serviço ou fiscalizar. Uma **competência legislativa** permite criar normas. Uma mesma área, como saúde, pode exigir tanto serviços públicos quanto leis; por isso, é preciso verificar o tipo de ação mencionado no enunciado.
@@ -74,7 +82,7 @@ Municípios não aparecem no rol do art. 24, mas podem exercer competência legi
 
 ### Distrito Federal: acumulação de competências
 
-O **Distrito Federal (DF)** reúne, em regra, competências legislativas estaduais e municipais (art. 32, § 1º, da CF) e **não pode ser dividido em Municípios**. Isso não elimina competências que a Constituição reserva à União, inclusive quanto à organização e manutenção da **polícia civil, polícia penal, polícia militar e corpo de bombeiros militar do Distrito Federal** e à assistência financeira federal, na forma constitucional (art. 21, XIV). O Distrito Federal rege-se por **lei orgânica**, aprovada segundo procedimento especial pela Câmara Legislativa (art. 32, caput). Seus **governador e deputados distritais** exercem funções próprias, sem divisão do território em municípios.
+O **Distrito Federal (DF)** reúne, em regra, competências legislativas estaduais e municipais (art. 32, § 1º, da CF) e **não pode ser dividido em Municípios**. Isso não elimina competências que a Constituição reserva à União, inclusive quanto à organização e manutenção da **polícia civil, polícia penal, polícia militar e corpo de bombeiros militar do Distrito Federal** e à assistência financeira federal, na forma constitucional (art. 21, XIV). O Distrito Federal rege-se por **Lei Orgânica**, votada em **dois turnos**, com intervalo mínimo de **dez dias**, aprovada por **dois terços dos membros da Câmara Legislativa** e promulgada pela própria Câmara (art. 32, caput). São requisitos cumulativos: atingir o quórum de votos não supre intervalo menor, e cumprir o intervalo não supre votos insuficientes. Seus **governador e deputados distritais** exercem funções próprias, sem divisão do território em municípios.
 
 > [!TIP]
 > Para prova: **DF = dimensão estadual + municipal**, sem municípios dentro dele.

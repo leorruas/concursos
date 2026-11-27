@@ -5,7 +5,7 @@ title: "Poder legislativo"
 type: "conceito"
 status: "ativo"
 created: 2026-06-09
-updated: 2026-11-15
+updated: 2026-11-27
 ---
 
 # Poder Legislativo
@@ -134,7 +134,9 @@ Leia primeiro o **verbo da situação**: legislar, autorizar, processar, julgar,
 
 A **imunidade material** do **art. 53, caput**, protege deputados e senadores, civil e penalmente, por **opiniões, palavras e votos**, no exercício das funções conforme os limites fixados pela jurisprudência. A **imunidade formal quanto à prisão**, desde a diplomação, admite prisão em **flagrante de crime inafiançável**; os autos devem seguir à Casa em **24 horas**, para decisão por maioria de seus membros (art. 53, § 2º). A Casa pode, nas condições dos §§ 3º a 5º, **sustar ação penal** relativa a crime ocorrido após a diplomação, mediante iniciativa de partido representado e decisão por maioria de seus membros; o pedido deve ser apreciado em **45 dias** e a sustação suspende a prescrição enquanto durar o mandato. O texto do § 1º sobre julgamento pelo STF deve ser lido com as **restrições jurisprudenciais do foro por prerrogativa** para crimes no exercício do cargo e relacionados às funções, inclusive a tese do STF sobre subsistência da competência após o mandato para fatos assim enquadrados. **Imunidade parlamentar não é impunidade geral**.
 
-O **art. 54** distingue incompatibilidades **desde a diplomação** (como determinados contratos e cargos remunerados junto a entes públicos) e **desde a posse** (como patrocínio de causa com interesse de entidades enumeradas, titularidade de outro mandato eletivo e outras vedações). O **art. 55** separa perda de mandato **decidida pela Casa por maioria absoluta**, nos incisos I, II e VI, e **declarada pela Mesa**, nos incisos III a V, sempre observada a ampla defesa; a votação secreta anteriormente prevista no § 2º foi **retirada pela EC 76/2013**. A **renúncia durante processo de perda de mandato** pode ficar com efeitos suspensos (§ 4º). O **art. 56** dispõe sobre hipóteses em que o parlamentar não perde mandato por investidura em certos cargos ou licença, e convocação de suplente nas situações constitucionalmente previstas.
+O **art. 54** distingue incompatibilidades **desde a diplomação** (como determinados contratos e cargos remunerados junto a entes públicos) e **desde a posse** (como patrocínio de causa com interesse de entidades enumeradas, titularidade de outro mandato eletivo e outras vedações). O **art. 55** separa perda de mandato **decidida pela Casa por maioria absoluta**, nos incisos I, II e VI, e **declarada pela Mesa**, nos incisos III a V, sempre observada a ampla defesa; a votação secreta anteriormente prevista no § 2º foi **retirada pela EC 76/2013**. **Renúncia durante processo de perda de mandato:** se o parlamentar renunciar enquanto estiver submetido a processo que possa levar à perda do mandato nos termos do art. 55, os efeitos da renúncia ficam suspensos até as deliberações finais (§ 4º). A regra impede que a renúncia produza vacância imediata e encerre antecipadamente o processo. Ela não alcança qualquer apuração administrativa: é necessário um processo com possibilidade de perda do mandato segundo o art. 55.
+
+O **art. 56** dispõe sobre hipóteses em que o parlamentar não perde mandato por investidura em certos cargos ou licença, e convocação de suplente nas situações constitucionalmente previstas.
 
 A **sessão legislativa ordinária** ocorre de **2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro**, com deslocamento para primeiro dia útil quando a data de abertura recair em fim de semana ou feriado (art. 57). **Não se interrompe sem aprovação do projeto de LDO** (§ 2º). O **Congresso reúne-se em sessão conjunta**, entre outros fins, para abrir a sessão legislativa, elaborar regimento comum, receber o compromisso presidencial e **deliberar sobre veto** (§ 3º). A **Mesa do Congresso** é presidida pelo **Presidente do Senado** (§ 5º). Essas sessões conjuntas **não fundem Câmara e Senado num só órgão de votação para todos os quóruns**.
 
@@ -411,7 +413,7 @@ Para Comunicação Social/Divulgação Institucional, uma notícia institucional
 - **Ato × contrato**: atribui diretamente ao TCU a primeira providência de sustação de contrato.
 - **Título executivo**: trata imputação de débito/multa do TCU como mera recomendação sem eficácia executiva.
 - **TCU × Judiciário**: confunde a palavra tribunal com integração ao Poder Judiciário.
-- **Composição**: usa nove Ministros para TCE ou sete Conselheiros para TCU.
+- **Composição**: usa nove Ministros para o TCU ou sete Conselheiros para os Tribunais de Contas estaduais.
 - **Idade**: utiliza o antigo limite de 65 anos.
 
 ## Exemplos comentados

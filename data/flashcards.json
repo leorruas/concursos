@@ -24375,6 +24375,1446 @@
         "prompt": "Pagar em janeiro restos a pagar do ano anterior conta como nova despesa empenhada no orçamento de janeiro?",
         "answer": "Não. A despesa pertence ao exercício do empenho; a saída financeira posterior liquida o passivo inscrito segundo regras próprias."
       }
+    },
+    {
+      "id": "camara-comunicacao-16-mcluhan-meio-padrao",
+      "term": "McLuhan: meio, conteúdo e padrão social",
+      "definition": "Para McLuhan, “o meio é a mensagem” significa que a forma do meio pode reorganizar escala, ritmo e padrões de relações sociais, mesmo quando o conteúdo transmitido permanece semelhante. A frase não nega a existência nem a importância do conteúdo.",
+      "example": "A mesma convocação pública em cartaz e em plataforma móvel pode manter as palavras, mas mudar velocidade de circulação, alcance e possibilidade de atualização.",
+      "confusion": "Analisar o meio não é ignorar o texto: é acrescentar a pergunta sobre como a tecnologia altera práticas e relações.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-0cd74f8a2be93651",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/40%20-%20mcluhan%20meio%20mensagem%20extensoes%20e%20ecologia%20dos%20meios.md",
+        "locator": "Capítulo 16: Marshall McLuhan: o meio é a mensagem, extensões e ecologia dos meios · seção: Núcleo do conceito; fundamento: Marshall McLuhan, Understanding Media: The Extensions of Man (1964); artigo explica “o meio é a mensagem”."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-16-mcluhan-meio-padrao"
+      ],
+      "contrast": {
+        "prompt": "Se dois canais divulgam o mesmo aviso, mas um permite circulação instantânea e interação contínua, o conteúdo idêntico basta para concluir que os efeitos sociais também são idênticos?",
+        "answer": "Não. A tese de McLuhan chama atenção para mudanças de escala, ritmo e padrão produzidas pelo meio, além do conteúdo específico."
+      }
+    },
+    {
+      "id": "camara-comunicacao-17-peirce-saussure-signo",
+      "term": "Saussure × Peirce: duas formas de analisar o signo",
+      "definition": "Saussure descreve o signo linguístico pela relação entre significante (forma sonora ou escrita) e significado (conceito), ligados por convenção. Peirce analisa a relação triádica entre signo, objeto e interpretante e distingue ícone, índice e símbolo conforme a relação representativa.",
+      "example": "Na placa de saída, a palavra “saída” é convencional; uma seta aponta direção no contexto; o desenho de uma porta pode representar por semelhança.",
+      "confusion": "Ícone, índice e símbolo são categorias peirceanas de relação do signo; significante e significado pertencem ao modelo saussuriano.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-5f913bd7a4c2680e",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/41%20-%20semiotica%20saussure%20peirce%20barthes%20e%20significacao.md",
+        "locator": "Capítulo 17: Semiótica: Saussure, Peirce, Barthes e produção de significação · seção: Núcleo do conceito; fundamento: Ferdinand de Saussure, Curso de Linguística Geral; Charles S. Peirce, teoria semiótica do signo."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-17-peirce-saussure-signo"
+      ],
+      "contrast": {
+        "prompt": "Uma seta aponta para a saída e um desenho de porta se parece com uma porta. No modelo de Peirce, qual relação distingue os dois signos?",
+        "answer": "A seta atua como índice por indicar direção na situação; o desenho funciona como ícone por semelhança. Essa classificação não troca os termos de Saussure, significante e significado."
+      }
+    },
+    {
+      "id": "camara-comunicacao-18-opiniao-publica-indicadores",
+      "term": "Opinião pública: pesquisa, debate e visibilidade",
+      "definition": "Opinião pública pode ser estudada como distribuição de posições em uma população, como formação de juízos no debate público ou como percepção do clima de opiniões. Cada enfoque exige evidências e métodos diferentes.",
+      "example": "Comentários muito compartilhados mostram posições visíveis entre usuários ativos; uma pesquisa probabilística estima respostas de uma população definida; um fórum registra argumentos de participantes presentes.",
+      "confusion": "A posição mais visível nas redes não representa automaticamente toda a população, e uma sondagem não descreve sozinha o processo deliberativo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-e738c9f264b150da",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/42%20-%20opiniao%20publica%20formacao%20e%20esfera%20publica.md",
+        "locator": "Capítulo 18: Opinião pública: formação social, públicos, esfera pública e sondagens · seção: Núcleo do conceito; fundamento: Artigo “Opinião pública: formação social, públicos, esfera pública e sondagens”, seção Núcleo do conceito; referências teóricas e metodológicas nela indicadas."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-18-opiniao-publica-indicadores"
+      ],
+      "contrast": {
+        "prompt": "Um post viral recebe milhares de comentários e uma pesquisa amostral válida aponta opinião diferente. O alcance do post prova que ele representa melhor a população?",
+        "answer": "Não. Visibilidade e volume de interação não substituem desenho amostral; o post pode refletir usuários mobilizados e não a população definida pela pesquisa."
+      }
+    },
+    {
+      "id": "camara-comunicacao-19-espiral-silencio-condicoes",
+      "term": "Espiral do silêncio: clima percebido e expressão",
+      "definition": "A teoria de Noelle-Neumann propõe que a percepção de estar em minoria e o receio de isolamento podem reduzir a disposição de expressar uma opinião. A menor visibilidade pode reforçar a impressão de que outra posição domina; é uma hipótese condicionada, não uma lei universal.",
+      "example": "Em uma consulta controversa, participantes que acreditam que sua posição é impopular deixam de comentar; a plataforma passa a exibir mais a posição restante, sem que isso demonstre mudança das convicções privadas.",
+      "confusion": "A teoria trata da relação entre clima percebido, medo de isolamento e expressão pública; não afirma que toda pessoa minoritária se cala.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a4d7e832b9510c6f",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/43%20-%20espiral%20do%20silencio%20noelle%20neumann%20clima%20de%20opiniao.md",
+        "locator": "Capítulo 19: Espiral do silêncio: Noelle-Neumann, clima de opinião e expressão pública · seção: Núcleo do conceito; fundamento: Elisabeth Noelle-Neumann, “The Spiral of Silence: A Theory of Public Opinion” (1974); artigo delimita condições e limites empíricos."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-19-espiral-silencio-condicoes"
+      ],
+      "contrast": {
+        "prompt": "A maioria dos comentários visíveis defende uma posição. A espiral do silêncio permite concluir que todos os discordantes mudaram de opinião?",
+        "answer": "Não. A teoria ajuda a explicar menor expressão pública por percepção de clima e receio de isolamento, sem demonstrar conversão das opiniões privadas."
+      }
+    },
+    {
+      "id": "camara-comunicacao-20-midiatizacao-transformacao",
+      "term": "Midiatização × simples uso de um novo canal",
+      "definition": "Midiatização descreve processos em que mudanças nos meios se articulam a transformações duradouras de práticas, instituições e relações sociais. A presença de uma transmissão ou publicação em novo canal, isoladamente, não comprova essa reorganização.",
+      "example": "Uma audiência transmitida sem alterar horário, inscrição ou procedimentos apenas ganhou uma forma adicional de divulgação; se a instituição redesenha essas práticas em função da circulação multiplataforma, há mudança institucional a investigar.",
+      "confusion": "Uso de mídia é um evento ou escolha de canal; midiatização focaliza processos de transformação social ligados aos meios.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-42edbd08bca563f1",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/44%20-%20midiatizacao%20hjarvard%20krotz%20hepp%20transformacao%20das%20praticas.md",
+        "locator": "Capítulo 20: Midiatização: Hjarvard, Krotz, Hepp e transformação das práticas sociais · seção: Núcleo do conceito; fundamento: Stig Hjarvard, Friedrich Krotz e Andreas Hepp; artigo compara as perspectivas no Núcleo do conceito."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-20-midiatizacao-transformacao"
+      ],
+      "contrast": {
+        "prompt": "Uma audiência presencial passa a ser transmitida, mas suas regras e práticas continuam iguais. Isso, por si só, demonstra midiatização institucional?",
+        "answer": "Não. A transmissão é uso de um meio; para falar em midiatização, investigam-se mudanças nas práticas e na organização social relacionadas aos meios."
+      }
+    },
+    {
+      "id": "camara-comunicacao-21-plataformizacao-dependencia",
+      "term": "Plataformização × publicação digital",
+      "definition": "Plataformização é a penetração de infraestruturas, mercados e regras de governança das plataformas nas práticas sociais e organizacionais. Não se resume a disponibilizar conteúdo na internet ou a aumentar seguidores.",
+      "example": "Uma instituição passa a depender do algoritmo de recomendação, dos dados de interação e das regras comerciais de uma plataforma para alcançar públicos; isso pode reorganizar produção e avaliação de conteúdo.",
+      "confusion": "Ter um site ou perfil digital não basta; observe dependências de infraestrutura, dados, mercado e governança.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-1fc842a6b30d59e7",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/45%20-%20plataformizacao%20infraestrutura%20governanca%20dados%20e%20economia.md",
+        "locator": "Capítulo 21: Plataformização: infraestrutura, mercados, governança, dados e práticas sociais · seção: Núcleo do conceito; fundamento: Thomas Poell, David Nieborg e José van Dijck (2019), definição de plataformização desenvolvida no artigo."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-21-plataformizacao-dependencia"
+      ],
+      "contrast": {
+        "prompt": "Um órgão publica um PDF em seu próprio portal. Só esse fato demonstra plataformização?",
+        "answer": "Não. A publicação é digital; plataformização exige examinar como infraestruturas e regras de plataformas penetram e reconfiguram práticas."
+      }
+    },
+    {
+      "id": "camara-comunicacao-22-mis-dis-malinfo",
+      "term": "Misinformation × disinformation × malinformation",
+      "definition": "No modelo de Wardle e Derakhshan, misinformation é informação falsa compartilhada sem intenção necessariamente danosa; disinformation é falsidade criada ou difundida intencionalmente para causar dano; malinformation é conteúdo genuíno usado para causar dano.",
+      "example": "Um cidadão repassa sem saber uma imagem falsa: misinformation. Um grupo fabrica a imagem para prejudicar alguém: disinformation. Alguém divulga dado privado autêntico com esse propósito: malinformation.",
+      "confusion": "A intenção separa misinformation de disinformation; a malinformation pode ser verdadeira e ainda assim ser usada de modo danoso.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f1483b1fa6d042c2",
+        "section": "Wardle e Derakhshan: três tipos de desordem informacional"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/18%20-%20fact%20checking%20e%20desinformacao.md",
+        "locator": "Capítulo 22: Fact-checking e desinformação · seção: Wardle e Derakhshan: três tipos de desordem informacional; fundamento: Claire Wardle e Hossein Derakhshan, Information Disorder (2017), matriz de falsidade e intenção."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-22-mis-dis-malinfo"
+      ],
+      "contrast": {
+        "prompt": "Um dado privado autêntico é divulgado deliberadamente para expor e prejudicar uma pessoa. A falsidade do conteúdo é necessária para classificá-lo como malinformation?",
+        "answer": "Não. No modelo, a malinformation pode ser informação verdadeira; o critério é o uso danoso da informação genuína."
+      }
+    },
+    {
+      "id": "camara-comunicacao-23-integridade-ecossistema",
+      "term": "Integridade da informação × checagem de uma afirmação",
+      "definition": "Integridade da informação examina as condições do ecossistema que permitem encontrar e usar informação confiável, precisa e plural. Abrange produção, circulação, acesso, governança, incentivos, direitos e respostas sociais, além da verificação de afirmações isoladas.",
+      "example": "Uma checagem corrige um boato, mas pessoas afetadas não conseguem localizar a orientação oficial em linguagem compreensível; a correção factual não resolve sozinha o problema de acesso e circulação.",
+      "confusion": "Fact-checking verifica afirmações; integridade da informação avalia também o ambiente em que conteúdos são produzidos, distribuídos e usados.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-704e9cd41f60a2b8",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/46%20-%20integridade%20da%20informacao%20ecossistema%20governanca%20e%20direitos.md",
+        "locator": "Capítulo 23: Integridade da informação: ecossistema, direitos, governança e resposta pública · seção: Núcleo do conceito; fundamento: Declaração Global sobre Integridade da Informação On-line (2023); abordagem retomada pela OCDE e detalhada no artigo."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-23-integridade-ecossistema"
+      ],
+      "contrast": {
+        "prompt": "Uma instituição verificou corretamente uma notícia falsa. Isso prova que o ecossistema informacional já tem integridade?",
+        "answer": "Não. A checagem contribui, mas integridade também depende de acesso, pluralidade, governança, incentivos e capacidade de resposta."
+      }
+    },
+    {
+      "id": "camara-comunicacao-24-teoria-unidade-analise",
+      "term": "Comparar teorias pela pergunta e unidade de análise",
+      "definition": "Para escolher uma teoria da comunicação, identifique o fenômeno observado, a pergunta, a unidade de análise e o mecanismo proposto. Modelos de transmissão, seleção editorial, enquadramento e recepção podem examinar partes diferentes do mesmo caso.",
+      "example": "Uma instituição publica notícia: uma análise pode investigar ruído técnico na transmissão; outra, os critérios editoriais de seleção; uma terceira, como públicos interpretam o conteúdo.",
+      "confusion": "Compartilhar palavras como “meio”, “mensagem” ou “efeito” não torna teorias equivalentes; também não prova que um efeito ocorreu.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-cf270947be50a816",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/47%20-%20comparacao%20de%20teorias%20da%20comunicacao%20perguntas%20unidades%20e%20efeitos.md",
+        "locator": "Capítulo 24: Comparação das teorias da comunicação: perguntas, unidades de análise e efeitos · seção: Núcleo do conceito; fundamento: Artigo “Comparação das teorias da comunicação”, seção Núcleo do conceito; unidades de análise e mecanismos ali comparados."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-24-teoria-unidade-analise"
+      ],
+      "contrast": {
+        "prompt": "Um pesquisador observa que uma pauta recebeu destaque e, sem examinar recepção ou dados de audiência, conclui que o público mudou de opinião. O destaque basta para provar esse efeito?",
+        "answer": "Não. Seleção e saliência podem ser estudadas por teorias como agenda-setting; mudança de opinião exige evidência e mecanismo próprios."
+      }
+    },
+    {
+      "id": "camara-ingles-17-parafrase-modalidade-escopo",
+      "term": "Paráfrase: preservar participantes, polaridade e modalidade",
+      "definition": "Uma paráfrase válida precisa manter a relação essencial entre participantes e evento, além de preservar polaridade, modalidade, finalidade e escopo relevantes. A estrutura ou o foco informacional pode mudar sem mudar necessariamente as condições de verdade.",
+      "example": "“The committee may publish the report” não equivale a “The committee must publish the report”: a troca de may por must altera o grau de obrigação.",
+      "confusion": "Correção gramatical e equivalência de sentido são testes diferentes; uma frase correta pode alterar modalidade, negação, causa ou escopo.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-55ba2a49e278525f",
+        "section": "1. Mecanismos Legítimos de Paráfrase no Padrão Cebraspe"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/17%20-%20parafrase%20equivalencia%20semantica%20e%20mudanca%20de%20sentido%20em%20ingles.md",
+        "locator": "Capítulo 17: Paráfrase, Equivalência Semântica e Mudança de Sentido em Inglês · seção: 1. Mecanismos Legítimos de Paráfrase no Padrão Cebraspe; fundamento: Artigo “Paráfrase, Equivalência Semântica e Mudança de Sentido em Inglês”, seção 1. Mecanismos legítimos de paráfrase."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ingles-17-parafrase-modalidade-escopo"
+      ],
+      "contrast": {
+        "prompt": "Uma reescrita troca “may approve” por “must approve”. Se a nova frase está gramaticalmente correta, o sentido original foi preservado?",
+        "answer": "Não necessariamente; aqui, possibilidade foi trocada por obrigação. A equivalência semântica não é garantida pela correção gramatical."
+      }
+    },
+    {
+      "id": "camara-ingles-18-atribuicao-posicao-autor",
+      "term": "Reporting verbs: voz citada × posição do autor",
+      "definition": "Verbos de atribuição indicam quem formulou uma afirmação e podem revelar como o autor a apresenta. Citar uma fonte não significa automaticamente endossar sua posição; o verbo escolhido pode sinalizar neutralidade, dúvida ou avaliação.",
+      "example": "“The report argues that the measure failed” atribui a tese ao relatório; o autor do texto pode estar relatando a conclusão sem adotá-la.",
+      "confusion": "Distinguir a voz citada da postura do narrador e observar o reporting verb, o contexto e a progressão do texto.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-21cf11553e25ae48",
+        "section": "1. Relações Intratextuais: Coerência Global e Progressão Temática"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/18%20-%20relacoes%20intratextuais%20intertextuais%20e%20generos%20contemporaneos%20em%20ingles.md",
+        "locator": "Capítulo 18: Relações Intratextuais, Intertextualidade e Gêneros Contemporâneos em Inglês · seção: 1. Relações Intratextuais: Coerência Global e Progressão Temática; fundamento: Artigo “Relações Intratextuais, Intertextualidade e Gêneros Contemporâneos em Inglês”, seção 2. Intertextualidade e postura do autor."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ingles-18-atribuicao-posicao-autor"
+      ],
+      "contrast": {
+        "prompt": "Um artigo informa que “the committee claimed the policy was effective”. Essa frase prova que o autor considera a política efetiva?",
+        "answer": "Não. A alegação é atribuída à comissão; para identificar a posição do autor, examine a avaliação e o desenvolvimento do texto."
+      }
+    },
+    {
+      "id": "camara-ti-15-vies-ia-supervisao",
+      "term": "Viés algorítmico × neutralidade matemática",
+      "definition": "Um sistema de IA pode reproduzir ou ampliar desigualdades presentes nos dados, nas escolhas de variáveis, nos objetivos e no contexto de uso. Avaliar viés exige examinar impactos e grupos afetados; números e automação não tornam uma decisão neutra.",
+      "example": "Um modelo treinado em registros históricos de concessão pode recomendar menos revisões para grupos que antes tiveram menor acesso, mesmo sem receber uma variável explícita de raça.",
+      "confusion": "Retirar um atributo sensível não elimina necessariamente proxies correlacionados; revisão humana precisa ter competência e poder para contestar o resultado.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-392b1e185fd2729e",
+        "section": "1. Situação concreta e problema ético-institucional"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/23%20-%20etica%20em%20ia%20vieses%20discriminacao%20transparencia%20e%20revisao%20humana.md",
+        "locator": "Capítulo 15: Ética em inteligência artificial: vieses, discriminação algorítmica, explicabilidade e supervisão humana · seção: 1. Situação concreta e problema ético-institucional; fundamento: Artigo “Ética em inteligência artificial: vieses, discriminação algorítmica, explicabilidade e supervisão humana”, seção 1."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-15-vies-ia-supervisao"
+      ],
+      "contrast": {
+        "prompt": "Uma equipe removeu raça dos dados e, por isso, concluiu que o modelo de benefícios não pode mais produzir discriminação. A conclusão é suficiente?",
+        "answer": "Não. Outras variáveis podem funcionar como proxies, e é preciso avaliar dados, resultados por grupos, contexto e supervisão efetiva."
+      }
+    },
+    {
+      "id": "camara-ti-16-dado-informacao-indicador",
+      "term": "Dado × informação × métrica × indicador",
+      "definition": "Dado é registro ainda sem interpretação suficiente; informação é dado contextualizado para responder a uma pergunta. Métrica quantifica uma característica; indicador usa uma medida para acompanhar um fenômeno ou objetivo, com contexto e interpretação.",
+      "example": "“120” é um dado sem contexto; “120 proposições foram apresentadas em março” é informação contextualizada; a série mensal pode servir como métrica e, escolhida para acompanhar atividade legislativa, como indicador.",
+      "confusion": "Meta e polaridade podem ajudar a interpretar um indicador, mas não são requisitos universais para toda métrica ou indicador.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-217dafb9048089a8",
+        "section": "1. Situação concreta e problema analítico no setor público"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/24%20-%20dado%20informacao%20variavel%20atributo%20indicador%20e%20metrica.md",
+        "locator": "Capítulo 16: Dado, informação, variável, atributo, indicador e métrica: hierarquia e distinções operacionais · seção: 1. Situação concreta e problema analítico no setor público; fundamento: Artigo “Dado, informação, variável, atributo, indicador e métrica”, seções 1 e 2."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-16-dado-informacao-indicador"
+      ],
+      "contrast": {
+        "prompt": "O painel mostra 120, sem unidade, período ou descrição. Esse número sozinho já é um indicador interpretável?",
+        "answer": "Não. Falta contexto para saber o que foi contado; dado contextualizado pode gerar informação e integrar uma métrica ou indicador definido para a pergunta."
+      }
+    },
+    {
+      "id": "camara-ti-17-nulo-zero-dado",
+      "term": "Valor nulo × zero na preparação dos dados",
+      "definition": "Nulo ou ausente indica que o valor não está disponível no registro; zero é um valor observado que representa quantidade nula. Substituir faltantes por zero sem justificar pode alterar médias, totais e interpretações.",
+      "example": "Em uma base de atendimentos, campo vazio pode significar que a equipe não registrou a duração; duração “0” pode indicar atendimento medido como instantâneo ou erro, conforme a regra de coleta.",
+      "confusion": "Antes de preencher ausências, investigue causa, padrão e método apropriado; não trate todo nulo como ausência de ocorrência.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-03945be9cb42c4bd",
+        "section": "1. Situação concreta e o princípio \"Garbage In, Garbage Out\""
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/25%20-%20transformacao%20de%20dados%20limpeza%20agregacao%20e%20qualidade.md",
+        "locator": "Capítulo 17: Transformação de dados: limpeza, tratamento de nulos, agregação e dimensões de qualidade · seção: 1. Situação concreta e o princípio \"Garbage In, Garbage Out\"; fundamento: Artigo “Transformação de dados: limpeza, tratamento de nulos, agregação e dimensões de qualidade”, seção 1."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-17-nulo-zero-dado"
+      ],
+      "contrast": {
+        "prompt": "Uma linha sem informação de gasto foi convertida em R$ 0 e somada ao relatório. Isso é sempre uma correção válida?",
+        "answer": "Não. O campo vazio pode significar valor desconhecido, e zero significaria gasto medido como inexistente. A equipe precisa verificar a semântica e o padrão de ausência."
+      }
+    },
+    {
+      "id": "camara-ti-18-grafico-pergunta-variavel",
+      "term": "Escolher gráfico pela pergunta analítica",
+      "definition": "A visualização deve responder à pergunta com tipo de variável e codificação legíveis: linhas ajudam a acompanhar evolução ordenada no tempo; barras comparam categorias; histograma mostra distribuição de valores numéricos agrupados.",
+      "example": "Para comparar presença em cinco comissões, use barras por comissão; para mostrar evolução mensal, use uma série temporal; para observar distribuição de tempos de tramitação, examine histograma ou box plot.",
+      "confusion": "Comece pela pergunta, não pelo gráfico preferido ou pela ferramenta; também confira escalas e distorções visuais.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a2e4949761ab5a6f",
+        "section": "1. Situação concreta e o papel da visualização na comunicação pública"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/26%20-%20visualizacao%20de%20dados%20selecao%20de%20grafico%20pela%20pergunta%20analitica.md",
+        "locator": "Capítulo 18: Visualização de dados: seleção de gráficos pela pergunta analítica, variáveis e carga cognitiva · seção: 1. Situação concreta e o papel da visualização na comunicação pública; fundamento: Artigo “Visualização de dados: seleção de gráficos pela pergunta analítica, variáveis e carga cognitiva”, seção 1."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-18-grafico-pergunta-variavel"
+      ],
+      "contrast": {
+        "prompt": "Um relatório quer comparar a contagem anual de sessões de várias comissões. Um gráfico de linhas é obrigatório porque os dados têm anos?",
+        "answer": "Não. Anos formam uma ordem temporal, mas comparar várias categorias também pode justificar barras; a escolha depende da pergunta e da clareza da escala."
+      }
+    },
+    {
+      "id": "camara-ti-19-histograma-barras-linhas",
+      "term": "Histograma × gráfico de barras × gráfico de linhas",
+      "definition": "Histograma agrupa variável quantitativa em intervalos contíguos para mostrar distribuição; barras comparam categorias separadas; linhas conectam observações ordenadas, em geral para evidenciar evolução temporal.",
+      "example": "Idades agrupadas em faixas formam histograma; número de pedidos por setor forma gráfico de barras; pedidos por mês podem ser mostrados em linha.",
+      "confusion": "A semelhança visual das colunas não apaga o tipo de dado e o significado dos eixos; ligar categorias sem ordem pode sugerir continuidade inexistente.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-719dd4ca3e84b65a",
+        "section": "1. Situação concreta e o problema da confusão geométrica"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/27%20-%20histograma%20barras%20e%20linhas%20distincao%20dos%20eixos%20e%20aplicacoes.md",
+        "locator": "Capítulo 19: Histograma, gráficos de barras e gráficos de linhas: distinção dos eixos, escalas e aplicações · seção: 1. Situação concreta e o problema da confusão geométrica; fundamento: Artigo “Histograma, gráficos de barras e gráficos de linhas”, seção 1."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-19-histograma-barras-linhas"
+      ],
+      "contrast": {
+        "prompt": "Para mostrar a distribuição de idades, o analista coloca intervalos numéricos no eixo horizontal e separa as colunas por grandes espaços como categorias independentes. Qual critério deve revisar?",
+        "answer": "Idade é variável quantitativa agrupada; o histograma representa intervalos contíguos. Espaços e categorias independentes são próprios do gráfico de barras categóricas."
+      }
+    },
+    {
+      "id": "camara-ti-20-dispersao-boxplot-correlacao",
+      "term": "Dispersão × box plot e limite da correlação",
+      "definition": "Gráfico de dispersão exibe pares de valores de duas variáveis quantitativas para explorar associação; box plot resume distribuição univariada, destacando mediana, quartis e valores potencialmente discrepantes. Associação não prova causalidade.",
+      "example": "Comparar tempo de tramitação e número de pareceres em pontos mostra associação possível; box plot do tempo de tramitação resume assimetria e extremos sem indicar a causa dos atrasos.",
+      "confusion": "O gráfico de dispersão não demonstra que uma variável causou a outra; box plot não descreve, sozinho, relação entre duas variáveis.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-e3831c8dec419d79",
+        "section": "1. Situação concreta e o desafio da análise exploratória"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/28%20-%20dispersao%20e%20box%20plot%20relacoes%20distribuicao%20e%20resumo%20estatistico.md",
+        "locator": "Capítulo 20: Gráfico de dispersão e box plot: relações bivariadas, distribuição, quartis e detecção de outliers · seção: 1. Situação concreta e o desafio da análise exploratória; fundamento: Artigo “Gráfico de dispersão e box plot”, seção 1."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-20-dispersao-boxplot-correlacao"
+      ],
+      "contrast": {
+        "prompt": "Os pontos mostram que comissões com mais assessores apresentam mais pareceres. O gráfico prova que aumentar assessores causará maior produção?",
+        "answer": "Não. Dispersão permite explorar associação; para inferir causalidade são necessários desenho e evidências que controlem explicações alternativas."
+      }
+    },
+    {
+      "id": "camara-ti-21-medida-coluna-modelo",
+      "term": "Medida agregada × coluna calculada em BI",
+      "definition": "Em modelos de Business Intelligence, fato registra eventos ou valores e dimensões descrevem entidades e categorias. Uma medida costuma ser calculada conforme filtros e agregação da consulta; uma coluna calculada é avaliada por linha no modelo, conforme a ferramenta.",
+      "example": "A tabela de pagamentos guarda valores por transação; a dimensão de órgão identifica a unidade. Uma medida soma pagamentos do órgão filtrado; uma coluna pode classificar cada transação por faixa.",
+      "confusion": "Não confunda cálculo dependente do contexto de visualização com valor armazenado para cada linha; detalhes de implementação variam por plataforma.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f137aeacb1988047",
+        "section": "1. Situação concreta e o ecossistema de Business Intelligence (BI) no setor público"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/29%20-%20power%20bi%20tableau%20e%20data%20studio%20comparativo%20e%20funcoes.md",
+        "locator": "Capítulo 21: Power BI, Tableau e Looker Studio: arquitetura, modelagem, funções DAX e casos de uso no setor público · seção: 1. Situação concreta e o ecossistema de Business Intelligence (BI) no setor público; fundamento: Artigo “Power BI, Tableau e Looker Studio”, seção 1, modelagem dimensional e funções DAX."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-21-medida-coluna-modelo"
+      ],
+      "contrast": {
+        "prompt": "No painel, o total pago muda quando o usuário filtra por órgão. Esse comportamento combina com uma medida agregada ou com uma coluna que rotula cada linha?",
+        "answer": "Com uma medida agregada, que é recalculada conforme o contexto de filtro. Uma coluna de classificação é calculada por registro e não substitui automaticamente a agregação dinâmica."
+      }
+    },
+    {
+      "id": "camara-ti-22-storytelling-dados-evidencia",
+      "term": "Storytelling com dados: evidência, visual e narrativa",
+      "definition": "Storytelling com dados combina dados confiáveis, visualização adequada e narrativa que explica contexto e relevância para apoiar entendimento ou decisão. A narrativa não substitui a qualidade da evidência nem autoriza exagerar conclusões.",
+      "example": "Um gráfico de fila apresenta série mensal, explica mudanças de regra e aponta uma pergunta para gestão; não atribui a queda a uma campanha sem desenho causal.",
+      "confusion": "Reduzir ruído visual ajuda a ler, mas não corrige dados ruins; contar uma história não transforma associação em causalidade.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-2fde27c0e00dc520",
+        "section": "1. Fundamentos: a tríade do Storytelling com Dados"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/30%20-%20storytelling%20com%20dados%20estrutura%20narrativa%20contexto%20e%20persuasao.md",
+        "locator": "Capítulo 22: Storytelling com dados: estrutura narrativa, contexto, decluttering e eficácia comunicativa · seção: 1. Fundamentos: a tríade do Storytelling com Dados; fundamento: Cole Nussbaumer Knaflic, Storytelling with Data; artigo, seção 1, tríade dados, visualização e narrativa."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-22-storytelling-dados-evidencia"
+      ],
+      "contrast": {
+        "prompt": "Um gráfico claro mostra queda de atendimentos após campanha e a legenda afirma que a campanha causou a redução. Sem comparação ou outro método causal, a história está demonstrada?",
+        "answer": "Não. Visual e narrativa organizam evidência, mas não justificam atribuição causal sem método que sustente o vínculo."
+      }
+    },
+    {
+      "id": "camara-ti-23-egov-governanca-digital",
+      "term": "Governo eletrônico × governança digital",
+      "definition": "Governo eletrônico costuma enfatizar uso de tecnologia para disponibilizar serviços e processos; governança digital integra tecnologia à relação entre Estado e sociedade, com estratégia, interoperabilidade, participação, transparência e responsabilidade.",
+      "example": "Converter um formulário em PDF preenchível digitaliza uma etapa; integrar serviços com proteção de dados, acompanhamento e participação altera o desenho de governança.",
+      "confusion": "Um serviço on-line pode ser parte da transformação digital, mas não prova sozinho governança digital integrada ou participativa.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28fc0e46477ff067",
+        "section": "Núcleo do conceito: a transformação digital do Estado democrático"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/17%20-%20governanca%20digital%20e%20responsabilidade%20no%20servico%20publico.md",
+        "locator": "Capítulo 23: Governança digital, governo eletrônico e responsabilidade no serviço público · seção: Núcleo do conceito: a transformação digital do Estado democrático; fundamento: Lei nº 14.129/2021; artigo “Governança digital, governo eletrônico e responsabilidade no serviço público”, seção Núcleo do conceito."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-23-egov-governanca-digital"
+      ],
+      "contrast": {
+        "prompt": "Um órgão colocou na web o formulário antes entregue em papel. Isso comprova, por si, governança digital?",
+        "answer": "Não. Mostra digitalização de serviço; governança digital envolve também integração estratégica, responsabilidade, participação e demais princípios aplicáveis."
+      }
+    },
+    {
+      "id": "camara-ti-24-cid-cidan",
+      "term": "Confidencialidade, integridade e disponibilidade",
+      "definition": "Confidencialidade limita acesso a pessoas autorizadas; integridade protege correção e completude; disponibilidade mantém a informação acessível quando necessária. Autenticidade e não repúdio são propriedades complementares, não uma lista universal de cinco pilares atribuída indistintamente a um padrão.",
+      "example": "Controle de acesso protege sigilo; registro de alteração permite detectar modificação; redundância e recuperação ajudam a manter o sistema disponível.",
+      "confusion": "Uma medida pode apoiar mais de uma propriedade, e o mnemônico CIDAN do material não deve ser atribuído como taxonomia universal da ISO.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-cdd153e7d11a16e6",
+        "section": "Núcleo do conceito: os pilares da segurança da informação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/12%20-%20seguranca%20da%20informacao%20principios%20cidan%20politicas%20e%20controles.md",
+        "locator": "Capítulo 24: Segurança da informação: princípios CIDAN, políticas corporativas e controles de proteção · seção: Núcleo do conceito: os pilares da segurança da informação; fundamento: Artigo “Segurança da informação: princípios CIDAN, políticas corporativas e controles de proteção”, seção Núcleo do conceito; tríade CID clássica."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-24-cid-cidan"
+      ],
+      "contrast": {
+        "prompt": "Um arquivo público ficou acessível, mas alguém alterou valores sem autorização. Qual propriedade foi diretamente comprometida?",
+        "answer": "Integridade: os dados deixaram de estar corretos e íntegros. Disponibilidade permaneceu; confidencialidade pode não ter sido afetada."
+      }
+    },
+    {
+      "id": "camara-ti-25-backup-sincronizacao",
+      "term": "Backup × sincronização em nuvem",
+      "definition": "Backup conserva cópia recuperável de dados em outro meio ou local, com retenção e possibilidade de restauração. Sincronização replica alterações entre dispositivos ou serviços e pode propagar exclusões ou corrupção.",
+      "example": "Excluir uma pasta sincronizada pode removê-la dos aparelhos conectados; uma cópia de backup versionada e testada pode permitir recuperar estado anterior.",
+      "confusion": "Ter arquivos sincronizados em dois dispositivos não garante cópia histórica independente nem restauração após ataque.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-e4f1e43ef81ff76b",
+        "section": "Núcleo do conceito: salvaguarda de dados e continuidade operacional"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/13%20-%20backup%20estrategias%20tipos%20restauracao%20e%20diferenca%20de%20sincronizacao.md",
+        "locator": "Capítulo 25: Backup: estratégias, tipos, recuperação e diferença de sincronização em nuvem · seção: Núcleo do conceito: salvaguarda de dados e continuidade operacional; fundamento: Artigo “Backup: estratégias, tipos, recuperação e diferença de sincronização em nuvem”, seção Núcleo do conceito."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-25-backup-sincronizacao"
+      ],
+      "contrast": {
+        "prompt": "Um arquivo criptografado por malware sincroniza a versão alterada para todos os dispositivos. A sincronização funcionou como backup independente?",
+        "answer": "Não necessariamente. Ela replicou a alteração; uma cópia de segurança separada, versionada e restaurável é que pode preservar versão anterior."
+      }
+    },
+    {
+      "id": "camara-ti-26-virus-worm-trojan",
+      "term": "Vírus × worm × trojan",
+      "definition": "Vírus associa-se a arquivo ou programa hospedeiro e depende de execução para se propagar; worm pode se replicar pela rede sem hospedeiro; trojan se disfarça de software legítimo para induzir instalação ou execução, sem ter como traço definidor a autorreplicação.",
+      "example": "Um anexo infectado por vírus se espalha quando executado; um worm explora a rede e se replica; um falso instalador promete utilidade e instala código malicioso como trojan.",
+      "confusion": "As espécies descrevem mecanismos diferentes e podem coexistir em uma mesma campanha; “malware” é o termo geral.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-e66153c7ca90b06b",
+        "section": "Núcleo do conceito: taxonomia de softwares maliciosos"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/14%20-%20malware%20virus%20worm%20trojan%20ransomware%20spyware%20e%20rootkit.md",
+        "locator": "Capítulo 26: Malware: vírus, worm, trojan, ransomware, spyware, rootkit e botnets · seção: Núcleo do conceito: taxonomia de softwares maliciosos; fundamento: Artigo “Malware: vírus, worm, trojan, ransomware, spyware, rootkit e botnets”, seção Núcleo do conceito; CERT.br, Cartilha de Segurança para Internet."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-26-virus-worm-trojan"
+      ],
+      "contrast": {
+        "prompt": "Um código malicioso se replica autonomamente entre computadores conectados sem anexar-se a um arquivo hospedeiro. Qual mecanismo o caracteriza?",
+        "answer": "Worm. A propagação autônoma pela rede o distingue do vírus dependente de hospedeiro; aparência enganosa, sozinha, caracteriza trojan."
+      }
+    },
+    {
+      "id": "camara-ti-27-firewall-antivirus-escopo",
+      "term": "Firewall × antivírus × antispyware",
+      "definition": "Firewall controla tráfego de rede conforme regras; antivírus ou EDR procura e responde a códigos e comportamentos maliciosos em dispositivos; antispyware foca programas de espionagem. São controles com escopos diferentes, normalmente combinados em defesa em profundidade.",
+      "example": "Bloquear conexão de entrada pode ser papel do firewall; detectar arquivo malicioso no computador é função de antivírus; localizar coleta clandestina de atividade é tarefa relacionada a antispyware.",
+      "confusion": "Firewall não garante que arquivo baixado seja seguro e antivírus não substitui regra de tráfego; nenhuma ferramenta isolada cobre todos os riscos.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-54da73b11b7b9fdd",
+        "section": "Núcleo do conceito: ferramentas defensivas e defesa em profundidade"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/15%20-%20antivirus%20firewall%20e%20antispyware%20atuacao%20e%20limites.md",
+        "locator": "Capítulo 27: Antivírus, firewall e antispyware: atuação, técnicas de detecção e limites de proteção · seção: Núcleo do conceito: ferramentas defensivas e defesa em profundidade; fundamento: Artigo “Antivírus, firewall e antispyware: atuação, técnicas de detecção e limites de proteção”, seção Núcleo do conceito."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-27-firewall-antivirus-escopo"
+      ],
+      "contrast": {
+        "prompt": "Um firewall está ativo, então o órgão pode dispensar análise de arquivos baixados. A conclusão decorre do escopo do firewall?",
+        "answer": "Não. O firewall controla comunicações de rede; detecção de malware em arquivos e processos exige controles de endpoint e outras camadas."
+      }
+    },
+    {
+      "id": "camara-ti-28-phishing-pharming",
+      "term": "Phishing × pharming",
+      "definition": "Phishing usa uma mensagem ou contato enganoso para levar a vítima a revelar dados ou executar ação; pharming redireciona a vítima a destino fraudulento, por exemplo por manipulação de DNS ou configuração, mesmo que tente acessar endereço legítimo.",
+      "example": "E-mail falso pede senha por link: phishing. Um equipamento comprometido envia o navegador a uma página imitadora apesar do endereço digitado: pharming.",
+      "confusion": "Ambos podem buscar credenciais e combinar técnicas; identifique se a isca principal é contato enganoso ou redirecionamento do acesso.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-2f178d9576d10289",
+        "section": "Núcleo do conceito: a exploração do elo humano na segurança da informação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/16%20-%20phishing%20pharming%20e%20engenharia%20social%20tecnicas%20e%20contramedidas.md",
+        "locator": "Capítulo 28: Phishing, pharming e engenharia social: técnicas de manipulação, vetores e contramedidas · seção: Núcleo do conceito: a exploração do elo humano na segurança da informação; fundamento: Artigo “Phishing, pharming e engenharia social”, seção Núcleo do conceito; CERT.br, Cartilha de Segurança para Internet."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-28-phishing-pharming"
+      ],
+      "contrast": {
+        "prompt": "A vítima digita o endereço correto, mas uma alteração na resolução do domínio a envia a uma página clonada. Qual vetor descreve melhor o caso?",
+        "answer": "Pharming: houve redirecionamento ao destino fraudulento, sem depender necessariamente de a vítima clicar em uma mensagem-isca."
+      }
+    },
+    {
+      "id": "camara-cp-13-coalizao-majoria",
+      "term": "Coalizão governamental × maioria em votação",
+      "definition": "Coalizão governamental reúne partidos que apoiam e podem integrar o governo; coalizão legislativa articula votos e compromissos para uma decisão. O apoio pode variar conforme pauta, Casa, momento e quórum.",
+      "example": "Um partido participa da base, mas diverge de um projeto específico; a votação exige negociação própria e não se deduz mecanicamente da composição do governo.",
+      "confusion": "Eleger o presidente não garante maioria parlamentar; participação no governo não significa voto uniforme em toda matéria.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-71d4e9b30c86a25f",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/22%20-%20relacoes%20executivo%20legislativo%20e%20coalizoes.md",
+        "locator": "Capítulo 13: Relações Executivo-Legislativo e formação de coalizões · seção: Núcleo do conceito; fundamento: Sérgio Abranches (1988), “Presidencialismo de coalizão”; artigo, seção Núcleo do conceito."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-13-coalizao-majoria"
+      ],
+      "contrast": {
+        "prompt": "Um partido ocupa ministério e integra a base. Pode-se concluir que todos os seus parlamentares votarão com o governo em qualquer projeto?",
+        "answer": "Não. A coalizão sustenta relações de apoio, mas a composição de votos pode variar por pauta, regras e atores."
+      }
+    },
+    {
+      "id": "camara-cp-14-majoritario-relativa-absoluta",
+      "term": "Maioria relativa × maioria absoluta",
+      "definition": "Na maioria relativa vence a candidatura com mais votos que cada concorrente, ainda que não supere metade dos votos válidos. Na maioria absoluta exige-se mais da metade; onde há segundo turno, as duas candidaturas mais votadas disputam a etapa seguinte quando ninguém alcança o requisito.",
+      "example": "Com 42%, 38% e 20%, a primeira candidatura vence por pluralidade, mas não alcança maioria absoluta para uma regra que a exija.",
+      "confusion": "“Mais votado” não significa necessariamente “mais da metade”; confira qual regra de conversão se aplica ao cargo.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-b3e8d1c74f209a65",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/23%20-%20sistema%20eleitoral%20majoritario%20funcionamento%20e%20efeitos.md",
+        "locator": "Capítulo 14: Sistema eleitoral majoritário: funcionamento e efeitos · seção: Núcleo do conceito; fundamento: Constituição Federal, arts. 28, 29, II, e 77, conforme cargo; artigo, seção Núcleo do conceito."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-14-majoritario-relativa-absoluta"
+      ],
+      "contrast": {
+        "prompt": "Uma candidatura recebe 42% e as outras 38% e 20%. Ela alcança maioria absoluta dos votos válidos?",
+        "answer": "Não. É a mais votada e supera cada rival, mas não obteve mais da metade; isso atende maioria relativa, não absoluta."
+      }
+    },
+    {
+      "id": "camara-cp-15-proporcional-lista-aberta",
+      "term": "Sistema proporcional de lista aberta",
+      "definition": "No sistema proporcional brasileiro para deputados e vereadores, votos da legenda ou federação formam o total usado na distribuição inicial de cadeiras; depois, candidaturas são ordenadas pela votação nominal, observados os requisitos legais.",
+      "example": "Uma candidata muito votada pode não ocupar cadeira se sua lista não obtém vaga ou se não atende aos requisitos de votação; uma pessoa com menos votos pode entrar pela lista que conquistou cadeira.",
+      "confusion": "Votos nominais também contam para o total partidário, mas cadeira não é distribuída apenas ordenando todas as pessoas do país por votação individual.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-2e96b7d14a53c80f",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/24%20-%20sistema%20eleitoral%20proporcional%20quocientes%20listas%20e%20efeitos.md",
+        "locator": "Capítulo 15: Sistema eleitoral proporcional: quocientes, listas e efeitos · seção: Núcleo do conceito; fundamento: Constituição Federal, arts. 45 e 17; Código Eleitoral, arts. 106–109; artigo, seção Núcleo do conceito."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-15-proporcional-lista-aberta"
+      ],
+      "contrast": {
+        "prompt": "Na eleição para deputado federal, o candidato mais votado individualmente está automaticamente eleito, independentemente do total de votos de seu partido ou federação?",
+        "answer": "Não. A distribuição proporcional considera primeiro os votos agregados da legenda/federação; o preenchimento das vagas observa depois os candidatos e condições legais."
+      }
+    },
+    {
+      "id": "camara-cp-16-partido-movimento-grupo",
+      "term": "Partido político × movimento ou grupo de interesse",
+      "definition": "Partido é organização política relativamente duradoura que busca influenciar ou ocupar poder, especialmente por eleições, organizando candidaturas, representação e ação coletiva. Movimento social e grupo de interesse podem mobilizar pautas sem serem partidos.",
+      "example": "Uma associação pressiona o Congresso por uma política; se decide criar organização registrada para disputar eleições, passa a atuar também como partido, conforme os requisitos legais.",
+      "confusion": "Ter pauta política, militantes ou interlocução com parlamentares não basta para ser partido ou bancada.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-83d47f1a6c902be5",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/25%20-%20partidos%20politicos%20origem%20funcoes%20e%20organizacao.md",
+        "locator": "Capítulo 16: Partidos políticos: origem, funções e organização · seção: Núcleo do conceito; fundamento: Constituição Federal, art. 17; Lei nº 9.096/1995; artigo, seção Núcleo do conceito."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-16-partido-movimento-grupo"
+      ],
+      "contrast": {
+        "prompt": "Uma organização mobiliza manifestações e pressiona o governo, mas não concorre nem se registra como partido. Ela é automaticamente um partido político?",
+        "answer": "Não. Mobilização é compatível com movimento ou grupo de interesse; partido envolve organização orientada à disputa ou influência do poder político e segue regime próprio."
+      }
+    },
+    {
+      "id": "camara-cp-17-sistema-organizacao-partidaria",
+      "term": "Sistema partidário × organização de um partido",
+      "definition": "Sistema partidário é o padrão de relações e competição entre legendas relevantes; organização partidária examina estrutura interna de uma legenda, seus dirigentes, filiados e recursos. O número formal de partidos, sozinho, não descreve a competição.",
+      "example": "Dois países têm dez partidos registrados, mas em um apenas dois disputam poder efetivo, enquanto no outro vários obtêm cadeiras e influenciam coalizões.",
+      "confusion": "Sistema partidário não é o estatuto ou organograma de um partido individual; registre peso, interação, competição e alternância.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6c29a5f8d0317be4",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/26%20-%20sistemas%20partidarios%20competicao%20e%20fragmentacao.md",
+        "locator": "Capítulo 17: Sistemas partidários: competição, fragmentação e institucionalização · seção: Núcleo do conceito; fundamento: Giovanni Sartori; Laakso e Taagepera; Mainwaring e Scully, conceitos desenvolvidos nas seções do artigo."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-17-sistema-organizacao-partidaria"
+      ],
+      "contrast": {
+        "prompt": "A reforma de estatuto muda cargos internos de uma legenda. Isso demonstra, por si só, alteração do sistema partidário?",
+        "answer": "Não. A mudança descreve organização interna; para caracterizar mudança sistêmica, examine relações, peso e competição entre partidos."
+      }
+    },
+    {
+      "id": "camara-cp-18-federacao-autonomia",
+      "term": "Autonomia dos entes federativos × hierarquia",
+      "definition": "A Federação brasileira distribui competências e autonomia constitucional entre União, estados, Distrito Federal e municípios. Coordenação de políticas comuns não transforma governos locais em unidades administrativamente subordinadas ao presidente ou ao governador.",
+      "example": "A União define norma nacional e transfere recursos; o município executa serviço dentro de suas competências, sem se tornar órgão da União.",
+      "confusion": "Soberania pertence à República Federativa; os entes federados são autônomos. Coordenação não equivale a cadeia hierárquica.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4a9e1d735bc082f6",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/27%20-%20organizacao%20politica%20brasileira%20instituicoes%20e%20federalismo.md",
+        "locator": "Capítulo 18: Organização política brasileira: instituições, federalismo e coordenação · seção: Núcleo do conceito; fundamento: Constituição Federal, arts. 1º e 18; artigo, “Organização política brasileira”, seção Núcleo do conceito."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-18-federacao-autonomia"
+      ],
+      "contrast": {
+        "prompt": "A União coordena uma política nacional e financia a rede municipal. Por esse vínculo, o prefeito torna-se subordinado administrativamente ao presidente?",
+        "answer": "Não. O federalismo combina competências, cooperação e coordenação com autonomia dos entes, conforme a Constituição."
+      }
+    },
+    {
+      "id": "camara-cp-19-voto-direto-expansao-eleitorado",
+      "term": "Voto direto × ampliação do eleitorado",
+      "definition": "Voto direto descreve como o eleitor escolhe o ocupante do cargo; extensão do sufrágio descreve quem está habilitado a votar. Uma reforma pode mudar a forma da eleição e, simultaneamente, restringir o grupo de eleitores.",
+      "example": "A Lei Saraiva de 1881 adotou eleições diretas, mas também excluiu analfabetos do eleitorado; os dois efeitos precisam ser analisados separadamente.",
+      "confusion": "Mudança procedimental não significa automaticamente democratização plena ou ampliação de direitos políticos.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-582db94e1ac730f6",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/28%20-%20historia%20do%20voto%20no%20brasil%20expansao%20restricoes%20e%20direitos.md",
+        "locator": "Capítulo 19: História do voto no Brasil: expansão, restrições e direitos · seção: Núcleo do conceito; fundamento: Decreto nº 3.029/1881 (Lei Saraiva) e artigo “História do voto no Brasil”, seções sobre Império e Lei Saraiva."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-19-voto-direto-expansao-eleitorado"
+      ],
+      "contrast": {
+        "prompt": "Como a Lei Saraiva adotou eleição direta, pode-se concluir que ampliou o grupo de brasileiros autorizados a votar?",
+        "answer": "Não. A eleição direta mudou o modo de escolha, mas a lei excluiu analfabetos e preservou restrições ao eleitorado."
+      }
+    },
+    {
+      "id": "camara-cp-20-bipartidarismo-autoritarismo",
+      "term": "Bipartidarismo formal × competição democrática",
+      "definition": "Número de partidos permitidos é uma dimensão da estrutura partidária; liberdade de competição, pluralismo e condições de disputa são outras. Poucas legendas em regime autoritário não equivalem a sistema bipartidário democrático competitivo.",
+      "example": "Arena e MDB foram as legendas autorizadas durante parte do regime militar; a existência de duas siglas não apagou restrições políticas e eleitorais.",
+      "confusion": "Não infira alternância livre ou competição democrática apenas da contagem de partidos.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-5d8b14e9c7a320f6",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/29%20-%20historia%20dos%20partidos%20politicos%20no%20brasil.md",
+        "locator": "Capítulo 20: História dos partidos políticos no Brasil: continuidade e rupturas · seção: Núcleo do conceito; fundamento: Artigo “História dos partidos políticos no Brasil: continuidade e rupturas”, seção Núcleo do conceito; regime partidário de 1966–1979."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-20-bipartidarismo-autoritarismo"
+      ],
+      "contrast": {
+        "prompt": "Um regime autoritário permite duas legendas. A quantidade de partidos prova competição equivalente à de uma democracia bipartidária?",
+        "answer": "Não. O número é igual a dois, mas restrições de competição e oposição tornam diferentes os regimes e suas condições políticas."
+      }
+    },
+    {
+      "id": "camara-cp-21-ator-instituicao-oig",
+      "term": "Ator internacional × instituição × organização",
+      "definition": "Ator internacional pode influenciar relações transfronteiriças; instituição compreende regras e práticas duráveis que organizam expectativas; organização internacional tem participantes, órgãos e procedimentos, e uma organização intergovernamental é criada por Estados conforme instrumento próprio.",
+      "example": "Uma ONG participa de programa de agência da ONU e influencia uma crise, mas essa colaboração não a transforma em órgão intergovernamental.",
+      "confusion": "Capacidade de influenciar não implica soberania nem personalidade institucional igual à de uma organização criada por Estados.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-84c6a2d19f503be7",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/30%20-%20politica%20internacional%20contemporanea%20atores%20e%20instituicoes.md",
+        "locator": "Capítulo 21: Política internacional contemporânea: atores, instituições e governança · seção: Núcleo do conceito; fundamento: Artigo “Política internacional contemporânea: atores, instituições e governança”, seção Núcleo do conceito; Carta da ONU para estrutura da organização."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-21-ator-instituicao-oig"
+      ],
+      "contrast": {
+        "prompt": "Uma ONG trabalha com uma agência da ONU. A parceria torna a ONG uma organização intergovernamental?",
+        "answer": "Não. Ela pode ser ator internacional e parceira; a natureza intergovernamental decorre da composição e criação institucional por Estados."
+      }
+    },
+    {
+      "id": "camara-cp-22-anarquia-internacional-normas",
+      "term": "Anarquia internacional × ausência de normas",
+      "definition": "Em Ciência Política, anarquia internacional significa inexistência de autoridade central superior aos Estados com monopólio geral da coerção. Não significa caos, ausência de regras internacionais ou liberdade jurídica ilimitada.",
+      "example": "Estados soberanos cooperam em organização internacional e assumem obrigações, embora não haja um governo mundial com poder geral equivalente ao de um Estado.",
+      "confusion": "Soberania e igualdade jurídica coexistem com diferenças de poder material e com obrigações internacionais.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-7b42e9f0a316c85d",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/31%20-%20sistema%20internacional%20soberania%20cooperacao%20e%20conflito.md",
+        "locator": "Capítulo 22: Sistema internacional: soberania, cooperação e conflito · seção: Núcleo do conceito; fundamento: Carta das Nações Unidas, arts. 2º, §§ 1º e 4º; artigo “Sistema internacional: soberania, cooperação e conflito”, seção Núcleo do conceito."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-22-anarquia-internacional-normas"
+      ],
+      "contrast": {
+        "prompt": "Se o sistema internacional é anárquico, qualquer Estado pode usar a força sem violar normas, pois não existe governo mundial?",
+        "answer": "Não. Anarquia descreve ausência de autoridade central, não ausência de direito; a Carta da ONU proíbe o uso da força com exceções jurídicas delimitadas."
+      }
+    },
+    {
+      "id": "camara-constitucional-32-sessao-conjunta-direcao",
+      "term": "Sessão conjunta × direção dos trabalhos",
+      "definition": "Sessão conjunta reúne membros da Câmara e do Senado para finalidades constitucionais ou regimentais específicas. No Regimento Comum, a direção dos trabalhos e o local seguem regras próprias; o simples fato de usar o Plenário de uma Casa não define quem preside.",
+      "example": "O Congresso reúne-se para apreciar veto. A reunião ser realizada no espaço físico de uma Casa não transforma seu presidente em presidente da sessão conjunta.",
+      "confusion": "Local, direção e método de votação são perguntas separadas; sessão conjunta não significa que as Casas percam suas identidades constitucionais.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f25a1c9074de83b6",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/29%20-%20regimento%20comum%20titulo%20i%20sessoes%20conjuntas%20artigos%201%20a%203.md",
+        "locator": "Capítulo 32: Regimento Comum do Congresso: direção, objeto e convocação das sessões conjuntas · seção: Núcleo do conceito; fundamento: Regimento Comum do Congresso Nacional, arts. 1º–3º; Constituição Federal, art. 57, § 5º."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-constitucional-32-sessao-conjunta-direcao"
+      ],
+      "contrast": {
+        "prompt": "A sessão conjunta ocorre no Plenário da Câmara; por isso, o Presidente da Câmara necessariamente a dirige?",
+        "answer": "O art. 1º do RCCN atribui a direção da sessão conjunta à Mesa do Senado; a Constituição, art. 57, § 5º, determina que essa Mesa seja presidida pelo Presidente do Senado. O local da reunião não altera a competência regimental."
+      }
+    },
+    {
+      "id": "camara-constitucional-33-regimento-vigencia",
+      "term": "Regimento Comum histórico × rito vigente",
+      "definition": "O Regimento Comum contém artigos de 1970 que foram revogados ou superados pela Constituição de 1988 e por normas posteriores. A numeração ainda aparecer no texto não torna a regra vigente; é preciso conferir o estado de cada dispositivo e a legislação específica atual.",
+      "example": "Para tramitação de projetos orçamentários, a leitura dos arts. 89–103 deve ser cotejada com a Resolução nº 1/2006-CN e suas alterações, que disciplina a CMO e procedimentos posteriores.",
+      "confusion": "Texto consolidado e numeração histórica não significam que todos os artigos tenham eficácia atual nem que um capítulo antigo descreva sozinho o processo.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-0d62a7f94c8153be",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/30%20-%20regimento%20comum%20titulo%20iv%20sessoes%20solenes%20e%20materias%20ate%20artigo%20103.md",
+        "locator": "Capítulo 33: Regimento Comum, Título IV: sessões solenes e matérias legislativas até o art. 103 · seção: Núcleo do conceito; fundamento: Regimento Comum do Congresso Nacional, Título IV, arts. 53–103; Resolução nº 1/2006-CN para processo orçamentário."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-constitucional-33-regimento-vigencia"
+      ],
+      "contrast": {
+        "prompt": "Um artigo antigo do Regimento Comum ainda aparece numerado na compilação, mas está assinalado como revogado. Pode ser aplicado como rito vigente por estar no Regimento?",
+        "answer": "Não. A presença material não restaura dispositivo revogado; a análise deve usar a Constituição e normas posteriores aplicáveis ao tema."
+      }
+    },
+    {
+      "id": "camara-constitucional-35-comissao-representativa",
+      "term": "Comissão Representativa: representação no recesso",
+      "definition": "A Comissão Representativa é colegiado de deputados e senadores eleito pelas Casas para atuar durante o recesso subsequente, com mandato e competências previstos na Constituição e na Resolução nº 3/1990-CN. Representar o Congresso não autoriza substituir seus Plenários em qualquer matéria.",
+      "example": "Durante o recesso, a Comissão pode exercer atribuição urgente que a norma lhe confere; uma proposta fora da competência ou sem requisito deve aguardar o órgão competente.",
+      "confusion": "Sua composição bicameral e sua função representativa não criam poder legislativo geral para qualquer parlamentar individual.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4e9b8c207d16f53a",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/32%20-%20comissao%20representativa%20do%20congresso%20resolucao%203%201990.md",
+        "locator": "Capítulo 35: Comissão Representativa do Congresso no recesso: Resolução nº 3/1990-CN · seção: Núcleo do conceito; fundamento: Constituição Federal, art. 58, § 4º; Resolução nº 3/1990-CN, arts. 1º–13."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-constitucional-35-comissao-representativa"
+      ],
+      "contrast": {
+        "prompt": "Como representa o Congresso durante o recesso, a Comissão Representativa pode deliberar qualquer projeto reservado aos Plenários?",
+        "answer": "Não. Só pode exercer as competências específicas e condicionadas previstas na Constituição e na Resolução nº 3/1990-CN."
+      }
+    },
+    {
+      "id": "camara-constitucional-38-cpi-requisitos-direitos",
+      "term": "CPI: requisitos de criação e objeto determinado",
+      "definition": "CPI é comissão temporária de investigação criada pela Câmara, pelo Senado ou em conjunto, com poderes investigatórios e limites constitucionais. A Constituição exige requerimento de um terço dos membros, fato determinado e prazo certo; a investigação não é condenação.",
+      "example": "Um terço dos parlamentares requer CPI para apurar contrato identificado durante prazo fixado; isso atende aos requisitos constitucionais de criação, sem antecipar culpa de investigados.",
+      "confusion": "CPI/CPMI não é tribunal, e a CPMI reúne parlamentares das duas Casas em comissão, não os Plenários em sessão conjunta.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-25e3bd6ae37991f6",
+        "section": "Núcleo do conceito: a função fiscalizatória por excelência do Parlamento"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/35%20-%20comissoes%20parlamentares%20de%20inquerito%20poderes%20e%20limites.md",
+        "locator": "Capítulo 38: Comissões Parlamentares de Inquérito (CPI e CPMI): criação, poderes instrutórios, limites constitucionais e jurisprudência do STF · seção: Núcleo do conceito: a função fiscalizatória por excelência do Parlamento; fundamento: Constituição Federal, art. 58, § 3º; Lei nº 1.579/1952."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-constitucional-38-cpi-requisitos-direitos"
+      ],
+      "contrast": {
+        "prompt": "A CPI foi requerida por um terço, delimita fato e prazo. A criação comprova que as pessoas citadas praticaram crime?",
+        "answer": "Não. Os requisitos criam a comissão para investigar; responsabilidade penal depende do devido processo e da autoridade competente."
+      }
+    },
+    {
+      "id": "camara-constitucional-39-especies-sancao",
+      "term": "Lei sujeita a sanção × decreto legislativo e resolução",
+      "definition": "Leis ordinárias e complementares seguem processo com deliberação do Legislativo e sanção ou veto presidencial, conforme a Constituição. Decreto legislativo e resolução são espécies normativas editadas pelo Legislativo em seus campos e não seguem a sanção presidencial do art. 66.",
+      "example": "Aprovado um projeto de lei ordinária, ele é enviado ao Presidente da República; aprovado projeto de decreto legislativo sobre competência congressual, não se encaminha para sanção presidencial.",
+      "confusion": "Projeto é proposta ainda em tramitação; espécie normativa final, competência, quórum e sanção dependem do tipo previsto na Constituição.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-da9726a3c994a6c6",
+        "section": "Núcleo do conceito: por que comparar as espécies legislativas?"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/36%20-%20especies%20legislativas%20comparacao%20por%20iniciativa%20quorum%20e%20efeito.md",
+        "locator": "Capítulo 39: Espécies legislativas: comparação sistemática por iniciativa, quórum, deliberação, sanção e efeitos (Constituição Federal, art. 59) · seção: Núcleo do conceito: por que comparar as espécies legislativas?; fundamento: Constituição Federal, arts. 59, 66 e 68; artigo “Espécies legislativas”, seções sobre sanção e veto."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-constitucional-39-especies-sancao"
+      ],
+      "contrast": {
+        "prompt": "Todo ato normativo aprovado no Congresso é enviado ao Presidente da República para sanção ou veto?",
+        "answer": "Não. Leis ordinária e complementar passam por sanção ou veto; decreto legislativo e resolução não são submetidos a essa etapa."
+      }
     }
   ]
 }

@@ -189,7 +189,7 @@
       "id": "loa",
       "term": "Lei Orçamentária Anual (LOA)",
       "definition": "Lei que estima receitas e fixa despesas para um exercício financeiro.",
-      "example": "Autorizar dotação anual para funcionamento de escolas.",
+      "example": "Na LOA de 2027, são estimados R$ 10 milhões em receitas e fixada dotação de R$ 2 milhões para reformar escolas. A dotação autoriza a despesa até esse limite; a obra ainda depende dos atos de execução.",
       "confusion": "Autorização orçamentária não significa caixa disponível nem pagamento realizado.",
       "topic": "Planejamento",
       "subjectIds": [
@@ -293,7 +293,7 @@
       "id": "credito-adicional",
       "term": "Crédito adicional",
       "definition": "Autorização de despesa não computada ou insuficientemente dotada na lei orçamentária.",
-      "example": "Reforçar o orçamento de uma ação durante o exercício.",
+      "example": "A LOA já tem dotação de R$ 500 mil para manutenção de escolas, mas a necessidade válida passa a R$ 650 mil. O valor adicional exige crédito que amplie a autorização; receber mais caixa, sozinho, não altera a dotação.",
       "confusion": "É uma alteração de autorização; não prova arrecadação ou pagamento.",
       "topic": "Créditos adicionais",
       "subjectIds": [
@@ -316,7 +316,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [],
       "contrast": {
         "prompt": "Foi aberto crédito adicional de 200. Isso prova que 200 foram arrecadados ou pagos?",
@@ -327,7 +327,7 @@
       "id": "suplementar",
       "term": "Crédito suplementar",
       "definition": "Crédito adicional destinado a reforçar dotação já existente.",
-      "example": "A manutenção de escolas tem dotação insuficiente e recebe reforço.",
+      "example": "A manutenção de escolas já tem dotação específica de R$ 500 mil, insuficiente para a necessidade atual; um crédito suplementar pode reforçar essa dotação, observadas autorização e fontes legais.",
       "confusion": "Especial atende despesa sem dotação específica.",
       "topic": "Créditos adicionais",
       "subjectIds": [
@@ -350,7 +350,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 4,
       "contrast": {
         "prompt": "Laboratório já tem dotação de R$ 2 milhões, mas necessita mais R$ 500 mil. Que crédito cabe?",
         "answer": "Suplementar, pois reforça dotação já existente. Sem dotação específica na LOA, seria especial."
@@ -363,7 +363,7 @@
       "id": "especial",
       "term": "Crédito especial",
       "definition": "Crédito adicional destinado a despesa sem dotação orçamentária específica.",
-      "example": "Autorizar uma ação não contemplada na LOA.",
+      "example": "A LOA não contém dotação para instalar um posto de atendimento criado por lei. Como não há dotação específica, a inclusão da despesa exige crédito especial; não basta usar um crédito suplementar de outra ação sem autorização adequada.",
       "confusion": "Ausência de dotação não demonstra urgência e imprevisibilidade.",
       "topic": "Créditos adicionais",
       "subjectIds": [
@@ -386,7 +386,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [
         "exclusividade-suplementar-vs-especial"
       ],
@@ -399,7 +399,7 @@
       "id": "extraordinario",
       "term": "Crédito extraordinário",
       "definition": "Crédito para despesas imprevisíveis e urgentes, como as decorrentes de guerra, comoção interna ou calamidade pública.",
-      "example": "Atender despesa imprevisível e urgente de uma calamidade.",
+      "example": "Uma enchente de grandes proporções destrói pontes e exige resposta imediata não previsível no orçamento. A despesa urgente e imprevisível pode justificar crédito extraordinário nos termos constitucionais; mera pressa para ampliar uma obra planejada não basta.",
       "confusion": "Pressa administrativa ou planejamento deficiente não bastam para caracterizá-lo.",
       "topic": "Créditos adicionais",
       "subjectIds": [
@@ -422,7 +422,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [],
       "contrast": {
         "prompt": "Órgão perdeu prazo de planejamento e precisa contratar rapidamente. Isso por si só autoriza crédito extraordinário?",
@@ -433,7 +433,7 @@
       "id": "superavit-financeiro",
       "term": "Superávit financeiro",
       "definition": "Diferença positiva entre ativo financeiro e passivo financeiro, com os ajustes legais, apurada no balanço patrimonial do exercício anterior.",
-      "example": "Saldo financeiro do balanço anterior pode apoiar abertura de crédito, observadas as condições legais.",
+      "example": "No balanço do ano anterior, o ativo financeiro supera o passivo financeiro em R$ 4 milhões, feitos os ajustes legais. Esse superávit apurado no balanço pode servir de recurso para crédito suplementar ou especial, observada a disponibilidade e as vinculações.",
       "confusion": "Não equivale ao resultado primário nem ao mero saldo bancário.",
       "topic": "Fontes para créditos",
       "subjectIds": [
@@ -456,7 +456,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [],
       "contrast": {
         "prompt": "O balanço anterior mostra saldo bancário positivo. Isso por si só define superávit financeiro para créditos adicionais?",
@@ -467,7 +467,7 @@
       "id": "excesso-arrecadacao",
       "term": "Excesso de arrecadação",
       "definition": "Saldo positivo das diferenças acumuladas entre arrecadação prevista e realizada, considerada a tendência do exercício, nos termos legais.",
-      "example": "A arrecadação realizada supera a previsão e a tendência confirma disponibilidade.",
+      "example": "No exercício corrente, a arrecadação acumulada supera a previsão em R$ 2 milhões e a tendência até dezembro confirma o excesso, após deduzidos créditos extraordinários e consideradas as demais regras. É um recurso do próprio exercício, diferente do superávit apurado no balanço anterior.",
       "confusion": "Superávit financeiro vem do balanço anterior; excesso se relaciona à arrecadação do exercício.",
       "topic": "Fontes para créditos",
       "subjectIds": [
@@ -490,7 +490,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [],
       "contrast": {
         "prompt": "Arrecadação do exercício supera previsão e há saldo financeiro do exercício anterior. São a mesma fonte de crédito?",
@@ -501,7 +501,7 @@
       "id": "empenho",
       "term": "Empenho",
       "definition": "Ato da autoridade competente que cria para o Estado obrigação de pagamento, pendente ou não de implemento de condição.",
-      "example": "Comprometer crédito para comprar computadores antes da entrega.",
+      "example": "O órgão reserva R$ 40 mil do crédito da LOA para comprar computadores e formaliza o empenho antes da entrega. Esse ato compromete o crédito e cria obrigação nos termos do empenho, mas ainda não comprova que os equipamentos chegaram ou que o fornecedor foi pago.",
       "confusion": "Empenhar não comprova entrega nem autoriza confundir o ato com pagamento.",
       "topic": "Estágios da despesa",
       "subjectIds": [
@@ -524,7 +524,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
         "prompt": "Empenho × liquidação: o que muda?",
         "answer": "Empenho compromete o crédito por ato competente. Liquidação verifica o direito do credor com base nos títulos e documentos da obrigação."
@@ -535,7 +535,7 @@
       "id": "ordinario",
       "term": "Empenho ordinário",
       "definition": "Empenho usado, em regra, para despesa de valor determinado e pagamento de uma só vez.",
-      "example": "Compra de equipamento de valor definido, paga em parcela única.",
+      "example": "A unidade compra 20 computadores por R$ 40 mil, com entrega e pagamento em parcela única. Como o valor é conhecido e a despesa não será parcelada, cabe em regra empenho ordinário.",
       "confusion": "Global combina valor conhecido e execução parcelada.",
       "topic": "Espécies de empenho",
       "subjectIds": [
@@ -558,7 +558,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Compra única com valor previamente conhecido, paga de uma vez. Empenho ordinário ou global?",
@@ -569,7 +569,7 @@
       "id": "global",
       "term": "Empenho global",
       "definition": "Empenho para despesas contratuais e outras de valor determinado sujeitas a parcelamento.",
-      "example": "Contrato de limpeza com valor total conhecido e parcelas mensais.",
+      "example": "Um contrato anual de limpeza custa R$ 240 mil, valor total conhecido, e prevê doze pagamentos mensais. O montante parcelado favorece empenho global, não estimativo.",
       "confusion": "Parcelamento não significa valor total incerto.",
       "topic": "Espécies de empenho",
       "subjectIds": [
@@ -592,7 +592,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Contrato tem total conhecido, mas pagamentos mensais. Deve ser empenho estimativo só por ser mensal?",
@@ -603,7 +603,7 @@
       "id": "estimativo",
       "term": "Empenho estimativo",
       "definition": "Empenho usado quando não é possível determinar previamente o montante da despesa.",
-      "example": "Conta de energia cujo consumo varia ao longo do exercício.",
+      "example": "O órgão estima R$ 90 mil para energia porque o consumo mensal varia e o total não pode ser conhecido previamente. O empenho é estimativo; a cada fatura, apura-se o valor efetivamente devido e ajusta-se o saldo.",
       "confusion": "O critério é incerteza do montante, e não apenas recorrência mensal.",
       "topic": "Espécies de empenho",
       "subjectIds": [
@@ -626,7 +626,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Conta de energia mensal tem valor final incerto. O que fundamenta empenho estimativo?",
@@ -671,7 +671,7 @@
       "id": "pagamento",
       "term": "Pagamento da despesa",
       "definition": "Entrega dos recursos ao credor após regular liquidação e ordem da autoridade competente.",
-      "example": "Transferir ao fornecedor o valor de bens entregues e conferidos.",
+      "example": "Após receber e conferir computadores, liquidar a obrigação e expedir a ordem de pagamento, o Tesouro transfere R$ 40 mil ao fornecedor. A saída financeira é pagamento; a conferência anterior é liquidação.",
       "confusion": "Liquidação verifica o direito; pagamento realiza a saída financeira.",
       "topic": "Estágios da despesa",
       "subjectIds": [
@@ -694,7 +694,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
         "prompt": "Liquidação × pagamento: conferir o direito do credor é desembolsar?",
         "answer": "Não. Liquidar é verificar o direito e o valor devido; pagar é efetuar a saída de recursos após a liquidação regular."
@@ -705,7 +705,7 @@
       "id": "previsao",
       "term": "Previsão da receita",
       "definition": "Estimativa de quanto se espera arrecadar, usada no planejamento e no orçamento.",
-      "example": "Estimar R$ 10 milhões em arrecadação anual de imposto.",
+      "example": "Na elaboração da LOA, a equipe estima arrecadar R$ 10 milhões de IPTU no ano seguinte. Essa previsão orienta o orçamento, mas não identifica ainda quanto cada contribuinte deve nem quanto será efetivamente recebido.",
       "confusion": "Prever não constitui crédito individual nem comprova recebimento.",
       "topic": "Estágios da receita",
       "subjectIds": [
@@ -728,7 +728,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "A LOA prevê receita tributária de 5 milhões. Há arrecadação ou crédito individual constituído por esse número?",
@@ -739,7 +739,7 @@
       "id": "lancamento",
       "term": "Lançamento da receita",
       "definition": "Ato da repartição competente que verifica a procedência do crédito fiscal, identifica o devedor e inscreve o débito.",
-      "example": "Identificar o contribuinte e o crédito de imposto devido.",
+      "example": "A prefeitura identifica quem deve IPTU, o imóvel e o valor lançado; isso constitui/identifica o crédito tributário, mas ainda não significa que o contribuinte pagou ou que houve arrecadação.",
       "confusion": "Nem toda receita passa por lançamento; ele não comprova pagamento.",
       "topic": "Estágios da receita",
       "subjectIds": [
@@ -773,7 +773,7 @@
       "id": "arrecadacao",
       "term": "Arrecadação da receita",
       "definition": "Recebimento do valor pelo agente arrecadador habilitado.",
-      "example": "O contribuinte paga um tributo ao banco arrecadador.",
+      "example": "O contribuinte paga R$ 1.200 de IPTU ao banco autorizado. O banco recebe o valor: ocorreu arrecadação; a posterior transferência do conjunto arrecadado ao Tesouro é recolhimento.",
       "confusion": "Recolhimento é a entrega dos valores arrecadados à tesouraria.",
       "topic": "Estágios da receita",
       "subjectIds": [
@@ -796,7 +796,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
         "prompt": "Arrecadação × recolhimento: qual é a diferença?",
         "answer": "Arrecadação: recebimento pelo agente arrecadador. Recolhimento: transferência do produto arrecadado à unidade de tesouraria."
@@ -807,7 +807,7 @@
       "id": "recolhimento",
       "term": "Recolhimento da receita",
       "definition": "Transferência dos valores arrecadados à unidade de tesouraria, observada a unidade de caixa.",
-      "example": "O banco transfere ao Tesouro o produto dos tributos recebidos.",
+      "example": "Depois de receber tributos, o agente arrecadador transfere os valores à Conta Única/unidade de tesouraria. A entrada paga pelo contribuinte foi arrecadação; a centralização na tesouraria é recolhimento.",
       "confusion": "A proximidade temporal não elimina a diferença em relação à arrecadação.",
       "topic": "Estágios da receita",
       "subjectIds": [
@@ -830,7 +830,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Tributo foi pago na rede arrecadadora e depois transferido à conta do Tesouro. Qual etapa é o recolhimento?",
@@ -841,7 +841,7 @@
       "id": "receita-orcamentaria",
       "term": "Receita orçamentária",
       "definition": "Ingresso classificado como receita na execução do orçamento, inclusive quando arrecadado sem previsão inicial.",
-      "example": "Arrecadação de tributo ou ingresso de empréstimo comum.",
+      "example": "O município recebe IPTU, que integra a receita orçamentária. Se recebe caução de licitante que deverá devolver ao fim do contrato, há ingresso temporário, não receita orçamentária só porque o dinheiro entrou em caixa.",
       "confusion": "Receita orçamentária não é sinônimo de aumento do patrimônio líquido.",
       "topic": "Ingressos",
       "subjectIds": [
@@ -864,7 +864,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 5,
       "conceptIds": [],
       "contrast": {
         "prompt": "Ente obtém empréstimo e ingressam recursos no caixa. É receita orçamentária e também VPA automaticamente?",
@@ -875,7 +875,7 @@
       "id": "ingresso-extra",
       "term": "Ingresso extraorçamentário",
       "definition": "Entrada temporária ou compensatória que não integra a receita orçamentária e geralmente gera obrigação de devolução ou repasse.",
-      "example": "Caução em dinheiro recebida de contratado.",
+      "example": "Um fornecedor deposita caução de R$ 10 mil para participar de licitação; o ente deverá devolvê-la se cumpridas as condições. O valor entra no caixa, mas é ingresso extraorçamentário, não receita disponível para financiar despesa.",
       "confusion": "Entrar no caixa não basta para ser receita orçamentária.",
       "topic": "Ingressos",
       "subjectIds": [
@@ -898,7 +898,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 5,
       "conceptIds": [],
       "contrast": {
         "prompt": "Órgão recebe caução que deverá restituir. Toda entrada de dinheiro é receita orçamentária?",
@@ -945,7 +945,7 @@
       "id": "restos-pagar",
       "term": "Restos a pagar (RP)",
       "definition": "Despesas empenhadas e não pagas até 31 de dezembro, distinguindo-se processadas e não processadas.",
-      "example": "Compra empenhada em dezembro com pagamento pendente no encerramento.",
+      "example": "A compra foi empenhada em dezembro, mas não foi paga até 31 de dezembro. Se inscrita conforme as regras, é resto a pagar; se já houve liquidação será processado, e se não houve será não processado.",
       "confusion": "Ambas as espécies pressupõem empenho.",
       "topic": "Encerramento",
       "subjectIds": [
@@ -968,7 +968,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [],
       "contrast": {
         "prompt": "Despesa foi empenhada até 31 de dezembro, mas não paga. Qual condição básica caracteriza restos a pagar?",
@@ -979,7 +979,7 @@
       "id": "rp-processados",
       "term": "Restos a pagar processados",
       "definition": "Despesas empenhadas e já liquidadas, mas não pagas até o encerramento do exercício.",
-      "example": "Equipamento entregue e liquidado em dezembro, com pagamento em janeiro.",
+      "example": "Uma unidade recebeu e conferiu o equipamento em dezembro, liquidou a despesa, mas não pagou até 31 de dezembro. O direito do credor já foi verificado: o resto a pagar é processado.",
       "confusion": "O direito do credor já foi verificado.",
       "topic": "Encerramento",
       "subjectIds": [
@@ -1002,7 +1002,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
         "prompt": "RP processados × não processados: qual estágio os separa?",
         "answer": "A liquidação. Ambos foram empenhados e ainda não pagos; processados já foram liquidados, não processados ainda não."
@@ -1013,7 +1013,7 @@
       "id": "rp-nao-processados",
       "term": "Restos a pagar não processados",
       "definition": "Despesas empenhadas e não pagas até o encerramento cuja liquidação ainda não foi concluída.",
-      "example": "Compra empenhada cuja entrega ainda não ocorreu em 31 de dezembro.",
+      "example": "A compra foi empenhada em dezembro, mas o fornecedor ainda não entregou os bens até 31 de dezembro. Sem liquidação concluída, o resto a pagar é não processado, observadas as condições para inscrição.",
       "confusion": "Não processado não significa ausência de empenho.",
       "topic": "Encerramento",
       "subjectIds": [
@@ -1036,7 +1036,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Despesa empenhada em dezembro ainda não foi liquidada. Pode ser RP não processado?",
@@ -1047,7 +1047,7 @@
       "id": "dea",
       "term": "Despesas de Exercícios Anteriores (DEA)",
       "definition": "Despesas relativas a exercícios encerrados, enquadradas nas hipóteses legais, pagas com dotação específica do orçamento atual.",
-      "example": "Compromisso de exercício encerrado reconhecido depois, enquadrado no art. 37.",
+      "example": "Um serviço foi prestado no exercício anterior, mas não houve empenho válido inscrito em restos a pagar. Se a obrigação for reconhecida e se enquadrar no art. 37 da Lei nº 4.320/1964, poderá ser paga como DEA com dotação própria do orçamento atual; não se inventa empenho retroativo.",
       "confusion": "RP mantém o empenho anterior; DEA usa dotação atual nas hipóteses do art. 37.",
       "topic": "Encerramento",
       "subjectIds": [
@@ -1070,7 +1070,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 4,
       "contrast": {
         "prompt": "RP × DEA: qual usa dotação do orçamento atual?",
         "answer": "DEA usa dotação específica atual, nas hipóteses legais. RP dá continuidade à despesa empenhada no exercício de origem."
@@ -1115,7 +1115,7 @@
       "id": "desembolso-extra",
       "term": "Desembolso extraorçamentário",
       "definition": "Saída financeira que não corresponde a nova despesa orçamentária do exercício do pagamento.",
-      "example": "Pagamento de RP relativo a empenho do ano anterior.",
+      "example": "Em janeiro, o Tesouro paga um resto a pagar inscrito no ano anterior. O pagamento movimenta caixa no ano atual, mas não cria nova despesa orçamentária nem novo empenho desse ano.",
       "confusion": "O RP teve origem orçamentária; seu pagamento não é um novo empenho do ano atual.",
       "topic": "Ótica financeira",
       "subjectIds": [
@@ -1138,7 +1138,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Ente paga RP de exercício anterior. Isso é novo empenho orçamentário no ano do pagamento?",
@@ -1149,7 +1149,7 @@
       "id": "programacao-financeira",
       "term": "Programação financeira",
       "definition": "Organização da execução financeira segundo o fluxo de receitas, a disponibilidade de recursos e as obrigações a pagar.",
-      "example": "Ajustar o ritmo de pagamentos dos órgãos às entradas previstas.",
+      "example": "Um órgão tem dotações em janeiro, mas recebe repasses financeiros ao longo do ano. A programação distribui quando poderá pagar as despesas liquidadas, alinhando o fluxo de caixa às obrigações e receitas previstas.",
       "confusion": "É atividade normal de execução, mesmo sem frustração de arrecadação.",
       "topic": "Programação",
       "subjectIds": [
@@ -1172,7 +1172,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [
         "dotacao-vs-disponibilidade-financeira"
       ],
@@ -1185,7 +1185,7 @@
       "id": "cronograma",
       "term": "Cronograma de execução mensal de desembolso",
       "definition": "Instrumento que organiza o ritmo mensal das saídas financeiras previstas na execução orçamentária.",
-      "example": "Distribuir os pagamentos previstos ao longo dos meses.",
+      "example": "Uma secretaria estima pagamentos de R$ 120 mil em janeiro, R$ 80 mil em fevereiro e R$ 100 mil em março. O cronograma mensal distribui saídas previstas; não é a meta bimestral de arrecadação.",
       "confusion": "É mensal e trata de saídas; metas de arrecadação são bimestrais.",
       "topic": "Programação",
       "subjectIds": [
@@ -1208,7 +1208,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [],
       "contrast": {
         "prompt": "Órgão publica metas de arrecadação bimestrais e calendário mensal de pagamentos. Qual instrumento organiza saídas mensais?",
@@ -1219,7 +1219,7 @@
       "id": "contingenciamento",
       "term": "Contingenciamento",
       "definition": "Limitação de empenho e movimentação financeira diante de risco ao cumprimento das metas fiscais, conforme art. 9º da LRF.",
-      "example": "A arrecadação indica risco à meta e são editados atos de limitação.",
+      "example": "Na avaliação bimestral, a receita projetada cai e ameaça a meta fiscal. O Poder Executivo limita empenhos e movimentação financeira nos termos do art. 9º da LRF; a dotação não é automaticamente cancelada.",
       "confusion": "Limitar empenho não anula automaticamente a dotação.",
       "topic": "Programação",
       "subjectIds": [
@@ -1242,7 +1242,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 3,
       "contrast": {
         "prompt": "Contingenciamento × anulação de dotação: produzem o mesmo efeito?",
         "answer": "Não. Contingenciamento restringe a execução; anulação reduz a autorização orçamentária."
@@ -1253,7 +1253,7 @@
       "id": "unidade",
       "term": "Princípio da unidade orçamentária",
       "definition": "Orienta a integração das peças orçamentárias de um mesmo ente em um sistema coerente.",
-      "example": "A LOA federal integra três orçamentos previstos na Constituição.",
+      "example": "A LOA federal reúne orçamento fiscal, orçamento da seguridade social e orçamento de investimento das estatais abrangidas. São três esferas dentro de uma lei integrada, não três leis orçamentárias independentes.",
       "confusion": "Não exige eliminar a separação informacional entre fiscal, seguridade e investimento.",
       "topic": "Princípios",
       "subjectIds": [
@@ -1276,7 +1276,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [],
       "contrast": {
         "prompt": "LOA contém orçamentos fiscal, da seguridade e de investimento. Isso viola unidade orçamentária?",
@@ -1287,7 +1287,7 @@
       "id": "universalidade",
       "term": "Princípio da universalidade",
       "definition": "Exige a inclusão das receitas e despesas abrangidas pela lei orçamentária, conforme as regras aplicáveis.",
-      "example": "Receitas e despesas dos órgãos são evidenciadas no orçamento.",
+      "example": "A LOA registra a receita de impostos e as despesas dos órgãos. Uma caução de licitante recebida temporariamente, que deverá ser devolvida, não vira receita orçamentária apenas por entrar no caixa.",
       "confusion": "A abrangência não transforma cauções temporárias em receita orçamentária.",
       "topic": "Princípios",
       "subjectIds": [
@@ -1310,7 +1310,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [
         "universalidade-abrangencia-sem-limite-valor"
       ],
@@ -1323,7 +1323,7 @@
       "id": "anualidade",
       "term": "Princípio da anualidade",
       "definition": "A autorização orçamentária tem como referência um exercício financeiro, que coincide com o ano civil.",
-      "example": "A LOA de um ano autoriza a programação daquele exercício.",
+      "example": "A LOA de 2027 autoriza a programação daquele exercício. Uma obra plurianual pode continuar, mas os gastos de 2028 precisam de autorização orçamentária válida para 2028, ressalvadas as exceções legais.",
       "confusion": "Ações podem durar vários anos; cada exercício tem autorização própria.",
       "topic": "Princípios",
       "subjectIds": [
@@ -1346,7 +1346,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [],
       "contrast": {
         "prompt": "PPA estabelece projeto de quatro anos. A autorização para gastar independe de LOA anual?",
@@ -1357,7 +1357,7 @@
       "id": "orcamento-bruto",
       "term": "Princípio do orçamento bruto",
       "definition": "Receitas e despesas devem constar pelos valores totais, sem deduções que ocultem os fluxos.",
-      "example": "Evidenciar a receita total e, separadamente, a transferência devida a outro ente.",
+      "example": "Se o município arrecada R$ 100 mil e deve repassar R$ 25 mil a outro ente, evidencia a receita bruta de R$ 100 mil e a despesa/transferência de R$ 25 mil separadamente, em vez de apresentar apenas o saldo líquido de R$ 75 mil.",
       "confusion": "Universalidade trata da inclusão; orçamento bruto trata da apresentação pelos totais.",
       "topic": "Princípios",
       "subjectIds": [
@@ -1380,7 +1380,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [
         "orcamento-bruto-registro-integral"
       ],
@@ -1393,7 +1393,7 @@
       "id": "especificacao",
       "term": "Princípio da especificação",
       "definition": "Orienta discriminar a despesa, evitando dotações globais indiferenciadas, ressalvadas as hipóteses legais.",
-      "example": "Separar dotações por objetos e finalidades em vez de um valor indistinto para qualquer gasto.",
+      "example": "Em vez de uma dotação única de R$ 5 milhões para qualquer necessidade da secretaria, o orçamento discrimina valores por programas e objetos; a discriminação permite identificar a finalidade, respeitadas as exceções legais.",
       "confusion": "Não se confunde com anualidade ou exclusividade.",
       "topic": "Princípios",
       "subjectIds": [
@@ -1416,7 +1416,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [],
       "contrast": {
         "prompt": "LOA registra dotação ampla sem detalhamento suficiente. A crítica central é anualidade ou especificação?",
@@ -1450,7 +1450,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 4,
       "conceptIds": [
         "exclusividade-suplementar-vs-especial"
       ],
@@ -1463,7 +1463,7 @@
       "id": "receitas-correntes",
       "term": "Receitas correntes",
       "definition": "Categoria econômica que inclui tributos, contribuições, receitas patrimoniais, serviços e transferências destinadas a despesas correntes, entre outras.",
-      "example": "Arrecadação de imposto e receita de aluguel de imóvel público.",
+      "example": "O município arrecada IPTU e recebe aluguel mensal de um imóvel público: são receitas correntes, uma tributária e outra patrimonial. A classificação como corrente decorre da natureza econômica, não da frequência mensal do recebimento.",
       "confusion": "Corrente é classificação econômica pela natureza da receita, e não sinônimo de arrecadação frequente, mensal ou obrigatoriamente primária.",
       "topic": "Classificações",
       "subjectIds": [
@@ -1486,7 +1486,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 3,
+      "revision": 4,
       "conceptIds": [],
       "contrast": {
         "prompt": "Receita de aluguel recebida uma só vez e venda de imóveis repetida mensalmente: a frequência define qual é corrente?",
@@ -1497,7 +1497,7 @@
       "id": "receitas-capital",
       "term": "Receitas de capital",
       "definition": "Categoria que inclui operações de crédito, alienações de bens, amortização de empréstimos concedidos e transferências de capital.",
-      "example": "Venda de imóvel público ou ingresso de empréstimo comum.",
+      "example": "O ente vende um terreno e recebe amortização do principal de empréstimo que havia concedido: ambas são receitas de capital. Aluguel do mesmo terreno, enquanto ele continua público, é receita patrimonial corrente.",
       "confusion": "Receita de capital não é necessariamente aumento do patrimônio líquido.",
       "topic": "Classificações",
       "subjectIds": [
@@ -1520,7 +1520,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [
         "receita-capital-alienacao-vs-destinacao"
       ],
@@ -1533,7 +1533,7 @@
       "id": "alienacao",
       "term": "Alienação de bens",
       "definition": "Receita obtida com a venda de bens ou direitos do patrimônio público, classificada como receita de capital.",
-      "example": "O ente vende um terreno e recebe o preço.",
+      "example": "O município vende definitivamente um terreno e recebe o preço: classifica a entrada como receita de capital por alienação de bens. Se apenas alugar o terreno, a receita é patrimonial corrente; a frequência do recebimento não muda a venda em aluguel.",
       "confusion": "Alugar um imóvel gera receita patrimonial corrente; vendê-lo gera receita de alienação.",
       "topic": "Classificações",
       "subjectIds": [
@@ -1556,7 +1556,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [
         "receita-capital-alienacao-vs-destinacao"
       ],
@@ -1569,7 +1569,7 @@
       "id": "amortizacao-emprestimo",
       "term": "Amortização de empréstimos concedidos",
       "definition": "Recebimento do principal de empréstimos que o ente havia concedido.",
-      "example": "O município recebe de volta parte do principal emprestado.",
+      "example": "O município havia emprestado R$ 1 milhão a uma entidade e recebe R$ 100 mil de volta como principal. Para o município credor, é receita de capital por amortização de empréstimo concedido; pagar o principal da própria dívida é despesa.",
       "confusion": "É receita para o credor; pagar principal da própria dívida é despesa para o devedor.",
       "topic": "Classificações",
       "subjectIds": [
@@ -1592,7 +1592,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Ente recebe principal de empréstimo que concedeu ou paga principal da própria dívida. Ambos são receita?",
@@ -1603,7 +1603,7 @@
       "id": "institucional",
       "term": "Classificação institucional da despesa",
       "definition": "Identifica quem é responsável pela programação orçamentária, por órgão e unidade orçamentária.",
-      "example": "Identificar o ministério e a unidade que recebem a dotação.",
+      "example": "Uma compra de computadores é responsabilidade do Ministério da Saúde e fica na unidade orçamentária indicada para executar a programação. Essa informação identifica quem responde pelo orçamento; não diz, por si, se o gasto é da função Saúde nem qual bem será comprado.",
       "confusion": "Quem é institucional; em qual área é funcional.",
       "topic": "Classificações",
       "subjectIds": [
@@ -1626,7 +1626,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 3,
+      "revision": 4,
       "conceptIds": [
         "classificacao-institucional-vs-programatica"
       ],
@@ -1639,7 +1639,7 @@
       "id": "funcional",
       "term": "Classificação funcional da despesa",
       "definition": "Agrupa a despesa por área de atuação governamental, em função e subfunção.",
-      "example": "Classificar a despesa na área Saúde.",
+      "example": "Computadores destinados à gestão hospitalar podem ser classificados na função Saúde e na subfunção correspondente à finalidade da ação. Essa lente identifica a área e o segmento da política, não o órgão comprador ou o elemento do gasto.",
       "confusion": "Não identifica o órgão responsável nem o objeto comprado.",
       "topic": "Classificações",
       "subjectIds": [
@@ -1662,7 +1662,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Função Saúde × programa de imunização: qual é funcional?",
@@ -1673,7 +1673,7 @@
       "id": "projeto",
       "term": "Projeto orçamentário",
       "definition": "Ação delimitada no tempo que contribui para expandir ou aperfeiçoar a atuação governamental.",
-      "example": "Construção de uma escola.",
+      "example": "Construir uma nova escola em três anos é ação com duração delimitada e entrega que expande a atuação: projeto. Pode incluir despesas correntes necessárias à execução; o nome “projeto” não obriga todos os gastos ao GND 4.",
       "confusion": "Projeto é um tipo de ação programática; não exige que todas as despesas estejam no GND 4 (Investimentos).",
       "topic": "Classificações",
       "subjectIds": [
@@ -1696,7 +1696,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-05",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [
         "projeto-acao-vs-gnd-investimento"
       ],
@@ -1709,7 +1709,7 @@
       "id": "atividade",
       "term": "Atividade orçamentária",
       "definition": "Ação contínua e permanente destinada à manutenção da atuação governamental.",
-      "example": "Funcionamento regular de escolas.",
+      "example": "Manter aulas, equipes e serviços de uma escola já aberta é ação contínua necessária à manutenção da atuação pública: atividade. Construir uma nova unidade com começo e fim definidos caracteriza projeto.",
       "confusion": "Projeto tem duração delimitada.",
       "topic": "Classificações",
       "subjectIds": [
@@ -1732,7 +1732,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
         "prompt": "Projeto × atividade: construir e manter uma escola são o mesmo tipo de ação?",
         "answer": "Construir a escola exemplifica projeto; manter seu funcionamento exemplifica atividade."
@@ -1743,7 +1743,7 @@
       "id": "operacao-especial",
       "term": "Operação especial",
       "definition": "Ação cujas despesas não geram diretamente bem ou serviço típico da ação produtiva estatal.",
-      "example": "Programação de serviço da dívida.",
+      "example": "Reservar dotação para amortizar o principal da dívida pública é operação especial: não gera diretamente um bem ou serviço típico da ação produtiva estatal. Não se confunde com contratar um empréstimo novo.",
       "confusion": "Não significa uma operação de crédito nem uma emergência.",
       "topic": "Classificações",
       "subjectIds": [
@@ -1766,7 +1766,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Ação orçamentária paga encargos da dívida sem produto direto à sociedade. É projeto por envolver valor alto?",
@@ -1777,7 +1777,7 @@
       "id": "gnd",
       "term": "Grupo de Natureza da Despesa (GND)",
       "definition": "Agrupamento econômico da despesa por características comuns do gasto, como pessoal, juros, investimentos ou amortização da dívida.",
-      "example": "Equipamento pode integrar o GND Investimentos.",
+      "example": "Uma obra de construção pode ser classificada no GND 4 – Investimentos; pagar juros do financiamento é GND 2 – Juros e Encargos da Dívida. O grupo identifica a natureza econômica do gasto, não o tipo de ação nem quem recebe os recursos.",
       "confusion": "GND classifica o gasto por grupo econômico; projeto é tipo de ação e não obriga GND 4 (Investimentos).",
       "topic": "Classificações",
       "subjectIds": [
@@ -1800,7 +1800,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 4,
+      "revision": 5,
       "conceptIds": [
         "gnd-vs-elemento-vs-fonte",
         "projeto-acao-vs-gnd-investimento"
@@ -1814,7 +1814,7 @@
       "id": "elemento",
       "term": "Elemento de despesa",
       "definition": "Nível da natureza da despesa que identifica o objeto do gasto.",
-      "example": "Equipamentos e material permanente identifica o objeto adquirido.",
+      "example": "A compra de computadores é registrada no elemento Equipamentos e Material Permanente, que identifica o objeto adquirido. A classificação não informa se o ministério aplicou diretamente o dinheiro ou o transferiu ao município.",
       "confusion": "Modalidade de aplicação indica a forma de aplicação ou transferência, não o objeto.",
       "topic": "Classificações",
       "subjectIds": [
@@ -1837,7 +1837,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [
         "gnd-vs-elemento-vs-fonte"
       ],
@@ -1850,7 +1850,7 @@
       "id": "amortizacao-divida",
       "term": "Amortização da dívida",
       "definition": "Despesa com redução do principal da dívida pública, classificada como despesa de capital.",
-      "example": "Pagar uma parcela do principal de financiamento.",
+      "example": "O ente paga R$ 2 milhões do principal de um financiamento: é amortização da dívida, despesa de capital. Os juros pagos pelo mesmo contrato são despesa corrente, em GND distinto.",
       "confusion": "Juros e encargos são despesas correntes; amortização do principal é de capital.",
       "topic": "Classificações",
       "subjectIds": [
@@ -1873,7 +1873,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Principal da dívida × juros: qual despesa é de capital?",
@@ -3044,7 +3044,7 @@
       "id": "despesa-orcamentaria",
       "term": "Despesa orçamentária",
       "definition": "Despesa cuja realização depende de autorização orçamentária e é executada mediante os estágios pertinentes.",
-      "example": "Compra de computadores empenhada em dotação da LOA.",
+      "example": "O órgão empenha R$ 40 mil para comprar computadores com dotação da LOA e paga após a entrega e liquidação: a compra é despesa orçamentária. O pagamento de restos a pagar de outro ano é saída de caixa atual sem novo empenho do exercício.",
       "confusion": "Pagar restos a pagar de ano anterior é desembolso extraorçamentário no ano do pagamento; a despesa original foi orçamentária.",
       "topic": "Estágios da despesa",
       "subjectIds": [
@@ -3067,7 +3067,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Ente paga RP antigo e realiza empenho novo. Ambos representam despesa orçamentária nova neste exercício?",
@@ -7480,7 +7480,7 @@
       "id": "classificacao-programatica",
       "term": "Classificação programática da despesa",
       "definition": "Identifica o programa, a ação e o subtítulo vinculados à política pública.",
-      "example": "Programa hipotético de imunização e ação de vacinação.",
+      "example": "Um programa busca ampliar a imunização; uma ação organiza a vacinação e um subtítulo localiza a entrega por território ou público. A classificação programática descreve o que o governo pretende fazer, não qual órgão responde pelo crédito.",
       "confusion": "Secretaria executora integra a lente institucional; ação integra a programática.",
       "topic": "Classificações",
       "subjectIds": [
@@ -7503,7 +7503,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 3,
       "contrast": {
         "prompt": "Em uma ação de apoio à permanência estudantil, o programa e a ação pertencem a qual classificação? E quem recebe a dotação?",
         "answer": "Programa e ação: programática. Órgão e unidade orçamentária que respondem pela dotação: institucional."
@@ -7516,7 +7516,7 @@
       "id": "categoria-economica-despesa",
       "term": "Categoria econômica da despesa",
       "definition": "Primeiro nível da natureza da despesa: correntes ou de capital.",
-      "example": "Compra de papel: corrente; construção de laboratório: capital.",
+      "example": "Pagar energia e comprar papel são despesas correntes; construir um laboratório é despesa de capital. O critério é o efeito/natureza econômica do gasto, não seu preço ou frequência.",
       "confusion": "Corrente não significa frequente; capital não significa gasto caro.",
       "topic": "Classificações",
       "subjectIds": [
@@ -7539,7 +7539,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
         "prompt": "Qual lente diferencia corrente de capital: esfera ou natureza?",
         "answer": "Natureza da despesa, no nível categoria econômica. Esfera distingue fiscal, seguridade e estatais."
@@ -7552,7 +7552,7 @@
       "id": "gnd-pessoal-encargos-sociais",
       "term": "Pessoal e Encargos Sociais (GND 1)",
       "definition": "Grupo de despesas correntes com pessoal e respectivos encargos sociais.",
-      "example": "Remuneração e encargos sociais de servidores.",
+      "example": "A remuneração de servidores ativos e os encargos sociais correspondentes integram, em regra, o GND 1 – Pessoal e Encargos Sociais. A compra de material de consumo da mesma unidade fica em outro grupo.",
       "confusion": "É um GND, não o elemento que detalha a despesa.",
       "topic": "Classificações",
       "subjectIds": [
@@ -7575,7 +7575,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Folha salarial é registrada no GND 1. Isso identifica necessariamente o elemento específico da despesa?",
@@ -7586,7 +7586,7 @@
       "id": "gnd-juros-encargos-divida",
       "term": "Juros e Encargos da Dívida (GND 2)",
       "definition": "Grupo de despesas correntes referentes a juros e encargos da dívida.",
-      "example": "Pagar juros de financiamento contratado pelo ente.",
+      "example": "O ente paga juros de um financiamento: a despesa integra o GND 2 – Juros e Encargos da Dívida. A parcela que reduz o principal é amortização, classificada no GND 6, não em juros.",
       "confusion": "O pagamento do principal da dívida é amortização: despesa de capital.",
       "topic": "Classificações",
       "subjectIds": [
@@ -7609,7 +7609,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
         "prompt": "Juros de empréstimo × devolução do principal: quais categorias?",
         "answer": "Juros e encargos: despesa corrente, GND 2. Amortização do principal: capital, GND 6."
@@ -7620,7 +7620,7 @@
       "id": "gnd-outras-despesas-correntes",
       "term": "Outras Despesas Correntes (GND 3)",
       "definition": "Grupo de despesas correntes que inclui materiais de consumo e serviços de custeio, entre outros.",
-      "example": "Comprar seringas descartáveis para uma ação de vacinação.",
+      "example": "Uma unidade compra seringas descartáveis para vacinação: o gasto é corrente e integra em regra o GND 3 – Outras Despesas Correntes. Construir um posto de saúde é investimento, em GND 4.",
       "confusion": "É grupo da natureza; material de consumo é elemento.",
       "topic": "Classificações",
       "subjectIds": [
@@ -7643,7 +7643,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Aquisição de material de consumo pertence ao GND 3. Material de consumo também é um GND?",
@@ -7654,7 +7654,7 @@
       "id": "gnd-investimentos",
       "term": "Investimentos (GND 4)",
       "definition": "Grupo de despesas de capital que inclui obras, instalações e equipamentos, entre outras hipóteses.",
-      "example": "Construir um laboratório em universidade federal.",
+      "example": "Uma universidade constrói um laboratório novo: a obra é investimento, classificada no GND 4. A compra de imóvel pronto sem relação com execução de obra pode ser inversão financeira, conforme o caso.",
       "confusion": "O GND Investimentos não determina orçamento de investimento das estatais.",
       "topic": "Classificações",
       "subjectIds": [
@@ -7677,7 +7677,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
         "prompt": "Obra em universidade federal: GND e esfera orçamentária?",
         "answer": "GND Investimentos (capital); esfera fiscal da LOA, em regra."
@@ -7725,7 +7725,7 @@
       "id": "modalidade-aplicacao-despesa",
       "term": "Modalidade de aplicação da despesa",
       "definition": "Terceiro nível da natureza: indica como os recursos serão aplicados ou transferidos.",
-      "example": "Aplicação direta pelo ministério ou transferência ao município.",
+      "example": "O ministério compra diretamente equipamentos para seu hospital, ou transfere recursos para um município comprá-los. A modalidade de aplicação diferencia o fluxo de aplicação do recurso; o elemento continua identificando os equipamentos.",
       "confusion": "Não é GND, elemento nem modalidade de licitação.",
       "topic": "Classificações",
       "subjectIds": [
@@ -7748,7 +7748,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "contrast": {
         "prompt": "Em uma transferência a município destinada à compra de equipamentos, o termo 'município' identifica objeto da despesa ou forma de aplicação?",
         "answer": "Forma de aplicação dos recursos (modalidade). O objeto adquirido é descrito pelo elemento; o GND descreve o grupo econômico."
@@ -7759,7 +7759,7 @@
       "id": "modalidade-aplicacoes-diretas",
       "term": "Aplicações Diretas: modalidade de aplicação",
       "definition": "Modalidade em que a unidade executora aplica diretamente os recursos em suas despesas.",
-      "example": "Ministério compra seringas diretamente para suas unidades.",
+      "example": "O ministério compra seringas para suas próprias unidades e paga o fornecedor: aplica diretamente os recursos (modalidade 90). Se transferisse os recursos a um município para a compra, o fluxo seria classificado como transferência.",
       "confusion": "Aplicação direta não significa GND Investimentos.",
       "topic": "Classificações",
       "subjectIds": [
@@ -7782,7 +7782,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
         "prompt": "Ministério compra material de consumo: modalidade e elemento?",
         "answer": "Modalidade: aplicações diretas. Elemento: material de consumo."
@@ -7793,8 +7793,42 @@
       "id": "modalidade-transferencias-municipios",
       "term": "Transferências a Municípios: modalidade",
       "definition": "Indica aplicação por transferência de recursos a municípios pelo ente transferidor.",
-      "example": "União transfere recursos para um município executar uma ação.",
+      "example": "A União transfere recursos a um município para executar ação local: registra a modalidade de aplicação correspondente à transferência a municípios (código definido pelas regras orçamentárias). O município registra o ingresso segundo sua classificação de receita.",
       "confusion": "É modalidade da despesa do transferidor; difere da receita recebida pelo município.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-3f9d17a6c04b4e82",
+        "section": "Natureza da despesa: categoria, grupo, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 3,
+      "contrast": {
+        "prompt": "Transferência da União a município para financiar obra: na União é modalidade da despesa; no município, qual origem da receita?",
+        "answer": "A classificação do ingresso no município pode ser transferência de capital, conforme a destinação. São perspectivas e classificadores diferentes."
+      },
+      "conceptIds": []
+    },
+    {
+      "id": "elemento-material-consumo",
+      "term": "Material de Consumo: elemento de despesa",
+      "definition": "Elemento que identifica a compra de materiais usados ou consumidos nas atividades.",
+      "example": "Uma unidade compra papel e seringas descartáveis, que são consumidos no uso: elemento Material de Consumo. Computadores que mantêm identidade e vida útil além do uso imediato são, em regra, material permanente.",
+      "confusion": "É elemento, não modalidade de aplicação nem GND.",
       "topic": "Classificações",
       "subjectIds": [
         "orcamento-publico"
@@ -7818,40 +7852,6 @@
       "reviewedAt": "2026-11-04",
       "revision": 2,
       "contrast": {
-        "prompt": "Transferência da União a município para financiar obra: na União é modalidade da despesa; no município, qual origem da receita?",
-        "answer": "A classificação do ingresso no município pode ser transferência de capital, conforme a destinação. São perspectivas e classificadores diferentes."
-      },
-      "conceptIds": []
-    },
-    {
-      "id": "elemento-material-consumo",
-      "term": "Material de Consumo: elemento de despesa",
-      "definition": "Elemento que identifica a compra de materiais usados ou consumidos nas atividades.",
-      "example": "Seringas descartáveis e papel de escritório.",
-      "confusion": "É elemento, não modalidade de aplicação nem GND.",
-      "topic": "Classificações",
-      "subjectIds": [
-        "orcamento-publico"
-      ],
-      "examIds": [
-        "cgu-2026"
-      ],
-      "editalRefs": [
-        "P3.2.2"
-      ],
-      "note": {
-        "articleId": "art-3f9d17a6c04b4e82",
-        "section": "Natureza da despesa: categoria, grupo, modalidade e elemento"
-      },
-      "source": {
-        "title": "Manual Técnico de Orçamento (MTO 2026)",
-        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
-        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
-      },
-      "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "contrast": {
         "prompt": "Compra direta de seringas: qual GND, modalidade e elemento?",
         "answer": "Outras Despesas Correntes; Aplicações Diretas; Material de Consumo."
       },
@@ -7863,7 +7863,7 @@
       "id": "elemento-equipamento-permanente",
       "term": "Equipamentos e Material Permanente: elemento",
       "definition": "Elemento destinado à aquisição de equipamentos e materiais permanentes.",
-      "example": "Compra de computadores para laboratório.",
+      "example": "A universidade compra computadores duráveis para o laboratório: o elemento identifica Equipamentos e Material Permanente. Se comprar papel para imprimir os relatórios, muda o objeto e muda o elemento, ainda que a ação seja a mesma.",
       "confusion": "Elemento descreve o objeto; grupo Investimentos é um nível anterior.",
       "topic": "Classificações",
       "subjectIds": [
@@ -7886,7 +7886,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
         "prompt": "Computadores novos: elemento e GND mais usuais?",
         "answer": "Equipamentos e Material Permanente; GND Investimentos."
@@ -13829,9 +13829,9 @@
     {
       "id": "camara-orc01-autorizacao-obrigatoria-emendas",
       "term": "Autorização orçamentária e execução obrigatória",
-      "definition": "A dotação da LOA autoriza a realização de determinada despesa; algumas programações, como emendas sujeitas ao regime constitucional de execução obrigatória, também impõem dever de executar, observados requisitos e impedimentos técnicos e legais.",
-      "example": "Uma programação parlamentar que satisfaz os requisitos pode exigir execução, mas um impedimento técnico devidamente caracterizado afeta a obrigação nos termos constitucionais.",
-      "confusion": "Não é correto afirmar que toda dotação depende apenas da escolha livre do gestor; também não se pode concluir que toda dotação deva ser paga imediatamente, sem requisitos ou exceções.",
+      "definition": "A LOA autoriza a despesa até o limite da dotação. “Execução obrigatória” é outro sentido: a Constituição impõe executar certas programações de emendas individuais e de bancada, dentro dos limites e condições aplicáveis. Não significa pagar toda despesa da LOA nem toda emenda.",
+      "example": "Exemplo: uma emenda individual aprovada destina R$ 250 mil a equipamentos de uma unidade de saúde municipal. A programação abrangida pelo regime impositivo deve ser executada conforme as regras; se faltar requisito técnico indispensável, como projeto apto à aquisição/instalação, o impedimento deve ser formalmente tratado.",
+      "confusion": "Não confunda com despesa obrigatória por força de lei, como benefício previdenciário devido a quem cumpre os requisitos. Aqui “obrigatória” qualifica a execução de certas programações orçamentárias; aprovação não equivale a pagamento, e impedimentos técnicos ou legais podem afastar o dever nos termos normativos.",
       "topic": "Autorização",
       "subjectIds": [
         "orcamento-publico"
@@ -13844,22 +13844,22 @@
       ],
       "status": "validated",
       "reviewedAt": "2026-11-27",
-      "revision": 1,
+      "revision": 2,
       "note": {
-        "articleId": "art-f6cfe9fbcc764554",
-        "section": "Tensões e pegadinhas"
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas impositivas: obrigatoriedade condicionada"
       },
       "source": {
         "title": "Constituição Federal de 1988",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
-        "locator": "Constituição Federal, art. 166, §§ 9º a 20"
+        "locator": "Constituição Federal, art. 166, §§ 11 a 14 (execução obrigatória e impedimentos); para despesas legalmente obrigatórias, distinção conceitual com LRF, art. 17."
       },
       "conceptIds": [
         "autorizacao-vs-execucao-obrigatoria"
       ],
       "contrast": {
-        "prompt": "Uma dotação de emenda está sujeita à execução obrigatória, mas há impedimento técnico formal. A regra torna irrelevante verificar o impedimento?",
-        "answer": "Não. A obrigação de executar está sujeita aos requisitos e impedimentos constitucionais e legais; deve-se verificar o procedimento aplicável ao impedimento."
+        "prompt": "Uma emenda de comissão foi aprovada na LOA e destina verba à saúde. Só por ser uma despesa de saúde aprovada, ela integra automaticamente o regime constitucional de execução obrigatória?",
+        "answer": "Não. É preciso identificar a modalidade da emenda e o regime constitucional aplicável; a garantia do art. 166 alcança programações de emendas individuais e de bancada nos limites e condições previstos. A classificação da ação como saúde, por si só, não torna toda despesa impositiva."
       }
     },
     {
@@ -16853,9 +16853,9 @@
     {
       "id": "camara-orc08-funcao-subfuncao-matricialidade",
       "term": "Classificação funcional: função e subfunção",
-      "definition": "Função indica a área ampla de atuação do gasto e subfunção detalha um segmento dessa área. A subfunção pode, em regra, combinar-se matricialmente com função diferente da associação usual, conforme as regras aplicáveis.",
-      "example": "Uma subfunção de apoio a determinada atividade pode ser vinculada à função que corresponde ao objetivo da programação, observada a combinação funcional permitida.",
-      "confusion": "Subfunção e função têm relação classificatória, mas não se exige vínculo exclusivo com sua associação original; a matricialidade admite combinações.",
+      "definition": "A função (2 primeiros dígitos) é a área ampla de atuação governamental; a subfunção (3 últimos) detalha a natureza da atuação. A lista geral tem funções 01–28; o código 99 identifica reservas em classificações próprias. A Portaria SOF/MPO 169/2024 atualizou subfunções, com efeitos desde 2025.",
+      "example": "A Câmara dos Deputados oferece assistência pré-escolar aos dependentes de servidores: função 01 – Legislativa + subfunção 365 – Educação Infantil. É combinação matricial expressamente exemplificada pelo MTO; o nome da subfunção não obriga a função 12 – Educação.",
+      "confusion": "A matricialidade permite associar uma subfunção a função diferente da associação usual, mas a função 28 – Encargos Especiais exige suas subfunções próprias e não admite essa combinação. Confira a tabela vigente: a Portaria SOF/MPO 169/2024 mudou códigos e nomes de subfunções.",
       "topic": "Despesa",
       "subjectIds": [
         "orcamento-publico"
@@ -16871,9 +16871,9 @@
         "section": "Classificação funcional: função × subfunção"
       },
       "source": {
-        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
-        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
-        "locator": "MTO 2026, capítulo 4, estrutura funcional e matricialidade"
+        "title": "MTO 2026, capítulo 4; Portaria SOF/MPO nº 169/2024",
+        "url": "https://www.gov.br/transportes/pt-br/assuntos/orcamento-e-gestao/copy_of_relatorios-orcamentarios/PORTARIASOFMPON169DE12DEJUNHODE2024.pdf/@@display-file/file",
+        "locator": "MTO, capítulo 4, itens 4.4.1–4.4.2 (conceito e exemplo da Câmara); Portaria 169/2024, Anexo (tabela atualizada, efeitos desde 2025); Portaria 42/1999, arts. 1º e 3º"
       },
       "status": "validated",
       "reviewedAt": "2026-11-27",
@@ -16882,8 +16882,8 @@
         "funcao-subfuncao-matricialidade"
       ],
       "contrast": {
-        "prompt": "A subfunção Educação Infantil só pode aparecer sob uma única função por associação histórica, sem qualquer combinação matricial?",
-        "answer": "Não. A estrutura admite matricialidade sob regras próprias; não se afirma vínculo exclusivo e invariável com a associação original."
+        "prompt": "Uma despesa de assistência pré-escolar da Câmara deve ser classificada necessariamente na função Educação por causa da subfunção Educação Infantil?",
+        "answer": "Não. O MTO exemplifica função 01 – Legislativa com subfunção 365 – Educação Infantil. A função mostra a área ampla; a subfunção, a natureza da atuação. A exceção é Encargos Especiais, que usa subfunções próprias."
       }
     },
     {
@@ -29667,6 +29667,326 @@
         "prompt": "Atualizar a identidade visual basta para melhorar a reputação institucional?",
         "answer": "Não. Reputação depende de avaliações e experiências acumuladas; design pode apoiar reconhecimento, mas não substitui desempenho e relação com os públicos."
       }
+    },
+    {
+      "id": "camara-orc08-funcoes-01-14",
+      "term": "Funções 01–14",
+      "definition": "01 Legislativa; 02 Judiciária; 03 Essencial à Justiça; 04 Administração; 05 Defesa Nacional; 06 Segurança Pública; 07 Relações Exteriores; 08 Assistência Social; 09 Previdência Social; 10 Saúde; 11 Trabalho; 12 Educação; 13 Cultura; 14 Direitos da Cidadania (nomenclatura atualizada pela Portaria SOF/MPO nº 169/2024, com efeitos desde 2025).",
+      "example": "Uma dotação para ampliar escolas pode receber função 12 – Educação. Os dois primeiros dígitos respondem à área ampla de política pública; a subfunção virá nos três seguintes.",
+      "confusion": "A tabela apresenta associações usuais, mas não torna exclusiva a relação entre função e subfunção: há matricialidade. A função 28 – Encargos Especiais segue regra própria e não admite matricialidade.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Portaria SOF/MPO nº 169/2024; MDF 15ª edição, tabela 2",
+        "url": "https://www.gov.br/transportes/pt-br/assuntos/orcamento-e-gestao/copy_of_relatorios-orcamentarios/PORTARIASOFMPON169DE12DEJUNHODE2024.pdf/@@display-file/file",
+        "locator": "Anexo da Portaria 169/2024 (efeitos desde 2025); Manual de Demonstrativos Fiscais, tabela 2, estrutura de funções e subfunções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "funcoes-01-14"
+      ]
+    },
+    {
+      "id": "camara-orc08-funcoes-15-28",
+      "term": "Funções 15–28",
+      "definition": "15 Urbanismo; 16 Habitação; 17 Saneamento; 18 Gestão Ambiental; 19 Ciência e Tecnologia; 20 Agricultura; 21 Organização Agrária; 22 Indústria; 23 Comércio e Serviços; 24 Comunicações; 25 Energia; 26 Transporte; 27 Desporto e Lazer; 28 Encargos Especiais (nomenclatura atualizada pela Portaria SOF/MPO nº 169/2024, com efeitos desde 2025).",
+      "example": "Uma obra de transporte urbano pode usar a função 26 – Transporte; uma ação de lazer comunitário pode usar 27 – Desporto e Lazer. A função informa a área ampla, enquanto a subfunção detalha o segmento.",
+      "confusion": "A tabela apresenta associações usuais, mas não torna exclusiva a relação entre função e subfunção: há matricialidade. A função 28 – Encargos Especiais segue regra própria e não admite matricialidade.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Portaria SOF/MPO nº 169/2024; MDF 15ª edição, tabela 2",
+        "url": "https://www.gov.br/transportes/pt-br/assuntos/orcamento-e-gestao/copy_of_relatorios-orcamentarios/PORTARIASOFMPON169DE12DEJUNHODE2024.pdf/@@display-file/file",
+        "locator": "Anexo da Portaria 169/2024 (efeitos desde 2025); Manual de Demonstrativos Fiscais, tabela 2, estrutura de funções e subfunções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "funcoes-15-28"
+      ]
+    },
+    {
+      "id": "camara-orc08-subfuncoes-031-131",
+      "term": "Subfunções 031–131",
+      "definition": "031 Ação Legislativa; 032 Controle Externo; 061 Ação Judiciária; 062 Defesa do Interesse Público no Processo Judiciário; 091 Defesa da Ordem Jurídica; 092 Representação Judicial e Extrajudicial; 121 Planejamento e Orçamento; 122 Administração Geral; 123 Administração Financeira; 124 Controle Interno; 125 Normatização e Fiscalização; 126 Tecnologia da Informação; 127 Ordenamento Territorial; 128 Formação de Recursos Humanos; 129 Administração de Receitas; 130 Administração de Concessões; 131 Comunicação Social (nomenclatura atualizada pela Portaria SOF/MPO nº 169/2024, com efeitos desde 2025).",
+      "example": "No código 01.031, 01 identifica a função Legislativa e 031 a subfunção Ação Legislativa. Os códigos listados nesta faixa permitem reconhecer também 122 = Administração Geral.",
+      "confusion": "A tabela apresenta associações usuais, mas não torna exclusiva a relação entre função e subfunção: há matricialidade. A função 28 – Encargos Especiais segue regra própria e não admite matricialidade.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Portaria SOF/MPO nº 169/2024; MDF 15ª edição, tabela 2",
+        "url": "https://www.gov.br/transportes/pt-br/assuntos/orcamento-e-gestao/copy_of_relatorios-orcamentarios/PORTARIASOFMPON169DE12DEJUNHODE2024.pdf/@@display-file/file",
+        "locator": "Anexo da Portaria 169/2024 (efeitos desde 2025); Manual de Demonstrativos Fiscais, tabela 2, estrutura de funções e subfunções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "subfuncoes-031-131"
+      ]
+    },
+    {
+      "id": "camara-orc08-subfuncoes-151-246",
+      "term": "Subfunções 151–246",
+      "definition": "151 Defesa Aérea; 152 Defesa Naval; 153 Defesa Terrestre; 181 Policiamento; 182 Defesa Civil; 183 Informação e Inteligência; 211 Relações Diplomáticas; 212 Cooperação Internacional; 241 Assistência à Pessoa Idosa; 242 Assistência à Pessoa com Deficiência; 243 Assistência à Criança e ao Adolescente; 244 Assistência Comunitária; 245 Serviços Socioassistenciais; 246 Segurança de Renda (nomenclatura atualizada pela Portaria SOF/MPO nº 169/2024, com efeitos desde 2025).",
+      "example": "No código 06.182, 06 identifica Segurança Pública e 182 identifica Defesa Civil. A subfunção 241, Assistência à Pessoa Idosa, também pertence a esta faixa.",
+      "confusion": "A tabela apresenta associações usuais, mas não torna exclusiva a relação entre função e subfunção: há matricialidade. A função 28 – Encargos Especiais segue regra própria e não admite matricialidade.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Portaria SOF/MPO nº 169/2024; MDF 15ª edição, tabela 2",
+        "url": "https://www.gov.br/transportes/pt-br/assuntos/orcamento-e-gestao/copy_of_relatorios-orcamentarios/PORTARIASOFMPON169DE12DEJUNHODE2024.pdf/@@display-file/file",
+        "locator": "Anexo da Portaria 169/2024 (efeitos desde 2025); Manual de Demonstrativos Fiscais, tabela 2, estrutura de funções e subfunções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "subfuncoes-151-246"
+      ]
+    },
+    {
+      "id": "camara-orc08-subfuncoes-271-334",
+      "term": "Subfunções 271–334",
+      "definition": "271 Previdência Básica; 272 Previdência do Regime Estatutário; 273 Previdência Complementar; 274 Previdência Especial; 301 Atenção Básica; 302 Assistência Hospitalar e Ambulatorial; 303 Suporte Profilático e Terapêutico; 304 Vigilância Sanitária; 305 Vigilância Epidemiológica; 306 Alimentação e Nutrição; 331 Proteção e Benefícios ao Trabalhador; 332 Relações de Trabalho; 333 Empregabilidade; 334 Fomento ao Trabalho (nomenclatura atualizada pela Portaria SOF/MPO nº 169/2024, com efeitos desde 2025).",
+      "example": "No código 10.301, 10 identifica Saúde e 301 identifica Atenção Básica. A subfunção 272, Previdência do Regime Estatutário, também consta nesta faixa.",
+      "confusion": "A tabela apresenta associações usuais, mas não torna exclusiva a relação entre função e subfunção: há matricialidade. A função 28 – Encargos Especiais segue regra própria e não admite matricialidade.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Portaria SOF/MPO nº 169/2024; MDF 15ª edição, tabela 2",
+        "url": "https://www.gov.br/transportes/pt-br/assuntos/orcamento-e-gestao/copy_of_relatorios-orcamentarios/PORTARIASOFMPON169DE12DEJUNHODE2024.pdf/@@display-file/file",
+        "locator": "Anexo da Portaria 169/2024 (efeitos desde 2025); Manual de Demonstrativos Fiscais, tabela 2, estrutura de funções e subfunções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "subfuncoes-271-334"
+      ]
+    },
+    {
+      "id": "camara-orc08-subfuncoes-361-453",
+      "term": "Subfunções 361–453",
+      "definition": "361 Ensino Fundamental; 362 Ensino Médio; 363 Ensino Profissional; 364 Ensino Superior; 365 Educação Infantil; 366 Educação de Jovens e Adultos; 367 Educação Especial; 368 Educação Básica; 391 Patrimônio Histórico, Artístico e Arqueológico; 392 Difusão Cultural; 421 Custódia e Reintegração Social; 422 Direitos Individuais, Coletivos e Difusos; 423 Assistência aos Povos Indígenas; 451 Infraestrutura Urbana; 452 Serviços Urbanos; 453 Transportes Coletivos Urbanos (nomenclatura atualizada pela Portaria SOF/MPO nº 169/2024, com efeitos desde 2025).",
+      "example": "No código 12.365, 12 identifica Educação e 365 identifica Educação Infantil. A subfunção 451, Infraestrutura Urbana, também aparece nesta faixa e pode combinar-se matricialmente conforme a finalidade.",
+      "confusion": "A tabela apresenta associações usuais, mas não torna exclusiva a relação entre função e subfunção: há matricialidade. A função 28 – Encargos Especiais segue regra própria e não admite matricialidade.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Portaria SOF/MPO nº 169/2024; MDF 15ª edição, tabela 2",
+        "url": "https://www.gov.br/transportes/pt-br/assuntos/orcamento-e-gestao/copy_of_relatorios-orcamentarios/PORTARIASOFMPON169DE12DEJUNHODE2024.pdf/@@display-file/file",
+        "locator": "Anexo da Portaria 169/2024 (efeitos desde 2025); Manual de Demonstrativos Fiscais, tabela 2, estrutura de funções e subfunções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "subfuncoes-361-453"
+      ]
+    },
+    {
+      "id": "camara-orc08-subfuncoes-481-573",
+      "term": "Subfunções 481–573",
+      "definition": "481 Habitação Rural; 482 Habitação Urbana; 511 Saneamento Básico Rural; 512 Saneamento Básico Urbano; 541 Preservação e Conservação Ambiental; 542 Controle Ambiental; 543 Recuperação de Áreas Degradadas; 544 Recursos Hídricos; 545 Meteorologia; 571 Desenvolvimento Científico; 572 Desenvolvimento Tecnológico e Engenharia; 573 Difusão do Conhecimento Científico e Tecnológico (nomenclatura atualizada pela Portaria SOF/MPO nº 169/2024, com efeitos desde 2025).",
+      "example": "No código 18.541, 18 identifica Gestão Ambiental e 541 identifica Preservação e Conservação Ambiental. A subfunção 571, Desenvolvimento Científico, também está nesta faixa.",
+      "confusion": "A tabela apresenta associações usuais, mas não torna exclusiva a relação entre função e subfunção: há matricialidade. A função 28 – Encargos Especiais segue regra própria e não admite matricialidade.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Portaria SOF/MPO nº 169/2024; MDF 15ª edição, tabela 2",
+        "url": "https://www.gov.br/transportes/pt-br/assuntos/orcamento-e-gestao/copy_of_relatorios-orcamentarios/PORTARIASOFMPON169DE12DEJUNHODE2024.pdf/@@display-file/file",
+        "locator": "Anexo da Portaria 169/2024 (efeitos desde 2025); Manual de Demonstrativos Fiscais, tabela 2, estrutura de funções e subfunções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "subfuncoes-481-573"
+      ]
+    },
+    {
+      "id": "camara-orc08-subfuncoes-605-695",
+      "term": "Subfunções 605–695",
+      "definition": "605 Abastecimento; 606 Extensão Rural; 607 Irrigação; 608 Promoção da Produção Agropecuária; 609 Defesa Agropecuária; 631 Reforma Agrária; 632 Colonização; 661 Promoção Industrial; 662 Produção Industrial; 663 Mineração; 664 Propriedade Industrial; 665 Normalização e Qualidade; 691 Promoção Comercial; 692 Comercialização; 693 Comércio Exterior; 694 Serviços Financeiros; 695 Turismo (nomenclatura atualizada pela Portaria SOF/MPO nº 169/2024, com efeitos desde 2025).",
+      "example": "No código 20.605, 20 identifica Agricultura e 605 identifica Abastecimento. A subfunção 691, Promoção Comercial, também pertence a esta faixa.",
+      "confusion": "A tabela apresenta associações usuais, mas não torna exclusiva a relação entre função e subfunção: há matricialidade. A função 28 – Encargos Especiais segue regra própria e não admite matricialidade.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Portaria SOF/MPO nº 169/2024; MDF 15ª edição, tabela 2",
+        "url": "https://www.gov.br/transportes/pt-br/assuntos/orcamento-e-gestao/copy_of_relatorios-orcamentarios/PORTARIASOFMPON169DE12DEJUNHODE2024.pdf/@@display-file/file",
+        "locator": "Anexo da Portaria 169/2024 (efeitos desde 2025); Manual de Demonstrativos Fiscais, tabela 2, estrutura de funções e subfunções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "subfuncoes-605-695"
+      ]
+    },
+    {
+      "id": "camara-orc08-subfuncoes-721-785",
+      "term": "Subfunções 721–785",
+      "definition": "721 Comunicações Postais; 722 Telecomunicações; 751 Conservação de Energia; 752 Energia Elétrica; 753 Combustíveis Minerais; 754 Biocombustíveis; 781 Transporte Aéreo; 782 Transporte Rodoviário; 783 Transporte Ferroviário; 784 Transporte Aquaviário; 785 Transportes Especiais (nomenclatura atualizada pela Portaria SOF/MPO nº 169/2024, com efeitos desde 2025).",
+      "example": "No código 26.782, 26 identifica Transporte e 782 identifica Transporte Rodoviário. A subfunção 752, Energia Elétrica, também consta nesta faixa.",
+      "confusion": "A tabela apresenta associações usuais, mas não torna exclusiva a relação entre função e subfunção: há matricialidade. A função 28 – Encargos Especiais segue regra própria e não admite matricialidade.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Portaria SOF/MPO nº 169/2024; MDF 15ª edição, tabela 2",
+        "url": "https://www.gov.br/transportes/pt-br/assuntos/orcamento-e-gestao/copy_of_relatorios-orcamentarios/PORTARIASOFMPON169DE12DEJUNHODE2024.pdf/@@display-file/file",
+        "locator": "Anexo da Portaria 169/2024 (efeitos desde 2025); Manual de Demonstrativos Fiscais, tabela 2, estrutura de funções e subfunções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "subfuncoes-721-785"
+      ]
+    },
+    {
+      "id": "camara-orc08-subfuncoes-811-847",
+      "term": "Subfunções 811–847",
+      "definition": "811 Desporto de Rendimento; 812 Desporto Comunitário; 813 Lazer; 841 Refinanciamento da Dívida Interna; 842 Refinanciamento da Dívida Externa; 843 Serviço da Dívida Interna; 844 Serviço da Dívida Externa; 845 Outras Transferências; 846 Outros Encargos Especiais; 847 Transferências para a Educação Básica (nomenclatura atualizada pela Portaria SOF/MPO nº 169/2024, com efeitos desde 2025).",
+      "example": "No código 27.812, 27 identifica Desporto e Lazer e 812 identifica Desporto Comunitário. A subfunção 843, Serviço da Dívida Interna, também aparece nesta faixa.",
+      "confusion": "A tabela apresenta associações usuais, mas não torna exclusiva a relação entre função e subfunção: há matricialidade. A função 28 – Encargos Especiais segue regra própria e não admite matricialidade.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Portaria SOF/MPO nº 169/2024; MDF 15ª edição, tabela 2",
+        "url": "https://www.gov.br/transportes/pt-br/assuntos/orcamento-e-gestao/copy_of_relatorios-orcamentarios/PORTARIASOFMPON169DE12DEJUNHODE2024.pdf/@@display-file/file",
+        "locator": "Anexo da Portaria 169/2024 (efeitos desde 2025); Manual de Demonstrativos Fiscais, tabela 2, estrutura de funções e subfunções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "subfuncoes-811-847"
+      ]
     }
   ]
 }

@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 12348)
-Total output lines: 753
-
 /* Baterias de concurso; a fonte pública contém apenas enunciados revisados. */
 (function(){
 'use strict';
@@ -405,7 +402,16 @@ function start(recommended, directedMode='aprendizagem'){
  const pool=directed?null:eligible();
  const availableCount=directed?n:pool.length;
  if(!availableCount)return;
- if(!directed&&custom&&n<customSubjects().size){status('Escolha ao menos uma questão por matéria seleciona…348 tokens truncated…ursoId);a.target='_blank';a.rel='noopener noreferrer';return a;
+ if(!directed&&custom&&n<customSubjects().size){status('Escolha ao menos uma questão por matéria selecionada.');return;}
+ if(!directed&&availableCount<n&&!window.confirm('Há '+availableCount+' questões para esta seleção. Iniciar com essa quantidade?'))return;
+ const selection=$('qs-unidade').value;
+ const unitId=scope==='single'&&!directed?(singleSubjectRanges.get(selection)?.unitId??null):null;
+ const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,directed,mode:directed?directedMode:selected('qs-mode'),scope:directed||custom?'mixed':scope,subjectId:!directed&&selected('qs-scope')==='single'?$('qs-materia').value:null,unitId,questionSelection:!directed&&scope==='single'?(selected('qs-content-filter')||'algorithm'):'algorithm',startedAt:new Date().toISOString(),finishedAt:null,ids:directed?recommended:choose(Math.min(n,availableCount),pool),answers:[]};
+ storeWrite();toggle('qs-config',false);toggle('qs-play',true);toggle('qs-summary',false);playing(true);render();readingStart();status('Bateria iniciada. Respostas registradas após cada envio.');
+}
+function question(){return session?.mode==='avaliacao'?session.questions?.[session.answers.length]:data.map.get(session.ids[session.answers.length]);}
+function theory(q){
+ if(!q.articleId||!manifest.has(q.articleId))return null;const m=manifest.get(q.articleId),a=elem('a','Revisar artigo: '+(m.tituloExibicao||m.titulo||'ver conteúdo'));a.href=quizArticleLink(q.articleId,q.section||'',session.concursoId);a.target='_blank';a.rel='noopener noreferrer';return a;
 }
 function questionStatement(el,q){
  el.textContent=q.statement;

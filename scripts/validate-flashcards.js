@@ -52,8 +52,21 @@ if(process.argv[1]===fileURLToPath(import.meta.url)) {
   for(const f of ['flashcards.html','web/09-flashcards-engine.js','web/10-flashcards-ui.js'])assert.ok(fs.existsSync(path.join(site,f)),f);
   const base=JSON.parse(fs.readFileSync(path.join(root,'data/flashcards.json')));
   const glossaryCards=JSON.parse(fs.readFileSync(path.join(site,'data/glossario-flashcards.json')));
-  assert.deepEqual(data,mergeGlossaryFlashcards(base,glossaryCards),
+  const {chapterTracks,...cardsOnly}=data;
+  assert.deepEqual(cardsOnly,mergeGlossaryFlashcards(base,glossaryCards),
     'Baralho público deve incluir todos os cartões do glossário em um arquivo único.');
+  const route=fs.readFileSync(path.join(root,'1 - Planejamento/Camara 2026 - Percurso editorial Orcamento.md'),'utf8');
+  const reading=route.split(/^## Ordem de estudo Câmara: do planejamento ao controle parlamentar\s*$/m)[1]?.split(/^## /m)[0]||'';
+  const expected=[...reading.matchAll(/\[\[(3 - Materias\/Orcamento Publico\/[^|\]]+)\|/g)].map((match,index)=>{
+    const sourcePath=match[1].endsWith('.md')?match[1]:match[1]+'.md';
+    const article=manifest.find(item=>item.sourcePath===sourcePath);
+    assert.ok(article,`Artigo do capítulo ${index+1} não foi publicado: ${sourcePath}`);
+    return {sequence:index+1,articleId:article.articleId,title:article.tituloExibicao};
+  });
+  assert.equal(chapterTracks?.length,1,'Esperada uma trilha de capítulos de flashcards.');
+  assert.deepEqual(chapterTracks[0],{examId:'camara-2026',subjectId:'orcamento-publico',title:'Orçamento Público · Câmara 2026',chapters:expected},
+    'Faixas de capítulo devem seguir exatamente o percurso editorial público da Câmara.');
+  assert.ok(chapterTracks[0].chapters.length>0);
   assert.equal(data.cards.length,base.cards.length+glossaryCards.generatedCount);
   console.log('SUCESSO: ' + data.cards.length + ' cartões publicados em um único catálogo, incluindo '
     + glossaryCards.generatedCount + ' do glossário; todos os artigos presentes no manifesto.');

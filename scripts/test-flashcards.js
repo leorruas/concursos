@@ -102,6 +102,23 @@ assert.equal(finished.lastSession.distinct,13);
 assert.equal(F.validateState(JSON.parse(JSON.stringify(finished)),cards).lastSession.graded,13);
 assert.equal(F.nextReview(cards,finished,options,now),now+F.DAY,'Agendamento preservado no fechamento');
 
+// O recorte por capítulos persiste e restringe todas as janelas da sessão.
+const chapterArticleIds=JSON.parse(fs.readFileSync(new URL('../data/questoes-aprendizagem-orcamento-camara-2026.json',import.meta.url)))
+ .chapters.slice(0,4).map(c=>c.articleId);
+const chapterScope={exam:'camara-2026',subject:'orcamento-publico',mode:'new',direction:'forward',articleIds:chapterArticleIds,chapterThrough:4};
+let chapterSession=F.start(cards,F.empty(),chapterScope,now,()=>.5);
+assert.equal(chapterSession.session.chapterThrough,4);
+assert.deepEqual(Array.from(chapterSession.session.articleIds),chapterArticleIds);
+assert(chapterSession.session.queue.length>0,'Capítulos 1–4 devem oferecer cartões Câmara.');
+assert(chapterSession.session.queue.every(q=>chapterArticleIds.includes(cards.find(c=>c.id===q.id).note.articleId)),
+ 'A primeira fila não pode sair dos capítulos escolhidos.');
+chapterSession=F.validateState(JSON.parse(JSON.stringify(chapterSession)),cards);
+for(let i=0;i<chapterArticleIds.length+2&&chapterSession.session.queue.length;i++)
+ chapterSession=F.refill(cards,F.rate(chapterSession,'good',now+i*1000),now+i*1000,()=>.5);
+assert(chapterSession.session.queue.every(q=>chapterArticleIds.includes(cards.find(c=>c.id===q.id).note.articleId)),
+ 'As janelas seguintes devem permanecer dentro dos capítulos escolhidos.');
+assert.throws(()=>F.validateState({...chapterSession,session:{...chapterSession.session,articleIds:['art-inexistente']}},cards));
+
 const four=cards.filter(c=>c.examIds.includes(options.exam)&&c.subjectIds.includes(options.subject)).slice(0,4);
 let small=F.start(four,F.empty(),options,now,()=>.5);
 const failedId=small.session.queue[0].id;

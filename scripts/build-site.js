@@ -680,6 +680,17 @@ const capitulosNoPercurso = [...secaoPercursoOrcamento.matchAll(/\[\[(3 - Materi
     const sourcePath = match[1].endsWith('.md') ? match[1] : match[1] + '.md';
     return {sourcePath, articleId: articleMetadata(fs.readFileSync(path.join(rootDir, sourcePath), 'utf8')).articleId};
   });
+const artigosPorIdOrcamento = new Map(manifesto.map(item => [item.articleId, item]));
+if (!capitulosNoPercurso.length || new Set(capitulosNoPercurso.map(x => x.articleId)).size !== capitulosNoPercurso.length ||
+    capitulosNoPercurso.some(ch => !artigosOrcamentoCamara.includes(ch.articleId) || !artigosPorIdOrcamento.has(ch.articleId))) {
+  throw Error('O percurso de Orçamento da Câmara contém artigos sem identidade pública no catálogo.');
+}
+const trilhasCapitulosFlashcards = [{
+  examId: 'camara-2026', subjectId: 'orcamento-publico', title: 'Orçamento Público · Câmara 2026',
+  chapters: capitulosNoPercurso.map((chapter, index) => ({
+    sequence: index + 1, articleId: chapter.articleId, title: artigosPorIdOrcamento.get(chapter.articleId).tituloExibicao
+  }))
+}];
 if (aprendizagemOrcamento.version !== 1 || aprendizagemOrcamento.concursoId !== 'camara-2026' ||
     aprendizagemOrcamento.subjectId !== 'orcamento-publico' || aprendizagemOrcamento.pool !== 'aprendizagem' ||
     aprendizagemOrcamento.chapters.length !== 8 ||
@@ -760,7 +771,9 @@ console.log('✓ Gerado _site/glossario-index.json sem registros pendentes.');
 fs.writeFileSync(path.join(outDir, 'data/glossario-flashcards.json'), JSON.stringify(flashcardsGlossario));
 // Somente um arquivo precisa ser carregado pelo navegador. Evita versões desencontradas
 // entre a coleção principal e os cartões derivados em deploys/cache distintos.
-fs.writeFileSync(path.join(outDir, 'data/flashcards.json'), JSON.stringify(colecaoFlashcardsPublicada));
+fs.writeFileSync(path.join(outDir, 'data/flashcards.json'), JSON.stringify({
+  ...colecaoFlashcardsPublicada, chapterTracks: trilhasCapitulosFlashcards
+}));
 console.log('✓ Glossário nos flashcards: ' + flashcardsGlossario.generatedCount + ' novos, ' + flashcardsGlossario.linkedCount + ' vinculados a cartões existentes. Total publicado: ' + colecaoFlashcardsPublicada.cards.length + '.');
 
 // A URL dos arquivos visuais muda com seu conteúdo, evitando CSS/JS de outra publicação.

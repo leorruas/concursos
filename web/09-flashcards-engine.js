@@ -17,8 +17,17 @@
         const out = empty();
         const validPair = q => q && ids.has(q.id) && directions.includes(q.direction);
         const validInteger = n => Number.isSafeInteger(n) && n >= 0;
+        const validArticleScope = a => {
+            const hasIds=a?.articleIds!==undefined, hasChapter=a?.chapterThrough!==undefined;
+            return hasIds===hasChapter && (!hasIds ||
+                (Array.isArray(a.articleIds) && a.articleIds.length>0 && a.articleIds.length<=100 &&
+                a.articleIds.every(id=>typeof id==='string'&&id.length>0&&id.length<=160) &&
+                new Set(a.articleIds).size===a.articleIds.length && validInteger(a.chapterThrough) && a.chapterThrough>0 && a.chapterThrough<=100));
+        };
+        const inArticleScope = (a,id) => !a.articleIds || a.articleIds.includes(cards.find(c=>c.id===id)?.note?.articleId);
+        const validScopedPair = (q,a) => validPair(q) && inArticleScope(a,q.id);
         const validSessionScope = a => a && typeof a.exam === 'string' && typeof a.subject === 'string' &&
-            ['mixed','new','difficult','due','errors'].includes(a.mode) && ['forward','reverse','alternate','contrast'].includes(a.direction);
+            ['mixed','new','difficult','due','errors'].includes(a.mode) && ['forward','reverse','alternate','contrast'].includes(a.direction) && validArticleScope(a);
         for (const [key, r] of Object.entries(value.reviews)) {
             const i = key.lastIndexOf(':');
             if (!ids.has(key.slice(0, i)) || !directions.includes(key.slice(i + 1))) continue;
@@ -28,7 +37,7 @@
         const s = value.session;
         if (s != null) {
             if (!validSessionScope(s) || !Array.isArray(s.queue) || s.queue.length > 10 ||
-                !validInteger(s.position) || s.position > s.queue.length || s.queue.some(q => !validPair(q)))
+                !validInteger(s.position) || s.position > s.queue.length || s.queue.some(q => !validScopedPair(q,s)))
                 throw Error('Sessão salva inválida.');
             if (value.version === 1) {
                 // A rodada antiga pode conter retornos de erros; preservar somente sua fila não avaliada.
@@ -45,10 +54,10 @@
             } else {
                 if (!validInteger(s.graded) || !s.grades || !['again','hard','good'].every(k=>validInteger(s.grades[k])) ||
                     !validInteger(s.legacyGraded) || s.graded !== s.legacyGraded + s.grades.again + s.grades.hard + s.grades.good ||
-                    !Array.isArray(s.seen) || s.seen.length > ids.size || s.seen.some(id=>!ids.has(id)) ||
+                    !Array.isArray(s.seen) || s.seen.length > ids.size || s.seen.some(id=>!ids.has(id)||!inArticleScope(s,id)) ||
                     new Set(s.seen).size !== s.seen.length || !Array.isArray(s.recent) || s.recent.length > 3 ||
                     s.recent.some(id=>!ids.has(id)) || !Array.isArray(s.retries) || s.retries.length > ids.size ||
-                    s.retries.some(q=>!validPair(q)||!validInteger(q.after)) || !Array.isArray(s.retried) ||
+                    s.retries.some(q=>!validScopedPair(q,s)||!validInteger(q.after)) || !Array.isArray(s.retried) ||
                     s.retried.length > ids.size*3 || new Set(s.retried).size !== s.retried.length ||
                     s.retried.some(key=>{const i=key.lastIndexOf(':');return !ids.has(key.slice(0,i))||!directions.includes(key.slice(i+1));}))
                     throw Error('Sessão contínua inválida.');
@@ -57,7 +66,8 @@
                     queue:s.queue.map(q=>({id:q.id,direction:q.direction})), position:s.position,
                     graded:s.graded, grades:{...s.grades}, legacyGraded:s.legacyGraded,
                     seen:[...s.seen], recent:[...s.recent],
-                    retries:s.retries.map(q=>({id:q.id,direction:q.direction,after:q.after})), retried:[...s.retried]
+                    retries:s.retries.map(q=>({id:q.id,direction:q.direction,after:q.after})), retried:[...s.retried],
+                    ...(s.articleIds ? {articleIds:[...s.articleIds],chapterThrough:s.chapterThrough} : {})
                 };
             }
         }
@@ -111,7 +121,8 @@
     function select(cards, state, options, now=Date.now(), random=Math.random) {
         let candidates=[];
         for (const card of cards) {
-            if (!card.examIds.includes(options.exam) || (options.subject && !card.subjectIds.includes(options.subject))) continue;
+            if (!card.examIds.includes(options.exam) || (options.subject && !card.subjectIds.includes(options.subject)) ||
+                (options.articleIds && !options.articleIds.includes(card.note?.articleId))) continue;
             const priority=studyPriority(card.id,state,options,now);
             let ds = options.direction === 'alternate' ? ['forward','reverse'] : [options.direction];
             if (options.direction === 'contrast' && !card.contrast) continue;
@@ -147,6 +158,7 @@
     function start(cards,state,options,now=Date.now(),random=Math.random) {
         if (state.session) throw Error('Encerre a sessão anterior antes de começar outra.');
         const s={exam:options.exam,subject:options.subject,mode:options.mode,direction:options.direction,
+            ...(Array.isArray(options.articleIds) ? {articleIds:[...options.articleIds],chapterThrough:options.chapterThrough} : {}),
             queue:[],position:0,graded:0,grades:{again:0,hard:0,good:0},legacyGraded:0,
             seen:[],recent:[],retries:[],retried:[]};
         return refill(cards,{...state,session:s},now,random);
@@ -198,7 +210,8 @@
         const ds=options.direction==='alternate'?['forward','reverse']:[options.direction];
         let next=null;
         for(const c of cards) {
-            if(!c.examIds.includes(options.exam) || (options.subject&&!c.subjectIds.includes(options.subject)))continue;
+            if(!c.examIds.includes(options.exam) || (options.subject&&!c.subjectIds.includes(options.subject)) ||
+                (options.articleIds && !options.articleIds.includes(c.note?.articleId)))continue;
             for(const d of ds) {
                 if(d==='contrast'&&!c.contrast)continue;
                 const due=state.reviews[reviewKey(c.id,d)]?.due;

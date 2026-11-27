@@ -1,7 +1,7 @@
 (async function () {
     'use strict';
     const F=window.Flashcards, $=id=>document.getElementById('fc-'+id);
-    let cards=[], catalog, state=F.empty(), revealed=false, storageOK=true, corrupt=false;
+    let cards=[], catalog, state=F.empty(), revealed=false, storageOK=true, corrupt=false, activeChapterTrackKey='';
     // Sincronização somente quando existir serviço autenticado de mesma origem.
     const P=window.FlashcardsPrioritySync;
     const priorityEndpoint=P.endpointFromMeta(document,location);
@@ -15,18 +15,40 @@
         catch { storageOK=false; status('Não foi possível salvar neste navegador. A rodada continua em memória; exporte seu progresso antes de sair.'); }
         state=next;
     }
-    function scope() {return {exam:$('exam').value,subject:$('subject').value,mode:$('mode').value,direction:$('direction').value};}
-    function filtered() {const o=scope();return cards.filter(c=>c.examIds.includes(o.exam)&&(!o.subject||c.subjectIds.includes(o.subject)));}
+    function chapterTrack() {return catalog?.chapterTracks?.find(t=>t.examId===$('exam').value&&t.subjectId===$('subject').value)||null;}
+    function selectedChapterIds(track=chapterTrack(),through=Number($('chapter-through')?.value)) {return track?track.chapters.filter(c=>c.sequence<=through).map(c=>c.articleId):null;}
+    function updateChapterFilter(restore=false) {
+        const track=chapterTrack(), root=$('chapter-filter');show('chapter-filter',!!track);
+        if(!track){root.dataset.track='';return;}
+        const slider=$('chapter-through'),key=track.examId+'/'+track.subjectId,max=track.chapters.length;
+        slider.max=String(max);$('chapter-last-label').textContent='Capítulo '+max;
+        if(activeChapterTrackKey!==key){slider.value=String(max);activeChapterTrackKey=key;}
+        if(restore&&state.session?.chapterThrough)slider.value=String(Math.min(max,state.session.chapterThrough));
+        const through=Math.max(1,Math.min(max,Number(slider.value)||max));slider.value=String(through);
+        $('chapter-through-value').textContent=String(through);
+        const articleIds=new Set(selectedChapterIds(track,through));
+        const count=cards.filter(c=>c.examIds.includes(track.examId)&&c.subjectIds.includes(track.subjectId)&&articleIds.has(c.note?.articleId)).length;
+        $('chapter-summary').textContent=`Inclui os capítulos 1 a ${through}, inclusive · ${count} cartões neste recorte.`;
+    }
+    function scope() {
+        const o={exam:$('exam').value,subject:$('subject').value,mode:$('mode').value,direction:$('direction').value},track=chapterTrack();
+        if(track){o.chapterThrough=Number($('chapter-through').value);o.articleIds=selectedChapterIds(track,o.chapterThrough);}
+        return o;
+    }
+    function filtered() {const o=scope(),allowed=o.articleIds&&new Set(o.articleIds);return cards.filter(c=>c.examIds.includes(o.exam)&&(!o.subject||c.subjectIds.includes(o.subject))&&(!allowed||allowed.has(c.note?.articleId)));}
     function options(select,items) {select.replaceChildren(...items.map(([value,label])=>{const o=document.createElement('option');o.value=value;o.textContent=label;return o;}));}
     function subjects() {
         const exam=$('exam').value;
         options($('subject'),[['','Todas as matérias'],...catalog.subjects.filter(s=>cards.some(c=>c.examIds.includes(exam)&&c.subjectIds.includes(s.id))).map(s=>[s.id,s.title])]);
-        dashboard();
+        const sessionMatches=state.session?.exam===exam&&catalog.subjects.some(x=>x.id===state.session.subject);
+        if(sessionMatches)$('subject').value=state.session.subject;
+        updateChapterFilter(!!sessionMatches);dashboard();
     }
     function dashboard() {
         const stats=F.stats(filtered(),state);
         const profile=state.priorities;
-        const priorities=profile?.entries.filter(p=>p.examId===$('exam').value&&(!$('subject').value||p.subjectId===$('subject').value))||[];
+        const visibleIds=new Set(filtered().map(c=>c.id));
+        const priorities=profile?.entries.filter(p=>p.examId===$('exam').value&&(!$('subject').value||p.subjectId===$('subject').value)&&visibleIds.has(p.cardId))||[];
         const count=new Set(priorities.map(p=>p.cardId)).size;
         const summary=profile ? `${count} cartões ligados aos erros deste recorte · dados de ${profile.cut}.${profile.unmappedCount ? ` ${profile.unmappedCount} lacuna(s) aguardam novos cartões no conjunto.` : ''}` : '';
         const detail=prioritySync==='connected'?' Atualizado pelo perfil privado autenticado.'
@@ -108,7 +130,7 @@
         show('dashboard',false);show('summary',false);show('round',true);
         const q=s.queue[s.position], c=cards.find(c=>c.id===q.id);
         revealed=false;show('answer',false);show('reveal',true);show('instruction',true);
-        $('position').textContent=`${s.graded} cartões nesta sessão · ${catalog.subjects.find(x=>x.id===s.subject)?.title || catalog.exams.find(e=>e.id===s.exam)?.title || s.exam}`;
+        $('position').textContent=`${s.graded} cartões nesta sessão · ${catalog.subjects.find(x=>x.id===s.subject)?.title || catalog.exams.find(e=>e.id===s.exam)?.title || s.exam}${s.chapterThrough?` · até capítulo ${s.chapterThrough}`:''}`;
         $('kind').textContent=`${c.topic} / ${q.direction==='reverse'?'DEFINIÇÃO → TERMO':q.direction==='contrast'?'CONTRASTE':'TERMO → DEFINIÇÃO'}`;
         const priority=F.studyPriority(c.id,state,{exam:s.exam,subject:s.subject});
         show('priority-hint',!!priority);
@@ -162,7 +184,8 @@
         if(priorityEndpoint)$('priority-login').href=P.loginUrl(priorityEndpoint);
         options($('exam'),catalog.exams.map(e=>[e.id,e.title+' · '+e.board]));
         const examFromURL=new URLSearchParams(location.search).get('concurso');
-        if(catalog.exams.some(e=>e.id===examFromURL))$('exam').value=examFromURL;
+        const sessionExam=catalog.exams.some(e=>e.id===state.session?.exam)?state.session.exam:null;
+        if(sessionExam)$('exam').value=sessionExam;else if(catalog.exams.some(e=>e.id===examFromURL))$('exam').value=examFromURL;
         subjects();home();
         void syncPriorities(true);
         void syncProgress();
@@ -183,7 +206,9 @@
         document.addEventListener('visibilitychange',()=>{
             if(document.visibilityState==='visible'){void syncPriorities();void syncProgress();}
         });
-        $('exam').addEventListener('change',subjects);$('subject').addEventListener('change',dashboard);
+        $('exam').addEventListener('change',subjects);
+        $('subject').addEventListener('change',()=>{updateChapterFilter();dashboard();});
+        $('chapter-through').addEventListener('input',()=>{updateChapterFilter();dashboard();});
         $('resume').addEventListener('click',render);
         $('pause').addEventListener('click',()=>{save(F.finish(state));render();});
         $('summary-end').addEventListener('click',()=>{save(F.finish(state));render();});

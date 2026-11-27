@@ -260,7 +260,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .questoes-page #qs-config .qs-specific-range:has(> [hidden]:first-child):has(> [hidden]:last-child){display:none}
 .questoes-page #qs-config .qs-content-filter{grid-column:1/-1}
 .questoes-page #qs-config .qs-content-filter-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
-.questoes-page #qs-config .qs-content-filter-options label{align-items:flex-start;min-width:0;font-size:.78rem;line-height:1.35}
+.questoes-page #qs-config .qs-content-filter-options label{align-items:flex-start;min-width:0;font-size:.74rem;line-height:1.3}
 .questoes-page #qs-config #qs-content-filter-description{margin:2px 0 0}
 .questoes-page #qs-config .qs-chapter-field{grid-column:auto;align-items:stretch}
 .questoes-page #qs-config .qs-chapter-picker{width:100%;max-width:100%;grid-template-columns:34px minmax(50px,1fr) 34px 47px}
@@ -271,7 +271,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .questoes-page #qs-config .qs-count-row{min-height:45px}
 .questoes-page #qs-config .qs-count-row input{max-width:76px;min-width:60px}
 .questoes-page #qs-config .qs-preset button{min-height:45px;padding:9px;border-radius:5px;font-size:.9rem}
-.questoes-page #qs-config .qs-mode-field .qs-options label{font-size:.78rem;min-height:45px;padding:10px 15px}
+.questoes-page #qs-config .qs-mode-field .qs-options label{font-size:.72rem;line-height:1.3;min-height:45px;padding:8px 11px}
 .questoes-page .qs-builder-footer{display:flex;justify-content:space-between;align-items:center;gap:14px 20px;flex-wrap:wrap;padding-top:22px;border-top:1px solid color-mix(in srgb,var(--text) 22%,transparent)}
 .questoes-page .qs-builder-footer #qs-availability{margin:0;flex:1 1 240px;max-width:50ch;font-size:.86rem;line-height:1.5;color:var(--text)}
 .questoes-page .qs-builder-footer .qs-actions{margin:0;justify-content:flex-end}
@@ -335,11 +335,12 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 </div><p class="qs-chapter-caption" id="qs-capitulo-description" aria-live="polite">Capítulos do início até o limite escolhido, inclusive.</p>
 <select id="qs-unidade" hidden aria-hidden="true" tabindex="-1"></select>
 </div>
-<fieldset class="qs-field qs-conditional qs-content-filter" id="qs-content-filter-wrap" hidden><legend class="qs-label">Questões desta matéria</legend><div class="qs-options qs-content-filter-options">
+</div>
+<fieldset class="qs-field qs-conditional qs-content-filter" id="qs-content-filter-wrap" hidden><legend class="qs-label" id="qs-content-filter-title">Questões desta matéria</legend><div class="qs-options qs-content-filter-options">
 <label><input type="radio" name="qs-content-filter" value="algorithm" checked> Pelo algoritmo (padrão)</label>
 <label><input type="radio" name="qs-content-filter" value="unanswered"> Só questões novas para mim</label>
 <label><input type="radio" name="qs-content-filter" value="retests"> Só retestes (conceitos já estudados)</label>
-</div><p class="qs-chapter-caption" id="qs-content-filter-description" aria-live="polite">O algoritmo continua escolhendo a bateria como de costume.</p></fieldset></div></div></section>
+</div><p class="qs-chapter-caption" id="qs-content-filter-description" aria-live="polite">O algoritmo continua escolhendo a bateria como de costume.</p></fieldset></div></section>
 <section class="qs-builder-section" aria-labelledby="qs-practice-title">
 <div class="qs-builder-heading"><span aria-hidden="true">02</span><div><h3 id="qs-practice-title">Formato da bateria</h3><p>Escolha a quantidade, dificuldade e momento da correção.</p></div></div>
 <div class="qs-builder-fields">

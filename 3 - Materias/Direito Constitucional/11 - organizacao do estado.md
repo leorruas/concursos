@@ -5,7 +5,7 @@ title: "Organização do Estado"
 type: "conceito"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-11-15
+updated: 2026-11-27
 ---
 
 # Organização do Estado
@@ -124,6 +124,8 @@ O procedimento pode variar conforme a hipótese: há casos de intervenção espo
 **Controle parlamentar e exceção:** o art. 36, § 2º, exige convocação extraordinária do Congresso ou da Assembleia Legislativa **dentro de 24 horas** quando a respectiva Casa não estiver funcionando. O § 3º dispensa a apreciação parlamentar nas hipóteses expressas dos arts. 34, VI e VII, e 35, IV, **desde que** a suspensão da execução do ato questionado baste ao restabelecimento da normalidade. Fora dessas condições, não existe dispensa geral de apreciação.
 
 **Intervenção estadual em Município:** o governador atua nas hipóteses do art. 35, mas o inciso IV exige que o **Tribunal de Justiça** acolha representação para garantir princípios da Constituição estadual ou a execução de lei, ordem ou decisão judicial. Quando a medida se enquadra no art. 36, § 3º, também pode haver dispensa do exame pela Assembleia Legislativa se a suspensão do ato impugnado for suficiente.
+
+**Dívida fundada: compare os prazos dos arts. 34 e 35.** O Estado pode intervir em Município que, **sem força maior, deixe de pagar por dois anos consecutivos a dívida fundada** (art. 35, I). Já a intervenção federal em Estado por inadimplemento da dívida fundada requer **mais de dois anos consecutivos**, também sem força maior (art. 34, V, a). Assim, exatamente dois anos consecutivos bastam para a hipótese municipal, mas ainda não satisfazem o limiar federal. Exemplo: dois exercícios seguidos sem pagamento e sem força maior podem autorizar intervenção estadual no Município; o mesmo período, isoladamente, não completa o requisito federal.
 
 **Quando termina?** Cessados os motivos, as autoridades afastadas voltam aos cargos, salvo impedimento legal (art. 36, § 4º). A intervenção é uma restrição **temporária e excepcional** à autonomia; não extingue o ente federativo.
 

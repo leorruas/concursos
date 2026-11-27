@@ -45,6 +45,8 @@ A partir de 13/11, somente novas revisões de Direito Constitucional e de proces
 
 ## Protocolo de atualização
 
+**Prioridade solicitada para auditoria de Orçamento Público (27/11/2026):** a pedido explícito do usuário, fica suspensa a prioridade temporária anterior em Direito Constitucional durante este ciclo. Aplicar o mesmo fluxo: conferir `main` atual, arquivos e IDs; abrir relatório precedente; cotejar fontes primárias; corrigir teoria na origem e remissões semanticamente; preservar identidades/questões; registrar evidência por concurso; integrar somente após preflight e check obrigatório. A revisão iniciada está registrada no estado Câmara e em separado no estado CGU. A prioridade anterior volta a valer após publicação ou se o usuário redirecionar a tarefa.
+
 A cada execução, reler a `main`, consultar `AGENTS.md`, `CHAT.md`, o edital e o plano de artigos, verificar PRs concorrentes e escolher somente problemas reais. Priorizar vocabulário e operações jurídicas difíceis. Definir o termo técnico e explicar **quem age, quando, com que efeito e sob qual exceção**. Preservar `articleId`, frontmatter e links. Alterar notas no público, mantendo dados pessoais no cofre privado `leorruas/concurso-dados`; não publicar indicadores ou respostas individuais. Trabalhar por PR protegido, sem sobrepor os arquivos de expansão do banco de questões.
 
 ## Registro de ciclo

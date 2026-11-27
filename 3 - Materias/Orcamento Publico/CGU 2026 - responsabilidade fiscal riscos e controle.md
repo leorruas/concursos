@@ -7,7 +7,7 @@ status: "ativo"
 concursoId: cgu-2026
 derivedFromArticleId: art-91ab320cdfb64b8a
 created: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-27
 ---
 
 # CGU 2026: responsabilidade fiscal, riscos e controle
@@ -96,6 +96,12 @@ A LRF estabelece regras e condições para endividamento, operações de crédit
 O resultado primário compara receitas e despesas primárias segundo a metodologia fiscal aplicável. A diferença entre receita arrecadada e despesa empenhada responde a uma pergunta orçamentária distinta. No resultado nominal acima da linha, some ao resultado primário os juros ativos e deduza os juros passivos. Com superávit primário de R$ 12 milhões, juros ativos de R$ 3 milhões e juros passivos de R$ 18 milhões, o nominal é deficitário em R$ 3 milhões. A apuração abaixo da linha parte da evolução da dívida líquida e usa os ajustes metodológicos pertinentes. [Secretaria do Tesouro Nacional, Manual de Demonstrativos Fiscais, tabela de metas fiscais](https://conteudo.tesouro.gov.br/manuais/index.php?Itemid=675&catid=600&id=1178&option=com_content&view=article).
 
 ## Contingenciamento e recomposição
+
+A regra geral do art. 9º da LRF permanece distinta da autorização incluída pela **LC nº 239/2026** no art. 6º-C da **LC nº 200/2023**. A segunda permite ao Executivo federal limitar empenho e movimentação financeira quando o RARDP apura resultado dentro do intervalo inferior de tolerância da meta; se também houver contingenciamento pelo art. 9º, as medidas podem ser acumuladas. Para sujeitos, exceções, limite de despesas e efeitos sobre o teto, veja [[3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio#Autorização adicional federal da LC nº 239/2026|a explicação específica na trilha CGU]].
+
+Fonte primária: [LC nº 239/2026, art. 1º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm).
+
+**Fontes para atualização:** [LC nº 239/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm), arts. 1º e 12; [LC nº 200/2023](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm).
 
 A LRF, art. 9º, exige avaliação ao fim de cada bimestre sobre a realização da receita e o cumprimento das metas. Nas condições legais, os Poderes e o Ministério Público devem limitar empenho e movimentação financeira dentro do prazo e critérios aplicáveis. A recomposição proporcional pode ocorrer se a receita prevista se restabelecer, observado o § 1º.
 

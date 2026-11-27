@@ -5,7 +5,7 @@ title: "Restos a pagar, despesas de exercícios anteriores e suprimento de fundo
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-07
+updated: 2026-11-27
 aliases:
   - "Restos a pagar"
   - "Restos a pagar processados e não processados"
@@ -78,6 +78,14 @@ A disponibilidade de caixa deve ser examinada segundo **fontes e vinculações**
 
 ## Execução, cancelamento e seus limites
 
+### Regra transitória da LC nº 239/2026 para certos restos a pagar
+
+O art. 14 da **Lei Complementar nº 239/2026**, vigente desde sua publicação, alcança apenas restos a pagar relativos a **contratos, convênios, acordos, ajustes de vigência plurianual ou termos de execução descentralizada que estavam vigentes em novembro de 2026**. Os saldos desses RP só podem ser bloqueados ou cancelados **após 31 de dezembro de 2027**; os prazos para cumprir a respectiva cláusula suspensiva são prorrogados pelo mesmo período.
+
+**Exemplo:** um RP ligado a convênio ainda vigente em novembro de 2026 não pode ter seu saldo cancelado antes de 2028 pela regra geral, se estiver abrangido pelo art. 14. **Contraexemplo:** um RP sem vínculo com algum dos instrumentos listados, ou que não estivesse vigente naquele mês, não entra nessa extensão apenas por ser antigo. O dispositivo não transforma todos os restos a pagar em saldo automaticamente válido ou pagável: obrigações, entrega, liquidação, fonte e demais requisitos permanecem sujeitos à análise. A regra também deve ser lida junto do prazo específico do art. 36, parágrafo único, da Lei nº 4.320/1964 para empenhos não liquidados de créditos com vigência plurianual.
+
+Fonte primária: [LC nº 239/2026, art. 14](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm).
+
 **RP processado** representa despesa cujo direito do credor já foi verificado. Em geral, **não pode ser cancelado arbitrariamente**, pois a administração possui obrigação validamente liquidada; hipóteses de revisão dependem de fundamento legal e apuração do crédito. O MCASP, seção 4.7.3, destaca essa cautela.
 
 **RP não processado** pode ser objeto de análise, depuração e cancelamento nas condições legais, inclusive quando a execução não ocorreu. Porém o cancelamento formal de empenho **não extingue, por si só, obrigação material comprovada**. É necessário examinar se o credor adquiriu direito, se houve fato gerador, qual documentação existe e qual instrumento de regularização é pertinente.
@@ -147,6 +155,8 @@ O servidor que recebe suprimento **não se torna credor livre de prestar contas*
 O MCASP distingue restituições de recursos não utilizados ou indevidamente utilizados: quando recolhidas **no próprio exercício**, em regra, produzem **anulação de despesa**; quando recolhidas **após o encerramento**, são tratadas como **receita orçamentária** sob a classificação pertinente. A temporalidade aqui importa, mas essa regra **não deve ser confundida** com o cancelamento de restos a pagar.
 
 ## Da liquidação aos restos a pagar: aplicação na Câmara
+
+O prazo temporário de bloqueio e cancelamento para certos saldos, introduzido pelo art. 14 da LC nº 239/2026, é explicado em [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos#Regra transitória da LC nº 239/2026 para certos restos a pagar|seção própria desta nota]]. Ele só alcança RP de instrumentos listados vigentes em novembro de 2026; não altera a definição geral de RP nem a exceção do art. 36, parágrafo único, da Lei nº 4.320/1964.
 
 Esta seção integra os **três estágios da despesa** à classificação feita em **31 de dezembro**. O artigo sobre [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|empenho, liquidação e pagamento]] continua como pré-requisito: aqui a pergunta passa a ser **qual obrigação permanece depois do encerramento do exercício e como classificá-la sem duplicar a dotação?**
 

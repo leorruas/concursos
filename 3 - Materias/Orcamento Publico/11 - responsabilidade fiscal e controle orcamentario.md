@@ -5,7 +5,7 @@ title: "Responsabilidade fiscal, relatórios e controle da execução"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-07
+updated: 2026-11-27
 aliases:
   - "Lei de Responsabilidade Fiscal"
   - "LRF"
@@ -148,6 +148,8 @@ A **regra de ouro** constitucional, art. 167, III, compara **operações de cré
 A diferença de base de cálculo é fonte de distratores: uma questão pode descrever corretamente a regra de ouro e atribuí-la indevidamente ao art. 19 da LRF. Ver [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|princípios e vedações]].
 
 ## Riscos, limitação de empenho e final de mandato
+
+Além da regra geral do art. 9º da LRF, a LC nº 239/2026 criou uma autorização federal adicional de limitação quando o RARDP situa o resultado primário dentro do intervalo inferior de tolerância. O gatilho, o sujeito competente e as exceções estão detalhados em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento#Medida adicional da LC nº 239/2026: intervalo inferior da meta|Programação e contingenciamento da Câmara]]. A medida do art. 6º-C da LC nº 200/2023 é autorizada ao **Executivo federal** e pode ser adicional às medidas do art. 9º; não atribui ao Executivo poder para limitar unilateralmente o orçamento da Câmara, nem elimina a declaração de inconstitucionalidade do § 3º do art. 9º na ADI 2.238.
 
 O art. 9º da LRF estabelece limitação de **empenho e movimentação financeira** quando a avaliação bimestral indicar risco às metas de resultado primário ou nominal, por ato próprio dos Poderes e do Ministério Público nos **30 dias subsequentes**, segundo critérios da LDO. A medida **não anula automaticamente a dotação**. O art. 9º, **§ 2º**, resguarda obrigações constitucionais e legais (inclusive serviço da dívida), inovação e desenvolvimento científico e tecnológico **custeados por fundo criado para essa finalidade**, e despesas ressalvadas na LDO. O **§ 3º foi declarado inconstitucional pelo STF na ADI 2.238**: não ensinar como vigente a autorização para o Executivo limitar valores dos demais Poderes na hipótese de omissão. Ver [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]].
 

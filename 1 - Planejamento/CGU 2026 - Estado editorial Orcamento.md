@@ -9,6 +9,20 @@ updated: 2026-11-17
 
 # CGU 2026: estado editorial de Orçamento Público
 
+## Auditoria de atualização normativa e remissões (27/11/2026)
+
+**Base e método:** revisão independente das cinco notas CGU listadas a seguir, preservando IDs próprios e `concursoId: cgu-2026`. As versões de Câmara permanecem em arquivos e estado próprios. Texto primário da [LC nº 239/2026 no Planalto](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm), publicado em 24/11/2026, conferido para os arts. 1º, 12 e 14; texto atualizado da LRF; documentação operacional do SIOP para linha de base/MOMP ([informações gerais](https://www1.siop.planejamento.gov.br/siopdoc/doku.php/ploa%3Amomp_geral) e [criação de propostas](https://www1.siop.planejamento.gov.br/siopdoc/doku.php/ploa%3Amomp_propostas)). Houve leitura integral dos cinco artigos, cotejo dos novos enunciados/gabaritos com o alcance legal, preservação de questões históricas e auditoria semântica dos destinos novos.
+
+- `art-9dc8a6e2f31b47c0`, CGU **PPA, LDO e LOA**: remissões cruzadas refinadas entre a explicação de instrumentos legais e a operacionalização do PLOA 2027; adicionado elo conciso entre LRF art. 9º e medida adicional LC 239, com destino na seção aprofundada da própria trilha. Referência à 3ª versão do MTO mantida com base no bloco 77; o capítulo não foi visualmente relido nesta rodada.
+- `art-83d7c5ef2a0b4916`, CGU **créditos adicionais e evidências de auditoria**: seção de aplicação do art. 12 da LC 239, com condições, montante, efeito no limite, meta do exercício e evidências que o auditor deve reconciliar; remissão direcionada à seção de contingenciamento CGU.
+- `art-6f2c1ae9d483457b`, CGU **programação financeira, contingenciamento e bloqueio**: arts. 6º-C a 6º-E da LC 200/2023 descritos como autorização do Executivo federal, com gatilho do RARDP, faixa inferior, possibilidade adicional ao art. 9º, despesas alcançáveis/exceções, cancelamento de dotação e efeito do excedente. Link para a seção correspondente da Câmara serve de consulta comparada, não de transferência de escopo.
+- `art-c85e29a3741f40bd`, CGU **restos a pagar, DEA e suprimento**: art. 14 da LC 239 explicado com critérios de instrumento, vigência em novembro de 2026, prazo depois de 31/12/2027 e cláusula suspensiva; explicitado que não há extensão universal nem autorização automática de pagamento.
+- `art-d218c459af1e4b73`, CGU **responsabilidade fiscal, riscos e controle**: remissão curta para o desenvolvimento operacional da medida no artigo de programação CGU e fonte legislativa nova.
+
+**Preservado:** IDs, escopo e artigo original de Câmara; questões/gabaritos, catálogos, flashcards e glossários sem alteração; os novos trechos incluem exemplos e fundamentação local. A nova redação dos cinco blobs CGU reabre a certificação individual do conteúdo até segunda leitura do diff e execução do preflight/CI/Pages. Inspeção visual continua não executada conforme ressalva previamente aceita para a trilha; não se apresenta como verificada.
+
+**Estado:** conteúdo editado na branch candidata, sem certificação final do novo SHA. A pendência de migração de consumidores históricos registrada em outras seções continua sem relação com esta alteração e não foi reaberta.
+
 **Situação consolidada em 17/11/2026:** 15 de 15 artigos próprios da CGU com revisão integral de conteúdo concluída e ressalva visual. Os dez IDs históricos de Orçamento foram retirados do catálogo CGU e permanecem na Câmara; a referência transversal de Atualidades foi preservada. Certificação visual individual e exportação EPUB não realizadas. As seções abaixo conservam a cronologia de bloqueios e desbloqueios, incluindo contagens antigas, que não devem ser lidas como estado atual.
 
 **Responsável exclusivo:** frente CGU. A arquitetura liberou trabalhos em artigos `CGU 2026 - *.md` e neste estado, mas legados, índice, hub, catálogo v2, glossário e flashcards continuam sob coordenação. Nenhuma certificação da Câmara transfere-se à CGU.

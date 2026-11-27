@@ -7,7 +7,7 @@ status: "ativo"
 concursoId: cgu-2026
 derivedFromArticleId: art-0fb9b88e4d6c4151
 created: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-27
 ---
 
 # CGU 2026: programação financeira, contingenciamento e bloqueio
@@ -56,6 +56,14 @@ As regras da LDO e as exceções legais precisam ser consultadas no período esp
 ### E se a receita melhorar?
 
 O art. 9º, § 1º, da LRF prevê recomposição proporcional das dotações cujos empenhos foram limitados se a receita prevista for restabelecida, ainda que parcialmente, conforme os critérios legais. **Recomposição de limite** não significa que todo dinheiro ficará imediatamente disponível para pagamento, pois dotação, limite de empenho, limite financeiro e caixa continuam distintos.
+
+### Autorização adicional federal da LC nº 239/2026
+
+A **Lei Complementar nº 239/2026** inseriu os arts. 6º-C a 6º-E na **LC nº 200/2023**. A regra autoriza o **Poder Executivo federal** a limitar empenho e movimentação financeira quando o **Relatório de Avaliação de Receitas e Despesas Primárias (RARDP)** apurar que o resultado primário, para cumprir a meta, está **dentro do intervalo inferior de tolerância**, desde que permaneça dentro da faixa. Se houver contingenciamento pelo art. 9º da LRF, a medida pode ser adotada **também**, como providência adicional. Esse gatilho novo não transforma a regra geral da LRF em automática nem se aplica diretamente a outros Poderes ou entes.
+
+Para os fins dos arts. 6º-C e 9º, o art. 6º-D permite limitar determinadas despesas primárias do Executivo sujeitas a disponibilidade orçamentária/financeira ou limite específico, preservadas as obrigações constitucionais, o serviço da dívida, a inovação e o desenvolvimento científico e tecnológico custeados por fundo próprio e as exceções da LDO. Redução ou cancelamento de dotação requer procedimento conforme a LOA, com indicação das dotações e valores. Eventual excedente de contingenciamento do art. 6º-C é deduzido do limite individualizado apenas no exercício e não recompõe dotação no mesmo ano (art. 6º-E).
+
+**Caso:** em uma avaliação bimestral, o resultado projetado cai para a faixa inferior de tolerância, mas permanece dentro dela. Para a CGU, a equipe deve identificar o ato do Executivo federal e o RARDP que sustenta a medida do art. 6º-C, conferir exceções do art. 6º-D e evitar classificá-la automaticamente como bloqueio da LDO ou como o próprio contingenciamento obrigatório do art. 9º. A regra correspondente na trilha da Câmara está explicada em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento#Medida adicional da LC nº 239/2026: intervalo inferior da meta|seção específica da Câmara sobre a LC 239/2026]].
 
 ## Bloqueio orçamentário: outro motivo de indisponibilidade
 
@@ -138,6 +146,7 @@ O capítulo [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e ev
 
 - [Lei Complementar nº 101/2000: Lei de Responsabilidade Fiscal](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): arts. 8º e 9º, com redações vigentes e exceções.
 - [Lei Complementar nº 200/2023: regime fiscal sustentável](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm): parâmetros gerais de limite de despesas primárias.
+- [Lei Complementar nº 239/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm): arts. 1º e 12, alterações à LC nº 200/2023 e gatilho de crédito para investimento estruturante.
 - [Decreto nº 12.846/2026: programação orçamentária e financeira federal](https://www2.camara.leg.br/legin/fed/decret/2026/decreto-12846-12-fevereiro-2026-798712-normaatualizada-pe.html): conferir versão consolidada, anexos e alterações.
 - [Edital CGU 2026 atualizado, Auditoria](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): bloco de Finanças públicas, orçamento e contabilidade pública, item 2.2.
 

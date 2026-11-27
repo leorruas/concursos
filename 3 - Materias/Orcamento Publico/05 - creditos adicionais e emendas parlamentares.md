@@ -5,7 +5,7 @@ title: "Créditos adicionais: espécies, abertura e fontes"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-07
+updated: 2026-11-27
 aliases:
   - "Créditos suplementares especiais e extraordinários"
   - "Emendas parlamentares impositivas"
@@ -137,6 +137,16 @@ As normas sobre modalidades e execução de emendas podem mudar. Para classifica
 Percentuais e condições de impositividade dizem respeito ao **regime de execução de emendas**, não ao cálculo dos créditos adicionais. O detalhamento atualizado fica em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]].
 
 ## Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação
+
+### Crédito adicional federal para investimento estruturante: LC nº 239/2026
+
+O art. 12 da **Lei Complementar nº 239/2026** criou uma autorização excepcional para o **Poder Executivo** abrir, por ato, crédito adicional destinado a **investimentos estruturantes**. Ela depende de duas condições ligadas ao exercício anterior: o resultado primário, computadas as deduções à meta, deve ter ficado acima do intervalo inferior de tolerância da meta; e devem ter sido adotadas as medidas do art. 6º-C da **LC nº 200/2023**. O valor do crédito fica limitado ao contingenciamento realizado com base nesse art. 6º-C, não é contado no limite do art. 3º da LC 200, e deve respeitar a meta de resultado primário do exercício em que for aberto.
+
+**Exemplo:** se em 2026 o Executivo adotar medidas do art. 6º-C e o resultado apurado de 2026 superar o limite inferior da faixa de tolerância, a regra pode autorizar em 2027 crédito para investimento estruturante, até o montante contingenciado por aquelas medidas. A regra não é fonte geral para qualquer suplementação, não dispensa o gatilho do exercício anterior e não se confunde com a disciplina ordinária dos arts. 40 a 43 da Lei nº 4.320/1964. Os critérios de adoção do art. 6º-C estão em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento#Medida adicional da LC nº 239/2026: intervalo inferior da meta|Programação orçamentária e contingenciamento]].
+
+Fonte primária: [LC nº 239/2026, art. 12](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm).
+
+Veja também [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento#Medida adicional da LC nº 239/2026: intervalo inferior da meta|como o contingenciamento do art. 6º-C é apurado e limitado]].
 
 O Congresso também aprecia [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|projetos de lei de créditos adicionais]]. O nome e a tramitação do projeto não mudam a função de cada espécie. O quadro a seguir reúne os conceitos já explicados para ajudar a identificar a providência adequada em uma questão da Câmara.
 

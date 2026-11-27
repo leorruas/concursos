@@ -7,7 +7,7 @@ status: "ativo"
 concursoId: cgu-2026
 derivedFromArticleId: art-87b69e1d4ac54f20
 created: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-27
 ---
 
 # CGU 2026: créditos adicionais e evidências de auditoria
@@ -41,6 +41,14 @@ Para os **créditos suplementares e especiais**, a regra da Lei nº 4.320/1964, 
 No âmbito da **União**, o crédito **extraordinário** observa o art. 167, § 3º, da Constituição, que exige imprevisibilidade e urgência e remete ao art. 62. Por isso, em regra, a abertura federal ocorre por **medida provisória**, sujeita a controle do Congresso Nacional; a previsão geral do art. 44 da Lei nº 4.320/1964 sobre decreto deve ser lida à luz da Constituição. A situação jurídica dos entes que não dispõem de medida provisória exige exame de seu regime constitucional e local, sem transpor automaticamente o rito federal.
 
 A **emenda parlamentar** é uma proposta de alteração de projeto durante a tramitação legislativa. Ela não constitui quarta espécie de crédito adicional. A emenda a um projeto de lei de crédito especial e o próprio crédito são objetos distintos. Para controle orçamentário, conferir também a Constituição, art. 166, sobre o processo legislativo e os requisitos das emendas aplicáveis.
+
+### Autorização especial da LC nº 239/2026 para investimento estruturante
+
+O art. 12 da **Lei Complementar nº 239/2026** autoriza o **Poder Executivo** a abrir, por ato, crédito adicional para investimentos estruturantes se, no exercício anterior, (1) o resultado primário, computadas as deduções à meta, tiver superado o intervalo inferior de tolerância da meta e (2) tiverem sido adotadas medidas do art. 6º-C da **LC nº 200/2023**. O crédito não pode exceder o contingenciamento resultante dessas medidas; não é computado no limite do art. 3º da LC 200; e deve observar a meta primária do exercício em que for aberto. A autorização pode considerar investimentos definidos por bancadas estaduais no processo legislativo, mas isso não elimina os outros requisitos.
+
+**Caso:** para examinar em 2027 uma abertura de crédito fundada nessa regra, o auditor deve recuperar o RARDP e os atos de 2026, verificar o cálculo do resultado incluindo as deduções à meta, confirmar as medidas do art. 6º-C e conciliar o valor proposto com o contingenciamento que as gerou. A remissão para entender o gatilho vai ao capítulo CGU sobre [[3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio#Autorização adicional federal da LC nº 239/2026|programação e contingenciamento]], sem depender da explicação da Câmara.
+
+Fonte primária: [LC nº 239/2026, art. 12](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm).
 
 ## De onde podem vir os recursos?
 
@@ -134,4 +142,5 @@ Este capítulo trata de **alteração da autorização de despesa**. Para avalia
 
 - [Lei nº 4.320/1964, texto atualizado na Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html): arts. 40 a 46 e art. 7º.
 - [Constituição Federal, texto e jurisprudência no Supremo Tribunal Federal](https://portal.stf.jus.br/Constituicao-Supremo/artigo.asp?abrirArtigo=167&abrirBase=CF): art. 167, §§ 2º e 3º; conferir também arts. 62, 165, § 8º, e 166.
+- [Lei Complementar nº 239/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm): art. 12, autorização e limite de crédito para investimentos estruturantes.
 - [Edital CGU 2026 atualizado, Auditoria, Cebraspe](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): programa de Finanças públicas, orçamento e contabilidade pública, item 2.1; conferir retificações oficiais.

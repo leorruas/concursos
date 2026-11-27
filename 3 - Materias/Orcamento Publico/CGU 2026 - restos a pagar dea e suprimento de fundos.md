@@ -7,7 +7,7 @@ status: "ativo"
 concursoId: cgu-2026
 derivedFromArticleId: art-6e4e79c7f4bb4aa3
 created: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-27
 ---
 
 # CGU 2026: restos a pagar, despesas anteriores e suprimento de fundos
@@ -46,6 +46,12 @@ O **Decreto nº 93.872/1986** disciplina aspectos da execução financeira e dos
 **Não presumir** que todo saldo não processado pode permanecer indefinidamente até a entrega. O registro exige justificativa e atendimento aos critérios legais vigentes. A equipe deve conferir empenho, cronograma contratual, registro da liquidação posterior, cancelamentos, reativações quando cabíveis e pagamentos.
 
 O **cancelamento** de restos a pagar não apaga automaticamente um direito material legítimo do credor. O Decreto nº 93.872/1986, art. 69, prevê tratamento de obrigação reclamada após cancelamento, observada dotação para despesas de exercícios anteriores e demais requisitos. Não converter essa hipótese em autorização automática de pagamento: reconhecer o crédito e comprovar a obrigação continuam necessários.
+
+### Regra transitória da LC nº 239/2026 para determinados saldos
+
+O art. 14 da **Lei Complementar nº 239/2026** impede que sejam bloqueados ou cancelados antes de **1º de janeiro de 2028** os saldos de restos a pagar vinculados a **contratos, convênios, acordos, ajustes de vigência plurianual ou termos de execução descentralizada vigentes em novembro de 2026**. O prazo para cumprir a respectiva cláusula suspensiva é prorrogado pelo mesmo período. A condição temporal e a lista de instrumentos delimitam o alcance: a regra não cobre indistintamente todos os RP nem garante pagamento automático. A auditoria continua verificando o instrumento, vigência em novembro, saldo, obrigação, entrega e demais requisitos aplicáveis.
+
+Fonte primária: [LC nº 239/2026, art. 14](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm).
 
 ## Despesas de exercícios anteriores (DEA)
 
@@ -140,6 +146,10 @@ Fonte de confronto: [Lei nº 4.320/1964, art. 38](https://www2.camara.leg.br/leg
 **Gabarito: Errado.** Suprimento de fundos é regime excepcional de execução; crédito adicional altera autorização de despesa, e DEA possui regime próprio.
 
 ## Fontes e continuidade
+
+O art. 14 da LC nº 239/2026 é norma temporária e delimitada, não uma prorrogação geral de todos os RP. Consulte a seção [[3 - Materias/Orcamento Publico/CGU 2026 - restos a pagar dea e suprimento de fundos#Regra transitória da LC nº 239/2026 para determinados saldos|regra transitória da própria trilha CGU]] para conferir instrumentos abrangidos e data de vigência.
+
+- [Lei Complementar nº 239/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm): art. 14, alcance temporal e material da proteção de determinados RP.
 
 Para conferir a despesa antes do encerramento, leia [[3 - Materias/Orcamento Publico/CGU 2026 - despesa empenho liquidacao e evidencias|Despesa, empenho, liquidação e evidências]]. Para distinguir limite financeiro de dotação, veja [[3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio|Programação financeira]].
 

@@ -9,6 +9,22 @@ updated: 2026-11-17
 
 # Câmara 2026: estado editorial de Orçamento Público por concurso
 
+## Auditoria de integração normativa da LC nº 239/2026 (27/11/2026)
+
+**Base:** `main` lida na íntegra pelo worktree, commit-base `03429d3cb881ce1fe1e5d003f57939eaf45662d0`; artigos e dependências verificados em seus arquivos atuais. Esta rodada segue o precedente da revisão de Constitucional (leitura integral, checagem por artigo/ID, cotejo de fonte primária, links e gabaritos sem presumir que relatório histórico certifica conteúdo novo). A LC nº 239/2026, publicada em 24/11/2026, foi conferida no texto primário do [Planalto](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm) e na [publicação original da Câmara](https://www2.camara.leg.br/legin/fed/leicom/2026/leicomplementar-239-24-novembro-2026-800224-publicacaooriginal-182117-pl.html). Os artigos foram lidos integralmente; as questões existentes e respectivos gabaritos nos artigos alterados foram preservados.
+
+**Correções Câmara por articleId, sem transferir identidade à CGU:**
+
+- `art-c301f2c741504403`, ORC02 **PPA, LDO e LOA**: clarificada a remissão entre a função legal dos instrumentos e o artigo 12, que desenvolve a metodologia do MOMP do PLOA 2027. MTO 2027, 3ª versão, capítulo 7 permanece atribuído corretamente conforme o bloco 77; as páginas do capítulo não foram auditadas visualmente nesta rodada. Incluída referência concisa à LC 239 e ao destino correto da explicação detalhada.
+- `art-87b69e1d4ac54f20`, ORC05 **créditos adicionais**: acrescentada seção sobre art. 12 da LC 239, com sujeito, condições cumulativas, valor máximo, exclusão do limite da LC 200, observância da meta anual, exemplo entre exercícios e remissão para ORC06.
+- `art-0fb9b88e4d6c4151`, ORC06 **programação e contingenciamento**: acrescentado mecanismo dos arts. 6º-C a 6º-E da LC 200/2023, inseridos pela LC 239, diferenciando-o do art. 9º da LRF, do bloqueio da LDO e da regra anual do Decreto 12.846; explicitados sujeitos, faixa de tolerância, exceções, reduções/cancelamentos e limite individualizado.
+- `art-6e4e79c7f4bb4aa3`, ORC09 **restos a pagar**: incluída a regra transitória do art. 14 para RP ligados a instrumentos em vigor em novembro de 2026, prorrogação da cláusula suspensiva e contraexemplo para saldos não abrangidos. Não converte a proteção em reconhecimento automático de obrigação pagável.
+- `art-91ab320cdfb64b8a`, ORC11 **responsabilidade fiscal e controle**: remissão adicionada para ORC06 e esclarecido que a autorização do Executivo federal não desloca competências dos outros Poderes nem afeta a ADI 2.238.
+
+**Fontes e integridade:** Constituição e LRF no texto atualizado oficial; LC 239/2026 arts. 1º, 12 e 14, fonte primária acima; regra de MOMP confrontada com a documentação vigente do SIOP ([informações gerais](https://www1.siop.planejamento.gov.br/siopdoc/doku.php/ploa%3Amomp_geral) e [propostas](https://www1.siop.planejamento.gov.br/siopdoc/doku.php/ploa%3Amomp_propostas)). A varredura de links/âncoras no conjunto de Orçamento encontrou, na base, 345 remissões internas e nenhum alvo literal inexistente; após edição, reexecutar `validate-wikilinks`, conferência de âncoras e preflight para detectar erros de destino. O inventário de artigo/IDs não identifica alterações no catálogo; `data/questoes-camara.json` não foi alterado.
+
+**Estado:** conteúdo alterado em branch candidata, validação e publicação pendentes. Foram alterados seis artigos Câmara (ORC02, ORC05, ORC06, ORC09, ORC11 e ORC12) e cinco artigos CGU derivados, cada um com ID verificado. A revisão normativa focal nova afeta cinco artigos Câmara; no ORC12 foi corrigida apenas uma remissão e atualizada a referência operacional. Não é nova certificação de cada dispositivo fora desses pontos, nem inspeção visual do site. Registrar SHA e resultado dos checks após integração; reserva temporária da arquitetura encerra somente no fast-forward confirmado.
+
 **Responsável exclusivo:** agente editorial Câmara 2026. Este arquivo acompanha derivações futuras e alterações de propriedade após a separação; **não substitui os registros históricos A, B e C**. A coordenação histórica registra 19 notas: dez certificadas e nove concluídas com ressalva visual. Conferir os estados individuais antes de usar essa contagem, e não transportar certificação para novo ID.
 
 | Conjunto | Regra | Situação |

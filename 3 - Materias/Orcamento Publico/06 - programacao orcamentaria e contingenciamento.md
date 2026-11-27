@@ -5,7 +5,7 @@ title: "Programação orçamentária, financeira e contingenciamento"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-16
+updated: 2026-11-27
 aliases:
   - "Contingenciamento"
   - "Limitação de empenho"
@@ -128,6 +128,18 @@ O **§ 2º do art. 16** permite, observada a hipótese de autorização posterio
 **Item inédito C/E:** “O prazo de 4 de dezembro de 2026 para empenho discricionário alcança, por determinação do Decreto 12.846, todos os municípios e as programações federais classificadas como RP 6 e RP 7, sem exceções.” **Errado.** O decreto tem **alcance federal específico**, exclui **RP 6/RP 7** daquele prazo e admite hipótese de autorização posterior.
 
 ## Refinamento para Câmara 2026: programação, contingenciamento, bloqueio e limites (CAM-ORC-015)
+
+### Medida adicional da LC nº 239/2026: intervalo inferior da meta
+
+A **Lei Complementar nº 239/2026** incluiu os arts. 6º-C a 6º-E na **LC nº 200/2023**, criando uma autorização específica para o **Poder Executivo federal**. Quando o **Relatório de Avaliação de Receitas e Despesas Primárias (RARDP)** apurar que o resultado primário está **dentro do intervalo inferior de tolerância da meta**, o Executivo pode limitar empenho e movimentação financeira, desde que mantenha o resultado dentro desse intervalo. Se também forem adotadas as medidas do art. 9º da LRF, a medida do art. 6º-C pode ser aplicada **adicionalmente**; portanto, ela não substitui nem redefine o contingenciamento geral da LRF.
+
+O art. 6º-D permite alcançar despesas primárias do Executivo legalmente sujeitas a disponibilidade orçamentária e financeira ou a limite de dotação, ressalvando obrigações constitucionais, serviço da dívida, despesas de inovação e desenvolvimento científico e tecnológico custeadas por fundo próprio e exceções da LDO. Reduções ou cancelamentos de dotações precisam seguir a LOA e identificar dotações e valores. Se o contingenciamento do art. 6º-C exceder o necessário, o art. 6º-E manda reduzir o excedente do limite individualizado **no exercício**, sem incorporá-lo à base de cálculo dos anos seguintes nem recompor dotação no mesmo ano.
+
+**Exemplo:** se o RARDP situar o resultado dentro da faixa inferior de tolerância, o Executivo federal poderá adotar o art. 6º-C sem tratar esse gatilho como idêntico ao risco que aciona a regra geral do art. 9º da LRF. Essa autorização federal não se estende por si só à Câmara dos Deputados ou a entes subnacionais. O art. 71 da LDO federal de 2026 e o Decreto nº 12.846/2026, art. 16, continuam sendo regras distintas sobre bloqueio e calendário anual.
+
+Veja [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]] para a hipótese específica de crédito para investimento estruturante, e [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|Responsabilidade fiscal e controle]] para a visão geral de LRF, metas e relatórios.
+
+- [Lei Complementar nº 239/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm): art. 1º, inserção dos arts. 6º-C a 6º-E na LC 200/2023.
 
 **Problema de entrada:** a Lei Orçamentária Anual (LOA) autoriza R$ 20 milhões para ações de comunicação pública da Câmara. Um relatório fiscal aponta risco de descumprimento da meta de resultado primário; outra avaliação revela necessidade de adequar dotações ao teto individualizado de despesas primárias. O órgão pode enfrentar **limitação de empenho e movimentação financeira**, **bloqueio de dotações** ou medidas de **cancelamento**, conforme hipótese e competência. Os nomes não descrevem necessariamente um mesmo ato.
 

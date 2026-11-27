@@ -5,7 +5,7 @@ title: "Elaboração da proposta orçamentária federal: órgãos, decisões e e
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-12
+updated: 2026-11-27
 ---
 
 # Elaboração da proposta orçamentária federal: órgãos, decisões e etapas
@@ -79,6 +79,8 @@ O **art. 35, § 2º, do Ato das Disposições Constitucionais Transitórias (ADC
 A **Lei de Responsabilidade Fiscal (LRF)**, Lei Complementar nº 101/2000, estabelece regras para o planejamento e a gestão das contas públicas. Na elaboração, é necessário observar as metas e os limites fiscais aplicáveis. Durante a execução, podem surgir outras restrições. Por isso, identifique o tipo de limite: **limite fiscal** decorre de regras sobre as contas públicas; **referencial monetário** orienta o valor que a unidade pode propor; **limite de empenho** restringe quanto pode ser comprometido na execução; e **programação financeira** organiza a disponibilidade de recursos para pagamentos. Um referencial reduzido durante a preparação do PLOA não é, por si, contingenciamento de uma despesa já autorizada.
 
 ## PLOA 2027: proposta anual e linha de base no SIOP
+
+Para o PPA, a LDO, a autorização anual e as distinções entre previsões plurianuais e dotações, veja [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa#MTO 2027: linha de base e orçamento de médio prazo|PPA, LDO e LOA]]. A presente seção trata da operacionalização do PLOA 2027 no SIOP.
 
 Além da proposta anual de ações e valores, o [**Manual Técnico de Orçamento (MTO) 2027, 3ª versão, capítulo 7**](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027) descreve a captação de **projeções de médio prazo**. O SIOP utiliza o módulo **LOA – Médio Prazo** para registrar a **linha de base da despesa** referente a **2028, 2029 e 2030**, a partir dos valores do PLOA 2027, com parâmetros de preço, volume e compromissos já assumidos. Na abordagem de 2027, o registro abrange **todas as despesas dos orçamentos fiscal e da seguridade social da União**, e as projeções no módulo correspondem **somente à linha de base**, sem envelope monetário setorial prévio.
 
@@ -156,6 +158,8 @@ Explique a elaboração federal pela ordem **diretrizes fiscais e programáticas
 
 - [Constituição Federal, arts. 99, 127, 134 e 165 a 169; ADCT, art. 35, § 2º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm).
 - [Secretaria de Orçamento Federal, MTO 2027, 3ª versão (07/07/2026), capítulos 6 (elaboração da proposta) e 7 (Orçamentação de Médio Prazo)](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027).
+- [SIOP, Informações Gerais do MOMP](https://www1.siop.planejamento.gov.br/siopdoc/doku.php/ploa%3Amomp_geral): linha de base no PLOA 2027 e fim dos referenciais orçamentários anteriores.
+- [SIOP, Criação e edição de propostas de médio prazo](https://www1.siop.planejamento.gov.br/siopdoc/doku.php/ploa%3Amomp_propostas): ausência de referenciais monetários prévios e registro de projeções para a linha de base.
 - [Manual Técnico de Orçamento: atores e responsabilidades de órgão central, setorial e unidades orçamentárias](https://www1.siop.planejamento.gov.br/mto/doku.php/mto%3Acap1).
 - [Ministério do Planejamento e Orçamento: Sistema Integrado de Planejamento e Orçamento](https://www.gov.br/planejamento/pt-br/assuntos/orcamento/sistema-integrado-de-planejamento-e-orcamento-siop).
 - [Câmara dos Deputados: conheça o ciclo orçamentário federal](https://www.camara.leg.br/internet/agencia/infograficos-html5/conheca-o-ciclo-orcamentario-federal/index.html).

@@ -5,7 +5,7 @@ title: "CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal"
 type: "conceito"
 status: "ativo"
 created: 2026-11-15
-updated: 2026-11-17
+updated: 2026-11-27
 concursoId: cgu-2026
 ---
 
@@ -16,6 +16,8 @@ Uma equipe de auditoria da Controladoria-Geral da União (CGU) examina um progra
 São quatro perguntas diferentes. Confundi-las leva a atribuir à lei orçamentária uma obrigação de entregar imediatamente a obra, ou a tratar uma previsão de médio prazo como dinheiro já disponível. O recorte desta nota é **CGU 2026, especialidade Auditoria, Cebraspe, bloco “Finanças públicas, orçamento e contabilidade pública”, item 2.1 do edital**. A classificação P3.2.2 do antigo plano de estudos é apenas uma referência pedagógica interna. O foco aqui é a aplicação das normas e a análise de evidências, não a memorização isolada das siglas.
 
 ## Três instrumentos, três funções
+
+Esta nota explica as funções legais de PPA, LDO e LOA e a diferença entre planejamento plurianual e autorização anual. As orientações operacionais específicas para um exercício devem ser conferidas no MTO e na documentação oficial vigente do SIOP; elas não alteram as competências legais desses instrumentos.
 
 A Constituição Federal (CF), art. 165, prevê leis de iniciativa do Poder Executivo. O Executivo propõe os projetos; no âmbito federal, o Congresso Nacional os aprecia e vota. A iniciativa do projeto e a aprovação da lei são etapas distintas.
 
@@ -58,6 +60,8 @@ Conforme o art. 165, § 2º, da CF, a LDO estabelece metas e prioridades, diretr
 A **Lei de Responsabilidade Fiscal (LRF)**, Lei Complementar nº 101/2000, art. 4º, acrescenta regras de equilíbrio entre receitas e despesas, critérios e forma de limitação de empenho e anexos fiscais, entre outros conteúdos. O **Anexo de Metas Fiscais** apresenta metas e avaliação fiscal nas condições legais; o **Anexo de Riscos Fiscais** avalia passivos contingentes e outros riscos, indicando providências caso se concretizem. Passivo contingente é uma possível obrigação cuja existência ou valor ainda depende de fatos futuros ou de avaliação específica. **Meta fiscal** é um resultado ou parâmetro planejado para as contas públicas; **risco fiscal** é uma possibilidade de ocorrência com impacto sobre essas contas. A existência do risco no anexo não demonstra que ele já se concretizou.
 
 Exemplo: a LDO orienta a prioridade de ampliar unidades de saúde. Se, ao final de um bimestre, a receita realizada não comportar o cumprimento das metas de resultado primário ou nominal estabelecidas no Anexo de Metas Fiscais, aplica-se a limitação de empenho e movimentação financeira, na forma e nos prazos previstos no art. 9º da LRF e na LDO, respeitadas as exceções legais. A restrição não deve ser confundida com a revogação automática da lei orçamentária ou com a prova de que uma despesa foi paga.
+
+Desde a **LC nº 239/2026**, há também uma autorização federal específica de limitação ligada ao intervalo inferior de tolerância da meta. Para ver gatilho, âmbito institucional, exceções e efeitos, consulte [[3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio#Autorização adicional federal da LC nº 239/2026|Programação financeira, contingenciamento e bloqueio da CGU]]. Ela não substitui a regra geral do art. 9º da LRF.
 
 ## O que a LOA autoriza e como auditar
 
@@ -109,6 +113,7 @@ As oito questões são exemplos didáticos construídos a partir das normas; nã
 - [Constituição Federal, arts. 165, 166 e 167](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html): iniciativa, funções das leis, apreciação e limites orçamentários.
 - [Ato das Disposições Constitucionais Transitórias, art. 35, § 2º, incisos I a III](https://www2.camara.leg.br/legin/fed/conadc/1988/constituicao.adct-1988-5-outubro-1988-322234-normaatualizada-pl.html): regra transitória de vigência federal.
 - [Lei Complementar nº 101/2000, arts. 4º e 9º](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html): LDO, anexos fiscais e limitação de empenho.
+- [Lei Complementar nº 239/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm): altera o regime fiscal federal e preserva a distinção entre o art. 9º da LRF e a medida adicional autorizada no art. 6º-C da LC 200/2023.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria|CGU 2026: ciclo orçamentário e evidências de auditoria]]: aprofundamento sobre autorização, execução e comprovação de entregas.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]]: distinção entre fiscal, seguridade e investimento, com análise de dependência financeira.
 

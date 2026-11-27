@@ -70,6 +70,21 @@ A decisão sobre a versão CGU de 05a depende de confronto individual com o edit
 
 **Regra de conflito:** os legados 01–11, 02a, 04a/04b e 05a ficam congelados para alterações concorrentes de conteúdo até a atribuição individual e o commit de liberação. Se a Câmara precisar corrigir a versão histórica, coordenação registra exclusividade temporária e impedimento de edição pela CGU. Nenhum agente modifica arquivos compartilhados; solicita a alteração à coordenação com `articleId`, caminho e justificativa.
 
+### Reserva coordenada de auditoria jurídica (27/11/2026)
+
+A coordenação reserva exclusivamente para esta operação, sem transferência de propriedade ou identidade, os pares de versões abaixo. Câmara e CGU podem receber correções paralelas quando cada versão própria necessitar atualização; os arquivos históricos continuam pertencendo à Câmara e os derivados continuam com `concursoId: cgu-2026`. Esta reserva não abrange catálogo, hub, índice, flashcards, glossário ou bancos de questões.
+
+| Tema | ID Câmara e arquivo legado | ID CGU e arquivo derivado | Justificativa |
+| --- | --- | --- | --- |
+| PPA/LDO/LOA | `art-c301f2c741504403` — `02 - ppa ldo e loa.md` | `art-9dc8a6e2f31b47c0` — `CGU 2026 - ppa ldo e loa.md` | Atualização sobre LC 239/2026 e remissão à explicação de contingenciamento, preservando a regra geral da LRF. |
+| MOMP/PLOA 2027 | `art-c301f2c741504403` — `02 - ppa ldo e loa.md`; `art-4be219d8f750ac63` — `12 - elaboracao da proposta orcamentaria orgaos e etapas.md` | Não há artigo operacional CGU derivado | Alinhamento entre função legal dos instrumentos e fonte oficial operacional, mantendo a nota 12 como conteúdo específico da Câmara. |
+| Créditos adicionais | `art-87b69e1d4ac54f20` — `05 - creditos adicionais e emendas parlamentares.md` | `art-83d7c5ef2a0b4916` — `CGU 2026 - creditos adicionais e evidencias de auditoria.md` | Nova hipótese federal de crédito para investimento estruturante, com gatilhos e limite específicos, ligada à programação da mesma trilha. |
+| Programação e contingenciamento | `art-0fb9b88e4d6c4151` — `06 - programacao orcamentaria e contingenciamento.md` | `art-6f2c1ae9d483457b` — `CGU 2026 - programacao financeira contingenciamento e bloqueio.md` | Inclusão dos arts. 6º-C a 6º-E da LC 200, sem confundir com art. 9º da LRF ou bloqueio da LDO. |
+| Restos a pagar | `art-6e4e79c7f4bb4aa3` — `09 - restos a pagar dea e suprimento de fundos.md` | `art-c85e29a3741f40bd` — `CGU 2026 - restos a pagar dea e suprimento de fundos.md` | Regra transitória da LC 239/2026, art. 14, para saldos de RP ligados a instrumentos vigentes em novembro de 2026. |
+| Responsabilidade fiscal | `art-91ab320cdfb64b8a` — `11 - responsabilidade fiscal e controle orcamentario.md` | `art-d218c459af1e4b73` — `CGU 2026 - responsabilidade fiscal riscos e controle.md` | Remissão sintética sobre os novos gatilhos, com links para programação da própria trilha. |
+
+Reserva encerrada somente após integração fast-forward do SHA aprovado na `main`, com resultado registrado nos estados editoriais separados.
+
 ## Compatibilidade e critérios para cada migração
 
 1. Levantar referências do ID e caminho antigos: URLs Pages, aliases, wikilinks, `index.md`, hub, catálogo v2, flashcards, glossário, `data/planos-estudo/cgu-2026.json`, `theoryRefs` e banco de questões. Preservar o legado como destino válido.

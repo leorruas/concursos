@@ -25815,6 +25815,1446 @@
         "prompt": "Todo ato normativo aprovado no Congresso é enviado ao Presidente da República para sanção ou veto?",
         "answer": "Não. Leis ordinária e complementar passam por sanção ou veto; decreto legislativo e resolução não são submetidos a essa etapa."
       }
+    },
+    {
+      "id": "camara-portugues-17-regencia-assistir-preferir",
+      "term": "Regência: preposição altera a construção",
+      "definition": "A regência verbal define se o verbo exige complemento e qual preposição o introduz. Na norma-padrão, “assistir” no sentido de ver pede “a” (“assistir ao debate”); “preferir” relaciona duas escolhas com “a” (“preferir X a Y”).",
+      "example": "A assessora assistiu à sessão e preferiu a versão concisa à extensa.",
+      "confusion": "A transitividade depende do sentido: “assistir o paciente” significa prestar assistência e admite objeto direto; isso não autoriza retirar o “a” no sentido de ver.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-0cb14544830d0b6d",
+        "section": "3. Repertório estratégico de regência verbal: transitividade e mudança de sentido"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/28%20-%20regencia%20verbal%20e%20nominal%20transitividade%20e%20sentidos.md",
+        "locator": "Capítulo 17: Regência verbal e nominal: transitividade, preposições e mudanças de sentido no padrão Cebraspe · seção: 3. Repertório estratégico de regência verbal: transitividade e mudança de sentido; fundamento: Regência nominal e verbal; verbos com regências distintas por sentido."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-17-regencia-assistir-preferir"
+      ],
+      "contrast": {
+        "prompt": "Ao revisar “a equipe assistiu o debate e prefere a versão longa do que a curta”, quais relações de regência precisam ser corrigidas?",
+        "answer": "No sentido de ver, “assistiu ao debate”; com “preferir”, “prefere a versão longa à curta”. Regência varia com o verbo e seu sentido; não se corrige por analogia com outro uso."
+      }
+    },
+    {
+      "id": "camara-portugues-18-ortografia-hifen",
+      "term": "Hífen: prefixo e palavra seguinte",
+      "definition": "A grafia com prefixos segue regras ortográficas que consideram a letra inicial da palavra seguinte e o prefixo. Em vários casos, duplicam-se “r” ou “s” quando não há hífen; em outros, o hífen se mantém, como diante de “h” ou de vogal igual.",
+      "example": "Escreve-se “micro-ondas” por encontro de vogais iguais e “minissaia” com duplicação de “s”.",
+      "confusion": "A regra não é “sempre usar hífen após prefixo”: “antissocial” não leva hífen. Tampouco se elimina o hífen em todo encontro vocálico.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f0bd45f90ed9276a",
+        "section": "3. Hifenização com Prefixos no Acordo Ortográfico"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/17%20-%20ortografia%20convencoes%20da%20escrita%20acentuacao%20e%20hifenizacao.md",
+        "locator": "Capítulo 18: Ortografia e convenções da escrita: Acordo Ortográfico, acentuação gráfica, hifenização e ortoépia no padrão Cebraspe · seção: 3. Hifenização com Prefixos no Acordo Ortográfico; fundamento: Acordo Ortográfico; prefixos e letras iniciais."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-18-ortografia-hifen"
+      ],
+      "contrast": {
+        "prompt": "Ao padronizar “microondas” e “anti-social”, que princípio de formação deve ser consultado antes de aplicar uma regra única?",
+        "answer": "É preciso identificar o prefixo e a letra inicial do segundo elemento: “micro-ondas” preserva hífen diante de vogal igual; “antissocial” duplica o “s” e não usa hífen."
+      }
+    },
+    {
+      "id": "camara-portugues-20-concordancia-coletivo",
+      "term": "Concordância com núcleo coletivo",
+      "definition": "O verbo concorda, em regra, com o núcleo do sujeito. Com coletivos ou expressões partitivas seguidos de especificador plural, a norma admite, em construções descritas pela gramática, concordância com o núcleo singular ou com o termo plural, conforme a ênfase.",
+      "example": "“A maioria dos revisores concluiu a análise” concorda com “maioria”; “A maioria dos revisores concluíram a análise” pode concordar com o especificador plural.",
+      "confusion": "O termo plural após “de” não impõe sempre o plural: identifique a estrutura. Em expressões partitivas e coletivos especificados pode haver dupla concordância; fora desses casos, não se deve concordar apenas por proximidade.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-cde55b38eb404ce7",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/06%20-%20concordancia%20verbal%20e%20nominal.md",
+        "locator": "Capítulo 20: Concordância verbal e nominal · seção: Núcleo do conceito; fundamento: Concordância com expressões partitivas e coletivos."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-20-concordancia-coletivo"
+      ],
+      "contrast": {
+        "prompt": "Em “A maioria dos revisores concluiu a análise”, a substituição de “concluiu” por “concluíram” é necessariamente erro porque “maioria” está no singular?",
+        "answer": "Não necessariamente. A concordância pode acompanhar o núcleo singular “maioria” ou, em construção admitida, o especificador plural “revisores”. O núcleo singular torna “concluiu” correto, mas não torna a variante plural automaticamente incorreta."
+      }
+    },
+    {
+      "id": "camara-portugues-21-concordancia-percentual",
+      "term": "Concordância com porcentagem",
+      "definition": "Com porcentagem seguida de especificador plural, o verbo pode concordar com o número percentual ou com o substantivo especificador: “1% dos eleitores compareceu/compareceram”. Se a expressão for precedida por determinante plural (“os 30%”), o artigo consultado registra concordância obrigatória no plural.",
+      "example": "“1% dos inscritos faltou” e “1% dos inscritos faltaram” são formas admitidas no material; “Os 30% do orçamento foram executados” concorda com o determinante plural.",
+      "confusion": "Não há limiar percentual que determine singular ou plural. Verifique se há especificador plural e se a expressão percentual vem precedida por determinante plural.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-0655bb314882606f",
+        "section": "3. Casos especiais de concordância verbal: partitivos, porcentagens, pronomes e verbos impessoais"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/27%20-%20concordancia%20verbal%20e%20nominal%20regras%20e%20casos%20de%20fronteira.md",
+        "locator": "Capítulo 21: Concordância verbal e nominal: regras e casos de fronteira no padrão Cebraspe · seção: 3. Casos especiais de concordância verbal: partitivos, porcentagens, pronomes e verbos impessoais; fundamento: Concordância com porcentagem e numeral."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-21-concordancia-percentual"
+      ],
+      "contrast": {
+        "prompt": "Em “1% dos inscritos compareceram”, o plural é necessariamente incorreto porque o numeral percentual é singular?",
+        "answer": "Não. A concordância pode ser feita com o numeral (“compareceu”) ou com o especificador plural (“compareceram”). Já o determinante plural em “os 30%” exige plural segundo a regra tratada no artigo."
+      }
+    },
+    {
+      "id": "camara-portugues-23-coordenacao-adversativa",
+      "term": "Coordenação adversativa e pontuação",
+      "definition": "Orações coordenadas são sintaticamente independentes, embora possam manter relação semântica. Conectivos como “mas”, “porém” e “contudo” expressam contraste; a pontuação deve marcar a articulação entre as orações sem mudar o valor do conectivo.",
+      "example": "“O relatório é breve, mas apresenta os dados essenciais”: a segunda oração contrasta com uma expectativa criada pela primeira.",
+      "confusion": "A conjunção adversativa não torna a segunda oração subordinada. Também não se deve trocar “mas” por “portanto”: contraste e conclusão não são relações equivalentes.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-cd7059fe8508b9d0",
+        "section": "3. A Polissemia de Conectivos Coordenativos no Cebraspe"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/24%20-%20coordenacao%20relacoes%20sintaticas%20e%20semanticas.md",
+        "locator": "Capítulo 23: Coordenação: relações sintáticas, polissemia de conectivos e pontuação do período composto no padrão Cebraspe · seção: 3. A Polissemia de Conectivos Coordenativos no Cebraspe; fundamento: Coordenação sindética e valores dos conectivos."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-23-coordenacao-adversativa"
+      ],
+      "contrast": {
+        "prompt": "Se a segunda oração limita uma expectativa, substituir “mas” por “portanto” preserva a relação lógica?",
+        "answer": "Não. “Mas” introduz contraste ou ressalva; “portanto” introduz conclusão. A substituição pode manter a estrutura coordenada, mas altera a relação semântica e o sentido."
+      }
+    },
+    {
+      "id": "camara-portugues-24-subordinacao-completiva-relativa",
+      "term": "Oração substantiva e oração relativa",
+      "definition": "A oração subordinada substantiva exerce função típica de substantivo, como sujeito ou complemento; a adjetiva caracteriza um antecedente nominal e costuma ser introduzida por pronome relativo. A classificação depende da função no período, não apenas da presença de “que”.",
+      "example": "Em “A equipe informou que haverá revisão”, “que haverá revisão” completa o verbo; em “A equipe revisou o texto que recebeu”, “que” retoma “texto”.",
+      "confusion": "Nem todo “que” é conjunção integrante: pode ser pronome relativo, com antecedente e função sintática na oração subordinada.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-33566ad5fe490701",
+        "section": "2. Orações Subordinadas Substantivas: O Teste do \"ISSO\""
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/25%20-%20subordinacao%20substantiva%20adjetiva%20e%20adverbial.md",
+        "locator": "Capítulo 24: Subordinação substantiva, adjetiva e adverbial: morfossintaxe, formas reduzidas e efeitos de sentido no padrão Cebraspe · seção: 2. Orações Subordinadas Substantivas: O Teste do \"ISSO\"; fundamento: Oração completiva e oração relativa."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-24-subordinacao-completiva-relativa"
+      ],
+      "contrast": {
+        "prompt": "Em “A comissão confirmou que o prazo mudou”, o “que” retoma “prazo” como faria em “o prazo que mudou”?",
+        "answer": "Não. No primeiro período, “que” introduz oração completiva que funciona como objeto direto de “confirmou”. No segundo, o pronome relativo retoma “prazo” e integra a oração adjetiva."
+      }
+    },
+    {
+      "id": "camara-portugues-25-conectores-concessao",
+      "term": "Concessão e conclusão entre conectores",
+      "definition": "Conectores explicitam relações lógico-discursivas. “Embora”, “ainda que” e “apesar de” introduzem concessão: reconhecem fato que poderia contrariar a conclusão principal, mas não a impedem. “Portanto” apresenta conclusão decorrente do que veio antes.",
+      "example": "“Embora o prazo fosse curto, a equipe concluiu a revisão” admite a dificuldade, mas afirma a conclusão.",
+      "confusion": "Concessão não equivale a causa nem a conclusão. Trocar “embora” por “porque” inverte a relação entre as orações.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-10e06314b6caf790",
+        "section": "2. A Oposição Decisiva no Cebraspe: Adversidade $\\times$ Concessão"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/20%20-%20conectores%20relacoes%20logicas%20e%20sequenciacao.md",
+        "locator": "Capítulo 25: Conectores, relações lógicas e sequenciação: operadores argumentativos e articulação do período no padrão Cebraspe · seção: 2. A Oposição Decisiva no Cebraspe: Adversidade $\\times$ Concessão; fundamento: Valores semânticos de conectores concessivos."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-25-conectores-concessao"
+      ],
+      "contrast": {
+        "prompt": "Em “Embora houvesse ressalvas, o parecer foi aprovado”, o conector apresenta as ressalvas como causa necessária da aprovação?",
+        "answer": "Não. A concessão reconhece uma circunstância potencialmente contrária à aprovação, que não a impediu. Uma relação causal exigiria outro conector e outra interpretação."
+      }
+    },
+    {
+      "id": "camara-portugues-26-futuro-subjuntivo",
+      "term": "Futuro do subjuntivo em condição futura",
+      "definition": "O futuro do subjuntivo expressa evento eventual ou ainda não realizado, frequentemente em orações introduzidas por “se” ou “quando”. Sua forma é diferente do infinitivo pessoal, embora alguns verbos tenham formas coincidentes.",
+      "example": "“Se o órgão mantiver o cronograma, a equipe concluirá a etapa.”",
+      "confusion": "Não se usa automaticamente o infinitivo após toda referência ao futuro: “se manter” e “se mantiver” têm estruturas e sentidos diferentes nesse contexto.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3c2532290c3996fa",
+        "section": "4. Correlação Verbal (*Consecutio Temporum*)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/21%20-%20tempo%20modo%20e%20aspecto%20verbal%20na%20construcao%20do%20texto.md",
+        "locator": "Capítulo 26: Tempo, modo e aspecto verbal na construção do texto: correlação de tempos e efeitos discursivos no padrão Cebraspe · seção: 4. Correlação Verbal (*Consecutio Temporum*); fundamento: Futuro do subjuntivo e infinitivo."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-26-futuro-subjuntivo"
+      ],
+      "contrast": {
+        "prompt": "Na condição futura “se a comissão (manter) o cronograma”, qual forma preserva o modo exigido pela conjunção condicional?",
+        "answer": "“Se a comissão mantiver o cronograma”. A oração apresenta condição eventual futura e requer o futuro do subjuntivo; “manter” é infinitivo."
+      }
+    },
+    {
+      "id": "camara-portugues-27-pronomes-funcao",
+      "term": "Classe gramatical e função no contexto",
+      "definition": "A classe da palavra e a função que ela exerce no período são dimensões diferentes. Um pronome pode desempenhar função substantiva ou acompanhar um nome; a classificação morfológica deve ser confirmada pelo uso concreto.",
+      "example": "Em “Este relatório é conclusivo”, “este” determina o substantivo; em “Este é conclusivo”, o pronome ocupa o lugar de um nome.",
+      "confusion": "A palavra não recebe classe apenas pela forma isolada: “que”, por exemplo, pode ser pronome relativo, conjunção ou pronome interrogativo segundo a construção.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a64c0b4be746abff",
+        "section": "3. Morfossintaxe dos Pronomes Relativos e Conjunções: O Duelo do \"QUE\""
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/22%20-%20classes%20de%20palavras%20e%20suas%20funcoes%20no%20periodo.md",
+        "locator": "Capítulo 27: Classes de palavras e suas funções no período: morfossintaxe de nomes, pronomes e conectivos no padrão Cebraspe · seção: 3. Morfossintaxe dos Pronomes Relativos e Conjunções: O Duelo do \"QUE\"; fundamento: Emprego de pronomes e classificação contextual."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-27-pronomes-funcao"
+      ],
+      "contrast": {
+        "prompt": "A palavra “que” deve ser sempre classificada como conjunção integrante?",
+        "answer": "Não. Em “o documento que chegou”, retoma “documento” como pronome relativo; em “disseram que chegou”, introduz uma oração completiva. A função no período decide a classificação."
+      }
+    },
+    {
+      "id": "camara-portugues-28-proclise-palavra-negativa",
+      "term": "Próclise atraída por palavra negativa",
+      "definition": "Na norma-padrão, palavra ou expressão negativa antes do verbo atrai o pronome oblíquo átono, que fica em próclise. Sem fator de atração e no início de oração, a ênclise costuma ser a colocação prescrita em registro formal.",
+      "example": "“Não se publicou o aviso” apresenta próclise motivada por “não”.",
+      "confusion": "A colocação não se decide pela preferência sonora: “Não publicou-se” desconsidera o fator de atração; já a próclise inicial sem atrator pode ser inadequada ao padrão formal exigido.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3e69afeada1328e6",
+        "section": "3. Fatores de próclise obrigatória (palavras atrativas)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/30%20-%20colocacao%20dos%20pronomes%20atonos%20proclise%20mesoclise%20e%20enclise.md",
+        "locator": "Capítulo 28: Colocação dos pronomes átonos: próclise, mesóclise, ênclise e locuções verbais no padrão Cebraspe · seção: 3. Fatores de próclise obrigatória (palavras atrativas); fundamento: Palavras negativas e colocação pronominal."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-28-proclise-palavra-negativa"
+      ],
+      "contrast": {
+        "prompt": "Na frase “Jamais divulgou-se o resultado”, a posição do pronome segue a regra de atração?",
+        "answer": "Não. “Jamais” é palavra negativa e atrai o pronome: “Jamais se divulgou o resultado”."
+      }
+    },
+    {
+      "id": "camara-portugues-30-crase-verbo",
+      "term": "Crase: fusão de preposição e artigo",
+      "definition": "O acento grave marca, em casos como “dirigir-se à comissão”, a fusão da preposição “a” exigida pelo termo regente com o artigo feminino “a” que acompanha o nome. A crase depende da regência e da possibilidade de artigo.",
+      "example": "“Encaminhou o ofício à diretoria”: quem encaminha algo encaminha a alguém; “diretoria” admite artigo.",
+      "confusion": "Não se usa crase antes de verbo, porque verbo não recebe artigo feminino: “começou a revisar”. A letra “a” isolada não basta para justificar o acento.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3f8cfa8b8d43c2bd",
+        "section": "3. Catálogo de proibições absolutas (impedimentos da crase)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/29%20-%20crase%20condicoes%20de%20ocorrencia%20casos%20facultativos%20e%20impedimentos.md",
+        "locator": "Capítulo 30: Crase: condições de ocorrência, casos facultativos e impedimentos no padrão Cebraspe · seção: 3. Catálogo de proibições absolutas (impedimentos da crase); fundamento: Preposição a + artigo a; impedimento antes de verbo."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-30-crase-verbo"
+      ],
+      "contrast": {
+        "prompt": "Em “A equipe começou a revisar”, o acento grave é cabível antes de “revisar”?",
+        "answer": "Não. “Revisar” é verbo e não admite artigo feminino; há apenas a preposição exigida pela construção, sem fusão com artigo."
+      }
+    },
+    {
+      "id": "camara-portugues-32-substituicao-sem-equivalencia",
+      "term": "Substituição lexical e preservação de sentido",
+      "definition": "Uma substituição lexical só preserva a equivalência se conservar, no contexto, as relações de sentido relevantes, como intensidade, polaridade, alcance e pressupostos. Sinônimos de dicionário podem não ser intercambiáveis em toda frase.",
+      "example": "Trocar “reduziu parcialmente” por “eliminou” altera o grau e o resultado descrito.",
+      "confusion": "Uma frase pode continuar gramatical após a troca e, ainda assim, mudar o conteúdo. Correção formal não prova equivalência semântica.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d43257f539c036b9",
+        "section": "2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/32%20-%20reescrita%20substituicao%20lexical%20e%20preservacao%20de%20sentido.md",
+        "locator": "Capítulo 32: Reescrita: substituição lexical, correção gramatical e preservação de sentido no padrão Cebraspe · seção: 2. O protocolo de duplo filtro na avaliação de substituição lexical; fundamento: Escopo, intensidade e polaridade na reescrita."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-32-substituicao-sem-equivalencia"
+      ],
+      "contrast": {
+        "prompt": "Substituir “o atraso foi reduzido” por “o atraso foi eliminado” mantém necessariamente a informação?",
+        "answer": "Não. “Reduzido” afirma diminuição; “eliminado” afirma ausência. A segunda forma é mais forte e pode tornar falsa uma informação que a primeira preservava."
+      }
+    },
+    {
+      "id": "camara-portugues-33-voz-passiva-agente",
+      "term": "Reorganização sintática e relações preservadas",
+      "definition": "Uma reordenação pode deslocar foco ou alterar a estrutura informacional sem necessariamente mudar os participantes do evento. Para verificar equivalência, identifique agente, paciente, tempo, modalidade e escopo antes e depois da transformação.",
+      "example": "“A equipe publicou o aviso” e “O aviso foi publicado pela equipe” preservam, em regra, agente e evento, embora mudem a voz e o foco.",
+      "confusion": "A voz passiva sem agente expresso pode omitir informação presente na ativa; logo, nem toda passivização preserva integralmente o conteúdo.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-ec4233e53951fb59",
+        "section": "3. Operação 1: Transposição de vozes verbais (Ativa $\\leftrightarrow$ Passiva Analítica $\\leftrightarrow$ Passiva Sintética)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/33%20-%20reorganizacao%20sintatica%20e%20equivalencia%20semantica.md",
+        "locator": "Capítulo 33: Reorganização sintática e equivalência semântica: paráfrase, inversões e paralelismo no padrão Cebraspe · seção: 3. Operação 1: Transposição de vozes verbais (Ativa $\\leftrightarrow$ Passiva Analítica $\\leftrightarrow$ Passiva Sintética); fundamento: Ativa, passiva e participantes do evento."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-33-voz-passiva-agente"
+      ],
+      "contrast": {
+        "prompt": "Converter “A comissão aprovou o parecer” em “O parecer foi aprovado” preserva toda a informação sobre quem agiu?",
+        "answer": "Não. A passiva omite o agente “a comissão”. Preserva o paciente e o evento, mas perde informação expressa sobre o autor da aprovação."
+      }
+    },
+    {
+      "id": "camara-portugues-34-discurso-indireto-deixis",
+      "term": "Discurso indireto e ajustes de referência",
+      "definition": "Na passagem do discurso direto ao indireto, a fala é incorporada a outra oração e pode exigir ajustes de pessoa, pronomes, tempos verbais e expressões dêiticas de tempo ou lugar. A mudança deve respeitar quem fala e o momento narrado.",
+      "example": "Direto: “A diretora afirmou: ‘Entregarei o relatório amanhã’”. Indireto: “A diretora afirmou que entregaria o relatório no dia seguinte”.",
+      "confusion": "A conversão não consiste apenas em inserir “que”: pronomes e advérbios dependentes do contexto original podem precisar de ajuste; a mudança mecânica pode alterar a referência temporal.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-fe3c1497fc8133b8",
+        "section": "3. Transposição entre Discurso Direto, Discurso Indireto e Discurso Indireto Livre"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/34%20-%20reescrita%20entre%20registros%20formalidade%20e%20generos%20textuais.md",
+        "locator": "Capítulo 34: Reescrita entre registros, níveis de formalidade, discurso direto e indireto e Redação Oficial no padrão Cebraspe · seção: 3. Transposição entre Discurso Direto, Discurso Indireto e Discurso Indireto Livre; fundamento: Discurso relatado e dêixis temporal."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-portugues-34-discurso-indireto-deixis"
+      ],
+      "contrast": {
+        "prompt": "Ao relatar “Entregarei aqui amanhã”, pode-se manter “aqui” e “amanhã” sem verificar o contexto do narrador?",
+        "answer": "Não. No discurso indireto, “aqui” e “amanhã” podem exigir “lá” e “no dia seguinte”, conforme o local e o momento do relato. A equivalência depende do novo centro de referência."
+      }
+    },
+    {
+      "id": "camara-ciencia-politica-24-direitos-politicos-voto",
+      "term": "Direitos políticos e exercício do sufrágio",
+      "definition": "Direitos políticos permitem participar da formação da vontade estatal, inclusive votar e, conforme os requisitos, candidatar-se. Sufrágio é o direito de participação política; voto é seu exercício em uma eleição ou consulta.",
+      "example": "Uma pessoa alistada exerce o voto ao escolher representantes, mas o sufrágio também abrange participação política além do ato de votar.",
+      "confusion": "Sufrágio e voto não são sinônimos perfeitos; cidadania é conceito mais amplo e não se reduz ao comparecimento eleitoral. Constituição Federal, art. 14.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6a55fcee78be4a39",
+        "section": "Soberania popular, sufrágio e voto"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/05%20-%20direitos%20politicos.md",
+        "locator": "Capítulo 24: Direitos políticos · seção: Soberania popular, sufrágio e voto; fundamento: Constituição Federal, art. 14; sufrágio, voto e capacidade eleitoral."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ciencia-politica-24-direitos-politicos-voto"
+      ],
+      "contrast": {
+        "prompt": "Uma pesquisa de opinião é exercício do voto e, portanto, manifestação formal de sufrágio?",
+        "answer": "Não. Pesquisa mede respostas de uma amostra; voto é manifestação eleitoral formal. A pesquisa pode revelar opinião política, mas não produz o efeito jurídico do sufrágio exercido na eleição."
+      }
+    },
+    {
+      "id": "camara-ciencia-politica-25-objeto-metodo",
+      "term": "Objeto da Ciência Política e método de pesquisa",
+      "definition": "A Ciência Política investiga poder, instituições, comportamento e processos políticos com conceitos e métodos adequados à pergunta. O método é o caminho de investigação; o objeto é o fenômeno estudado.",
+      "example": "Para estudar participação eleitoral, pode-se analisar dados de comparecimento; para compreender motivações, entrevistas podem ser adequadas.",
+      "confusion": "Escolher uma técnica não define por si só o objeto nem garante causalidade. Uma correlação em dados observacionais não demonstra que uma variável causou a outra.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-2c8e41d7a593fb06",
+        "section": "Objeto: o que torna uma pergunta politológica?"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/10%20-%20ciencia%20politica%20objeto%20metodos%20e%20limites.md",
+        "locator": "Capítulo 25: Ciência Política: objeto, métodos e limites · seção: Objeto: o que torna uma pergunta politológica?; fundamento: Objeto, problema e método de investigação."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ciencia-politica-25-objeto-metodo"
+      ],
+      "contrast": {
+        "prompt": "Uma análise estatística de votos prova, por si só, por que cada eleitor escolheu determinado candidato?",
+        "answer": "Não. Ela descreve padrões nos dados; explicar motivações pode exigir outras evidências e desenho de pesquisa. Método e objeto devem corresponder à pergunta, e associação não equivale automaticamente a causalidade."
+      }
+    },
+    {
+      "id": "camara-comunicacao-26-canais-funcao-publico",
+      "term": "Canal interno: finalidade, acesso e escolha",
+      "definition": "Um canal de comunicação interna é um meio organizacional para fazer a informação chegar a determinado público. A escolha depende da finalidade, da urgência, da possibilidade de diálogo, do acesso e da necessidade de registro; nenhum canal serve igualmente a todos.",
+      "example": "Uma alteração urgente de procedimento pode exigir aviso direto e registro na intranet, enquanto um evento presencial favorece conversa e esclarecimento.",
+      "confusion": "Intranet, mural, newsletter e evento são veículos com affordances diferentes. Publicar em um canal não garante que todos tiveram acesso ou compreenderam a mensagem.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-73d4a195e86c02bf",
+        "section": "Terceiro conjunto: critérios para escolher e combinar canais"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/48%20-%20canais%20de%20comunicacao%20interna%20intranet%20mural%20newsletter%20e%20eventos.md",
+        "locator": "Capítulo 26: Canais de comunicação interna: intranet, mural, newsletter e eventos · seção: Terceiro conjunto: critérios para escolher e combinar canais; fundamento: Artigo: canais internos, acesso, combinação e avaliação."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-26-canais-funcao-publico"
+      ],
+      "contrast": {
+        "prompt": "Se um aviso foi publicado na intranet, isso prova que todos os trabalhadores o receberam e compreenderam?",
+        "answer": "Não. Publicação comprova disponibilização naquele canal; acesso e compreensão são resultados distintos e dependem do público, da acessibilidade e da avaliação."
+      }
+    },
+    {
+      "id": "camara-comunicacao-27-endomarketing-fronteira",
+      "term": "Endomarketing e comunicação interna",
+      "definition": "Endomarketing é uma abordagem de gestão voltada à relação da organização com seu público interno e ao alinhamento entre condições de trabalho, propostas e serviços. Comunicação interna é uma função e um conjunto de processos de circulação e diálogo; as áreas se relacionam, mas não são idênticas.",
+      "example": "Um programa de integração pode combinar informação interna, formação e melhoria de condições para que a equipe compreenda e execute um serviço.",
+      "confusion": "Uma campanha interna não se torna endomarketing eficaz só por usar linguagem promocional; comunicação não substitui recursos, liderança e condições reais de trabalho.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-2d58e6cb9a473f01",
+        "section": "Primeiro conjunto: distinguir os objetos próximos"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/49%20-%20endomarketing%20fundamentos%20objetivos%20e%20fronteiras.md",
+        "locator": "Capítulo 27: Endomarketing: objetivos, ações, públicos e fronteiras com comunicação interna · seção: Primeiro conjunto: distinguir os objetos próximos; fundamento: Saul Bekin; fronteiras entre endomarketing e comunicação interna."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-27-endomarketing-fronteira"
+      ],
+      "contrast": {
+        "prompt": "Enviar um boletim aos empregados, sem alterar condições ou práticas de gestão, basta para caracterizar um programa completo de endomarketing?",
+        "answer": "Não. O boletim é uma ação de comunicação interna; endomarketing envolve também a relação da organização com seu público interno e precisa ser coerente com práticas e condições efetivas."
+      }
+    },
+    {
+      "id": "camara-comunicacao-28-cultura-niveis-clima",
+      "term": "Cultura organizacional e clima",
+      "definition": "Na abordagem de Schein, cultura inclui pressupostos básicos, valores declarados e artefatos observáveis. Clima, em estudos organizacionais, trata de percepções compartilhadas sobre práticas e condições de trabalho. São fenômenos relacionados, mas com níveis e métodos de investigação diferentes.",
+      "example": "Uma placa com valores é artefato; a percepção de que decisões são previsíveis pode integrar o clima; pressupostos profundos exigem investigação interpretativa.",
+      "confusion": "Um artefato isolado não prova qual pressuposto cultural o produziu; uma pesquisa de clima também não mede automaticamente toda a cultura.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-b0ad4f6e375a912c",
+        "section": "Schein: o que cada um dos três níveis classifica?"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/50%20-%20cultura%20e%20clima%20organizacional%20schein%20schneider%20e%20fronteiras.md",
+        "locator": "Capítulo 28: Cultura e clima organizacional: Schein, Schneider, métodos e limites · seção: Schein: o que cada um dos três níveis classifica?; fundamento: Schein; níveis culturais e distinção entre cultura e clima."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-28-cultura-niveis-clima"
+      ],
+      "contrast": {
+        "prompt": "Ver cartazes com “inovação” permite concluir que a inovação é pressuposto básico compartilhado na organização?",
+        "answer": "Não. O cartaz é um artefato visível; valores declarados e pressupostos básicos são outros níveis. A interpretação exige evidências convergentes, não uma inferência automática a partir de um símbolo."
+      }
+    },
+    {
+      "id": "camara-comunicacao-29-escuta-clima-resposta",
+      "term": "Escuta organizacional e gestão do clima",
+      "definition": "A comunicação pode contribuir para o clima ao oferecer informação compreensível, canais de voz, resposta previsível e segurança para relatar problemas. A intervenção só se completa quando a organização considera as manifestações e age sobre fatores sob sua responsabilidade.",
+      "example": "Uma pesquisa revela falhas de comunicação; a instituição informa o que fará, atribui responsáveis e acompanha a execução.",
+      "confusion": "Abrir uma caixa de sugestões não garante escuta efetiva, segurança psicológica nem mudança. Sem retorno ou ação, a coleta pode reduzir confiança.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-9f3c27d018b5e64a",
+        "section": "Segundo mecanismo: escuta, voz e resposta institucional"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/51%20-%20gestao%20do%20clima%20pela%20comunicacao%20alcance%20limites%20e%20avaliacao.md",
+        "locator": "Capítulo 29: Gestão do clima pela comunicação: escuta, justiça, segurança psicológica e limites · seção: Segundo mecanismo: escuta, voz e resposta institucional; fundamento: Escuta, resposta e limites da intervenção comunicacional."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-29-escuta-clima-resposta"
+      ],
+      "contrast": {
+        "prompt": "Aplicar uma pesquisa de clima, sem devolver resultados nem encaminhar providências, demonstra que a organização melhorou o clima?",
+        "answer": "Não. A pesquisa é coleta de percepção; melhoria exige resposta e mudança compatível com os problemas identificados. Comunicação pode apoiar a intervenção, mas não substitui decisões e condições de trabalho."
+      }
+    },
+    {
+      "id": "camara-comunicacao-31-identidade-imagem-reputacao",
+      "term": "Identidade, imagem e reputação",
+      "definition": "Identidade organizacional se refere a atributos que os membros reconhecem como centrais, distintivos e relativamente duradouros; imagem é percepção formada por públicos; reputação é avaliação acumulada ao longo do tempo. Ações comunicacionais podem influenciá-las, mas não as tornam equivalentes.",
+      "example": "Uma campanha comunica inovação; a imagem depende da leitura dos públicos e a reputação considera experiências acumuladas, inclusive fora da campanha.",
+      "confusion": "A organização não controla unilateralmente sua imagem nem produz reputação duradoura apenas repetindo uma mensagem; percepções e experiências importam.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-621d9e4a87c305bf",
+        "section": "Mapa integrado: conceitos próximos, critérios diferentes"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/53%20-%20identidade%20imagem%20e%20reputacao%20organizacional%20conceitos%20autores%20e%20fronteiras.md",
+        "locator": "Capítulo 31: Identidade, imagem e reputação organizacional: conceitos, autores e fronteiras · seção: Mapa integrado: conceitos próximos, critérios diferentes; fundamento: Albert e Whetten; Fombrun; identidade, imagem e reputação."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-31-identidade-imagem-reputacao"
+      ],
+      "contrast": {
+        "prompt": "Uma campanha altera o slogan institucional; isso prova que a reputação do órgão mudou imediatamente?",
+        "answer": "Não. O slogan é uma expressão de identidade comunicada; imagem depende da percepção dos públicos e reputação é uma avaliação acumulada, ligada também a experiências e desempenho."
+      }
+    },
+    {
+      "id": "camara-comunicacao-32-issue-risco-crise",
+      "term": "Risco, issue e crise são etapas distintas",
+      "definition": "Risco é possibilidade de evento com consequências; issue é tema emergente que requer acompanhamento; incidente é ocorrência delimitada; crise é situação que ameaça objetivos e exige resposta coordenada. A classificação ajuda a escolher prevenção, monitoramento ou resposta.",
+      "example": "Uma falha potencial no sistema é risco; reclamações recorrentes formam um issue; interrupção localizada é incidente; impacto amplo e ameaça à confiança podem configurar crise.",
+      "confusion": "Nem todo risco se materializa em crise, e um incidente não deve ser chamado de crise apenas por ser incômodo. Gravidade, extensão e ameaça orientam o diagnóstico.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-482d6ef913a0c75b",
+        "section": "Classificação inicial: risco, issue, incidente, emergência e crise"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/54%20-%20riscos%20prevencao%20e%20diagnostico%20de%20crises%20de%20comunicacao.md",
+        "locator": "Capítulo 32: Riscos, prevenção e diagnóstico de crises de comunicação · seção: Classificação inicial: risco, issue, incidente, emergência e crise; fundamento: Coombs e Fink; classificação e diagnóstico de crise."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-32-issue-risco-crise"
+      ],
+      "contrast": {
+        "prompt": "Uma postagem crítica isolada constitui necessariamente uma crise organizacional?",
+        "answer": "Não. Pode ser um sinal ou issue a monitorar; é necessário avaliar alcance, impacto, ameaça aos objetivos e capacidade de resposta antes de classificar como crise."
+      }
+    },
+    {
+      "id": "camara-comunicacao-33-informacao-instrutiva-adaptacao",
+      "term": "Resposta à crise: instrução e adaptação",
+      "definition": "Na comunicação de crise, informação instrutiva orienta ações imediatas para reduzir risco; informação de adaptação ajuda as pessoas a compreender o evento e lidar com seus efeitos. As duas respondem a necessidades diferentes e podem coexistir.",
+      "example": "Durante uma interrupção de serviço, informar onde buscar atendimento é instrutivo; explicar o ocorrido e as medidas de apoio atende à adaptação.",
+      "confusion": "Uma nota explicativa não substitui instruções de segurança; uma ordem operacional sem contexto também pode deixar necessidades de adaptação sem resposta.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-e31c94bd720a5f86",
+        "section": "Coombs: informação instrutiva e informação de adaptação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/55%20-%20resposta%20a%20crise%20estrategias%20canais%20e%20avaliacao.md",
+        "locator": "Capítulo 33: Resposta a crises: etapas, estratégias, canais e avaliação · seção: Coombs: informação instrutiva e informação de adaptação; fundamento: Coombs; informação instrutiva e informação de adaptação na crise."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-33-informacao-instrutiva-adaptacao"
+      ],
+      "contrast": {
+        "prompt": "Em uma crise com risco à segurança, uma mensagem de solidariedade, sem instruções práticas, atende à necessidade imediata do público?",
+        "answer": "Não. Solidariedade pode contribuir para a adaptação, mas o público também precisa de informação instrutiva clara sobre o que fazer para reduzir o risco."
+      }
+    },
+    {
+      "id": "camara-comunicacao-34-kunsch-dimensoes",
+      "term": "Dimensões da comunicação organizacional",
+      "definition": "Em Kunsch, comunicação organizacional é um campo abrangente que integra dimensões como a instrumental, humana, cultural e estratégica. Elas permitem analisar, respectivamente, circulação técnica de informação, relações e diálogo, sentidos compartilhados e articulação com decisões e objetivos.",
+      "example": "Um plano pode ter ferramenta de envio eficiente (instrumental), ouvir empregados (humana), respeitar contextos locais (cultural) e apoiar decisão (estratégica).",
+      "confusion": "Reduzir comunicação organizacional a divulgação institucional ou ao departamento de comunicação apaga dimensões humanas, culturais e estratégicas.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6493b2e7a10dc58f",
+        "section": "Segundo conjunto: três dimensões em 2012, quatro em 2014"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/56%20-%20dimensoes%20e%20escopo%20da%20comunicacao%20organizacional%20kunsch.md",
+        "locator": "Capítulo 34: Comunicação organizacional: escopo e dimensões em Kunsch · seção: Segundo conjunto: três dimensões em 2012, quatro em 2014; fundamento: Kunsch; dimensões instrumental, humana, cultural e estratégica."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-34-kunsch-dimensoes"
+      ],
+      "contrast": {
+        "prompt": "Uma comunicação tecnicamente rápida é necessariamente estratégica e dialógica?",
+        "answer": "Não. Rapidez do canal é aspecto instrumental; diálogo e estratégia dependem de participação e articulação com decisões e objetivos. As dimensões podem coexistir, mas uma não prova automaticamente as outras."
+      }
+    },
+    {
+      "id": "camara-comunicacao-35-integrada-modalidades",
+      "term": "Comunicação integrada articula modalidades",
+      "definition": "Para Kunsch, comunicação integrada articula modalidades institucional, mercadológica, interna e administrativa, mantendo objetivos e públicos próprios dentro de uma orientação coerente. Integrar significa coordenar, não apagar as diferenças funcionais.",
+      "example": "O lançamento de um serviço pode exigir relação institucional, informação às equipes, comunicação administrativa do processo e divulgação da oferta.",
+      "confusion": "Usar a mesma identidade visual em todas as peças não garante integração: é preciso coordenar objetivos, informação, responsabilidades e públicos.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-37f0a85c9b214d6e",
+        "section": "Kunsch: o composto integrado e a pergunta de classificação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/57%20-%20comunicacao%20integrada%20modalidades%20articulacao%20e%20governanca.md",
+        "locator": "Capítulo 35: Comunicação integrada: modalidades de Kunsch, articulação e governança · seção: Kunsch: o composto integrado e a pergunta de classificação; fundamento: Modalidades institucional, mercadológica, interna e administrativa em Kunsch."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-35-integrada-modalidades"
+      ],
+      "contrast": {
+        "prompt": "Quatro setores repetirem o mesmo slogan prova que a comunicação organizacional está integrada?",
+        "answer": "Não. A repetição visual pode ser uniforme, mas integração exige articulação entre modalidades, objetivos, públicos e processos. A coerência de marca é um componente, não evidência suficiente."
+      }
+    },
+    {
+      "id": "camara-comunicacao-36-fluxos-vertical-horizontal",
+      "term": "Fluxo ascendente, descendente e horizontal",
+      "definition": "Fluxo organizacional descreve a direção em que a comunicação circula na estrutura. Descendente vai de níveis superiores a inferiores; ascendente leva informações da base à gestão; horizontal ocorre entre unidades ou pessoas em nível equivalente.",
+      "example": "Uma diretriz enviada pela chefia é descendente; uma equipe reporta problema à direção em fluxo ascendente; duas áreas coordenam tarefa em fluxo horizontal.",
+      "confusion": "Fluxo é direção da circulação; canal é o meio; rede descreve conexões. Uma reunião pode servir a diferentes fluxos conforme os participantes e a finalidade.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-8742dc93b5e1a06f",
+        "section": "Os quatro fluxos de Curvello"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/58%20-%20fluxos%20da%20comunicacao%20organizacional%20direcao%20hierarquia%20e%20transversalidade.md",
+        "locator": "Capítulo 36: Fluxos de comunicação organizacional: direção e hierarquia · seção: Os quatro fluxos de Curvello; fundamento: Curvello; fluxos descendente, ascendente, horizontal e transversal."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-36-fluxos-vertical-horizontal"
+      ],
+      "contrast": {
+        "prompt": "Toda reunião é um canal de comunicação horizontal?",
+        "answer": "Não necessariamente. Reunião é uma forma/canal; se reúne chefia e equipe para transmitir uma ordem, o fluxo pode ser descendente. Participantes e direção da informação determinam o fluxo."
+      }
+    },
+    {
+      "id": "camara-comunicacao-37-grapevine-rumor",
+      "term": "Rede informal e grapevine",
+      "definition": "Rede informal é uma forma de circulação que emerge das relações entre pessoas, sem depender integralmente do organograma. A grapevine pode distribuir informação correta, incompleta ou rumor; informalidade descreve a rede, não a veracidade da mensagem.",
+      "example": "Uma equipe conversa sobre mudança ainda não oficial: a circulação pode ser informal mesmo que parte da informação esteja correta.",
+      "confusion": "Não se deve equiparar rede informal a boato falso nem presumir que um comunicado oficial elimina a circulação informal.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c49f86d2107ae35b",
+        "section": "Primeiro classificador: redes formal e informal"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/59%20-%20redes%20formais%20informais%20grapevine%20e%20circulacao%20da%20informacao.md",
+        "locator": "Capítulo 37: Redes formais e informais: grapevine e circulação da informação · seção: Primeiro classificador: redes formal e informal; fundamento: Keith Davis; redes informais e desenhos da grapevine."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-37-grapevine-rumor"
+      ],
+      "contrast": {
+        "prompt": "Se uma informação circula pela grapevine, ela é necessariamente falsa?",
+        "answer": "Não. Grapevine identifica um circuito informal, não o grau de verdade. A informação deve ser verificada independentemente do canal por que circulou."
+      }
+    },
+    {
+      "id": "camara-comunicacao-38-publicos-priorizacao",
+      "term": "Mapeamento e priorização de públicos",
+      "definition": "Mapear públicos requer identificá-los e compreender relações, interesses, capacidade de ação e efeitos da decisão. Modelos de priorização, como poder e interesse ou poder, legitimidade e urgência, organizam critérios; não substituem a análise do contexto.",
+      "example": "Para uma mudança de serviço, usuários afetados, servidores executores e órgãos de controle podem demandar mensagens e formas de participação distintas.",
+      "confusion": "Uma lista de seguidores não equivale a mapeamento de públicos. Alto alcance ou poder, isoladamente, não torna um grupo o único público legítimo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-43a9f2d71b0e65c8",
+        "section": "Mitchell, Agle e Wood (1997): poder, legitimidade e urgência"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/60%20-%20mapeamento%20segmentacao%20e%20priorizacao%20de%20publicos%20institucionais.md",
+        "locator": "Capítulo 38: Mapeamento, segmentação e priorização de públicos institucionais · seção: Mitchell, Agle e Wood (1997): poder, legitimidade e urgência; fundamento: Grunig; Mendelow; Mitchell, Agle e Wood."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-38-publicos-priorizacao"
+      ],
+      "contrast": {
+        "prompt": "Priorizar apenas o público com maior número de seguidores cobre necessariamente todos os públicos relevantes?",
+        "answer": "Não. Alcance é só um possível critério; poder, interesse, legitimidade, urgência e impacto da decisão podem revelar públicos menos numerosos mas diretamente afetados."
+      }
+    },
+    {
+      "id": "camara-comunicacao-39-sintoma-diagnostico",
+      "term": "Diagnóstico precede a escolha da estratégia",
+      "definition": "Diagnóstico de comunicação relaciona evidências a um problema organizacional e identifica causas, públicos e condições. Sintoma é manifestação observável; não basta para definir a causa nem a solução. Planejamento estratégico usa esse diagnóstico para orientar objetivos e ações.",
+      "example": "Baixa leitura da newsletter é um sintoma; entrevistas podem mostrar que o problema é conteúdo pouco relevante ou falta de acesso.",
+      "confusion": "Aumentar a frequência de mensagens sem investigar a causa pode ampliar ruído e não resolver o problema identificado.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-80ac39e176d5b24f",
+        "section": "Um sintoma não é um diagnóstico"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/61%20-%20planejamento%20estrategico%20de%20comunicacao%20e%20diagnostico%20organizacional.md",
+        "locator": "Capítulo 39: Planejamento estratégico de comunicação e diagnóstico organizacional · seção: Um sintoma não é um diagnóstico; fundamento: Kunsch; etapas de planejamento; diagnóstico e decisão."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-39-sintoma-diagnostico"
+      ],
+      "contrast": {
+        "prompt": "A baixa participação em um evento prova que faltou divulgação?",
+        "answer": "Não. É um sintoma que admite várias causas, como horário, formato, acesso ou relevância. O diagnóstico coleta evidências antes de escolher a intervenção."
+      }
+    },
+    {
+      "id": "camara-comunicacao-40-amec-output-outcome",
+      "term": "AMEC: outputs, outtakes e outcomes",
+      "definition": "A estrutura de avaliação da AMEC diferencia atividades e produtos comunicacionais (outputs), aquilo que os públicos retêm ou compreendem (outtakes), efeitos sobre conhecimento, atitudes ou comportamento (outcomes) e impacto organizacional. O nível de alcance não prova impacto.",
+      "example": "Número de publicações é output; lembrança da mensagem é outtake; mudança de comportamento é outcome; contribuição para objetivo institucional é impacto.",
+      "confusion": "Impressões e cliques medem exposição ou interação, não demonstram automaticamente compreensão, mudança de comportamento ou causalidade.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6bd29c1e87f043a5",
+        "section": "AMEC: a estrutura de seis níveis de avaliação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/62%20-%20objetivos%20indicadores%20e%20avaliacao%20de%20comunicacao%20amec.md",
+        "locator": "Capítulo 40: Objetivos, indicadores e avaliação de comunicação: AMEC e resultados · seção: AMEC: a estrutura de seis níveis de avaliação; fundamento: AMEC; outputs, outtakes, outcomes e impacto."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-40-amec-output-outcome"
+      ],
+      "contrast": {
+        "prompt": "O aumento de visualizações de uma campanha prova que ela mudou o comportamento do público?",
+        "answer": "Não. Visualizações são uma medida de exposição/interação (output); mudança comportamental é outcome e requer evidência adequada, com desenho capaz de separar explicações alternativas."
+      }
+    },
+    {
+      "id": "camara-comunicacao-41-plano-plano-midia",
+      "term": "Plano de comunicação e plano de mídia",
+      "definition": "Plano de comunicação articula diagnóstico, objetivos, públicos, estratégias, ações, recursos, cronograma e avaliação. Plano de mídia detalha decisões sobre veículos e distribuição de mensagens; é um componente possível, não sinônimo do plano inteiro.",
+      "example": "Um plano pode definir objetivo de ampliar acesso e prever ações presenciais, página institucional, atendimento e, quando cabível, mídia paga.",
+      "confusion": "Uma tabela de datas e canais não substitui diagnóstico nem objetivos; plano de mídia sozinho não cobre todas as decisões de comunicação.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3d6f82b40e9715ac",
+        "section": "Briefing, plano de comunicação e plano de mídia"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/63%20-%20plano%20de%20comunicacao%20estrutura%20acoes%20cronograma%20orcamento%20e%20execucao.md",
+        "locator": "Capítulo 41: Plano de comunicação: estrutura, ações, cronograma, orçamento e execução · seção: Briefing, plano de comunicação e plano de mídia; fundamento: Estrutura do plano; relação entre plano de comunicação e plano de mídia."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-41-plano-plano-midia"
+      ],
+      "contrast": {
+        "prompt": "Apresentar um calendário de inserções em veículos é suficiente para demonstrar um plano completo de comunicação?",
+        "answer": "Não. O calendário integra o planejamento de mídia; o plano completo requer também diagnóstico, objetivos, públicos, ações, recursos e critérios de avaliação."
+      }
+    },
+    {
+      "id": "camara-comunicacao-42-raci-controle-mudanca",
+      "term": "RACI e governança de projetos",
+      "definition": "A matriz RACI distingue quem executa (Responsible), quem responde pela decisão final (Accountable), quem é consultado (Consulted) e quem recebe informação (Informed). Ela esclarece papéis, mas não substitui autoridade formal nem processo de aprovação.",
+      "example": "Na revisão de uma postagem, a equipe de conteúdo pode executar, uma chefia responder pela aprovação, jurídico ser consultado e áreas impactadas ser informadas.",
+      "confusion": "Ser informado não equivale a aprovar; ser consultado não transfere a responsabilidade decisória. O projeto precisa explicitar quem pode autorizar mudanças.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6c72b9e450a813df",
+        "section": "Matriz RACI: responsabilidade de execução e de decisão"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/64%20-%20gestao%20de%20projetos%20de%20comunicacao%20papeis%20riscos%20mudancas%20e%20controle.md",
+        "locator": "Capítulo 42: Gestão de projetos de comunicação: papéis, riscos, mudanças e controle · seção: Matriz RACI: responsabilidade de execução e de decisão; fundamento: RACI; papéis, controle e mudança em projetos."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-42-raci-controle-mudanca"
+      ],
+      "contrast": {
+        "prompt": "Na matriz RACI, o papel “Informed” tem necessariamente poder de veto sobre a entrega?",
+        "answer": "Não. “Informed” indica quem deve receber informação; consulta e responsabilidade decisória são papéis diferentes e precisam ser atribuídos explicitamente."
+      }
+    },
+    {
+      "id": "camara-comunicacao-43-pilar-editoria-pauta",
+      "term": "Estratégia editorial e níveis de pauta",
+      "definition": "Estratégia de conteúdo define finalidade, público, governança e critérios. Linha editorial e pilares orientam temas; editorias organizam recortes recorrentes; pauta e abordagem especificam uma publicação concreta. Calendário organiza quando publicar.",
+      "example": "Um pilar “serviços ao cidadão” pode conter editoria de prazos, pauta sobre emissão de documento e publicação numa data definida no calendário.",
+      "confusion": "Tema recorrente não é pauta pronta, e calendário não é estratégia. Confundir níveis produz volume de publicação sem foco.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a72f906bde4318c5",
+        "section": "Pilar, editoria, série, pauta e abordagem: cinco níveis diferentes"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/65%20-%20planejamento%20editorial%20para%20redes%20sociais%20oficiais%20pautas%20linhas%20e%20calendario.md",
+        "locator": "Capítulo 43: Planejamento editorial para redes sociais oficiais: pautas, linhas e calendário · seção: Pilar, editoria, série, pauta e abordagem: cinco níveis diferentes; fundamento: Halvorson; níveis de estratégia e planejamento editorial."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-43-pilar-editoria-pauta"
+      ],
+      "contrast": {
+        "prompt": "Um calendário com datas e temas define, por si, a estratégia de conteúdo?",
+        "answer": "Não. O calendário organiza o tempo; a estratégia define objetivos, públicos, critérios e governança. Pilares e editorias também precisam desdobrar-se em pautas e abordagens concretas."
+      }
+    },
+    {
+      "id": "camara-comunicacao-44-aprovacao-publicacao",
+      "term": "Governança de conteúdo e estados de aprovação",
+      "definition": "Governança de postagem define papéis, etapas, critérios de passagem, controle de versão, aprovação e correção. Produzir, validar, aprovar e publicar são atos distintos que precisam de responsáveis adequados.",
+      "example": "Um texto pode estar redigido, aguardar checagem jurídica e ainda não estar autorizado para publicação.",
+      "confusion": "Conteúdo concluído pelo redator não é automaticamente aprovado; um fluxo claro evita publicação prematura e mantém trilha de revisão.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-8f0c2e19a5d74b6c",
+        "section": "Papéis: produção, validação, aprovação e publicação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/66%20-%20producao%20colaborativa%20governanca%20e%20aprovacao%20de%20postagens.md",
+        "locator": "Capítulo 44: Produção colaborativa e governança de postagens oficiais · seção: Papéis: produção, validação, aprovação e publicação; fundamento: Governança, papéis e estados do conteúdo."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-44-aprovacao-publicacao"
+      ],
+      "contrast": {
+        "prompt": "Um conteúdo marcado como “pronto para revisão” já pode ser publicado?",
+        "answer": "Não. Esse estado indica que a produção terminou e a validação ainda precisa ocorrer; publicação depende das aprovações previstas no fluxo."
+      }
+    },
+    {
+      "id": "camara-comunicacao-45-plataforma-necessidade",
+      "term": "Escolha de plataforma a partir da necessidade",
+      "definition": "A plataforma deve ser escolhida após definir público, objetivo, formato, acessibilidade, capacidade de resposta e recursos disponíveis. Cada ambiente oferece funções e restrições próprias, que mudam; a decisão deve considerar a especificação vigente.",
+      "example": "Uma instrução que exige consulta posterior pode ser melhor atendida por página estável, complementada por publicação social que encaminhe à fonte.",
+      "confusion": "A popularidade de uma plataforma não prova que ela atende ao público ou ao objetivo. Reproduzir o mesmo conteúdo em todos os canais pode ignorar linguagem e acessibilidade.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-bb9305cf871d42ae",
+        "section": "A arquitetura da decisão: necessidade antes da plataforma"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/67%20-%20plataformas%20digitais%20publicos%20linguagens%20e%20proporcoes.md",
+        "locator": "Capítulo 45: Plataformas digitais: públicos, linguagens e proporções de imagem · seção: A arquitetura da decisão: necessidade antes da plataforma; fundamento: Escolha de canal, público, linguagem e estado das especificações."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-45-plataforma-necessidade"
+      ],
+      "contrast": {
+        "prompt": "A instituição deve escolher primeiro a plataforma mais popular e depois adaptar o objetivo ao formato disponível?",
+        "answer": "Não. Primeiro se definem necessidade, público e objetivo; depois se selecionam canais compatíveis e se adapta a linguagem, considerando acesso e recursos."
+      }
+    },
+    {
+      "id": "camara-comunicacao-46-carrossel-progressao",
+      "term": "Carrossel organiza sequência de sentido",
+      "definition": "Carrossel distribui conteúdo em telas ordenadas, permitindo progressão de etapas ou argumentos e controle da sequência de leitura. Peça estática tende a oferecer síntese imediata; vídeo acrescenta movimento e áudio; formato deve servir à função.",
+      "example": "Passos numerados de um procedimento podem ser distribuídos em telas sequenciais, mantendo título e orientação de continuidade.",
+      "confusion": "Carrossel não é apenas uma coleção de cards independentes: a ordem pode construir o sentido e precisa permanecer compreensível e acessível.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-5c4d7e9b1a8260f3",
+        "section": "Carrossel: sequência ordenada, progressão e controle de sentido"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/68%20-%20formatos%20editoriais%20cards%20carrosseis%20videos%20stories%20e%20lives.md",
+        "locator": "Capítulo 46: Formatos editoriais: cards, carrosséis, vídeos, stories e lives · seção: Carrossel: sequência ordenada, progressão e controle de sentido; fundamento: Função editorial e características do carrossel."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-46-carrossel-progressao"
+      ],
+      "contrast": {
+        "prompt": "Se cada tela de um carrossel é entendida isoladamente, a ordem das telas nunca importa?",
+        "answer": "Não. Um carrossel pode construir uma sequência argumentativa ou procedural; trocar a ordem pode prejudicar a progressão, ainda que cada tela tenha informação individual."
+      }
+    },
+    {
+      "id": "camara-comunicacao-47-legenda-texto-alternativo",
+      "term": "Legenda textual e texto alternativo",
+      "definition": "Legenda de publicação acompanha a peça e orienta sua leitura; legenda audiovisual transcreve ou sincroniza fala e sons; texto alternativo descreve imagens para leitores de tela. São recursos diferentes e não se substituem automaticamente.",
+      "example": "Uma postagem com gráfico pode usar legenda para contextualizar a mensagem e texto alternativo para descrever os dados visuais essenciais.",
+      "confusion": "Inserir hashtags na legenda não torna uma imagem acessível. Texto alternativo deve transmitir informação visual relevante sem repetir inutilmente todo o texto da peça.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-37c8f1e42a9065bd",
+        "section": "Três sentidos que não se confundem: legenda, legenda audiovisual e texto alternativo"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/69%20-%20capa%20legenda%20marcacao%20palavras%20chave%20e%20chamada%20para%20acao.md",
+        "locator": "Capítulo 47: Capa, legenda, marcação, palavras-chave e chamada para ação · seção: Três sentidos que não se confundem: legenda, legenda audiovisual e texto alternativo; fundamento: Acessibilidade de conteúdo e distinções entre legenda e texto alternativo."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-47-legenda-texto-alternativo"
+      ],
+      "contrast": {
+        "prompt": "Uma legenda escrita abaixo da imagem substitui sempre o texto alternativo para leitores de tela?",
+        "answer": "Não. A legenda contextualiza a postagem; o texto alternativo oferece descrição da imagem em tecnologia assistiva. Podem se complementar, conforme o conteúdo visual."
+      }
+    },
+    {
+      "id": "camara-comunicacao-48-transparencia-ativa-passiva",
+      "term": "Transparência ativa e passiva",
+      "definition": "Transparência ativa é divulgação de informações de interesse público por iniciativa estatal; transparência passiva é atendimento a pedido de acesso. A comunicação editorial pode facilitar entendimento, mas deve manter o acesso à fonte e observar restrições legais.",
+      "example": "Publicar contratos no portal é transparência ativa; responder pedido individual de documento é transparência passiva.",
+      "confusion": "Uma notícia sobre dado público não substitui a publicação íntegra da fonte quando esta é exigida. Nem toda informação pode ser divulgada sem considerar sigilo legal e proteção de dados.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-e8246cf71b0a935d",
+        "section": "Ativa e passiva: o critério é a origem do acesso"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/70%20-%20transparencia%20publica%20aplicada%20a%20comunicacao%20institucional.md",
+        "locator": "Capítulo 48: Transparência pública aplicada à comunicação institucional · seção: Ativa e passiva: o critério é a origem do acesso; fundamento: CF, art. 5º, XXXIII; Lei nº 12.527/2011 (LAI); Ato da Mesa nº 45/2012."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-48-transparencia-ativa-passiva"
+      ],
+      "contrast": {
+        "prompt": "A divulgação espontânea de dados no portal é transparência passiva por estar disponível ao cidadão?",
+        "answer": "Não. A divulgação por iniciativa do órgão é ativa; a passiva decorre de um pedido de acesso. Disponibilidade ao público não altera o critério que distingue as modalidades."
+      }
+    },
+    {
+      "id": "camara-comunicacao-49-publica-governamental-partidaria",
+      "term": "Comunicação pública, governamental e partidária",
+      "definition": "Comunicação pública orienta-se pelo interesse público, participação e direito à informação; comunicação governamental informa ações e serviços da gestão; comunicação político-partidária busca promover posições ou atores partidários. Uma peça deve ser avaliada por finalidade, conteúdo, autoria e contexto.",
+      "example": "Informar horário de um serviço público é comunicação de utilidade; usar recursos oficiais para exaltar autoridade com slogan pessoal pode ultrapassar finalidade institucional.",
+      "confusion": "O fato de uma mensagem ser emitida por órgão público não a torna automaticamente de interesse público; publicidade oficial está sujeita ao art. 37, § 1º, da Constituição.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6e9c025b8d7f341a",
+        "section": "Matriz: fronteiras entre as categorias"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/71%20-%20comunicacao%20publica%20governamental%20e%20politico%20partidaria.md",
+        "locator": "Capítulo 49: Comunicação pública, governamental e político-partidária: finalidades e fronteiras · seção: Matriz: fronteiras entre as categorias; fundamento: Jorge Duarte; Constituição, art. 37, § 1º; Ato da Mesa nº 218/2025."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-49-publica-governamental-partidaria"
+      ],
+      "contrast": {
+        "prompt": "Uma publicação em perfil oficial é necessariamente comunicação pública, qualquer que seja seu conteúdo e finalidade?",
+        "answer": "Não. Canal oficial identifica o emissor, mas a finalidade e o conteúdo também importam. Comunicação institucional deve servir à informação de interesse público e não à promoção pessoal ou partidária."
+      }
+    },
+    {
+      "id": "camara-comunicacao-50-politica-camara-ato218",
+      "term": "Política de comunicação da Câmara e alcance institucional",
+      "definition": "O Ato da Mesa nº 218/2025 institui política de comunicação social da Câmara e organiza princípios, objetivos, diretrizes, públicos e canais para orientar a atuação institucional. A aplicação exige observar o ato e as competências previstas, não apenas uma campanha isolada.",
+      "example": "Ao planejar uma iniciativa oficial, a unidade verifica se a ação é coerente com os princípios e diretrizes institucionais e com o público a que se destina.",
+      "confusion": "A política institucional orienta ações de comunicação; não converte toda mensagem publicada em canal oficial em conteúdo adequado, nem afasta as demais normas aplicáveis.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-91f62eac407bd583",
+        "section": "Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/72%20-%20ato%20da%20mesa%20218%202025%20politica%20de%20comunicacao%20da%20camara.md",
+        "locator": "Capítulo 50: Ato da Mesa nº 218/2025: política de comunicação social da Câmara · seção: Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º); fundamento: Ato da Mesa da Câmara nº 218/2025, arts. 1º a 4º; política de comunicação social."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-50-politica-camara-ato218"
+      ],
+      "contrast": {
+        "prompt": "Uma ação de comunicação em canal oficial fica dispensada de observar a política institucional porque já usa marca da Câmara?",
+        "answer": "Não. A identidade visual não substitui a conformidade com a política. A ação deve respeitar o âmbito e os critérios do Ato da Mesa nº 218/2025, além das demais normas aplicáveis."
+      }
     }
   ]
 }

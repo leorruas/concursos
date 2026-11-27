@@ -172,7 +172,30 @@ assert.deepEqual(ledger.simulations[0].netScore, {P1: 0, P2: -1, total: -1});
 assert.deepEqual(scoreCamara([question, {...question, examPart: 'P1', userAnswer: 'E'}, {...question, userAnswer: null}]), {P1: 1, P2: -1, total: 0});
 const { outputs } = buildSubjectContexts(root, ledger, contests, day);
 const ctx = contest => JSON.parse(outputs.get('data/contexto-estudo/' + contest + '/direito-constitucional.json'));
-assert.equal(ctx('camara-2026').gaps[0].dueOn, '2026-11-14');
+assert.equal(ctx('camara-2026').gaps[0].dueOn, '2026-11-13', 'Câmara agenda o primeiro reteste para D+2.');
+
+const camaraGap = (questions, cut) => {
+  const {outputs} = buildSubjectContexts(root, {questions, simulations: []}, contests, cut);
+  const context = JSON.parse(outputs.get('data/contexto-estudo/camara-2026/direito-constitucional.json'));
+  return context.gaps.find(gap => gap.questionId === 'camara-erro-inicial');
+};
+const initialError = {...question, id:'camara-erro-inicial', date:'2026-11-01',
+  result:'incorrect', userAnswer:'E', confidence:'secure', retrievalOf:[],
+  repetition:{classification:'new', similarTo:[], intentional:false}};
+const independentRetest = (id,date) => ({...question, id, date, result:'correct', userAnswer:'C',
+  confidence:'secure', retrievalOf:['camara-erro-inicial'],
+  repetition:{classification:'thematic', similarTo:['camara-erro-inicial'], intentional:false}});
+assert.equal(camaraGap([initialError], '2026-11-01').dueOn, '2026-11-03',
+  'O primeiro teste independente vence em D+2.');
+assert.equal(camaraGap([initialError, independentRetest('camara-ret-2','2026-11-03')], '2026-11-03').dueOn, '2026-11-08',
+  'Depois do reteste D+2, a próxima etapa vence em D+7.');
+assert.equal(camaraGap([initialError, independentRetest('camara-ret-2','2026-11-03'),
+  independentRetest('camara-ret-7','2026-11-08')], '2026-11-08').dueOn, '2026-11-15',
+  'Depois do reteste D+7, a próxima etapa vence em D+14.');
+assert.equal(camaraGap([initialError, independentRetest('camara-ret-2','2026-11-03'),
+  independentRetest('camara-ret-7','2026-11-08'), independentRetest('camara-ret-14','2026-11-15')],
+  '2026-11-15').dueOn, null, 'Após os três testes independentes, o ciclo se conclui.');
+
 const cguPath = 'data/contexto-estudo/cgu-2026/direito-administrativo.json';
 assert.equal(outputs.get(cguPath), buildSubjectContexts(root, empty, contests, day).outputs.get(cguPath));
 assert.equal(ledger.questions[0].confidence, 'insecure');

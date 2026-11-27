@@ -218,10 +218,15 @@ export function buildSubjectContexts(root,ledger,concursos,cut) {
         const attempts=qs.filter(r=>(r.retrievalOf||[]).includes(q.id)&&r.result==='correct'&&r.confidence==='secure'&&(r.date||sources.get(r.sourceId)?.date)>=date);
         const spaced=attempts.filter(r=>(r.date||sources.get(r.sourceId)?.date)>date&&!['exact','mechanical'].includes(r.repetition?.classification));
         const laterFailure=qs.some(r=>r.id!==q.id&&(r.conceptId||r.mechanism)===concept&&r.result==='incorrect'&&(r.date||sources.get(r.sourceId)?.date)>(spaced.at(-1)?.date||date));
-        const spacedDays=[...new Set(spaced.map(r=>r.date||sources.get(r.sourceId)?.date))];
-        const reviewDays=camara?[3,7]:plan?.reviewPolicy?.intervalDays||[1,7,21];
-        const dueOn=camara ? (spacedDays.length>=2&&!laterFailure ? null : addDays(date,reviewDays[spacedDays.length?1:0])) : addDays(spaced.at(-1)?.date||attempts.at(-1)?.date||date,reviewDays[Math.min(spacedDays.length,2)]);
-        const status=spaced.length&&!laterFailure?'retencao-observada':attempts.length&&!laterFailure?'recuperacao-imediata':'pendente';
+        const spacedDays=[...new Set(spaced.map(r=>r.date||sources.get(r.sourceId)?.date))].sort();
+        const reviewDays=camara?[2,7,14]:plan?.reviewPolicy?.intervalDays||[1,7,21];
+        const completedReviewStages=camara?spacedDays.reduce((completed,spacedDate)=>
+          completed<reviewDays.length&&Math.floor((Date.parse(spacedDate+'T12:00:00Z')-Date.parse(date+'T12:00:00Z'))/86400000)>=reviewDays[completed]?completed+1:completed,0):0;
+        const dueOn=camara
+          ?(completedReviewStages>=reviewDays.length&&!laterFailure?null:addDays(date,reviewDays[Math.min(completedReviewStages,reviewDays.length-1)]))
+          :addDays(spaced.at(-1)?.date||attempts.at(-1)?.date||date,reviewDays[Math.min(spacedDays.length,2)]);
+        const retained=camara?completedReviewStages>0:spaced.length>0;
+        const status=retained&&!laterFailure?'retencao-observada':attempts.length&&!laterFailure?'recuperacao-imediata':'pendente';
         gaps.push({questionId:q.id,unitId:unitOf(q),concept,topic:q.subtopic,kind:q.result==='incorrect'?'erro':q.result==='blank'?'branco':q.confidence==='guess'?'chute':'duvida',errorType:q.errorType||null,errorTypeLabel:({K:'conhecimento',C:'confusao_conceitual',I:'interpretacao',D:'distracao'})[q.errorType]||null,status,recurrences:Math.max(qs.filter(r=>r.result==='incorrect'&&(r.conceptId||r.mechanism)===concept).length,1+(q.repetition?.similarTo||[]).filter(id=>byId.get(id)?.result==='incorrect').length),date,dueOn,theoryRefs:q.theoryRefs||[],sourceRefs:q.sourceRefs||[],evidence:attempts.map(r=>r.id)});
       }
       for (const gap of gaps) { const later=gaps.filter(g=>g.concept===gap.concept&&g.kind==='erro'&&gaps.indexOf(g)>gaps.indexOf(gap)).at(-1);if(later&&later!==gap){gap.supersededBy=later.questionId;gap.status='historico-substituido';} }

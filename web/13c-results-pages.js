@@ -657,7 +657,7 @@
   if(!report.matters.size)matters.append(newNode('p','results-caption','Sem dados para a matéria e o período selecionados.'));
   learningTarget.append(matters);
   const retention=learningBlock('Retenção por conceito','Retestes em questões diferentes, sem consulta nem correção prévia. Histórico completo.');
-  const intervals=plan?.intervals||[2,7,21];
+  const intervals=plan?.intervals||[2,7,14];
   if(!principles?.length||intervals.length!==3)retention.append(newNode('p','results-caption','Sem ciclos de retenção disponíveis.'));
   else{
    const controls=newNode('div','results-retention-controls');

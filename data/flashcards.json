@@ -21459,6 +21459,1518 @@
         "prompt": "A RCL é igual à soma de todas as receitas orçamentárias, inclusive receitas de capital?",
         "answer": "Não. A LRF define a RCL a partir de receitas correntes e deduções legais específicas; não corresponde a toda arrecadação bruta."
       }
+    },
+    {
+      "id": "camara-orc09a-categoria-economica",
+      "term": "Receita corrente × receita de capital",
+      "definition": "A categoria econômica distingue, em linhas gerais, ingressos que financiam atividades ordinárias daqueles associados a operações de capital, como empréstimos, alienação de bens e transferências de capital. A classificação legal detalha suas origens; ela descreve a natureza econômica do ingresso, não sua destinação.",
+      "example": "IPTU é receita corrente; empréstimo contratado é receita de capital, embora ambos sejam receitas orçamentárias.",
+      "confusion": "Receita de capital não é sinônimo de entrada extraorçamentária, e receita corrente não significa recurso livre de vinculação.",
+      "topic": "Classificação da receita: natureza, fonte e resultado primário",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f13b65a28d8c4e91",
+        "section": "Receita: categoria econômica e natureza"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04a%20-%20classificacao%20da%20receita.md",
+        "locator": "Classificação da receita: natureza, fonte e resultado primário · seção: Receita: categoria econômica e natureza; fundamento: Lei nº 4.320/1964, art. 11; MTO 2026, classificação da receita"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "receita-corrente-capital"
+      ],
+      "contrast": {
+        "prompt": "A prefeitura registra imposto arrecadado e empréstimo para obra. Qual é a categoria econômica de cada ingresso?",
+        "answer": "O imposto é receita corrente; o empréstimo é receita de capital. A destinação do empréstimo é questão separada."
+      }
+    },
+    {
+      "id": "camara-orc09a-origens-receita",
+      "term": "Origem da receita × espécie",
+      "definition": "A natureza da receita é uma classificação hierárquica que identifica a operação geradora do ingresso, descendo da categoria econômica a níveis mais específicos. “Origem” e “espécie” são níveis da codificação, e não classificadores independentes da fonte/destinação.",
+      "example": "Uma receita tributária pode ser detalhada por origem e espécie para distinguir a fonte econômica da arrecadação.",
+      "confusion": "Não use “origem” em sentido coloquial como se já informasse a fonte de recursos vinculados.",
+      "topic": "Classificação da receita: natureza, fonte e resultado primário",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f13b65a28d8c4e91",
+        "section": "Receita: categoria econômica e natureza"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04a%20-%20classificacao%20da%20receita.md",
+        "locator": "Classificação da receita: natureza, fonte e resultado primário · seção: Receita: categoria econômica e natureza; fundamento: Lei nº 4.320/1964, art. 11; MTO 2026, natureza da receita"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "natureza-receita-niveis"
+      ],
+      "contrast": {
+        "prompt": "Dois tributos têm a mesma categoria econômica, mas origens diferentes. O que a hierarquia permite distinguir?",
+        "answer": "Ela detalha a operação arrecadatória em níveis mais específicos, sem substituir a classificação da fonte/destinação."
+      }
+    },
+    {
+      "id": "camara-orc09a-receita-originaria-derivada",
+      "term": "Receita originária × derivada",
+      "definition": "Na classificação doutrinária, receita originária decorre da exploração de patrimônio ou atividade estatal em relação não compulsória; receita derivada decorre do poder de império, como tributos. Essa distinção descreve a forma de obtenção e não altera automaticamente a categoria legal ou a vinculação do recurso.",
+      "example": "Aluguel de imóvel público é exemplo de ingresso originário; imposto é derivado.",
+      "confusion": "Originária/derivada é uma classificação doutrinária; não substitui corrente/capital nem fonte/destinação.",
+      "topic": "Classificação da receita: natureza, fonte e resultado primário",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f13b65a28d8c4e91",
+        "section": "Receita: categoria econômica e natureza"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04a%20-%20classificacao%20da%20receita.md",
+        "locator": "Classificação da receita: natureza, fonte e resultado primário · seção: Receita: categoria econômica e natureza; fundamento: MCASP, 11ª edição, Parte I, conceitos de receita; Lei nº 4.320/1964, art. 11"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "receita-originaria-derivada"
+      ],
+      "contrast": {
+        "prompt": "O ente recebe aluguel de prédio público e também IPTU. Qual critério diferencia os dois na classificação doutrinária?",
+        "answer": "O aluguel decorre da exploração patrimonial (originária); o IPTU decorre do poder de tributar (derivada)."
+      }
+    },
+    {
+      "id": "camara-orc09a-impostos-taxas-contribuicoes",
+      "term": "Impostos × taxas × contribuições",
+      "definition": "Na natureza da receita, impostos, taxas e contribuições são espécies tributárias com fatos geradores e regimes próprios. A espécie identifica a natureza jurídica do tributo; não revela sozinha a fonte/destinação específica registrada para o recurso.",
+      "example": "A cobrança de taxa por serviço específico não se transforma em imposto apenas porque ambos são receitas correntes.",
+      "confusion": "Ser receita tributária corrente não elimina diferenças entre espécies nem define, isoladamente, o destino do dinheiro.",
+      "topic": "Classificação da receita: natureza, fonte e resultado primário",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f13b65a28d8c4e91",
+        "section": "Receita: categoria econômica e natureza"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04a%20-%20classificacao%20da%20receita.md",
+        "locator": "Classificação da receita: natureza, fonte e resultado primário · seção: Receita: categoria econômica e natureza; fundamento: Constituição Federal, arts. 145 e 149; Lei nº 4.320/1964, art. 11"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "especies-tributarias-receita"
+      ],
+      "contrast": {
+        "prompt": "A cobrança remunera poder de polícia específico. O fato de ser receita corrente permite classificá-la como imposto?",
+        "answer": "Não. O enquadramento entre taxa e imposto depende da natureza jurídica e do fato gerador, não apenas da categoria corrente."
+      }
+    },
+    {
+      "id": "camara-orc09a-operacao-credito-aro",
+      "term": "Operação de crédito × ARO",
+      "definition": "Operação de crédito comum é receita orçamentária de capital; a antecipação de receita orçamentária (ARO) é operação de crédito de curto prazo destinada a atender insuficiência temporária de caixa e tem tratamento extraorçamentário na entrada. A finalidade e o regime legal distinguem as operações.",
+      "example": "Empréstimo para financiar investimento integra a receita orçamentária; ARO para descasamento temporário de caixa não é receita orçamentária.",
+      "confusion": "Ambas podem envolver endividamento, mas não recebem o mesmo tratamento orçamentário.",
+      "topic": "Classificação da receita: natureza, fonte e resultado primário",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f13b65a28d8c4e91",
+        "section": "Fonte/destinação de recursos × natureza da receita"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04a%20-%20classificacao%20da%20receita.md",
+        "locator": "Classificação da receita: natureza, fonte e resultado primário · seção: Fonte/destinação de recursos × natureza da receita; fundamento: Lei nº 4.320/1964, art. 3º, parágrafo único; LRF, art. 38; MTO 2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "operacao-credito-vs-aro"
+      ],
+      "contrast": {
+        "prompt": "Um município toma empréstimo de longo prazo para construir escola. O ingresso deve receber o tratamento de ARO?",
+        "answer": "Não. A finalidade de financiar obra caracteriza operação de crédito comum; ARO atende insuficiência temporária de caixa e segue regra própria."
+      }
+    },
+    {
+      "id": "camara-orc09a-primaria-financeira",
+      "term": "Receita primária × financeira",
+      "definition": "A classificação primária/financeira indica como o ingresso é tratado no cálculo do resultado fiscal. Em regra, tributos e receitas de alienação são primários, enquanto operações de crédito são financeiras; o critério não coincide com corrente/capital.",
+      "example": "Uma operação de crédito é receita de capital e financeira; venda de terreno é receita de capital e, em regra, primária.",
+      "confusion": "Capital não significa necessariamente financeira: duas receitas de capital podem ter tratamento primário distinto.",
+      "topic": "Classificação da receita: natureza, fonte e resultado primário",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f13b65a28d8c4e91",
+        "section": "Primária × financeira: efeito no resultado primário"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04a%20-%20classificacao%20da%20receita.md",
+        "locator": "Classificação da receita: natureza, fonte e resultado primário · seção: Primária × financeira: efeito no resultado primário; fundamento: MTO 2026, classificação de receitas primárias e financeiras; metodologia fiscal vigente"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "receita-primaria-financeira"
+      ],
+      "contrast": {
+        "prompt": "Empréstimo e venda de imóvel são ambos receitas de capital. Eles necessariamente têm o mesmo tratamento no resultado primário?",
+        "answer": "Não. O empréstimo é tipicamente financeiro; a alienação, em regra, é receita primária."
+      }
+    },
+    {
+      "id": "camara-orc09a-fonte-vinculada",
+      "term": "Fonte/destinação vinculada",
+      "definition": "A fonte/destinação identifica regras legais ou constitucionais que reservam recursos a certas finalidades ou controlam sua aplicação. Ela acompanha a gestão do recurso; não muda a operação econômica que gerou a receita.",
+      "example": "Dois ingressos de impostos podem ter fontes distintas se uma parcela estiver vinculada constitucionalmente a uma finalidade.",
+      "confusion": "Vinculação não transforma imposto em taxa nem altera sua categoria econômica.",
+      "topic": "Classificação da receita: natureza, fonte e resultado primário",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f13b65a28d8c4e91",
+        "section": "Fonte/destinação de recursos × natureza da receita"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04a%20-%20classificacao%20da%20receita.md",
+        "locator": "Classificação da receita: natureza, fonte e resultado primário · seção: Fonte/destinação de recursos × natureza da receita; fundamento: Constituição Federal, art. 167, IV; MTO 2026, fonte/destinação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "fonte-destinacao-vinculacao"
+      ],
+      "contrast": {
+        "prompt": "A receita de imposto tem destinação constitucional específica. O que responde à pergunta sobre esse uso?",
+        "answer": "A fonte/destinação e a regra constitucional de vinculação; a natureza continua identificando o imposto arrecadado."
+      }
+    },
+    {
+      "id": "camara-orc09a-alienacao-bens-destinacao",
+      "term": "Alienação de bens × uso do produto",
+      "definition": "A receita da alienação de bens é receita de capital, mas a possibilidade de usar seu produto está sujeita a restrições legais, inclusive a regra do art. 44 da LRF para despesas correntes e a exceção previdenciária prevista no dispositivo.",
+      "example": "A venda de terreno pode financiar investimento; não se presume que possa cobrir qualquer gasto corrente.",
+      "confusion": "Classificar como capital não equivale a declarar livre aplicação.",
+      "topic": "Classificação da receita: natureza, fonte e resultado primário",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f13b65a28d8c4e91",
+        "section": "Primária × financeira: efeito no resultado primário"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04a%20-%20classificacao%20da%20receita.md",
+        "locator": "Classificação da receita: natureza, fonte e resultado primário · seção: Primária × financeira: efeito no resultado primário; fundamento: LRF, art. 44; Lei nº 4.320/1964, art. 11"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "alienacao-bens-destinacao"
+      ],
+      "contrast": {
+        "prompt": "O município vende um terreno e classifica o ingresso como receita de capital. Pode usar automaticamente o valor para folha de pagamento?",
+        "answer": "Não. O art. 44 da LRF veda, em regra, aplicar receita de capital derivada da alienação de bens em despesa corrente, ressalvada a destinação legal a regimes de previdência."
+      }
+    },
+    {
+      "id": "camara-orc09a-previsao-vs-arrecadacao",
+      "term": "Previsão da receita × arrecadação",
+      "definition": "Previsão estima receitas para a elaboração e execução do orçamento; arrecadação é a entrada efetiva cobrada e recebida pelo agente competente, etapa da execução da receita. A estimativa não é dinheiro já ingressado.",
+      "example": "A LOA estima R$ 10 milhões de IPTU; só os pagamentos efetivamente recebidos são arrecadação.",
+      "confusion": "Dotação de despesa e previsão de receita são autorizações/estimativas orçamentárias, não caixa realizado.",
+      "topic": "Classificação da receita: natureza, fonte e resultado primário",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f13b65a28d8c4e91",
+        "section": "Núcleo: primeiro a pergunta, depois a classificação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04a%20-%20classificacao%20da%20receita.md",
+        "locator": "Classificação da receita: natureza, fonte e resultado primário · seção: Núcleo: primeiro a pergunta, depois a classificação; fundamento: Lei nº 4.320/1964, arts. 30 e 35; MCASP, 11ª edição, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "previsao-vs-arrecadacao"
+      ],
+      "contrast": {
+        "prompt": "A LOA estimou R$ 10 milhões de receita e R$ 2 milhões foram pagos. Qual valor representa arrecadação até então?",
+        "answer": "R$ 2 milhões. Os R$ 10 milhões são previsão; execução arrecadatória depende dos ingressos efetivos."
+      }
+    },
+    {
+      "id": "camara-orc09a-receita-primaria-resultado",
+      "term": "Receita primária × resultado primário",
+      "definition": "Receita primária é uma parcela classificada para apuração fiscal; resultado primário é saldo calculado comparando receitas e despesas primárias segundo a metodologia aplicável. O total de receitas primárias não é, por si só, o resultado.",
+      "example": "R$ 600 mil de receitas primárias menos R$ 550 mil de despesas primárias produz saldo primário de R$ 50 mil, conforme metodologia adotada.",
+      "confusion": "Não chame o volume arrecadado de resultado: este depende também das despesas e do método de apuração.",
+      "topic": "Classificação da receita: natureza, fonte e resultado primário",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f13b65a28d8c4e91",
+        "section": "Primária × financeira: efeito no resultado primário"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04a%20-%20classificacao%20da%20receita.md",
+        "locator": "Classificação da receita: natureza, fonte e resultado primário · seção: Primária × financeira: efeito no resultado primário; fundamento: MTO 2026; metodologia fiscal oficial do exercício"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "receita-vs-resultado-primario"
+      ],
+      "contrast": {
+        "prompt": "Um ente arrecadou R$ 600 mil de receitas primárias. Esse número, sozinho, prova superávit primário?",
+        "answer": "Não. É necessário confrontá-lo com as despesas primárias e aplicar a metodologia fiscal pertinente."
+      }
+    },
+    {
+      "id": "camara-orc09b-classificacao-institucional",
+      "term": "Órgão × unidade orçamentária",
+      "definition": "A classificação institucional mostra quem responde pela programação: identifica órgão e unidade orçamentária (UO), que recebe dotações e coordena a execução orçamentária correspondente. Unidade administrativa pode existir sem dotação própria.",
+      "example": "Uma coordenação pede computadores; a dotação pode estar alocada à UO que responde pela secretaria.",
+      "confusion": "O setor que demanda o gasto não é necessariamente a unidade que recebe a dotação.",
+      "topic": "Classificação da despesa: esfera, função, programa e natureza",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Despesa: perguntas qualitativas e quantitativas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Classificação da despesa: esfera, função, programa e natureza · seção: Despesa: perguntas qualitativas e quantitativas; fundamento: MTO 2026, classificação institucional"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "orgao-vs-unidade-orcamentaria"
+      ],
+      "contrast": {
+        "prompt": "Uma divisão administrativa solicita gasto mas não aparece como UO no orçamento. Ela necessariamente possui dotação própria?",
+        "answer": "Não. A classificação institucional aloca a dotação à UO responsável, que pode atender unidades administrativas subordinadas."
+      }
+    },
+    {
+      "id": "camara-orc09b-funcao-subfuncao",
+      "term": "Função × subfunção",
+      "definition": "Função representa a área ampla de atuação governamental; subfunção detalha um segmento dessa área. Pela matricialidade, subfunções podem combinar-se com funções distintas quando a finalidade do programa justificar.",
+      "example": "Uma ação de alimentação escolar pode relacionar função Educação à subfunção Alimentação e Nutrição.",
+      "confusion": "Subfunção não é obrigatoriamente exclusiva de uma única função.",
+      "topic": "Classificação da despesa: esfera, função, programa e natureza",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Despesa: perguntas qualitativas e quantitativas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Classificação da despesa: esfera, função, programa e natureza · seção: Despesa: perguntas qualitativas e quantitativas; fundamento: Portaria MOG nº 42/1999, arts. 1º e 3º; MTO 2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "funcao-vs-subfuncao"
+      ],
+      "contrast": {
+        "prompt": "Uma ação educacional envolve subfunção que também aparece em outra área governamental. Isso é automaticamente inválido?",
+        "answer": "Não. A subfunção pode ser combinada a funções diferentes conforme a finalidade da ação; função e subfunção respondem a níveis distintos."
+      }
+    },
+    {
+      "id": "camara-orc09b-programa-acao",
+      "term": "Programa × ação",
+      "definition": "Programa organiza objetivos e resultados da atuação governamental; ação é a operação que contribui para alcançar o objetivo e pode ser projeto, atividade ou operação especial. O programa explica para que; a ação, o que será feito.",
+      "example": "Programa de expansão do acesso pode conter projeto de construir escola e atividade de manter serviços escolares.",
+      "confusion": "Projeto e atividade são categorias da ação, não espécies de programa.",
+      "topic": "Classificação da despesa: esfera, função, programa e natureza",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Despesa: perguntas qualitativas e quantitativas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Classificação da despesa: esfera, função, programa e natureza · seção: Despesa: perguntas qualitativas e quantitativas; fundamento: MTO 2026, estrutura programática; Portaria MOG nº 42/1999"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "programa-vs-acao"
+      ],
+      "contrast": {
+        "prompt": "Uma equipe identifica o objetivo governamental e depois a operação concreta para alcançá-lo. Qual campo descreve cada coisa?",
+        "answer": "O programa organiza o objetivo; a ação descreve a operação concreta que contribui para alcançá-lo."
+      }
+    },
+    {
+      "id": "camara-orc09b-projeto-atividade",
+      "term": "Projeto × atividade",
+      "definition": "Projeto é ação limitada no tempo que contribui para expansão ou aperfeiçoamento da atuação governamental; atividade é ação contínua e permanente necessária à manutenção da ação de governo.",
+      "example": "Construir uma unidade de saúde é projeto; manter atendimento regular na unidade é atividade.",
+      "confusion": "Uma obra pode ser longa sem deixar de ser projeto; o critério é a natureza temporal e o resultado de expansão/aperfeiçoamento.",
+      "topic": "Classificação da despesa: esfera, função, programa e natureza",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Despesa: perguntas qualitativas e quantitativas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Classificação da despesa: esfera, função, programa e natureza · seção: Despesa: perguntas qualitativas e quantitativas; fundamento: Portaria MOG nº 42/1999, art. 2º; MTO 2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "projeto-vs-atividade"
+      ],
+      "contrast": {
+        "prompt": "A construção de uma escola terá etapas por cinco anos e depois haverá aulas contínuas. Qual ação é projeto?",
+        "answer": "A construção é projeto, por ter duração limitada e ampliar a atuação; aulas regulares são atividade permanente."
+      }
+    },
+    {
+      "id": "camara-orc09b-operacao-especial",
+      "term": "Operação especial",
+      "definition": "Operação especial reúne despesas que não contribuem diretamente para manutenção, expansão ou aperfeiçoamento das ações de governo, das quais não resulta produto nem contraprestação direta em bens ou serviços.",
+      "example": "Amortização da dívida é normalmente classificada como operação especial, e não como atividade que entrega serviço público final.",
+      "confusion": "Ser uma despesa relevante ou recorrente não a transforma automaticamente em atividade.",
+      "topic": "Classificação da despesa: esfera, função, programa e natureza",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Despesa: perguntas qualitativas e quantitativas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Classificação da despesa: esfera, função, programa e natureza · seção: Despesa: perguntas qualitativas e quantitativas; fundamento: Portaria MOG nº 42/1999, art. 2º; MTO 2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "operacao-especial"
+      ],
+      "contrast": {
+        "prompt": "O pagamento de amortização da dívida produz diretamente uma unidade de serviço público para o cidadão?",
+        "answer": "Não. Em regra é operação especial, sem produto ou contraprestação direta de bens ou serviços."
+      }
+    },
+    {
+      "id": "camara-orc09b-natureza-despesa-niveis",
+      "term": "Categoria econômica × GND × modalidade × elemento",
+      "definition": "A natureza da despesa organiza níveis: categoria econômica distingue corrente/capital; grupo de natureza da despesa (GND) agrupa objetos de gasto; modalidade indica forma de aplicação; elemento identifica o objeto imediato. Cada nível responde pergunta própria.",
+      "example": "Compra direta de equipamento pode ser despesa de capital, GND investimentos, aplicação direta e elemento de equipamento permanente.",
+      "confusion": "O elemento específico não substitui a categoria, o GND ou a modalidade.",
+      "topic": "Classificação da despesa: esfera, função, programa e natureza",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Despesa: perguntas qualitativas e quantitativas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Classificação da despesa: esfera, função, programa e natureza · seção: Despesa: perguntas qualitativas e quantitativas; fundamento: Lei nº 4.320/1964, art. 12; MTO 2026, natureza da despesa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "natureza-despesa-niveis"
+      ],
+      "contrast": {
+        "prompt": "Qual nível informa se o gasto é corrente ou de capital: elemento ou categoria econômica?",
+        "answer": "A categoria econômica. Elemento identifica objeto imediato do gasto em nível mais detalhado."
+      }
+    },
+    {
+      "id": "camara-orc09b-modalidade-aplicacao",
+      "term": "Modalidade de aplicação",
+      "definition": "Modalidade de aplicação indica se recursos serão aplicados diretamente pelo órgão ou transferidos a outro ente ou entidade, ajudando a evitar dupla contagem nos demonstrativos. Não descreve procedimento de compra.",
+      "example": "A União transfere recursos a um município para executar obra; a modalidade registra a forma de aplicação do recurso.",
+      "confusion": "Modalidade orçamentária não é modalidade de licitação, como pregão ou concorrência.",
+      "topic": "Classificação da despesa: esfera, função, programa e natureza",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Despesa: perguntas qualitativas e quantitativas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Classificação da despesa: esfera, função, programa e natureza · seção: Despesa: perguntas qualitativas e quantitativas; fundamento: MTO 2026, classificação por modalidade de aplicação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "modalidade-aplicacao-vs-licitacao"
+      ],
+      "contrast": {
+        "prompt": "O órgão escolheu pregão para adquirir material. Isso determina a modalidade de aplicação da dotação?",
+        "answer": "Não. Pregão é modalidade licitatória; modalidade de aplicação distingue execução direta de transferência de recursos."
+      }
+    },
+    {
+      "id": "camara-orc09b-gnd-investimento-esfera",
+      "term": "GND Investimentos × orçamento de investimento",
+      "definition": "GND Investimentos classifica a natureza de determinada despesa; orçamento de investimento é uma das esferas da LOA e se refere às empresas estatais conforme o art. 165, § 5º, II, da Constituição. São eixos diferentes.",
+      "example": "Uma universidade compra computadores no orçamento fiscal: a despesa pode ser do GND Investimentos sem integrar o orçamento de investimento das estatais.",
+      "confusion": "A palavra “investimento” aparece em classificadores distintos com objetos diferentes.",
+      "topic": "Classificação da despesa: esfera, função, programa e natureza",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Despesa: perguntas qualitativas e quantitativas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Classificação da despesa: esfera, função, programa e natureza · seção: Despesa: perguntas qualitativas e quantitativas; fundamento: Constituição Federal, art. 165, § 5º; MTO 2026, natureza da despesa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "gnd-vs-esfera-investimento"
+      ],
+      "contrast": {
+        "prompt": "Uma obra foi classificada no GND Investimentos dentro do orçamento fiscal. Isso a desloca para o orçamento de investimento das estatais?",
+        "answer": "Não. GND identifica natureza da despesa; esfera indica em qual orçamento da LOA a programação se encontra."
+      }
+    },
+    {
+      "id": "camara-orc09b-programacao-fisica-financeira",
+      "term": "Meta física × dotação financeira",
+      "definition": "A programação física informa a quantidade de produto ou entrega prevista; a dimensão financeira informa valores autorizados e executados. Compará-las permite acompanhar a execução, mas uma não prova automaticamente a outra.",
+      "example": "Uma ação prevê 10 escolas e R$ 20 milhões; empenhar todo o valor não demonstra que as 10 escolas foram entregues.",
+      "confusion": "Execução financeira não é sinônimo de cumprimento físico da meta.",
+      "topic": "Classificação da despesa: esfera, função, programa e natureza",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Despesa: perguntas qualitativas e quantitativas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Classificação da despesa: esfera, função, programa e natureza · seção: Despesa: perguntas qualitativas e quantitativas; fundamento: MTO 2026, programação física e financeira"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "meta-fisica-vs-financeira"
+      ],
+      "contrast": {
+        "prompt": "A despesa foi paga integralmente. A meta de construir oito salas está comprovadamente cumprida?",
+        "answer": "Não. É preciso evidência da entrega física; pagamento e execução física são dimensões relacionadas, mas distintas."
+      }
+    },
+    {
+      "id": "camara-orc09b-fonte-na-despesa",
+      "term": "Fonte/destinação na despesa",
+      "definition": "Na despesa, fonte/destinação identifica a origem e as regras de financiamento que devem acompanhar o uso do recurso. Ela não informa, por si só, função, unidade executora ou objeto do gasto.",
+      "example": "Uma dotação para escola pode ser classificada na função Educação e financiada por fonte vinculada específica.",
+      "confusion": "Fonte não substitui classificação funcional nem natureza da despesa.",
+      "topic": "Classificação da despesa: esfera, função, programa e natureza",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Despesa: perguntas qualitativas e quantitativas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Classificação da despesa: esfera, função, programa e natureza · seção: Despesa: perguntas qualitativas e quantitativas; fundamento: MTO 2026, fonte/destinação de recursos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "fonte-vs-funcao-despesa"
+      ],
+      "contrast": {
+        "prompt": "Saber que uma despesa usa recurso vinculado já identifica a área funcional do gasto?",
+        "answer": "Não. A fonte informa financiamento/regras de uso; a função identifica a área de atuação governamental."
+      }
+    },
+    {
+      "id": "camara-orc09b-descentralizacao-credito",
+      "term": "Destaque × provisão",
+      "definition": "Destaque descentraliza crédito entre órgãos distintos; provisão descentraliza crédito entre unidades gestoras do mesmo órgão, conforme a estrutura aplicável. Ambas movimentam autorização orçamentária e não representam, por si, transferência de dinheiro.",
+      "example": "Um ministério transfere crédito a outro órgão: destaque; a descentralização entre unidades do mesmo órgão pode ocorrer por provisão.",
+      "confusion": "Movimentação de crédito não é repasse financeiro nem pagamento.",
+      "topic": "Classificação da despesa: esfera, função, programa e natureza",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Núcleo: que pergunta cada registro de despesa responde?"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Classificação da despesa: esfera, função, programa e natureza · seção: Núcleo: que pergunta cada registro de despesa responde?; fundamento: MTO 2026, descentralização de créditos orçamentários"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "destaque-vs-provisao"
+      ],
+      "contrast": {
+        "prompt": "O crédito foi deslocado entre duas unidades gestoras do mesmo órgão. A classificação é necessariamente destaque?",
+        "answer": "Não. A distinção é institucional: entre órgãos, destaque; dentro do mesmo órgão, provisão."
+      }
+    },
+    {
+      "id": "camara-orc11-credito-suplementar",
+      "term": "Crédito suplementar",
+      "definition": "Crédito suplementar reforça dotação já existente que se tornou insuficiente. Ele altera o valor autorizado para finalidade orçamentária já contemplada, observadas autorização e abertura próprias.",
+      "example": "A LOA prevê R$ 500 mil para manutenção; a necessidade legítima subiu para R$ 550 mil e pode exigir suplementação.",
+      "confusion": "Insuficiência em dotação existente aponta para suplemento; falta de dotação específica aponta para crédito especial.",
+      "topic": "Créditos adicionais: espécies, abertura e fontes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05%20-%20creditos%20adicionais%20e%20emendas%20parlamentares.md",
+        "locator": "Créditos adicionais: espécies, abertura e fontes · seção: Suplementar, especial e extraordinário; fundamento: Lei nº 4.320/1964, arts. 40 e 41, I; Constituição, art. 167, V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "credito-suplementar"
+      ],
+      "contrast": {
+        "prompt": "Há dotação específica, mas seu saldo é insuficiente. Qual espécie atende à necessidade de reforço?",
+        "answer": "Crédito suplementar, condicionado à autorização e à abertura conforme a legislação."
+      }
+    },
+    {
+      "id": "camara-orc11-credito-especial",
+      "term": "Crédito especial",
+      "definition": "Crédito especial autoriza despesa para a qual não exista dotação orçamentária específica. Sua abertura depende de autorização legislativa e indicação de recursos disponíveis, conforme a regra geral.",
+      "example": "A LOA não contém dotação para um novo programa; criar autorização específica pode exigir crédito especial.",
+      "confusion": "Ausência de dotação específica não é a mesma coisa que saldo insuficiente de dotação existente.",
+      "topic": "Créditos adicionais: espécies, abertura e fontes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05%20-%20creditos%20adicionais%20e%20emendas%20parlamentares.md",
+        "locator": "Créditos adicionais: espécies, abertura e fontes · seção: Suplementar, especial e extraordinário; fundamento: Lei nº 4.320/1964, arts. 40, 41, II, e 43; Constituição, art. 167, V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "credito-especial"
+      ],
+      "contrast": {
+        "prompt": "A despesa já possui dotação específica, apenas aquém do valor necessário. O enquadramento é crédito especial?",
+        "answer": "Não. A insuficiência de dotação existente é hipótese de crédito suplementar."
+      }
+    },
+    {
+      "id": "camara-orc11-credito-extraordinario",
+      "term": "Crédito extraordinário",
+      "definition": "Crédito extraordinário atende despesas urgentes e imprevisíveis, como as decorrentes de guerra, comoção interna ou calamidade pública. O nome não significa apenas despesa grande ou urgente por conveniência administrativa.",
+      "example": "Calamidade pública superveniente pode justificar crédito extraordinário para resposta imediata, segundo requisitos constitucionais.",
+      "confusion": "Urgência isolada não basta; a imprevisibilidade e as hipóteses constitucionais importam.",
+      "topic": "Créditos adicionais: espécies, abertura e fontes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05%20-%20creditos%20adicionais%20e%20emendas%20parlamentares.md",
+        "locator": "Créditos adicionais: espécies, abertura e fontes · seção: Suplementar, especial e extraordinário; fundamento: Constituição Federal, art. 167, § 3º; Lei nº 4.320/1964, art. 41, III"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "credito-extraordinario"
+      ],
+      "contrast": {
+        "prompt": "Uma despesa prevista há meses tornou-se urgente por atraso administrativo. Isso basta para crédito extraordinário?",
+        "answer": "Não. A urgência deve estar acompanhada de imprevisibilidade e enquadramento constitucional."
+      }
+    },
+    {
+      "id": "camara-orc11-autorizacao-abertura",
+      "term": "Autorização legislativa × abertura",
+      "definition": "Autorização é permissão legislativa para instituir o crédito; abertura é o ato que efetivamente o põe em execução, observados os requisitos legais. A autorização não equivale ao registro da dotação nem à execução da despesa.",
+      "example": "A LOA autoriza abertura de suplementares até certo limite; o ato de abertura ainda identifica e formaliza o crédito.",
+      "confusion": "A existência de autorização genérica dentro dos limites legais não prova que o crédito foi aberto.",
+      "topic": "Créditos adicionais: espécies, abertura e fontes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Autorização × abertura"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05%20-%20creditos%20adicionais%20e%20emendas%20parlamentares.md",
+        "locator": "Créditos adicionais: espécies, abertura e fontes · seção: Autorização × abertura; fundamento: Lei nº 4.320/1964, arts. 42 e 43; Constituição, art. 167, V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "autorizacao-vs-abertura-credito"
+      ],
+      "contrast": {
+        "prompt": "A LOA autorizou suplementação até um limite. O saldo da dotação nova já foi automaticamente aberto?",
+        "answer": "Não. Autorização permite o ato dentro de suas condições; abertura formaliza o crédito específico."
+      }
+    },
+    {
+      "id": "camara-orc11-credito-suplementar-loa",
+      "term": "Autorização de suplementares na LOA",
+      "definition": "A LOA pode conter autorização para abertura de créditos suplementares até determinado limite, mas a autorização deve respeitar a Constituição e não substitui a abertura do crédito. Crédito especial não se presume incluído nessa autorização.",
+      "example": "A lei autoriza suplemento de até 10% da despesa; a abertura concreta precisa obedecer ao limite e às fontes legais.",
+      "confusion": "Autorização para suplementar não é autorização indistinta para criar novas dotações especiais.",
+      "topic": "Créditos adicionais: espécies, abertura e fontes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Autorização × abertura"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05%20-%20creditos%20adicionais%20e%20emendas%20parlamentares.md",
+        "locator": "Créditos adicionais: espécies, abertura e fontes · seção: Autorização × abertura; fundamento: Constituição Federal, art. 165, § 8º, e art. 167, V; Lei nº 4.320/1964, art. 42"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "autorizacao-loa-suplementar"
+      ],
+      "contrast": {
+        "prompt": "A autorização da LOA para suplementar dotação existente permite criar qualquer programa sem dotação específica?",
+        "answer": "Não. O crédito especial exige autorização legislativa própria; a autorização da LOA para suplementar tem alcance delimitado."
+      }
+    },
+    {
+      "id": "camara-orc11-fontes-credito",
+      "term": "Fontes para créditos suplementares e especiais",
+      "definition": "A abertura de créditos suplementares e especiais exige recursos disponíveis e exposição justificativa. A Lei nº 4.320/1964 enumera superávit financeiro, excesso de arrecadação, anulação de dotações e operação de crédito autorizada, observadas condições e deduções.",
+      "example": "A anulação de uma dotação não comprometida pode financiar crédito, desde que respeitados os limites legais aplicáveis.",
+      "confusion": "Uma fonte potencial não basta se os recursos estiverem comprometidos ou se não forem calculados conforme a lei.",
+      "topic": "Créditos adicionais: espécies, abertura e fontes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05%20-%20creditos%20adicionais%20e%20emendas%20parlamentares.md",
+        "locator": "Créditos adicionais: espécies, abertura e fontes · seção: Recursos disponíveis para suplementares e especiais; fundamento: Lei nº 4.320/1964, art. 43, caput e § 1º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "fontes-creditos-adicionais"
+      ],
+      "contrast": {
+        "prompt": "Para abrir crédito especial, basta apontar uma das fontes nominais sem demonstrar disponibilidade?",
+        "answer": "Não. Exige-se recurso disponível, justificativa e apuração nos termos do art. 43."
+      }
+    },
+    {
+      "id": "camara-orc11-superavit-financeiro",
+      "term": "Superávit financeiro × excesso de arrecadação",
+      "definition": "Superávit financeiro decorre da diferença positiva entre ativo e passivo financeiros do balanço patrimonial anterior, ajustada pelos créditos e operações vinculados; excesso de arrecadação compara arrecadação acumulada com previsão e considera tendência do exercício. São fontes diferentes.",
+      "example": "Saldo financeiro efetivo do ano anterior não é o mesmo que arrecadação corrente acima da estimativa.",
+      "confusion": "Não confunda disponibilidade herdada do balanço com desempenho de arrecadação do exercício atual.",
+      "topic": "Créditos adicionais: espécies, abertura e fontes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05%20-%20creditos%20adicionais%20e%20emendas%20parlamentares.md",
+        "locator": "Créditos adicionais: espécies, abertura e fontes · seção: Recursos disponíveis para suplementares e especiais; fundamento: Lei nº 4.320/1964, art. 43, § 1º, I e II, e §§ 2º–3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "superavit-vs-excesso-arrecadacao"
+      ],
+      "contrast": {
+        "prompt": "O caixa atual superou a previsão de arrecadação do ano passado. Isso caracteriza superávit financeiro do balanço anterior?",
+        "answer": "Não necessariamente. A fonte deve ser apurada pelo critério próprio do balanço; arrecadação acumulada e tendência caracterizam excesso de arrecadação."
+      }
+    },
+    {
+      "id": "camara-orc11-excesso-tendencia",
+      "term": "Excesso de arrecadação e tendência",
+      "definition": "Excesso de arrecadação como fonte de crédito considera o saldo positivo acumulado entre arrecadação prevista e realizada, conjugado à tendência do exercício, e deduz créditos extraordinários abertos no período. Não é qualquer mês com receita acima da previsão.",
+      "example": "Receita acima da previsão em janeiro pode ser compensada por frustração posterior; é necessário considerar acumulado e tendência.",
+      "confusion": "Um pico mensal isolado não comprova excesso disponível para novo crédito.",
+      "topic": "Créditos adicionais: espécies, abertura e fontes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05%20-%20creditos%20adicionais%20e%20emendas%20parlamentares.md",
+        "locator": "Créditos adicionais: espécies, abertura e fontes · seção: Recursos disponíveis para suplementares e especiais; fundamento: Lei nº 4.320/1964, art. 43, § 1º, II, e § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "excesso-arrecadacao-tendencia"
+      ],
+      "contrast": {
+        "prompt": "A arrecadação de um mês superou a estimativa mensal. Isso, sozinho, comprova excesso de arrecadação utilizável?",
+        "answer": "Não. A lei exige apuração acumulada conjugada à tendência do exercício e as deduções legais."
+      }
+    },
+    {
+      "id": "camara-orc11-anulacao-dotacao",
+      "term": "Anulação de dotação como fonte",
+      "definition": "A anulação parcial ou total de dotações pode liberar autorização para financiar crédito adicional, desde que os valores sejam legalmente disponíveis e respeitadas as proibições específicas. O cancelamento reduz uma programação para abrir ou reforçar outra.",
+      "example": "Cancelar R$ 100 mil não comprometidos de ação para abrir crédito em outra pode ser fonte, conforme autorização.",
+      "confusion": "Anular dotações de pessoal, serviço da dívida ou transferências constitucionais não é solução livre; observe também o contexto da emenda e da fonte.",
+      "topic": "Créditos adicionais: espécies, abertura e fontes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05%20-%20creditos%20adicionais%20e%20emendas%20parlamentares.md",
+        "locator": "Créditos adicionais: espécies, abertura e fontes · seção: Recursos disponíveis para suplementares e especiais; fundamento: Lei nº 4.320/1964, art. 43, § 1º, III; Constituição, art. 166, § 3º, II"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "anulacao-dotacao-fonte"
+      ],
+      "contrast": {
+        "prompt": "Uma dotação disponível foi anulada e o valor será usado para crédito adicional. A anulação é uma fonte prevista em lei?",
+        "answer": "Sim, como regra, nos termos do art. 43, § 1º, III, sem afastar restrições específicas à dotação cancelada."
+      }
+    },
+    {
+      "id": "camara-orc11-reabertura-creditos",
+      "term": "Reabertura de créditos especiais e extraordinários",
+      "definition": "Créditos especiais e extraordinários autorizados nos últimos quatro meses do exercício podem ser reabertos no seguinte, até o saldo, e incorporados ao orçamento subsequente. A regra não vale indistintamente para suplementares nem transforma o saldo em crédito novo sem limite.",
+      "example": "Crédito especial autorizado em novembro e não utilizado pode ser reaberto no exercício seguinte até o saldo existente.",
+      "confusion": "O critério é a espécie e o momento da autorização, não apenas haver sobra financeira.",
+      "topic": "Créditos adicionais: espécies, abertura e fontes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Vigência e reabertura"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05%20-%20creditos%20adicionais%20e%20emendas%20parlamentares.md",
+        "locator": "Créditos adicionais: espécies, abertura e fontes · seção: Vigência e reabertura; fundamento: Constituição Federal, art. 167, § 2º; Lei nº 4.320/1964, art. 45"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "reabertura-creditos"
+      ],
+      "contrast": {
+        "prompt": "Crédito suplementar autorizado em dezembro pode ser reaberto no ano seguinte pela regra constitucional do art. 167, § 2º?",
+        "answer": "Não. A regra alcança créditos especiais e extraordinários autorizados nos últimos quatro meses, até o saldo."
+      }
+    },
+    {
+      "id": "camara-orc12-loa-compatibilidade",
+      "term": "Emenda à LOA: compatibilidade e recursos",
+      "definition": "Emenda ao projeto de LOA deve ser compatível com PPA e LDO e observar as hipóteses constitucionais de indicação de recursos. A anulação não incide livremente sobre dotações de pessoal e encargos, serviço da dívida ou transferências tributárias constitucionais.",
+      "example": "Para incluir ação, o parlamentar indica cancelamento de dotação permitida e demonstra compatibilidade com PPA e LDO.",
+      "confusion": "A regra das emendas à LOA não deve ser transportada sem ajuste para emendas à LDO ou a créditos adicionais.",
+      "topic": "Emendas parlamentares e orçamento impositivo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas aos projetos orçamentários: critérios"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Emendas parlamentares e orçamento impositivo · seção: Emendas aos projetos orçamentários: critérios; fundamento: Constituição Federal, art. 166, § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "emenda-loa-requisitos"
+      ],
+      "contrast": {
+        "prompt": "Uma emenda à LOA é compatível com o PPA, mas cancela serviço da dívida como fonte. A compatibilidade, sozinha, torna-a admissível?",
+        "answer": "Não. Além da compatibilidade, a indicação de recursos deve respeitar as vedações do art. 166, § 3º, II."
+      }
+    },
+    {
+      "id": "camara-orc12-ldo-compatibilidade",
+      "term": "Emenda à LDO: teste próprio",
+      "definition": "Emendas ao projeto de LDO não podem ser aprovadas quando incompatíveis com o PPA. Esse teste constitucional específico não é idêntico ao conjunto de requisitos para emendas à LOA.",
+      "example": "Uma diretriz da LDO que contradiz objetivo do PPA é incompatível e não pode ser aprovada.",
+      "confusion": "Não exija mecanicamente das emendas à LDO a indicação de cancelamento de despesas do art. 166, § 3º, própria das emendas à LOA.",
+      "topic": "Emendas parlamentares e orçamento impositivo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas aos projetos orçamentários: critérios"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Emendas parlamentares e orçamento impositivo · seção: Emendas aos projetos orçamentários: critérios; fundamento: Constituição Federal, art. 166, § 4º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "emenda-ldo-compatibilidade"
+      ],
+      "contrast": {
+        "prompt": "Toda emenda à LDO precisa indicar anulação de dotação nos moldes do art. 166, § 3º?",
+        "answer": "Não. O § 4º veda aprovar emenda à LDO incompatível com o PPA; não replica automaticamente o regime de recursos das emendas à LOA."
+      }
+    },
+    {
+      "id": "camara-orc12-iniciativa-executivo-emenda-parlamentar",
+      "term": "Iniciativa do projeto × poder de emendar",
+      "definition": "No plano federal, o Poder Executivo tem iniciativa dos projetos de PPA, LDO e LOA; isso não elimina a competência parlamentar de apreciar e emendar esses projetos nos limites constitucionais.",
+      "example": "O presidente encaminha o PLOA; deputados e senadores podem apresentar emendas segundo o art. 166.",
+      "confusion": "Poder de emendar não significa que o Congresso substitui a iniciativa constitucional do projeto.",
+      "topic": "Emendas parlamentares e orçamento impositivo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas aos projetos orçamentários: critérios"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Emendas parlamentares e orçamento impositivo · seção: Emendas aos projetos orçamentários: critérios; fundamento: Constituição Federal, arts. 165 e 166"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "iniciativa-vs-emenda-orcamentaria"
+      ],
+      "contrast": {
+        "prompt": "O Executivo tem iniciativa do PLOA. Isso impede o Congresso de emendar a proposta?",
+        "answer": "Não. A iniciativa do projeto é do Executivo; o Congresso aprecia e pode emendar dentro dos requisitos constitucionais."
+      }
+    },
+    {
+      "id": "camara-orc12-individual-bancada-comissao",
+      "term": "Emenda individual × bancada × comissão",
+      "definition": "A autoria distingue emendas individuais, de bancada estadual/DF e de comissão. Regimes de apresentação, execução obrigatória, percentuais e procedimentos variam por modalidade; não se transfere automaticamente a regra de uma para outra.",
+      "example": "Uma garantia constitucional de execução de emendas individuais não basta para afirmar igual tratamento a emenda de comissão.",
+      "confusion": "“Emenda parlamentar” é gênero; identifique o autor coletivo/individual e o regime aplicável.",
+      "topic": "Emendas parlamentares e orçamento impositivo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas parlamentares: individuais, bancadas e comissões"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Emendas parlamentares e orçamento impositivo · seção: Emendas parlamentares: individuais, bancadas e comissões; fundamento: Constituição Federal, art. 166, §§ 9º–20; LC nº 210/2024"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "emenda-modalidades"
+      ],
+      "contrast": {
+        "prompt": "Uma emenda foi aprovada por comissão. Pode-se presumir, só por ser parlamentar, que tem o mesmo regime impositivo da individual?",
+        "answer": "Não. A modalidade e as normas próprias determinam o regime; não se generaliza a impositividade das individuais para comissões."
+      }
+    },
+    {
+      "id": "camara-orc12-obrigatoriedade-impedimento",
+      "term": "Execução obrigatória × impedimento técnico",
+      "definition": "A execução obrigatória de programações abrangidas pelo regime constitucional deve observar critérios equitativos e as condições legais; impedimento técnico devidamente caracterizado afasta a obrigatoriedade nos termos aplicáveis.",
+      "example": "Uma obra indicada não tem licença ambiental obrigatória; o órgão documenta a pendência e adota o procedimento de impedimento.",
+      "confusion": "Preferência política sem fato técnico não equivale a impedimento; impositividade tampouco assegura pagamento incondicional.",
+      "topic": "Emendas parlamentares e orçamento impositivo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas impositivas: obrigatoriedade condicionada"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Emendas parlamentares e orçamento impositivo · seção: Emendas impositivas: obrigatoriedade condicionada; fundamento: Constituição Federal, art. 166, §§ 11 e 13; LC nº 210/2024"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "impositividade-vs-impedimento-tecnico"
+      ],
+      "contrast": {
+        "prompt": "A programação impositiva está aprovada, mas falta licença indispensável à obra. A aprovação obriga pagamento apesar do obstáculo?",
+        "answer": "Não. A execução obrigatória é condicionada e a Constituição prevê tratamento para impedimento técnico devidamente caracterizado."
+      }
+    },
+    {
+      "id": "camara-orc12-aprovacao-empenho-pagamento",
+      "term": "Emenda aprovada × empenho × pagamento",
+      "definition": "A aprovação da emenda inclui autorização/programação no orçamento; empenho compromete crédito para obrigação; liquidação verifica o direito do credor; pagamento extingue a obrigação financeira. São etapas sucessivas e a aprovação não prova execução.",
+      "example": "Emenda aprovada para equipamento ainda pode depender de contratação, empenho, entrega, liquidação e pagamento.",
+      "confusion": "Previsão beneficiária ou dotação não é prova de que o recurso foi pago nem de que o objeto foi entregue.",
+      "topic": "Emendas parlamentares e orçamento impositivo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Caso progressivo: proposta, autorização, execução e controle"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Emendas parlamentares e orçamento impositivo · seção: Caso progressivo: proposta, autorização, execução e controle; fundamento: Lei nº 4.320/1964, arts. 58, 62 e 63; Constituição, art. 166"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "emenda-aprovacao-vs-pagamento"
+      ],
+      "contrast": {
+        "prompt": "A LOA contém emenda para compra de ambulância. É possível afirmar que o fornecedor recebeu?",
+        "answer": "Não. A programação autorizada não comprova empenho, entrega/liquidação ou pagamento."
+      }
+    },
+    {
+      "id": "camara-orc12-transferencia-especial-finalidade",
+      "term": "Transferência especial × finalidade definida",
+      "definition": "O art. 166-A permite transferência de recursos de emenda individual impositiva a ente subnacional por modalidade especial ou com finalidade definida. Na primeira, o recurso é transferido diretamente sem convênio; na segunda, segue a programação da emenda.",
+      "example": "Recurso por transferência especial chega diretamente ao município, mas conserva limites constitucionais de uso e controle.",
+      "confusion": "Dispensa de convênio não significa liberdade irrestrita nem extinção da fiscalização.",
+      "topic": "Emendas parlamentares e orçamento impositivo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas parlamentares: individuais, bancadas e comissões"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Emendas parlamentares e orçamento impositivo · seção: Emendas parlamentares: individuais, bancadas e comissões; fundamento: Constituição Federal, art. 166-A, caput e §§ 1º–2º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "transferencia-especial-vs-finalidade"
+      ],
+      "contrast": {
+        "prompt": "A transferência especial dispensa convênio. Ela também dispensa controles sobre a aplicação?",
+        "answer": "Não. A dispensa de convênio não elimina restrições de uso, transparência e fiscalização."
+      }
+    },
+    {
+      "id": "camara-orc12-limite-capital-70",
+      "term": "Piso de despesas de capital na transferência especial",
+      "definition": "Na transferência especial, ao menos 70% dos recursos devem ser aplicados em despesas de capital, conforme a Constituição. A classificação deve observar a natureza da despesa; o percentual não autoriza aplicação nas vedações expressas.",
+      "example": "Em transferência especial de R$ 1 milhão, ao menos R$ 700 mil devem financiar despesas de capital elegíveis.",
+      "confusion": "O piso é mínimo, não exigência de que exatamente 70% sejam capital; pessoal e dívida permanecem vedados.",
+      "topic": "Emendas parlamentares e orçamento impositivo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas parlamentares: individuais, bancadas e comissões"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Emendas parlamentares e orçamento impositivo · seção: Emendas parlamentares: individuais, bancadas e comissões; fundamento: Constituição Federal, art. 166-A, § 5º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "transferencia-especial-piso-capital"
+      ],
+      "contrast": {
+        "prompt": "A transferência especial de R$ 1 milhão destina R$ 650 mil a despesas de capital. Atende ao piso constitucional?",
+        "answer": "Não. A Constituição exige pelo menos R$ 700 mil, ou 70%, em despesas de capital."
+      }
+    },
+    {
+      "id": "camara-orc12-vedacao-pessoal-divida-transferencia",
+      "term": "Transferências do art. 166-A: pessoal e dívida",
+      "definition": "Os recursos transferidos pelas modalidades do art. 166-A não podem ser usados para pagamento de despesas com pessoal e encargos sociais nem serviço da dívida. A vedação se soma ao piso de despesas de capital da transferência especial.",
+      "example": "O ente beneficiário pode aplicar o recurso em equipamento elegível, mas não custear folha ou amortização da dívida.",
+      "confusion": "A vedação alcança ambas as modalidades; o piso de 70% é requisito próprio da transferência especial.",
+      "topic": "Emendas parlamentares e orçamento impositivo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas parlamentares: individuais, bancadas e comissões"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Emendas parlamentares e orçamento impositivo · seção: Emendas parlamentares: individuais, bancadas e comissões; fundamento: Constituição Federal, art. 166-A, § 1º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "transferencia-vs-pessoal-divida"
+      ],
+      "contrast": {
+        "prompt": "O piso de 70% para capital existe em ambas as modalidades de transferência do art. 166-A?",
+        "answer": "Não. A vedação a pessoal e dívida alcança as modalidades; o piso de 70% é específico da transferência especial."
+      }
+    },
+    {
+      "id": "camara-orc12-rastreabilidade-indicacao",
+      "term": "Indicação parlamentar × identificação de beneficiário",
+      "definition": "Indicar autoria de emenda, deliberar sobre beneficiário, empenhar, pagar e entregar objeto são atos distintos, com responsáveis e registros próprios. Rastreabilidade conecta as etapas; um registro não prova automaticamente as seguintes.",
+      "example": "Ata de comissão pode mostrar a indicação do beneficiário, mas não demonstra liquidação ou uso final do recurso.",
+      "confusion": "Autoria e transparência não são equivalentes à execução financeira.",
+      "topic": "Emendas parlamentares e orçamento impositivo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Caso progressivo: proposta, autorização, execução e controle"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Emendas parlamentares e orçamento impositivo · seção: Caso progressivo: proposta, autorização, execução e controle; fundamento: Constituição Federal, art. 163-A; LC nº 210/2024; Resolução nº 1/2006-CN"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "indicacao-vs-execucao-emenda"
+      ],
+      "contrast": {
+        "prompt": "A ata identifica autor e beneficiário da emenda. Isso comprova pagamento e entrega do objeto?",
+        "answer": "Não. A ata documenta a indicação/deliberação; execução, pagamento e entrega exigem registros posteriores."
+      }
+    },
+    {
+      "id": "camara-orc12-indicacao-comissao-prazos",
+      "term": "Indicações de emendas de comissão: prazo legal",
+      "definition": "A LC nº 210/2024 prevê procedimentos e prazos para deliberação das indicações de beneficiários por comissões e publicação/encaminhamento das atas. A regra legal permanente deve ser distinguida de cronogramas operacionais de cada exercício.",
+      "example": "A comissão delibera a indicação no prazo legal e publica ata; isso não é prazo para pagar a despesa.",
+      "confusion": "Prazo de deliberação da indicação não se confunde com execução financeira nem depende necessariamente de repetição anual na LDO.",
+      "topic": "Emendas parlamentares e orçamento impositivo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas parlamentares: individuais, bancadas e comissões"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Emendas parlamentares e orçamento impositivo · seção: Emendas parlamentares: individuais, bancadas e comissões; fundamento: LC nº 210/2024, art. 5º; Resolução nº 1/2006-CN, art. 45-A"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "indicacao-comissao-prazo-lei"
+      ],
+      "contrast": {
+        "prompt": "O prazo legal para deliberar indicação de beneficiário de emenda de comissão é, por si, um prazo para o pagamento?",
+        "answer": "Não. Trata da deliberação da indicação; empenho, liquidação e pagamento seguem fases próprias."
+      }
     }
   ]
 }

@@ -27255,6 +27255,1446 @@
         "prompt": "Uma ação de comunicação em canal oficial fica dispensada de observar a política institucional porque já usa marca da Câmara?",
         "answer": "Não. A identidade visual não substitui a conformidade com a política. A ação deve respeitar o âmbito e os critérios do Ato da Mesa nº 218/2025, além das demais normas aplicáveis."
       }
+    },
+    {
+      "id": "camara-comunicacao-51-manual-de-comunicacao-diretriz-editorial-e-procedimento",
+      "term": "Manual de comunicação: diretriz editorial e procedimento",
+      "definition": "O Manual de Comunicação organiza critérios editoriais e procedimentos para produzir conteúdo institucional de modo consistente. Ele orienta escolhas de linguagem e uso dos canais, sem substituir leis, atos normativos ou a decisão editorial responsável.",
+      "example": "Ao revisar uma notícia, a equipe consulta o padrão de nomes e termos do Manual e registra a fonte da informação.",
+      "confusion": "Um manual editorial orienta a aplicação; não autoriza contrariar norma superior nem transforma uma preferência estilística em obrigação legal universal.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4c92b7e618af305d",
+        "section": "Arquitetura do Manual: camadas que não se confundem"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/73%20-%20manual%20de%20comunicacao%20da%20camara%20procedimentos%20e%20linguagem.md",
+        "locator": "Capítulo 51: Manual de Comunicação da Câmara: critérios editoriais, linguagem e procedimentos · seção: Arquitetura do Manual: camadas que não se confundem; fundamento: Manual de Comunicação da Câmara: critérios editoriais, linguagem e procedimentos."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-51-manual-de-comunicacao-diretriz-editorial-e-procedimento"
+      ],
+      "contrast": {
+        "prompt": "Se o Manual recomenda um estilo, isso pode afastar uma exigência legal ou normativa superior?",
+        "answer": "Não. O Manual organiza critérios editoriais e procedimentos dentro do seu âmbito; permanece subordinado à legislação e aos atos normativos aplicáveis."
+      }
+    },
+    {
+      "id": "camara-comunicacao-52-ia-como-apoio-e-validacao-editorial-humana",
+      "term": "IA como apoio e validação editorial humana",
+      "definition": "Uma ferramenta de inteligência artificial pode apoiar etapas de produção, organização ou revisão, mas a saída é um material sujeito a validação editorial. A responsabilidade pela publicação e pela veracidade continua com os agentes e processos institucionais competentes.",
+      "example": "Uma ferramenta gera uma primeira síntese de audiência pública; a equipe confere nomes, números, contexto e fidelidade às fontes antes de publicar.",
+      "confusion": "Texto fluente não prova precisão. A supervisão deve ser proporcional ao risco e incluir checagem de fatos, vieses, direitos e transparência quando aplicável.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c2847f01a95d6e3b",
+        "section": "Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/74%20-%20inteligencia%20artificial%20na%20comunicacao%20processos%20e%20riscos%20eticos.md",
+        "locator": "Capítulo 52: Inteligência artificial na comunicação: processos, validação e riscos éticos · seção: Estrutura dos processos: dado, processamento, saída e decisão editorial; fundamento: Manual de Comunicação da Câmara; artigo sobre IA e validação editorial."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-52-ia-como-apoio-e-validacao-editorial-humana"
+      ],
+      "contrast": {
+        "prompt": "Uma síntese produzida por IA pode ser publicada sem conferência porque está bem escrita?",
+        "answer": "Não. Fluência não assegura exatidão, completude ou ausência de viés; a saída precisa ser validada por responsáveis editoriais antes da divulgação."
+      }
+    },
+    {
+      "id": "camara-comunicacao-53-linguagem-simples-parte-da-tarefa-do-leitor",
+      "term": "Linguagem simples parte da tarefa do leitor",
+      "definition": "Linguagem simples organiza conteúdo para que um público definido encontre, compreenda e use a informação necessária para uma tarefa. Não é apenas reduzir palavras: envolve estrutura, vocabulário, contexto, navegação e teste com usuários.",
+      "example": "Para explicar um prazo, a página informa primeiro quem deve agir, o que fazer, até quando e onde obter ajuda.",
+      "confusion": "Uma frase curta ainda pode ser ambígua ou incompleta. Simplificar não significa retirar condição jurídica necessária nem tratar todos os leitores como iguais.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d48f20bc719e65a3",
+        "section": "Problema, destinatário e tarefa: a unidade de análise"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/75%20-%20linguagem%20simples%20tecnicas%20compreensao%20e%20limites.md",
+        "locator": "Capítulo 53: Linguagem simples: técnicas, compreensão, testes e limites · seção: Problema, destinatário e tarefa: a unidade de análise; fundamento: Linguagem simples; encontrar, compreender e usar a informação."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-53-linguagem-simples-parte-da-tarefa-do-leitor"
+      ],
+      "contrast": {
+        "prompt": "Dividir uma norma em frases curtas basta para demonstrar que a página está em linguagem simples?",
+        "answer": "Não. É necessário considerar a tarefa e o público, organizar a informação e verificar se as pessoas conseguem encontrá-la, compreendê-la e usá-la."
+      }
+    },
+    {
+      "id": "camara-comunicacao-54-roedel-planejar-desenvolver-e-avaliar",
+      "term": "Roedel: planejar, desenvolver e avaliar",
+      "definition": "O processo de linguagem simples descrito por Patricia Roedel separa planejamento, desenvolvimento e avaliação. A sequência começa por conhecer público e conteúdo, aplica diretrizes de redação e verifica o resultado com critérios e usuários.",
+      "example": "Antes de reescrever uma orientação sobre serviço, a equipe define quem precisa agir e qual informação permite concluir a tarefa; depois testa a versão.",
+      "confusion": "Revisão linguística é parte do desenvolvimento, mas não substitui planejamento nem avaliação de compreensão e uso.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-7d3e89a0b4cf1265",
+        "section": "Estrutura de Roedel: a ordem e o propósito de cada etapa"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/76%20-%20manual%20de%20linguagem%20simples%20patricia%20roedel%20planejamento%20desenvolvimento%20e%20avaliacao.md",
+        "locator": "Capítulo 54: Patricia Roedel: Manual de Linguagem Simples, planejamento, desenvolvimento e avaliação · seção: Estrutura de Roedel: a ordem e o propósito de cada etapa; fundamento: Patricia Roedel, Manual de Linguagem Simples; etapas de planejamento, desenvolvimento e avaliação."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-54-roedel-planejar-desenvolver-e-avaliar"
+      ],
+      "contrast": {
+        "prompt": "Revisar ortografia no texto final cumpre por si só as etapas de planejamento e avaliação de linguagem simples?",
+        "answer": "Não. Ortografia é uma verificação pontual; o processo inclui conhecer público e tarefa no planejamento e avaliar se o texto final pode ser usado."
+      }
+    },
+    {
+      "id": "camara-comunicacao-55-usabilidade-eficacia-eficiencia-e-satisfacao",
+      "term": "Usabilidade: eficácia, eficiência e satisfação",
+      "definition": "Usabilidade descreve em que medida usuários específicos alcançam objetivos com eficácia, eficiência e satisfação em determinado contexto de uso. O resultado depende da interação entre usuários, objetivos, tarefas e contexto, e não apenas da aparência da interface.",
+      "example": "Um formulário é eficaz se permite concluir o pedido correto, eficiente se exige esforço e tempo adequados, e satisfatório se a experiência é aceitável para os usuários.",
+      "confusion": "Preferência estética não mede sozinha usabilidade. Uma opinião favorável também não prova que a tarefa foi concluída corretamente.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a61c9e740b35d2f8",
+        "section": "Estrutura interna da definição ISO: distinguir as dimensões"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/77%20-%20usabilidade%20metodos%20tecnicas%20e%20avaliacao.md",
+        "locator": "Capítulo 55: Usabilidade: métodos, técnicas e avaliação · seção: Estrutura interna da definição ISO: distinguir as dimensões; fundamento: ISO 9241-11; eficácia, eficiência, satisfação e contexto de uso."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-55-usabilidade-eficacia-eficiencia-e-satisfacao"
+      ],
+      "contrast": {
+        "prompt": "Uma interface visualmente atraente é necessariamente eficaz e eficiente para o usuário?",
+        "answer": "Não. A usabilidade exige avaliar desempenho e satisfação em contexto; aparência agradável, isoladamente, não demonstra conclusão correta ou esforço adequado."
+      }
+    },
+    {
+      "id": "camara-comunicacao-56-publicidade-oficial-e-promocao-pessoal",
+      "term": "Publicidade oficial e promoção pessoal",
+      "definition": "O art. 37, § 1º, da Constituição determina que a publicidade de atos, programas, obras, serviços e campanhas dos órgãos públicos tenha caráter educativo, informativo ou de orientação social e veda nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores.",
+      "example": "Uma campanha explica como acessar um serviço e identifica o órgão responsável; não usa imagem e slogan para exaltar uma autoridade.",
+      "confusion": "A publicidade ser institucional ou informativa não basta se o modo de apresentação caracteriza promoção pessoal; finalidade e conteúdo devem ser examinados.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-8e2a6f50cb1497d3",
+        "section": "Promoção institucional versus promoção pessoal"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/78%20-%20publicidade%20institucional%20promocao%20pessoal%20e%20artigo%2037%20paragrafo%201.md",
+        "locator": "Capítulo 56: Publicidade institucional, promoção pessoal e art. 37, § 1º, da Constituição · seção: Promoção institucional versus promoção pessoal; fundamento: Constituição Federal, art. 37, § 1º."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-56-publicidade-oficial-e-promocao-pessoal"
+      ],
+      "contrast": {
+        "prompt": "Uma peça que informa serviço público pode conter destaque personalista da autoridade porque a finalidade do serviço é legítima?",
+        "answer": "Não. O caráter educativo, informativo ou de orientação social deve coexistir com a vedação à promoção pessoal por nomes, símbolos ou imagens."
+      }
+    },
+    {
+      "id": "camara-comunicacao-57-publicidade-e-propaganda-criterios-de-classificacao",
+      "term": "Publicidade e propaganda: critérios de classificação",
+      "definition": "Publicidade e propaganda são conceitos próximos, mas a classificação pode variar conforme o critério adotado: finalidade, campo de atuação, técnica ou contexto profissional. Para resolver um caso, é preciso declarar qual dimensão está sendo comparada.",
+      "example": "Uma mensagem pode divulgar uma oferta comercial; outra pode disseminar uma ideia política. A análise identifica finalidade e objeto, em vez de classificar apenas pelo formato.",
+      "confusion": "Não existe um único critério que torne todos os usos de “publicidade” e “propaganda” intercambiáveis. Sem indicar o critério, a troca pode ocultar diferenças relevantes.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f3a68e1b2c907d45",
+        "section": "Fronteiras conceituais: não misturar os critérios"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/79%20-%20publicidade%20e%20propaganda%20conceitos%20funcoes%20e%20limites.md",
+        "locator": "Capítulo 57: Publicidade e propaganda: conceitos, funções e limites · seção: Fronteiras conceituais: não misturar os critérios; fundamento: Publicidade e propaganda; critérios de finalidade, objeto e processo."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-57-publicidade-e-propaganda-criterios-de-classificacao"
+      ],
+      "contrast": {
+        "prompt": "Uma peça em vídeo deve ser chamada de publicidade e não de propaganda apenas por usar formato comercial?",
+        "answer": "Não. O formato não define sozinho a categoria; é necessário verificar finalidade e critério conceitual empregado."
+      }
+    },
+    {
+      "id": "camara-comunicacao-58-aida-e-modelo-de-etapas-nao-lei-causal",
+      "term": "AIDA é modelo de etapas, não lei causal",
+      "definition": "AIDA organiza uma sequência didática de respostas esperadas à mensagem: atenção, interesse, desejo e ação. É um modelo de planejamento e interpretação, não prova de que toda pessoa percorre etapas lineares nem garantia de conversão.",
+      "example": "Uma campanha pode buscar primeiro tornar um serviço conhecido e depois facilitar a inscrição; ações diferentes podem apoiar etapas distintas.",
+      "confusion": "Atenção não implica automaticamente desejo ou ação. O modelo ajuda a formular objetivos, mas os efeitos precisam ser medidos.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-b7f25c904a68d3e1",
+        "section": "AIDA: um esquema de resposta publicitária"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/80%20-%20teorias%20da%20publicidade%20e%20persuasao.md",
+        "locator": "Capítulo 58: Teorias da publicidade e persuasão: AIDA, hierarquia de efeitos, ELM e mudança de atitudes · seção: AIDA: um esquema de resposta publicitária; fundamento: AIDA; atenção, interesse, desejo e ação."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-58-aida-e-modelo-de-etapas-nao-lei-causal"
+      ],
+      "contrast": {
+        "prompt": "A campanha que recebeu atenção necessariamente produziu desejo e levou o público à ação?",
+        "answer": "Não. AIDA é uma estrutura de etapas possíveis, não uma lei causal nem garantia de que uma resposta conduza à seguinte."
+      }
+    },
+    {
+      "id": "camara-comunicacao-59-finalidade-distingue-modalidades-de-publicidade",
+      "term": "Finalidade distingue modalidades de publicidade",
+      "definition": "Publicidade institucional, mercadológica, de utilidade pública e legal podem tratar de temas semelhantes, mas diferem pela finalidade e pelo regime aplicável. Institucional apresenta organização e missão; mercadológica promove oferta; utilidade pública orienta sobre interesse coletivo; legal dá publicidade exigida por norma.",
+      "example": "O mesmo órgão pode apresentar suas competências (institucional), divulgar um serviço pago (mercadológica, conforme o contexto), alertar sobre prevenção (utilidade pública) e publicar edital obrigatório (legal).",
+      "confusion": "O emissor público não transforma toda peça em publicidade de utilidade pública; a classificação considera o objetivo específico e o dever normativo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-19bd6a4f7e2c5038",
+        "section": "Estrutura: uma classificação por finalidade e suas fronteiras"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/81%20-%20publicidade%20institucional%20mercadologica%20utilidade%20publica%20e%20legal.md",
+        "locator": "Capítulo 59: Publicidade institucional, mercadológica, de utilidade pública e legal · seção: Estrutura: uma classificação por finalidade e suas fronteiras; fundamento: Publicidade institucional, mercadológica, de utilidade pública e legal."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-59-finalidade-distingue-modalidades-de-publicidade"
+      ],
+      "contrast": {
+        "prompt": "Um anúncio obrigatório de edital é automaticamente publicidade institucional só porque foi emitido por um órgão público?",
+        "answer": "Não. Se a publicação cumpre dever de divulgação legal, a finalidade legal é central; o emissor não basta para definir a categoria."
+      }
+    },
+    {
+      "id": "camara-comunicacao-60-briefing-informa-o-problema-e-as-condicoes",
+      "term": "Briefing informa o problema e as condições",
+      "definition": "Briefing reúne contexto, problema, público, objetivo, informações, restrições e critérios necessários para orientar o trabalho publicitário. Ele delimita a demanda e permite propor soluções; não deve antecipar uma peça específica sem justificar sua adequação.",
+      "example": "O briefing explica que usuários desconhecem o prazo e precisam saber como acompanhar o pedido; a equipe escolhe depois a abordagem e os canais.",
+      "confusion": "Receber como briefing a ordem “faça um vídeo” confunde um formato previamente escolhido com a investigação do problema e da necessidade.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d3c814e9b7a5206f",
+        "section": "Estrutura interna: perguntas que não devem faltar"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/82%20-%20briefing%20publicitario%20problema%20contexto%20informacoes%20e%20qualidade.md",
+        "locator": "Capítulo 60: Briefing publicitário: problema, contexto, informações e critérios de qualidade · seção: Estrutura interna: perguntas que não devem faltar; fundamento: Briefing publicitário: problema, contexto, informações e critérios."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-60-briefing-informa-o-problema-e-as-condicoes"
+      ],
+      "contrast": {
+        "prompt": "Um pedido para “fazer um vídeo” contém, por si só, briefing suficiente para definir a campanha?",
+        "answer": "Não. O formato é uma entrega potencial; o briefing deve esclarecer problema, contexto, público, objetivo, informações e restrições para orientar a decisão."
+      }
+    },
+    {
+      "id": "camara-comunicacao-61-diagnostico-separa-problema-de-comunicacao-e-servico",
+      "term": "Diagnóstico separa problema de comunicação e serviço",
+      "definition": "Diagnóstico publicitário usa evidências para delimitar se o problema está na comunicação, no próprio serviço ou em ambos. Relatos, dados de atendimento e testes permitem formular hipóteses, que devem ser distinguidas de fatos observados.",
+      "example": "Muitas pessoas não concluem uma solicitação: análise pode revelar falha de informação, indisponibilidade do sistema ou as duas causas.",
+      "confusion": "Aumentar a divulgação não resolve uma etapa do serviço que está quebrada. Uma hipótese causal não deve ser apresentada como conclusão antes da verificação.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be25a89c1d70f36",
+        "section": "Delimitação: problema de comunicação versus problema de serviço"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/83%20-%20diagnostico%20publicitario%20evidencias%20e%20problema%20de%20comunicacao.md",
+        "locator": "Capítulo 61: Diagnóstico publicitário: evidências, hipóteses e problema de comunicação · seção: Delimitação: problema de comunicação versus problema de serviço; fundamento: Diagnóstico publicitário; evidências, hipóteses e problema."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-61-diagnostico-separa-problema-de-comunicacao-e-servico"
+      ],
+      "contrast": {
+        "prompt": "Baixa adesão a um serviço prova automaticamente que a população não foi suficientemente informada?",
+        "answer": "Não. A baixa adesão é um dado a investigar; dificuldade de acesso, desenho do serviço e comunicação podem explicar o resultado."
+      }
+    },
+    {
+      "id": "camara-comunicacao-62-objetivo-entrega-indicador-e-meta",
+      "term": "Objetivo, entrega, indicador e meta",
+      "definition": "Objetivo expressa o efeito pretendido; entrega é o produto ou atividade a realizar; indicador operacionaliza uma dimensão observável; meta define valor e prazo esperado. A campanha deve associar cada medida ao resultado que pretende acompanhar.",
+      "example": "“Publicar uma página” é entrega; “aumentar o conhecimento sobre o prazo” é objetivo; percentual que identifica corretamente o prazo pode ser indicador; atingir 80% até dezembro é meta.",
+      "confusion": "Contar publicações mede produção, não prova que o público compreendeu o serviço ou mudou comportamento.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-e6b29d41a507c8f3",
+        "section": "Objetivo, indicador, KPI e meta"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/84%20-%20objetivos%20de%20comunicacao%20objetivos%20de%20campanha%20e%20indicadores.md",
+        "locator": "Capítulo 62: Objetivos de comunicação e campanha: resultados, entregas e indicadores · seção: Objetivo, indicador, KPI e meta; fundamento: Objetivos de comunicação e campanha; distinção entre níveis e medidas."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-62-objetivo-entrega-indicador-e-meta"
+      ],
+      "contrast": {
+        "prompt": "A meta de produzir dez posts prova que o objetivo de informar foi alcançado?",
+        "answer": "Não. Dez posts são uma meta de entrega; para avaliar informação, é preciso medir compreensão, acesso ou outro resultado ligado ao objetivo."
+      }
+    },
+    {
+      "id": "camara-comunicacao-63-segmentacao-e-selecao-do-publico-alvo",
+      "term": "Segmentação e seleção do público-alvo",
+      "definition": "Segmentar divide um conjunto amplo em grupos segundo critérios geográficos, demográficos, psicográficos ou comportamentais. Selecionar o público-alvo é decidir a quais segmentos dirigir a ação; o posicionamento organiza a proposta percebida por esses públicos.",
+      "example": "Uma campanha de serviço pode segmentar usuários por território e etapa de vida, e priorizar pessoas que ainda não conseguem completar o cadastro.",
+      "confusion": "Ter muitos segmentos não significa que todos devam ser alvo prioritário. Critérios precisam ser relevantes, mensuráveis e compatíveis com objetivo e recursos.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-57d09c6e18ab432f",
+        "section": "STP: segmentar, selecionar e posicionar"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/85%20-%20publico%20alvo%20e%20segmentacao%20publicitaria.md",
+        "locator": "Capítulo 63: Público-alvo e segmentação publicitária: bases, seleção e limites · seção: STP: segmentar, selecionar e posicionar; fundamento: Segmentação geográfica, demográfica, psicográfica e comportamental; STP."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-63-segmentacao-e-selecao-do-publico-alvo"
+      ],
+      "contrast": {
+        "prompt": "Identificar cinco segmentos significa que a organização já escolheu o público-alvo?",
+        "answer": "Não. Segmentação descreve grupos; a seleção do alvo é decisão posterior, baseada em relevância, capacidade de atendimento e objetivos."
+      }
+    },
+    {
+      "id": "camara-comunicacao-64-estrategia-conceito-criativo-e-posicionamento",
+      "term": "Estratégia, conceito criativo e posicionamento",
+      "definition": "Estratégia define escolha de público, problema, objetivo e caminho, incluindo renúncias. Posicionamento busca estabelecer uma associação distintiva na mente do público; conceito criativo traduz a ideia orientadora em expressão de campanha.",
+      "example": "A estratégia pode priorizar clareza para novos usuários; o posicionamento pode associar o serviço à facilidade; o conceito criativo orienta a execução das peças.",
+      "confusion": "Um slogan ou ideia visual não é, sozinho, a estratégia. Uma peça atraente pode ser incoerente com o público e com a decisão de posicionamento.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-0e7a5c92d36b841f",
+        "section": "A estrutura da decisão: onde cada conceito entra"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/86%20-%20estrategia%20conceito%20criativo%20e%20posicionamento.md",
+        "locator": "Capítulo 64: Estratégia, conceito criativo e posicionamento: decisões e fronteiras · seção: A estrutura da decisão: onde cada conceito entra; fundamento: Estratégia, conceito criativo e posicionamento; Ries e Trout."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-64-estrategia-conceito-criativo-e-posicionamento"
+      ],
+      "contrast": {
+        "prompt": "Definir um slogan criativo basta para demonstrar que foi definida uma estratégia de campanha?",
+        "answer": "Não. O slogan expressa uma ideia; estratégia envolve escolhas de público, objetivo e caminho, e posicionamento define a associação pretendida."
+      }
+    },
+    {
+      "id": "camara-comunicacao-65-ethos-pathos-e-logos-como-apelos-retoricos",
+      "term": "Ethos, pathos e logos como apelos retóricos",
+      "definition": "Ethos constrói credibilidade do emissor; pathos mobiliza emoções; logos apresenta razões e evidências. Uma mensagem pode combinar os três apelos, que descrevem modos de persuasão, não categorias mutuamente exclusivas de peça.",
+      "example": "Um informe técnico pode citar fonte confiável (ethos), explicar impacto humano (pathos) e mostrar dados (logos).",
+      "confusion": "Emoção não equivale necessariamente a manipulação, e argumento racional não garante verdade: é preciso avaliar a qualidade das provas e a finalidade.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c84d2a709e5f136b",
+        "section": "Aristóteles: ethos, pathos e logos"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/87%20-%20mensagem%20publicitaria%20apelos%20e%20argumentacao.md",
+        "locator": "Capítulo 65: Mensagem publicitária: apelos, argumentos e provas · seção: Aristóteles: ethos, pathos e logos; fundamento: Ethos, pathos e logos; premissa, conclusão e evidência."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-65-ethos-pathos-e-logos-como-apelos-retoricos"
+      ],
+      "contrast": {
+        "prompt": "Uma mensagem baseada em dados deixa automaticamente de recorrer ao ethos ou ao pathos?",
+        "answer": "Não. Ela pode usar logos e também construir credibilidade ou mobilizar emoção; os apelos podem coexistir e não substituem a avaliação das evidências."
+      }
+    },
+    {
+      "id": "camara-comunicacao-66-atendimento-em-agencia-coordenacao-e-responsabilidade",
+      "term": "Atendimento em agência: coordenação e responsabilidade",
+      "definition": "Atendimento publicitário organiza a relação entre cliente e equipe, traduz demandas em informação de trabalho, acompanha decisões e mantém alinhamento. Coordenar o fluxo não significa deter sozinho a autoridade técnica ou aprovar toda entrega.",
+      "example": "O atendimento esclarece o pedido, registra alterações e confirma prioridades; criação, mídia, cliente e responsáveis institucionais exercem funções próprias.",
+      "confusion": "Ser ponto de contato não torna o profissional responsável por todas as decisões, nem substitui aprovação formal do cliente ou do órgão.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-8c6e1a43b70d952f",
+        "section": "Estrutura interna: responsabilidades e fronteiras profissionais"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/88%20-%20atendimento%20em%20publicidade%20responsabilidades%20e%20etapas.md",
+        "locator": "Capítulo 66: Atendimento em publicidade: responsabilidades, etapas e decisões · seção: Estrutura interna: responsabilidades e fronteiras profissionais; fundamento: Atendimento em publicidade; responsabilidades, etapas e decisões."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-66-atendimento-em-agencia-coordenacao-e-responsabilidade"
+      ],
+      "contrast": {
+        "prompt": "O profissional de atendimento pode alterar sozinho a orientação aprovada pelo cliente porque coordena a equipe?",
+        "answer": "Não. Coordenação e registro não equivalem a autoridade para mudar escopo ou decisão aprovada; alterações precisam seguir o fluxo de governança."
+      }
+    },
+    {
+      "id": "camara-comunicacao-67-peso-midia-paga-espontanea-compartilhada-e-propria",
+      "term": "PESO: mídia paga, espontânea, compartilhada e própria",
+      "definition": "O modelo PESO organiza meios em paid (pagos), earned (conquistados), shared (compartilhados) e owned (próprios). A classificação descreve relações de distribuição e controle; uma campanha pode combinar categorias.",
+      "example": "Uma instituição publica em seu portal (owned), compra espaço de anúncio (paid), recebe cobertura jornalística independente (earned) e tem conteúdo compartilhado por usuários (shared).",
+      "confusion": "As categorias não são excludentes por campanha e não indicam, por si, qualidade ou alcance. Ser compartilhado não significa que o órgão controle a publicação.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-9d40f8b2e6317ac5",
+        "section": "Relações de distribuição: PESO"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/89%20-%20tipos%20de%20midia%20veiculos%20e%20plataformas.md",
+        "locator": "Capítulo 67: Tipos de mídia, veículos e plataformas · seção: Relações de distribuição: PESO; fundamento: PESO: paid, earned, shared e owned media."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-67-peso-midia-paga-espontanea-compartilhada-e-propria"
+      ],
+      "contrast": {
+        "prompt": "Uma campanha que publica no portal próprio e compra anúncios pode usar apenas mídia própria?",
+        "answer": "Não. O portal é owned e os anúncios são paid; uma mesma campanha pode combinar categorias diferentes do modelo PESO."
+      }
+    },
+    {
+      "id": "camara-comunicacao-68-alcance-e-frequencia-pessoas-unicas-e-exposicoes",
+      "term": "Alcance e frequência: pessoas únicas e exposições",
+      "definition": "Alcance estima o número de pessoas ou unidades únicas expostas; impressões contam exposições; frequência média relaciona impressões ao alcance no período definido. Cobertura e alcance dependem da população de referência e da metodologia de medição.",
+      "example": "Se há 10 mil impressões para 4 mil pessoas alcançadas, a frequência média estimada é 2,5 exposições por pessoa no período.",
+      "confusion": "Impressões não equivalem a pessoas únicas. Sem período, universo e método, comparar números de alcance pode ser enganoso.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3c91e72f8ad506b4",
+        "section": "Taxonomia e fórmulas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/90%20-%20plano%20de%20midia%20alcance%20frequencia%20cobertura%20e%20investimento.md",
+        "locator": "Capítulo 68: Plano de mídia: alcance, frequência, cobertura e investimento · seção: Taxonomia e fórmulas; fundamento: Plano de mídia; alcance, impressões, frequência e cobertura."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-68-alcance-e-frequencia-pessoas-unicas-e-exposicoes"
+      ],
+      "contrast": {
+        "prompt": "Dez mil impressões significam necessariamente que dez mil pessoas diferentes viram a mensagem?",
+        "answer": "Não. Uma pessoa pode gerar várias impressões; alcance estima pessoas únicas, enquanto impressões contam exposições."
+      }
+    },
+    {
+      "id": "camara-comunicacao-69-caminho-critico-e-folga-do-cronograma",
+      "term": "Caminho crítico e folga do cronograma",
+      "definition": "Caminho crítico é a sequência de atividades dependentes que determina a menor duração possível do projeto. Atraso em atividade crítica pode atrasar a entrega final; atividade não crítica pode ter folga sem alterar o prazo, dentro dos limites calculados.",
+      "example": "Se aprovação, produção e distribuição formam a sequência mais longa, atraso na aprovação pode deslocar a data de lançamento.",
+      "confusion": "Nem toda atividade importante é crítica no cronograma. Importância estratégica e folga temporal são critérios diferentes.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6a72b9d104e85cf3",
+        "section": "Caminho crítico: exemplo com cálculo"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/91%20-%20cronograma%20de%20campanha%20sequencia%20e%20dependencias.md",
+        "locator": "Capítulo 69: Cronograma de campanha: sequência, dependências e caminho crítico · seção: Caminho crítico: exemplo com cálculo; fundamento: Cronograma, dependências e caminho crítico."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-69-caminho-critico-e-folga-do-cronograma"
+      ],
+      "contrast": {
+        "prompt": "Uma atividade importante para a campanha está necessariamente no caminho crítico?",
+        "answer": "Não. O caminho crítico depende da duração e das dependências da rede; importância qualitativa não determina se a atividade tem folga."
+      }
+    },
+    {
+      "id": "camara-comunicacao-70-revisao-aprovacao-e-autorizacao-de-campanha",
+      "term": "Revisão, aprovação e autorização de campanha",
+      "definition": "Revisar verifica qualidade; aprovar registra decisão de aceite por responsável autorizado; autorizar permite a execução ou publicação conforme o processo. Essas etapas podem envolver pessoas diferentes e exigem critérios e registros claros.",
+      "example": "A equipe checa dados e acessibilidade, a chefia aprova a versão e o responsável pelo canal agenda a publicação.",
+      "confusion": "Comentário favorável durante uma revisão não é necessariamente aprovação formal nem autorização para publicar.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f0c83d716b4e295a",
+        "section": "Checagem, revisão, aprovação e autorização"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/92%20-%20producao%20de%20campanha%20fluxo%20aprovacao%20e%20controle.md",
+        "locator": "Capítulo 70: Produção de campanha: fluxo, aprovação e controle · seção: Checagem, revisão, aprovação e autorização; fundamento: Produção de campanha; etapas de revisão, aceite e autorização."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-70-revisao-aprovacao-e-autorizacao-de-campanha"
+      ],
+      "contrast": {
+        "prompt": "Uma peça sem erros ortográficos está automaticamente aprovada e autorizada para publicação?",
+        "answer": "Não. Revisão linguística é uma verificação; aprovação e autorização dependem de critérios, competências e fluxo institucional."
+      }
+    },
+    {
+      "id": "camara-comunicacao-71-redacao-publicitaria-funcao-e-adequacao-ao-meio",
+      "term": "Redação publicitária: função e adequação ao meio",
+      "definition": "Redação publicitária organiza mensagem, argumento, chamada e informação de acordo com o objetivo, o público e o formato. Clareza, concisão e hierarquia ajudam a tornar a peça compreensível, mas a adaptação ao meio não deve retirar informação essencial.",
+      "example": "Uma chamada para acessar serviço pode ser curta na peça e remeter a página com requisitos completos e atualizados.",
+      "confusion": "Texto breve não é necessariamente claro; slogans não substituem instruções, condições nem fonte quando o usuário precisa agir.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-72e4a0d9c3f6185b",
+        "section": "Anatomia de uma peça: funções textuais diferentes"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/93%20-%20redacao%20publicitaria%20textos%20formatos%20e%20adequacao%20ao%20meio.md",
+        "locator": "Capítulo 71: Redação publicitária: textos, formatos e adequação ao meio · seção: Anatomia de uma peça: funções textuais diferentes; fundamento: Redação publicitária; textos, formatos e adequação ao meio."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-71-redacao-publicitaria-funcao-e-adequacao-ao-meio"
+      ],
+      "contrast": {
+        "prompt": "Reduzir uma orientação a um slogan curto garante que o público saiba como concluir a tarefa?",
+        "answer": "Não. O slogan pode atrair atenção, mas instruções e condições precisam estar disponíveis em forma completa e acessível."
+      }
+    },
+    {
+      "id": "camara-comunicacao-72-avaliacao-de-campanha-linha-de-base-e-niveis",
+      "term": "Avaliação de campanha: linha de base e níveis",
+      "definition": "Avaliar campanha exige relacionar objetivo, indicador, linha de base, meta e evidência. O modelo AMEC separa exposição, recepção, efeitos e impacto; o desenho da avaliação deve permitir inferências proporcionais aos dados.",
+      "example": "Comparar conhecimento antes e depois pode indicar mudança; para atribuí-la à campanha, é preciso considerar outros fatores e o desenho de comparação.",
+      "confusion": "Subida de alcance após publicação não prova impacto institucional nem causalidade; indicadores de fases diferentes respondem perguntas diferentes.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-69b2c70e81f34a5d",
+        "section": "Linhas de base, metas e comparação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/94%20-%20monitoramento%20dados%20e%20avaliacao%20de%20campanhas.md",
+        "locator": "Capítulo 72: Monitoramento, dados e avaliação de campanhas · seção: Linhas de base, metas e comparação; fundamento: AMEC; monitoramento, dados e avaliação de campanha."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-72-avaliacao-de-campanha-linha-de-base-e-niveis"
+      ],
+      "contrast": {
+        "prompt": "Um aumento de alcance depois da campanha comprova que ela causou mudança de comportamento?",
+        "answer": "Não. Alcance mede exposição; comportamento é efeito posterior e a causalidade exige desenho e evidências que considerem explicações alternativas."
+      }
+    },
+    {
+      "id": "camara-comunicacao-73-necessidade-desejo-e-demanda",
+      "term": "Necessidade, desejo e demanda",
+      "definition": "Necessidade é uma condição ou problema percebido; desejo é a forma concreta que a pessoa associa à satisfação; demanda é desejo acompanhado de capacidade e disposição de troca, no modelo de marketing. A distinção evita tratar todo interesse como consumo efetivo.",
+      "example": "Uma pessoa precisa de informação sobre um serviço, deseja consultá-la pelo celular e demonstra demanda por uma solução acessível ao iniciar a solicitação.",
+      "confusion": "Interesse ou preferência não prova demanda efetiva; no setor público, a oferta de serviço também não deve ser reduzida a uma transação comercial.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-45d8f190ac2e673b",
+        "section": "Necessidade, desejo e demanda: três níveis diferentes"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/95%20-%20marketing%20troca%20valor%20necessidades%20e%20publicos.md",
+        "locator": "Capítulo 73: Marketing: troca, valor, necessidades e públicos · seção: Necessidade, desejo e demanda: três níveis diferentes; fundamento: Marketing: troca, valor, necessidades e públicos."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-73-necessidade-desejo-e-demanda"
+      ],
+      "contrast": {
+        "prompt": "Uma pessoa declarar que prefere determinado serviço prova que já existe demanda efetiva por ele?",
+        "answer": "Não. Preferência expressa desejo; demanda envolve também disposição e capacidade de agir ou trocar, conforme o modelo e o contexto."
+      }
+    },
+    {
+      "id": "camara-comunicacao-74-planejamento-de-marketing-integra-diagnostico-e-decisoes",
+      "term": "Planejamento de marketing integra diagnóstico e decisões",
+      "definition": "Planejamento de marketing parte de diagnóstico, define objetivos e metas, escolhe segmentos e posicionamento, organiza estratégias, recursos e implementação e acompanha resultados. As etapas conectam análise e decisão; não são apenas uma lista de campanhas.",
+      "example": "Após identificar baixa utilização de um serviço por certo público, o plano define objetivo, seleciona segmento prioritário, ajusta oferta e prevê medição.",
+      "confusion": "Escolher canais antes de diagnosticar o problema pode produzir atividade sem direção; resultado deve retroalimentar o planejamento.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-1c9e5b7a32d0648f",
+        "section": "Estrutura interna do planejamento"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/96%20-%20planejamento%20de%20marketing%20diagnostico%20objetivos%20e%20decisoes.md",
+        "locator": "Capítulo 74: Planejamento de marketing: diagnóstico, objetivos e decisões · seção: Estrutura interna do planejamento; fundamento: Planejamento de marketing; diagnóstico, objetivos e decisões."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-74-planejamento-de-marketing-integra-diagnostico-e-decisoes"
+      ],
+      "contrast": {
+        "prompt": "Definir objetivos de marketing antes de identificar o problema e o público afetado assegura um planejamento coerente?",
+        "answer": "Não. Objetivos precisam responder ao diagnóstico e orientar decisões sobre públicos, oferta e estratégia; sem isso, podem não tratar a necessidade identificada."
+      }
+    },
+    {
+      "id": "camara-comunicacao-75-marketing-institucional-publico-e-valor-publico",
+      "term": "Marketing institucional público e valor público",
+      "definition": "Marketing institucional no setor público trabalha relações, compreensão e legitimidade da organização e de suas atividades, respeitando direitos, impessoalidade e interesse público. O valor pretendido não se mede apenas por vendas ou preferência de marca.",
+      "example": "Uma instituição facilita o acesso a informações sobre suas competências e serviços, medindo compreensão e capacidade de atendimento.",
+      "confusion": "Aplicar técnicas de marketing não converte cidadão em consumidor de mercado nem autoriza promoção pessoal de autoridades.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-83c4a6e90b127f5d",
+        "section": "Direito à informação, transparência e valor público"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/97%20-%20marketing%20institucional%20no%20setor%20publico%20valor%20legitimidade%20e%20limites.md",
+        "locator": "Capítulo 75: Marketing institucional no setor público: valor, legitimidade e limites · seção: Direito à informação, transparência e valor público; fundamento: Marketing institucional no setor público; Constituição, art. 37, § 1º."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-75-marketing-institucional-publico-e-valor-publico"
+      ],
+      "contrast": {
+        "prompt": "Marketing institucional público pode adotar como finalidade principal exaltar pessoalmente o gestor para aumentar reconhecimento da marca?",
+        "answer": "Não. Deve servir à informação e ao valor público, observando impessoalidade e a vedação constitucional à promoção pessoal."
+      }
+    },
+    {
+      "id": "camara-comunicacao-76-marketing-interno-e-comunicacao-interna",
+      "term": "Marketing interno e comunicação interna",
+      "definition": "Marketing interno trata da organização de condições, relações e alinhamento com o público interno; comunicação interna organiza informação e diálogo entre pessoas e unidades. São campos relacionados que podem compartilhar ações, mas a comunicação isolada não substitui políticas e práticas de gestão.",
+      "example": "A intranet divulga um novo procedimento e o programa de marketing interno inclui capacitação, apoio gerencial e condições para executá-lo.",
+      "confusion": "Distribuir mensagens internas não demonstra que o serviço foi alinhado ou que a equipe dispõe de meios para realizá-lo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-5a7d1ec093b42f68",
+        "section": "Fronteiras entre conceitos"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/98%20-%20endomarketing%20marketing%20interno%20e%20comunicacao%20interna.md",
+        "locator": "Capítulo 76: Endomarketing, marketing interno e comunicação interna · seção: Fronteiras entre conceitos; fundamento: Endomarketing, marketing interno e comunicação interna."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-76-marketing-interno-e-comunicacao-interna"
+      ],
+      "contrast": {
+        "prompt": "Uma campanha interna bem distribuída demonstra, por si só, que a organização executou seu marketing interno?",
+        "answer": "Não. A campanha é uma ação de comunicação; alinhamento requer práticas, condições, capacitação e coerência da organização com a proposta."
+      }
+    },
+    {
+      "id": "camara-comunicacao-77-b2b-e-centro-de-compras-organizacional",
+      "term": "B2B e centro de compras organizacional",
+      "definition": "No mercado organizacional (B2B), uma decisão de compra pode envolver vários papéis: usuários, influenciadores, compradores, decisores e responsáveis por controlar o acesso. A mensagem e a estratégia devem reconhecer a unidade de decisão e os critérios de cada participante.",
+      "example": "Na contratação de software, usuários testam o sistema, TI avalia integração, compras conduz o processo e a autoridade competente decide conforme as regras.",
+      "confusion": "O contato que solicita uma demonstração não é necessariamente o decisor final; venda organizacional não equivale à escolha individual do consumidor.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-b7e30f4c9a261d85",
+        "section": "Centro de compras e papéis decisórios"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/99%20-%20segmentacao%20de%20mercado%20b2b%20atratividade%20e%20decisao.md",
+        "locator": "Capítulo 77: Segmentação de mercado: B2B, atratividade e decisões de escolha · seção: Centro de compras e papéis decisórios; fundamento: Segmentação de mercado B2B; mercado organizacional e centro de compras."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-77-b2b-e-centro-de-compras-organizacional"
+      ],
+      "contrast": {
+        "prompt": "A pessoa que usa o produto é necessariamente quem aprova a compra organizacional?",
+        "answer": "Não. Usuário, influenciador, comprador e decisor podem ser pessoas diferentes; é preciso mapear papéis e critérios do centro de compras."
+      }
+    },
+    {
+      "id": "camara-comunicacao-78-cross-channel-e-omnichannel",
+      "term": "Cross-channel e omnichannel",
+      "definition": "Multicanalidade usa mais de um canal; cross-channel coordena canais que se complementam na jornada; omnichannel busca uma experiência integrada e contínua entre canais, com consistência de informação e contexto. O grau de integração distingue os conceitos.",
+      "example": "Uma pessoa inicia um pedido no celular e continua no atendimento presencial sem repetir dados: há integração de jornada entre canais.",
+      "confusion": "Estar presente em várias plataformas não basta para ser omnichannel se informações, estados do pedido e atendimento não se conectam.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c2d947e6a15083bf",
+        "section": "Integração multicanal, cross-channel e omnichannel"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/100%20-%20marketing%20digital%20canais%20jornadas%20e%20integracao.md",
+        "locator": "Capítulo 78: Marketing digital: canais, jornadas e integração · seção: Integração multicanal, cross-channel e omnichannel; fundamento: Marketing digital; canais, jornada e integração."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-78-cross-channel-e-omnichannel"
+      ],
+      "contrast": {
+        "prompt": "Usar redes sociais, portal e atendimento telefônico significa necessariamente que a organização oferece experiência omnichannel?",
+        "answer": "Não. Presença em vários canais é multicanal; omnichannel exige coordenação e continuidade da experiência entre eles."
+      }
+    },
+    {
+      "id": "camara-comunicacao-79-etapas-do-processo-de-decisao-do-consumidor",
+      "term": "Etapas do processo de decisão do consumidor",
+      "definition": "Um modelo comum de decisão descreve reconhecimento da necessidade, busca de informação, avaliação de alternativas, decisão e comportamento pós-compra. É uma estrutura analítica: processos reais podem ser abreviados, repetidos ou interrompidos.",
+      "example": "Uma pessoa identifica necessidade de um serviço, consulta requisitos, compara formas de atendimento, solicita e depois avalia a experiência.",
+      "confusion": "O modelo não prova que todos seguem uma sequência rígida nem que uma campanha em uma etapa determina a compra.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-e51bc97a40d268f3",
+        "section": "Processo de decisão de compra: cinco etapas clássicas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/101%20-%20comportamento%20do%20consumidor%20decisao%20e%20influencias.md",
+        "locator": "Capítulo 79: Comportamento do consumidor: decisão e influências · seção: Processo de decisão de compra: cinco etapas clássicas; fundamento: Comportamento do consumidor; etapas e fatores de influência."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-79-etapas-do-processo-de-decisao-do-consumidor"
+      ],
+      "contrast": {
+        "prompt": "Todo consumidor percorre necessariamente, uma única vez e nessa ordem, as cinco etapas do modelo?",
+        "answer": "Não. O modelo organiza fases analíticas; decisões reais podem pular, repetir ou combinar etapas conforme o risco, hábito e contexto."
+      }
+    },
+    {
+      "id": "camara-comunicacao-80-metodo-de-pesquisa-responde-a-pergunta",
+      "term": "Método de pesquisa responde à pergunta",
+      "definition": "Abordagem qualitativa explora significados, processos e experiências; abordagem quantitativa mede variáveis e padrões; método misto integra ambas quando a pergunta exige evidências complementares. A escolha decorre do problema, não de uma hierarquia de superioridade.",
+      "example": "Entrevistas podem investigar por que usuários desistem; registros de atendimento podem estimar com que frequência a desistência ocorre.",
+      "confusion": "Uma amostra grande não responde sozinha a toda pergunta de significado; entrevistas também não estimam automaticamente a prevalência na população.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-8b1e6d903f42c7a5",
+        "section": "Abordagem qualitativa: compreender processos e significados"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/102%20-%20perguntas%20de%20pesquisa%20abordagens%20e%20metodos%20mistos.md",
+        "locator": "Capítulo 80: Perguntas de pesquisa: abordagens qualitativas, quantitativas e métodos mistos · seção: Abordagem qualitativa: compreender processos e significados; fundamento: Pesquisa; abordagens qualitativa, quantitativa e mista."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-80-metodo-de-pesquisa-responde-a-pergunta"
+      ],
+      "contrast": {
+        "prompt": "Entrevistas em profundidade permitem estimar automaticamente o percentual de toda a população que compartilha uma opinião?",
+        "answer": "Não. Entrevistas podem explorar sentidos e mecanismos, mas estimativas populacionais exigem desenho quantitativo adequado e amostragem compatível."
+      }
+    },
+    {
+      "id": "camara-comunicacao-81-amostra-censo-e-populacao-de-inferencia",
+      "term": "Amostra, censo e população de inferência",
+      "definition": "Censo busca observar todos os elementos da população definida; amostra observa parte deles. A possibilidade de generalizar depende da população-alvo, seleção, não resposta, tamanho e desenho, e não apenas do número de questionários.",
+      "example": "Uma pesquisa sobre usuários de um serviço define a população por período e critérios de uso e seleciona amostra adequada para estimar opiniões.",
+      "confusion": "Amostra grande de voluntários não se torna representativa automaticamente; tamanho não corrige viés de seleção.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4e9d2a7c813f65b0",
+        "section": "Censo, amostra e seleção: onde está a aleatoriedade?"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/103%20-%20pesquisa%20de%20mercado%20desenho%20amostragem%20e%20interpretacao.md",
+        "locator": "Capítulo 81: Pesquisa de mercado: desenho, amostragem e interpretação · seção: Censo, amostra e seleção: onde está a aleatoriedade?; fundamento: Pesquisa de mercado; população, amostra e seleção."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-81-amostra-censo-e-populacao-de-inferencia"
+      ],
+      "contrast": {
+        "prompt": "Uma pesquisa com muitos respondentes voluntários representa necessariamente todos os usuários do serviço?",
+        "answer": "Não. O tamanho não elimina viés de seleção; a inferência depende de como os participantes foram escolhidos e de qual população foi definida."
+      }
+    },
+    {
+      "id": "camara-comunicacao-82-pesquisa-de-opiniao-populacao-periodo-e-pergunta",
+      "term": "Pesquisa de opinião: população, período e pergunta",
+      "definition": "Uma porcentagem de pesquisa deve ser interpretada com objeto, população, período, pergunta e denominador definidos. A redação e a ordem das perguntas podem influenciar respostas; medição de opinião não é observação direta de comportamento.",
+      "example": "“40% dos entrevistados que conhecem o serviço pretendem usá-lo no próximo mês” descreve um grupo e uma intenção, não todos os cidadãos nem uso efetivo.",
+      "confusion": "Intenção declarada não equivale a comportamento realizado; sem conhecer o denominador e o período, a porcentagem pode ser mal interpretada.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-9f3a6c218d45b7e0",
+        "section": "População, período e objeto: o que uma porcentagem realmente significa"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/104%20-%20pesquisa%20de%20opiniao%20publica%20objeto%20perguntas%20e%20limites.md",
+        "locator": "Capítulo 82: Pesquisa de opinião pública: objeto, perguntas e limites da inferência · seção: População, período e objeto: o que uma porcentagem realmente significa; fundamento: Pesquisa de opinião pública; população, objeto e formulação."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-82-pesquisa-de-opiniao-populacao-periodo-e-pergunta"
+      ],
+      "contrast": {
+        "prompt": "Uma pesquisa informa que 40% pretendem usar o serviço; pode-se concluir que 40% efetivamente o utilizarão?",
+        "answer": "Não. A medida registra intenção declarada no grupo e período pesquisados; comportamento futuro pode divergir e requer observação própria."
+      }
+    },
+    {
+      "id": "camara-comunicacao-83-pesquisa-de-imagem-e-reputacao-operacionaliza-conceitos",
+      "term": "Pesquisa de imagem e reputação operacionaliza conceitos",
+      "definition": "Pesquisa transforma conceitos como imagem e reputação em dimensões observáveis, indicadores e perguntas. Reconhecimento, associações, avaliação e experiência são medidas diferentes e devem corresponder ao conceito e à população investigados.",
+      "example": "Perguntar se a pessoa reconhece um símbolo mede conhecimento de marca; avaliar confiança após usar um serviço mede outra dimensão.",
+      "confusion": "Um indicador isolado não representa toda a reputação, que é multidimensional e pode exigir evidências de experiência, avaliação e tempo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6f2a9c40d83e175b",
+        "section": "Da teoria à variável: o que a pesquisa realmente mede"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/105%20-%20pesquisa%20de%20imagem%20e%20reputacao%20indicadores%20e%20vieses.md",
+        "locator": "Capítulo 83: Pesquisa de imagem e reputação: indicadores, desenho e vieses · seção: Da teoria à variável: o que a pesquisa realmente mede; fundamento: Pesquisa de imagem e reputação; teoria, variável e indicador."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-83-pesquisa-de-imagem-e-reputacao-operacionaliza-conceitos"
+      ],
+      "contrast": {
+        "prompt": "O reconhecimento espontâneo de uma marca prova que os respondentes têm boa avaliação dela?",
+        "answer": "Não. Reconhecimento mede lembrança ou familiaridade; avaliação favorável é dimensão distinta e exige medida própria."
+      }
+    },
+    {
+      "id": "camara-comunicacao-84-audiencia-alcance-e-unidade-observada",
+      "term": "Audiência, alcance e unidade observada",
+      "definition": "Pesquisa de mídia distingue pessoas, domicílios, dispositivos e eventos de consumo. Painéis observam uma amostra e projetam resultados para uma população; cada método tem cobertura, erro e limites próprios.",
+      "example": "Uma contagem de dispositivos conectados não equivale automaticamente ao número de pessoas que assistiram ao conteúdo.",
+      "confusion": "Visualização registrada, aparelho e pessoa são unidades diferentes; comparar métricas exige conhecer método e universo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-7d3c9e14a80b62f5",
+        "section": "Objetos medidos: distinguir pessoas, domicílios, dispositivos e eventos"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/106%20-%20pesquisa%20de%20midia%20audiencia%20alcance%20e%20metodos.md",
+        "locator": "Capítulo 84: Pesquisa de mídia: audiência, alcance e métodos de medição · seção: Objetos medidos: distinguir pessoas, domicílios, dispositivos e eventos; fundamento: Pesquisa de mídia; audiência, alcance e métodos de medição."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-84-audiencia-alcance-e-unidade-observada"
+      ],
+      "contrast": {
+        "prompt": "Um dispositivo que iniciou um vídeo representa necessariamente uma pessoa que assistiu ao conteúdo completo?",
+        "answer": "Não. Dispositivo, reprodução e pessoa são unidades distintas; a medida e o método determinam o que se pode inferir."
+      }
+    },
+    {
+      "id": "camara-comunicacao-85-impressao-alcance-clique-e-conversao",
+      "term": "Impressão, alcance, clique e conversão",
+      "definition": "Impressão registra exibição conforme a plataforma; alcance estima contas ou pessoas únicas; clique registra interação com destino; conversão registra evento definido como conclusão de tarefa. Cada métrica requer denominador e critério explícitos.",
+      "example": "Uma publicação tem 5 mil impressões, 3 mil contas alcançadas, 120 cliques e 40 solicitações concluídas: os números representam etapas diferentes.",
+      "confusion": "Clique não equivale a conversão; impressões não equivalem a pessoas únicas. Comparações precisam considerar janela de atribuição e definição de evento.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f2b67a4d91e803c5",
+        "section": "Conversões: evento, tarefa e denominador"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/107%20-%20metricas%20digitais%20impressao%20clique%20conversao%20e%20interpretacao.md",
+        "locator": "Capítulo 85: Métricas digitais: impressões, alcance, cliques, conversões e interpretação · seção: Conversões: evento, tarefa e denominador; fundamento: Métricas digitais; impressão, alcance, clique, conversão e interpretação."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-85-impressao-alcance-clique-e-conversao"
+      ],
+      "contrast": {
+        "prompt": "Quarenta cliques em um link provam que quarenta usuários concluíram a tarefa anunciada?",
+        "answer": "Não. Clique é acesso ao destino; conversão depende do evento final definido e medido, como envio concluído do formulário."
+      }
+    },
+    {
+      "id": "camara-comunicacao-86-eficacia-eficiencia-efetividade-e-causalidade",
+      "term": "Eficácia, eficiência, efetividade e causalidade",
+      "definition": "Eficácia verifica alcance de objetivos; eficiência relaciona resultados e recursos; efetividade examina efeitos relevantes na realidade; causalidade investiga se uma intervenção produziu determinado resultado. São critérios relacionados, não sinônimos.",
+      "example": "Uma campanha pode cumprir o número de entregas com baixo custo e ainda não melhorar o acesso ao serviço; esses resultados respondem a critérios distintos.",
+      "confusion": "Atingir meta de produção não demonstra impacto nem causalidade. É preciso medir o efeito e considerar explicações concorrentes.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3f6d81b2c709a4e5",
+        "section": "Eficácia, eficiência, efetividade e impacto: critérios, não sinônimos"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/108%20-%20indicadores%20de%20publicidade%20eficacia%20eficiencia%20e%20causalidade.md",
+        "locator": "Capítulo 86: Indicadores de publicidade: eficácia, eficiência, efetividade e causalidade · seção: Eficácia, eficiência, efetividade e impacto: critérios, não sinônimos; fundamento: Indicadores de publicidade; eficácia, eficiência, efetividade e causalidade."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-86-eficacia-eficiencia-efetividade-e-causalidade"
+      ],
+      "contrast": {
+        "prompt": "Uma campanha que cumpriu sua meta de alcance demonstrou automaticamente efetividade e impacto causal?",
+        "answer": "Não. Alcance pode indicar eficácia de distribuição; efetividade e causalidade exigem evidência de efeitos e análise de outras causas possíveis."
+      }
+    },
+    {
+      "id": "camara-comunicacao-87-marca-identidade-e-identidade-visual",
+      "term": "Marca, identidade e identidade visual",
+      "definition": "Marca é um conjunto de significados e associações ligados a uma oferta ou organização; identidade visual é o sistema de elementos gráficos que a representa; logotipo é apenas um desses elementos. A marca não se reduz ao desenho.",
+      "example": "Uma instituição pode atualizar cores e tipografia sem alterar imediatamente a percepção pública acumulada sobre sua reputação.",
+      "confusion": "Mudança de logotipo não prova mudança de posicionamento, experiência ou valor de marca; esses elementos têm escopos diferentes.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a71d4c96e20b583f",
+        "section": "Seis objetos distintos: evitar troca de categoria"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/109%20-%20marca%20conceito%20elementos%20e%20identidade%20visual.md",
+        "locator": "Capítulo 87: Marca: conceito, elementos e identidade visual · seção: Seis objetos distintos: evitar troca de categoria; fundamento: Marca, identidade, elementos visuais e logotipo."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-87-marca-identidade-e-identidade-visual"
+      ],
+      "contrast": {
+        "prompt": "Atualizar o logotipo significa que a organização mudou toda a sua marca e a percepção dos públicos?",
+        "answer": "Não. Logotipo é um elemento visual; marca inclui significados e experiências, e a percepção dos públicos não muda automaticamente com a atualização gráfica."
+      }
+    },
+    {
+      "id": "camara-comunicacao-88-aaker-e-keller-modelos-distintos-de-valor-de-marca",
+      "term": "Aaker e Keller: modelos distintos de valor de marca",
+      "definition": "Aaker organiza dimensões de valor de marca, como lealdade, reconhecimento, qualidade percebida e associações; Keller analisa conhecimento de marca baseado no consumidor e a construção de respostas e relações. Ambos estudam valor, mas suas estruturas não são intercambiáveis.",
+      "example": "Uma organização pode usar categorias de Aaker para mapear ativos e o modelo de Keller para analisar etapas de resposta do público.",
+      "confusion": "Misturar nomes de dimensões dos modelos apaga a lógica própria de cada autor; citar valor de marca não identifica automaticamente qual modelo está sendo usado.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-b63e19a8c4027f5d",
+        "section": "Aaker × Keller: mesmo tema, estruturas diferentes"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/110%20-%20branding%20significados%20experiencia%20e%20valor%20de%20marca.md",
+        "locator": "Capítulo 88: Branding: gestão de significados, experiência e valor de marca · seção: Aaker × Keller: mesmo tema, estruturas diferentes; fundamento: Aaker e Keller; comparação entre modelos de valor de marca."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-88-aaker-e-keller-modelos-distintos-de-valor-de-marca"
+      ],
+      "contrast": {
+        "prompt": "Uma dimensão de Aaker pode ser tratada como etapa equivalente do modelo de Keller sem justificar a correspondência?",
+        "answer": "Não. Os modelos organizam o valor de marca com estruturas diferentes; eventual correspondência precisa ser definida e fundamentada."
+      }
+    },
+    {
+      "id": "camara-comunicacao-89-arquitetura-de-marca-define-relacoes-entre-ofertas",
+      "term": "Arquitetura de marca define relações entre ofertas",
+      "definition": "Arquitetura de marca organiza como marca institucional, marcas de produtos, submarcas e serviços se relacionam e assinam ofertas. A decisão afeta reconhecimento, responsabilidade, consistência e gestão ao longo do portfólio.",
+      "example": "Um órgão pode decidir se novos serviços usam a marca institucional principal ou uma submarca identificável e subordinada.",
+      "confusion": "Criar nomes e logotipos separados sem regra de governança fragmenta o portfólio; consistência não significa usar sempre uma única marca para tudo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c42e9b761d30f85a",
+        "section": "Arquitetura: quem assina cada serviço?"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/111%20-%20gerenciamento%20de%20marca%20arquitetura%20consistencia%20e%20avaliacao.md",
+        "locator": "Capítulo 89: Gerenciamento de marca: arquitetura, consistência e avaliação · seção: Arquitetura: quem assina cada serviço?; fundamento: Gerenciamento de marca; arquitetura, extensão, submarca e governança."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-89-arquitetura-de-marca-define-relacoes-entre-ofertas"
+      ],
+      "contrast": {
+        "prompt": "Usar uma marca diferente para cada serviço é sempre mais consistente do que compartilhar a marca institucional?",
+        "answer": "Não. Arquitetura é uma decisão de relações e governança; marcas distintas podem fragmentar o portfólio, enquanto a marca principal pode favorecer reconhecimento, conforme o objetivo."
+      }
+    },
+    {
+      "id": "camara-comunicacao-90-hierarquia-visual-organiza-prioridade-de-leitura",
+      "term": "Hierarquia visual organiza prioridade de leitura",
+      "definition": "Hierarquia visual orienta a ordem e a importância percebida dos elementos por contraste, posição, agrupamento, tipografia, cor e espaço. Tamanho é um recurso possível, mas não determina sozinho a prioridade nem garante legibilidade.",
+      "example": "Um título de serviço pode ganhar destaque por contraste e posição, enquanto instruções e prazo mantêm leitura clara e acessível.",
+      "confusion": "Aumentar todos os elementos não cria hierarquia; excesso de destaque concorrente dificulta identificar por onde começar.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-2d49c7a6e81b305f",
+        "section": "Hierarquia visual: prioridade não equivale a tamanho"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/112%20-%20design%20grafico%20hierarquia%20composicao%20e%20legibilidade.md",
+        "locator": "Capítulo 90: Design gráfico: hierarquia, composição e legibilidade · seção: Hierarquia visual: prioridade não equivale a tamanho; fundamento: Design gráfico; hierarquia, composição e legibilidade."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-90-hierarquia-visual-organiza-prioridade-de-leitura"
+      ],
+      "contrast": {
+        "prompt": "O elemento mais importante precisa sempre ser o maior elemento da peça?",
+        "answer": "Não. Tamanho pode contribuir, mas hierarquia também depende de contraste, posição, espaço e relações; a prioridade precisa ser percebida sem sacrificar legibilidade."
+      }
     }
   ]
 }

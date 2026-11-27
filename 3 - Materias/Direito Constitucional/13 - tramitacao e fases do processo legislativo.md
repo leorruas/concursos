@@ -5,7 +5,7 @@ title: "Tramitação legislativa: fases, comissões, Plenário e revisão bicame
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-16
+updated: 2026-11-27
 aliases:
   - "Tramitação e fases do processo legislativo"
   - "Casa iniciadora e Casa revisora"
@@ -374,6 +374,10 @@ Pelo **art. 65 da Constituição**, o projeto de lei **aprovado por uma Casa** s
 ## Encerramento da formação de lei: sanção, veto, promulgação e publicação
 
 Concluída a deliberação legislativa do projeto de **lei**, o **art. 66** disciplina envio à Presidência da República para **sanção ou veto** nas hipóteses aplicáveis. **Sanção** corresponde à concordância do presidente com o projeto aprovado; **veto** é discordância por **inconstitucionalidade** ou **contrariedade ao interesse público**, nas condições constitucionais. **Promulgação** atesta a existência da norma e **publicação** torna seu texto oficialmente conhecido, conforme o ato.
+
+**Veto: motivo, destinatário, alcance e revisão.** O Presidente da República pode vetar o projeto, no todo ou em parte, por inconstitucionalidade ou contrariedade ao interesse público. Se vetar, comunica as razões ao **Presidente do Senado Federal em até 48 horas**, independentemente de qual Casa iniciou ou concluiu a tramitação (CF, art. 66, § 1º). O veto parcial só pode abranger **texto integral de artigo, parágrafo, inciso ou alínea**; não pode recortar palavra ou expressão isolada, ainda que a frase restante continue gramatical (§ 2º). O Congresso aprecia o veto em sessão conjunta dentro de 30 dias, e para rejeitá-lo exige maioria absoluta **em cada Casa**, com apuração separada; somar votos de deputados e senadores não supre a falta de maioria em uma delas (§§ 4º e 5º). Rejeitado o veto, o texto segue para promulgação: se o Presidente da República não a fizer em 48 horas, cabe ao Presidente do Senado e, na omissão deste, ao Vice-Presidente do Senado (§ 7º). A nota [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação]] detalha os prazos e efeitos, inclusive a sanção tácita.
+
+**Autógrafos: texto e destino (RICD, art. 200).** Autógrafo é o exemplar formal do texto aprovado definitivamente pela Câmara ou por suas comissões, preparado para encaminhamento. Até a segunda sessão seguinte, a proposição segue em autógrafos **à sanção, à promulgação ou ao Senado, conforme a etapa e a espécie**. O documento reproduz a redação final aprovada pelo Plenário; se a apreciação for conclusiva, a aprovada pela Comissão de Constituição e Justiça e de Cidadania (CCJC); ou o texto do Senado que a Câmara aprovou sem emendas. Portanto, autógrafo não se limita às emendas e não é remetido invariavelmente à Presidência da República. Exemplo: se a Câmara, como Casa iniciadora, ainda envia o projeto ao Senado para revisão, o destino é o Senado; se a deliberação legislativa terminou e o projeto de lei aguarda sanção, o destino é a Presidência da República.
 
 A **tramitação de projeto na Câmara**, a **revisão no Senado**, a **sanção ou veto**, a **promulgação** e a **publicação** são marcos distinguíveis; não se pode deduzir **lei vigente** apenas do anúncio de aprovação por uma comissão ou uma Casa.
 

@@ -65,7 +65,8 @@ assert(index.includes('id="nav-link-glossario"'));
 assert(css.includes('.sticky-nav .nav-logo { display: none; }'));
 assert(css.includes('grid-template-columns: minmax(0, 1fr);'), 'Busca precisa ocupar linha própria no mobile');
 assert(ui.includes('glossarioTermosDoConcurso(data)') && ui.includes('glossarioArtigoHref(a)'));
-assert(ui.includes("concursoRota === 'cgu-2026' || concursoRota === 'camara-2026'"));
+assert(ui.includes("['cgu-2026', 'camara-2026', 'todos'].includes(concursoRota)"),
+  'A rota do glossário deve preservar o escopo selecionado, inclusive Todos');
 assert(builder.includes("id === 'orcamento-publico' && entry.articleIds.some"), 'Reuso entre concursos deve depender de artigo elegível');
 
 const ctx = { console, Intl };

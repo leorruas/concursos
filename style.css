@@ -2452,7 +2452,11 @@ body:has(.glossario-pagina:not(.escondido)) .page-masthead{display:none}
 .glossario-breadcrumb a{color:var(--muted);text-decoration:none}.glossario-breadcrumb a:hover{color:var(--accent-blue)}
 .glossario-rotulo{font:11px 'IBM Plex Mono',monospace;color:var(--accent-blue);letter-spacing:.06em;text-transform:uppercase}
 .glossario-cabecalho h2{font-size:clamp(40px,7vw,74px);letter-spacing:-.065em;line-height:1;margin:16px 0 15px;font-weight:620}
-.glossario-cabecalho>p:last-child{max-width:670px;color:var(--muted);font-size:15px;line-height:1.65;margin:0 0 45px}
+.glossario-cabecalho>p:last-child{max-width:670px;color:var(--muted);font-size:15px;line-height:1.65;margin:0 0 30px}
+.glossario-escopo{display:flex;align-items:center;gap:12px;margin:0 0 35px}
+.glossario-escopo label{color:var(--muted);font:11px 'IBM Plex Mono',monospace;text-transform:uppercase}
+.glossario-escopo select{width:min(100%,320px);border:1px solid color-mix(in srgb,var(--text) 28%,transparent);border-radius:0;padding:11px 38px 11px 12px;font:14px 'Archivo',sans-serif;color:var(--text);background:var(--surface);cursor:pointer}
+.glossario-escopo select:focus-visible{outline:2px solid var(--accent-blue);outline-offset:3px}
 .glossario-ferramentas{border-top:1px solid color-mix(in srgb,var(--text) 35%,transparent);padding-top:20px}
 #glossario-busca{display:block;width:100%;border:none;border-bottom:1px solid color-mix(in srgb,var(--text) 35%,transparent);border-radius:0;padding:16px 0 19px;background:transparent;color:var(--text);font:clamp(18px,2.8vw,27px) 'Archivo',sans-serif;outline:none}
 #glossario-busca:focus{border-bottom:2px solid var(--accent-blue)}#glossario-busca::placeholder{color:var(--muted)}
@@ -2492,7 +2496,7 @@ body:has(.glossario-pagina:not(.escondido)) .page-masthead{display:none}
 .glossario-voltar-topo:focus-visible{outline:2px solid var(--accent-blue);outline-offset:3px}
 @media(max-width:650px){.glossario-voltar-topo{display:grid;place-items:center;bottom:calc(14px + env(safe-area-inset-bottom));right:calc(14px + env(safe-area-inset-right));width:34px;height:34px;font-size:18px}}
 @media(min-width:651px) and (max-width:920px){.glossario-filtros{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:650px){.glossario-pagina{padding:40px 0 75px}.glossario-breadcrumb{margin-bottom:40px}.glossario-filtros{display:grid;grid-template-columns:1fr 1fr;gap:12px}.glossario-filtros select{width:100%;min-width:0;padding:12px 9px;font-size:12px}.glossario-detalhe dl{display:block}.glossario-detalhe dt{margin-top:18px}.glossario-detalhe dd{margin:6px 0}.glossario-indicador{font-size:10px}.glossario-cabecalho>p:last-child{margin-bottom:28px}}
+@media(max-width:650px){.glossario-pagina{padding:40px 0 75px}.glossario-breadcrumb{margin-bottom:40px}.glossario-escopo{align-items:flex-start;flex-direction:column;gap:8px}.glossario-escopo select{width:100%}.glossario-filtros{display:grid;grid-template-columns:1fr 1fr;gap:12px}.glossario-filtros select{width:100%;min-width:0;padding:12px 9px;font-size:12px}.glossario-detalhe dl{display:block}.glossario-detalhe dt{margin-top:18px}.glossario-detalhe dd{margin:6px 0}.glossario-indicador{font-size:10px}.glossario-cabecalho>p:last-child{margin-bottom:28px}}
 
 
 /* Cores semânticas de concursos. Compatíveis com o SVG inline e modal da PUC.

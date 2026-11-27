@@ -20,6 +20,11 @@ for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publ
 assert(published.terms.every(t => t.status === 'reviewed' && t.sources.length > 0 && t.sources.every(s => /^https:\/\//.test(s.url))));
 assert(published.terms.every(t => t.articleLinks.length && t.articleLinks.every(a => a.href.startsWith('#/artigo/'))));
 assert(home.includes('id="glossario-pagina"') && home.includes('web/09-glossary.js'));
+assert(home.includes('id="glossario-concurso"') &&
+  home.includes('<option value="todos">Todos</option>') &&
+  home.includes('<option value="cgu-2026">CGU 2026</option>') &&
+  home.includes('<option value="camara-2026">Câmara dos Deputados 2026</option>'),
+  'Glossário deve permitir escolher CGU, Todos e Câmara dos Deputados');
 assert(home.includes('id="nav-link-glossario"') && home.includes('id="home-glossario-entry"'));
 assert(home.includes('id="glossario-artigo"') && home.includes('id="glossario-organizacao"'), 'Filtros por artigo e organização ausentes da interface');
 assert(home.includes('id="glossario-voltar-topo"') && home.includes('class="glossario-voltar-topo"'),
@@ -32,6 +37,9 @@ const glossaryUI = fs.readFileSync(path.join(root, 'web/09-glossary.js'), 'utf8'
 const style = fs.readFileSync(path.join(root, 'style.css'), 'utf8');
 assert(glossaryUI.includes('class="glossario-artigo-grupo"') &&
   glossaryUI.includes('class="glossario-artigo-titulo"'), 'Agrupamento por artigo deve usar classes próprias');
+assert(glossaryUI.includes("glossarioState.contestId === 'todos'") &&
+  glossaryUI.includes('construirRotaGlossario(\'\', contest.value)'),
+  'O seletor deve carregar o acervo agregado e atualizar a rota do glossário');
 assert(glossaryUI.includes('function pesquisarGlossarioPelaNavbar') &&
   glossaryUI.includes("'buscar no glossário...'"),
   'Busca da barra deve atuar como busca do glossário na rota correspondente');

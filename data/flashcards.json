@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-19",
+  "updated": "2026-11-27",
   "exams": [
     {
       "id": "cgu-2026",
@@ -13529,6 +13529,1734 @@
       "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 2
+    },
+    {
+      "id": "camara-orc01-orcamento-publico",
+      "term": "Orçamento público: previsão, autorização e controle",
+      "definition": "Instrumento legal e financeiro que organiza receitas previstas e despesas autorizadas para um exercício, explicita escolhas públicas e permite ao Legislativo acompanhar o uso dos recursos. A previsão não equivale à arrecadação efetiva e a autorização não comprova execução.",
+      "example": "A LOA prevê R$ 2 milhões para reformar escolas; o valor é limite autorizado para a finalidade, mas não prova que a reforma foi contratada ou paga.",
+      "confusion": "Orçamento não é apenas fluxo de caixa: a LOA prevê receitas e fixa despesas; disponibilidade financeira diz respeito a recursos para pagamentos. Resultado da política ainda requer avaliação própria.",
+      "topic": "Fundamentos",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275",
+        "locator": "Lei nº 4.320/1964, art. 2º"
+      },
+      "conceptIds": [
+        "orcamento-publico-funcao"
+      ],
+      "contrast": {
+        "prompt": "Uma escola tem dotação de R$ 2 milhões na LOA. O que isso permite concluir sobre arrecadação, pagamento e entrega?",
+        "answer": "Conclui-se que há autorização orçamentária até o limite e para a finalidade indicada, sujeita às regras legais. Não se conclui que os recursos já entraram em caixa, que foram pagos ou que a escola foi reformada."
+      }
+    },
+    {
+      "id": "camara-orc01-ciclo-quatro-momentos",
+      "term": "Momentos do ciclo orçamentário",
+      "definition": "Processo que organiza a elaboração da proposta, sua discussão e aprovação legislativa, a execução e o controle com avaliação. Os momentos ajudam a localizar a atividade, embora ciclos de exercícios diferentes se sobreponham no tempo.",
+      "example": "Enquanto uma secretaria executa o orçamento deste ano, o Executivo pode preparar a proposta do ano seguinte e prestar contas do exercício anterior.",
+      "confusion": "Empenho, liquidação e pagamento são estágios da despesa dentro da execução, não três momentos adicionais do ciclo.",
+      "topic": "Ciclo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "Estrutura do ciclo orçamentário"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, arts. 165 e 166; Lei nº 4.320/1964, arts. 75 a 77"
+      },
+      "conceptIds": [
+        "ciclo-orcamentario-momentos"
+      ],
+      "contrast": {
+        "prompt": "Um órgão empenha uma compra e, no mesmo mês, prepara sua proposta para o próximo ano. Isso cria dois ciclos em sequência sem sobreposição?",
+        "answer": "Não. O empenho integra a execução de um orçamento; preparar a proposta integra a elaboração do seguinte. Os ciclos de exercícios distintos podem ocorrer ao mesmo tempo."
+      }
+    },
+    {
+      "id": "camara-orc01-executivo-iniciativa-legislativo-deliberacao",
+      "term": "Iniciativa executiva e deliberação legislativa",
+      "definition": "No processo federal, cabe ao Poder Executivo apresentar os projetos de PPA, LDO e LOA; ao Congresso Nacional cabe apreciá-los e deliberar, observadas as regras constitucionais. Iniciativa identifica quem formaliza o projeto, não quem decide sozinho seu conteúdo final.",
+      "example": "O presidente envia o PLOA ao Congresso; a Comissão Mista de Orçamento examina o projeto e emite parecer, e a deliberação legislativa ocorre no Congresso.",
+      "confusion": "A competência para iniciar não significa aprovação exclusiva. O parecer da comissão instrui a decisão, mas não substitui a deliberação das Casas.",
+      "topic": "Competências",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "Quem decide no ciclo federal e onde termina cada competência"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, arts. 165 e 166"
+      },
+      "conceptIds": [
+        "iniciativa-deliberacao-orcamentaria"
+      ],
+      "contrast": {
+        "prompt": "O Executivo iniciou o PLOA e a CMO emitiu parecer. A LOA já foi aprovada?",
+        "answer": "Não. A iniciativa do Executivo apresenta o projeto e o parecer da CMO recomenda encaminhamento; a aprovação depende da deliberação do Congresso segundo o art. 166."
+      }
+    },
+    {
+      "id": "camara-orc01-despesa-estagios",
+      "term": "Empenho, liquidação e pagamento",
+      "definition": "São, em regra, estágios da execução da despesa: o empenho compromete crédito para obrigação determinada; a liquidação verifica o direito do credor e a entrega ou serviço; e o pagamento realiza o desembolso após a liquidação e a ordem competente.",
+      "example": "Na compra de computadores, o órgão empenha ao assumir o compromisso, liquida após conferir a entrega e documentos e paga depois de ordenar o desembolso.",
+      "confusion": "Empenhar não comprova entrega ou pagamento; liquidar também não significa que o dinheiro já saiu do caixa. Os três estágios ocorrem dentro da execução do ciclo.",
+      "topic": "Execução",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "Execução orçamentária e financeira"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275",
+        "locator": "Lei nº 4.320/1964, arts. 58, 62 a 64"
+      },
+      "conceptIds": [
+        "estagios-despesa"
+      ],
+      "contrast": {
+        "prompt": "Um fornecedor recebeu empenho, mas ainda não entregou os equipamentos. O crédito foi comprometido; a obrigação já pode ser paga?",
+        "answer": "O empenho compromete o crédito, mas a liquidação depende da verificação do direito do credor e da entrega. Sem liquidação regular, não se conclui que a despesa está pronta para pagamento."
+      }
+    },
+    {
+      "id": "camara-orc01-dotacao-disponibilidade-financeira",
+      "term": "Dotação e disponibilidade financeira",
+      "definition": "Dotação é a autorização orçamentária para realizar uma despesa até determinado valor e finalidade. Disponibilidade financeira é a existência de recursos de caixa para efetuar o pagamento conforme a programação e a destinação aplicável.",
+      "example": "Há dotação de R$ 1 milhão para uma obra, mas o desembolso mensal foi programado para depois; o órgão tem autorização, sem necessariamente possuir caixa disponível naquele momento.",
+      "confusion": "Ter crédito orçamentário não é ter dinheiro na conta. Uma limitação de empenho pode restringir novos compromissos sem apagar automaticamente a dotação da LOA.",
+      "topic": "Autorização e caixa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "Dotação orçamentária: autorização e limite de gasto"
+      },
+      "source": {
+        "title": "Lei Complementar nº 101/2000 (LRF)",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Lei Complementar nº 101/2000, arts. 8º e 9º"
+      },
+      "conceptIds": [
+        "dotacao-vs-caixa"
+      ],
+      "contrast": {
+        "prompt": "A dotação existe, mas a programação financeira ainda não liberou recursos para desembolso. O órgão pode afirmar que a despesa já foi paga?",
+        "answer": "Não. A dotação autoriza a despesa; a programação financeira e o caixa tratam do ritmo e da possibilidade de pagar. Autorização não é desembolso."
+      }
+    },
+    {
+      "id": "camara-orc01-meta-fisica",
+      "term": "Meta física e entrega realizada",
+      "definition": "Meta física expressa a quantidade de produto ou serviço que se pretende entregar com uma ação orçamentária. A execução física mede o que foi efetivamente produzido; ela não é, por si só, um indicador do impacto social final.",
+      "example": "A meta era reformar cinco escolas e três foram concluídas: a execução física da meta é de três unidades, ainda que o gasto financeiro seja maior ou menor que 60%.",
+      "confusion": "Valor empenhado ou pago não mede automaticamente a quantidade entregue; quantidade entregue também não prova melhoria de aprendizagem ou outro impacto.",
+      "topic": "Entrega e resultado",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "O que significa programação física cumprida"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, arts. 70 e 74; Lei nº 4.320/1964, art. 75"
+      },
+      "conceptIds": [
+        "meta-fisica-entrega"
+      ],
+      "contrast": {
+        "prompt": "Foram gastos 90% dos recursos de uma ação, mas só metade das unidades previstas foi entregue. A meta física foi cumprida?",
+        "answer": "Não se conclui pelo gasto. A meta física compara unidades entregues com a quantidade planejada; neste caso, metade foi entregue. O gasto mede execução financeira."
+      }
+    },
+    {
+      "id": "camara-orc01-controle-preventivo-concomitante-posterior",
+      "term": "Controle prévio, concomitante e posterior",
+      "definition": "São formas de localizar o controle no tempo: prévio examina requisitos antes do ato; concomitante acompanha a execução enquanto ocorre; posterior analisa atos, contas ou resultados depois. O controle pode ocorrer em mais de um momento.",
+      "example": "Verificar documentos antes de contratar é prévio; fiscalizar uma obra em andamento é concomitante; analisar a prestação de contas depois é posterior.",
+      "confusion": "Controle não começa apenas depois do exercício nem é sinônimo de avaliação final. A competência e o instrumento dependem do órgão e da etapa.",
+      "topic": "Controle",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "Controle e avaliação"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, arts. 70, 71 e 74"
+      },
+      "conceptIds": [
+        "controle-orcamentario-tempo"
+      ],
+      "contrast": {
+        "prompt": "Um auditor acompanha medições de uma obra ainda em curso. Esse controle é posterior porque a contratação já ocorreu?",
+        "answer": "Não. O critério é o momento do ato examinado: acompanhar a execução em andamento é controle concomitante, ainda que a contratação tenha ocorrido antes."
+      }
+    },
+    {
+      "id": "camara-orc01-exercicio-financeiro-ciclo",
+      "term": "Exercício financeiro e ciclo orçamentário",
+      "definition": "Exercício financeiro é o período a que se vinculam a vigência da autorização anual e a apuração orçamentária; no Brasil, coincide com o ano civil. O ciclo orçamentário é o processo mais amplo que prepara, aprova, executa e controla os orçamentos.",
+      "example": "Um orçamento executado de janeiro a dezembro corresponde ao exercício anual, enquanto sua proposta foi elaborada e aprovada em etapas anteriores e suas contas podem ser examinadas depois.",
+      "confusion": "Exercício financeiro e ciclo não são sinônimos: o ciclo atravessa etapas antes e depois do ano de execução e se sobrepõe aos ciclos de outros exercícios.",
+      "topic": "Ciclo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "Tensões e pegadinhas"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275",
+        "locator": "Lei nº 4.320/1964, art. 34; Constituição Federal, arts. 165 e 166"
+      },
+      "conceptIds": [
+        "exercicio-vs-ciclo"
+      ],
+      "contrast": {
+        "prompt": "Como o orçamento pode ser aprovado antes do exercício e controlado após seu encerramento sem deixar de ser anual?",
+        "answer": "A anualidade delimita o exercício financeiro da autorização; o ciclo inclui elaboração, aprovação, execução e controle em períodos que podem anteceder ou suceder aquele ano."
+      }
+    },
+    {
+      "id": "camara-orc01-autorizacao-obrigatoria-emendas",
+      "term": "Autorização orçamentária e execução obrigatória",
+      "definition": "A dotação da LOA autoriza a realização de determinada despesa; algumas programações, como emendas sujeitas ao regime constitucional de execução obrigatória, também impõem dever de executar, observados requisitos e impedimentos técnicos e legais.",
+      "example": "Uma programação parlamentar que satisfaz os requisitos pode exigir execução, mas um impedimento técnico devidamente caracterizado afeta a obrigação nos termos constitucionais.",
+      "confusion": "Não é correto afirmar que toda dotação depende apenas da escolha livre do gestor; também não se pode concluir que toda dotação deva ser paga imediatamente, sem requisitos ou exceções.",
+      "topic": "Autorização",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "Tensões e pegadinhas"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 166, §§ 9º a 20"
+      },
+      "conceptIds": [
+        "autorizacao-vs-execucao-obrigatoria"
+      ],
+      "contrast": {
+        "prompt": "Uma dotação de emenda está sujeita à execução obrigatória, mas há impedimento técnico formal. A regra torna irrelevante verificar o impedimento?",
+        "answer": "Não. A obrigação de executar está sujeita aos requisitos e impedimentos constitucionais e legais; deve-se verificar o procedimento aplicável ao impedimento."
+      }
+    },
+    {
+      "id": "camara-orc01-direito-financeiro-contabilidade",
+      "term": "Direito financeiro, contabilidade pública e finanças públicas",
+      "definition": "Direito financeiro examina normas e limites para arrecadar e gastar; contabilidade pública registra e evidencia receitas, despesas, patrimônio e obrigações; finanças públicas estudam também os efeitos econômicos da tributação, do gasto e da dívida.",
+      "example": "Uma compra pode ser examinada quanto à autorização legal, ao registro contábil do bem e ao efeito econômico da despesa sobre as contas públicas.",
+      "confusion": "As áreas se relacionam, mas não respondem à mesma pergunta: regularidade jurídica, representação contábil e efeitos econômicos são planos distintos.",
+      "topic": "Áreas de estudo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "Direito financeiro × contabilidade pública × finanças públicas"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275",
+        "locator": "Lei nº 4.320/1964, arts. 83 a 89"
+      },
+      "conceptIds": [
+        "direito-financeiro-vs-contabilidade-publica"
+      ],
+      "contrast": {
+        "prompt": "Um pagamento foi registrado corretamente na contabilidade. Isso basta para provar que a despesa tinha autorização legal?",
+        "answer": "Não. Registro contábil evidencia o fato segundo regras contábeis, mas a autorização jurídica exige examinar a LOA, o crédito e as demais normas aplicáveis."
+      }
+    },
+    {
+      "id": "camara-orc01-ciclo-continuo-sobreposicao",
+      "term": "Sobreposição dos ciclos de exercícios diferentes",
+      "definition": "A elaboração, execução e prestação de contas de orçamentos de exercícios distintos podem ocorrer simultaneamente. O ciclo é contínuo, pois cada exercício tem etapas próprias que se cruzam no calendário.",
+      "example": "Em maio, o órgão executa a LOA corrente, prepara estimativas para a proposta seguinte e conclui informações de contas do exercício anterior.",
+      "confusion": "A coexistência dessas atividades não significa que uma etapa legislativa e uma etapa de execução pertençam ao mesmo orçamento ou que o ciclo seja uma sequência sem sobreposição.",
+      "topic": "Ciclo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "Tensões e pegadinhas"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, arts. 165 e 166; Lei nº 4.320/1964, art. 34"
+      },
+      "conceptIds": [
+        "ciclo-sobreposicao-exercicios"
+      ],
+      "contrast": {
+        "prompt": "Preparar a proposta futura enquanto se executa a LOA atual viola a ordem do ciclo?",
+        "answer": "Não. São atividades de exercícios diferentes que se sobrepõem; cada uma conserva sua etapa e seu orçamento próprios."
+      }
+    },
+    {
+      "id": "camara-orc01-programacao-fisica-financeira",
+      "term": "Execução física e execução financeira",
+      "definition": "Execução financeira registra compromissos liquidados ou pagamentos e movimentação de recursos; execução física mede os bens e serviços entregues. Ambas acompanham uma política, mas usam unidades diferentes.",
+      "example": "Uma obra pode ter 70% do valor pago e apenas metade das escolas concluída; cada percentual responde a uma pergunta diferente.",
+      "confusion": "Não se deve usar a percentagem paga como substituto da percentagem física nem concluir efetividade apenas com a entrega.",
+      "topic": "Entrega e execução",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "O que significa programação física cumprida"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275",
+        "locator": "Lei nº 4.320/1964, arts. 58 e 63; Constituição Federal, arts. 70 e 74"
+      },
+      "conceptIds": [
+        "execucao-fisica-vs-financeira"
+      ],
+      "contrast": {
+        "prompt": "O pagamento alcançou 80% do orçamento e as entregas chegaram a 60% da meta. Qual percentual mede a execução física?",
+        "answer": "60%, porque a execução física compara produtos entregues com a meta física. Os 80% descrevem execução financeira."
+      }
+    },
+    {
+      "id": "camara-orc02-diretriz-objetivo-meta",
+      "term": "Diretriz, objetivo e meta no PPA",
+      "definition": "Diretriz é orientação geral para as escolhas governamentais; objetivo descreve a mudança pretendida; meta explicita resultado esperado que permite acompanhar o avanço. O PPA organiza esses elementos de forma regionalizada para seu campo constitucional.",
+      "example": "Diretriz: priorizar regiões com baixo acesso à saúde; objetivo: ampliar o acesso; meta: aumentar a capacidade de atendimento em determinada quantidade e período.",
+      "confusion": "Uma prioridade geral não é a mesma coisa que meta mensurável, e nenhuma delas, isoladamente, equivale à dotação anual da LOA.",
+      "topic": "PPA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Traduzindo o art. 165, § 1º: o que cada expressão quer dizer"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 1º"
+      },
+      "conceptIds": [
+        "ppa-diretrizes-objetivos-metas"
+      ],
+      "contrast": {
+        "prompt": "O PPA define que regiões serão priorizadas, mas não informa o resultado a alcançar. A diretriz já demonstra que a meta foi cumprida?",
+        "answer": "Não. A diretriz orienta escolhas; o objetivo descreve a mudança pretendida e a meta permite verificar o resultado esperado. A prioridade não prova cumprimento."
+      }
+    },
+    {
+      "id": "camara-orc02-regionalizacao-ppa",
+      "term": "Regionalização do PPA",
+      "definition": "Regionalização é apresentar diretrizes, objetivos e metas do PPA com dimensão territorial, permitindo considerar necessidades e resultados de diferentes regiões. Não significa que cada região tenha uma lei orçamentária própria.",
+      "example": "O plano de ampliar atendimento identifica municípios ou regiões com menor cobertura e distribui metas territoriais para orientar a política.",
+      "confusion": "Planejamento regionalizado é dimensão do conteúdo do PPA, não divisão da competência legislativa nem autorização autônoma de gasto para cada região.",
+      "topic": "PPA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Traduzindo o art. 165, § 1º: o que cada expressão quer dizer"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 1º"
+      },
+      "conceptIds": [
+        "ppa-regionalizacao"
+      ],
+      "contrast": {
+        "prompt": "Um PPA apresenta uma meta nacional agregada, sem indicar dimensão territorial. O requisito de regionalização está demonstrado?",
+        "answer": "Não. A meta agregada pode informar um total, mas a regionalização exige apresentar o planejamento com dimensão territorial conforme o art. 165, § 1º."
+      }
+    },
+    {
+      "id": "camara-orc02-despesa-decorrente-investimento",
+      "term": "Despesa decorrente de investimento no PPA",
+      "definition": "É o gasto que se torna necessário em razão de um investimento planejado, como operação e manutenção de um equipamento público construído. O PPA deve planejar despesas de capital e outras delas decorrentes, sem reclassificar automaticamente a manutenção como capital.",
+      "example": "Construir uma unidade de saúde é investimento; pagar energia e conservar o prédio depois da abertura são despesas decorrentes a considerar no planejamento.",
+      "confusion": "A relação causal com o investimento não muda necessariamente a natureza econômica da despesa. Manutenção decorrente não é, só por isso, despesa de capital.",
+      "topic": "PPA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Traduzindo o art. 165, § 1º: o que cada expressão quer dizer"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 1º"
+      },
+      "conceptIds": [
+        "ppa-despesas-decorrentes-investimento"
+      ],
+      "contrast": {
+        "prompt": "O PPA contempla a manutenção futura de um hospital construído. Esse planejamento transforma automaticamente a manutenção em investimento?",
+        "answer": "Não. O PPA inclui despesas decorrentes do investimento, mas a classificação da manutenção permanece determinada pela natureza do gasto."
+      }
+    },
+    {
+      "id": "camara-orc02-programa-continuado-vs-despesa-continuada",
+      "term": "Programa de duração continuada e despesa obrigatória continuada",
+      "definition": "Programa de duração continuada é uma atuação pública planejada para prosseguir no tempo, no âmbito do art. 165, § 1º, da Constituição. Despesa obrigatória de caráter continuado é categoria da LRF: despesa corrente derivada de ato normativo que crie obrigação por período superior a dois exercícios.",
+      "example": "Um programa regular de atendimento pode ser continuado no PPA; para classificar uma despesa como obrigatória continuada, verifica-se também sua origem jurídica, natureza corrente e duração legal.",
+      "confusion": "A continuidade da política, por si só, não satisfaz os requisitos cumulativos do art. 17 da LRF para despesa obrigatória continuada.",
+      "topic": "PPA e LRF",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Traduzindo o art. 165, § 1º: o que cada expressão quer dizer"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 1º; Lei Complementar nº 101/2000, art. 17"
+      },
+      "conceptIds": [
+        "programa-continuado-vs-despesa-obrigatoria"
+      ],
+      "contrast": {
+        "prompt": "Um serviço público aparece no PPA como programa de duração continuada. Esse dado basta para afirmar que toda despesa do serviço é obrigatória continuada segundo a LRF?",
+        "answer": "Não. O PPA identifica duração da atuação; a LRF, art. 17, exige despesa corrente derivada de ato que crie obrigação por mais de dois exercícios."
+      }
+    },
+    {
+      "id": "camara-orc02-investimento-plurianual",
+      "term": "Investimento plurianual e inclusão no PPA",
+      "definition": "Investimento cuja execução ultrapassa um exercício financeiro não pode ser iniciado sem prévia inclusão no PPA ou sem lei que autorize sua inclusão. A regra evita iniciar obra plurianual sem base no planejamento constitucional.",
+      "example": "Uma obra prevista para durar três exercícios pode começar se estiver previamente incluída no PPA ou se houver lei autorizando a inclusão.",
+      "confusion": "O PPA não é a única via: o art. 167, § 1º, admite também lei que autorize a inclusão. E a inclusão não substitui a dotação anual da LOA.",
+      "topic": "PPA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Vigência do PPA e transição de governos"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 167, § 1º"
+      },
+      "conceptIds": [
+        "investimento-plurianual-ppa"
+      ],
+      "contrast": {
+        "prompt": "Uma obra durará três anos, não consta do PPA, mas há lei autorizando sua inclusão. O art. 167, § 1º, exige que ela seja abandonada?",
+        "answer": "Não. O dispositivo prevê inclusão prévia no PPA ou lei que autorize a inclusão; ainda será necessário obter autorização orçamentária anual para as despesas de cada exercício."
+      }
+    },
+    {
+      "id": "camara-orc02-periodo-ppa-transicao",
+      "term": "Vigência do PPA e transição presidencial",
+      "definition": "No regime transitório federal do ADCT, o PPA vigora do segundo exercício do mandato presidencial até o primeiro exercício do mandato seguinte, cobrindo quatro exercícios. A duração atravessa a mudança de governo para manter continuidade do planejamento.",
+      "example": "O PPA de 2024 a 2027 cobre os três últimos exercícios do mandato iniciado em 2023 e o primeiro do mandato seguinte.",
+      "confusion": "Os quatro exercícios do PPA não coincidem integralmente com os quatro anos de um único mandato presidencial.",
+      "topic": "PPA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Vigência do PPA e transição de governos"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "ADCT, art. 35, § 2º, I"
+      },
+      "conceptIds": [
+        "ppa-vigencia-transicao"
+      ],
+      "contrast": {
+        "prompt": "Um PPA federal cobre 2024 a 2027, embora haja mudança presidencial em 2027. A transição, por si, encerra o plano no fim de 2026?",
+        "answer": "Não. O regime do ADCT leva a vigência até o fim do primeiro exercício do mandato seguinte; a transição atravessa exercícios de dois mandatos."
+      }
+    },
+    {
+      "id": "camara-orc02-metas-fiscais-riscos-fiscais",
+      "term": "Anexo de Metas Fiscais e Anexo de Riscos Fiscais",
+      "definition": "O Anexo de Metas Fiscais apresenta resultados e parâmetros que o governo pretende perseguir; o Anexo de Riscos Fiscais avalia passivos contingentes e acontecimentos incertos que podem afetar as contas e indica providências. Um anexo trata de objetivos fiscais; o outro, de incertezas e respostas.",
+      "example": "Uma meta de resultado primário é registrada no Anexo de Metas; uma ação judicial de impacto incerto pode ser analisada no Anexo de Riscos.",
+      "confusion": "Indicar um risco não significa que a despesa já ocorreu ou que o governo perdeu a ação; meta não é risco nem saldo bancário.",
+      "topic": "LDO e LRF",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Metas fiscais × riscos fiscais"
+      },
+      "source": {
+        "title": "Lei Complementar nº 101/2000 (LRF)",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Lei Complementar nº 101/2000, art. 4º, §§ 1º e 3º"
+      },
+      "conceptIds": [
+        "anexos-metas-riscos-fiscais"
+      ],
+      "contrast": {
+        "prompt": "A LDO registra uma ação judicial ainda incerta como risco fiscal. Isso prova que o governo já tem uma despesa paga?",
+        "answer": "Não. O anexo identifica incerteza que pode afetar as contas e providências possíveis; não comprova desfecho, obrigação liquidada ou pagamento."
+      }
+    },
+    {
+      "id": "camara-orc02-regra-geral-metas-fiscais",
+      "term": "Horizonte geral das metas fiscais na LDO",
+      "definition": "A regra geral do art. 4º, § 1º, da LRF exige que o Anexo de Metas Fiscais estabeleça metas anuais para o exercício a que a LDO se refere e os dois seguintes, em valores correntes e constantes, abrangendo receitas, despesas, resultados nominal e primário e dívida pública.",
+      "example": "Na LDO referente a 2027, a regra geral alcança metas para 2027, 2028 e 2029.",
+      "confusion": "Para a União, há exigência adicional específica no art. 4º, § 5º, I, para o exercício da LDO e os três seguintes; não transportar esse horizonte automaticamente para todos os entes.",
+      "topic": "LDO e LRF",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "LDO: Lei de Diretrizes Orçamentárias"
+      },
+      "source": {
+        "title": "Lei Complementar nº 101/2000 (LRF)",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Lei Complementar nº 101/2000, art. 4º, § 1º"
+      },
+      "conceptIds": [
+        "horizonte-metas-fiscais-regra-geral"
+      ],
+      "contrast": {
+        "prompt": "Uma questão atribui a todos os municípios a regra federal de metas para o exercício da LDO e os três seguintes. O § 1º geral da LRF estabelece esse horizonte?",
+        "answer": "Não. O § 1º estabelece exercício de referência e dois seguintes. A exigência adicional federal dos três seguintes está no § 5º, I, e pode ser adotada por outros entes nos termos do § 6º."
+      }
+    },
+    {
+      "id": "camara-orc02-politica-aplicacao-agencias-fomento",
+      "term": "Política de aplicação das agências oficiais de fomento",
+      "definition": "A LDO estabelece a política que orienta a aplicação de recursos pelas agências financeiras oficiais de fomento, instituições públicas que apoiam atividades de desenvolvimento. Ela define orientação, não concede por si só cada financiamento individual.",
+      "example": "A LDO pode orientar prioridades de financiamento para desenvolvimento regional; a concessão concreta do empréstimo depende da agência e de seus requisitos próprios.",
+      "confusion": "Orientar a política de aplicação não é realizar diretamente o financiamento nem garantir aprovação a cada solicitante.",
+      "topic": "LDO",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "LDO: Lei de Diretrizes Orçamentárias"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 2º"
+      },
+      "conceptIds": [
+        "ldo-agencias-fomento"
+      ],
+      "contrast": {
+        "prompt": "A LDO prioriza crédito público a determinada região. Uma empresa dessa região passa a ter direito automático ao empréstimo?",
+        "answer": "Não. A LDO estabelece política de aplicação das agências de fomento; a análise e concessão de cada financiamento seguem condições próprias."
+      }
+    },
+    {
+      "id": "camara-orc02-loa-exclusividade-autorizar-vs-executar",
+      "term": "Autorização de crédito na LOA e abertura efetiva",
+      "definition": "A Constituição permite que a LOA contenha autorização para abertura de créditos suplementares. A autorização legislativa prévia permite posterior abertura nas condições legais, mas não reforça a dotação até que o crédito seja efetivamente aberto.",
+      "example": "A LOA autoriza suplementação até certo limite; se a unidade ainda não publicou ou praticou os atos exigidos para abertura, a dotação não foi automaticamente reforçada.",
+      "confusion": "Autorização na LOA não equivale a crédito já aberto nem autoriza genericamente créditos especiais nessa exceção do art. 165, § 8º.",
+      "topic": "LOA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Princípio da exclusividade na LOA"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 8º"
+      },
+      "conceptIds": [
+        "loa-autorizacao-vs-abertura-credito"
+      ],
+      "contrast": {
+        "prompt": "A LOA contém autorização para abrir crédito suplementar. O saldo da dotação já está reforçado antes do ato de abertura?",
+        "answer": "Não. O art. 165, § 8º, permite a autorização na LOA; o crédito suplementar só reforça efetivamente a dotação quando aberto conforme as regras."
+      }
+    },
+    {
+      "id": "camara-orc02-projecao-futura-nao-dotacao",
+      "term": "Projeção de despesa futura e autorização anual",
+      "definition": "Projeções plurianuais de receitas, despesas ou custos apoiam planejamento e transparência, mas não substituem a autorização da LOA ou de crédito adicional no exercício em que o gasto será realizado.",
+      "example": "O orçamento projeta a manutenção de uma unidade para 2028; para executar a despesa em 2028, é necessária autorização orçamentária aplicável àquele exercício.",
+      "confusion": "Estimativa de médio prazo e programação indicativa não são dotações futuras já aprovadas nem dispensa da lei anual.",
+      "topic": "LOA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "MTO 2027: linha de base e orçamento de médio prazo"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, caput e §§ 5º e 14"
+      },
+      "conceptIds": [
+        "projecao-vs-autorizacao-anual"
+      ],
+      "contrast": {
+        "prompt": "A LOA apresenta uma projeção para exercício posterior. Essa previsão permite empenhar agora uma despesa daquele exercício futuro?",
+        "answer": "Não. A projeção informa planejamento e custos; a execução precisa de crédito autorizado para o exercício correspondente."
+      }
+    },
+    {
+      "id": "camara-orc02-prazo-limitacao-empenho",
+      "term": "Critérios da LDO e limitação de empenho",
+      "definition": "A LDO define critérios e forma de limitação de empenho. A limitação efetiva prevista no art. 9º da LRF exige avaliação bimestral de risco às metas fiscais e atos dos Poderes e órgãos competentes; restringe compromissos e movimentação financeira, sem cancelar automaticamente dotações.",
+      "example": "Após frustração de receitas, a avaliação bimestral indica risco à meta; os sujeitos competentes limitam empenhos conforme critérios da LDO.",
+      "confusion": "A LDO não cancela sozinha dotações sempre que houver queda de receita. Redução de receita, limitação de empenho e anulação de crédito são atos diferentes.",
+      "topic": "LDO e execução",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Lendo a LDO sem pressupor conhecimento de finanças públicas"
+      },
+      "source": {
+        "title": "Lei Complementar nº 101/2000 (LRF)",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Lei Complementar nº 101/2000, arts. 4º, I, b, e 9º"
+      },
+      "conceptIds": [
+        "ldo-criterios-limitacao-empenho"
+      ],
+      "contrast": {
+        "prompt": "A receita caiu em um mês. A dotação da LOA foi automaticamente cancelada pela própria LDO?",
+        "answer": "Não. O art. 9º exige avaliação ao final de um bimestre que indique risco às metas e limitação pelos sujeitos competentes; limitar empenhos não cancela automaticamente a dotação."
+      }
+    },
+    {
+      "id": "camara-orc02-continuidade-ppa-loa",
+      "term": "Continuidade do PPA e autorização anual da LOA",
+      "definition": "O PPA pode manter um objetivo ou programa por vários exercícios, mas cada exercício precisa de sua própria autorização orçamentária para despesas. Continuidade do planejamento não significa uma dotação plurianual única.",
+      "example": "Um programa de atendimento continua no PPA 2024–2027; as despesas de 2026 e 2027 devem constar das respectivas autorizações anuais.",
+      "confusion": "A previsão no PPA não autoriza empenho de cada ano. O PPA orienta o médio prazo; a LOA fixa o orçamento do exercício.",
+      "topic": "Integração PPA-LDO-LOA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Três leis, três perguntas e uma mesma política"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, §§ 1º, 2º e 5º"
+      },
+      "conceptIds": [
+        "ppa-programa-vs-dotacao-anual"
+      ],
+      "contrast": {
+        "prompt": "Um programa está no PPA, mas sem dotação na LOA do exercício. Pode-se empenhar com fundamento exclusivo no PPA?",
+        "answer": "Não. O PPA é instrumento de planejamento; a execução anual exige dotação na LOA ou crédito adicional aplicável."
+      }
+    },
+    {
+      "id": "camara-orc02a-esfera-fiscal",
+      "term": "Orçamento fiscal",
+      "definition": "Parte da LOA federal que reúne programação dos Poderes, fundos, órgãos e entidades da administração direta e indireta, inclusive fundações instituídas e mantidas pelo poder público, ressalvadas programações classificadas nas outras esferas constitucionais.",
+      "example": "A construção de uma escola por ministério federal pode estar no orçamento fiscal, embora seja um investimento quanto à natureza econômica do gasto.",
+      "confusion": "Orçamento fiscal não é sinônimo de despesas correntes nem inclui indiscriminadamente toda programação de qualquer entidade; é uma esfera institucional da LOA.",
+      "topic": "Esferas da LOA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Entendendo as três esferas orçamentárias na prática"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 5º, I"
+      },
+      "conceptIds": [
+        "loa-esfera-fiscal"
+      ],
+      "contrast": {
+        "prompt": "Uma obra de escola pública é despesa de capital. Isso exige que apareça no orçamento de investimento das estatais?",
+        "answer": "Não. A natureza de capital não define a esfera. Se executada por órgão público, pode integrar a esfera fiscal; o orçamento de investimento tem critério institucional ligado às empresas controladas."
+      }
+    },
+    {
+      "id": "camara-orc02a-esfera-seguridade",
+      "term": "Orçamento da seguridade social",
+      "definition": "Parte da LOA que reúne receitas e despesas vinculadas à seguridade social, que compreende saúde, previdência e assistência social, incluindo entidades e órgãos da administração direta ou indireta e fundos e fundações instituídos e mantidos pelo poder público.",
+      "example": "A programação federal para benefícios previdenciários do INSS integra o orçamento da seguridade social; uma obra de saúde também pode pertencer a essa esfera.",
+      "confusion": "Seguridade é uma esfera funcional da LOA, não uma classificação de despesa corrente. Pode conter investimentos ligados à sua área.",
+      "topic": "Esferas da LOA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Entendendo as três esferas orçamentárias na prática"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, arts. 165, § 5º, III, 194 e 195, § 2º"
+      },
+      "conceptIds": [
+        "loa-esfera-seguridade"
+      ],
+      "contrast": {
+        "prompt": "Um hospital público constrói nova ala com recursos da seguridade. Por ser obra, ela deve passar ao orçamento de investimento das estatais?",
+        "answer": "Não. O caráter de obra ou despesa de capital não desloca a programação da esfera de seguridade quando ligada à sua finalidade e ao ente que a executa."
+      }
+    },
+    {
+      "id": "camara-orc02a-esfera-investimento-estatais",
+      "term": "Orçamento de investimento das estatais",
+      "definition": "Parte da LOA federal que contempla investimentos de empresas em que a União, direta ou indiretamente, detenha a maioria do capital social com direito a voto, conforme o recorte constitucional e as regras de classificação aplicáveis.",
+      "example": "Uma empresa estatal não dependente controlada pela União prevê comprar máquinas para ampliar uma unidade produtiva; o investimento pode integrar essa esfera.",
+      "confusion": "Não abrange toda despesa de capital de órgãos públicos nem todas as despesas operacionais das empresas; o critério é institucional e se refere aos investimentos abrangidos.",
+      "topic": "Esferas da LOA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Três orçamentos em uma lei"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 5º, II"
+      },
+      "conceptIds": [
+        "loa-esfera-investimento-estatais"
+      ],
+      "contrast": {
+        "prompt": "Todo investimento feito por qualquer unidade federal pertence ao orçamento de investimento das estatais?",
+        "answer": "Não. Essa esfera corresponde a investimentos de empresas sob controle acionário votante da União, segundo o art. 165, § 5º, II; uma obra de ministério pode estar no orçamento fiscal."
+      }
+    },
+    {
+      "id": "camara-orc02a-esferas-unidade-loa",
+      "term": "Três esferas em uma única LOA",
+      "definition": "A LOA federal reúne os orçamentos fiscal, da seguridade social e de investimento das estatais. As três esferas distinguem âmbitos de programação dentro de uma única lei anual e não são três leis independentes.",
+      "example": "A LOA apresenta separadamente a manutenção de ministérios, programas de saúde e investimentos de estatais controladas.",
+      "confusion": "A apresentação de três orçamentos não viola por si só a unidade; unidade exige integração no orçamento do ente, não uma única categoria de despesa.",
+      "topic": "Estrutura da LOA",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Três orçamentos em uma lei"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 5º"
+      },
+      "conceptIds": [
+        "tres-esferas-uma-lei"
+      ],
+      "contrast": {
+        "prompt": "A LOA da União discrimina os orçamentos fiscal e da seguridade em volumes diferentes. Isso demonstra que foram editadas duas leis?",
+        "answer": "Não. São componentes integrantes da mesma LOA; a separação de esferas não cria leis orçamentárias independentes."
+      }
+    },
+    {
+      "id": "camara-orc02a-controle-societario",
+      "term": "Empresa estatal controlada",
+      "definition": "Para a LRF, empresa controlada é sociedade cuja maioria do capital social com direito a voto pertence, direta ou indiretamente, a ente da Federação. O critério identifica controle societário, não a forma como a empresa financia suas despesas.",
+      "example": "A União possui 60% das ações votantes de uma empresa; ela é controlada, ainda que consiga pagar salários e operações com receitas próprias.",
+      "confusion": "Controle acionário não basta para caracterizar dependência financeira. A dependência exige verificar recebimento e destino dos recursos do controlador.",
+      "topic": "Empresas estatais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Empresa controlada × estatal dependente × estatal não dependente"
+      },
+      "source": {
+        "title": "Lei Complementar nº 101/2000 (LRF)",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Lei Complementar nº 101/2000, art. 2º, II"
+      },
+      "conceptIds": [
+        "empresa-controlada-criterio"
+      ],
+      "contrast": {
+        "prompt": "O ente detém 60% do capital votante de uma empresa, que não recebe transferências para pessoal ou custeio. O controle, sozinho, define dependência?",
+        "answer": "Não. O percentual majoritário define controle societário, mas dependência exige o critério adicional do art. 2º, III, da LRF."
+      }
+    },
+    {
+      "id": "camara-orc02a-estatal-dependente",
+      "term": "Empresa estatal dependente",
+      "definition": "É a empresa controlada que recebe do ente controlador recursos financeiros para pagar despesas com pessoal, custeio em geral ou despesas de capital, ressalvada para estas últimas a hipótese de aumento da participação acionária. A classificação considera fonte e finalidade do aporte.",
+      "example": "Uma empresa controlada recebe transferência do Tesouro para pagar salários: esse fato pode enquadrá-la como dependente, conforme o art. 2º, III, da LRF.",
+      "confusion": "Prejuízo contábil, empréstimo garantido pela União ou aporte exclusivamente para aumentar participação acionária não demonstram por si sós a hipótese legal de dependência.",
+      "topic": "Empresas estatais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Empresa controlada × estatal dependente × estatal não dependente"
+      },
+      "source": {
+        "title": "Lei Complementar nº 101/2000 (LRF)",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Lei Complementar nº 101/2000, art. 2º, III"
+      },
+      "conceptIds": [
+        "estatal-dependente-definicao"
+      ],
+      "contrast": {
+        "prompt": "Uma estatal recebe um aporte exclusivo para aumento de participação acionária. Esse fato isolado a torna dependente para fins do art. 2º, III?",
+        "answer": "Não. O dispositivo ressalva aumento de participação acionária quando trata de despesas de capital. Se houver também recursos para pessoal ou custeio, a análise muda."
+      }
+    },
+    {
+      "id": "camara-orc02a-estatal-nao-dependente",
+      "term": "Empresa estatal não dependente",
+      "definition": "É empresa controlada que não satisfaz o critério legal de dependência do art. 2º, III, da LRF. Sua programação de investimentos integra, em regra, o orçamento de investimento federal, conforme as regras aplicáveis.",
+      "example": "Uma estatal controlada paga folha e custeio com receitas próprias e recebe apenas aporte societário enquadrado na exceção legal; pode continuar não dependente.",
+      "confusion": "Não dependente não significa que a empresa nunca recebeu recurso público, nunca teve prejuízo ou não esteja sujeita a controle estatal. Importam a natureza e o destino dos aportes.",
+      "topic": "Empresas estatais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Empresa controlada × estatal dependente × estatal não dependente"
+      },
+      "source": {
+        "title": "Lei Complementar nº 101/2000 (LRF)",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Lei Complementar nº 101/2000, art. 2º, II e III; Constituição Federal, art. 165, § 5º, II"
+      },
+      "conceptIds": [
+        "estatal-nao-dependente"
+      ],
+      "contrast": {
+        "prompt": "Uma estatal teve prejuízo no ano, mas não recebeu recursos do controlador para pessoal, custeio ou capital fora da exceção. O prejuízo prova dependência?",
+        "answer": "Não. O prejuízo não é o teste do art. 2º, III; deve-se verificar os recursos recebidos do controlador e sua finalidade."
+      }
+    },
+    {
+      "id": "camara-orc02a-aporte-acionario-excecao",
+      "term": "Aumento da participação acionária e dependência",
+      "definition": "Na definição de estatal dependente da LRF, recursos de capital destinados ao aumento da participação acionária do controlador são ressalvados do critério de transferência para despesas de capital. A exceção se aplica ao aporte com essa finalidade comprovada.",
+      "example": "A União transfere recursos para subscrever ações e ampliar sua participação societária; o aporte isolado não é equivalente a transferência para pagar a folha.",
+      "confusion": "Nem todo recurso chamado “aporte” recebe a exceção: é preciso identificar finalidade e enquadramento societário. Transferência para custeio permanece relevante à dependência.",
+      "topic": "Empresas estatais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Empresa controlada × estatal dependente × estatal não dependente"
+      },
+      "source": {
+        "title": "Lei Complementar nº 101/2000 (LRF)",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Lei Complementar nº 101/2000, art. 2º, III"
+      },
+      "conceptIds": [
+        "aporte-acionario-excecao-dependencia"
+      ],
+      "contrast": {
+        "prompt": "O controlador chama um repasse de “aporte”, mas o usa para pagar pessoal. A nomenclatura basta para aplicar a exceção acionária?",
+        "answer": "Não. O critério é a finalidade legal efetiva: pagar pessoal pode caracterizar dependência; só o aumento real de participação acionária se enquadra na ressalva."
+      }
+    },
+    {
+      "id": "camara-orc02a-natureza-vs-esfera",
+      "term": "Natureza da despesa e esfera orçamentária",
+      "definition": "Natureza da despesa classifica o tipo econômico do gasto, como corrente ou de capital; esfera orçamentária indica em qual componente institucional da LOA a programação aparece. São dimensões independentes de classificação.",
+      "example": "Construir uma escola por um ministério pode ser investimento quanto à natureza e integrar a esfera fiscal; construir ala hospitalar pode ser investimento na esfera da seguridade.",
+      "confusion": "A palavra “investimento” pode nomear uma natureza de despesa ou a esfera específica das estatais. O contexto define qual critério está sendo usado.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Núcleo do conceito: três perguntas que não podem se misturar"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 5º; Manual Técnico de Orçamento, classificação por esfera"
+      },
+      "conceptIds": [
+        "natureza-vs-esfera"
+      ],
+      "contrast": {
+        "prompt": "Uma obra de ministério é investimento quanto à natureza. Isso basta para classificá-la na esfera de investimento das estatais?",
+        "answer": "Não. A natureza descreve tipo econômico da despesa; a esfera de investimento se refere a programação de empresas controladas abrangidas pelo dispositivo."
+      }
+    },
+    {
+      "id": "camara-orc02a-empresa-operacao-vs-investimento",
+      "term": "Orçamento de investimento e dispêndio operacional",
+      "definition": "O orçamento de investimento das estatais registra investimentos abrangidos pelo critério constitucional; não substitui o controle de todos os gastos, pagamentos e custos operacionais da empresa, que são acompanhados também por outros instrumentos.",
+      "example": "A compra de máquinas pode compor o orçamento de investimento; salários e despesas rotineiras da empresa são dispêndios de outra natureza.",
+      "confusion": "Orçamento de investimento não é sinônimo do conjunto de todos os gastos da empresa nem do Programa de Dispêndios Globais.",
+      "topic": "Empresas estatais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Três orçamentos em uma lei"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 5º, II; Manual Técnico do Orçamento de Investimento 2026, seção de escopo"
+      },
+      "conceptIds": [
+        "orcamento-investimento-vs-operacional"
+      ],
+      "contrast": {
+        "prompt": "A folha de salários de uma estatal não dependente deve ser registrada como investimento apenas porque a empresa está no orçamento de investimento?",
+        "answer": "Não. A esfera orçamentária não muda a natureza do gasto; o orçamento de investimento contempla os investimentos previstos, não toda a operação da empresa."
+      }
+    },
+    {
+      "id": "camara-orc02a-classificacao-estatal-esfera",
+      "term": "Dependência jurídica e regime orçamentário da estatal",
+      "definition": "A classificação jurídica da estatal como dependente e o regime orçamentário de sua programação são perguntas relacionadas, mas separáveis: normas podem prever situações específicas de regime de investimento sem que o contrato ou tratamento, por si, altere automaticamente a condição jurídica.",
+      "example": "Uma empresa permanece juridicamente dependente durante transição prevista em norma, embora uma regra específica direcione sua programação a regime orçamentário de não dependente.",
+      "confusion": "Não se pode inferir livre escolha de esfera nem reclassificação jurídica automática a partir de um contrato de gestão; devem ser examinados os requisitos legais vigentes.",
+      "topic": "Empresas estatais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Empresa controlada × estatal dependente × estatal não dependente"
+      },
+      "source": {
+        "title": "Lei Complementar nº 101/2000 (LRF)",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Lei Complementar nº 101/2000, art. 2º, III; Decreto nº 12.500/2025, art. 7º; LDO federal de 2026, art. 52, §§ 6º a 9º"
+      },
+      "conceptIds": [
+        "dependencia-vs-regime-orcamentario-estatal"
+      ],
+      "contrast": {
+        "prompt": "Uma estatal assina contrato de gestão e passa a seguir regime orçamentário previsto para não dependentes. Ela se tornou automaticamente não dependente?",
+        "answer": "Não. A norma prevê tratamento orçamentário em hipóteses específicas sem converter automaticamente o enquadramento jurídico; devem-se verificar os requisitos e o procedimento de reclassificação."
+      }
+    },
+    {
+      "id": "camara-orc02a-esfera-codigos",
+      "term": "Códigos F, S e I das esferas orçamentárias",
+      "definition": "Na classificação federal do Manual Técnico de Orçamento, F identifica orçamento fiscal, S o orçamento da seguridade social e I o orçamento de investimento das estatais; os códigos do SIOP registram essas esferas. Eles mostram onde a programação está na LOA, não a natureza da despesa.",
+      "example": "Uma escola ministerial pode ser F mesmo com despesa classificada como investimento; uma ação de saúde pode ser S.",
+      "confusion": "Código de esfera não substitui classificação funcional ou econômica, nem define se a despesa é corrente ou de capital.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-74d90e9fa1b3452c",
+        "section": "Entendendo as três esferas orçamentárias na prática"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Manual Técnico de Orçamento, classificação por esfera, seção 4.2; Constituição Federal, art. 165, § 5º"
+      },
+      "conceptIds": [
+        "codigos-esfera-fsi"
+      ],
+      "contrast": {
+        "prompt": "Um registro contém esfera F e natureza investimento. Há contradição entre os campos?",
+        "answer": "Não. F identifica orçamento fiscal; investimento descreve a natureza econômica do gasto. As dimensões podem coexistir."
+      }
+    },
+    {
+      "id": "camara-orc03-unidade-universalidade",
+      "term": "Unidade e universalidade orçamentárias",
+      "definition": "Unidade exige que as programações orçamentárias do ente componham um sistema integrado; universalidade exige incluir as receitas e despesas orçamentárias abrangidas pela lei. Uma regra trata da integração, a outra da abrangência.",
+      "example": "A LOA reúne três esferas e registra receita e despesa sem omitir fluxos orçamentários pertinentes.",
+      "confusion": "Classificar por esfera não viola unidade; universalidade também não exige incluir todo ingresso extraorçamentário, como caução sujeita a devolução.",
+      "topic": "Princípios",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Unidade, universalidade e anualidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 5º; Lei nº 4.320/1964, arts. 2º a 4º"
+      },
+      "conceptIds": [
+        "unidade-vs-universalidade"
+      ],
+      "contrast": {
+        "prompt": "Uma receita orçamentária está incluída na LOA, mas classificada em esfera distinta. Qual princípio isso, por si, viola?",
+        "answer": "Nenhum dos dois: a classificação por esfera é compatível com unidade e universalidade quando as partes integram a mesma lei e o fluxo abrangido está incluído."
+      }
+    },
+    {
+      "id": "camara-orc03-anualidade-e-creditos-reabertura",
+      "term": "Anualidade e reabertura de créditos especiais",
+      "definition": "A autorização orçamentária se refere em regra ao exercício financeiro, coincidente com o ano civil. Como exceção, saldo de crédito especial ou extraordinário autorizado nos últimos quatro meses pode ser reaberto no exercício seguinte, dentro do limite e conforme a Constituição.",
+      "example": "Um crédito especial autorizado em novembro pode ter saldo reaberto no ano seguinte, mas isso não prolonga automaticamente todas as dotações da LOA.",
+      "confusion": "A exceção não torna plurianual toda a lei e não se estende automaticamente a créditos suplementares.",
+      "topic": "Princípios",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Anualidade e vigência de créditos"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275",
+        "locator": "Lei nº 4.320/1964, art. 34; Constituição Federal, art. 167, § 2º"
+      },
+      "conceptIds": [
+        "anualidade-reabertura-creditos"
+      ],
+      "contrast": {
+        "prompt": "Um crédito especial foi autorizado em novembro. Todo saldo da LOA pode, por essa razão, ser usado no exercício seguinte?",
+        "answer": "Não. A reabertura alcança o saldo de crédito especial ou extraordinário autorizado nos últimos quatro meses e dentro de seu limite, não todas as dotações."
+      }
+    },
+    {
+      "id": "camara-orc03-orcamento-bruto",
+      "term": "Princípio do orçamento bruto",
+      "definition": "Receitas e despesas orçamentárias devem ser apresentadas pelos valores totais, sem deduções ou compensações indevidas. O princípio revela a dimensão integral dos fluxos que compõem o orçamento.",
+      "example": "Se o ente arrecada R$ 10 milhões e transfere R$ 3 milhões, o orçamento registra receita e transferência pelos valores pertinentes, em vez de mostrar apenas o saldo de R$ 7 milhões.",
+      "confusion": "Orçamento bruto não é equilíbrio fiscal e não determina se uma receita pode ser livremente usada; registro integral é diferente de vinculação jurídica.",
+      "topic": "Princípios",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Orçamento bruto: registrar pelos totais"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275",
+        "locator": "Lei nº 4.320/1964, art. 6º"
+      },
+      "conceptIds": [
+        "principio-orcamento-bruto"
+      ],
+      "contrast": {
+        "prompt": "A receita total de R$ 10 milhões é registrada como R$ 7 milhões após deduzir transferência obrigatória de R$ 3 milhões. Qual regra deve ser examinada?",
+        "answer": "Orçamento bruto: art. 6º da Lei nº 4.320/1964 exige registrar pelos totais, sem deduções indevidas. A transferência deve aparecer separadamente."
+      }
+    },
+    {
+      "id": "camara-orc03-especificacao-excecao-programas-especiais",
+      "term": "Especificação e dotações globais excepcionais",
+      "definition": "O princípio da especificação exige discriminar dotações para que sua finalidade seja identificável. A Lei nº 4.320/1964 admite, em condição específica, dotação global para programa especial de trabalho cuja natureza não permita seguir as normas gerais, sem dispensar informações próprias na proposta.",
+      "example": "Um programa especial que não pode seguir procedimentos gerais pode receber dotação global de capital se cumprir o art. 20, parágrafo único, com metas e custos apresentados conforme o art. 22, IV.",
+      "confusion": "A exceção não autoriza dotação genérica para qualquer despesa; o art. 5º mantém a regra de discriminação e a LRF veda crédito ilimitado.",
+      "topic": "Princípios",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Especificação: não criar dotação indiferenciada"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275",
+        "locator": "Lei nº 4.320/1964, arts. 5º, 20, parágrafo único, e 22, IV; LRF, art. 5º, § 4º"
+      },
+      "conceptIds": [
+        "especificacao-dotacao-global-excecao"
+      ],
+      "contrast": {
+        "prompt": "Uma dotação global de capital foi concedida a qualquer programa, sem condição especial nem estimativa de metas e custos. A exceção legal está demonstrada?",
+        "answer": "Não. A Lei nº 4.320/1964 limita a exceção a programa especial que não possa seguir normas gerais e exige informar metas e custos na proposta."
+      }
+    },
+    {
+      "id": "camara-orc03-exclusividade-excecoes",
+      "term": "Exclusividade da LOA e exceções constitucionais",
+      "definition": "O princípio da exclusividade limita a LOA à previsão de receita e fixação da despesa, mas a Constituição permite nela autorização para créditos suplementares e operações de crédito, inclusive ARO, observadas as normas aplicáveis.",
+      "example": "A LOA pode autorizar abertura de crédito suplementar e contratação de operação de crédito; um artigo que reorganiza secretarias não se enquadra nessas exceções.",
+      "confusion": "A autorização não é a abertura efetiva do crédito nem a contratação do empréstimo; a exceção não inclui qualquer matéria estranha nem autorização genérica de crédito especial.",
+      "topic": "Princípios e vedações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Exclusividade e suas duas exceções constitucionais"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 8º"
+      },
+      "conceptIds": [
+        "exclusividade-loa-excecoes"
+      ],
+      "contrast": {
+        "prompt": "A LOA autoriza contratar empréstimo, mas o contrato ainda não foi firmado. A operação de crédito já ocorreu?",
+        "answer": "Não. O art. 165, § 8º, permite incluir a autorização; contratar o empréstimo é ato posterior e depende das condições legais."
+      }
+    },
+    {
+      "id": "camara-orc03-nao-afetacao-impostos",
+      "term": "Não afetação de receitas de impostos",
+      "definition": "Como regra, a Constituição proíbe vincular receita de impostos a órgão, fundo ou despesa, ressalvadas as hipóteses constitucionais expressas. O princípio se dirige a impostos, não indistintamente a todas as receitas ou ingressos públicos.",
+      "example": "A destinação constitucional mínima para educação é admitida como exceção; vincular livremente todo imposto local a finalidade sem hipótese constitucional exige exame da vedação.",
+      "confusion": "Não confundir impostos com todo tributo ou ingresso. A exceção deve corresponder a finalidade e receita previstas no próprio texto constitucional.",
+      "topic": "Princípios e vedações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Não afetação de impostos e as exceções"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 167, IV e § 4º"
+      },
+      "conceptIds": [
+        "nao-afetacao-impostos-regra"
+      ],
+      "contrast": {
+        "prompt": "A vedação constitucional alcança qualquer ingresso público e não contém exceção? O que define a análise?",
+        "answer": "Não. O art. 167, IV, trata de receitas de impostos e prevê exceções; deve-se identificar a natureza do recurso e se a destinação está constitucionalmente ressalvada."
+      }
+    },
+    {
+      "id": "camara-orc03-vedacao-inicio-programa-sem-loa",
+      "term": "Programa no PPA e autorização na LOA",
+      "definition": "A Constituição veda iniciar programa ou projeto não incluído na LOA. Estar previsto no PPA orienta o planejamento de médio prazo, mas não substitui a autorização orçamentária anual para sua execução.",
+      "example": "Um programa de construção consta do PPA, mas não tem dotação na LOA do ano; o gestor não pode iniciar a despesa apenas com base no planejamento plurianual.",
+      "confusion": "PPA e LOA cumprem funções diferentes; continuidade no planejamento não elimina a vedação do art. 167, I.",
+      "topic": "Vedações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Outras vedações do art. 167"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 167, I"
+      },
+      "conceptIds": [
+        "programa-sem-loa"
+      ],
+      "contrast": {
+        "prompt": "Um projeto consta do PPA, mas não foi incluído na LOA. Essa previsão autoriza seu início no exercício?",
+        "answer": "Não. O art. 167, I, veda iniciar programa ou projeto não incluído na LOA; o PPA não substitui a autorização anual."
+      }
+    },
+    {
+      "id": "camara-orc03-despesa-acima-credito",
+      "term": "Limite da despesa em relação ao crédito autorizado",
+      "definition": "A Constituição proíbe realizar despesas ou assumir obrigações diretas acima dos créditos orçamentários ou adicionais. O crédito limita a autorização legal; caixa disponível ou prioridade política não ampliam o limite sem instrumento apropriado.",
+      "example": "Um contrato elevaria a despesa acima do saldo autorizado; a unidade precisa de crédito adicional válido antes de assumir obrigação que exceda o crédito.",
+      "confusion": "Dotação e disponibilidade financeira são dimensões diferentes, mas ambas não autorizam ultrapassar o crédito orçamentário.",
+      "topic": "Vedações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Outras vedações do art. 167"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 167, II"
+      },
+      "conceptIds": [
+        "despesa-acima-credito"
+      ],
+      "contrast": {
+        "prompt": "Há dinheiro em caixa para uma contratação, mas a despesa excede o crédito autorizado. A disponibilidade financeira resolve a vedação?",
+        "answer": "Não. O art. 167, II, limita despesa e obrigação ao crédito orçamentário ou adicional. Caixa não substitui autorização orçamentária."
+      }
+    },
+    {
+      "id": "camara-orc03-regra-de-ouro-requisitos",
+      "term": "Regra de ouro e autorização qualificada",
+      "definition": "A regra de ouro proíbe operações de crédito acima das despesas de capital consideradas no cálculo constitucional. A ressalva exige operação autorizada por crédito suplementar ou especial com finalidade precisa, aprovado pelo Legislativo por maioria absoluta, nos termos do art. 167, III.",
+      "example": "Uma operação ultrapassaria despesas de capital; só pode recorrer à ressalva se a finalidade for precisa e houver crédito suplementar ou especial aprovado por maioria absoluta.",
+      "confusion": "Maioria simples não basta e autorização genérica da LOA pelo art. 165, § 8º, não substitui os requisitos próprios da regra de ouro.",
+      "topic": "Vedações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Regra de ouro: limite e ressalva"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 167, III"
+      },
+      "conceptIds": [
+        "regra-de-ouro-excecao"
+      ],
+      "contrast": {
+        "prompt": "O crédito foi aprovado por maioria simples e sua finalidade está precisa, mas não alcançou maioria absoluta. A ressalva da regra de ouro foi atendida?",
+        "answer": "Não. A finalidade precisa e a aprovação por maioria absoluta são requisitos cumulativos da ressalva do art. 167, III."
+      }
+    },
+    {
+      "id": "camara-orc03-remanejamento-autorizacao-previa",
+      "term": "Remanejamento e autorização legislativa prévia",
+      "definition": "Como regra, transposição, remanejamento ou transferência de recursos entre categorias de programação ou órgãos dependem de autorização legislativa prévia. A Constituição contém exceção delimitada para ciência, tecnologia e inovação sob requisitos próprios.",
+      "example": "Antes de mover crédito de uma programação para outra, o órgão obtém autorização prevista em lei; deslocamento em projeto de pesquisa só se enquadra na exceção se atender ao art. 167, § 5º.",
+      "confusion": "A existência de dotação e caixa não autoriza transferir recursos livremente. A exceção de ciência, tecnologia e inovação não se estende a áreas diversas.",
+      "topic": "Vedações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Remanejamento, transposição e transferência"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 167, VI e § 5º"
+      },
+      "conceptIds": [
+        "movimentacao-recursos-autorizacao"
+      ],
+      "contrast": {
+        "prompt": "Um órgão quer transferir recursos de uma categoria para outra em programa comum, sem autorização legislativa prévia. A dotação original basta?",
+        "answer": "Não. O art. 167, VI, exige autorização legislativa prévia como regra; a exceção do § 5º é restrita a ciência, tecnologia e inovação e seus requisitos."
+      }
+    },
+    {
+      "id": "camara-orc03-transposicao-ciencia-tecnologia",
+      "term": "Exceção de movimentação em ciência, tecnologia e inovação",
+      "definition": "A Constituição admite, para viabilizar resultados de projetos restritos a ciência, tecnologia e inovação, transposição, remanejamento ou transferência entre categorias de programação por ato do Executivo, sem autorização legislativa prévia. A exceção tem objeto e finalidade delimitados.",
+      "example": "Recursos de uma categoria são ajustados entre projetos de pesquisa para viabilizar resultado científico; é preciso que o projeto permaneça no campo constitucional da exceção.",
+      "confusion": "A exceção não libera deslocamentos para qualquer política nem elimina limites legais, transparência e controle.",
+      "topic": "Vedações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Remanejamento, transposição e transferência"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 167, § 5º"
+      },
+      "conceptIds": [
+        "excecao-cti-movimentacao"
+      ],
+      "contrast": {
+        "prompt": "O Executivo invoca o art. 167, § 5º, para deslocar verba de pesquisa para custear rotina administrativa sem relação com projeto de CTI. A exceção se aplica?",
+        "answer": "Não. O dispositivo exige finalidade de viabilizar resultados de projetos restritos às funções de ciência, tecnologia e inovação."
+      }
     }
   ]
 }

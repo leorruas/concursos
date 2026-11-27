@@ -20,3 +20,4 @@ jobs:
         with:
           node-version: 20
       - run: node scripts/preflight-vault.js
+      - run: node scripts/test-public-question-shards.mjs

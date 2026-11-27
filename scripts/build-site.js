@@ -7,6 +7,7 @@ import { validarCatalogoMaterias } from './contest-catalog.js';
 import { buildGlossary } from './glossary-data.js';
 import { buildGlossaryFlashcards, mergeGlossaryFlashcards } from './glossary-flashcards.js';
 import { buildCamaraFlashcardChapterTracks } from './flashcard-chapters.js';
+import { writePublicQuestionShards } from './public-question-shards.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -733,10 +734,13 @@ for (const chapter of aprendizagemOrcamento.chapters) {
 if(new Set(questoesPublicas.map(q=>q.id)).size !== questoesPublicas.length)throw Error('IDs duplicados no catálogo público de questões.');
 const editalUnits = Object.entries(arquivoQuestoes.subjects).flatMap(([subjectId, subject]) =>
   subject.units.map(([unitId, title, examPart, editalRef]) => ({subjectId, unitId, title, examPart, editalRef})));
-fs.writeFileSync(path.join(dataDest,'questoes-publicas.json'),JSON.stringify({
+const bancoQuestoesPublicas={
   version:1,contests:concursosQuestoes,questions:questoesPublicas,editalUnits,
   learningChapters: aprendizagemOrcamento.chapters.map(({sequence,articleId,title}) => ({sequence,articleId,title}))
-}));
+};
+fs.writeFileSync(path.join(dataDest,'questoes-publicas.json'),JSON.stringify(bancoQuestoesPublicas));
+const shardsPublicos=writePublicQuestionShards(bancoQuestoesPublicas,dataDest);
+console.log(`✓ Índice compacto e ${shardsPublicos.shards} fragmentos públicos (${shardsPublicos.indexBytes} bytes; ${shardsPublicos.catalogVersion}).`);
 console.log('✓ Banco de treino: '+questoesPublicas.length+' questões públicas da Câmara e da CGU.');
 
 const discursivas = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/propostas-discursivas-camara.json'), 'utf8'));

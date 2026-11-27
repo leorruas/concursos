@@ -208,6 +208,8 @@ function availability(){
  toggle('qs-assessment-options',assessmentMode);
  toggle('qs-scope-field',!assessmentMode);toggle('qs-custom-wrap',!assessmentMode&&custom);
  toggle('qs-specific-range',!assessmentMode&&focused);
+ toggle('qs-content-filter-wrap',!assessmentMode&&scopedSelection);
+ $('qs-content-filter-title').textContent=custom?'Questões das matérias selecionadas':'Questões desta matéria';
  toggle('qs-count-field',!assessmentMode);toggle('qs-difficulty-field',!assessmentMode);
  $('qs-count').disabled=assessmentMode;$('qs-difficulty-filter').disabled=assessmentMode;
  const assessmentRadio=document.querySelector('input[name="qs-mode"][value="avaliacao"]');
@@ -227,7 +229,6 @@ function availability(){
  }
  toggle('qs-custom-wrap',custom);
  toggle('qs-materia-wrap',focused);
- toggle('qs-content-filter-wrap',scopedSelection); $('qs-content-filter-title').textContent=custom?'Questões das matérias selecionadas':'Questões desta matéria';
  toggle('qs-unidade-wrap',focused&&$('qs-unidade').options.length>0);
  const n=eligible().length;
  const total=available().length;
@@ -241,7 +242,7 @@ function availability(){
  else if(scopedSelection&&contentFilter==='retests'){
   $('qs-content-filter-description').textContent='Filtra itens ainda não expostos de conceitos liberados pela fila de revisão sincronizada.';
   if(!n){
-   if(loggedIn&&!reviewQueueLoaded.has(contest()?.id))$('qs-availability').textContent='Consultando a fila privada para localizar retestes vencidos desta matéria.';
+   if(loggedIn&&!reviewQueueLoaded.has(contest()?.id))$('qs-availability').textContent='Consultando a fila privada para localizar retestes vencidos neste recorte.';
    else if(!loggedIn&&!retestQuestionIds(contest()?.id).size)$('qs-availability').textContent='Entre na versão autenticada para consultar a fila privada de retestes vencidos.';
    else $('qs-availability').textContent=focused?'Não há retestes neste recorte. Amplie os capítulos ou consulte outra matéria.':'Não há retestes nas matérias selecionadas. Ajuste as matérias ou amplie a seleção.';
   }

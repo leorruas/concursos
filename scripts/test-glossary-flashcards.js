@@ -19,6 +19,10 @@ assert.deepEqual(cardsOnly,expectedCombined,'A coleção e o glossário precisam
 assert.equal(chapterTracks?.length,11,'A resposta pública deve incluir trilhas de capítulo para todas as matérias da Câmara.');
 assert.equal(chapterTracks.find(t=>t.subjectId==='orcamento-publico')?.chapters.length,19,'A trilha de Orçamento deve acompanhar os 19 capítulos do percurso.');
 assert.equal(Object.keys(contestSubjectLabels?.['camara-2026']||{}).length,11,'A resposta deve incluir os rótulos da Câmara por concurso.');
+const flashcardUI=fs.readFileSync(path.join(root,'web/10-flashcards-ui.js'),'utf8');
+assert(flashcardUI.includes('const contestLabels=catalog.contestSubjectLabels?.[exam]||null;') &&
+  flashcardUI.includes('(!contestLabels||Object.hasOwn(contestLabels,s.id))'),
+  'O seletor deve ocultar matérias que não pertencem ao concurso selecionado.');
 assert.equal(combined.cards.length,base.cards.length+expected.generatedCount);
 
 const novosTermos=['pfc','cffc','pafc','comissao-geral','comissao-mista','questao-de-ordem','ato-da-mesa','inversao-de-pauta','requerimento'];

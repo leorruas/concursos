@@ -40,7 +40,8 @@
     function options(select,items) {select.replaceChildren(...items.map(([value,label])=>{const o=document.createElement('option');o.value=value;o.textContent=label;return o;}));}
     function subjects() {
         const exam=$('exam').value;
-        options($('subject'),[['','Todas as matérias'],...catalog.subjects.filter(s=>cards.some(c=>c.examIds.includes(exam)&&c.subjectIds.includes(s.id))).map(s=>[s.id,subjectLabel(exam,s.id)])]);
+        const contestLabels=catalog.contestSubjectLabels?.[exam]||null;
+        options($('subject'),[['','Todas as matérias'],...catalog.subjects.filter(s=>(!contestLabels||Object.hasOwn(contestLabels,s.id))&&cards.some(c=>c.examIds.includes(exam)&&c.subjectIds.includes(s.id))).map(s=>[s.id,subjectLabel(exam,s.id)])]);
         const sessionMatches=state.session?.exam===exam&&catalog.subjects.some(x=>x.id===state.session.subject);
         if(sessionMatches)$('subject').value=state.session.subject;
         updateChapterFilter(!!sessionMatches);dashboard();

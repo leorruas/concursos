@@ -106,6 +106,10 @@
     {
       "id": "ingles",
       "title": "Língua Inglesa"
+    },
+    {
+      "id": "redacao",
+      "title": "Redação Discursiva e Peça Técnica"
     }
   ],
   "cards": [
@@ -2618,14 +2622,12 @@
         "auditoria-governamental"
       ],
       "examIds": [
-        "cgu-2026",
-        "camara-2026"
+        "cgu-2026"
       ],
       "editalRefs": [
         "P1.3",
         "P3.5",
-        "P3.1.1",
-        "P2.14.2.4 / Divulgação Institucional"
+        "P3.1.1"
       ],
       "note": {
         "articleId": "art-2d79b55e1c2b4a9f",
@@ -2637,8 +2639,8 @@
         "locator": "Lei nº 12.813/2013, arts. 3º e 4º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 4,
+      "reviewedAt": "2026-11-09",
+      "revision": 3,
       "conceptIds": [
         "conflito-interesse-sem-ato-ilicito"
       ],
@@ -2659,13 +2661,11 @@
         "integridade-responsabilizacao"
       ],
       "examIds": [
-        "cgu-2026",
-        "camara-2026"
+        "cgu-2026"
       ],
       "editalRefs": [
         "P1.3",
-        "P3.5",
-        "P2.14.2.4 / Divulgação Institucional"
+        "P3.5"
       ],
       "note": {
         "articleId": "art-2d79b55e1c2b4a9f",
@@ -2677,8 +2677,8 @@
         "locator": "Lei nº 12.813/2013, arts. 3º e 4º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [],
       "contrast": {
         "prompt": "Documento interno sem repercussão econômica ou financeira é automaticamente informação privilegiada conforme a Lei 12.813?",
@@ -4659,12 +4659,10 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026",
-        "camara-2026"
+        "dataprev-2026"
       ],
       "editalRefs": [
-        "DP-GER",
-        "P1.14.2.3 / Língua Portuguesa"
+        "DP-GER"
       ],
       "note": {
         "articleId": "art-98cd849c42bb4294",
@@ -4676,8 +4674,8 @@
         "locator": "Seção: Na 3ª pessoa do plural, o contexto costuma decidir"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "sujeito-plural-oculto-indeterminado"
       ],
@@ -4700,12 +4698,10 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026",
-        "camara-2026"
+        "dataprev-2026"
       ],
       "editalRefs": [
-        "DP-GER",
-        "P1.14.2.3 / Língua Portuguesa"
+        "DP-GER"
       ],
       "note": {
         "articleId": "art-f7dcd59a14c24446",
@@ -4717,8 +4713,8 @@
         "locator": "Seção: Locuções femininas"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "crase-locucao-feminina-a-prazo"
       ],
@@ -4741,12 +4737,10 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026",
-        "camara-2026"
+        "dataprev-2026"
       ],
       "editalRefs": [
-        "DP-GER",
-        "P1.14.2.3 / Língua Portuguesa"
+        "DP-GER"
       ],
       "note": {
         "articleId": "art-ffda49b0fbcc4fbe",
@@ -4758,8 +4752,8 @@
         "locator": "Seção: 5. Voz ativa × voz passiva"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "voz-passiva-tempo"
       ],
@@ -4821,12 +4815,10 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026",
-        "camara-2026"
+        "dataprev-2026"
       ],
       "editalRefs": [
-        "DP-GER",
-        "P1.14.2.3 / Língua Portuguesa"
+        "DP-GER"
       ],
       "note": {
         "articleId": "art-7cea3aa409804c07",
@@ -4838,8 +4830,8 @@
         "locator": "Seção: Refinamento — teste rápido de hífen"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "hifen-prefixos-regras"
       ],
@@ -4862,12 +4854,10 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026",
-        "camara-2026"
+        "dataprev-2026"
       ],
       "editalRefs": [
-        "DP-GER",
-        "P1.14.2.3 / Língua Portuguesa"
+        "DP-GER"
       ],
       "note": {
         "articleId": "art-1accdd2da469401d",
@@ -4879,8 +4869,8 @@
         "locator": "Seção: `que`: conjunção integrante × pronome relativo"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "que-integrante-relativo"
       ],
@@ -4903,12 +4893,10 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026",
-        "camara-2026"
+        "dataprev-2026"
       ],
       "editalRefs": [
-        "DP-GER",
-        "P1.14.2.3 / Língua Portuguesa"
+        "DP-GER"
       ],
       "note": {
         "articleId": "art-e8ba958c8c194bab",
@@ -4920,8 +4908,8 @@
         "locator": "Seção: Tipo × gênero"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "manual-genero-injuncao-tipo"
       ],
@@ -5016,12 +5004,10 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026",
-        "camara-2026"
+        "dataprev-2026"
       ],
       "editalRefs": [
-        "DP-GER",
-        "P1.14.2.3 / Língua Portuguesa"
+        "DP-GER"
       ],
       "note": {
         "articleId": "art-24350eefe84c43b5",
@@ -5033,8 +5019,8 @@
         "locator": "Seção: Coordenação adversativa × subordinação concessiva"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "adversativa-coordenacao-vs-concessiva-subordinacao"
       ],
@@ -5057,12 +5043,10 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026",
-        "camara-2026"
+        "dataprev-2026"
       ],
       "editalRefs": [
-        "DP-GER",
-        "P1.14.2.3 / Língua Portuguesa"
+        "DP-GER"
       ],
       "note": {
         "articleId": "art-b46ab5677a26469e",
@@ -5074,8 +5058,8 @@
         "locator": "Seção: Refinamento — ambiguidade de referência pronominal"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "referente-pronome-ambiguidade"
       ],
@@ -5137,12 +5121,10 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026",
-        "camara-2026"
+        "dataprev-2026"
       ],
       "editalRefs": [
-        "DP-GER",
-        "P1.14.2.3 / Língua Portuguesa"
+        "DP-GER"
       ],
       "note": {
         "articleId": "art-ffda49b0fbcc4fbe",
@@ -5154,8 +5136,8 @@
         "locator": "Seção: 6. Discurso direto × indireto"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "discurso-direto-indireto-ajuste-temporal"
       ],
@@ -5256,12 +5238,10 @@
         "estado-democracia"
       ],
       "examIds": [
-        "cgu-2026",
-        "camara-2026"
+        "cgu-2026"
       ],
       "editalRefs": [
-        "P1.1",
-        "P2.14.2.4 / Ciência Política"
+        "P1.1"
       ],
       "note": {
         "articleId": "art-a6edc965cb9e4eb6",
@@ -5273,8 +5253,8 @@
         "locator": "Arts. 1º, parágrafo único; 2º; 70 e 74"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 2,
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
       "conceptIds": [
         "soberania-representativa-direta"
       ],
@@ -5294,12 +5274,10 @@
         "estado-democracia"
       ],
       "examIds": [
-        "cgu-2026",
-        "camara-2026"
+        "cgu-2026"
       ],
       "editalRefs": [
-        "P1.1",
-        "P2.14.2.4 / Ciência Política"
+        "P1.1"
       ],
       "note": {
         "articleId": "art-a6edc965cb9e4eb6",
@@ -5311,8 +5289,8 @@
         "locator": "Arts. 1º, parágrafo único; 2º; 70 e 74"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-27",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "separacao-poderes-freios-contrapesos"
       ],
@@ -17411,6 +17389,1880 @@
       "status": "validated",
       "reviewedAt": "2026-11-27",
       "revision": 1
+    },
+    {
+      "id": "camara-dp-sujeito-contexto",
+      "term": "Sujeito indeterminado × oculto na 3ª pessoa do plural",
+      "definition": "Na 3ª pessoa do plural, o sujeito é oculto determinado se o texto permite recuperar o referente; sem referente recuperável, é indeterminado.",
+      "example": "'Ana e Bia chegaram. Saíram': oculto. 'Disseram que a prova mudou', sem contexto: indeterminado.",
+      "confusion": "A flexão verbal isolada não basta quando existe contexto textual mais amplo.",
+      "topic": "Análise sintática",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-98cd849c42bb4294",
+        "section": "Na 3ª pessoa do plural, o contexto costuma decidir"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/02%20-%20sujeito.md",
+        "locator": "Seção: Na 3ª pessoa do plural, o contexto costuma decidir"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "sujeito-plural-oculto-indeterminado"
+      ],
+      "contrast": {
+        "prompt": "'Ana e Bia chegaram. Saíram cedo.' e 'Disseram que houve adiamento.' têm necessariamente o mesmo tipo de sujeito?",
+        "answer": "Não. No primeiro, o referente é recuperável (oculto determinado); no segundo, sem contexto identificador, sujeito indeterminado."
+      }
+    },
+    {
+      "id": "camara-dp-crase-locucoes",
+      "term": "Crase: locuções femininas × a prazo",
+      "definition": "Locuções consagradas de núcleo feminino costumam levar acento grave, como 'à tarde' ou 'às pressas'; 'a prazo' não leva crase por ter núcleo masculino.",
+      "example": "'Pagar a prazo' e 'voltar à noite' pedem grafias diferentes.",
+      "confusion": "Nem toda expressão com a recebe crase; avaliar preposição, artigo e locução.",
+      "topic": "Crase",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-f7dcd59a14c24446",
+        "section": "Locuções femininas"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/11%20-%20crase.md",
+        "locator": "Seção: Locuções femininas"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "crase-locucao-feminina-a-prazo"
+      ],
+      "contrast": {
+        "prompt": "Qual diferença justifica 'à noite' e 'a prazo'?",
+        "answer": "Locução adverbial feminina consagrada admite crase; 'prazo' é núcleo masculino e não recebe artigo feminino."
+      }
+    },
+    {
+      "id": "camara-dp-voz-passiva-tempo",
+      "term": "Ativa e passiva: preservação do tempo verbal",
+      "definition": "Na passiva analítica, objeto direto da ativa vira sujeito paciente; 'ser' preserva tempo e modo verbal da frase original, seguido de particípio.",
+      "example": "'A equipe revisará os dados' → 'Os dados serão revisados pela equipe'.",
+      "confusion": "Trocar 'revisará' por 'foram revisados' muda o tempo, ainda que preserve agentes.",
+      "topic": "Reescrita",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-ffda49b0fbcc4fbe",
+        "section": "5. Voz ativa × voz passiva"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/10%20-%20reescrita%20semantica%20e%20preservacao%20de%20sentido.md",
+        "locator": "Seção: 5. Voz ativa × voz passiva"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "voz-passiva-tempo"
+      ],
+      "contrast": {
+        "prompt": "'A equipe concluirá a auditoria' vira 'A auditoria foi concluída pela equipe'. O sentido temporal foi preservado?",
+        "answer": "Não. O futuro deveria ser 'será concluída'; a passiva preserva tempo e modo ao transformar o verbo."
+      }
+    },
+    {
+      "id": "camara-dp-hifen-prefixos",
+      "term": "Hífen com prefixos: vogais, H, R e S",
+      "definition": "Em regra: prefixo e base com mesma vogal usam hífen; com vogais diferentes se unem; antes de H, mantém-se hífen; antes de R/S após vogal, em geral duplica-se a consoante.",
+      "example": "Micro-ondas, autoavaliação, anti-herói, antissocial.",
+      "confusion": "Regras possuem exceções específicas; analisar cada palavra e família de prefixo.",
+      "topic": "Ortografia",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-7cea3aa409804c07",
+        "section": "Refinamento — teste rápido de hífen"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/05%20-%20acordo%20ortografico.md",
+        "locator": "Seção: Refinamento — teste rápido de hífen"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "hifen-prefixos-regras"
+      ],
+      "contrast": {
+        "prompt": "Por que 'anti-inflamatório' tem hífen e 'antirracismo' duplica r?",
+        "answer": "A mesma vogal i no encontro anti + inflamatório exige hífen; diante de r após vogal, em regra une-se e duplica-se a consoante."
+      }
+    },
+    {
+      "id": "camara-dp-que-integrante-relativo",
+      "term": "Que: conjunção integrante × pronome relativo",
+      "definition": "Conjunção integrante introduz oração substantiva sem retomar antecedente; pronome relativo retoma substantivo anterior e exerce função na oração adjetiva.",
+      "example": "'Afirmou que voltaria': integrante. 'O livro que li': relativo, retomando livro.",
+      "confusion": "Ligar orações não basta para classificar o 'que'; verifique antecedente e função.",
+      "topic": "Orações subordinadas",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-1accdd2da469401d",
+        "section": "`que`: conjunção integrante × pronome relativo"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/07%20-%20oracoes%20coordenadas%20e%20subordinadas.md",
+        "locator": "Seção: `que`: conjunção integrante × pronome relativo"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "que-integrante-relativo"
+      ],
+      "contrast": {
+        "prompt": "Em 'o relatório que li' e 'afirmou que leu', o 'que' tem a mesma função?",
+        "answer": "Não. No primeiro retoma antecedente e é relativo; no segundo introduz oração substantiva e é conjunção integrante."
+      }
+    },
+    {
+      "id": "camara-dp-manual-injuncao",
+      "term": "Manual: gênero textual × injunção: tipo",
+      "definition": "Manual é gênero textual ligado à finalidade comunicativa; injunção é tipo ou sequência textual que orienta ações e procedimentos.",
+      "example": "Manual apresenta conceitos e passos: mesmo gênero, combinando exposição e injunção.",
+      "confusion": "Gênero e tipo são níveis diferentes; um gênero pode reunir várias sequências.",
+      "topic": "Tipos e gêneros textuais",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-e8ba958c8c194bab",
+        "section": "Tipo × gênero"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/09%20-%20tipos%20e%20generos%20textuais.md",
+        "locator": "Seção: Tipo × gênero"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "manual-genero-injuncao-tipo"
+      ],
+      "contrast": {
+        "prompt": "Um manual contém instruções e uma apresentação histórica. O gênero deixa de ser manual por conter sequência expositiva?",
+        "answer": "Não. Manual é gênero; injunção e exposição são sequências ou tipos que podem coexistir no gênero."
+      }
+    },
+    {
+      "id": "camara-dp-adversativa-concessiva",
+      "term": "Adversativa × concessiva na reescrita",
+      "definition": "'Mas' e 'contudo' conectam orações coordenadas adversativas; 'embora' e 'ainda que' introduzem subordinadas concessivas, podendo exigir mudança de estrutura e verbo.",
+      "example": "'O relatório era longo, mas foi claro' → 'Embora fosse longo, o relatório foi claro'.",
+      "confusion": "Conservar contraste sem reconstruir corretamente a sintaxe não preserva a frase original.",
+      "topic": "Coordenação e subordinação",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-24350eefe84c43b5",
+        "section": "Coordenação adversativa × subordinação concessiva"
+      },
+      "source": {
+        "title": "Nota de estudo e fontes indicadas no vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/03%20-%20pontuacao%20e%20virgula.md",
+        "locator": "Seção: Coordenação adversativa × subordinação concessiva"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "adversativa-coordenacao-vs-concessiva-subordinacao"
+      ],
+      "contrast": {
+        "prompt": "Trocar 'mas' por 'embora' sem alterar estrutura e flexão mantém automaticamente a correção da frase?",
+        "answer": "Não. Coordenação adversativa e subordinação concessiva exigem construções sintáticas próprias, embora exprimam contraste."
+      }
+    },
+    {
+      "id": "camara-dp-ambiguidade-pronome",
+      "term": "Referência pronominal ambígua",
+      "definition": "Quando pronome possessivo é compatível com dois antecedentes, a proximidade física não basta para identificar o referente: é preciso considerar concordância e contexto.",
+      "example": "'A analista falou à coordenadora sobre seu relatório': sem contexto, 'seu' admite mais de uma leitura.",
+      "confusion": "O antecedente mais próximo não é obrigatório se houver outra interpretação gramatical e semântica plausível.",
+      "topic": "Coesão e referenciação",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-b46ab5677a26469e",
+        "section": "Refinamento — ambiguidade de referência pronominal"
+      },
+      "source": {
+        "title": "Nota de estudo e fontes indicadas no vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/08%20-%20coesao%20textual%20referenciacao%20e%20tempos%20verbais.md",
+        "locator": "Seção: Refinamento — ambiguidade de referência pronominal"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "referente-pronome-ambiguidade"
+      ],
+      "contrast": {
+        "prompt": "'Joana conversou com Carla sobre sua pesquisa'. A pesquisa é necessariamente de Carla por estar mais próxima?",
+        "answer": "Não. 'Sua' pode admitir mais de um referente; contexto ou reescrita explícita é necessário."
+      }
+    },
+    {
+      "id": "camara-dp-discurso-indireto-tempo",
+      "term": "Discurso indireto: ajuste de tempo e ponto de vista",
+      "definition": "Passar de discurso direto ao indireto exige adequar pessoa, tempo verbal e referências temporais ou espaciais ao ponto de vista do narrador.",
+      "example": "A diretora disse: 'Publicarei amanhã' → A diretora disse que publicaria no dia seguinte.",
+      "confusion": "Trocar futuro por pretérito sem examinar o momento da narração pode alterar o sentido; ajustes dependem do contexto.",
+      "topic": "Reescrita",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-ffda49b0fbcc4fbe",
+        "section": "6. Discurso direto × indireto"
+      },
+      "source": {
+        "title": "Nota de estudo e fontes indicadas no vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/10%20-%20reescrita%20semantica%20e%20preservacao%20de%20sentido.md",
+        "locator": "Seção: 6. Discurso direto × indireto"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "discurso-direto-indireto-ajuste-temporal"
+      ],
+      "contrast": {
+        "prompt": "Alguém disse ontem: 'Amanhã viajarei'. No relato feito hoje, pode-se manter 'amanhã' sem verificar a referência temporal?",
+        "answer": "Não necessariamente. Tempo e dêiticos devem ser ajustados segundo o momento e ponto de vista de quem narra."
+      }
+    },
+    {
+      "id": "camara-cgu-soberania-representacao",
+      "term": "Soberania popular: representação e participação direta",
+      "definition": "Na CF, o poder emana do povo e é exercido por representantes eleitos ou diretamente, nos termos constitucionais.",
+      "example": "Eleição de parlamentares e uso de instrumentos de participação direta são formas distintas de exercício da soberania popular.",
+      "confusion": "Democracia representativa e participação direta são compatíveis; a existência de eleição não elimina participação direta.",
+      "topic": "Democracia e representação",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-a6edc965cb9e4eb6",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Arts. 1º, parágrafo único; 2º; 70 e 74"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "soberania-representativa-direta"
+      ],
+      "contrast": {
+        "prompt": "Se o poder é exercido por representantes, a participação direta fica excluída?",
+        "answer": "Não. O art. 1º, parágrafo único, admite representação e exercício direto do poder."
+      }
+    },
+    {
+      "id": "camara-cgu-poderes-freios",
+      "term": "Separação de Poderes e controles recíprocos",
+      "definition": "Os Poderes da União são independentes e harmônicos, cada qual com competências próprias e mecanismos constitucionais de controles recíprocos.",
+      "example": "A fiscalização legislativa de certas atividades do Executivo não implica, por si só, subordinação hierárquica de um Poder ao outro.",
+      "confusion": "Freios e contrapesos não equivalem a violação da separação dos Poderes; harmonia não significa ausência de controle.",
+      "topic": "Separação dos Poderes",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-a6edc965cb9e4eb6",
+        "section": "Art. 2º — separação dos Poderes"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Arts. 1º, parágrafo único; 2º; 70 e 74"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "separacao-poderes-freios-contrapesos"
+      ],
+      "contrast": {
+        "prompt": "Fiscalização de um Poder por outro implica subordinação hierárquica constitucional?",
+        "answer": "Não. Independência e harmonia coexistem com controles recíprocos nos limites das competências."
+      }
+    },
+    {
+      "id": "camara-conflito-interesses",
+      "term": "Conflito de interesses",
+      "definition": "Confronto entre interesses públicos e privados capaz de comprometer o interesse coletivo ou influenciar indevidamente a função pública.",
+      "example": "Servidor presta serviço a empresa interessada em decisão que ele prepara.",
+      "confusion": "Não depende de dano ao patrimônio público ou ganho consumado.",
+      "topic": "Prevenção de conflitos",
+      "subjectIds": [
+        "etica-publica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-2d79b55e1c2b4a9f",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12813-16-maio-2013-776005-normaatualizada-pl.html",
+        "locator": "Lei nº 12.813/2013, arts. 3º e 4º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "conflito-interesse-sem-ato-ilicito"
+      ],
+      "contrast": {
+        "prompt": "O servidor participa de decisão que beneficia empresa de familiar, mas não houve ganho comprovado. Pode existir conflito de interesses?",
+        "answer": "Sim. A situação de confronto capaz de influenciar indevidamente a função pode configurar conflito sem ganho consumado."
+      }
+    },
+    {
+      "id": "camara-informacao-privilegiada",
+      "term": "Informação privilegiada",
+      "definition": "Informação sigilosa ou relevante ao processo decisório no Executivo federal, com repercussão econômica ou financeira e sem amplo conhecimento público.",
+      "example": "Conhecer previamente decisão econômica ainda restrita que pode beneficiar uma empresa.",
+      "confusion": "Nem toda informação interna atende à definição da Lei nº 12.813/2013.",
+      "topic": "Prevenção de conflitos",
+      "subjectIds": [
+        "etica-publica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-2d79b55e1c2b4a9f",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12813-16-maio-2013-776005-normaatualizada-pl.html",
+        "locator": "Lei nº 12.813/2013, arts. 3º e 4º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Documento interno sem repercussão econômica ou financeira é automaticamente informação privilegiada conforme a Lei 12.813?",
+        "answer": "Não. A definição legal exige características específicas; sigilo ou circulação interna isolados não bastam."
+      }
+    },
+    {
+      "id": "camara-redacao-tema-recorte-comando",
+      "term": "Assunto × tema × recorte × comando",
+      "definition": "Assunto é o campo amplo; tema é a questão central proposta; recorte delimita o ângulo, o público, o período ou o aspecto a tratar; comando indica a operação exigida, como comparar, analisar ou propor. A resposta precisa atender aos quatro níveis.",
+      "example": "Em inteligência artificial no serviço público, o tema pode ser o uso de triagem automatizada; o recorte, seus efeitos sobre acesso a serviços; e o comando, comparar eficiência e garantias e indicar salvaguarda.",
+      "confusion": "Falar corretamente do assunto amplo não satisfaz um comando que exige comparação, análise causal ou proposta. O recorte restringe a resposta sem trocar o tema.",
+      "topic": "Leitura do tema",
+      "subjectIds": [
+        "redacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.9.1 / questões discursivas e peça técnica",
+        "P3.9.8.4 / conteúdo, coerência e coesão"
+      ],
+      "note": {
+        "articleId": "art-eee736362f70467f",
+        "section": "Assunto, tema, recorte e comando"
+      },
+      "conceptIds": [
+        "redacao-assunto-tema-recorte-comando"
+      ],
+      "contrast": {
+        "prompt": "Uma resposta trata do assunto “IA no serviço público”, mas não compara os efeitos pedidos nem propõe salvaguarda. Ela cumpriu o comando?",
+        "answer": "Não. A pertinência ao assunto é insuficiente; é necessário desenvolver o recorte e executar as operações expressas no comando."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Redacao/01%20-%20leitura%20do%20tema%20e%20projeto%20de%20texto.md",
+        "locator": "Seção: Assunto, tema, recorte e comando"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
+    },
+    {
+      "id": "camara-redacao-tese-opiniao-argumento",
+      "term": "Tese × opinião × argumento",
+      "definition": "Tese é uma posição delimitada que responde ao tema e pode ser defendida ao longo do texto. Opinião é uma avaliação que pode ainda estar vaga; argumento é a razão que sustenta a tese. A tese orienta a seleção e a ligação dos argumentos.",
+      "example": "Tese: a triagem automatizada pode reduzir tempo, desde que alertas sejam revisados. Argumento: revisão evita que falsos positivos excluam usuários elegíveis.",
+      "confusion": "Repetir o tema ou declarar preferência não constitui, por si só, tese defendida. Uma lista de argumentos sem relação explícita também não forma linha argumentativa coerente.",
+      "topic": "Tese e argumentação",
+      "subjectIds": [
+        "redacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.9.1 / questões discursivas e peça técnica",
+        "P3.9.8.4 / conteúdo, coerência e coesão"
+      ],
+      "note": {
+        "articleId": "art-7bcedf840e464bd8",
+        "section": "Tema × opinião × tese × argumento"
+      },
+      "conceptIds": [
+        "redacao-tese-vs-opiniao-vs-argumento"
+      ],
+      "contrast": {
+        "prompt": "“A inteligência artificial é importante” já é uma tese suficiente para responder a qualquer tema sobre IA?",
+        "answer": "Não. A frase apenas avalia de modo amplo; é preciso formular uma posição delimitada que responda ao recorte e possa ser sustentada."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Redacao/02%20-%20tese%20e%20linha%20argumentativa.md",
+        "locator": "Seção: Tema × opinião × tese × argumento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
+    },
+    {
+      "id": "camara-redacao-argumento-evidencia-estrategia",
+      "term": "Argumento × evidência × estratégia argumentativa",
+      "definition": "Argumento é a razão que sustenta a tese; evidência é dado, regra, exemplo ou documento que dá apoio verificável à razão; estratégia argumentativa organiza a relação entre ideias, por exemplo por causa e consequência, comparação ou concessão.",
+      "example": "Tese: alertas exigem revisão. Argumento: falsos positivos podem excluir titulares. Evidência: registro de casos verificados; estratégia: encadear risco, consequência e salvaguarda.",
+      "confusion": "Uma estatística sem explicar sua relação com a tese não completa o argumento. A estratégia organiza o raciocínio, mas não substitui evidência pertinente nem conclusão.",
+      "topic": "Construção de argumentos",
+      "subjectIds": [
+        "redacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.9.1 / questões discursivas e peça técnica",
+        "P3.9.8.4 / conteúdo, coerência e coesão"
+      ],
+      "note": {
+        "articleId": "art-1d85f42895fe4b85",
+        "section": "Argumento × evidência × estratégia"
+      },
+      "conceptIds": [
+        "redacao-argumento-evidencia-estrategia"
+      ],
+      "contrast": {
+        "prompt": "A inclusão de um número ou citação transforma automaticamente um parágrafo em argumento válido?",
+        "answer": "Não. A evidência precisa ser confiável e ligada por uma razão explícita à tese; sem essa ligação, ela é apenas informação solta."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Redacao/03%20-%20estrategias%20de%20argumentacao.md",
+        "locator": "Seção: Argumento × evidência × estratégia"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
+    },
+    {
+      "id": "camara-redacao-decomposicao-comando-grade",
+      "term": "Decomposição do comando e grade de resposta",
+      "definition": "Decompor o comando significa localizar verbos de ação, objetos, critérios e limites de extensão; a grade converte esses elementos em tópicos verificáveis e ordem de resposta. O texto final desenvolve cada tópico com fundamento e ligação lógica, sem ampliar o escopo.",
+      "example": "“Compare eficiência e controle e proponha uma medida”: reservar uma parte para cada critério, explicitar a diferença e concluir com uma medida conectada ao problema.",
+      "confusion": "Responder apenas ao tema geral pode omitir uma operação pedida. A grade não é um texto pronto nem autoriza inserir tópicos que desviem do comando.",
+      "topic": "Planejamento da resposta",
+      "subjectIds": [
+        "redacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.9.1 / questões discursivas e peça técnica",
+        "P3.9.8.4 / conteúdo, coerência e coesão"
+      ],
+      "note": {
+        "articleId": "art-8c4e3f190be648b2",
+        "section": "Método: comando → grade → texto corrigível"
+      },
+      "conceptIds": [
+        "redacao-comando-grade-resposta"
+      ],
+      "contrast": {
+        "prompt": "Se o enunciado manda comparar dois critérios e propor uma medida, basta apresentar uma medida correta sobre o tema?",
+        "answer": "Não. A resposta precisa cumprir também a comparação dos dois critérios; uma medida isolada deixa operações explícitas sem atendimento."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Redacao/04%20-%20decomposicao%20de%20comandos%20e%20quesitos%20cebraspe.md",
+        "locator": "Seção: Método: comando → grade → texto corrigível"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
+    },
+    {
+      "id": "camara-pt-texto-coesao-coerencia",
+      "term": "Coesão × coerência",
+      "definition": "Coesão são os mecanismos linguísticos que conectam partes do texto; coerência é a compatibilidade global entre ideias e contexto. Um texto pode conter conectivos e ainda ser incoerente, e a coerência pode depender de conhecimento compartilhado não repetido literalmente.",
+      "example": "Em um comunicado, “a sessão foi adiada; portanto, ocorrerá hoje no horário previsto” apresenta conectivo, mas a conclusão contradiz a informação anterior: há ligação formal sem coerência.",
+      "confusion": "Não trate coesão e coerência como sinônimos: a primeira observa relações de superfície e retomadas; a segunda, a construção global de sentido.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-78645a9b4c365a83",
+        "section": "1. Situação concreta e o conceito de texto como evento comunicativo"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/12%20-%20texto%20contexto%20e%20producao%20de%20sentido.md",
+        "locator": "Capítulo 1: Texto, contexto e produção de sentido: fatores de textualidade e pragmática no padrão Cebraspe · seção: 1. Situação concreta e o conceito de texto como evento comunicativo"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-texto-coesao-coerencia"
+      ],
+      "contrast": {
+        "prompt": "Um texto com pronomes e conectivos bem empregados é necessariamente coerente?",
+        "answer": "Não. Esses recursos podem produzir coesão local, mas a relação global entre as ideias ainda pode ser contraditória ou inadequada ao contexto."
+      }
+    },
+    {
+      "id": "camara-pt-tema-tese",
+      "term": "Tema × tese",
+      "definition": "Tema delimita o assunto ou tópico desenvolvido; tese é a proposição que o autor sustenta sobre esse tema. O tema pode permanecer estável enquanto a tese muda ao longo de uma argumentação.",
+      "example": "Tema: transparência pública. Tese: publicar dados sem explicar critérios de atualização reduz sua utilidade para o controle social.",
+      "confusion": "Uma frase que apenas nomeia o assunto não basta para demonstrar a posição defendida pelo autor.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-554511538d877686",
+        "section": "2. Distinção Estrutural: Assunto, Tema e Tese"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/13%20-%20tema%20tese%20e%20progressao%20tematica.md",
+        "locator": "Capítulo 2: Tema, tese e progressão temática: tópicos discursivos, macroestrutura e dinâmicas de informação no padrão Cebraspe · seção: 2. Distinção Estrutural: Assunto, Tema e Tese"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-tema-tese"
+      ],
+      "contrast": {
+        "prompt": "Se um texto discute transparência pública, a expressão “transparência pública” já identifica sua tese?",
+        "answer": "Não. Ela identifica o tema; a tese exige a afirmação específica que o texto defende sobre esse assunto."
+      }
+    },
+    {
+      "id": "camara-pt-inferencia-extrapolacao",
+      "term": "Inferência válida × extrapolação",
+      "definition": "Inferência válida é conclusão sustentada pelas marcas linguísticas e pelo contexto do texto; extrapolação acrescenta informação que pode parecer plausível, mas não decorre das premissas disponíveis.",
+      "example": "Se a nota informa que uma audiência foi remarcada por indisponibilidade do plenário, é válido concluir que a data mudou; não se pode concluir, sem outro dado, que a audiência foi cancelada.",
+      "confusion": "Plausibilidade no mundo real não substitui apoio textual; no Cebraspe, avalie a conclusão dentro dos limites da informação oferecida.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-90192f46b01d2516",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/14%20-%20informacao%20explicita%20pressuposto%20e%20inferencia.md",
+        "locator": "Capítulo 3: Informação explícita, pressuposto e inferência: marcas linguísticas, subentendidos e limites da dedução no padrão Cebraspe · seção: 5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-inferencia-extrapolacao"
+      ],
+      "contrast": {
+        "prompt": "Uma hipótese provável sobre a intenção do autor pode ser tratada como informação expressamente afirmada?",
+        "answer": "Não. Informação explícita, inferência sustentada e hipótese não autorizada são níveis distintos; a última pode extrapolar o texto."
+      }
+    },
+    {
+      "id": "camara-pt-tipo-genero",
+      "term": "Tipo textual × gênero textual",
+      "definition": "Tipo textual é uma sequência prototípica, como narração, descrição, exposição, argumentação ou injunção; gênero é uma forma social de comunicação, como parecer, notícia, ofício ou postagem. Um gênero pode combinar várias sequências.",
+      "example": "Um parecer pode narrar antecedentes, expor dados e argumentar no voto sem deixar de ser um único gênero institucional.",
+      "confusion": "Não classifique o gênero inteiro pela sequência predominante de um trecho, nem suponha correspondência de um gênero para um único tipo.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-7a7433d13f34cbad",
+        "section": "2. Critérios Teóricos de Distinção: A Matriz de Jean-Michel Adam"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/15%20-%20tipologia%20textual%20criterios%20de%20distincao%20e%20sequencias%20prototipicas.md",
+        "locator": "Capítulo 4: Tipologia textual: critérios de distinção, sequências prototípicas e formas híbridas no padrão Cebraspe · seção: 2. Critérios Teóricos de Distinção: A Matriz de Jean-Michel Adam"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-tipo-genero"
+      ],
+      "contrast": {
+        "prompt": "Se um parecer contém narrativa e argumentação, ele deixa de ser um gênero textual único?",
+        "answer": "Não. As sequências descrevem modos de organização textual que podem coexistir dentro do gênero parecer."
+      }
+    },
+    {
+      "id": "camara-en-vocabulario-contexto",
+      "term": "Vocabulário pelo contexto × cognato",
+      "definition": "A leitura de uma palavra desconhecida deve considerar a função na frase, o assunto do parágrafo, a formação da palavra e as relações com termos próximos. Cognato é forma semelhante entre línguas com sentido relacionado; falso cognato parece familiar, mas tem significado diferente.",
+      "example": "Em “the proposal was eventually approved”, *eventually* significa “por fim”, não “eventualmente” no sentido de “talvez”.",
+      "confusion": "Semelhança gráfica com o português é uma pista a conferir, não prova suficiente do significado.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-e38c9d621fa74b05",
+        "section": "Inferir palavra desconhecida"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/05%20-%20vocabulario%20em%20contexto%20e%20falsos%20cognatos.md",
+        "locator": "Capítulo 5: Vocabulário em contexto e falsos cognatos · seção: Inferir palavra desconhecida"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-vocabulario-contexto"
+      ],
+      "contrast": {
+        "prompt": "A semelhança visual entre uma palavra inglesa e uma portuguesa basta para confirmar o significado?",
+        "answer": "Não. Pode haver falso cognato; confirme a hipótese pelo contexto sintático e semântico."
+      }
+    },
+    {
+      "id": "camara-en-parafrase-escopo",
+      "term": "Paráfrase × preservação de escopo",
+      "definition": "Uma paráfrase preserva o conteúdo relevante do enunciado, inclusive negação, condição, quantificadores, tempo e modalidade. Trocar palavras por sinônimos não garante equivalência se o alcance lógico mudar.",
+      "example": "“Only registered users may access the file” não equivale a “registered users may only access the file”: a posição de *only* altera o elemento restringido.",
+      "confusion": "Confira quem, o quê e sob qual condição é limitado; uma paráfrase pode conservar o vocabulário e mudar a regra.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-f7b460a3c2e14d89",
+        "section": "Fronteiras que decidem a equivalência"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/06%20-%20parafrase%20equivalencia%20semantica%20e%20escopo.md",
+        "locator": "Capítulo 6: Paráfrase, equivalência semântica e escopo · seção: Fronteiras que decidem a equivalência"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-parafrase-escopo"
+      ],
+      "contrast": {
+        "prompt": "Mover *only* na frase sempre preserva a mesma restrição?",
+        "answer": "Não. O escopo de *only* depende do elemento que ele modifica, podendo mudar quem está limitado ou qual ação é exclusiva."
+      }
+    },
+    {
+      "id": "camara-en-main-idea-purpose",
+      "term": "Assunto × ideia central × propósito",
+      "definition": "O assunto é o tópico geral; a ideia central é a afirmação que organiza o texto; o propósito é a finalidade comunicativa do autor, como informar, explicar, avaliar ou persuadir. *Skimming* busca a organização global; *scanning* localiza um dado específico.",
+      "example": "Um texto sobre nova regra de acesso pode ter como ideia central explicar seus efeitos e como propósito orientar os usuários a cumprir o procedimento.",
+      "confusion": "O título pode indicar o assunto, mas não necessariamente a tese nem o propósito; estes dependem do desenvolvimento e do tom.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-40cd8bf066b67c5f",
+        "section": "4. O propósito comunicativo do autor (*Author's Purpose*) e o tom textual"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/07%20-%20como%20localizar%20assunto%20tese%20e%20proposito%20em%20textos%20em%20ingles.md",
+        "locator": "Capítulo 7: Como localizar assunto, tese e propósito comunicativo em textos em língua inglesa no padrão Cebraspe · seção: 4. O propósito comunicativo do autor (*Author's Purpose*) e o tom textual"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-main-idea-purpose"
+      ],
+      "contrast": {
+        "prompt": "Localizar uma data por *scanning* identifica, por si só, a ideia central do texto?",
+        "answer": "Não. *Scanning* procura informação pontual; a ideia central requer leitura da organização e da afirmação principal."
+      }
+    },
+    {
+      "id": "camara-en-inference-limits",
+      "term": "Fato explícito × inferência × suposição",
+      "definition": "Fato explícito aparece diretamente no texto; inferência válida é implicada por elementos textuais; suposição acrescenta uma premissa sem apoio suficiente. Verbos modais e expressões de ressalva calibram o grau de certeza.",
+      "example": "Se o texto diz que o relatório *may reduce delays*, é possível afirmar que ele pode reduzir atrasos, não que certamente os eliminará.",
+      "confusion": "Não transforme possibilidade em certeza, nem inferência contextual em fato literal.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-fbfeb9a2a7fcf639",
+        "section": "2. A matriz de três camadas: Fato Explícito, Inferência Válida e Suposição/Extrapolação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/08%20-%20informacoes%20explicitas%20inferencias%20e%20limites%20da%20deducao.md",
+        "locator": "Capítulo 8: Informações explícitas, inferências e limites da dedução em língua inglesa no padrão Cebraspe · seção: 2. A matriz de três camadas: Fato Explícito, Inferência Válida e Suposição/Extrapolação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-inference-limits"
+      ],
+      "contrast": {
+        "prompt": "A afirmação *the measure may reduce delays* permite concluir que os atrasos serão eliminados?",
+        "answer": "Não. *May* expressa possibilidade; “serão eliminados” aumenta indevidamente a certeza e a extensão do efeito."
+      }
+    },
+    {
+      "id": "camara-const-fundamentos-objetivos",
+      "term": "Fundamentos × objetivos fundamentais",
+      "definition": "Fundamentos do Estado brasileiro são bases previstas no art. 1º da Constituição Federal (CF), como cidadania e dignidade da pessoa humana; objetivos fundamentais do art. 3º indicam resultados a promover, como reduzir desigualdades sociais e regionais.",
+      "example": "A dignidade da pessoa humana é fundamento da República (art. 1º, III); reduzir as desigualdades sociais e regionais é objetivo fundamental (art. 3º, III).",
+      "confusion": "Uma finalidade constitucionalmente desejável não vira fundamento do art. 1º só por orientar políticas públicas.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / fundamentos e objetivos"
+      ],
+      "note": {
+        "articleId": "art-a6edc965cb9e4eb6",
+        "section": "Art. 3º — objetivos fundamentais"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/01%20-%20principios%20fundamentais.md",
+        "locator": "Capítulo 1: Princípios fundamentais · seção: Art. 3º — objetivos fundamentais"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-fundamentos-objetivos"
+      ],
+      "contrast": {
+        "prompt": "Reduzir desigualdades regionais e a dignidade da pessoa humana pertencem à mesma lista constitucional?",
+        "answer": "Não. A dignidade é fundamento do art. 1º; reduzir desigualdades regionais é objetivo fundamental do art. 3º da CF."
+      }
+    },
+    {
+      "id": "camara-const-direito-garantia",
+      "term": "Direito fundamental × garantia fundamental",
+      "definition": "Direito fundamental é a posição ou liberdade protegida; garantia é instrumento ou mecanismo que protege esse direito. O Título II da CF não se limita ao art. 5º: inclui direitos sociais, nacionalidade, direitos políticos e partidos políticos.",
+      "example": "A liberdade de locomoção é direito; o habeas corpus é garantia constitucional contra coação ilegal a essa liberdade.",
+      "confusion": "O remédio constitucional não é o próprio direito material e cada garantia tem hipótese de cabimento própria (CF, art. 5º, LXVIII a LXXIII).",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / direitos e garantias fundamentais"
+      ],
+      "note": {
+        "articleId": "art-ec49c177b1ae43c7",
+        "section": "Direito × garantia"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/02%20-%20direitos%20e%20garantias%20fundamentais.md",
+        "locator": "Capítulo 2: Direitos e garantias fundamentais · seção: Direito × garantia"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-direito-garantia"
+      ],
+      "contrast": {
+        "prompt": "Habeas corpus e liberdade de locomoção são nomes diferentes para o mesmo objeto jurídico?",
+        "answer": "Não. A liberdade é o direito protegido; o habeas corpus é garantia destinada a protegê-la contra ilegalidade ou abuso de poder."
+      }
+    },
+    {
+      "id": "camara-const-direitos-sociais",
+      "term": "Direito social × prestação estatal específica",
+      "definition": "Direitos sociais reconhecem posições constitucionais voltadas a condições de vida dignas; muitos exigem políticas e prestações, mas a forma de implementação depende do direito e das normas aplicáveis. O art. 6º enumera direitos sociais, e os arts. 7º a 11 tratam especialmente de direitos dos trabalhadores.",
+      "example": "Educação e saúde integram o catálogo do art. 6º; uma questão concreta ainda exige identificar o dever público ou privado aplicável e seus limites normativos.",
+      "confusion": "A presença no catálogo não significa que todo direito tenha idêntico responsável, procedimento ou forma de exigibilidade.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / direitos fundamentais"
+      ],
+      "note": {
+        "articleId": "art-b72f4e7f06344051",
+        "section": "1. O Catálogo do Artigo 6º"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/03%20-%20direitos%20sociais.md",
+        "locator": "Capítulo 3: Direitos sociais · seção: 1. O Catálogo do Artigo 6º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-direitos-sociais"
+      ],
+      "contrast": {
+        "prompt": "Os direitos sociais estão todos concentrados no art. 6º da CF?",
+        "answer": "Não. O art. 6º traz o catálogo geral, enquanto os arts. 7º a 11 disciplinam direitos sociais ligados ao trabalho e à organização coletiva."
+      }
+    },
+    {
+      "id": "camara-const-nacionalidade",
+      "term": "Nacionalidade originária × naturalização",
+      "definition": "Nacionalidade originária é atribuída desde o nascimento e corresponde à condição de brasileiro nato; nacionalidade derivada é adquirida por naturalização. A regra do *jus soli* admite exceção para filhos de pais estrangeiros que estejam a serviço de seu país (CF, art. 12, I, a).",
+      "example": "Filho de estrangeiros nascido no Brasil é brasileiro nato, salvo se os pais estiverem a serviço do país deles; filho de brasileiro nascido no exterior pode ser nato nas condições do art. 12, I, b ou c.",
+      "confusion": "Local de nascimento isolado não resolve todas as hipóteses: verifique serviço dos pais, filiação e registro ou residência/opção quando exigidos.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / nacionalidade"
+      ],
+      "note": {
+        "articleId": "art-2c08fdb390ff4b8b",
+        "section": "Nacionalidade originária × adquirida"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/04%20-%20nacionalidade.md",
+        "locator": "Capítulo 4: Nacionalidade · seção: Nacionalidade originária × adquirida"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-nacionalidade"
+      ],
+      "contrast": {
+        "prompt": "Todo filho de estrangeiros nascido no território brasileiro é brasileiro nato?",
+        "answer": "Não. A exceção do art. 12, I, a, da CF alcança os nascidos no Brasil de pais estrangeiros a serviço do país deles."
+      }
+    },
+    {
+      "id": "camara-ti-onedrive-permissao",
+      "term": "Link de compartilhamento × permissão efetiva",
+      "definition": "No OneDrive corporativo, o alcance de um link depende do tipo de público autorizado e das permissões concedidas, além das políticas da organização. “Qualquer pessoa”, pessoas da organização e pessoas específicas representam escopos distintos quando habilitados.",
+      "example": "Um link restrito a pessoas específicas não se torna público apenas porque foi enviado a um grupo; cada destinatário ainda precisa estar autorizado.",
+      "confusion": "Compartilhar o endereço do link não equivale a conceder acesso irrestrito; confira escopo, permissão e política institucional.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-e4d63009042ff1a1",
+        "section": "2. Tipos de links de compartilhamento e escopos de permissão"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/07%20-%20onedrive%20sincronizacao%20compartilhamento%20e%20permissoes.md",
+        "locator": "Capítulo 2: OneDrive: sincronização corporativa, compartilhamento de links e permissões de acesso · seção: 2. Tipos de links de compartilhamento e escopos de permissão"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-onedrive-permissao"
+      ],
+      "contrast": {
+        "prompt": "Enviar um link do OneDrive a alguém garante acesso, qualquer que seja o escopo configurado?",
+        "answer": "Não. O destinatário precisa estar abrangido pelo escopo do link e pelas permissões e políticas aplicáveis."
+      }
+    },
+    {
+      "id": "camara-ti-excel-referencias",
+      "term": "Referência relativa × absoluta × mista no Excel",
+      "definition": "Ao copiar uma fórmula, referência relativa ajusta linha e coluna; referência absoluta mantém ambos fixos, como $A$1; referência mista fixa apenas linha ou coluna, como A$1 ou $A1.",
+      "example": "Ao copiar `=B2*$F$1` uma coluna à direita e uma linha abaixo, a referência relativa vira C3, enquanto $F$1 permanece fixa.",
+      "confusion": "O cifrão fixa somente o componente imediatamente associado: `$A1` fixa a coluna, e `A$1` fixa a linha.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-484ca8ef752c3d9a",
+        "section": "2. Aritmética de referências: Relativa, Absoluta e Mista"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/05%20-%20excel%20365%20celulas%20referencias%20funcoes%20e%20tabelas%20dinamicas.md",
+        "locator": "Capítulo 4: Excel 365: células, referências relativas e absolutas, funções e tabelas dinâmicas · seção: 2. Aritmética de referências: Relativa, Absoluta e Mista"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-excel-referencias"
+      ],
+      "contrast": {
+        "prompt": "Ao arrastar uma fórmula, a referência `A$1` mantém fixa a coluna A e deixa a linha variar?",
+        "answer": "Não. `A$1` fixa a linha 1; a coluna A é relativa e pode mudar ao copiar horizontalmente."
+      }
+    },
+    {
+      "id": "camara-ti-powerpoint-master",
+      "term": "Slide Mestre × formatação de um slide",
+      "definition": "O Slide Mestre centraliza elementos e padrões visuais aplicáveis a layouts e slides da apresentação. Alterar um objeto em um slide individual não necessariamente modifica os demais; alterar o mestre pode repercutir nos slides vinculados ao layout correspondente.",
+      "example": "Para atualizar o logotipo institucional em vários slides que usam o mesmo layout, a alteração no mestre pode propagar o padrão; uma caixa inserida só em um slide permanece local.",
+      "confusion": "Nem todo elemento individual é controlado pelo mestre, e a propagação depende do layout e de eventuais ajustes locais.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-c870ee089d89cfaa",
+        "section": "2. A ferramenta de governança visual: o Slide Mestre (*Slide Master*)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/06%20-%20powerpoint%20365%20organizacao%20slides%20mestre%20animacoes%20e%20apresentacao.md",
+        "locator": "Capítulo 5: PowerPoint 365: organização de slides, slide mestre, transições, animações e apresentação · seção: 2. A ferramenta de governança visual: o Slide Mestre (*Slide Master*)"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-powerpoint-master"
+      ],
+      "contrast": {
+        "prompt": "Editar um objeto diretamente em um slide altera automaticamente todos os slides da apresentação?",
+        "answer": "Não. A propagação geral está associada ao mestre e aos layouts; uma edição local pode afetar apenas aquele slide."
+      }
+    },
+    {
+      "id": "camara-ti-internet-intranet-extranet",
+      "term": "Internet × intranet × extranet",
+      "definition": "Internet é uma rede global pública; intranet é uma rede ou ambiente privado de uma organização; extranet permite acesso controlado de usuários externos a recursos organizacionais. Esses termos descrevem escopo e acesso, não protocolos de transporte.",
+      "example": "Um portal interno acessível apenas a servidores integra a intranet; uma área restrita compartilhada com fornecedores autorizados pode funcionar como extranet.",
+      "confusion": "Uma intranet pode usar protocolos da Internet; isso não a torna acessível publicamente nem a confunde com a própria Internet.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-ef60bc0a1708e23d",
+        "section": "1. Topologia de escopo de rede: Internet, Intranet e Extranet"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/08%20-%20redes%20internet%20intranet%20protocolos%20e%20enderecamento%20ip.md",
+        "locator": "Capítulo 6: Redes de computadores: internet, intranet, extranet, protocolos TCP/IP e endereçamento IPv4 e IPv6 · seção: 1. Topologia de escopo de rede: Internet, Intranet e Extranet"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-internet-intranet-extranet"
+      ],
+      "contrast": {
+        "prompt": "Uma intranet deixa de ser intranet se usar protocolos TCP/IP?",
+        "answer": "Não. TCP/IP pode operar em redes internas; internet, intranet e extranet se distinguem principalmente pelo escopo e pelas condições de acesso."
+      }
+    },
+    {
+      "id": "camara-comunicacao-processo-sentido",
+      "term": "Transmissão × comunicação como produção de sentido",
+      "definition": "Transmissão descreve o envio ou a circulação de um sinal; comunicação também envolve participantes, códigos, contexto, interpretação e efeitos. A entrega técnica da mensagem não prova que o público a compreendeu como pretendido.",
+      "example": "Uma página da Câmara carrega corretamente o aviso de mudança de local, mas usuários entendem que a audiência foi cancelada: a transmissão ocorreu, enquanto a interpretação falhou.",
+      "confusion": "Não infira compreensão ou efeito social somente porque a mensagem foi publicada ou recebida.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-b9d24f1a6c3e8057",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/25%20-%20comunicacao%20informacao%20e%20producao%20de%20sentido.md",
+        "locator": "Capítulo 1: Comunicação, informação e produção de sentido · seção: Núcleo do conceito"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-processo-sentido"
+      ],
+      "contrast": {
+        "prompt": "A entrega técnica de uma mensagem demonstra que seu público interpretou corretamente o conteúdo?",
+        "answer": "Não. Recepção e interpretação são etapas distintas; a comunicação depende também dos códigos, do contexto e dos públicos envolvidos."
+      }
+    },
+    {
+      "id": "camara-comunicacao-teoria-modelo",
+      "term": "Teoria × modelo × escola",
+      "definition": "Teoria propõe relações explicativas; modelo representa seletivamente componentes ou relações; escola é tradição intelectual; corrente é orientação compartilhada; paradigma reúne pressupostos que orientam perguntas e métodos.",
+      "example": "Um diagrama que representa emissor, mensagem e receptor é um modelo; não se torna, só por isso, uma escola de pensamento.",
+      "confusion": "Os termos classificam objetos diferentes e não formam automaticamente uma hierarquia em que um seja sinônimo do outro.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-65e3a8bd42f190c7",
+        "section": "Cinco termos e suas fronteiras"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/26%20-%20teoria%20modelo%20escola%20e%20paradigma%20na%20comunicacao.md",
+        "locator": "Capítulo 2: Teoria, modelo, escola, corrente e paradigma na comunicação · seção: Cinco termos e suas fronteiras"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-teoria-modelo"
+      ],
+      "contrast": {
+        "prompt": "Um modelo de comunicação e uma escola de pensamento designam o mesmo tipo de objeto?",
+        "answer": "Não. Modelo é representação seletiva de elementos e relações; escola é uma tradição intelectual formada historicamente."
+      }
+    },
+    {
+      "id": "camara-comunicacao-contexto",
+      "term": "Cotexto × contexto situacional",
+      "definition": "Cotexto é o entorno linguístico de uma expressão dentro do texto; contexto situacional inclui participantes, tempo, lugar, finalidade e circunstâncias de circulação. Ambos restringem interpretações, mas não são intercambiáveis.",
+      "example": "“Amanhã” pode apontar para datas diferentes conforme o momento de leitura; a frase anterior pode esclarecer o referente por cotexto, e o registro da publicação situa a data.",
+      "confusion": "Não atribua toda ambiguidade a uma palavra isolada: verifique o texto ao redor e a situação comunicativa.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-e9b51478a3f260cd",
+        "section": "Estrutura: três planos analíticos do contexto"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/27%20-%20contexto%20e%20interpretacao%20da%20mensagem.md",
+        "locator": "Capítulo 3: Contexto e interpretação na situação comunicativa · seção: Estrutura: três planos analíticos do contexto"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-contexto"
+      ],
+      "contrast": {
+        "prompt": "Cotexto e situação comunicativa são sinônimos?",
+        "answer": "Não. Cotexto é o material linguístico próximo; situação comunicativa envolve as condições concretas em que a mensagem é produzida e recebida."
+      }
+    },
+    {
+      "id": "camara-comunicacao-lasswell",
+      "term": "Esquema de Lasswell × prova de causalidade",
+      "definition": "O esquema de Harold Lasswell organiza a análise pelas perguntas “quem?”, “diz o quê?”, “por qual canal?”, “a quem?” e “com que efeito?”. Ele orienta dimensões de investigação, mas mencionar uma variável não demonstra que ela causou determinado resultado.",
+      "example": "Uma campanha pode ser analisada por emissor, mensagem, canal, público e efeitos medidos; atribuir mudança de opinião à campanha exige evidência causal adicional.",
+      "confusion": "O esquema é instrumento analítico, não garantia de persuasão nem prova automática do efeito observado.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-4c7a0dbe952f6813",
+        "section": "As cinco perguntas e suas áreas de análise"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/28%20-%20lasswell%20cinco%20perguntas%20funcoes%20e%20efeitos.md",
+        "locator": "Capítulo 4: Harold Lasswell: cinco perguntas, áreas de análise e funções sociais · seção: As cinco perguntas e suas áreas de análise"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-lasswell"
+      ],
+      "contrast": {
+        "prompt": "O modelo de Lasswell, sozinho, prova que uma mensagem causou mudança de comportamento?",
+        "answer": "Não. Ele organiza perguntas de pesquisa; estabelecer causalidade exige método e evidência compatíveis com essa conclusão."
+      }
+    },
+    {
+      "id": "camara-cp-objeto-metodo",
+      "term": "Ciência Política × governo",
+      "definition": "Ciência Política estuda sistematicamente poder, instituições, comportamento, representação, conflitos e decisões coletivas; governo é apenas um de seus objetos. A disciplina pode formular perguntas descritivas, explicativas, interpretativas ou normativas.",
+      "example": "Analisar por que projetos avançam em comissão pode combinar regras, preferências, partidos e agenda, sem reduzir a explicação a uma decisão isolada do governo.",
+      "confusion": "Não confunda o campo de estudo com um órgão ou com o exercício do Poder Executivo.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-cf7e41b90a286d53",
+        "section": "O que é político: campo de estudo, não sinônimo de governo"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/10%20-%20ciencia%20politica%20objeto%20metodo%20e%20limites.md",
+        "locator": "Capítulo 1: Ciência Política: objeto, método e limites · seção: O que é político: campo de estudo, não sinônimo de governo"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-objeto-metodo"
+      ],
+      "contrast": {
+        "prompt": "Ciência Política é o estudo exclusivo das decisões do governo central?",
+        "answer": "Não. O campo também examina instituições, relações de poder, comportamento político, representação, conflitos e decisões coletivas."
+      }
+    },
+    {
+      "id": "camara-cp-poder-autoridade-legitimidade",
+      "term": "Poder × autoridade × legitimidade",
+      "definition": "Poder é capacidade relacional de influenciar ou condicionar condutas; autoridade é poder reconhecido como válido em determinada relação institucional; legitimidade diz respeito à justificação ou aceitação das ordens. Dominação descreve expectativa relativamente estável de obediência.",
+      "example": "A presidência de uma comissão possui autoridade regimental para conduzir os trabalhos; a aceitação dessa condução e a capacidade de influenciar a pauta são questões relacionadas, mas distintas.",
+      "confusion": "Ter cargo formal não elimina disputas sobre legitimidade nem explica, por si só, todas as formas de poder.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-81d6f4a2c7e093b5",
+        "section": "Primeira fronteira: influência, poder, autoridade, coerção e dominação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/11%20-%20poder%20autoridade%20legitimidade%20e%20dominacao.md",
+        "locator": "Capítulo 2: Poder, autoridade, legitimidade e dominação · seção: Primeira fronteira: influência, poder, autoridade, coerção e dominação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-poder-autoridade-legitimidade"
+      ],
+      "contrast": {
+        "prompt": "O exercício de autoridade formal comprova automaticamente que toda ordem é considerada legítima?",
+        "answer": "Não. Autoridade institucional e legitimidade são conceitos relacionados, mas a validade do cargo não demonstra a aceitação ou justificação de cada ordem."
+      }
+    },
+    {
+      "id": "camara-cp-teoria-normativa-empirica",
+      "term": "Pergunta normativa × pergunta empírica",
+      "definition": "Pergunta normativa avalia o que deveria ser justo, legítimo ou desejável; pergunta empírica investiga o que ocorre e por que ocorre, com evidências e métodos adequados. Uma análise pode relacionar as duas, mas deve distinguir seus critérios.",
+      "example": "“A representação proporcional é justa?” é pergunta normativa; “como a regra alterou a composição da Câmara?” é empírica.",
+      "confusion": "Uma preferência moral não substitui evidência sobre efeitos, e um dado descritivo isolado não resolve um juízo de justiça.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-52a8c73e916db40f",
+        "section": "As perguntas que organizam a disciplina"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/12%20-%20teoria%20politica%20correntes%20e%20perguntas%20centrais.md",
+        "locator": "Capítulo 3: Teoria política: correntes e perguntas centrais · seção: As perguntas que organizam a disciplina"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-teoria-normativa-empirica"
+      ],
+      "contrast": {
+        "prompt": "Demonstrar que uma política produziu certo efeito empírico resolve, por si só, se ela é justa?",
+        "answer": "Não. O efeito é uma questão empírica; justiça requer critérios normativos explicitados, embora os resultados possam informar a avaliação."
+      }
+    },
+    {
+      "id": "camara-cp-estado-sociedade",
+      "term": "Estado × sociedade civil",
+      "definition": "Estado reúne instituições que exercem autoridade pública sobre população e território; sociedade civil abrange associações e formas de organização que atuam fora da estrutura estatal imediata. Suas fronteiras são analíticas e há interação e disputa entre ambos.",
+      "example": "Uma associação pode pressionar pela mudança de uma política pública sem integrar o Estado; a Câmara, como instituição legislativa, integra sua estrutura estatal.",
+      "confusion": "Organização social que dialoga com o governo não se torna automaticamente órgão estatal nem perde sua autonomia associativa.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-a60d8274be1935cf",
+        "section": "Estado, sociedade, sociedade civil e espaço público"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/13%20-%20estado%20e%20sociedade%20origem%20funcoes%20e%20conflito.md",
+        "locator": "Capítulo 4: Estado e sociedade: origem, funções e conflito · seção: Estado, sociedade, sociedade civil e espaço público"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-estado-sociedade"
+      ],
+      "contrast": {
+        "prompt": "Uma associação civil torna-se parte do Estado apenas por participar de uma audiência pública?",
+        "answer": "Não. Participação ou diálogo institucional não altera, por si só, a natureza organizacional da associação."
+      }
+    },
+    {
+      "id": "camara-etica-dever-imunidade",
+      "term": "Imunidade parlamentar × dever de decoro",
+      "definition": "A imunidade material protege opiniões, palavras e votos nos termos constitucionais (CF, art. 53); o Código de Ética e Decoro Parlamentar disciplina deveres e condutas parlamentares. A proteção funcional não elimina automaticamente a incidência das regras de decoro.",
+      "example": "A manifestação ligada ao mandato pode receber proteção constitucional, mas obtenção de vantagem indevida ou abuso de prerrogativa pode ser apurada conforme o regime disciplinar aplicável.",
+      "confusion": "Não equipare imunidade material a autorização irrestrita para qualquer conduta nem presuma quebra de decoro sem enquadrar os fatos.",
+      "topic": "Ética e Decoro Parlamentar",
+      "subjectIds": [
+        "etica-publica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-5b41764164052519",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/34%20-%20codigo%20de%20etica%20e%20decoro%20parlamentar%20da%20camara.md",
+        "locator": "Capítulo 1: Código de Ética e Decoro Parlamentar da Câmara dos Deputados: deveres, vedações, Conselho de Ética e processo disciplinar · seção: 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-etica-dever-imunidade"
+      ],
+      "contrast": {
+        "prompt": "A imunidade material afasta automaticamente toda apuração disciplinar por quebra de decoro?",
+        "answer": "Não. A imunidade protege manifestações nos limites constitucionais; o regime de deveres e decoro continua relevante para condutas enquadráveis."
+      }
+    },
+    {
+      "id": "camara-etica-jornalismo-assessoria",
+      "term": "Ética jornalística × comunicação institucional",
+      "definition": "O Código de Ética dos Jornalistas Brasileiros orienta a atividade jornalística; a assessoria de imprensa atua em comunicação organizacional e não se confunde com cobertura independente. A função e o regime de responsabilidade devem ser identificados antes de aplicar uma regra.",
+      "example": "Servidor que prepara nota institucional responde pela clareza e transparência da comunicação pública; jornalista que apura uma matéria segue deveres profissionais próprios, inclusive de apuração.",
+      "confusion": "Não transfira automaticamente a obrigação de independência da cobertura para uma assessoria, nem dispense transparência sobre o papel institucional.",
+      "topic": "Ética e Decoro Parlamentar",
+      "subjectIds": [
+        "etica-publica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-af0fe39c4031493a",
+        "section": "Assessor de imprensa × cobertura jornalística"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/11%20-%20etica%20em%20comunicacao.md",
+        "locator": "Capítulo 2: Ética em comunicação · seção: Assessor de imprensa × cobertura jornalística"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-etica-jornalismo-assessoria"
+      ],
+      "contrast": {
+        "prompt": "Assessoria de imprensa e reportagem independente exercem a mesma função ética e institucional?",
+        "answer": "Não. A assessoria comunica a posição de uma organização; a reportagem realiza cobertura jornalística com deveres próprios de apuração e independência."
+      }
+    },
+    {
+      "id": "camara-etica-publicidade-regimes",
+      "term": "Publicidade identificada × conteúdo editorial",
+      "definition": "Publicidade e conteúdo patrocinado devem ser identificáveis como comunicação comercial; o Código de Defesa do Consumidor (CDC) proíbe publicidade enganosa ou abusiva, e regras de autorregulação como as do CONAR complementam a análise em seu campo.",
+      "example": "Publicação de influenciador financiada por anunciante precisa tornar perceptível seu caráter publicitário; omitir o patrocínio pode confundir publicidade com recomendação editorial espontânea.",
+      "confusion": "Verdade literal de uma frase não elimina possível omissão de condição relevante nem a obrigação de identificar a natureza publicitária.",
+      "topic": "Ética e Decoro Parlamentar",
+      "subjectIds": [
+        "etica-publica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-9d53c74b18e602af",
+        "section": "Conteúdo editorial, publieditorial, influenciadores e transparência"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/120%20-%20etica%20da%20comunicacao%20e%20da%20publicidade%20fronteiras.md",
+        "locator": "Capítulo 3: Ética da comunicação e da publicidade: princípios, regimes e fronteiras · seção: Conteúdo editorial, publieditorial, influenciadores e transparência"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-etica-publicidade-regimes"
+      ],
+      "contrast": {
+        "prompt": "Uma mensagem patrocinada deixa de ser publicidade se o dado que apresenta for verdadeiro?",
+        "answer": "Não. A natureza patrocinada e o dever de identificação não dependem de a afirmação isolada ser verdadeira."
+      }
+    },
+    {
+      "id": "camara-etica-moralidade-interesse",
+      "term": "Ética × moralidade administrativa × interesse público",
+      "definition": "Ética examina criticamente razões e consequências da conduta; moralidade administrativa é princípio constitucional que condiciona a atuação pública (CF, art. 37, caput); interesse público exige justificar a decisão por fins coletivos juridicamente admissíveis.",
+      "example": "Escolher fornecedor favorecendo conhecido pode contrariar impessoalidade e moralidade, mesmo que o serviço entregue resultado útil ao órgão.",
+      "confusion": "A conveniência do governo ou a preferência pessoal do agente não se confundem automaticamente com interesse público.",
+      "topic": "Ética e Decoro Parlamentar",
+      "subjectIds": [
+        "etica-publica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-8a12cba7e42f4d61",
+        "section": "Ética × moral × moralidade administrativa"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Etica%20Publica/01%20-%20etica%20moralidade%20e%20interesse%20publico.md",
+        "locator": "Capítulo 4: Ética, moralidade e interesse público · seção: Ética × moral × moralidade administrativa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-etica-moralidade-interesse"
+      ],
+      "contrast": {
+        "prompt": "A alegação de que uma decisão foi conveniente ao governo basta para demonstrar que atendeu ao interesse público?",
+        "answer": "Não. É necessário justificar a finalidade pública juridicamente admissível e respeitar princípios como legalidade, impessoalidade e moralidade."
+      }
+    },
+    {
+      "id": "camara-redacao-comparar-criterio",
+      "term": "Comparar × justapor definições",
+      "definition": "Comparar exige examinar dois ou mais objetos segundo um critério comum e explicitar diferenças ou semelhanças relevantes; justapor definições apenas apresenta informações sem estabelecer a relação solicitada pelo comando.",
+      "example": "Ao comparar publicidade administrativa e institucional, explicite finalidade, responsável e limite jurídico para cada uma, em vez de listar dois conceitos sem conexão.",
+      "confusion": "Repetir o tema ou apresentar duas definições não cumpre necessariamente um comando de comparação.",
+      "topic": "Redação Discursiva e Peça Técnica",
+      "subjectIds": [
+        "redacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.9.1 / questões discursivas e peça técnica"
+      ],
+      "note": {
+        "articleId": "art-f48a60de2c874a91",
+        "section": "Método: uma tabela mental, depois prosa"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Redacao/08%20-%20resposta%20comparativa%20e%20fronteiras%20conceituais.md",
+        "locator": "Capítulo 1: Resposta comparativa e fronteiras conceituais · seção: Método: uma tabela mental, depois prosa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-redacao-comparar-criterio"
+      ],
+      "contrast": {
+        "prompt": "Uma resposta que define separadamente dois conceitos sempre atende ao comando “compare”?",
+        "answer": "Não. A comparação precisa declarar o critério e relacionar os conceitos pelas semelhanças ou diferenças pertinentes."
+      }
+    },
+    {
+      "id": "camara-redacao-aplicar-norma",
+      "term": "Fundamento normativo × conclusão aplicada",
+      "definition": "Resposta normativa aplicada identifica a regra, os fatos relevantes que satisfazem ou não sua hipótese de incidência e a consequência jurídica. Citar um artigo sem conectá-lo aos fatos não demonstra sua aplicação.",
+      "example": "Se a Constituição veda promoção pessoal em publicidade oficial, a resposta deve apontar qual elemento do caso atribui a ação à autoridade e explicar como isso se relaciona ao art. 37, § 1º.",
+      "confusion": "Não conclua pela violação apenas pela presença de fotografia ou nome; identifique o fato decisivo e o critério normativo aplicável.",
+      "topic": "Redação Discursiva e Peça Técnica",
+      "subjectIds": [
+        "redacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.9.1 / questões discursivas e peça técnica"
+      ],
+      "note": {
+        "articleId": "art-a64d0f28e3794c1b",
+        "section": "Procedimento de decisão em seis passos"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Redacao/09%20-%20resposta%20normativa%20aplicada%20em%2020%20linhas.md",
+        "locator": "Capítulo 2: Resposta normativa aplicada em até 20 linhas · seção: Procedimento de decisão em seis passos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-redacao-aplicar-norma"
+      ],
+      "contrast": {
+        "prompt": "Citar o número do artigo, sem relacioná-lo aos fatos narrados, basta para resolver um caso normativo?",
+        "answer": "Não. É preciso mostrar a regra aplicável, confrontá-la com o fato decisivo e explicitar a consequência."
+      }
+    },
+    {
+      "id": "camara-redacao-peca-finalidade",
+      "term": "Peça técnica × texto dissertativo genérico",
+      "definition": "Peça técnica responde a uma tarefa profissional situada e a um gênero ou formato pedido; sua estrutura e conteúdo devem atender à finalidade e aos quesitos do comando, observando o limite de linhas.",
+      "example": "Se o comando pede diagnóstico e encaminhamentos, a resposta precisa identificar o problema e propor medidas compatíveis; uma exposição teórica genérica pode não cumprir a tarefa.",
+      "confusion": "Não invente gênero, destinatário ou providência que o comando não solicitou; a peça deve ser ajustada ao enunciado.",
+      "topic": "Redação Discursiva e Peça Técnica",
+      "subjectIds": [
+        "redacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.9.1 / questões discursivas e peça técnica"
+      ],
+      "note": {
+        "articleId": "art-9e73c4d680ae4219",
+        "section": "Método de execução"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Redacao/06%20-%20planejamento%20e%20escrita%20de%20peca%20tecnica.md",
+        "locator": "Capítulo 3: Planejamento e escrita de peça técnica de até 50 linhas · seção: Método de execução"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-redacao-peca-finalidade"
+      ],
+      "contrast": {
+        "prompt": "Uma peça técnica bem escrita pode perder aderência se não executar a tarefa solicitada?",
+        "answer": "Sim. Clareza formal não substitui atendimento ao comando, aos quesitos e à finalidade profissional definida."
+      }
+    },
+    {
+      "id": "camara-orc09-fonte-natureza-receita",
+      "term": "Natureza da receita × fonte/destinação",
+      "definition": "Natureza da receita classifica a origem econômica do ingresso conforme a estrutura própria; fonte/destinação de recursos indica a vinculação ou finalidade de uso dos recursos. São classificações diferentes e podem descrever o mesmo valor simultaneamente.",
+      "example": "Um tributo pode ser classificado por sua natureza e, em registro distinto, associado a uma fonte que vincule parte da arrecadação a certa finalidade.",
+      "confusion": "Fonte/destinação não substitui natureza da receita, e receita corrente ou de capital não equivale a recurso livre ou vinculado.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f13b65a28d8c4e91",
+        "section": "Fonte/destinação de recursos × natureza da receita"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04a%20-%20classificacao%20da%20receita.md",
+        "locator": "Capítulo 9: Classificação da receita: natureza, fonte e resultado primário · seção: Fonte/destinação de recursos × natureza da receita"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-orc09-fonte-natureza-receita"
+      ],
+      "contrast": {
+        "prompt": "Natureza da receita e fonte/destinação respondem à mesma pergunta classificatória?",
+        "answer": "Não. Natureza identifica a categoria/origem do ingresso; fonte/destinação evidencia a vinculação ou aplicação dos recursos."
+      }
+    },
+    {
+      "id": "camara-orc10-classificacao-despesa",
+      "term": "Classificações da despesa × hierarquia única",
+      "definition": "Classificações da despesa respondem a perguntas distintas: esfera, órgão e unidade (institucional), função e subfunção (funcional), programa e ação (programática), e natureza do gasto (econômica). Elas coexistem, não formam uma sequência única de níveis substituíveis.",
+      "example": "Uma ação de saúde da União pode ser apresentada por esfera, órgão, função, programa e grupo de natureza da despesa; cada código descreve aspecto próprio.",
+      "confusion": "Modalidade de aplicação classifica como os recursos são aplicados ou transferidos; não é modalidade de licitação nem fase do gasto.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-28b3d9ef86aa4510",
+        "section": "Núcleo: que pergunta cada registro de despesa responde?"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/04b%20-%20classificacao%20da%20despesa.md",
+        "locator": "Capítulo 10: Classificação da despesa: esfera, função, programa e natureza · seção: Núcleo: que pergunta cada registro de despesa responde?"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-orc10-classificacao-despesa"
+      ],
+      "contrast": {
+        "prompt": "Função, órgão, programa e natureza da despesa são níveis sucessivos de uma única classificação?",
+        "answer": "Não. São classificações que descrevem dimensões diferentes e complementares da programação orçamentária."
+      }
+    },
+    {
+      "id": "camara-orc11-tipos-creditos",
+      "term": "Crédito suplementar × especial × extraordinário",
+      "definition": "Crédito suplementar reforça dotação existente; especial atende despesa sem dotação específica; extraordinário atende despesa urgente e imprevisível nas hipóteses constitucionais. Autorização e abertura seguem regras próprias (CF, art. 167, V e § 3º).",
+      "example": "Se há dotação insuficiente para uma despesa já prevista, a hipótese é de suplementação; se falta dotação específica, pode caber crédito especial, observados os requisitos.",
+      "confusion": "Pressa administrativa não torna a despesa imprevisível nem permite escolher livremente o crédito extraordinário.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05%20-%20creditos%20adicionais%20e%20emendas%20parlamentares.md",
+        "locator": "Capítulo 11: Créditos adicionais: espécies, abertura e fontes · seção: Suplementar, especial e extraordinário"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-orc11-tipos-creditos"
+      ],
+      "contrast": {
+        "prompt": "A falta de dotação específica e a dotação existente insuficiente correspondem ao mesmo tipo de crédito?",
+        "answer": "Não. A primeira pode exigir crédito especial; a segunda caracteriza reforço por crédito suplementar."
+      }
+    },
+    {
+      "id": "camara-orc12-emenda-impositiva",
+      "term": "Emenda impositiva × execução sem condições",
+      "definition": "Impositividade torna obrigatória a execução nos termos e limites constitucionais, mas não elimina impedimentos técnicos, regras fiscais e demais condições de execução. As emendas individuais, de bancada e de comissão têm regimes e limites próprios.",
+      "example": "Uma emenda individual aprovada deve ser executada segundo a Constituição, mas um impedimento técnico devidamente caracterizado pode afetar sua execução conforme o procedimento aplicável.",
+      "confusion": "Obrigatoriedade de execução não é autorização para ignorar impedimento técnico, compatibilidade orçamentária ou transparência.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas impositivas: obrigatoriedade condicionada"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/05a%20-%20emendas%20parlamentares%20e%20orcamento%20impositivo.md",
+        "locator": "Capítulo 12: Emendas parlamentares e orçamento impositivo · seção: Emendas impositivas: obrigatoriedade condicionada"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-orc12-emenda-impositiva"
+      ],
+      "contrast": {
+        "prompt": "A natureza impositiva de uma emenda elimina qualquer condição técnica ou fiscal para sua execução?",
+        "answer": "Não. A execução obrigatória observa condições constitucionais e legais, inclusive impedimentos técnicos e limites aplicáveis."
+      }
     }
   ]
 }

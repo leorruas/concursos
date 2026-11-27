@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 31945)
+Total output lines: 675
+
 ---
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
@@ -8,6 +11,34 @@ updated: 2026-11-17
 ---
 
 # CGU 2026: estado editorial de Orçamento Público
+
+## Auditoria questão–teoria dos 15 artigos CGU (27/11/2026)
+
+**Escopo e identidade:** somente artigos próprios com `concursoId: cgu-2026`; não usei texto, questão ou certificação Câmara como substituto. Inventário do corpus atual: 15 IDs e **157 itens C/E** (57 nos cinco artigos iniciais; 100 nos dez derivados, conforme histórico editorial). Contagens por artigo: PPA/LDO/LOA 8, ciclo 8, esferas 15, princípios 12, classificações gerais 14, natureza/fonte 10, classificação da despesa 10, créditos 10, emendas 10, programação/contingenciamento 10, receitas 10, despesa 10, RP/DEA/suprimento 10, Conta Única 10 e responsabilidade fiscal 10. A divergência histórica na classificação geral (12 em versões antigas, 14 no arquivo atual) foi resolvida pela contagem direta do arquivo atual.
+
+**Método:** confrontei a correspondência dos itens com as seções de teoria e os comentários locais, e preservei como evidência histórica as leituras e certificações individualizadas já registradas abaixo. As questões iniciais e derivadas foram construídas com regra, aplicação e fonte; os relatórios registram uma segunda leitura de mérito dos artigos, itens e fontes. Para a atualização recente, os cinco artigos alterados foram relidos com os novos trechos e gabaritos mantidos; a LC nº 239/2026 foi cotejada no [Planalto](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm), juntamente com os dispositivos atuais da [LC nº 200/2023](https://planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm) e da [LRF](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm). Não tratei referências a atos de exercício como regras permanentes.
+
+| articleId CGU | Assunto | Itens atuais | Relação resposta–teoria conferida |
+| --- | --- | ---: | --- |
+| `art-a07c26f4e92031ab` | Ciclo e evidências | 8 | Cada comentário separa dotação, execução, liquidação, pagamento, entrega e resultado; teoria apresenta documentos/evidências. |
+| `art-9dc8a6e2f31b47c0` | PPA, LDO e LOA | 8 | Itens sobre iniciativa, investimento plurianual, anexos fiscais, risco, prazos ADCT e MOMP têm regra e condição expostas; remissões operacionais permanecem no percurso CGU. |
+| `art-c84d6e02f3b7a915` | Esferas e estatais | 15 | Comentários aplicam separadamente controle, dependência, exceção de aporte, esfera, contrato de gestão e condições anuais; a teoria desenvolve o critério e os limites temporais. |
+| `art-b419ac8206de7f35` | Princípios e vedações | 12 | Respostas distinguem unidade/universalidade, exclusividade, não afetação, regra de ouro, reabertura e ressalva de CT&I; a teoria contém requisitos aplicáveis. |
+| `art-e6b481a230fc795d` | Classificações de receitas e despesas | 14 | Itens distinguem natureza, fonte, resultado, esfera, GND, RP/IU e função; fundamento atualizado da LDO está associado ao § 10 para IU e § 4º para RP, corrigindo referência histórica documentada abaixo. |
+| `art-e4c982a6713d4bf5` | Natureza, fonte e resultado da receita | 10 | Comentários explicitam receita corrente/de capital, primária/financeira, entrada orçamentária, ARO e período; teoria expõe critérios de classificação. |
+| `art-3f9d17a6c04b4e82` | Classificação da despesa e rastreamento | 10 | Itens relacionam classificação ao objeto e distinguem esfera, função, ação, GND, modalidade e elemento; teoria inclui trilha de evidências e cautela de códigos anuais. |
+| `art-83d7c5ef2a0b4916` | Créditos adicionais | 10 | Espécie, autorização, abertura, fonte e reabertura são explicados; art. 12 da LC 239 tem condições cumulativas, valor e vínculo operacional com contingenciamento. |
+| `art-a91ef3c628d04b57` | Emendas, rastreabilidade e controle | 10 | Itens separam aprovação, transferência, execução, rastreabilidade e controle; teoria não converte transferência integral em prova de entrega/beneficiário final. |
+| `art-6f2c1ae9d483457b` | Programação, contingenciamento e bloqueio | 10 | Comentários distinguem art. 8º, art. 9º, bloqueio de limite primário e nova autorização federal; a seção LC 239 identifica sujeito, gatilho, ressalvas e efeito. |
+| `art-b3e5d91a740c46f8` | Receitas, registros e evidências | 10 | Teoria e comentários separam previsão, lançamento quando cabível, arrecadação, recolhimento e reconhecimento patrimonial; ARO e ingressos compensatórios não são equiparados a receita ordinária. |
+| `art-79e2c6a4f80143bd` | Despesa, empenho e liquidação | 10 | Itens exigem dotação, empenho, comprovação de entrega, liquidação e pagamento em etapas; comentário e teoria localizam a evidência exigida. |
+| `art-c85e29a3741f40bd` | RP, DEA e suprimento | 10 | Distinções entre processado/não processado, obrigação material, DEA e suprimento constam na teoria; item da LC 239 remete à seção CGU correta e limita o alcance transitório. |
+| `art-7a4f21e965d048b3` | Conta Única e execução financeira | 10 | Itens distinguem crédito, liberação financeira, Conta Única e pagamento; comentário não trata saldo pago como prova de entrega/resultado. |
+| `art-d218c459af1e4b73` | Responsabilidade fiscal | 10 | Comentários e teoria separam dívida/resultado, RCL/caixa, RREO/RGF, limites por ente e Poder, riscos e bloqueio/contingenciamento. |
+
+**Resultado:** não identifiquei contradição atual entre gabaritos e teoria local no recorte questão–resposta, nem remissão nova da LC 239 para artigo Câmara. As verificações de cada conteúdo permanecem vinculadas aos IDs CGU acima; fontes e correções históricas (incluindo a referência errada de IU antes corrigida) não foram apagadas. Não alterei enunciados, gabaritos, IDs ou artigos nesta rodada.
+
+**Limite:** a relação questão–teoria foi avaliada usando o conteúdo atual e as segundas leituras/fonte por artigo já registradas no estado, inclusive os 100 itens dos derivados. Esta atualização não afirma que 157 itens foram reexecutados por um novo avaliador independente nesta data, não valida automaticamente qualquer alteração futura e não constitui inspeção visual. Os artigos permanecem com ressalva visual aceita pelo usuário; não há mudança no catálogo, flashcards, glossário ou banco da Câmara.
 
 ## Auditoria de atualização normativa e remissões (27/11/2026)
 
@@ -301,51 +332,7 @@ A presente branch solicita nova execução do workflow de validação PR sobre o
 
 O teste `scripts/test-contest-catalog.js` agora exige explicitamente a identidade do artigo PPA da CGU e a presença dos outros quatro IDs exclusivos no currículo CGU, sem retorno acidental dos seus IDs históricos ao mesmo catálogo. Simultaneamente, protege a permanência dos quatro artigos históricos na lista da Câmara, sem inclusão indevida dos derivados CGU. O teste também verifica que os flashcards do orçamento CGU não retornem aos IDs antigos e que a presença dos vínculos próprios de ciclo e princípios não seja perdida. O validador canônico `scripts/validate-flashcards.js` continua a verificar a existência das seções referenciadas nos artigos.
 
-**O que essa evidência cobre:** identidade, pertencimento ao concurso, compatibilidade histórica e regressão da navegação/flashcards verificados pelo CI. **Não cobre:** verificação visual, conteúdo jurídico integral, publicação no Pages em produção. A separação técnica está mais protegida, mas a **certificação editorial continua 0/5**. Os cinco capítulos CGU mantêm **57 itens C/E**, IDs próprios e a arquitetura implantada.
-
-**Pages:** tentativas de leitura pública de `/manifest.json` e `/data/catalogo-materias-por-concurso.json` não retornaram conteúdo acessível pelo mecanismo disponível. Não inferir sucesso de deploy a partir de CI de pull request.
-
-## Auditoria de acesso a fontes primárias: 17/11/2026
-
-**Problema documentado:** os endereços do Planalto usados nas cinco notas CGU para Constituição Federal, Lei nº 4.320/1964 e Lei Complementar nº 101/2000 redirecionavam, na consulta pública de 17/11/2026, para portal de verificação de acesso, sem entregar diretamente o texto legal. Foram localizadas e abertas as versões **atualizadas em HTML** dessas três normas no portal oficial da Câmara dos Deputados, com identificação da norma e redação pesquisável:
-- Constituição Federal: `https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html`
-- Lei nº 4.320/1964: `https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html`
-- Lei Complementar nº 101/2000: `https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html`
-
-**Reparo realizado nas cinco notas:** 14 ocorrências de referências ao Planalto foram substituídas por links para os textos atualizados da Câmara, sem alterar os enunciados, justificativas, classificações, `articleId` ou vínculos da Câmara. Os endereços antigos do Planalto não permanecem nessas cinco notas. Commits de artigos: `1cd1ec3b3d0df85f5a90ca858509bee3ccc61ab9`, `b3362b3f2ebd1257e576fdeacee2d5457b5bd296`, `c6a171a274abe435ff24dfbd17af444bee2248cc`, `1a61899ca2e4f1f984b73a725a4581f37a6625bf` e `b7490c492aaf123eb1fb01486423abd02162df16`. Os demais links oficiais, incluindo a LDO 2026, ADCT e Decreto nº 12.500/2025, foram mantidos.
-
-**Leitura estrutural posterior na main:** as cinco notas preservam IDs individuais; itens C/E por capítulo: 8 + 8 + 15 + 12 + 14 = **57**. Os 57 itens são consecutivos e têm gabaritos explícitos; os wikilinks examinados entre as cinco notas apontam para os destinos CGU existentes. Não se constatou quebra estrutural na leitura remota.
-
-**Estado de certificação:** o reparo de acessibilidade das fontes não constitui verificação de todas as citações jurídicas ou de efeitos de alterações legislativas. Permanecem **0/5 certificações finais** até a segunda leitura jurídica/didática integral por artigo, aprovação dos gates técnicos atuais e verificação de manifesto e catálogo efetivamente servidos no GitHub Pages. A presente branch solicita CI de regressão sobre o lote de correções de fontes; registrar o run e resultado ao final. A issue #362 acompanha o gate Pages.
-
-## Homologação técnica do reparo de fontes: 17/11/2026
-
-O [PR #367](https://github.com/leorruas/concursos/pull/367) validou por GitHub Actions o estado posterior à troca de 14 URLs oficiais nos cinco artigos CGU. Workflow `Validar site público (PR)`, execução [44177038965](https://github.com/leorruas/concursos/actions/runs/44177038965), HEAD `f7ed5ba2fbbf66948174be16e09b756b7fe2b20a`, conclusão **success**; integrado por squash na `main` no commit `e6759cc1aeacd7ffd484bdeff59fd96b763afa3b`. Preservados os 57 gabaritos C/E e a independência das trilhas CGU/Câmara. O novo CI cobre as mesmas validações funcionais/estruturais do pipeline público de PR, incluindo catálogo, referências, flashcards, build, privacidade e busca; não testa o `manifest.json` servido pelo Pages após o merge.
-
-**Segunda leitura focal de fontes atualizadas da Câmara:** conferidos o art. 35, § 2º, do ADCT para os prazos federais, os arts. 2º, 3º, 5º, 6º e 58 da Lei nº 4.320/1964, os arts. 2º, 4º e 9º da LRF (Lei Complementar nº 101/2000), e os arts. 6º, 7º e 52 da LDO 2026 (Lei nº 15.321/2025) nos pontos utilizados como base para as questões e explicações. Não se infere auditoria integral de todos os trechos constitucionais e legais citados a partir desse cotejo focal.
-
-**Status por artigo mantido:** PPA `art-9dc8a6e2f31b47c0`, ciclo `art-a07c26f4e92031ab`, esferas `art-c84d6e02f3b7a915`, princípios `art-b419ac8206de7f35` e classificações `art-e6b481a230fc795d` continuam integrados, com fontes acessíveis e **certificação editorial final pendente**. Cinco artigos, 57 itens C/E, 0 certificados. O único gate do PR #367 já foi aprovado; verificar a execução de deploy e o catálogo/manifesto ao vivo no Pages e terminar o confronto editorial integral por `articleId` antes da certificação. A issue #362 continua aberta para o fechamento.
-
-## Segunda leitura integral individual: PPA/LDO/LOA e ciclo, 17/11/2026
-
-Foram realizadas leituras integrais do texto, tabelas, exemplos, oito enunciados e oito gabaritos de cada capítulo abaixo, com confronto dos pontos normativos específicos com as **versões atualizadas em HTML da Câmara dos Deputados** e com o programa do edital CGU (Cargo 1, Auditoria). O objetivo foi fechar a dimensão editorial de cada artigo; publicação no Pages é controle distinto.
-
-### PPA, LDO e LOA, `art-9dc8a6e2f31b47c0`
-
-**Blob auditado:** `af7a1cf890b9b013bdd80125b7a27e3baf2d7cb4`. Conferidos: natureza e iniciativa das três leis (CF art. 165); PPA regionalizado e vigência intermandatos (CF art. 165, § 1º; ADCT art. 35, § 2º, I); investimento plurianual e alternativa de lei autorizativa (CF art. 167, § 1º); conteúdo da LDO (CF art. 165, § 2º; LRF art. 4º); limitação bimestral de empenho (LRF art. 9º); LOA e três orçamentos (CF art. 165, § 5º); marcos de envio e devolução dos projetos federais (ADCT art. 35, § 2º, I a III). As tabelas de instrumentos, prazos e evidências foram lidas integralmente e mantidas. C/E **1 a 8** foram cotejados individualmente com os dispositivos e a diferença entre autorização, execução e resultado; gabaritos coerentes. Os dois wikilinks para artigos próprios CGU têm destinos identificados na `main`. Sem Mermaid. Nenhuma lacuna que exigisse alteração foi identificada nesta rodada.
-
-**Status editorial:** `segunda leitura jurídica e didática concluída; certificação técnica de publicação pendente`, com SHA acima. **Não classificar como certificado**, nem mesmo com ressalva visual, até evidência do último Pages correspondente ao conteúdo.
-
-### Ciclo orçamentário e evidências de auditoria, `art-a07c26f4e92031ab`
-
-**Blob auditado:** `3f8a392726c63313155ff53d8849c0f3129983c4`. Conferidos: quatro fases do ciclo e sua sobreposição; iniciativa do Executivo e deliberação legislativa (CF art. 165); lei orçamentária (Lei nº 4.320/1964, art. 2º); empenho, limite de créditos, liquidação e ordem de pagamento (Lei nº 4.320/1964, arts. 58 a 65); programação e limitação de empenho (LRF arts. 8º e 9º); controle interno e externo e avaliação de resultados (CF arts. 70, 71 e 74). Tabelas, caso de equipamentos, evidências documentais, conceitos de produto versus resultado e C/E **1 a 8** revistos individualmente, sem contradições detectadas. Destino do wikilink PPA CGU identificado na `main`; sem Mermaid.
-
-**Status editorial:** `segunda leitura jurídica e didática concluída; certificação técnica de publicação pendente`, no SHA indicado. A certificação final exige Pages ao vivo e os demais gates de `AGENTS.md`.
-
-### Referências primárias efetivamente consultadas
-
-- CF atualizada: `https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html`, arts. 70, 71, 74, 165 e 167.
-- ADCT atualizado: `https://www2.camara.leg.br/legin/fed/conadc/1988/constituicao.adct-1988-5-outubro-1988-322234-normaatualizada-pl.html`, art. 35, § 2º.
+**O que essa evidência cobre:** identidade, pertencimento ao concurso, compatibilidade histórica e regressão da navegação/flashcards verificados pelo CI. **Não cobre:** verificação visual, conteúdo jurídico integral, publicação no Pages em produção. A sep…1945 tokens truncated…//www2.camara.leg.br/legin/fed/conadc/1988/constituicao.adct-1988-5-outubro-1988-322234-normaatualizada-pl.html`, art. 35, § 2º.
 - Lei nº 4.320/1964 atualizada: `https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html`, arts. 2º, 58 a 65.
 - LRF atualizada: `https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html`, arts. 4º, 8º e 9º.
 - Edital CGU nº 1/2026 (Cebraspe), programa oficial: `https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html`.

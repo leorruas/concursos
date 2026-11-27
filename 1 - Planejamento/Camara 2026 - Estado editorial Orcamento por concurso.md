@@ -4,10 +4,42 @@ type: estado-auditoria-editorial
 concursoId: camara-2026
 status: acompanhamento-pos-arquitetura
 created: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-27
 ---
 
 # Câmara 2026: estado editorial de Orçamento Público por concurso
+
+## Auditoria questão–teoria nos 19 artigos (27/11/2026)
+
+**Escopo:** trilha Câmara 2026, Cargo 1, sem transferir certificação ou conteúdo da CGU. Inventário de 19 artigos canônicos, identificados por `articleId`; hub, lembretes e blueprints não contam como artigos. Contei as afirmações C/E nos blocos editoriais atuais: 19 artigos, **73 itens** (incluindo o gabarito em seção separada de ORC04 e as baterias adicionais de ORC06/09/10/11). A soma é inventário do estado publicado, não medida de desempenho nem homologação da banca.
+
+**Método e evidências:** confrontei o inventário com os relatórios precedentes da auditoria Constitucional, em especial o procedimento que exige ler o texto integral, comparar cada item e comentário com a norma, conferir se a teoria local efetivamente ensina a regra e registrar separadamente gabarito correto, lacuna didática e publicação. Para Orçamento, os blocos 70–75 e 81 registram conferências dirigidas anteriores de 64 itens legados e nove itens acrescentados depois em artigos específicos; blocos 72–75 e as frentes A/B/C registram outras rechecagens. Não contei essas verificações como reexecutadas nesta rodada. Reabri os textos atuais e os comentários; para esta passagem, cotejei fundamentos nucleares na [Constituição atualizada](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), [Lei nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm), [LRF](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm), [LC nº 200/2023](https://planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm), [LC nº 239/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm) e [Resolução nº 1/2006-CN atualizada](https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-norma-pl.html). A evidência dirigida está nos blocos anteriores citados; esta nota não declara nova validação individual e exaustiva de todos os 73 itens.
+
+| Artigo / articleId | Itens atuais | Regra que o comentário responde e localização da explicação |
+| --- | ---: | --- |
+| ORC01 `art-f6cfe9fbcc764554` | 4 | Fase legislativa vs execução, controle concomitante, CMO vs Congresso e iniciativa vs preparação; o texto define agentes e fases. Base dirigida nos blocos 71/75; sem inversão registrada. |
+| ORC02 `art-c301f2c741504403` | 2 | Transição do PPA e exceção da exclusividade para crédito suplementar; a teoria separa autorização de abertura. Bloco 74 e seção LC 239 acima. |
+| ORC02a `art-74d90e9fa1b3452c` | 3 | Controle acionário vs dependência financeira, exceção de aporte acionário e garantia/prejuízo vs transferência; comentário explicita escopo LRF 2º II/III. Blocos 71/75, sem inversão identificada; o artigo contém 3 itens C/E próprios, cada qual com comentário explicativo. |
+| ORC03 `art-a2f47c0d6e184e93` | 3 | Unidade da LOA, não afetação de impostos e requisitos da exceção à regra de ouro; teoria contém separação e critérios. Bloco 74, 3/3 nos fundamentos cotejados. |
+| ORC04 `art-d8b1c5e6037249fa` | 5 | Matricialidade função/subfunção, fonte/natureza, GND/esfera e classificação institucional/programática; comentários em gabarito separado desenvolvem os cinco itens. Blocos 74/75, sem inversão apontada. |
+| ORC04a `art-f13b65a28d8c4e91` | 2 | Receita de capital vs indicador financeiro/primário e operação de crédito comum vs ARO; teoria usa critérios separados. Bloco 74, 2/2 no recorte. |
+| ORC04b `art-28b3d9ef86aa4510` | 2 | GND Investimentos vs esfera de investimento e projeto vs GND; comentários aplicam classificação por critério próprio. Bloco 74, 2/2 no recorte. |
+| ORC05 `art-87b69e1d4ac54f20` | 2 | Crédito suplementar vs especial; superávit financeiro como fonte com condições; teoria distingue espécies e art. 43. Blocos 71/73 e rechecagem atual, sem inversão apontada. |
+| ORC05a `art-715e2d16a93446cb` | 1 | Transferência especial dispensa convênio, não controle; comentário aponta art. 166-A e condições de fiscalização. Blocos 71/75. |
+| ORC06 `art-0fb9b88e4d6c4151` | 7 | Cronograma art. 8º, limitação art. 9º, bloqueio LDO, recuperação da receita, prazos e estágios da despesa; teoria diferencia fundamentos. Blocos 72/73 cotejaram 14 itens em versões/blocos abrangidos; nenhum erro confirmado nos pontos examinados. LC 239 integrada na teoria e remissão recente. |
+| ORC07 `art-4677cfa327ce43bb` | 4 | Previsão, lançamento, receita sem previsão, ARO e restituição; comentário distingue evento orçamentário e crédito tributário. Blocos 73/75, sem inversão identificada. |
+| ORC08 `art-67167e9c18284c4c` | 5 | Dispensa de nota vs empenho, estimativo, liquidação, obrigação e recebimento; artigo desenvolve as etapas e provas. Bloco 73 e estado B, sem inversão identificada. |
+| ORC09 `art-6e4e79c7f4bb4aa3` | 6 | RP processado/não processado, empenho plurianual, DEA e suprimento; teoria distingue lei literal e MCASP no cancelamento. Blocos 73/74, sem inversão nos 6 itens então lidos; reabertura LC 239 registrada acima. |
+| ORC10 `art-743d234d819842d1` | 3 | Destaque vs repasse, Conta Única e cota financeira; a teoria separa descentralização de crédito e fluxo de caixa. Bloco 75, 5 itens (2 de refinamento e 3 didáticos) em versões anteriores; sem inversão reportada. |
+| ORC11 `art-91ab320cdfb64b8a` | 7 | RREO/RGF, limite prudencial, art. 42 e controle parlamentar; teoria nomeia período, sujeito e efeito. Bloco 72 cotejou sete itens; seção LC 239 acima atualiza o recorte federal. |
+| ORC12 `art-4be219d8f750ac63` | 3 | Iniciativa, proposta da Câmara e registro SIOP vs liquidação; as seções da proposta e do MOMP dão a resposta. Bloco 70 e 81; sem inversão registrada nos itens cobertos. |
+| ORC13 `art-d8f21b70c49e563a` | 3 | Duas Casas/Regimento Comum, condições para emendas de despesa e sessão legislativa; teoria distingue parecer, emenda e deliberação. Bloco 70, sem inversão reportada. |
+| ORC14 `art-c917e4a2d63b508f` | 3 | Composição da CMO, atribuição do comitê e votação prévia de relatório; teoria desenvolve composição e competências. Bloco 70, com ressalvas regimentais quanto a escopo/alterações. |
+| ORC15 `art-9d42c1f68a7be053` | 8 | Emenda de bancada, atos de comissão, mudança de programação/beneficiário e limites de destinação; comentário aponta os requisitos específicos. Blocos 70/75 e estado C; itens posteriores ampliaram o corpus além dos três do bloco 70. |
+
+**Conclusão pedagógica:** os comentários e seções indicados respondem às regras julgadas nos itens; a resposta não foi presumida correta apenas porque traz “Certo/Errado”. Os registros dirigidos não indicam inversões nos recortes cotejados. **Não encontrei nesta leitura focal um erro material novo que justificasse reescrever enunciados ou gabaritos.** ORC02a contém 3 itens C/E; a checagem atual encontrou correspondência entre os comentários e a teoria do artigo. Não criei exercícios nesta missão nem alterei questões ou dados históricos.
+
+**Limite e estado:** esta é uma auditoria de relação questão–teoria com evidências cumulativas, não uma nova leitura linha a linha de 73 itens e de todas as fontes/atos anuais. As verificações anteriores da Câmara e suas limitações permanecem identificadas nos estados A/B/C e relatórios 70–81. Não atualiza automaticamente o status de certificação visual, não modifica catálogo e não altera `data/questoes-camara.json`.
 
 ## Auditoria de integração normativa da LC nº 239/2026 (27/11/2026)
 

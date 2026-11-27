@@ -28695,6 +28695,978 @@
         "prompt": "O elemento mais importante precisa sempre ser o maior elemento da peça?",
         "answer": "Não. Tamanho pode contribuir, mas hierarquia também depende de contraste, posição, espaço e relações; a prioridade precisa ser percebida sem sacrificar legibilidade."
       }
+    },
+    {
+      "id": "camara-comunicacao-91-pre-impressao-formato-e-imposicao",
+      "term": "Pré-impressão, formato e imposição",
+      "definition": "Produção gráfica transforma um projeto em arquivo e material impresso. Formato aberto é a dimensão da peça antes do acabamento; formato fechado é o tamanho final; imposição organiza páginas na folha para que, após impressão e dobra, fiquem na ordem correta.",
+      "example": "Um livreto pode ser montado em folhas maiores com páginas em posições que só parecem desordenadas antes da dobra e do corte.",
+      "confusion": "A página lógica do documento não corresponde necessariamente à posição física na folha impressa; formato fechado não é sinônimo de formato de arquivo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-58a3d91e6c427bf0",
+        "section": "Formato aberto, fechado, página, folha e imposição"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/113%20-%20producao%20grafica%20pre%20impressao%20formatos%20e%20materiais.md",
+        "locator": "Capítulo 91: Produção gráfica: pré-impressão, formatos e materiais · seção: Formato aberto, fechado, página, folha e imposição; fundamento: Produção gráfica; pré-impressão, formatos, folhas e imposição."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-91-pre-impressao-formato-e-imposicao"
+      ],
+      "contrast": {
+        "prompt": "Ver páginas fora de ordem no arquivo de imposição significa necessariamente que o projeto editorial está errado?",
+        "answer": "Não. A imposição posiciona páginas para impressão, dobra e acabamento; a sequência visual na folha pode diferir da leitura final do material."
+      }
+    },
+    {
+      "id": "camara-comunicacao-92-responsivo-e-adaptativo-na-producao-digital",
+      "term": "Responsivo e adaptativo na produção digital",
+      "definition": "Design responsivo reorganiza fluida ou progressivamente a apresentação conforme espaço e dispositivo; design adaptativo pode oferecer composições ou pontos de ajuste predefinidos. Mobile-first é uma estratégia de projeto que começa pelas necessidades de telas menores.",
+      "example": "Uma página responsiva reorganiza colunas em tela estreita; uma abordagem mobile-first define primeiro a experiência essencial no celular.",
+      "confusion": "Mobile-first não significa criar exclusivamente para celular; responsividade não é apenas reduzir a escala da página.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d64c8e1b705a392f",
+        "section": "Responsivo, adaptativo e mobile-first: princípios diferentes"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/114%20-%20producao%20digital%20responsividade%20acessibilidade%20e%20formatos.md",
+        "locator": "Capítulo 92: Produção digital: responsividade, acessibilidade e formatos · seção: Responsivo, adaptativo e mobile-first: princípios diferentes; fundamento: Produção digital; responsividade, reflow e acessibilidade."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-92-responsivo-e-adaptativo-na-producao-digital"
+      ],
+      "contrast": {
+        "prompt": "Uma página desenhada primeiro para celular deixa automaticamente de funcionar em desktop?",
+        "answer": "Não. Mobile-first é a ordem estratégica de projeto; a implementação deve se adaptar às condições dos demais dispositivos e contextos."
+      }
+    },
+    {
+      "id": "camara-comunicacao-93-roteiro-para-radio-e-escrito-para-escuta",
+      "term": "Roteiro para rádio é escrito para escuta",
+      "definition": "Produção audiovisual começa por finalidade, público, roteiro e plano de captação; cada meio exige adequação. No rádio, a mensagem é recebida no tempo da fala e pode ser ouvida uma única vez, por isso clareza, ritmo, repetição útil e identificação sonora importam.",
+      "example": "Um aviso de serviço apresenta primeiro o que o ouvinte precisa fazer, com frases curtas e indicação clara de horário e canal.",
+      "confusion": "Texto radiofônico não deve depender de imagem, tabela ou releitura imediata; uma instrução visual não pode ser simplesmente lida em voz alta sem adaptação.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-5d8b17c3e946a20f",
+        "section": "Rádio: escrever para ouvir uma vez"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/115%20-%20producao%20para%20radio%20televisao%20e%20redes%20sociais.md",
+        "locator": "Capítulo 93: Produção para rádio, televisão e redes sociais: roteiro, captação, edição e entrega · seção: Rádio: escrever para ouvir uma vez; fundamento: Produção para rádio, televisão e redes; roteiro, captação, edição e entrega."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-93-roteiro-para-radio-e-escrito-para-escuta"
+      ],
+      "contrast": {
+        "prompt": "Um roteiro de rádio pode depender de um gráfico exibido na tela para que a informação central seja compreendida?",
+        "answer": "Não. Rádio exige que a informação essencial seja transmitida pelo som; a mensagem precisa ser inteligível sem apoio visual."
+      }
+    },
+    {
+      "id": "camara-comunicacao-94-projeto-grafico-sistema-antes-da-peca",
+      "term": "Projeto gráfico: sistema antes da peça",
+      "definition": "Projeto gráfico transforma objetivos, conteúdo, público e condições de produção em um sistema visual. Conceito, hierarquia, composição, tipografia, cor e especificações técnicas devem funcionar em conjunto ao longo das peças.",
+      "example": "Uma série de cartilhas define padrão de títulos, cores e infográficos antes de diagramar cada volume.",
+      "confusion": "Uma peça isolada visualmente atraente não garante consistência nem adequação do projeto completo; sistema gráfico inclui regras de aplicação e produção.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-8c3f1b6d29e704a5",
+        "section": "Cinco camadas de decisão"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/116%20-%20projeto%20grafico%20conceito%20sistema%20e%20execucao.md",
+        "locator": "Capítulo 94: Projeto gráfico: conceito, sistema e execução · seção: Cinco camadas de decisão; fundamento: Projeto gráfico; conceito, sistema, hierarquia e execução."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-94-projeto-grafico-sistema-antes-da-peca"
+      ],
+      "contrast": {
+        "prompt": "Aprovar a capa de uma publicação basta para demonstrar que todo o projeto gráfico está resolvido?",
+        "answer": "Não. O projeto inclui sistema, composição, hierarquia, tipografia, aplicação ao conteúdo e especificações de produção para todas as peças."
+      }
+    },
+    {
+      "id": "camara-comunicacao-95-escopo-produto-e-resultado-audiovisual",
+      "term": "Escopo, produto e resultado audiovisual",
+      "definition": "Projeto audiovisual deve definir problema, escopo, produto a entregar, público e resultado esperado. Pré-produção organiza roteiro, equipe, autorizações, locações, plano de gravação e recursos antes da captação.",
+      "example": "O produto pode ser um vídeo acessível de orientação; o resultado esperado é que usuários encontrem e compreendam o procedimento.",
+      "confusion": "Entregar o arquivo final comprova a produção, mas não demonstra por si só que o resultado de comunicação foi alcançado.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-e38b75d219c064af",
+        "section": "Objeto, escopo, produto e resultado esperado"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/117%20-%20projeto%20audiovisual%20planejamento%20execucao%20e%20publicacao.md",
+        "locator": "Capítulo 95: Projeto audiovisual: planejamento, execução e publicação · seção: Objeto, escopo, produto e resultado esperado; fundamento: Projeto audiovisual; escopo, produto, resultado e pré-produção."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-95-escopo-produto-e-resultado-audiovisual"
+      ],
+      "contrast": {
+        "prompt": "Concluir a edição e entregar o vídeo prova automaticamente que o público compreendeu o procedimento?",
+        "answer": "Não. A entrega é um produto; compreensão é um resultado a avaliar com evidências próprias."
+      }
+    },
+    {
+      "id": "camara-comunicacao-96-objetivo-editorial-e-publico-da-publicacao",
+      "term": "Objetivo editorial e público da publicação",
+      "definition": "Produção editorial define finalidade institucional e objetivo editorial, público, necessidade informacional, recorte, linha e identidade da publicação. As decisões editoriais selecionam e organizam conteúdo para atender uma necessidade de informação.",
+      "example": "Uma publicação anual pode apresentar dados de prestação de contas para cidadãos e servidores, com recorte e linguagem adequados a esses leitores.",
+      "confusion": "Quantidade de páginas ou impressão é entrega, não objetivo editorial; publicar muito não prova que a necessidade de informação foi atendida.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6b3e9d125a704fc8",
+        "section": "Objetivo editorial, objetivo institucional e entregas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/118%20-%20producao%20editorial%20objetivos%20publicos%20linha%20e%20identidade.md",
+        "locator": "Capítulo 96: Produção editorial: objetivos, públicos, linha e identidade · seção: Objetivo editorial, objetivo institucional e entregas; fundamento: Produção editorial; objetivos, público e necessidade informacional."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-96-objetivo-editorial-e-publico-da-publicacao"
+      ],
+      "contrast": {
+        "prompt": "Definir que a revista terá 80 páginas constitui por si só o objetivo editorial?",
+        "answer": "Não. É uma especificação de entrega; objetivo editorial descreve a finalidade informacional e a necessidade do público que a publicação deve atender."
+      }
+    },
+    {
+      "id": "camara-comunicacao-97-distribuicao-e-avaliacao-cadeia-de-evidencias",
+      "term": "Distribuição e avaliação: cadeia de evidências",
+      "definition": "Avaliar publicação acompanha a cadeia entre produção, distribuição, acesso, leitura, compreensão e resultados. A escolha de canais precisa considerar propriedade, função, acessibilidade e as evidências disponíveis em cada etapa.",
+      "example": "Número de exemplares impressos mede produção; downloads medem acesso digital; compreensão demanda outra forma de pesquisa.",
+      "confusion": "Distribuir não equivale a alcançar, e alcançar não equivale a compreender. Métricas de etapas distintas não devem ser tratadas como intercambiáveis.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-7e42b19c5a603fd8",
+        "section": "Da impressão ao resultado: cadeia de evidências"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/119%20-%20distribuicao%20e%20avaliacao%20de%20publicacoes.md",
+        "locator": "Capítulo 97: Distribuição e avaliação de publicações · seção: Da impressão ao resultado: cadeia de evidências; fundamento: Distribuição e avaliação de publicações; evidências por etapa."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-97-distribuicao-e-avaliacao-cadeia-de-evidencias"
+      ],
+      "contrast": {
+        "prompt": "Imprimir e distribuir uma publicação demonstra que seus leitores compreenderam o conteúdo?",
+        "answer": "Não. Impressão e distribuição são etapas de produção e circulação; compreensão exige evidência sobre o que os leitores entenderam."
+      }
+    },
+    {
+      "id": "camara-comunicacao-98-etica-da-comunicacao-lei-profissao-e-autorregulacao",
+      "term": "Ética da comunicação: lei, profissão e autorregulação",
+      "definition": "A análise ética distingue legislação estatal, códigos profissionais, regras de autorregulação setorial e políticas institucionais. Esses regimes podem coexistir, mas têm sujeitos, fundamentos, procedimentos e consequências diferentes.",
+      "example": "Uma publicidade pode ser examinada pela legislação de consumo, pelo Código do CONAR e por regras internas, cada qual no seu âmbito.",
+      "confusion": "O CONAR exerce autorregulação publicitária; seu código não é lei estatal nem substitui órgãos judiciais ou competências públicas.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-9d53c74b18e602af",
+        "section": "Quatro fontes que a banca pode misturar"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/120%20-%20etica%20da%20comunicacao%20e%20da%20publicidade%20fronteiras.md",
+        "locator": "Capítulo 98: Ética da comunicação e da publicidade: princípios, regimes e fronteiras · seção: Quatro fontes que a banca pode misturar; fundamento: Legislação; códigos profissionais; Código do CONAR; normas institucionais."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-98-etica-da-comunicacao-lei-profissao-e-autorregulacao"
+      ],
+      "contrast": {
+        "prompt": "Uma recomendação do CONAR tem a mesma natureza jurídica de uma lei federal?",
+        "answer": "Não. O Código do CONAR integra autorregulação setorial; a lei federal é norma estatal. Podem coexistir e ter efeitos e procedimentos distintos."
+      }
+    },
+    {
+      "id": "camara-comunicacao-99-equipe-publicitaria-especializacao-e-coordenacao",
+      "term": "Equipe publicitária: especialização e coordenação",
+      "definition": "Equipes publicitárias reúnem especialidades como atendimento, planejamento, criação, mídia e produção. Papéis podem se sobrepor na prática, mas atribuições, autoridade e responsabilidade devem ser coordenadas conforme a estrutura e o projeto.",
+      "example": "Planejamento define estratégia, criação desenvolve conceito e peças, mídia recomenda distribuição, produção viabiliza execução; atendimento coordena a relação e o fluxo.",
+      "confusion": "Especialização não significa exclusividade absoluta, mas também não autoriza presumir que todos os profissionais aprovam ou executam as mesmas decisões.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4f73a9c12b60de85",
+        "section": "Papéis profissionais: especialização não é exclusividade"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/121%20-%20gestao%20de%20equipes%20publicitarias%20papeis%20trabalho%20e%20avaliacao.md",
+        "locator": "Capítulo 99: Gestão de equipes publicitárias: papéis, trabalho e avaliação · seção: Papéis profissionais: especialização não é exclusividade; fundamento: Gestão de equipes publicitárias; papéis, autoridade e coordenação."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-99-equipe-publicitaria-especializacao-e-coordenacao"
+      ],
+      "contrast": {
+        "prompt": "Como funções podem se sobrepor, qualquer integrante da equipe pode aprovar formalmente a campanha?",
+        "answer": "Não. Colaboração e sobreposição não apagam autoridade decisória; aprovações dependem das competências definidas no processo."
+      }
+    },
+    {
+      "id": "camara-comunicacao-100-conar-e-autorregulacao-publicitaria",
+      "term": "CONAR e autorregulação publicitária",
+      "definition": "O Código Brasileiro de Autorregulamentação Publicitária reúne princípios e regras éticas para anúncios no sistema de autorregulação do setor. Sua aplicação deve ser distinguida da legislação estatal e das competências de órgãos públicos.",
+      "example": "Um anúncio é questionado no CONAR por possível falta de identificação publicitária; a análise no sistema autorregulatório não elimina eventual aplicação da lei de consumo.",
+      "confusion": "O Código do CONAR não é lei e não torna o Conselho um tribunal estatal; a autorregulação convive com a legislação.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3e8a6c14f927b05d",
+        "section": "Artigos 1º a 8º: fundamento e âmbito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/122%20-%20codigo%20brasileiro%20de%20autorregulamentacao%20publicitaria%20principios%20e%20aplicacao.md",
+        "locator": "Capítulo 100: Código Brasileiro de Autorregulamentação Publicitária: princípios e aplicação · seção: Artigos 1º a 8º: fundamento e âmbito; fundamento: Código Brasileiro de Autorregulamentação Publicitária, CONAR; arts. 1º–8º."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-100-conar-e-autorregulacao-publicitaria"
+      ],
+      "contrast": {
+        "prompt": "Uma decisão do CONAR elimina automaticamente a possibilidade de análise por autoridade pública com competência legal?",
+        "answer": "Não. Autorregulação e controle estatal têm naturezas e competências próprias; a atuação de um não substitui automaticamente a do outro."
+      }
+    },
+    {
+      "id": "camara-comunicacao-102-lei-12-232-contratar-publicidade-nao-e-contratar-toda-comunicacao",
+      "term": "Lei 12.232: contratar publicidade não é contratar toda comunicação",
+      "definition": "A Lei nº 12.232/2010 disciplina licitações e contratos de serviços de publicidade prestados por agência, com etapas e critérios próprios. Seu art. 2º, § 2º, exclui do objeto desse contrato assessoria de imprensa, relações públicas e eventos festivos, sem ignorar a disciplina específica do art. 20-A para contratação de comunicação institucional.",
+      "example": "Uma campanha publicitária pode ser contratada pelo procedimento próprio; assessoria de imprensa não deve ser inserida como atividade indistinta nesse objeto.",
+      "confusion": "A exclusão do art. 2º, § 2º, não significa que serviços de comunicação institucional não possam ser contratados; o art. 20-A, incluído em 2022, remete sua contratação ao art. 5º.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-64e9b713c8a250df",
+        "section": "Mapa dos dispositivos: identificar a etapa antes de julgar"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/124%20-%20lei%2012232%202010%20procedimento%20julgamento%20execucao%20e%20fiscalizacao.md",
+        "locator": "Capítulo 102: Lei nº 12.232/2010: procedimento, julgamento, execução e fiscalização · seção: Mapa dos dispositivos: identificar a etapa antes de julgar; fundamento: Lei nº 12.232/2010, arts. 1º, 2º, § 2º, 5º e 20-A; alteração da Lei nº 14.356/2022."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-102-lei-12-232-contratar-publicidade-nao-e-contratar-toda-comunicacao"
+      ],
+      "contrast": {
+        "prompt": "A Lei nº 12.232/2010 proíbe toda contratação de serviços de relações públicas pela Administração?",
+        "answer": "Não. O art. 2º, § 2º, veda incluí-los no contrato de serviços de publicidade daquele artigo e exige contratação por procedimento próprio; o art. 20-A disciplina serviços de comunicação institucional."
+      }
+    },
+    {
+      "id": "camara-comunicacao-103-taxonomias-organizacionais-usam-criterios-distintos",
+      "term": "Taxonomias organizacionais usam critérios distintos",
+      "definition": "Autores e taxonomias de comunicação organizacional podem classificar fenômenos por modalidades, funções, públicos, fluxos ou instrumentos. Antes de comparar listas, identifique o autor, o critério e o nível de análise de cada classificação.",
+      "example": "Uma lista de modalidades de comunicação e uma tipologia de veículos podem usar nomes próximos, mas responder perguntas diferentes.",
+      "confusion": "Duas taxonomias não são incompatíveis só por terem números diferentes de categorias; a diferença pode decorrer do critério usado.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-8f680037dea445fa",
+        "section": "Como não confundir as três taxonomias"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/22%20-%20autores%20e%20taxonomias%20de%20comunicacao%20organizacional%20e%20relacoes%20publicas.md",
+        "locator": "Capítulo 103: 🆕 Autores e taxonomias de comunicação organizacional e relações públicas · seção: Como não confundir as três taxonomias; fundamento: Autores e taxonomias de comunicação organizacional e relações públicas; critérios de classificação."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-103-taxonomias-organizacionais-usam-criterios-distintos"
+      ],
+      "contrast": {
+        "prompt": "Duas classificações de comunicação que apresentam quantidades diferentes de categorias se contradizem necessariamente?",
+        "answer": "Não. Podem classificar objetos ou níveis diferentes; é preciso identificar o critério e o autor antes de comparar."
+      }
+    },
+    {
+      "id": "camara-comunicacao-104-teorias-de-rp-explicam-posicoes-diferentes-da-organizacao",
+      "term": "Teorias de RP explicam posições diferentes da organização",
+      "definition": "Teorias de gerenciamento de relações públicas distinguem modos de compreender a relação entre organização e ambiente, a participação de públicos e o lugar da comunicação nas decisões. As categorias não devem ser reduzidas a técnicas isoladas sem considerar a premissa teórica.",
+      "example": "Ao avaliar uma decisão institucional, pode-se perguntar se a comunicação apenas difunde a decisão ou participa da análise de relações e consequências para públicos.",
+      "confusion": "Uma campanha de mão dupla não prova, sozinha, que a gestão adota uma teoria simétrica; práticas, poder decisório e pesquisa também importam.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-ccdd4dc3d35e4b46",
+        "section": "Quadro de fronteiras"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/22.1%20-%20ehling%20white%20e%20grunig%20quatro%20teorias%20do%20gerenciamento%20de%20rp.md",
+        "locator": "Capítulo 104: 🆕 Quatro teorias do gerenciamento de Relações Públicas — Ehling, White e Grunig · seção: Quadro de fronteiras; fundamento: Ehling, White e Grunig; teorias do gerenciamento de relações públicas."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-104-teorias-de-rp-explicam-posicoes-diferentes-da-organizacao"
+      ],
+      "contrast": {
+        "prompt": "Usar uma pesquisa com o público prova automaticamente que a organização adota um modelo simétrico de relações públicas?",
+        "answer": "Não. Pesquisa é uma técnica possível; a classificação depende de como os resultados entram no diálogo, nas decisões e na relação de poder entre organização e públicos."
+      }
+    },
+    {
+      "id": "camara-comunicacao-105-comunicacao-dirigida-adapta-meio-a-publico",
+      "term": "Comunicação dirigida adapta meio a público",
+      "definition": "Comunicação dirigida seleciona formas e veículos para alcançar públicos definidos e favorecer uma relação ou resposta específica. Sua oposição à comunicação massiva diz respeito à direção e adequação do processo, não a uma garantia automática de diálogo.",
+      "example": "Uma orientação para servidores pode usar reunião de equipe e intranet, enquanto informação de interesse amplo pode exigir portal aberto e redes públicas.",
+      "confusion": "Usar um canal segmentado não significa necessariamente comunicação individual ou interativa; alcance e retorno dependem do desenho do veículo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-5d2613d010ea4081",
+        "section": "Comunicação dirigida: o que muda em relação à comunicação massiva"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/22.2%20-%20cesca%20comunicacao%20dirigida%20e%20veiculos.md",
+        "locator": "Capítulo 105: 🆕 Comunicação dirigida e classificação dos veículos — Cesca · seção: Comunicação dirigida: o que muda em relação à comunicação massiva; fundamento: Cesca; comunicação dirigida e classificação de veículos."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-105-comunicacao-dirigida-adapta-meio-a-publico"
+      ],
+      "contrast": {
+        "prompt": "Um canal destinado a um público delimitado garante que a mensagem recebeu resposta individual?",
+        "answer": "Não. Direcionar a comunicação define público e adequação do veículo; interação depende das possibilidades e do uso efetivo do canal."
+      }
+    },
+    {
+      "id": "camara-comunicacao-106-comunicacao-integrada-virtual-preserva-relacoes-e-canais",
+      "term": "Comunicação integrada virtual preserva relações e canais",
+      "definition": "Comunicação integrada virtual articula presença institucional e relações públicas em ambientes digitais, considerando identidade, conteúdo, interação e conexão entre pontos de contato. A integração exige coerência entre canais e responsabilidade pelas respostas.",
+      "example": "Um perfil social encaminha a página institucional correta e a equipe acompanha dúvidas para atualizar conteúdo de serviço.",
+      "confusion": "Somar perfis em várias plataformas não garante integração se a identidade, a informação e o atendimento forem inconsistentes.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-b009c992463c4316",
+        "section": "1. Relações Públicas → posicionamento institucional"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/22.3%20-%20paulo%20nassar%20comunicacao%20integrada%20virtual.md",
+        "locator": "Capítulo 106: 🆕 Comunicação integrada virtual — Paulo Nassar · seção: 1. Relações Públicas → posicionamento institucional; fundamento: Paulo Nassar; comunicação integrada virtual e posicionamento institucional."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-106-comunicacao-integrada-virtual-preserva-relacoes-e-canais"
+      ],
+      "contrast": {
+        "prompt": "Manter contas em várias redes sociais basta para caracterizar comunicação integrada virtual?",
+        "answer": "Não. A integração exige articular posicionamento, conteúdo, canais e relações; a mera presença em múltiplas plataformas é insuficiente."
+      }
+    },
+    {
+      "id": "camara-comunicacao-107-modalidades-da-comunicacao-organizacional",
+      "term": "Modalidades da comunicação organizacional",
+      "definition": "Modelos de comunicação organizacional classificam modalidades para explicar funções e relações internas e externas da organização. O modelo deve ser atribuído ao autor estudado e interpretado conforme seus conceitos, sem misturar categorias de taxonomias distintas.",
+      "example": "Uma ação pode ter dimensão administrativa para coordenar processos e dimensão institucional para apresentar a organização; o modelo escolhido determina o rótulo analítico.",
+      "confusion": "Classificações clássicas e classificações de Kunsch podem usar nomes parecidos sem constituir uma única lista intercambiável.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-9b4bc5f91bab49ae",
+        "section": "O modelo de Kunsch e a comunicação integrada"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/01%20-%20comunicacao%20organizacional.md",
+        "locator": "Capítulo 107: Comunicação organizacional · seção: O modelo de Kunsch e a comunicação integrada; fundamento: Comunicação organizacional; modelos clássicos e modalidades integradas."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-107-modalidades-da-comunicacao-organizacional"
+      ],
+      "contrast": {
+        "prompt": "Uma modalidade de um modelo clássico pode ser substituída por categoria de Kunsch sem verificar o critério teórico?",
+        "answer": "Não. Cada modelo tem critérios e estrutura próprios; a comparação precisa identificar o autor e o objeto classificado."
+      }
+    },
+    {
+      "id": "camara-comunicacao-109-lai-e-lgpd-transparencia-com-protecao-de-dados",
+      "term": "LAI e LGPD: transparência com proteção de dados",
+      "definition": "A Lei de Acesso à Informação assegura acesso a informação pública, observadas hipóteses legais de restrição; a Lei Geral de Proteção de Dados regula o tratamento de dados pessoais. A Administração deve compatibilizar publicidade e proteção, avaliando o conteúdo e a base jurídica, sem presumir sigilo total.",
+      "example": "Um órgão pode fornecer documento com ocultação de dados pessoais protegidos e manter acessíveis as partes públicas, conforme o caso e a lei.",
+      "confusion": "A existência de dados pessoais não torna automaticamente todo o documento sigiloso; transparência também não autoriza divulgar qualquer dado pessoal.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-2f08d016bf214fc3",
+        "section": "1. Transparência pública, participação e prestação de contas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/03%20-%20lai%20lgpd%20e%20transparencia.md",
+        "locator": "Capítulo 109: LAI, LGPD e transparência (nota transferida) · seção: 1. Transparência pública, participação e prestação de contas; fundamento: Lei nº 12.527/2011; Lei nº 13.709/2018; acesso, tratamento e proteção de dados."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-109-lai-e-lgpd-transparencia-com-protecao-de-dados"
+      ],
+      "contrast": {
+        "prompt": "Se um documento contém dado pessoal, a LAI obriga negar acesso integral em todos os casos?",
+        "answer": "Não. É preciso aplicar as regras de acesso e proteção ao conteúdo concreto; pode haver acesso parcial com ocultação de informação protegida, conforme a legislação."
+      }
+    },
+    {
+      "id": "camara-comunicacao-111-stakeholder-publico-e-publico-alvo",
+      "term": "Stakeholder, público e público-alvo",
+      "definition": "Stakeholder é parte que pode afetar ou ser afetada pela organização; público em relações públicas se forma em torno de um problema ou consequência percebida; público-alvo é segmento selecionado para uma ação. Os termos respondem a perguntas diferentes.",
+      "example": "Usuários de um serviço são stakeholders; tornam-se público ativo quando reconhecem um problema e se organizam; uma campanha pode selecionar usuários novos como público-alvo.",
+      "confusion": "Nem todo stakeholder é público ativo nem todo público de uma campanha representa todos os stakeholders afetados.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-df1afbd404734be2",
+        "section": "Públicos em Relações Públicas: Grunig"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/15%20-%20publicos%20e%20stakeholders.md",
+        "locator": "Capítulo 111: Públicos e stakeholders · seção: Públicos em Relações Públicas: Grunig; fundamento: Freeman; Grunig; públicos, stakeholders e público-alvo."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-111-stakeholder-publico-e-publico-alvo"
+      ],
+      "contrast": {
+        "prompt": "Todo stakeholder é necessariamente um público ativo de relações públicas e o alvo de cada campanha?",
+        "answer": "Não. Stakeholder indica relação de impacto; o público pode se organizar em torno de um problema, e público-alvo é uma seleção estratégica específica."
+      }
+    },
+    {
+      "id": "camara-comunicacao-112-design-editorial-hierarquiza-texto-e-imagem",
+      "term": "Design editorial hierarquiza texto e imagem",
+      "definition": "Design editorial organiza conteúdo em páginas e sequências, usando tipografia, composição, hierarquia e elementos gráficos para apoiar leitura e navegação. Infografia representa relações ou dados visualmente e precisa manter escala, legenda e fonte adequadas.",
+      "example": "Uma publicação usa título, subtítulos e gráfico com unidades e fonte para que o leitor identifique assunto, comparação e origem dos dados.",
+      "confusion": "Enfeite visual não substitui informação; uma infografia sem escala ou legenda pode distorcer relações mesmo que pareça clara.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-ad33fc3379e14071",
+        "section": "2. Design editorial, tipografia e hierarquia"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/12%20-%20producao%20editorial%20e%20design.md",
+        "locator": "Capítulo 112: Produção editorial e design · seção: 2. Design editorial, tipografia e hierarquia; fundamento: Produção editorial e design; hierarquia, tipografia e infografia."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-112-design-editorial-hierarquiza-texto-e-imagem"
+      ],
+      "contrast": {
+        "prompt": "Uma infografia é clara apenas por apresentar números em forma visual?",
+        "answer": "Não. Deve representar dados corretamente, oferecer contexto, escala ou legenda quando necessários e permitir que o leitor interprete a comparação."
+      }
+    },
+    {
+      "id": "camara-comunicacao-113-radiojornalismo-e-telejornalismo-atendem-sentidos-diferentes",
+      "term": "Radiojornalismo e telejornalismo atendem sentidos diferentes",
+      "definition": "Produção jornalística para rádio organiza informação para escuta; telejornalismo combina fala, imagem, som e edição. O roteiro e a apuração devem considerar o que cada modalidade mostra, o que precisa ser narrado e como a montagem pode alterar contexto.",
+      "example": "Uma reportagem televisiva não deve apenas repetir em voz alta o dado já legível na tela; a fala pode acrescentar interpretação e contexto.",
+      "confusion": "Imagem não é prova completa do que ocorreu, e a edição pode mudar a compreensão; conteúdo audiovisual continua sujeito a apuração e contextualização.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-8e408175a4194a99",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/24%20-%20radiojornalismo%20telejornalismo%20e%20linguagem%20audiovisual.md",
+        "locator": "Capítulo 113: 🆕 Radiojornalismo, telejornalismo e linguagem audiovisual · seção: Núcleo do conceito; fundamento: Radiojornalismo, telejornalismo e linguagem audiovisual; roteiro, imagem, som e edição."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-113-radiojornalismo-e-telejornalismo-atendem-sentidos-diferentes"
+      ],
+      "contrast": {
+        "prompt": "Se uma informação aparece em uma imagem de TV, ela dispensa apuração e contextualização jornalística?",
+        "answer": "Não. Imagens também precisam de origem, contexto e verificação; seleção e edição influenciam o sentido do que o público vê."
+      }
+    },
+    {
+      "id": "camara-comunicacao-114-planejamento-de-comunicacao-parte-do-diagnostico",
+      "term": "Planejamento de comunicação parte do diagnóstico",
+      "definition": "Planejamento de comunicação conecta diagnóstico, objetivos, públicos, estratégias, ações, recursos, calendário e avaliação. Os componentes devem formar uma cadeia coerente; a ação operacional não substitui a escolha estratégica.",
+      "example": "A equipe identifica dificuldade de acesso à informação, define objetivo de compreensão, seleciona públicos, adapta canais e mede conclusão da tarefa.",
+      "confusion": "Listar ações ou canais sem explicar a relação com o problema e o objetivo não constitui planejamento estratégico completo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-1739e871ee1a45de",
+        "section": "Estrutura interna do planejamento"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/16%20-%20planejamento%20de%20comunicacao.md",
+        "locator": "Capítulo 114: Planejamento de comunicação · seção: Estrutura interna do planejamento; fundamento: Planejamento de comunicação; diagnóstico, objetivos, estratégias, ações e avaliação."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-114-planejamento-de-comunicacao-parte-do-diagnostico"
+      ],
+      "contrast": {
+        "prompt": "Um plano que contém várias ações e datas está necessariamente fundamentado em diagnóstico?",
+        "answer": "Não. Ações e calendário organizam execução, mas o plano precisa conectar as escolhas a um diagnóstico, objetivos, públicos e avaliação."
+      }
+    },
+    {
+      "id": "camara-comunicacao-115-plano-de-midia-distribui-pecas-e-investimento",
+      "term": "Plano de mídia distribui peças e investimento",
+      "definition": "Plano de mídia recomenda veículos, formatos, distribuição, período e investimento para alcançar objetivos, considerando alcance, frequência, cobertura, público e verba. É parte do planejamento da campanha, não substituto do diagnóstico ou da estratégia de comunicação.",
+      "example": "Para informar usuários em territórios diversos, a equipe combina canais e estima cobertura e frequência dentro da verba aprovada.",
+      "confusion": "Escolher veículo pelo maior alcance bruto pode desperdiçar investimento se o público não for compatível ou se a frequência e a cobertura não atenderem ao objetivo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-128136a69e634e4b",
+        "section": "2. Planejamento de mídia"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/20%20-%20campanhas%20e%20planejamento%20de%20midia.md",
+        "locator": "Capítulo 115: Campanhas e planejamento de mídia · seção: 2. Planejamento de mídia; fundamento: Campanhas e planejamento de mídia; alcance, frequência, cobertura e orçamento."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-115-plano-de-midia-distribui-pecas-e-investimento"
+      ],
+      "contrast": {
+        "prompt": "O veículo com maior audiência total é necessariamente a melhor escolha para qualquer campanha?",
+        "answer": "Não. A escolha depende da correspondência com o público, objetivo, cobertura, frequência, custo e condições de acesso."
+      }
+    },
+    {
+      "id": "camara-comunicacao-116-pesquisa-qualitativa-e-quantitativa-respondem-perguntas-diferentes",
+      "term": "Pesquisa qualitativa e quantitativa respondem perguntas diferentes",
+      "definition": "Pesquisa qualitativa investiga significados, processos e experiências; pesquisa quantitativa mede variáveis e padrões em unidades definidas. Amostragem, instrumento e inferência precisam ser compatíveis com a pergunta e o objetivo do estudo.",
+      "example": "Entrevistas podem revelar por que usuários desistem; questionário com amostra adequada pode estimar a proporção que relata a barreira.",
+      "confusion": "Uma entrevista não estima automaticamente proporções populacionais, e um questionário fechado pode deixar de capturar significados que a pergunta não previu.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-553db0a4633f46c6",
+        "section": "1. Qualitativa × quantitativa"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/17%20-%20pesquisa%20em%20comunicacao.md",
+        "locator": "Capítulo 116: Pesquisa em comunicação · seção: 1. Qualitativa × quantitativa; fundamento: Pesquisa em comunicação; abordagens, amostragem e alcance inferencial."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-116-pesquisa-qualitativa-e-quantitativa-respondem-perguntas-diferentes"
+      ],
+      "contrast": {
+        "prompt": "Um estudo qualitativo com poucas entrevistas estima automaticamente a prevalência de uma opinião na população?",
+        "answer": "Não. Ele pode aprofundar sentidos e mecanismos; estimar prevalência exige desenho quantitativo e amostra apropriada."
+      }
+    },
+    {
+      "id": "camara-comunicacao-117-arquitetura-digital-integra-canais-e-tarefas",
+      "term": "Arquitetura digital integra canais e tarefas",
+      "definition": "Estratégia digital define objetivos, públicos, conteúdo, canais, jornadas, acessibilidade e métricas. UX Writing orienta textos de interface para que pessoas compreendam opções e executem tarefas; presença em redes não substitui a arquitetura do serviço.",
+      "example": "Um post encaminha ao portal, que mantém requisitos atualizados e confirma cada etapa do pedido em linguagem clara.",
+      "confusion": "Ter vários perfis digitais não demonstra uma jornada integrada se o usuário perde contexto ou precisa repetir informações entre canais.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-36581e505e5f476c",
+        "section": "1. Estratégia digital e arquitetura de canais"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/06%20-%20comunicacao%20digital.md",
+        "locator": "Capítulo 117: Comunicação digital · seção: 1. Estratégia digital e arquitetura de canais; fundamento: Comunicação digital; arquitetura de canais, conteúdo web e UX Writing."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-117-arquitetura-digital-integra-canais-e-tarefas"
+      ],
+      "contrast": {
+        "prompt": "Publicar a mesma mensagem em todas as redes garante uma jornada digital consistente?",
+        "answer": "Não. A jornada exige continuidade entre conteúdos, canais e tarefa; a repetição pode ignorar as funções e limitações de cada ambiente."
+      }
+    },
+    {
+      "id": "camara-comunicacao-118-ciclo-de-crise-inclui-prevencao-resposta-e-aprendizagem",
+      "term": "Ciclo de crise inclui prevenção, resposta e aprendizagem",
+      "definition": "Gestão de crises organiza prevenção e preparação, resposta durante o evento e recuperação ou aprendizagem posterior. Classificar incidente, emergência e crise ajuda a acionar nível adequado de coordenação e comunicação.",
+      "example": "Após falha em serviço, a equipe informa usuários, restaura operação, acompanha efeitos e revisa procedimentos para reduzir recorrência.",
+      "confusion": "Uma nota pública não encerra a gestão; atendimento, recuperação, avaliação e aprendizagem também integram o ciclo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-50f1296bdde542f0",
+        "section": "Ciclo de gestão de crises"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/07%20-%20gestao%20de%20crises.md",
+        "locator": "Capítulo 118: Gestão de crises · seção: Ciclo de gestão de crises; fundamento: Gestão de crises; ciclo, classificação e resposta."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-118-ciclo-de-crise-inclui-prevencao-resposta-e-aprendizagem"
+      ],
+      "contrast": {
+        "prompt": "Publicar comunicado durante uma crise conclui por si só a gestão do evento?",
+        "answer": "Não. A gestão inclui preparação, resposta, recuperação e aprendizagem, além da mensagem pública."
+      }
+    },
+    {
+      "id": "camara-comunicacao-119-etica-jornalistica-apuracao-correcao-e-interesse-publico",
+      "term": "Ética jornalística: apuração, correção e interesse público",
+      "definition": "O Código de Ética dos Jornalistas Brasileiros estabelece deveres profissionais relacionados a apuração, precisão, independência, respeito a direitos e correção de erros. Sua aplicação deve considerar o exercício jornalístico e distinguir regra profissional de lei estatal.",
+      "example": "Ao identificar dado incorreto em reportagem, a equipe apura, corrige e torna a retificação visível ao público.",
+      "confusion": "Interesse público não autoriza automaticamente método ilícito ou divulgação irresponsável; a conduta deve ser examinada segundo deveres éticos e normas aplicáveis.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-af0fe39c4031493a",
+        "section": "Núcleo do Código de Ética dos Jornalistas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/11%20-%20etica%20em%20comunicacao.md",
+        "locator": "Capítulo 119: Ética em comunicação · seção: Núcleo do Código de Ética dos Jornalistas; fundamento: Código de Ética dos Jornalistas Brasileiros; apuração, direitos e correção."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-119-etica-jornalistica-apuracao-correcao-e-interesse-publico"
+      ],
+      "contrast": {
+        "prompt": "A invocação do interesse público torna automaticamente ético qualquer método de obtenção de informação?",
+        "answer": "Não. O interesse público deve ser ponderado com deveres de apuração, direitos e limites profissionais; não legitima indistintamente qualquer método."
+      }
+    },
+    {
+      "id": "camara-comunicacao-120-marketing-institucional-e-branding",
+      "term": "Marketing institucional e branding",
+      "definition": "Marketing institucional trabalha relações, valor e reconhecimento da organização; branding administra significados, experiências e associações de marca ao longo do tempo. No setor público, a finalidade deve ser compatível com interesse público, transparência e impessoalidade.",
+      "example": "Uma instituição alinha informação de serviços, experiência de atendimento e identidade visual para que o público reconheça a origem e compreenda a função pública.",
+      "confusion": "Marca pública não é propriedade para promoção pessoal do governante; a comunicação oficial deve observar a Constituição e as normas institucionais.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-e51e5d78db5a4c99",
+        "section": "3. Identidade, imagem, reputação e marca"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/19%20-%20marketing%20institucional%20e%20branding.md",
+        "locator": "Capítulo 120: Marketing institucional e branding · seção: 3. Identidade, imagem, reputação e marca; fundamento: Marketing institucional, branding e identidade; Constituição, art. 37, § 1º."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-120-marketing-institucional-e-branding"
+      ],
+      "contrast": {
+        "prompt": "Atualizar a identidade visual basta para melhorar a reputação institucional?",
+        "answer": "Não. Reputação depende de avaliações e experiências acumuladas; design pode apoiar reconhecimento, mas não substitui desempenho e relação com os públicos."
+      }
     }
   ]
 }

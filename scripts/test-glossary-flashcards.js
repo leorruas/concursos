@@ -14,7 +14,10 @@ const published=read('_site/data/glossario-flashcards.json');
 const expected=buildGlossaryFlashcards(glossary,base,equivalents);
 const combined=read('_site/data/flashcards.json');
 const expectedCombined=mergeGlossaryFlashcards(base,expected);
-assert.deepEqual(combined,expectedCombined,'A página precisa receber coleção e glossário em uma única resposta');
+const {chapterTracks,...cardsOnly}=combined;
+assert.deepEqual(cardsOnly,expectedCombined,'A coleção e o glossário precisam permanecer em uma única resposta, com a trilha editorial anexa');
+assert.equal(chapterTracks?.length,1,'A resposta pública deve incluir a trilha de capítulos da Câmara.');
+assert.equal(chapterTracks[0].chapters.length,19,'A trilha deve acompanhar os 19 capítulos do percurso.');
 assert.equal(combined.cards.length,base.cards.length+expected.generatedCount);
 
 const novosTermos=['pfc','cffc','pafc','comissao-geral','comissao-mista','questao-de-ordem','ato-da-mesa','inversao-de-pauta','requerimento'];

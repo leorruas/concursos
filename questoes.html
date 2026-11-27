@@ -324,11 +324,6 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <fieldset class="qs-field qs-conditional" id="qs-custom-wrap" hidden><legend class="qs-label">Matérias da bateria</legend><div class="qs-options" id="qs-custom"></div></fieldset>
 <div class="qs-specific-range" id="qs-specific-range">
 <label class="qs-field qs-conditional" id="qs-materia-wrap" for="qs-materia" hidden><span class="qs-label">Escolher matéria</span><select id="qs-materia"></select></label>
-<fieldset class="qs-field qs-conditional qs-content-filter" id="qs-content-filter-wrap" hidden><legend class="qs-label">Questões desta matéria</legend><div class="qs-options qs-content-filter-options">
-<label><input type="radio" name="qs-content-filter" value="algorithm" checked> Pelo algoritmo (padrão)</label>
-<label><input type="radio" name="qs-content-filter" value="unanswered"> Só questões novas para mim</label>
-<label><input type="radio" name="qs-content-filter" value="retests"> Só retestes (conceitos já estudados)</label>
-</div><p class="qs-chapter-caption" id="qs-content-filter-description" aria-live="polite">O algoritmo continua escolhendo a bateria como de costume.</p></fieldset>
 <div class="qs-field qs-conditional qs-chapter-field" id="qs-unidade-wrap" hidden>
 <label class="qs-label" id="qs-capitulo-label" for="qs-capitulo">Estudar até o capítulo</label>
 <div class="qs-chapter-picker">
@@ -338,7 +333,12 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <output for="qs-capitulo" id="qs-capitulo-value">1</output>
 </div><p class="qs-chapter-caption" id="qs-capitulo-description" aria-live="polite">Capítulos do início até o limite escolhido, inclusive.</p>
 <select id="qs-unidade" hidden aria-hidden="true" tabindex="-1"></select>
-</div></div></div></section>
+</div>
+<fieldset class="qs-field qs-conditional qs-content-filter" id="qs-content-filter-wrap" hidden><legend class="qs-label">Questões desta matéria</legend><div class="qs-options qs-content-filter-options">
+<label><input type="radio" name="qs-content-filter" value="algorithm" checked> Pelo algoritmo (padrão)</label>
+<label><input type="radio" name="qs-content-filter" value="unanswered"> Só questões novas para mim</label>
+<label><input type="radio" name="qs-content-filter" value="retests"> Só retestes (conceitos já estudados)</label>
+</div><p class="qs-chapter-caption" id="qs-content-filter-description" aria-live="polite">O algoritmo continua escolhendo a bateria como de costume.</p></fieldset></div></div></section>
 <section class="qs-builder-section" aria-labelledby="qs-practice-title">
 <div class="qs-builder-heading"><span aria-hidden="true">02</span><div><h3 id="qs-practice-title">Formato da bateria</h3><p>Escolha a quantidade, dificuldade e momento da correção.</p></div></div>
 <div class="qs-builder-fields">

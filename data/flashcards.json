@@ -19263,6 +19263,1266 @@
         "prompt": "A natureza impositiva de uma emenda elimina qualquer condição técnica ou fiscal para sua execução?",
         "answer": "Não. A execução obrigatória observa condições constitucionais e legais, inclusive impedimentos técnicos e limites aplicáveis."
       }
+    },
+    {
+      "id": "camara-pt-genero-tipo-suporte",
+      "term": "Gênero × tipo × suporte",
+      "definition": "Gênero é forma de ação comunicativa reconhecida socialmente; tipo textual é sequência de organização, como narração ou argumentação; suporte é o meio material ou digital em que o gênero circula. Um gênero pode usar vários tipos e suportes.",
+      "example": "Uma notícia institucional publicada no portal e em boletim impresso continua sendo o mesmo gênero em suportes distintos e pode combinar exposição e descrição.",
+      "confusion": "O suporte não define sozinho o gênero, e a sequência predominante não transforma automaticamente o gênero em tipo textual.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-61af04b165d9d678",
+        "section": "2.2. A Tríade de Marcuschi: Tipo Textual $\\times$ Gênero Textual $\\times$ Suporte"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/16%20-%20genero%20textual%20situacao%20de%20uso%20suporte%20e%20finalidade.md",
+        "locator": "Capítulo 5: Gênero textual: situação de uso, suporte, finalidade sociocomunicativa e intergenericidade no padrão Cebraspe · seção: 2.2. Bakhtin e Marcuschi e a tríade de gênero, tipo e suporte"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-genero-tipo-suporte"
+      ],
+      "contrast": {
+        "prompt": "Um artigo de opinião publicado em portal e impresso deixa de ser o mesmo gênero por mudar o suporte?",
+        "answer": "Não. O suporte é o meio de circulação; o gênero e sua finalidade sociocomunicativa podem permanecer, embora o suporte influencie a apresentação."
+      }
+    },
+    {
+      "id": "camara-pt-interpretacao-quantificador",
+      "term": "Inferência textual × intensificação indevida",
+      "definition": "Interpretar exige preservar o alcance dos quantificadores, a intensidade e a relação lógica afirmados. Trocar “alguns” por “todos”, “pode” por “garante” ou correlação por causalidade altera o conteúdo do texto.",
+      "example": "“A medida pode reduzir parte dos atrasos” não autoriza dizer que eliminará todos os atrasos.",
+      "confusion": "Uma conclusão mais forte do que as premissas é extrapolação, mesmo quando parece uma consequência desejável.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-a3dbf98e0e974302",
+        "section": "2. Armadilhas e Pegadinhas Comuns"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/01%20-%20interpretacao%20de%20texto.md",
+        "locator": "Capítulo 6: Interpretação de texto · seção: 2. Armadilhas e Pegadinhas Comuns"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-interpretacao-quantificador"
+      ],
+      "contrast": {
+        "prompt": "Se um texto afirma que uma medida pode reduzir alguns atrasos, pode-se concluir que ela eliminará todos?",
+        "answer": "Não. Isso troca possibilidade por certeza e parte por totalidade, ampliando o que foi afirmado."
+      }
+    },
+    {
+      "id": "camara-pt-anafora-deixis",
+      "term": "Anáfora × dêixis",
+      "definition": "Anáfora retoma elemento ou conteúdo presente no texto; dêixis aponta para participante, lugar ou tempo cuja identificação depende da situação de enunciação. A referência depende do contexto e pode alcançar uma oração inteira.",
+      "example": "Em “a comissão aprovou o parecer; essa decisão será publicada”, “essa decisão” retoma uma informação anterior por anáfora; em “aqui”, o referente depende do lugar da enunciação.",
+      "confusion": "Não identifique referente apenas pela proximidade: verifique concordância, sentido e encadeamento temático.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-642578f70775bddb",
+        "section": "2. A Arquitetura da Referenciação: Dêixis $\\times$ Endófora"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/18%20-%20referencia%20textual%20anafora%20catafora%20e%20deixis.md",
+        "locator": "Capítulo 9: Referência textual: anáfora, catáfora, dêixis e cadeias coesivas no padrão Cebraspe · seção: 2. A Arquitetura da Referenciação: Dêixis × Endófora"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-anafora-deixis"
+      ],
+      "contrast": {
+        "prompt": "A palavra “aqui” sempre retoma um lugar mencionado anteriormente no texto?",
+        "answer": "Não. Pode ser dêitica e depender do lugar da enunciação; anáfora, por sua vez, retoma informação textual."
+      }
+    },
+    {
+      "id": "camara-pt-elipse-substituicao",
+      "term": "Elipse × substituição lexical",
+      "definition": "Elipse omite um termo recuperável pelo contexto sintático ou discursivo; substituição emprega uma forma que ocupa o lugar de expressão anterior, evitando repetição sem apagar a relação de retomada.",
+      "example": "“A comissão analisou o projeto; o Senado, a emenda” apresenta elipse de “analisou”; “o colegiado” pode substituir uma menção anterior à comissão.",
+      "confusion": "Elipse não é ausência aleatória: o elemento omitido precisa ser recuperável e a frase deve continuar interpretável.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-952aa54cbc30eb00",
+        "section": "2. Coesão Gramatical: Elipse e Substituição"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/19%20-%20substituicao%20elipse%20repeticao%20e%20coesao%20lexical.md",
+        "locator": "Capítulo 10: Substituição, elipse, repetição e coesão lexical: mecanismos de reiteração no padrão Cebraspe · seção: 2. Coesão Gramatical: Elipse e Substituição"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-elipse-substituicao"
+      ],
+      "contrast": {
+        "prompt": "Em “a comissão analisou o projeto; o Senado, a emenda”, a segunda oração está sem verbo por erro necessário?",
+        "answer": "Não. O verbo “analisou” pode ser recuperado por elipse, mantendo o paralelismo entre as orações."
+      }
+    },
+    {
+      "id": "camara-en-referentes-pronominais",
+      "term": "Pronome próximo × referente discursivo",
+      "definition": "O referente de um pronome em inglês é identificado pela concordância, função sintática e continuidade do argumento; não se escolhe automaticamente o substantivo mais próximo. *It* também pode retomar uma oração ou situação inteira.",
+      "example": "“The agency revised the rule after the committee reviewed it” pode exigir avaliar se *it* retoma *the rule* ou outro antecedente pelo sentido e pela estrutura.",
+      "confusion": "Proximidade linear é uma pista, não um critério suficiente de referência.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-014af4c94d2ec2bb",
+        "section": "1. Situação-problema: a armadilha mecânica do \"substantivo mais próximo\""
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/09%20-%20coesao%20referencial%20e%20referentes%20de%20pronomes.md",
+        "locator": "Capítulo 9: Coesão referencial e identificação de referentes pronominais em textos em inglês no padrão Cebraspe · seção: 1. Situação-problema: a armadilha mecânica do substantivo mais próximo"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-referentes-pronominais"
+      ],
+      "contrast": {
+        "prompt": "Em inglês, um pronome sempre se refere ao substantivo imediatamente anterior?",
+        "answer": "Não. Concordância e contexto discursivo podem apontar para outro termo ou para uma proposição inteira."
+      }
+    },
+    {
+      "id": "camara-en-conectivos-logicos",
+      "term": "Concessão × causa em conectivos",
+      "definition": "Concessão reconhece um fato que não impede a conclusão principal; causa apresenta a razão que explica um resultado. A estrutura sintática também importa: algumas expressões introduzem oração, outras sintagma nominal.",
+      "example": "“Although the report was delayed, the committee met” expressa concessão; “because the report was delayed, the committee met later” atribui uma causa ao adiamento da reunião.",
+      "confusion": "Não traduza conectivos por equivalência aproximada sem conferir relação lógica e estrutura que introduzem.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-730e432a862d8770",
+        "section": "1. Classificação Funcional e Relações Lógico-Semânticas"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/10%20-%20conectivos%20relacoes%20logicas%20e%20sequenciacao%20discursiva%20em%20ingles.md",
+        "locator": "Capítulo 10: Conectivos: Relações Lógicas, Articulação de Sentido e Sequenciação Discursiva em Inglês · seção: 1. Classificação Funcional e Relações Lógico-Semânticas"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-conectivos-logicos"
+      ],
+      "contrast": {
+        "prompt": "*Although* e *because* expressam a mesma relação quando aparecem no início de uma frase?",
+        "answer": "Não. *Although* introduz concessão; *because* apresenta causa ou razão."
+      }
+    },
+    {
+      "id": "camara-en-polissemia-falsos-cognatos",
+      "term": "Polissemia × falso cognato",
+      "definition": "Polissemia ocorre quando uma mesma palavra tem sentidos relacionados que variam pelo contexto; falso cognato tem forma parecida com palavra portuguesa, mas significado distinto. O contexto institucional ajuda a selecionar o sentido correto.",
+      "example": "*Policy* pode designar política, diretriz ou regra institucional; *actually* significa “na verdade”, não “atualmente”.",
+      "confusion": "Não fixe uma única tradução para todas as ocorrências nem confie na semelhança gráfica com o português.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-82b46bb07081dff1",
+        "section": "1. Polissemia no Domínio Legislativo e Institucional"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/11%20-%20vocabulario%20contextual%20polissemia%20e%20falsos%20cognatos%20em%20ingles.md",
+        "locator": "Capítulo 11: Vocabulário Contextual, Polissemia e Falsos Cognatos em Textos Institucionais em Inglês · seção: 1. Polissemia no Domínio Legislativo e Institucional"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-polissemia-falsos-cognatos"
+      ],
+      "contrast": {
+        "prompt": "*Actually* normalmente equivale a “atualmente” em textos institucionais?",
+        "answer": "Não. É falso cognato: geralmente significa “na verdade” ou “de fato”; “atualmente” costuma ser *currently*."
+      }
+    },
+    {
+      "id": "camara-en-negacao-escopo",
+      "term": "Negação da frase × negação de um elemento",
+      "definition": "A posição e a estrutura da negação determinam seu escopo: pode negar a proposição inteira, um quantificador ou apenas um constituinte. Em questões, reescrita com *not*, *no*, *never* ou semi-negativos pode alterar a afirmação.",
+      "example": "“Not all proposals were approved” significa que nem todas foram aprovadas; não equivale necessariamente a “nenhuma proposta foi aprovada”.",
+      "confusion": "Não transforme negação parcial em negação total; observe qual constituinte está sob o alcance do operador.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-0cf9986f93a5a111",
+        "section": "2. Negação Sintática, Escopo e Semi-Negativos"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/12%20-%20estrutura%20de%20frases%20negacao%20interrogacao%20e%20inversao%20sintatica%20em%20ingles.md",
+        "locator": "Capítulo 12: Estrutura de Frases, Negação, Interrogação e Inversão Sintática em Inglês · seção: 2. Negação Sintática, Escopo e Semi-Negativos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-negacao-escopo"
+      ],
+      "contrast": {
+        "prompt": "“Not all proposals were approved” significa que nenhuma proposta foi aprovada?",
+        "answer": "Não. A frase nega que todas tenham sido aprovadas e permite que algumas tenham sido."
+      }
+    },
+    {
+      "id": "camara-const-presenca-eleicao",
+      "term": "Eleição × substituição presidencial",
+      "definition": "A Constituição distingue eleição e posse do presidente e vice-presidente (arts. 77 e 78) das hipóteses de impedimento ou vacância, em que o vice substitui ou sucede o presidente (arts. 79 e 80). A ordem de sucessão depende da hipótese e da ausência de ambos.",
+      "example": "No impedimento temporário do presidente, o vice o substitui; na vacância de ambos, são chamados sucessivamente os presidentes da Câmara, do Senado e do STF para exercer a Presidência até nova eleição, conforme o art. 80.",
+      "confusion": "Substituição temporária não é a mesma coisa que sucessão definitiva, e autoridade chamada para exercício não se torna automaticamente presidente eleito.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Direito Constitucional e Regimento"
+      ],
+      "note": {
+        "articleId": "art-4572f492f3444994",
+        "section": "Eleição, posse, substituição e sucessão: arts. 77 a 83"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/07%20-%20poder%20executivo.md",
+        "locator": "Capítulo 8: Poder executivo · seção: Eleição, posse, substituição e sucessão: arts. 77 a 83"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-presenca-eleicao"
+      ],
+      "contrast": {
+        "prompt": "O presidente da Câmara sucede definitivamente o presidente da República quando ambos estão impedidos temporariamente?",
+        "answer": "Não. Na dupla ausência prevista no art. 80, ele é chamado ao exercício temporário; não se converte em sucessor definitivo por esse motivo."
+      }
+    },
+    {
+      "id": "camara-const-mp-advocacia",
+      "term": "Ministério Público × Advocacia Pública",
+      "definition": "O Ministério Público (MP) defende a ordem jurídica, o regime democrático e interesses sociais e individuais indisponíveis (CF, art. 127); Advocacia-Geral da União e procuradorias representam judicial e extrajudicialmente os entes públicos e prestam consultoria jurídica nos termos constitucionais (arts. 131 e 132).",
+      "example": "O MP pode fiscalizar a aplicação da lei; a Advocacia Pública defende juridicamente o ente público a que se vincula, sem se tornar órgão do MP.",
+      "confusion": "Ambos exercem funções essenciais à Justiça, mas têm missões, estruturas e posições institucionais distintas.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Direito Constitucional e Regimento"
+      ],
+      "note": {
+        "articleId": "art-95bcc6a866f044bd",
+        "section": "Ministério Público — arts. 127 a 130-A"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/09%20-%20funcoes%20essenciais%20a%20justica.md",
+        "locator": "Capítulo 10: Funções essenciais à Justiça · seção: Ministério Público — arts. 127 a 130-A"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-mp-advocacia"
+      ],
+      "contrast": {
+        "prompt": "Por integrarem as funções essenciais à Justiça, Ministério Público e Advocacia Pública desempenham a mesma função constitucional?",
+        "answer": "Não. O MP tutela a ordem jurídica e interesses protegidos; a Advocacia Pública representa e presta consultoria jurídica aos entes públicos."
+      }
+    },
+    {
+      "id": "camara-const-instrumento-ator-efeito",
+      "term": "Proposição × instrumento parlamentar",
+      "definition": "Uma proposição legislativa inicia ou altera processo normativo; requerimento solicita providência ou decisão procedimental; indicação sugere medida a outro Poder ou órgão, sem produzir por si só a alteração legislativa. O nome do instrumento não substitui a análise de competência e efeito.",
+      "example": "Uma indicação pode sugerir ao Executivo que adote política pública; para criar obrigação geral em lei, é necessário instrumento legislativo adequado e tramitação correspondente.",
+      "confusion": "Atores, destinatário e efeito jurídico diferem; nem toda decisão parlamentar é lei ou deliberação de mérito.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Direito Constitucional e Regimento"
+      ],
+      "note": {
+        "articleId": "art-5f84ca730be91d26",
+        "section": "Indicação (INC): sugestão a outro Poder ou a comissão"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/39%20-%20blueprint%20das%20proposicoes%20da%20camara.md",
+        "locator": "Capítulo 12: Câmara 2026: blueprint das proposições, instrumentos, atores e decisões · seção: Indicação (INC): sugestão a outro Poder ou a comissão"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-instrumento-ator-efeito"
+      ],
+      "contrast": {
+        "prompt": "Uma indicação aprovada pela Câmara altera diretamente a lei vigente?",
+        "answer": "Não. Ela formula sugestão ou recomendação ao destinatário; a alteração legislativa exige processo e espécie normativa adequados."
+      }
+    },
+    {
+      "id": "camara-const-fases-proposicoes",
+      "term": "Espécie normativa × rito legislativo",
+      "definition": "O processo legislativo varia conforme a espécie: lei ordinária, lei complementar, emenda constitucional e medida provisória têm iniciativa, deliberação, quóruns e etapas próprios. Para julgar o rito, identifique a espécie e o resultado jurídico pretendido.",
+      "example": "Uma PEC exige dois turnos em cada Casa e aprovação por três quintos dos membros; não segue o rito de aprovação de uma lei ordinária (CF, art. 60, § 2º).",
+      "confusion": "Não transfira automaticamente quórum, sanção ou tramitação de uma espécie para outra; o procedimento depende da Constituição.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Direito Constitucional e Regimento"
+      ],
+      "note": {
+        "articleId": "art-8c319e6f2a704bd5",
+        "section": "Projeto de lei (PL) → lei ordinária"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/38%20-%20blueprints%20do%20processo%20legislativo%20por%20especie%20normativa.md",
+        "locator": "Capítulo 13: Blueprints do processo legislativo: atores, fases, prazos e resultados por proposição · seção: Projeto de lei (PL) → lei ordinária"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-fases-proposicoes"
+      ],
+      "contrast": {
+        "prompt": "Uma proposta de emenda à Constituição é aprovada pelo rito ordinário de uma lei comum?",
+        "answer": "Não. A CF, art. 60, § 2º, exige dois turnos em cada Casa e aprovação por três quintos dos respectivos membros."
+      }
+    },
+    {
+      "id": "camara-ti-url-privacidade",
+      "term": "URL × domínio × caminho",
+      "definition": "URL é o endereço de um recurso e pode conter esquema/protocolo, host, caminho, consulta e fragmento. O domínio identifica parte do host; caminho e parâmetros localizam ou qualificam o recurso. A navegação privada não torna o usuário invisível para sites ou redes.",
+      "example": "Em `https://exemplo.gov.br/consulta?id=4`, `https` é o esquema, `exemplo.gov.br` o host e `/consulta` o caminho.",
+      "confusion": "O cadeado HTTPS protege a conexão, mas não prova que a informação do site seja verdadeira nem torna anônima a navegação.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-3678eef88b269f8c",
+        "section": "1. Anatomia técnica de uma URL (*Uniform Resource Locator*)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/09%20-%20navegacao%20busca%20avancada%20urls%20e%20procedimentos%20de%20internet.md",
+        "locator": "Capítulo 7: Navegação web, anatomia de URLs, operadores de busca avançada e privacidade no navegador · seção: 1. Anatomia técnica de uma URL (*Uniform Resource Locator*)"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-url-privacidade"
+      ],
+      "contrast": {
+        "prompt": "HTTPS garante que o conteúdo acessado é verdadeiro e que o usuário está anônimo?",
+        "answer": "Não. HTTPS protege a conexão e autentica o domínio, mas não atesta a veracidade do conteúdo nem anonimiza a navegação."
+      }
+    },
+    {
+      "id": "camara-ti-para-cc-bcc",
+      "term": "Para × Cc × Cco no e-mail",
+      "definition": "“Para” indica destinatários principais; “Cc” envia cópia visível aos demais destinatários; “Cco” envia cópia sem expor esse destinatário aos outros. A escolha deve considerar finalidade, necessidade de resposta e privacidade.",
+      "example": "Ao comunicar centenas de pessoas sem revelar a lista de endereços, usar Cco pode reduzir exposição desnecessária de dados pessoais.",
+      "confusion": "Responder a todos pode divulgar endereço ou conteúdo a pessoas que não precisam recebê-lo; verifique destinatários antes do envio.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-d18ded18a3b3f763",
+        "section": "2. Anatomia dos campos de cabeçalho: Para, Cc e Cco (Bcc)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/10%20-%20correio%20eletronico%20webmail%20cliente%20local%20campos%20e%20seguranca.md",
+        "locator": "Capítulo 8: Correio eletrônico: webmail, cliente local, campos de cabeçalho, anexos e segurança · seção: 2. Anatomia dos campos de cabeçalho: Para, Cc e Cco (Bcc)"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-para-cc-bcc"
+      ],
+      "contrast": {
+        "prompt": "Destinatários em Cco ficam visíveis para todos que receberam a mensagem em Para ou Cc?",
+        "answer": "Não. O campo Cco oculta seus destinatários dos demais destinatários, embora o remetente e o serviço possam manter registros."
+      }
+    },
+    {
+      "id": "camara-ti-teams-reuniao",
+      "term": "Equipe/canal × reunião",
+      "definition": "No Teams, equipe e canal organizam pessoas, conversas e arquivos em torno de trabalho compartilhado; reunião é uma sessão síncrona com participantes e controles próprios. Ter acesso a uma equipe não significa assumir todos os papéis de moderação da reunião.",
+      "example": "Uma equipe pode manter canal de projeto com arquivos; uma reunião convocada dentro do canal pode ter organizador e opções de sala distintos.",
+      "confusion": "Canal não é sinônimo de chamada, e permissões de organização da equipe não conferem automaticamente poderes de apresentador.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-0f31e15e82e0b1d1",
+        "section": "1. Microsoft Teams: arquitetura de equipes e canais"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/11%20-%20teams%20e%20google%20meet%20colaboracao%20reunioes%20e%20videoconferencia.md",
+        "locator": "Capítulo 9: Teams e Google Meet: ferramentas de colaboração, videoconferência corporativa, canais e moderação · seção: 1. Microsoft Teams: arquitetura de equipes e canais"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-teams-reuniao"
+      ],
+      "contrast": {
+        "prompt": "Ser membro de uma equipe do Teams torna alguém automaticamente organizador de todas as reuniões?",
+        "answer": "Não. A associação à equipe e os papéis da reunião são configurações distintas."
+      }
+    },
+    {
+      "id": "camara-ti-ia-taxonomia",
+      "term": "IA × aprendizado de máquina × sistema especialista",
+      "definition": "Inteligência artificial é campo amplo; aprendizado de máquina ajusta modelos com dados; sistemas especialistas podem aplicar regras explícitas. Aprendizado profundo é uma família de métodos de aprendizado de máquina, não sinônimo de toda IA.",
+      "example": "Um sistema de regras que encaminha requerimentos pode ser IA simbólica sem treinamento estatístico; um classificador pode aprender padrões a partir de exemplos rotulados.",
+      "confusion": "Não classifique toda automação como IA nem toda IA como modelo generativo; identifique técnica e função descritas.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-781994cb7bf41c1a",
+        "section": "1. As três camadas de abstração: IA, Machine Learning e Deep Learning"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/18%20-%20inteligencia%20artificial%20definicao%20tipos%20de%20sistemas%20e%20aplicacoes%20publicas.md",
+        "locator": "Capítulo 10: Inteligência artificial: definição, evolução, taxonomia de sistemas e aplicações no setor público · seção: 1. As três camadas de abstração: IA, Machine Learning e Deep Learning"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-ia-taxonomia"
+      ],
+      "contrast": {
+        "prompt": "Todo sistema de inteligência artificial aprende por dados e gera texto?",
+        "answer": "Não. Há sistemas baseados em regras e modelos que classificam ou preveem sem gerar texto."
+      }
+    },
+    {
+      "id": "camara-comunicacao-shannon-ruido",
+      "term": "Ruído técnico × ruído semântico",
+      "definition": "No modelo de Shannon e Weaver, ruído é interferência que compromete a transmissão do sinal entre fonte, transmissor, canal, receptor e destino. A compreensão semântica é questão relacionada, mas não se reduz à falha física de transmissão.",
+      "example": "Arquivo de áudio com cortes tem ruído técnico; uma frase perfeitamente audível, mas ambígua para o público, pode gerar problema de interpretação sem falha do canal.",
+      "confusion": "Não use “ruído” como sinônimo de qualquer divergência de opinião ou incompreensão sem especificar o plano analisado.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-8a0f2cbd3179e564",
+        "section": "Três níveis do problema em Warren Weaver"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/29%20-%20shannon%20e%20weaver%20transmissao%20informacao%20e%20ruido.md",
+        "locator": "Capítulo 5: Shannon e Weaver: transmissão, informação, ruído e limites · seção: Três níveis do problema em Warren Weaver"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-shannon-ruido"
+      ],
+      "contrast": {
+        "prompt": "Toda interpretação divergente de uma mensagem prova que houve ruído técnico no canal?",
+        "answer": "Não. O sinal pode ter sido transmitido sem interferência; a divergência pode decorrer de semântica, contexto ou repertório."
+      }
+    },
+    {
+      "id": "camara-comunicacao-jakobson-funcao",
+      "term": "Fator da comunicação × função da linguagem",
+      "definition": "As funções da linguagem de Roman Jakobson correspondem ao fator em destaque: referencial ao contexto, emotiva ao remetente, conativa ao destinatário, fática ao contato, metalinguística ao código e poética à mensagem. Uma mensagem pode combinar funções.",
+      "example": "“Inscreva-se até sexta-feira” enfatiza o destinatário e tende à função conativa; “a inscrição termina sexta” informa um dado e tende à referencial.",
+      "confusion": "Classifique pela função predominante no trecho, sem supor exclusividade absoluta entre funções.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-2d619fe47a8bc035",
+        "section": "Estrutura: correspondência exata entre fatores e funções"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/30%20-%20jakobson%20fatores%20e%20funcoes%20da%20linguagem.md",
+        "locator": "Capítulo 6: Roman Jakobson: seis fatores e seis funções da linguagem · seção: Estrutura: correspondência exata entre fatores e funções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-jakobson-funcao"
+      ],
+      "contrast": {
+        "prompt": "Uma mensagem só pode apresentar uma função da linguagem?",
+        "answer": "Não. Funções podem coexistir; a análise identifica qual fator está em destaque no contexto."
+      }
+    },
+    {
+      "id": "camara-comunicacao-modelos-transacional",
+      "term": "Modelo linear × interacional × transacional",
+      "definition": "Modelo linear representa fluxo predominantemente em uma direção; interacional inclui retorno ou feedback em momentos sucessivos; transacional trata os participantes como emissores e intérpretes simultâneos, influenciados pelo contexto compartilhado.",
+      "example": "Em uma transmissão sem resposta, o esquema pode ser linear; numa conversa, a fala de cada pessoa altera a interpretação e a resposta seguinte, aproximando-se do transacional.",
+      "confusion": "Feedback posterior não transforma automaticamente qualquer processo em transacional; compare como cada modelo concebe tempo, participantes e contexto.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-943fb6a178d205ec",
+        "section": "Fronteiras entre as classificações"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/31%20-%20modelos%20lineares%20circulares%20e%20transacionais%20da%20comunicacao.md",
+        "locator": "Capítulo 7: Modelos lineares, circulares e transacionais da comunicação · seção: Fronteiras entre as classificações"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-modelos-transacional"
+      ],
+      "contrast": {
+        "prompt": "A existência de retorno posterior torna todos os modelos de comunicação transacionais?",
+        "answer": "Não. O modelo transacional considera influência recíproca e simultânea no processo; um feedback posterior também pode caber num modelo interacional."
+      }
+    },
+    {
+      "id": "camara-comunicacao-chicago-interacao",
+      "term": "Escola de Chicago × modelo linear de transmissão",
+      "definition": "A tradição de Chicago enfatiza comunicação como interação social situada, formação de públicos e vida urbana; seus estudos não se reduzem à passagem linear de mensagem de emissor a receptor.",
+      "example": "Uma pesquisa sobre como moradores organizam debate local após notícia sobre transporte examina interação, comunidade e esfera pública, temas próximos dessa tradição.",
+      "confusion": "Não atribua à Escola de Chicago uma teoria única e fechada nem a confunda com um modelo matemático de canal.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-1b7f38ad90c2e546",
+        "section": "John Dewey: comunicação, experiência e vida pública"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/32%20-%20escola%20de%20chicago%20comunicacao%20interacao%20e%20sociedade.md",
+        "locator": "Capítulo 8: Escola de Chicago: comunicação, interação, cidade e públicos · seção: John Dewey: comunicação, experiência e vida pública"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-chicago-interacao"
+      ],
+      "contrast": {
+        "prompt": "A Escola de Chicago explica a comunicação apenas como transmissão de sinais por um canal?",
+        "answer": "Não. A tradição enfatiza interação, experiência, organização social e formação de públicos em contextos urbanos."
+      }
+    },
+    {
+      "id": "camara-cp-tilly-formacao-estado",
+      "term": "Formação estatal × criação jurídica instantânea",
+      "definition": "A formação dos Estados nacionais é processo histórico de centralização, coerção, administração e arrecadação, com trajetórias distintas. Charles Tilly relaciona guerra, extração de recursos e construção de capacidades estatais, sem reduzir todas as formações a uma sequência idêntica.",
+      "example": "A criação de um novo órgão por lei não significa, por si só, que um Estado nacional inteiro tenha se formado naquele momento.",
+      "confusion": "Teorias explicativas destacam mecanismos e contextos; não são leis universais que tornam todas as trajetórias iguais.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-296b7e51c403d8fa",
+        "section": "Charles Tilly: guerra, coerção e capital"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/14%20-%20teorias%20de%20formacao%20dos%20estados%20nacionais.md",
+        "locator": "Capítulo 5: Teorias de formação dos Estados nacionais · seção: Charles Tilly: guerra, coerção e capital"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-tilly-formacao-estado"
+      ],
+      "contrast": {
+        "prompt": "A abordagem de Tilly afirma que todos os Estados nacionais surgiram pela mesma sequência histórica?",
+        "answer": "Não. Ela destaca relações entre guerra, coerção e capital, mas as trajetórias variaram conforme contexto e combinação desses processos."
+      }
+    },
+    {
+      "id": "camara-cp-estado-brasileiro-patrimonialismo",
+      "term": "Patrimonialismo × toda administração estatal",
+      "definition": "Patrimonialismo descreve a confusão entre esferas pública e privada na organização do poder; é uma categoria interpretativa da formação estatal, não rótulo automático para qualquer relação pessoal no governo.",
+      "example": "Usar recursos públicos para favorecer patrimônio privado pode revelar lógica patrimonial; um contato pessoal que não interfere em decisão pública não basta, isoladamente, para provar o fenômeno.",
+      "confusion": "Separe conceito histórico-sociológico, evidência concreta e juízo jurídico sobre conduta específica.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-7c24b910e6f3d58a",
+        "section": "Raymundo Faoro: patrimonialismo e estamento burocrático"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/15%20-%20formacao%20historica%20do%20estado%20brasileiro.md",
+        "locator": "Capítulo 6: Formação histórica do Estado brasileiro · seção: Raymundo Faoro: patrimonialismo e estamento burocrático"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-estado-brasileiro-patrimonialismo"
+      ],
+      "contrast": {
+        "prompt": "Qualquer decisão tomada por servidor que conhece pessoalmente um cidadão é patrimonialista?",
+        "answer": "Não. É preciso identificar apropriação ou confusão entre público e privado; a relação pessoal isolada não demonstra o fenômeno."
+      }
+    },
+    {
+      "id": "camara-cp-regime-democracia",
+      "term": "Regime político × forma e sistema de governo",
+      "definition": "Regime descreve regras e condições de competição e participação política; forma de governo distingue, por exemplo, república e monarquia; sistema de governo organiza relações entre Executivo e Legislativo, como presidencialismo e parlamentarismo.",
+      "example": "Um país pode ser uma república presidencialista e ainda ter qualidade democrática discutível; são dimensões classificatórias diferentes.",
+      "confusion": "Não deduza democracia ou autoritarismo apenas do rótulo república, monarquia, presidencialismo ou parlamentarismo.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-5e8b4c72d13f906a",
+        "section": "Três perguntas diferentes: regime, forma e sistema de governo"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/16%20-%20regimes%20politicos%20democracia%20autoritarismo%20e%20hibridismos.md",
+        "locator": "Capítulo 7: Regimes políticos: democracia, autoritarismo e hibridismos · seção: Três perguntas diferentes: regime, forma e sistema de governo"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-regime-democracia"
+      ],
+      "contrast": {
+        "prompt": "Ser república presidencialista basta para classificar um país como democracia?",
+        "answer": "Não. Forma e sistema de governo não determinam, sozinhos, as condições de competição, participação e direitos próprias do regime."
+      }
+    },
+    {
+      "id": "camara-cp-republica-monarquia",
+      "term": "República × democracia",
+      "definition": "República diz respeito à organização do poder público, investidura e responsabilidade dos governantes; democracia trata da participação, competição e influência política dos cidadãos. Uma categoria não implica automaticamente a outra.",
+      "example": "A república exige examinar como autoridades são escolhidas e responsabilizadas; avaliar se eleições são competitivas e inclusivas é análise de qualidade democrática.",
+      "confusion": "Não trate “república” como sinônimo de democracia nem presuma que monarquia constitucional seja necessariamente autoritária.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-e93a40d1c75b682f",
+        "section": "República: res publica, investidura e responsabilidade"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/17%20-%20formas%20de%20governo%20republica%20e%20monarquia.md",
+        "locator": "Capítulo 8: Formas de governo: república e monarquia · seção: República: res publica, investidura e responsabilidade"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-republica-monarquia"
+      ],
+      "contrast": {
+        "prompt": "Toda república é necessariamente democrática e toda monarquia é necessariamente autoritária?",
+        "answer": "Não. Forma de governo e regime político são dimensões distintas; a classificação depende das instituições e práticas efetivas."
+      }
+    },
+    {
+      "id": "camara-etica-dever-ordem-ilegal",
+      "term": "Dever de obediência × ordem manifestamente ilegal",
+      "definition": "A Lei nº 8.112/1990 prevê dever de cumprir ordens superiores, exceto quando manifestamente ilegais (art. 116, IV); o servidor também deve representar contra ilegalidade, omissão ou abuso de poder (art. 116, XII).",
+      "example": "Servidor que recebe ordem evidentemente contrária à lei não deve executá-la como se hierarquia eliminasse sua responsabilidade; deve adotar o procedimento funcional aplicável.",
+      "confusion": "Hierarquia não transforma ordem ilegal em válida, e discordância técnica comum não equivale automaticamente a ilegalidade manifesta.",
+      "topic": "Ética e Decoro Parlamentar",
+      "subjectIds": [
+        "etica-publica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-fd2b1a968f294afe",
+        "section": "Obediência hierárquica × ordem manifestamente ilegal"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Etica%20Publica/02%20-%20deveres%20e%20conduta%20profissional.md",
+        "locator": "Capítulo 5: Deveres e conduta profissional no serviço público · seção: Obediência hierárquica × ordem manifestamente ilegal"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-etica-dever-ordem-ilegal"
+      ],
+      "contrast": {
+        "prompt": "O dever funcional de obedecer à chefia inclui cumprir ordem manifestamente ilegal?",
+        "answer": "Não. A exceção consta do art. 116, IV, da Lei nº 8.112/1990; o servidor também deve representar por ilegalidade, omissão ou abuso."
+      }
+    },
+    {
+      "id": "camara-etica-impedimento-suspeicao",
+      "term": "Impedimento × suspeição no processo administrativo",
+      "definition": "A Lei nº 9.784/1999 prevê impedimento em hipóteses objetivas do art. 18 e suspeição por amizade íntima ou inimizade notória com interessados ou pessoas relacionadas (art. 20). A autoridade deve declarar impedimento quando presente; a suspeição admite recurso nos termos do art. 21.",
+      "example": "Interesse direto na matéria pode configurar impedimento; vínculo de amizade íntima pode caracterizar suspeição, conforme os fatos e os dispositivos legais.",
+      "confusion": "Não trate as categorias como sinônimas: hipóteses, dever de declaração e contestação têm regras diferentes.",
+      "topic": "Ética e Decoro Parlamentar",
+      "subjectIds": [
+        "etica-publica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-6cb31a2f7b814e63",
+        "section": "Comparação aplicada: não trocar as categorias"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Etica%20Publica/04%20-%20impedimento%20e%20suspeicao%20processo%20administrativo.md",
+        "locator": "Capítulo 7: Impedimento e suspeição no processo administrativo · seção: Comparação aplicada: não trocar as categorias"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-etica-impedimento-suspeicao"
+      ],
+      "contrast": {
+        "prompt": "Impedimento e suspeição têm as mesmas hipóteses e o mesmo regime de contestação?",
+        "answer": "Não. A Lei nº 9.784/1999 separa hipóteses de impedimento (art. 18) e suspeição (art. 20), com regra recursal específica no art. 21."
+      }
+    },
+    {
+      "id": "camara-etica-assedio-discriminacao",
+      "term": "Acolhimento × apuração × responsabilização",
+      "definition": "Acolher uma pessoa, receber notícia, apurar fatos e responsabilizar são etapas e funções distintas. A resposta institucional deve proteger a pessoa, preservar confidencialidade cabível e garantir procedimento justo, sem antecipar culpa antes da apuração.",
+      "example": "Uma unidade pode oferecer acolhimento e orientar canais formais enquanto a autoridade competente apura fatos e assegura manifestação às partes.",
+      "confusion": "Acolher não significa concluir que a denúncia foi provada; apurar também não autoriza exposição desnecessária ou retaliação.",
+      "topic": "Ética e Decoro Parlamentar",
+      "subjectIds": [
+        "etica-publica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-21de38ab62904f1c",
+        "section": "Acolhimento × denúncia × apuração × responsabilização"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Etica%20Publica/05%20-%20assedio%20discriminacao%20e%20relacoes%20de%20trabalho.md",
+        "locator": "Capítulo 8: Assédio, discriminação e relações de trabalho · seção: Acolhimento × denúncia × apuração × responsabilização"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-etica-assedio-discriminacao"
+      ],
+      "contrast": {
+        "prompt": "Oferecer acolhimento a quem relata assédio equivale a declarar culpada a pessoa denunciada?",
+        "answer": "Não. Acolhimento é suporte; apuração examina os fatos; responsabilização depende de procedimento e evidências."
+      }
+    },
+    {
+      "id": "camara-etica-integridade-programa",
+      "term": "Integridade institucional × código isolado",
+      "definition": "Integridade institucional é sistema de governança que articula padrões, prevenção, orientação, gestão de riscos, canais e apuração; um código de conduta é componente, não substituto de toda a estrutura.",
+      "example": "Publicar código sem treinar equipes, gerir riscos ou tratar denúncias cria regra formal, mas não demonstra funcionamento efetivo do programa.",
+      "confusion": "A existência de uma comissão ou documento, isoladamente, não prova efetividade; avalie atribuições, recursos, processos e resultados.",
+      "topic": "Ética e Decoro Parlamentar",
+      "subjectIds": [
+        "etica-publica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-19dc4c87d1f74e3b",
+        "section": "Núcleo do conceito: programa, plano e código"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Etica%20Publica/06%20-%20integridade%20institucional%20e%20comissoes%20de%20etica.md",
+        "locator": "Capítulo 9: Integridade institucional e comissões de ética · seção: Núcleo do conceito: programa, plano e código"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-etica-integridade-programa"
+      ],
+      "contrast": {
+        "prompt": "A publicação de um código de conduta, por si só, prova que a organização tem integridade efetiva?",
+        "answer": "Não. O código é um instrumento; efetividade depende de estrutura, orientação, prevenção, resposta e acompanhamento."
+      }
+    },
+    {
+      "id": "camara-redacao-resposta-conceitual",
+      "term": "Resposta conceitual × lista de termos",
+      "definition": "Resposta conceitual curta deve definir o conceito solicitado, explicitar elementos essenciais e delimitar uma fronteira relevante em espaço compatível com o comando. Uma lista de palavras-chave pode não demonstrar compreensão nem relação entre ideias.",
+      "example": "Ao explicar “transparência ativa”, defina a divulgação espontânea pelo poder público e diferencie-a do fornecimento provocado por pedido.",
+      "confusion": "Não acrescente contexto irrelevante que consuma linhas sem responder ao verbo do comando.",
+      "topic": "Redação Discursiva e Peça Técnica",
+      "subjectIds": [
+        "redacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.9.1 / questões discursivas e peça técnica"
+      ],
+      "note": {
+        "articleId": "art-b3925d69a8174e0c",
+        "section": "Método de escrita em seis movimentos"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Redacao/05%20-%20resposta%20conceitual%20curta%20de%2020%20linhas.md",
+        "locator": "Capítulo 5: Resposta conceitual curta de até 20 linhas · seção: Método de escrita em seis movimentos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-redacao-resposta-conceitual"
+      ],
+      "contrast": {
+        "prompt": "Uma lista de expressões técnicas sem explicar a relação entre elas costuma bastar para uma questão conceitual?",
+        "answer": "Não. A resposta deve definir e relacionar os elementos pertinentes ao comando, dentro do limite de linhas."
+      }
+    },
+    {
+      "id": "camara-redacao-revisao-criterios",
+      "term": "Revisão formal × revisão de cobertura",
+      "definition": "Revisão eficaz verifica separadamente se a resposta cumpre todos os quesitos e se o texto está claro, coerente, correto e dentro do limite. Corrigir gramática não compensa deixar parte substantiva do comando sem resposta.",
+      "example": "Na primeira passagem, confira se cada subitem foi respondido; na segunda, revise referentes, conectivos, concordância, pontuação e contagem de linhas.",
+      "confusion": "Não use a última revisão apenas para melhorar estilo se ainda falta atender um quesito expresso.",
+      "topic": "Redação Discursiva e Peça Técnica",
+      "subjectIds": [
+        "redacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.9.1 / questões discursivas e peça técnica"
+      ],
+      "note": {
+        "articleId": "art-64ec8b8cd4054dcb",
+        "section": "Duas passagens de revisão"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Redacao/07%20-%20revisao%20e%20autocorrecao%20de%20discursivas%20e%20pecas.md",
+        "locator": "Capítulo 6: Revisão e autocorreção de discursivas e peças técnicas · seção: Duas passagens de revisão"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-redacao-revisao-criterios"
+      ],
+      "contrast": {
+        "prompt": "Corrigir concordância e pontuação garante que a resposta cobriu todos os quesitos do comando?",
+        "answer": "Não. Revisão formal e verificação de cobertura são controles distintos e ambos são necessários."
+      }
+    },
+    {
+      "id": "camara-orc13-rastreabilidade-emenda",
+      "term": "Autoria da emenda × tipo de transferência",
+      "definition": "A autoria classifica emendas como individuais, de bancada ou de comissão; o modo de execução e de transferência é outro critério. Rastreabilidade exige identificar autor, indicação, beneficiário e caminho do recurso conforme as regras aplicáveis.",
+      "example": "Emenda individual não se transforma em emenda de bancada porque seus recursos são transferidos a município; autoria e forma de execução são dimensões diferentes.",
+      "confusion": "Não confunda modalidade do autor com modalidade de aplicação, nem presuma que rastrear o recurso autoriza alteração livre de sua finalidade.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Quatro critérios de classificação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/15%20-%20emendas%20parlamentares%20deliberacao%20e%20rastreabilidade.md",
+        "locator": "Capítulo 13: Emendas parlamentares: deliberação, modalidades e rastreabilidade · seção: Quatro critérios de classificação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-orc13-rastreabilidade-emenda"
+      ],
+      "contrast": {
+        "prompt": "Uma emenda individual passa a ser de bancada quando os recursos são transferidos ao estado?",
+        "answer": "Não. A autoria continua sendo individual; transferência e aplicação são classificações distintas."
+      }
+    },
+    {
+      "id": "camara-orc14-contingenciamento",
+      "term": "Contingenciamento × cancelamento de dotação",
+      "definition": "Limitação de empenho e movimentação financeira busca adequar execução à meta fiscal quando a realização da receita ameaça o resultado previsto, conforme LRF, art. 9º. Ela restringe temporariamente a execução e não cancela automaticamente a dotação orçamentária.",
+      "example": "Se a receita realizada indicar risco de descumprimento da meta, o Executivo e os demais Poderes limitam empenho nos montantes e critérios definidos, com revisão quando a receita se restabelece.",
+      "confusion": "Contingenciamento não é autorização genérica para escolher despesas sem critério nem equivale a crédito cancelado.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/06%20-%20programacao%20orcamentaria%20e%20contingenciamento.md",
+        "locator": "Capítulo 14: Programação orçamentária, financeira e contingenciamento · seção: Contingenciamento: art. 9º da LRF"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-orc14-contingenciamento"
+      ],
+      "contrast": {
+        "prompt": "O contingenciamento extingue automaticamente a autorização orçamentária da despesa?",
+        "answer": "Não. Limita temporariamente empenho e movimentação financeira para cumprir a meta; a dotação não é cancelada só por essa limitação."
+      }
+    },
+    {
+      "id": "camara-orc15-previsao-arrecadacao-recolhimento",
+      "term": "Previsão × lançamento × arrecadação × recolhimento",
+      "definition": "Estágios da receita distinguem estimativa orçamentária, constituição/identificação do crédito quando cabível, recebimento pelo agente arrecadador e transferência ao caixa do Tesouro. Nem todo ingresso percorre lançamento da mesma forma.",
+      "example": "Imposto pode ser previsto, lançado ao contribuinte, arrecadado por instituição financeira e recolhido ao Tesouro em momentos distintos.",
+      "confusion": "Arrecadação é recebimento do contribuinte; recolhimento é entrega dos valores arrecadados ao Tesouro.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Previsão, lançamento, arrecadação e recolhimento"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/07%20-%20receitas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 15: Receitas públicas: ingressos e estágios da execução · seção: Previsão, lançamento, arrecadação e recolhimento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-orc15-previsao-arrecadacao-recolhimento"
+      ],
+      "contrast": {
+        "prompt": "Arrecadação e recolhimento são o mesmo estágio da receita?",
+        "answer": "Não. Arrecadação é o recebimento pelo agente arrecadador; recolhimento é a transferência ao caixa do Tesouro."
+      }
+    },
+    {
+      "id": "camara-orc16-estagios-despesa",
+      "term": "Empenho × liquidação × pagamento",
+      "definition": "Empenho reserva crédito e formaliza compromisso dentro da dotação; liquidação verifica o direito do credor e o objeto entregue; pagamento quita a obrigação após a liquidação, conforme Lei nº 4.320/1964, arts. 58 a 64.",
+      "example": "Em contrato de serviço, empenha-se a despesa, atesta-se a prestação para liquidar e depois se paga o valor devido.",
+      "confusion": "A assinatura do contrato não comprova entrega; pagamento não deve preceder a liquidação regular da despesa.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Empenho: reserva e obrigação orçamentária"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/08%20-%20despesas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 16: Despesas públicas: fixação, empenho, liquidação e pagamento · seção: Empenho: reserva e obrigação orçamentária"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-orc16-estagios-despesa"
+      ],
+      "contrast": {
+        "prompt": "O empenho comprova que o serviço contratado foi prestado e já pode ser pago?",
+        "answer": "Não. Empenho reserva crédito; a liquidação verifica a entrega e o direito do credor antes do pagamento."
+      }
+    },
+    {
+      "id": "camara-da-elementos-ato-administrativo",
+      "term": "Elementos do ato × motivo e motivação",
+      "definition": "Competência, finalidade, forma, motivo e objeto são elementos do ato administrativo. Motivo é o pressuposto de fato e de direito que justifica a decisão; motivação é a exposição dos fundamentos. A teoria dos motivos determinantes vincula a validade aos motivos declarados.",
+      "example": "Se a Administração exonera ocupante de cargo em comissão sem precisar motivar, mas declara uma razão falsa, a motivação apresentada pode vincular e ser controlada pelos motivos determinantes.",
+      "confusion": "Motivo não é a explicação escrita; finalidade é o resultado público legal, e objeto é o efeito jurídico imediato do ato.",
+      "topic": "Direito Administrativo",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Direito Administrativo"
+      ],
+      "note": {
+        "articleId": "art-a7703dd0e3fc4618",
+        "section": "Conceito e características"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Administrativo/03%20-%20atos%20administrativos.md",
+        "locator": "Capítulo 6: Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto · seção: Conceito e características"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-da-elementos-ato-administrativo"
+      ],
+      "contrast": {
+        "prompt": "Motivo e motivação designam o mesmo elemento do ato administrativo?",
+        "answer": "Não. Motivo é pressuposto fático-jurídico; motivação é a declaração dos fundamentos que sustentam a decisão."
+      }
     }
   ]
 }

@@ -117,7 +117,7 @@ function eligible(){
   const seen=new Set([...answeredQuestionIds(examId),...(seenByContest.get(examId)||[])]);
   a=a.filter(q=>retests.has(q.id)&&!seen.has(q.id));
  }
- const scope=selected('qs-scope');
+ const scope=selected('qs-scope'),subjectScope=scope==='single'||scope==='custom';
  if(scope==='custom'){
   const subjects=customSubjects();
   a=a.filter(q=>subjects.has(q.subjectId));
@@ -125,7 +125,9 @@ function eligible(){
  if(scope==='single'){
   const range=singleSubjectRanges.get($('qs-unidade').value);
   a=a.filter(q=>q.subjectId===$('qs-materia').value&&range?.ids.has(q[range.field]));
-  const filter=selected('qs-content-filter')||'algorithm',examId=contest()?.id;
+ }
+ if(subjectScope){
+  const filter=selected('qs-content-filter')||'algorithm';
   if(filter==='unanswered'){
    const seen=new Set([...answeredQuestionIds(examId),...(seenByContest.get(examId)||[])]);
    a=a.filter(q=>!seen.has(q.id));
@@ -201,7 +203,7 @@ function updateUnits(){
  availability();
 }
 function availability(){
- const focused=selected('qs-scope')==='single', custom=selected('qs-scope')==='custom';
+ const focused=selected('qs-scope')==='single', custom=selected('qs-scope')==='custom', scopedSelection=focused||custom;
  const mode=selected('qs-mode'),assessmentMode=mode==='avaliacao',retestMode=mode==='reteste';
  toggle('qs-assessment-options',assessmentMode);
  toggle('qs-scope-field',!assessmentMode);toggle('qs-custom-wrap',!assessmentMode&&custom);
@@ -225,7 +227,7 @@ function availability(){
  }
  toggle('qs-custom-wrap',custom);
  toggle('qs-materia-wrap',focused);
- toggle('qs-content-filter-wrap',focused);
+ toggle('qs-content-filter-wrap',scopedSelection); $('qs-content-filter-title').textContent=custom?'Questões das matérias selecionadas':'Questões desta matéria';
  toggle('qs-unidade-wrap',focused&&$('qs-unidade').options.length>0);
  const n=eligible().length;
  const total=available().length;
@@ -234,16 +236,16 @@ function availability(){
   ?(n===total?total+' questões disponíveis':n+' de '+total+' questões nesta seleção')+'.'
   :'Ainda não há questões disponíveis para esta seleção.';
  if(focused&&!chapterIds.length)$('qs-availability').textContent='Esta matéria ainda não tem capítulos registrados no catálogo editorial.';
- const contentFilter=focused?(selected('qs-content-filter')||'algorithm'):'algorithm';
- if(focused&&contentFilter==='unanswered')$('qs-content-filter-description').textContent='Filtra questões sem resposta nem exposição registradas no histórico consultado. Isso não significa que entraram recentemente no catálogo.';
- else if(focused&&contentFilter==='retests'){
+ const contentFilter=scopedSelection?(selected('qs-content-filter')||'algorithm'):'algorithm';
+ if(scopedSelection&&contentFilter==='unanswered')$('qs-content-filter-description').textContent='Filtra questões sem resposta nem exposição registradas no histórico consultado. Isso não significa que entraram recentemente no catálogo.';
+ else if(scopedSelection&&contentFilter==='retests'){
   $('qs-content-filter-description').textContent='Filtra itens ainda não expostos de conceitos liberados pela fila de revisão sincronizada.';
   if(!n){
    if(loggedIn&&!reviewQueueLoaded.has(contest()?.id))$('qs-availability').textContent='Consultando a fila privada para localizar retestes vencidos desta matéria.';
    else if(!loggedIn&&!retestQuestionIds(contest()?.id).size)$('qs-availability').textContent='Entre na versão autenticada para consultar a fila privada de retestes vencidos.';
-   else $('qs-availability').textContent='Não há retestes neste recorte. Amplie os capítulos ou consulte outra matéria.';
+   else $('qs-availability').textContent=focused?'Não há retestes neste recorte. Amplie os capítulos ou consulte outra matéria.':'Não há retestes nas matérias selecionadas. Ajuste as matérias ou amplie a seleção.';
   }
- }else if(focused)$('qs-content-filter-description').textContent='O algoritmo continua escolhendo a bateria como de costume.';
+ }else if(scopedSelection)$('qs-content-filter-description').textContent='O algoritmo continua escolhendo a bateria como de costume.';
  if(custom) for(const q of eligible()) amounts.set(q.subjectId,(amounts.get(q.subjectId)||0)+1);
  const subjects=custom?customSubjects():new Set();
  if(custom && subjects.size<2) $('qs-availability').textContent='Selecione pelo menos duas matérias.';

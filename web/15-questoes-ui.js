@@ -44,7 +44,7 @@ function readingStart(){
 function playing(on){document.body.classList.toggle('qs-is-playing',on);}
 
 const status=t=>{$('qs-status').textContent=t;};
-const selected=name=>document.querySelector('input[name="'+name+'"]:checked')?.value||'';
+const selected=name=>document.querySelector('input[name="'+name+'"]:checked')?.value||$(name)?.value||'';
 function storeRead(){try{const x=JSON.parse(localStorage.getItem(STORE)||'[]');return Array.isArray(x)?x:[];}catch{return [];}}
 function storeWrite(){if(!session)return;const a=storeRead().filter(x=>x.id!==session.id);a.push(session);localStorage.setItem(STORE,JSON.stringify(a.slice(-50)));localStorage.setItem(ACTIVE,session.id);}
 function id(){return crypto.randomUUID();}

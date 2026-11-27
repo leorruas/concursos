@@ -719,7 +719,7 @@ async function init(){
   const generalCount=data.questions.filter(q=>!q.learningTrack).length;
   const learningCount=data.questions.filter(q=>q.learningTrack==='aprendizagem-orcamento-camara-2026').length;
   $('qs-pool').options[0].textContent='Banco geral ('+generalCount+')';
-  $('qs-pool').options[1].textContent='Aprendizagem: Orçamento, capítulos 1–4 ('+learningCount+')';
+  $('qs-pool').options[1].textContent='Aprendizagem: Orçamento, capítulos 1–8 ('+learningCount+')';
   $('qs-pool').options[1].disabled=learningCount===0;
   try{const m=await fetch('manifest.json').then(r=>r.ok?r.json():[]);manifest=new Map(m.filter(x=>x.articleId).map(x=>[x.articleId,x]));}catch{}
   const catalogResponse=await fetch('data/catalogo-materias-por-concurso.json',{cache:'no-store'});

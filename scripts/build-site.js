@@ -682,11 +682,11 @@ const capitulosNoPercurso = [...secaoPercursoOrcamento.matchAll(/\[\[(3 - Materi
   });
 if (aprendizagemOrcamento.version !== 1 || aprendizagemOrcamento.concursoId !== 'camara-2026' ||
     aprendizagemOrcamento.subjectId !== 'orcamento-publico' || aprendizagemOrcamento.pool !== 'aprendizagem' ||
-    aprendizagemOrcamento.chapters.length !== 4 ||
+    aprendizagemOrcamento.chapters.length !== 8 ||
     aprendizagemOrcamento.chapters.some((chapter, index) => chapter.sequence !== index + 1 ||
       chapter.articleId !== capitulosNoPercurso[index]?.articleId || chapter.sourcePath !== capitulosNoPercurso[index]?.sourcePath ||
       !artigosOrcamentoCamara.includes(chapter.articleId) || chapter.questions.length !== 50)) {
-  throw Error('Coleção de aprendizagem de Orçamento deve cobrir os quatro primeiros capítulos do percurso editorial, presentes no catálogo, com 50 itens cada.');
+  throw Error('Coleção de aprendizagem de Orçamento deve cobrir os oito primeiros capítulos do percurso editorial, presentes no catálogo, com 50 itens cada.');
 }
 const knownArticlePaths = new Map(manifesto.map(item => [item.articleId, item.sourcePath]));
 const learningQuestionIds = new Set();
@@ -704,7 +704,7 @@ for (const chapter of aprendizagemOrcamento.chapters) {
     learningQuestionIds.add(item.id);
     if ((item.answer !== 'C' && item.answer !== 'E') || !item.statement?.trim() || !item.explanation?.trim() ||
         !item.conceptId?.trim() || !item.mechanism?.trim() || !headings.has(item.section) ||
-        !/CF|Constituição|Lei nº|LC nº|ADCT|LRF/.test(item.explanation)) {
+        !/(?:CF|Constituição|Lei nº|LC nº|ADCT|LRF|Resolução nº|Portaria [^,;]+|MTO \d{4}|MCASP)/.test(item.explanation)) {
       throw Error('Questão de aprendizagem incompleta ou sem referência teórica/normativa: ' + label);
     }
     const editalRef = aprendizagemOrcamento.editalRef;

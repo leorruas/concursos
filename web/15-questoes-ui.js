@@ -249,8 +249,9 @@ function availability(){
  }else if(scopedSelection)$('qs-content-filter-description').textContent='O algoritmo continua escolhendo a bateria como de costume.';
  if(custom) for(const q of eligible()) amounts.set(q.subjectId,(amounts.get(q.subjectId)||0)+1);
  const subjects=custom?customSubjects():new Set();
+ const retestQueuePending=contentFilter==='retests'&&(!loggedIn||!reviewQueueLoaded.has(contest()?.id));
  if(custom && subjects.size<2) $('qs-availability').textContent='Selecione pelo menos duas matérias.';
- else if(custom && amounts.size<subjects.size) $('qs-availability').textContent='Uma das matérias selecionadas ficou sem itens. Ajuste a dificuldade ou a seleção.';
+ else if(custom && amounts.size<subjects.size&&!retestQueuePending) $('qs-availability').textContent='Uma das matérias selecionadas ficou sem itens. Ajuste a dificuldade ou a seleção.';
  if(retestMode&&!n)$('qs-availability').textContent=!loggedIn
   ?'Entre na versão autenticada para consultar a fila privada de retestes vencidos.'
   :!reviewQueueLoaded.has(contest()?.id)

@@ -149,7 +149,7 @@ ctx.concursoSelecionadoId='camara-2026';
 ctx.renderizarContextoConcursoArtigo(legacyBudget);
 assert.equal(strip.hidden,false);
 assert.equal(strip.children[0].children[1].textContent,'Câmara 2026');
-assert.equal(strip.children[1].children[0].textContent,'Orçamento e processo legislativo orçamentário');
+assert.equal(strip.children[1].children[0].textContent,'Orçamento Público');
 ctx.concursoSelecionadoId='dataprev-2026';ctx.renderizarContextoConcursoArtigo(budget);
 assert.equal(strip.children[0].children[1].textContent,'Dataprev 2026');
 assert.equal(strip.children[1].textContent,'Artigo da biblioteca geral, fora deste programa.');

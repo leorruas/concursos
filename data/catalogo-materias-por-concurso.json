@@ -565,7 +565,7 @@
           "subjectId": "direito-constitucional",
           "categoria": "Direito Constitucional",
           "ordem": 5,
-          "rotulo": "Direito Constitucional e processo legislativo",
+          "rotulo": "Direito Constitucional e Regimento",
           "itemEdital": "Conhecimentos básicos: Constitucional e Regimento",
           "hubArticleId": "art-63ee6efc2e9e4c17",
           "articleIds": [
@@ -786,7 +786,7 @@
           "subjectId": "estado-democracia",
           "categoria": "Estado e Democracia",
           "ordem": 8,
-          "rotulo": "Ciência Política e Estado",
+          "rotulo": "Ciência Política",
           "itemEdital": "Ciência Política",
           "hubArticleId": "art-50e0978739874d08",
           "articleIds": [
@@ -822,7 +822,7 @@
           "subjectId": "orcamento-publico",
           "categoria": "Orcamento Publico",
           "ordem": 9,
-          "rotulo": "Orçamento e processo legislativo orçamentário",
+          "rotulo": "Orçamento Público",
           "itemEdital": "Processo Legislativo e Regimento",
           "hubArticleId": "art-61a554a75c574053",
           "articleIds": [
@@ -854,7 +854,7 @@
           "subjectId": "etica-publica",
           "categoria": "Etica Publica",
           "ordem": 10,
-          "rotulo": "Ética e decoro parlamentar",
+          "rotulo": "Ética e Decoro Parlamentar",
           "itemEdital": "Código de Ética e Decoro Parlamentar; ética pública e em comunicação como apoio transversal, sem equivalência automática ao programa da CGU",
           "hubArticleId": "art-82361a9e55874776",
           "articleIds": [
@@ -873,7 +873,7 @@
           "subjectId": "redacao",
           "categoria": "Redacao",
           "ordem": 11,
-          "rotulo": "Redação discursiva e peça técnica",
+          "rotulo": "Redação Discursiva e Peça Técnica",
           "itemEdital": "Prova discursiva",
           "hubArticleId": "art-53aaeb5f3d694d57",
           "articleIds": [

@@ -39,11 +39,9 @@ O caput assegura a inviolabilidade de **vida, liberdade, igualdade, segurança e
 
 Os cinco substantivos do caput são uma boa âncora de memória, mas o art. 5º contém um catálogo muito mais amplo de direitos, garantias e deveres.
 
+O inciso **LXXIX** reconhece expressamente o direito fundamental à **proteção dos dados pessoais, inclusive nos meios digitais**, nos termos da lei. A proteção alcança, por exemplo, dados que identificam ou descrevem uma pessoa quando são tratados por serviços digitais; não se limita a arquivos em papel nem se confunde com acesso irrestrito a qualquer informação pública. Fundamento: Constituição Federal, art. 5º, LXXIX, incluído pela EC nº 115/2022.
+
 ### Garantias do art. 5º cobradas além do caput
-
-**Resposta, indenização e expressão.** O inciso V assegura direito de resposta **proporcional ao agravo**, além de indenização por dano material, moral ou à imagem. Resposta e reparação têm funções diferentes e podem coexistir quando os pressupostos de cada uma estiverem presentes. O inciso IX protege a expressão intelectual, artística, científica e de comunicação **independentemente de censura ou licença**; isso não elimina responsabilização posterior por ilícito. No inciso XIV, o acesso à informação convive com o **sigilo da fonte**, quando necessário ao exercício profissional. Não confundir esses incisos com o inciso IV, que protege a manifestação do pensamento e veda o anonimato.
-
-**Consciência, crença e assistência religiosa.** O inciso VI protege a liberdade de consciência e de crença, o exercício dos cultos e, na forma da lei, os locais de culto e suas liturgias. O inciso VII assegura assistência religiosa, também nos termos da lei, em entidades civis e militares de internação coletiva. Já o inciso VIII só admite privação de direitos quando a pessoa invoca convicção religiosa, filosófica ou política para fugir de obrigação legal geral **e** recusa a prestação alternativa fixada em lei. Invocar a convicção e aceitar a alternativa não satisfaz os dois requisitos da exceção.
 
 **Inviolabilidade da casa.** Pelo inciso XI, a entrada depende do consentimento do morador, salvo flagrante delito, desastre ou prestação de socorro, hipóteses que podem ocorrer a qualquer hora. A entrada por determinação judicial é permitida **durante o dia**. O limite diurno acompanha a ordem judicial; não deve ser transportado para as hipóteses autônomas de flagrante, desastre ou socorro.
 
@@ -51,7 +49,7 @@ Os cinco substantivos do caput são uma boa âncora de memória, mas o art. 5º 
 
 **Propriedade, função social e requisição.** O inciso XXII garante a propriedade, que deve cumprir sua função social (XXIII). Não confunda **desapropriação** e **requisição**: a desapropriação segue procedimento legal e, como regra constitucional geral, exige indenização justa e prévia em dinheiro, ressalvadas as exceções da própria Constituição (XXIV). Na requisição por iminente perigo público, a autoridade pode usar propriedade particular e a indenização é **posterior e devida se houver dano** (XXV). Portanto, não se exige pagamento prévio na requisição nem indenização se nenhum dano ocorrer.
 
-**Petição, certidões e acesso a informações.** O inciso XXXIV dispensa pagamento de taxa para (a) peticionar aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder e (b) obter certidões em repartições públicas para defesa de direitos ou esclarecimento de situações de interesse pessoal. A finalidade constitucional importa: a regra não afirma que qualquer documento ou certidão, para qualquer uso, seja automaticamente gratuito. O inciso XXXIII trata do acesso a informações de interesse particular, coletivo ou geral, sujeito aos prazos legais e à ressalva de sigilo imprescindível à segurança da sociedade e do Estado. Para dados pessoais próprios em registro governamental ou de caráter público, compare com o **habeas data** abaixo; ele não é pedido genérico de transparência.
+**Acesso à informação.** O inciso XXXIII trata do acesso a informações de interesse particular, coletivo ou geral, sujeito aos prazos legais e à ressalva de sigilo imprescindível à segurança da sociedade e do Estado. Para dados pessoais próprios em registro governamental ou de caráter público, compare com o **habeas data** abaixo; ele não é pedido genérico de transparência.
 
 ## Direito × garantia
 
@@ -61,6 +59,12 @@ A distinção é didática e doutrinária:
 - **garantia** = mecanismo de proteção ou defesa do direito, como habeas corpus ou mandado de segurança.
 
 Nem toda garantia é um remédio constitucional e nem todo inciso do art. 5º cabe perfeitamente em uma oposição rígida “direito ou garantia”. Use a distinção para raciocínio, não como classificação absoluta de todo o texto constitucional.
+
+**Petição e certidões sem taxa (art. 5º, XXXIV):** qualquer pessoa pode peticionar aos Poderes Públicos, sem pagar taxa, para defender direitos ou contestar ilegalidade ou abuso de poder. Também é gratuita a obtenção, em repartições públicas, de certidões destinadas à defesa de direitos ou ao esclarecimento de situações de interesse pessoal. A finalidade importa: a Constituição não torna todo documento ou pedido gratuito, qualquer que seja seu uso.
+
+**Exemplo:** a repartição não pode condicionar ao pagamento de taxa o recebimento de petição que denuncia abuso de poder; também não deve cobrar pela certidão solicitada para esclarecer situação de interesse pessoal. Certidão pedida para finalidade alheia às hipóteses constitucionais não recebe automaticamente essa gratuidade.
+
+**Duração razoável do processo (art. 5º, LXXVIII):** essa garantia alcança processos **judiciais e administrativos** e inclui tanto a duração razoável quanto os meios que assegurem tramitação célere. Por exemplo, uma pessoa pode invocá-la diante de demora injustificada em processo administrativo; isso não dispensa a observância das etapas legais nem cria um único prazo numérico para todo procedimento. Os prazos específicos devem ser conferidos na norma que rege cada processo.
 
 ## Aplicação e limites dos direitos fundamentais
 
@@ -76,11 +80,17 @@ O catálogo de direitos não é fechado: o **art. 5º, § 2º**, diz que os dire
 
 ### Manifestação do pensamento
 
-É livre, sendo **vedado o anonimato**. Liberdade de expressão não elimina eventual responsabilização posterior por ilícitos.
+O art. 5º, IV, protege a manifestação do pensamento e **veda o anonimato**. Identificar o autor permite eventual responsabilização posterior por ilícito, mas não transforma crítica política em algo proibido nem autoriza censura prévia. O inciso IX protege a expressão intelectual, artística, científica e de comunicação **independentemente de censura ou licença**; a proteção contra controle prévio não elimina eventual responsabilização posterior, se houver fundamento jurídico.
+
+O inciso V assegura **direito de resposta proporcional ao agravo**, além de indenização por dano material, moral ou à imagem. Resposta e indenização têm funções diferentes e podem coexistir quando presentes os pressupostos de cada uma. O simples desconforto da autoridade com uma crítica identificada, sem indicação de ilícito, não basta para afastar essas liberdades.
+
+O inciso XIV trata de garantia próxima, mas distinta: protege o **sigilo da fonte**, quando necessário ao exercício profissional. Não confundir o sigilo da fonte com a vedação ao anonimato da manifestação do pensamento.
 
 ### Liberdade de consciência e crença
 
-A Constituição protege consciência, crença, cultos e locais de culto nos termos constitucionais. O caráter laico do Estado não significa hostilidade estatal à religião.
+O inciso VI protege a liberdade de consciência e de crença, o exercício dos cultos e, na forma da lei, os locais de culto e suas liturgias. O inciso VII assegura assistência religiosa, também nos termos da lei, em entidades civis e militares de internação coletiva; portanto, o caráter laico do Estado não significa hostilidade estatal à religião.
+
+O inciso VIII estabelece uma regra distinta sobre **obrigação legal geral e prestação alternativa**: ninguém perde direitos por invocar convicção religiosa, filosófica ou política para se eximir da obrigação se aceitar cumprir a alternativa fixada em lei. A privação só pode ocorrer quando a pessoa invoca a convicção **e também recusa** a prestação alternativa. Os dois fatos são cumulativos. Exemplo: quem aceita a prestação prevista em lei não satisfaz a condição constitucional para a exceção, ainda que tenha invocado sua crença.
 
 ### Exercício profissional
 

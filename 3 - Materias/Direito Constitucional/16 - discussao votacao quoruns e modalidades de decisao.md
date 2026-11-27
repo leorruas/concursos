@@ -5,7 +5,7 @@ title: "Discussão, votação, quóruns e modalidades de decisão na Câmara"
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-11
+updated: 2026-11-27
 aliases:
   - "Quóruns de presença e deliberação"
   - "Maioria simples, absoluta e qualificada"
@@ -110,7 +110,17 @@ O requerimento de quebra do interstício de uma hora é **oral**, após a procla
 
 **Art. 191:** há regras de preferência, entre elas o **substitutivo de comissão antes do projeto**. Se o substitutivo for aprovado, podem ficar **prejudicados** o projeto e as emendas oferecidas, **ressalvadas as emendas ao substitutivo e os destaques**. Se rejeitado, examina-se o texto original e emendas cabíveis. **Prejudicialidade não significa necessariamente rejeição expressa por votação nominal do texto principal.**
 
-**Destaque para votação em separado (DVS):** pelo **art. 162, VI**, vota-se **primeiro a matéria principal** e, depois, a **matéria destacada**, que **somente integrará** o texto se for aprovada. O comando que diz que uma parcela do texto é destacada “para ser excluída automaticamente” inverte a lógica de apreciação do destaque.
+**Destaque** é o procedimento que separa uma parte da votação conjunta para que o Plenário decida sobre ela de modo próprio. O RICD admite, entre outras hipóteses, destaque para votar separadamente parte de proposição ou emenda, ou para transformar parte do texto em projeto autônomo (art. 161). O destaque organiza a deliberação; por si só, não aprova, rejeita nem elimina o trecho.
+
+**Há um limite material para o trecho que se pretende destacar.** O art. 162, IV, proíbe destacar uma expressão cuja retirada **inverta o sentido da proposição ou a modifique substancialmente**. A expressão ter autonomia sintática, ou formar uma frase compreensível quando lida isoladamente, não afasta essa proibição. O inciso V permite o destaque quando o texto a separar puder ser ajustado à proposição em que será integrado e formar sentido completo. São condições distintas: formar sentido completo viabiliza o destaque, mas não autoriza retirar expressão que inverta ou altere substancialmente a proposição. Exemplo: uma frase pode continuar gramatical após a retirada de uma negação, mas, se a proposição passar a afirmar o contrário, o destaque é vedado.
+
+**Destaque para votação em separado (DVS):** pelo **art. 162, VI**, vota-se **primeiro a matéria principal** e, em seguida, a **matéria destacada**, que **somente integrará** o texto se for aprovada. Se o trecho não obtiver aprovação, não entra no texto final. Portanto, destacar não significa excluir automaticamente: a parte separada ainda precisa ser submetida à votação.
+
+**Destaque para projeto em separado:** aqui se pretende dar curso autônomo a uma emenda ou parte da proposição. A deliberação sobre esse destaque ocorre **antes da matéria principal** (art. 162, VII), ao contrário do DVS. A hipótese não serve para criar projeto autônomo a partir de matéria insuscetível de tramitação independente nem de disposição de projeto do Senado (art. 162, IX). Aprovado o destaque, o autor tem duas sessões para apresentar o texto do novo projeto, que tramita como proposição inicial (art. 162, X e XI).
+
+**Quem pode apresentar e quantos destaques cabem?** Como regra, o destaque é prerrogativa de bancada partidária, com limite proporcional ao tamanho da bancada: de **5 a 24 deputados**, um; de **25 a 49**, dois; de **50 a 74**, três; de **75 em diante**, quatro (art. 161, § 2º). Assim, a passagem de 49 para 50 deputados muda o limite de dois para três. Os destaques para os fins dos incisos III e IV do art. 161 dependem de aprovação do Plenário (§ 3º); não se deve estender essa condição indistintamente a todo destaque.
+
+Há também destaque de iniciativa individual, mas ele só pode ser submetido à deliberação do Plenário se **todos os Líderes** derem aquiescência **por escrito** (art. 161, § 4º). Apoiamento de um décimo dos deputados, previsto para outros requerimentos regimentais, não substitui essa unanimidade escrita.
 
 **Art. 192:** o **encaminhamento de votação** pode ocorrer antes da decisão, nas condições regimentais, com regra geral de **três minutos por orador**, **até dois favoráveis e dois contrários**, sem confundir encaminhamento com a etapa ampla de **discussão**. A orientação de cada Líder à bancada tem prazo próprio de **até um minuto**. O **§ 2º-A** esclarece que a orientação de bancada **não prejudica o início da votação nominal**; o **§ 7º** limita o encaminhamento de **destaque do art. 161** a **um orador favorável e um contrário**; e o **§ 8º** afasta encaminhamento para **eleições**, limitando-o, em requerimentos quando cabível, ao signatário e a um orador contrário. A existência de encaminhamento **não muda a espécie normativa nem seu quórum de aprovação**.
 
@@ -128,7 +138,7 @@ O requerimento de quebra do interstício de uma hora é **oral**, após a procla
 
 **6. Interstício.** Antes de transcorrer **uma hora** de verificação anterior, pretende-se realizar nova. O **art. 185, § 4º**, exige **deliberação do Plenário a requerimento de 10% dos membros** ou Líderes que representem esse número. **31 apoiadores** bastavam para a primeira verificação, mas **não** para o requerimento específico de quebra do intervalo.
 
-**7. Separação de matéria.** Durante votação de um projeto com **destaque para votação em separado**, delibera-se sobre a matéria principal e depois sobre o trecho destacado; o trecho **só será integrado se aprovado**. A análise do destaque não é um novo quórum de PEC nem uma nova espécie de lei.
+**7. Destaques.** No **DVS**, primeiro se vota a matéria principal e depois o trecho separado, que só entra no texto se aprovado. No destaque para **projeto em separado**, delibera-se sobre o destaque antes da matéria principal. Não se admite destacar expressão cuja retirada inverta o sentido ou modifique substancialmente a proposição. A análise do destaque não cria um novo quórum de PEC nem uma nova espécie de lei.
 
 **8. Empate de outra votação.** Em escrutínio **ostensivo** com empate, vale a regra de desempate atribuída ao **Presidente da Câmara** no art. 180, § 3º; em **escrutínio secreto**, realizam-se novas votações até desempate nas condições legais. **Não transplantar o voto do relator do art. 56 para o Plenário.**
 

@@ -5,7 +5,7 @@ title: "Princípios fundamentais"
 type: "conceito"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-11-14
+updated: 2026-11-27
 ---
 
 # Princípios fundamentais
@@ -30,7 +30,7 @@ Seus fundamentos são:
 
 Mnemônico possível: **So-Ci-Di-Va-Plu**.
 
-Na prática, **soberania** é a autoridade do Estado brasileiro em sua ordem constitucional e em sua atuação externa; **cidadania** diz respeito à participação das pessoas na vida política; **dignidade da pessoa humana** exige que o Estado trate cada pessoa como sujeito de direitos. Os **valores sociais do trabalho e da livre iniciativa** reconhecem tanto o trabalho quanto a atividade econômica; **pluralismo político** admite a convivência de diferentes ideias e correntes políticas. São fundamentos que orientam a interpretação do sistema, e não cinco procedimentos eleitorais específicos.
+Na prática, **soberania** é a autoridade do Estado brasileiro em sua ordem constitucional e em sua atuação externa; **cidadania** diz respeito à participação das pessoas na vida política; **dignidade da pessoa humana** exige que o Estado trate cada pessoa como sujeito de direitos. Os **valores sociais do trabalho e da livre iniciativa** reconhecem tanto o trabalho quanto a atividade econômica; **pluralismo político** admite a convivência de diferentes ideias e correntes políticas. Um regime que suprima correntes divergentes e imponha partido único contraria essa abertura pluralista. O art. 17 concretiza-a ao garantir a criação, fusão, incorporação e extinção de partidos, dentro dos limites constitucionais. São fundamentos que orientam a interpretação do sistema, e não cinco procedimentos eleitorais específicos.
 
 O parágrafo único do art. 1º acrescenta uma fronteira recorrente: **todo o poder emana do povo**, que o exerce por meio de representantes eleitos **ou diretamente**, nos termos da Constituição. Por exemplo, o eleitor escolhe deputados para legislar (participação por representantes), mas também pode participar de plebiscito ou referendo nas condições constitucionais (participação direta). **Plebiscito** consulta antes da decisão política; **referendo** submete à consulta um ato já tomado. Logo, democracia representativa e participação direta convivem no modelo brasileiro.
 
@@ -44,6 +44,8 @@ A expressão constitucional combina duas ideias:
 - **harmonia**: separação não significa isolamento; existem controles recíprocos e funções atípicas.
 
 **Exemplo de controle recíproco:** o Congresso aprova um projeto de lei; o Presidente pode vetá-lo nos casos constitucionais; o Congresso pode examinar e rejeitar o veto segundo o procedimento previsto na Constituição. Nenhum desses atos transforma um Poder em subordinado permanente de outro. O nome **freios e contrapesos** descreve esses mecanismos de controle. **Função atípica** é a atividade exercida por um Poder fora de sua função principal, quando autorizada pelo ordenamento: por exemplo, a Câmara administra seus próprios serviços. Independência não é isolamento.
+
+A lista do art. 2º contém **três Poderes**: Legislativo, Executivo e Judiciário. O **Ministério Público (MP)** tem autonomia funcional e administrativa e é instituição permanente e essencial à função jurisdicional (art. 127, caput e § 2º), mas a Constituição **não o classifica como um quarto Poder**. Autonomia protege o exercício de suas atribuições; não altera a enumeração constitucional. Por exemplo, o MP pode ajuizar ação para defender a ordem jurídica, mas cabe ao Judiciário julgá-la.
 
 ## Art. 3º — objetivos fundamentais
 
@@ -71,7 +73,7 @@ A República rege-se, nas relações internacionais, pelos princípios de:
 - cooperação entre os povos para o progresso da humanidade;
 - concessão de asilo político.
 
-**Exemplo e limite:** em um conflito entre dois países, defender uma solução negociada corresponde ao princípio da **solução pacífica dos conflitos**. Isso não torna a política externa brasileira idêntica à de outros países nem significa que qualquer atuação internacional esteja proibida: a Constituição também prevê hipóteses e procedimentos próprios para guerra e paz. **Não intervenção** é a orientação de respeitar a autonomia política de outros Estados, e não uma proibição de diálogo, cooperação ou defesa dos direitos humanos.
+**Exemplo e limite:** em um conflito entre dois países, defender uma solução negociada corresponde ao princípio da **solução pacífica dos conflitos**. Isso não torna a política externa brasileira idêntica à de outros países nem significa que qualquer atuação internacional esteja proibida: a Constituição também prevê hipóteses e procedimentos próprios para guerra e paz. **Não intervenção** é a orientação de respeitar a autonomia política de outros Estados, e não uma proibição de diálogo, cooperação ou defesa dos direitos humanos. Por exemplo, um programa científico negociado e aceito pelos países envolvidos pode concretizar, ao mesmo tempo, a cooperação do art. 4º, IX, e a não intervenção: trabalhar em conjunto, com consentimento, não equivale a impor uma decisão sobre a organização política interna de outro Estado.
 
 O parágrafo único determina que o Brasil buscará a **integração econômica, política, social e cultural dos povos da América Latina**, visando à formação de uma comunidade latino-americana de nações.
 

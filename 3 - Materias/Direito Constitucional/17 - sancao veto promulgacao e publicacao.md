@@ -5,7 +5,7 @@ title: "Sanção, veto, promulgação e publicação: etapas, prazos e competên
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-15
+updated: 2026-11-27
 aliases:
   - "Sanção expressa e tácita"
   - "Veto presidencial total e parcial"
@@ -106,6 +106,10 @@ A decisão sobre veto não é individual da Câmara ou do Senado. O **art. 57, �
 **Prazo vencido não extingue a competência congressual:** o STF, na **ADI 5.706 (2024)**, esclareceu que o atraso na apreciação do veto acarreta inclusão em pauta e sobrestamento previstos no art. 66, § 6º, **sem caducidade do veto nem perda da competência parlamentar para apreciá-lo**. A sanção tácita é consequência do **silêncio presidencial**, não da demora do Congresso.
 
 **Calendário regimental:** o RCCN, art. 106, prevê convocação da sessão conjunta para apreciar vetos na **terceira terça-feira de cada mês** e, se não ocorrer, na **terça-feira seguinte**, sem afastar as exigências constitucionais sobre a apreciação e o sobrestamento. Calendário de sessão **não é o mesmo que prazo do veto presidencial**.
+
+**Cédula, obstrução e destaque eletrônico (RCCN, arts. 106-B a 106-D):** a votação do veto é nominal e ocorre por cédula identificada, que reúne os vetos da pauta por projeto. O art. 106-C considera em obstrução, **para o item deixado em branco**, o parlamentar cujo líder declarou essa posição; nessa hipótese, a presença dele não entra no quórum daquele item. A declaração do líder, sozinha, não basta: se o parlamentar registra voto no item, não deixou aquele campo em branco.
+
+Até o início da Ordem do Dia, líderes podem requerer destaque de dispositivo individual ou conexo para votação no painel eletrônico. O requerimento **não depende de aprovação do Plenário** (art. 106-D). Na Câmara, o limite por cédula é de **1 destaque para bancadas de 5 a 24 deputados; 2 para 25 a 49; 3 para 50 a 74; e 4 para 75 ou mais**. Se a cédula contiver **mais de oito projetos ou mais de oitenta dispositivos**, admite-se até o dobro do limite. Exemplo: bancada com 25 deputados dispõe ordinariamente de dois destaques; se a cédula reunir nove projetos, o limite pode chegar a quatro. A votação em cédula e o destaque no painel são etapas/meios distintos, e o uso de painel eletrônico não transforma a votação ostensiva em secreta.
 
 ### Resultado do Congresso: manter ou rejeitar
 
@@ -247,4 +251,4 @@ Organizar a resposta por **ato, finalidade, sujeito competente, prazo, consequê
 - [LINDB, Decreto-Lei nº 4.657/1942, art. 1º, texto consolidado do Senado](https://legis.senado.gov.br/norma/529744/publicacao/34620738).
 - [Lei Complementar nº 95/1998, art. 8º, Planalto](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm).
 
-**Critério de atualização:** normas e fontes oficiais conferidas em **07/11/2026**. A redação do art. 66, § 4º, alterada pela EC nº 76/2013, deve prevalecer sobre reproduções históricas que ainda exibam voto secreto. Questões inéditas elaboradas para treino Cebraspe, sem afirmar correspondência literal a provas oficiais, desempenho ou retenção pessoal.
+**Critério de atualização:** normas e fontes oficiais conferidas em **27/11/2026**. A redação do art. 66, § 4º, alterada pela EC nº 76/2013, deve prevalecer sobre reproduções históricas que ainda exibam voto secreto. Questões inéditas elaboradas para treino Cebraspe, sem afirmar correspondência literal a provas oficiais, desempenho ou retenção pessoal.

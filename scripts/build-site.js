@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 import { validarCatalogoMaterias } from './contest-catalog.js';
 import { buildGlossary } from './glossary-data.js';
 import { buildGlossaryFlashcards, mergeGlossaryFlashcards } from './glossary-flashcards.js';
+import { buildCamaraFlashcardChapterTracks } from './flashcard-chapters.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -685,12 +686,9 @@ if (!capitulosNoPercurso.length || new Set(capitulosNoPercurso.map(x => x.articl
     capitulosNoPercurso.some(ch => !artigosOrcamentoCamara.includes(ch.articleId) || !artigosPorIdOrcamento.has(ch.articleId))) {
   throw Error('O percurso de Orçamento da Câmara contém artigos sem identidade pública no catálogo.');
 }
-const trilhasCapitulosFlashcards = [{
-  examId: 'camara-2026', subjectId: 'orcamento-publico', title: 'Orçamento Público · Câmara 2026',
-  chapters: capitulosNoPercurso.map((chapter, index) => ({
-    sequence: index + 1, articleId: chapter.articleId, title: artigosPorIdOrcamento.get(chapter.articleId).tituloExibicao
-  }))
-}];
+const catalogoCamaraFlashcards = catalogoMaterias.contests.find(contest => contest.concursoId === 'camara-2026');
+const trilhasCapitulosFlashcards = buildCamaraFlashcardChapterTracks(rootDir, catalogoCamaraFlashcards, manifesto);
+const rotulosMateriasCamara = Object.fromEntries(catalogoCamaraFlashcards.subjects.map(subject => [subject.subjectId, subject.rotulo]));
 if (aprendizagemOrcamento.version !== 1 || aprendizagemOrcamento.concursoId !== 'camara-2026' ||
     aprendizagemOrcamento.subjectId !== 'orcamento-publico' || aprendizagemOrcamento.pool !== 'aprendizagem' ||
     aprendizagemOrcamento.chapters.length !== 8 ||
@@ -772,7 +770,7 @@ fs.writeFileSync(path.join(outDir, 'data/glossario-flashcards.json'), JSON.strin
 // Somente um arquivo precisa ser carregado pelo navegador. Evita versões desencontradas
 // entre a coleção principal e os cartões derivados em deploys/cache distintos.
 fs.writeFileSync(path.join(outDir, 'data/flashcards.json'), JSON.stringify({
-  ...colecaoFlashcardsPublicada, chapterTracks: trilhasCapitulosFlashcards
+  ...colecaoFlashcardsPublicada, chapterTracks: trilhasCapitulosFlashcards, contestSubjectLabels: { 'camara-2026': rotulosMateriasCamara }
 }));
 console.log('✓ Glossário nos flashcards: ' + flashcardsGlossario.generatedCount + ' novos, ' + flashcardsGlossario.linkedCount + ' vinculados a cartões existentes. Total publicado: ' + colecaoFlashcardsPublicada.cards.length + '.');
 

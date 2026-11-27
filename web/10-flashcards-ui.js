@@ -15,7 +15,8 @@
         catch { storageOK=false; status('Não foi possível salvar neste navegador. A rodada continua em memória; exporte seu progresso antes de sair.'); }
         state=next;
     }
-    function chapterTrack() {return catalog?.chapterTracks?.find(t=>t.examId===$('exam').value&&t.subjectId===$('subject').value)||null;}
+    function chapterTrack(exam=$('exam').value,subject=$('subject').value) {return catalog?.chapterTracks?.find(t=>t.examId===exam&&t.subjectId===subject)||null;}
+    function subjectLabel(exam,subject) {return chapterTrack(exam,subject)?.subjectLabel||catalog.subjects.find(s=>s.id===subject)?.title||subject;}
     function selectedChapterIds(track=chapterTrack(),through=Number($('chapter-through')?.value)) {return track?track.chapters.filter(c=>c.sequence<=through).map(c=>c.articleId):null;}
     function updateChapterFilter(restore=false) {
         const track=chapterTrack(), root=$('chapter-filter');show('chapter-filter',!!track);
@@ -39,7 +40,7 @@
     function options(select,items) {select.replaceChildren(...items.map(([value,label])=>{const o=document.createElement('option');o.value=value;o.textContent=label;return o;}));}
     function subjects() {
         const exam=$('exam').value;
-        options($('subject'),[['','Todas as matérias'],...catalog.subjects.filter(s=>cards.some(c=>c.examIds.includes(exam)&&c.subjectIds.includes(s.id))).map(s=>[s.id,s.title])]);
+        options($('subject'),[['','Todas as matérias'],...catalog.subjects.filter(s=>cards.some(c=>c.examIds.includes(exam)&&c.subjectIds.includes(s.id))).map(s=>[s.id,subjectLabel(exam,s.id)])]);
         const sessionMatches=state.session?.exam===exam&&catalog.subjects.some(x=>x.id===state.session.subject);
         if(sessionMatches)$('subject').value=state.session.subject;
         updateChapterFilter(!!sessionMatches);dashboard();
@@ -130,7 +131,7 @@
         show('dashboard',false);show('summary',false);show('round',true);
         const q=s.queue[s.position], c=cards.find(c=>c.id===q.id);
         revealed=false;show('answer',false);show('reveal',true);show('instruction',true);
-        $('position').textContent=`${s.graded} cartões nesta sessão · ${catalog.subjects.find(x=>x.id===s.subject)?.title || catalog.exams.find(e=>e.id===s.exam)?.title || s.exam}${s.chapterThrough?` · até capítulo ${s.chapterThrough}`:''}`;
+        $('position').textContent=`${s.graded} cartões nesta sessão · ${subjectLabel(s.exam,s.subject) || catalog.exams.find(e=>e.id===s.exam)?.title || s.exam}${s.chapterThrough?` · até capítulo ${s.chapterThrough}`:''}`;
         $('kind').textContent=`${c.topic} / ${q.direction==='reverse'?'DEFINIÇÃO → TERMO':q.direction==='contrast'?'CONTRASTE':'TERMO → DEFINIÇÃO'}`;
         const priority=F.studyPriority(c.id,state,{exam:s.exam,subject:s.subject});
         show('priority-hint',!!priority);

@@ -4,6 +4,8 @@ import {fileURLToPath} from 'node:url';
 import assert from 'node:assert/strict';
 import {articleInventory} from './article-identity.js';
 import {mergeGlossaryFlashcards} from './glossary-flashcards.js';
+import {buildCamaraFlashcardChapterTracks} from './flashcard-chapters.js';
+import {resolveCatalog} from './article-identity.js';
 export function validateFlashcards(data,root) {
     assert.equal(data.version,1);
     assert.ok(Array.isArray(data.cards)&&data.cards.length>0);
@@ -52,21 +54,15 @@ if(process.argv[1]===fileURLToPath(import.meta.url)) {
   for(const f of ['flashcards.html','web/09-flashcards-engine.js','web/10-flashcards-ui.js'])assert.ok(fs.existsSync(path.join(site,f)),f);
   const base=JSON.parse(fs.readFileSync(path.join(root,'data/flashcards.json')));
   const glossaryCards=JSON.parse(fs.readFileSync(path.join(site,'data/glossario-flashcards.json')));
-  const {chapterTracks,...cardsOnly}=data;
+  const {chapterTracks,contestSubjectLabels,...cardsOnly}=data;
   assert.deepEqual(cardsOnly,mergeGlossaryFlashcards(base,glossaryCards),
     'Baralho público deve incluir todos os cartões do glossário em um arquivo único.');
-  const route=fs.readFileSync(path.join(root,'1 - Planejamento/Camara 2026 - Percurso editorial Orcamento.md'),'utf8');
-  const reading=route.split(/^## Ordem de estudo Câmara: do planejamento ao controle parlamentar\s*$/m)[1]?.split(/^## /m)[0]||'';
-  const expected=[...reading.matchAll(/\[\[(3 - Materias\/Orcamento Publico\/[^|\]]+)\|/g)].map((match,index)=>{
-    const sourcePath=match[1].endsWith('.md')?match[1]:match[1]+'.md';
-    const article=manifest.find(item=>item.sourcePath===sourcePath);
-    assert.ok(article,`Artigo do capítulo ${index+1} não foi publicado: ${sourcePath}`);
-    return {sequence:index+1,articleId:article.articleId,title:article.tituloExibicao};
-  });
-  assert.equal(chapterTracks?.length,1,'Esperada uma trilha de capítulos de flashcards.');
-  assert.deepEqual(chapterTracks[0],{examId:'camara-2026',subjectId:'orcamento-publico',title:'Orçamento Público · Câmara 2026',chapters:expected},
-    'Faixas de capítulo devem seguir exatamente o percurso editorial público da Câmara.');
-  assert.ok(chapterTracks[0].chapters.length>0);
+  const sourceCatalog=JSON.parse(fs.readFileSync(path.join(root,'data/catalogo-materias-por-concurso.json')));
+  const camara=resolveCatalog(sourceCatalog,articleInventory(root)).contests.find(c=>c.concursoId==='camara-2026');
+  const expected=buildCamaraFlashcardChapterTracks(root,camara,manifest);
+  assert.equal(chapterTracks?.length,11,'Esperadas trilhas de capítulos nas onze matérias da Câmara.');
+  assert.deepEqual(chapterTracks,expected,'Trilhas seguem o percurso de Orçamento e os hubs editoriais.');
+  assert.deepEqual(contestSubjectLabels?.['camara-2026'],Object.fromEntries(camara.subjects.map(s=>[s.subjectId,s.rotulo])),'Rótulos devem corresponder ao catálogo da Câmara.');
   assert.equal(data.cards.length,base.cards.length+glossaryCards.generatedCount);
   console.log('SUCESSO: ' + data.cards.length + ' cartões publicados em um único catálogo, incluindo '
     + glossaryCards.generatedCount + ' do glossário; todos os artigos presentes no manifesto.');

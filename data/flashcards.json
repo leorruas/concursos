@@ -20523,6 +20523,942 @@
         "prompt": "Motivo e motivação designam o mesmo elemento do ato administrativo?",
         "answer": "Não. Motivo é pressuposto fático-jurídico; motivação é a declaração dos fundamentos que sustentam a decisão."
       }
+    },
+    {
+      "id": "camara-pt-polissemia-homonimia",
+      "term": "Polissemia × homonímia",
+      "definition": "Polissemia ocorre quando uma forma lexical possui sentidos relacionados, selecionados pelo contexto; homonímia ocorre quando formas coincidentes têm significados distintos e sem relação semântica relevante. Parônimos têm forma semelhante, mas grafia e sentido diferentes.",
+      "example": "“Banco” pode designar instituição financeira ou assento por polissemia; “descrição” e “discrição” são parônimos.",
+      "confusion": "A forma idêntica não resolve a classificação: examine relação histórica/semântica e contexto de uso.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-569c69df60f66dfd",
+        "section": "2.2. Polissemia versus Homonímia: a fronteira teórica"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/31%20-%20significacao%20lexical%20polissemia%20homonimia%20paronimia%20e%20ambiguidade.md",
+        "locator": "Capítulo 11: Significação lexical, polissemia, homonímia, paronímia e ambiguidade no padrão Cebraspe · seção: 2.2. Polissemia versus Homonímia: a fronteira teórica"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-polissemia-homonimia"
+      ],
+      "contrast": {
+        "prompt": "P1.14.2.3 / Língua Portuguesa",
+        "answer": "A palavra ter a mesma grafia em dois usos prova que há polissemia?"
+      }
+    },
+    {
+      "id": "camara-pt-sujeito-predicado",
+      "term": "Sujeito gramatical × agente da ação",
+      "definition": "Sujeito é termo com que o verbo concorda; agente é papel semântico de quem pratica a ação. Na voz passiva, o sujeito costuma ser paciente, embora continue sendo o termo com que o verbo concorda.",
+      "example": "Em “o projeto foi aprovado pela comissão”, “o projeto” é sujeito paciente; “pela comissão” indica agente da passiva.",
+      "confusion": "Não identifique sujeito perguntando apenas quem praticou a ação; primeiro verifique a relação sintática e a concordância verbal.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-26917d1e99d3ceed",
+        "section": "2. Termos Essenciais: Sujeito e Predicado"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/23%20-%20termos%20essenciais%20integrantes%20e%20acessorios%20da%20oracao.md",
+        "locator": "Capítulo 13: Termos essenciais, integrantes e acessórios da oração: sintaxe do período simples no padrão Cebraspe · seção: 2. Termos Essenciais: Sujeito e Predicado"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-sujeito-predicado"
+      ],
+      "contrast": {
+        "prompt": "Em “o projeto foi aprovado pela comissão”, “pela comissão” é o sujeito porque pratica a ação?",
+        "answer": "Não. É agente da passiva; “o projeto” é o sujeito paciente e determina a concordância verbal."
+      }
+    },
+    {
+      "id": "camara-pt-virgula-ordem-direta",
+      "term": "Vírgula proibida × intercalação",
+      "definition": "Em ordem direta, não se separa por vírgula o sujeito de seu verbo nem o verbo de seus complementos; a intercalação de expressão explicativa pode exigir duas vírgulas, sem romper a estrutura principal.",
+      "example": "“A comissão, após ouvir especialistas, aprovou a proposta”: as vírgulas isolam o adjunto intercalado; não se deve escrever “A comissão, aprovou a proposta”.",
+      "confusion": "A presença de pausa na fala não autoriza pontuar entre termos sintaticamente ligados.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-1008794d803c4eff",
+        "section": "2. O Regime da Vírgula: Proibições, Obrigatoriedades e Facultatividades"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/26%20-%20pontuacao%20e%20efeitos%20na%20estrutura%20e%20no%20sentido.md",
+        "locator": "Capítulo 15: Pontuação e efeitos na estrutura e no sentido: vírgula, dois-pontos, ponto e vírgula e travessões no padrão Cebraspe · seção: 2. O Regime da Vírgula: Proibições, Obrigatoriedades e Facultatividades"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-virgula-ordem-direta"
+      ],
+      "contrast": {
+        "prompt": "A pausa ao falar permite separar o sujeito do verbo por vírgula?",
+        "answer": "Não. A vírgula não separa sujeito e verbo em ordem direta; pode apenas isolar expressão intercalada com pontuação pareada."
+      }
+    },
+    {
+      "id": "camara-pt-regencia-assistir",
+      "term": "Assistir a algo × assistir alguém",
+      "definition": "No sentido de ver ou presenciar, “assistir” rege a preposição “a”; no sentido de prestar assistência, é transitivo direto. A regência altera a construção e pode afetar o uso de pronome relativo e crase.",
+      "example": "“Assistimos à sessão” significa que presenciamos a sessão; “o servidor assistiu o cidadão” significa que prestou assistência.",
+      "confusion": "Não aplique uma única regência a todos os sentidos do verbo.",
+      "topic": "Língua Portuguesa",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Portuguesa"
+      ],
+      "note": {
+        "articleId": "art-c641f812918e4678",
+        "section": "Assistir"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/04%20-%20regencia.md",
+        "locator": "Capítulo 16: Regência verbal e nominal · seção: Assistir"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-pt-regencia-assistir"
+      ],
+      "contrast": {
+        "prompt": "O verbo “assistir” exige sempre a preposição “a”?",
+        "answer": "Não. No sentido de presenciar, rege “a”; no sentido de prestar assistência, pode ser transitivo direto."
+      }
+    },
+    {
+      "id": "camara-en-tense-aspect",
+      "term": "Tempo verbal × aspecto",
+      "definition": "Tempo verbal situa o evento em relação a um marco temporal; aspecto apresenta como o evento se desenvolve, se está em curso, se é habitual ou se tem relevância presente. Uma forma verbal pode combinar os dois valores.",
+      "example": "*The committee has reviewed the report* relaciona uma revisão passada ao presente; *was reviewing* apresenta a ação em progresso em um marco passado.",
+      "confusion": "Não reduza *present perfect* a passado simples: o vínculo com o presente e o contexto são parte do sentido.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-b1b8cbf8d0d7bc4a",
+        "section": "1. Tempo Gramatical (*Tense*) vs. Aspecto Verbal (*Aspect*)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/13%20-%20tempos%20verbais%20aspecto%20e%20sequencia%20temporal%20em%20ingles.md",
+        "locator": "Capítulo 13: Tempos Verbais, Aspecto e Sequência Temporal em Textos Institucionais em Inglês · seção: 1. Tempo Gramatical (*Tense*) vs. Aspecto Verbal (*Aspect*)"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-tense-aspect"
+      ],
+      "contrast": {
+        "prompt": "Tempo verbal e aspecto são nomes intercambiáveis para a mesma informação?",
+        "answer": "Não. Tempo localiza o evento; aspecto mostra seu desenvolvimento ou relação com outro marco temporal."
+      }
+    },
+    {
+      "id": "camara-en-passiva-foco",
+      "term": "Voz passiva × omissão de agente",
+      "definition": "Voz passiva coloca o paciente da ação em posição de sujeito e pode omitir o agente quando desconhecido, irrelevante ou recuperável. A transformação deve preservar tempo, modalidade, negação e participantes.",
+      "example": "*The committee approved the report* pode virar *The report was approved by the committee*, mantendo agente e tempo passado.",
+      "confusion": "A forma passiva não elimina necessariamente o agente e não transforma o objeto em quem praticou a ação.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-818a6bdff1647253",
+        "section": "1. Estrutura Canônica da Voz Passiva e Foco Informacional"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/14%20-%20voz%20ativa%20passiva%20e%20foco%20informacional%20em%20ingles.md",
+        "locator": "Capítulo 14: Voz Ativa, Passiva e Foco Informacional em Textos Institucionais em Inglês · seção: 1. Estrutura Canônica da Voz Passiva e Foco Informacional"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-passiva-foco"
+      ],
+      "contrast": {
+        "prompt": "Toda oração passiva omite quem praticou a ação?",
+        "answer": "Não. O agente pode ser expresso por *by*; sua omissão é uma escolha discursiva, não requisito da voz passiva."
+      }
+    },
+    {
+      "id": "camara-en-modalidade-deontica-epistemica",
+      "term": "Modalidade deôntica × epistêmica",
+      "definition": "Modalidade deôntica expressa obrigação, permissão ou proibição; epistêmica expressa avaliação de possibilidade, probabilidade ou certeza. O mesmo modal pode assumir leituras diferentes conforme o contexto.",
+      "example": "*The agency must publish the report* pode impor obrigação; *the agency must be preparing the report* expressa inferência provável.",
+      "confusion": "Não traduza *must* sempre como obrigação nem *may* sempre como autorização; determine a leitura contextual.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-c27fc58c042e852e",
+        "section": "1. Classificação Fundamental: Modalidade Deôntica vs. Epistêmica"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/15%20-%20modalizacao%20possibilidade%20obrigacao%20deducao%20e%20conselho%20em%20ingles.md",
+        "locator": "Capítulo 15: Modalização em Inglês: Possibilidade, Obrigação, Dedução Lógica e Gradação de Certeza · seção: 1. Classificação Fundamental: Modalidade Deôntica vs. Epistêmica"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-modalidade-deontica-epistemica"
+      ],
+      "contrast": {
+        "prompt": "*Must* sempre expressa obrigação em inglês?",
+        "answer": "Não. Pode expressar inferência epistêmica, como em “deve estar preparando”, conforme estrutura e contexto."
+      }
+    },
+    {
+      "id": "camara-en-few-little-quantifiers",
+      "term": "Few × a few; little × a little",
+      "definition": "*Few* e *little* indicam quantidade pequena com tendência negativa; *a few* e *a little* indicam alguma quantidade, suficiente para o contexto. *Few* combina com contáveis; *little*, com incontáveis.",
+      "example": "*Few requests were answered* destaca escassez; *a few requests were answered* afirma que algumas foram respondidas.",
+      "confusion": "A presença do artigo *a* altera a perspectiva sem alterar a categoria contável/incontável do substantivo.",
+      "topic": "Língua Inglesa",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-410108ee89cfadfa",
+        "section": "2.1. O Contraste Crítico: *Few* vs. *A Few* e *Little* vs. *A Little*"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/16%20-%20comparativos%20quantificadores%20e%20delimitadores%20de%20escopo%20em%20ingles.md",
+        "locator": "Capítulo 16: Comparativos, Quantificadores e Delimitadores de Escopo em Inglês · seção: 2.1. O Contraste Crítico: *Few* vs. *A Few* e *Little* vs. *A Little*"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-en-few-little-quantifiers"
+      ],
+      "contrast": {
+        "prompt": "*Few requests* e *a few requests* exprimem exatamente a mesma avaliação quantitativa?",
+        "answer": "Não. Ambos indicam número pequeno, mas *a few* reconhece que há alguns; *few* enfatiza escassez."
+      }
+    },
+    {
+      "id": "camara-const-parecer-proposicao-lei",
+      "term": "Parecer de comissão × norma aprovada",
+      "definition": "Parecer é manifestação produzida na tramitação por comissão ou relator; pode recomendar conclusão ou encaminhamento, mas não equivale automaticamente a lei nem à decisão final sobre a proposição. Efeito depende da competência e do rito aplicáveis.",
+      "example": "Parecer favorável à constitucionalidade orienta a deliberação, mas não promulga a proposição nem substitui a votação exigida.",
+      "confusion": "Identifique relatório, voto e deliberação; a aprovação de um parecer não significa aprovação final do projeto em qualquer rito.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Direito Constitucional e Regimento"
+      ],
+      "note": {
+        "articleId": "art-2589a6f0c3d74be1",
+        "section": "Parecer é proposição, mas não é lei"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/15%20-%20parecer%20legislativo%20relatorio%20voto%20e%20deliberacao.md",
+        "locator": "Capítulo 18: Parecer legislativo: relatório, voto e deliberação das comissões · seção: Parecer é proposição, mas não é lei"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-parecer-proposicao-lei"
+      ],
+      "contrast": {
+        "prompt": "A aprovação de parecer favorável por uma comissão transforma o projeto em lei?",
+        "answer": "Não. O parecer é manifestação no processo legislativo; a produção da lei depende das fases e decisões previstas para a espécie."
+      }
+    },
+    {
+      "id": "camara-const-licenca-vacancia-suplencia",
+      "term": "Licença parlamentar × vacância do mandato",
+      "definition": "Licença afasta temporariamente o deputado do exercício do mandato em hipóteses regimentais; vacância encerra o mandato e pode ensejar convocação de suplente conforme a Constituição e o Regimento Interno da Câmara dos Deputados (RICD).",
+      "example": "A licença de um deputado não significa, por si só, perda do mandato; a convocação de suplente depende do enquadramento e dos requisitos aplicáveis.",
+      "confusion": "Não confunda ausência temporária, licença formal, perda do mandato e vacância.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Direito Constitucional e Regimento"
+      ],
+      "note": {
+        "articleId": "art-1de8b5094cf736a2",
+        "section": "3. Licenças: arts. 235 a 237"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/26%20-%20deputados%20mandato%20licencas%20vacancia%20e%20suplencia%20artigos%20226%20a%20251.md",
+        "locator": "Capítulo 29: Deputados: mandato, imunidades, licenças, vacância e suplência (RICD, arts. 226 a 251) · seção: 3. Licenças: arts. 235 a 237"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-licenca-vacancia-suplencia"
+      ],
+      "contrast": {
+        "prompt": "Toda licença parlamentar produz vacância definitiva e posse imediata de suplente?",
+        "answer": "Não. Licença é afastamento regimental; vacância e convocação dependem de hipóteses e condições próprias."
+      }
+    },
+    {
+      "id": "camara-const-controle-interno-externo",
+      "term": "Controle interno da Câmara × controle externo do TCU",
+      "definition": "A Câmara mantém sistema de controle interno para avaliar legalidade, resultados e gestão; o Tribunal de Contas da União exerce controle externo em auxílio ao Congresso Nacional, nos termos constitucionais. As funções se complementam, sem que um substitua o outro.",
+      "example": "A unidade de controle interno pode apontar falha e recomendar correção; o TCU pode fiscalizar a aplicação dos recursos federais dentro de sua competência.",
+      "confusion": "Controle interno da Câmara não é controle externo e a atuação do TCU não elimina os deveres internos de gestão e fiscalização.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Direito Constitucional e Regimento"
+      ],
+      "note": {
+        "articleId": "art-c2e47b0915d863af",
+        "section": "Controle interno da Câmara × controle externo pelo TCU"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/27%20-%20administracao%20economia%20interna%20e%20policia%20da%20camara%20artigos%20262%20a%20273.md",
+        "locator": "Capítulo 30: Administração, economia interna e polícia da Câmara: RICD arts. 262 a 273 · seção: Controle interno da Câmara × controle externo pelo TCU"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-controle-interno-externo"
+      ],
+      "contrast": {
+        "prompt": "A existência de controle interno na Câmara torna desnecessário o controle externo exercido com auxílio do TCU?",
+        "answer": "Não. São sistemas distintos e complementares, previstos na Constituição e nas normas de organização."
+      }
+    },
+    {
+      "id": "camara-const-edital-regimento-recorte",
+      "term": "Regra regimental × competência constitucional",
+      "definition": "Para interpretar a organização da Câmara, primeiro identifique se a questão trata de competência constitucional, regra de funcionamento interna ou prática administrativa. Norma regimental organiza procedimentos dentro dos limites constitucionais.",
+      "example": "A Mesa pode conduzir serviço interno conforme o RICD, mas uma regra regimental não pode alterar competência que a Constituição atribuiu a outro órgão.",
+      "confusion": "Não infira competência normativa externa a partir de atribuição administrativa interna.",
+      "topic": "Direito Constitucional e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Direito Constitucional e Regimento"
+      ],
+      "note": {
+        "articleId": "art-29cf4d6a8b15e730",
+        "section": "Quatro recortes literais do edital, um eixo de leitura"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Direito%20Constitucional/28%20-%20mapa%20regimental%20da%20camara%20estrutura%20e%20fronteiras%20do%20edital.md",
+        "locator": "Capítulo 31: Regimento da Câmara: mapa dos órgãos, competências e recortes do edital · seção: Quatro recortes literais do edital, um eixo de leitura"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-const-edital-regimento-recorte"
+      ],
+      "contrast": {
+        "prompt": "Uma competência administrativa da Mesa pode contrariar atribuição expressa da Constituição?",
+        "answer": "Não. O regimento organiza procedimentos internos dentro dos limites constitucionais; não altera a distribuição constitucional de competências."
+      }
+    },
+    {
+      "id": "camara-ti-supervisionado-classificacao",
+      "term": "Classificação supervisionada × não supervisionada",
+      "definition": "Aprendizagem supervisionada usa exemplos rotulados para aprender relação entre entradas e respostas; classificação prevê categoria, enquanto regressão prevê valor contínuo. Aprendizagem não supervisionada procura estrutura em dados sem rótulos de resposta previamente fornecidos.",
+      "example": "Treinar um modelo com e-mails marcados como “spam” ou “legítimo” é supervisionado; agrupar documentos por similaridade sem categorias prévias é não supervisionado.",
+      "confusion": "Não chame agrupamento sem rótulos de classificação supervisionada, nem confunda a tarefa com a métrica usada para avaliá-la.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-5cb51089c289b098",
+        "section": "1. Aprendizagem Supervisionada (*Supervised Learning*)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/19%20-%20aprendizagem%20supervisionada%20e%20nao%20supervisionada%20algoritmos%20e%20metricas.md",
+        "locator": "Capítulo 11: Aprendizagem supervisionada e não supervisionada: algoritmos, tarefas, dados rotulados e métricas · seção: 1. Aprendizagem Supervisionada (*Supervised Learning*)"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-supervisionado-classificacao"
+      ],
+      "contrast": {
+        "prompt": "Um algoritmo que agrupa documentos sem rótulos conhecidos é necessariamente supervisionado?",
+        "answer": "Não. Sem respostas-alvo rotuladas, o agrupamento é tipicamente tarefa não supervisionada."
+      }
+    },
+    {
+      "id": "camara-ti-reforco-exploracao",
+      "term": "Exploração × explotação no aprendizado por reforço",
+      "definition": "Agente de aprendizado por reforço recebe recompensas ou penalidades ao interagir com um ambiente. Exploração testa ações para obter informação; explotação escolhe ações consideradas mais vantajosas com base no conhecimento atual.",
+      "example": "Um sistema de recomendação pode explorar opções pouco testadas para aprender preferências e depois explorar a opção de maior recompensa estimada.",
+      "confusion": "Maximizar recompensa imediata pode impedir aprendizado de alternativas melhores no longo prazo.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-a3fd9f5c3eb6a721",
+        "section": "2. O Dilema Fundamental: Exploração (*Exploration*) $\\times$ Explotação (*Exploitation*)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/20%20-%20aprendizagem%20por%20reforco%20e%20comparacao%20de%20modelos%20de%20machine%20learning.md",
+        "locator": "Capítulo 12: Aprendizagem por reforço e comparação sistemática de modelos de machine learning · seção: 2. O Dilema Fundamental: Exploração (*Exploration*) $\\times$ Explotação (*Exploitation*)"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-reforco-exploracao"
+      ],
+      "contrast": {
+        "prompt": "Um agente deve sempre escolher a ação com maior recompensa conhecida e nunca testar outras?",
+        "answer": "Não. Isso elimina exploração, podendo impedir que o agente descubra opções de maior recompensa futura."
+      }
+    },
+    {
+      "id": "camara-ti-llm-alucinacao",
+      "term": "IA generativa × fonte confiável",
+      "definition": "IA generativa produz novos conteúdos a partir de padrões aprendidos; modelos de linguagem podem formular respostas plausíveis sem que cada afirmação tenha sido verificada. Alucinação é saída incorreta ou não sustentada apresentada com aparência de confiança.",
+      "example": "Um modelo pode resumir corretamente um ato normativo e também inventar número de artigo; valide citações em fonte oficial antes de usá-las.",
+      "confusion": "Fluência textual não prova veracidade, atualização nem existência da fonte citada.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-fdf8a15d31c83138",
+        "section": "Núcleo do conceito: a virada paradigmática da IA discriminativa para a generativa"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/21%20-%20ia%20generativa%20modelos%20llms%20difusao%20usos%20e%20limites.md",
+        "locator": "Capítulo 13: Inteligência artificial generativa: arquiteturas, modelos de fundação, difusão, aplicações e alucinações · seção: Núcleo do conceito: a virada paradigmática da IA discriminativa para a generativa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-llm-alucinacao"
+      ],
+      "contrast": {
+        "prompt": "Uma resposta fluente de um modelo generativo comprova que os fatos e as fontes citadas são verdadeiros?",
+        "answer": "Não. Fluência não substitui verificação; modelos podem gerar informação incorreta ou referência inexistente."
+      }
+    },
+    {
+      "id": "camara-ti-prompt-contexto-restricoes",
+      "term": "Prompt × garantia de resposta correta",
+      "definition": "Prompt é instrução contextual que orienta a saída de um modelo; contexto, objetivo, restrições e formato ajudam a delimitar a tarefa, mas não garantem correção factual. Avaliação exige critérios e verificação independente quando há risco de erro.",
+      "example": "Solicitar resumo com público-alvo, período e fonte delimitada tende a produzir saída mais útil; ainda assim, os pontos factuais devem ser conferidos.",
+      "confusion": "Instrução detalhada melhora direcionamento, mas não transforma geração probabilística em consulta infalível.",
+      "topic": "Tecnologia da Informação e Dados",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-76e0fb652b3f13a9",
+        "section": "1. Anatomia estrutural de um prompt corporativo de alto desempenho"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/22%20-%20engenharia%20de%20prompts%20estrutura%20tecnicas%20e%20avaliacao.md",
+        "locator": "Capítulo 14: Engenharia de prompts: estrutura de comandos, técnicas avançadas e avaliação de saídas em IA · seção: 1. Anatomia estrutural de um prompt corporativo de alto desempenho"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-ti-prompt-contexto-restricoes"
+      ],
+      "contrast": {
+        "prompt": "Acrescentar formato e contexto a um prompt garante que o modelo não inventará dados?",
+        "answer": "Não. Ajuda a orientar a resposta, mas saídas factuais precisam de verificação proporcional ao risco."
+      }
+    },
+    {
+      "id": "camara-comunicacao-efeitos-causalidade",
+      "term": "Efeito observado × efeito causado",
+      "definition": "Uma pesquisa sobre efeitos descreve ou mede mudanças associadas à comunicação; atribuir causalidade exige estratégia que afaste explicações alternativas, como seleção do público, acontecimentos simultâneos e predisposições anteriores.",
+      "example": "Maior apoio a uma proposta após campanha não prova, isoladamente, que a campanha causou a mudança; comparação e desenho de pesquisa são relevantes.",
+      "confusion": "Correlação temporal entre exposição e opinião não basta, por si só, para demonstrar efeito causal.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-6ac943e2b817d05f",
+        "section": "Estrutura de uma pergunta sobre efeitos"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/33%20-%20pesquisa%20administrativa%20e%20mass%20communication%20research.md",
+        "locator": "Capítulo 9: Mass communication research: pesquisa administrativa e efeitos · seção: Estrutura de uma pergunta sobre efeitos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-efeitos-causalidade"
+      ],
+      "contrast": {
+        "prompt": "Observar mudança de opinião depois de uma campanha prova que a campanha causou essa mudança?",
+        "answer": "Não. A sequência temporal não elimina outras causas; é preciso desenho e evidência adequados para atribuir efeito."
+      }
+    },
+    {
+      "id": "camara-comunicacao-lider-opiniao",
+      "term": "Líder de opinião × retransmissor automático",
+      "definition": "No fluxo em duas etapas associado a Lazarsfeld, meios de comunicação influenciam líderes de opinião, que interpretam e compartilham conteúdos em redes interpessoais. A influência depende de relações sociais e não implica que líderes apenas repitam mensagens sem mediação.",
+      "example": "Uma liderança comunitária pode selecionar, contextualizar e discutir notícia sobre política pública com pessoas de sua rede.",
+      "confusion": "O modelo não afirma que toda influência passe obrigatoriamente por líder nem que o público seja sempre passivo.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-c3b719f24a6e058d",
+        "section": "2. Líderes de opinião"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/34%20-%20lazarsfeld%20fluxo%20em%20duas%20etapas%20e%20lideres%20de%20opiniao.md",
+        "locator": "Capítulo 10: Lazarsfeld: fluxo em duas etapas, líderes de opinião e influência pessoal · seção: 2. Líderes de opinião"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-lider-opiniao"
+      ],
+      "contrast": {
+        "prompt": "No fluxo em duas etapas, líderes de opinião apenas retransmitem mensagens sem interpretá-las?",
+        "answer": "Não. Eles mediam, selecionam e interpretam conteúdos em relações interpessoais, embora não sejam a única via de influência."
+      }
+    },
+    {
+      "id": "camara-comunicacao-industria-cultural",
+      "term": "Indústria cultural × simples popularidade",
+      "definition": "Na teoria crítica de Adorno e Horkheimer, indústria cultural analisa a produção padronizada e mercantil de bens culturais e seus efeitos sociais; não é mero sinônimo de conteúdo popular ou de grande audiência.",
+      "example": "Um produto de massa pode ser estudado por sua padronização, lógica de mercado e repetição de fórmulas, sem concluir que todo público reage de forma idêntica.",
+      "confusion": "Popularidade isolada não comprova padronização industrial nem determina a interpretação do público.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-7ce2f05b3ad91486",
+        "section": "Adorno e Horkheimer: a indústria cultural"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/38%20-%20escola%20de%20frankfurt%20teoria%20critica%20e%20industria%20cultural.md",
+        "locator": "Capítulo 14: Escola de Frankfurt, teoria crítica e indústria cultural · seção: Adorno e Horkheimer: a indústria cultural"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-industria-cultural"
+      ],
+      "contrast": {
+        "prompt": "Todo produto cultural popular comprova, apenas por sua audiência, a tese da indústria cultural?",
+        "answer": "Não. A análise examina produção, padronização e lógica mercantil, não apenas tamanho da audiência."
+      }
+    },
+    {
+      "id": "camara-comunicacao-codificacao-recepcao",
+      "term": "Codificação dominante × decodificação do público",
+      "definition": "Stuart Hall distingue produção/codificação da mensagem e sua decodificação pelos públicos; uma leitura pode ser dominante, negociada ou oposicional. A intenção do produtor não determina automaticamente a interpretação recebida.",
+      "example": "Público pode aceitar a leitura preferencial de uma campanha, adaptá-la à própria experiência ou contestar seu enquadramento.",
+      "confusion": "Não trate o público como receptor passivo nem conclua que qualquer leitura é igualmente possível sem relação com o texto e o contexto.",
+      "topic": "Comunicação Social e Divulgação Institucional",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Comunicação e Divulgação Institucional"
+      ],
+      "note": {
+        "articleId": "art-b39da4815f7e0c26",
+        "section": "Estrutura do circuito: momentos articulados"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/39%20-%20estudos%20culturais%20stuart%20hall%20codificacao%20decodificacao%20recepcao.md",
+        "locator": "Capítulo 15: Estudos culturais e Stuart Hall: codificação, decodificação e recepção · seção: Estrutura do circuito: momentos articulados"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-comunicacao-codificacao-recepcao"
+      ],
+      "contrast": {
+        "prompt": "A intenção de quem codifica uma mensagem determina necessariamente como todos os públicos a decodificarão?",
+        "answer": "Não. A recepção pode ser dominante, negociada ou oposicional, em relação com repertórios e contextos sociais."
+      }
+    },
+    {
+      "id": "camara-cp-presidencialismo-parlamentarismo",
+      "term": "Presidencialismo × parlamentarismo",
+      "definition": "No presidencialismo, presidente e Legislativo têm mandatos e legitimidades de origem separadas, e o governo não depende de voto parlamentar de confiança para permanecer; no parlamentarismo, gabinete depende da confiança legislativa e pode cair por sua perda.",
+      "example": "No parlamentarismo, derrota em voto de confiança pode levar à substituição do gabinete ou a nova eleição conforme as regras; no presidencialismo, divergência legislativa não encerra automaticamente o mandato presidencial.",
+      "confusion": "Separação de poderes não significa ausência de negociação; dependência de confiança legislativa é o critério central do parlamentarismo.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-d7b3e591a46c82f0",
+        "section": "A matriz de quatro classificações: impedir transposições"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/18%20-%20sistemas%20de%20governo%20presidencialismo%20e%20parlamentarismo.md",
+        "locator": "Capítulo 9: Sistemas de governo: presidencialismo e parlamentarismo · seção: A matriz de quatro classificações: impedir transposições"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-presidencialismo-parlamentarismo"
+      ],
+      "contrast": {
+        "prompt": "No presidencialismo, uma derrota do governo em votação legislativa encerra automaticamente o mandato do presidente?",
+        "answer": "Não. O Executivo não depende de voto parlamentar de confiança para permanecer, embora enfrente controles e negociação política."
+      }
+    },
+    {
+      "id": "camara-cp-mandato-delegacao-responsividade",
+      "term": "Mandato representativo × instrução vinculante",
+      "definition": "Mandato político descreve a relação entre representantes e representados; pode ser analisado como delegação, autorização, responsividade ou julgamento fiduciário. A representação não implica, por definição, que cada eleitor dite toda decisão do representante.",
+      "example": "Representante pode decidir diante de informação nova e depois prestar contas; a avaliação da representação depende do modelo normativo e das instituições.",
+      "confusion": "Não confunda mandato eleitoral com mandato civil privado nem reduza representação a obediência literal a instruções.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-3b8e7a6c91d4052f",
+        "section": "Três relações diferentes chamadas “mandato”"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/19%20-%20representacao%20politica%20mandato%20delegacao%20e%20responsabilizacao.md",
+        "locator": "Capítulo 10: Representação política: mandato, delegação e responsabilização · seção: Três relações diferentes chamadas “mandato”"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-mandato-delegacao-responsividade"
+      ],
+      "contrast": {
+        "prompt": "A representação política exige que o parlamentar siga literalmente a instrução individual de cada eleitor em toda votação?",
+        "answer": "Não. Mandato representativo admite mediação e julgamento, sujeito a instituições, responsividade e responsabilização política."
+      }
+    },
+    {
+      "id": "camara-cp-democracia-participacao-deliberacao",
+      "term": "Participação × deliberação democrática",
+      "definition": "Democracia participativa amplia oportunidades de envolvimento dos cidadãos; democracia deliberativa enfatiza troca pública de razões e justificação das decisões; representação organiza decisão por representantes eleitos. Os modelos podem se complementar.",
+      "example": "Audiência pública promove participação; para ser deliberativa, a discussão também precisa permitir consideração de argumentos e influência justificável sobre a decisão.",
+      "confusion": "Presença em reunião não prova deliberação efetiva, assim como decisão representativa não exclui participação social.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-4a6d2f90b18e753c",
+        "section": "As três perguntas: autoridade, participação e justificação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/20%20-%20democracia%20representativa%20participativa%20e%20deliberativa.md",
+        "locator": "Capítulo 11: Democracia representativa, participativa e deliberativa · seção: As três perguntas: autoridade, participação e justificação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-democracia-participacao-deliberacao"
+      ],
+      "contrast": {
+        "prompt": "Toda consulta pública é necessariamente deliberativa apenas porque cidadãos puderam falar?",
+        "answer": "Não. Deliberação exige troca e consideração de razões; oportunidade de fala é participação, mas pode não influir no processo decisório."
+      }
+    },
+    {
+      "id": "camara-cp-funcao-tipica-atipica",
+      "term": "Função típica × função atípica dos Poderes",
+      "definition": "Cada Poder exerce função típica predominante, mas pode exercer função atípica quando a Constituição atribui competência correspondente; o controle recíproco deve respeitar objeto e limites constitucionais.",
+      "example": "O Legislativo legisla e fiscaliza como funções típicas; pode organizar seus serviços administrativos, função atípica, nos limites constitucionais e regimentais.",
+      "confusion": "Função atípica não equivale a usurpação quando há previsão constitucional; tampouco autoriza um Poder a assumir qualquer competência alheia.",
+      "topic": "Ciência Política",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.14.2.4 / Ciência Política"
+      ],
+      "note": {
+        "articleId": "art-9f63c2e71a4b508d",
+        "section": "Função típica, função atípica e competência constitucional"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Estado%20e%20Democracia/21%20-%20separacao%20de%20poderes%20freios%20e%20contrapesos.md",
+        "locator": "Capítulo 12: Separação de Poderes: funções, freios e contrapesos · seção: Função típica, função atípica e competência constitucional"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-cp-funcao-tipica-atipica"
+      ],
+      "contrast": {
+        "prompt": "Exercer função administrativa torna o Legislativo uma extensão do Poder Executivo?",
+        "answer": "Não. É função atípica constitucionalmente admitida, exercida para organizar a própria instituição e dentro de seus limites."
+      }
+    },
+    {
+      "id": "camara-orc17-restos-a-pagar-condicao",
+      "term": "Restos a pagar × despesa de exercício anterior",
+      "definition": "Restos a pagar são despesas empenhadas e não pagas até 31 de dezembro, distinguindo-se entre processadas e não processadas (Lei nº 4.320/1964, art. 36). Despesas de exercícios anteriores seguem hipótese e reconhecimento próprios, inclusive obrigações de anos encerrados não inscritas ou canceladas.",
+      "example": "Serviço empenhado e liquidado, mas não pago até o fim do exercício, pode ser resto processado; serviço de exercício encerrado sem inscrição válida requer análise das hipóteses de despesa de exercício anterior.",
+      "confusion": "Não use “resto a pagar” para qualquer obrigação antiga; verifique empenho, liquidação, inscrição e cancelamento.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6e4e79c7f4bb4aa3",
+        "section": "Restos a pagar: condição e espécie"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/09%20-%20restos%20a%20pagar%20dea%20e%20suprimento%20de%20fundos.md",
+        "locator": "Capítulo 17: Restos a pagar, despesas de exercícios anteriores e suprimento de fundos · seção: Restos a pagar: condição e espécie"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-orc17-restos-a-pagar-condicao"
+      ],
+      "contrast": {
+        "prompt": "Toda obrigação referente a ano anterior é automaticamente resto a pagar?",
+        "answer": "Não. É preciso que tenha sido empenhada e não paga até 31 de dezembro; outras obrigações podem seguir o regime de despesas de exercícios anteriores."
+      }
+    },
+    {
+      "id": "camara-orc19-rcl-pessoal-relatorios",
+      "term": "RCL × receita orçamentária total",
+      "definition": "Receita Corrente Líquida (RCL), definida na Lei de Responsabilidade Fiscal (LRF), art. 2º, IV, é base de cálculo de vários limites fiscais após deduções legais; não é simplesmente o total bruto de receitas orçamentárias. Relatórios fiscais permitem acompanhar limites e providências.",
+      "example": "Para avaliar despesa com pessoal, compara-se o montante apurado segundo a LRF com o limite correspondente calculado sobre a RCL do ente.",
+      "confusion": "Não use receita de capital como parte do denominador da RCL nem confunda limite fiscal com dotação autorizada na LOA.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-91ab320cdfb64b8a",
+        "section": "Receita Corrente Líquida: denominador fiscal"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/11%20-%20responsabilidade%20fiscal%20e%20controle%20orcamentario.md",
+        "locator": "Capítulo 19: Responsabilidade fiscal, relatórios e controle da execução · seção: Receita Corrente Líquida: denominador fiscal"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "camara-orc19-rcl-pessoal-relatorios"
+      ],
+      "contrast": {
+        "prompt": "A RCL é igual à soma de todas as receitas orçamentárias, inclusive receitas de capital?",
+        "answer": "Não. A LRF define a RCL a partir de receitas correntes e deduções legais específicas; não corresponde a toda arrecadação bruta."
+      }
     }
   ]
 }

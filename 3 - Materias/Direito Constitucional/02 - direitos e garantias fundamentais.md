@@ -5,7 +5,7 @@ title: "Direitos e garantias fundamentais"
 type: "conceito"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-09-10
+updated: 2026-11-27
 ---
 
 # Direitos e garantias fundamentais
@@ -39,6 +39,20 @@ O caput assegura a inviolabilidade de **vida, liberdade, igualdade, segurança e
 
 Os cinco substantivos do caput são uma boa âncora de memória, mas o art. 5º contém um catálogo muito mais amplo de direitos, garantias e deveres.
 
+### Garantias do art. 5º cobradas além do caput
+
+**Resposta, indenização e expressão.** O inciso V assegura direito de resposta **proporcional ao agravo**, além de indenização por dano material, moral ou à imagem. Resposta e reparação têm funções diferentes e podem coexistir quando os pressupostos de cada uma estiverem presentes. O inciso IX protege a expressão intelectual, artística, científica e de comunicação **independentemente de censura ou licença**; isso não elimina responsabilização posterior por ilícito. No inciso XIV, o acesso à informação convive com o **sigilo da fonte**, quando necessário ao exercício profissional. Não confundir esses incisos com o inciso IV, que protege a manifestação do pensamento e veda o anonimato.
+
+**Consciência, crença e assistência religiosa.** O inciso VI protege a liberdade de consciência e de crença, o exercício dos cultos e, na forma da lei, os locais de culto e suas liturgias. O inciso VII assegura assistência religiosa, também nos termos da lei, em entidades civis e militares de internação coletiva. Já o inciso VIII só admite privação de direitos quando a pessoa invoca convicção religiosa, filosófica ou política para fugir de obrigação legal geral **e** recusa a prestação alternativa fixada em lei. Invocar a convicção e aceitar a alternativa não satisfaz os dois requisitos da exceção.
+
+**Inviolabilidade da casa.** Pelo inciso XI, a entrada depende do consentimento do morador, salvo flagrante delito, desastre ou prestação de socorro, hipóteses que podem ocorrer a qualquer hora. A entrada por determinação judicial é permitida **durante o dia**. O limite diurno acompanha a ordem judicial; não deve ser transportado para as hipóteses autônomas de flagrante, desastre ou socorro.
+
+**Reunião e associação.** O inciso XVI permite reunião pacífica, sem armas, em local aberto ao público, sem frustrar reunião anteriormente convocada para o mesmo local e com prévio aviso à autoridade. Exige aviso, **não autorização**. Nos incisos XVII a XXI, a Constituição protege associação para fins lícitos e veda a paramilitar; a criação de associações independe de autorização e o Estado não pode interferir em seu funcionamento. Suspender atividades exige decisão judicial; dissolver compulsoriamente exige decisão judicial transitada em julgado. Ninguém pode ser obrigado a associar-se ou permanecer associado. A representação judicial ou extrajudicial de filiados do inciso XXI exige autorização expressa; **não transfira esse requisito automaticamente ao mandado de segurança coletivo**, cuja regra de legitimidade e autorização está no inciso LXX e na Lei nº 12.016/2009, art. 21, como explicado adiante.
+
+**Propriedade, função social e requisição.** O inciso XXII garante a propriedade, que deve cumprir sua função social (XXIII). Não confunda **desapropriação** e **requisição**: a desapropriação segue procedimento legal e, como regra constitucional geral, exige indenização justa e prévia em dinheiro, ressalvadas as exceções da própria Constituição (XXIV). Na requisição por iminente perigo público, a autoridade pode usar propriedade particular e a indenização é **posterior e devida se houver dano** (XXV). Portanto, não se exige pagamento prévio na requisição nem indenização se nenhum dano ocorrer.
+
+**Petição, certidões e acesso a informações.** O inciso XXXIV dispensa pagamento de taxa para (a) peticionar aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder e (b) obter certidões em repartições públicas para defesa de direitos ou esclarecimento de situações de interesse pessoal. A finalidade constitucional importa: a regra não afirma que qualquer documento ou certidão, para qualquer uso, seja automaticamente gratuito. O inciso XXXIII trata do acesso a informações de interesse particular, coletivo ou geral, sujeito aos prazos legais e à ressalva de sigilo imprescindível à segurança da sociedade e do Estado. Para dados pessoais próprios em registro governamental ou de caráter público, compare com o **habeas data** abaixo; ele não é pedido genérico de transparência.
+
 ## Direito × garantia
 
 A distinção é didática e doutrinária:
@@ -53,6 +67,10 @@ Nem toda garantia é um remédio constitucional e nem todo inciso do art. 5º ca
 O art. 5º, §1º, determina que as normas definidoras dos direitos e garantias fundamentais têm **aplicação imediata**. Isso não significa que toda norma tenha exatamente o mesmo grau de concretização ou dispense regulamentação em qualquer hipótese.
 
 Também é mais seguro evitar a frase mecânica “nenhum direito fundamental é absoluto” como se fosse dispositivo literal. Em prova, o raciocínio correto é que direitos fundamentais **podem entrar em tensão com outros direitos e valores constitucionais** e seu exercício encontra limites constitucionais e legais legítimos. A própria Constituição traz limites expressos, como a vedação do anonimato na manifestação do pensamento.
+
+### Tratados internacionais de direitos humanos
+
+O catálogo de direitos não é fechado: o **art. 5º, § 2º**, diz que os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime, dos princípios constitucionais ou de tratados internacionais de que o Brasil seja parte. Para que um tratado ou convenção **sobre direitos humanos** tenha equivalência às emendas constitucionais, o **§ 3º** exige aprovação, em cada Casa do Congresso, em **dois turnos**, por **três quintos dos votos dos respectivos membros**. São requisitos cumulativos: quórum superior em um único turno não supre o segundo turno, e a matéria precisa ser de direitos humanos.
 
 ## Liberdades e garantias recorrentes do art. 5º
 
@@ -197,7 +215,7 @@ O tema se distribui pelas notas de [[3 - Materias/Direito Constitucional/03 - di
 
 ## Fontes
 
-- Constituição Federal, Título II, especialmente art. 5º.
+- [Constituição Federal, texto atualizado da Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), especialmente Título II e art. 5º.
 - Lei nº 9.507/1997 — habeas data.
 - Lei nº 12.016/2009 — mandado de segurança.
 - Lei nº 13.300/2016 — mandado de injunção.

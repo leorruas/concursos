@@ -14,10 +14,11 @@ const published=read('_site/data/glossario-flashcards.json');
 const expected=buildGlossaryFlashcards(glossary,base,equivalents);
 const combined=read('_site/data/flashcards.json');
 const expectedCombined=mergeGlossaryFlashcards(base,expected);
-const {chapterTracks,...cardsOnly}=combined;
+const {chapterTracks,contestSubjectLabels,...cardsOnly}=combined;
 assert.deepEqual(cardsOnly,expectedCombined,'A coleção e o glossário precisam permanecer em uma única resposta, com a trilha editorial anexa');
-assert.equal(chapterTracks?.length,1,'A resposta pública deve incluir a trilha de capítulos da Câmara.');
-assert.equal(chapterTracks[0].chapters.length,19,'A trilha deve acompanhar os 19 capítulos do percurso.');
+assert.equal(chapterTracks?.length,11,'A resposta pública deve incluir trilhas de capítulo para todas as matérias da Câmara.');
+assert.equal(chapterTracks.find(t=>t.subjectId==='orcamento-publico')?.chapters.length,19,'A trilha de Orçamento deve acompanhar os 19 capítulos do percurso.');
+assert.equal(Object.keys(contestSubjectLabels?.['camara-2026']||{}).length,11,'A resposta deve incluir os rótulos da Câmara por concurso.');
 assert.equal(combined.cards.length,base.cards.length+expected.generatedCount);
 
 const novosTermos=['pfc','cffc','pafc','comissao-geral','comissao-mista','questao-de-ordem','ato-da-mesa','inversao-de-pauta','requerimento'];

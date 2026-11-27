@@ -102,6 +102,10 @@
     {
       "id": "direito-constitucional",
       "title": "Direito Constitucional"
+    },
+    {
+      "id": "ingles",
+      "title": "Língua Inglesa"
     }
   ],
   "cards": [
@@ -2614,12 +2618,14 @@
         "auditoria-governamental"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
         "P1.3",
         "P3.5",
-        "P3.1.1"
+        "P3.1.1",
+        "P2.14.2.4 / Divulgação Institucional"
       ],
       "note": {
         "articleId": "art-2d79b55e1c2b4a9f",
@@ -2631,8 +2637,8 @@
         "locator": "Lei nº 12.813/2013, arts. 3º e 4º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 3,
+      "reviewedAt": "2026-11-27",
+      "revision": 4,
       "conceptIds": [
         "conflito-interesse-sem-ato-ilicito"
       ],
@@ -2653,11 +2659,13 @@
         "integridade-responsabilizacao"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
         "P1.3",
-        "P3.5"
+        "P3.5",
+        "P2.14.2.4 / Divulgação Institucional"
       ],
       "note": {
         "articleId": "art-2d79b55e1c2b4a9f",
@@ -2669,8 +2677,8 @@
         "locator": "Lei nº 12.813/2013, arts. 3º e 4º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-27",
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Documento interno sem repercussão econômica ou financeira é automaticamente informação privilegiada conforme a Lei 12.813?",
@@ -4651,10 +4659,12 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026"
+        "dataprev-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "DP-GER"
+        "DP-GER",
+        "P1.14.2.3 / Língua Portuguesa"
       ],
       "note": {
         "articleId": "art-98cd849c42bb4294",
@@ -4666,8 +4676,8 @@
         "locator": "Seção: Na 3ª pessoa do plural, o contexto costuma decidir"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-27",
+      "revision": 3,
       "conceptIds": [
         "sujeito-plural-oculto-indeterminado"
       ],
@@ -4690,10 +4700,12 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026"
+        "dataprev-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "DP-GER"
+        "DP-GER",
+        "P1.14.2.3 / Língua Portuguesa"
       ],
       "note": {
         "articleId": "art-f7dcd59a14c24446",
@@ -4705,8 +4717,8 @@
         "locator": "Seção: Locuções femininas"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-27",
+      "revision": 3,
       "conceptIds": [
         "crase-locucao-feminina-a-prazo"
       ],
@@ -4729,10 +4741,12 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026"
+        "dataprev-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "DP-GER"
+        "DP-GER",
+        "P1.14.2.3 / Língua Portuguesa"
       ],
       "note": {
         "articleId": "art-ffda49b0fbcc4fbe",
@@ -4744,8 +4758,8 @@
         "locator": "Seção: 5. Voz ativa × voz passiva"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-27",
+      "revision": 3,
       "conceptIds": [
         "voz-passiva-tempo"
       ],
@@ -4807,10 +4821,12 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026"
+        "dataprev-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "DP-GER"
+        "DP-GER",
+        "P1.14.2.3 / Língua Portuguesa"
       ],
       "note": {
         "articleId": "art-7cea3aa409804c07",
@@ -4822,8 +4838,8 @@
         "locator": "Seção: Refinamento — teste rápido de hífen"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-27",
+      "revision": 3,
       "conceptIds": [
         "hifen-prefixos-regras"
       ],
@@ -4846,10 +4862,12 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026"
+        "dataprev-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "DP-GER"
+        "DP-GER",
+        "P1.14.2.3 / Língua Portuguesa"
       ],
       "note": {
         "articleId": "art-1accdd2da469401d",
@@ -4861,8 +4879,8 @@
         "locator": "Seção: `que`: conjunção integrante × pronome relativo"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-27",
+      "revision": 3,
       "conceptIds": [
         "que-integrante-relativo"
       ],
@@ -4885,10 +4903,12 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026"
+        "dataprev-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "DP-GER"
+        "DP-GER",
+        "P1.14.2.3 / Língua Portuguesa"
       ],
       "note": {
         "articleId": "art-e8ba958c8c194bab",
@@ -4900,8 +4920,8 @@
         "locator": "Seção: Tipo × gênero"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-27",
+      "revision": 3,
       "conceptIds": [
         "manual-genero-injuncao-tipo"
       ],
@@ -4996,10 +5016,12 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026"
+        "dataprev-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "DP-GER"
+        "DP-GER",
+        "P1.14.2.3 / Língua Portuguesa"
       ],
       "note": {
         "articleId": "art-24350eefe84c43b5",
@@ -5011,8 +5033,8 @@
         "locator": "Seção: Coordenação adversativa × subordinação concessiva"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-27",
+      "revision": 3,
       "conceptIds": [
         "adversativa-coordenacao-vs-concessiva-subordinacao"
       ],
@@ -5035,10 +5057,12 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026"
+        "dataprev-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "DP-GER"
+        "DP-GER",
+        "P1.14.2.3 / Língua Portuguesa"
       ],
       "note": {
         "articleId": "art-b46ab5677a26469e",
@@ -5050,8 +5074,8 @@
         "locator": "Seção: Refinamento — ambiguidade de referência pronominal"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-27",
+      "revision": 3,
       "conceptIds": [
         "referente-pronome-ambiguidade"
       ],
@@ -5113,10 +5137,12 @@
         "portugues"
       ],
       "examIds": [
-        "dataprev-2026"
+        "dataprev-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "DP-GER"
+        "DP-GER",
+        "P1.14.2.3 / Língua Portuguesa"
       ],
       "note": {
         "articleId": "art-ffda49b0fbcc4fbe",
@@ -5128,8 +5154,8 @@
         "locator": "Seção: 6. Discurso direto × indireto"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-27",
+      "revision": 3,
       "conceptIds": [
         "discurso-direto-indireto-ajuste-temporal"
       ],
@@ -5230,10 +5256,12 @@
         "estado-democracia"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P1.1"
+        "P1.1",
+        "P2.14.2.4 / Ciência Política"
       ],
       "note": {
         "articleId": "art-a6edc965cb9e4eb6",
@@ -5245,8 +5273,8 @@
         "locator": "Arts. 1º, parágrafo único; 2º; 70 e 74"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-27",
+      "revision": 2,
       "conceptIds": [
         "soberania-representativa-direta"
       ],
@@ -5266,10 +5294,12 @@
         "estado-democracia"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P1.1"
+        "P1.1",
+        "P2.14.2.4 / Ciência Política"
       ],
       "note": {
         "articleId": "art-a6edc965cb9e4eb6",
@@ -5281,8 +5311,8 @@
         "locator": "Arts. 1º, parágrafo único; 2º; 70 e 74"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-27",
+      "revision": 3,
       "conceptIds": [
         "separacao-poderes-freios-contrapesos"
       ],
@@ -17093,6 +17123,294 @@
         "prompt": "Foram pagos 80% dos recursos, mas 60% das unidades previstas foram entregues. Qual dado representa a execução física?",
         "answer": "60% das unidades entregues em relação à meta. Os 80% descrevem execução financeira e não substituem a medição física."
       }
+    },
+    {
+      "id": "camara-en-leitura-tese-inferencia",
+      "term": "Tese, informação explícita e inferência em leitura instrumental",
+      "definition": "A ideia principal sintetiza a tese do texto; a informação explícita é afirmada diretamente; a inferência deduz consequência apoiada por pistas suficientes. Uma hipótese que exige premissa externa é suposição, não inferência textual.",
+      "example": "Se o texto diz que alertas automatizados exigem revisão independente, pode-se inferir que automação sozinha não basta para validar o caso; não se pode afirmar que todos os órgãos excluíram pessoas.",
+      "confusion": "Uma conclusão plausível no mundo real não se torna inferência se o texto não fornece suporte. Também não se deve trocar possibilidade por certeza.",
+      "topic": "Leitura instrumental",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-3e28afc17d694b50",
+        "section": "Núcleo do conceito"
+      },
+      "conceptIds": [
+        "leitura-inglesa-tese-inferencia-suposicao"
+      ],
+      "contrast": {
+        "prompt": "O texto afirma que um sistema pode excluir usuário elegível. É possível concluir que isso ocorreu em todos os órgãos?",
+        "answer": "Não. “Pode” sustenta possibilidade, não ocorrência universal. A inferência deve permanecer dentro da força e do escopo das afirmações do texto."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/01%20-%20leitura%20instrumental%20tese%20e%20inferencias.md",
+        "locator": "Seção: Núcleo do conceito"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
+    },
+    {
+      "id": "camara-en-conectivos-contraste-concessao",
+      "term": "Contraste com however × concessão com although",
+      "definition": "However costuma ligar segmentos em relação de contraste e exige pontuação compatível; although introduz uma oração subordinada concessiva. Ambos podem expressar contraste, mas não são intercambiáveis sem ajustar a estrutura sintática.",
+      "example": "“The report was accurate; however, it arrived late” pode ser reescrito como “Although the report was accurate, it arrived late”.",
+      "confusion": "Preservar a relação lógica não basta se a reescrita deixar conectivo e estrutura incompatíveis. “Despite” normalmente rege grupo nominal ou forma em -ing, não uma oração finita introduzida diretamente.",
+      "topic": "Relações lógico-semânticas",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-7c50d39b8e144a62",
+        "section": "Classificação e fronteiras"
+      },
+      "conceptIds": [
+        "ingles-however-vs-although"
+      ],
+      "contrast": {
+        "prompt": "“The report was accurate, however it arrived late” pode ser tratada como equivalente estrutural perfeito de “Although the report was accurate, it arrived late”?",
+        "answer": "Não. O contraste pode ser preservado, mas however e although ocupam posições e estruturas diferentes; pontuação e subordinação precisam ser ajustadas."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/02%20-%20conectivos%20e%20relacoes%20logico%20semanticas.md",
+        "locator": "Seção: Classificação e fronteiras"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
+    },
+    {
+      "id": "camara-en-referencia-pronominal",
+      "term": "Referência pronominal a antecedente ou proposição",
+      "definition": "Um pronome pode retomar um substantivo, uma entidade, um evento ou toda uma proposição anterior. A identificação depende de número, sentido e encadeamento discursivo, e não apenas da proximidade do nome.",
+      "example": "“Applications fell sharply. This worried administrators”: this retoma o fato de as solicitações terem caído, não obrigatoriamente o substantivo applications.",
+      "confusion": "A posição do antecedente mais próximo não determina sozinha a referência. Se o contexto comporta mais de uma leitura, não se deve impor uma resposta única.",
+      "topic": "Coesão e referenciação",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-65c2e48b073d49a1",
+        "section": "Núcleo do conceito"
+      },
+      "conceptIds": [
+        "ingles-pronome-retomada-proposicao"
+      ],
+      "contrast": {
+        "prompt": "Em “The inspectors interviewed users. They reported delays”, they necessariamente retoma inspectors?",
+        "answer": "Não. Pode referir-se aos inspetores ou aos usuários; número, semântica e contexto precisam resolver a ambiguidade."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/03%20-%20referencia%20pronominal%20e%20coesao%20lexical.md",
+        "locator": "Seção: Núcleo do conceito"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
+    },
+    {
+      "id": "camara-en-modalizacao-grau-compromisso",
+      "term": "Modalização: may × must × must not × do not have to",
+      "definition": "May pode expressar possibilidade ou permissão; must, obrigação ou dedução forte; must not, proibição; do not have to, ausência de obrigação. O contexto define o valor, e trocar essas formas altera o grau de compromisso da frase.",
+      "example": "“The database may have been compromised” admite possibilidade passada; “must not share passwords” proíbe; “do not have to share” apenas dispensa a obrigação.",
+      "confusion": "Must not não equivale a do not have to. Uma passiva sem agente também não identifica quem realizou a ação.",
+      "topic": "Modalização e tempos verbais",
+      "subjectIds": [
+        "ingles"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Língua Inglesa"
+      ],
+      "note": {
+        "articleId": "art-a85cd7e2014b49f3",
+        "section": "Modalização: possibilidade, necessidade e inferência"
+      },
+      "conceptIds": [
+        "ingles-modalizacao-proibicao-vs-ausencia-dever"
+      ],
+      "contrast": {
+        "prompt": "“Applicants must not share passwords” e “Applicants do not have to share passwords” exprimem a mesma regra?",
+        "answer": "Não. A primeira proíbe o compartilhamento; a segunda informa que ele não é necessário, sem necessariamente proibi-lo."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Ingles/04%20-%20tempos%20verbais%20voz%20passiva%20e%20modalizacao.md",
+        "locator": "Seção: Modalização: possibilidade, necessidade e inferência"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
+    },
+    {
+      "id": "camara-ti-hierarquia-ia-ml-llm",
+      "term": "Inteligência artificial, aprendizado de máquina e LLM",
+      "definition": "Inteligência artificial é o campo amplo; aprendizado de máquina é uma abordagem em que padrões são aprendidos a partir de dados; IA generativa produz conteúdo; modelos de linguagem de grande escala (LLMs) são modelos generativos voltados à linguagem. Aplicações são produtos que podem usar esses modelos.",
+      "example": "Um classificador que sinaliza mensagens suspeitas pode usar aprendizado de máquina sem gerar texto; um assistente textual pode ser uma aplicação construída sobre um LLM.",
+      "confusion": "IA, aprendizado de máquina, IA generativa, LLM e aplicação são níveis relacionados, mas não sinônimos. Nem toda IA é generativa e nem toda aplicação é um modelo.",
+      "topic": "Inteligência artificial",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-a0fd083e56314c44",
+        "section": "Hierarquia de Conceitos e Subconjuntos"
+      },
+      "conceptIds": [
+        "ia-hierarquia-campo-modelo-aplicacao"
+      ],
+      "contrast": {
+        "prompt": "Todo sistema de inteligência artificial é um LLM que gera conteúdo?",
+        "answer": "Não. IA é o campo amplo; há sistemas baseados em regras e classificadores, e LLM é apenas uma classe de modelo generativo de linguagem."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Atualidades/01%20-%20inteligencia%20artificial.md",
+        "locator": "Seção: Hierarquia de Conceitos e Subconjuntos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
+    },
+    {
+      "id": "camara-ti-governanca-regulacao-hard-soft-law",
+      "term": "Governança de IA × regulação e hard law × soft law",
+      "definition": "Governança de inteligência artificial reúne princípios, instituições, processos e mecanismos para orientar o uso da tecnologia; regulação jurídica vinculante é uma parte dela. Hard law impõe obrigações jurídicas; soft law orienta condutas sem força equivalente por si só, salvo incorporação a norma, contrato ou regime obrigatório.",
+      "example": "Uma recomendação voluntária pode orientar a avaliação de riscos. Se um regulamento competente incorpora requisitos obrigatórios, esses requisitos passam a vincular seus destinatários.",
+      "confusion": "Nem todo instrumento de governança é lei. Um padrão voluntário também pode adquirir caráter obrigatório quando incorporado por fonte vinculante aplicável.",
+      "topic": "Governança e regulação de IA",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-d67ecbb2f9204843",
+        "section": "Hard law × soft law"
+      },
+      "conceptIds": [
+        "ia-governanca-vs-regulacao-vinculante"
+      ],
+      "contrast": {
+        "prompt": "Uma diretriz voluntária de gestão de riscos equivale automaticamente a lei obrigatória?",
+        "answer": "Não. A diretriz é soft law por si só; pode tornar-se obrigatória se incorporada por norma, contrato ou regime regulatório aplicável."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Atualidades/14%20-%20governanca%20e%20regulacao%20de%20inteligencia%20artificial.md",
+        "locator": "Seção: Hard law × soft law"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
+    },
+    {
+      "id": "camara-ti-arquivo-pasta-extensao",
+      "term": "Arquivo × pasta e extensão do nome",
+      "definition": "Arquivo é uma unidade lógica de dados com nome, extensão, caminho e metadados. Pasta ou diretório organiza referências a arquivos e subpastas numa hierarquia. A extensão indica o formato associado, enquanto o caminho localiza o item.",
+      "example": "Em C:\\Usuarios\\Analista\\Relatorio.docx, Relatorio.docx é o arquivo e as pastas anteriores compõem seu caminho hierárquico.",
+      "confusion": "A pasta organiza e aponta para itens; não é o conteúdo documental em si. Extensão, nome e caminho desempenham funções diferentes.",
+      "topic": "Arquivos e pastas",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-74bf9176e700b4c8",
+        "section": "1. Arquivos e pastas: conceitos e estrutura lógica"
+      },
+      "conceptIds": [
+        "sistemas-arquivo-pasta-caminho"
+      ],
+      "contrast": {
+        "prompt": "A extensão .docx é a pasta que armazena o relatório?",
+        "answer": "Não. .docx é a extensão do nome do arquivo; a pasta é a estrutura hierárquica que organiza referências aos arquivos."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/03%20-%20arquivo%20pasta%20nuvem%20e%20sincronizacao%20conceitos%20e%20operacoes.md",
+        "locator": "Seção: 1. Arquivos e pastas: conceitos e estrutura lógica"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
+    },
+    {
+      "id": "camara-ti-word-niveis-formatacao",
+      "term": "Formatação no Word: caractere × parágrafo × seção",
+      "definition": "Formatação de caractere afeta glifos selecionados; a de parágrafo afeta o bloco delimitado por marca de parágrafo; configurações de seção organizam propriedades como margens, orientação, colunas e cabeçalhos para aquela parte do documento.",
+      "example": "Negritar uma palavra é formatação de caractere; alinhar um parágrafo altera o bloco; mudar uma seção para paisagem pode permitir uma tabela larga sem mudar as demais seções.",
+      "confusion": "Uma quebra de página apenas inicia outra página e mantém as configurações da seção. Uma quebra de seção cria uma unidade estrutural que pode ter configurações próprias.",
+      "topic": "Word 365",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1.14.2.3 / Tecnologia da Informação e Dados"
+      ],
+      "note": {
+        "articleId": "art-005ae25143946d4e",
+        "section": "2. A hierarquia de formatação: Caractere, Parágrafo e Seção"
+      },
+      "conceptIds": [
+        "word-escopo-caractere-paragrafo-secao"
+      ],
+      "contrast": {
+        "prompt": "Inserir uma quebra de página simples permite configurar a página seguinte em orientação paisagem, isoladamente?",
+        "answer": "Não por si só. A quebra de página preserva as configurações da seção; para configuração isolada, é necessária quebra de seção e ajuste correspondente."
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Informatica/04%20-%20word%20365%20estrutura%20edicao%20formatacao%20e%20controle%20de%20alteracoes.md",
+        "locator": "Seção: 2. A hierarquia de formatação: Caractere, Parágrafo e Seção"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1
     }
   ]
 }

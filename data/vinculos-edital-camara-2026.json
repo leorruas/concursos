@@ -535,7 +535,11 @@
       "cam-revisao-estado-tem-competencia-nao-vedada": "3",
       "cam-revisao-falta-de-lei-federal-nao-desloca-competencia-privativa": "3",
       "cam-revisao-presidente-autorizacao-e-quorum": "5",
-      "cam-revisao-presidente-competencia-crime-comum": "5"
+      "cam-revisao-presidente-competencia-crime-comum": "5",
+      "cam-revisao-ausencia-quinze-dias-vice-sem-licenca-por-duracao": "5",
+      "cam-revisao-ausencia-dezesseis-dias-alcanca-licenca": "5",
+      "cam-const-200-licenca-exterior-quinze-dias-exatos": "5",
+      "cam-const-200-terras-publicas-limiar-exato": "5"
     }
   },
   {
@@ -590,17 +594,13 @@
       "cam-revisao-publicacao-nao-elimina-vacancia-expressa": "1.2",
       "cam-revisao-pec-prejudicada-aguarda-proxima-sessao-legislativa": "2.4",
       "cam-revisao-recesso-nao-abre-nova-sessao-para-reapresentar-pec": "2.4",
-      "cam-revisao-ausencia-quinze-dias-vice-sem-licenca-por-duracao": "2.3",
-      "cam-revisao-ausencia-dezesseis-dias-alcanca-licenca": "2.3",
       "cam-revisao-cargos-internos-e-remuneracao-exigem-instrumentos-distintos": "2.6",
       "cam-revisao-camara-resolucao-interna-nao-fixa-remuneracao": "2.6",
       "cam-revisao-apoiamento-de-uma-casa": "2.4",
       "cam-revisao-iniciativa-das-assembleias": "2.4",
       "cam-revisao-iniciativa-presidente-nao-altera-promulgador": "2.4",
       "cam-revisao-casa-revisora-nao-promulga-sozinha": "2.4",
-      "cam-const-200-publicacao-periodo-expresso-imediata": "1.2",
-      "cam-const-200-licenca-exterior-quinze-dias-exatos": "2.3",
-      "cam-const-200-terras-publicas-limiar-exato": "2.3"
+      "cam-const-200-publicacao-periodo-expresso-imediata": "1.2"
     }
   },
   {

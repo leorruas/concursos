@@ -21192,13 +21192,13 @@
     {
       "origin": "inedita",
       "format": "CE",
-      "examPart": "P2",
+      "examPart": "P1",
       "subjectId": "direito-constitucional",
-      "unitId": "processo-legislativo",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
       "id": "cam-revisao-ausencia-quinze-dias-vice-sem-licenca-por-duracao",
       "concursoId": "camara-2026",
-      "articleId": "art-a3f905cb76e1428d",
+      "articleId": "art-4572f492f3444994",
       "conceptId": "licenca-exterior-quinze-dias-exatos",
       "mechanism": "ausencia-quinze-dias-vice-sem-licenca-por-duracao",
       "questionType": "aplicacao",
@@ -21206,27 +21206,27 @@
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
-        "article:art-a3f905cb76e1428d#Decreto legislativo: competências e casos concretos"
+        "article:art-4572f492f3444994#Eleição, posse, substituição e sucessão: arts. 77 a 83"
       ],
       "source": {
-        "path": "3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md",
-        "section": "Decreto legislativo: competências e casos concretos"
+        "path": "3 - Materias/Direito Constitucional/07 - poder executivo.md",
+        "section": "Eleição, posse, substituição e sucessão: arts. 77 a 83"
       },
       "statement": "O Vice-Presidente pretende ausentar-se do país por exatamente quinze dias. Considerada apenas a duração prevista no art. 83, essa ausência não exige licença do Congresso Nacional.",
       "correctAnswer": "C",
       "explanation": "A Constituição exige autorização do Congresso quando o Presidente ou o Vice-Presidente se ausentar do País por período superior a quinze dias (arts. 49, III, e 83). Exatamente quinze dias não ultrapassam o limite. A palavra decisiva é “superior”: a licença torna-se necessária a partir do 16º dia.",
-      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 49, III, e 83. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+      "reviewEvidence": "Constituição Federal, arts. 49, III, e 83: o Congresso autoriza a ausência do Presidente ou do Vice-Presidente por período superior a quinze dias. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "origin": "inedita",
       "format": "CE",
-      "examPart": "P2",
+      "examPart": "P1",
       "subjectId": "direito-constitucional",
-      "unitId": "processo-legislativo",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
       "id": "cam-revisao-ausencia-dezesseis-dias-alcanca-licenca",
       "concursoId": "camara-2026",
-      "articleId": "art-a3f905cb76e1428d",
+      "articleId": "art-4572f492f3444994",
       "conceptId": "licenca-exterior-quinze-dias-exatos",
       "mechanism": "ausencia-dezesseis-dias-alcanca-licenca",
       "questionType": "aplicacao",
@@ -21234,16 +21234,16 @@
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
-        "article:art-a3f905cb76e1428d#Decreto legislativo: competências e casos concretos"
+        "article:art-4572f492f3444994#Eleição, posse, substituição e sucessão: arts. 77 a 83"
       ],
       "source": {
-        "path": "3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md",
-        "section": "Decreto legislativo: competências e casos concretos"
+        "path": "3 - Materias/Direito Constitucional/07 - poder executivo.md",
+        "section": "Eleição, posse, substituição e sucessão: arts. 77 a 83"
       },
       "statement": "Uma ausência do Presidente da República por dezesseis dias prescinde de licença do Congresso porque a exigência só começa a incidir após vinte dias.",
       "correctAnswer": "E",
       "explanation": "**Regra:** o Presidente e o Vice-Presidente da República não podem ausentar-se do País por mais de quinze dias sem licença do Congresso Nacional, sob pena de perda do cargo. **Aplicação:** dezesseis dias ultrapassam o limite; a licença é necessária antes do afastamento. **Distinção:** quinze dias exatos não excedem o limite; a exigência é acionada quando a ausência passa de quinze dias. (Constituição, art. 83.)",
-      "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 49, III, e 83. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+      "reviewEvidence": "Constituição Federal, arts. 49, III, e 83: o Congresso autoriza a ausência do Presidente ou do Vice-Presidente por período superior a quinze dias. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "origin": "inedita",
@@ -78258,11 +78258,11 @@
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
-      "examPart": "P2",
+      "examPart": "P1",
       "subjectId": "direito-constitucional",
-      "unitId": "processo-legislativo",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
-      "articleId": "art-a3f905cb76e1428d",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-4572f492f3444994",
       "conceptId": "licenca-exterior-quinze-dias-exatos",
       "mechanism": "licenca-exterior-quinze-dias-exatos",
       "questionType": "aplicacao",
@@ -78270,16 +78270,16 @@
       "cognitiveOperation": "aplicação",
       "reviewStatus": "validada",
       "theoryRefs": [
-        "article:art-a3f905cb76e1428d#Decreto legislativo: competências e casos concretos"
+        "article:art-4572f492f3444994#Eleição, posse, substituição e sucessão: arts. 77 a 83"
       ],
       "source": {
-        "path": "3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md",
-        "section": "Decreto legislativo: competências e casos concretos"
+        "path": "3 - Materias/Direito Constitucional/07 - poder executivo.md",
+        "section": "Eleição, posse, substituição e sucessão: arts. 77 a 83"
       },
       "statement": "A ausência do Presidente da República do país por exatamente quinze dias não satisfaz o requisito temporal que, por si, torna necessária a licença do Congresso Nacional.",
       "correctAnswer": "C",
       "explanation": "A Constituição exige licença quando o período supera quinze dias. Exatamente quinze dias não atingem esse critério de exceder o prazo. (Constituição Federal, arts. 49, III, e 83.)",
-      "reviewEvidence": "Constituição Federal, arts. 49, III, e 83 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica o limite temporal sem confundir atingi-lo e excedê-lo."
+      "reviewEvidence": "Constituição Federal, arts. 49, III, e 83: o Congresso autoriza a ausência do Presidente ou do Vice-Presidente por período superior a quinze dias. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-const-200-decreto-sustacao-mera-discordancia",
@@ -78342,10 +78342,10 @@
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
-      "examPart": "P2",
+      "examPart": "P1",
       "subjectId": "direito-constitucional",
-      "unitId": "processo-legislativo",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
       "articleId": "art-a3f905cb76e1428d",
       "conceptId": "terras-publicas-limiar-exato",
       "mechanism": "terras-publicas-limiar-exato",
@@ -78363,7 +78363,7 @@
       "statement": "A concessão de área pública de exatamente dois mil e quinhentos hectares exige a aprovação prévia do Congresso Nacional prevista no art. 49, XVII, por já atingir o limite indicado.",
       "correctAnswer": "E",
       "explanation": "A exigência do inciso incide sobre área superior a dois mil e quinhentos hectares. Atingir exatamente o valor não satisfaz esse critério. (Constituição Federal, art. 49, XVII.)",
-      "reviewEvidence": "Constituição Federal, art. 49, XVII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Verifica o limite quantitativo para o controle parlamentar."
+      "reviewEvidence": "Constituição Federal, art. 49, XVII: aprovação prévia da alienação ou concessão de terras públicas com área superior a 2.500 hectares. O item testa a distinção entre atingir e ultrapassar o limiar. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
       "id": "cam-const-200-rejeicao-projeto-fracoes-somadas",

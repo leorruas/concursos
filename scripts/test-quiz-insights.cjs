@@ -215,6 +215,9 @@ for(const item of officialReferences.itens){
 const camaraPool=data.questions.filter(q=>q.concursoId==='camara-2026');
 const camaraIds=new Set(camaraPool.map(q=>q.id));
 const sourceQuestionIds=new Set([...canonical.pilotoDidatico,...canonical.expansao].map(q=>q.id));
+const publishedHardDecoro=camaraPool.filter(q=>hardDecoro.some(item=>item.id===q.id));
+assert.equal(publishedHardDecoro.length,hardDecoro.length,'todo o lote suplementar de Decoro deve ser publicado');
+assert.ok(publishedHardDecoro.every(q=>q.officialEditalCode==='7'),'lote suplementar de Decoro vinculado ao código 7 do edital');
 assert.ok(assessmentReserve.reservedQuestionIds.every(id=>!camaraIds.has(id)), "itens reservados não são distribuídos no catálogo público");
 assert.ok(assessmentReserve.reservedQuestionIds.every(id=>!sourceQuestionIds.has(id)), "itens reservados não permanecem na fonte pública");
 const syncAttempt=vm.runInNewContext('('+quizSource.slice(

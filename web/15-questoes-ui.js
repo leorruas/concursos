@@ -97,7 +97,7 @@ function markSynced(attemptId){
 
 function shuffle(a){let x=a.slice();for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]];}return x;}
 function contest(){return data?.contests.find(c=>c.id===$('qs-concurso').value);}
-function available(){return data?.questions.filter(q=>q.concursoId===contest()?.id&&q.format==='CE'&&!reservedQuestionIds.has(q.id)&&(!q.officialSource||loggedIn))||[];}
+function available(){const learning=selected('qs-pool')==='aprendizagem';return data?.questions.filter(q=>q.concursoId===contest()?.id&&q.format==='CE'&&!reservedQuestionIds.has(q.id)&&(!q.officialSource||loggedIn)&&(learning?q.learningTrack==='aprendizagem-orcamento-camara-2026':!q.learningTrack))||[];}
 function answeredQuestionIds(contestId){
  return new Set(storeRead().filter(s=>s.concursoId===contestId).flatMap(s=>(s.answers||[]).map(a=>a.questionId)));
 }
@@ -156,6 +156,8 @@ let chapterIds=[],unmappedChapterQuestions=0;
 // usada pelos índices de matéria e pelo EPUB. Números do nome do arquivo
 // são identificadores legados e não correspondem ao capítulo de leitura.
 function quizChapterIds(catalog,contestId,subjectId){
+ if(typeof document!=='undefined'&&selected('qs-pool')==='aprendizagem'&&contestId==='camara-2026'&&subjectId==='orcamento-publico')
+  return (data?.learningChapters||[]).map(chapter=>chapter.articleId);
  const exam=catalog?.contests?.find(c=>c.concursoId===contestId);
  const subject=exam?.subjects?.find(s=>s.subjectId===subjectId);
  return Array.isArray(subject?.articleIds)
@@ -673,6 +675,7 @@ async function init(){
  $('qs-theme').textContent=document.documentElement.dataset.theme==='light'?'modo escuro':'modo claro';$('qs-theme').addEventListener('click',theme);
  $('qs-login').addEventListener('click',saveBatchForLogin);
  $('qs-custom').addEventListener('change',availability);
+ $('qs-pool').addEventListener('change',()=>{if(selected('qs-pool')==='aprendizagem'){$('qs-concurso').value='camara-2026';document.querySelector('input[name="qs-scope"][value="single"]').checked=true;}updateSubjects();updateSuggestions();});
  $('qs-concurso').addEventListener('change',()=>{updateSubjects();updateSuggestions();});$('qs-materia').addEventListener('change',updateUnits);
  document.querySelectorAll('input[name="qs-mode"]').forEach(input=>input.addEventListener('change',availability));
  $('qs-capitulo').addEventListener('input',()=>{updateChapterDisplay();availability();});
@@ -709,6 +712,11 @@ async function init(){
   data.questions=data.questions.filter(q=>!reservedQuestionIds.has(q.id));
   data.map=new Map(data.questions.map(q=>[q.id,q]));
   for(const q of reservedFromActiveSessions)data.map.set(q.id,q);
+  const generalCount=data.questions.filter(q=>!q.learningTrack).length;
+  const learningCount=data.questions.filter(q=>q.learningTrack==='aprendizagem-orcamento-camara-2026').length;
+  $('qs-pool').options[0].textContent='Banco geral ('+generalCount+')';
+  $('qs-pool').options[1].textContent='Aprendizagem: Orçamento, capítulos 1–4 ('+learningCount+')';
+  $('qs-pool').options[1].disabled=learningCount===0;
   try{const m=await fetch('manifest.json').then(r=>r.ok?r.json():[]);manifest=new Map(m.filter(x=>x.articleId).map(x=>[x.articleId,x]));}catch{}
   const catalogResponse=await fetch('data/catalogo-materias-por-concurso.json',{cache:'no-store'});
   if(!catalogResponse.ok)throw Error('Catálogo editorial indisponível (HTTP '+catalogResponse.status+').');

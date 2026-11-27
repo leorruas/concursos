@@ -665,11 +665,67 @@ for (const item of questoesCgu) {
     ...(item.calibration?.type === 'autoral-calibrada' ? {calibration: item.calibration} : {})});
 }
 if(questoesPublicas.some(q=>reservedQuestionIds.has(q.id))) throw Error("Conteúdo reservado apareceu no catálogo público.");
+const aprendizagemOrcamento = JSON.parse(fs.readFileSync(
+  path.join(rootDir, 'data/questoes-aprendizagem-orcamento-camara-2026.json'), 'utf8'
+));
+const artigosOrcamentoCamara = catalogoMaterias.contests.find(c => c.concursoId === 'camara-2026')
+  ?.subjects.find(s => s.subjectId === 'orcamento-publico')?.articleIds || [];
+const percursoOrcamentoCamara = fs.readFileSync(
+  path.join(rootDir, '1 - Planejamento/Camara 2026 - Percurso editorial Orcamento.md'), 'utf8'
+);
+const secaoPercursoOrcamento = percursoOrcamentoCamara.split(/^## Ordem de estudo Câmara: do planejamento ao controle parlamentar\s*$/m)[1]
+  ?.split(/^## /m)[0] || '';
+const capitulosNoPercurso = [...secaoPercursoOrcamento.matchAll(/\[\[(3 - Materias\/Orcamento Publico\/[^|\]]+)\|/g)]
+  .map(match => {
+    const sourcePath = match[1].endsWith('.md') ? match[1] : match[1] + '.md';
+    return {sourcePath, articleId: articleMetadata(fs.readFileSync(path.join(rootDir, sourcePath), 'utf8')).articleId};
+  });
+if (aprendizagemOrcamento.version !== 1 || aprendizagemOrcamento.concursoId !== 'camara-2026' ||
+    aprendizagemOrcamento.subjectId !== 'orcamento-publico' || aprendizagemOrcamento.pool !== 'aprendizagem' ||
+    aprendizagemOrcamento.chapters.length !== 4 ||
+    aprendizagemOrcamento.chapters.some((chapter, index) => chapter.sequence !== index + 1 ||
+      chapter.articleId !== capitulosNoPercurso[index]?.articleId || chapter.sourcePath !== capitulosNoPercurso[index]?.sourcePath ||
+      !artigosOrcamentoCamara.includes(chapter.articleId) || chapter.questions.length !== 50)) {
+  throw Error('Coleção de aprendizagem de Orçamento deve cobrir os quatro primeiros capítulos do percurso editorial, presentes no catálogo, com 50 itens cada.');
+}
+const knownArticlePaths = new Map(manifesto.map(item => [item.articleId, item.sourcePath]));
+const learningQuestionIds = new Set();
+for (const chapter of aprendizagemOrcamento.chapters) {
+  const sourcePath = knownArticlePaths.get(chapter.articleId);
+  const content = sourcePath ? conteudosPorPath.get(sourcePath) : null;
+  if (sourcePath !== chapter.sourcePath || !content) throw Error('Artigo de aprendizagem ausente do catálogo: ' + chapter.articleId);
+  const headings = new Set(content.split(/\r?\n/).filter(line => /^#{1,6} /.test(line))
+    .map(line => line.replace(/^#{1,6} /, '').trim()));
+  for (const item of chapter.questions) {
+    const label = item.id || '(sem ID)';
+    if (learningQuestionIds.has(item.id) || questoesPublicas.some(question => question.id === item.id)) {
+      throw Error('ID repetido na coleção de aprendizagem: ' + label);
+    }
+    learningQuestionIds.add(item.id);
+    if ((item.answer !== 'C' && item.answer !== 'E') || !item.statement?.trim() || !item.explanation?.trim() ||
+        !item.conceptId?.trim() || !item.mechanism?.trim() || !headings.has(item.section) ||
+        !/CF|Constituição|Lei nº|LC nº|ADCT|LRF/.test(item.explanation)) {
+      throw Error('Questão de aprendizagem incompleta ou sem referência teórica/normativa: ' + label);
+    }
+    const editalRef = aprendizagemOrcamento.editalRef;
+    const officialEditalCode = officialCodeByReference.get(referenceKey('processo-orcamentario', editalRef)) || null;
+    questoesPublicas.push({
+      id: item.id, concursoId: 'camara-2026', subjectId: 'orcamento-publico',
+      subjectName: materiasQuestoes['orcamento-publico'], unitId: 'processo-orcamentario',
+      unitName: nomesUnidades['processo-orcamentario'], examPart: 'P2', editalRef, officialEditalCode,
+      articleId: chapter.articleId, section: item.section, conceptId: item.conceptId, mechanism: item.mechanism,
+      format: 'CE', origin: 'inedita', estimatedDifficulty: item.difficulty, questionType: 'aprendizagem',
+      cognitiveOperation: item.operation, learningTrack: 'aprendizagem-orcamento-camara-2026',
+      learningChapter: chapter.sequence, statement: item.statement, correctAnswer: item.answer, explanation: item.explanation
+    });
+  }
+}
 if(new Set(questoesPublicas.map(q=>q.id)).size !== questoesPublicas.length)throw Error('IDs duplicados no catálogo público de questões.');
 const editalUnits = Object.entries(arquivoQuestoes.subjects).flatMap(([subjectId, subject]) =>
   subject.units.map(([unitId, title, examPart, editalRef]) => ({subjectId, unitId, title, examPart, editalRef})));
 fs.writeFileSync(path.join(dataDest,'questoes-publicas.json'),JSON.stringify({
-  version:1,contests:concursosQuestoes,questions:questoesPublicas,editalUnits
+  version:1,contests:concursosQuestoes,questions:questoesPublicas,editalUnits,
+  learningChapters: aprendizagemOrcamento.chapters.map(({sequence,articleId,title}) => ({sequence,articleId,title}))
 }));
 console.log('✓ Banco de treino: '+questoesPublicas.length+' questões públicas da Câmara e da CGU.');
 

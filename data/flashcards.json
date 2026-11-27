@@ -15257,6 +15257,1842 @@
         "prompt": "O Executivo invoca o art. 167, § 5º, para deslocar verba de pesquisa para custear rotina administrativa sem relação com projeto de CTI. A exceção se aplica?",
         "answer": "Não. O dispositivo exige finalidade de viabilizar resultados de projetos restritos às funções de ciência, tecnologia e inovação."
       }
+    },
+    {
+      "id": "camara-orc05-unidade-administrativa-unidade-orcamentaria",
+      "term": "Unidade administrativa e unidade orçamentária",
+      "definition": "Unidade administrativa executa atividades e apresenta necessidades; unidade orçamentária (UO) é a unidade identificada no orçamento para receber dotações e coordenar programação. O critério é a função na estrutura orçamentária, não o prédio ou setor onde o serviço ocorre.",
+      "example": "Um setor de atendimento solicita equipamentos à UO responsável; a dotação fica registrada na UO, não automaticamente no setor solicitante.",
+      "confusion": "Uma unidade administrativa pode depender da mesma UO que outros setores; receber pedidos não significa possuir dotação própria.",
+      "topic": "Atores da proposta",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "Arquitetura de atores: onde está cada decisão"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "MTO 2027, capítulo 6; Constituição Federal, art. 165"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "unidade-administrativa-vs-orcamentaria"
+      ],
+      "contrast": {
+        "prompt": "Um setor de atendimento pede R$ 100 mil, mas não é unidade orçamentária. Quem recebe a programação no orçamento?",
+        "answer": "A proposta é organizada pela UO responsável; o setor administrativo apresenta necessidade, mas isso não cria dotação própria para ele."
+      }
+    },
+    {
+      "id": "camara-orc05-orgao-setorial",
+      "term": "Órgão setorial na elaboração",
+      "definition": "Órgão setorial orienta e reúne as propostas das unidades orçamentárias de sua área, analisa prioridades e limites e consolida a programação setorial. Sua atuação ocorre na preparação do projeto, antes da decisão legislativa.",
+      "example": "Duas UOs pedem recursos; o órgão setorial compara prioridades e encaminha ao nível central uma proposta compatibilizada.",
+      "confusion": "Consolidar ou ajustar a proposta não equivale a aprovar a LOA, sancionar a lei ou executar pagamentos.",
+      "topic": "Atores da proposta",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "Arquitetura de atores: onde está cada decisão"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "MTO 2027, capítulo 6, atores e responsabilidades"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "orgao-setorial-competencia"
+      ],
+      "contrast": {
+        "prompt": "Uma unidade pede R$ 2 milhões e o órgão setorial ajusta a proposta a R$ 1,5 milhão. O corte é uma limitação de empenho?",
+        "answer": "Não. O ajuste ocorre durante a elaboração da proposta, antes da dotação autorizada; limitação de empenho é mecanismo da execução."
+      }
+    },
+    {
+      "id": "camara-orc05-sof-orgao-central",
+      "term": "Secretaria de Orçamento Federal (SOF)",
+      "definition": "A SOF é o órgão central que define orientações técnicas, coordena estimativas e referenciais e analisa e consolida a proposta federal. Atua na coordenação do processo e não substitui a iniciativa legislativa do presidente nem a deliberação do Congresso.",
+      "example": "Após propostas setoriais, a SOF compatibiliza valores e ações com as previsões e regras fiscais para compor o projeto federal.",
+      "confusion": "Coordenação central não significa que a SOF aprove a LOA ou decida isoladamente todas as propostas dos Poderes autônomos.",
+      "topic": "Atores da proposta",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "Arquitetura de atores: onde está cada decisão"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "MTO 2027, capítulo 6; Constituição Federal, arts. 165 e 166"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "sof-coordenacao-vs-iniciativa"
+      ],
+      "contrast": {
+        "prompt": "A SOF consolidou o projeto e o presidente ainda não o encaminhou. A consolidação já constitui iniciativa legislativa?",
+        "answer": "Não. A SOF coordena tecnicamente; a iniciativa e o encaminhamento dos projetos orçamentários federais cabem ao Poder Executivo conforme o art. 165."
+      }
+    },
+    {
+      "id": "camara-orc05-proposta-qualitativa",
+      "term": "Proposta orçamentária qualitativa",
+      "definition": "A proposta qualitativa identifica o que o governo pretende fazer e como a ação será caracterizada no orçamento, com seus atributos e finalidade. Ela estrutura a programação antes de estimar valores físicos e financeiros.",
+      "example": "Uma UO cria ou ajusta a descrição da ação “atendimento digital”; essa decisão é qualitativa, ainda sem fixar seu custo final.",
+      "confusion": "Qualitativa não significa informal ou sem critério; também não corresponde à quantificação financeira nem à execução do serviço.",
+      "topic": "Etapas e produtos",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "Da orientação à proposta: etapas e produtos"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "MTO 2027, seção 6.2"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "proposta-qualitativa"
+      ],
+      "contrast": {
+        "prompt": "A UO definiu finalidade e atributos da ação, mas ainda não indicou custo. Qual trabalho realizou?",
+        "answer": "Preparou a proposta qualitativa, que define o objeto e a estrutura da ação; a estimativa de valor pertence à proposta quantitativa."
+      }
+    },
+    {
+      "id": "camara-orc05-proposta-quantitativa",
+      "term": "Proposta orçamentária quantitativa",
+      "definition": "A proposta quantitativa atribui valores físicos e financeiros à programação, indicando quanto se pretende entregar e qual gasto se estima, conforme referenciais e regras do exercício. É estimativa de proposta, ainda sujeita à consolidação e aprovação.",
+      "example": "Uma ação prevê atender 2 mil pessoas e estima R$ 800 mil; são atributos físicos e financeiros da proposta quantitativa.",
+      "confusion": "Valor proposto não é dotação, empenho nem pagamento. Meta física e estimativa financeira são relacionadas, mas não são a mesma medida.",
+      "topic": "Etapas e produtos",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "Da orientação à proposta: etapas e produtos"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "MTO 2027, seção 6.2"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "proposta-quantitativa"
+      ],
+      "contrast": {
+        "prompt": "A unidade estimou 2 mil atendimentos e R$ 800 mil no sistema. O fornecedor já tem direito a receber?",
+        "answer": "Não. Trata-se de estimativa física e financeira na proposta; direito do credor só é verificado na liquidação, depois da execução."
+      }
+    },
+    {
+      "id": "camara-orc05-siop-planejamento-siafi-execucao",
+      "term": "Sistema Integrado de Planejamento e Orçamento (SIOP) e Sistema Integrado de Administração Financeira (SIAFI)",
+      "definition": "O SIOP apoia elaboração, alterações e acompanhamento físico-orçamentário; o SIAFI registra processos da execução contábil, orçamentária e financeira federal. O critério é a etapa e a operação realizada, não o simples fato de ambos lidarem com orçamento.",
+      "example": "Registrar a proposta de uma campanha no SIOP prepara o orçamento; empenhar e pagar um contrato ocorrem na execução registrada nos sistemas financeiros pertinentes.",
+      "confusion": "Uma proposta no SIOP não empenha, liquida nem paga uma despesa; o sistema de planejamento não substitui os procedimentos de execução.",
+      "topic": "Sistemas e etapas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "O SIOP não é o sistema de pagamentos"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "MTO 2027, capítulos 6 e 7; SIOP e SIAFI"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "siop-vs-siafi"
+      ],
+      "contrast": {
+        "prompt": "Uma unidade digitou R$ 500 mil para uma ação no SIOP. Essa operação registra o pagamento ao fornecedor?",
+        "answer": "Não. O registro é de proposta ou programação; pagamento exige execução financeira e os atos próprios, não é produzido pela estimativa no SIOP."
+      }
+    },
+    {
+      "id": "camara-orc05-referencial-vs-dotacao-limite-empenho",
+      "term": "Referencial monetário, dotação e limite de empenho",
+      "definition": "Referencial monetário orienta a elaboração ou ajuste de uma proposta; dotação é a autorização de despesa aprovada na LOA ou em crédito adicional; limite de empenho restringe quanto dessa autorização pode ser comprometido em certo momento da execução.",
+      "example": "Uma unidade recebe referencial de R$ 1 milhão, a LOA aprova R$ 900 mil e depois o limite de empenho fica em R$ 700 mil: são valores de etapas distintas.",
+      "confusion": "Referencial não é crédito autorizado e limite de empenho não apaga automaticamente a dotação. Identifique se o fato é elaboração ou execução.",
+      "topic": "Valores e limites",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "Da orientação à proposta: etapas e produtos"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Lei Complementar nº 101/2000, arts. 8º e 9º; Constituição Federal, art. 165, § 8º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "referencial-dotacao-limite-empenho"
+      ],
+      "contrast": {
+        "prompt": "Uma proposta foi reduzida ao referencial antes do envio do PLOA. A dotação legal já sofreu contingenciamento?",
+        "answer": "Não. Ainda se trata de ajuste da proposta. Contingenciamento/limitação de empenho se aplica a programação já autorizada quando presentes os requisitos legais."
+      }
+    },
+    {
+      "id": "camara-orc05-autonomia-proposta-iniciativa-ploa",
+      "term": "Proposta autônoma e iniciativa do projeto de LOA",
+      "definition": "Poderes e instituições com autonomia podem elaborar e encaminhar suas propostas orçamentárias internas dentro dos limites e prazos aplicáveis. A iniciativa constitucional do projeto federal da LOA continua sendo do Poder Executivo, que consolida e encaminha o PLOA.",
+      "example": "Um tribunal envia sua proposta dentro do limite da LDO; ela integra a preparação, enquanto o presidente encaminha o projeto consolidado ao Congresso.",
+      "confusion": "Autonomia para propor não é iniciativa compartilhada do projeto de LOA nem autorização para ignorar limites da LDO.",
+      "topic": "Autonomia orçamentária",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "O caso dos outros Poderes e a autonomia orçamentária"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, arts. 99, 127, § 3º, 134, §§ 2º e 3º, e 165"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "proposta-autonoma-vs-ploa"
+      ],
+      "contrast": {
+        "prompt": "O tribunal elaborou sua proposta dentro dos limites. Pode enviá-la diretamente ao Congresso como projeto de LOA?",
+        "answer": "Não. A proposta própria participa da consolidação, mas a iniciativa do projeto de LOA federal permanece com o Executivo, nos termos do art. 165."
+      }
+    },
+    {
+      "id": "camara-orc05-proposta-nao-enviada-vs-acima-limite",
+      "term": "Proposta não encaminhada e proposta acima do limite",
+      "definition": "Para Judiciário e Ministério Público, a Constituição prevê respostas diferentes: se a proposta não chega no prazo, usam-se na consolidação valores da LOA vigente ajustados aos limites; se chega acima dos limites, o Executivo realiza ajustes necessários. O fato decisivo é ausência ou excesso da proposta.",
+      "example": "Um tribunal envia R$ 120 milhões quando o limite aplicável é R$ 100 milhões: há proposta excedente e ajuste; se não enviar no prazo, incide outra regra constitucional.",
+      "confusion": "Não tratar omissão e excesso como a mesma hipótese nem atribuir ao Executivo poder irrestrito para substituir escolhas válidas.",
+      "topic": "Autonomia orçamentária",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "O caso dos outros Poderes e a autonomia orçamentária"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, arts. 99, §§ 3º e 4º, e 127, §§ 4º e 5º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "proposta-ausente-vs-excedente"
+      ],
+      "contrast": {
+        "prompt": "O tribunal encaminhou proposta, mas excedeu limite da LDO. O Executivo deve usar automaticamente como base os valores da LOA vigente?",
+        "answer": "Não. A regra de usar valores da LOA vigente se refere à falta de encaminhamento no prazo. Proposta enviada acima do limite é ajustada conforme o art. 99, § 4º."
+      }
+    },
+    {
+      "id": "camara-orc05-prazo-ploa-31-agosto",
+      "term": "Prazo federal de envio do PLOA",
+      "definition": "Enquanto vigorar o regime transitório do ADCT, o projeto federal da LOA é enviado até quatro meses antes do encerramento do exercício, o que corresponde normalmente a 31 de agosto, para devolução até o fim da sessão legislativa. O PPA e a LDO têm prazos próprios.",
+      "example": "Para o orçamento do próximo exercício, o presidente encaminha o PLOA até 31 de agosto sob a regra transitória aplicável.",
+      "confusion": "O prazo do PLOA não deve ser transferido ao PPA ou à LDO; encaminhar projeto tampouco autoriza gasto do exercício futuro.",
+      "topic": "Prazos",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "Prazos e instrumentos: o que observar"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "ADCT, art. 35, § 2º, III; Constituição Federal, art. 165, § 9º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "prazo-ploa-adct"
+      ],
+      "contrast": {
+        "prompt": "O PLOA foi encaminhado em agosto. As despesas do exercício seguinte já podem ser pagas antes de aprovada e vigente a LOA?",
+        "answer": "Não. O envio inicia a tramitação; o gasto depende da autorização orçamentária aplicável ao exercício e dos demais requisitos legais."
+      }
+    },
+    {
+      "id": "camara-orc05-linha-base-vs-expansao-momp",
+      "term": "Linha de base e expansão no orçamento de médio prazo",
+      "definition": "Linha de base estima o custo futuro de manter políticas e serviços existentes sob hipóteses de preços, volume e compromissos. O Marco Orçamentário de Médio Prazo pode também avaliar novas políticas, expansões e revisões de gastos.",
+      "example": "Projetar inflação e volume de atendimento de serviço existente compõe a linha de base; abrir uma nova unidade é expansão que exige análise própria.",
+      "confusion": "A linha de base não é um plano completo de novas iniciativas nem dotação autorizada para anos futuros.",
+      "topic": "Projeções de médio prazo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "PLOA 2027: proposta anual e linha de base no SIOP"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "MTO 2027, capítulo 7, seção 7.3.3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "linha-base-vs-expansao"
+      ],
+      "contrast": {
+        "prompt": "A projeção mantém o alcance do serviço e corrige custo por inflação; ela inclui automaticamente uma nova unidade?",
+        "answer": "Não. A projeção descreve manutenção do serviço existente. Uma unidade nova constitui expansão e precisa ser avaliada separadamente."
+      }
+    },
+    {
+      "id": "camara-orc05-projecao-vs-autorizacao-anual-2027",
+      "term": "Projeção futura e autorização anual",
+      "definition": "Projeções de despesa para exercícios seguintes informam o planejamento de médio prazo, mas não constituem dotação para esses exercícios. O gasto futuro precisa da autorização orçamentária pertinente ao respectivo ano.",
+      "example": "O sistema projeta custo de R$ 2,1 milhões em 2028 para manter um serviço; a estimativa ajuda a planejar, mas não autoriza empenho em 2028.",
+      "confusion": "Projeção no módulo de médio prazo não é LOA futura, crédito adicional ou autorização para assumir obrigação naquele exercício.",
+      "topic": "Projeções e autorização",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4be219d8f750ac63",
+        "section": "PLOA 2027: proposta anual e linha de base no SIOP"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, caput e §§ 5º e 14; MTO 2027, capítulo 7"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "projecao-nao-dotacao"
+      ],
+      "contrast": {
+        "prompt": "O SIOP contém projeção de despesa para 2028. A unidade pode empenhar agora usando essa projeção?",
+        "answer": "Não. Projeção é informação de planejamento; empenho requer crédito autorizado no orçamento do exercício correspondente."
+      }
+    },
+    {
+      "id": "camara-orc06-rito-orcamentario-sessao-conjunta",
+      "term": "Rito orçamentário em sessão conjunta",
+      "definition": "Projetos de PPA, LDO, LOA e créditos adicionais são apreciados pelas duas Casas do Congresso na forma do regimento comum, com rito orçamentário próprio. A sessão conjunta reúne parlamentares, mas não elimina a participação constitucional da Câmara e do Senado.",
+      "example": "O PLOA é examinado na CMO e depois deliberado pelo Congresso em sessão conjunta segundo regras que preservam as Casas.",
+      "confusion": "Não se aplica automaticamente a sequência ordinária de Casa iniciadora e revisora em sessões separadas; tampouco se pode dizer que inexiste bicameralismo.",
+      "topic": "Rito legislativo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Fontes, escopo e separação entre ritos"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, art. 166, caput e § 2º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "rito-orcamentario-sessao-conjunta"
+      ],
+      "contrast": {
+        "prompt": "Como há sessão conjunta para apreciar o PLOA, o Senado deixa de participar do processo?",
+        "answer": "Não. O art. 166 prevê apreciação pelas duas Casas na forma do regimento comum; sessão conjunta é a forma do rito, não exclusão de uma Casa."
+      }
+    },
+    {
+      "id": "camara-orc06-cmo-parecer-plenario",
+      "term": "Parecer da CMO e deliberação do Congresso",
+      "definition": "A Comissão Mista de Orçamento examina o projeto e emendas e apresenta parecer, documento fundamentado que recomenda encaminhamento. A decisão legislativa final cabe à deliberação do Congresso, seguida das etapas constitucionais cabíveis.",
+      "example": "A CMO aprova parecer favorável ao PLOA; o projeto ainda precisa ser apreciado pelo Plenário do Congresso em sessão conjunta.",
+      "confusion": "Parecer da comissão não é autógrafo, lei sancionada ou autorização de execução.",
+      "topic": "Competências",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Quem faz o quê: competências e limites"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, art. 166, §§ 1º e 2º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "parecer-cmo-vs-deliberacao"
+      ],
+      "contrast": {
+        "prompt": "A CMO aprovou o parecer do PLOA. Isso já autoriza os órgãos a empenhar despesas?",
+        "answer": "Não. O parecer é manifestação da comissão; é necessária a deliberação do Congresso e a conclusão das etapas legislativas que formam a lei."
+      }
+    },
+    {
+      "id": "camara-orc06-projeto-parecer-autografo-lei",
+      "term": "Projeto, parecer, autógrafo e lei orçamentária",
+      "definition": "Projeto é texto submetido à análise; parecer é recomendação da comissão; autógrafo é a versão formal aprovada pelo Legislativo e enviada ao Executivo; lei resulta das etapas constitucionais de sanção ou veto, promulgação e publicação. Cada documento marca estágio distinto.",
+      "example": "Depois da votação parlamentar do PLOA, o autógrafo segue para sanção ou veto; só então há lei publicada para reger o exercício.",
+      "confusion": "A aprovação parlamentar não é sanção ou publicação, e o parecer não é o próprio projeto ou a lei.",
+      "topic": "Documentos e etapas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Projeto de lei × parecer × autógrafo × lei"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, arts. 66 e 166; Resolução nº 1/2006-CN"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "projeto-parecer-autografo-lei"
+      ],
+      "contrast": {
+        "prompt": "O texto recebeu parecer favorável, mas ainda não foi votado pelo Congresso. Existe autógrafo aprovado?",
+        "answer": "Não. O parecer recomenda uma decisão; o autógrafo corresponde ao texto formal aprovado pelo Legislativo."
+      }
+    },
+    {
+      "id": "camara-orc06-autuacao-publicacao-cronograma",
+      "term": "Autuação, publicação e cronograma legislativo",
+      "definition": "Autuar é registrar formalmente a proposição no processo legislativo; publicar torna o projeto e os atos acessíveis; o cronograma organiza datas regimentais para etapas da tramitação. Esses atos dão forma e publicidade ao procedimento, mas não alteram por si os prazos constitucionais.",
+      "example": "Ao receber o PLOA, o Congresso registra a proposição, publica seus documentos e organiza calendário de análise.",
+      "confusion": "Calendário interno não modifica o prazo constitucional de envio nem significa que o projeto foi aprovado.",
+      "topic": "Sequência do projeto",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Sequência do projeto: do recebimento à lei"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, arts. 165 e 166; Resolução nº 1/2006-CN"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "autuacao-cronograma-prazos"
+      ],
+      "contrast": {
+        "prompt": "A CMO alterou seu calendário interno. Essa decisão muda automaticamente o prazo constitucional do PLOA?",
+        "answer": "Não. O cronograma organiza etapas internas; prazo constitucional de encaminhamento decorre da Constituição e do ADCT."
+      }
+    },
+    {
+      "id": "camara-orc06-emenda-orcamentaria-compatibilidade-recursos",
+      "term": "Requisitos gerais das emendas à LOA",
+      "definition": "Emendas à LOA ou a projeto que a modifique devem ser compatíveis com PPA e LDO e indicar recursos necessários provenientes de anulação de despesas permitidas, respeitadas exclusões constitucionais. Há hipóteses específicas para correção de erros ou omissões e dispositivos do texto do projeto.",
+      "example": "Uma emenda cria R$ 2 milhões para uma ação e indica anulação de despesa elegível, além de ser compatível com planejamento; ela satisfaz requisitos que precisam ser examinados.",
+      "confusion": "Não se pode usar como fonte qualquer dotação: pessoal e encargos, serviço da dívida e transferências constitucionais têm proteção, ressalvadas as hipóteses constitucionais.",
+      "topic": "Emendas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, art. 166, § 3º, I a III"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "requisitos-emenda-loa"
+      ],
+      "contrast": {
+        "prompt": "Uma emenda acrescenta despesa incompatível com o PPA, embora indique cancelamento equivalente de outra rubrica. O equilíbrio numérico basta?",
+        "answer": "Não. O art. 166, § 3º, também exige compatibilidade com PPA e LDO; igualdade dos valores não corrige incompatibilidade."
+      }
+    },
+    {
+      "id": "camara-orc06-anulacao-permitida-vedada-emenda",
+      "term": "Anulação de despesa como fonte para emenda",
+      "definition": "Para indicar recursos a uma emenda, a Constituição admite anulação de despesas dentro dos limites do art. 166, § 3º. A origem do valor importa: dotações para pessoal e encargos, serviço da dívida e transferências tributárias constitucionais não podem, em regra, ser anuladas para esse fim.",
+      "example": "Uma emenda cancela dotação discricionária elegível e usa o valor para outra programação; o exame precisa verificar a fonte específica e as demais condições.",
+      "confusion": "Cancelamento equivalente não torna disponível dotação constitucionalmente protegida; a restrição tem objeto próprio.",
+      "topic": "Emendas e fontes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, art. 166, § 3º, II"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "anulacao-emenda-limites"
+      ],
+      "contrast": {
+        "prompt": "A emenda cancela valor do serviço da dívida e o transfere a uma obra. O valor equivalente torna essa fonte admissível?",
+        "answer": "Não. O art. 166, § 3º, II, exclui essa dotação das fontes de anulação permitidas, salvo as hipóteses constitucionais próprias."
+      }
+    },
+    {
+      "id": "camara-orc06-correcao-erro-vs-nova-programacao",
+      "term": "Correção de erro e criação de nova despesa em emenda",
+      "definition": "A Constituição trata como hipóteses próprias de emenda a correção de erros ou omissões e a alteração relacionada a dispositivo do texto do projeto. Criar nova despesa, por sua vez, exige aplicar os requisitos de compatibilidade e recursos previstos para programação orçamentária.",
+      "example": "Corrigir um número digitado incorretamente no projeto não equivale a criar R$ 2 milhões para uma nova ação.",
+      "confusion": "Não impor automaticamente a mesma anulação de despesa a toda correção textual; também não chamar nova programação de simples correção.",
+      "topic": "Emendas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, art. 166, § 3º, III"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "erro-material-vs-nova-despesa"
+      ],
+      "contrast": {
+        "prompt": "Uma emenda corrige o nome de uma unidade sem alterar programação ou valor. Ela cria nova despesa que exige fonte de anulação?",
+        "answer": "A descrição apresentada caracteriza correção de texto; não deve ser tratada como inclusão de nova despesa, embora deva cumprir as regras regimentais pertinentes."
+      }
+    },
+    {
+      "id": "camara-orc06-mensagem-presidencial-modificacao-projeto",
+      "term": "Mensagem presidencial de modificação do projeto",
+      "definition": "Durante a tramitação, o presidente pode propor modificação dos projetos orçamentários por mensagem enquanto não tiver começado, na comissão mista, a votação da parte afetada. Para o projeto da LDO, a Resolução nº 1/2006-CN estabelece condição regimental adicional até o início da votação do relatório preliminar.",
+      "example": "Se a votação da parte correspondente ainda não começou, uma mensagem pode ser apresentada conforme a regra constitucional; para a LDO, também se verifica o marco regimental próprio.",
+      "confusion": "A faculdade não permite substituir livremente qualquer trecho após iniciada a votação relevante nem usar o marco geral ignorando regra específica da LDO.",
+      "topic": "Alteração do projeto",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, art. 166, § 5º; Resolução nº 1/2006-CN, art. 83"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "mensagem-modificacao-limite-votacao"
+      ],
+      "contrast": {
+        "prompt": "Para alterar a LDO, o presidente envia mensagem depois de começar a votação do relatório preliminar, embora a votação da parte afetada ainda não tenha começado. Qual marco se aplica?",
+        "answer": "A regra específica do art. 83 da Resolução nº 1/2006-CN exige recebimento antes do início da votação do relatório preliminar; o marco geral do art. 166, § 5º, não afasta essa condição."
+      }
+    },
+    {
+      "id": "camara-orc06-recurso-sem-despesa-correspondente",
+      "term": "Recursos sem despesa correspondente após veto ou rejeição",
+      "definition": "Se veto, emenda aprovada ou rejeição do projeto da LOA deixar recursos sem despesa correspondente, sua utilização para abrir crédito suplementar ou especial depende de autorização legislativa prévia e específica. O valor liberado não se converte automaticamente em verba livre.",
+      "example": "Um veto deixa R$ 1 milhão sem programação; o Executivo precisa de autorização específica antes de usar os recursos para abrir outro crédito.",
+      "confusion": "Disponibilidade de recursos não substitui autorização legislativa; a autorização deve anteceder e identificar a operação.",
+      "topic": "Emendas e créditos",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, art. 166, § 8º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "recursos-sem-despesa-credito"
+      ],
+      "contrast": {
+        "prompt": "O veto deixou recursos disponíveis no projeto. O Executivo pode abrir imediatamente crédito suplementar sem autorização específica?",
+        "answer": "Não. O art. 166, § 8º, exige autorização legislativa prévia e específica para abrir crédito com esses recursos."
+      }
+    },
+    {
+      "id": "camara-orc06-remanejamento-apropriacao-cancelamento",
+      "term": "Emendas de remanejamento, apropriação e cancelamento",
+      "definition": "Na Resolução nº 1/2006-CN, emenda de remanejamento acrescenta/inclui programação com anulação equivalente indicada; de apropriação acrescenta ou inclui dotação com indicação de fonte; de cancelamento apenas reduz dotação do projeto. A diferença é a operação que a emenda propõe.",
+      "example": "Uma emenda que somente reduz uma dotação é cancelamento; se também inclui uma programação com anulação equivalente no mesmo documento, pode ser remanejamento conforme os requisitos.",
+      "confusion": "Emenda de cancelamento não cria necessariamente outra ação; autoria individual ou coletiva é eixo distinto da classificação financeira.",
+      "topic": "Tipos de emendas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Tipos regimentais de emendas à despesa"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, arts. 37 a 41, texto atualizado"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "tipos-regimentais-emenda-despesa"
+      ],
+      "contrast": {
+        "prompt": "Uma emenda reduz R$ 300 mil de uma dotação e não indica nova programação. Qual operação descreve?",
+        "answer": "Emenda de cancelamento: sua finalidade é somente reduzir dotação, conforme art. 40 da Resolução nº 1/2006-CN."
+      }
+    },
+    {
+      "id": "camara-orc06-limite-valor-solicitado-excecao-remanejamento",
+      "term": "Valor aprovado e valor solicitado na emenda",
+      "definition": "A Resolução nº 1/2006-CN, após alteração de 2025, veda aprovar emenda em valor superior ao solicitado, salvo remanejamento entre emendas do mesmo autor. A exceção depende simultaneamente de remanejamento e identidade de autoria.",
+      "example": "O autor pediu R$ 1 milhão; elevar a aprovação para R$ 1,5 milhão exige examinar se ocorre a exceção de remanejamento entre emendas desse mesmo autor.",
+      "confusion": "A relevância política da ação não é, por si, exceção ao limite; remanejar entre autores diferentes também não satisfaz a condição descrita.",
+      "topic": "Emendas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Tipos regimentais de emendas à despesa"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, art. 42, texto atualizado pela Resolução nº 1/2025-CN"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "limite-emenda-valor-solicitado"
+      ],
+      "contrast": {
+        "prompt": "Uma emenda de um autor foi solicitada por R$ 1 milhão e aumentada a R$ 1,2 milhão mediante remanejamento de emenda de outro autor. A exceção se aplica?",
+        "answer": "Não. A exceção se refere a remanejamento entre emendas do mesmo autor; fonte de outro autor não satisfaz esse requisito."
+      }
+    },
+    {
+      "id": "camara-orc06-remanejamento-mesmo-orgao",
+      "term": "Emenda de remanejamento e mesmo órgão orçamentário",
+      "definition": "A emenda de remanejamento deve concentrar acréscimos e cancelamentos em dotações do mesmo órgão orçamentário e observar compatibilidade das fontes, conforme a regra regimental atualizada. A equivalência de valores não basta sem observar o órgão e a fonte.",
+      "example": "Uma emenda reduz uma dotação de ministério A e aumenta outra do mesmo ministério; ainda se confere a compatibilidade das fontes e demais condições.",
+      "confusion": "Cancelar valor em um ministério e transferi-lo a outro não se torna automaticamente remanejamento admissível só porque os montantes coincidem.",
+      "topic": "Emendas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Tipos regimentais de emendas à despesa"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, art. 45, texto atualizado"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "remanejamento-mesmo-orgao-fontes"
+      ],
+      "contrast": {
+        "prompt": "A emenda cancela R$ 500 mil no Ministério A e acrescenta o mesmo valor no Ministério B. A equivalência monetária atende sozinha ao art. 45?",
+        "answer": "Não. A regra exige concentração no mesmo órgão orçamentário e compatibilidade das fontes; igualdade aritmética não supre esses critérios."
+      }
+    },
+    {
+      "id": "camara-orc06-creditos-adicionais-rito-especifico",
+      "term": "Projetos orçamentários e créditos adicionais no rito comum",
+      "definition": "O art. 166 inclui projetos de PPA, LDO, LOA e créditos adicionais na apreciação pelas duas Casas conforme o regimento comum. A espécie do crédito e o instrumento legislativo podem criar procedimento próprio; crédito extraordinário, por exemplo, pode envolver medida provisória.",
+      "example": "O projeto de crédito especial segue o rito orçamentário; se a situação envolve crédito extraordinário por medida provisória, é preciso observar a regra específica do instrumento.",
+      "confusion": "Não generalizar para todos os créditos a tramitação de uma medida provisória nem presumir que todos os instrumentos sejam projetos idênticos de LOA.",
+      "topic": "Escopo",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8f21b70c49e563a",
+        "section": "Fontes, escopo e separação entre ritos"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, art. 166; art. 167, § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "rito-creditos-adicionais-especies"
+      ],
+      "contrast": {
+        "prompt": "Um crédito extraordinário foi aberto por medida provisória. É correto descrevê-lo como projeto de lei ordinária idêntico ao PLOA?",
+        "answer": "Não. O crédito extraordinário pode envolver medida provisória e tem especificidades; é necessário identificar o instrumento e a espécie do crédito."
+      }
+    },
+    {
+      "id": "camara-orc07-cmo-composicao-base",
+      "term": "Composição-base da CMO",
+      "definition": "A Resolução nº 1/2006-CN prevê 40 titulares na CMO: 30 deputados e 10 senadores, além de igual número de suplentes. A regra descreve a composição-base e sua distribuição observa proporcionalidade partidária e entre as Casas.",
+      "example": "Uma lista mostra 30 deputados e 10 senadores titulares; há ainda 40 suplentes, sem contar possíveis vagas adicionais previstas em regra própria.",
+      "confusion": "Quarenta titulares não significa quarenta integrantes contando titulares e suplentes; a composição-base também não resolve automaticamente vagas adicionais de minorias.",
+      "topic": "Composição",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "Composição e instalação: números e sujeitos"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, arts. 5º a 7º; Regimento Comum, art. 10-A"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "cmo-composicao-base-proporcional"
+      ],
+      "contrast": {
+        "prompt": "Uma relação informa 30 deputados e 10 senadores titulares e igual número de suplentes. Ela descreve 40 pessoas no total?",
+        "answer": "Não. São 40 titulares mais 40 suplentes na composição-base; eventuais vagas adicionais seguem regra própria."
+      }
+    },
+    {
+      "id": "camara-orc07-cmo-proporcionalidade-vs-quociente-eleitoral",
+      "term": "Proporcionalidade partidária na CMO",
+      "definition": "A proporcionalidade da CMO distribui vagas entre partidos e blocos segundo a representação parlamentar nas Casas e as regras regimentais. É critério de composição interna do colegiado, distinto do quociente eleitoral usado para eleger representantes.",
+      "example": "A Mesa apura bancadas e os partidos indicam membros titulares e suplentes proporcionalmente às representações da Câmara e do Senado.",
+      "confusion": "Não calcular vagas na comissão aplicando diretamente votos e quociente eleitoral de uma eleição; os objetos e bases são diferentes.",
+      "topic": "Composição",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "Composição e instalação: números e sujeitos"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, arts. 6º e 7º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "cmo-proporcionalidade-partidaria"
+      ],
+      "contrast": {
+        "prompt": "Uma bancada quer repartir vagas da CMO usando a votação recebida na eleição, sem considerar sua composição parlamentar atual. Esse é o critério indicado?",
+        "answer": "Não. A proporcionalidade considera as representações partidárias e de blocos nas Casas, conforme as regras regimentais, e não o quociente eleitoral diretamente."
+      }
+    },
+    {
+      "id": "camara-orc07-cmo-instalacao-renovacao-anual",
+      "term": "Instalação anual e renovação da CMO",
+      "definition": "A CMO é instalada e renova sua direção anualmente até a última terça-feira de março. A Resolução nº 1/2006-CN prevê intervalo entre o fim do mandato da comissão anterior e a instalação da nova, durante o qual não se apreciam matérias.",
+      "example": "O mandato da CMO anterior termina e a nova composição é instalada dentro do prazo anual; não se pressupõe continuidade deliberativa irrestrita no intervalo.",
+      "confusion": "CMO permanente não significa mesma composição ou mandato plurianual; permanência institucional coexiste com renovação anual dos membros e da Mesa.",
+      "topic": "Instalação",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "Composição e instalação: números e sujeitos"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, arts. 10 e 11"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "cmo-instalacao-anual-intervalo"
+      ],
+      "contrast": {
+        "prompt": "A CMO é permanente. Isso permite apreciar matéria no intervalo entre o fim do mandato anterior e a instalação da nova comissão?",
+        "answer": "Não. A resolução prevê renovação anual e veda apreciação de matérias nesse intervalo, apesar da permanência institucional da comissão."
+      }
+    },
+    {
+      "id": "camara-orc07-mesa-cmo-relator-geral",
+      "term": "Presidência da CMO e relatoria-geral",
+      "definition": "A Mesa da CMO tem presidente e três vice-presidentes eleitos para mandato anual, com alternância entre representantes das Casas e vedação de reeleição nos termos regimentais. O relator-geral do PLOA exerce função de relatoria, não a presidência da comissão.",
+      "example": "Um parlamentar coordena o relatório geral do PLOA, enquanto outro preside a CMO; os papéis são separados.",
+      "confusion": "Relator-geral não substitui presidente da CMO, presidente do Congresso ou deliberação colegiada.",
+      "topic": "Direção",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "Composição e instalação: números e sujeitos"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, arts. 12 e 13"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "mesa-cmo-vs-relatoria"
+      ],
+      "contrast": {
+        "prompt": "O relator-geral do PLOA apresentou o relatório. Isso o torna presidente da CMO e permite dirigir sozinho as votações?",
+        "answer": "Não. Relatoria e presidência são funções diferentes; votações e decisões seguem competências colegiadas e regimentais."
+      }
+    },
+    {
+      "id": "camara-orc07-cmo-vs-cft",
+      "term": "CMO e Comissão de Finanças e Tributação (CFT)",
+      "definition": "A CMO é comissão mista permanente do Congresso com atribuições específicas para examinar projetos orçamentários federais, contas, planos e execução. A CFT é comissão permanente da Câmara que analisa matérias financeiras e orçamentárias no âmbito daquela Casa.",
+      "example": "Um projeto do art. 166 segue exame na CMO; outra proposição legislativa da Câmara pode passar pela CFT quanto à adequação financeira.",
+      "confusion": "O assunto conter a palavra “orçamento” não torna CFT e CMO intercambiáveis; composição e rito são distintos.",
+      "topic": "Competências",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "Competências constitucionais e regimentais"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, art. 166, § 1º; Resolução nº 1/2006-CN"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "cmo-vs-cft"
+      ],
+      "contrast": {
+        "prompt": "A CFT da Câmara examinou impacto financeiro de projeto ordinário. Ela substitui a CMO na tramitação do PLOA?",
+        "answer": "Não. O PLOA tramita no rito constitucional orçamentário, com exame da comissão mista específica, a CMO."
+      }
+    },
+    {
+      "id": "camara-orc07-cmo-contas-planos-fiscalizacao",
+      "term": "Competências da CMO além do PLOA",
+      "definition": "A CMO examina projetos e emendas, contas presidenciais, planos e programas nacionais, regionais e setoriais previstos na Constituição e acompanha e fiscaliza a execução orçamentária. Seu campo excede a análise do projeto anual, mas não substitui o Congresso ou o TCU.",
+      "example": "A comissão acompanha a execução de um programa e também examina o projeto da LOA, em competências distintas.",
+      "confusion": "Acompanhar e fiscalizar não torna a CMO executora da despesa nem elimina as competências constitucionais do Congresso e dos órgãos de controle.",
+      "topic": "Competências",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "Competências constitucionais e regimentais"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, art. 166, § 1º, I a III"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "cmo-competencias-constitucionais"
+      ],
+      "contrast": {
+        "prompt": "A CMO pode acompanhar execução orçamentária além de emitir parecer sobre PLOA?",
+        "answer": "Sim. O art. 166, § 1º, também prevê acompanhamento e fiscalização orçamentária, além de exame de projetos e contas."
+      }
+    },
+    {
+      "id": "camara-orc07-quatro-comites-funcao",
+      "term": "Quatro comitês permanentes da CMO",
+      "definition": "A CMO conta com CFIS para execução e fiscalização, CAR para estimativas de receita, COI para informações sobre obras e serviços com indícios graves e CAE para admissibilidade de emendas. O objeto examinado define o comitê pertinente.",
+      "example": "Uma divergência na estimativa de arrecadação cabe ao CAR; a regularidade formal de emenda é examinada pelo CAE.",
+      "confusion": "Não atribuir ao CFIS a reestimativa da receita nem ao CAE a avaliação política do mérito; os comitês têm objetos distintos.",
+      "topic": "Comitês",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "Os quatro comitês permanentes"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, art. 18"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "cmo-quatro-comites-objetos"
+      ],
+      "contrast": {
+        "prompt": "Uma unidade relata indício grave em obra e outra revisa estimativa de arrecadação. Quais comitês correspondem aos objetos?",
+        "answer": "Obra com indício grave é objeto do COI; estimativa de arrecadação é objeto do CAR."
+      }
+    },
+    {
+      "id": "camara-orc07-cfis-execucao-vs-car-receita",
+      "term": "Comitê de Avaliação, Fiscalização e Controle da Execução Orçamentária (CFIS)",
+      "definition": "O CFIS acompanha execução orçamentária e financeira, metas da LDO, limitações de empenho e desempenho dos programas. Seu foco é como a programação autorizada é executada, não estimar a receita inicial do projeto.",
+      "example": "Um relatório compara execução e metas físicas de uma ação ao longo do exercício; essa fiscalização é compatível com o campo do CFIS.",
+      "confusion": "Acompanhar receitas e despesas durante a execução não transforma o CFIS no Comitê de Avaliação da Receita, que examina estimativas e reestimativas.",
+      "topic": "Comitês",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "CFIS: acompanhamento da execução"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, arts. 18, § 4º, e 22"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "cmo-cfis-execucao"
+      ],
+      "contrast": {
+        "prompt": "Um colegiado quer reavaliar a arrecadação estimada no PLOA. Essa tarefa é do CFIS porque a receita será executada durante o ano?",
+        "answer": "Não. A análise de estimativas cabe ao CAR; o CFIS acompanha execução, metas e fiscalização."
+      }
+    },
+    {
+      "id": "camara-orc07-car-relator-receita-coordenacao",
+      "term": "Comitê de Avaliação da Receita (CAR)",
+      "definition": "O CAR examina estimativas e reestimativas de receitas e fornece subsídios à elaboração e apreciação da LOA. O relator da receita integra o comitê e o coordena, separando análise de financiamento da análise das despesas.",
+      "example": "O relator da receita coordena o exame de uma possível superestimativa de arrecadação no projeto.",
+      "confusion": "Relator da receita não é relator-geral da despesa nem decide a admissibilidade de emendas; a análise do CAR subsidia a deliberação.",
+      "topic": "Comitês",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "CAR: avaliação da receita"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, art. 18, § 5º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "car-relator-coordenador"
+      ],
+      "contrast": {
+        "prompt": "Uma emenda indica fonte vedada e a projeção de arrecadação também parece excessiva. O CAR cuida das duas questões?",
+        "answer": "Não. O CAR examina estimativas de receita; a admissibilidade da emenda é atribuição relacionada ao CAE e às instâncias deliberativas."
+      }
+    },
+    {
+      "id": "camara-orc07-coi-indicio-vs-condenacao",
+      "term": "Comitê de Avaliação das Informações sobre Obras e Serviços com Indícios de Irregularidades Graves (COI)",
+      "definition": "O COI examina informações e indícios graves sobre obras ou serviços e pode subsidiar providências e decisões no rito regimental. Indício orienta fiscalização e análise, mas não é, por si, condenação definitiva ou prova de nulidade de toda a programação.",
+      "example": "Um relatório aponta indícios graves em uma obra; o COI examina as informações e o processo permite manifestações e decisão das instâncias competentes.",
+      "confusion": "Não transformar alerta ou indício em decisão final de culpa, nem estender automaticamente o achado a outras emendas e projetos.",
+      "topic": "Comitês",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "COI: obras e serviços com indícios graves"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, arts. 23, 24 e 121 a 124"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "coi-indicio-nao-condenacao"
+      ],
+      "contrast": {
+        "prompt": "O TCU apontou indícios graves em uma obra. Isso prova automaticamente que toda a LOA ou toda emenda relacionada é nula?",
+        "answer": "Não. O indício é objeto de análise no procedimento próprio; as consequências dependem das informações, manifestações e decisões competentes."
+      }
+    },
+    {
+      "id": "camara-orc07-cae-admissibilidade-vs-merito",
+      "term": "Comitê de Exame da Admissibilidade de Emendas (CAE)",
+      "definition": "O CAE examina se emendas atendem condições jurídicas e regimentais para serem apreciadas e pode propor inadmissibilidade. Mérito político avalia prioridade e conveniência entre emendas admissíveis, em instâncias deliberativas próprias.",
+      "example": "Uma emenda pode propor política relevante, mas usar fonte de anulação proibida; o impedimento afeta admissibilidade antes de se comparar prioridades.",
+      "confusion": "Emenda admissível não é automaticamente aprovada; emenda desejável não supera requisito formal que a torna inadmissível.",
+      "topic": "Comitês e emendas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "CAE: admissibilidade das emendas"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, art. 25; Constituição Federal, art. 166, § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "cae-admissibilidade-vs-merito"
+      ],
+      "contrast": {
+        "prompt": "Uma emenda passou nos requisitos formais, mas foi preterida por outra prioridade. A análise de admissibilidade obrigava sua aprovação?",
+        "answer": "Não. Admissibilidade permite que a proposta seja considerada; mérito e decisão política ainda podem levar à rejeição."
+      }
+    },
+    {
+      "id": "camara-orc07-relator-comite-cmo-congresso",
+      "term": "Relator, comitê, CMO e Congresso",
+      "definition": "Relator prepara análise e recomendações; comitê examina tema especializado; a CMO delibera e emite parecer do colegiado; o Congresso aprecia o projeto no rito constitucional. Cada nível produz resultado próprio e não substitui o seguinte.",
+      "example": "Relator setorial propõe ajuste, o comitê apresenta relatório, a CMO vota parecer e o Congresso delibera o PLOA.",
+      "confusion": "Um relatório de relator ou comitê não é automaticamente parecer final da CMO, lei aprovada ou execução de despesa.",
+      "topic": "Relatorias e níveis decisórios",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "Relatores, relatórios e níveis de decisão"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Constituição Federal, art. 166; Resolução nº 1/2006-CN, arts. 18 a 25"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "relator-comite-cmo-plenario"
+      ],
+      "contrast": {
+        "prompt": "Um comitê aprovou seu relatório. A LOA já foi aprovada pelo Congresso?",
+        "answer": "Não. O relatório segue à CMO para apreciação e o projeto ainda depende da deliberação do Congresso."
+      }
+    },
+    {
+      "id": "camara-orc07-precedencia-relatorio-cae-excecao",
+      "term": "Precedência do relatório do CAE e exceção",
+      "definition": "Como regra, a Resolução nº 1/2006-CN exige votação do relatório do CAE antes dos relatórios das matérias abrangidas; o Plenário da CMO pode deliberar em contrário. A norma também manda divulgar orientações de admissibilidade antes do prazo de emendas.",
+      "example": "A CMO decide que determinada matéria pode seguir sem votação prévia do relatório do CAE; a ressalva regimental pode ser usada mediante deliberação do Plenário da comissão.",
+      "confusion": "A precedência não é absoluta: afirmar que não há exceção ignora a alteração de 2025; o CAE propõe inadmissibilidade, não decide sozinho a pauta final.",
+      "topic": "Comitês e rito",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c917e4a2d63b508f",
+        "section": "CAE: admissibilidade das emendas"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN, texto consolidado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2006-CN, art. 25, §§ 1º e 2º, redação atualizada em 2025"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "cae-precedencia-excecao"
+      ],
+      "contrast": {
+        "prompt": "O relatório do CAE ainda não foi votado, mas o Plenário da CMO deliberou em contrário à precedência. A votação dos relatórios fica sempre proibida?",
+        "answer": "Não. O § 1º prevê a precedência como regra e ressalva deliberação em contrário pelo Plenário da CMO."
+      }
+    },
+    {
+      "id": "camara-orc08-classificacoes-perguntas-independentes",
+      "term": "Classificações orçamentárias como perguntas independentes",
+      "definition": "Classificações orçamentárias organizam informações diferentes sobre receitas e despesas. Cada eixo responde uma pergunta — origem, destinação, área, ação, responsável, natureza ou entrega — e pode ser usado simultaneamente com os demais.",
+      "example": "A compra de computadores pode ser identificada pelo órgão responsável, área Educação, ação de laboratório, tipo de gasto, fonte e meta física, sem que um atributo determine todos os outros.",
+      "confusion": "Não existe uma única hierarquia que faça fonte, função e natureza serem níveis umas das outras; escolha primeiro qual pergunta está sendo respondida.",
+      "topic": "Mapa de classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Método: perguntas antes das classificações"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "MTO 2026, capítulos 3 e 4; MCASP, 11ª edição, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "classificacoes-perguntas-independentes"
+      ],
+      "contrast": {
+        "prompt": "Um gasto está classificado no GND Investimentos. Isso revela automaticamente a função, a UO e a fonte?",
+        "answer": "Não. GND responde qual grupo econômico do gasto; função, unidade e fonte são classificações independentes."
+      }
+    },
+    {
+      "id": "camara-orc08-natureza-receita-vs-fonte",
+      "term": "Natureza da receita e fonte/destinação",
+      "definition": "Natureza identifica qual operação gerou o ingresso e sua categoria econômica; fonte ou destinação indica regras que controlam o uso dos recursos. A primeira responde de onde e de que tipo veio o ingresso; a segunda, sob quais condições pode ser aplicado.",
+      "example": "A venda de terreno é receita de capital por alienação de bens; a fonte identifica restrições legais de aplicação do valor.",
+      "confusion": "Classificar como receita de capital não informa que o dinheiro está livre para qualquer despesa; origem econômica e destinação jurídica são critérios separados.",
+      "topic": "Receita",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Fonte/destinação de recursos × natureza da receita"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Lei nº 4.320/1964, arts. 11 e 12; MTO 2026, capítulo 3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "natureza-vs-fonte-receita"
+      ],
+      "contrast": {
+        "prompt": "O município vendeu um terreno e identificou a natureza como alienação de bens. Já sabe que pode usar o dinheiro em qualquer gasto corrente?",
+        "answer": "Não. A natureza identifica a operação; é necessário examinar a fonte e restrições legais de uso, inclusive o art. 44 da LRF."
+      }
+    },
+    {
+      "id": "camara-orc08-receita-corrente-capital",
+      "term": "Receita corrente e receita de capital",
+      "definition": "A categoria econômica da receita separa ingressos conforme sua natureza: receitas correntes incluem tributos e receitas patrimoniais, entre outras; receitas de capital incluem operações de crédito, alienação de bens, amortização de empréstimos e transferências de capital.",
+      "example": "IPTU é receita corrente tributária; a venda de imóvel é receita de capital por alienação de bem.",
+      "confusion": "Corrente/capital descreve a natureza econômica e não equivale a primária/financeira ou à esfera fiscal/de investimento da LOA.",
+      "topic": "Receita",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Receita: categoria econômica e natureza"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Lei nº 4.320/1964, art. 11; MTO 2026, capítulo 3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "categoria-economica-receita"
+      ],
+      "contrast": {
+        "prompt": "A prefeitura vendeu um imóvel e recebeu ingresso classificado como capital. Isso significa que o recurso é necessariamente receita financeira?",
+        "answer": "Não. A receita de capital por alienação de bem é, em regra, primária; receita financeira é outro indicador fiscal."
+      }
+    },
+    {
+      "id": "camara-orc08-receita-primaria-financeira",
+      "term": "Receita primária e receita financeira",
+      "definition": "O indicador de resultado primário classifica ingressos conforme sua participação no cálculo fiscal das receitas e despesas primárias. Em regra, impostos e alienação de bens são primários, enquanto empréstimo comum é receita financeira; isso não substitui a classificação por natureza.",
+      "example": "Um empréstimo comum é receita de capital por operação de crédito e financeira para o resultado primário; IPTU é corrente tributário e em regra primário.",
+      "confusion": "Receita de capital não significa automaticamente financeira: alienação de bens é um contraexemplo; resultado primário também não é o total de receita arrecadada.",
+      "topic": "Resultado fiscal",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Primária × financeira: efeito no resultado primário"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "MTO 2026, capítulo 3; MCASP, 11ª edição, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "receita-primaria-vs-financeira"
+      ],
+      "contrast": {
+        "prompt": "Um ente vendeu terreno por R$ 100 mil. O ingresso é de capital; isso basta para excluí-lo do resultado primário?",
+        "answer": "Não. A venda é receita de capital por natureza e, em regra, primária pelo indicador fiscal; as classificações usam critérios distintos."
+      }
+    },
+    {
+      "id": "camara-orc08-operacao-credito-vs-aro",
+      "term": "Operação de crédito comum e antecipação de receita orçamentária (ARO)",
+      "definition": "Empréstimo comum integra a receita orçamentária como operação de crédito de capital; ARO é operação de curto prazo para cobrir insuficiência temporária de caixa e seu ingresso tem tratamento extraorçamentário. Finalidade e regime do ingresso distinguem as operações.",
+      "example": "Empréstimo contratado para financiar obra é receita orçamentária de capital; ARO para falta temporária de caixa não integra receita orçamentária.",
+      "confusion": "A palavra empréstimo não resolve a classificação: identifique se é operação comum ou ARO e sua finalidade legal.",
+      "topic": "Receita e ingressos",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Exemplo contrastivo: dois empréstimos, duas classificações"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Lei nº 4.320/1964, art. 3º, parágrafo único; Lei Complementar nº 101/2000, art. 38"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "operacao-credito-vs-aro"
+      ],
+      "contrast": {
+        "prompt": "Dois empréstimos entram no caixa: um financia investimento e outro é ARO para falta temporária. Ambos são receita orçamentária?",
+        "answer": "Não. O empréstimo comum é operação de crédito orçamentária; o ingresso de ARO recebe tratamento extraorçamentário."
+      }
+    },
+    {
+      "id": "camara-orc08-classificacao-institucional-orgao-uo",
+      "term": "Classificação institucional: órgão e unidade orçamentária",
+      "definition": "A classificação institucional identifica quem é responsável pela programação e em qual unidade orçamentária está alocada a dotação. Órgão e UO compõem níveis institucionais; não indicam por si sós a função, a ação ou o objeto do gasto.",
+      "example": "Uma dotação aparece no Ministério da Educação e na UO que administra a universidade responsável pela compra.",
+      "confusion": "A classificação institucional não é a programática: identificar quem responde pela dotação não informa qual ação será executada.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação institucional: órgão × unidade orçamentária"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "MTO 2026, capítulo 4, classificação institucional"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "classificacao-institucional"
+      ],
+      "contrast": {
+        "prompt": "Uma planilha mostra que o Ministério da Educação recebeu a dotação. Isso identifica qual programa produzirá o serviço?",
+        "answer": "Não. Ministério e UO respondem à classificação institucional; programa e ação pertencem à classificação programática."
+      }
+    },
+    {
+      "id": "camara-orc08-funcao-subfuncao-matricialidade",
+      "term": "Classificação funcional: função e subfunção",
+      "definition": "Função indica a área ampla de atuação do gasto e subfunção detalha um segmento dessa área. A subfunção pode, em regra, combinar-se matricialmente com função diferente da associação usual, conforme as regras aplicáveis.",
+      "example": "Uma subfunção de apoio a determinada atividade pode ser vinculada à função que corresponde ao objetivo da programação, observada a combinação funcional permitida.",
+      "confusion": "Subfunção e função têm relação classificatória, mas não se exige vínculo exclusivo com sua associação original; a matricialidade admite combinações.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "MTO 2026, capítulo 4, estrutura funcional e matricialidade"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "funcao-subfuncao-matricialidade"
+      ],
+      "contrast": {
+        "prompt": "A subfunção Educação Infantil só pode aparecer sob uma única função por associação histórica, sem qualquer combinação matricial?",
+        "answer": "Não. A estrutura admite matricialidade sob regras próprias; não se afirma vínculo exclusivo e invariável com a associação original."
+      }
+    },
+    {
+      "id": "camara-orc08-programa-acao-subtitulo",
+      "term": "Classificação programática: programa, ação e subtítulo",
+      "definition": "A classificação programática organiza a atuação em programa e ações, que podem ser projeto, atividade ou operação especial, e detalha localização ou outros atributos no subtítulo/localizador conforme a estrutura vigente. Ela informa o que o governo realiza e com qual objetivo.",
+      "example": "O programa amplia acesso escolar; uma ação projeto constrói salas e o subtítulo identifica a localização da entrega.",
+      "confusion": "Programa, ação e subtítulo não são a mesma unidade: o primeiro organiza objetivo, a ação descreve operação e o subtítulo detalha atributo/localização.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação programática: programa × ação × subtítulo"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "MTO 2026, capítulo 4, estrutura programática"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "programa-acao-subtitulo"
+      ],
+      "contrast": {
+        "prompt": "O subtítulo identifica a localidade de uma obra. Isso faz dele uma segunda função orçamentária?",
+        "answer": "Não. Ele é um nível/atributo da programação que detalha a ação; função é classificação funcional independente."
+      }
+    },
+    {
+      "id": "camara-orc08-natureza-despesa-niveis",
+      "term": "Natureza da despesa: categoria econômica, GND, modalidade e elemento",
+      "definition": "A natureza da despesa descreve o tipo e a aplicação do gasto em níveis: categoria econômica, Grupo de Natureza da Despesa (GND), modalidade de aplicação e elemento. Cada nível acrescenta informação econômica ou operacional, dentro da mesma classificação.",
+      "example": "Uma obra pode ser despesa de capital, GND Investimentos, aplicação direta e elemento de obras e instalações, conforme o objeto e as regras.",
+      "confusion": "GND não substitui função, ação ou esfera; modalidade de aplicação não é modalidade de licitação.",
+      "topic": "Despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Lei nº 4.320/1964, arts. 12 e 13; MTO 2026, capítulo 4"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "natureza-despesa-niveis"
+      ],
+      "contrast": {
+        "prompt": "O GND Investimentos basta para identificar se a unidade comprou equipamentos ou realizou obra?",
+        "answer": "Não. O GND é um grupo mais agregado; é preciso descer aos níveis de natureza, como elemento, para detalhar o objeto conforme a classificação."
+      }
+    },
+    {
+      "id": "camara-orc08-gnd-investimento-vs-esfera-investimento",
+      "term": "GND Investimentos e esfera de investimento das estatais",
+      "definition": "GND Investimentos é grupo econômico dentro da natureza da despesa; esfera de investimento é um dos componentes da LOA federal, relativo a investimentos de empresas sob controle votante da União. A palavra “investimento” tem dois critérios distintos.",
+      "example": "Uma universidade compra equipamentos com GND Investimentos dentro da esfera fiscal; uma estatal controlada pode registrar seus investimentos na esfera própria.",
+      "confusion": "A natureza econômica do gasto não determina a esfera da LOA: escola pública e estatal controlada podem fazer investimentos em esferas diferentes.",
+      "topic": "Classificações da despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Esfera × natureza da despesa"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Constituição Federal, art. 165, § 5º; MTO 2026, capítulo 4"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "gnd-vs-esfera-investimento"
+      ],
+      "contrast": {
+        "prompt": "Uma universidade registra compra de máquinas no GND Investimentos. Ela passa a integrar o orçamento de investimento das estatais?",
+        "answer": "Não. GND descreve a natureza do gasto; a esfera de investimento decorre do critério institucional referente às empresas abrangidas."
+      }
+    },
+    {
+      "id": "camara-orc08-modalidade-aplicacao-vs-licitacao",
+      "term": "Modalidade de aplicação e modalidade de licitação",
+      "definition": "Modalidade de aplicação é nível da natureza da despesa que indica se recursos são aplicados diretamente ou transferidos a outro ente ou entidade. Modalidade de licitação identifica procedimento de seleção de fornecedor em contratação pública; são classificações de sistemas diferentes.",
+      "example": "A despesa usa modalidade de aplicação de transferência a município; a escolha do fornecedor municipal, se houver contratação, segue as regras de licitação pertinentes.",
+      "confusion": "A palavra modalidade aparece nos dois temas, mas aplicação trata do fluxo orçamentário do gasto; licitação trata do processo de contratação.",
+      "topic": "Natureza da despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "MTO 2026, capítulo 4; Lei nº 14.133/2021, art. 28"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "modalidade-aplicacao-vs-licitacao"
+      ],
+      "contrast": {
+        "prompt": "Uma classificação indica transferência de recursos a outro ente. Isso identifica se a contratação usou pregão ou concorrência?",
+        "answer": "Não. Modalidade de aplicação classifica como o recurso é aplicado; procedimento licitatório é outra matéria."
+      }
+    },
+    {
+      "id": "camara-orc08-natureza-fonte-primaria-despesa",
+      "term": "Natureza, fonte e resultado fiscal na despesa",
+      "definition": "Natureza da despesa informa tipo e objeto econômico do gasto; fonte/destinação identifica regras que regem o financiamento e aplicação do recurso; indicador fiscal classifica o efeito do gasto no resultado primário. Uma despesa pode ter os três atributos simultaneamente.",
+      "example": "Uma obra é GND Investimentos, financiada por fonte vinculada e classificada como despesa primária para cálculo fiscal, conforme os critérios aplicáveis.",
+      "confusion": "Nenhum desses atributos é sinônimo dos outros: tipo de gasto não revela a fonte ou o efeito no resultado primário.",
+      "topic": "Eixos independentes",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Por que são vários conjuntos e não uma única hierarquia?"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "MTO 2026, capítulos 3 e 4; MCASP, 11ª edição, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "natureza-fonte-resultado-primario-despesa"
+      ],
+      "contrast": {
+        "prompt": "Uma despesa de capital é financiada por receita vinculada. O fato de ser capital elimina a necessidade de verificar a fonte?",
+        "answer": "Não. Natureza indica tipo de despesa; a fonte continua necessária para verificar destinações e regras de aplicação."
+      }
+    },
+    {
+      "id": "camara-orc08-classificacao-qualitativa-quantitativa-fisica-financeira",
+      "term": "Dimensões qualitativa, física e financeira",
+      "definition": "A programação qualitativa descreve o objeto e a estrutura da ação; dimensões físicas expressam produtos ou serviços planejados; dimensões financeiras registram valores autorizados ou estimados conforme a etapa. Elas se complementam sem se substituir.",
+      "example": "A ação pretende entregar 500 atendimentos digitais; a meta é física, enquanto R$ 400 mil é estimativa ou dotação conforme o estágio orçamentário.",
+      "confusion": "Valor financeiro não mede diretamente a quantidade entregue; meta física não comprova pagamento ou resultado social.",
+      "topic": "Programação física e financeira",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Dimensões física e financeira da programação"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento 2026; MCASP, 11ª edição",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "MTO 2026, capítulo 4; MTO 2027, capítulo 6, seção 6.2"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "conceptIds": [
+        "dimensao-fisica-financeira"
+      ],
+      "contrast": {
+        "prompt": "Foram pagos 80% dos recursos, mas 60% das unidades previstas foram entregues. Qual dado representa a execução física?",
+        "answer": "60% das unidades entregues em relação à meta. Os 80% descrevem execução financeira e não substituem a medição física."
+      }
     }
   ]
 }

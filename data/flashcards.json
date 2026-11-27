@@ -22971,6 +22971,1410 @@
         "prompt": "O prazo legal para deliberar indicação de beneficiário de emenda de comissão é, por si, um prazo para o pagamento?",
         "answer": "Não. Trata da deliberação da indicação; empenho, liquidação e pagamento seguem fases próprias."
       }
+    },
+    {
+      "id": "camara-orc13-autoria-objeto",
+      "term": "Autoria × objeto da emenda",
+      "definition": "Autoria responde quem apresenta a proposta; objeto identifica se ela altera receita, despesa ou texto. Uma comissão pode propor alteração de despesa sem que “comissão” seja o objeto da emenda.",
+      "example": "Uma comissão permanente apresenta correção textual para eliminar erro material no projeto; a autoria é da comissão e o objeto é o texto.",
+      "confusion": "Não confunda classificação pelo proponente com a parte do orçamento ou do projeto que será modificada.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Quatro critérios de classificação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/15%20-%20emendas%20parlamentares%20deliberacao%20e%20rastreabilidade.md",
+        "locator": "Capítulo 13: Emendas parlamentares: deliberação, modalidades e rastreabilidade · seção: Quatro critérios de classificação; fundamento: Resolução nº 1/2006-CN, arts. 37 e 44."
+      },
+      "conceptIds": [
+        "camara-orc13-autoria-objeto"
+      ],
+      "contrast": {
+        "prompt": "Uma emenda de comissão que muda a redação de dispositivo é classificada como emenda de despesa por ter sido apresentada por uma comissão?",
+        "answer": "Não. Comissão identifica autoria; mudança de redação identifica objeto textual."
+      }
+    },
+    {
+      "id": "camara-orc13-comissao-limite-valores",
+      "term": "Limite de emendas de comissão × piso de saúde",
+      "definition": "O limite do art. 44, § 1º, da Resolução nº 1/2006-CN conta propostas por operação; o piso da LC nº 210/2024 incide sobre o valor dos recursos das emendas de comissão destinado a ações e serviços públicos de saúde.",
+      "example": "Se uma comissão propõe quatro emendas de apropriação e duas de remanejamento, ainda verifica separadamente se ao menos metade do total de recursos de suas emendas atende ao piso de saúde.",
+      "confusion": "Número de emendas e percentual do valor destinado à saúde têm bases de cálculo diferentes.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Quatro critérios de classificação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/15%20-%20emendas%20parlamentares%20deliberacao%20e%20rastreabilidade.md",
+        "locator": "Capítulo 13: Emendas parlamentares: deliberação, modalidades e rastreabilidade · seção: Quatro critérios de classificação; fundamento: Resolução nº 1/2006-CN, art. 44, § 1º; LC nº 210/2024, art. 4º, § 4º."
+      },
+      "conceptIds": [
+        "camara-orc13-comissao-limite-valores"
+      ],
+      "contrast": {
+        "prompt": "Uma comissão apresenta seis emendas, das quais três se referem à saúde, mas elas somam 30% dos recursos. O número de propostas de saúde comprova o piso legal?",
+        "answer": "Não. O piso é calculado sobre o valor dos recursos, não sobre a quantidade de emendas; a lei exige destinação mínima de 50%."
+      }
+    },
+    {
+      "id": "camara-orc13-remanejamento-mesmo-orgao",
+      "term": "Remanejamento com valores equilibrados × requisito de órgão",
+      "definition": "O remanejamento acrescenta valor a uma dotação com cancelamento equivalente indicado na própria emenda; a Resolução nº 1/2006-CN, art. 45, exige que acréscimo e cancelamento estejam no mesmo órgão orçamentário e usem fontes compatíveis.",
+      "example": "Retirar R$ 2 milhões de uma ação de um ministério e acrescentar o mesmo valor a outro ministério equilibra a conta, mas não satisfaz o requisito de mesmo órgão.",
+      "confusion": "Igualdade aritmética não substitui os requisitos institucionais e de compatibilidade das fontes.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Quatro critérios de classificação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/15%20-%20emendas%20parlamentares%20deliberacao%20e%20rastreabilidade.md",
+        "locator": "Capítulo 13: Emendas parlamentares: deliberação, modalidades e rastreabilidade · seção: Quatro critérios de classificação; fundamento: Resolução nº 1/2006-CN, arts. 37 e 45."
+      },
+      "conceptIds": [
+        "camara-orc13-remanejamento-mesmo-orgao"
+      ],
+      "contrast": {
+        "prompt": "Duas dotações de órgãos distintos têm fonte compatível e o cancelamento cobre exatamente o acréscimo. A emenda atende ao art. 45?",
+        "answer": "Não. Além da equivalência e compatibilidade, as dotações devem estar dentro do mesmo órgão orçamentário."
+      }
+    },
+    {
+      "id": "camara-orc13-admissibilidade-nao-merito",
+      "term": "Admissibilidade formal × escolha de prioridade",
+      "definition": "Admissibilidade examina se a emenda cumpre os requisitos para seguir no processo; mérito avalia o conteúdo e a prioridade da proposta. Uma emenda formalmente admissível ainda pode receber parecer desfavorável ou ser rejeitada.",
+      "example": "O CAE considera regular a indicação de recursos de uma emenda. A CMO ainda pode concluir que a despesa proposta não deve ser priorizada.",
+      "confusion": "Passar pelo filtro de admissibilidade não significa aprovação de mérito nem inclusão automática na LOA.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/15%20-%20emendas%20parlamentares%20deliberacao%20e%20rastreabilidade.md",
+        "locator": "Capítulo 13: Emendas parlamentares: deliberação, modalidades e rastreabilidade · seção: Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução; fundamento: Resolução nº 1/2006-CN, regras do CAE e do processo de apreciação; Constituição Federal, art. 166."
+      },
+      "conceptIds": [
+        "camara-orc13-admissibilidade-nao-merito"
+      ],
+      "contrast": {
+        "prompt": "A emenda foi admitida pelo CAE. Isso obriga os relatores e o Congresso a aprová-la?",
+        "answer": "Não. A admissibilidade permite que a proposta seja apreciada; o mérito e a deliberação política seguem etapas próprias."
+      }
+    },
+    {
+      "id": "camara-orc13-parecer-cmo-congresso",
+      "term": "Parecer da CMO × deliberação do Congresso",
+      "definition": "Relatores e CMO analisam propostas e votam pareceres no âmbito de suas competências; a aprovação final do orçamento cabe ao Congresso Nacional, reunido em sessão conjunta, e o projeto segue o rito constitucional.",
+      "example": "A CMO aprova parecer favorável sobre emenda à LOA; o Congresso ainda precisa deliberar sobre o projeto.",
+      "confusion": "Parecer favorável é etapa instrutória e deliberativa da comissão, não a própria lei orçamentária.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/15%20-%20emendas%20parlamentares%20deliberacao%20e%20rastreabilidade.md",
+        "locator": "Capítulo 13: Emendas parlamentares: deliberação, modalidades e rastreabilidade · seção: Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução; fundamento: Constituição Federal, art. 166, caput e § 1º; Regimento Comum do Congresso Nacional."
+      },
+      "conceptIds": [
+        "camara-orc13-parecer-cmo-congresso"
+      ],
+      "contrast": {
+        "prompt": "O parecer favorável da CMO, por si, já transforma a programação em autorização legal para gastar?",
+        "answer": "Não. A deliberação do Congresso e a conclusão do processo legislativo ainda são necessárias para que a programação integre a LOA."
+      }
+    },
+    {
+      "id": "camara-orc13-alteracao-emenda-solicitante",
+      "term": "Alteração posterior de emenda × decisão do presidente",
+      "definition": "A alteração de emenda de comissão aprovada exige proposta formal do parlamentar solicitante antes da deliberação do colegiado; a presidência da comissão não substitui, por decisão isolada, essa iniciativa e a deliberação.",
+      "example": "O presidente recebe pedido de entidade beneficiária para substituir a programação. Deve observar a proposta formal do solicitante parlamentar e submeter a mudança ao rito colegiado.",
+      "confusion": "Ter competência para conduzir os trabalhos não equivale a poder alterar sozinho a emenda aprovada.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Atas, indicações, rastreabilidade e limites de controle"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/15%20-%20emendas%20parlamentares%20deliberacao%20e%20rastreabilidade.md",
+        "locator": "Capítulo 13: Emendas parlamentares: deliberação, modalidades e rastreabilidade · seção: Atas, indicações, rastreabilidade e limites de controle; fundamento: Resolução nº 1/2006-CN, art. 44, § 7º."
+      },
+      "conceptIds": [
+        "camara-orc13-alteracao-emenda-solicitante"
+      ],
+      "contrast": {
+        "prompt": "O presidente da comissão pode alterar unilateralmente uma emenda aprovada após pedido do beneficiário?",
+        "answer": "Não. O art. 44, § 7º, requer proposta formal do parlamentar solicitante e deliberação da comissão."
+      }
+    },
+    {
+      "id": "camara-orc13-ata-indicacao-prazo",
+      "term": "Ata de indicação × prazo da proposta de emenda",
+      "definition": "Após a publicação da LOA, as propostas de indicação de beneficiários de emendas de comissão devem ser deliberadas em até 15 dias, e as atas das indicações aprovadas publicadas e encaminhadas em até cinco dias. Esses prazos não são o calendário de apresentação de emendas ao PLOA.",
+      "example": "A LOA foi publicada e a comissão recebeu propostas de indicação; contam-se os prazos legais dessa etapa posterior, não a janela regimental de emendar o projeto durante sua tramitação.",
+      "confusion": "O marco da publicação da LOA separa indicação de beneficiário e apresentação de emenda ao projeto.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Atas, indicações, rastreabilidade e limites de controle"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/15%20-%20emendas%20parlamentares%20deliberacao%20e%20rastreabilidade.md",
+        "locator": "Capítulo 13: Emendas parlamentares: deliberação, modalidades e rastreabilidade · seção: Atas, indicações, rastreabilidade e limites de controle; fundamento: LC nº 210/2024, art. 5º, I e II; Resolução nº 1/2006-CN, art. 45-A."
+      },
+      "conceptIds": [
+        "camara-orc13-ata-indicacao-prazo"
+      ],
+      "contrast": {
+        "prompt": "O prazo de 15 dias para deliberar indicação de beneficiário começa na abertura do prazo de emendas ao PLOA?",
+        "answer": "Não. A LC nº 210/2024, art. 5º, conta a etapa de indicação após a publicação da LOA."
+      }
+    },
+    {
+      "id": "camara-orc13-aprovacao-indicacao-beneficiario",
+      "term": "Aprovação da programação × identificação do destinatário",
+      "definition": "A aprovação de uma emenda na LOA autoriza a programação conforme os limites legais, mas não substitui a indicação posterior do beneficiário quando o regime exige essa identificação. Proposta, indicação, empenho, liquidação e pagamento são atos distintos.",
+      "example": "A LOA inclui recursos de emenda de comissão para atendimento regional; a comissão ainda delibera e registra a indicação dos beneficiários no rito legal.",
+      "confusion": "A programação aprovada não revela necessariamente quem receberá o recurso nem demonstra execução financeira.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/15%20-%20emendas%20parlamentares%20deliberacao%20e%20rastreabilidade.md",
+        "locator": "Capítulo 13: Emendas parlamentares: deliberação, modalidades e rastreabilidade · seção: Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução; fundamento: LC nº 210/2024, art. 5º; Resolução nº 1/2006-CN, art. 45-A."
+      },
+      "conceptIds": [
+        "camara-orc13-aprovacao-indicacao-beneficiario"
+      ],
+      "contrast": {
+        "prompt": "A inclusão da emenda na LOA torna desnecessária qualquer deliberação posterior de beneficiário prevista para a modalidade?",
+        "answer": "Não. Quando aplicável, a indicação pós-LOA é etapa própria, documentada por ata, anterior às providências de execução."
+      }
+    },
+    {
+      "id": "camara-orc13-sugestao-indicacao-voto",
+      "term": "Solicitação individual × deliberação colegiada da indicação",
+      "definition": "A sugestão de um parlamentar ou liderança inicia o procedimento de indicação, enquanto a deliberação do colegiado competente define a indicação conforme as regras da modalidade. A ata documenta a decisão e permite rastreá-la.",
+      "example": "Um parlamentar sugere três municípios como beneficiários; a comissão temática aprecia a proposta e registra sua decisão em ata.",
+      "confusion": "Solicitante, deliberante e executor podem ser atores distintos; a rastreabilidade deve preservar cada papel.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Atas, indicações, rastreabilidade e limites de controle"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/15%20-%20emendas%20parlamentares%20deliberacao%20e%20rastreabilidade.md",
+        "locator": "Capítulo 13: Emendas parlamentares: deliberação, modalidades e rastreabilidade · seção: Atas, indicações, rastreabilidade e limites de controle; fundamento: LC nº 210/2024, art. 5º; Resolução nº 1/2006-CN, art. 45-A."
+      },
+      "conceptIds": [
+        "camara-orc13-sugestao-indicacao-voto"
+      ],
+      "contrast": {
+        "prompt": "A sugestão assinada por um parlamentar, sem deliberação da comissão prevista no procedimento, basta para comprovar uma indicação colegiada?",
+        "answer": "Não. A sugestão e a decisão da comissão são etapas diferentes; a ata registra a deliberação pertinente."
+      }
+    },
+    {
+      "id": "camara-orc13-ato-execucao-impedimento",
+      "term": "Obrigatoriedade de execução × pagamento automático",
+      "definition": "O regime de execução obrigatória, quando aplicável, impõe dever de executar a programação aprovada dentro das condições constitucionais e legais. Impedimento técnico pode afetar a execução, e pagamento ainda pressupõe empenho, liquidação e procedimento financeiro.",
+      "example": "Uma emenda impositiva foi aprovada, mas o objeto indicado não atende requisito técnico obrigatório. O gestor precisa tratar o impedimento conforme o rito, em vez de pagar sem comprovação.",
+      "confusion": "Obrigatoriedade qualificada não elimina condições de execução, fiscalização ou estágios da despesa.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/15%20-%20emendas%20parlamentares%20deliberacao%20e%20rastreabilidade.md",
+        "locator": "Capítulo 13: Emendas parlamentares: deliberação, modalidades e rastreabilidade · seção: Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução; fundamento: Constituição Federal, art. 166, §§ 9º–20; LC nº 210/2024; Lei nº 4.320/1964, arts. 58–65."
+      },
+      "conceptIds": [
+        "camara-orc13-ato-execucao-impedimento"
+      ],
+      "contrast": {
+        "prompt": "A expressão “execução obrigatória” dispensa a análise técnica e garante pagamento direto ao beneficiário?",
+        "answer": "Não. O dever opera sob as condições constitucionais e legais; atos de empenho, liquidação e pagamento continuam necessários."
+      }
+    },
+    {
+      "id": "camara-orc14-cronograma-publicacao",
+      "term": "Cronograma de desembolso × avaliação bimestral",
+      "definition": "A programação financeira e o cronograma mensal de desembolso devem ser estabelecidos pelo Executivo até 30 dias após a publicação dos orçamentos, nos termos da LDO. São instrumentos ordinários de organização da execução, não dependem de frustração de receita.",
+      "example": "O orçamento foi publicado e a arrecadação segue a previsão; o Executivo ainda deve organizar o cronograma mensal de desembolso.",
+      "confusion": "Art. 8º parte da publicação dos orçamentos; art. 9º depende de avaliação bimestral de risco às metas.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Programação financeira: art. 8º da LRF"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/06%20-%20programacao%20orcamentaria%20e%20contingenciamento.md",
+        "locator": "Capítulo 14: Programação orçamentária, financeira e contingenciamento · seção: Programação financeira: art. 8º da LRF; fundamento: LRF, art. 8º, caput."
+      },
+      "conceptIds": [
+        "camara-orc14-cronograma-publicacao"
+      ],
+      "contrast": {
+        "prompt": "A programação do cronograma mensal de desembolso só é exigida depois que um bimestre apontar risco fiscal?",
+        "answer": "Não. O art. 8º fixa prazo de até 30 dias da publicação dos orçamentos; o gatilho bimestral pertence ao art. 9º."
+      }
+    },
+    {
+      "id": "camara-orc14-art8-art13-objeto",
+      "term": "Desembolso mensal × meta bimestral de arrecadação",
+      "definition": "O cronograma mensal do art. 8º da LRF organiza saídas financeiras; o art. 13 determina desdobramento de receitas previstas em metas bimestrais de arrecadação. Os instrumentos se relacionam, mas medem fluxos distintos.",
+      "example": "Um quadro informa quanto se espera arrecadar em cada bimestre e outro distribui pagamentos ao longo dos meses.",
+      "confusion": "“Arrecadação” é entrada; “desembolso” é saída. O período de acompanhamento não altera essa diferença.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Programação financeira: art. 8º da LRF"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/06%20-%20programacao%20orcamentaria%20e%20contingenciamento.md",
+        "locator": "Capítulo 14: Programação orçamentária, financeira e contingenciamento · seção: Programação financeira: art. 8º da LRF; fundamento: LRF, arts. 8º e 13."
+      },
+      "conceptIds": [
+        "camara-orc14-art8-art13-objeto"
+      ],
+      "contrast": {
+        "prompt": "Um cronograma mensal de desembolso é apenas uma estimativa mensal de receita prevista?",
+        "answer": "Não. O cronograma organiza pagamentos/saídas; as metas bimestrais do art. 13 tratam da arrecadação."
+      }
+    },
+    {
+      "id": "camara-orc14-vinculacao-exercicio",
+      "term": "Vinculação da receita × mudança de exercício",
+      "definition": "Recursos legalmente vinculados a uma finalidade devem atender ao objeto da vinculação ainda que utilizados em exercício diferente daquele do ingresso. A virada do ano não os torna livres.",
+      "example": "Saldo de transferência vinculada à saúde permanece destinado à saúde no exercício seguinte, observadas as regras aplicáveis.",
+      "confusion": "O princípio de anualidade orçamentária não apaga a finalidade legal do recurso vinculado.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Programação financeira: art. 8º da LRF"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/06%20-%20programacao%20orcamentaria%20e%20contingenciamento.md",
+        "locator": "Capítulo 14: Programação orçamentária, financeira e contingenciamento · seção: Programação financeira: art. 8º da LRF; fundamento: LRF, art. 8º, parágrafo único."
+      },
+      "conceptIds": [
+        "camara-orc14-vinculacao-exercicio"
+      ],
+      "contrast": {
+        "prompt": "O saldo de recurso legalmente vinculado que passa ao exercício seguinte pode ser usado em finalidade geral por ter mudado o ano?",
+        "answer": "Não. O art. 8º, parágrafo único, conserva a finalidade específica mesmo em outro exercício."
+      }
+    },
+    {
+      "id": "camara-orc14-gatilho-risco-meta",
+      "term": "Risco de descumprimento × descumprimento consumado",
+      "definition": "A limitação do art. 9º é acionada quando, ao final de um bimestre, a realização da receita puder não comportar as metas fiscais; não é necessário esperar o descumprimento efetivo no encerramento anual.",
+      "example": "A projeção bimestral aponta que a receita provavelmente ficará abaixo do necessário para a meta, embora o exercício ainda não tenha terminado.",
+      "confusion": "O comando preventivo usa risco prospectivo e não exige resultado anual já frustrado.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/06%20-%20programacao%20orcamentaria%20e%20contingenciamento.md",
+        "locator": "Capítulo 14: Programação orçamentária, financeira e contingenciamento · seção: Contingenciamento: art. 9º da LRF; fundamento: LRF, art. 9º, caput."
+      },
+      "conceptIds": [
+        "camara-orc14-gatilho-risco-meta"
+      ],
+      "contrast": {
+        "prompt": "O art. 9º só permite limitar empenhos depois que a meta fiscal anual já foi descumprida?",
+        "answer": "Não. Basta a verificação bimestral de que a realização da receita poderá não comportar as metas."
+      }
+    },
+    {
+      "id": "camara-orc14-ato-proprio-poderes",
+      "term": "Critérios da LDO × ato próprio do Poder",
+      "definition": "A LDO fixa previamente critérios para limitar empenho; se o gatilho fiscal ocorrer, cada Poder e o Ministério Público promovem a limitação por ato próprio, nos montantes necessários, em até 30 dias. O Executivo não substitui unilateralmente os demais Poderes.",
+      "example": "A avaliação bimestral aponta risco. A Câmara aplica os critérios da LDO por seu ato, sem esperar que o Executivo edite ato em seu lugar.",
+      "confusion": "Critérios normativos comuns não transferem competência de execução da medida entre Poderes.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/06%20-%20programacao%20orcamentaria%20e%20contingenciamento.md",
+        "locator": "Capítulo 14: Programação orçamentária, financeira e contingenciamento · seção: Contingenciamento: art. 9º da LRF; fundamento: LRF, art. 9º, caput e § 3º; STF, ADI 2.238."
+      },
+      "conceptIds": [
+        "camara-orc14-ato-proprio-poderes"
+      ],
+      "contrast": {
+        "prompt": "A LDO define os critérios e, por isso, o Executivo pode editar um único ato para limitar as dotações de todos os Poderes?",
+        "answer": "Não. O art. 9º atribui a cada Poder e ao MP a providência por ato próprio; o § 3º que previa substituição pelo Executivo foi declarado inconstitucional."
+      }
+    },
+    {
+      "id": "camara-orc14-prazo-art8-art9",
+      "term": "Dois prazos de 30 dias × marcos iniciais",
+      "definition": "O prazo de até 30 dias do art. 8º começa com a publicação dos orçamentos; o prazo do art. 9º corre nos 30 dias subsequentes à verificação bimestral do risco fiscal. O número coincide, mas o evento inicial e a providência diferem.",
+      "example": "Um decreto de programação publicado 20 dias após a LOA atende ao prazo do art. 8º; uma limitação decorrente da avaliação bimestral é aferida a partir desse outro marco.",
+      "confusion": "Comparar prazo requer identificar evento inicial, destinatário e ato, não apenas o número de dias.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Refinamento para Câmara 2026: programação, contingenciamento, bloqueio e limites (CAM-ORC-015)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/06%20-%20programacao%20orcamentaria%20e%20contingenciamento.md",
+        "locator": "Capítulo 14: Programação orçamentária, financeira e contingenciamento · seção: Refinamento para Câmara 2026: programação, contingenciamento, bloqueio e limites (CAM-ORC-015); fundamento: LRF, arts. 8º e 9º, caput."
+      },
+      "conceptIds": [
+        "camara-orc14-prazo-art8-art9"
+      ],
+      "contrast": {
+        "prompt": "Os dois prazos de 30 dias da LRF para programação e limitação começam na publicação do orçamento?",
+        "answer": "Não. Só o art. 8º usa essa publicação; no art. 9º, o marco é a verificação bimestral que revela risco às metas."
+      }
+    },
+    {
+      "id": "camara-orc14-recomposicao-proporcional",
+      "term": "Recomposição proporcional × restauração integral",
+      "definition": "Restabelecida a receita, ainda que parcialmente, a recomposição das dotações cujos empenhos foram limitados ocorre proporcionalmente às reduções efetivadas. Uma melhora parcial não restaura automaticamente todo o limite.",
+      "example": "Órgãos A e B sofreram cortes de 6 e 12 milhões; se forem recompostos 9 milhões do total, a divisão proporcional é 3 e 6 milhões, salvo outras restrições.",
+      "confusion": "A recomposição acompanha a participação de cada redução original, não a preferência livre por um órgão.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/06%20-%20programacao%20orcamentaria%20e%20contingenciamento.md",
+        "locator": "Capítulo 14: Programação orçamentária, financeira e contingenciamento · seção: Contingenciamento: art. 9º da LRF; fundamento: LRF, art. 9º, § 1º."
+      },
+      "conceptIds": [
+        "camara-orc14-recomposicao-proporcional"
+      ],
+      "contrast": {
+        "prompt": "A melhora parcial da arrecadação obriga recompor integralmente as dotações de cada órgão?",
+        "answer": "Não. A recomposição é proporcional ao montante das reduções e à receita restabelecida."
+      }
+    },
+    {
+      "id": "camara-orc14-despesa-protegida-controle",
+      "term": "Despesa ressalvada da limitação × dispensa de controle",
+      "definition": "O art. 9º, § 2º, exclui certas obrigações constitucionais e legais, serviço da dívida, despesas de inovação nos termos do texto vigente e itens ressalvados pela LDO da limitação ali prevista. A exceção não dispensa autorização, empenho regular, comprovação, liquidação ou fiscalização.",
+      "example": "Serviço da dívida não entra na limitação do art. 9º, mas o pagamento continua sujeito à previsão, aos registros e aos controles pertinentes.",
+      "confusion": "Proteção contra uma medida específica não equivale a imunidade geral ao direito financeiro.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/06%20-%20programacao%20orcamentaria%20e%20contingenciamento.md",
+        "locator": "Capítulo 14: Programação orçamentária, financeira e contingenciamento · seção: Contingenciamento: art. 9º da LRF; fundamento: LRF, art. 9º, § 2º; Lei nº 4.320/1964, arts. 58–65."
+      },
+      "conceptIds": [
+        "camara-orc14-despesa-protegida-controle"
+      ],
+      "contrast": {
+        "prompt": "Se a despesa está ressalvada do contingenciamento pelo § 2º, ela pode ser paga sem empenho e liquidação?",
+        "answer": "Não. A ressalva afasta a limitação específica do art. 9º; não afasta os demais requisitos de execução."
+      }
+    },
+    {
+      "id": "camara-orc14-bloqueio-contingenciamento-base",
+      "term": "Bloqueio por limite de despesa × contingenciamento por meta",
+      "definition": "Contingenciamento do art. 9º da LRF responde ao risco de descumprimento de meta fiscal; o bloqueio previsto na LDO de 2026 atende à adequação a limites individualizados de despesa primária. O fundamento e o gatilho precisam ser identificados.",
+      "example": "Um órgão bloqueia temporariamente dotação após relatório que aponta necessidade de respeitar teto de despesa; a medida não é automaticamente o contingenciamento do art. 9º.",
+      "confusion": "Efeito temporário semelhante não torna idênticos os pressupostos legais.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Refinamento para Câmara 2026: programação, contingenciamento, bloqueio e limites (CAM-ORC-015)"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/06%20-%20programacao%20orcamentaria%20e%20contingenciamento.md",
+        "locator": "Capítulo 14: Programação orçamentária, financeira e contingenciamento · seção: Refinamento para Câmara 2026: programação, contingenciamento, bloqueio e limites (CAM-ORC-015); fundamento: LRF, art. 9º; Lei nº 15.321/2025, art. 71."
+      },
+      "conceptIds": [
+        "camara-orc14-bloqueio-contingenciamento-base"
+      ],
+      "contrast": {
+        "prompt": "Toda restrição de despesa chamada informalmente de “bloqueio” decorre do risco à meta primária previsto no art. 9º?",
+        "answer": "Não. O bloqueio da LDO 2026 se relaciona a limites individualizados de despesa; art. 9º trata do risco às metas de resultado fiscal."
+      }
+    },
+    {
+      "id": "camara-orc14-bloqueio-cancelamento",
+      "term": "Dotação bloqueada × dotação cancelada",
+      "definition": "Bloqueio impede temporariamente a utilização da dotação segundo a regra aplicável; cancelamento modifica a autorização orçamentária. A LDO 2026 prevê providências de cancelamento até o fim do exercício para dotações que permaneçam bloqueadas, ressalvadas hipóteses de reversão.",
+      "example": "Uma dotação fica bloqueada em agosto e é liberada por relatório posterior; a liberação afasta o pressuposto para cancelamento daquela parcela conforme a ressalva legal.",
+      "confusion": "O cancelamento não é consequência instantânea de qualquer bloqueio; observe prazo, permanência e exceção.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Limitação de empenho × bloqueio × anulação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/06%20-%20programacao%20orcamentaria%20e%20contingenciamento.md",
+        "locator": "Capítulo 14: Programação orçamentária, financeira e contingenciamento · seção: Limitação de empenho × bloqueio × anulação; fundamento: Lei nº 15.321/2025, art. 71, caput e § 1º."
+      },
+      "conceptIds": [
+        "camara-orc14-bloqueio-cancelamento"
+      ],
+      "contrast": {
+        "prompt": "Um bloqueio temporário já extingue a dotação no momento em que é registrado?",
+        "answer": "Não. Bloqueio restringe o uso; eventual cancelamento segue a regra e o momento legais."
+      }
+    },
+    {
+      "id": "camara-orc15-receita-sem-previsao",
+      "term": "Receita orçamentária não prevista × ingresso extraorçamentário",
+      "definition": "Receita orçamentária arrecadada pode não ter sido prevista inicialmente na LOA; a ausência de previsão não transforma uma receita do ente em ingresso extraorçamentário. A classificação depende da natureza e do efeito jurídico do recebimento.",
+      "example": "O ente arrecada receita própria não contemplada na estimativa original. O art. 57 da Lei nº 4.320/1964 ainda a considera orçamentária, sem prejuízo dos registros necessários.",
+      "confusion": "Previsão é estimativa; caráter orçamentário não nasce apenas da presença na previsão da LOA.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Receita orçamentária × ingresso extraorçamentário"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/07%20-%20receitas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 15: Receitas públicas: ingressos e estágios da execução · seção: Receita orçamentária × ingresso extraorçamentário; fundamento: Lei nº 4.320/1964, arts. 3º e 57."
+      },
+      "conceptIds": [
+        "camara-orc15-receita-sem-previsao"
+      ],
+      "contrast": {
+        "prompt": "Uma receita arrecadada sem linha de previsão inicial deve ser automaticamente classificada como extraorçamentária?",
+        "answer": "Não. O art. 57 inclui receitas arrecadadas não previstas; ingresso extraorçamentário é categoria definida por sua natureza compensatória ou temporária."
+      }
+    },
+    {
+      "id": "camara-orc15-caucao-caixa-receita",
+      "term": "Entrada em caixa × receita orçamentária",
+      "definition": "Uma caução recebida pode aumentar o caixa físico e permanecer extraorçamentária porque representa valor de terceiro sujeito a devolução ou destinação condicionada. Caixa recebido não basta para classificar receita.",
+      "example": "Uma empresa deposita garantia contratual de R$ 50 mil. O ente mantém o dinheiro sob controle até a obrigação de devolver ou executar a garantia ser definida.",
+      "confusion": "Pergunte se o valor pertence ao ente como receita ou se é entrada compensatória vinculada a obrigação.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Receita orçamentária × ingresso extraorçamentário"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/07%20-%20receitas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 15: Receitas públicas: ingressos e estágios da execução · seção: Receita orçamentária × ingresso extraorçamentário; fundamento: Lei nº 4.320/1964, art. 3º; MCASP, 11ª edição, Parte I, receitas orçamentárias e ingressos extraorçamentários."
+      },
+      "conceptIds": [
+        "camara-orc15-caucao-caixa-receita"
+      ],
+      "contrast": {
+        "prompt": "A caução é receita orçamentária porque o dinheiro entrou na conta do Tesouro?",
+        "answer": "Não. A caução pode ser ingresso extraorçamentário por representar garantia de terceiro potencialmente restituível."
+      }
+    },
+    {
+      "id": "camara-orc15-operacao-credito-aro-excecao",
+      "term": "Operação de crédito comum × ARO",
+      "definition": "Operação de crédito comum destinada a financiar despesas é, em regra, receita orçamentária de capital; a antecipação de receita orçamentária (ARO) cobre insuficiência temporária de caixa dentro do exercício e tem ingresso extraorçamentário.",
+      "example": "Um financiamento de longo prazo para construir laboratório difere de empréstimo-ponte para cobrir atraso temporário de tributos que entrarão no mesmo ano.",
+      "confusion": "A expressão empréstimo não basta: finalidade e espécie separam operação comum e ARO.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Receita orçamentária × ingresso extraorçamentário"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/07%20-%20receitas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 15: Receitas públicas: ingressos e estágios da execução · seção: Receita orçamentária × ingresso extraorçamentário; fundamento: Lei nº 4.320/1964, art. 3º, parágrafo único; LRF, art. 38."
+      },
+      "conceptIds": [
+        "camara-orc15-operacao-credito-aro-excecao"
+      ],
+      "contrast": {
+        "prompt": "Todo recurso obtido por operação de crédito é receita de capital da LOA, inclusive ARO?",
+        "answer": "Não. ARO é excluída do conceito orçamentário pelo art. 3º, parágrafo único, da Lei nº 4.320/1964."
+      }
+    },
+    {
+      "id": "camara-orc15-aro-prazo-quitar",
+      "term": "Entrada ARO × condições temporais de contratação",
+      "definition": "A ARO somente pode ser contratada a partir do décimo dia do exercício e deve ser integralmente quitada, com encargos, até 10 de dezembro do mesmo ano, observadas as demais condições da LRF.",
+      "example": "Empréstimo temporário recebido em setembro para insuficiência de caixa é quitado em dezembro, dentro do marco legal; contratação no primeiro dia do exercício contrariaria o art. 38.",
+      "confusion": "A natureza extraorçamentária do ingresso não dispensa as condições de contratação e liquidação da operação.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Receita orçamentária × ingresso extraorçamentário"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/07%20-%20receitas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 15: Receitas públicas: ingressos e estágios da execução · seção: Receita orçamentária × ingresso extraorçamentário; fundamento: LRF, art. 38, I e II."
+      },
+      "conceptIds": [
+        "camara-orc15-aro-prazo-quitar"
+      ],
+      "contrast": {
+        "prompt": "Uma ARO pode ser contratada no primeiro dia do exercício se for paga até 10 de dezembro?",
+        "answer": "Não. Além da quitação até 10 de dezembro, a contratação só pode ocorrer a partir do décimo dia do exercício."
+      }
+    },
+    {
+      "id": "camara-orc15-arrecadacao-exercicio",
+      "term": "Lançamento num ano × arrecadação no seguinte",
+      "definition": "Para fins orçamentários, a receita pertence ao exercício em que é arrecadada (Lei nº 4.320/1964, art. 35, I). Lançamento anterior pode reconhecer crédito e gerar informação patrimonial, mas não antecipa a receita orçamentária arrecadada.",
+      "example": "IPTU lançado em dezembro de 2026 e pago em janeiro de 2027 integra a receita orçamentária de 2027.",
+      "confusion": "Lançamento constitui ou identifica crédito; arrecadação marca o recebimento usado pelo regime orçamentário.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Regime orçamentário × competência patrimonial"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/07%20-%20receitas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 15: Receitas públicas: ingressos e estágios da execução · seção: Regime orçamentário × competência patrimonial; fundamento: Lei nº 4.320/1964, art. 35, I; CTN, art. 142."
+      },
+      "conceptIds": [
+        "camara-orc15-arrecadacao-exercicio"
+      ],
+      "contrast": {
+        "prompt": "Imposto lançado em 2026, mas pago em 2027, pertence orçamentariamente a 2026?",
+        "answer": "Não. Pelo art. 35, I, a receita pertence ao exercício em que for arrecadada; o regime patrimonial pode reconhecer fatos em momento distinto."
+      }
+    },
+    {
+      "id": "camara-orc15-arrecadacao-parcial",
+      "term": "Valor lançado × valor arrecadado parcialmente",
+      "definition": "Arrecadação registra o montante efetivamente recebido pelo agente arrecadador. O saldo ainda não pago permanece crédito a cobrar e não deve ser tratado como caixa arrecadado.",
+      "example": "De um tributo lançado em R$ 800, o contribuinte paga R$ 500. A arrecadação é R$ 500; os R$ 300 restantes não foram recebidos.",
+      "confusion": "O valor do lançamento mede o crédito exigido; arrecadação mede o que foi pago.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Previsão, lançamento, arrecadação e recolhimento"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/07%20-%20receitas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 15: Receitas públicas: ingressos e estágios da execução · seção: Previsão, lançamento, arrecadação e recolhimento; fundamento: Lei nº 4.320/1964, art. 35, I; art. 53; MCASP, 11ª edição, Parte I, estágios da receita."
+      },
+      "conceptIds": [
+        "camara-orc15-arrecadacao-parcial"
+      ],
+      "contrast": {
+        "prompt": "Se o contribuinte pagou R$ 500 de um lançamento de R$ 800, os R$ 800 são a arrecadação do dia?",
+        "answer": "Não. Só os R$ 500 recebidos pelo agente arrecadador constituem arrecadação naquele momento."
+      }
+    },
+    {
+      "id": "camara-orc15-doacao-sem-lancamento",
+      "term": "Doação sem lançamento tributário × receita pública",
+      "definition": "Uma doação monetária aceita pelo ente pode ser receita orçamentária embora não passe por lançamento tributário. Lançamento aplica-se às receitas sujeitas a esse estágio, não a toda entrada.",
+      "example": "Uma entidade doa recursos sem contraprestação e o ente registra a receita segundo sua classificação, sem identificar contribuinte e crédito tributário como ocorreria com imposto.",
+      "confusion": "Lançamento tributário identifica crédito e devedor; não é requisito universal para arrecadar toda receita.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Exceções: receitas sem previsão e sem lançamento"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/07%20-%20receitas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 15: Receitas públicas: ingressos e estágios da execução · seção: Exceções: receitas sem previsão e sem lançamento; fundamento: Lei nº 4.320/1964, arts. 35 e 57; MCASP, 11ª edição, Parte I, estágios da receita."
+      },
+      "conceptIds": [
+        "camara-orc15-doacao-sem-lancamento"
+      ],
+      "contrast": {
+        "prompt": "Toda receita precisa de lançamento para ser arrecadada como receita orçamentária?",
+        "answer": "Não. Doação pode ser arrecadada sem lançamento, e até sem previsão inicial, conforme o MCASP e a Lei nº 4.320/1964."
+      }
+    },
+    {
+      "id": "camara-orc15-recolhimento-unidade-tesouraria",
+      "term": "Recolhimento × unidade de tesouraria",
+      "definition": "Recolhimento transfere os valores recebidos pelo agente arrecadador para a unidade de tesouraria do ente. A unidade de tesouraria organiza a disponibilidade sob controle unificado, sem confundir o depósito bancário inicial com a arrecadação.",
+      "example": "O banco autorizado recebe imposto do contribuinte e, depois, repassa o valor à tesouraria; são arrecadação e recolhimento em etapas distintas.",
+      "confusion": "O recebimento pelo agente e a transferência ao Tesouro podem ocorrer em momentos diferentes.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Previsão, lançamento, arrecadação e recolhimento"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/07%20-%20receitas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 15: Receitas públicas: ingressos e estágios da execução · seção: Previsão, lançamento, arrecadação e recolhimento; fundamento: Lei nº 4.320/1964, arts. 35, I, e 56; MCASP, 11ª edição, Parte I."
+      },
+      "conceptIds": [
+        "camara-orc15-recolhimento-unidade-tesouraria"
+      ],
+      "contrast": {
+        "prompt": "O tributo somente é arrecadado quando o banco transfere o dinheiro à tesouraria?",
+        "answer": "Não. O pagamento ao agente autorizado é arrecadação; a transferência posterior ao Tesouro é recolhimento."
+      }
+    },
+    {
+      "id": "camara-orc15-competencia-patrimonial-receita",
+      "term": "Receita orçamentária arrecadada × VPA",
+      "definition": "A receita orçamentária é reconhecida pelo critério de arrecadação do art. 35, I, da Lei nº 4.320/1964; a variação patrimonial aumentativa segue competência patrimonial e pode surgir em momento diferente, quando ocorre o fato gerador do aumento líquido.",
+      "example": "O ente reconhece direito tributário a receber e a VPA conforme critérios contábeis antes de receber em caixa; a arrecadação orçamentária se registra quando o pagamento ocorre.",
+      "confusion": "Regime orçamentário e patrimonial respondem a perguntas diferentes e não precisam coincidir na data.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Regime orçamentário × competência patrimonial"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/07%20-%20receitas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 15: Receitas públicas: ingressos e estágios da execução · seção: Regime orçamentário × competência patrimonial; fundamento: Lei nº 4.320/1964, art. 35, I; MCASP, 11ª edição, Parte II, reconhecimento patrimonial."
+      },
+      "conceptIds": [
+        "camara-orc15-competencia-patrimonial-receita"
+      ],
+      "contrast": {
+        "prompt": "O registro patrimonial do crédito tributário significa que a receita já foi arrecadada para o orçamento?",
+        "answer": "Não. O direito pode ser reconhecido patrimonialmente antes; o orçamento considera arrecadação para o exercício."
+      }
+    },
+    {
+      "id": "camara-orc16-dotacao-empenho-limite",
+      "term": "Dotação autorizada × empenho realizado",
+      "definition": "A dotação é autorização e limite orçamentário; o empenho é o ato da autoridade competente que compromete parte do crédito, sem criar a autorização. O empenho não pode exceder o crédito concedido.",
+      "example": "A LOA autoriza R$ 300 mil e o órgão empenha R$ 80 mil; os outros R$ 220 mil continuam não empenhados, sujeitos a limites e alterações aplicáveis.",
+      "confusion": "A existência de dotação não demonstra contratação, compromisso ou saída de caixa.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Fixação: orçamento autorizado"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/08%20-%20despesas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 16: Despesas públicas: fixação, empenho, liquidação e pagamento · seção: Fixação: orçamento autorizado; fundamento: Lei nº 4.320/1964, arts. 58–60."
+      },
+      "conceptIds": [
+        "camara-orc16-dotacao-empenho-limite"
+      ],
+      "contrast": {
+        "prompt": "O empenho é que cria o crédito orçamentário necessário à despesa?",
+        "answer": "Não. O crédito é autorizado pela LOA ou crédito adicional; o empenho usa essa autorização e respeita o limite."
+      }
+    },
+    {
+      "id": "camara-orc16-nota-sem-empenho",
+      "term": "Dispensa de nota de empenho × dispensa do ato",
+      "definition": "Em casos especiais previstos na legislação específica, pode ser dispensada a emissão da nota de empenho, documento que registra dados do compromisso; a regra não autoriza, por si, realizar despesa sem empenho prévio.",
+      "example": "Uma norma especial permite não emitir a nota documental em determinada despesa, mas o órgão continua registrando o empenho conforme o procedimento aplicável.",
+      "confusion": "Documento e ato administrativo são objetos distintos: dispensar a nota não apaga o empenho.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Nota de empenho × empenho"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/08%20-%20despesas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 16: Despesas públicas: fixação, empenho, liquidação e pagamento · seção: Nota de empenho × empenho; fundamento: Lei nº 4.320/1964, arts. 60, caput e § 1º, e 61."
+      },
+      "conceptIds": [
+        "camara-orc16-nota-sem-empenho"
+      ],
+      "contrast": {
+        "prompt": "Se a nota de empenho foi dispensada por lei em situação especial, a despesa também pode ser feita sem o ato de empenho?",
+        "answer": "Não. Lei nº 4.320/1964, art. 60, § 1º, excepciona a emissão do documento; o caput mantém a exigência de empenho prévio."
+      }
+    },
+    {
+      "id": "camara-orc16-global-valor-conhecido",
+      "term": "Empenho global × estimativo em contrato parcelado",
+      "definition": "Empenho global atende despesa de montante conhecido sujeita a parcelamento; empenho por estimativa atende despesa cujo total não pode ser previamente determinado. Parcelamento não significa incerteza do montante.",
+      "example": "Contrato de limpeza de R$ 240 mil, com doze parcelas certas, pode ser empenhado globalmente; conta de energia cujo total depende do consumo pode ser estimativa.",
+      "confusion": "A chave não é existir contrato, mas saber o montante e se haverá parcelas.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Empenho ordinário, global e estimativo"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/08%20-%20despesas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 16: Despesas públicas: fixação, empenho, liquidação e pagamento · seção: Empenho ordinário, global e estimativo; fundamento: Lei nº 4.320/1964, art. 60, §§ 2º e 3º."
+      },
+      "conceptIds": [
+        "camara-orc16-global-valor-conhecido"
+      ],
+      "contrast": {
+        "prompt": "Um contrato anual é pago mês a mês. Só por ser parcelado, deve usar empenho estimativo?",
+        "answer": "Não. Se o valor total é conhecido, a modalidade global pode ser adequada; estimativa exige montante indeterminável previamente."
+      }
+    },
+    {
+      "id": "camara-orc16-ordinario-valor-pontual",
+      "term": "Empenho ordinário × global",
+      "definition": "Empenho ordinário é adequado, em regra, quando o valor está determinado e o pagamento é pontual; empenho global é empregado quando o valor conhecido será pago parceladamente.",
+      "example": "Uma compra única de 20 computadores por R$ 40 mil difere de contrato anual com o mesmo total distribuído em parcelas mensais.",
+      "confusion": "Conhecer o total não basta para escolher entre ordinário e global; observe a forma de pagamento.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Empenho ordinário, global e estimativo"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/08%20-%20despesas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 16: Despesas públicas: fixação, empenho, liquidação e pagamento · seção: Empenho ordinário, global e estimativo; fundamento: Lei nº 4.320/1964, art. 60, §§ 2º e 3º; MCASP, 11ª edição, Parte I."
+      },
+      "conceptIds": [
+        "camara-orc16-ordinario-valor-pontual"
+      ],
+      "contrast": {
+        "prompt": "Uma compra de valor certo, paga de uma só vez, corresponde em regra a empenho global por ter montante conhecido?",
+        "answer": "Não. O pagamento pontual favorece o empenho ordinário; o global atende montante certo parcelado."
+      }
+    },
+    {
+      "id": "camara-orc16-reforco-vs-anulacao-dotacao",
+      "term": "Reforço de empenho × anulação de dotação",
+      "definition": "Reforçar empenho acrescenta valor ao compromisso registrado, desde que haja crédito disponível; anular dotação reduz a autorização orçamentária. Anulação de empenho, por sua vez, desfaz ou diminui o compromisso, sem necessariamente eliminar obrigação material já comprovada.",
+      "example": "Uma conta variável de energia supera a estimativa empenhada: o órgão pode precisar reforçar o empenho; cancelar dotação de outra ação é operação diferente.",
+      "confusion": "Empenho e dotação pertencem a níveis distintos da execução orçamentária.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Reforço e anulação"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/08%20-%20despesas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 16: Despesas públicas: fixação, empenho, liquidação e pagamento · seção: Reforço e anulação; fundamento: Lei nº 4.320/1964, arts. 40–43 e 58–60; MCASP, 11ª edição, Parte I."
+      },
+      "conceptIds": [
+        "camara-orc16-reforco-vs-anulacao-dotacao"
+      ],
+      "contrast": {
+        "prompt": "A anulação de um empenho reduz diretamente a dotação da LOA na mesma operação?",
+        "answer": "Não. Anular empenho reduz compromisso; anular dotação altera autorização e pode servir a crédito adicional nos termos legais."
+      }
+    },
+    {
+      "id": "camara-orc16-liquidacao-tres-perguntas",
+      "term": "Liquidação: objeto, valor e credor",
+      "definition": "Liquidação verifica o direito adquirido pelo credor com base em documentos: origem e objeto da obrigação, valor exato e identificação do credor. Ela antecede o pagamento e não se reduz a conferir uma nota fiscal.",
+      "example": "Foram entregues 20 dos 40 equipamentos empenhados. A documentação pode sustentar liquidação da parcela aceita, sem liquidar a parte não entregue.",
+      "confusion": "Empenho prova compromisso; liquidação prova o valor e o direito do credor segundo a execução documentada.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Liquidação: verificar o direito do credor"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/08%20-%20despesas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 16: Despesas públicas: fixação, empenho, liquidação e pagamento · seção: Liquidação: verificar o direito do credor; fundamento: Lei nº 4.320/1964, art. 63, §§ 1º e 2º."
+      },
+      "conceptIds": [
+        "camara-orc16-liquidacao-tres-perguntas"
+      ],
+      "contrast": {
+        "prompt": "A liquidação só precisa confirmar que existe nota fiscal e que o total nela impresso coincide com o empenho?",
+        "answer": "Não. O art. 63 exige verificar origem, objeto, valor devido e credor, com comprovantes da entrega ou prestação efetiva."
+      }
+    },
+    {
+      "id": "camara-orc16-ordem-pagamento-processamento",
+      "term": "Ordem de pagamento × transferência bancária",
+      "definition": "Ordem de pagamento é determinação formal da autoridade competente para que se pague despesa liquidada, expedida sobre documentos processados pela contabilidade. O pagamento efetivo é a saída de recursos ao credor.",
+      "example": "O processo contábil regulariza e a autoridade expede a ordem; o comprovante da transferência bancária documenta o desembolso posterior.",
+      "confusion": "Emitir ordem não prova, por si, que o dinheiro chegou ao credor.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Pagamento e ordem de pagamento"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/08%20-%20despesas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 16: Despesas públicas: fixação, empenho, liquidação e pagamento · seção: Pagamento e ordem de pagamento; fundamento: Lei nº 4.320/1964, arts. 62, 64 e 65."
+      },
+      "conceptIds": [
+        "camara-orc16-ordem-pagamento-processamento"
+      ],
+      "contrast": {
+        "prompt": "A ordem de pagamento emitida depois da liquidação prova que a transferência bancária foi concluída?",
+        "answer": "Não. A ordem determina o pagamento; o comprovante da saída financeira evidencia a quitação."
+      }
+    },
+    {
+      "id": "camara-orc16-caixa-nao-substitui-liquidacao",
+      "term": "Disponibilidade de caixa × direito do credor",
+      "definition": "Mesmo com dinheiro disponível, a administração só paga despesa após regular liquidação e ordem competente. Inversamente, despesa liquidada pode aguardar programação ou caixa antes do desembolso.",
+      "example": "O órgão tem R$ 500 mil em caixa, mas o serviço ainda não foi prestado nem verificado; o saldo financeiro não autoriza pagar a fatura antecipadamente.",
+      "confusion": "Caixa e comprovação do crédito são condições diferentes; nenhuma substitui a outra.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Pagamento e ordem de pagamento"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/08%20-%20despesas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 16: Despesas públicas: fixação, empenho, liquidação e pagamento · seção: Pagamento e ordem de pagamento; fundamento: Lei nº 4.320/1964, arts. 62–64; LRF, art. 8º."
+      },
+      "conceptIds": [
+        "camara-orc16-caixa-nao-substitui-liquidacao"
+      ],
+      "contrast": {
+        "prompt": "A existência de caixa livre permite pagar fornecedor antes da liquidação porque a dotação já foi empenhada?",
+        "answer": "Não. O art. 62 condiciona o pagamento à regular liquidação; dotação e caixa não demonstram direito do credor."
+      }
+    },
+    {
+      "id": "camara-orc16-emprestimo-patrimonio-despesa",
+      "term": "Despesa orçamentária de capital × variação patrimonial",
+      "definition": "A aquisição de bem pode ser despesa orçamentária de capital e, ao mesmo tempo, gerar registro de ativo no patrimônio. O momento e o valor da variação patrimonial diminutiva seguem o regime de competência, não apenas o empenho ou pagamento.",
+      "example": "Compra-se equipamento para uma escola: a execução orçamentária registra aquisição de bem de capital e o patrimônio passa a controlar o ativo recebido; não se conclui que todo o valor seja VPD imediata.",
+      "confusion": "Execução orçamentária e reconhecimento patrimonial são dimensões relacionadas, mas com critérios próprios.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Orçamentário × patrimonial"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/08%20-%20despesas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 16: Despesas públicas: fixação, empenho, liquidação e pagamento · seção: Orçamentário × patrimonial; fundamento: Lei nº 4.320/1964, art. 35, II; MCASP, 11ª edição, Parte II."
+      },
+      "conceptIds": [
+        "camara-orc16-emprestimo-patrimonio-despesa"
+      ],
+      "contrast": {
+        "prompt": "O art. 35 da Lei nº 4.320/1964 significa que toda redução patrimonial só pode ser reconhecida quando a despesa é empenhada?",
+        "answer": "Não. O art. 35 define o exercício da despesa no enfoque orçamentário; fatos patrimoniais seguem regime de competência."
+      }
+    },
+    {
+      "id": "camara-orc16-restos-a-pagar-saida",
+      "term": "Empenho no ano anterior × pagamento no exercício seguinte",
+      "definition": "Despesa legalmente empenhada pertence ao exercício do empenho no enfoque orçamentário. Se paga posteriormente e inscrita como restos a pagar conforme requisitos, o desembolso no novo exercício é saída extraorçamentária daquela execução anual.",
+      "example": "Serviço foi empenhado em dezembro e pago em janeiro após inscrição regular em restos a pagar; o pagamento não representa novo empenho do orçamento de janeiro.",
+      "confusion": "Ano do pagamento não muda o exercício a que pertence a despesa orçamentária empenhada.",
+      "topic": "Orçamento Público",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-27",
+      "revision": 1,
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Despesa empenhada em um exercício e paga no seguinte"
+      },
+      "source": {
+        "title": "Nota teórica da matéria",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Orcamento%20Publico/08%20-%20despesas%20publicas%20e%20estagios.md",
+        "locator": "Capítulo 16: Despesas públicas: fixação, empenho, liquidação e pagamento · seção: Despesa empenhada em um exercício e paga no seguinte; fundamento: Lei nº 4.320/1964, art. 35, II; art. 36; MCASP, 11ª edição, Parte I."
+      },
+      "conceptIds": [
+        "camara-orc16-restos-a-pagar-saida"
+      ],
+      "contrast": {
+        "prompt": "Pagar em janeiro restos a pagar do ano anterior conta como nova despesa empenhada no orçamento de janeiro?",
+        "answer": "Não. A despesa pertence ao exercício do empenho; a saída financeira posterior liquida o passivo inscrito segundo regras próprias."
+      }
     }
   ]
 }

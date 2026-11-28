@@ -646,7 +646,7 @@ for(const q of decoroDificeis){
  questoesPublicas.push({...Object.fromEntries(['id','concursoId','subjectId','subjectName','unitId','unitName','examPart','editalRef','articleId','section','theoryRefs','conceptId','mechanism','format','origin','estimatedDifficulty','statement','correctAnswer','explanation'].map(k=>[k,q[k]])),officialEditalCode});
 }
 if(Math.abs(respostasDecoro.C-respostasDecoro.E)>1)throw Error('Gabarito do lote de decoro desequilibrado.');
-console.log('✓ 30 questões difíceis de decoro parlamentar integradas ao treino.');
+console.log(`✓ ${decoroDificeis.length} questões difíceis de decoro parlamentar integradas ao treino.`);
 
 
 

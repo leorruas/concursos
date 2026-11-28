@@ -7921,13 +7921,8 @@
       "unitId": "constitucional-regimentos",
       "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Judiciário",
       "articleId": "art-7c5228e2781b4336",
-      "source": {
-        "path": "3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md",
-        "section": "Exercícios inéditos C/E: controle constitucional e magistratura"
-      },
-      "theoryRefs": [
-        "article:art-7c5228e2781b4336#Exercícios inéditos C/E: controle constitucional e magistratura"
-      ],
+      "source": {"path": "3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md", "section": "Reserva de plenário — art. 97 e Súmula Vinculante 10"},
+      "theoryRefs": ["article:art-7c5228e2781b4336#Reserva de plenário — art. 97 e Súmula Vinculante 10"],
       "id": "cam-reteste-reserva-plenario-dez-em-tribunal-de-vinte",
       "concursoId": "camara-2026",
       "origin": "inedita",
@@ -10966,11 +10961,7 @@
       "id": "cam-calibrada-const-retificacao-de-dados-de-outra-pessoa",
       "concursoId": "camara-2026",
       "origin": "inedita",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 77
-      },
+      "calibration": {"type": "autoral-calibrada", "mirror": "dpdf-2013-defensor-publico-segunda-categoria-tipo-i", "item": 5, "caderno": "https://cdn.cebraspe.org.br/concursos/DP_DF_13/arquivos/DPDF13_001_01.pdf", "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/DP_DF_13/arquivos/Gab_Definitivo_DPDF13_001_01.PDF", "mechanism": "limite pessoal para impetrar habeas data sobre dados de terceiro"},
       "articleId": "art-ec49c177b1ae43c7",
       "conceptId": "habeas-data-proprios-registros",
       "mechanism": "retificacao-de-dados-de-outra-pessoa",
@@ -10988,7 +10979,7 @@
       "statement": "Uma estudante descobre que um banco de dados governamental contém informação incorreta sobre uma colega. Ela pede a retificação em nome próprio e, diante da recusa administrativa, impetra habeas data para corrigir o registro da colega. A recusa torna cabível a impetração em nome próprio.",
       "correctAnswer": "E",
       "explanation": "**Regra:** habeas data protege o acesso ou a retificação de informações relativas à própria pessoa do impetrante em registros governamentais ou de caráter público. **Aplicação:** a estudante quer corrigir dado da colega, então falta o vínculo pessoal exigido; a recusa administrativa não transforma informação de terceiro em dado próprio. **Distinção:** o caráter público do cadastro é necessário, mas não basta. (Constituição, art. 5º, LXXII.)",
-      "reviewEvidence": "CF, art. 5º, LXXII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 77, da Câmara de 2014."
+      "reviewEvidence": "CF, art. 5º, LXXII; Lei nº 9.507/1997, art. 7º, I e II. Cotejo de operação com o Caderno de questões oficial do Cebraspe, Defensoria Pública do DF, Defensor Público de Segunda Categoria, tipo I, item 5; gabarito definitivo E: o item trata de impetração para obter ou retificar informação em nome de outra pessoa. https://cdn.cebraspe.org.br/concursos/DP_DF_13/arquivos/DPDF13_001_01.pdf https://cdn.cebraspe.org.br/concursos/DP_DF_13/arquivos/Gab_Definitivo_DPDF13_001_01.PDF"
     },
     {
       "format": "CE",
@@ -25083,7 +25074,7 @@
       },
       "statement": "Uma política de cooperação internacional também promove o desenvolvimento nacional. O uso de um instrumento internacional não altera a classificação constitucional de garantir o desenvolvimento nacional como objetivo fundamental da República.",
       "correctAnswer": "C",
-      "explanation": "A finalidade consta do art. 3º, II. Uma ação pode concretizar ao mesmo tempo um objetivo fundamental e um princípio aplicável às relações internacionais.",
+      "explanation": "**Regra:** garantir o desenvolvimento nacional é objetivo fundamental da República (Constituição, art. 3º, II); cooperar com os povos para o progresso da humanidade é princípio das relações internacionais (art. 4º, IX). **Aplicação:** uma política de cooperação internacional pode promover o desenvolvimento nacional sem alterar a classificação constitucional desse objetivo. **Distinção:** a natureza internacional do instrumento usado não transfere o objetivo do art. 3º para a lista de princípios do art. 4º.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 3º, II, e 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25335,7 +25326,7 @@
       },
       "statement": "Um parecer afirma que o art. 4º da Constituição já instituiu, por si só, uma organização internacional dotada de personalidade jurídica para integrar os povos da América Latina. O parecer interpreta corretamente o dispositivo.",
       "correctAnswer": "E",
-      "explanation": "A norma orienta a busca de integração com o objetivo de formar uma comunidade de nações. A criação de uma organização internacional depende dos atos jurídicos apropriados.",
+      "explanation": "**Regra:** a Constituição determina que o Brasil busque a integração econômica, política, social e cultural dos povos da América Latina, com o objetivo de formar uma comunidade latino-americana de nações (art. 4º, parágrafo único). **Aplicação:** esse objetivo orienta a atuação brasileira, mas o texto constitucional, sozinho, não cria uma organização internacional específica nem lhe confere personalidade jurídica. **Distinção:** estabelecer uma organização concreta exige instrumento jurídico próprio; uma diretriz de integração não é o ato constitutivo dessa entidade.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 4º, parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {

@@ -82,7 +82,7 @@ Sim: o mapa deve mostrar **espécie** como nível próprio. Mas as caixas que vo
 O diagrama mostra as origens correntes e de capital e alguns exemplos de espécies subordinadas a elas. Os exemplos são ilustrativos, não uma lista exaustiva; o código completo pode trazer detalhamentos adicionais conforme o classificador e o exercício.
 
 ```mermaid
-flowchart TB
+flowchart LR
     C["Categoria econômica"] --> CO["Receitas correntes"]
     C --> CP["Receitas de capital"]
 

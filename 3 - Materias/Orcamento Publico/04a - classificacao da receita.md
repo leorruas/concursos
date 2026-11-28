@@ -5,7 +5,7 @@ title: "Classificação da receita: natureza, fonte e resultado primário"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-16
+updated: 2026-11-28
 aliases:
   - "Natureza da receita orçamentária"
   - "Receita corrente e de capital"
@@ -40,26 +40,28 @@ A primeira divisão **por categoria econômica da receita orçamentária** é **
 
 ### Mapa visual: como classificar uma receita
 
-As classificações abaixo respondem a **perguntas diferentes** sobre o mesmo ingresso. No ramo da natureza, corrente e capital se abrem nas origens que compõem cada categoria; nos demais ramos, cada alternativa mostra uma classificação própria e exemplos. As folhas não são etapas sucessivas: um mesmo ingresso pode receber uma classificação em cada critério. No site, use **ampliar** para explorar o diagrama.
+Em sentido amplo, o ingresso público pode ser uma receita orçamentária ou uma entrada extraorçamentária. As receitas orçamentárias recebem a classificação por natureza (corrente ou capital) e os demais classificadores cabíveis. Ingressos extraorçamentários, como cauções e antecipações de receita orçamentária (ARO), são entradas temporárias ou compensatórias; não constituem uma terceira natureza da receita. O ramo doutrinário (originária ou derivada) é acadêmico, não um classificador oficial. No site, use **ampliar** para explorar o diagrama.
 
 ```mermaid
 flowchart TB
-    R["RECEITA PÚBLICA<br/>Qual critério está sendo perguntado?"]
-    R --> N["Natureza<br/>Qual fato originou o ingresso?"]
-    R --> F["Fonte / destinação<br/>Quais regras regem a aplicação?"]
-    R --> P["Resultado primário<br/>Entra no resultado primário?"]
-    R --> O["Tratamento orçamentário<br/>Integra a receita do orçamento?"]
-    R --> D["Doutrina<br/>Qual a forma de obtenção?"]
-    N --> NC["Corrente<br/>Impostos, taxas e contribuições de melhoria;<br/>contribuições; patrimonial; agropecuária;<br/>industrial; serviços; transferências correntes;<br/>outras receitas correntes"]
-    N --> NK["Capital<br/>Operações de crédito; alienação de bens;<br/>amortização de empréstimos; transferências<br/>de capital; outras receitas de capital"]
+    R["INGRESSO DE RECURSOS PÚBLICOS<br/>Qual é o tratamento do ingresso?"]
+    R --> T["Tratamento orçamentário<br/>Integra a receita do orçamento?"]
+    T --> RO["Receita orçamentária<br/>Recurso novo para o erário"]
+    T --> XE["Ingresso extraorçamentário<br/>Entrada temporária ou compensatória"]
+    XE --> XEE["Ex.: caução, fiança ou ARO"]
+    XE --> XEN["Não recebe natureza<br/>corrente/capital"]
+    RO --> N["Natureza da receita<br/>Categoria → origem → espécie"]
+    RO --> F["Fonte / destinação<br/>Quais regras regem a aplicação?"]
+    RO --> P["Resultado primário<br/>Entra no resultado primário?"]
+    RO --> D["Doutrina sobre a receita<br/>Qual a forma de obtenção?"]
+    N --> NC["Corrente"]
+    N --> NK["Capital"]
     F --> FV["Recursos vinculados<br/>Aplicação conforme norma específica"]
     F --> FL["Recursos não vinculados<br/>Aplicação conforme regras gerais"]
     FV --> FVE["Ex.: transferência vinculada<br/>à finalidade prevista"]
     FL --> FLE["Sem vinculação específica<br/>Regras gerais continuam aplicáveis"]
     P --> PP["Primária<br/>Ex.: IPTU ou venda de terreno"]
     P --> PF["Financeira / não primária<br/>Ex.: empréstimo comum"]
-    O --> OO["Orçamentária<br/>Ex.: IPTU, aluguel ou crédito comum"]
-    O --> OE["Extraorçamentária<br/>Ex.: ARO ou caução"]
     D --> DO["Originária<br/>Ex.: aluguel ou preço público"]
     D --> DD["Derivada<br/>Ex.: imposto"]
     %% Fallback de alto contraste para Obsidian/GitHub; o site adapta as cores via CSS.
@@ -67,14 +69,70 @@ flowchart TB
     classDef criterio fill:#fff2d9,stroke:#b45309,color:#3d2207,stroke-width:1.5px;
     classDef opcao fill:#fffbeb,stroke:#b45309,color:#1c1917;
     class R raiz;
-    class N,F,P,O,D criterio;
-    class NC,NK,FV,FL,FVE,FLE,PP,PF,OO,OE,DO,DD opcao;
+    class T,N,F,P,D criterio;
+    class RO,XE,NC,NK,FV,FL,FVE,FLE,PP,PF,XEE,XEN,DO,DD opcao;
 ```
 
 **Fronteira para a prova:** corrente/capital pertence à **natureza**; primária/financeira pertence ao **resultado fiscal**; orçamentária/extraorçamentária pertence ao **tratamento do ingresso**. A fonte/destinação identifica restrições e possibilidades de aplicação, não a origem econômica. O par originária/derivada é **doutrinário**, não um nível da codificação oficial.
 
+### Natureza da receita: categoria, origem e espécie
 
-**Como passar da categoria ao tipo exato de receita:** a classificação por natureza segue níveis. A **categoria econômica** separa corrente e capital. Dentro dela, a **origem** indica a operação que gerou o dinheiro, como impostos ou alienação de bens. A **espécie** especifica uma divisão dentro dessa origem e os detalhamentos identificam receitas com maior precisão. Exemplo: o IPTU é um imposto e pertence às receitas correntes; a venda de terreno está na origem alienação de bens, dentro das receitas de capital. A Lei nº 4.320/1964, art. 11, distingue esses grandes grupos; os manuais vigentes trazem os códigos detalhados. A palavra **origem** nessa estrutura oficial tem sentido diferente da classificação doutrinária **originária/derivada**, explicada adiante.
+Sim: o mapa deve mostrar **espécie** como nível próprio. Mas as caixas que você listou são, em sua maioria, **origens**. No classificador oficial, o primeiro dígito indica a categoria econômica (corrente ou capital), o segundo indica a origem e o terceiro, a espécie. Os dígitos seguintes detalham a receita e o último indica o tipo. Um cuidado importante: **“Impostos, Taxas e Contribuições de Melhoria” é uma origem só**; dentro dela, **Impostos**, **Taxas** e **Contribuição de Melhoria** são espécies distintas. “Contribuições”, “Receita Patrimonial”, “Receita Agropecuária”, “Receita Industrial”, “Receita de Serviços”, “Transferências Correntes” e “Outras Receitas Correntes” também são origens.
+
+O diagrama mostra as origens correntes e de capital e alguns exemplos de espécies subordinadas a elas. Os exemplos são ilustrativos, não uma lista exaustiva; o código completo pode trazer detalhamentos adicionais conforme o classificador e o exercício.
+
+```mermaid
+flowchart TB
+    C["Categoria econômica"] --> CO["Receitas correntes"]
+    C --> CP["Receitas de capital"]
+
+    CO --> O1["Impostos, Taxas e<br/>Contribuições de Melhoria"]
+    O1 --> E11["Impostos"]
+    O1 --> E12["Taxas"]
+    O1 --> E13["Contribuição de Melhoria"]
+    CO --> O2["Contribuições"]
+    O2 --> E21["Contribuições Sociais"]
+    O2 --> E22["Contribuições Econômicas"]
+    O2 --> E23["Contribuição para Custeio do Serviço<br/>de Iluminação Pública"]
+    CO --> O3["Receita Patrimonial"]
+    O3 --> E31["Exploração do Patrimônio Imobiliário do Estado"]
+    O3 --> E32["Valores mobiliários: juros, dividendos<br/>e participações"]
+    O3 --> E33["Delegação de serviços públicos"]
+    CO --> O4["Receita Agropecuária"]
+    O4 --> E4["Produção vegetal ou animal"]
+    CO --> O5["Receita Industrial"]
+    O5 --> E5["Indústria extrativa ou de transformação"]
+    CO --> O6["Receita de Serviços"]
+    O6 --> E6["Serviços administrativos, comerciais,<br/>de transporte ou de saúde"]
+    CO --> O7["Transferências Correntes"]
+    O7 --> E7["Transferências da União, dos Estados,<br/>do DF, dos Municípios ou do exterior"]
+    CO --> O9["Outras Receitas Correntes"]
+    O9 --> E9["Multas; indenizações, restituições<br/>e ressarcimentos"]
+
+    CP --> K1["Operações de Crédito"]
+    K1 --> EK1["Crédito interno ou externo"]
+    CP --> K2["Alienação de Bens"]
+    K2 --> EK2["Bens móveis, imóveis ou intangíveis"]
+    CP --> K3["Amortização de Empréstimos"]
+    K3 --> EK3["Devolução do principal emprestado pelo ente"]
+    CP --> K4["Transferências de Capital"]
+    K4 --> EK4["Transferências da União, dos Estados,<br/>do DF, dos Municípios ou do exterior"]
+    CP --> K9["Outras Receitas de Capital"]
+    K9 --> EK9["Incorporação de bens, direitos e valores"]
+
+    classDef categoria fill:#f59e0b,stroke:#92400e,color:#111111,stroke-width:2px;
+    classDef origem fill:#fff2d9,stroke:#b45309,color:#3d2207,stroke-width:1.5px;
+    classDef especie fill:#fffbeb,stroke:#b45309,color:#1c1917;
+    class C categoria;
+    class CO,CP origem;
+    class O1,O2,O3,O4,O5,O6,O7,O9,K1,K2,K3,K4,K9 origem;
+    class E11,E12,E13,E21,E22,E23,E31,E32,E33,E4,E5,E6,E7,E9,EK1,EK2,EK3,EK4,EK9 especie;
+```
+
+**Exemplo de leitura:** no código de natureza `1.1.1.3.01.1.1`, o primeiro `1` indica receita corrente; o segundo `1`, a origem “Impostos, Taxas e Contribuições de Melhoria”; o terceiro `1`, a espécie “Impostos”; e o detalhamento seguinte identifica o imposto, como o Imposto sobre a Renda da Pessoa Física. O último dígito indica o tipo da receita. Portanto, “imposto” aparece como espécie, enquanto a caixa mais ampla da qual ele faz parte é a origem.
+
+
+**Como passar da categoria ao tipo exato de receita:** a classificação por natureza segue os níveis oficiais mostrados acima. Por exemplo, o IPTU pertence à categoria corrente, à origem “Impostos, Taxas e Contribuições de Melhoria” e à espécie “Impostos”; a venda de terreno pertence à categoria de capital e à origem “Alienação de Bens”. A Lei nº 4.320/1964, art. 11, distingue as categorias econômicas; o MTO detalha os níveis e códigos. A palavra **origem** nessa estrutura oficial tem sentido diferente da classificação doutrinária **originária/derivada**, explicada adiante.
 
 ### Vocabulário das origens da receita: o que efetivamente entra no caixa?
 

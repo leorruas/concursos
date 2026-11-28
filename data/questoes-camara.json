@@ -10817,11 +10817,7 @@
       "id": "cam-calibrada-const-ressarcimento-recomendado-e-multa-imposta",
       "concursoId": "camara-2026",
       "origin": "inedita",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 75
-      },
+      "calibration": null,
       "articleId": "art-f3e70dd8fbe34df4",
       "conceptId": "titulo-executivo-multa-sem-debito",
       "mechanism": "ressarcimento-recomendado-e-multa-imposta",
@@ -10839,7 +10835,7 @@
       "statement": "Ao concluir uma fiscalização, o Tribunal de Contas da União aplica multa a um responsável, sem imputar débito. O responsável sustenta que a decisão só poderá ter eficácia de título executivo caso também determine o ressarcimento de prejuízo. A alegação procede.",
       "correctAnswer": "E",
       "explanation": "A Constituição dá eficácia de título executivo à decisão do Tribunal de Contas da União da qual resulte imputação de débito ou multa (art. 71, § 3º). As hipóteses são alternativas: a multa aplicada basta, mesmo sem condenação ao ressarcimento de dano. Uma recomendação ou determinação sem débito imputado nem multa não se enquadra, por esse dispositivo, na mesma regra. Portanto, a alegação do responsável está errada.",
-      "reviewEvidence": "CF, art. 71, VIII e § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
+      "reviewEvidence": "CF, art. 71, VIII e § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. A referência anteriormente indicada à Câmara 2014, item 75, trata das competências de fiscalização do Congresso e da escolha de ministros do TCU, não da eficácia executiva de multas do TCU; calibração temática específica pendente."
     },
     {
       "format": "CE",
@@ -11047,7 +11043,8 @@
       "calibration": {
         "type": "autoral-calibrada",
         "mirror": "camara-2014-cb2-03",
-        "item": 76
+        "item": 76,
+        "mechanism": "mesmo contexto normativo do art. 50; contraste de operação: competência para convocar versus consequência da ausência justificada"
       },
       "articleId": "art-5df4de59dcebb840",
       "conceptId": "convocacao-ministro-falta-justificada",
@@ -11066,7 +11063,7 @@
       "statement": "Uma comissão da Câmara convoca ministro de Estado para prestar esclarecimentos sobre assunto previamente determinado. O ministro não comparece e apresenta justificativa adequada, acolhida pela comissão. Mesmo assim, a ausência configura crime de responsabilidade apenas por se tratar de convocação formal.",
       "correctAnswer": "E",
       "explanation": "**Regra:** a Câmara ou o Senado, assim como suas comissões, pode convocar ministro de Estado para prestar pessoalmente informações sobre assunto previamente determinado. A ausência sem justificação adequada configura crime de responsabilidade (Constituição, art. 50, caput). **Aplicação:** o ministro não compareceu, mas apresentou justificativa adequada e aceita; falta a condição constitucional de ausência injustificada, de modo que não se configura o crime por esse fundamento. **Pegadinha:** convocação formal não transforma qualquer falta em crime; é preciso observar a ressalva expressa sobre a justificativa. (Constituição, art. 50, caput.)",
-      "reviewEvidence": "CF, art. 50, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 76, da Câmara de 2014."
+      "reviewEvidence": "CF, art. 50, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html. Cotejo temático: o item 76 da prova Câmara 2014 CB2-03 questiona a competência de comissões permanentes para convocar ministros, autoridades e cidadãos (gabarito definitivo E). Este item autoral testa a consequência de uma ausência com justificativa adequada; não reproduz o item oficial nem afirma equivalência da operação. Caderno: https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF"
     },
     {
       "format": "CE",
@@ -11337,8 +11334,8 @@
       },
       "statement": "Depois de aprovado requerimento de encerramento da discussão, o relator reformula o parecer para alterar o mérito do texto. Pode incidir a exceção ao impedimento de requerer o adiamento da votação na mesma sessão.",
       "correctAnswer": "C",
-      "explanation": "**Regra:** depois que o Plenário aprova o encerramento da discussão, em regra não cabe pedir adiamento da votação na mesma sessão. O Regimento abre uma exceção se o relator reformular o parecer com mudança de mérito. **Por quê:** a alteração substancial muda o conteúdo que será votado e justifica permitir novo adiamento. **Aplicação:** aqui o parecer mudou no mérito; portanto, a exceção pode ser usada. Uma correção de forma ou de grafia, sozinha, não basta. **Pegadinha:** não confunda qualquer ajuste no parecer com mudança de mérito. (RICD, art. 179, § 4º.)",
-      "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, regras de encerramento da discussão. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+      "explanation": "**Regra:** depois que o Plenário aprova o encerramento da discussão, em regra não cabe pedir adiamento da votação na mesma sessão. O Regimento abre uma exceção se o relator reformular o parecer para promover alteração de mérito. **Aplicação:** o parecer mudou no mérito; portanto, a exceção permite apresentar o requerimento de adiamento. Uma correção de forma ou de grafia, sozinha, não basta. **Pegadinha:** não confunda qualquer ajuste no parecer com mudança de mérito. (RICD, art. 178, § 4º.)",
+      "reviewEvidence": "RICD, art. 178, § 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
       "origin": "inedita",
@@ -21331,7 +21328,7 @@
         "path": "3 - Materias/Direito Constitucional/07 - poder executivo.md",
         "section": "Eleição, posse, substituição e sucessão: arts. 77 a 83"
       },
-      "statement": "Uma ausência do Presidente da República por dezesseis dias prescinde de licença do Congresso porque a exigência só começa a incidir após vinte dias.",
+      "statement": "O Presidente da República planeja ausentar-se do País por dezesseis dias sem licença do Congresso, sob o argumento de que a exigência só começa a incidir após vinte dias.",
       "correctAnswer": "E",
       "explanation": "**Regra:** o Presidente e o Vice-Presidente da República não podem ausentar-se do País por mais de quinze dias sem licença do Congresso Nacional, sob pena de perda do cargo. **Aplicação:** dezesseis dias ultrapassam o limite; a licença é necessária antes do afastamento. **Distinção:** quinze dias exatos não excedem o limite; a exigência é acionada quando a ausência passa de quinze dias. (Constituição, art. 83.)",
       "reviewEvidence": "Constituição Federal, arts. 49, III, e 83: o Congresso autoriza a ausência do Presidente ou do Vice-Presidente por período superior a quinze dias. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"

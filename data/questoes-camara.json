@@ -20239,7 +20239,7 @@
       },
       "statement": "Um vereador irmão de prefeito busca novo mandato de vereador no mesmo município. A ressalva constitucional não pode ser considerada, pois a inelegibilidade reflexa exclui qualquer candidatura de parente de segundo grau.",
       "correctAnswer": "E",
-      "explanation": "O art. 14, § 7º, prevê ressalva para quem é titular de mandato eletivo e candidato à reeleição. O caso é distinto de candidatura a outro cargo.",
+      "explanation": "**Regra:** a inelegibilidade reflexa alcança, no território da jurisdição do prefeito, parentes consanguíneos até o segundo grau, como o irmão (Constituição, art. 14, § 7º). A própria regra excepciona quem já tem mandato eletivo e concorre à reeleição. **Aplicação:** o vereador é irmão do prefeito, mas busca renovar o mandato que já exerce; por isso, a exceção pode ser considerada. **Distinção:** se o irmão do prefeito fosse candidato a um cargo diferente ou não fosse titular de mandato eletivo, a ressalva não se aplicaria.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 14, § 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -20519,7 +20519,7 @@
       },
       "statement": "Ao reproduzir a redação do art. 3º, III, uma nota afirma que o texto prevê erradicar as desigualdades regionais e reduzir a pobreza. As duas expressões correspondem ao dispositivo.",
       "correctAnswer": "E",
-      "explanation": "O art. 3º, III, usa dois verbos ligados a objetos diferentes: reduzir as desigualdades sociais e regionais; erradicar a pobreza e a marginalização. O item troca os pares. A ordem correta importa porque a Constituição não diz “erradicar desigualdades” nem apenas “reduzir a pobreza” nesse inciso.",
+      "explanation": "**Regra:** o objetivo fundamental do art. 3º, III, é erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais (Constituição, art. 3º, III). **Aplicação:** a nota troca os verbos ligados a cada objeto: não se fala em “erradicar as desigualdades” nem em “reduzir a pobreza”. **Distinção:** ao reconstruir a enumeração, associe erradicar à pobreza e à marginalização; reduzir, às desigualdades sociais e regionais.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 3º, III. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -23347,7 +23347,7 @@
       },
       "statement": "Uma autoridade aplica ao particular a ideia de que todo comportamento privado exige autorização legal expressa, mesmo na ausência de proibição ou regime especial. Essa ideia decorre do art. 5º, II.",
       "correctAnswer": "E",
-      "explanation": "A norma protege a liberdade do particular ao exigir lei para obrigá-lo a fazer ou deixar de fazer algo. Ela não condiciona genericamente toda conduta privada a autorização prévia.",
+      "explanation": "**Regra:** a legalidade protege a liberdade individual: ninguém é obrigado a fazer ou deixar de fazer algo sem previsão em lei (Constituição, art. 5º, II). **Aplicação:** o dispositivo não cria um dever geral de pedir autorização legal para cada comportamento privado quando não há proibição ou regime especial. **Distinção:** a regra trata de impor deveres ou restrições ao particular; ela não se confunde com a legalidade administrativa que limita a atuação do Poder Público.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, II. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -23711,7 +23711,7 @@
       },
       "statement": "Na Câmara, comparecem 300 deputados. Em votação de projeto de lei ordinária sem quórum especial, todos votam e 190 são favoráveis. O projeto alcança a maioria exigida para aprovação.",
       "correctAnswer": "C",
-      "explanation": "A presença supera 256 deputados e os votos favoráveis são maioria dos votos. A regra geral exige maioria de votos com presença da maioria absoluta, sem exigir 257 votos favoráveis.",
+      "explanation": "**Regra:** salvo quórum constitucional específico, cada Casa delibera por maioria dos votos, desde que esteja presente a maioria absoluta de seus membros (Constituição, art. 47). **Aplicação:** na Câmara, com 513 deputados, são necessários pelo menos 257 presentes; os 300 presentes satisfazem essa condição. Como todos votaram e 190 dos 300 votos foram favoráveis, houve maioria de votos e o projeto ordinário foi aprovado. **Distinção:** 257 é o mínimo calculado sobre toda a composição para a presença; não é o número de votos favoráveis exigido para um projeto de lei ordinária.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -25223,7 +25223,7 @@
       },
       "statement": "Uma obra é divulgada sem licença prévia e viola a imagem de uma pessoa. A garantia de liberdade artística impede, em qualquer hipótese, a análise de pedido de indenização pela violação.",
       "correctAnswer": "E",
-      "explanation": "A dispensa de licença protege a divulgação contra controle prévio. O art. 5º, X, tutela a imagem e prevê indenização quando houver dano decorrente de violação.",
+      "explanation": "**Regra:** a expressão artística é livre independentemente de censura ou licença (Constituição, art. 5º, IX), enquanto a imagem é protegida e sua violação pode gerar indenização pelo dano material ou moral (art. 5º, X). **Aplicação:** divulgar a obra sem licença prévia não elimina a possibilidade de examinar reparação quando a imagem de alguém foi violada. **Distinção:** proteção contra controle prévio não é imunidade contra responsabilidade posterior; a indenização depende de dano decorrente da violação.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 5º, IX e X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {

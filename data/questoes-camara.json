@@ -22479,7 +22479,8 @@
       "statement": "Um projeto inicialmente distribuído para apreciação conclusiva pelas comissões passa regularmente ao regime de urgência. O novo regime afasta a tramitação conclusiva nas comissões.",
       "correctAnswer": "C",
       "explanation": "A regra geral permite que certas proposições sejam decididas conclusivamente pelas comissões. O art. 24, II, h, do RICD exclui dessa competência as proposições em regime de urgência; por isso, quando a urgência é adotada, a matéria deixa de poder ser encerrada apenas pelas comissões e segue para decisão do Plenário.",
-      "reviewEvidence": "Conferência com a seção vinculada e o RICD, art. 24, II, h. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+      "reviewEvidence": "RICD, art. 24, II, h. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html. Cotejo direto: o item 99 do caderno Câmara 2014 CB2-03 afirma que, em urgência, a comissão pode decidir conclusivamente; o gabarito definitivo é E. Este item autoral julga a exceção em sentido inverso, sem reproduzir a redação oficial. Caderno: https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf; gabarito: https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+      "calibration": {"type": "autoral-calibrada", "mirror": "camara-2014-cb2-03", "item": 99, "mechanism": "contraste entre o regime de urgência e a exceção à apreciação conclusiva das comissões"}
     },
     {
       "origin": "inedita",

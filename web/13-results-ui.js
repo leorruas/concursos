@@ -226,6 +226,24 @@ function showEditalCoverage(){
   target.append(row);
  }
 }
+function showQuestionStock(){
+ const section=$('results-question-stock-section'),target=$('results-question-stock');
+ if(!section||!target)return;
+ target.replaceChildren();
+ const stock=current?.questionStock;
+ if(!stock||stock.version!==1||!Array.isArray(stock.bySubject)){section.hidden=true;return;}
+ section.hidden=false;
+ const subjects=stock.bySubject.filter(row=>!selectedSubject||row.subjectId===selectedSubject);
+ target.append(el('p','results-coverage-overview',Number(stock.unansweredItems||0)+' de '+Number(stock.catalogItems||0)+' questões sem tentativa identificada'));
+ if(!subjects.length){target.append(el('p','results-caption','Sem itens inéditos classificados para esta matéria.'));return;}
+ const list=el('div','results-subjects-list');
+ for(const row of subjects){
+  const item=el('div','results-subject-row');
+  item.append(el('strong','',title(row.subjectId)),el('span','',`${Number(row.unansweredItems)||0} disponíveis · ${Number(row.recordedItems)||0} já registrados · ${Number(row.catalogItems)||0} no catálogo`));
+  list.append(item);
+ }
+ target.append(list);
+}
 function showReviewQueue(){
  const target=$('results-review-queue');if(!target)return;
  target.replaceChildren();
@@ -874,6 +892,7 @@ function render(){
  if(!current)return;
  if(quizLearningAttempts)renderQuizLearning(quizLearningAttempts,current.concursoId,Date.now());
  renderAdaptive(current.adaptive);
+ showQuestionStock();
  renderStudyModes(current.adaptive?.byMode);
  renderQuestionOrigins(current.questionOrigins,current.originFollowups);
  renderPrincipleHistory(current.adaptive,current.concepts||[]);

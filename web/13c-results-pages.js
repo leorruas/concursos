@@ -5,7 +5,7 @@
   {id:'resumo',label:'Resumo',selectors:['#results-adaptive','#results-legacy']},
   {id:'aprendizagem',label:'Aprendizagem',selectors:['#results-retention']},
   {id:'revisoes',label:'Revisões',selectors:['#results-adaptive-queue','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]']},
-  {id:'materias',label:'Matérias',selectors:['[aria-labelledby="title-subjects"]','[aria-labelledby="results-edital-coverage-title"]','[aria-labelledby="results-difficulty-heading"]','[aria-labelledby="results-coverage-title"]']},
+  {id:'materias',label:'Matérias',selectors:['[aria-labelledby="title-subjects"]','[aria-labelledby="results-edital-coverage-title"]','#results-question-stock-section','[aria-labelledby="results-difficulty-heading"]','[aria-labelledby="results-coverage-title"]']},
   {id:'semanas',label:'Por semana',selectors:[]}, 
   {id:'historico',label:'Histórico',selectors:['#results-principle-history']},
   {id:'erros',label:'Erros por dia',selectors:[]}

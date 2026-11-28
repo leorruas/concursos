@@ -50,20 +50,8 @@ flowchart TB
     R --> P["Resultado primário<br/>Entra no resultado primário?"]
     R --> O["Tratamento orçamentário<br/>Integra a receita do orçamento?"]
     R --> D["Doutrina<br/>Qual a forma de obtenção?"]
-    N --> NC["Corrente<br/>Categoria econômica"]
-    N --> NK["Capital<br/>Categoria econômica"]
-    NC --> NCI["Impostos, taxas e<br/>contribuições de melhoria<br/>Ex.: IPTU"]
-    NC --> NCC["Contribuições<br/>Ex.: contribuição previdenciária"]
-    NC --> NCP["Patrimonial<br/>Ex.: aluguel de imóvel"]
-    NC --> NCA["Agropecuária e industrial"]
-    NC --> NCS["Serviços<br/>Ex.: preço público"]
-    NC --> NCT["Transferências correntes<br/>Ex.: custeio de serviço público"]
-    NC --> NCO["Outras receitas correntes"]
-    NK --> NKO["Operações de crédito<br/>Ex.: empréstimo comum"]
-    NK --> NKA["Alienação de bens<br/>Ex.: venda de imóvel"]
-    NK --> NKAM["Amortização de empréstimos<br/>Ex.: devolução do principal"]
-    NK --> NKT["Transferências de capital<br/>Ex.: recurso para obra"]
-    NK --> NKR["Outras receitas de capital"]
+    N --> NC["Corrente<br/>Impostos, taxas e contribuições de melhoria;<br/>contribuições; patrimonial; agropecuária;<br/>industrial; serviços; transferências correntes;<br/>outras receitas correntes"]
+    N --> NK["Capital<br/>Operações de crédito; alienação de bens;<br/>amortização de empréstimos; transferências<br/>de capital; outras receitas de capital"]
     F --> FV["Recursos vinculados<br/>Aplicação conforme norma específica"]
     F --> FL["Recursos não vinculados<br/>Aplicação conforme regras gerais"]
     FV --> FVE["Ex.: transferência vinculada<br/>à finalidade prevista"]
@@ -80,7 +68,7 @@ flowchart TB
     classDef opcao fill:#fffbeb,stroke:#b45309,color:#1c1917;
     class R raiz;
     class N,F,P,O,D criterio;
-    class NC,NK,NCI,NCC,NCP,NCA,NCS,NCT,NCO,NKO,NKA,NKAM,NKT,NKR,FV,FL,FVE,FLE,PP,PF,OO,OE,DO,DD opcao;
+    class NC,NK,FV,FL,FVE,FLE,PP,PF,OO,OE,DO,DD opcao;
 ```
 
 **Fronteira para a prova:** corrente/capital pertence à **natureza**; primária/financeira pertence ao **resultado fiscal**; orçamentária/extraorçamentária pertence ao **tratamento do ingresso**. A fonte/destinação identifica restrições e possibilidades de aplicação, não a origem econômica. O par originária/derivada é **doutrinário**, não um nível da codificação oficial.

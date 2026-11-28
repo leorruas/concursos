@@ -935,13 +935,31 @@ function render(){
     const list=el('ul');
     for(const sample of sessions){
      const subjects=(sample.bySubject||[]).map(row=>title(row.subjectId)+': '+row.net+'/'+row.total).join(' · ');
-     list.append(el('li','',fmtDate(sample.date)+' · '+sample.net+' pontos líquidos em '+sample.total+
-      ' itens ('+sample.netPercent+'%) · '+sample.correct+' acertos, '+sample.incorrect+' erros, '+sample.blank+' em branco'+
+     list.append(el('li','',fmtDate(sample.date)+' · '+sample.accuracy+'% de acertos · '+sample.net+' pontos líquidos em '+sample.total+
+      ' itens ('+sample.netPercent+'% do total) · '+sample.correct+' acertos, '+sample.incorrect+' erros, '+sample.blank+' em branco'+
+      (sample.sampleStatus==='amostra insuficiente'?' · amostra insuficiente para comparação com meta':'' )+
       (sample.secureErrors?' · '+sample.secureErrors+' erros com segurança':'' )+
       (sample.insecureCorrect?' · '+sample.insecureCorrect+' acertos inseguros':'' )+
       (subjects?' · '+subjects:'')));
     }
     competitive.append(list);
+   }
+   const weekly=current.independentAssessments.weeklyBySubject||[];
+   competitive.append(el('h4','','Avaliações independentes por semana e matéria'));
+   if(!weekly.length)competitive.append(el('p','results-caption','Sem respostas de avaliação independente por semana e matéria; a amostra competitiva é insuficiente.'));
+   else{
+    const rows=el('div','results-modes-list');
+    for(const item of weekly){
+     const judged=(Number(item.correct)||0)+(Number(item.incorrect)||0);
+     const row=el('div','results-mode-row');
+     row.append(el('strong','results-mode-name',fmtDate(item.week)+' · '+title(item.subjectId)));
+     const accuracy=item.accuracy==null?'Sem respostas julgáveis':item.accuracy+'% de acertos';
+     const net=item.net==null?'pontuação líquida indisponível':item.net+' líquidos ('+item.netPercent+'% do total)';
+     row.append(el('span','results-mode-breakdown',accuracy+' · '+net+' · '+judged+' respostas julgáveis'+
+      (judged<50?' · amostra insuficiente (mínimo 50)':'')));
+     rows.append(row);
+    }
+    competitive.append(rows);
    }
    const milestones=current.independentAssessments.milestones;
    if(Array.isArray(milestones)&&milestones.length){

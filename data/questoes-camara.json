@@ -9292,7 +9292,7 @@
       "reviewStatus": "validada",
       "statement": "Uma empresa com 240 empregados criou uma função interna para facilitar o diálogo no local de trabalho. A diretoria escolheu unilateralmente a pessoa que ocuparia a função e declarou que essa escolha realizava a representação dos empregados prevista na Constituição.\n\nCom base nessa situação, julgue o item a seguir.\n\nA escolha unilateral satisfaz o mecanismo constitucional porque a finalidade da função é promover o entendimento direto.",
       "correctAnswer": "E",
-      "explanation": "**Regra:** em empresa com mais de duzentos empregados, a Constituição assegura a eleição de representante dos empregados para promover entendimento direto com o empregador. **Aplicação:** a diretoria não pode escolher unilateralmente quem ocupará essa representação; a garantia é de eleição pelos empregados. **Pegadinha:** criar um canal interno de diálogo não equivale ao procedimento e à finalidade constitucionais. (Constituição, art. 11.)",
+      "explanation": "**Regra:** empresas com mais de duzentos empregados devem assegurar a eleição de representante dos empregados para promover entendimento direto com o empregador (Constituição, art. 11). **Aplicação:** a empresa tem 240 empregados, mas a diretoria escolheu unilateralmente a pessoa. A escolha não satisfaz a exigência de eleição pelos empregados. **Distinção:** criar um canal de diálogo cumpre a finalidade apenas se também for observado o modo de escolha previsto; indicação patronal não equivale a eleição dos trabalhadores.",
       "reviewEvidence": "Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
       "calibration": {
         "type": "autoral-calibrada",
@@ -25503,7 +25503,7 @@
       },
       "statement": "A aprovação prévia, pelo Senado, de chefe de missão diplomática permanente segue a mesma regra de publicidade da arguição de autoridade prevista no art. 52, III. Por isso, sua arguição deve ser pública.",
       "correctAnswer": "E",
-      "explanation": "O art. 52, IV, prevê procedimento específico, com arguição em sessão secreta. A publicidade prevista no inciso III não se estende a essa escolha.",
+      "explanation": "**Regra:** para algumas autoridades, o Senado faz arguição pública antes de aprovar a escolha por voto secreto (Constituição, art. 52, III). Para chefe de missão diplomática permanente, a arguição ocorre em sessão secreta (art. 52, IV). **Aplicação:** a escolha de diplomata segue o procedimento específico do inciso IV, então não se exige arguição pública. **Distinção:** a votação secreta aparece nos dois incisos; o que muda é a publicidade da arguição.",
       "reviewEvidence": "Conferência com a seção vinculada e a Constituição Federal, art. 52, III e IV. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -27323,7 +27323,7 @@
       },
       "statement": "Não há lei federal sobre uma questão de direito penal. Um estado afirma que, enquanto durar essa situação, pode legislar sobre direito penal com base apenas na sua competência residual.",
       "correctAnswer": "E",
-      "explanation": "A ausência de lei não altera a distribuição da competência legislativa. Direito penal é matéria privativa da União, ressalvada a autorização constitucional por lei complementar para questões específicas, que não se confunde com competência residual.",
+      "explanation": "**Regra:** legislar sobre direito penal é competência privativa da União (Constituição, art. 22, I). Lei complementar pode autorizar os Estados a legislar sobre questões específicas dessas matérias (art. 22, parágrafo único); isso não se confunde com a competência residual estadual (art. 25, § 1º). **Aplicação:** a ausência de lei federal não transfere a competência penal ao Estado. **Distinção:** só a autorização por lei complementar, limitada a questões específicas, permite essa atuação estadual.",
       "reviewEvidence": "Conferência com a seção vinculada e com a Constituição Federal, arts. 22, I e parágrafo único, e 25, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -92258,7 +92258,7 @@
       ],
       "statement": "Dois empresários com recursos suficientes discutem atos ilegais. Um enfrenta ameaça concreta de prisão indevida. O outro quer liberar bem apreendido e não sofre restrição ou ameaça de restrição à liberdade de ir e vir.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO primeiro pode usar habeas corpus preventivo, e o pagamento de custas dessa ação não se torna exigível em razão de sua capacidade econômica.",
       "correctAnswer": "C",
-      "explanation": "O habeas corpus protege a locomoção contra ameaça ou coação ilegal. A gratuidade da ação independe de renda. A insuficiência de recursos diz respeito à assistência jurídica gratuita em outra norma, enquanto o registro civil de nascimento e a certidão de óbito são o objeto específico do inciso LXXVI. Constituição Federal, art. 5º, LXVIII e LXXIV a LXXVII.",
+      "explanation": "**Regra:** habeas corpus protege a liberdade de locomoção contra coação ilegal ou ameaça concreta, e a ação é gratuita independentemente da renda do impetrante (Constituição, art. 5º, LXVIII e LXXVII). A assistência jurídica integral e gratuita a quem comprova insuficiência de recursos é garantia distinta (art. 5º, LXXIV). **Aplicação:** a ameaça de prisão permite ao primeiro empresário buscar habeas corpus preventivo; sua capacidade econômica não gera custas. O segundo quer recuperar um bem e não enfrenta ameaça à locomoção, portanto o habeas corpus não protege esse interesse patrimonial isolado. **Distinção:** cabimento do remédio, gratuidade da ação e assistência jurídica por insuficiência de recursos são questões separadas.",
       "calibration": {
         "type": "autoral-calibrada",
         "mirror": "167_cdns_001_01",
@@ -92295,7 +92295,7 @@
       ],
       "statement": "Um partido não tem representação no Congresso Nacional. Uma associação legalmente constituída atua há dois anos na defesa de seus membros. Um ato administrativo atinge apenas um grupo de associados, todos com direitos fundados na mesma situação provada por documentos. A controvérsia é pertinente às finalidades estatutárias.\n\nConsiderando o caso apresentado, julgue o item a seguir.\n\nO partido carece da condição constitucional de representação, enquanto a associação pode impetrar mandado de segurança coletivo para defender a parte de seus associados atingida.",
       "correctAnswer": "C",
-      "explanation": "O partido precisa ter representação no Congresso Nacional. A associação legalmente constituída e em funcionamento há pelo menos um ano pode defender direito da totalidade ou de parte dos membros, dentro da finalidade estatutária. Ausência de representação partidária e limitação dos beneficiários são requisitos distintos. Constituição Federal, art. 5º, LXX, e Lei nº 12.016/2009, art. 21.",
+      "explanation": "**Regra:** mandado de segurança coletivo pode ser impetrado por partido com representação no Congresso Nacional ou por associação legalmente constituída e em funcionamento há pelo menos um ano, para defender direitos líquidos e certos da totalidade ou de parte de seus associados, dentro da finalidade estatutária (Constituição, art. 5º, LXX; Lei nº 12.016/2009, art. 21). **Aplicação:** o partido descrito não tem a representação exigida; a associação atua há dois anos, e o direito do grupo atingido é documentalmente demonstrável e pertinente ao estatuto. Ela pode defender essa parte dos associados. **Distinção:** o requisito de representação parlamentar vale para o partido; o prazo mínimo de funcionamento vale para a associação.",
       "calibration": {
         "type": "autoral-calibrada",
         "mirror": "167_cdns_001_01",

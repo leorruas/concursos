@@ -1,14 +1,21 @@
 ---
 articleId: art-12e2ffc0c1fe4c6f
 articleAliases: ["3 - Materias/Ingles/ingles.md"]
-title: "Língua inglesa"
+title: "Biblioteca geral — Ingles"
 type: "hub"
 status: "ativo"
 created: 2026-08-31
-updated: 2026-11-05
+updated: 2026-11-27
 ---
 
-# Língua inglesa
+# Biblioteca geral — Ingles
+
+> **Referência transversal; não define o escopo de nenhum concurso.** Para abrir o roteiro correto, escolha um resumo específico:
+
+- [[3 - Materias/Ingles/Resumo Dataprev 2026 - ingles|Dataprev 2026: Língua Inglesa — resumo]]
+- [[3 - Materias/Ingles/Resumo Camara 2026 - ingles|Câmara 2026: Língua Inglesa — resumo]]
+
+
 
 O histórico individual de estudo e desempenho é mantido exclusivamente no repositório privado de dados, fora deste hub público.
 

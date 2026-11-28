@@ -1,14 +1,21 @@
 ---
 articleId: art-82361a9e55874776
 articleAliases: ["3 - Materias/Etica Publica/etica-publica.md"]
-title: "Ética pública"
+title: "Biblioteca geral — Etica Publica"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-27
 ---
 
-# Ética pública
+# Biblioteca geral — Etica Publica
+
+> **Referência transversal; não define o escopo de nenhum concurso.** Para abrir o roteiro correto, escolha um resumo específico:
+
+- [[3 - Materias/Etica Publica/Resumo CGU 2026 - etica-publica|CGU 2026: Ética pública — resumo]]
+- [[3 - Materias/Etica Publica/Resumo Camara 2026 - etica-publica|Câmara 2026: Ética e Decoro Parlamentar — resumo]]
+
+
 
 Fundamentos de ética, deveres profissionais, conflitos de interesses, assédio e cultura de integridade. Este hub organiza o estudo do recorte **P1.3** da Controladoria-Geral da União (CGU) 2026, banca **Cebraspe**, com itens de **Certo ou Errado (C/E)**. É uma rota de aprendizagem que pode apontar para conceitos canônicos de outras matérias sem reproduzir seus textos.
 

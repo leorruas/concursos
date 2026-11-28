@@ -1,14 +1,21 @@
 ---
 articleId: art-383ddf4724f64b80
 articleAliases: ["3 - Materias/Portugues/portugues.md"]
-title: "Língua portuguesa"
+title: "Biblioteca geral — Portugues"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-10-03
+updated: 2026-11-27
 ---
 
-# Língua portuguesa
+# Biblioteca geral — Portugues
+
+> **Referência transversal; não define o escopo de nenhum concurso.** Para abrir o roteiro correto, escolha um resumo específico:
+
+- [[3 - Materias/Portugues/Resumo Dataprev 2026 - portugues|Dataprev 2026: Língua Portuguesa — resumo]]
+- [[3 - Materias/Portugues/Resumo Camara 2026 - portugues|Câmara 2026: Língua Portuguesa — resumo]]
+
+
 
 Mapeamento de tópicos e organização das notas de Língua Portuguesa para concursos.
 

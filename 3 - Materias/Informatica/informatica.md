@@ -1,14 +1,21 @@
 ---
 articleId: art-b60c73bfb6574fe0
 articleAliases: ["3 - Materias/Informatica/informatica.md"]
-title: "Informatica"
+title: "Biblioteca geral — Informatica"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-11-11
+updated: 2026-11-27
 ---
 
-# Informática (Concursos)
+# Biblioteca geral — Informatica
+
+> **Referência transversal; não define o escopo de nenhum concurso.** Para abrir o roteiro correto, escolha um resumo específico:
+
+- [[3 - Materias/Informatica/Resumo Dataprev 2026 - informatica|Dataprev 2026: Legislação de Segurança da Informação e Proteção de Dados — resumo]]
+- [[3 - Materias/Informatica/Resumo Camara 2026 - informatica|Câmara 2026: Tecnologia da Informação e Dados — resumo]]
+
+
 
 ## Estado dos exercícios C/E para Câmara 2026
 

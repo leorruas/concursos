@@ -1,14 +1,21 @@
 ---
 articleId: art-50e0978739874d08
 articleAliases: ["3 - Materias/Estado e Democracia/estado-e-democracia.md"]
-title: "Estado e democracia"
+title: "Biblioteca geral — Estado e Democracia"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-27
 ---
 
-# Estado e democracia
+# Biblioteca geral — Estado e Democracia
+
+> **Referência transversal; não define o escopo de nenhum concurso.** Para abrir o roteiro correto, escolha um resumo específico:
+
+- [[3 - Materias/Estado e Democracia/Resumo CGU 2026 - estado-democracia|CGU 2026: Estado e democracia — resumo]]
+- [[3 - Materias/Estado e Democracia/Resumo Camara 2026 - estado-democracia|Câmara 2026: Ciência Política — resumo]]
+
+
 
 Estado, representação, federalismo, poder público, corrupção e formas de desenvolvimento. Este hub organiza o estudo do recorte **P1.1** da Controladoria-Geral da União (CGU) 2026, banca **Cebraspe**, com itens de **Certo ou Errado (C/E)**. É uma rota de aprendizagem que pode apontar para conceitos canônicos de outras matérias sem reproduzir seus textos.
 

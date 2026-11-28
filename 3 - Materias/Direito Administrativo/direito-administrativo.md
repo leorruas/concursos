@@ -1,14 +1,21 @@
 ---
 articleId: art-4dfddd0b96a7454a
 articleAliases: ["3 - Materias/Direito Administrativo/direito-administrativo.md"]
-title: "Direito administrativo"
+title: "Biblioteca geral — Direito Administrativo"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-11-19
+updated: 2026-11-27
 ---
 
-# Direito administrativo
+# Biblioteca geral — Direito Administrativo
+
+> **Referência transversal; não define o escopo de nenhum concurso.** Para abrir o roteiro correto, escolha um resumo específico:
+
+- [[3 - Materias/Direito Administrativo/Resumo CGU 2026 - direito-administrativo|CGU 2026: Direito Administrativo — resumo]]
+- [[3 - Materias/Direito Administrativo/Resumo Camara 2026 - direito-administrativo|Câmara 2026: Direito Administrativo — resumo]]
+
+
 
 Mapeamento de tópicos e organização das notas de Direito Administrativo para concursos.
 

@@ -6,6 +6,8 @@ import assert from 'node:assert/strict';
 
 const catalogo = resolveCatalog(JSON.parse(fs.readFileSync(new URL('../data/catalogo-materias-por-concurso.json', import.meta.url))), articleInventory(fileURLToPath(new URL('..', import.meta.url))));
 const concursos = JSON.parse(fs.readFileSync(new URL('../data/concursos.json', import.meta.url)));
+const hubsPorConcurso = catalogo.contests.flatMap(c => c.subjects.map(s => s.hubSourcePath));
+assert.equal(new Set(hubsPorConcurso).size, hubsPorConcurso.length, 'cada matéria/concurso deve abrir um resumo próprio');
 const artigos=[];
 const paths=new Set();
 for (const c of catalogo.contests) for(const s of c.subjects) {
@@ -47,7 +49,7 @@ assert.equal(ctx.obterArtigosDaMateria(materia).length,0,'Dataprev sem avaliaç�
 const comunicacao='Comunicacao';
 const dp=ctx.obterArtigosDaMateria(comunicacao);
 assert.ok(dp.length>20,'Dataprev: comunicação possui artigos especializados');
-assert.equal(dp[0].sourcePath,'3 - Materias/Comunicacao/comunicacao.md','hub preservado');
+assert.equal(dp[0].sourcePath,'3 - Materias/Comunicacao/Resumo Dataprev 2026 - comunicacao.md','resumo exclusivo da Dataprev primeiro');
 ctx.concursoSelecionadoId='camara-2026';
 const cam=ctx.obterArtigosDaMateria(comunicacao);
 const camSubject=catalogo.contests.find(c=>c.concursoId==='camara-2026').subjects.find(s=>s.subjectId==='comunicacao');
@@ -73,7 +75,7 @@ inglesSubject.articleSourcePaths=[];
 try {
   const unico=ctx.obterArtigosDaMateria('Ingles');
   assert.equal(unico.length,1,'matéria sem artigos próprios conserva o hub');
-  assert.ok(unico[0].sourcePath.endsWith('/ingles.md'),'hub isolado preservado');
+  assert.ok(unico[0].sourcePath.endsWith('/Resumo Camara 2026 - ingles.md'),'resumo da Câmara isolado preservado');
 } finally {
   inglesSubject.articleSourcePaths=originaisIngles;
 }

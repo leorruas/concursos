@@ -1,14 +1,21 @@
 ---
 articleId: art-c5912e71806e4f06
 articleAliases: ["3 - Materias/Comunicacao/comunicacao.md"]
-title: "Comunicação social"
+title: "Biblioteca geral — Comunicacao"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-11-06
+updated: 2026-11-27
 ---
 
-# Comunicação (Concursos)
+# Biblioteca geral — Comunicacao
+
+> **Referência transversal; não define o escopo de nenhum concurso.** Para abrir o roteiro correto, escolha um resumo específico:
+
+- [[3 - Materias/Comunicacao/Resumo Dataprev 2026 - comunicacao|Dataprev 2026: Comunicação Social: Perfil 9 — resumo]]
+- [[3 - Materias/Comunicacao/Resumo Camara 2026 - comunicacao|Câmara 2026: Comunicação Social e Divulgação Institucional — resumo]]
+
+
 
 ## Avanços e Metodologia
 - **Progresso individual: registros mantidos no cofre privado de estudos**

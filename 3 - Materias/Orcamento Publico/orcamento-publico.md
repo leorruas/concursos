@@ -1,14 +1,21 @@
 ---
 articleId: art-61a554a75c574053
 articleAliases: ["3 - Materias/Orcamento Publico/orcamento-publico.md"]
-title: "Orçamento Público"
+title: "Biblioteca geral — Orcamento Publico"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-07
+updated: 2026-11-27
 ---
 
-# Orçamento Público
+# Biblioteca geral — Orcamento Publico
+
+> **Referência transversal; não define o escopo de nenhum concurso.** Para abrir o roteiro correto, escolha um resumo específico:
+
+- [[3 - Materias/Orcamento Publico/Resumo CGU 2026 - orcamento-publico|CGU 2026: Orçamento Público — resumo]]
+- [[3 - Materias/Orcamento Publico/Resumo Camara 2026 - orcamento-publico|Câmara 2026: Orçamento Público — resumo]]
+
+
 
 Matéria de planejamento e execução orçamentária, receita, despesa e responsabilidade fiscal. O percurso abaixo preserva a biblioteca histórica e os links antigos. As ordens didáticas e a certificação dos artigos são definidas nos roteiros específicos de CGU 2026 e Câmara 2026, sem transferência automática de resultados entre concursos.
 

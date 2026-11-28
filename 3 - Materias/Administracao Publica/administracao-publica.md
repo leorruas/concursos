@@ -1,14 +1,21 @@
 ---
 articleId: art-5ea2f1457821480d
 articleAliases: ["3 - Materias/Administracao Publica/administracao-publica.md"]
-title: "Administração pública"
+title: "Biblioteca geral — Administracao Publica"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-11-04
+updated: 2026-11-27
 ---
 
-# Administração pública
+# Biblioteca geral — Administracao Publica
+
+> **Referência transversal; não define o escopo de nenhum concurso.** Para abrir o roteiro correto, escolha um resumo específico:
+
+- [[3 - Materias/Administracao Publica/Resumo CGU 2026 - administracao-publica|CGU 2026: Administração Pública — resumo]]
+- [[3 - Materias/Administracao Publica/Resumo Camara 2026 - administracao-publica|Câmara 2026: Administração Pública — resumo]]
+
+
 
 Mapeamento de tópicos e organização das notas de Administração Pública para concursos.
 

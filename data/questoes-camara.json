@@ -7775,12 +7775,8 @@
       "statement": "Uma CPI da Câmara atuou regularmente durante o recesso. Perto do fim dos 120 dias iniciais, o próprio colegiado aprovou pedido de mais 35 dias. O Plenário ainda não deliberou sobre o pedido.\n\nCom base nessa situação, julgue o item a seguir.\n\nO colegiado já prorrogou validamente o prazo porque atua também no recesso e pediu menos de 60 dias adicionais.",
       "correctAnswer": "E",
       "explanation": "**Regra:** a CPI da Câmara pode funcionar durante o recesso, mas sua prorrogação depende de deliberação do Plenário e não pode exceder metade do prazo original. Para 120 dias, o limite adicional é 60 dias (RICD, art. 35, § 3º). **Aplicação:** os 35 dias estão dentro do limite, mas a aprovação apenas pelo colegiado não basta: falta a deliberação do Plenário. **Pegadinha:** o fato de a comissão funcionar no recesso não substitui o requisito de aprovação da prorrogação.",
-      "reviewEvidence": "RICD, art. 35, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "RICD, art. 35, § 3º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -7808,12 +7804,8 @@
       "statement": "Uma empresa tem exatamente duzentos empregados e pretende criar canal de diálogo. O sindicato afirmou que o número já torna obrigatória a aplicação do mecanismo constitucional de eleição de representante na empresa.\n\nCom base nessa situação, julgue o item a seguir.\n\nO número indicado atinge o limiar do art. 11 e aciona por si só o direito constitucional ali previsto.",
       "correctAnswer": "E",
       "explanation": "**Regra:** o art. 11 assegura a eleição de representante em empresa com mais de duzentos empregados. **Aplicação:** exatamente duzentos não é “mais de duzentos”, então o limite constitucional ainda não foi alcançado. **Pegadinha:** um empregado a menos ou a mais pode mudar a incidência; outros canais de diálogo podem existir, mas não decorrem automaticamente dessa regra específica. (Constituição, art. 11.)",
-      "reviewEvidence": "Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -7841,12 +7833,8 @@
       "statement": "Ao votar em comissão, um deputado declarou que acompanhava o parecer, ressalvados pontos que mencionara reservadamente a seu assessor. Sem indicar a divergência durante a deliberação, pediu que o voto fosse registrado como restrito.\n\nCom base nessa situação, julgue o item a seguir.\n\nPara aplicar a regra regimental sobre voto com restrição, a comissão pode computar esse voto como integralmente favorável, pois o deputado não indicou a divergência.",
       "correctAnswer": "C",
       "explanation": "**Regra:** o membro da comissão pode acompanhar o parecer com restrição, mas precisa dizer claramente em que consiste a divergência. Se não especificar, o Regimento manda computar o voto como integralmente favorável. **Aplicação:** mencionar que havia divergência em conversa reservada não informa ao colegiado qual ponto foi ressalvado; por isso, o voto recebe o tratamento favorável integral. **Pegadinha:** a divergência precisa ser explicitada na deliberação, não apenas existir na intenção do parlamentar. (RICD, art. 57, XV.)",
-      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -7874,12 +7862,8 @@
       "statement": "Uma deputada declarou que acompanhava a conclusão do parecer, mas divergia de um fundamento específico. Ela identificou o fundamento e explicou a divergência ao colegiado. A secretaria propôs apagar a ressalva por entender que o resultado final continuava favorável.\n\nCom base nessa situação, julgue o item a seguir.\n\nA regra que trata como integralmente favorável o voto com restrição não explicada autoriza eliminar a ressalva registrada pela deputada.",
       "correctAnswer": "E",
       "explanation": "**Regra:** a consequência de considerar o voto integralmente favorável só ocorre quando o parlamentar não explica em que consiste sua restrição. **Aplicação:** a deputada indicou o fundamento específico e explicou a divergência; logo, a regra da ressalva não especificada não autoriza apagar o registro. **Distinção:** acompanhar a conclusão do parecer não significa concordar com todos os fundamentos. O Regimento permite registrar a restrição quando ela é explicitada. (RICD, art. 57, XV.)",
-      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -7907,12 +7891,8 @@
       "statement": "Um prefeito decidiu concorrer ao cargo de governador. Sete meses antes do pleito, afastou-se em licença com substituição pelo vice, mas conservou o mandato. Ele sustentou que a antecedência do afastamento já atendia à exigência constitucional.\n\nCom base nessa situação, julgue o item a seguir.\n\nA licença concedida sete meses antes do pleito equivale à renúncia exigida para concorrer a outro cargo.",
       "correctAnswer": "E",
       "explanation": "**Regra:** Presidente, governador ou prefeito que pretende concorrer a outro cargo deve renunciar ao mandato até seis meses antes do pleito (Constituição, art. 14, § 6º). **Aplicação:** o prefeito se licenciou, mas continua titular do mandato; licença afasta temporariamente do exercício, não extingue o cargo. A antecedência de sete meses não substitui a renúncia exigida. **Pegadinha:** o texto exige renúncia, não mero afastamento.",
-      "reviewEvidence": "Constituição Federal, art. 14, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 14, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -7935,12 +7915,8 @@
       "statement": "Um tribunal com vinte julgadores e sem órgão especial submeteu ao Plenário a declaração de inconstitucionalidade de uma lei. Dezesseis julgadores participaram. Dez votaram pela declaração e seis pela rejeição da arguição.\n\nCom base nessa situação, julgue o item a seguir.\n\nApesar da maioria entre os presentes, a declaração não alcançou o quórum constitucional.",
       "correctAnswer": "C",
       "explanation": "**Regra:** declarar a inconstitucionalidade exige maioria absoluta dos membros do tribunal ou do órgão especial competente, e não apenas maioria dos presentes. **Aplicação:** em tribunal com 20 julgadores, são necessários 11 votos; os 10 favoráveis são exatamente metade e não bastam, embora tenham vencido entre os 16 presentes. **Pegadinha:** calcule sobre a composição total do órgão competente. (Constituição, art. 97.)",
-      "reviewEvidence": "Constituição Federal, art. 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -7968,12 +7944,8 @@
       "statement": "Um tribunal com trinta e cinco julgadores constituiu regularmente órgão especial de dezessete membros, com atribuição para decidir arguição de inconstitucionalidade. Participaram quatorze membros, e nove votaram pela declaração de inconstitucionalidade.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs nove votos satisfazem o requisito da reserva de plenário nesse órgão especial.",
       "correctAnswer": "C",
       "explanation": "**Regra:** quando a questão é decidida por órgão especial competente, a maioria absoluta é calculada sobre os membros desse órgão, não sobre todos os integrantes do tribunal. **Aplicação:** o órgão especial tem 17 membros; mais da metade são 9 votos. Os nove favoráveis atingem o quórum, embora nem todos os 17 tenham participado. **Distinção:** verifique qual órgão recebeu competência para decidir antes de fazer a conta. (Constituição, arts. 93, XI, e 97.)",
-      "reviewEvidence": "Constituição Federal, arts. 93, XI, e 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, arts. 93, XI, e 97. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -8001,12 +7973,8 @@
       "statement": "Depois de aprovada em dois turnos nas duas Casas, uma PEC foi encaminhada para promulgação. Como o texto partiu de proposta de senadores e a última votação ocorreu no Senado, sua Mesa planejou assinar a promulgação sozinha.\n\nCom base nessa situação, julgue o item a seguir.\n\nA Mesa do Senado pode promulgar sozinha a emenda porque a iniciativa e a última votação se deram no Senado.",
       "correctAnswer": "E",
       "explanation": "**Regra:** aprovada a PEC nas duas Casas, a promulgação é feita pelas Mesas da Câmara dos Deputados e do Senado Federal, em conjunto, com o respectivo número de ordem. **Aplicação:** a Mesa do Senado não pode promulgar sozinha. **O que não altera a regra:** nem a Casa de origem da proposta nem o local da última votação mudam a competência conjunta. **Distinção:** a promulgação de emenda não depende de sanção presidencial. (Constituição, art. 60, § 3º.)",
-      "reviewEvidence": "Constituição Federal, art. 60, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 60, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -8260,12 +8228,8 @@
       "statement": "A Câmara Legislativa do Distrito Federal votou o projeto de sua lei orgânica em dois turnos com vinte votos favoráveis em cada um, num total de 24 membros. O segundo turno ocorreu oito dias depois do primeiro.\n\nCom base nessa situação, julgue o item a seguir.\n\nA votação atingiu dois terços, mas faltou requisito constitucional para a aprovação porque o intervalo entre os turnos foi insuficiente.",
       "correctAnswer": "C",
       "explanation": "**Regra:** o art. 32 da Constituição exige três condições cumulativas para a Lei Orgânica do DF: dois turnos, intervalo mínimo de dez dias e voto favorável de dois terços dos membros da Câmara Legislativa. **Aplicação:** com 24 deputados distritais, dois terços correspondem a 16 votos; os 20 votos satisfazem o quórum. Mas o segundo turno ocorreu após apenas oito dias, abaixo do intervalo constitucional. Portanto, o procedimento não cumpriu todos os requisitos. **Pegadinha:** quórum e interstício são exigências diferentes; cumprir uma não corrige a falta da outra. (Constituição, art. 32, caput.)",
-      "reviewEvidence": "Constituição Federal, art. 32, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 32, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -8293,12 +8257,8 @@
       "statement": "A Câmara Legislativa do Distrito Federal aprovou a lei orgânica em dois turnos, com interstício mínimo de dez dias e pelo menos dois terços dos membros em cada turno. Ao fim, a secretaria propôs encaminhar o texto ao governador para sanção.\n\nCom base nessa situação, julgue o item a seguir.\n\nA promulgação depende de sanção do governador porque a votação parlamentar apenas aprova o texto.",
       "correctAnswer": "E",
       "explanation": "**Regra:** a Lei Orgânica do Distrito Federal é votada em dois turnos, com intervalo mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Legislativa. A própria Câmara Legislativa a promulga. **Aplicação:** embora o texto tenha sido aprovado, não deve ser enviado ao governador para sanção; essa etapa não integra o rito previsto no art. 32. **Distinção:** promulgação é o ato que atesta a existência da norma; sanção é a participação do chefe do Executivo no processo legislativo comum. A Lei Orgânica do DF segue procedimento próprio de auto-organização. (Constituição, art. 32, caput.)",
-      "reviewEvidence": "Constituição Federal, art. 32, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 32, caput. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -8326,12 +8286,8 @@
       "statement": "Em hipótese constitucional de intervenção federal, o decreto fixou a área atingida e as medidas a executar. Nomeou interventor e foi remetido ao Congresso no prazo aplicável. Contudo, deixou de indicar o prazo da medida e não se trata de hipótese que dispense a apreciação parlamentar.\n\nCom base nessa situação, julgue o item a seguir.\n\nA nomeação do interventor e a remessa tempestiva não suprem a falta de indicação do prazo.",
       "correctAnswer": "C",
       "explanation": "**Regra:** o decreto de intervenção deve indicar a amplitude, o prazo e as condições de execução; a nomeação de interventor ocorre “se couber”. Na intervenção federal, o decreto é submetido ao Congresso em até 24 horas. A apreciação só pode ser dispensada nas hipóteses do art. 34, VI ou VII, quando a suspensão do ato impugnado bastar para restabelecer a normalidade. **Aplicação:** o caso afasta essa exceção, mas o prazo continua sendo elemento obrigatório do decreto. Nomear interventor e remeter o ato tempestivamente não corrige a omissão. **Distinção:** os requisitos do decreto e o controle parlamentar são questões separadas. (Constituição, art. 36, §§ 1º e 3º.)",
-      "reviewEvidence": "Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -8359,12 +8315,8 @@
       "statement": "Em uma intervenção federal cuja forma de execução não exige nomear interventor, o decreto indicou amplitude, prazo e condições de execução e foi remetido tempestivamente ao Congresso. Um parlamentar alegou que a omissão do nome do interventor invalida toda intervenção.\n\nCom base nessa situação, julgue o item a seguir.\n\nA ausência de nomeação torna o decreto inválido mesmo quando a hipótese dispensa interventor.",
       "correctAnswer": "E",
       "explanation": "**Regra:** o decreto deve indicar amplitude, prazo e condições de execução; a nomeação de interventor é exigida apenas se couber. **Aplicação:** a hipótese informa que não é necessário nomear interventor e que os demais elementos foram incluídos, então a ausência de um nome não invalida, por si só, a intervenção. **Pegadinha:** “se couber” qualifica o interventor, não os elementos obrigatórios do decreto. (Constituição, art. 36, § 1º.)",
-      "reviewEvidence": "Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 36, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -8392,12 +8344,8 @@
       "statement": "A Câmara dos Deputados decidiu fiscalizar atos de uma autarquia federal do Poder Executivo. O órgão alegou que apenas sessão conjunta do Congresso poderia deliberar sobre o exercício dessa competência, pois a entidade possui personalidade própria.\n\nCom base nessa situação, julgue o item a seguir.\n\nA personalidade da autarquia não impede o controle pela Câmara no exercício da competência constitucional de fiscalizar atos do Executivo.",
       "correctAnswer": "C",
       "explanation": "**Regra:** o Congresso e cada uma de suas Casas podem fiscalizar e controlar os atos do Poder Executivo, inclusive os da administração indireta. **Aplicação:** autarquia federal integra a administração indireta; a Câmara pode exercer o controle sem depender de uma deliberação do Congresso em sessão conjunta. **Pegadinha:** personalidade jurídica própria não exclui a entidade do alcance constitucional. (Constituição, art. 49, X.)",
-      "reviewEvidence": "Constituição Federal, art. 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -8425,12 +8373,8 @@
       "statement": "A Câmara fiscalizou gastos de uma empresa pública federal vinculada ao Executivo. Depois de obter os dados, uma unidade da Casa pretendeu substituir a diretoria da empresa na decisão cotidiana sobre qual fornecedor contratar em procedimento regular, invocando apenas a competência de fiscalização.\n\nCom base nessa situação, julgue o item a seguir.\n\nA competência de fiscalizar atos da Administração indireta autoriza a unidade da Câmara a substituir a diretoria na escolha do fornecedor.",
       "correctAnswer": "E",
       "explanation": "**Regra:** o Congresso e suas Casas podem fiscalizar atos do Executivo, inclusive de empresas estatais e outras entidades da administração indireta. Essa fiscalização não transforma o Legislativo em gestor da entidade. **Aplicação:** a Câmara pode examinar despesas e regularidade do contrato, mas não substituir a diretoria na escolha cotidiana do fornecedor. **Distinção:** controle institucional verifica a atuação; gestão executa decisões administrativas. (Constituição, arts. 2º e 49, X.)",
-      "reviewEvidence": "Constituição Federal, arts. 2º e 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, arts. 2º e 49, X. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -8656,12 +8600,8 @@
       "statement": "Após realizar audiência sobre gastos com obras federais, uma comissão da Câmara aprovou solicitação ao TCU pelos resultados de uma inspeção já realizada. A secretaria consultou se deveria submeter o pedido à Mesa antes de dirigi-lo ao Tribunal.\n\nCom base nessa situação, julgue o item a seguir.\n\nA Constituição inclui a própria comissão entre os órgãos que podem solicitar ao TCU essas informações, sem impor encaminhamento pela Mesa.",
       "correctAnswer": "C",
       "explanation": "**Regra:** o art. 71, VII, permite que o Congresso, suas Casas ou comissões solicitem ao TCU informações sobre fiscalizações e auditorias. **Aplicação:** a comissão pede resultados de uma inspeção que o Tribunal já realizou; trata-se justamente de informação prevista no dispositivo, e a Constituição não exige que a Mesa intermedeie esse pedido. **Distinção:** a comissão pode solicitar informação ao TCU por sua competência fiscalizatória. O pedido escrito a ministro de Estado segue outra regra: o art. 50, § 2º, determina encaminhamento pela Mesa da Casa. (Constituição, arts. 50, § 2º, e 71, VII.)",
-      "reviewEvidence": "Constituição Federal, arts. 50, § 2º, e 71, VII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, arts. 50, § 2º, e 71, VII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -8717,12 +8657,8 @@
       "statement": "Em três trimestres, comissões solicitaram e receberam informações específicas do TCU sobre auditorias de obras. No trimestre seguinte não houve solicitações. O Tribunal discutiu se deveria suspender o envio de seu relatório de atividades ao Congresso até que alguma comissão o pedisse.\n\nCom base nessa situação, julgue o item a seguir.\n\nO encaminhamento do relatório trimestral decorre de dever próprio e independe de solicitação de comissão.",
       "correctAnswer": "C",
       "explanation": "**Regra:** além de responder a pedidos específicos de informação, o TCU deve enviar espontaneamente relatórios trimestrais e anuais de suas atividades ao Congresso. **Aplicação:** a falta de pedidos no trimestre seguinte não suspende o relatório periódico. **Pegadinha:** não confunda respostas a solicitações específicas (art. 71, VII) com prestação periódica de contas das atividades do Tribunal (§ 4º).",
-      "reviewEvidence": "Constituição Federal, art. 71, VII e § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 71, VII e § 4º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -8750,12 +8686,8 @@
       "statement": "Um empresário questionou por habeas corpus a retenção ilegal de seu passaporte, alegando ameaça concreta à liberdade de locomoção. Antes de examinar o pedido, a serventia exigiu guia de custas porque ele não comprovou insuficiência de recursos.\n\nCom base nessa situação, julgue o item a seguir.\n\nA ausência de prova de insuficiência de recursos não justifica cobrar custas pelo ajuizamento do habeas corpus.",
       "correctAnswer": "C",
       "explanation": "**Regra:** habeas corpus é ação gratuita por garantia constitucional; não é preciso provar pobreza ou insuficiência financeira. **Aplicação:** a retenção ilegal do passaporte pode ameaçar a liberdade de locomoção, e a cobrança de custas não pode depender de declaração de renda. **Distinção:** a gratuidade do instrumento e o cabimento do habeas corpus são perguntas separadas: é preciso haver ameaça ou restrição à locomoção para o remédio caber. (Constituição, art. 5º, LXVIII e LXXVII.)",
-      "reviewEvidence": "Constituição Federal, art. 5º, LXVIII e LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 5º, LXVIII e LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -8783,12 +8715,8 @@
       "statement": "Uma pessoa assistida por advogado particular impetrou habeas corpus contra prisão que considerava ilegal. O órgão judicial condicionou o processamento ao pagamento de custas porque a contratação do advogado indicaria capacidade financeira.\n\nCom base nessa situação, julgue o item a seguir.\n\nA contratação de advogado particular afasta a gratuidade constitucional do habeas corpus se o impetrante puder pagar as custas.",
       "correctAnswer": "E",
       "explanation": "**Regra:** a ação de habeas corpus é gratuita, sem condição econômica. **Aplicação:** contratar advogado particular não autoriza cobrar custas judiciais nem afasta a gratuidade constitucional. **Distinção:** honorários são a remuneração ajustada com o profissional; custas são valores processuais devidos ao Estado. Uma coisa não cria a outra. (Constituição, art. 5º, LXXVII.)",
-      "reviewEvidence": "Constituição Federal, art. 5º, LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 5º, LXXVII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9108,12 +9036,8 @@
       "statement": "As comissões rejeitaram conclusivamente a matéria que lhes foi submetida. Houve recurso regularmente apresentado para que o Plenário examinasse a matéria. Ao decidir sobre o recurso, o Plenário não lhe deu provimento. A secretaria propôs enviar o projeto rejeitado à redação final.\n\nCom base nessa situação, julgue o item a seguir.\n\nO envio à redação final é devido porque todo recurso improvido preserva um texto a ser redigido.",
       "correctAnswer": "E",
       "explanation": "**Regra:** quando as comissões rejeitam uma proposição conclusivamente, cabe recurso para levar a matéria ao Plenário. Se o Plenário não dá provimento ao recurso, mantém o resultado anterior. **Aplicação:** como o resultado das comissões foi rejeição, a proposição permanece rejeitada e deve ser arquivada; não há texto aprovado para encaminhar à redação final. **Distinção:** redação final serve para ajustar a forma do texto aprovado, não para preparar texto de projeto rejeitado. (RICD, art. 58, § 4º.)",
-      "reviewEvidence": "RICD, art. 58, § 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "RICD, art. 58, § 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9169,12 +9093,8 @@
       "statement": "Uma inundação interrompeu o atendimento em prédios administrativos federais em ano eleitoral. Uma medida provisória trata somente de procedimentos administrativos de manutenção e de retomada do atendimento; seu texto não altera regras de campanha, eleição, mandato nem partidos.\n\nCom base nessa situação, julgue o item a seguir.\n\nA adoção no ano eleitoral, por si só, não faz incidir a vedação de medida provisória sobre direito eleitoral.",
       "correctAnswer": "C",
       "explanation": "**Regra:** a vedação do art. 62, § 1º, I, a, alcança medidas provisórias sobre direito eleitoral. **Aplicação:** o conteúdo descrito disciplina manutenção de prédios e retomada de atendimento administrativo, sem alterar regras eleitorais; o fato de a medida ser editada em ano eleitoral, sozinho, não muda a natureza da matéria. **Limite:** isso afasta apenas a vedação específica de direito eleitoral. A medida ainda precisa atender relevância e urgência e não pode incidir em outras matérias constitucionalmente vedadas. (Constituição, art. 62, caput e § 1º.)",
-      "reviewEvidence": "Constituição Federal, art. 62, caput e § 1º, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 62, caput e § 1º, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9202,12 +9122,8 @@
       "statement": "Um deputado recebeu de uma servidora documentos relacionados à fiscalização de uma política pública em comissão. Em processo judicial, foi convocado como testemunha para identificar quem lhe confiou esses documentos e explicar as informações recebidas na atividade parlamentar.\n\nCom base nessa situação, julgue o item a seguir.\n\nA garantia constitucional permite que o deputado se recuse a testemunhar quanto ao conteúdo e à identidade da fonte, dadas as circunstâncias narradas.",
       "correctAnswer": "C",
       "explanation": "**Regra:** o art. 53, § 6º, protege o parlamentar quando chamado como testemunha sobre informações recebidas ou prestadas em razão do mandato. A proteção alcança também as pessoas que confiaram as informações ou as receberam do parlamentar. **Aplicação:** como os documentos foram entregues durante fiscalização parlamentar, há o vínculo funcional exigido; a deputada pode invocar a prerrogativa tanto quanto ao conteúdo protegido quanto à identidade da fonte. **Limite:** a regra não é uma dispensa geral de testemunhar sobre qualquer fato da vida privada. (Constituição, art. 53, § 6º.)",
-      "reviewEvidence": "Constituição Federal, art. 53, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 53, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9235,12 +9151,8 @@
       "statement": "Uma senadora presenciou um acidente no prédio em que mora. Foi chamada a testemunhar sobre o que viu como moradora, e o depoimento não envolve informações recebidas ou prestadas no exercício do mandato nem identificação de fonte parlamentar.\n\nCom base nessa situação, julgue o item a seguir.\n\nA condição de senadora, por si só, assegura a recusa ao testemunho com base na proteção constitucional às informações do mandato.",
       "correctAnswer": "E",
       "explanation": "**Regra:** a prerrogativa do art. 53, § 6º, alcança informações recebidas ou prestadas em razão do mandato e as pessoas ligadas à sua comunicação. **Aplicação:** o acidente foi presenciado em contexto privado, sem relação com a atividade parlamentar; por isso, o cargo de senadora, isoladamente, não permite recusar esse testemunho com base nesse dispositivo. **Pegadinha:** a garantia protege a função parlamentar, não cria imunidade testemunhal para qualquer assunto. (Constituição, art. 53, § 6º.)",
-      "reviewEvidence": "Constituição Federal, art. 53, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 53, § 6º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9268,12 +9180,8 @@
       "statement": "Uma empresa com 240 empregados criou uma função interna para facilitar o diálogo no local de trabalho. A diretoria escolheu unilateralmente a pessoa que ocuparia a função e declarou que essa escolha realizava a representação dos empregados prevista na Constituição.\n\nCom base nessa situação, julgue o item a seguir.\n\nA escolha unilateral satisfaz o mecanismo constitucional porque a finalidade da função é promover o entendimento direto.",
       "correctAnswer": "E",
       "explanation": "**Regra:** empresas com mais de duzentos empregados devem assegurar a eleição de representante dos empregados para promover entendimento direto com o empregador (Constituição, art. 11). **Aplicação:** a empresa tem 240 empregados, mas a diretoria escolheu unilateralmente a pessoa. A escolha não satisfaz a exigência de eleição pelos empregados. **Distinção:** criar um canal de diálogo cumpre a finalidade apenas se também for observado o modo de escolha previsto; indicação patronal não equivale a eleição dos trabalhadores.",
-      "reviewEvidence": "Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9301,12 +9209,8 @@
       "statement": "Em uma empresa com 230 empregados, os trabalhadores elegeram uma representante para encaminhar questões de organização do trabalho diretamente ao empregador. Em razão da eleição, a direção pretende dispensar a participação sindical nas futuras negociações coletivas de trabalho.\n\nCom base nessa situação, julgue o item a seguir.\n\nA eleição assegura um canal de entendimento direto, mas não dispensa a participação sindical nas negociações coletivas.",
       "correctAnswer": "C",
       "explanation": "**Regra:** o representante eleito pelo art. 11 promove entendimento direto dos empregados com o empregador. Essa função não elimina a participação sindical nas negociações coletivas, exigida pelo art. 8º, VI. **Aplicação:** a eleição da representante não autoriza a empresa a dispensar o sindicato em negociações coletivas. **Distinção:** diálogo direto na empresa e representação sindical coletiva são papéis diferentes. (Constituição, arts. 8º, VI, e 11.)",
-      "reviewEvidence": "Constituição Federal, arts. 8º, VI, e 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, arts. 8º, VI, e 11. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9626,12 +9530,8 @@
       "statement": "Ao votar em comissão, uma deputada disse que acompanhava o parecer com restrição e indicou a passagem do relatório com a qual discordava, além de explicar a divergência. Na ata, a secretaria registrou o voto como integralmente favorável com base na regra aplicável à falta de especificação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA regra invocada pela secretaria autoriza desconsiderar a restrição que a deputada explicitou.",
       "correctAnswer": "E",
       "explanation": "**Regra:** o efeito de contar o voto como favorável integralmente se limita à falta de indicação da divergência. **Aplicação:** a deputada apontou a passagem contestada e explicou a ressalva; a secretaria não pode usar essa regra para eliminar o registro. **Contraste:** uma declaração genérica de voto “com restrições”, sem explicar quais são, seria tratada como voto favorável integral. A indicação concreta preserva o sentido restrito. (RICD, art. 57, XV.)",
-      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9659,12 +9559,8 @@
       "statement": "Em sessão deliberativa do Plenário da Câmara, uma votação ostensiva não eleitoral terminou empatada. O presidente da sessão declarou que se abstinha de desempatar. O substituto regimental estava presente e pronto para atuar.\n\nCom base nessa situação, julgue o item a seguir.\n\nCabe ao substituto regimental desempatar naquela votação.",
       "correctAnswer": "C",
       "explanation": "**Regra:** se houver empate em votação ostensiva, cabe ao presidente desempatar. Se ele declarar que se abstém de exercer essa atribuição, o substituto regimental vota para desempatar, conforme o art. 180, §§ 4º e 5º, do RICD. **Aplicação:** a condição prevista aconteceu: o presidente se absteve e o substituto está presente. Cabe, portanto, ao substituto decidir o empate. **Distinção:** a regra do substituto só é acionada após a abstenção do presidente; ela não autoriza dois votos sucessivos nem substitui a votação original. (RICD, art. 180, §§ 4º e 5º.)",
-      "reviewEvidence": "RICD, art. 180, §§ 4º e 5º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "RICD, art. 180, §§ 4º e 5º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9720,12 +9616,8 @@
       "statement": "Para uma vaga do terço presidencial no TCU, reservada a membro do Ministério Público junto ao Tribunal, o TCU formou lista tríplice segundo os critérios constitucionais. O presidente escolheu um dos nomes. A assessoria alegou que a lista permitia concluir a escolha sem submetê-la ao Senado.\n\nCom base nessa situação, julgue o item a seguir.\n\nA lista tríplice torna dispensável a aprovação do Senado nessa vaga reservada.",
       "correctAnswer": "E",
       "explanation": "**Regra:** um terço dos ministros do TCU é escolhido pelo Presidente da República, mas todas essas escolhas dependem de aprovação do Senado (Constituição, arts. 52, III, b, e 73, § 2º, I). Para as vagas reservadas às carreiras de auditor e do Ministério Público junto ao Tribunal, o TCU organiza lista tríplice e o presidente escolhe um nome. **Aplicação:** a lista define os candidatos elegíveis à vaga reservada, mas não elimina a aprovação senatorial. **Pegadinha:** são etapas cumulativas, com funções diferentes. (Constituição, arts. 52, III, b, e 73, § 2º, I.)",
-      "reviewEvidence": "Constituição Federal, arts. 52, III, b, e 73, § 2º, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, arts. 52, III, b, e 73, § 2º, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9753,12 +9645,8 @@
       "statement": "Uma vaga do terço de escolha presidencial no TCU não se enquadra nas duas vagas reservadas alternadamente às carreiras indicadas na Constituição. O presidente escolheu um candidato que satisfaz os requisitos constitucionais. Um parecer sustenta que o Senado só atua nas vagas de lista tríplice.\n\nCom base nessa situação, julgue o item a seguir.\n\nMesmo sem a lista tríplice aplicável às vagas reservadas, a escolha presidencial para essa vaga exige aprovação do Senado.",
       "correctAnswer": "C",
       "explanation": "**Regra:** as três vagas do TCU escolhidas pelo Presidente da República, dentro do terço presidencial, dependem de aprovação do Senado. Duas vagas são reservadas alternadamente a auditor e membro do Ministério Público junto ao TCU e exigem lista tríplice; a terceira não se submete a essa lista (Constituição, art. 73, § 2º, I). **Aplicação:** mesmo fora das vagas reservadas, a indicação presidencial ainda precisa da aprovação do Senado. **Distinção:** a lista é exigência adicional de certas vagas; a aprovação senatorial alcança todas as escolhas presidenciais. (Constituição, arts. 52, III, b, e 73, § 2º, I.)",
-      "reviewEvidence": "Constituição Federal, arts. 52, III, b, e 73, § 2º, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, arts. 52, III, b, e 73, § 2º, I. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9786,12 +9674,8 @@
       "statement": "Em caso de crime de responsabilidade do presidente da República, 341 dos 513 deputados votaram a favor da autorização para instaurar o processo. Um grupo de senadores sustentou que a Casa revisora poderia completar a autorização com seu próprio quórum de dois terços.\n\nCom base nessa situação, julgue o item a seguir.\n\nO Senado pode suprir o voto faltante na autorização da Câmara, desde que reúna pelo menos dois terços de seus membros.",
       "correctAnswer": "E",
       "explanation": "**Regra:** cabe à Câmara autorizar a instauração de processo contra o Presidente da República por dois terços de seus membros. Com 513 deputados, são necessários 342 votos. **Aplicação:** 341 votos não alcançam esse quórum. O Senado não pode somar votos próprios para completar a autorização da Câmara; sua função constitucional vem depois, no processamento e julgamento. **Pegadinha:** cada Casa delibera em fase e competência próprias. (Constituição, arts. 51, I, e 52, I.)",
-      "reviewEvidence": "Constituição Federal, arts. 51, I, e 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, arts. 51, I, e 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -9819,12 +9703,8 @@
       "statement": "Com 343 votos favoráveis, a Câmara autorizou a instauração de processo por crime de responsabilidade do presidente da República. O Senado conduziu o julgamento e 54 dos 81 senadores votaram pela condenação. Ao final, discutiu-se se a condenação precisaria retornar à Câmara para confirmação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autorização da Câmara e a condenação do Senado atingiram seus quóruns constitucionais, e a condenação não exige uma segunda deliberação da Câmara.",
       "correctAnswer": "C",
       "explanation": "**Regra:** a Câmara autoriza a instauração por dois terços de seus membros; no crime de responsabilidade, o Senado processa e julga, e a condenação exige dois terços dos senadores. **Aplicação:** 343 votos superam os 342 exigidos na Câmara; 54 votos atingem exatamente dois terços dos 81 senadores. O Senado não precisa devolver a condenação à Câmara para uma segunda confirmação. **Distinção:** autorização e julgamento são fases distintas, atribuídas a Casas diferentes. (Constituição, arts. 51, I, e 52, I e parágrafo único.)",
-      "reviewEvidence": "Constituição Federal, arts. 51, I, e 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, arts. 51, I, e 52, I e parágrafo único. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -10116,12 +9996,8 @@
       "statement": "Na Câmara dos Deputados, um requerimento reuniu 170 assinaturas para investigar pagamentos feitos em três contratos identificados. Estabeleceu noventa dias de funcionamento. A maioria dos presentes em sessão declarou apoio político, sem acrescentar assinaturas ao requerimento.\n\nCom base nessa situação, julgue o item a seguir.\n\nO apoio da maioria dos presentes na sessão supre a assinatura que falta para preencher o requisito constitucional de criação.",
       "correctAnswer": "E",
       "explanation": "**Regra:** uma CPI pode ser criada por requerimento de um terço dos membros da Casa, para apurar fato determinado e por prazo certo (Constituição, art. 58, § 3º). **Aplicação:** na Câmara, um terço de 513 corresponde a 171 assinaturas. As 170 assinaturas ficam abaixo do mínimo. A delimitação dos contratos e o prazo de noventa dias satisfazem requisitos próprios, mas o apoio oral da maioria em Plenário não substitui a subscrição exigida no requerimento. **Conclusão:** uma assinatura válida a mais alcançaria o quórum. (Constituição, art. 58, § 3º.)",
-      "reviewEvidence": "Constituição Federal, art. 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 58, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -10177,12 +10053,8 @@
       "statement": "No primeiro turno de uma PEC na Câmara, compareceram 490 deputados. Houve 308 votos favoráveis, 170 contrários e 12 abstenções. O presidente da sessão precisa verificar se o texto superou o quórum dessa votação.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs votos favoráveis superaram três quintos dos presentes, mas o texto ainda ficou abaixo do quórum constitucional do primeiro turno.",
       "correctAnswer": "E",
       "explanation": "**Regra:** na Câmara, três quintos de 513 membros equivalem a 307,8; como não existe fração de voto, são necessários pelo menos 308 votos favoráveis em cada turno. **Aplicação:** os 308 votos do item atingem o mínimo, portanto o quórum foi superado. **Distinção:** a base é o total de deputados, não os 490 presentes; abstenções não reduzem o piso. (Constituição, art. 60, § 2º.)",
-      "reviewEvidence": "Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -10210,12 +10082,8 @@
       "statement": "Na Câmara, 440 deputados compareceram a duas votações. O primeiro projeto veicula matéria validamente tratada por lei ordinária. O segundo versa sobre matéria reservada a lei complementar. Cada projeto recebeu 250 votos favoráveis e 190 contrários.\n\nCom base nessa situação, julgue o item a seguir.\n\nComo o número de deputados presentes era o mesmo e ambos os projetos obtiveram maioria dos votos, os dois alcançaram o quórum de aprovação.",
       "correctAnswer": "E",
       "explanation": "**Regra:** a regra geral para deliberações legislativas é maioria dos votos, desde que esteja presente a maioria absoluta dos membros (art. 47). Lei complementar exige maioria absoluta da composição (art. 69). **Aplicação:** os 440 presentes satisfazem o quórum de presença; 250 votos podem aprovar o projeto ordinário, mas não alcançam os 257 exigidos para o projeto de lei complementar. **Pegadinha:** estar presente a maioria absoluta não significa que o mesmo quórum baste para aprovar toda matéria.",
-      "reviewEvidence": "Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, arts. 47 e 69. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "format": "CE",
@@ -10271,12 +10139,8 @@
       "statement": "O Congresso concedeu ao presidente da República delegação para disciplinar procedimentos de transparência em um programa federal. A equipe responsável resolveu incluir assunto distinto, não abrangido pela resolução e que também seria delegável. Para justificar a inclusão, invocou a urgência da nova disciplina.\n\nCom base nessa situação, julgue o item a seguir.\n\nA urgência autoriza incluir o novo assunto na lei delegada ainda que ele esteja fora dos termos fixados na resolução.",
       "correctAnswer": "E",
       "explanation": "**Regra:** a resolução do Congresso delimita o assunto e os termos em que o Presidente pode elaborar lei delegada. **Aplicação:** a nova matéria não está dentro dessa autorização. A urgência não amplia o objeto delegado nem permite acrescentar tema por decisão da equipe. **Distinção:** urgência e relevância são pressupostos de medida provisória, que tem regime próprio; não substituem a autorização legislativa necessária à lei delegada. (Constituição, arts. 62 e 68, §§ 2º e 3º.)",
-      "reviewEvidence": "Constituição Federal, arts. 62 e 68, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, arts. 62 e 68, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente.",
+      "calibration": null
     },
     {
       "origin": "inedita",
@@ -10941,11 +10805,7 @@
       "id": "cam-calibrada-const-duas-votacoes-validas-em-apenas-uma-casa",
       "concursoId": "camara-2026",
       "origin": "inedita",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      },
+      "calibration": null,
       "articleId": "art-ec49c177b1ae43c7",
       "conceptId": "tratado-direitos-humanos-quorum-turno-unico",
       "mechanism": "duas-votacoes-validas-em-apenas-uma-casa",
@@ -10963,7 +10823,7 @@
       "statement": "A equivalência de tratado internacional de direitos humanos a emenda constitucional exige aprovação em dois turnos em cada Casa do Congresso Nacional, por três quintos dos respectivos membros.",
       "correctAnswer": "C",
       "explanation": "O dispositivo exige dois turnos em cada Casa e quórum de três quintos dos respectivos membros. Se uma Casa aprovar em apenas um turno, o rito de equivalência às emendas não estará completo.",
-      "reviewEvidence": "CF, art. 5º, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 92, da Câmara de 2014."
+      "reviewEvidence": "CF, art. 5º, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 92, da Câmara de 2014. Calibração auditada: a referência anterior ao item 92 da Câmara 2014 foi removida. O item oficial trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não sustenta este mecanismo; espelho temático específico pendente."
     },
     {
       "format": "CE",
@@ -25671,7 +25531,7 @@
       },
       "statement": "Ao encontrar indícios de investimento não programado, a comissão mista decreta a sustação definitiva da despesa, sem solicitar esclarecimentos à autoridade responsável nem pronunciamento do TCU. O art. 72 autoriza essa sequência.",
       "correctAnswer": "E",
-      "explanation": "A comissão não pode decretar diretamente a sustação. Pelo art. 72, primeiro pede esclarecimentos à autoridade responsável; se não forem prestados ou forem insuficientes, solicita ao TCU pronunciamento conclusivo. Só se o Tribunal considerar a despesa irregular e a comissão avaliar que o gasto pode causar dano irreparável ou grave lesão à economia pública é que ela propõe ao Congresso a sustação. São etapas e juízos distintos.",
+      "explanation": "A comissão mista não pode decretar diretamente a sustação. **Regra:** diante de indícios de despesa não autorizada, inclusive investimento não programado, pede primeiro esclarecimentos à autoridade responsável. Se não houver resposta ou ela for insuficiente, pede pronunciamento conclusivo ao Tribunal de Contas da União. **Aplicação:** só se o Tribunal considerar a despesa irregular e a comissão avaliar risco de dano irreparável ou grave lesão à economia pública é que ela propõe a sustação ao Congresso. São etapas e decisões distintas; a comissão propõe, e o Congresso decide. (Constituição, art. 72, caput e §§ 1º e 2º.)",
       "reviewEvidence": "Caso e resolução conferidos com a seção vinculada. Constituição Federal, art. 72. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -26147,7 +26007,7 @@
       },
       "statement": "Após um resultado simbólico contestado, líderes que representam pelo menos 6% dos deputados manifestam apoio específico naquele momento. Sem outra verificação na hora anterior e satisfeitas as demais condições, essa manifestação atende ao requisito de apoiamento ordinário.",
       "correctAnswer": "C",
-      "explanation": "O Regimento admite o apoio de líderes que representem o percentual exigido, desde que a manifestação seja própria da votação, sem valer-se de pacto prévio ou recíproco.",
+      "explanation": "**Regra:** depois de um resultado simbólico contestado, o Presidente pergunta se há dúvida; a verificação nominal pode ser apoiada por 6% dos Deputados ou por Líderes que representem esse número. O apoio de Líderes deve ser declarado para aquela votação, sem acordo prévio ou apoio recíproco. **Aplicação:** neste caso, os Líderes se manifestam especificamente, e não houve verificação na hora anterior; satisfeitas as demais condições, o apoio ordinário é suficiente. **Distinção:** uma nova verificação dentro de uma hora segue a regra própria do § 4º e não transforma o apoio em resultado automático. (RICD, art. 185, §§ 1º, 3º, 3º-A e 4º.)",
       "reviewEvidence": "Conferência com a seção vinculada. RICD, art. 185, §§ 3º e 3º-A. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {
@@ -26651,7 +26511,7 @@
       },
       "statement": "Após a rejeição de um veto, o Presidente da República deixa transcorrer o prazo constitucional para promulgar a lei. O Vice-Presidente do Senado deve promulgá-la imediatamente, antes de se aguardar atuação do Presidente do Senado.",
       "correctAnswer": "E",
-      "explanation": "A rejeição do veto leva o projeto ao Presidente da República para promulgação. Se ele ficar omisso por 48 horas, a atribuição passa ao Presidente do Senado. Só após outras 48 horas de omissão ela passa ao Vice-Presidente do Senado.",
+      "explanation": "**Regra:** rejeitado o veto, o projeto é enviado ao Presidente da República para promulgação. Se ele não promulgar em 48 horas, o Presidente do Senado assume essa atribuição; se este também não agir nas 48 horas seguintes, cabe ao Vice-Presidente do Senado promulgá-lo. **Aplicação:** o enunciado salta a etapa do Presidente do Senado e diz que seu Vice deve agir imediatamente após a omissão presidencial; essa sequência está errada. **Variação:** só depois de nova omissão por 48 horas a atribuição chega ao Vice-Presidente do Senado. (Constituição, art. 66, §§ 5º e 7º.)",
       "reviewEvidence": "Constituição Federal, art. 66, §§ 5º e 7º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
@@ -29899,7 +29759,7 @@
       },
       "statement": "Um deputado obtém apoio de um terço dos presentes para requerer que o Plenário decida de imediato sobre o efeito suspensivo do recurso em questão de ordem. O pedido imediato tem por objeto a suspensão e é distinto do julgamento do recurso.",
       "correctAnswer": "C",
-      "explanation": "O apoiamento habilita o requerimento de decisão imediata sobre o efeito suspensivo. Ele não concede a suspensão por si só nem substitui a etapa de oitiva da Comissão de Constituição e Justiça e de Cidadania para o julgamento do recurso.",
+      "explanation": "O apoiamento de um terço dos presentes permite requerer que o Plenário decida imediatamente sobre o efeito suspensivo do recurso contra a decisão em questão de ordem (RICD, art. 95, §§ 8º e 9º). **Regra:** o apoiamento abre a possibilidade de decisão imediata; não concede a suspensão. **Aplicação:** o pedido tem por objeto suspender os efeitos da decisão enquanto o recurso tramita, não julgar o mérito da questão de ordem. O recurso segue o rito próprio, com oitiva da Comissão de Constituição e Justiça e de Cidadania. **Distinção:** decidir se o recurso suspende provisoriamente a decisão é diferente de decidir o próprio recurso.",
       "reviewEvidence": "Conferência editorial do enunciado e gabarito com Regimento Interno da Câmara dos Deputados, art. 95, §§ 8º e 9º e a seção vinculada. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {

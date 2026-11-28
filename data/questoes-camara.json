@@ -10954,7 +10954,7 @@
       },
       "statement": "Ao discutir a criação de um território federal, parlamentares sugerem instituí-lo por lei ordinária e dividi-lo em municípios. Embora a divisão em municípios seja admitida pela Constituição, ela não afasta a exigência de lei complementar para instituir o território.",
       "correctAnswer": "C",
-      "explanation": "A Constituição admite municípios dentro de territórios federais. Essa organização não muda a espécie normativa que disciplina a criação do território. A lei complementar também é exigida para transformação em estado ou reintegração ao estado de origem.",
+      "explanation": "**Regra:** os territórios federais integram a União, e sua criação, transformação em estado ou reintegração ao estado de origem são reguladas por lei complementar (Constituição, art. 18, § 2º). A Constituição também permite dividir territórios em municípios (art. 33, § 1º). **Aplicação:** a divisão em municípios é admissível, mas não altera a espécie de lei exigida para criar o território. **Distinção:** a organização interna do território e a forma legislativa para instituí-lo são questões diferentes.",
       "reviewEvidence": "CF, arts. 18, § 2º, e 33, § 1º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 103, da Câmara de 2014."
     },
     {
@@ -11086,7 +11086,7 @@
       },
       "statement": "O Senado recebe proposta presidencial para fixar limites globais da dívida consolidada dos estados. Em outro expediente, um estado solicita autorização para operação externa de natureza financeira. Essas providências correspondem a competências distintas do Senado.",
       "correctAnswer": "C",
-      "explanation": "O inciso VI trata da fixação de limites gerais, por proposta presidencial. O inciso V trata da autorização de operações financeiras externas. A fixação de um limite geral não equivale à autorização da operação específica.",
+      "explanation": "**Regra:** compete privativamente ao Senado autorizar operações externas de natureza financeira (Constituição, art. 52, V) e, por proposta do Presidente da República, fixar limites globais para a dívida consolidada (art. 52, VI). A competência do inciso VII, por sua vez, trata de limites e condições para operações de crédito interno e externo. **Aplicação:** o limite global proposto pelo Presidente e a autorização de uma operação externa específica são atos distintos, atribuídos ao Senado por incisos diferentes. **Distinção:** fixar o teto da dívida não substitui a autorização da operação concreta.",
       "reviewEvidence": "CF, art. 52, V e VI. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 75, da Câmara de 2014."
     },
     {
@@ -11152,7 +11152,7 @@
       },
       "statement": "Decretada a perda do mandato e aberta a vaga de um deputado federal, verifica-se que não há suplente e que faltam 14 meses para o término do mandato. A ausência de suplente não basta, nesse caso, para determinar uma eleição de preenchimento.",
       "correctAnswer": "C",
-      "explanation": "A vaga normalmente enseja convocação do suplente. Se não houver suplente, a eleição depende de faltarem mais de 15 meses para o fim do mandato. Se ainda faltassem 16 meses, a eleição seria exigida.",
+      "explanation": "**Regra:** o suplente é convocado nos casos de vaga; se não houver suplente, realiza-se eleição somente quando faltarem mais de quinze meses para o fim do mandato (Constituição, art. 56, §§ 1º e 2º). **Aplicação:** faltando quatorze meses, a condição temporal não foi atingida, então a ausência de suplente não determina eleição para preencher a vaga. **Distinção:** a regra não exige eleição em toda vaga sem suplente; ela estabelece um limite temporal expresso.",
       "reviewEvidence": "CF, art. 56, §§ 1º e 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 82, da Câmara de 2014."
     },
     {
@@ -18223,7 +18223,7 @@
       },
       "statement": "Em viagem particular ao exterior, um deputado pode dar ciência do afastamento apenas ao líder do partido depois do retorno, desde que indique a duração efetiva da viagem.",
       "correctAnswer": "E",
-      "explanation": "A ciência deve ser anterior à viagem e dirigida à Câmara por intermédio da Presidência. Aviso posterior ao líder não atende a esses requisitos.",
+      "explanation": "**Regra:** para afastar-se do território nacional, o deputado deve dar ciência prévia à Câmara, por intermédio da Presidência, indicando a natureza e a duração estimada do afastamento (RICD, art. 228). **Aplicação:** avisar apenas o líder depois do retorno não cumpre nem a antecedência nem o destinatário regimental; informar a duração efetiva não corrige essas faltas. **Distinção:** a comunicação é dirigida à Câmara por meio da Presidência, não substituída por aviso partidário posterior.",
       "reviewEvidence": "Conferência com a seção vinculada e o Regimento Interno da Câmara, art. 228. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
     },
     {

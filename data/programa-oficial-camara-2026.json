@@ -1,8 +1,8 @@
 {
   "concursoId": "camara-2026",
   "cargo": 1,
-  "source": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/D0A680C4506DD7153722F50B4F05038D9C80FE7BAD36D52A5E65DA395F75A94B.pdf",
-  "sourceVersion": "Edital nº 1, consolidado até o Edital nº 6 de 21/10/2026",
+  "source": "https://cdn.cebraspe.org.br/concursos/cd_26_analista/arquivos/560D92CE673D575FC9D1F95DF564F68524BC7CA9146A6E113C2F0C04313D67EB.pdf",
+  "sourceVersion": "Edital nº 1, consolidado até o Edital nº 7 de 18/11/2026; a retificação do Cargo 3 não alterou o programa do Cargo 1",
   "blocks": [
     {"part":"P1","section":"14.2.3","title":"Português","referenceTitle":"Língua Portuguesa","page":51,"subjects":["portugues"],"codes":"1 2 3 4 4.1 4.2 5 5.1 5.2 5.3 5.4 5.5 5.6 5.7 5.8 6 6.1 6.2 6.3 6.4"},
     {"part":"P1","section":"14.2.3","title":"Inglês","referenceTitle":"Língua Inglesa","page":51,"subjects":["ingles"],"codes":"1 2 3"},

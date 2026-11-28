@@ -888,6 +888,32 @@ function observedAccuracyPeriods(data,today){
  const rate=x=>x.correct+x.incorrect?Math.round(1000*x.correct/(x.correct+x.incorrect))/10:null;
  return {week:rate(sums.week),month:rate(sums.month),available:true};
 }
+function normalizeQuestionStock(stock){
+ if(!stock||stock.version!==1||!Array.isArray(stock.bySubject))return null;
+ const rows=[];
+ for(const item of stock.bySubject){
+  if(!item||typeof item.subjectId!=="string"||!item.subjectId)return null;
+  const values=[item.catalogItems,item.recordedItems,item.unansweredItems].map(Number);
+  if(values.some(value=>!Number.isInteger(value)||value<0)||values[1]+values[2]!==values[0])return null;
+  rows.push({subjectId:item.subjectId,catalogItems:values[0],recordedItems:values[1],unansweredItems:values[2]});
+ }
+ return {rows,catalogItems:rows.reduce((n,row)=>n+row.catalogItems,0),recordedItems:rows.reduce((n,row)=>n+row.recordedItems,0),unansweredItems:rows.reduce((n,row)=>n+row.unansweredItems,0)};
+}
+function renderQuestionStock(stock,contestId){
+ const root=$('results-question-stock');
+ if(!root)return;
+ root.replaceChildren();root.hidden=contestId!=="camara-2026";
+ if(root.hidden)return;
+ root.append(el('h3','','Questões autorais ainda não respondidas no histórico'));
+ const report=normalizeQuestionStock(stock);
+ if(!report){root.append(el('p','results-caption','O estoque por matéria não está disponível no resultado unificado desta sessão.'));return;}
+ if(!report.catalogItems){root.append(el('p','results-caption','Nenhuma questão autoral inédita elegível consta no catálogo atual.'));return;}
+ const list=el('ul');
+ for(const row of report.rows){
+  list.append(el('li','',title(row.subjectId)+': '+row.unansweredItems+' sem tentativa registrada por ID de '+row.catalogItems+' no catálogo ('+row.recordedItems+' já registradas).'));
+ }
+ root.append(list,el('p','results-caption','O cálculo usa o histórico unificado de tentativas do chat e do site. Ausência de tentativa por ID não prova que a questão nunca foi vista fora do sistema. Itens reservados para avaliação independente não entram neste estoque.'));
+}
 function render(){
  if(!current)return;
  if(quizLearningAttempts)renderQuizLearning(quizLearningAttempts,current.concursoId,Date.now());
@@ -895,6 +921,7 @@ function render(){
  showQuestionStock();
  renderStudyModes(current.adaptive?.byMode);
  renderQuestionOrigins(current.questionOrigins,current.originFollowups);
+ renderQuestionStock(current.questionStock,current.concursoId);
  renderPrincipleHistory(current.adaptive,current.concepts||[]);
  const summary=current.summary||{},source=current.sources||{};
  const valid=summary.valid||0;

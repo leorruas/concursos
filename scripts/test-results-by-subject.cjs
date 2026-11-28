@@ -22,6 +22,18 @@ vm.runInContext([
  extract('subjectGroups','subjectHeading'),
  extract('evidenceLabel','priorityLabel')
 ].join('\n'),ctx);
+vm.runInContext(extract('normalizeQuestionStock','renderQuestionStock'),ctx);
+const stock=ctx.normalizeQuestionStock({version:1,bySubject:[
+ {subjectId:'direito-constitucional',catalogItems:12,recordedItems:5,unansweredItems:7},
+ {subjectId:'etica-publica',catalogItems:4,recordedItems:4,unansweredItems:0}
+]});
+assert.equal(stock.catalogItems,16);
+assert.equal(stock.recordedItems,9);
+assert.equal(stock.unansweredItems,7);
+assert.equal(ctx.normalizeQuestionStock({version:1,bySubject:[{subjectId:'x',catalogItems:3,recordedItems:1,unansweredItems:1}]}),null,'inconsistência de contagem deve ficar indisponível');
+assert.equal(ctx.normalizeQuestionStock(null),null,'ausência do campo não deve parecer estoque zero');
+assert.ok(source.includes('renderQuestionStock(current.questionStock,current.concursoId)'));
+assert.ok(html.includes('id="results-question-stock"'));
 const subject=ctx.articleSubject;
 assert.equal(subject({articleId:'a-const'}),'direito-constitucional');
 assert.equal(subject({articleId:'a-ap'}),'administracao-publica');

@@ -289,6 +289,8 @@
                 <aside class="artigo-toc-sidebar" id="artigo-toc-sidebar">
                     <div class="toc-header">
                         <span class="toc-title">Neste artigo</span>
+                        <button id="toc-sidebar-hide" class="toc-sidebar-toggle" type="button"
+                            aria-controls="artigo-toc-sidebar" aria-expanded="true" aria-label="Ocultar navegação deste artigo">ocultar</button>
                     </div>
                     <div class="toc-filter-container" id="toc-filter-container">
                         <input type="search" id="toc-filter-input" placeholder="filtrar seções..." autocomplete="off">
@@ -297,6 +299,8 @@
                 </aside>
 
                 <div class="artigo-conteudo-wrapper">
+                    <button id="toc-sidebar-show" class="toc-sidebar-show" type="button" hidden
+                        aria-controls="artigo-toc-sidebar" aria-expanded="false">Mostrar neste artigo</button>
                     <nav class="artigo-breadcrumbs" id="artigo-breadcrumbs"></nav>
                     <h2 id="artigo-titulo"></h2>
                     <div class="artigo-contexto" id="artigo-contexto" hidden></div>

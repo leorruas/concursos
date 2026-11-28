@@ -584,6 +584,39 @@ mark.highlight {
     scrollbar-color: var(--accent-blue-alpha-30) transparent;
 }
 
+.artigo-toc-sidebar[hidden],
+.toc-sidebar-toggle[hidden],
+.toc-sidebar-show[hidden] {
+    display: none !important;
+}
+
+.toc-sidebar-toggle,
+.toc-sidebar-show {
+    border: 1px solid var(--accent-blue-alpha-30);
+    border-radius: 4px;
+    padding: 6px 9px;
+    background: transparent;
+    color: var(--muted);
+    font: 10px 'IBM Plex Mono', monospace;
+    cursor: pointer;
+}
+
+.toc-sidebar-toggle:hover,
+.toc-sidebar-show:hover {
+    border-color: var(--accent-blue);
+    color: var(--accent-blue);
+}
+
+.toc-sidebar-toggle:focus-visible,
+.toc-sidebar-show:focus-visible {
+    outline: 2px solid var(--accent-blue);
+    outline-offset: 3px;
+}
+
+.toc-sidebar-show {
+    margin: 0 0 14px;
+}
+
 .artigo-toc-sidebar::-webkit-scrollbar {
     width: 3px;
 }
@@ -628,6 +661,10 @@ mark.highlight {
 }
 
 .toc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
     margin-bottom: 10px;
     padding-bottom: 6px;
     border-bottom: 1px solid color-mix(in srgb, var(--text) 20%, transparent);

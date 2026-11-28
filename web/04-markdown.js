@@ -295,22 +295,54 @@ function processarBlocosCopiaveis(container = artigoCorpo) {
 }
 
 // Table of Contents (TOC) da Barra Lateral
+function definirVisibilidadeSidebarTOC(visivel, moverFoco = false) {
+    const sidebar = document.getElementById("artigo-toc-sidebar");
+    const botaoOcultar = document.getElementById("toc-sidebar-hide");
+    const botaoMostrar = document.getElementById("toc-sidebar-show");
+    if (!sidebar || !botaoOcultar || !botaoMostrar) return;
+
+    sidebar.hidden = !visivel;
+    botaoOcultar.hidden = !visivel;
+    botaoMostrar.hidden = visivel;
+    botaoOcultar.setAttribute("aria-expanded", String(visivel));
+    botaoMostrar.setAttribute("aria-expanded", String(visivel));
+
+    if (moverFoco) (visivel ? botaoOcultar : botaoMostrar).focus();
+}
+
+function conectarControleSidebarTOC() {
+    const botaoOcultar = document.getElementById("toc-sidebar-hide");
+    const botaoMostrar = document.getElementById("toc-sidebar-show");
+    if (!botaoOcultar || !botaoMostrar || botaoOcultar.dataset.connected === "true") return;
+
+    botaoOcultar.dataset.connected = "true";
+    botaoMostrar.dataset.connected = "true";
+    botaoOcultar.addEventListener("click", () => definirVisibilidadeSidebarTOC(false, true));
+    botaoMostrar.addEventListener("click", () => definirVisibilidadeSidebarTOC(true, true));
+}
+
 function gerarTableOfContents() {
     const tocNavDesktop = document.getElementById("toc-nav");
     const tocSidebar = document.getElementById("artigo-toc-sidebar");
     if (!tocNavDesktop) return;
 
+    conectarControleSidebarTOC();
     tocNavDesktop.innerHTML = "";
 
     // Pega H2 e H3 do artigo
     const headings = Array.from(artigoCorpo.querySelectorAll("h2, h3"));
 
     if (headings.length === 0) {
-        if (tocSidebar) tocSidebar.style.display = "none";
+        if (tocSidebar) tocSidebar.hidden = true;
+        const botaoOcultar = document.getElementById("toc-sidebar-hide");
+        const botaoMostrar = document.getElementById("toc-sidebar-show");
+        if (botaoOcultar) botaoOcultar.hidden = true;
+        if (botaoMostrar) botaoMostrar.hidden = true;
         return;
     }
 
-    if (tocSidebar) tocSidebar.style.display = "block";
+    if (tocSidebar) tocSidebar.hidden = false;
+    definirVisibilidadeSidebarTOC(true);
 
     const listaDesktop = document.createElement("ul");
     listaDesktop.className = "toc-list";

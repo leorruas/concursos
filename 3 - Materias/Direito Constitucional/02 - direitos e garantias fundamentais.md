@@ -5,7 +5,7 @@ title: "Direitos e garantias fundamentais"
 type: "conceito"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-11-27
+updated: 2026-11-28
 ---
 
 # Direitos e garantias fundamentais
@@ -85,6 +85,16 @@ O art. 5º, IV, protege a manifestação do pensamento e **veda o anonimato**. I
 O inciso V assegura **direito de resposta proporcional ao agravo**, além de indenização por dano material, moral ou à imagem. Resposta e indenização têm funções diferentes e podem coexistir quando presentes os pressupostos de cada uma. O simples desconforto da autoridade com uma crítica identificada, sem indicação de ilícito, não basta para afastar essas liberdades.
 
 O inciso XIV trata de garantia próxima, mas distinta: protege o **sigilo da fonte**, quando necessário ao exercício profissional. Não confundir o sigilo da fonte com a vedação ao anonimato da manifestação do pensamento.
+
+### Sigilo de correspondência e comunicações: art. 5º, XII
+
+A Constituição Federal (CF) protege o sigilo da correspondência e das comunicações telegráficas, de dados e telefônicas. O próprio inciso XII delimita a exceção expressa: “salvo, no último caso” permite afastar o sigilo das **comunicações telefônicas**, por ordem judicial, nas hipóteses e na forma que a lei estabelecer, para investigação criminal ou instrução processual penal. A expressão “no último caso” não cria autorização judicial genérica para romper qualquer modalidade de sigilo.
+
+A [Lei nº 9.296/1996](https://www.planalto.gov.br/ccivil_03/leis/l9296.htm) regulamenta essa interceptação, exige ordem do juiz competente e também disciplina o fluxo de comunicações em sistemas de informática e telemática. A autorização precisa respeitar as condições legais; a existência de um juiz ou de um processo, por si só, não basta.
+
+**Aplicação:** se, em processo civil, o juiz autoriza por mera conveniência a busca de cartas lacradas, sem indicar base legal específica, não se pode concluir que a ordem isolada afasta o sigilo. O caso não é interceptação telefônica para finalidade penal sob a lei própria. **Variação:** uma interceptação telefônica poderá ser autorizada quando houver finalidade penal e forem cumpridos os pressupostos e o procedimento da Lei nº 9.296/1996. Isso não torna todas as comunicações interceptáveis nem elimina a análise dos requisitos do caso.
+
+Fundamento: [CF, art. 5º, XII — texto atualizado da Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) e [Lei nº 9.296/1996](https://www.planalto.gov.br/ccivil_03/leis/l9296.htm).
 
 ### Liberdade de consciência e crença
 

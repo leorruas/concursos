@@ -199,6 +199,52 @@ A **natureza** responde: *qual fato econômico originou o ingresso?* A **fonte/d
 
 A fonte/destinação reúne receitas com **normas de aplicação semelhantes** e é empregada tanto na receita quanto na despesa, permitindo verificar o financiamento de ações e suas vinculações. Uma mesma ação pode ser financiada por fontes distintas, quando legalmente permitido.
 
+### A regra de aplicação forma uma árvore?
+
+Sim, para entender **a destinação**, a primeira pergunta é se existe uma regra que vincula o recurso a um uso específico. Se existe, a receita é **vinculada** e deve financiar o objeto determinado pela norma ou pelo instrumento que a originou, como uma política, órgão, fundo ou finalidade conveniada. Se não existe essa vinculação, a receita é **livre** e pode ser alocada entre as finalidades orçamentárias dentro das competências do ente. “Livre” não significa fora do orçamento ou sem controle.
+
+```mermaid
+flowchart TB
+    R["Receita arrecadada"] --> V["Há norma ou instrumento<br/>que vincula o uso do recurso?"]
+    V -->|Sim| L["Destinação vinculada"]
+    V -->|Não| F["Destinação livre"]
+    L --> O["Aplicar no objeto definido<br/>pela regra de vinculação"]
+    O --> E["Ex.: política pública, órgão,<br/>fundo, convênio ou financiamento"]
+    F --> A["Alocar conforme as decisões<br/>orçamentárias do ente"]
+    A --> C["Dentro das competências legais<br/>e das autorizações do orçamento"]
+    classDef pergunta fill:#fff2d9,stroke:#b45309,color:#3d2207,stroke-width:1.5px;
+    classDef ramo fill:#fffbeb,stroke:#b45309,color:#1c1917;
+    class R pergunta;
+    class V pergunta;
+    class L,F,O,E,A,C ramo;
+```
+
+Isso representa a **regra de aplicação**, não uma sequência da natureza da receita. A vinculação deve ter fundamento jurídico; o nome da receita, sozinho, não autoriza presumir que ela seja livre ou vinculada. A fonte também funciona como marcador na receita e na despesa, para acompanhar a disponibilidade desde a arrecadação até o uso.
+
+### Como ler o código da fonte no orçamento federal
+
+Além da regra de aplicação, existe uma estrutura de código. **No MTO federal de 2027**, são quatro dígitos: o primeiro indica o **grupo da fonte**; os três seguintes, a **especificação da fonte**. Os grupos federais são 1 (recursos arrecadados no exercício corrente), 3 (recursos de exercícios anteriores), 7 (operações de crédito ressalvadas pela regra de ouro) e 9 (recursos condicionados). A especificação identifica o agrupamento com as normas de aplicação correspondentes.
+
+```mermaid
+flowchart LR
+    C["Código federal<br/>de fonte: 4 dígitos"] --> G["1º dígito<br/>Grupo da fonte"]
+    C --> S["2º ao 4º dígitos<br/>Especificação da fonte"]
+    G --> G1["1 · exercício corrente"]
+    G --> G3["3 · exercícios anteriores"]
+    G --> G7["7 · operações de crédito<br/>ressalvadas pela regra de ouro"]
+    G --> G9["9 · recursos condicionados"]
+    S --> S2["002 · atividades-fim<br/>da Seguridade Social"]
+    S --> S50["050 · recursos próprios livres<br/>da unidade orçamentária"]
+    classDef estrutura fill:#fff2d9,stroke:#b45309,color:#3d2207,stroke-width:1.5px;
+    classDef codigo fill:#fffbeb,stroke:#b45309,color:#1c1917;
+    class C,G,S estrutura;
+    class G1,G3,G7,G9,S2,S50 codigo;
+```
+
+Por exemplo, **1002** combina o grupo 1 (arrecadação no exercício corrente) com a especificação 002 (atividades-fim da Seguridade Social); **3050** combina o grupo 3 (exercícios anteriores) com a especificação 050 (recursos próprios livres da unidade orçamentária). O primeiro dígito trata do grupo previsto no código federal; ele não substitui a análise da norma que define a finalidade do recurso.
+
+**Atenção ao âmbito:** esse código de quatro dígitos é o padrão federal mostrado pelo MTO. Para estados, Distrito Federal e municípios, a codificação padronizada da fonte tem **três dígitos**; a identificação do exercício pode aparecer como informação adicional nos registros da Matriz de Saldos Contábeis. Não misture os códigos da União com os códigos padronizados para os demais entes.
+
 Exemplo: uma prefeitura recebe **R$ 50 mil de aluguel** de imóvel público e **R$ 50 mil de transferência com obrigação de financiar determinado projeto**. Os dois ingressos têm naturezas diferentes: o aluguel é receita patrimonial; a transferência recebe a natureza correspondente à sua finalidade e às regras do repasse. A **fonte/destinação** de cada valor informa se há regra específica de aplicação, por exemplo a obrigação de gastar a transferência no projeto. Assim, os mesmos R$ 50 mil não se tornam receitas da mesma natureza apenas porque a destinação de ambos poderia, em outro cenário, financiar uma despesa semelhante. A fonte não é a origem na classificação por natureza.
 
 **Atenção:** a vedação constitucional de vincular receitas de **impostos** tem exceções específicas; a existência do classificador de fonte não autoriza inventar uma vinculação. Ver [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|não afetação e suas exceções]].
@@ -247,5 +293,5 @@ Itens inéditos e didáticos, sem alegação de calibração com prova real.
 - [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Mapa transversal de classificações]].
 - [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios e não afetação de impostos]]; [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|Estágios da receita]].
 - [MTO 2026, 7ª versão (23/03/2026), capítulo 3, classificação da receita](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf); [STN, fontes/destinação por exercício](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/federacao/fonte-ou-destinacao-de-recursos).
-- [Lei nº 4.320/1964, art. 11](https://legis.senado.leg.br/norma/546169/publicacao/34620275); [LRF, art. 44](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm); [MTO 2027, 3ª versão (07/07/2026), classificação da receita (cap. 3)](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027); [MCASP 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1).
+- [Lei nº 4.320/1964, art. 11](https://legis.senado.leg.br/norma/546169/publicacao/34620275); [LRF, art. 44](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm); [MTO 2027, 2ª versão, cap. 3.2.3 (fonte/destinação)](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2027%3Amto2027_2a_versao.pdf); [MCASP 11ª edição, cap. 5](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1); [STN, fontes padronizadas por exercício e ente](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/federacao/fonte-ou-destinacao-de-recursos).
 

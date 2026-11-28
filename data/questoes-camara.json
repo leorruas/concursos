@@ -8034,12 +8034,7 @@
       "statement": "O presidente da República apresentou uma PEC, regularmente aprovada nas duas Casas. Antes de numerá-la, uma assessoria sugeriu encaminhá-la ao próprio presidente para sanção, em razão da autoria. As Mesas já estavam prontas para promulgar o texto.\n\nCom base nessa situação, julgue o item a seguir.\n\nAs Mesas podem promulgar a emenda com o número de ordem sem aguardar sanção presidencial.",
       "correctAnswer": "C",
       "explanation": "**Regra:** o presidente da República é um dos legitimados a apresentar proposta de emenda (art. 60, II). Depois da aprovação em dois turnos, por três quintos dos votos em cada Casa, a emenda é promulgada pelas Mesas da Câmara e do Senado, com número de ordem (art. 60, § 3º). **Aplicação:** a autoria presidencial não muda o rito; as Mesas podem promulgar sem remeter o texto para sanção. **Distinção:** sanção e veto pertencem ao processo legislativo das leis; emenda constitucional não é submetida ao presidente depois de aprovada pelo Congresso. (Constituição, art. 60, II e §§ 2º e 3º.)",
-      "reviewEvidence": "Constituição Federal, art. 60, I e § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 60, I e § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Não há espelho temático verificado; a calibração específica fica pendente. O espelho anteriormente indicado (Câmara 2014, item 92) trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não foi confirmado como referência específica para este item. A calibração temática fica suspensa até localizar um espelho diretamente pertinente."
     },
     {
       "format": "CE",
@@ -8693,13 +8688,8 @@
       "reviewStatus": "validada",
       "statement": "Uma comissão da Câmara aprovou dois expedientes. Um solicita ao TCU dados de auditoria operacional. O outro exige de ministro de Estado informação por escrito e pretende fazer incidir o regime constitucional de responsabilidade pela falta de resposta. A própria comissão enviou os dois, sem intermediação da Mesa.\n\nCom base nessa situação, julgue o item a seguir.\n\nA autorização constitucional para a comissão encaminhar o primeiro expediente permite, pelo mesmo fundamento, exigir a informação ministerial sob o regime do art. 50, § 2º.",
       "correctAnswer": "E",
-      "explanation": "**Regra:** o pedido de informação a ministro de Estado feito por comissão, sob o regime do art. 50, § 2º, é encaminhado pela Mesa da Casa. Já o art. 71, VII, autoriza comissão a solicitar diretamente ao TCU informações sobre fiscalização e auditoria. **Aplicação:** os dois expedientes têm destinatários e fundamentos diferentes; a comissão pode enviar o pedido ao TCU, mas não usar essa autorização para exigir diretamente a resposta do ministro sob o regime constitucional de responsabilidade. **Pegadinha:** a competência para pedir dados a um órgão não se transfere automaticamente a outro destinatário. (Constituição, arts. 50, § 2º, e 71, VII.)",
-      "reviewEvidence": "Constituição Federal, arts. 50, § 2º, e 71, VII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "explanation": "**Regra:** o pedido de informação a ministro de Estado feito por comissão, sob o regime do art. 50, § 2º, é encaminhado pela Mesa da Casa. Já o art. 71, VII, autoriza comissão a solicitar diretamente ao TCU informações sobre fiscalização e auditoria. **Aplicação:** os dois expedientes têm destinatários e fundamentos diferentes; a comissão pode enviar o pedido ao TCU, mas não usar essa autorização para exigir diretamente a resposta do ministro sob o regime constitucional de responsabilidade. **Variação:** se o expediente ministerial fosse encaminhado pela Mesa, ele poderia seguir o rito do art. 50, § 2º; isso não altera a autorização direta para solicitar dados ao TCU. (Constituição, arts. 50, § 2º, e 71, VII.)",
+      "reviewEvidence": "Constituição Federal, arts. 50, § 2º, e 71, VII. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Não há espelho temático verificado; a calibração específica fica pendente. O espelho anteriormente indicado (Câmara 2014, item 92) trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não foi confirmado como referência específica para este item. A calibração temática fica suspensa até localizar um espelho diretamente pertinente."
     },
     {
       "format": "CE",
@@ -9090,12 +9080,7 @@
       "statement": "As comissões aprovaram conclusivamente um projeto e o recurso contra a decisão foi apresentado com subscrição suficiente. O Plenário conheceu do recurso, mas votou por negar seu provimento. A Mesa discutiu se ainda precisava incluir o mérito do projeto na pauta do Plenário.\n\nCom base nessa situação, julgue o item a seguir.\n\nMantida a aprovação conclusiva, o projeto pode seguir à redação final sem nova votação plenária de mérito em razão desse recurso.",
       "correctAnswer": "C",
       "explanation": "**Regra:** a decisão conclusiva das comissões pode ser levada ao Plenário por recurso subscrito por ao menos um décimo dos deputados, que deve indicar a parte a deliberar. Se o recurso for improvido, permanece a decisão conclusiva; pelo art. 58, § 4º, a matéria segue para redação final ou arquivamento, conforme o resultado. **Aplicação:** como as comissões aprovaram o projeto e o Plenário negou provimento ao recurso, não há nova votação plenária de mérito; o projeto segue para redação final. **Contraste:** se o recurso fosse provido, a matéria indicada aguardaria deliberação do Plenário (art. 59). (RICD, arts. 58, §§ 3º a 5º, e 59.)",
-      "reviewEvidence": "RICD, art. 58, §§ 3º e 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "RICD, art. 58, §§ 3º e 4º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. Não há espelho temático verificado; a calibração específica fica pendente. O espelho anteriormente indicado (Câmara 2014, item 92) trata de reapreciação de matéria rejeitada na mesma sessão legislativa; sua pertinência para este rito recursal não foi demonstrada. A calibração temática fica suspensa até localizar um espelho diretamente pertinente."
     },
     {
       "format": "CE",
@@ -9156,12 +9141,7 @@
       "statement": "Após um ataque a sistemas de divulgação eleitoral, o presidente editou medida provisória para alterar as regras de propaganda de candidatos. O governo argumentou que faltavam poucos dias para o início da campanha e que a medida precisava entrar em vigor sem esperar o processo legislativo ordinário.\n\nCom base nessa situação, julgue o item a seguir.\n\nA urgência demonstrada permite usar medida provisória para alterar as regras de propaganda eleitoral.",
       "correctAnswer": "E",
       "explanation": "**Regra:** medidas provisórias não podem tratar de direito eleitoral (Constituição, art. 62, § 1º, I, a). **Aplicação:** a proposta muda regras de propaganda de candidatos, matéria eleitoral. A urgência alegada por causa do ataque e da proximidade da campanha não remove essa proibição material; portanto, a medida provisória não pode ser usada para esse fim. **Distinção:** urgência e relevância são pressupostos gerais da MP, mas precisam coexistir com as matérias que a Constituição permite regular por esse instrumento. (Constituição, art. 62, caput e § 1º, I, a.)",
-      "reviewEvidence": "Constituição Federal, art. 62, caput e § 1º, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 62, caput e § 1º, I, a. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Não há espelho temático verificado; a calibração específica fica pendente. O espelho anteriormente indicado (Câmara 2014, item 92) trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não foi confirmado como referência específica para este item. A calibração temática fica suspensa até localizar um espelho diretamente pertinente."
     },
     {
       "format": "CE",
@@ -9617,13 +9597,8 @@
       "reviewStatus": "validada",
       "statement": "Em uma comissão, oito deputados participaram da votação de um parecer, com presença regimental suficiente. Três votaram a favor sem ressalvas, três votaram contra e dois anunciaram voto favorável com restrições sem indicar em que consistia a divergência.\n\nCom base nessa situação, julgue o item a seguir.\n\nOs dois votos sem explicação contam como integralmente favoráveis, resultando em cinco votos a favor do parecer.",
       "correctAnswer": "C",
-      "explanation": "**Regra:** ao votar com restrição ao parecer, o membro deve explicitar o ponto de divergência; se não o fizer, seu voto é considerado integralmente favorável. **Aplicação:** três votos são favoráveis sem ressalvas e os outros dois também contam como favoráveis, porque as restrições ficaram sem explicação. O resultado, então, é de cinco votos favoráveis e três contrários. **Pegadinha:** o rótulo “com restrição” não muda a contagem quando a divergência não foi especificada. (RICD, art. 57, XV.)",
-      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "explanation": "**Regra:** ao votar com restrição ao parecer, o membro deve explicitar o ponto de divergência; se não o fizer, seu voto é considerado integralmente favorável. **Aplicação:** três votos são favoráveis sem ressalvas e os outros dois também contam como favoráveis, porque as restrições ficaram sem explicação. O resultado é de cinco votos favoráveis e três contrários. **Variação:** se os dois deputados tivessem especificado pontos de divergência, seus votos ainda poderiam ser computados como “com restrições” favoráveis às conclusões nos termos do art. 57, XIV, alínea a; se divergissem das conclusões, seriam contrários. O dado decisivo para a regra do inciso XV é a falta de especificação, que torna o voto integralmente favorável. (RICD, art. 57, XIV, “a”, e XV.)",
+      "reviewEvidence": "RICD, art. 57, XV. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. Não há espelho temático verificado; a calibração específica fica pendente. O espelho anteriormente indicado (Câmara 2014, item 92) trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não foi confirmado como referência específica para este item. A calibração temática fica suspensa até localizar um espelho diretamente pertinente."
     },
     {
       "format": "CE",
@@ -9717,12 +9692,7 @@
       "statement": "Na votação ostensiva de uma proposição no Plenário da Câmara, os votos favoráveis e contrários empataram. O presidente se absteve expressamente de desempatar. Sem ouvir o substituto regimental, a Mesa anunciou que a proposta fora rejeitada em razão do empate.\n\nCom base nessa situação, julgue o item a seguir.\n\nA abstenção do presidente permite proclamar a rejeição pelo empate sem dar ao substituto regimental a oportunidade de desempatar.",
       "correctAnswer": "E",
       "explanation": "**Regra:** numa votação ostensiva, o empate é resolvido pelo presidente; se ele se abstiver, o substituto regimental exerce o voto de desempate (RICD, art. 180, §§ 4º e 5º). **Aplicação:** como o presidente declarou a abstenção, a Mesa não pode proclamar imediatamente a rejeição pelo simples empate: precisa permitir que o substituto regimental desempate. **Pegadinha:** não confunda o registro de empate com o resultado final da deliberação. O empate só se resolve após a aplicação do mecanismo regimental previsto para essa hipótese. (RICD, art. 180, §§ 4º e 5º.)",
-      "reviewEvidence": "RICD, art. 180, §§ 4º e 5º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "RICD, art. 180, §§ 4º e 5º. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html A situação é original. Não há espelho temático verificado; a calibração específica fica pendente. O espelho anteriormente indicado (Câmara 2014, item 92) trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não foi confirmado como referência específica para este item. A calibração temática fica suspensa até localizar um espelho diretamente pertinente."
     },
     {
       "format": "CE",
@@ -10179,12 +10149,7 @@
       "statement": "A Câmara aprovou uma PEC em dois turnos com 315 votos favoráveis em cada votação. No Senado, o texto recebeu 49 votos favoráveis no primeiro turno e 48 no segundo. Em ambas as Casas o texto votado foi o mesmo.\n\nCom base nessa situação, julgue o item a seguir.\n\nO excedente de votos obtido na Câmara permite considerar superado o quórum da segunda votação no Senado.",
       "correctAnswer": "E",
       "explanation": "**Regra:** cada Casa precisa aprovar a PEC por três quintos de seus próprios membros em dois turnos. No Senado, isso corresponde a 49 votos em cada turno. **Aplicação:** o Senado teve 49 no primeiro turno, mas apenas 48 no segundo; a PEC não alcançou o quórum nessa Casa. **Pegadinha:** os votos excedentes da Câmara não compensam a insuficiência no Senado, nem um turno compensa o outro. (Constituição, art. 60, § 2º.)",
-      "reviewEvidence": "Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 60, § 2º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Não há espelho temático verificado; a calibração específica fica pendente. O espelho anteriormente indicado (Câmara 2014, item 92) trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não foi confirmado como referência específica para este item. A calibração temática fica suspensa até localizar um espelho diretamente pertinente."
     },
     {
       "format": "CE",
@@ -10278,12 +10243,7 @@
       "statement": "Ao conceder delegação ao presidente da República para tratar de matéria delegável, o Congresso delimitou o tema por resolução e reservou a si a apreciação do projeto. Na apreciação, parlamentares propuseram trocar parte do texto do projeto por uma disposição que ainda caberia nos limites da delegação.\n\nCom base nessa situação, julgue o item a seguir.\n\nA delimitação material foi respeitada, mas a apreciação reservada ao Congresso não permite inserir a alteração proposta.",
       "correctAnswer": "C",
       "explanation": "**Regra:** o Congresso pode delegar ao Presidente a elaboração de lei delegada por resolução e definir os termos da delegação. Se a resolução reservar ao Congresso a apreciação do projeto, essa votação será única e sem possibilidade de emenda. **Aplicação:** a emenda proposta não pode ser inserida, ainda que permaneça dentro do tema autorizado. **Pegadinha:** respeitar o conteúdo delegado não afasta a regra de procedimento sobre a apreciação reservada. (Constituição, art. 68, §§ 2º e 3º.)",
-      "reviewEvidence": "Constituição Federal, art. 68, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. A prova-espelho orienta a estrutura de julgamento e a seleção de fatos.",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 92
-      }
+      "reviewEvidence": "Constituição Federal, art. 68, §§ 2º e 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html A situação é original. Não há espelho temático verificado; a calibração específica fica pendente. O espelho anteriormente indicado (Câmara 2014, item 92) trata de reapreciação de matéria rejeitada na mesma sessão legislativa e não foi confirmado como referência específica para este item. A calibração temática fica suspensa até localizar um espelho diretamente pertinente."
     },
     {
       "format": "CE",
@@ -10697,11 +10657,6 @@
       "id": "cam-calibrada-const-credito-extraordinario-em-calamidade-com-despesa-previsivel",
       "concursoId": "camara-2026",
       "origin": "inedita",
-      "calibration": {
-        "type": "autoral-calibrada",
-        "mirror": "camara-2014-cb2-03",
-        "item": 79
-      },
       "articleId": "art-7e91b362a40c58d2",
       "conceptId": "mp-extraordinario-calamidade",
       "mechanism": "credito-extraordinario-em-calamidade-com-despesa-previsivel",
@@ -10719,7 +10674,7 @@
       "statement": "Durante calamidade, o governo federal precisa pagar despesa periódica que já constava de seu planejamento. A urgência surgiu exclusivamente do atraso no processamento interno. A calamidade permite abrir crédito extraordinário por medida provisória para pagar essa despesa previsível.",
       "correctAnswer": "E",
       "explanation": "**Regra:** crédito extraordinário só atende despesa imprevisível e urgente, como as decorrentes de guerra, comoção interna ou calamidade pública (Constituição, art. 167, § 3º); sua abertura pode ocorrer por medida provisória, nos termos do art. 62, § 1º, I, d. **Aplicação:** a despesa do caso já era periódica e planejada; o atraso administrativo não a torna imprevisível. A calamidade, por si só, tampouco converte uma obrigação preexistente em despesa extraordinária. **Contraste:** uma despesa nova e urgente provocada pela calamidade poderia preencher os pressupostos, se os demais requisitos fossem observados. (Constituição, arts. 62, § 1º, I, d, e 167, § 3º.)",
-      "reviewEvidence": "CF, arts. 62, § 1º, I, d, e 167, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html Cotejo pedagógico com o caderno CB2-03, item 79, da Câmara de 2014."
+      "reviewEvidence": "CF, arts. 62, § 1º, I, d, e 167, § 3º. https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html O espelho anteriormente indicado (Câmara 2014, item 79) trata da iniciativa presidencial para propor a lei de diretrizes orçamentárias; não corresponde ao crédito extraordinário deste item. A calibração temática fica suspensa até localizar um espelho diretamente pertinente."
     },
     {
       "format": "CE",
